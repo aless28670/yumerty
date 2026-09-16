@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yumerty.com/sitemap.xml

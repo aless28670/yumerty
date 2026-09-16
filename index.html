@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yumerty — QCU médicaux pour étudiants en médecine</title>
+  <meta name="description" content="Yumerty : plus de 10 000 QCU médicaux corrigés et justifiés pour étudiants en Kinésithérapie et Dentaire. 36 matières, entraînement en conditions d'examen avec barème réaliste.">
+  <meta name="keywords" content="QCU médecine, QCU kinésithérapie, QCU dentaire, révision médicale, étudiants kiné, étudiants dentaire, examen médical, annales QCU, entraînement examen">
+  <meta name="author" content="Yumerty">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yumerty.com/">
+
+  <!-- Open Graph (Facebook, LinkedIn, Discord, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yumerty.com/">
+  <meta property="og:title" content="Yumerty — QCU médicaux">
+  <meta property="og:description" content="Plus de 10 000 QCU corrigés et justifiés — Kinésithérapie & Dentaire. Prépare tes examens en conditions réelles.">
+  <meta property="og:image" content="https://yumerty.com/images/favicon-512.png">
+  <meta property="og:site_name" content="Yumerty">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Yumerty — QCU médicaux">
+  <meta name="twitter:description" content="Plus de 10 000 QCU corrigés et justifiés — Kinésithérapie & Dentaire.">
+  <meta name="twitter:image" content="https://yumerty.com/images/favicon-512.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=3">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48.png?v=3">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96.png?v=3">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png?v=3">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512.png?v=3">
+  <link rel="shortcut icon" type="image/png" href="images/favicon-192.png?v=3">
+  <link rel="apple-touch-icon" sizes="192x192" href="images/favicon-192.png?v=3">
+  <link rel="apple-touch-icon" sizes="512x512" href="images/favicon-512.png?v=3">
+  <meta name="theme-color" content="#000000">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=60">
+</head>
+<body>
+
+  <!-- ========== ÉCRAN DE CHARGEMENT (BlurText -> zoom) ========== -->
+  <div id="splash" class="splash" aria-hidden="true">
+    <div class="splash-stage">
+      <h1 class="splash-text">
+        <span style="--i:0">Y</span><span style="--i:1">u</span><span style="--i:2">m</span><span style="--i:3">e</span><span style="--i:4">r</span><span style="--i:5">t</span><span style="--i:6">y</span>
+      </h1>
+      <div class="splash-logo-wrap">
+        <svg class="splash-logo" viewBox="0 0 512 512" fill="currentColor" fill-rule="evenodd" aria-hidden="true"><path d="M487.8 29.7 L461.2 34.5 L457.0 37.4 L449.0 39.6 L439.8 45.7 L407.7 76.8 L389.3 98.2 L359.7 127.8 L358.3 131.2 L336.7 151.8 L332.3 158.2 L267.7 223.8 L266.3 227.2 L255.2 235.3 L250.0 237.4 L242.0 236.4 L233.8 231.3 L225.2 221.7 L215.7 214.2 L214.3 210.8 L190.2 184.7 L186.8 183.3 L182.2 177.7 L173.0 172.6 L159.6 169.5 L131.4 168.5 L118.0 170.6 L111.7 175.8 L115.7 190.2 L201.3 274.8 L207.4 286.0 L212.5 299.4 L213.5 317.6 L215.4 325.9 L214.5 346.6 L212.5 358.4 L213.6 374.0 L219.8 383.3 L224.2 384.5 L227.0 384.4 L238.0 378.4 L253.4 363.0 L255.5 356.6 L255.5 339.4 L253.5 332.6 L254.5 322.2 L260.6 302.0 L268.7 289.8 L330.3 227.2 L343.7 211.8 L366.3 190.2 L379.7 174.8 L427.3 128.2 L492.3 59.2 L501.4 46.0 L503.5 40.8 L503.5 33.2 L496.8 29.5 L488.0 29.6Z M107.8 63.7 L98.6 65.5 L88.2 65.5 L77.2 68.5 L53.8 80.7 L40.7 92.8 L33.7 102.8 L27.6 114.0 L22.5 130.2 L20.5 143.4 L20.5 190.6 L19.5 192.4 L20.5 194.4 L19.5 198.4 L20.5 206.4 L20.5 285.6 L21.5 287.4 L20.5 290.4 L19.6 349.9 L20.5 382.6 L23.5 409.8 L27.6 422.0 L33.7 433.2 L40.7 442.2 L60.8 460.3 L82.0 469.4 L96.4 472.5 L113.6 472.5 L115.4 473.5 L185.6 473.5 L189.4 472.5 L195.4 473.5 L311.6 473.5 L313.6 472.5 L327.6 473.5 L344.8 471.5 L365.0 464.4 L382.2 453.3 L395.3 440.2 L407.4 420.0 L412.5 401.8 L413.5 392.6 L412.5 233.4 L411.5 226.2 L408.4 219.0 L401.8 213.5 L394.2 213.5 L387.8 217.7 L383.6 222.0 L379.5 232.2 L377.6 288.9 L378.5 373.6 L377.5 375.4 L377.5 392.6 L373.4 407.0 L368.3 416.2 L354.2 430.3 L340.8 435.5 L321.6 437.5 L318.6 436.5 L313.6 437.5 L231.4 437.5 L229.6 436.5 L227.6 437.5 L225.6 436.5 L223.6 437.5 L210.6 436.5 L208.6 437.5 L206.6 436.5 L204.6 437.5 L201.6 436.5 L199.6 437.5 L193.6 436.5 L191.6 437.5 L187.6 436.5 L184.6 437.5 L123.4 437.5 L120.4 436.5 L117.4 437.5 L115.6 436.5 L98.2 436.5 L84.0 432.4 L75.8 427.3 L65.7 417.2 L60.6 407.0 L56.5 391.8 L56.5 362.4 L55.5 360.6 L56.5 358.6 L55.5 351.6 L56.5 162.4 L55.5 156.4 L57.5 137.2 L64.7 120.8 L77.0 108.6 L91.2 102.5 L100.9 100.6 L157.1 101.4 L285.6 99.5 L301.2 95.3 L306.3 90.2 L310.5 81.6 L309.4 75.0 L305.2 69.7 L297.8 66.5 L284.6 64.5 L107.9 63.6Z"/></svg>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var s = document.getElementById('splash');
+      if (!s) return;
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      setTimeout(function () { s.classList.add('splash--done'); }, reduce ? 250 : 3050);
+    })();
+  </script>
+  <main id="app">
+
+    <!-- ========== ACCUEIL — CHOIX DE LA MATIÈRE ========== -->
+    <section id="screen-home" class="screen active">
+      <div class="spine-bg" aria-hidden="true"><img src="images/spine-cut.webp?v=4" alt=""></div>
+      <div class="resume-banner" id="resume-banner" hidden>
+        <button class="resume-banner-close" data-action="resume-discard" aria-label="Fermer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+        <div class="resume-banner-inner">
+          <div class="resume-banner-text">
+            <span class="resume-banner-eyebrow">Session interrompue</span>
+            <span class="resume-banner-detail" id="resume-banner-detail">—</span>
+          </div>
+          <div class="resume-banner-actions">
+            <button class="btn btn-ghost" data-action="resume-discard">Démarrer une nouvelle</button>
+            <button class="btn btn-primary" data-action="resume-continue">Reprendre →</button>
+          </div>
+        </div>
+      </div>
+      <div class="home-grid">
+        <div class="home-left">
+          <div class="brand">
+            <img class="brand-mark" src="images/logo-site.png?v=3" alt="Yumerty" aria-hidden="true">
+            <span class="brand-text">Yumerty</span>
+          </div>
+
+          <h1 class="title">Révise tes matières,<br><span class="title-accent">en condition d'examen</span></h1>
+
+          <p class="subtitle">
+            Prépare tes examens sur des QCU corrigés et justifiés.
+          </p>
+
+          <div class="bareme">
+            <table class="bareme-table">
+              <colgroup>
+                <col><col><col><col>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Type de QCU</th>
+                  <th class="bareme-th-good">Bonne</th>
+                  <th class="bareme-th-bad">Mauvaise</th>
+                  <th class="bareme-th-skip">Sans réponse</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bareme-label">3 propositions</td>
+                  <td><span class="bareme-pill bareme-pill-good">+1</span></td>
+                  <td><span class="bareme-pill bareme-pill-bad">−½</span></td>
+                  <td><span class="bareme-pill bareme-pill-skip">0</span></td>
+                </tr>
+                <tr>
+                  <td class="bareme-label">4 propositions</td>
+                  <td><span class="bareme-pill bareme-pill-good">+1</span></td>
+                  <td><span class="bareme-pill bareme-pill-bad">−⅓</span></td>
+                  <td><span class="bareme-pill bareme-pill-skip">0</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="bareme-note">Note finale toujours ramenée sur 10.</p>
+          </div>
+
+          <h2 class="section-title">Choisis ton cursus</h2>
+
+          <div class="modes modes-two" id="cursus-list">
+            <!-- Cards rendered dynamically by app.js based on CURSUS data -->
+          </div>
+        </div>
+
+        <div class="home-right" aria-hidden="true"></div>
+      </div>
+
+      <!-- ========== PRÉSENTATION (sous le hero) ========== -->
+      <div class="home-landing">
+
+        <section class="landing-section stats-band-wrap">
+          <div class="stats-band">
+            <div class="stat-card">
+              <span class="stat-num">10 000<span class="stat-plus">+</span></span>
+              <span class="stat-cap">QCU corrigés et justifiés</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">36</span>
+              <span class="stat-cap">matières disponibles</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">2</span>
+              <span class="stat-cap">cursus : Kiné &amp; Dentaire</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">/10</span>
+              <span class="stat-cap">note d'examen</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="landing-section">
+          <div class="landing-head">
+            <span class="landing-eyebrow">Ce que propose Yumerty</span>
+            <h2 class="landing-title">Tout pour réviser efficacement.</h2>
+            <p class="landing-lead">Des milliers de QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.</p>
+          </div>
+          <div class="features-grid">
+            <article class="feature-card" style="--fa:#c06a45; --fa-rgb:192,106,69;">
+              <span class="feature-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg></span>
+              <h3 class="feature-t">Corrigés et justifiés</h3>
+              <p class="feature-d">Chaque proposition est expliquée. Tu sais pourquoi elle est vraie ou fausse.</p>
+            </article>
+            <article class="feature-card" style="--fa:#c47a35; --fa-rgb:196,122,53;">
+              <span class="feature-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 7h14"/><path d="M5 7l-2.4 5.5a2.6 2.6 0 0 0 4.8 0L5 7z"/><path d="M19 7l-2.4 5.5a2.6 2.6 0 0 0 4.8 0L19 7z"/></svg></span>
+              <h3 class="feature-t">Conditions d'examen</h3>
+              <p class="feature-d">Un barème réaliste qui pénalise les erreurs et récompense la prudence. Note sur 10.</p>
+            </article>
+            <article class="feature-card" style="--fa:#b8902e; --fa-rgb:184,144,46;">
+              <span class="feature-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg></span>
+              <h3 class="feature-t">Fidèle aux annales</h3>
+              <p class="feature-d">Des questions dans le style des vrais examens, avec des choix crédibles.</p>
+            </article>
+            <article class="feature-card" style="--fa:#b35c38; --fa-rgb:179,92,56;">
+              <span class="feature-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg></span>
+              <h3 class="feature-t">Suivi des erreurs</h3>
+              <p class="feature-d">Les questions ratées reviennent jusqu'à ce que tu les maîtrises.</p>
+            </article>
+            <article class="feature-card" style="--fa:#8f6276; --fa-rgb:143,98,118;">
+              <span class="feature-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M21 3L4 20"/><path d="M21 16v5h-5"/><path d="M15 15l6 6"/><path d="M4 4l5 5"/></svg></span>
+              <h3 class="feature-t">Tirage intelligent</h3>
+              <p class="feature-d">Tu vois en priorité les questions que tu n'as pas encore travaillées.</p>
+            </article>
+            <article class="feature-card" style="--fa:#9c6f47; --fa-rgb:156,111,71;">
+              <span class="feature-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></span>
+              <h3 class="feature-t">Reprise de session</h3>
+              <p class="feature-d">Tu reprends ta série exactement là où tu t'es arrêté.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="landing-section steps-section">
+          <div class="landing-head">
+            <span class="landing-eyebrow">Comment ça marche</span>
+            <h2 class="landing-title">Réviser en quatre étapes.</h2>
+          </div>
+          <ol class="steps">
+            <li class="step"><span class="step-n">01</span><div class="step-body"><h3 class="step-t">Choisis ta matière</h3><p class="step-d">Kiné (K1 à K3) ou Dentaire, sélectionne ce que tu veux travailler.</p></div></li>
+            <li class="step"><span class="step-n">02</span><div class="step-body"><h3 class="step-t">Lance une série</h3><p class="step-d">20, 30 ou 40 QCU selon ton temps.</p></div></li>
+            <li class="step"><span class="step-n">03</span><div class="step-body"><h3 class="step-t">Réponds</h3><p class="step-d">Une bonne réponse par question, puis la justification.</p></div></li>
+            <li class="step"><span class="step-n">04</span><div class="step-body"><h3 class="step-t">Revois tes erreurs</h3><p class="step-d">Rejoue les questions ratées jusqu'à les effacer.</p></div></li>
+          </ol>
+        </section>
+
+        <section class="landing-section cta-section">
+          <div class="cta-band">
+            <h2 class="cta-title">Prêt à réviser ?</h2>
+            <p class="cta-sub">Choisis ton cursus et lance ta première série.</p>
+            <a href="#cursus-list" class="btn btn-primary cta-btn">Commencer →</a>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <div class="footer-inner">
+            <span class="footer-brand">Yumerty</span>
+            <span class="footer-tag">QCU médicaux corrigés et justifiés.</span>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+
+    <!-- ========== ÉCRAN NAVIGATION GÉNÉRIQUE (Année / Semestre / Matière / Module) ========== -->
+    <section id="screen-nav" class="screen">
+      <div class="container container-narrow">
+        <div class="screen-header-row">
+          <button class="back-link" data-action="back-nav">← Retour</button>
+          <button class="mistakes-pill" id="nav-mistakes-pill" hidden>
+            <svg class="mistakes-pill-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 8v5M12 16h.01M10.3 3.86l-8.4 14.16A2 2 0 0 0 3.6 21h16.8a2 2 0 0 0 1.7-2.98l-8.4-14.16a2 2 0 0 0-3.4 0z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Mes erreurs</span>
+            <span class="mistakes-pill-count" id="nav-mistakes-count">0</span>
+          </button>
+        </div>
+
+        <p class="nav-eyebrow" id="nav-eyebrow"></p>
+        <h1 class="title" id="nav-title"></h1>
+        <p class="subtitle" id="nav-subtitle"></p>
+
+        <div class="modes" id="nav-list"></div>
+
+        <p class="nav-empty" id="nav-empty" hidden>
+          Aucune matière disponible pour cette section pour l'instant.
+          De nouvelles matières seront ajoutées progressivement.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== QUIZ ========== -->
+    <section id="screen-quiz" class="screen">
+      <div class="container">
+        <header class="quiz-header">
+          <button class="back-link" data-action="back-to-subject">← Quitter</button>
+          <div class="quiz-meta">
+            <span id="quiz-mode-label" class="quiz-mode-label"></span>
+            <span class="quiz-progress-text"><span id="quiz-current">1</span> / <span id="quiz-total">20</span></span>
+          </div>
+        </header>
+
+        <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+
+        <article class="question-card">
+          <p class="question-text" id="question-text"></p>
+
+          <div class="options" id="options"></div>
+
+          <div class="quiz-actions">
+            <button id="btn-skip" class="btn btn-ghost">Ne pas répondre</button>
+            <button id="btn-next" class="btn btn-primary" hidden>SUIVANT →</button>
+          </div>
+
+          <div id="justifications" class="justifications" hidden></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== RÉSULTATS ========== -->
+    <section id="screen-results" class="screen">
+      <div class="container container-narrow">
+        <div class="results-card">
+          <p class="results-eyebrow" id="results-mode-label"></p>
+          <h1 class="results-title">Quiz terminé</h1>
+
+          <div class="score-block">
+            <div class="score-number" id="score-number">0</div>
+            <div class="score-out">/ <span id="score-max">10</span></div>
+          </div>
+
+          <div class="status-pill" id="status-pill">VALIDÉ</div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-value stat-value-good" id="stat-good">0</div>
+              <div class="stat-label">Bonnes</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value stat-value-bad" id="stat-bad">0</div>
+              <div class="stat-label">Mauvaises</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value stat-value-skip" id="stat-skip">0</div>
+              <div class="stat-label">Non répondues</div>
+            </div>
+          </div>
+
+          <div class="results-actions">
+            <button class="btn btn-secondary" data-action="review">Revoir mes erreurs</button>
+            <button class="btn btn-primary" data-action="restart">Nouvelle série</button>
+            <button class="btn btn-ghost" data-action="back-to-subject">Retour au menu</button>
+            <button class="btn btn-ghost" data-action="quit-to-years">Quitter</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MES ERREURS (persistant) ========== -->
+    <section id="screen-mistakes" class="screen">
+      <div class="container container-narrow">
+        <header class="mistakes-header">
+          <button class="back-link" data-action="back-from-mistakes">← Retour</button>
+          <span class="mistakes-progress">
+            <span id="mistakes-current">1</span> / <span id="mistakes-total">0</span>
+          </span>
+        </header>
+
+        <h1 class="title">Mes erreurs</h1>
+        <p class="subtitle">Re-réponds à chaque question. Si tu trouves la bonne réponse cette fois-ci, elle sera retirée automatiquement.</p>
+
+        <article id="mistakes-card" class="mistakes-card"></article>
+
+        <div class="mistakes-actions">
+          <button class="btn btn-ghost" id="btn-mistake-prev">← Précédente</button>
+          <button class="btn btn-primary" id="btn-mistake-next" disabled>Suivante →</button>
+        </div>
+
+        <p class="mistakes-empty" id="mistakes-empty" hidden>
+          Plus aucune erreur en attente. Bravo !
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== REVIEW ========== -->
+    <section id="screen-review" class="screen">
+      <div class="container container-narrow">
+        <header class="quiz-header">
+          <button class="back-link" data-action="results">← Retour aux résultats</button>
+        </header>
+
+        <h1 class="title">Tes erreurs</h1>
+        <p class="subtitle">Revois les questions ratées ou non répondues, avec leurs justifications complètes.</p>
+
+        <div id="review-list" class="review-list"></div>
+
+        <div class="results-actions">
+          <button class="btn btn-primary" data-action="restart">Refaire ce quiz</button>
+          <button class="btn btn-ghost" data-action="home">Accueil</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/data.js?v=107"></script>
+  <script src="js/cursus.js?v=82"></script>
+  <script src="js/app.js?v=73"></script>
+  <script>
+    (function(){var s=function(e){try{fetch('/_ping'+(e?'?e='+e:''),{method:'POST',cache:'no-store',keepalive:true}).catch(function(){});}catch(_){}};s('beat');setInterval(function(){s("beat");},30000);window.__ymTrack=s;})();
+  </script>
+</body>
+</html>
