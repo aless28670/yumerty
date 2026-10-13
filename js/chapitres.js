@@ -31,6 +31,23 @@ const CHAPITRES = {
     {"id": 6, "nom": "Myologie de l'avant-bras"},
     {"id": 7, "nom": "Myologie de la main"},
     {"id": 8, "nom": "Neuroanatomie du membre supérieur"}
+  ],
+  "structure1": [
+    {"id": 1, "nom": "Introduction, homéostasie et milieu intérieur"},
+    {"id": 2, "nom": "Système nerveux — organisation générale"},
+    {"id": 3, "nom": "Système nerveux — neurophysiologie"},
+    {"id": 4, "nom": "Système musculaire"},
+    {"id": 5, "nom": "Système endocrinien"},
+    {"id": 6, "nom": "Système immunitaire"},
+    {"id": 7, "nom": "Introduction à l'anatomie : terminologie, plans, ostéologie et arthrologie"}
+  ],
+  "structure2": [
+    {"id": 1, "nom": "Système respiratoire"},
+    {"id": 2, "nom": "Système cardiovasculaire"},
+    {"id": 3, "nom": "Physiologie de l'exercice"},
+    {"id": 4, "nom": "Appareil digestif et métabolisme énergétique"},
+    {"id": 5, "nom": "Appareil urinaire"},
+    {"id": 6, "nom": "Système musculaire (rappels)"}
   ]
 };
 

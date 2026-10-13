@@ -20981,6 +20981,7 @@ const QUESTIONS = {
   "structure1": [
     {
       "q": "Étudiante de 21 ans en TD d'anatomie. L'enseignant demande de positionner le pouce par rapport au petit doigt lorsque le sujet est en position anatomique de référence. Quelle est la réponse exacte ?",
+      "c": 7,
       "options": [
         {
           "t": "Latéral",
@@ -21003,6 +21004,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un kinésithérapeute décrit la position d'un patient allongé sur le ventre pour drainer. Quel terme exact désigne cette position ?",
+      "c": 7,
       "options": [
         {
           "t": "Décubitus pronus",
@@ -21025,6 +21027,7 @@ const QUESTIONS = {
     },
     {
       "q": "En cours d'anatomie, un étudiant doit identifier le plan vertical qui divise le corps en parties symétriques droite et gauche, exactement sur la ligne médiane.",
+      "c": 7,
       "options": [
         {
           "t": "Plan sagittal médian",
@@ -21047,6 +21050,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient est étendu et on étudie le passage d'un mouvement de flexion/extension du genou. Sur quel axe ce mouvement s'effectue-t-il ?",
+      "c": 7,
       "options": [
         {
           "t": "Axe transversal",
@@ -21069,6 +21073,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un enseignant demande de relier l'estomac et le pancréas selon leur position relative en vue sagittale. Comment qualifier le pancréas par rapport à l'estomac ?",
+      "c": 7,
       "options": [
         {
           "t": "Postérieur (dorsal)",
@@ -21091,6 +21096,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans un bilan clinique, un kiné situe l'intestin grêle par rapport au foie. Quelle qualification est correcte ?",
+      "c": 7,
       "options": [
         {
           "t": "Inférieur (caudal)",
@@ -21113,6 +21119,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente un saignement de l'épigastre droit. Une infection touche le foie et la vésicule biliaire. Dans quelle région abdomino-pelvienne se localise principalement la lésion ?",
+      "c": 7,
       "options": [
         {
           "t": "Hypocondre droit",
@@ -21135,6 +21142,7 @@ const QUESTIONS = {
     },
     {
       "q": "Walter B. Cannon a proposé le terme d'homéostasie. Quelle définition correspond au sens qu'il lui donne ?",
+      "c": 1,
       "options": [
         {
           "t": "Une condition qui peut varier mais qui est relativement constante",
@@ -21157,6 +21165,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le milieu intérieur, selon Claude Bernard, désigne quel ensemble de liquides du corps humain ?",
+      "c": 1,
       "options": [
         {
           "t": "Les liquides circulant dans le corps qui baignent les tissus",
@@ -21179,6 +21188,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient transpire et halète à l'effort : on cherche à identifier la composante qui détecte la variation du milieu intérieur dans la boucle de rétroaction. Comment l'appelle-t-on ?",
+      "c": 1,
       "options": [
         {
           "t": "Récepteur",
@@ -21201,6 +21211,7 @@ const QUESTIONS = {
     },
     {
       "q": "La coagulation après section d'un vaisseau, où chaque étape amplifie la suivante jusqu'à formation du caillot, est un exemple de quel type de boucle ?",
+      "c": 1,
       "options": [
         {
           "t": "Rétroaction positive (rétroactivation)",
@@ -21223,6 +21234,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos de la régulation de la glycémie post-prandiale par l'insuline, indiquez la réponse correcte parmi les suivantes :",
+      "c": 1,
       "options": [
         {
           "t": "C'est une rétroaction négative dont l'insuline est la voie efférente",
@@ -21245,6 +21257,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un sujet sain de 70 kg : on lui demande quelle est la proportion approximative de son poids constituée par le liquide intracellulaire.",
+      "c": 1,
       "options": [
         {
           "t": "Environ 40 % du poids corporel",
@@ -21267,6 +21280,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient déshydraté : on compare la composition normale des compartiments. Quelle affirmation sur le liquide extracellulaire est correcte ?",
+      "c": 1,
       "options": [
         {
           "t": "Sa concentration en Na+ est plus élevée que dans le LIC",
@@ -21289,6 +21303,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une cellule est placée dans une solution hypertonique au laboratoire. Que se passe-t-il pour cette cellule ?",
+      "c": 1,
       "options": [
         {
           "t": "L'eau sort de la cellule qui se rétracte",
@@ -21311,6 +21326,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'effet Donnan dans le cytoplasme musculaire est principalement dû à quel mécanisme physico-chimique ?",
+      "c": 1,
       "options": [
         {
           "t": "La présence de protéines intracellulaires non diffusibles chargées",
@@ -21333,6 +21349,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le pH artériel normal au repos chez l'adulte sain se situe autour de quelle valeur ?",
+      "c": 1,
       "options": [
         {
           "t": "7,40, valeur centrale de la fenêtre physiologique",
@@ -21355,6 +21372,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une hyperkaliémie sévère. Quel signe clinique typique est attendu ?",
+      "c": 1,
       "options": [
         {
           "t": "Troubles de la conduction cardiaque et faiblesse musculaire",
@@ -21377,6 +21395,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une hypocalcémie marquée. Quel signe est attendu cliniquement ?",
+      "c": 1,
       "options": [
         {
           "t": "Tremblements, crampes musculaires et tétanie",
@@ -21399,6 +21418,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez le rôle principal du sodium dans la régulation hydrique de l'organisme.",
+      "c": 1,
       "options": [
         {
           "t": "Cation extracellulaire qui régule les mouvements d'eau par osmose",
@@ -21421,6 +21441,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le rôle principal de la barrière hémato-encéphalique pour le tissu nerveux central est de :",
+      "c": 2,
       "options": [
         {
           "t": "Contrôler sélectivement les substances atteignant les neurones",
@@ -21443,6 +21464,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un AVP avec hématome pénétrant entre la dure-mère et l'arachnoïde correspond à un hématome de quel type ?",
+      "c": 2,
       "options": [
         {
           "t": "Sous-dural",
@@ -21465,6 +21487,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le liquide céphalo-rachidien (LCR) est sécrété au niveau de quelle structure anatomique ?",
+      "c": 2,
       "options": [
         {
           "t": "Des plexus choroïdes des ventricules",
@@ -21487,6 +21510,7 @@ const QUESTIONS = {
     },
     {
       "q": "Trajet correct du liquide céphalo-rachidien depuis sa production jusqu'à sa réabsorption :",
+      "c": 2,
       "options": [
         {
           "t": "Plexus choroïdes → ventricules → espace sous-arachnoïdien → sinus veineux",
@@ -21509,6 +21533,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une anosmie isolée après un traumatisme crânien. Quel nerf crânien est probablement atteint ?",
+      "c": 2,
       "options": [
         {
           "t": "I – Olfactif",
@@ -21531,6 +21556,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une jeune femme consulte pour une paralysie faciale périphérique. Quel nerf crânien est atteint ?",
+      "c": 2,
       "options": [
         {
           "t": "VII – Facial",
@@ -21553,6 +21579,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf vague (X) est principalement caractérisé par quel rôle fonctionnel ?",
+      "c": 2,
       "options": [
         {
           "t": "Innervation parasympathique des viscères thoraco-abdominaux",
@@ -21575,6 +21602,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une lésion qui altère la vision dans le champ temporal d'un œil, sans atteinte motrice oculaire, oriente vers une atteinte de quel nerf ?",
+      "c": 2,
       "options": [
         {
           "t": "Nerf optique (II)",
@@ -21597,6 +21625,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le plexus brachial est formé à partir des rameaux antérieurs de quels nerfs rachidiens ?",
+      "c": 2,
       "options": [
         {
           "t": "C5 à T1",
@@ -21619,6 +21648,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf phrénique, essentiel à la respiration diaphragmatique, naît de quel plexus nerveux ?",
+      "c": 2,
       "options": [
         {
           "t": "Plexus cervical",
@@ -21641,6 +21671,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient diabétique présente une douleur dans la face médiale de la cuisse après une chirurgie pelvienne. Quel nerf du plexus lombaire est probablement concerné ?",
+      "c": 2,
       "options": [
         {
           "t": "Nerf obturateur",
@@ -21663,6 +21694,7 @@ const QUESTIONS = {
     },
     {
       "q": "La racine dorsale d'un nerf rachidien contient quel type de fibres nerveuses ?",
+      "c": 2,
       "options": [
         {
           "t": "Des axones sensitifs afférents au soma situé dans le ganglion spinal",
@@ -21685,6 +21717,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos de l'anatomie de la moelle épinière :",
+      "c": 2,
       "options": [
         {
           "t": "Le ganglion de la racine dorsale contient les corps des neurones sensitifs",
@@ -21707,6 +21740,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient avec lésion bulbaire haute présente une perte des réflexes du vomissement, de la déglutition et un trouble respiratoire. Quelle structure est lésée ?",
+      "c": 2,
       "options": [
         {
           "t": "Bulbe rachidien",
@@ -21729,6 +21763,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le rôle principal des colliculi supérieurs du mésencéphale dans le contrôle moteur ?",
+      "c": 2,
       "options": [
         {
           "t": "Coordonner les mouvements réflexes en réponse à des stimuli visuels",
@@ -21751,6 +21786,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient parkinsonien présente une dégénérescence des neurones dopaminergiques. Quelle structure du tronc cérébral est principalement touchée ?",
+      "c": 2,
       "options": [
         {
           "t": "Substance noire du mésencéphale",
@@ -21773,6 +21809,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le thalamus est principalement décrit en physiologie sensorielle comme :",
+      "c": 2,
       "options": [
         {
           "t": "Une station de relais des voies sensitives vers le cortex",
@@ -21795,6 +21832,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'hypothalamus est essentiel parce qu'il assure quelle grande fonction physiologique ?",
+      "c": 2,
       "options": [
         {
           "t": "Homéostasie et commande neuro-endocrinienne via l'hypophyse",
@@ -21817,6 +21855,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le cervelet est principalement nécessaire à quelle grande fonction motrice ?",
+      "c": 2,
       "options": [
         {
           "t": "Coordination, équilibre et apprentissage moteur",
@@ -21839,6 +21878,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'association cortex-fonction correcte parmi les propositions suivantes :",
+      "c": 2,
       "options": [
         {
           "t": "Gyrus précentral du lobe frontal – cortex moteur primaire",
@@ -21861,6 +21901,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'aire de Broca, lésée chez un patient avec aphasie d'expression, est située où ?",
+      "c": 2,
       "options": [
         {
           "t": "Lobe frontal gauche, en avant du cortex moteur primaire",
@@ -21883,6 +21924,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'aire de Wernicke est responsable de quelle fonction langagière ?",
+      "c": 2,
       "options": [
         {
           "t": "La compréhension du langage parlé",
@@ -21905,6 +21947,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'hippocampe est associé principalement à quel type de mémoire ?",
+      "c": 2,
       "options": [
         {
           "t": "La mémoire épisodique et spatiale à long terme",
@@ -21927,6 +21970,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'amygdale joue un rôle prépondérant dans quel processus cérébral ?",
+      "c": 2,
       "options": [
         {
           "t": "Le traitement de la peur et de la mémoire émotionnelle",
@@ -21949,6 +21993,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le corps calleux a pour rôle principal au sein de l'encéphale :",
+      "c": 2,
       "options": [
         {
           "t": "Relier les deux hémisphères et permettre l'échange d'informations",
@@ -21971,6 +22016,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les types de gliocytes du SNC qui produisent la myéline sont quels ?",
+      "c": 2,
       "options": [
         {
           "t": "Les oligodendrocytes",
@@ -21993,6 +22039,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le système nerveux périphérique (SNP), la myéline est produite par quelle cellule ?",
+      "c": 2,
       "options": [
         {
           "t": "Les cellules de Schwann",
@@ -22015,6 +22062,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le potentiel de repos d'un neurone (≈ −70 mV) est principalement déterminé par quel mécanisme ?",
+      "c": 3,
       "options": [
         {
           "t": "La forte perméabilité de la membrane au K+",
@@ -22037,6 +22085,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le rôle principal de la pompe Na+/K+ ATPase membranaire est :",
+      "c": 3,
       "options": [
         {
           "t": "Maintenir les gradients ioniques en sortant 3 Na+ pour 2 K+ entrants",
@@ -22059,6 +22108,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour qu'un potentiel d'action soit déclenché dans un neurone, quelle condition doit être remplie ?",
+      "c": 3,
       "options": [
         {
           "t": "Atteinte du seuil d'excitation ouvrant les canaux Na+ voltage-dépendants",
@@ -22081,6 +22131,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le caractère « tout ou rien » du potentiel d'action signifie quoi exactement ?",
+      "c": 3,
       "options": [
         {
           "t": "Si le seuil est atteint, le PA a toujours la même amplitude",
@@ -22103,6 +22154,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la période réfractaire absolue d'un neurone, que se passe-t-il pour ce neurone ?",
+      "c": 3,
       "options": [
         {
           "t": "Aucun nouveau PA ne peut être déclenché quelle que soit l'intensité du stimulus",
@@ -22125,6 +22177,7 @@ const QUESTIONS = {
     },
     {
       "q": "La propagation saltatoire concerne quel type d'axones et quel mécanisme ?",
+      "c": 3,
       "options": [
         {
           "t": "Axones myélinisés où le PA se régénère aux nœuds de Ranvier",
@@ -22147,6 +22200,7 @@ const QUESTIONS = {
     },
     {
       "q": "La vitesse de propagation d'un potentiel d'action augmente avec quels paramètres ?",
+      "c": 3,
       "options": [
         {
           "t": "L'augmentation du diamètre de l'axone et de sa myélinisation",
@@ -22169,6 +22223,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans une synapse chimique, l'entrée de calcium dans la terminaison présynaptique entraîne quel événement ?",
+      "c": 3,
       "options": [
         {
           "t": "L'exocytose des vésicules de neurotransmetteur dans la fente",
@@ -22191,6 +22246,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le neurotransmetteur libéré à la jonction neuromusculaire squelettique est :",
+      "c": 3,
       "options": [
         {
           "t": "L'acétylcholine",
@@ -22213,6 +22269,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un PIP (potentiel inhibiteur postsynaptique) résulte le plus souvent de quel mécanisme membranaire ?",
+      "c": 3,
       "options": [
         {
           "t": "L'ouverture de canaux Cl- ou K+ ligand-dépendants",
@@ -22235,6 +22292,7 @@ const QUESTIONS = {
     },
     {
       "q": "La sommation spatiale dans un neurone postsynaptique correspond à quel mécanisme d'intégration ?",
+      "c": 3,
       "options": [
         {
           "t": "Addition de PEP issus de plusieurs afférences activées en même temps",
@@ -22257,6 +22315,7 @@ const QUESTIONS = {
     },
     {
       "q": "La voie cordon dorsal–lemniscale médiane achemine quelles sensations conscientes ?",
+      "c": 2,
       "options": [
         {
           "t": "Le toucher discriminant et la proprioception consciente",
@@ -22279,6 +22338,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une perte de la sensibilité douloureuse et thermique du membre inférieur droit. Quelle voie ascendante est touchée ?",
+      "c": 2,
       "options": [
         {
           "t": "Voie spinothalamique latérale",
@@ -22301,6 +22361,7 @@ const QUESTIONS = {
     },
     {
       "q": "La décussation des voies sensitives lemniscales se fait à quel niveau du névraxe ?",
+      "c": 2,
       "options": [
         {
           "t": "Dans le bulbe rachidien",
@@ -22323,6 +22384,7 @@ const QUESTIONS = {
     },
     {
       "q": "La douleur référée d'un infarctus du myocarde vers le bras gauche s'explique par quel mécanisme central ?",
+      "c": 2,
       "options": [
         {
           "t": "Convergence des afférences viscérales et somatiques sur les mêmes neurones spinaux",
@@ -22345,6 +22407,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les fibres Aδ de la nociception sont caractérisées par quelles propriétés de conduction ?",
+      "c": 2,
       "options": [
         {
           "t": "Fibres peu myélinisées conduisant la première douleur, rapide et localisée",
@@ -22367,6 +22430,7 @@ const QUESTIONS = {
     },
     {
       "q": "La théorie du portillon (gate control) de Melzack et Wall stipule que :",
+      "c": 2,
       "options": [
         {
           "t": "Des stimuli non douloureux peuvent bloquer la transmission de la douleur",
@@ -22389,6 +22453,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'allodynie correspond à quelle expérience douloureuse anormale chez le patient ?",
+      "c": 2,
       "options": [
         {
           "t": "Une douleur provoquée par un stimulus normalement indolore",
@@ -22411,6 +22476,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le système nerveux sympathique a quelle particularité anatomo-fonctionnelle ?",
+      "c": 2,
       "options": [
         {
           "t": "Émerge des segments thoraco-lombaires et libère la noradrénaline en effecteur",
@@ -22433,6 +22499,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le système parasympathique a quelle particularité anatomo-fonctionnelle ?",
+      "c": 2,
       "options": [
         {
           "t": "Émerge du tronc cérébral (III, VII, IX, X) et de la moelle sacrée",
@@ -22455,6 +22522,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une décharge sympathique massive, la glande surrénale libère dans le sang :",
+      "c": 2,
       "options": [
         {
           "t": "De l'adrénaline issue de la médullosurrénale",
@@ -22477,6 +22545,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le SNA, un neurone préganglionnaire sympathique fait synapse selon quelle disposition ?",
+      "c": 2,
       "options": [
         {
           "t": "Avec plusieurs neurones postganglionnaires dans un ganglion paravertébral",
@@ -22499,6 +22568,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une fibre musculaire squelettique se définit comme :",
+      "c": 4,
       "options": [
         {
           "t": "Une cellule multinucléée allongée à myofibrilles striées",
@@ -22521,6 +22591,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'épimysium désigne quelle structure conjonctive du muscle squelettique ?",
+      "c": 4,
       "options": [
         {
           "t": "L'enveloppe conjonctive qui entoure le muscle entier",
@@ -22543,6 +22614,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le sarcomère, plus petite unité contractile du muscle strié, est délimité par :",
+      "c": 4,
       "options": [
         {
           "t": "Deux disques Z",
@@ -22565,6 +22637,7 @@ const QUESTIONS = {
     },
     {
       "q": "La triade musculaire est formée par quel ensemble de structures membranaires ?",
+      "c": 4,
       "options": [
         {
           "t": "Un tubule T et deux citernes terminales du réticulum sarcoplasmique",
@@ -22587,6 +22660,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du couplage excitation-contraction, le rôle du Ca2+ intracellulaire est :",
+      "c": 4,
       "options": [
         {
           "t": "Se lier à la troponine pour démasquer les sites de liaison de l'actine",
@@ -22609,6 +22683,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du cycle des ponts d'union de la contraction, l'ATP a notamment pour rôle :",
+      "c": 4,
       "options": [
         {
           "t": "Se fixer sur la tête de myosine pour la détacher de l'actine",
@@ -22631,6 +22706,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du relâchement musculaire, le Ca2+ retourne dans le réticulum sarcoplasmique grâce à quel mécanisme ?",
+      "c": 4,
       "options": [
         {
           "t": "Une pompe ATPase calcique (SERCA)",
@@ -22653,6 +22729,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'ordre correct des événements de la contraction musculaire squelettique :",
+      "c": 4,
       "options": [
         {
           "t": "Exocytose d'Ach → PA musculaire → tubules T → libération du Ca2+",
@@ -22675,6 +22752,7 @@ const QUESTIONS = {
     },
     {
       "q": "La rigor mortis (rigidité cadavérique) est due à quel mécanisme biochimique ?",
+      "c": 4,
       "options": [
         {
           "t": "L'absence d'ATP empêchant le détachement myosine-actine",
@@ -22697,6 +22775,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une unité motrice du muscle squelettique désigne :",
+      "c": 4,
       "options": [
         {
           "t": "Un motoneurone et toutes les fibres musculaires qu'il innerve",
@@ -22719,6 +22798,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un muscle qui produit des mouvements précis (ex. muscles oculomoteurs) présente quelle organisation motrice ?",
+      "c": 4,
       "options": [
         {
           "t": "De nombreuses unités motrices à faible nombre de fibres",
@@ -22741,6 +22821,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les fibres musculaires de type I sont caractérisées par quel profil ?",
+      "c": 4,
       "options": [
         {
           "t": "Lentes, à métabolisme aérobie et résistantes à la fatigue",
@@ -22763,6 +22844,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les fibres musculaires de type IIx sont caractérisées par quel profil ?",
+      "c": 4,
       "options": [
         {
           "t": "Rapides, à métabolisme anaérobie et peu résistantes à la fatigue",
@@ -22785,6 +22867,7 @@ const QUESTIONS = {
     },
     {
       "q": "La sommation temporelle musculaire augmente la force par quel mécanisme ?",
+      "c": 4,
       "options": [
         {
           "t": "Une fréquence élevée de stimulation de l'unité motrice",
@@ -22807,6 +22890,7 @@ const QUESTIONS = {
     },
     {
       "q": "La voie corticospinale latérale (pyramidale) présente quelle caractéristique anatomo-fonctionnelle ?",
+      "c": 2,
       "options": [
         {
           "t": "Décusse au bulbe et contrôle la motricité fine distale",
@@ -22829,6 +22913,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le rôle principal des noyaux gris centraux (ganglions de la base) dans le contrôle moteur est :",
+      "c": 2,
       "options": [
         {
           "t": "Moduler le démarrage et la suppression des mouvements",
@@ -22851,6 +22936,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le réflexe myotatique (rotulien) repose sur quel récepteur périphérique ?",
+      "c": 2,
       "options": [
         {
           "t": "Les fuseaux neuromusculaires sensibles à l'étirement",
@@ -22873,6 +22959,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une lésion isolée du cervelet provoque principalement quel tableau clinique ?",
+      "c": 2,
       "options": [
         {
           "t": "Une ataxie et des troubles de la coordination motrice",
@@ -22895,6 +22982,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une contraction isométrique d'un muscle squelettique, on observe que :",
+      "c": 4,
       "options": [
         {
           "t": "Le muscle développe une tension sans modification de sa longueur",
@@ -22917,6 +23005,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une contraction excentrique du quadriceps en descente d'escalier, on observe que :",
+      "c": 4,
       "options": [
         {
           "t": "Le muscle s'allonge tout en développant de la tension",
@@ -22939,6 +23028,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient récupère après un AVC ischemique ; la plasticité cérébrale repose principalement sur quel mécanisme ?",
+      "c": 2,
       "options": [
         {
           "t": "La réorganisation et le renforcement des connexions synaptiques",
@@ -22961,6 +23051,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le système endocrinien diffère du système nerveux principalement par quelle caractéristique ?",
+      "c": 5,
       "options": [
         {
           "t": "Une communication par hormones véhiculées dans le sang, plus lente et durable",
@@ -22983,6 +23074,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une hormone stéroïde (ex. cortisol) agit par quel mécanisme cellulaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Diffusion membranaire et liaison à un récepteur intracellulaire",
@@ -23005,6 +23097,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'hypophyse antérieure (adénohypophyse) est correctement caractérisée par :",
+      "c": 5,
       "options": [
         {
           "t": "Une glande épithéliale sécrétant ses propres hormones",
@@ -23027,6 +23120,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ocytocine et l'ADH sont synthétisées par l'hypothalamus puis libérées par quelle structure ?",
+      "c": 5,
       "options": [
         {
           "t": "La neurohypophyse",
@@ -23049,6 +23143,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ADH (vasopressine) agit principalement par quel mécanisme rénal ?",
+      "c": 5,
       "options": [
         {
           "t": "Réabsorption accrue d'eau dans le tube collecteur",
@@ -23071,6 +23166,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'axe hypothalamo-hypophyso-thyroïdien implique successivement quelles hormones ?",
+      "c": 5,
       "options": [
         {
           "t": "TRH → TSH → T3/T4",
@@ -23093,6 +23189,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une hyperthyroïdie par maladie de Graves se caractérise typiquement par quel profil biologique ?",
+      "c": 5,
       "options": [
         {
           "t": "T3/T4 élevées avec TSH effondrée par rétrocontrôle négatif",
@@ -23115,6 +23212,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les hormones thyroïdiennes (T3/T4) ont quel effet métabolique majeur ?",
+      "c": 5,
       "options": [
         {
           "t": "Augmentent le métabolisme basal et l'effet calorigène",
@@ -23137,6 +23235,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'aldostérone agit principalement sur quel segment du néphron et avec quel effet ?",
+      "c": 5,
       "options": [
         {
           "t": "Tubule contourné distal : réabsorption de Na+ et excrétion de K+",
@@ -23159,6 +23258,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le cortisol présente quelles propriétés métaboliques principales ?",
+      "c": 5,
       "options": [
         {
           "t": "Hyperglycémiant, catabolique musculaire et anti-inflammatoire",
@@ -23181,6 +23281,7 @@ const QUESTIONS = {
     },
     {
       "q": "La testostérone est principalement produite par quelles cellules testiculaires ?",
+      "c": 5,
       "options": [
         {
           "t": "Les cellules de Leydig des testicules",
@@ -23203,6 +23304,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le pic de LH au 14e jour du cycle menstruel a quel effet sur l'ovaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Déclenche l'ovulation",
@@ -23225,6 +23327,7 @@ const QUESTIONS = {
     },
     {
       "q": "La progestérone du cycle menstruel est produite par quelle structure ovarienne ?",
+      "c": 5,
       "options": [
         {
           "t": "Le corps jaune après l'ovulation",
@@ -23247,6 +23350,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une femme enceinte sécrète une hormone détectée par les tests urinaires précoces ; il s'agit de :",
+      "c": 5,
       "options": [
         {
           "t": "hCG, gonadotrophine d'origine placentaire",
@@ -23269,6 +23373,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'insuline est sécrétée par quelles cellules pancréatiques ?",
+      "c": 5,
       "options": [
         {
           "t": "Les cellules bêta des îlots de Langerhans",
@@ -23291,6 +23396,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le glucagon a quel effet principal sur la glycémie ?",
+      "c": 5,
       "options": [
         {
           "t": "Mobilise le glucose hépatique en cas d'hypoglycémie",
@@ -23313,6 +23419,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'insuline favorise l'entrée du glucose dans les cellules musculaires et adipeuses via quel mécanisme moléculaire ?",
+      "c": 5,
       "options": [
         {
           "t": "La translocation des transporteurs GLUT4 vers la membrane",
@@ -23335,6 +23442,7 @@ const QUESTIONS = {
     },
     {
       "q": "La somatostatine pancréatique exerce quel effet sur les autres hormones de l'îlot ?",
+      "c": 5,
       "options": [
         {
           "t": "Inhibe la sécrétion d'insuline et de glucagon",
@@ -23357,6 +23465,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'association hormone–effet correcte parmi ces propositions :",
+      "c": 5,
       "options": [
         {
           "t": "ADH – réabsorption d'eau dans le néphron",
@@ -23379,6 +23488,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un effort physique soutenu, la réponse au stress entraîne quel ensemble d'événements ?",
+      "c": 5,
       "options": [
         {
           "t": "Activation du sympathique et sécrétion de cortisol par l'axe corticotrope",
@@ -23401,6 +23511,7 @@ const QUESTIONS = {
     },
     {
       "q": "La mélatonine est sécrétée par quelle glande et selon quel rythme ?",
+      "c": 5,
       "options": [
         {
           "t": "Par la glande pinéale principalement la nuit",
@@ -23423,6 +23534,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte concernant le contrôle de l'adénohypophyse :",
+      "c": 5,
       "options": [
         {
           "t": "Elle est contrôlée par des hormones hypothalamiques via le système porte hypothalamo-hypophysaire",
@@ -23445,6 +23557,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la prolactine et son contrôle hypothalamique :",
+      "c": 5,
       "options": [
         {
           "t": "Elle est sous double contrôle hypothalamique, stimulateur par la TRH et inhibiteur par la dopamine",
@@ -23467,6 +23580,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le rythme circadien de l'organisme est principalement piloté par quelle structure cérébrale ?",
+      "c": 5,
       "options": [
         {
           "t": "Le noyau suprachiasmatique de l'hypothalamus",
@@ -23489,6 +23603,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les leucocytes les plus abondants dans le sang périphérique normal sont :",
+      "c": 6,
       "options": [
         {
           "t": "Les neutrophiles (50–70 %)",
@@ -23511,6 +23626,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les cellules NK (natural killer) appartiennent à quel type d'immunité et avec quelle fonction ?",
+      "c": 6,
       "options": [
         {
           "t": "Immunité innée ; lysent les cellules infectées et tumorales",
@@ -23533,6 +23649,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'immunité humorale repose principalement sur quelles cellules effectrices ?",
+      "c": 6,
       "options": [
         {
           "t": "Les lymphocytes B sécréteurs d'anticorps",
@@ -23555,6 +23672,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient vacciné mémorise l'antigène. Quel mécanisme est responsable de cette immunité durable ?",
+      "c": 6,
       "options": [
         {
           "t": "Production de lymphocytes B et T de mémoire",
@@ -23577,6 +23695,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les anticorps IgG présentent quelles caractéristiques dans la réponse immunitaire ?",
+      "c": 6,
       "options": [
         {
           "t": "Les plus abondants du sérum, dominent la réponse secondaire",
@@ -23599,6 +23718,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les IgA sont localisées principalement dans quel compartiment biologique ?",
+      "c": 6,
       "options": [
         {
           "t": "Les sécrétions muqueuses (larmes, salive, lait, mucus)",
@@ -23621,6 +23741,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les IgE jouent quel rôle particulier dans la réponse immune ?",
+      "c": 6,
       "options": [
         {
           "t": "Impliquées dans les allergies et la défense antiparasitaire",
@@ -23643,6 +23764,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les lymphocytes T cytotoxiques (CD8) reconnaissent les antigènes présentés par :",
+      "c": 6,
       "options": [
         {
           "t": "Le CMH de classe I des cellules infectées ou tumorales",
@@ -23665,6 +23787,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les lymphocytes T auxiliaires (CD4) reconnaissent les antigènes présentés par :",
+      "c": 6,
       "options": [
         {
           "t": "Le CMH de classe II des cellules présentatrices d'antigène",
@@ -23687,6 +23810,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'inflammation aiguë se caractérise par les signes cardinaux décrits par Celsus, à savoir :",
+      "c": 6,
       "options": [
         {
           "t": "Rubor, calor, tumor et dolor",
@@ -23709,6 +23833,7 @@ const QUESTIONS = {
     },
     {
       "q": "La fièvre lors d'une infection bactérienne est due principalement à quel mécanisme ?",
+      "c": 6,
       "options": [
         {
           "t": "Une élévation de la consigne thermique hypothalamique par les pyrogènes",
@@ -23731,6 +23856,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'immunité passive est caractérisée par :",
+      "c": 6,
       "options": [
         {
           "t": "Le transfert d'anticorps préformés provenant d'un autre individu",
@@ -23753,6 +23879,7 @@ const QUESTIONS = {
     },
     {
       "q": "La phagocytose est principalement assurée par quelles cellules immunitaires ?",
+      "c": 6,
       "options": [
         {
           "t": "Les neutrophiles et les macrophages",
@@ -23775,6 +23902,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une lésion par traumatisme cutané déclenche d'abord :",
+      "c": 6,
       "options": [
         {
           "t": "Une réponse inflammatoire innée non spécifique",
@@ -23797,6 +23925,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le glutamate est principalement caractérisé dans le SNC par :",
+      "c": 3,
       "options": [
         {
           "t": "Le principal neurotransmetteur excitateur du SNC",
@@ -23819,6 +23948,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le GABA est principalement caractérisé dans le SNC par :",
+      "c": 3,
       "options": [
         {
           "t": "Le principal neurotransmetteur inhibiteur du SNC",
@@ -23841,6 +23971,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez le rôle spécifique d'un osmorécepteur dans la régulation homéostatique :",
+      "c": 1,
       "options": [
         {
           "t": "Détecter les variations de pression osmotique des liquides corporels",
@@ -23863,6 +23994,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une perte sélective de la sensibilité tactile fine du membre supérieur droit ; la lésion est probablement :",
+      "c": 2,
       "options": [
         {
           "t": "Au niveau du cordon dorsal ou de la voie lemniscale",
@@ -23885,6 +24017,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte concernant la jonction neuromusculaire squelettique :",
+      "c": 3,
       "options": [
         {
           "t": "L'Ach ouvre des canaux cationiques ligand-dépendants sur la plaque motrice",
@@ -23907,6 +24040,7 @@ const QUESTIONS = {
     },
     {
       "q": "La force maximale d'un muscle dépend principalement de quels déterminants ?",
+      "c": 4,
       "options": [
         {
           "t": "La section transversale du muscle et la proportion de fibres rapides",
@@ -23929,6 +24063,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une sommation spatiale musculaire (recrutement), on augmente la force en :",
+      "c": 4,
       "options": [
         {
           "t": "Recrutant davantage d'unités motrices des plus petites aux plus grandes",
@@ -23951,6 +24086,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos des fibres musculaires de type IIa :",
+      "c": 4,
       "options": [
         {
           "t": "Fibres rapides à métabolisme mixte aérobie-anaérobie, assez résistantes à la fatigue",
@@ -23973,6 +24109,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le cortex préfrontal joue un rôle principal dans quelle composante du mouvement volontaire ?",
+      "c": 2,
       "options": [
         {
           "t": "La prise de décision et la planification du mouvement",
@@ -23995,6 +24132,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos du système nerveux somatique :",
+      "c": 2,
       "options": [
         {
           "t": "Il relie le SNC au muscle squelettique par un seul motoneurone",
@@ -24017,6 +24155,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le cortex somatosensoriel primaire est localisé anatomiquement à :",
+      "c": 2,
       "options": [
         {
           "t": "Le gyrus post-central du lobe pariétal",
@@ -24039,6 +24178,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le système limbique regroupe principalement quelles structures cérébrales ?",
+      "c": 2,
       "options": [
         {
           "t": "Hippocampe, amygdale, gyrus cingulaire et hypothalamus",
@@ -24061,6 +24201,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos des dermatomes :",
+      "c": 2,
       "options": [
         {
           "t": "Chaque dermatome correspond à la zone cutanée innervée par une racine dorsale donnée",
@@ -24083,6 +24224,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une contraction isotonique concentrique du biceps, on observe que :",
+      "c": 4,
       "options": [
         {
           "t": "Le sarcomère raccourcit par glissement des filaments d'actine vers son centre",
@@ -24105,6 +24247,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une hyperalgésie autour d'une plaie récente. Quel mécanisme principal explique ce phénomène ?",
+      "c": 2,
       "options": [
         {
           "t": "Sensibilisation périphérique par les médiateurs inflammatoires",
@@ -24127,6 +24270,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les voies modulatrices descendantes de la douleur :",
+      "c": 2,
       "options": [
         {
           "t": "Les voies « OFF » freinent la transmission ascendante via des opioïdes endogènes",
@@ -24149,6 +24293,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos de l'action sympathique versus parasympathique sur le cœur :",
+      "c": 2,
       "options": [
         {
           "t": "Le sympathique accélère le rythme via la noradrénaline agissant sur les récepteurs β1 du nœud sinusal",
@@ -24171,6 +24316,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mécanisme rend le potentiel d'action plus négatif que le potentiel de repos en fin de cycle ?",
+      "c": 3,
       "options": [
         {
           "t": "Sortie persistante de K+ par des canaux voltage-dependants a fermeture lente",
@@ -24193,6 +24339,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la régulation de la glycémie, choisissez l'association correcte :",
+      "c": 5,
       "options": [
         {
           "t": "Cellules beta - insuline - hypoglycemiante",
@@ -24215,6 +24362,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos du tronc sympathique paravertébral :",
+      "c": 2,
       "options": [
         {
           "t": "Ses ganglions relaient les fibres preganglionnaires sympathiques vers de longues postganglionnaires",
@@ -24237,6 +24385,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un nouveau-né reçoit des anticorps maternels via le placenta. De quelle immunité s'agit-il précisément ?",
+      "c": 6,
       "options": [
         {
           "t": "Immunité passive naturelle",
@@ -24259,6 +24408,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'élément clé de la régulation neuroendocrine intégrative de l'organisme :",
+      "c": 5,
       "options": [
         {
           "t": "L'hypothalamus, qui couple systeme nerveux autonome et axe hypophysaire",
@@ -24281,6 +24431,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte concernant les anticorps :",
+      "c": 6,
       "options": [
         {
           "t": "Immunoglobulines secretees par les plasmocytes issus des lymphocytes B actives",
@@ -24303,6 +24454,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'effet permissif des hormones thyroïdiennes sur les hormones sexuelles signifie que :",
+      "c": 5,
       "options": [
         {
           "t": "Sans T3/T4, l'action des hormones sexuelles sur la maturation génitale est défaillante",
@@ -24325,6 +24477,7 @@ const QUESTIONS = {
     },
     {
       "q": "La synergie entre glucagon et cortisol sur la glycémie correspond à quel phénomène ?",
+      "c": 5,
       "options": [
         {
           "t": "Effet combiné supérieur à la somme des effets isolés de chaque hormone",
@@ -24347,6 +24500,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte concernant la voie réticulospinale :",
+      "c": 2,
       "options": [
         {
           "t": "Elle assure l'ajustement postural anticipé et le contrôle des automatismes",
@@ -24369,6 +24523,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos de la voie vestibulospinale :",
+      "c": 2,
       "options": [
         {
           "t": "Elle stabilise le corps contre la gravité via l'intégration vestibulaire",
@@ -24391,6 +24546,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient atteint d'une maladie auto-immune de type diabète de type 1 présente quel mécanisme physiopathologique ?",
+      "c": 6,
       "options": [
         {
           "t": "Une destruction des cellules bêta pancréatiques par le système immunitaire",
@@ -24413,6 +24569,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'organisation du système nerveux, indiquez la réponse correcte :",
+      "c": 2,
       "options": [
         {
           "t": "Le SNC comprend l'encéphale et la moelle épinière ; le SNP, les nerfs et ganglions",
@@ -24435,6 +24592,7 @@ const QUESTIONS = {
     },
     {
       "q": "En position anatomique, quelle est la position du petit doigt par rapport à l'index ?",
+      "c": 7,
       "options": [
         {
           "t": "Caudale",
@@ -24457,6 +24615,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez quelle caractéristique du compartiment extracellulaire est CORRECTE :",
+      "c": 1,
       "options": [
         {
           "t": "Il est chargé négativement par rapport au compartiment intracellulaire.",
@@ -24479,6 +24638,7 @@ const QUESTIONS = {
     },
     {
       "q": "Contrairement à ce qui caractérise la rétro-inhibition, la rétroactivation (ou feedback positif) :",
+      "c": 1,
       "options": [
         {
           "t": "amplifie le stimulus qui l'a déclenchée.",
@@ -24501,6 +24661,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des réponses de l'organisme n'est pas une réponse homéostatique de la température corporelle :",
+      "c": 1,
       "options": [
         {
           "t": "Transpirer quand il fait très chaud.",
@@ -24523,6 +24684,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE à propos de la moelle épinière :",
+      "c": 2,
       "options": [
         {
           "t": "Ses racines dorsales sont formées par des axones efférents.",
@@ -24545,6 +24707,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la localisation du cortex moteur primaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Dans le gyrus post-central du lobe pariétal.",
@@ -24567,6 +24730,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'association INCORRECTE entre les structures du SNC et la région où elles se trouvent :",
+      "c": 2,
       "options": [
         {
           "t": "Substance noire – diencéphale.",
@@ -24589,6 +24753,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction des villosités arachnoïdiennes ?",
+      "c": 2,
       "options": [
         {
           "t": "Sécréter le LCR à partir du sang capillaire de l'espace sous-arachnoïdien",
@@ -24611,6 +24776,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle partie du neurone se produisent les potentiels d'action et quelle structure de la cellule le rend-il possible ?",
+      "c": 3,
       "options": [
         {
           "t": "Sur les dendrites, grâce aux récepteurs ionotropes des neurotransmetteurs",
@@ -24633,6 +24799,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle caractéristique est propre au potentiel de membrane de repos du neurone ?",
+      "c": 3,
       "options": [
         {
           "t": "Le sodium extracellulaire rentre dans la cellule à travers des canaux à fonction passive.",
@@ -24655,6 +24822,7 @@ const QUESTIONS = {
     },
     {
       "q": "Normalement le potentiel de la membrane du neurone au repos est -70 mV. En conditions expérimentales, quel paramètre faut-il modifier pour rendre le potentiel de membrane plus négatif ?",
+      "c": 3,
       "options": [
         {
           "t": "Augmenter la perméabilité de la membrane au potassium",
@@ -24677,6 +24845,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un neurotransmetteur est considéré inhibiteur car :",
+      "c": 3,
       "options": [
         {
           "t": "Il bloque la libération d'autres neurotransmetteurs dans la fente synaptique",
@@ -24699,6 +24868,7 @@ const QUESTIONS = {
     },
     {
       "q": "La propagation du potentiel d'action est unidirectionnelle grâce à :",
+      "c": 3,
       "options": [
         {
           "t": "L'activation de la pompe Na+/K+",
@@ -24721,6 +24891,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf trijumeau (ou trigéminal) :",
+      "c": 2,
       "options": [
         {
           "t": "est un nerf purement sensitif assurant la sensibilité de la face.",
@@ -24743,6 +24914,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos des voies sensitives spinothalamiques :",
+      "c": 2,
       "options": [
         {
           "t": "Elles transportent jusqu'au cortex cérébral les informations de douleur et température",
@@ -24765,6 +24937,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce que la sensibilisation périphérique ?",
+      "c": 2,
       "options": [
         {
           "t": "La douleur qui est perçue dans une zone de l'organisme différente de la zone qui cause la douleur.",
@@ -24787,6 +24960,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE à propos du système sympathique :",
+      "c": 2,
       "options": [
         {
           "t": "Les neurones pré-ganglionnaires émergent dans la région thoracique de la moelle.",
@@ -24809,6 +24983,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel, parmi les évènements suivants, n'a PAS lieu lors du coup de force (ou propulsion) généré par la tête de la myosine ?",
+      "c": 4,
       "options": [
         {
           "t": "Séparation de l'ADP de la tête de la myosine.",
@@ -24831,6 +25006,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la réponse correcte à propos des muscles qui produisent les mouvements précis des doigts :",
+      "c": 4,
       "options": [
         {
           "t": "Chaque motoneurone innerve un grand nombre de fibres musculaires.",
@@ -24853,6 +25029,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez quel est l'ordre correct des évènements :",
+      "c": 4,
       "options": [
         {
           "t": "Sortie du Ca2+ du réticulum sarcoplasmique / Potentiel d'action musculaire / Exocytose de l'Ach du neurone / Propagation du PA dans les tubules T.",
@@ -24875,6 +25052,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mécanisme produit le potentiel d'action dans la fibre musculaire ?",
+      "c": 3,
       "options": [
         {
           "t": "La fixation de l'acétylcholine sur ses récepteurs de la plaque motrice ouvre des canaux sodiques.",
@@ -24897,6 +25075,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les mécanismes de sommation musculaire :",
+      "c": 4,
       "options": [
         {
           "t": "La sommation temporelle nécessite une fréquence de stimulation nerveuse élevée",
@@ -24919,6 +25098,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les fibres de type I :",
+      "c": 4,
       "options": [
         {
           "t": "Sont peu résistantes à la fatigue dû à leur petite taille",
@@ -24941,6 +25121,7 @@ const QUESTIONS = {
     },
     {
       "q": "La voie cortico-spinale (pyramidale) latérale :",
+      "c": 2,
       "options": [
         {
           "t": "Est une voie de contrôle moteur involontaire.",
@@ -24963,6 +25144,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez quelle est l'association CORRECTE :",
+      "c": 2,
       "options": [
         {
           "t": "Cervelet – génération de patrons de mouvements.",
@@ -24985,6 +25167,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel type de récepteur est responsable de déclencher la réponse réflexe dans un réflexe patellaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Des fuseaux neuromusculaires.",
@@ -25007,6 +25190,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ___ est activé pour commander l'exécution des mouvements, tandis que le ___ est responsable de la planification du mouvement.",
+      "c": 2,
       "options": [
         {
           "t": "cortex préfrontal / cortex prémoteur",
@@ -25029,6 +25213,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les adaptations neurales induites par l'entraînement de la force :",
+      "c": 4,
       "options": [
         {
           "t": "Apparaissent quelques semaines après le début de l'entraînement",
@@ -25051,6 +25236,7 @@ const QUESTIONS = {
     },
     {
       "q": "La douleur d'apparition retardée (ou DOMS) :",
+      "c": 4,
       "options": [
         {
           "t": "Peut être expliquée par l'accumulation de médiateurs inflammatoires et l'activation de nocicepteurs.",
@@ -25073,6 +25259,7 @@ const QUESTIONS = {
     },
     {
       "q": "En ce qui concerne l'adénohypophyse, indiquez la réponse CORRECTE :",
+      "c": 5,
       "options": [
         {
           "t": "Elle n'est pas une glande mais une zone de stockage et de libération d'hormones.",
@@ -25095,6 +25282,7 @@ const QUESTIONS = {
     },
     {
       "q": "Complétez la phrase à propos de la régulation des hormones hypophysaires : la sécrétion de ___ est contrôlée par un facteur de libération et un facteur d'inhibition, tandis que la sécrétion de ___ est régulée par des mécanismes de rétro-inhibition.",
+      "c": 5,
       "options": [
         {
           "t": "Prolactine / hormone de croissance",
@@ -25117,6 +25305,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE à propos des hormones thyroïdiennes :",
+      "c": 5,
       "options": [
         {
           "t": "Elles agissent en synergie avec l'insuline et abaissent la glycémie.",
@@ -25139,6 +25328,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos du cycle menstruel :",
+      "c": 5,
       "options": [
         {
           "t": "Le pic de progestérone vers le 14e jour du cycle induit l'ovulation.",
@@ -25161,6 +25351,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la réponse au stress :",
+      "c": 5,
       "options": [
         {
           "t": "Seul le système nerveux sympathique est activé et assure à lui seul la réponse au stress.",
@@ -25183,6 +25374,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les rythmes circadiens de l'organisme :",
+      "c": 5,
       "options": [
         {
           "t": "Ils dépendent de la mélatonine, hormone trophique sécrétée par l'hypothalamus.",
@@ -25205,6 +25397,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez laquelle des modifications hormonales induites par l'exercice physique est CORRECTE :",
+      "c": 5,
       "options": [
         {
           "t": "Les productions d'adrénaline et de cortisol sont augmentées lors de l'exercice, seulement chez les sujets entraînés.",
@@ -25227,6 +25420,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le mécanisme immunitaire utilisé par les vaccins pour produire l'immunisation ?",
+      "c": 6,
       "options": [
         {
           "t": "La production de lymphocytes mémoire spécifiques",
@@ -25249,6 +25443,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'inflammation :",
+      "c": 6,
       "options": [
         {
           "t": "Résulte d'une vasodilatation et d'une augmentation de la perméabilité capillaire.",
@@ -25271,6 +25466,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les anticorps :",
+      "c": 6,
       "options": [
         {
           "t": "Sont des immunoglobulines synthétisées par les lymphocytes T.",
@@ -25293,6 +25489,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quel type de neurofibres la vitesse de propagation de l'influx nerveux est-elle la plus grande ?",
+      "c": 3,
       "options": [
         {
           "t": "Dans les neurofibres faiblement myélinisées de petit diamètre.",
@@ -25315,6 +25512,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le compartiment liquide qui contient une plus grande concentration de potassium est :",
+      "c": 1,
       "options": [
         {
           "t": "Le liquide intracellulaire",
@@ -25337,6 +25535,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les caractéristiques anatomiques suivantes, laquelle n'appartient pas aux articulations synoviales ?",
+      "c": 7,
       "options": [
         {
           "t": "La présence de cartilage articulaire.",
@@ -25359,6 +25558,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur le système nerveux autonome :",
+      "c": 2,
       "options": [
         {
           "t": "Comprend le système somatique qui contrôle les viscères.",
@@ -25381,6 +25581,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des hormones suivantes est une hormone trophique sécrétée par l'adénohypophyse :",
+      "c": 5,
       "options": [
         {
           "t": "ADH.",
@@ -25403,6 +25604,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur les articulations :",
+      "c": 7,
       "options": [
         {
           "t": "Les articulations cartilagineuses sont classées uniquement comme synarthroses.",
@@ -25425,6 +25627,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'homéostasie est :",
+      "c": 1,
       "options": [
         {
           "t": "L'équilibre dynamique des paramètres du milieu intérieur.",
@@ -25447,6 +25650,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le parcours du liquide céphalo-rachidien ?",
+      "c": 2,
       "options": [
         {
           "t": "Ventricules – espace sous-arachnoïdien – espace sous-dural – sang veineux.",
@@ -25469,6 +25673,7 @@ const QUESTIONS = {
     },
     {
       "q": "La capacité d'un tissu ou d'un organe spécifique de réagir à la présence d'une hormone dépend :",
+      "c": 5,
       "options": [
         {
           "t": "de la concentration de l'hormone dans le sang uniquement.",
@@ -25491,6 +25696,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des réponses suivantes n'EST PAS une fonction des os :",
+      "c": 7,
       "options": [
         {
           "t": "Soutenir l'organisme en collaboration avec les muscles.",
@@ -25513,6 +25719,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une infection qui atteint l'estomac et le lobe gauche du foie sera localisée dans quelle région de la cavité abdominale ?",
+      "c": 7,
       "options": [
         {
           "t": "Hypocondre gauche",
@@ -25535,6 +25742,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si une personne reçoit un coup très fort sur la tête et perd l'audition, quelle région de l'encéphale a été endommagée ?",
+      "c": 2,
       "options": [
         {
           "t": "Cortex du lobe occipital",
@@ -25557,6 +25765,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le poignet est ___ par rapport au coude :",
+      "c": 7,
       "options": [
         {
           "t": "Distal.",
@@ -25579,6 +25788,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur le muscle lisse :",
+      "c": 4,
       "options": [
         {
           "t": "C'est un muscle involontaire contrôlé par le système nerveux somatique",
@@ -25601,6 +25811,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'association « hormone-effet » CORRECTE :",
+      "c": 5,
       "options": [
         {
           "t": "Calcitonine – activation de la vitamine D3 pour augmenter la calcémie.",
@@ -25623,6 +25834,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez laquelle des réponses suivantes est une rétro-inhibition :",
+      "c": 1,
       "options": [
         {
           "t": "Les contractions utérines lors de l'accouchement.",
@@ -25645,6 +25857,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les endroits où l'influx des neurones moteurs passe des terminaisons nerveuses à la membrane des cellules musculaires squelettiques sont :",
+      "c": 3,
       "options": [
         {
           "t": "les jonctions neuromusculaires.",
@@ -25667,6 +25880,7 @@ const QUESTIONS = {
     },
     {
       "q": "La méninge la plus profonde, qui est composée de tissu délicat et adhère au tissu cérébral, est :",
+      "c": 2,
       "options": [
         {
           "t": "la dure-mère.",
@@ -25689,6 +25903,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les ions qui pénètrent dans le sarcoplasme pendant le déclenchement du potentiel d'action sont :",
+      "c": 4,
       "options": [
         {
           "t": "des ions calcium.",
@@ -25711,6 +25926,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les compartiments liquidiens du corps sont :",
+      "c": 1,
       "options": [
         {
           "t": "iso-osmotiques entre eux, autour de 300 mOsm/L, malgré des compositions ioniques différentes.",
@@ -25733,6 +25949,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur le potentiel d'action :",
+      "c": 3,
       "options": [
         {
           "t": "Les canaux de K+ voltage-dépendants s'ouvrent en premier ce qui permet la dépolarisation",
@@ -25755,6 +25972,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur la contraction musculaire :",
+      "c": 4,
       "options": [
         {
           "t": "L'acétylcholine fixée sur ses récepteurs ouvre des canaux qui font entrer du sodium dans la fibre.",
@@ -25777,6 +25995,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur l'hypophyse :",
+      "c": 5,
       "options": [
         {
           "t": "L'adénohypophyse libère 6 hormones trophiques dans la circulation systémique.",
@@ -25799,6 +26018,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur le cycle des ponts d'union de la contraction musculaire :",
+      "c": 4,
       "options": [
         {
           "t": "L'ATP s'hydrolyse ce qui entraîne la séparation de l'actine et de la myosine.",
@@ -25821,6 +26041,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente des cellules sanguines qui ont perdu leur volume et ont un aspect « crénelé », quelle est la cause la plus probable ?",
+      "c": 1,
       "options": [
         {
           "t": "Le plasma est hypertonique, l'eau quitte la cellule par osmose qui se ratatine.",
@@ -25843,6 +26064,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les « sacs » de tissu conjonctif remplis de liquide pour favoriser le glissement d'un muscle sur l'os sont appelés :",
+      "c": 7,
       "options": [
         {
           "t": "bourses synoviales.",
@@ -25865,6 +26087,7 @@ const QUESTIONS = {
     },
     {
       "q": "La dorsiflexion :",
+      "c": 7,
       "options": [
         {
           "t": "Se fait autour d'un axe longitudinal",
@@ -25887,6 +26110,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les définitions suivantes, laquelle est vraie au sujet de la classification des articulations ?",
+      "c": 7,
       "options": [
         {
           "t": "Les synoviales sont des articulations mobiles à cavité articulaire.",
@@ -25909,6 +26133,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tissu conjonctif qui recouvre le sarcolemme de chaque fibre musculaire se nomme :",
+      "c": 4,
       "options": [
         {
           "t": "épimysium.",
@@ -25931,6 +26156,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE sur les mouvements d'eau entre plasma et liquide interstitiel dans les capillaires :",
+      "c": 1,
       "options": [
         {
           "t": "Filtration au pôle artériel, réabsorption au pôle veineux et drainage du surplus par les lymphatiques.",
@@ -25953,6 +26179,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une contraction isotonique concentrique d'un muscle squelettique :",
+      "c": 4,
       "options": [
         {
           "t": "les sarcomères raccourcissent.",
@@ -25975,6 +26202,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le cortex moteur primaire, l'aire de Broca et le cortex prémoteur sont situés dans :",
+      "c": 2,
       "options": [
         {
           "t": "le lobe frontal.",
@@ -25997,6 +26225,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lesquelles des voies suivantes acheminent les vibrations et le toucher discriminant qui peut être localisé avec précision ?",
+      "c": 2,
       "options": [
         {
           "t": "Le cordon dorsal-lemnisque médial.",
@@ -26019,6 +26248,7 @@ const QUESTIONS = {
     },
     {
       "q": "La gaine de tissu conjonctif qui entoure un fascicule de neurofibres est :",
+      "c": 2,
       "options": [
         {
           "t": "l'épinèvre.",
@@ -26041,6 +26271,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le réflexe qui provoque l'activation réciproque du muscle antagoniste est :",
+      "c": 2,
       "options": [
         {
           "t": "le réflexe d'extension croisée.",
@@ -26063,6 +26294,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse INCORRECTE sur les nerfs crâniens :",
+      "c": 2,
       "options": [
         {
           "t": "Il en existe douze paires émergeant de l'encéphale.",
@@ -26085,6 +26317,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la contraction musculaire, quelle est la fonction du calcium ?",
+      "c": 4,
       "options": [
         {
           "t": "Augmenter le potentiel d'action transmis le long du sarcolemme.",
@@ -26107,6 +26340,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une contraction longue et régulière provoquée par une stimulation très rapide du muscle, sans aucun signe de relâchement, s'appelle :",
+      "c": 4,
       "options": [
         {
           "t": "secousse musculaire.",
@@ -26129,6 +26363,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le potentiel de repos d'un neurone :",
+      "c": 3,
       "options": [
         {
           "t": "Coïncide avec le potentiel d'équilibre du K+ car la membrane est perméable à cet ion.",
@@ -26151,6 +26386,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez quel est le parcours du côlon descendant :",
+      "c": 7,
       "options": [
         {
           "t": "De l'hypocondre droit jusqu'à l'hypocondre gauche.",
@@ -26173,6 +26409,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la localisation de la cheville par rapport au genou :",
+      "c": 7,
       "options": [
         {
           "t": "Supérieure.",
@@ -26195,6 +26432,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez quelle est la réponse CORRECTE sur l'axe transversal :",
+      "c": 7,
       "options": [
         {
           "t": "Intersection des plans sagittal et transversal.",
@@ -26217,6 +26455,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquer la localisation de l'utérus par rapport à la vessie :",
+      "c": 7,
       "options": [
         {
           "t": "Supérieure.",
@@ -26239,6 +26478,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des organes suivants ne se trouve pas dans l'épigastre ?",
+      "c": 7,
       "options": [
         {
           "t": "Reins.",
@@ -26261,6 +26501,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si nous éloignons la jambe gauche par rapport au plan médian sagittal, quel type de mouvement faisons-nous ?",
+      "c": 7,
       "options": [
         {
           "t": "Abduction.",
@@ -26283,6 +26524,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles sont les cellules gliales responsables de la production de la myéline dans le système nerveux central ?",
+      "c": 2,
       "options": [
         {
           "t": "Les oligodendrocytes.",
@@ -26305,6 +26547,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des affirmations suivantes est correcte ?",
+      "c": 2,
       "options": [
         {
           "t": "Le liquide céphalorachidien est produit dans l'espace sous-arachnoïdien et draine dans la circulation veineuse à travers les sinus veineux.",
@@ -26327,6 +26570,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle région du tronc cérébral se trouvent les colliculi quadrijumeaux ?",
+      "c": 2,
       "options": [
         {
           "t": "Dans la partie dorsale du mésencéphale.",
@@ -26349,6 +26593,7 @@ const QUESTIONS = {
     },
     {
       "q": "Par rapport à l'extérieur, l'intérieur d'un neurone au repos sera :",
+      "c": 3,
       "options": [
         {
           "t": "Chargé négativement, d'environ -70 mV.",
@@ -26371,6 +26616,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la structure du système nerveux central qui participe à la coordination du mouvement et aide à le rendre précis et harmonieux ?",
+      "c": 2,
       "options": [
         {
           "t": "Les noyaux gris centraux.",
@@ -26393,6 +26639,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ion ___ est impliqué dans la phase de dépolarisation du potentiel d'action, et le ___ est responsable de la repolarisation.",
+      "c": 3,
       "options": [
         {
           "t": "Sodium / calcium",
@@ -26415,6 +26662,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le réflexe spinal croisé :",
+      "c": 2,
       "options": [
         {
           "t": "associe la flexion du membre stimulé à l'extension du membre controlatéral.",
@@ -26437,6 +26685,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les synapses chimiques :",
+      "c": 3,
       "options": [
         {
           "t": "nécessitent l'entrée de calcium dans la terminaison présynaptique pour libérer le neurotransmetteur.",
@@ -26459,6 +26708,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les corps cellulaires se regroupent et forment des ___ dans le système nerveux central et des ___ dans le système nerveux périphérique.",
+      "c": 2,
       "options": [
         {
           "t": "Tractus / noyaux",
@@ -26481,6 +26731,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce que ça veut dire que le potentiel d'équilibre du potassium soit -90 mV ?",
+      "c": 3,
       "options": [
         {
           "t": "À ce potentiel, le gradient de concentration du K+ est équilibré par le gradient électrique.",
@@ -26503,6 +26754,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des affirmations suivantes sur le potentiel d'action est correcte ?",
+      "c": 3,
       "options": [
         {
           "t": "Lors de la période réfractaire absolue les canaux de sodium sont inactifs.",
@@ -26525,6 +26777,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte sur le système nerveux parasympathique :",
+      "c": 2,
       "options": [
         {
           "t": "Les ganglions sont paravertébraux.",
@@ -26547,6 +26800,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse INCORRECTE par rapport à la moelle épinière :",
+      "c": 2,
       "options": [
         {
           "t": "L'information sensitive entre par la racine ventrale de la moelle.",
@@ -26569,6 +26823,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte par rapport au squelette appendiculaire :",
+      "c": 7,
       "options": [
         {
           "t": "Il comprend le crâne, la cage thoracique et la colonne vertébrale.",
@@ -26591,6 +26846,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qu'une synostose ?",
+      "c": 7,
       "options": [
         {
           "t": "La fusion complète des sutures du crâne chez l'adulte.",
@@ -26613,6 +26869,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels types d'articulations ont du cartilage ?",
+      "c": 7,
       "options": [
         {
           "t": "Fibreuses et cartilagineuses.",
@@ -26635,6 +26892,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les membranes interosseuses sont caractéristiques :",
+      "c": 7,
       "options": [
         {
           "t": "Des articulations entre les muscles et les os.",
@@ -26657,6 +26915,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez le rôle des muscles synergiques :",
+      "c": 4,
       "options": [
         {
           "t": "Ils fixent l'origine des muscles agonistes.",
@@ -26679,6 +26938,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte par rapport aux différents types de fibres musculaires :",
+      "c": 4,
       "options": [
         {
           "t": "Les fibres de type I sont les plus grandes et donc les plus rapides.",
@@ -26701,6 +26961,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le rôle des tubules T ?",
+      "c": 4,
       "options": [
         {
           "t": "Conduire rapidement les potentiels d'action au sein de la fibre musculaire.",
@@ -26723,6 +26984,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte sur le processus de la contraction musculaire :",
+      "c": 4,
       "options": [
         {
           "t": "La tropomyosine permet l'hydrolyse de l'ATP nécessaire pour la contraction.",
@@ -26745,6 +27007,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du cycle de contraction, qu'est-ce qui arrive en raison de l'union de l'ATP à la myosine ?",
+      "c": 4,
       "options": [
         {
           "t": "La liaison de l'actine et de la myosine.",
@@ -26767,6 +27030,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles qui exécutent des mouvements précis ont des unités motrices ___ que les muscles porteurs qui développent plutôt de la force.",
+      "c": 4,
       "options": [
         {
           "t": "plus grandes",
@@ -26789,6 +27053,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte sur la myosine :",
+      "c": 4,
       "options": [
         {
           "t": "Sa tête globulaire porte le site d'union à l'ATP et l'activité ATPase.",
@@ -26811,6 +27076,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qui se passe dans la plaque motrice après la libération de l'acétylcholine ?",
+      "c": 3,
       "options": [
         {
           "t": "L'ouverture de canaux potassiques voltage-dépendants.",
@@ -26833,6 +27099,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un entraînement avec un poids faible et un grand nombre de répétitions améliore quel type de force ?",
+      "c": 4,
       "options": [
         {
           "t": "La force maximale.",
@@ -26855,6 +27122,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte sur les adaptations du muscle à l'entraînement physique :",
+      "c": 4,
       "options": [
         {
           "t": "La force d'un muscle est proportionnelle à la surface de sa section transversale.",
@@ -26877,6 +27145,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'association INCORRECTE :",
+      "c": 5,
       "options": [
         {
           "t": "TSH – stimulation de la glande thyroïde.",
@@ -26899,6 +27168,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces hormones n'est pas sécrétée par l'hypothalamus ?",
+      "c": 5,
       "options": [
         {
           "t": "GnRH.",
@@ -26921,6 +27191,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'hypophyse :",
+      "c": 5,
       "options": [
         {
           "t": "est une structure physiquement séparée de l'hypothalamus.",
@@ -26943,6 +27214,7 @@ const QUESTIONS = {
     },
     {
       "q": "La neurohypophyse, ou lobe postérieur de l'hypophyse, n'est pas une vraie glande endocrine parce que :",
+      "c": 5,
       "options": [
         {
           "t": "elle ne fait qu'entreposer des hormones déjà synthétisées par l'hypothalamus.",
@@ -26965,6 +27237,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse INCORRECTE sur l'hypothalamus :",
+      "c": 5,
       "options": [
         {
           "t": "Il appartient au diencéphale et forme le plancher du troisième ventricule.",
@@ -26987,6 +27260,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse INCORRECTE sur la régulation de la calcémie :",
+      "c": 5,
       "options": [
         {
           "t": "La calcitonine stimule l'incorporation de calcium à l'os.",
@@ -27009,6 +27283,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des hormones suivantes influe directement sur la réabsorption de l'eau dans le rein ?",
+      "c": 5,
       "options": [
         {
           "t": "L'aldostérone.",
@@ -27031,6 +27306,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des hormones suivantes n'est pas une hormone trophique sécrétée par l'hypophyse antérieure ?",
+      "c": 5,
       "options": [
         {
           "t": "FSH.",
@@ -27053,6 +27329,7 @@ const QUESTIONS = {
     },
     {
       "q": "Durant la période postprandiale, la sécrétion d'insuline :",
+      "c": 5,
       "options": [
         {
           "t": "abaisse la glycémie en favorisant la captation et le stockage du glucose.",
@@ -27075,6 +27352,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'hormone de croissance (GH) :",
+      "c": 5,
       "options": [
         {
           "t": "agit sur la croissance via l'IGF-1 produite surtout par le rein.",
@@ -27097,6 +27375,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'hyperthyroïdie :",
+      "c": 5,
       "options": [
         {
           "t": "ralentit le métabolisme de base et provoque une bradycardie.",
@@ -27119,6 +27398,7 @@ const QUESTIONS = {
     },
     {
       "q": "La régulation du glucose nécessite la coordination de la sécrétion de l'insuline et du glucagon ; pour cela :",
+      "c": 5,
       "options": [
         {
           "t": "L'hyperglycémie inhibe la libération de l'insuline et stimule celle du glucagon.",
@@ -27141,6 +27421,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des hormones suivantes n'est pas stimulée par l'ACTH ?",
+      "c": 5,
       "options": [
         {
           "t": "Cortisol.",
@@ -27163,6 +27444,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une augmentation du taux de testostérone plasmatique :",
+      "c": 5,
       "options": [
         {
           "t": "stimule la libération hypothalamique de GnRH par rétrocontrôle positif.",
@@ -27185,6 +27467,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les rythmes circadiens :",
+      "c": 5,
       "options": [
         {
           "t": "n'influencent pas la sécrétion des hormones hypothalamiques.",
@@ -34626,6 +34909,7 @@ const QUESTIONS = {
   "structure2": [
     {
       "q": "Marc, 22 ans, étudiant kiné, doit citer les trois portions du pharynx du crânien vers le caudal. Quelle est la séquence anatomique correcte ?",
+      "c": 1,
       "options": [
         {
           "t": "Nasopharynx, oropharynx, laryngopharynx",
@@ -34648,6 +34932,7 @@ const QUESTIONS = {
     },
     {
       "q": "Camille, 19 ans, présente une fausse route alimentaire. Quelle structure du larynx empêche normalement le passage des aliments vers la trachée pendant la déglutition ?",
+      "c": 1,
       "options": [
         {
           "t": "L'épiglotte qui bascule pour fermer l'orifice laryngé",
@@ -34670,6 +34955,7 @@ const QUESTIONS = {
     },
     {
       "q": "La bifurcation de la trachée en bronches principales (carène) se projette en regard de quelle vertèbre ?",
+      "c": 1,
       "options": [
         {
           "t": "T4",
@@ -34692,6 +34978,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une bronchoscopie, l'interne note qu'un corps étranger s'est logé plus facilement dans la bronche principale droite. Pourquoi ?",
+      "c": 1,
       "options": [
         {
           "t": "Elle est plus courte et plus verticale que la gauche",
@@ -34714,6 +35001,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur une pièce anatomique pulmonaire, l'étudiant compte les lobes et scissures. Quelle description correspond au poumon gauche ?",
+      "c": 1,
       "options": [
         {
           "t": "2 lobes, 1 scissure, incisure cardiaque",
@@ -34736,6 +35024,7 @@ const QUESTIONS = {
     },
     {
       "q": "Léa, 28 ans, victime d'un pneumothorax traumatique, présente un affaissement pulmonaire. Quelle est la pression intra-pleurale normale au repos qui maintient le poumon collé à la paroi ?",
+      "c": 1,
       "options": [
         {
           "t": "-3 mmHg, sous-atmosphérique",
@@ -34758,6 +35047,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel pourcentage du volume d'air inspiré lors d'une inspiration calme est mobilisé par la contraction du diaphragme seul ?",
+      "c": 1,
       "options": [
         {
           "t": "60 à 75 %",
@@ -34780,6 +35070,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sophie, 24 ans, effectue une spirométrie. Elle inspire calmement puis prend une inspiration maximale au-delà de cette respiration. Quel volume vient-elle de mesurer ?",
+      "c": 1,
       "options": [
         {
           "t": "Volume de réserve inspiratoire (VRI)",
@@ -34802,6 +35093,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle capacité pulmonaire correspond à la somme VC + VRI + VRE et représente l'air maximal mobilisable volontairement ?",
+      "c": 1,
       "options": [
         {
           "t": "Capacité vitale",
@@ -34824,6 +35116,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un sujet a une PO2 alvéolaire de 104 mmHg et une PO2 du sang veineux capillaire de 40 mmHg. Quel est le gradient ΔPO2 favorisant la diffusion alvéolo-capillaire ?",
+      "c": 1,
       "options": [
         {
           "t": "+64 mmHg de l'alvéole vers le sang",
@@ -34846,6 +35139,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle loi physique explique que la quantité de gaz dissous dans le plasma est proportionnelle à sa pression partielle et à sa solubilité ?",
+      "c": 1,
       "options": [
         {
           "t": "Loi de Henry",
@@ -34868,6 +35162,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel pneumocyte est responsable de la synthèse du surfactant pulmonaire, indispensable à la stabilité alvéolaire ?",
+      "c": 1,
       "options": [
         {
           "t": "Pneumocyte de type II",
@@ -34890,6 +35185,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une molécule d'hémoglobine peut transporter combien de molécules de dioxygène, et grâce à quel élément précis ?",
+      "c": 1,
       "options": [
         {
           "t": "4 molécules d'O2 grâce à 4 ions Fe2+ dans 4 hèmes",
@@ -34912,6 +35208,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au repos, quelle est la saturation de l'hémoglobine dans le sang veineux systémique (PO2 = 40 mmHg) ?",
+      "c": 1,
       "options": [
         {
           "t": "75 %",
@@ -34934,6 +35231,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pierre, 35 ans, fait un effort intense. Quels facteurs vont déplacer la courbe de dissociation de l'hémoglobine vers la droite, augmentant la libération d'O2 aux tissus ?",
+      "c": 1,
       "options": [
         {
           "t": "↑Température, ↑PCO2, ↑[H+], ↑2,3-DPG",
@@ -34956,6 +35254,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mécanisme principal transporte le CO2 dans le sang (environ 70 % du total) ?",
+      "c": 1,
       "options": [
         {
           "t": "Sous forme d'ions bicarbonate HCO3- dans le plasma",
@@ -34978,6 +35277,7 @@ const QUESTIONS = {
     },
     {
       "q": "À haute altitude, quel mécanisme rétroactif négatif est déclenché par l'hypoxie pour augmenter le transport d'O2 ?",
+      "c": 1,
       "options": [
         {
           "t": "Sécrétion rénale d'érythropoïétine stimulant l'érythropoïèse",
@@ -35000,6 +35300,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la pression moyenne caractéristique de la circulation pulmonaire, qualifiée de système à basse pression ?",
+      "c": 2,
       "options": [
         {
           "t": "Environ 10 mmHg",
@@ -35022,6 +35323,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans une zone alvéolaire mal aérée (par exemple par bouchon muqueux), quel ajustement local va se produire pour optimiser le rapport ventilation/perfusion ?",
+      "c": 1,
       "options": [
         {
           "t": "Vasoconstriction artériolaire locale par basse PO2",
@@ -35044,6 +35346,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un infarctus pulmonaire provoque l'absence de perfusion dans une zone bien ventilée. Comment se nomme la conséquence physiopathologique ?",
+      "c": 1,
       "options": [
         {
           "t": "Espace fonctionnel mort (V/Q très élevé)",
@@ -35066,6 +35369,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel groupe respiratoire bulbaire est principalement responsable de l'inspiration et émet ses influx via les nerfs phréniques ?",
+      "c": 1,
       "options": [
         {
           "t": "Groupe respiratoire dorsal (GRD)",
@@ -35088,6 +35392,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où sont localisés les chémorécepteurs périphériques qui détectent la PCO2, le pH et la PO2 (si <60 mmHg) du sang artériel ?",
+      "c": 1,
       "options": [
         {
           "t": "Corps carotidiens et corps aortiques",
@@ -35110,6 +35415,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel réflexe, déclenché par les mécanorécepteurs pulmonaires, prévient l'expansion excessive des poumons (volume courant > 1 L) ?",
+      "c": 1,
       "options": [
         {
           "t": "Réflexe de Hering-Breuer",
@@ -35132,6 +35438,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quel feuillet du péricarde se trouve la cavité péricardique qui contient le liquide lubrifiant ?",
+      "c": 2,
       "options": [
         {
           "t": "Entre les feuillets viscéral et pariétal du péricarde séreux",
@@ -35154,6 +35461,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle valve cardiaque sépare l'oreillette gauche du ventricule gauche ?",
+      "c": 2,
       "options": [
         {
           "t": "Valve mitrale (bicuspide)",
@@ -35176,6 +35484,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure permet la conduction rapide du potentiel d'action entre cardiomyocytes au niveau des disques intercalaires ?",
+      "c": 2,
       "options": [
         {
           "t": "Les gap junctions (jonctions communicantes)",
@@ -35198,6 +35507,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel courant ionique est responsable de la dépolarisation lente spontanée (potentiel pacemaker) des cellules du nœud sinusal entre -60 et -40 mV ?",
+      "c": 2,
       "options": [
         {
           "t": "Entrée lente de Na+ par les canaux funny If",
@@ -35220,6 +35530,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle particularité du potentiel d'action des cardiomyocytes contractiles, due à l'entrée de Ca2+ en plateau, empêche le tétanos cardiaque ?",
+      "c": 2,
       "options": [
         {
           "t": "Le plateau de phase 2 prolonge la période réfractaire",
@@ -35242,6 +35553,7 @@ const QUESTIONS = {
     },
     {
       "q": "Marc, en bonne santé, a un rythme cardiaque de 75 bpm. Pourquoi le nœud sinusal impose-t-il ce rythme et non le nœud AV ou le système His-Purkinje ?",
+      "c": 2,
       "options": [
         {
           "t": "Sa fréquence d'automatisme intrinsèque est la plus élevée des trois",
@@ -35264,6 +35576,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une stimulation parasympathique du nœud sinusal par l'acétylcholine produit quel effet ionique et cardiaque ?",
+      "c": 2,
       "options": [
         {
           "t": "↑Perméabilité K+, ↓Ca2+, ↓fréquence cardiaque",
@@ -35286,6 +35599,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel volume sanguin est éjecté par le ventricule gauche à chaque systole (volume d'éjection systolique) chez l'adulte au repos ?",
+      "c": 2,
       "options": [
         {
           "t": "Environ 80 mL",
@@ -35308,6 +35622,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la loi de Frank-Starling, comment la force de contraction du myocarde varie-t-elle ?",
+      "c": 2,
       "options": [
         {
           "t": "Elle augmente avec l'étirement initial des fibres myocardiques",
@@ -35330,6 +35645,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le débit cardiaque (Q) est calculé selon quelle formule fondamentale ?",
+      "c": 2,
       "options": [
         {
           "t": "Q = VES × FC",
@@ -35352,6 +35668,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle artère naît de l'aorte abdominale et irrigue le côlon gauche et la région rectale supérieure ?",
+      "c": 2,
       "options": [
         {
           "t": "Artère mésentérique inférieure",
@@ -35374,6 +35691,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles veines drainent le sang oxygéné des poumons vers le cœur, et dans quelle cavité se jettent-elles ?",
+      "c": 2,
       "options": [
         {
           "t": "4 veines pulmonaires dans l'oreillette gauche",
@@ -35396,6 +35714,7 @@ const QUESTIONS = {
     },
     {
       "q": "Marie, 40 ans, mesure 130/80 mmHg. Calculez sa pression artérielle moyenne (PAM) selon la formule clinique.",
+      "c": 2,
       "options": [
         {
           "t": "PAM ≈ 97 mmHg",
@@ -35418,6 +35737,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel facteur, parmi les trois influençant la résistance vasculaire (viscosité, longueur, diamètre), peut effectivement varier dans l'organisme pour réguler le flux ?",
+      "c": 2,
       "options": [
         {
           "t": "Le diamètre de la lumière vasculaire",
@@ -35440,6 +35760,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle pompe contribue principalement au retour veineux dans les membres inférieurs chez un sujet debout ?",
+      "c": 2,
       "options": [
         {
           "t": "La pompe musculaire squelettique des mollets",
@@ -35462,6 +35783,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors des échanges capillaires selon le principe de Starling, dans quelle direction s'oriente le flux à l'extrémité artérielle du capillaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Filtration : sortie de liquide vers l'interstitium",
@@ -35484,6 +35806,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mécanisme physiopathologique peut provoquer un œdème par excès de filtration capillaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Augmentation de la pression hydrostatique capillaire (Pc)",
@@ -35506,6 +35829,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant en kinésithérapie de 22 ans observe une coupe sagittale du thorax pour réviser l'anatomie du médiastin. Dans quelle subdivision du médiastin inférieur se situe le cœur ?",
+      "c": 2,
       "options": [
         {
           "t": "Médiastin antérieur",
@@ -35528,6 +35852,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un cours de physiologie cardiaque, l'enseignant insiste sur la couche moyenne de la paroi du cœur. Quelle est sa caractéristique fonctionnelle principale ?",
+      "c": 2,
       "options": [
         {
           "t": "Fibres musculaires striées à contraction involontaire",
@@ -35550,6 +35875,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente une péricardite aiguë avec inflammation de la cavité péricardique. Entre quelles structures se situe précisément cette cavité ?",
+      "c": 2,
       "options": [
         {
           "t": "Entre l'endocarde et le myocarde",
@@ -35572,6 +35898,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une régurgitation systolique due à un dysfonctionnement de la valve située entre l'oreillette gauche et le ventricule gauche. De quelle valve s'agit-il ?",
+      "c": 2,
       "options": [
         {
           "t": "Valve tricuspide",
@@ -35594,6 +35921,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ensemble de veines déverse son sang dans l'oreillette droite chez un sujet sain ?",
+      "c": 2,
       "options": [
         {
           "t": "Veines cave supérieure, cave inférieure et sinus coronaire",
@@ -35616,6 +35944,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le ventricule droit, quel élément anatomique relie la valve auriculo-ventriculaire aux muscles papillaires ?",
+      "c": 2,
       "options": [
         {
           "t": "Le septum interventriculaire",
@@ -35638,6 +35967,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cardiomyocyte contractile est observé en microscopie. Quelle caractéristique le distingue d'une fibre musculaire squelettique ?",
+      "c": 2,
       "options": [
         {
           "t": "Cellule allongée plurinucléée avec myofibrilles striées",
@@ -35660,6 +35990,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un test de transmission rapide du potentiel d'action entre cardiomyocytes adjacents, quelle structure du disque intercalaire est impliquée ?",
+      "c": 2,
       "options": [
         {
           "t": "Desmosomes",
@@ -35682,6 +36013,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une cellule pacemaker du nœud sinusal présente un potentiel de repos instable. Quel courant ionique génère la dépolarisation lente initiale (potentiel pacemaker) ?",
+      "c": 2,
       "options": [
         {
           "t": "Courant sortant de K+ par les canaux rectifiants",
@@ -35704,6 +36036,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un athlète de 28 ans présente une fréquence cardiaque de 48 bpm au repos. Quelle modification du tissu nodal explique cette bradycardie d'entraînement ?",
+      "c": 3,
       "options": [
         {
           "t": "Augmentation du tonus parasympathique au repos",
@@ -35726,6 +36059,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant le potentiel d'action d'un cardiomyocyte ventriculaire contractile, à quoi correspond la phase de plateau caractéristique ?",
+      "c": 2,
       "options": [
         {
           "t": "Entrée massive de Na+ par les canaux voltage-dépendants rapides",
@@ -35748,6 +36082,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi la phase de plateau du potentiel d'action cardiaque est-elle physiologiquement indispensable ?",
+      "c": 2,
       "options": [
         {
           "t": "Elle accélère la conduction dans le nœud auriculo-ventriculaire",
@@ -35770,6 +36105,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez un sujet sain en rythme sinusal, dans quel ordre le potentiel d'action est-il propagé dans le cœur ?",
+      "c": 2,
       "options": [
         {
           "t": "Nœud AV → nœud sinusal → oreillettes → faisceau de His → fibres de Purkinje",
@@ -35792,6 +36128,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une stimulation parasympathique vagale agit sur les cellules pacemaker du nœud sinusal. Quel est l'effet membranaire produit ?",
+      "c": 2,
       "options": [
         {
           "t": "Augmentation de la perméabilité au Na+ accélérant la dépolarisation",
@@ -35814,6 +36151,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la systole ventriculaire isovolumétrique, quel événement caractérise précisément cette phase du cycle cardiaque ?",
+      "c": 2,
       "options": [
         {
           "t": "Les valves auriculo-ventriculaires sont ouvertes et le sang remplit le ventricule",
@@ -35836,6 +36174,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans un cycle cardiaque normal, quelle situation ne se produit jamais physiologiquement ?",
+      "c": 2,
       "options": [
         {
           "t": "Valves auriculo-ventriculaires ouvertes et valves sigmoïdes fermées",
@@ -35858,6 +36197,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez un adulte de 70 kg au repos avec un volume télédiastolique de 140 mL et un volume télésystolique de 60 mL, quelle est la fraction d'éjection ?",
+      "c": 2,
       "options": [
         {
           "t": "Environ 43 %",
@@ -35880,6 +36220,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une mère enceinte de 32 ans a un débit cardiaque augmenté à l'effort. Quelle formule définit le débit cardiaque ?",
+      "c": 2,
       "options": [
         {
           "t": "Q = VES × FC",
@@ -35902,6 +36243,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'aorte se divise en quatre segments anatomiques. Quel segment de l'aorte donne naissance aux artères coronaires ?",
+      "c": 2,
       "options": [
         {
           "t": "Aorte ascendante",
@@ -35924,6 +36266,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle artère ne prend pas son origine au niveau de l'aorte abdominale descendante ?",
+      "c": 2,
       "options": [
         {
           "t": "Artère carotide commune",
@@ -35946,6 +36289,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tronc cœliaque est la première branche viscérale de l'aorte abdominale. Quelles sont ses trois branches terminales principales ?",
+      "c": 2,
       "options": [
         {
           "t": "Artère gastrique gauche, splénique et hépatique commune",
@@ -35968,6 +36312,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la classification fonctionnelle des vaisseaux, quel type assure principalement la régulation des résistances périphériques ?",
+      "c": 2,
       "options": [
         {
           "t": "Grandes artères élastiques de conduction",
@@ -35990,6 +36335,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une PA de 120/80 mmHg. Quelle est la pression artérielle moyenne calculée par la formule clinique standard ?",
+      "c": 2,
       "options": [
         {
           "t": "Environ 80 mmHg",
@@ -36012,6 +36358,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le retour veineux des membres inférieurs, quel mécanisme participe activement à propulser le sang vers le cœur contre la gravité ?",
+      "c": 2,
       "options": [
         {
           "t": "Pompe musculaire des mollets associée aux valvules veineuses",
@@ -36034,6 +36381,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le principe de Starling, quelle force favorise principalement la filtration de liquide à l'extrémité artérielle du capillaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Pression oncotique élevée du plasma capillaire",
@@ -36056,6 +36404,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente un œdème généralisé après une insuffisance hépatique avec hypoalbuminémie. Quel mécanisme principal explique cet œdème ?",
+      "c": 2,
       "options": [
         {
           "t": "Augmentation de la pression hydrostatique capillaire",
@@ -36078,6 +36427,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le système lymphatique participe au principe de Starling au niveau des capillaires sanguins. Quel est son rôle précis ?",
+      "c": 2,
       "options": [
         {
           "t": "Drainer le faible excès de liquide filtré non réabsorbé",
@@ -36100,6 +36450,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle spécialisation anatomique rend les capillaires lymphatiques plus perméables que les capillaires sanguins ?",
+      "c": 2,
       "options": [
         {
           "t": "Disjonctions endothéliales et filaments d'ancrage",
@@ -36122,6 +36473,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le baroréflexe est déclenché par une augmentation brutale de la pression artérielle. Quelle est la réponse efférente principale ?",
+      "c": 2,
       "options": [
         {
           "t": "Activation sympathique et augmentation de la FC",
@@ -36144,6 +36496,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où se situent les barorécepteurs artériels principaux impliqués dans le contrôle réflexe de la pression artérielle ?",
+      "c": 2,
       "options": [
         {
           "t": "Dans les sinus carotidiens et la crosse aortique",
@@ -36166,6 +36519,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un coureur démarre une course de 10 km. Quelle réponse cardiovasculaire à l'exercice est attendue dès les premières minutes ?",
+      "c": 3,
       "options": [
         {
           "t": "Augmentation du débit cardiaque par hausse conjointe du VES et de la FC",
@@ -36188,6 +36542,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le réflexe de Bainbridge contribue à la réponse cardiaque à l'effort. Par quel mécanisme s'active-t-il ?",
+      "c": 3,
       "options": [
         {
           "t": "Étirement des oreillettes par l'augmentation du retour veineux",
@@ -36210,6 +36565,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un exercice progressif jusqu'au maximum, comment évoluent FC et VES au-delà de 70% de l'intensité maximale ?",
+      "c": 3,
       "options": [
         {
           "t": "FC et VES augmentent tous deux jusqu'à l'épuisement",
@@ -36232,6 +36588,7 @@ const QUESTIONS = {
     },
     {
       "q": "La consommation maximale d'oxygène (VO2max) est définie par l'équation de Fick. Quelle est cette équation ?",
+      "c": 3,
       "options": [
         {
           "t": "VO2 = Q × différence artérioveineuse en O2",
@@ -36254,6 +36611,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient de 50 ans veut estimer sa fréquence cardiaque maximale pour calibrer son entraînement. Quelle est la formule classique utilisée ?",
+      "c": 3,
       "options": [
         {
           "t": "FCmax = 220 - âge",
@@ -36276,6 +36634,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un effort intense, la ventilation augmente précocement. Quel mécanisme initie cette hyperventilation avant même le début effectif de l'exercice ?",
+      "c": 3,
       "options": [
         {
           "t": "Commande centrale anticipatrice issue du cortex moteur",
@@ -36298,6 +36657,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant un exercice d'endurance soutenu, comment évolue typiquement la pression artérielle systolique ?",
+      "c": 3,
       "options": [
         {
           "t": "Elle augmente proportionnellement à l'intensité de l'exercice",
@@ -36320,6 +36680,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un kinésithérapeute évalue les adaptations cardiaques d'un cycliste élite. Quelle modification structurelle est typique du cœur d'athlète entraîné en endurance ?",
+      "c": 3,
       "options": [
         {
           "t": "Dilatation des cavités ventriculaires avec épaississement modéré et proportionné du myocarde",
@@ -36342,6 +36703,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante de 20 ans expérimente des courbatures 48 h après un entraînement excentrique inhabituel. Quel mécanisme principal explique ces DOMS ?",
+      "c": 3,
       "options": [
         {
           "t": "Accumulation de cristaux d'acide lactique dans les fibres",
@@ -36364,6 +36726,7 @@ const QUESTIONS = {
     },
     {
       "q": "Léa, étudiante de 20 ans, avale une bouchée de pain. Quelle est la seule étape volontaire du réflexe de déglutition ?",
+      "c": 4,
       "options": [
         {
           "t": "Étape orale : la langue pousse le bol contre le palais mou",
@@ -36386,6 +36749,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la digestion intestinale, quel type de contraction de l'intestin grêle assure principalement la digestion mécanique sans faire avancer le chyme ?",
+      "c": 4,
       "options": [
         {
           "t": "Segmentation : mélange du chyme sur place sans propulsion",
@@ -36408,6 +36772,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément du tube digestif présente une troisième couche musculaire en plus des couches circulaire interne et longitudinale externe ?",
+      "c": 4,
       "options": [
         {
           "t": "Estomac : ajout d'une couche musculaire oblique",
@@ -36430,6 +36795,7 @@ const QUESTIONS = {
     },
     {
       "q": "Marc, 35 ans, consomme un repas riche en lipides. Sous quelle forme principale les lipides quittent-ils l'entérocyte pour rejoindre la circulation ?",
+      "c": 4,
       "options": [
         {
           "t": "Chylomicrons captés par les capillaires lymphatiques",
@@ -36452,6 +36818,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure de l'intestin grêle augmente la surface d'absorption par des saillies de la membrane apicale des entérocytes ?",
+      "c": 4,
       "options": [
         {
           "t": "Microvillosités : saillies cytoplasmiques de la membrane apicale",
@@ -36474,6 +36841,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la régulation de la motilité du tube digestif, quelle affirmation est CORRECTE ?",
+      "c": 4,
       "options": [
         {
           "t": "Le parasympathique stimule la motilité via l'acétylcholine",
@@ -36496,6 +36864,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sophie, 25 ans, jeûne depuis 12 heures. Quel mécanisme hormonal explique sa sensation de faim ?",
+      "c": 4,
       "options": [
         {
           "t": "Sécrétion accrue de ghréline par l'estomac vide",
@@ -36518,6 +36887,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez une personne obèse, quelle anomalie hormonale est typiquement observée pour la leptine ?",
+      "c": 4,
       "options": [
         {
           "t": "Leptine élevée avec résistance fonctionnelle au récepteur",
@@ -36540,6 +36910,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel apport énergétique en kcal correspond à 1 gramme de lipides ?",
+      "c": 4,
       "options": [
         {
           "t": "9 kcal par gramme",
@@ -36562,6 +36933,7 @@ const QUESTIONS = {
     },
     {
       "q": "Romain, 22 ans, sprinte 6 secondes au départ d'un 100 m. Quel système énergétique domine pendant cet effort explosif initial ?",
+      "c": 3,
       "options": [
         {
           "t": "Métabolisme anaérobie alactique : ATP-phosphocréatine",
@@ -36584,6 +36956,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle enzyme catalyse la resynthèse rapide d'ATP à partir de la phosphocréatine dans le muscle ?",
+      "c": 4,
       "options": [
         {
           "t": "Créatine kinase : transfère le phosphate de la PCr à l'ADP",
@@ -36606,6 +36979,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un exercice intense, le lactate produit dans le muscle peut emprunter le cycle de Cori. Où ce cycle réalise-t-il la néoglucogenèse ?",
+      "c": 3,
       "options": [
         {
           "t": "Dans le foie, organe néoglucogénique principal",
@@ -36628,6 +37002,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos du lactate produit pendant l'exercice anaérobie, quelle affirmation est CORRECTE ?",
+      "c": 3,
       "options": [
         {
           "t": "Réoxydé en pyruvate, il resert de substrat à la voie aérobie",
@@ -36650,6 +37025,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel rendement énergétique en ATP est obtenu par mole de glucose oxydée complètement par voie aérobie ?",
+      "c": 4,
       "options": [
         {
           "t": "Environ 39 ATP par mole de glucose",
@@ -36672,6 +37048,7 @@ const QUESTIONS = {
     },
     {
       "q": "Antoine, 30 ans, court 2 heures à faible intensité. Quel substrat énergétique va prédominer ?",
+      "c": 3,
       "options": [
         {
           "t": "Métabolisme aérobie des lipides (β-oxydation des AG)",
@@ -36694,6 +37071,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle enzyme permet la libération des acides gras stockés dans le tissu adipeux pendant l'exercice ?",
+      "c": 3,
       "options": [
         {
           "t": "Lipase hormono-sensible, activée par les catécholamines",
@@ -36716,6 +37094,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel rôle joue la lipoprotéine lipase (LPL) dans le métabolisme lipidique ?",
+      "c": 4,
       "options": [
         {
           "t": "Hydrolyser les TG des lipoprotéines circulantes pour libérer les AG",
@@ -36738,6 +37117,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la β-oxydation, quelle affirmation est CORRECTE ?",
+      "c": 4,
       "options": [
         {
           "t": "Elle dégrade les acyl-CoA en acétyl-CoA dans la mitochondrie",
@@ -36760,6 +37140,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel danger métabolique apparaît lors d'une utilisation quasi exclusive des graisses comme substrat énergétique ?",
+      "c": 4,
       "options": [
         {
           "t": "Acidose métabolique par accumulation de corps cétoniques",
@@ -36782,6 +37163,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du métabolisme des acides aminés à l'effort, le foie convertit l'ammonium toxique en quelle molécule éliminée dans les urines ?",
+      "c": 4,
       "options": [
         {
           "t": "Urée issue de la désamination des acides aminés",
@@ -36804,6 +37186,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le seuil lactique de premier niveau (SL1) lors d'un test d'effort progressif, quelle définition est CORRECTE ?",
+      "c": 3,
       "options": [
         {
           "t": "Intensité où le lactate augmente de plus de 0,5 mmol/L entre deux prélèvements",
@@ -36826,6 +37209,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le modèle de Skinner & McLellan (1980), quelle est la phase recommandée pour les patients diabétiques ou présentant des pathologies cardiaques ?",
+      "c": 3,
       "options": [
         {
           "t": "Phase I : repos au seuil aérobie (<65% VO2max)",
@@ -36848,6 +37232,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle formule simple permet d'estimer la FC maximale théorique d'un patient lors d'un test d'effort ?",
+      "c": 3,
       "options": [
         {
           "t": "FCmax = 220 - âge",
@@ -36870,6 +37255,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle adaptation musculaire à l'entraînement d'endurance est observée chez un sportif chronique ?",
+      "c": 3,
       "options": [
         {
           "t": "Augmentation des mitochondries et des enzymes du cycle de Krebs",
@@ -36892,6 +37278,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les sphincters de la défécation, quelle affirmation est CORRECTE ?",
+      "c": 4,
       "options": [
         {
           "t": "Le sphincter externe est sous contrôle volontaire à partir de 18 mois",
@@ -36914,6 +37301,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la principale réserve de glucose dans l'organisme et où la trouve-t-on stockée ?",
+      "c": 4,
       "options": [
         {
           "t": "Glycogène, stocké dans le foie et les muscles",
@@ -36936,6 +37324,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi le glycogène musculaire ne peut-il pas servir à maintenir la glycémie ?",
+      "c": 4,
       "options": [
         {
           "t": "Le muscle manque de glucose-6-phosphatase pour libérer le glucose",
@@ -36958,6 +37347,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel pourcentage de la dépense énergétique totale représente le métabolisme de repos chez un adulte ?",
+      "c": 4,
       "options": [
         {
           "t": "60-75 % de la dépense énergétique totale",
@@ -36980,6 +37370,7 @@ const QUESTIONS = {
     },
     {
       "q": "Karim, 28 ans, prend un repas riche. Quelle hormone duodénale anorexigène est libérée en réponse à l'arrivée du chyme ?",
+      "c": 4,
       "options": [
         {
           "t": "Cholécystokinine (CCK) sécrétée par le duodénum",
@@ -37002,6 +37393,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les théories de régulation des prises alimentaires, quelle correspondance est CORRECTE ?",
+      "c": 4,
       "options": [
         {
           "t": "Théorie glucostatique : régulation à court terme par la glycémie",
@@ -37024,6 +37416,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels neurotransmetteurs sont impliqués dans le circuit de la récompense activé par la consommation de sucre ?",
+      "c": 4,
       "options": [
         {
           "t": "Dopamine via les voies dopaminergiques du striatum et du cortex préfrontal",
@@ -37046,6 +37439,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la voie d'absorption principale du fer, des acides aminés et des glucides après digestion ?",
+      "c": 4,
       "options": [
         {
           "t": "Veine porte hépatique via la circulation entéro-hépatique",
@@ -37068,6 +37462,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le pancréas exocrine sécrète ses enzymes digestives sous quelle forme pour protéger ses propres tissus ?",
+      "c": 4,
       "options": [
         {
           "t": "Sous forme de zymogènes inactifs, activés dans le duodénum",
@@ -37090,6 +37485,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle enzyme intestinale active les zymogènes pancréatiques dans la lumière du duodénum ?",
+      "c": 4,
       "options": [
         {
           "t": "Entéropeptidase (entérokinase) de la bordure en brosse",
@@ -37112,6 +37508,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure du tube digestif est responsable du brassage final du contenu colique en mouvements de masse ?",
+      "c": 4,
       "options": [
         {
           "t": "Côlon : mouvements de masse propulsant le contenu",
@@ -37134,6 +37531,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le microbiote du gros intestin, quelle affirmation est CORRECTE ?",
+      "c": 4,
       "options": [
         {
           "t": "Il produit des vitamines K et B absorbées par le côlon",
@@ -37156,6 +37554,7 @@ const QUESTIONS = {
     },
     {
       "q": "À intensité d'exercice supérieure à 50% du VO2max, quel substrat énergétique devient prédominant ?",
+      "c": 3,
       "options": [
         {
           "t": "Le glycogène musculaire (glucose) via la glycolyse",
@@ -37178,6 +37577,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'effet de l'entraînement aérobie sur le métabolisme musculaire, quelle conséquence est CORRECTE ?",
+      "c": 3,
       "options": [
         {
           "t": "Diminution de la production de lactate à intensité donnée",
@@ -37200,6 +37600,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle lipoprotéine plasmatique est la plus riche en triglycérides après absorption d'un repas gras ?",
+      "c": 4,
       "options": [
         {
           "t": "Chylomicrons (environ 85% de triglycérides)",
@@ -37222,6 +37623,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le seuil ventilatoire SV2 lors d'un test d'effort progressif, quelle affirmation est CORRECTE ?",
+      "c": 3,
       "options": [
         {
           "t": "Il correspond à la deuxième rupture de linéarité de la courbe VE-VO2",
@@ -37244,6 +37646,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels éléments cellulaires forment les ponts d'union dans la fibre musculaire ?",
+      "c": 6,
       "options": [
         {
           "t": "Actine et troponine",
@@ -37266,6 +37669,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte à propos du rôle du Ca2+ dans la contraction musculaire :",
+      "c": 6,
       "options": [
         {
           "t": "Le Ca2+ sort de la cellule lorsque le potentiel d'action musculaire traverse les tubules T.",
@@ -37288,6 +37692,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le mouvement isométrique :",
+      "c": 6,
       "options": [
         {
           "t": "Le muscle ne change pas de taille mais modifie sa tension.",
@@ -37310,6 +37715,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle, parmi les cellules (ou fragments cellulaires) suivantes, est synthétisée dans la moelle osseuse rouge puis finit sa maturation dans un organe lymphatique ?",
+      "c": 2,
       "options": [
         {
           "t": "Le thrombocyte, issu de la fragmentation du mégacaryocyte",
@@ -37332,6 +37738,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel stimulus active la synthèse de nouveaux globules rouges ?",
+      "c": 2,
       "options": [
         {
           "t": "Une hyperoxie qui augmente l'apport d'oxygène aux tissus",
@@ -37354,6 +37761,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE à propos de l'immunité :",
+      "c": 2,
       "options": [
         {
           "t": "Les lymphocytes T éliminent les pathogènes en produisant des anticorps circulants.",
@@ -37376,6 +37784,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le premier événement lors de la formation du clou plaquettaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Libération de facteurs chimiques par les plaquettes pour attirer d'autres plaquettes.",
@@ -37398,6 +37807,7 @@ const QUESTIONS = {
     },
     {
       "q": "La coagulation :",
+      "c": 2,
       "options": [
         {
           "t": "Sert à renforcer le clou plaquettaire.",
@@ -37420,6 +37830,7 @@ const QUESTIONS = {
     },
     {
       "q": "De quel facteur dépend la force produite par un muscle ?",
+      "c": 6,
       "options": [
         {
           "t": "Le nombre d'unités motrices recrutées.",
@@ -37442,6 +37853,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le cervelet :",
+      "c": 6,
       "options": [
         {
           "t": "Est une structure clé de la mémoire procédurale (ou motrice) et de l'apprentissage moteur.",
@@ -37464,6 +37876,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle région du tube digestif ont lieu les quatre processus caractéristiques du système digestif (motilité, sécrétion, digestion et absorption) ?",
+      "c": 4,
       "options": [
         {
           "t": "Côlon",
@@ -37486,6 +37899,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel, parmi les éléments suivants, fait partie de la salive, des sécrétions gastriques et pancréatiques ?",
+      "c": 4,
       "options": [
         {
           "t": "Bicarbonate",
@@ -37508,6 +37922,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle situation les enzymes responsables de l'activation de la glycolyse augmentent leur activité dans le muscle squelettique ?",
+      "c": 4,
       "options": [
         {
           "t": "Lorsque la concentration d'ATP musculaire augmente",
@@ -37530,6 +37945,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles veines se vident directement dans l'oreillette droite ?",
+      "c": 2,
       "options": [
         {
           "t": "Veine cave supérieure, veine cave inférieure et sinus coronaire",
@@ -37552,6 +37968,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le rôle des globules rouges dans le transport du CO2 ?",
+      "c": 1,
       "options": [
         {
           "t": "Ils convertissent le CO2 en bicarbonate qu'ils conservent dans leur cytoplasme sans l'exporter vers le plasma",
@@ -37574,6 +37991,7 @@ const QUESTIONS = {
     },
     {
       "q": "La courbe de dissociation de l'hémoglobine indique que la saturation des globules rouges en O2 :",
+      "c": 1,
       "options": [
         {
           "t": "Varie de façon strictement linéaire avec la pression partielle d'O2, chaque hausse de PO2 ajoutant la même saturation",
@@ -37596,6 +38014,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel, parmi les cartilages suivants, n'est PAS situé dans le larynx ?",
+      "c": 1,
       "options": [
         {
           "t": "Thyroïde",
@@ -37618,6 +38037,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le poumon droit présente :",
+      "c": 1,
       "options": [
         {
           "t": "Trois lobes separes par deux scissures",
@@ -37640,6 +38060,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la définition de respiration externe ?",
+      "c": 1,
       "options": [
         {
           "t": "Échange gazeux entre les tissus et le sang capillaire",
@@ -37662,6 +38083,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mécanisme utilisent les voies respiratoires pour purifier l'air et éviter l'entrée de pathogènes dans l'organisme ?",
+      "c": 1,
       "options": [
         {
           "t": "Le battement des cils de l'épithélium associé à la sécrétion de mucus et à la phagocytose par les macrophages",
@@ -37684,6 +38106,7 @@ const QUESTIONS = {
     },
     {
       "q": "À travers quelles cellules se font les échanges gazeux ?",
+      "c": 1,
       "options": [
         {
           "t": "Fibres élastiques conjonctives",
@@ -37706,6 +38129,7 @@ const QUESTIONS = {
     },
     {
       "q": "Que doit faire un patient pour pouvoir évaluer son volume de réserve inspiratoire avec une spirométrie ?",
+      "c": 1,
       "options": [
         {
           "t": "Faire une inspiration calme.",
@@ -37728,6 +38152,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une diminution de la ventilation alvéolaire suite à une obstruction dans une bronchiole promeut :",
+      "c": 1,
       "options": [
         {
           "t": "Une bronchoconstriction générale pulmonaire.",
@@ -37750,6 +38175,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE à propos des chémorécepteurs périphériques :",
+      "c": 1,
       "options": [
         {
           "t": "Ils se trouvent dans les veines pulmonaires pour évaluer si les échanges gazeux ont été efficaces.",
@@ -37772,6 +38198,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les centres de contrôle respiratoire du pont (apneustique et pneumotaxique) :",
+      "c": 1,
       "options": [
         {
           "t": "Sont sous la dépendance hiérarchique des centres bulbaires",
@@ -37794,6 +38221,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel, parmi les stimuli suivants, est responsable de l'augmentation de la ventilation pendant l'exercice physique :",
+      "c": 3,
       "options": [
         {
           "t": "L'élévation de la PCO2 artérielle, principal moteur de l'hyperventilation d'effort",
@@ -37816,6 +38244,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle structure cardiaque se trouve le faisceau de His ?",
+      "c": 2,
       "options": [
         {
           "t": "Dans le septum interventriculaire",
@@ -37838,6 +38267,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mécanisme ou structure est responsable de l'ouverture unidirectionnelle de la valve mitrale ?",
+      "c": 2,
       "options": [
         {
           "t": "L'ancrage des feuillets aux muscles papillaires par les cordages tendineux",
@@ -37860,6 +38290,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment le potentiel d'action est-il transmis d'un cardiomyocyte au suivant ?",
+      "c": 2,
       "options": [
         {
           "t": "Le potentiel n'est pas transmis, il apparaît spontanément",
@@ -37882,6 +38313,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE à propos du potentiel pacemaker :",
+      "c": 2,
       "options": [
         {
           "t": "Il présente une longue étape de repos à -60 mV.",
@@ -37904,6 +38336,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle situation ne se produira JAMAIS pendant le cycle cardiaque ?",
+      "c": 2,
       "options": [
         {
           "t": "Valves auriculo-ventriculaires ouvertes, valves semi-lunaires fermées",
@@ -37926,6 +38359,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans un cycle cardiaque, quelle est la phase immédiatement postérieure au remplissage ventriculaire passif lors de la diastole générale du cœur ?",
+      "c": 2,
       "options": [
         {
           "t": "Systole auriculaire",
@@ -37948,6 +38382,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction de la phase de plateau du potentiel d'action myocardique ?",
+      "c": 2,
       "options": [
         {
           "t": "Empêcher la tétanisation du muscle cardiaque",
@@ -37970,6 +38405,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle veine recueille le sang de la cavité thoracique ?",
+      "c": 2,
       "options": [
         {
           "t": "Veine azygos",
@@ -37992,6 +38428,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle, parmi les artères suivantes, ne prend PAS son origine dans l'aorte abdominale descendante ?",
+      "c": 2,
       "options": [
         {
           "t": "Artère carotide",
@@ -38014,6 +38451,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle spécialisation des vaisseaux lymphatiques augmente leur perméabilité ?",
+      "c": 2,
       "options": [
         {
           "t": "Jonctions inter-endothéliales lâches en clapet",
@@ -38036,6 +38474,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le rôle du système lymphatique dans le principe de Starling (au niveau des capillaires sanguins) ?",
+      "c": 2,
       "options": [
         {
           "t": "Il récupère la fraction de filtrat non réabsorbée à l'extrémité veineuse",
@@ -38058,6 +38497,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mouvement est observé à l'extrémité artérielle d'un capillaire et laquelle des forces de Starling en est la principale responsable ?",
+      "c": 2,
       "options": [
         {
           "t": "Filtration due à la pression hydrostatique élevée du capillaire",
@@ -38080,6 +38520,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si la tension artérielle augmente, comment agit le baroréflexe :",
+      "c": 2,
       "options": [
         {
           "t": "Le muscle lisse vasculaire est activé par le sympathique pour produire une vasoconstriction.",
@@ -38102,6 +38543,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE par rapport au réflexe de Frank-Starling pendant l'exercice :",
+      "c": 3,
       "options": [
         {
           "t": "Le volume d'éjection augmente en réponse à un retour veineux accru",
@@ -38124,6 +38566,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'ordre correct concernant le chemin des aliments dans le tube digestif :",
+      "c": 4,
       "options": [
         {
           "t": "Œsophage / estomac / pylore / jéjunum / valve iléo-caecale / côlon sigmoïde / rectum",
@@ -38146,6 +38589,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément du péritoine relie l'intestin grêle à la paroi postérieure ?",
+      "c": 4,
       "options": [
         {
           "t": "Mésentère",
@@ -38168,6 +38612,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la relation CORRECTE :",
+      "c": 4,
       "options": [
         {
           "t": "Estomac - fundus",
@@ -38190,6 +38635,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse INCORRECTE par rapport au processus de déglutition.",
+      "c": 4,
       "options": [
         {
           "t": "Permet la progression du bol alimentaire de la cavité buccale à l'estomac",
@@ -38212,6 +38658,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le réflexe d'évacuation :",
+      "c": 4,
       "options": [
         {
           "t": "Il est déclenché par la distension des parois du rectum.",
@@ -38234,6 +38681,7 @@ const QUESTIONS = {
     },
     {
       "q": "Des nutriments sont-ils absorbés dans le gros intestin ?",
+      "c": 4,
       "options": [
         {
           "t": "Oui, de l'eau, des électrolytes et des vitamines d'origine bactérienne.",
@@ -38256,6 +38704,7 @@ const QUESTIONS = {
     },
     {
       "q": "Théoriquement, chez une personne en surpoids avec de grandes réserves de graisse :",
+      "c": 4,
       "options": [
         {
           "t": "Les niveaux de leptine sont bas, donc elle se sent rassasiée.",
@@ -38278,6 +38727,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle hormone, sécrétée par l'estomac, a une fonction orexigène ?",
+      "c": 4,
       "options": [
         {
           "t": "Neuropeptide Y",
@@ -38300,6 +38750,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel métabolisme prédomine après deux heures d'activité physique de faible intensité ?",
+      "c": 3,
       "options": [
         {
           "t": "Métabolisme aérobie des lipides",
@@ -38322,6 +38773,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'interaction des métabolismes lors de l'activité physique :",
+      "c": 3,
       "options": [
         {
           "t": "Les trois sont activés SIMULTANÉMENT, leur contribution variant selon l'intensité et la durée.",
@@ -38344,6 +38796,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse INCORRECTE par rapport au métabolisme anaérobie alactique :",
+      "c": 3,
       "options": [
         {
           "t": "Il est prédominant lorsque l'activité physique est très courte et explosive",
@@ -38366,6 +38819,7 @@ const QUESTIONS = {
     },
     {
       "q": "Choisissez l'option dans laquelle les structures que l'urine parcourt sont correctement ordonnées :",
+      "c": 5,
       "options": [
         {
           "t": "Tubule collecteur - Pelvis rénal - Calice mineur - Calice majeur - Papille rénale - Uretère",
@@ -38388,6 +38842,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle zone du néphron est sensible à l'action de l'aldostérone ?",
+      "c": 5,
       "options": [
         {
           "t": "Le tubule contourné proximal",
@@ -38410,6 +38865,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément ne fait PAS partie de la barrière de filtration ?",
+      "c": 5,
       "options": [
         {
           "t": "La couche viscérale de la capsule de Bowman",
@@ -38432,6 +38888,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quels vaisseaux sanguins ont lieu les échanges de gaz dans le rein ?",
+      "c": 5,
       "options": [
         {
           "t": "Dans les capillaires péritubulaires",
@@ -38454,6 +38911,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel parmi les éléments suivants n'EST PAS une caractéristique du processus de filtration glomérulaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Transport facilité par les transporteurs",
@@ -38476,6 +38934,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle substance est sécrétée dans le tubule contourné distal par l'action de l'aldostérone ?",
+      "c": 5,
       "options": [
         {
           "t": "H +",
@@ -38498,6 +38957,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si la pression artérielle systolique passe de 110 mmHg à 135 mmHg pendant une activité physique de faible intensité :",
+      "c": 5,
       "options": [
         {
           "t": "La réponse myogénique dilate l'artériole afférente pour stabiliser le débit de filtration glomérulaire",
@@ -38520,6 +38980,7 @@ const QUESTIONS = {
     },
     {
       "q": "Face à une augmentation du volume sanguin, quel mécanisme sera activé ?",
+      "c": 5,
       "options": [
         {
           "t": "La sécrétion d'ADH pour augmenter la perméabilité à l'eau du néphron.",
