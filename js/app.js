@@ -352,73 +352,87 @@ function availableCount(bank) {
   return pool ? pool.size : (QUESTIONS[bank] || []).length;
 }
 
-/* Summary line shown on the toggle: "Tous les chapitres" or "3 chapitres · 54 QCU". */
+/* Résumé affiché sur l'en-tête du sélecteur. */
 function chapterSummary(bank) {
   const chaps = chaptersOf(bank);
   if (!chaps) return "";
   const sel = getChapterSelection(bank);
-  if (!sel.length) return "Tous les chapitres · " + (QUESTIONS[bank] || []).length + " QCU";
-  const n = availableCount(bank);
-  return sel.length + (sel.length > 1 ? " chapitres" : " chapitre") + " · " + n + " QCU";
+  if (!sel.length) return "Tout le programme";
+  return sel.length + (sel.length > 1 ? " chapitres choisis" : " chapitre choisi");
 }
 
-/* Collapsible chapter picker injected in a module card. */
+/* Sélecteur de chapitres intégré à la carte du module. */
 function chapterBlockHtml(bank) {
   const chaps = chaptersOf(bank);
   if (!chaps) return "";
   const sel = getChapterSelection(bank);
-  const items = chaps.map(ch => `
-    <label class="chap-item">
-      <input type="checkbox" value="${ch.id}"${sel.indexOf(ch.id) !== -1 ? " checked" : ""}>
-      <span class="chap-name">${ch.id}. ${escapeHtml(ch.nom)}</span>
-      <span class="chap-count">${ch.count}</span>
-    </label>`).join("");
+  const chips = chaps.map(ch => {
+    const on = sel.indexOf(ch.id) !== -1;
+    return `
+      <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
+        <span class="chap-chip-num">${ch.id}</span>
+        <span class="chap-chip-name">${escapeHtml(ch.nom)}</span>
+        <span class="chap-chip-tick" aria-hidden="true"></span>
+      </button>`;
+  }).join("");
   return `
     <div class="chap-block" data-chap-block="${escapeHtml(bank)}">
-      <button type="button" class="chap-toggle" aria-expanded="false">
-        <span class="chap-toggle-label">Chapitres</span>
-        <span class="chap-toggle-state">${escapeHtml(chapterSummary(bank))}</span>
-        <span class="chap-chevron" aria-hidden="true">▾</span>
+      <button type="button" class="chap-head" aria-expanded="false">
+        <span class="chap-head-icon" aria-hidden="true"></span>
+        <span class="chap-head-text">
+          <span class="chap-head-title">Chapitres</span>
+          <span class="chap-head-state">${escapeHtml(chapterSummary(bank))}</span>
+        </span>
+        <span class="chap-head-chevron" aria-hidden="true"></span>
       </button>
       <div class="chap-panel" hidden>
-        <p class="chap-help">Coche les chapitres que tu as révisés. Sans sélection, les questions sont tirées dans toute la matière, comme à l'examen.</p>
+        <p class="chap-help">Choisis ce que tu as révisé. Sans sélection, les questions sont tirées dans tout le programme, comme à l'examen.</p>
+        <div class="chap-grid">${chips}</div>
         <div class="chap-bulk">
           <button type="button" class="chap-bulk-btn" data-chap-all>Tout sélectionner</button>
-          <button type="button" class="chap-bulk-btn" data-chap-none>Tout effacer</button>
+          <button type="button" class="chap-bulk-btn" data-chap-none>Tout le programme</button>
         </div>
-        <div class="chap-list">${items}</div>
       </div>
     </div>`;
 }
 
-/* Wire the checkboxes of one module card. */
+/* Interactions du sélecteur d'une carte. */
 function wireChapterBlock(card, bank) {
   const block = card.querySelector('[data-chap-block="' + bank + '"]');
   if (!block) return;
   const panel = block.querySelector(".chap-panel");
-  const toggle = block.querySelector(".chap-toggle");
-  const state$ = block.querySelector(".chap-toggle-state");
-  const boxes = () => Array.prototype.slice.call(block.querySelectorAll('.chap-item input[type="checkbox"]'));
+  const head = block.querySelector(".chap-head");
+  const stateEl = block.querySelector(".chap-head-state");
+  const chips = () => Array.prototype.slice.call(block.querySelectorAll(".chap-chip"));
 
   const refresh = () => {
-    const ids = boxes().filter(b => b.checked).map(b => Number(b.value));
+    const ids = chips().filter(c => c.classList.contains("is-on")).map(c => Number(c.dataset.chapId));
     saveChapterSelection(bank, ids);
-    state$.textContent = chapterSummary(bank);
+    stateEl.textContent = chapterSummary(bank);
     block.classList.toggle("chap-active", ids.length > 0);
   };
 
-  toggle.addEventListener("click", () => {
+  head.addEventListener("click", () => {
     const open = panel.hidden;
     panel.hidden = !open;
-    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    head.setAttribute("aria-expanded", open ? "true" : "false");
     block.classList.toggle("chap-open", open);
   });
-  block.addEventListener("change", e => { if (e.target.matches('input[type="checkbox"]')) refresh(); });
+  block.addEventListener("click", e => {
+    const chip = e.target.closest(".chap-chip");
+    if (!chip || !block.contains(chip)) return;
+    const on = !chip.classList.contains("is-on");
+    chip.classList.toggle("is-on", on);
+    chip.setAttribute("aria-pressed", on ? "true" : "false");
+    refresh();
+  });
   block.querySelector("[data-chap-all]").addEventListener("click", () => {
-    boxes().forEach(b => { b.checked = true; }); refresh();
+    chips().forEach(c => { c.classList.add("is-on"); c.setAttribute("aria-pressed", "true"); });
+    refresh();
   });
   block.querySelector("[data-chap-none]").addEventListener("click", () => {
-    boxes().forEach(b => { b.checked = false; }); refresh();
+    chips().forEach(c => { c.classList.remove("is-on"); c.setAttribute("aria-pressed", "false"); });
+    refresh();
   });
   block.classList.toggle("chap-active", getChapterSelection(bank).length > 0);
 }

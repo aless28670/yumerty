@@ -2153,63 +2153,126 @@ html { scroll-behavior: smooth; }
 .home-right { overflow: visible; }
 
 /* ---------- Sélecteur de chapitres ---------- */
-.chap-block { margin: 14px 0 4px; }
-.chap-toggle {
+.chap-block { margin: 16px 0 2px; }
+
+.chap-head {
   width: 100%;
-  display: flex; align-items: center; gap: 10px;
-  padding: 11px 14px;
-  border-radius: 13px;
-  background: #f7f2e9;
-  border: 1px solid rgba(40, 35, 28, 0.12);
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #fbf7f0 0%, #f6f0e6 100%);
+  border: 1px solid rgba(40, 35, 28, 0.1);
   color: var(--text);
   font-family: 'Archivo', 'Space Grotesk', sans-serif;
-  font-size: 13px; font-weight: 700;
   cursor: pointer; text-align: left;
-  transition: background 180ms ease, border-color 180ms ease;
+  transition: border-color 220ms ease, box-shadow 220ms ease, background 220ms ease;
 }
-.chap-toggle:hover { background: #f1e9db; border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.45); }
-.chap-toggle-label { flex: none; }
-.chap-toggle-state { flex: 1; font-weight: 600; font-size: 12.5px; color: var(--muted, #7a6f60); }
-.chap-chevron { flex: none; transition: transform 200ms ease; font-size: 12px; }
-.chap-block.chap-open .chap-chevron { transform: rotate(180deg); }
-.chap-block.chap-active .chap-toggle {
-  background: rgba(var(--accent-rgb, 185, 118, 63), 0.1);
-  border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.45);
+.chap-head:hover { border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.4); box-shadow: 0 6px 18px -12px rgba(var(--accent-rgb, 185, 118, 63), 0.7); }
+
+.chap-head-icon {
+  flex: none; width: 30px; height: 30px; border-radius: 10px;
+  background: rgba(var(--accent-rgb, 185, 118, 63), 0.12);
+  position: relative;
 }
-.chap-block.chap-active .chap-toggle-state { color: rgb(var(--accent-rgb, 185, 118, 63)); font-weight: 700; }
+.chap-head-icon::before,
+.chap-head-icon::after {
+  content: ""; position: absolute; left: 8px; right: 8px; height: 2px; border-radius: 2px;
+  background: rgb(var(--accent-rgb, 185, 118, 63)); opacity: 0.85;
+}
+.chap-head-icon::before { top: 10px; }
+.chap-head-icon::after { top: 17px; right: 13px; }
+
+.chap-head-text { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.chap-head-title { font-size: 13.5px; font-weight: 800; letter-spacing: -0.01em; }
+.chap-head-state { font-size: 12px; font-weight: 600; color: var(--muted, #7a6f60); }
+
+.chap-head-chevron {
+  flex: none; width: 9px; height: 9px; margin-right: 4px;
+  border-right: 2px solid rgba(40, 35, 28, 0.42);
+  border-bottom: 2px solid rgba(40, 35, 28, 0.42);
+  transform: rotate(45deg) translate(-2px, -2px);
+  transition: transform 260ms cubic-bezier(.3,.8,.3,1);
+}
+.chap-block.chap-open .chap-head-chevron { transform: rotate(225deg) translate(-3px, -3px); }
+
+.chap-block.chap-active .chap-head {
+  background: linear-gradient(180deg, rgba(var(--accent-rgb, 185, 118, 63), 0.1) 0%, rgba(var(--accent-rgb, 185, 118, 63), 0.05) 100%);
+  border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.42);
+}
+.chap-block.chap-active .chap-head-state { color: rgb(var(--accent-rgb, 185, 118, 63)); font-weight: 700; }
+
 .chap-panel {
-  margin-top: 10px; padding: 12px;
-  border-radius: 13px;
-  background: #fdfbf6;
-  border: 1px solid rgba(40, 35, 28, 0.1);
+  margin-top: 10px; padding: 14px;
+  border-radius: 15px;
+  background: #fffdf9;
+  border: 1px solid rgba(40, 35, 28, 0.09);
+  box-shadow: 0 14px 34px -28px rgba(90, 70, 40, 0.75);
+  animation: chapIn 240ms cubic-bezier(.2,.8,.3,1);
 }
-.chap-help { margin: 0 0 10px; font-size: 12px; line-height: 1.45; color: var(--muted, #7a6f60); }
-.chap-bulk { display: flex; gap: 8px; margin-bottom: 10px; }
-.chap-bulk-btn {
-  flex: 1; padding: 8px 10px; border-radius: 10px;
-  background: #f4efe6; border: 1px solid rgba(40, 35, 28, 0.12);
-  color: var(--text); font-family: inherit; font-size: 12px; font-weight: 700; cursor: pointer;
-}
-.chap-bulk-btn:hover { background: rgb(var(--accent-rgb, 185, 118, 63)); border-color: rgb(var(--accent-rgb, 185, 118, 63)); color: #fdfbf6; }
-.chap-list { display: flex; flex-direction: column; gap: 4px; max-height: 320px; overflow-y: auto; }
-.chap-item {
+@keyframes chapIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+
+.chap-help { margin: 0 0 12px; font-size: 12px; line-height: 1.5; color: var(--muted, #7a6f60); }
+
+.chap-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px; }
+
+.chap-chip {
   display: flex; align-items: center; gap: 10px;
-  padding: 8px 10px; border-radius: 10px;
-  font-size: 13px; line-height: 1.35; cursor: pointer;
-  transition: background 150ms ease;
+  padding: 10px 12px;
+  border-radius: 13px;
+  background: #faf6ef;
+  border: 1px solid rgba(40, 35, 28, 0.1);
+  color: var(--text);
+  font-family: inherit; font-size: 12.5px; line-height: 1.3; font-weight: 600;
+  text-align: left; cursor: pointer;
+  transition: transform 160ms ease, border-color 200ms ease, background 200ms ease, box-shadow 200ms ease;
 }
-.chap-item:hover { background: #f4efe6; }
-.chap-item input { flex: none; width: 17px; height: 17px; accent-color: rgb(var(--accent-rgb, 185, 118, 63)); cursor: pointer; }
-.chap-name { flex: 1; }
-.chap-count {
-  flex: none; min-width: 34px; text-align: right;
-  font-size: 11.5px; font-weight: 700; color: var(--muted, #7a6f60);
-  font-variant-numeric: tabular-nums;
+.chap-chip:hover { transform: translateY(-1px); border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.45); }
+
+.chap-chip-num {
+  flex: none; width: 24px; height: 24px; border-radius: 8px;
+  display: grid; place-items: center;
+  background: rgba(40, 35, 28, 0.07);
+  font-size: 11.5px; font-weight: 800; font-variant-numeric: tabular-nums;
+  color: var(--muted, #7a6f60);
+  transition: background 200ms ease, color 200ms ease;
 }
-@media (max-width: 480px) {
-  .chap-toggle { flex-wrap: wrap; }
-  .chap-toggle-state { flex-basis: 100%; }
-  .chap-list { max-height: 280px; }
+.chap-chip-name { flex: 1; min-width: 0; }
+.chap-chip-tick {
+  flex: none; width: 16px; height: 16px; border-radius: 50%;
+  border: 1.5px solid rgba(40, 35, 28, 0.2);
+  position: relative; transition: border-color 200ms ease, background 200ms ease;
+}
+
+.chap-chip.is-on {
+  background: rgba(var(--accent-rgb, 185, 118, 63), 0.11);
+  border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.5);
+  box-shadow: inset 0 0 0 1px rgba(var(--accent-rgb, 185, 118, 63), 0.18);
+}
+.chap-chip.is-on .chap-chip-num { background: rgb(var(--accent-rgb, 185, 118, 63)); color: #fffdf8; }
+.chap-chip.is-on .chap-chip-tick { background: rgb(var(--accent-rgb, 185, 118, 63)); border-color: rgb(var(--accent-rgb, 185, 118, 63)); }
+.chap-chip.is-on .chap-chip-tick::after {
+  content: ""; position: absolute; left: 5px; top: 2px; width: 4px; height: 8px;
+  border-right: 2px solid #fffdf8; border-bottom: 2px solid #fffdf8;
+  transform: rotate(42deg);
+}
+
+.chap-bulk { display: flex; gap: 8px; margin-top: 12px; }
+.chap-bulk-btn {
+  flex: 1; padding: 9px 10px; border-radius: 11px;
+  background: transparent; border: 1px dashed rgba(40, 35, 28, 0.2);
+  color: var(--muted, #7a6f60);
+  font-family: inherit; font-size: 11.5px; font-weight: 700; letter-spacing: 0.01em;
+  cursor: pointer; transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+.chap-bulk-btn:hover {
+  color: rgb(var(--accent-rgb, 185, 118, 63));
+  border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.5);
+  background: rgba(var(--accent-rgb, 185, 118, 63), 0.06);
+}
+
+@media (max-width: 520px) {
+  .chap-grid { grid-template-columns: 1fr; }
+  .chap-panel { padding: 12px; }
 }
 
 .chap-badge {
