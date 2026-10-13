@@ -389,8 +389,7 @@ function chapterBlockHtml(bank) {
         <p class="chap-help">Choisis ce que tu as révisé. Sans sélection, les questions sont tirées dans tout le programme, comme à l'examen.</p>
         <div class="chap-grid">${chips}</div>
         <div class="chap-bulk">
-          <button type="button" class="chap-bulk-btn" data-chap-all>Tout sélectionner</button>
-          <button type="button" class="chap-bulk-btn" data-chap-none>Tout le programme</button>
+          <button type="button" class="chap-bulk-btn" data-chap-none>Effacer ma sélection — revenir à tout le programme</button>
         </div>
       </div>
     </div>`;
@@ -424,10 +423,6 @@ function wireChapterBlock(card, bank) {
     const on = !chip.classList.contains("is-on");
     chip.classList.toggle("is-on", on);
     chip.setAttribute("aria-pressed", on ? "true" : "false");
-    refresh();
-  });
-  block.querySelector("[data-chap-all]").addEventListener("click", () => {
-    chips().forEach(c => { c.classList.add("is-on"); c.setAttribute("aria-pressed", "true"); });
     refresh();
   });
   block.querySelector("[data-chap-none]").addEventListener("click", () => {

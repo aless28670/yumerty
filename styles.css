@@ -2256,7 +2256,8 @@ html { scroll-behavior: smooth; }
   transform: rotate(42deg);
 }
 
-.chap-bulk { display: flex; gap: 8px; margin-top: 12px; }
+.chap-bulk { display: none; gap: 8px; margin-top: 12px; }
+.chap-block.chap-active .chap-bulk { display: flex; }
 .chap-bulk-btn {
   flex: 1; padding: 9px 10px; border-radius: 11px;
   background: transparent; border: 1px dashed rgba(40, 35, 28, 0.2);
