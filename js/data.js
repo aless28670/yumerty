@@ -504,364 +504,364 @@ const QUESTIONS = {
     {"q":"Dans la détermination des priorités, le critère de vulnérabilité du problème s'évalue au moyen de :","options":[{"t":"l'efficacité et la faisabilité de l'intervention envisagée.","correct":true,"j":"Exact : la vulnérabilité évalue l'efficacité (capacité de l'intervention à résoudre le problème) et la faisabilité (capacité à être opérationnelle dans le contexte)."},{"t":"l'ampleur et la gravité du problème de santé considéré.","j":"Faux : l'ampleur et la gravité définissent le critère d'importance du problème, et non sa vulnérabilité."},{"t":"l'incidence et la prévalence du problème dans la population.","j":"Faux : l'incidence et la prévalence mesurent l'ampleur ou l'étendue, une composante du critère d'importance."},{"t":"la létalité et la baisse de la qualité de vie induite.","j":"Faux : la létalité et la baisse de qualité de vie mesurent la gravité, une composante du critère d'importance."}]}
   ],
   "psycho": [
-    {"q":"Une réponse adaptée au stress implique:","options":[{"t":"L'apparition d'un syndrome métabolique","j":"Le syndrome métabolique est une conséquence pathologique du stress chronique, pas une réponse adaptée."},{"t":"L'épuisement des réserves biochimiques de l'organisme","j":"L'épuisement des réserves biochimiques correspond à la phase d'épuisement du SGA (négative, mal-adaptée)."},{"t":"Le rétablissement de l'homéostasie de l'organisme","correct":true,"j":"Une réponse adaptée vise le rétablissement de l'homéostasie (sous-phase contre-choc de la phase d'alarme)."}]},
-    {"q":"Etant donné un bébé qui n'a pas peur des souris blanches mais oui aux bruits forts, je lui présente plusieurs fois une souris blanche suivie d'un bruit fort. Ceci, finalement, le bébé déclenche une réponse de peur lorsque je lui montre tout simplement la souris blanche, sans faire de bruit. Ce processus est un processus de:","options":[{"t":"Conditionnement métalogique","j":"Terme inexistant / distracteur."},{"t":"Conditionnement classique","correct":true,"j":"Association d'un stimulus neutre (souris = SC) à un SI (bruit) produisant une RC : c'est le conditionnement classique (Petit Albert, Watson & Rayner)."},{"t":"Conditionnement opérant","j":"Le conditionnement opérant concerne les conséquences d'un comportement volontaire, pas l'association de stimuli."}]},
-    {"q":"L'apparition d'un état d'anxiété est lié à l'évaluation cognitive d'un stimulus comme dangereux ou menaçant. Les personnes ayant un élevé trait d'anxiété:","options":[{"t":"Perçoivent de façons aussi menaçantes les différentes situations que les personnes avec un trait d'anxiété moins élevé.","j":"Faux : un trait d'anxiété élevé modifie la perception des menaces, elle n'est pas identique."},{"t":"Perçoivent moins de situations menaçantes que les personnes avec un trait d'anxiété moins élevé.","j":"Faux : c'est l'inverse, ils perçoivent davantage de situations comme menaçantes."},{"t":"Perçoivent plus de situations menaçantes que les personnes avec un trait d'anxiété élevé.","correct":true,"j":"Seule réponse dans le bon sens (« plus de situations menaçantes ») : un trait d'anxiété élevé accroît la perception de menace (Spielberger, trait/état) ; comparatif visiblement à lire « moins élevé »."}]},
-    {"q":"L'efficacité personnelle perçue se traduit comme:","options":[{"t":"Croyance sur la mesure dans laquelle nous pouvons contrôler ou non que les conséquences de notre comportement","j":"Décrit plutôt le contrôle des conséquences (locus de contrôle / attentes de résultat), pas l'auto-efficacité."},{"t":"Perception des coûts ou des avantages d'un comportement donné","j":"Décrit les bénéfices/coûts perçus (modèle HBM), pas l'auto-efficacité."},{"t":"Croyance sur la capacité qu'à l'individu pour réaliser un comportement","correct":true,"j":"Auto-efficacité (Bandura) = croyance de l'individu en sa capacité à réaliser un comportement."}]},
-    {"q":"La technique du sandwich est généralement très utile pour:","options":[{"t":"Donner une très mauvaise nouvelle","j":"L'annonce de mauvaises nouvelles utilise le protocole SPIKES/Buckman, pas le sandwich."},{"t":"Refuser une demande","correct":true,"j":"La technique du sandwich (positif → refus → positif) figure dans les stratégies pour dire NON / refuser une demande."},{"t":"Aucune des deux réponses n'est correcte","j":"Incorrect puisque le refus d'une demande est la bonne réponse."}]},
-    {"q":"Quelle hormone sera sécrétée par le cerveau lors de l'écoute de la musique agréable?","options":[{"t":"Dopamine","correct":true,"j":"La musique agréable active le circuit de la récompense et libère de la dopamine (neurotransmetteur du plaisir)."},{"t":"Thyroxine","j":"La thyroxine est une hormone thyroïdienne du métabolisme, sans lien avec le plaisir musical."},{"t":"Mélatonine","j":"La mélatonine régule le sommeil (glande pinéale), pas la réponse au plaisir."}]},
-    {"q":"Le stress est un processus:","options":[{"t":"Adaptatif","correct":true,"j":"Le stress est un processus adaptatif : Selye le décrit comme réponse d'adaptation (Syndrome Général d'Adaptation)."},{"t":"Pathologique","j":"Il devient pathologique seulement en cas de chronicité/épuisement, ce n'est pas sa nature."},{"t":"Pathogène","j":"Pathogène qualifie un précurseur de maladie ; le stress en soi est une réaction d'adaptation."}]},
-    {"q":"La fonction évocatrice de la communication verbale consiste à:","options":[{"t":"Stimuler l'exécution de certains comportements","j":"Stimuler l'exécution de comportements = fonction incitative/conative, pas évocatrice."},{"t":"Produire certains sentiments et émotions","correct":true,"j":"La fonction évocatrice (évoquer = faire surgir) vise à produire/susciter des sentiments et émotions chez le récepteur."},{"t":"Transmettre des informations","j":"Transmettre des informations = fonction informative/référentielle."}]},
-    {"q":"Si on essaye de parler à quelqu'un, mais il ne nous comprends pas à cause du bruit ambiant, alors:","options":[{"t":"La réception est inefficace","j":"La réception fonctionne : c'est l'interférence externe qui bloque, pas le récepteur."},{"t":"Le canal est inefficace","correct":true,"j":"Correct : le bruit ambiant est une interférence qui parasite le canal (support auditif) de transmission du message."},{"t":"L'émission est inefficace","j":"L'émission est correcte : l'émetteur parle bien, le problème est extérieur à lui."}]},
-    {"q":"Dans le conditionnement opérant, un exemple de punition négative pour la plupart des gens:","options":[{"t":"Une insulte","j":"Une insulte = ajouter un stimulus désagréable = punition POSITIVE."},{"t":"Enlever un privilège","correct":true,"j":"Correct : retirer un stimulus agréable (privilège) pour diminuer un comportement = punition négative."},{"t":"Enlever la douleur","j":"Enlever la douleur = retirer un stimulus désagréable qui augmente un comportement = renforcement négatif."}]},
-    {"q":"Les substances algésiogènes libérés par les cellules abîmées lorsqu'un stimulus nociceptif de forte intensité nuit à l'intégrité de l'organisme","options":[{"t":"Arriver à la moelle épinière, où elles se fixeront à un neurone médullaire qui enverra un potentiel d'action vers le cerveau.","j":"Faux : les substances algésiogènes n'atteignent pas elles-mêmes la moelle ; elles agissent localement."},{"t":"Arriver au cortex frontal et pariétal du cerveau pour déclencher un potentiel d'action qui puisse créer une réaction.","j":"Faux : elles n'atteignent pas le cortex ; c'est le potentiel d'action qui y monte."},{"t":"Se fixer sur des nocicepteurs, déclenchant ainsi la création d'un potentiel d'action qui arrivera à la moelle épinière, où le potentiel d'action continuera sa progression jusqu'au cerveau","correct":true,"j":"Correct : les substances chimiques se fixent sur les nocicepteurs (terminaisons libres), créant un potentiel d'action qui gagne la moelle puis le cerveau."}]},
-    {"q":"La technique DESC est très utile pour exprimer inconfort ou mécontentement de façon assertive et demander un changement de comportement à une autre personne. DESC est un acronyme; La lettre C correspond à:","options":[{"t":"Conséquences : conséquences positives du changement de comportement et négatives du non-changement","correct":true,"j":"Correct : dans DESC, C = Conséquences (positives du changement, négatives du non-changement)."},{"t":"Condamner : condamner l'autre personne à un futur sans nous","j":"Condamner ne fait pas partie de la méthode DESC (approche assertive, pas culpabilisante)."},{"t":"Convaincre : convaincre l'autre personne de changer son comportement","j":"Convaincre n'est pas le C de DESC ; l'assertivité expose sans forcer la persuasion."}]},
-    {"q":"La définition de la psychologie de la santé, faite en 1989, a été formulée par:","options":[{"t":"Dr.Cannon","j":"Cannon = réactions de stress, pas la définition de la psychologie de la santé."},{"t":"Dr.Engel","j":"Engel = modèle biopsychosocial (1977), pas la définition de 1989."},{"t":"Dr.Matarazzo","correct":true,"j":"Correct : la définition de la psychologie de la santé de 1989 est celle de Matarazzo."}]},
-    {"q":"Lorsqu'on met en place l'écoute active, on essaye de:","options":[{"t":"Écouter et comprendre ce que l'autre personne veut dire","correct":true,"j":"Correct : l'écoute active vise à comprendre ce que l'autre veut réellement dire/vit (sens, émotions), au-delà des mots."},{"t":"Écouter et comprendre ce que l'autre personne dit","j":"Se limiter à ce qui est dit littéralement reste superficiel, ce n'est pas l'écoute active."},{"t":"Sympathiser et encourager l'autre personne","j":"Sympathiser/encourager n'est pas l'écoute active (empathie ≠ sympathie ; on n'apporte pas de solution d'emblée)."}]},
-    {"q":"L'expérience douloureuse est:","options":[{"t":"La même pour tout le monde, indépendamment de ses expériences","j":"Faux : le digest (IASP 2020) insiste que la douleur varie selon les expériences et facteurs bio/psycho/sociaux, elle n'est pas la même pour tous."},{"t":"Une expérience somatique","j":"Faux : la douleur n'est pas purement somatique, c'est une expérience sensorielle ET émotionnelle, pas réductible au corps."},{"t":"Une expérience personnelle","correct":true,"j":"Correct : le digest définit la douleur comme une expérience personnelle (facteurs bio/psycho/sociaux), on apprend le concept par l'expérience."}]},
-    {"q":"De nos jours, la pratique de la kinésithérapie comporte:","options":[{"t":"Les deux réponses sont correctes","correct":true,"j":"Correct : la kiné actuelle englobe à la fois la promotion de la santé (prévention primaire, ateliers) et le traitement des troubles du mouvement."},{"t":"La promotion de la santé","j":"Vrai mais incomplet : la promotion de la santé est une composante, pas la seule."},{"t":"Le traitement des troubles du mouvement ou de la motricité","j":"Vrai mais incomplet : le traitement des troubles moteurs est une composante, pas la seule."}]},
-    {"q":"Une personne revient de vacances. Tout à coup, en rentrant chez lui, il se rend compte qu'il a été volé. A ce moment là, il se trouvera dans la phase du Syndrome Général d'adaptation (Selye, 1936)","options":[{"t":"De résistance","j":"Faux : la résistance est la phase de compensation/maintien de l'activation, pas la réaction initiale soudaine."},{"t":"D'alarme","correct":true,"j":"Correct : la découverte brutale du vol déclenche la mobilisation immédiate (sous-phase de choc) = phase d'alarme."},{"t":"D'épuisement","j":"Faux : l'épuisement survient après persistance prolongée du stress, pas lors d'un événement ponctuel."}]},
-    {"q":"Selon le modèle transactionnel du stress (Lazarus et Folkman, 1984), lors de l'évaluation secondaire:","options":[{"t":"On cherche une réponse adaptative pour résoudre le stresseur","correct":true,"j":"Correct : l'évaluation secondaire (« Ai-je les ressources ? ») consiste à chercher une réponse adaptative pour faire face au stresseur."},{"t":"On caractérise les dommages potentiels des stresseurs","j":"Faux : caractériser les dommages/menaces potentiels relève de l'évaluation primaire (préjudice/menace/défi)."},{"t":"On met en place une stratégie définie pour faire face au stresseur","j":"Faux : mettre en place une stratégie définie est la mise en œuvre du coping, postérieure à l'évaluation."}]},
-    {"q":"Quel est le facteur le plus important pour déterminer l'intention et le comportement dans le modèle de l'approche du processus d'action de santé (HAPA):","options":[{"t":"La vulnérabilité perçue","j":"Faux : la vulnérabilité/perception du risque n'influence que la phase motivationnelle, pas le facteur central."},{"t":"Les croyances d'efficacité personnelle","correct":true,"j":"Correct : le HAPA intègre l'auto-efficacité de Bandura comme déterminant clé de l'intention et du comportement (phases motivation et volition)."},{"t":"Les attentes","j":"Faux : les attentes de résultats sont un facteur secondaire, moins déterminant que l'auto-efficacité."}]},
-    {"q":"La perception et interprétation des symptômes d'une maladie:","options":[{"t":"Dépend de plusieurs facteurs, par exemple la nature des symptômes","correct":true,"j":"Correct : la perception/interprétation des symptômes dépend de plusieurs facteurs, dont la nature des symptômes n'est qu'un exemple."},{"t":"Dépend de la nature des symptômes","j":"Incomplet : la nature des symptômes n'est qu'un des facteurs, pas le seul déterminant."},{"t":"Est la même pour tout le monde","j":"Faux : l'interprétation est personnelle et variable, pas identique pour tous."}]},
-    {"q":"La communication non verbale (signaler la réponse incorrecte):","options":[{"t":"Est conditionnée par la culture","j":"Vraie affirmation : le non-verbal est conditionné par la culture (cadre de référence, facteurs culturels) → pas la réponse incorrecte."},{"t":"Est caractéristique de la langue des signes","correct":true,"j":"INCORRECTE (à signaler) : la langue des signes est un système linguistique/verbal structuré, pas de la communication non verbale."},{"t":"Est inévitable","j":"Vraie affirmation : « on ne peut pas ne pas communiquer », le non-verbal est inévitable → pas la réponse incorrecte."}]},
-    {"q":"La technique de Résolution de Problèmes définit un problème comme:","options":[{"t":"L'incapacité à trouver des solutions appropriées aux situations qui nous concernent","correct":true,"j":"Correct : un problème = l'incapacité à trouver une réponse/solution appropriée à une situation qui nous concerne (modèle de résolution de problèmes)."},{"t":"Une solution qui minimise les conséquences négatives et maximise les conséquences positives","j":"Faux : ceci définit une solution efficace (minimise le négatif, maximise le positif), pas un problème."},{"t":"Une situation qui nous concerne","j":"Faux : trop vague, une simple situation qui nous concerne n'est pas nécessairement un problème."}]},
-    {"q":"Pour mesurer la douleur d'une personne, on doit tenir compte de trois aspects:","options":[{"t":"Aspect sensoriel, émotionnel et l'impact que la douleur a sur la vie de la personne","correct":true,"j":"Correct: le digest liste les 3 niveaux d'évaluation = sensoriel, émotionnel et impact sur la vie quotidienne."},{"t":"Aspect sensoriel, émotionnel et origine de la douleur","j":"L'origine (mécanisme) n'est pas l'un des 3 niveaux d'évaluation de la douleur."},{"t":"Aspect sensoriel, émotionnel et tolérance à la douleur","j":"La tolérance n'est pas l'un des 3 niveaux d'évaluation retenus."}]},
-    {"q":"Selon le modèle ABC des émotions (Ellis, 1982), Correspond à:","options":[{"t":"Conséquence émotionnelle","j":"C = conséquence émotionnelle (résultat), pas le cœur du modèle."},{"t":"Interprétation","correct":true,"j":"Correct: B = Beliefs = interprétation/croyances, l'élément central causal du modèle ABC d'Ellis."},{"t":"Situation","j":"A = situation/événement déclencheur, neutre."}]},
-    {"q":"Pour annoncer un diagnostic de la douleur chronique à un patient:","options":[{"t":"On lui demande d'abord qu'est ce qu'il sait par rapport à ses douleurs","correct":true,"j":"Correct: protocole SPIKES/Buckman, on évalue d'abord ce que le patient sait (questions ouvertes)."},{"t":"On utilise des mots techniques pour qu'il sache qu'on sait de quoi on parle","j":"Erreur à éviter selon le digest: le jargon technique."},{"t":"On utilise des mots à fort contenu émotionnel pour éviter le déni","j":"Erreur à éviter: les mots à fort contenu émotionnel."}]},
-    {"q":"Selon le modèle biopsychosocial, les discordances entre les représentations profanes et scientifiques de la maladie doivent être discutées.","options":[{"t":"Le soignant ou le médecin doivent être considérés comme une autorité à qui rien de tout ce qui concerne la santé ne peut être discuté.","j":"Contraire au modèle BPS: le soignant n'est pas une autorité incontestable, le patient est acteur actif."},{"t":"Les croyances et attentes du patient influencent directement les résultats des traitements, donc ils doivents avoir une information rigoureuse et fiable","correct":true,"j":"Correct: principe BPS d'Engel — les croyances/attentes influencent l'issue (placebo, adhésion), d'où information rigoureuse et fiable."},{"t":"La confiance du patient augmente toujours lorsqu'un lui démontre point par point, directement et de façons magistrale qu'il a tort","j":"Démontrer magistralement qu'il a tort nuit à la confiance (contraire au dialogue socratique/BPS)."}]},
-    {"q":"Le conditionnement opérant est un processus à travers lequel le sujet :","options":[{"t":"Fait un apprentissage associatif lié au développement de nouveaux comportements en fonction de leurs conséquences","correct":true,"j":"Correct: définition du digest — apprentissage associatif de comportements selon leurs conséquences."},{"t":"Fait un apprentissage lié à la découverte de nouvelles réponses adaptatives au sein de toute situation stressante","j":"Formulation floue non conforme; l'opérant se définit par les conséquences, pas par les situations stressantes."},{"t":"Fait un apprentissage associatif lié à l'association entre les stimulis et les comportements","j":"Association stimuli–comportements = conditionnement classique (Pavlov), pas opérant."}]},
-    {"q":"Antoine a perdu le match d'hier de Volley. A cause de cela, il considère avoir perdu toutes les options pour que son équipe soit championne. Antoine ressentira probablement:","options":[{"t":"Anxiété","j":"L'anxiété est anticipatoire face à une menace future, pas une perte déjà survenue."},{"t":"Colère","j":"La colère répond à une frustration/injustice à combattre, pas décrite ici."},{"t":"Tristesse","correct":true,"j":"Correct: la tristesse apparaît face à une perte (match perdu, options perdues)."}]},
-    {"q":"Une personne qui montre généralement un comportement sûr de soi, en respectant ses propres droits et les droits des autres, aura :","options":[{"t":"Un style de communication assertif","correct":true,"j":"Assertif = respecte ses droits ET ceux d'autrui, coopération, sûr de soi : correct."},{"t":"Un style de communication agressif","j":"Agressif = respecte ses droits mais pas ceux d'autrui : faux."},{"t":"Un style de communication soumis","j":"Soumis = ne respecte pas ses propres droits : faux."}]},
-    {"q":"Sarah dit à Christophe qu'il devrait faire plus de sport. Dans cet exemple, Sarah est :","options":[{"t":"Le feedback","j":"Le feedback est le retour du récepteur, pas Sarah qui initie : faux."},{"t":"L'émetteur","correct":true,"j":"Sarah initie et envoie le message : elle est l'émetteur : correct."},{"t":"Le récepteur","j":"Le récepteur est Christophe qui reçoit le message : faux."}]},
-    {"q":"La loi de Yerkes-Dodson (1908) décrit la relation entre l'activation de l'organisme déclenché par le stresseur et la performance","options":[{"t":"Maintient une forme de U inversé","correct":true,"j":"Loi de Yerkes-Dodson : relation activation-performance en U inversé : correct."},{"t":"Maintient une forme de L","j":"Forme en L : faux."},{"t":"Maintient une forme de U","j":"Forme en U : faux, c'est un U inversé."}]},
-    {"q":"Selon le modèle Biopsychosocial (Signalez la réponse incorrect) :","options":[{"t":"L'état de complète santé peut être atteint en faisant attention aux variables biologiques, psychologiques et sociales","correct":true,"j":"INCORRECT (réponse à signaler) : dans le BPS le continuum implique que l'état complet de santé n'existe pas."},{"t":"Santé et maladie sont la conséquence d'un ensemble de facteurs biologiques, psychologiques et sociaux qui font partie d'une personne.","j":"Vrai : santé et maladie résultent de facteurs bio-psycho-sociaux : correct."},{"t":"La plupart des pathologies ont des multiples causes et facteurs","j":"Vrai : multi-causalité de la plupart des pathologies : correct."}]},
-    {"q":"Pour gérer un comportement agressif d'une façon assertive, il faut comprendre que:","options":[{"t":"L'agressivité manifestée par la personne peut se traduire comme une souffrance interne et la tentative de se protéger","correct":true,"j":"L'agressivité du patient traduit une souffrance interne et une tentative de se protéger : correct (digest)."},{"t":"L'agressivité est manifesté est caractéristique de personnes violentes","j":"Réduire l'agressivité à un trait de personne violente est faux."},{"t":"L'agressivité ne peut être gérée qu'à travers un style de communication plus agressif encore","j":"Répondre par plus d'agressivité n'est pas assertif : faux."}]},
-    {"q":"Dans la conception de la santé, les aspects psychosociaux ont commencé à avoir de l'importanc:","options":[{"t":"Au 18eme siècle","j":"18e siècle : santé encore vue de façon mécaniciste/organique : faux."},{"t":"Au 19eme siècle","j":"19e siècle : santé liée à l'hygiène/microbes, pas encore au psychosocial : faux."},{"t":"Au 20eme siècle","correct":true,"j":"20e siècle : OMS 1948 (bien-être mental et social) et modèle BPS : le psychosocial devient important : correct."}]},
-    {"q":"L'hostilité se réfère à :","options":[{"t":"Un comportement visant à nuire à des personnes ou des choses","j":"Non : nuire à des personnes/choses = agression/agressivité."},{"t":"Un état émotionnel caractérisé par des sentiments \"d'être fâché\"","j":"Non : sentiment d'être fâché = la colère (émotion temporaire)."},{"t":"Une attitude d'évaluation négative persistante de et envers les autres","correct":true,"j":"Correct : le digest définit l'hostilité comme une attitude durable (trait) de méfiance/négativité envers autrui."}]},
-    {"q":"Selon Selye, lorsqu'on parle de Eustress, on parle de:","options":[{"t":"Stress positive et agréable qui apparaît quand on fait une évaluation primaire du stresseur comme un défi","correct":true,"j":"Correct : l'eustress est un stress positif issu d'une évaluation primaire du stresseur comme un défi (Selye/Lazarus)."},{"t":"Stress positive et agréable qui apparaît quand on fait une évaluation primaire du stresseur comme une menace","j":"Non : évaluer comme une menace produit le distress, pas l'eustress."},{"t":"Stress positive et agréable qui apparaît quand on considère le stresseur comme incontrôlable et imprévisible","j":"Non : incontrôlable et imprévisible caractérise le distress (faible contrôle)."}]},
-    {"q":"Les variables qui prédisent l'intention selon la théorie du comportement planifié (TCP) sont:","options":[{"t":"L'attitude, les Normes Subjectives et le contrôle comportemental perçu","correct":true,"j":"Correct : la TCP prédit l'intention par l'attitude, les normes subjectives et le contrôle comportemental perçu."},{"t":"La vulnérabilité perçue, les barrières perçues et la menace perçue","j":"Non : vulnérabilité/barrières/menace perçues appartiennent au modèle des croyances sur la santé (HBM)."},{"t":"L'efficacité personnelle et les expectatives du résultat","j":"Non : efficacité personnelle et attentes de résultat relèvent de Bandura, pas des trois facteurs de la TCP."}]},
-    {"q":"Selon la théorie du portillon, ou Gate Control Theory (Melzack&Wall,1965)","options":[{"t":"L'activité des fibres, A-Delta et C facilitent la transmission du potentiel d'action","correct":true,"j":"Correct : les fibres nociceptives Aδ et C ouvrent la porte, donc facilitent la transmission du potentiel d'action."},{"t":"L'activité des fibres, A-Delta et C inhibent la transmission du potentiel d'action","j":"Non : Aδ et C n'inhibent pas mais facilitent la transmission (elles ouvrent le portillon)."},{"t":"L'activité des fibres A-Beta facilitent la transmission du potentiel d'action","j":"Non : les fibres Aβ ferment la porte via l'interneurone inhibiteur, donc inhibent (et non facilitent) la transmission."}]},
-    {"q":"Talcot Parson introduit le terme \"Rôle de Malade\" en 1951. Une caractéristique de ce rôle social est :","options":[{"t":"Le droit de respecter les exigences sanitaires","j":"Non : formulation confuse ; respecter les exigences sanitaires est plutôt une obligation, pas un privilège du rôle."},{"t":"Le droit de ne pas accomplir les obligations habituelles","correct":true,"j":"Correct : le rôle de malade selon Parsons confère l'exemption des obligations/rôles sociaux habituels."},{"t":"Le droit de signer le document de sortie volontaire de l'hôpital au cas où on n'accepte pas le traitement proposé","j":"Non : signer une sortie volontaire n'est pas une caractéristique du sick role de Parsons."}]},
-    {"q":"Selon les études de Hans Selye, toute nouvelle exigence de l'environnement provoque","options":[{"t":"Une réponse spécifique de l'organisme pour faire face à cette exigence","j":"Non : Selye insiste au contraire sur le caractère non spécifique de la réponse."},{"t":"Une réponse d'homéostasie de l'organisme","j":"Non : l'homéostasie est l'équilibre rétabli, pas la réponse initiale à toute exigence."},{"t":"Une réponse non spécifique de l'organisme pour faire face à cette exigence","correct":true,"j":"Correct : Selye définit le stress comme la réponse non spécifique de l'organisme à toute exigence de l'environnement."}]},
-    {"q":"La langue des signes est considérée comme:","options":[{"t":"Communication paraverbale","j":"Le paraverbal = ton, débit, volume de la voix ; la langue des signes n'en relève pas."},{"t":"Communication verbale","correct":true,"j":"Correct : la langue des signes est une véritable langue dotée d'une grammaire et d'une syntaxe ; le digest définit le verbal par « langue/syntaxe », donc communication verbale."},{"t":"Communication non verbale","j":"Piège fréquent : elle utilise des gestes, mais reste une langue structurée (syntaxe), donc verbale et non simple gestuelle non verbale."}]},
-    {"q":"Imaginez que l'alarme que vous utilisez depuis 2 ans commence à sonner lors d'une situation détendue. La sensation d'agitation et de tension qui apparaîtra est due à un conditionnement de type:","options":[{"t":"Opérant","j":"Opérant = comportement modelé par ses conséquences ; ici c'est un stimulus qui déclenche automatiquement une réaction."},{"t":"Pénible","j":"« Pénible » n'est pas un type de conditionnement, distracteur."},{"t":"Classique","correct":true,"j":"Correct : le son de l'alarme (SC), associé depuis 2 ans au réveil/stress, déclenche automatiquement tension (RC) = conditionnement classique."}]},
-    {"q":"L'auteur de l'article \"le modèle biopsychosocial de la santé\", publié en 1977, est :","options":[{"t":"Engel","correct":true,"j":"Correct : le digest attribue les 7 principes du modèle biopsychosocial à Engel, 1977."},{"t":"Matarazzo","j":"Matarazzo est lié à la psychologie de la santé (APA 1978), pas au modèle BPS de 1977."},{"t":"Freud","j":"Freud n'a aucun lien avec le modèle biopsychosocial."}]},
-    {"q":"Les compétences en communication servent, entre autres, à gérer les émotions. A quel système appartiennent-elles?","options":[{"t":"Cognitif","j":"Le niveau cognitif regroupe l'identification/compréhension des pensées, la compassion."},{"t":"Physiologique","j":"Le niveau physiologique regroupe respiration abdominale, autogène de Schultz, mindfulness, biofeedback."},{"t":"Moteur","correct":true,"j":"Correct : le digest classe les compétences sociales/communication dans les techniques de régulation du niveau moteur."}]},
-    {"q":"L'intervention et le traitement en psychologie se réalise à travers:","options":[{"t":"La psychothérapie","correct":true,"j":"Correct : selon le tableau du digest, l'intervention en psychologie (clinique) se fait par la psychothérapie."},{"t":"Le traitement pharmacologique","j":"Le traitement pharmacologique relève de la psychiatrie (intervention biologique), pas de la psychologie."},{"t":"Les deux réponses sont correctes","j":"Faux : le pharmacologique étant du ressort de la psychiatrie, les deux ne sont pas correctes."}]},
-    {"q":"Une personne qui s'inquiète depuis 7 mois et qui tombe finalement malade, se trouvera, probablement, dans la phase du Syndrome Général d'Adaptation (Selye, 1936)","options":[{"t":"D'alarme","j":"Faux : la phase d'alarme est la réaction immédiate initiale, pas 7 mois plus tard."},{"t":"De résistance","j":"Faux : la phase de résistance maintient l'activation mais précède la maladie."},{"t":"D'épuisement","correct":true,"j":"Vrai : après une inquiétude prolongée (7 mois), l'épuisement des réserves entraîne des conséquences négatives et la maladie (phase d'épuisement)."}]},
-    {"q":"La douleur comporte une dimension psychologique. Ceci implique :","options":[{"t":"Qu'une personne ressentira la même douleur qu'une autre, même si le stimulus nociceptif n'est pas le même","j":"Faux : à stimulus différent, la douleur ressentie diffère ; elle n'est pas identique entre personnes."},{"t":"Que l'interprétation et la compréhension d'un individu de la douleur module le ressenti de cette douleur, étant l'expérience de la douleur individuelle pour chacun","correct":true,"j":"Vrai : l'interprétation et la compréhension modulent le ressenti, la douleur étant une expérience personnelle propre à chacun."},{"t":"Qu'à intensité nociceptive similaire et même origine de la douleur, le ressenti est le même pour tout le monde","j":"Faux : à intensité et origine similaires, le ressenti varie selon l'individu (dimension psychologique)."}]},
-    {"q":"\"Les stimulis qui m'entourent conditionnent mon comportement\". Cette phrase met en évidence les études en conditionnement:","options":[{"t":"Classique","correct":true,"j":"Vrai : le conditionnement classique porte sur l'association entre les stimuli de l'environnement et les réponses/comportements."},{"t":"Opérant","j":"Faux : l'opérant met l'accent sur les conséquences du comportement, pas sur les stimuli environnants."},{"t":"Cognitif","j":"Faux : le cognitif concerne les processus mentaux internes, pas le conditionnement par les stimuli."}]},
-    {"q":"Les émotions:","options":[{"t":"Sont toujours adaptatives","j":"Faux : les émotions sont majoritairement adaptatives mais pas toujours (mauvaise régulation)."},{"t":"Sont adaptatives si elles ne dépassent pas une certaine intensité, fréquence et durée et sont en relation avec la réalité","correct":true,"j":"Vrai : elles sont adaptatives tant qu'elles restent proportionnées en intensité/fréquence/durée et en lien avec la réalité."},{"t":"Peuvent être positives, adaptatives, et négatives.","j":"Faux : formulation confuse mêlant valence et adaptativité ; ne décrit pas la condition d'adaptativité."}]},
-    {"q":"Une personne qui ne montre pas un comportement sûr de soi, et respecte les droits des autres mais pas les siens, aura généralement, un style de communication:","options":[{"t":"Assertif","j":"Faux : le style assertif respecte à la fois ses droits et ceux d'autrui."},{"t":"Agressif","j":"Faux : l'agressif respecte ses droits mais pas ceux des autres."},{"t":"Soumis","correct":true,"j":"Vrai : le style soumis/passif respecte les droits d'autrui mais pas les siens, sans affirmation de soi."}]},
-    {"q":"Laquelle de ces propositions n'est pas une conséquence des émotions sur la douleur?","options":[{"t":"La perte de mémoire","correct":true,"j":"La perte de mémoire n'est pas un mécanisme reliant émotion et douleur — CORRECT (à signaler)"},{"t":"La tension musculaire","j":"La tension musculaire EST une conséquence : anxiété → activation sympathique → contractures/spasmes (Flor & Turk, 2011)"},{"t":"La fatigue","j":"La fatigue est liée : dépression → ↓ sommeil → ↓ seuil de douleur, déconditionnement"}]},
-    {"q":"Comment dirions-nous, en Déclaration Moi/Je, la phrase suivante : \"Tu ne m'écoutes jamais!\"","options":[{"t":"\"J'ai l'impression que tu ne m'écoutes pas\"","correct":true,"j":"Déclaration MOI/Je : parle de son propre ressenti (« J'ai l'impression que... ») — CORRECT"},{"t":"\"Tu pourrais m'écouter d'avantages\"","j":"« Tu pourrais... » = déclaration TU (récrimination personnalisée)"},{"t":"\"C'est magnifique comment tu joues le rôle de sourd !\"","j":"Sarcasme/ironie = style passif-agressif (manipulation), pas une déclaration Je"}]},
-    {"q":"Faire la fête est un comportement:","options":[{"t":"Immunogène","j":"Faire la fête n'est pas intrinsèquement immunogène (les relations saines le sont, mais pas garanti ici)"},{"t":"Pathogène","j":"Pas intrinsèquement pathogène non plus (alcool/manque de sommeil le seraient)"},{"t":"Ca dépend","correct":true,"j":"Ça dépend : un même comportement est immunogène ou pathogène selon ses conséquences et le contexte — CORRECT"}]},
-    {"q":"Lorsqu'on à un conflit et on veut exprimer inconfort ou mécontentement de façon assertive :","options":[{"t":"On doit se centrer en la personne et pas en son comportement","j":"Se centrer sur la personne = attaque de l'identité (« tu es irresponsable »), à éviter"},{"t":"On doit se centrer en le comportement et pas le personne","correct":true,"j":"Se centrer sur le comportement (factuel, « quand tu arrives en retard... ») = assertif — CORRECT"},{"t":"Il ne faut jamais critiquer ni exprimer inconfort ou mécontentement","j":"Faux : la critique constructive/assertive est bénéfique, on peut exprimer un désaccord"}]},
-    {"q":"Dans le conditionnement opérant, un exemple de punition positive pour la plupart des gens:","options":[{"t":"Enlever la douleur","j":"Enlever la douleur = retirer un désagréable = renforcement négatif (↑ comportement)"},{"t":"Une insulte","correct":true,"j":"Une insulte = ajouter un stimulus désagréable = punition positive (↓ comportement) — CORRECT"},{"t":"Enlever un privilège","j":"Enlever un privilège = retirer un agréable = punition négative"}]},
-    {"q":"Quelques caractéristiques de la relation thérapeutique (signalez la réponse incorrecte):","options":[{"t":"Relation d'attentes et confiance","j":"Relation d'attentes et de confiance = caractéristique valide (Parsons : confiance, motivation)"},{"t":"Relation asymétrique","j":"Relation asymétrique = valide (dominance professionnelle, le patient accepte l'asymétrie)"},{"t":"Relation personnelle privée","correct":true,"j":"Relation personnelle privée = INCORRECT : c'est une relation professionnelle, le soignant garde l'objectivité sans implication émotionnelle personnelle"}]},
-    {"q":"La respiration abdominale est une stratégie de gestion émotionnelle qui affecte principalement...","options":[{"t":"Le système moteur","j":"Non: le système moteur relève des compétences sociales, de l'humour."},{"t":"Le système cognitif","j":"Non: le niveau cognitif relève de l'identification des pensées."},{"t":"Le système physiologique","correct":true,"j":"Oui: le digest classe la respiration abdominale parmi les techniques du niveau physiologique."}]},
-    {"q":"Les systèmes de réponse émotionnelle sont:","options":[{"t":"Cognitif, physiologique et subjectif","j":"Non: 'subjectif' ne fait pas partie du triple système de réponse."},{"t":"Cognitif, tactile et moteur","j":"Non: 'tactile' n'est pas un niveau de manifestation émotionnelle."},{"t":"Cognitif, physiologique et moteur","correct":true,"j":"Oui: le triple système de réponse = cognitif, physiologique et moteur."}]},
-    {"q":"Une personne qui s'inquiète depuis 7 jours mais cherche toujours une solution, se trouve dans la phase du SGA","options":[{"t":"D'épuisement","j":"Non: l'épuisement survient après persistance prolongée avec épuisement des réserves."},{"t":"De résistance","correct":true,"j":"Oui: continuer à compenser/chercher une solution = phase de résistance/endurance."},{"t":"D'alarme","j":"Non: l'alarme est la mobilisation immédiate initiale, pas un maintien sur 7 jours."}]},
-    {"q":"Une personne qui montre un comportement sûr de soi et ne respecte pas les droits des autres mais que les siens...","options":[{"t":"Aura un style de communication agressif","correct":true,"j":"Oui: respecter ses droits mais pas ceux d'autrui (assurance/supériorité) = style agressif."},{"t":"Style de communication soumis","j":"Non: le soumis ne respecte pas ses propres droits."},{"t":"Style de communication assertif","j":"Non: l'assertif respecte à la fois ses droits ET ceux d'autrui."}]},
-    {"q":"Si quelqu'un nous parle de physique nucléaire mais on ne comprend rien à ce sujet...","options":[{"t":"La réception est inefficace","correct":true,"j":"Oui: le récepteur ne partage pas le code/les connaissances, le décodage échoue donc la réception est inefficace."},{"t":"La communication est tout de même correcte","j":"Non: sans code commun ni feedback compris, la communication n'est pas achevée."},{"t":"L'émission est inefficace","j":"Non: l'émetteur a bien émis le message, le défaut est du côté de la réception."}]},
-    {"q":"Pour le modèle Biopsychosocial (signalez la réponse incorrecte)","options":[{"t":"Les conséquences d'une maladie peuvent devenir cause d'autres","j":"Correct pour le BPS: multi-causalité, les conséquences peuvent devenir causes."},{"t":"Tout inconfort dérive d'une anomalie sous-jacente du corps","correct":true,"j":"Incorrect (réponse cherchée): 'tout symptôme dérive d'une anomalie corporelle' est la croyance du modèle biomédical, pas BPS."},{"t":"La santé et la maladie sont des états qualitativement pareils et font partie d'un même continuum","j":"Correct pour le BPS: santé et maladie qualitativement pareilles sur un même continuum."}]},
-    {"q":"Un comportement qui diminue la santé est appelé :","options":[{"t":"Comportement immunogène","j":"Non: l'immunogène renforce les défenses et favorise la santé."},{"t":"Comportement pathogène","correct":true,"j":"Oui: le pathogène comportemental est précurseur de maladie et diminue la santé."},{"t":"Comportement essentiel","j":"Non: 'comportement essentiel' n'est pas une catégorie du digest."}]},
-    {"q":"La stratégie de gestion du temps est une stratégie...","options":[{"t":"Centrée sur la gestion du problème","correct":true,"j":"Correct : gérer son temps agit sur la source du stress = coping centré sur le problème."},{"t":"Centrée sur la gestion physiologique","j":"Non : ce n'est pas une technique corporelle (respiration, relaxation, biofeedback)."},{"t":"Centrée sur la gestion de l'émotion","j":"Non : elle n'a pas pour but de réguler l'émotion mais d'organiser/résoudre la situation."}]},
-    {"q":"La prévention secondaire :","options":[{"t":"Consiste à modifier le comportement des personnes qui ont déjà exhibé le comportement-problème, mais dont les manifestations pathologiques ne sont pas encore perceptibles.","correct":true,"j":"Correct : définition exacte de la prévention secondaire (comportement-problème présent mais sans manifestation pathologique perceptible)."},{"t":"Est destinée à faire en sorte que le comportement-problème ne se développe pas","j":"Non : c'est la prévention primaire (empêcher que le comportement-problème apparaisse)."},{"t":"Vise à modifier le comportement-problème d'individus qui ont déjà subi des manifestations pathologiques","j":"Non : c'est la prévention tertiaire (manifestations pathologiques déjà présentes)."}]},
-    {"q":"Les dimensions de l'adhésion sont:","options":[{"t":"Information et charisme","j":"Non : « information et charisme » ne sont pas des dimensions de l'adhésion."},{"t":"Persistance et implémentation","correct":true,"j":"Correct : dimensions de l'adhésion (taxonomie ABC = initiation, implémentation, persistance)."},{"t":"Activation et Valence","j":"Non : activation et valence sont les dimensions des émotions (Russell), pas de l'adhésion."}]},
-    {"q":"La stratégie du sandwich est surtout utile pour :","options":[{"t":"Nier quelque chose","correct":true,"j":"Correct : la technique du sandwich (positif-refus-positif) sert à refuser/dire non (negar = refuser)."},{"t":"Trouver les comportements pathogènes d'un patient","j":"Non : sans rapport avec le repérage des comportements pathogènes."},{"t":"Donner une mauvaise nouvelle","j":"Non : une mauvaise nouvelle se donne avec le protocole Buckman/SPIKES, pas le sandwich."}]},
-    {"q":"La perception des symptômes et sensations internes est...","options":[{"t":"Moins intense lorsque la stimulation externe est grande et intense","correct":true,"j":"Correct : compétition des indices — une forte stimulation externe détourne l'attention et diminue la perception des sensations internes."},{"t":"Indépendante de la stimulation externe","j":"Non : elle dépend bien de la stimulation externe."},{"t":"Plus intense lorsque la stimulation externe est grande et intense","j":"Non : c'est l'inverse, une stimulation externe forte réduit la perception interne."}]},
-    {"q":"La stratégie du Banc de brume...","options":[{"t":"Doit être utilisée avec précaution","correct":true,"j":"Correct : le banc de brouillard doit être utilisé avec précaution car il peut être perçu comme passif-agressif."},{"t":"Consiste à confondre avec beaucoup d'informations en peu de temps","j":"Non : ce n'est pas noyer l'autre sous les informations."},{"t":"Est très utile pour rejeter des demandes","j":"Non : rejeter des demandes relève plutôt du disque rayé/sandwich."}]},
-    {"q":"Dans un journal de douleur, les variables à marquer sont établies par:","options":[{"t":"Le patient","j":"Non : le patient consigne le journal mais n'en définit pas les variables."},{"t":"Le professionnel sanitaire","correct":true,"j":"Correct : le professionnel de santé établit les variables cliniques pertinentes à consigner."},{"t":"La famille du patient","j":"Non : la famille n'établit pas les variables du journal."}]},
-    {"q":"Sarah dit à Christophe qu'il devrait faire plus de sport. Sarah est ...","options":[{"t":"La source","j":"\"Source\" n'est pas le terme du modèle enseigné (Émetteur→Message→Récepteur→Feedback)."},{"t":"Le récepteur","j":"Le récepteur est Christophe, qui reçoit le message."},{"t":"L'émetteur","correct":true,"j":"Sarah émet le message : elle est l'émetteur."}]},
-    {"q":"La fonction informationnelle de la communication:","options":[{"t":"Sert à produire certains sentiments et émotions","j":"Produire sentiments/émotions = fonction affective, pas informationnelle."},{"t":"Stimule l'exécution de certains comportements","j":"Stimuler des comportements = fonction régulatrice/motivante, pas informationnelle."},{"t":"Sert à transmettre des informations","correct":true,"j":"La fonction informationnelle sert précisément à transmettre des informations."}]},
-    {"q":"Pour rejeter une demande, il faut tout d'abord:","options":[{"t":"Analyser la demande","correct":true,"j":"Le digest dit : avant tout OUI/NON, analyser la situation et reformuler la demande — première étape correcte."},{"t":"Exprimer nos sentiments","j":"Exprimer ses sentiments vient plus tard (ex. méthode DESC), pas en premier."},{"t":"Dire quelque chose de positif, rejeter la demande puis finir avec quelque chose de positif à nouveau","j":"La technique du sandwich est une manière de refuser, mais pas la toute première étape."}]},
-    {"q":"Au Moyen-Age, la santé est considérée comme:","options":[{"t":"Absence de maladie","correct":true,"j":"Conception prémoderne/ancienne de la santé = absence de maladie ; correspond au Moyen-Âge."},{"t":"Un état complet de bien-être physique, mental et social","j":"État complet de bien-être = définition OMS 1948, conception moderne."},{"t":"Une ressource physique de la vie quotidienne","j":"Ressource de la vie quotidienne = conception contemporaine (charte d'Ottawa 1986)."}]},
-    {"q":"Pour le modèle Biomédical:","options":[{"t":"Corps et esprit sont deux entités interdépendantes","j":"Corps et esprit interdépendants = modèle biopsychosocial, pas biomédical."},{"t":"Corps et esprit sont deux entité indépendantes","correct":true,"j":"Le modèle biomédical est dualiste : corps et esprit = entités distinctes et indépendantes."},{"t":"Corps et esprit font partie de la même entité physique","j":"Une même entité physique = vision moniste, non retenue par le modèle biomédical."}]},
-    {"q":"Le trait d'anxiété se réfère à:","options":[{"t":"Un état relativement stable dans la tendance d'un individu à l'anxiété","correct":true,"j":"Le trait d'anxiété = disposition stable, tendance durable de l'individu à l'anxiété."},{"t":"Une réaction émotionnelle d'anxiété","j":"Une réaction émotionnelle ponctuelle correspond à l'état d'anxiété, pas au trait."},{"t":"Une distorsion cognitive qui déclenche une émotion d'anxiété","j":"Une distorsion cognitive est un autre concept (biais de pensée), pas le trait d'anxiété."}]},
-    {"q":"Une séparation conjugale avec dispute est un stresseur...","options":[{"t":"Mineur","correct":true,"j":"Correct - événement important mais non catastrophique et partiellement contrôlable (niveau déménagement/nouvel emploi)."},{"t":"Quotidien","j":"Faux - les quotidiens sont de petits tracas répétés (embouteillages, mails)."},{"t":"Majeur","j":"Faux - le majeur est réservé aux événements graves, soudains, hors contrôle (guerre, séisme → SPT)."}]},
-    {"q":"Selon le modèle bidimensionnel des émotions, ou théorie du plaisir - activation (Russell,1980) les dimensions de la joie sont:","options":[{"t":"Activation positive et valence positive","correct":true,"j":"Correct - selon Russell, la joie = activation élevée + valence positive."},{"t":"Activation positive et valence négative","j":"Faux - activation élevée + valence négative correspond à colère/peur/stress."},{"t":"Activation négative et valence négative","j":"Faux - faible activation + valence négative correspond à tristesse/fatigue."}]},
-    {"q":"L'instrument d'évaluation de la douleur qui nous apporte plus d'information parmi les suivants est:","options":[{"t":"Echelle d'évaluation visuelle analogique","j":"Faux - l'échelle visuelle analogique est unidimensionnelle (intensité seulement)."},{"t":"Journal de douleur","correct":true,"j":"Correct - le journal de douleur enregistre en temps réel plusieurs dimensions (intensité, moment, contexte), donc le plus d'information."},{"t":"Dessins de douleur","j":"Faux - le dessin apporte surtout la localisation/distribution."}]},
-    {"q":"Pour rejeter une demande de façon assertive, la technique du sandwich peut être très utile. Cette technique là consiste à:","options":[{"t":"Confondre notre interlocuteur avec beaucoup d'information en peu de temps","j":"Faux - saturer d'information n'est pas la technique du sandwich."},{"t":"Analyser la demande et ajouter de façon ironique des détails","j":"Faux - ajouter de l'ironie n'est pas le sandwich."},{"t":"Commencer par dire quelque chose de positif, rejeter la demande puis finir en disant autre chose de positif","correct":true,"j":"Correct - la technique du sandwich = positif → refus → positif."}]},
-    {"q":"Pour le modèle biomédical (signalez la réponse incorrect):","options":[{"t":"Le médecin est le seul contrôleur de la santé du patient","j":"Vrai pour le modèle biomédical (médecin = seul contrôleur), donc ce n'est pas la réponse cherchée."},{"t":"Le traitement de la maladie doit se concentrer sur le changement de l'état physique","j":"Vrai pour le biomédical (traitement centré sur l'état physique), donc pas la réponse cherchée."},{"t":"Assurer le salut de l'âme est le but de la qualité de vie","correct":true,"j":"Incorrect - le salut de l'âme est religieux/spirituel, étranger au modèle biomédical matérialiste : c'est la proposition fausse recherchée."}]},
-    {"q":"La relation thérapeutique est une relation asymétrique. Ceci implique toujours:","options":[{"t":"Que le soignant dit au patient quoi faire et le patient obéit","j":"Non — décrit le modèle paternaliste/de conformité (obéissance passive), pas ce qu'implique 'toujours' l'asymétrie."},{"t":"Que le soignant aide le patient à s'aider lui-même et le patient participe tout au long de sa maladie","j":"Non — décrit l'adhésion collaborative (modèle BPS), qui dépasse la simple notion d'asymétrie."},{"t":"Que le soignant et le patient ont des droits et des obligations différents","correct":true,"j":"Oui — asymétrie (Parsons) = soignant et patient ont des rôles avec des droits et obligations différents."}]},
-    {"q":"Selon le modèle ABC des émotions (Ellis,1962), A correspond à","options":[{"t":"Interprétation","j":"Non — l'interprétation/croyance correspond à B (Beliefs)."},{"t":"Situation","correct":true,"j":"Oui — A = Activating event = l'événement déclencheur/la situation."},{"t":"Conséquence émotionnelle","j":"Non — la conséquence émotionnelle correspond à C."}]},
-    {"q":"Les fibres C réceptionnent l'information des:","options":[{"t":"Nocicepteurs mécaniques et thermiques","j":"Décrit plutôt les fibres Aδ (mécanique/thermique, douleur vive de coupure)."},{"t":"Nocicepteurs mécaniques et polymodaux","j":"Contient bien 'polymodaux' mais y associe le mécanique, domaine de l'Aδ (coupure)."},{"t":"Nocicepteurs thermiques et polymodaux","correct":true,"j":"Fibres C = polymodales et véhiculent la douleur thermique/brûlante lente ; réponse retenue."}]},
-    {"q":"Selon le modèle Demandes-Control (Karasek,1979), une latitude décisionnelle (autonomie) faible et un niveau élevé des demandes associées au travail implique:","options":[{"t":"Un comportement actif","j":"Non — comportement actif = fortes demandes + forte latitude décisionnelle."},{"t":"Un comportement passif","j":"Non — comportement passif = faibles demandes + faible contrôle."},{"t":"Une importante élévation de la tension psychique et physique","correct":true,"j":"Oui — fortes demandes + faible autonomie = 'job strain' → forte tension psychique et physique."}]},
-    {"q":"La fonction promotrice de la communication verbale consiste à:","options":[{"t":"Stimuler l'exécution de certains comportements","correct":true,"j":"Oui — fonction promotrice (conative) = inciter/stimuler l'exécution de comportements chez le récepteur."},{"t":"Produire certains sentiments et émotions","j":"Non — produire sentiments/émotions = fonction expressive/émotive."},{"t":"Transmettre des information","j":"Non — transmettre l'information = fonction référentielle/informative."}]},
-    {"q":"Les objectifs de la psychologie de la santé (Signalez la mauvaise réponse):","options":[{"t":"Étudier et promouvoir l'adhésion thérapeutique","j":"Vrai objectif — l'étude/promotion de l'adhésion thérapeutique relève bien de la psycho de la santé."},{"t":"Promotion et entretien de la santé","j":"Vrai objectif — promotion et entretien de la santé, explicitement listé."},{"t":"Comprendre les comportements des groupes","correct":true,"j":"Faux (mauvaise réponse à signaler) — comprendre les comportements des groupes relève de la psychologie sociale, pas des objectifs de la psycho de la santé."}]},
-    {"q":"Dans le conditionnement opérant, un renforçateur primaire:","options":[{"t":"Manque de valeur intrinsèque jusqu'à qu'il soit associé (par exemple: argent)","j":"Non — décrit le renforçateur secondaire (valeur acquise par association, ex. argent)."},{"t":"Est lié aux besoins essentiels (par exemple : nourriture)","correct":true,"j":"Oui — renforçateur primaire = lié aux besoins essentiels (nourriture, sommeil)."},{"t":"Aucune des deux","j":"Non — l'option 1 est correcte."}]},
-    {"q":"Selon Selye, lorsqu'on parle de Distress, on parle de:","options":[{"t":"Stress négatif et déplaisant qui apparaît quand on fait une évaluation primaire du stresseur comme un défi","j":"Une évaluation comme défi correspond à l'eustress (stress positif), pas au distress."},{"t":"Stress négatif et déplaisant qui apparaît quand on fait une évaluation primaire du stresseur comme une menace","correct":true,"j":"Le digest définit le distress comme stress négatif lié à une évaluation primaire de menace."},{"t":"Stress négatif et déplaisant qui apparaît quand on considère le stresseur comme contrôlable et prévisible","j":"Contrôlable et prévisible = caractéristiques de l'eustress, pas du distress."}]},
-    {"q":"Selon le modèle de LeDoux, les voies cérébrales de traitement des stimuli qui peuvent déclencher une réponse émotionnelle (voie rapide et lente), fonctionnent:","options":[{"t":"De façons linéaire","j":"Le modèle de LeDoux n'est pas décrit comme linéaire."},{"t":"En perpendiculaire","j":"La perpendicularité n'a pas de sens ici."},{"t":"En parallèle","correct":true,"j":"LeDoux (1996) : voie inférieure rapide et voie supérieure lente fonctionnent en parallèle."}]},
-    {"q":"Pour gérer un comportement agressif d'une façons assertive:","options":[{"t":"Il faut demander par rapport au contenue du message","j":"Interroger sur le contenu n'est pas la conduite assertive prioritaire face à l'agressivité."},{"t":"Il faut stopper la parole de la personne tout de suite","j":"Couper la parole augmente la tension, contraire à l'attitude assertive."},{"t":"Il faut favoriser, du moins au début, l'expression verbale de la personne","correct":true,"j":"Le digest recommande de favoriser, au début, l'expression verbale pour faire baisser la tension."}]},
-    {"q":"\"La conséquence de mes actions modifie leur future occurrence\". Cette phrase met en évidence les études en conditionnement:","options":[{"t":"Classique","j":"Le conditionnement classique associe des stimuli, pas des conséquences aux comportements."},{"t":"Opérant","correct":true,"j":"Le conditionnement opérant : le comportement se développe en fonction de ses conséquences (renforcement/punition)."},{"t":"Cognitif","j":"Le cognitif ne décrit pas la modification par les conséquences."}]},
-    {"q":"Le modèle biomédical considère santé et maladie comme:","options":[{"t":"Des états qualitativement opposés","correct":true,"j":"Le modèle biomédical voit santé et maladie comme des états qualitativement opposés, sans intermédiaire."},{"t":"Des états qualitativement pareils","j":"États pareils = continuum du modèle biopsychosocial, pas biomédical."},{"t":"Des états indépendants l'un de l'autre","j":"L'indépendance dualiste concerne corps et esprit, non le rapport santé/maladie."}]},
-    {"q":"Un désastre naturel est, généralement, un stresseur:","options":[{"t":"Majeur","correct":true,"j":"Le tremblement de terre est cité comme stresseur majeur (grave, soudain, hors contrôle → SPT)."},{"t":"Mineur","j":"Un stresseur mineur est important mais non dramatique et partiellement contrôlable."},{"t":"Quotidien","j":"Les stresseurs quotidiens sont de petits tracas accumulés, pas un désastre naturel."}]},
-    {"q":"Être empathique consiste à :","options":[{"t":"Se décentrer de soi même et partager les émotions des autres sans les juger","j":"Partager les émotions relève de la sympathie, pas de l'empathie (le digest précise : dans l'empathie, le sentiment n'est pas nécessairement partagé)."},{"t":"Se décentrer de soi même et comprendre les émotions des autres sans les juger","correct":true,"j":"Comprendre les émotions d'autrui sans les juger, en se décentrant : définition exacte de l'empathie (Rogers)."},{"t":"Se décentrer de soi même et juger les émotions des autres sans les comprendres","j":"Juger sans comprendre est l'inverse de l'empathie (ni décentrement ni non-jugement)."}]},
-    {"q":"Sarah dit à Christophe qu'il devrait faire plus de sport, mais Christophe ne l'écoute pas car son attention est attirée vers une annonce TV. Dans cet exemple, on considère l'annonce de TV:","options":[{"t":"Un récepteur","j":"Le récepteur est Christophe (celui qui reçoit le message), pas l'annonce TV."},{"t":"Un filtre","j":"Le filtre est une barrière mentale interne (valeurs, préjugés) ; l'annonce est externe."},{"t":"Un bruit","correct":true,"j":"Bruit = interférence externe qui perturbe la communication : l'annonce TV détourne l'attention = bruit."}]},
-    {"q":"Quels sont les 2 pionniers de la relaxation ?","options":[{"t":"G.Engel et J.B. Watson","j":"Engel (modèle BPS) et Watson (conditionnement) ne sont pas des pionniers de la relaxation."},{"t":"E.Jacobson et J.H.Schultz","correct":true,"j":"Jacobson (relaxation musculaire progressive) et Schultz (entraînement autogène) = les deux pionniers de la relaxation."},{"t":"S.Freud et J.J.Rosseau","j":"Freud (psychanalyse) et Rousseau ne sont pas liés aux techniques de relaxation."}]},
-    {"q":"La respiration abdominale est une technique/stratégie:","options":[{"t":"De relaxation","correct":true,"j":"La respiration abdominale est citée comme technique de régulation physiologique/relaxation (avec Schultz, mindfulness)."},{"t":"D'hypnose","j":"L'hypnose est une technique distincte listée séparément."},{"t":"Cognitive","j":"Ce n'est pas une stratégie cognitive (le niveau cognitif concerne l'identification des pensées, pas la respiration)."}]},
-    {"q":"Antoine a perdu le match d'hier de volley. Il considère que l'arbitre est corrompu. Antoine ressentira probablement:","options":[{"t":"Colère","correct":true,"j":"Interprétation « l'arbitre est corrompu » = injustice/besoin de se défendre → colère (modèle ABC d'Ellis, argument d'équité)."},{"t":"Anxiété","j":"L'anxiété est une réponse anticipatoire face à une menace future, non à une injustice passée."},{"t":"Tristesse","j":"La tristesse répond à une perte acceptée ; ici il attribue l'échec à une injustice externe, ce qui génère de la colère."}]},
-    {"q":"Laquelle de ces propositions définit correctement la psychologie en tant que science ?","options":[{"t":"La science qui étudie le comportement et les processus mentaux.","correct":true,"j":"Définition retenue : elle englobe à la fois le comportement et les processus mentaux."},{"t":"La science qui étudie uniquement le comportement observable.","j":"Réductrice : elle omet les processus mentaux, pourtant inclus dans la définition."},{"t":"La science qui étudie uniquement les processus mentaux internes.","j":"Réductrice : elle omet le comportement, pourtant inclus dans la définition."}]},
-    {"q":"Dans la démarche scientifique appliquée en psychologie, quel enchaînement respecte l'ordre attendu ?","options":[{"t":"Observer, formuler des hypothèses, mesurer, conclure, reproduire.","correct":true,"j":"Ordre correct de la méthode scientifique, fondé sur un recueil objectif des informations."},{"t":"Formuler des hypothèses, observer, mesurer, reproduire, conclure.","j":"L'observation précède la formulation des hypothèses, et la conclusion précède la reproduction."},{"t":"Mesurer, observer, formuler des hypothèses, conclure, reproduire.","j":"La mesure ne peut précéder l'observation et la formulation des hypothèses."}]},
-    {"q":"Selon quels paramètres le comportement se mesure-t-il ?","options":[{"t":"La fréquence, la durée et les circonstances.","correct":true,"j":"Ce sont les trois paramètres de mesure du comportement retenus."},{"t":"La fréquence, la durée et l'intensité.","j":"L'intensité n'est pas retenue ; ce sont les circonstances qui complètent la mesure."},{"t":"La valence, la durée et les circonstances.","j":"La valence n'est pas retenue ; c'est la fréquence qui complète la mesure."}]},
-    {"q":"À quels trois niveaux le comportement s'analyse-t-il ?","options":[{"t":"Physiologique, moteur et cognitif.","correct":true,"j":"Ce sont les trois niveaux d'analyse du comportement."},{"t":"Physiologique, émotionnel et cognitif.","j":"Le niveau moteur est attendu à la place du niveau émotionnel."},{"t":"Sensoriel, moteur et cognitif.","j":"Le niveau physiologique est attendu à la place du niveau sensoriel."}]},
-    {"q":"Quels sont les principaux processus mentaux, ces opérations internes qui soutiennent le comportement ?","options":[{"t":"Le langage, l'attention, la perception et la mémoire.","correct":true,"j":"Ce sont les quatre principaux processus mentaux cités."},{"t":"Le langage, la motivation, la perception et la mémoire.","j":"L'attention est attendue à la place de la motivation."},{"t":"Le langage, l'attention, la perception et l'émotion.","j":"La mémoire est attendue à la place de l'émotion."}]},
-    {"q":"À quelle question répond l'objectif « décrire » ?","options":[{"t":"« Comment est-ce ? »","correct":true,"j":"Décrire vise à préciser comment se présente le phénomène."},{"t":"« Pourquoi est-ce ainsi ? »","j":"Cette question relève d'expliquer, non de décrire."},{"t":"« Que signifie cela ? »","j":"Cette question relève de comprendre, non de décrire."}]},
-    {"q":"En quoi consiste l'objectif « expliquer » ?","options":[{"t":"Répondre à « pourquoi ? » en établissant les relations entre les faits.","correct":true,"j":"Expliquer cherche les relations entre les faits pour répondre au pourquoi."},{"t":"Répondre à « comment est-ce ? » en décrivant les faits observés.","j":"Cette démarche correspond à décrire, non à expliquer."},{"t":"Répondre à « que signifie cela ? » en interprétant le ressenti.","j":"Cette démarche correspond à comprendre, non à expliquer."}]},
-    {"q":"À quoi correspond l'objectif « comprendre » ?","options":[{"t":"Répondre à « que signifie cela ? », par le ressenti et l'interprétation.","correct":true,"j":"Comprendre porte sur le sens, à partir du ressenti et de l'interprétation."},{"t":"Répondre à « pourquoi ? », en établissant les relations entre les faits.","j":"Cette démarche correspond à expliquer, non à comprendre."},{"t":"Répondre à « comment est-ce ? », en décrivant objectivement les faits.","j":"Cette démarche correspond à décrire, non à comprendre."}]},
-    {"q":"Parmi les objectifs de la psychologie, l'objectif de prédiction correspond à quelle formulation ?","options":[{"t":"« Que va-t-il se passer ? », abordé en formulant des hypothèses de probabilité.","correct":true,"j":"Prédire anticipe ce qui va survenir à partir d'hypothèses de probabilité : c'est bien cette formulation."},{"t":"« Pourquoi cela se produit-il ? », abordé en recherchant les causes du phénomène.","j":"La question « pourquoi ? » et la recherche des causes relèvent d'expliquer, non de prédire."},{"t":"« Comment changer ? », abordé en agissant sur le comportement de la personne.","j":"« Comment changer ? » et l'action sur le comportement relèvent de modifier, non de prédire."}]},
-    {"q":"Parmi les objectifs de la psychologie, l'objectif de modification correspond à quelle formulation ?","options":[{"t":"« Comment changer ? », en intervenant pour transformer le comportement observé.","correct":true,"j":"Modifier vise le changement du comportement : la question « comment changer ? » lui correspond."},{"t":"« Que va-t-il se passer ? », en formulant des hypothèses de probabilité.","j":"Cette formulation et les hypothèses de probabilité définissent prédire, non modifier."},{"t":"« Qu'est-ce qui se passe ? », en décrivant les faits tels qu'ils sont observés.","j":"La question « qu'est-ce qui se passe ? » et la description des faits relèvent de décrire, non de modifier."}]},
-    {"q":"Quelle branche de la psychologie a pour objet d'influencer le comportement d'achat ?","options":[{"t":"La psychologie du consommateur.","correct":true,"j":"La psychologie du consommateur porte précisément sur le comportement d'achat et son influence."},{"t":"La psychologie du travail et des organisations.","j":"Cette branche porte sur les conduites liées au travail, non sur le comportement d'achat."},{"t":"La psychologie du sport.","j":"Cette branche porte sur les aptitudes mentales de la performance, non sur le comportement d'achat."}]},
-    {"q":"Quel est l'objet principal de la psychologie du travail et des organisations ?","options":[{"t":"Les attitudes et les comportements liés au travail.","correct":true,"j":"Cette branche étudie précisément les attitudes et comportements en situation de travail."},{"t":"Les aptitudes mentales qui déterminent la performance.","j":"Les aptitudes mentales de performance relèvent de la psychologie du sport."},{"t":"Le comportement d'achat et les moyens de l'influencer.","j":"Le comportement d'achat et son influence relèvent de la psychologie du consommateur."}]},
-    {"q":"Quel est l'objet principal de la psychologie sociale ?","options":[{"t":"Les interrelations entre l'individu et son environnement social, comme le conformisme et l'obéissance à l'autorité.","correct":true,"j":"La psychologie sociale étudie ces interrelations individu-environnement, dont le conformisme et l'obéissance."},{"t":"Les attitudes et les comportements adoptés par les individus dans leur milieu professionnel.","j":"Les conduites en milieu professionnel relèvent de la psychologie du travail et des organisations."},{"t":"Les moyens d'orienter les décisions et le comportement d'achat des consommateurs.","j":"L'orientation du comportement d'achat relève de la psychologie du consommateur."}]},
-    {"q":"Quelle branche de la psychologie étudie les aptitudes mentales qui déterminent la performance ?","options":[{"t":"La psychologie du sport.","correct":true,"j":"La psychologie du sport porte sur les aptitudes mentales qui conditionnent la performance."},{"t":"La psychologie sociale.","j":"La psychologie sociale porte sur les interrelations entre l'individu et son environnement."},{"t":"La psychologie du travail et des organisations.","j":"La psychologie du travail porte sur les attitudes et comportements liés au travail."}]},
-    {"q":"Concernant le statut de ces deux professionnels, quelle affirmation est exacte ?","options":[{"t":"Le psychologue clinicien est un spécialiste en psychologie clinique, et le psychiatre un médecin de spécialité psychiatrique.","correct":true,"j":"Le clinicien est spécialiste en psychologie clinique, tandis que le psychiatre est bien un médecin."},{"t":"Le psychologue clinicien est un médecin spécialisé, et le psychiatre un spécialiste non médecin en psychologie.","j":"Les statuts sont inversés : c'est le psychiatre qui est médecin, pas le psychologue clinicien."},{"t":"Le psychologue clinicien et le psychiatre sont tous deux des médecins de spécialité psychiatrique.","j":"Seul le psychiatre est médecin ; le psychologue clinicien ne l'est pas."}]},
-    {"q":"Comment se distinguent les visées de la psychologie clinique et de la psychiatrie ?","options":[{"t":"La psychologie clinique traite les problèmes mentaux et enseigne des compétences et stratégies ; la psychiatrie étudie la maladie mentale et ses effets biochimiques et environnementaux.","correct":true,"j":"La clinique traite et enseigne des stratégies, tandis que la psychiatrie étudie la maladie et ses effets biochimiques."},{"t":"La psychiatrie traite les problèmes mentaux et enseigne des stratégies ; la psychologie clinique étudie la maladie mentale et ses effets biochimiques et environnementaux.","j":"Les rôles sont inversés : c'est la clinique qui enseigne les stratégies et la psychiatrie qui étudie les effets."},{"t":"La psychologie clinique et la psychiatrie visent toutes deux uniquement l'étude des effets biochimiques et environnementaux de la maladie mentale.","j":"La psychologie clinique ne se limite pas à l'étude biochimique : elle traite et enseigne des compétences."}]},
-    {"q":"Parmi les ensembles suivants, lequel correspond aux outils diagnostiques propres au psychologue ?","options":[{"t":"Les tests psychologiques, les entretiens et l'observation.","correct":true,"j":"Ce sont exactement les trois outils diagnostiques du psychologue selon le cours."},{"t":"Les tests psychologiques, l'IRM et les analyses biologiques.","j":"L'IRM et les analyses biologiques sont des outils du psychiatre, pas du psychologue."},{"t":"Les entretiens cliniques, le scanner et l'observation.","j":"Le scanner relève de l'arsenal médical du psychiatre et non du psychologue."}]},
-    {"q":"Quel est l'objectif visé par la psychologie de la santé ?","options":[{"t":"Comprendre, expliquer et prédire les comportements de santé et de maladie pour réduire le prix physique et émotionnel des comportements de risque.","correct":true,"j":"C'est la finalité énoncée : agir sur le prix physique et émotionnel des conduites à risque."},{"t":"Comprendre, expliquer et prédire les comportements de santé et de maladie pour supprimer toute cause biologique des comportements de risque.","j":"L'objectif n'est pas de supprimer une cause biologique mais de réduire le prix physique et émotionnel."},{"t":"Comprendre, décrire et classer les comportements de santé et de maladie pour réduire le coût financier des soins de risque.","j":"Le champ vise à prédire les comportements et le prix physique et émotionnel, pas seulement à les classer ni à viser le coût financier."}]},
-    {"q":"Historiquement, quelles étaient les principales causes de mortalité ?","options":[{"t":"Les maladies infectieuses et nutritionnelles.","correct":true,"j":"Ce sont bien les causes de mortalité dominantes avant la transition épidémiologique."},{"t":"Les maladies chroniques et dégénératives.","j":"Ces maladies dominent après la transition épidémiologique, pas historiquement."},{"t":"Les maladies cardiovasculaires et le cancer.","j":"Ce sont des maladies chroniques devenues prépondérantes plus tard, pas les causes historiques."}]},
-    {"q":"La maîtrise des infections par les antibiotiques a déplacé l'attention vers quel type de maladies ?","options":[{"t":"Les maladies chroniques comme le cancer, les affections cardiovasculaires et le diabète.","correct":true,"j":"Une fois les infections maîtrisées, l'attention se porte sur ces maladies chroniques."},{"t":"Les maladies infectieuses comme la tuberculose, le choléra et la typhoïde.","j":"Ce sont précisément les infections que les antibiotiques ont permis de maîtriser."},{"t":"Les maladies nutritionnelles comme les carences et la malnutrition sévère.","j":"Le déplacement d'attention se fait vers les maladies chroniques, non nutritionnelles."}]},
-    {"q":"Selon l'OMS, comment se définit la santé ?","options":[{"t":"Un état complet de bien-être physique, mental et social qui ne se réduit pas à l'absence de maladie ou d'infirmité.","correct":true,"j":"La définition inclut la dimension sociale et dépasse la simple absence de maladie."},{"t":"Un état complet de bien-être physique et mental correspondant à la seule absence de maladie ou d'infirmité.","j":"La santé ne se réduit pas à l'absence de maladie et intègre aussi la dimension sociale."},{"t":"Un état complet de bien-être physique, mental et social résultant uniquement de l'absence de maladie ou d'infirmité.","j":"La définition précise justement qu'elle ne consiste pas seulement en l'absence de maladie."}]},
-    {"q":"Comment se caractérise la maladie d'après le cours ?","options":[{"t":"Une altération de l'état de santé, rupture d'ordre physique, mental et social, avec des symptômes objectifs et subjectifs.","correct":true,"j":"La rupture est à la fois physique, mentale et sociale, avec symptômes objectifs et subjectifs."},{"t":"Une altération de l'état de santé, rupture d'ordre physique, mental et social, avec des symptômes uniquement objectifs.","j":"La maladie comporte aussi des symptômes subjectifs, pas seulement objectifs."},{"t":"Une altération de l'état de santé, rupture d'ordre uniquement physique, avec des symptômes objectifs et subjectifs.","j":"La rupture n'est pas seulement physique : elle est aussi mentale et sociale."}]},
-    {"q":"Dans le modèle biopsychosocial, que montre l'exemple de la personne hypocondriaque ?","options":[{"t":"Adopter un rôle de malade n'implique pas nécessairement un trouble biologique.","correct":true,"j":"L'hypocondriaque endosse un rôle de malade sans trouble biologique avéré."},{"t":"Adopter un rôle de malade implique toujours un trouble biologique sous-jacent.","j":"L'exemple montre au contraire qu'un rôle de malade peut exister sans trouble biologique."},{"t":"Adopter un rôle de malade exclut nécessairement tout trouble biologique.","j":"Le rôle de malade n'exclut pas un trouble biologique : il ne l'implique simplement pas toujours."}]},
-    {"q":"Selon le modèle biopsychosocial, que traduit l'effet placebo ?","options":[{"t":"L'efficacité des traitements biologiques est influencée par des facteurs psychosociaux.","correct":true,"j":"L'effet placebo illustre l'influence des facteurs psychosociaux sur un traitement biologique."},{"t":"L'efficacité des traitements biologiques est indépendante des facteurs psychosociaux.","j":"L'effet placebo démontre justement une influence psychosociale sur l'efficacité."},{"t":"L'efficacité des traitements biologiques dépend uniquement des facteurs psychosociaux.","j":"Les facteurs psychosociaux influencent l'efficacité sans en être l'unique déterminant."}]},
-    {"q":"Dans le cadre du modèle biopsychosocial, qu'est-ce qui justifie le recours à une étude en double aveugle en recherche clinique ?","options":[{"t":"Les patients, contrairement aux sujets inanimés, sont profondément influencés par la façon dont ils sont étudiés.","correct":true,"j":"Exact : le sujet humain réagit au fait d'être observé, ce que le double aveugle vise à neutraliser."},{"t":"Les patients réagissent exactement comme les sujets inanimés, quelle que soit la façon dont ils sont étudiés.","j":"Faux : le cours oppose les patients aux sujets inanimés, justement parce qu'ils sont influençables."},{"t":"Les chercheurs demeurent parfaitement neutres et ne sont jamais influencés par les sujets qu'ils étudient.","j":"Faux : le cours précise que les scientifiques sont eux aussi influencés par leurs sujets."}]},
-    {"q":"Dans la distinction « disease / illness », à quoi correspond la « disease » ?","options":[{"t":"À l'état objectif, centré sur le processus pathologique qui produit ou non des symptômes.","correct":true,"j":"Exact : la disease renvoie à l'état de santé objectif et au processus pathologique."},{"t":"À l'état subjectif, centré sur l'expérience vécue de la maladie par la personne.","j":"Décrit l'illness (état subjectif), et non la disease."},{"t":"À l'état ressenti, centré sur la façon dont la personne se définit comme malade ou non.","j":"Relève encore de l'illness : se définir malade tient du vécu subjectif."}]},
-    {"q":"Dans les pays à faible revenu, quelles causes de décès prédominent ?","options":[{"t":"Les infections, les maladies tropicales, la mortalité maternelle/périnatale et la malnutrition.","correct":true,"j":"Correspond au tableau des faibles revenus (infections, paludisme/VIH/tuberculose, mortalité maternelle, malnutrition/diarrhée)."},{"t":"Les maladies cardiovasculaires, les cancers et les maladies respiratoires chroniques.","j":"Ce sont les causes dominantes des pays à revenu moyen/élevé, non à faible revenu."},{"t":"Le diabète, les maladies neurodégénératives et les maladies cardiovasculaires.","j":"Diabète et maladies neurodégénératives caractérisent les revenus moyens/élevés."}]},
-    {"q":"Dans les pays à revenu moyen ou élevé, quelles causes de décès prédominent ?","options":[{"t":"Les maladies cardiovasculaires, les cancers, les maladies respiratoires chroniques et le diabète.","correct":true,"j":"Correspond au tableau des revenus moyens/élevés (cardiovasculaires, cancers, MPOC, diabète, neurodégénératives)."},{"t":"Les infections respiratoires basses, le paludisme, le VIH/SIDA et la tuberculose.","j":"Ce sont les causes infectieuses dominantes des pays à faible revenu."},{"t":"La malnutrition, la diarrhée, la mortalité périnatale et les causes liées à la grossesse.","j":"Ces causes caractérisent les faibles revenus, non les revenus moyens/élevés."}]},
-    {"q":"Comment évoluent les décès dus aux maladies non transmissibles (MNT) lorsque le revenu augmente ?","options":[{"t":"Ils augmentent : la hausse du revenu s'accompagne d'une augmentation des décès dus aux MNT.","correct":true,"j":"Exact : à mesure que les revenus augmentent, les décès dus aux MNT augmentent."},{"t":"Ils diminuent : la hausse du revenu s'accompagne d'une réduction des décès dus aux MNT.","j":"Inverse du cours ; ce sont les maladies transmissibles qui reculent."},{"t":"Ils restent stables : la hausse du revenu n'a aucun effet sur les décès dus aux MNT.","j":"Faux : le cours décrit une augmentation, non une stabilité."}]},
-    {"q":"Parmi les 15 principales causes d'années vécues avec un handicap dans le monde, combien sont des maladies non transmissibles (MNT) ?","options":[{"t":"12 des 15 principales causes sont des maladies non transmissibles.","correct":true,"j":"Exact : 12 des 15 principales causes d'années vécues avec un handicap sont des MNT."},{"t":"5 des 15 principales causes sont des maladies non transmissibles.","j":"Sous-estime nettement : le chiffre retenu est 12, traduisant la prédominance des MNT."},{"t":"3 des 15 principales causes sont des maladies non transmissibles.","j":"Trop faible : le cours retient 12, soulignant le poids des MNT."}]},
-    {"q":"Selon l'OMS, quelle proportion des infarctus du myocarde et des AVC pourrait être évitée grâce à une bonne hygiène de vie ?","options":[{"t":"Environ 80 % des cas.","correct":true,"j":"Exact : l'OMS estime que 80 % des infarctus et AVC seraient évitables par une bonne hygiène de vie."},{"t":"Environ 50 % des cas.","j":"Correspond plutôt à la borne haute de la prévention des cancers, non aux maladies cardiovasculaires."},{"t":"Environ 30 % des cas.","j":"Correspond à la borne basse de la prévention des cancers (30–50 %), non aux infarctus/AVC."}]},
-    {"q":"Quelle proportion des cas de diabète de type 2 pourrait être évitée grâce à un poids sain, une activité physique régulière et une alimentation équilibrée ?","options":[{"t":"Jusqu'à 90 % des cas.","correct":true,"j":"Exact : jusqu'à 90 % des cas de diabète de type 2 seraient évitables selon le cours."},{"t":"Jusqu'à 70 % des cas.","j":"Sous-estime la proportion : le chiffre retenu est de 90 %."},{"t":"Jusqu'à 50 % des cas.","j":"Trop faible : le cours retient jusqu'à 90 %, non 50 %."}]},
-    {"q":"Selon les données de prévention, quelle proportion des cancers peut être évitée grâce à l'adoption de comportements sains ?","options":[{"t":"30 à 50 %","correct":true,"j":"Une part importante des cancers, estimée entre 30 et 50 %, est évitable par des comportements sains, ce qui fonde le rôle de la prévention comportementale."},{"t":"10 à 20 %","j":"Cette fourchette sous-estime la part des cancers évitables par les comportements, qui est en réalité plus élevée."},{"t":"60 à 80 %","j":"Cette fourchette surestime la part évitable, car tous les cancers ne relèvent pas de facteurs comportementaux modifiables."}]},
-    {"q":"Comment définit-on un facteur de risque ?","options":[{"t":"Une caractéristique ou un comportement qui augmente la probabilité de développer une maladie sans garantir son apparition.","correct":true,"j":"Le facteur de risque élève la probabilité de la maladie sans la rendre inévitable : c'est une association probabiliste, non déterministe."},{"t":"Une caractéristique ou un comportement qui entraîne de façon certaine l'apparition d'une maladie donnée.","j":"Un facteur de risque n'entraîne pas la maladie de façon certaine ; il n'en augmente que la probabilité."},{"t":"Une caractéristique ou un comportement qui apparaît uniquement après le début d'une maladie déclarée.","j":"Le facteur de risque précède et favorise la maladie ; il n'est pas un signe survenant après son installation."}]},
-    {"q":"La nature d'un facteur de risque peut relever de plusieurs registres. Lequel de ces ensembles les recense correctement ?","options":[{"t":"Biologique, environnementale, comportementale, sociale et génétique.","correct":true,"j":"Les natures reconnues d'un facteur de risque sont biologique, environnementale, comportementale, sociale et génétique."},{"t":"Biologique, comportementale, génétique, hormonale et infectieuse.","j":"« Hormonale » et « infectieuse » ne sont pas retenues comme natures distinctes ; elles relèvent plutôt du registre biologique."},{"t":"Environnementale, sociale, génétique, digestive et respiratoire.","j":"« Digestive » et « respiratoire » désignent des systèmes de l'organisme, non des natures de facteurs de risque au sens retenu."}]},
-    {"q":"Parmi ces ensembles, lequel correspond aux principaux facteurs de risque des maladies chroniques ?","options":[{"t":"Tabagisme, inactivité physique, alcool, alimentation malsaine et pollution atmosphérique.","correct":true,"j":"Ces cinq éléments constituent les principaux facteurs de risque comportementaux et environnementaux des maladies chroniques."},{"t":"Tabagisme, alcool, alimentation malsaine, exposition solaire et bruit environnemental.","j":"L'exposition solaire et le bruit ne figurent pas parmi les cinq principaux facteurs de risque des maladies chroniques retenus."},{"t":"Inactivité physique, pollution atmosphérique, alcool, stress aigu isolé et déshydratation.","j":"Le stress aigu isolé et la déshydratation ne comptent pas parmi les cinq principaux facteurs de risque retenus."}]},
-    {"q":"Pour quelle raison la maladie parodontale est-elle considérée comme un facteur de risque cardiovasculaire ?","options":[{"t":"Le passage de bactéries dans le sang y augmente l'inflammation, ce qui favorise l'atteinte cardiovasculaire.","correct":true,"j":"Les bactéries parodontales passent dans la circulation et majorent l'inflammation, mécanisme reliant parodontite et risque cardiovasculaire."},{"t":"La perte dentaire qu'elle provoque limite directement la contraction du muscle cardiaque.","j":"La perte dentaire n'agit pas directement sur la contraction cardiaque ; le lien passe par l'inflammation d'origine bactérienne."},{"t":"La carence alimentaire qu'elle entraîne fragilise mécaniquement la paroi des artères.","j":"Le lien repose sur l'inflammation liée aux bactéries dans le sang, non sur une carence fragilisant la paroi artérielle."}]},
-    {"q":"Que désigne-t-on par « immunogènes comportementaux » ?","options":[{"t":"Des comportements qui renforcent les défenses et favorisent la santé, comme la méditation ou le bénévolat.","correct":true,"j":"Les immunogènes comportementaux (méditation, bénévolat, relations saines, autosoins…) renforcent les défenses et favorisent la santé."},{"t":"Des comportements qui affaiblissent les défenses et dégradent la santé, comme la sédentarité prolongée.","j":"Ceux qui affaiblissent les défenses et nuisent à la santé sont les pathogènes comportementaux, non les immunogènes."},{"t":"Des comportements neutres et sans effet sur les défenses, comme de simples habitudes routinières.","j":"Les immunogènes ont un effet bénéfique actif sur les défenses ; ils ne sont pas neutres."}]},
-    {"q":"Pourquoi l'exercice physique peut-il être tantôt immunogène, tantôt pathogène ?","options":[{"t":"Parce que son effet dépend du contexte et des conséquences : régulier il protège, excessif ou obsessionnel il nuit.","correct":true,"j":"Un même comportement change de statut selon le contexte et ses conséquences : l'exercice régulier est immunogène, excessif ou obsessionnel il devient pathogène (surentraînement, vigorexie)."},{"t":"Parce qu'il reste toujours immunogène tant qu'il est pratiqué, quelles que soient son intensité et sa fréquence.","j":"L'exercice n'est pas toujours immunogène : pratiqué à l'excès, il devient pathogène."},{"t":"Parce qu'il devient pathogène uniquement lorsqu'il est pratiqué de façon trop occasionnelle et irrégulière.","j":"C'est l'excès ou l'obsession, et non la rareté, qui rend l'exercice pathogène."}]},
-    {"q":"Quel est l'objectif de la prévention primaire ?","options":[{"t":"Éviter que le comportement-problème ne se développe, idéalement dès l'enfance.","correct":true,"j":"La prévention primaire agit en amont pour empêcher le comportement-problème d'apparaître, idéalement dès l'enfance."},{"t":"Limiter les conséquences d'un comportement-problème déjà installé et repéré.","j":"Réduire les conséquences d'un problème déjà présent relève de la prévention secondaire, non primaire."},{"t":"Réadapter la personne après les complications d'un comportement-problème ancien.","j":"La réadaptation après complications relève de la prévention tertiaire, non primaire."}]},
-    {"q":"Un kinésithérapeute suit un patient qui présente déjà des manifestations pathologiques installées ; l'objectif est d'éviter une récidive, une aggravation ou le décès. À quel niveau de prévention correspond cette action ?","options":[{"t":"La prévention secondaire","j":"Elle vise le dépistage et une prise en charge précoces, avant que des manifestations pathologiques ne soient déjà installées."},{"t":"La prévention tertiaire","correct":true,"j":"Elle modifie le comportement d'individus ayant déjà des manifestations pathologiques pour éviter récidive, évolution ou mort."},{"t":"La prévention quaternaire","j":"Elle cherche à éviter les conséquences néfastes des soins inutiles, non à limiter l'évolution d'une pathologie déjà installée."}]},
-    {"q":"Une équipe met en place une démarche destinée à éviter ou atténuer les conséquences néfastes d'interventions et de soins inutiles. De quel niveau de prévention s'agit-il ?","options":[{"t":"La prévention quaternaire","correct":true,"j":"Elle a précisément pour but d'éviter ou d'atténuer les conséquences néfastes des interventions et des soins inutiles."},{"t":"La prévention tertiaire","j":"Elle s'adresse à des individus déjà malades pour éviter récidive, évolution ou mort, non aux effets des soins inutiles."},{"t":"La prévention primaire","j":"Elle agit avant l'apparition de la maladie, et non sur les conséquences néfastes des interventions et des soins."}]},
-    {"q":"Quel est l'objectif principal du modèle des croyances relatives à la santé (Health Belief Model) ?","options":[{"t":"Déterminer le niveau de prévention le plus adapté au stade de la maladie","j":"Le choix d'un niveau de prévention relève de la classification des préventions, pas de l'objet de ce modèle."},{"t":"Évaluer les conséquences néfastes des interventions et des soins inutiles","j":"Cela correspond à la prévention quaternaire, et non à la finalité du modèle des croyances relatives à la santé."},{"t":"Expliquer pourquoi les individus adoptent ou non des comportements de protection","correct":true,"j":"Le modèle vise justement à rendre compte de l'adoption ou du refus des comportements de protection de la santé."}]},
-    {"q":"Parmi les éléments suivants, lequel constitue une composante du modèle des croyances relatives à la santé ?","options":[{"t":"La vulnérabilité perçue","correct":true,"j":"Elle figure parmi les composantes du modèle, aux côtés de la gravité, des bénéfices et des barrières perçus."},{"t":"La contagiosité perçue","j":"Elle ne fait pas partie des composantes du modèle, qui ne mentionne pas la contagiosité."},{"t":"La guérison perçue","j":"Elle n'appartient pas aux composantes du modèle, centrées sur la menace et la balance bénéfices/barrières."}]},
-    {"q":"Selon le modèle des croyances relatives à la santé, dans quelle situation la probabilité d'adopter le comportement est-elle maximale ?","options":[{"t":"Vulnérabilité perçue élevée et obstacles perçus supérieurs aux avantages","j":"Lorsque les obstacles l'emportent sur les avantages, la probabilité d'adopter le comportement diminue."},{"t":"Vulnérabilité perçue élevée et avantages perçus supérieurs aux obstacles","correct":true,"j":"La probabilité d'agir est maximale quand la vulnérabilité est élevée et que les avantages dépassent les obstacles."},{"t":"Vulnérabilité perçue faible et avantages perçus supérieurs aux obstacles","j":"Une vulnérabilité perçue faible réduit la probabilité d'agir, même si les avantages dépassent les obstacles."}]},
-    {"q":"Parmi les domaines d'application du modèle des croyances relatives à la santé, lequel est celui où il se montre le moins efficace ?","options":[{"t":"L'observance thérapeutique","j":"Elle fait partie des applications du modèle, mais n'est pas celle où il est le moins efficace."},{"t":"L'utilisation des services médicaux","j":"Elle constitue une application du modèle, sans être le domaine où il est le moins efficace."},{"t":"L'adoption volontaire d'un comportement sain","correct":true,"j":"C'est parmi ses domaines d'application celui où le modèle se révèle le moins efficace."}]},
-    {"q":"Quelle proposition décrit correctement une limite du modèle des croyances relatives à la santé ?","options":[{"t":"Centré sur les croyances et la peur, il néglige les émotions et l'influence sociale","correct":true,"j":"Le modèle est reproché pour son centrage sur les croyances et la peur, au détriment des émotions et du social."},{"t":"Centré sur les émotions, il néglige les croyances et la peur ressenties","j":"À l'inverse, le modèle est critiqué pour trop s'appuyer sur les croyances et la peur, non pour les négliger."},{"t":"Centré sur l'influence sociale, il néglige la perception de la vulnérabilité","j":"Le modèle intègre la vulnérabilité perçue et tend au contraire à oublier l'influence sociale."}]},
-    {"q":"Sur quelles deux croyances repose la théorie de l'auto-efficacité ?","options":[{"t":"La croyance en la gravité du résultat et la croyance en sa propre vulnérabilité face à celui-ci","j":"Gravité et vulnérabilité perçues relèvent du modèle des croyances relatives à la santé, non de cette théorie."},{"t":"La croyance que le comportement permet d'atteindre le résultat et la croyance en sa capacité à s'y engager","correct":true,"j":"La théorie repose sur l'efficacité attendue du comportement et sur l'auto-efficacité à s'y engager."},{"t":"La croyance que le comportement permet d'atteindre le résultat et la croyance en la gravité perçue de la maladie","j":"L'efficacité du comportement est correcte, mais la seconde croyance est l'auto-efficacité, non la gravité perçue."}]},
-    {"q":"Selon la théorie de l'auto-efficacité, laquelle de ces quatre sources en constitue la source principale ?","options":[{"t":"La maîtrise personnelle, c'est-à-dire les expériences de réussite réellement vécues","correct":true,"j":"Exact : les réussites personnelles vécues sont la source la plus puissante d'auto-efficacité."},{"t":"L'apprentissage vicariant, c'est-à-dire l'observation de la réussite d'autrui","j":"C'est bien l'une des quatre sources, mais elle n'est pas la plus déterminante."},{"t":"La persuasion par autrui, c'est-à-dire les encouragements verbaux reçus","j":"Source réelle mais secondaire par rapport à la maîtrise personnelle."}]},
-    {"q":"Comment se définit la prophétie auto-réalisatrice (effet Pygmalion) ?","options":[{"t":"Une croyance ou une attente qui oriente le comportement jusqu'à provoquer sa propre réalisation","correct":true,"j":"Exact : l'attente modèle les conduites de façon à se vérifier elle-même."},{"t":"Une croyance erronée qui se dissipe dès qu'elle est confrontée à la réalité des faits","j":"Faux : la prophétie agit précisément en se maintenant et en influençant l'action."},{"t":"Une attente personnelle qui demeure sans effet observable sur le comportement adopté","j":"Faux : par définition elle influence le comportement, elle n'est pas neutre."}]},
-    {"q":"Quelle est la principale limite reprochée à la théorie de l'auto-efficacité ?","options":[{"t":"Elle néglige le rôle du contexte et du soutien social dans le comportement","correct":true,"j":"Exact : on lui reproche de sous-estimer l'environnement et le soutien social."},{"t":"Elle néglige le rôle des expériences personnelles de réussite de l'individu","j":"Faux : ces expériences (maîtrise personnelle) sont au contraire centrales."},{"t":"Elle néglige le rôle des états physiologiques et émotionnels de l'individu","j":"Faux : l'état physiologique/émotionnel est une source reconnue, pas un oubli."}]},
-    {"q":"Selon la théorie du comportement interpersonnel, quels sont les trois éléments qui influencent le comportement ?","options":[{"t":"L'intention, l'habitude et les conditions facilitantes ou inhibitrices","correct":true,"j":"Exact : ce sont les trois déterminants du comportement dans cette théorie."},{"t":"L'intention, la motivation et les normes sociales perçues par la personne","j":"Faux : l'habitude et les conditions facilitantes y sont indûment remplacées."},{"t":"L'intention, l'attitude et le sentiment de contrôle perçu sur l'action","j":"Faux : ces éléments relèvent plutôt du modèle du comportement planifié."}]},
-    {"q":"Dans la théorie du comportement interpersonnel, comment se définit une habitude ?","options":[{"t":"Un comportement routinier exécuté sans réflexion consciente préalable","correct":true,"j":"Exact : l'habitude est répétée et automatique, sans délibération consciente."},{"t":"Un comportement planifié résultant d'une décision mûrement réfléchie","j":"Faux : c'est l'inverse d'une habitude, qui échappe à la délibération."},{"t":"Un comportement occasionnel déclenché par une émotion ponctuelle forte","j":"Faux : l'habitude est routinière et répétée, non occasionnelle."}]},
-    {"q":"Qu'est-ce qui caractérise l'apport original de la théorie du comportement interpersonnel ?","options":[{"t":"Elle accorde aux habitudes et aux émotions autant d'importance qu'à la volonté","correct":true,"j":"Exact : elle est la première à les placer au même niveau que la volonté."},{"t":"Elle accorde à la seule volonté davantage d'importance qu'aux habitudes et émotions","j":"Faux : elle refuse justement de subordonner habitudes et émotions à la volonté."},{"t":"Elle réduit le comportement à la seule intention consciente formulée par l'individu","j":"Faux : elle dépasse l'intention en intégrant habitudes et émotions."}]},
-    {"q":"Sur quel postulat concernant l'individu reposent la théorie de l'action raisonnée et celle du comportement planifié ?","options":[{"t":"L'individu est rationnel et traite systématiquement l'information dont il dispose","correct":true,"j":"Exact : ces théories supposent un traitement rationnel et systématique de l'information."},{"t":"L'individu est impulsif et agit avant tout par automatismes déjà acquis","j":"Faux : cela contredit le postulat de rationalité de ces théories."},{"t":"L'individu est passif et se conforme d'abord aux pressions de son entourage","j":"Faux : ces théories supposent un traitement actif et raisonné de l'information."}]},
-    {"q":"Pour quel type de comportements la théorie du comportement planifié (TCP) a-t-elle été élaborée ?","options":[{"t":"Les comportements sur lesquels l'individu n'exerce qu'un contrôle partiel","correct":true,"j":"Exact : la TCP vise les comportements à contrôle partiel (arrêter de fumer, faire du sport)."},{"t":"Les comportements sur lesquels l'individu exerce un contrôle entier et direct","j":"Faux : ces comportements relèvent déjà de l'action raisonnée."},{"t":"Les comportements sur lesquels l'individu n'exerce strictement aucun contrôle","j":"Faux : sans aucun contrôle possible, la notion de contrôle perçu perdrait son sens."}]},
-    {"q":"Quelle est la principale limite reprochée aux théories de l'action raisonnée et du comportement planifié ?","options":[{"t":"Elles supposent des décisions rationnelles et négligent le rôle des émotions, de la fatigue et des habitudes.","correct":true,"j":"Exact : ces modèles reposent sur un choix raisonné et laissent de côté les déterminants affectifs et automatiques."},{"t":"Elles supposent des décisions impulsives et surestiment le rôle des émotions, de la fatigue et des habitudes.","j":"Faux : elles reposent au contraire sur la rationalité, et non sur l'impulsivité ou l'affect."},{"t":"Elles supposent des décisions rationnelles et intègrent pleinement les émotions, la fatigue et les habitudes.","j":"Faux : c'est précisément l'absence de prise en compte de ces facteurs qui leur est reprochée."}]},
-    {"q":"Comment le modèle HAPA décrit-il le changement des comportements de santé ?","options":[{"t":"Comme un processus dynamique organisé en étapes d'adoption puis de maintien du comportement.","correct":true,"j":"Exact : le HAPA est un modèle dynamique couvrant à la fois l'adoption et le maintien."},{"t":"Comme un état statique fixé une fois pour toutes au moment de l'adoption du comportement.","j":"Faux : le modèle est dynamique et ne se fige pas à l'étape d'adoption."},{"t":"Comme un processus dynamique limité à la seule étape d'adoption du comportement.","j":"Faux : il ne se limite pas à l'adoption mais inclut aussi le maintien du comportement."}]},
-    {"q":"Que recouvre la phase de volition du modèle HAPA ?","options":[{"t":"La planification, l'initiation, le maintien et la récupération de l'action.","correct":true,"j":"Exact : la volition regroupe planification, initiation, maintien et récupération de l'action."},{"t":"La planification, l'initiation et le maintien, mais non la récupération de l'action.","j":"Faux : la récupération de l'action fait aussi partie de la phase de volition."},{"t":"L'initiation, le maintien et la récupération, mais non la planification de l'action.","j":"Faux : la planification appartient bien à la phase de volition."}]},
-    {"q":"Que met en évidence le modèle HAPA à propos des intentions ?","options":[{"t":"Que de bonnes intentions ne suffisent pas à garantir un changement effectif de comportement.","correct":true,"j":"Exact : le HAPA souligne l'écart entre l'intention formée et le passage à l'acte."},{"t":"Que de bonnes intentions suffisent à elles seules à garantir un changement de comportement.","j":"Faux : l'intention seule ne garantit pas le changement selon le modèle."},{"t":"Que le changement de comportement survient toujours en l'absence de toute intention préalable.","j":"Faux : le modèle place l'intention en amont, mais montre qu'elle ne suffit pas."}]},
-    {"q":"Quels types de facteurs influencent les comportements de santé ?","options":[{"t":"Des facteurs économiques, individuels, environnementaux et sociaux.","correct":true,"j":"Exact : les comportements de santé résultent de facteurs économiques, individuels, environnementaux et sociaux."},{"t":"Des facteurs économiques, individuels et environnementaux, à l'exclusion des facteurs sociaux.","j":"Faux : les facteurs sociaux font partie des déterminants retenus."},{"t":"Uniquement des facteurs individuels, indépendamment de l'environnement et du contexte social.","j":"Faux : les comportements ne dépendent pas des seuls facteurs individuels."}]},
-    {"q":"Quelle définition correspond à l'apprentissage ?","options":[{"t":"Un changement relativement permanent du comportement ou des connaissances résultant de l'expérience, distinct de la maturation.","correct":true,"j":"Exact : l'apprentissage est un changement durable issu de l'expérience, à distinguer de la maturation."},{"t":"Un changement temporaire du comportement ou des connaissances résultant de la seule maturation biologique.","j":"Faux : il est relativement permanent et provient de l'expérience, non de la maturation."},{"t":"Un changement relativement permanent du comportement ou des connaissances résultant de la maturation, indépendamment de l'expérience.","j":"Faux : c'est l'expérience, et non la maturation, qui est à l'origine de l'apprentissage."}]},
-    {"q":"Quels sont les trois modes d'apprentissage ?","options":[{"t":"Le conditionnement classique, le conditionnement opérant et l'apprentissage social ou vicariant.","correct":true,"j":"Exact : les trois modes sont le conditionnement classique, le conditionnement opérant et l'apprentissage social/vicariant."},{"t":"Le conditionnement classique, le conditionnement opérant et l'apprentissage par maturation.","j":"Faux : la maturation n'est pas un mode d'apprentissage ; il manque l'apprentissage social/vicariant."},{"t":"Le conditionnement classique, l'apprentissage social ou vicariant et l'apprentissage par maturation.","j":"Faux : la maturation ne fait pas partie des modes ; c'est le conditionnement opérant qui complète la liste."}]},
-    {"q":"Dans le conditionnement classique, quelle affirmation caractérise correctement le stimulus inconditionné (SI) et la réponse inconditionnée (RI) ?","options":[{"t":"Le SI déclenche naturellement une réponse et la RI est un réflexe inné.","correct":true,"j":"Par définition, le SI provoque une réponse sans apprentissage préalable et la RI est le réflexe inné qu'il déclenche."},{"t":"Le SI est un signal appris et la RI une réponse anticipée acquise.","j":"Le caractère appris et anticipé décrit le couple SC/RC, pas le couple inconditionné SI/RI."},{"t":"Le SI n'agit qu'après apprentissage et la RI est elle aussi acquise.","j":"Exiger un apprentissage pour le SI le confond avec le stimulus conditionné, qui lui est appris."}]},
-    {"q":"En rééducation, un patient reçoit un TENS dont l'appareil émet un bruit de fonctionnement. Quelle correspondance des éléments est correcte ?","options":[{"t":"Le TENS est le SI, l'analgésie la RI, son bruit le SC et le soulagement anticipé la RC.","correct":true,"j":"Le courant du TENS soulage sans apprentissage (SI→RI) ; son bruit, d'abord neutre, devient SC et déclenche un soulagement anticipé (RC)."},{"t":"Le bruit est le SI, l'analgésie la RI, le TENS le SC et le soulagement anticipé la RC.","j":"Le bruit est neutre au départ : il ne peut être le SI, car c'est le courant du TENS qui agit naturellement."},{"t":"Le TENS est le SC, l'analgésie la RC, son bruit le SI et le soulagement anticipé la RI.","j":"Inversion complète : le stimulus qui agit naturellement (le TENS) est le SI et non le SC."}]},
-    {"q":"Dans le conditionnement opérant, quel est l'effet respectif du renforcement et de la punition sur un comportement ?","options":[{"t":"Le renforcement augmente la probabilité de reproduction du comportement, la punition la diminue.","correct":true,"j":"Renforcer rend le comportement plus probable et punir le rend moins probable : c'est la définition même du conditionnement opérant."},{"t":"Le renforcement diminue la probabilité de reproduction du comportement, la punition l'augmente.","j":"Les effets sont inversés : c'est le renforcement qui augmente et la punition qui diminue le comportement."},{"t":"Le renforcement et la punition augmentent tous deux la probabilité de reproduction du comportement.","j":"La punition ne renforce pas : elle réduit la fréquence du comportement, contrairement au renforcement."}]},
-    {"q":"Dans le conditionnement opérant, comment agit le renforcement positif sur un comportement ?","options":[{"t":"Il ajoute un stimulus agréable afin d'augmenter la fréquence du comportement.","correct":true,"j":"Ajouter (positif) un stimulus agréable renforce et fait augmenter le comportement visé."},{"t":"Il retire un stimulus désagréable afin d'augmenter la fréquence du comportement.","j":"Retirer un stimulus désagréable décrit le renforcement négatif, et non le renforcement positif."},{"t":"Il ajoute un stimulus désagréable afin de diminuer la fréquence du comportement.","j":"Ajouter un stimulus désagréable pour réduire le comportement décrit une punition, pas un renforcement."}]},
-    {"q":"En rééducation, corriger la posture d'un patient fait disparaître sa douleur, ce qui l'incite à reproduire cette posture. De quel mécanisme s'agit-il ?","options":[{"t":"Renforcement négatif : retirer un stimulus désagréable augmente le comportement.","correct":true,"j":"La disparition de la douleur (stimulus désagréable retiré) fait augmenter la posture correcte : c'est un renforcement négatif."},{"t":"Renforcement positif : ajouter un stimulus agréable augmente le comportement.","j":"Ici rien d'agréable n'est ajouté ; c'est le retrait du désagréable qui agit, donc pas un renforcement positif."},{"t":"Punition négative : retirer un stimulus agréable diminue le comportement.","j":"Le comportement augmente au lieu de diminuer, et c'est un désagréable qui est retiré : ce n'est pas une punition."}]},
-    {"q":"Lorsqu'une conduite d'évitement s'installe, comment les conditionnements classique et opérant coopèrent-ils ?","options":[{"t":"Le classique crée l'émotion automatique, l'opérant maintient le comportement.","correct":true,"j":"Le conditionnement classique installe la réaction émotionnelle réflexe, tandis que l'opérant en pérennise le comportement par ses conséquences."},{"t":"Le classique maintient le comportement, l'opérant crée l'émotion automatique.","j":"Les rôles sont inversés : le classique génère l'émotion et l'opérant entretient le comportement."},{"t":"Le classique et l'opérant créent tous deux l'émotion automatique de départ.","j":"L'opérant n'installe pas l'émotion : il agit sur le maintien du comportement via ses conséquences."}]},
-    {"q":"Qu'est-ce qui caractérise l'état d'impuissance apprise chez un individu ?","options":[{"t":"L'individu se dit « je ne peux pas » et renonce à agir.","correct":true,"j":"L'impuissance apprise correspond à une conviction d'incapacité (« je ne peux pas ») qui conduit à l'arrêt de l'action."},{"t":"L'individu se dit « je peux réussir » et persévère dans l'action.","j":"Croire en sa réussite et persévérer est exactement l'inverse de l'impuissance apprise."},{"t":"L'individu se dit « je ne veux pas » et choisit de ne pas agir.","j":"« Je ne veux pas » relève d'un choix motivationnel, alors que l'impuissance apprise est un « je ne peux pas » subi."}]},
-    {"q":"Qu'est-ce qui définit l'apprentissage social, dit aussi vicariant ?","options":[{"t":"Un apprentissage par observation et imitation de modèles, où la motivation est déterminante.","correct":true,"j":"L'apprentissage vicariant s'acquiert en observant et imitant un modèle, la motivation conditionnant le passage à l'acte."},{"t":"Un apprentissage par essais et erreurs personnels, où la répétition est déterminante.","j":"L'essai-erreur personnel décrit le conditionnement opérant, pas l'apprentissage par observation d'un modèle."},{"t":"Un apprentissage par association de deux stimuli, où l'anticipation est déterminante.","j":"L'association de deux stimuli décrit le conditionnement classique, pas l'apprentissage vicariant."}]},
-    {"q":"Un kiné favorise l'apprentissage par observation chez un patient. Selon la théorie de l'apprentissage social (vicariant), quelles sont, dans l'ordre, les quatre étapes du processus ?","options":[{"t":"Attention, rétention, reproduction, motivation.","correct":true,"j":"Ce sont exactement les quatre étapes décrites par la théorie de l'apprentissage social/vicariant : prêter attention au modèle, retenir, reproduire, puis être motivé."},{"t":"Attention, mémorisation, répétition, renforcement.","j":"Termes proches mais inexacts : le cours retient rétention/reproduction/motivation, et le « renforcement » n'y figure pas comme étape."},{"t":"Perception, rétention, imitation, récompense.","j":"Séquence plausible mais fausse : le cours parle d'attention et de motivation, pas de « perception » ni de « récompense » comme étapes."}]},
-    {"q":"Un patient en rééducation observe d'autres patients réussir un exercice qu'il n'ose pas encore faire. Selon le cours, que font ses neurones miroirs dans cette situation ?","options":[{"t":"Ils simulent mentalement le mouvement observé chez le patient.","correct":true,"j":"Le cours précise que les neurones miroirs simulent mentalement le mouvement observé, ce qui aide le patient à mémoriser la séquence motrice."},{"t":"Ils exécutent automatiquement le mouvement observé chez le patient.","j":"Faux : le mouvement est seulement simulé mentalement, il n'est pas réellement produit chez l'observateur."},{"t":"Ils inhibent mentalement le mouvement observé chez le patient.","j":"Faux : leur rôle décrit est de simuler le mouvement, pas de le bloquer ou de l'inhiber."}]},
-    {"q":"Selon le cours, quelles sont les trois grandes fonctions des émotions ?","options":[{"t":"Adaptation/survie, communication, organisation/motivation.","correct":true,"j":"Le cours attribue aux émotions trois fonctions : adaptation et survie, communication, et fonction organisationnelle/motivante."},{"t":"Adaptation/survie, mémorisation, organisation/motivation.","j":"La mémorisation n'est pas listée comme fonction des émotions ; c'est la communication qui l'est."},{"t":"Défense/régulation, communication, organisation/motivation.","j":"Formulation plausible mais inexacte : la fonction retenue est l'adaptation/survie, pas une « défense/régulation »."}]},
-    {"q":"Tu vois des collègues chuchoter et rire, et tu ressens de la honte, alors qu'ils ne se moquaient pas de toi. Selon le cours, comment comprendre cette émotion ?","options":[{"t":"C'est une hypothèse rapide du cerveau, fondée sur l'interprétation et non sur la réalité.","correct":true,"j":"Le cours énonce que l'émotion n'est pas une vérité mais une hypothèse rapide du cerveau, réagissant à l'interprétation de la réalité."},{"t":"C'est une preuve fiable, fondée sur la réalité objective et non sur l'interprétation.","j":"Faux : l'émotion peut se baser sur des informations incomplètes ou fausses, ce n'est pas une vérité."},{"t":"C'est un réflexe conditionné, fondé sur une expérience antérieure strictement identique.","j":"L'émotion réagit à l'interprétation présente de la situation, pas nécessairement à une expérience passée identique."}]},
-    {"q":"Selon le cours, qu'est-ce qui caractérise concrètement une mauvaise régulation émotionnelle ?","options":[{"t":"Des réactions disproportionnées, de l'évitement et de la rumination.","correct":true,"j":"Le cours décrit la mauvaise régulation par des réactions disproportionnées, l'évitement et la rumination ; le problème n'est pas l'émotion mais la façon d'y réagir."},{"t":"Des réactions proportionnées, de l'expression et de l'analyse posée.","j":"Ce sont là des signes d'une régulation adaptée, et non d'une mauvaise régulation émotionnelle."},{"t":"Des réactions disproportionnées, de l'impulsivité et de la somatisation.","j":"Les réactions disproportionnées sont exactes, mais le cours cite l'évitement et la rumination, pas l'impulsivité ni la somatisation."}]},
-    {"q":"Selon le cours, qu'est-ce qui caractérise les émotions primaires ?","options":[{"t":"Automatiques, universelles, adaptatives et présentes dès la naissance.","correct":true,"j":"Le cours décrit les émotions primaires comme des réactions automatiques, universelles, adaptatives et présentes dès la naissance."},{"t":"Complexes, acquises et façonnées par la culture et l'expérience vécue.","j":"Ce sont là les caractéristiques des émotions secondaires, pas des émotions primaires."},{"t":"Automatiques, universelles et adaptatives mais apparaissant avec le langage.","j":"Faux sur le dernier point : les émotions primaires sont présentes dès la naissance, elles n'attendent pas l'apparition du langage."}]},
-    {"q":"Selon le cours, qu'est-ce qui caractérise les émotions secondaires ?","options":[{"t":"Complexes, façonnées par l'expérience et la culture, mélangeant plusieurs primaires.","correct":true,"j":"Le cours décrit les émotions secondaires comme complexes, influencées par l'expérience, la culture et la pensée, et mêlant plusieurs émotions primaires (ex. honte = peur + tristesse)."},{"t":"Automatiques et universelles, adaptatives et présentes dès la naissance.","j":"Ce sont là les caractéristiques des émotions primaires, pas des émotions secondaires."},{"t":"Complexes et façonnées par la culture, mais réductibles à une seule primaire.","j":"Faux sur le dernier point : les émotions secondaires mélangent plusieurs émotions primaires, elles ne se réduisent pas à une seule."}]},
-    {"q":"Dans la classification bidimensionnelle des émotions, à quelle émotion correspond une activation faible associée à une valence positive ?","options":[{"t":"Le calme, autrement dit la sérénité","correct":true,"j":"Une activation faible combinée à une valence positive définit précisément le calme et la sérénité."},{"t":"La tristesse ou la fatigue ressentie","j":"Ce couple relève bien d'une activation faible, mais avec une valence négative et non positive."},{"t":"La joie intense ou l'enthousiasme","j":"Ces états sont positifs mais correspondent à une activation forte, et non faible."}]},
-    {"q":"Quelle structure cérébrale joue le rôle de « gare de triage » sensorielle en transmettant les informations aux zones émotionnelles ?","options":[{"t":"Le thalamus, relais des messages sensoriels","correct":true,"j":"Le thalamus reçoit et redistribue les informations sensorielles vers les zones émotionnelles."},{"t":"L'hypothalamus, centre des réponses du corps","j":"L'hypothalamus déclenche les réponses physiologiques, il n'assure pas le triage sensoriel."},{"t":"L'hippocampe, lieu de la mémoire vécue","j":"L'hippocampe relie émotions et mémoire, il ne fait pas office de gare de triage."}]},
-    {"q":"Quelle structure agit comme un « détecteur d'alarme » et gère les réponses émotionnelles, en particulier la peur ?","options":[{"t":"L'amygdale, sentinelle des menaces","correct":true,"j":"L'amygdale est le détecteur d'alarme qui gère la peur et les réponses émotionnelles."},{"t":"L'hippocampe, gardien des souvenirs","j":"L'hippocampe est impliqué dans la mémoire, pas dans la détection de la peur."},{"t":"Le cortex préfrontal, siège du contrôle","j":"Le cortex préfrontal régule et freine les impulsions, il ne joue pas le rôle d'alarme."}]},
-    {"q":"Quelle structure assure la régulation émotionnelle, le contrôle des impulsions et la prise de décision ?","options":[{"t":"Le cortex préfrontal, chef d'orchestre","correct":true,"j":"Le cortex préfrontal est le siège de la régulation, du contrôle des impulsions et de la décision."},{"t":"L'amygdale, déclencheur de la peur","j":"L'amygdale gère la peur et l'alarme, elle ne régule pas les impulsions."},{"t":"Le thalamus, aiguilleur des sensations","j":"Le thalamus trie les informations sensorielles, il n'assure pas le contrôle des impulsions."}]},
-    {"q":"Concernant les bases biologiques des émotions, quelle association structure–fonction est exacte ?","options":[{"t":"L'hypothalamus déclenche les réponses physiologiques et l'hippocampe relie émotions et mémoire","correct":true,"j":"C'est la répartition correcte : réponses du corps pour l'hypothalamus, lien mémoire pour l'hippocampe."},{"t":"L'hippocampe déclenche les réponses physiologiques et l'hypothalamus relie émotions et mémoire","j":"Les deux rôles sont ici inversés par rapport à la réalité."},{"t":"L'hypothalamus relie émotions et mémoire et l'hippocampe trie les informations sensorielles","j":"Ces attributions sont fausses : le triage sensoriel revient au thalamus."}]},
-    {"q":"Dans l'organisation du cerveau en trois niveaux, à quoi correspond le niveau limbique ?","options":[{"t":"Aux émotions et à la mémoire affective","correct":true,"j":"Le niveau limbique gère les émotions et la mémoire affective, et réagit plus vite que le rationnel."},{"t":"À la survie et aux fonctions vitales","j":"La survie et les fonctions vitales relèvent du niveau reptilien."},{"t":"À la raison et à la régulation","j":"La raison et la régulation relèvent du niveau néocortical."}]},
-    {"q":"Quelles conséquences peut entraîner une lésion du cortex préfrontal, notamment de la région orbitofrontale ?","options":[{"t":"Une impulsivité, une agressivité et une incapacité à planifier","correct":true,"j":"Cette lésion altère le contrôle et la planification, modifiant la personnalité."},{"t":"Une perte de la mémoire affective et une désorientation","j":"Ces troubles évoquent plutôt une atteinte de l'hippocampe que du cortex préfrontal."},{"t":"Une disparition de la peur et des réactions d'alarme","j":"L'abolition de la peur renvoie à l'amygdale, non au cortex préfrontal."}]},
-    {"q":"Dans le modèle ABC cognitif, qu'est-ce qui caractérise une croyance irrationnelle ?","options":[{"t":"Une proposition inflexible et absolue, formulée sous forme d'obligation","correct":true,"j":"Les croyances irrationnelles sont rigides, absolues et exprimées comme des obligations."},{"t":"Une proposition souple et nuancée, formulée sous forme de préférence","j":"La flexibilité et la préférence caractérisent au contraire une croyance rationnelle."},{"t":"Une proposition neutre et descriptive, formulée comme un simple constat","j":"Un simple constat n'exprime aucune exigence absolue, ce n'est pas une croyance irrationnelle."}]},
-    {"q":"Dans le modèle cognitif ABC, quel est l'objectif du travail thérapeutique sur les croyances du patient ?","options":[{"t":"Les assouplir pour les rendre plus réalistes et flexibles, sans viser leur disparition.","correct":true,"j":"Le but est d'adapter les croyances à la réalité et de les rendre plus souples, non de les effacer."},{"t":"Les supprimer complètement afin qu'aucune pensée négative ne puisse réapparaître.","j":"Le modèle ne cherche pas à éliminer les croyances mais à les nuancer et les assouplir."},{"t":"Les remplacer d'emblée par les convictions que le thérapeute juge correctes.","j":"On ne substitue pas les convictions du soignant; on met celles du patient à l'épreuve des faits."}]},
-    {"q":"Après une séance riche en encouragements, un patient ne retient qu'une seule remarque sur sa raideur résiduelle et conclut que la séance a été mauvaise. Quelle distorsion cognitive illustre cette situation ?","options":[{"t":"La généralisation excessive.","j":"Elle consiste à tirer une règle générale d'un fait isolé; ici le patient trie, il ne généralise pas."},{"t":"L'abstraction sélective.","correct":true,"j":"Il ne retient que l'élément négatif de la situation en écartant les nombreux éléments positifs."},{"t":"L'inférence arbitraire.","j":"Elle suppose deviner les pensées d'autrui; ici le patient trie ses propres perceptions."}]},
-    {"q":"Un patient estime que sa rééducation est soit une réussite totale, soit un échec complet, sans aucune situation intermédiaire. Quelle distorsion cognitive illustre ce mode de pensée ?","options":[{"t":"L'abstraction sélective.","j":"Elle consiste à ne retenir que le négatif; ici il n'y a pas filtrage mais deux catégories opposées."},{"t":"La personnalisation.","j":"Elle attribue à soi des causes externes, sans lien avec un raisonnement en tout ou rien."},{"t":"La pensée dichotomique.","correct":true,"j":"Tout est envisagé en catégories extrêmes (réussite totale ou échec complet), sans nuance intermédiaire."}]},
-    {"q":"Après un seul exercice raté, un patient déclare : « Je n'y arriverai jamais, je rate toujours tout. » Quelle distorsion cognitive illustre cette conclusion ?","options":[{"t":"La généralisation excessive.","correct":true,"j":"Un échec unique est érigé en règle absolue et permanente, marquée par « toujours » et « jamais »."},{"t":"La pensée dichotomique.","j":"Elle raisonne en tout ou rien; ici il s'agit d'étendre un fait unique à tous les cas."},{"t":"Le raisonnement émotionnel.","j":"Il prend une émotion pour une preuve; ici le patient part d'un fait isolé, non d'un ressenti."}]},
-    {"q":"Sans qu'aucun élément ne le confirme, un patient est convaincu que son kinésithérapeute le trouve paresseux. Quelle distorsion cognitive illustre cette conviction ?","options":[{"t":"La personnalisation.","j":"Elle consiste à se juger responsable d'événements externes; ici il devine une pensée, il ne s'accuse pas."},{"t":"L'inférence arbitraire.","correct":true,"j":"Il affirme connaître le jugement d'autrui sans disposer du moindre élément qui le confirme."},{"t":"L'abstraction sélective.","j":"Elle ne retient que le négatif d'une situation; ici le patient invente une pensée, il ne trie pas des faits."}]},
-    {"q":"Devant une légère douleur, un patient anticipe aussitôt une aggravation irréversible et une invalidité définitive. Quelle distorsion cognitive illustre cette réaction ?","options":[{"t":"La généralisation excessive.","j":"Elle transforme un fait isolé en règle générale; ici c'est l'anticipation du pire qui domine."},{"t":"L'inférence arbitraire.","j":"Elle consiste à deviner les pensées d'autrui, ce qui n'est pas en jeu dans cette anticipation."},{"t":"Le catastrophisme.","correct":true,"j":"Le scénario le plus grave est systématiquement envisagé (aggravation, invalidité définitive)."}]},
-    {"q":"Un patient se sent responsable de la mauvaise humeur de son thérapeute, alors que celle-ci tient à des causes qui lui sont totalement étrangères. Quelle distorsion cognitive illustre cette attitude ?","options":[{"t":"La personnalisation.","correct":true,"j":"Il s'attribue la responsabilité d'un événement dont les causes lui sont pourtant extérieures."},{"t":"L'inférence arbitraire.","j":"Elle consiste à prêter des pensées à autrui sans preuve; ici le patient s'accuse, il ne devine pas."},{"t":"Le catastrophisme.","j":"Il anticipe le pire; ici le patient n'anticipe rien, il s'attribue une cause qui lui est externe."}]},
-    {"q":"Un patient déclare : « J'ai peur avant l'exercice, donc cet exercice est forcément dangereux pour moi », prenant son émotion pour la preuve d'un fait. Quelle distorsion cognitive illustre ce raisonnement ?","options":[{"t":"Les fausses obligations (« je dois »).","j":"Elles consistent à s'imposer des règles rigides; ici aucune injonction de ce type n'est formulée."},{"t":"Le raisonnement émotionnel.","correct":true,"j":"Une émotion (la peur) est tenue pour la preuve d'une réalité (le caractère dangereux de l'exercice)."},{"t":"L'amplification (dramatisation).","j":"Elle exagère la portée d'un fait; ici c'est le ressenti qui sert de preuve, non l'exagération d'un fait."}]},
-    {"q":"En rééducation, face à un patient qui exprime des croyances rigides sur sa guérison, comment le kinésithérapeute utilise-t-il le dialogue socratique ?","options":[{"t":"Il aide le patient à examiner lui-même ses pensées au moyen de questions ouvertes, sans le confronter ni lui dire qu'il a tort.","correct":true,"j":"Correct : la méthode socratique amène le patient à remettre en question et nuancer sa propre vision par des questions ouvertes et bienveillantes, sans confrontation."},{"t":"Il démontre au patient, preuves à l'appui, que sa croyance est fausse afin qu'il l'abandonne le plus vite possible.","j":"Faux : le but n'est pas de prouver au patient qu'il a tort, mais de l'amener à nuancer lui-même sa pensée sans le confronter."},{"t":"Il impose au patient une pensée positive de remplacement en corrigeant fermement chacune de ses erreurs de raisonnement.","j":"Faux : il ne s'agit ni d'imposer une pensée ni de corriger fermement, mais d'accompagner par des questions, sans confrontation."}]},
-    {"q":"Face à un patient présentant de fortes distorsions cognitives, comment se situe l'intervention du kinésithérapeute ?","options":[{"t":"Il n'agit pas comme psychothérapeute mais intervient à un niveau psychoéducatif, relationnel et comportemental, selon les principes des TCC.","correct":true,"j":"Correct : le kiné n'est pas psychothérapeute mais peut intervenir aux niveaux psychoéducatif, relationnel et comportemental, en s'appuyant sur les principes des TCC."},{"t":"Il agit comme psychothérapeute et conduit une thérapie cognitive structurée, en s'appuyant sur les principes des TCC.","j":"Faux : le kiné ne se substitue pas au psychothérapeute et ne conduit pas de thérapie cognitive structurée."},{"t":"Il s'abstient de tout niveau psychoéducatif ou relationnel et se limite strictement au traitement corporel de la lésion.","j":"Faux : il peut justement intervenir aux niveaux psychoéducatif, relationnel et comportemental, pas seulement sur le corps."}]},
-    {"q":"Quelle proposition décrit correctement la tristesse en tant qu'émotion ?","options":[{"t":"Elle apparaît face à une perte, aide à s'arrêter et à réfléchir, et constitue une réponse adaptative et temporaire.","correct":true,"j":"Correct : la tristesse survient quand on interprète une situation comme une perte, permet de s'arrêter/réfléchir et reste adaptative et temporaire."},{"t":"Elle apparaît face à une menace future, pousse à s'activer pour se défendre, et constitue une réaction durable et inadaptée.","j":"Faux : répondre à une menace et pousser à s'activer relève d'autres émotions ; la tristesse n'est ni durable ni inadaptée."},{"t":"Elle apparaît sans cause identifiable, supprime tout intérêt pour les activités, et constitue un état persistant à traiter.","j":"Faux : cause absente, perte d'intérêt et persistance décrivent la dépression, pas la tristesse."}]},
-    {"q":"Quelle proposition caractérise le mieux la dépression ?","options":[{"t":"Un trouble de l'humeur persistant, avec tristesse intense, perte d'intérêt (anhédonie) et difficultés à fonctionner, nécessitant souvent un traitement professionnel.","correct":true,"j":"Correct : la dépression est un trouble persistant (tristesse intense, anhédonie, atteinte du fonctionnement) requérant souvent une prise en charge professionnelle."},{"t":"Une émotion passagère apparaissant face à une perte, qui garde du sens et laisse la personne continuer à fonctionner malgré la peine.","j":"Faux : cette description correspond à la tristesse, émotion normale face à une perte qui garde son sens."},{"t":"Un état de tristesse profond mais bref, sans perte d'intérêt ni retentissement sur le fonctionnement, se résolvant seul sans aide.","j":"Faux : brièveté, intérêt conservé et fonctionnement préservé caractérisent la tristesse, pas la dépression."}]},
-    {"q":"Selon le cours, qu'est-ce qui distingue fondamentalement la dépression de la tristesse ?","options":[{"t":"Non pas l'intensité de la souffrance ressentie, mais bien la perte de fonctionnement de la personne.","correct":true,"j":"Correct : ce n'est pas la souffrance qui distingue la dépression, mais la perte de fonctionnement."},{"t":"Non pas la perte de fonctionnement de la personne, mais bien l'intensité de la souffrance ressentie.","j":"Faux : la souffrance n'est pas le critère distinctif ; c'est le fonctionnement qui est atteint dans la dépression."},{"t":"Non pas la perte de fonctionnement de la personne, mais bien la seule présence de pleurs.","j":"Faux : les pleurs ne sont pas le critère ; c'est la perte de fonctionnement qui distingue la dépression."}]},
-    {"q":"Quelle définition correspond à la colère ?","options":[{"t":"Une émotion intense et temporaire, causée par une frustration ou une menace, pouvant aller de l'irritation à la rage.","correct":true,"j":"Correct : la colère est une émotion intense et temporaire (frustration ou menace), allant de l'irritation à la rage."},{"t":"Une attitude durable et stable, faite de méfiance et de négativité, pouvant aller de la réserve au mépris.","j":"Faux : une attitude durable de méfiance est l'hostilité (un trait), pas la colère (une émotion)."},{"t":"Un comportement intense et ponctuel, visant à nuire à autrui, pouvant aller de l'insulte à l'agression physique.","j":"Faux : un comportement visant à nuire est l'agressivité, pas l'émotion de colère."}]},
-    {"q":"Comment distingue-t-on l'agressivité de l'agression ?","options":[{"t":"L'agressivité est un comportement visant à nuire à autrui, et l'agression l'action concrète qui inflige le tort.","correct":true,"j":"Correct : l'agressivité désigne le comportement visant à nuire, l'agression l'action concrète qui inflige le tort."},{"t":"L'agressivité est l'action concrète qui inflige le tort, et l'agression le comportement visant à nuire à autrui.","j":"Faux : les rôles sont inversés ; l'agressivité est le comportement, l'agression l'action qui le manifeste."},{"t":"L'agressivité est une émotion intense et temporaire, et l'agression l'attitude durable de méfiance envers autrui.","j":"Faux : émotion temporaire = colère, attitude durable = hostilité ; aucune ne définit l'agressivité ni l'agression."}]},
-    {"q":"Quelle proposition distingue correctement l'anxiété de la peur ?","options":[{"t":"L'anxiété est une réponse anticipatoire face à une menace future, la peur une réponse immédiate à un danger présent.","correct":true,"j":"Correct : l'anxiété anticipe une menace future, tandis que la peur répond immédiatement à un danger présent."},{"t":"L'anxiété est une réponse immédiate à un danger présent, la peur une réponse anticipatoire face à une menace future.","j":"Faux : les définitions sont inversées ; c'est la peur qui est immédiate et l'anxiété qui est anticipatoire."},{"t":"L'anxiété est une réaction d'adaptation à un stimulus externe réel, la peur une réponse à une menace anticipée et imaginaire.","j":"Faux : la réaction à un stimulus externe réel décrit le stress ; l'anxiété est bien une menace anticipée."}]},
-    {"q":"Concernant l'anxiété, quelle proposition est exacte ?","options":[{"t":"Les situations qui menacent l'estime de soi sont généralement plus anxiogènes que les dangers physiques.","correct":true,"j":"Le cours établit que l'atteinte à l'estime de soi est plus anxiogène qu'un danger physique."},{"t":"Les dangers physiques sont généralement plus anxiogènes que les situations menaçant l'estime de soi.","j":"Inversion : le danger physique est présenté comme moins anxiogène que la menace à l'estime de soi."},{"t":"Dangers physiques et menaces pour l'estime de soi provoquent une anxiété d'intensité équivalente.","j":"Faux : le cours pose une hiérarchie, non une équivalence entre les deux."}]},
-    {"q":"Concernant les techniques de gestion émotionnelle, quelle proposition est exacte ?","options":[{"t":"L'arrêt de la pensée est la technique utilisée pour lutter contre les ruminations.","correct":true,"j":"Le cours présente l'arrêt de la pensée comme dirigé contre les ruminations."},{"t":"La respiration abdominale est la technique utilisée pour lutter contre les ruminations.","j":"La respiration abdominale est une technique de détente, non l'outil anti-rumination du cours."},{"t":"La validation des émotions est la technique utilisée pour lutter contre les ruminations.","j":"La validation est une étape de la régulation émotionnelle, pas la technique visant les ruminations."}]},
-    {"q":"En quoi consiste la respiration abdominale telle que décrite dans le cours ?","options":[{"t":"Inspirer par le nez pendant 5 s, retenir l'air 4 s, puis expirer par la bouche pendant 10 s.","correct":true,"j":"Correspond exactement à la séquence enseignée (nez 5 s, rétention 4 s, bouche 10 s)."},{"t":"Inspirer par la bouche pendant 5 s, retenir l'air 4 s, puis expirer par le nez pendant 10 s.","j":"Voies inversées : l'inspiration se fait par le nez et l'expiration par la bouche."},{"t":"Inspirer par le nez pendant 10 s, retenir l'air 4 s, puis expirer par la bouche pendant 5 s.","j":"Durées inversées : 5 s à l'inspiration et 10 s à l'expiration."}]},
-    {"q":"Quelle séquence décrit une bonne régulation émotionnelle selon le cours ?","options":[{"t":"Prêter attention à l'émotion, respirer, comparer les émotions, valider ses émotions puis comprendre les besoins sous-jacents.","correct":true,"j":"Reprend exactement les cinq étapes de la régulation présentées dans le cours."},{"t":"Prêter attention à l'émotion, respirer, comparer les émotions, refouler ses émotions puis comprendre les besoins sous-jacents.","j":"Erreur : la régulation demande de valider ses émotions, non de les refouler."},{"t":"Prêter attention à l'émotion, respirer, ignorer les émotions, valider ses émotions puis comprendre les besoins sous-jacents.","j":"Erreur : l'étape attendue est de comparer les émotions, non de les ignorer."}]},
-    {"q":"Quelle proposition distingue correctement le stress de l'anxiété ?","options":[{"t":"Le stress est une réaction d'adaptation à un stimulus externe réel, tandis que l'anxiété répond à une menace anticipée ou imaginaire.","correct":true,"j":"Conforme au cours : stress = stimulus réel présent, anxiété = menace anticipée/imaginaire."},{"t":"Le stress répond à une menace anticipée ou imaginaire, tandis que l'anxiété réagit à un stimulus externe réel.","j":"Inversion des définitions du stress et de l'anxiété."},{"t":"Le stress et l'anxiété réagissent tous deux uniquement à un stimulus externe réel et présent.","j":"Faux : l'anxiété répond à une menace anticipée ou imaginaire, non à un stimulus réel présent."}]},
-    {"q":"Comment le cours définit-il le stress psychologique ?","options":[{"t":"Une réaction à une situation évaluée comme menaçante ou comme dépassant les ressources de l'individu.","correct":true,"j":"Reprend la définition du cours centrée sur l'évaluation de la situation."},{"t":"Une réaction à une situation évaluée comme neutre et restant en deçà des ressources de l'individu.","j":"Contraire à la définition : la situation est évaluée comme menaçante ou débordante."},{"t":"Une réaction déclenchée dès qu'une situation dépasse objectivement les ressources, indépendamment de son évaluation.","j":"Faux : le cours insiste sur l'évaluation subjective, non sur un dépassement objectif."}]},
-    {"q":"Quelle proposition caractérise les stresseurs biogéniques ?","options":[{"t":"Ils agissent directement par leurs propriétés biochimiques, à l'image de la caféine ou de la nicotine.","correct":true,"j":"Conforme au cours : action directe biochimique (amphétamines, caféine, nicotine, douleur, chaud/froid)."},{"t":"Ils agissent indirectement, leur effet dépendant surtout de l'interprétation qu'en fait la personne.","j":"C'est le mécanisme des stresseurs psychosociaux, non biogéniques."},{"t":"Ils agissent surtout par le biais du soutien social, qui en module l'intensité ressentie.","j":"Le soutien social concerne les facteurs psychosociaux, pas l'action biochimique directe."}]},
-    {"q":"Concernant les stresseurs psychosociaux, quelle proposition est exacte ?","options":[{"t":"Leur effet dépend de l'interprétation de la personne, et le soutien social atténue les facteurs sociaux.","correct":true,"j":"Conforme au cours : rôle de l'interprétation et effet tampon du soutien social."},{"t":"Leur effet est indépendant de l'interprétation, et le soutien social aggrave les facteurs sociaux.","j":"Double erreur : l'interprétation est centrale et le soutien social atténue, il n'aggrave pas."},{"t":"Leur effet découle directement de leurs propriétés biochimiques, indépendamment du soutien social.","j":"C'est la définition des stresseurs biogéniques, non psychosociaux."}]},
-    {"q":"Dans la réponse physiologique au stress, quelle séquence décrit correctement le déclenchement de la réaction ?","options":[{"t":"Interprétation subjective par le cortex sensoriel → système limbique → hypothalamus → activation nerveuse et endocrinienne","correct":true,"j":"C'est l'enchaînement décrit : l'évaluation cognitive corticale précède le relais limbique, puis hypothalamique, avant l'activation nerveuse et endocrinienne."},{"t":"Système limbique → cortex sensoriel → hypothalamus → activation nerveuse et endocrinienne","j":"Faux : l'interprétation subjective par le cortex sensoriel ouvre la séquence, elle ne suit pas le système limbique."},{"t":"Hypothalamus → système limbique → cortex sensoriel → activation nerveuse et endocrinienne","j":"Faux : l'hypothalamus est un relais en aval de l'interprétation corticale, il ne débute pas la séquence."}]},
-    {"q":"Concernant l'activation du système nerveux autonome sympathique lors du stress, quelle proposition est exacte ?","options":[{"t":"Elle produit une activation lente mais durable, médiée par l'adrénaline, mettant l'organisme en état d'alerte","j":"Faux : la réponse sympathique est rapide et transitoire, non lente et prolongée."},{"t":"Elle produit une activation rapide mais peu durable, médiée par l'adrénaline, mettant l'organisme en état d'alerte","correct":true,"j":"Exact : le sympathique déclenche une réaction rapide et de courte durée, portée par l'adrénaline, plaçant l'organisme en alerte."},{"t":"Elle produit une activation rapide et durable, médiée par le cortisol, mettant l'organisme en état d'alerte","j":"Faux : cette réponse est portée par l'adrénaline et non par le cortisol, et elle reste brève."}]},
-    {"q":"Quel est l'effet de l'activation de l'axe hypothalamo-hypophyso-surrénalien dans le stress ?","options":[{"t":"Elle augmente la sécrétion d'adrénaline","j":"Faux : l'adrénaline relève de la voie nerveuse sympathique, pas de l'axe hypothalamo-hypophyso-surrénalien."},{"t":"Elle augmente la sécrétion de cortisol","correct":true,"j":"Exact : l'axe hypothalamo-hypophyso-surrénalien stimule la production de cortisol."},{"t":"Elle diminue la sécrétion de cortisol","j":"Faux : cet axe accroît la sécrétion de cortisol, il ne la réduit pas."}]},
-    {"q":"Comment le cortisol régule-t-il son propre axe et le métabolisme énergétique lors du stress ?","options":[{"t":"Il stimule la sécrétion de CRH et d'ACTH par rétroaction positive et, avec l'adrénaline, mobilise l'énergie","j":"Faux : la boucle de régulation est négative (inhibitrice), et non positive."},{"t":"Il inhibe la sécrétion de CRH et d'ACTH par rétroaction négative et, avec l'adrénaline, met l'énergie en réserve","j":"Faux : cortisol et adrénaline mobilisent l'énergie disponible, ils ne la mettent pas en réserve."},{"t":"Il inhibe la sécrétion de CRH et d'ACTH par rétroaction négative et, avec l'adrénaline, mobilise l'énergie","correct":true,"j":"Exact : le cortisol freine CRH et ACTH par rétroaction négative et, associé à l'adrénaline, mobilise l'énergie."}]},
-    {"q":"Parmi ces ensembles d'effets, lequel correspond aux conséquences du stress chronique ?","options":[{"t":"Altération de la mémoire, baisse de l'immunité, stockage de l'énergie en graisse et hausse de la pression artérielle","correct":true,"j":"Exact : le stress chronique altère la mémoire, abaisse l'immunité, favorise le stockage graisseux et élève la pression artérielle."},{"t":"Amélioration de la mémoire, baisse de l'immunité, stockage de l'énergie en graisse et hausse de la pression artérielle","j":"Faux : le stress chronique altère la mémoire, il ne l'améliore pas."},{"t":"Altération de la mémoire, hausse de l'immunité, déstockage des graisses et baisse de la pression artérielle","j":"Faux : le stress chronique diminue l'immunité, favorise le stockage graisseux et augmente la pression artérielle."}]},
-    {"q":"Quelle proportion de la population active souffrirait d'effets négatifs du stress ?","options":[{"t":"Environ 23 % de la population active","j":"Faux : la proportion retenue est plus élevée, de l'ordre de 43 %."},{"t":"Environ 63 % de la population active","j":"Faux : le chiffre avancé est d'environ 43 %, et non proche des deux tiers."},{"t":"Environ 43 % de la population active","correct":true,"j":"Exact : environ 43 % de la population active subit des effets négatifs du stress."}]},
-    {"q":"Quelle part des consultations médicales serait liée à des troubles en rapport avec le stress ?","options":[{"t":"Entre 25 et 40 % des consultations médicales","j":"Faux : la part attribuée au stress est nettement majoritaire, de 75 à 90 %."},{"t":"Entre 75 et 90 % des consultations médicales","correct":true,"j":"Exact : 75 à 90 % des consultations médicales sont dues à des troubles liés au stress."},{"t":"Entre 50 et 65 % des consultations médicales","j":"Faux : la proportion retenue dépasse ces valeurs, s'étendant de 75 à 90 %."}]},
-    {"q":"Que représente le syndrome métabolique dans l'évolution pathologique liée au stress ?","options":[{"t":"Le stade terminal d'une hypersécrétion prolongée de catécholamines et de glucocorticoïdes, sans lien avec le risque cardiovasculaire","j":"Faux : il correspond au premier stade pathologique et constitue bien un facteur de risque cardiovasculaire."},{"t":"Le premier stade pathologique d'une hypersécrétion prolongée de catécholamines et de glucocorticoïdes, et un facteur de risque cardiovasculaire","correct":true,"j":"Exact : c'est le premier stade d'une hypersécrétion prolongée de ces hormones et un facteur de risque cardiovasculaire."},{"t":"Le premier stade pathologique d'une carence prolongée en catécholamines et en glucocorticoïdes, et un facteur de risque cardiovasculaire","j":"Faux : il résulte d'une hypersécrétion (excès) de ces hormones, et non d'une carence."}]},
-    {"q":"L'exposition prolongée aux glucocorticoïdes altère l'apprentissage, la mémoire et la gestion émotionnelle. Quel mécanisme cérébral l'explique directement ?","options":[{"t":"Elle diminue le fonctionnement des neurones de l'hippocampe et réduit la neurogenèse.","correct":true,"j":"Exact : les glucocorticoïdes réduisent les neurones hippocampiques et la neurogenèse, or l'hippocampe soutient apprentissage, mémoire et émotions."},{"t":"Elle diminue le fonctionnement des neurones de l'amygdale et réduit la neurogenèse.","j":"L'amygdale participe aux émotions, mais le cours attribue la baisse de neurogenèse à l'hippocampe, pas à elle."},{"t":"Elle diminue le fonctionnement des neurones du cortex préfrontal et réduit la neurogenèse.","j":"Le cortex préfrontal régule impulsions et décisions, mais ce n'est pas la structure dont l'atteinte est décrite ici."}]},
-    {"q":"Concernant l'effet du stress chronique sur le vieillissement, quelle proposition est exacte ?","options":[{"t":"Il accélère le vieillissement en réduisant la taille des télomères.","correct":true,"j":"Exact : le stress chronique raccourcit les télomères, ce qui accélère le processus de vieillissement."},{"t":"Il accélère le vieillissement en augmentant la taille des télomères.","j":"Le sens est inversé : le stress réduit, et n'augmente pas, la taille des télomères."},{"t":"Il ralentit le vieillissement en préservant la taille des télomères.","j":"Faux sur les deux points : le stress accélère le vieillissement en raccourcissant les télomères."}]},
-    {"q":"Quel est l'effet d'une exposition prolongée aux glucocorticoïdes sur le système immunitaire ?","options":[{"t":"Elle supprime la réponse immunitaire et augmente le risque de maladies auto-immunes.","correct":true,"j":"Exact : la suppression immunitaire favorise les processus inflammatoires et les maladies auto-immunes."},{"t":"Elle stimule la réponse immunitaire et augmente le risque de maladies auto-immunes.","j":"Les glucocorticoïdes suppriment la réponse immunitaire, ils ne la stimulent pas."},{"t":"Elle supprime la réponse immunitaire et diminue le risque de maladies auto-immunes.","j":"La suppression immunitaire augmente le risque auto-immun, elle ne le diminue pas."}]},
-    {"q":"Quel facteur explique en partie les différences individuelles de résistance à la maladie liée au stress ?","options":[{"t":"La sensation de contrôle perçu, par opposition au sentiment d'impuissance.","correct":true,"j":"Exact : la sensation de contrôle, opposée à l'impuissance, module la résistance ou la sensibilité à la maladie."},{"t":"Le sentiment d'impuissance perçu, par opposition à la sensation de contrôle.","j":"Inversé : c'est le contrôle perçu, non l'impuissance, qui protège face au stress."},{"t":"L'intensité de l'activation sympathique, indépendamment du contrôle perçu.","j":"Le facteur clé retenu est le contrôle perçu, pas l'intensité de l'activation en elle-même."}]},
-    {"q":"Dans la réaction affective immédiate du modèle transactionnel, à quoi correspond la réponse d'orientation (RO) ?","options":[{"t":"Une réponse affectivement neutre de curiosité ou d'acceptation du stimulus.","correct":true,"j":"Exact : la RO est neutre, faite de curiosité ou d'acceptation, préparant le corps à l'analyse du stimulus."},{"t":"Une réponse émotionnelle négative de rejet ou de peur du stimulus.","j":"Ceci décrit la réponse de défense (RD), émotion négative et rejet, pas la réponse d'orientation."},{"t":"Une réponse consciente et réfléchie d'analyse détaillée du stimulus.","j":"La réaction affective est automatique et pré-consciente, elle précède toute réflexion consciente."}]},
-    {"q":"Dans l'évaluation primaire du modèle transactionnel, comment se distinguent une évaluation « menace » et une évaluation « préjudice » ?","options":[{"t":"Le préjudice est un dommage déjà subi, la menace un dommage anticipé.","correct":true,"j":"Exact : le préjudice porte sur un effet déjà survenu, la menace sur un effet indésirable encore à venir."},{"t":"Le préjudice est un dommage anticipé, la menace un dommage déjà subi.","j":"Les deux notions sont inversées : le préjudice est déjà subi, la menace est anticipée."},{"t":"Le préjudice et la menace sont tous deux un dommage déjà subi.","j":"Seul le préjudice est déjà subi ; la menace porte sur un dommage non encore produit."}]},
-    {"q":"Concernant le contrôle et la prédictibilité d'un facteur de stress, quelle proposition est exacte ?","options":[{"t":"Sa probabilité est indépendante du comportement, et la prédictibilité réduit l'activation psychophysiologique.","correct":true,"j":"Exact : un événement incontrôlable a une probabilité indépendante du comportement, et prévoir le stresseur diminue l'activation."},{"t":"Sa probabilité dépend du comportement, et la prédictibilité augmente l'activation psychophysiologique.","j":"Une probabilité qui dépend du comportement définit un événement contrôlable, et l'effet de la prédictibilité est inversé."},{"t":"Sa probabilité est indépendante du comportement, et la prédictibilité augmente l'activation psychophysiologique.","j":"La première partie est juste, mais la prédictibilité diminue l'activation, elle ne l'augmente pas."}]},
-    {"q":"Que vise le coping centré sur le problème ?","options":[{"t":"Agir sur la source du stress pour la modifier, la réduire ou l'éliminer.","correct":true,"j":"Exact : le coping centré sur le problème intervient sur le facteur de stress lui-même pour le contrôler."},{"t":"Agir sur les émotions liées au stress pour réduire la détresse interne.","j":"Ceci décrit le coping centré sur l'émotion, qui régule le vécu affectif et non la source."},{"t":"S'éloigner de la source du stress pour se séparer de la situation.","j":"S'éloigner correspond à une stratégie de distanciation, pas au coping centré sur le problème."}]},
-    {"q":"Le coping centré sur l'émotion a pour objectif principal de :","options":[{"t":"réguler les émotions négatives suscitées par la situation stressante.","correct":true,"j":"Correct : le coping centré sur l'émotion vise à gérer le vécu affectif lié à la situation, sans nécessairement agir sur la source du stress."},{"t":"agir sur la situation stressante afin d'en supprimer la cause.","j":"Faux : modifier ou supprimer la source du stress relève du coping centré sur le problème, pas du coping centré sur l'émotion."},{"t":"mettre en place des actions concrètes pour résoudre le problème.","j":"Faux : la mise en œuvre d'actions résolutoires caractérise le coping centré sur le problème, non la gestion des émotions."}]},
-    {"q":"Parmi les propositions suivantes, laquelle correspond exactement à l'une des huit stratégies spécifiques de coping ?","options":[{"t":"l'acceptation de la responsabilité personnelle.","correct":true,"j":"Correct : l'acceptation de la responsabilité figure parmi les huit stratégies spécifiques, aux côtés notamment de la confrontation et de la planification."},{"t":"le report de la responsabilité sur autrui.","j":"Faux : reporter la responsabilité sur autrui n'appartient pas à la liste ; c'est l'inverse de l'acceptation de la responsabilité qui, elle, en fait partie."},{"t":"l'acceptation résignée de la situation vécue.","j":"Faux : la résignation ne figure pas parmi les huit stratégies ; elle se rapproche plutôt d'une forme d'évitement passif."}]},
-    {"q":"Les dimensions du soutien social décrites dans le cours sont :","options":[{"t":"émotionnelle, instrumentale et informative.","correct":true,"j":"Correct : le soutien social se décline en une dimension émotionnelle, une dimension instrumentale (aide concrète) et une dimension informative."},{"t":"émotionnelle, cognitive et comportementale.","j":"Faux : cognitive et comportementale ne sont pas les dimensions retenues ; il manque les composantes instrumentale et informative."},{"t":"affective, matérielle et normative.","j":"Faux : si affective et matérielle évoquent l'émotionnel et l'instrumental, la dimension normative ne correspond pas à la dimension informative attendue."}]},
-    {"q":"Concernant la stratégie d'évitement, quelle proposition est exacte ?","options":[{"t":"elle est inefficace à long terme mais peut être utile à court terme lors de traumatismes graves.","correct":true,"j":"Correct : l'évitement ne règle rien durablement, mais il offre à court terme une protection utile face à un traumatisme grave."},{"t":"elle est efficace à long terme mais nuisible à court terme lors de traumatismes graves.","j":"Faux : les horizons temporels sont inversés ; l'évitement est utile à court terme et non efficace sur le long terme."},{"t":"elle est inefficace à court comme à long terme, quel que soit le traumatisme rencontré.","j":"Faux : c'est trop absolu ; à court terme et face à un traumatisme grave, l'évitement conserve une utilité protectrice."}]},
-    {"q":"Quelle affirmation décrit correctement le rapport entre la réussite d'une stratégie de coping et ses effets ?","options":[{"t":"une stratégie réussie peut néanmoins être néfaste, comme le déni prolongé d'un diagnostic.","correct":true,"j":"Correct : réussir à contenir l'angoisse par le déni peut retarder la prise en charge, rendant une stratégie efficace finalement délétère."},{"t":"une stratégie réussie est toujours bénéfique, comme le déni prolongé d'un diagnostic.","j":"Faux : la réussite d'une stratégie ne garantit pas son bénéfice ; le déni prolongé en est justement un contre-exemple."},{"t":"une stratégie néfaste est forcément une stratégie ayant échoué, comme le déni d'un diagnostic.","j":"Faux : une stratégie peut atteindre son but tout en étant néfaste ; nocivité et échec ne se confondent pas."}]},
-    {"q":"Concernant l'usage des questionnaires en kinésithérapie, quelle proposition est correcte ?","options":[{"t":"ils mesurent la fonctionnalité ou prédisent l'évolution, sans poser de diagnostic.","correct":true,"j":"Correct : les questionnaires évaluent la fonction ou anticipent l'évolution (Yellow Flags), mais n'ont pas de valeur diagnostique."},{"t":"ils posent le diagnostic tout en mesurant la fonctionnalité du patient.","j":"Faux : ils ne sont pas diagnostiques ; ils renseignent la fonction ou le pronostic, pas la nature de l'affection."},{"t":"ils prédisent l'évolution et se substituent à l'examen clinique du patient.","j":"Faux : prédire l'évolution ne dispense pas de l'examen clinique, qu'ils complètent sans le remplacer."}]},
-    {"q":"Selon la définition du concept de douleur, comment l'individu en acquiert-il la notion ?","options":[{"t":"par l'expérience, à travers les situations vécues au cours de la vie.","correct":true,"j":"Correct : le concept de douleur s'apprend, il se construit progressivement à partir des expériences vécues par la personne."},{"t":"de façon innée, indépendamment de toute situation vécue au cours de la vie.","j":"Faux : la notion de douleur n'est pas donnée à la naissance ; elle résulte d'un apprentissage par l'expérience."},{"t":"par le seul raisonnement, à partir de l'analyse rationnelle de la lésion.","j":"Faux : le concept ne se déduit pas d'un raisonnement sur la lésion, il s'acquiert par le vécu expérientiel."}]},
-    {"q":"Concernant l'expression de la douleur par le patient, quelle proposition est exacte ?","options":[{"t":"le rapport du patient doit être respecté même sans cause visible, la parole n'étant qu'un mode d'expression parmi d'autres.","correct":true,"j":"Correct : le vécu douloureux rapporté est à respecter en l'absence de lésion apparente, et la verbalisation n'est qu'un des comportements d'expression."},{"t":"le rapport du patient n'est retenu que si une cause visible objective vient le confirmer.","j":"Faux : la douleur doit être respectée même sans cause visible ; l'absence de lésion ne disqualifie pas le rapport du patient."},{"t":"la description verbale reste le seul comportement fiable pour attester de sa douleur.","j":"Faux : la parole n'est qu'un mode d'expression parmi d'autres, aux côtés des comportements et attitudes traduisant la douleur."}]},
-    {"q":"Concernant la nociception, quelle proposition est exacte ?","options":[{"t":"Elle constitue une expérience consciente résultant du traitement cérébral de l'information sensorielle.","j":"Faux : cette description correspond à la douleur, pas à la nociception."},{"t":"Elle correspond à un processus physiologique inconscient, purement biologique, issu de l'activité des nocicepteurs.","correct":true,"j":"Exact : la nociception est un phénomène biologique inconscient lié à l'activité des nocicepteurs."},{"t":"Elle intègre d'emblée des facteurs psychologiques et sociaux à la détection du stimulus périphérique.","j":"Faux : l'intégration bio-psycho-sociale caractérise la douleur, non la nociception."}]},
-    {"q":"Concernant la douleur, quelle proposition est exacte ?","options":[{"t":"Elle est une expérience consciente issue du traitement cérébral et de facteurs bio-psycho-sociaux.","correct":true,"j":"Exact : la douleur est une expérience consciente à déterminants bio-psycho-sociaux."},{"t":"Elle est un processus inconscient et purement biologique issu de l'activité des nocicepteurs.","j":"Faux : cette définition correspond à la nociception, phénomène inconscient."},{"t":"Elle est un signal biologique automatique dépourvu de toute dimension psychologique ou sociale.","j":"Faux : la douleur comporte justement des dimensions psychologiques et sociales."}]},
-    {"q":"Concernant les rapports entre nociception et douleur, quelle proposition est exacte ?","options":[{"t":"La nociception aboutit toujours à une douleur, et toute douleur suppose une nociception active.","j":"Faux : les deux peuvent être dissociés dans les deux sens."},{"t":"La douleur fantôme et la douleur chronique s'expliquent par une nociception intense et durable.","j":"Faux : ce sont précisément des douleurs sans nociception correspondante."},{"t":"Il peut exister une nociception sans douleur (anesthésie, distraction) et une douleur sans nociception (fantôme, chronique).","correct":true,"j":"Exact : la dissociation entre nociception et douleur existe dans les deux sens."}]},
-    {"q":"Concernant les nocicepteurs, quelle proposition est exacte ?","options":[{"t":"Ce sont des récepteurs encapsulés détectant uniquement des variations thermiques modérées, localisés dans la peau.","j":"Faux : ce sont des terminaisons libres, non encapsulées, et polymodales."},{"t":"Ce sont des terminaisons libres détectant fortes pressions, températures extrêmes et substances chimiques, présentes partout.","correct":true,"j":"Exact : terminaisons nerveuses libres polymodales réparties dans tout le corps."},{"t":"Ce sont des terminaisons libres détectant surtout le toucher léger et les vibrations, présentes partout.","j":"Faux : ils répondent aux stimuli nociceptifs, non au toucher léger."}]},
-    {"q":"Les nocicepteurs sont connectés :","options":[{"t":"aux ganglions de la racine dorsale ou au ganglion trijumeau.","correct":true,"j":"Exact : leurs corps cellulaires siègent dans le ganglion spinal ou trijumeau."},{"t":"aux ganglions sympathiques paravertébraux ou au ganglion cervical supérieur.","j":"Faux : ces ganglions ne relaient pas l'information des nocicepteurs."},{"t":"aux ganglions parasympathiques crâniens ou au ganglion géniculé.","j":"Faux : ces ganglions ne sont pas les relais de la nociception décrite."}]},
-    {"q":"Concernant les fibres Aδ, quelle proposition est exacte ?","options":[{"t":"Elles sont amyéliniques et véhiculent une douleur sourde, diffuse et tardive.","j":"Faux : cela décrit les fibres C, amyéliniques et à conduction lente."},{"t":"Elles sont myélinisées mais véhiculent une douleur sourde, diffuse et tardive.","j":"Faux : les fibres Aδ myélinisées conduisent une douleur vive et précoce."},{"t":"Elles sont myélinisées et véhiculent une douleur vive, localisée et précoce.","correct":true,"j":"Exact : la myélinisation permet une conduction rapide, d'où une douleur vive et précoce."}]},
-    {"q":"Concernant la douleur aiguë, quelle proposition est exacte ?","options":[{"t":"C'est un signal d'alerte immédiat, qui dure moins de trois mois et disparaît avec la guérison.","correct":true,"j":"Exact : douleur aiguë = alerte transitoire, résolutive à la guérison."},{"t":"C'est un signal d'alerte immédiat, qui persiste au-delà de trois mois malgré la guérison.","j":"Faux : la persistance au-delà de trois mois définit la douleur chronique."},{"t":"C'est un signal d'alerte immédiat, qui dure quelques semaines et traduit une guérison incomplète.","j":"Faux : cette description correspond à la douleur subaiguë."}]},
-    {"q":"Concernant la douleur subaiguë, quelle proposition est exacte ?","options":[{"t":"Elle est immédiate et brève, disparaissant dès le début de la guérison des tissus.","j":"Faux : cette description correspond à la douleur aiguë."},{"t":"Elle est intermédiaire (quelques semaines à trois mois), liée à une guérison incomplète ou une inflammation persistante.","correct":true,"j":"Exact : durée intermédiaire traduisant une guérison incomplète ou une inflammation persistante."},{"t":"Elle est prolongée au-delà de trois mois et persiste indépendamment de toute lésion tissulaire.","j":"Faux : cette description correspond à la douleur chronique."}]},
-    {"q":"Concernant la douleur chronique, quelle proposition est exacte ?","options":[{"t":"Elle dure plus de 3 mois et peut persister même après la guérison des lésions, devenant une maladie à part entière.","correct":true,"j":"Exact : au-delà de 3 mois, elle subsiste après la guérison tissulaire et constitue une maladie en soi liée à une sensibilisation du système nerveux."},{"t":"Elle dure plus de 3 mois mais cesse toujours une fois les lésions cicatrisées, restant un simple symptôme.","j":"Faux : elle peut justement persister après la cicatrisation et n'est plus un simple symptôme mais une maladie en soi."},{"t":"Elle dure plus de 3 mois et traduit uniquement une lésion tissulaire évolutive non encore guérie.","j":"Faux : elle n'implique pas forcément une lésion active, elle relève d'une sensibilisation du système nerveux."}]},
-    {"q":"Quel critère est considéré comme le plus important pour distinguer une douleur aiguë d'une douleur chronique ?","options":[{"t":"La relation avec les aspects cognitifs et comportementaux, davantage que la durée écoulée.","correct":true,"j":"Exact : le critère déterminant n'est pas le temps mais le lien avec les dimensions cognitives et comportementales."},{"t":"La durée écoulée depuis le début, davantage que les aspects cognitifs et comportementaux.","j":"Faux : le seuil temporel est un repère mais n'est pas le critère le plus important."},{"t":"L'intensité ressentie sur l'échelle de douleur, davantage que les aspects cognitifs et comportementaux.","j":"Faux : l'intensité n'est pas le critère distinctif retenu entre aiguë et chronique."}]},
-    {"q":"Concernant la distinction entre douleur adaptative et douleur désadaptative, quelle proposition est correcte ?","options":[{"t":"L'adaptative est protectrice, proportionnelle et aiguë ; la désadaptative est disproportionnée, sans stimulus et chronique.","correct":true,"j":"Exact : l'adaptative garde sa fonction protectrice, la désadaptative la perd et devient disproportionnée et chronique."},{"t":"L'adaptative est disproportionnée, sans stimulus et chronique ; la désadaptative est protectrice, proportionnelle et aiguë.","j":"Faux : les caractéristiques sont inversées par rapport à la définition."},{"t":"L'adaptative comme la désadaptative sont protectrices et strictement proportionnelles au stimulus lésionnel.","j":"Faux : la désadaptative perd sa fonction protectrice et devient disproportionnée voire sans stimulus."}]},
-    {"q":"Quelle situation correspond à une douleur nociceptive ?","options":[{"t":"Une entorse, une fracture ou une brûlure, liée à un dommage tissulaire réel ou potentiel.","correct":true,"j":"Exact : la douleur nociceptive résulte d'un dommage réel ou potentiel des tissus."},{"t":"Une sciatique, un canal carpien ou une neuropathie diabétique, liés à une atteinte nerveuse.","j":"Faux : ces exemples relèvent de la douleur neuropathique (lésion du système nerveux)."},{"t":"Une fibromyalgie, des lombalgies persistantes ou des céphalées chroniques, sans lésion identifiable.","j":"Faux : ces exemples relèvent de la douleur nociplastique (sensibilisation sans lésion)."}]},
-    {"q":"La douleur neuropathique se définit par :","options":[{"t":"Une lésion ou un dysfonctionnement du système nerveux, par exemple une sciatique ou une neuropathie diabétique.","correct":true,"j":"Exact : elle résulte d'une lésion ou d'une dysfonction du système nerveux."},{"t":"Un dommage réel ou potentiel des tissus, par exemple une entorse ou une brûlure cutanée.","j":"Faux : ces exemples correspondent à la douleur nociceptive."},{"t":"Une sensibilisation nerveuse sans lésion identifiable, par exemple une fibromyalgie ou une céphalée chronique.","j":"Faux : cette description correspond à la douleur nociplastique."}]},
-    {"q":"Quelle proposition caractérise la douleur nociplastique (psychosomatique) ?","options":[{"t":"Une sensibilisation du système nerveux sans lésion identifiable, comme la fibromyalgie ou les céphalées chroniques.","correct":true,"j":"Exact : elle résulte d'une sensibilisation sans lésion identifiable."},{"t":"Un dommage tissulaire réel ou potentiel bien identifiable, comme une fracture ou une brûlure.","j":"Faux : cette description correspond à la douleur nociceptive."},{"t":"Une lésion nerveuse périphérique clairement objectivée, comme un canal carpien ou une sciatique.","j":"Faux : cette description correspond à la douleur neuropathique."}]},
-    {"q":"Comment comprendre le fait que la douleur chronique « n'est pas imaginaire » ?","options":[{"t":"Le système nerveux a appris un mode hyper-protecteur ; la douleur est réelle même sans lésion active.","correct":true,"j":"Exact : la douleur chronique n'est pas imaginaire, le système nerveux a appris un fonctionnement hyper-protecteur."},{"t":"La douleur est simulée par le patient ; elle n'a pas de véritable substrat dans le système nerveux.","j":"Faux : elle n'est pas simulée, elle a bien un substrat neurophysiologique."},{"t":"La douleur correspond toujours à une lésion tissulaire active ; sans lésion elle serait imaginaire.","j":"Faux : elle peut exister sans lésion active grâce à la sensibilisation apprise."}]},
-    {"q":"Selon la théorie du portillon, pourquoi le fait de frotter la peau soulage-t-il la douleur ?","options":[{"t":"Les fibres Aβ tactiles activent l'interneurone inhibiteur qui ferme la porte dans la corne dorsale.","correct":true,"j":"Exact : l'activation des fibres Aβ stimule l'interneurone inhibiteur et ferme la porte."},{"t":"Les fibres Aβ tactiles inhibent l'interneurone inhibiteur, ce qui ouvre la porte dans la corne dorsale.","j":"Faux : les fibres Aβ activent l'interneurone inhibiteur, elles ne l'inhibent pas, et la porte se ferme."},{"t":"Les fibres Aβ tactiles activent directement les fibres nociceptives et ferment la porte dans la corne dorsale.","j":"Faux : l'effet passe par l'interneurone inhibiteur, non par une stimulation des fibres nociceptives."}]},
-    {"q":"Selon la théorie du portillon, quel est l'effet des fibres nociceptives Aδ et C sur l'interneurone médullaire ?","options":[{"t":"Elles inhibent l'interneurone, ce qui ouvre la porte et laisse passer la douleur","correct":true,"j":"Les fibres fines Aδ et C inhibent l'interneurone inhibiteur : la porte s'ouvre et le message nociceptif est transmis."},{"t":"Elles activent l'interneurone, ce qui ferme la porte et bloque la douleur","j":"Activer l'interneurone pour fermer la porte est le rôle des grosses fibres Aβ (toucher, pression), pas des fibres nociceptives."},{"t":"Elles inhibent l'interneurone, ce qui ferme la porte et atténue la douleur","j":"Les fibres Aδ et C inhibent bien l'interneurone, mais cette inhibition ouvre la porte au lieu de la fermer."}]},
-    {"q":"D'où partent les voies descendantes inhibitrices de la douleur et quels médiateurs libèrent-elles ?","options":[{"t":"De la substance grise périaqueducale, relayées par le noyau du raphé, libérant endorphines et enképhalines","correct":true,"j":"La voie inhibitrice descendante naît de la substance grise périaqueducale, fait relais dans le noyau du raphé et libère des opioïdes endogènes (endorphines, enképhalines)."},{"t":"De l'amygdale, relayées par le système limbique, libérant hormones de stress et adrénaline","j":"L'amygdale et le système limbique appartiennent à la voie facilitatrice liée au stress, qui augmente la sensibilité au lieu de l'inhiber."},{"t":"De la substance grise périaqueducale, relayées par le noyau du raphé, libérant substance P et glutamate","j":"L'origine est exacte, mais la substance P et le glutamate sont pro-nociceptifs, non les opioïdes libérés par cette voie."}]},
-    {"q":"Comment les voies descendantes facilitatrices augmentent-elles la sensibilité à la douleur ?","options":[{"t":"Le stress et la peur activent le système limbique et l'amygdale, ce qui accroît la sensibilité douloureuse","correct":true,"j":"La voie facilitatrice est mise en jeu par le stress et la peur, qui activent le système limbique et l'amygdale et augmentent la sensibilité."},{"t":"Le stress et la peur activent la substance grise périaqueducale, ce qui accroît la sensibilité douloureuse","j":"La substance grise périaqueducale appartient à la voie inhibitrice qui réduit la douleur, elle n'amplifie pas la sensibilité."},{"t":"La relaxation et le calme activent le système limbique et l'amygdale, ce qui accroît la sensibilité douloureuse","j":"La relaxation et le calme ferment la porte et diminuent la douleur ; ce sont le stress et la peur qui activent cette voie."}]},
-    {"q":"Dans le traitement central de la douleur, quels sont les rôles respectifs du cortex cingulaire antérieur et de la formation réticulaire ?","options":[{"t":"Le cingulaire antérieur relie douleur physique et émotion, la formation réticulaire gère l'alerte automatique","correct":true,"j":"Le cortex cingulaire antérieur fait le lien entre douleur physique et charge émotionnelle, tandis que la formation réticulaire gère l'alerte automatique."},{"t":"Le cingulaire antérieur gère l'alerte automatique, la formation réticulaire relie douleur physique et émotion","j":"Les rôles sont inversés : c'est le cingulaire antérieur qui associe douleur et émotion, et la réticulaire qui gère l'alerte."},{"t":"Le cingulaire antérieur relie douleur physique et émotion, la formation réticulaire libère les opioïdes endogènes","j":"Le cingulaire antérieur relie bien douleur et émotion, mais la libération d'opioïdes revient au noyau du raphé, non à la formation réticulaire."}]},
-    {"q":"Parmi ces ensembles de facteurs, lequel OUVRE la porte de la douleur selon la théorie du portillon ?","options":[{"t":"L'anxiété, la colère et les pensées catastrophiques","correct":true,"j":"Anxiété, colère et pensées catastrophiques figurent parmi les facteurs qui OUVRENT la porte et amplifient la douleur."},{"t":"La relaxation, l'attitude positive et le soutien social","j":"Relaxation, attitude positive et soutien social FERMENT la porte au lieu de l'ouvrir."},{"t":"La distraction, la confiance et le sentiment de contrôle","j":"Distraction, confiance et sentiment de contrôle sont des facteurs qui FERMENT la porte, non qui l'ouvrent."}]},
-    {"q":"Parmi ces ensembles de facteurs, lequel FERME la porte de la douleur selon la théorie du portillon ?","options":[{"t":"Le soutien social, la relaxation et le sentiment de contrôle","correct":true,"j":"Soutien social, relaxation et sentiment de contrôle font partie des facteurs qui FERMENT la porte et réduisent la douleur."},{"t":"La peur du mouvement, la dépression et la concentration sur la douleur","j":"Peur, dépression et focalisation excessive sur la douleur OUVRENT la porte au lieu de la fermer."},{"t":"La gravité de la blessure, l'anxiété et les pensées catastrophiques","j":"Gravité de la blessure, anxiété et catastrophisme sont des facteurs qui OUVRENT la porte, non qui la ferment."}]},
-    {"q":"Dans le modèle d'évitement de la peur, en quoi consiste la voie d'adaptation saine ?","options":[{"t":"Percevoir la douleur comme gérable et temporaire, maintenir l'activité et parvenir à la récupération","correct":true,"j":"La voie saine repose sur une perception de la douleur comme gérable et transitoire, le maintien de l'activité et l'évolution vers la récupération."},{"t":"Percevoir la douleur comme menaçante et durable, éviter l'activité et parvenir à la récupération","j":"Percevoir la douleur comme menaçante et éviter l'activité relève de la voie du catastrophisme, qui ne mène pas à la récupération."},{"t":"Percevoir la douleur comme gérable et temporaire, réduire l'activité et parvenir à la récupération","j":"Le maintien de l'activité est essentiel : réduire l'activité oriente vers le déconditionnement, non vers la récupération."}]},
-    {"q":"Dans le modèle d'évitement de la peur, quel enchaînement décrit la voie du catastrophisme ?","options":[{"t":"Peur de la douleur, kinésiophobie, déconditionnement, hypervigilance et sensibilisation centrale, jusqu'à la douleur chronique","correct":true,"j":"La voie du catastrophisme enchaîne peur de la douleur, kinésiophobie, déconditionnement, hypervigilance et sensibilisation centrale, aboutissant à la douleur chronique et à l'invalidité."},{"t":"Peur de la douleur, maintien de l'activité, reconditionnement et récupération, jusqu'à la disparition de la douleur","j":"Maintien de l'activité et récupération décrivent la voie d'adaptation saine, à l'opposé de la voie du catastrophisme."},{"t":"Peur de la douleur, kinésiophobie, reconditionnement, hypervigilance et analgésie, jusqu'à la douleur chronique","j":"Le catastrophisme conduit au déconditionnement et à la sensibilisation centrale, non à un reconditionnement ni à une analgésie."}]},
-    {"q":"Selon le modèle du catastrophisme, quelles sont ses trois composantes ?","options":[{"t":"Rumination, grossissement (magnification) et désespoir.","correct":true,"j":"Ce sont exactement les trois composantes du catastrophisme décrites dans le cours."},{"t":"Rumination, évitement du mouvement et affaiblissement physique.","j":"Évitement et affaiblissement relèvent du cycle entretenu, non des composantes elles-mêmes."},{"t":"Magnification, hypervigilance et impuissance apprise.","j":"Notions voisines de la douleur, mais ce ne sont pas les composantes qui définissent le catastrophisme."}]},
-    {"q":"Dans le cycle perpétuel du catastrophisme, pourquoi l'évitement du mouvement aggrave-t-il la douleur chronique ?","options":[{"t":"Il laisse la lésion cicatriser tout en réactivant périodiquement les pensées catastrophiques.","j":"Le modèle ne décrit pas une cicatrisation protectrice : l'évitement entretient le problème."},{"t":"Il réduit la peur liée au mouvement et diminue progressivement la douleur ressentie.","j":"L'évitement entretient au contraire la peur et la douleur, il ne les diminue pas."},{"t":"Il entraîne un affaiblissement (déconditionnement) qui alimente et perpétue la douleur.","correct":true,"j":"L'évitement affaiblit le corps, bouclant le cycle douleur → catastrophisme → douleur chronique."}]},
-    {"q":"Comment l'apprentissage associé à des stimuli module-t-il la douleur ?","options":[{"t":"Les stimuli aversifs, en augmentant la peur, réduisent la douleur ; les appétitifs l'augmentent.","j":"La direction est inversée : l'aversif majore la douleur, l'appétitif l'atténue."},{"t":"Les stimuli aversifs, en augmentant la peur, intensifient la douleur ; les appétitifs la réduisent.","correct":true,"j":"Conforme au cours : la peur induite par l'aversif majore la douleur, l'appétitif l'atténue."},{"t":"Les stimuli aversifs comme appétitifs augmentent la douleur en renforçant la vigilance.","j":"Les stimuli appétitifs diminuent la douleur, ils ne l'augmentent pas."}]},
-    {"q":"Quelle affirmation décrit le mieux le lien entre douleur chronique et troubles anxio-dépressifs ?","options":[{"t":"Environ un tiers des patients présente une anxiété/dépression, associée à une douleur plus intense.","correct":true,"j":"Environ un tiers des personnes douloureuses chroniques sont concernées, avec une douleur plus forte."},{"t":"Une minorité négligeable présente une anxiété/dépression, sans effet sur l'intensité de la douleur.","j":"La proportion n'est pas négligeable et le lien avec une douleur accrue est établi."},{"t":"Une majorité présente une anxiété/dépression, laquelle diminue l'intensité de la douleur.","j":"L'anxiété/dépression s'associe à une douleur plus forte, non plus faible."}]},
-    {"q":"Des soldats blessés au combat demandent moins d'analgésiques que des civils présentant des blessures comparables. Qu'illustre ce constat ?","options":[{"t":"La gravité objective de la lésion détermine à elle seule l'intensité de la douleur.","j":"Si la gravité seule comptait, des blessures comparables donneraient une douleur comparable."},{"t":"La signification attribuée à la blessure module l'intensité de la douleur ressentie.","correct":true,"j":"Le sens donné à la blessure modifie l'intensité ressentie, à lésion comparable."},{"t":"L'accoutumance aux analgésiques explique le moindre recours aux antalgiques.","j":"Le constat renvoie au sens donné à la blessure, non à une accoutumance pharmacologique."}]},
-    {"q":"Quel est l'effet d'un sentiment d'auto-efficacité élevé (« je peux supporter la douleur ») ?","options":[{"t":"Il s'associe à une douleur moindre et à une meilleure récupération.","correct":true,"j":"Une auto-efficacité élevée s'accompagne de moins de douleur et d'une meilleure récupération."},{"t":"Il s'associe à une douleur plus forte car il conduit à négliger les signaux d'alerte.","j":"L'auto-efficacité élevée réduit la douleur, elle ne l'augmente pas."},{"t":"Il reste sans effet sur la douleur et n'influence que la vitesse de récupération.","j":"Elle agit aussi sur l'intensité de la douleur, pas seulement sur la récupération."}]},
-    {"q":"Quel est l'effet respectif de la focalisation attentionnelle et de la distraction sur la douleur ?","options":[{"t":"Se focaliser sur la douleur en diminue l'intensité ; se distraire l'augmente.","j":"La direction est inversée : la focalisation majore la douleur, la distraction l'atténue."},{"t":"La focalisation et la distraction augmentent toutes deux la douleur en mobilisant l'attention.","j":"La distraction diminue la douleur, elle ne l'augmente pas."},{"t":"Se focaliser sur la douleur en augmente l'intensité ; se distraire la diminue.","correct":true,"j":"Conforme au cours : l'attention portée à la douleur l'intensifie, la distraction la réduit."}]},
-    {"q":"Qu'est-ce qui caractérise l'effet placebo ?","options":[{"t":"Une amélioration réelle sans substance active, liée aux attentes positives et libérant des endorphines.","correct":true,"j":"L'effet placebo est une amélioration réelle liée aux attentes, via la libération d'endorphines."},{"t":"Une amélioration réelle produite par l'action pharmacologique directe d'un principe actif.","j":"Par définition, le placebo ne contient pas de principe actif pharmacologique."},{"t":"Une amélioration purement imaginaire, sans libération d'endorphines ni effet réel.","j":"L'amélioration est réelle et physiologique (endorphines), non purement imaginaire."}]},
-    {"q":"Concernant l'effet nocebo et la douleur, quelle proposition est exacte ?","options":[{"t":"Des attentes négatives déclenchent un stress qui, via l'amygdale, augmente réellement la douleur ressentie.","correct":true,"j":"L'effet nocebo repose sur des attentes négatives qui, par le stress et l'amygdale, majorent réellement la douleur."},{"t":"Des attentes positives déclenchent une détente qui, via l'amygdale, diminue réellement la douleur ressentie.","j":"Ce mécanisme décrit l'effet placebo ; le nocebo part d'attentes négatives, non positives."},{"t":"Des attentes négatives déclenchent un stress qui, sans effet biologique réel, laisse la douleur inchangée.","j":"Faux : les effets du nocebo sont bien réels sur le plan biologique, pas une simple impression."}]},
-    {"q":"La sensibilisation centrale se caractérise par :","options":[{"t":"Un SNC hyperréactif où un stimulus non douloureux déclenche une réponse exagérée (allodynie) et un stimulus douloureux devient indolore (hyperalgésie).","j":"Les définitions d'allodynie et d'hyperalgésie sont ici inversées."},{"t":"Un SNC hyperréactif où un stimulus non douloureux devient douloureux (allodynie) et un stimulus douloureux déclenche une réponse exagérée (hyperalgésie).","correct":true,"j":"Allodynie = douleur à un stimulus normalement non douloureux ; hyperalgésie = réponse exagérée à un stimulus douloureux."},{"t":"Un SNC hyporéactif où un stimulus non douloureux devient douloureux (hyperalgésie) et un stimulus douloureux est sous-perçu (allodynie).","j":"La sensibilisation centrale rend le SNC hyperréactif, non hyporéactif, et les termes sont mal attribués."}]},
-    {"q":"Concernant les liens entre anxiété et souvenirs de douleur :","options":[{"t":"L'anxiété efface les souvenirs de douleur, ce qui contribue à apaiser l'expérience douloureuse actuelle.","j":"L'anxiété n'efface pas les souvenirs de douleur et n'apaise pas la douleur."},{"t":"L'anxiété reste sans lien avec les souvenirs de douleur, qui n'influencent pas l'expérience douloureuse actuelle.","j":"Un lien existe : l'anxiété peut activer les souvenirs de douleur."},{"t":"L'anxiété peut réactiver des souvenirs de douleur, ce qui contribue à entretenir l'expérience douloureuse actuelle.","correct":true,"j":"L'anxiété peut activer des souvenirs de douleur et ainsi entretenir l'expérience douloureuse."}]},
-    {"q":"Par quel mécanisme l'anxiété peut-elle générer des douleurs musculaires ?","options":[{"t":"Par une activation du système sympathique entraînant contractures, spasmes musculaires et douleurs myofasciales.","correct":true,"j":"L'activation sympathique liée à l'anxiété génère contractures, spasmes et douleurs myofasciales."},{"t":"Par une activation du système parasympathique entraînant relâchement, détente musculaire et disparition des douleurs.","j":"C'est le système sympathique, non parasympathique, qui est activé, et il ne provoque pas de détente."},{"t":"Par une activation du système sympathique entraînant un relâchement musculaire protégeant des douleurs myofasciales.","j":"L'activation sympathique crée des tensions musculaires, elle ne protège pas des douleurs."}]},
-    {"q":"Selon la théorie de l'attribution appliquée à la douleur :","options":[{"t":"Attribuer sa douleur à des causes rassurantes, contrôlables et passagères tend à l'aggraver.","j":"Ces attributions rassurantes tendent à réduire la douleur, pas à l'aggraver."},{"t":"Attribuer sa douleur à des causes menaçantes, incontrôlables et permanentes tend à l'aggraver.","correct":true,"j":"Interpréter la douleur comme menaçante, incontrôlable et permanente en majore le vécu."},{"t":"Attribuer sa douleur à des causes menaçantes, incontrôlables et permanentes tend à la soulager.","j":"Ces attributions menaçantes aggravent la douleur au lieu de la soulager."}]},
-    {"q":"Comment la dépression influence-t-elle la douleur au niveau des neurotransmetteurs ?","options":[{"t":"Elle augmente la sérotonine et la dopamine, qui inhibent la douleur, ce qui réduit la douleur ressentie.","j":"La dépression abaisse ces neurotransmetteurs, elle ne les augmente pas."},{"t":"Elle abaisse la sérotonine et la dopamine, qui amplifient la douleur, ce qui réduit la douleur ressentie.","j":"Ces neurotransmetteurs inhibent la douleur ; leur baisse l'augmente, elle ne la réduit pas."},{"t":"Elle abaisse la sérotonine et la dopamine, qui inhibent la douleur, ce qui augmente la douleur ressentie.","correct":true,"j":"La dépression réduit sérotonine et dopamine, régulateurs inhibiteurs de la douleur, d'où une douleur accrue."}]},
-    {"q":"Comment la baisse de motivation liée à la dépression retentit-elle sur les muscles ?","options":[{"t":"Elle favorise l'inactivité, conduisant à un déconditionnement et à une atrophie musculaire.","correct":true,"j":"La perte de motivation entraîne l'inactivité, source de déconditionnement et d'atrophie musculaire."},{"t":"Elle favorise l'inactivité, conduisant à un renforcement et à une hypertrophie musculaire.","j":"L'inactivité affaiblit les muscles ; elle ne les renforce pas."},{"t":"Elle favorise l'activité, prévenant tout déconditionnement et toute atrophie musculaire.","j":"La dépression diminue la motivation et l'activité, elle ne les augmente pas."}]},
-    {"q":"Quel est l'effet d'une baisse de la qualité du sommeil sur la douleur ?","options":[{"t":"Elle élève le seuil de douleur, rendant la personne moins sensible à la douleur.","j":"Un mauvais sommeil abaisse le seuil de douleur ; il ne rend pas moins sensible."},{"t":"Elle abaisse le seuil de douleur, rendant la personne plus sensible à la douleur.","correct":true,"j":"Une moindre qualité de sommeil abaisse le seuil de douleur et accroît la sensibilité."},{"t":"Elle abaisse le seuil de douleur, rendant la personne moins sensible à la douleur.","j":"Abaisser le seuil de douleur augmente la sensibilité, il ne la diminue pas."}]},
-    {"q":"Comment définit-on le mieux la kinésiophobie ?","options":[{"t":"Une peur excessive et irrationnelle du mouvement, reposant sur une perception de menace plutôt que sur la gravité réelle.","correct":true,"j":"Correct : la kinésiophobie est une peur excessive, irrationnelle et invalidante du mouvement, fondée sur la perception de menace et non sur la gravité médicale réelle."},{"t":"Une peur mesurée du mouvement, proportionnée à la gravité médicale réelle de la lésion en cause.","j":"Faux : elle n'est justement pas proportionnée à la gravité réelle ; elle est excessive et irrationnelle."},{"t":"Une appréhension passagère du mouvement, déterminée par l'intensité objective de l'atteinte des tissus.","j":"Faux : elle est invalidante et durable, et dépend de la perception de menace, non de l'atteinte objective."}]},
-    {"q":"Quelles sont les deux composantes de la kinésiophobie ?","options":[{"t":"La peur de la douleur et les croyances de vulnérabilité.","correct":true,"j":"Correct : ses deux composantes sont la peur de la douleur et les croyances de vulnérabilité."},{"t":"La peur de la douleur et les croyances d'invulnérabilité.","j":"Faux : la seconde composante est la croyance de vulnérabilité, et non d'invulnérabilité."},{"t":"La peur de la chute et les croyances de vulnérabilité.","j":"Faux : la première composante est la peur de la douleur, et non la peur de la chute."}]},
-    {"q":"Parmi les propositions suivantes, laquelle correspond à des prédicteurs de la kinésiophobie ?","options":[{"t":"Un catastrophisme élevé associé à une faible auto-efficacité.","correct":true,"j":"Correct : le catastrophisme élevé et une faible auto-efficacité figurent parmi les prédicteurs."},{"t":"Un catastrophisme faible associé à une auto-efficacité élevée.","j":"Faux : ce profil est protecteur ; ce sont le catastrophisme élevé et la faible auto-efficacité qui prédisent."},{"t":"Un catastrophisme élevé associé à une auto-efficacité élevée.","j":"Faux : le prédicteur est une auto-efficacité faible, et non élevée."}]},
-    {"q":"Que mesure le HADS ?","options":[{"t":"Conjointement l'anxiété et la dépression.","correct":true,"j":"Correct : le HADS évalue conjointement l'anxiété et la dépression."},{"t":"Conjointement l'anxiété et le catastrophisme.","j":"Faux : le HADS ne mesure pas le catastrophisme, évalué par le PCS."},{"t":"Conjointement la dépression et la kinésiophobie.","j":"Faux : le HADS ne mesure pas la kinésiophobie, évaluée par le TSK-11."}]},
-    {"q":"Selon quelles dimensions le BDI-II évalue-t-il la dépression ?","options":[{"t":"Une dimension cognitivo-affective et une dimension somatique.","correct":true,"j":"Correct : le BDI-II couvre une dimension cognitivo-affective et une dimension somatique."},{"t":"Une dimension cognitivo-affective et une dimension motrice.","j":"Faux : le BDI-II ne comporte pas de dimension motrice ; la seconde est somatique."},{"t":"Une dimension sensorielle et une dimension somatique.","j":"Faux : la première dimension est cognitivo-affective, et non sensorielle."}]},
-    {"q":"À travers quelles composantes le PCS évalue-t-il le catastrophisme ?","options":[{"t":"La rumination, la magnification et le désespoir.","correct":true,"j":"Correct : le PCS mesure le catastrophisme via la rumination, la magnification et le désespoir."},{"t":"La rumination, la minimisation et le désespoir.","j":"Faux : la composante est la magnification, et non la minimisation."},{"t":"La rumination, la magnification et l'espoir.","j":"Faux : la troisième composante est le désespoir, et non l'espoir."}]},
-    {"q":"Que mesure le TSK-11 ?","options":[{"t":"La kinésiophobie, liée à l'évitement de l'activité et de la douleur.","correct":true,"j":"Correct : le TSK-11 mesure la kinésiophobie, marquée par l'évitement d'activité et de douleur."},{"t":"Le catastrophisme, lié à l'évitement de l'activité et de la douleur.","j":"Faux : le catastrophisme relève du PCS, non du TSK-11."},{"t":"La kinésiophobie, liée à la recherche de l'activité et de la douleur.","j":"Faux : la kinésiophobie renvoie à l'évitement, et non à la recherche de l'activité."}]},
-    {"q":"Quel est le statut des questionnaires utilisés en kinésithérapie ?","options":[{"t":"Des outils d'évaluation qui ne posent pas de diagnostic.","correct":true,"j":"Correct : en kiné, les questionnaires servent à l'évaluation et ne sont pas diagnostiques."},{"t":"Des outils diagnostiques qui permettent de poser un diagnostic.","j":"Faux : ils ne permettent pas de poser un diagnostic."},{"t":"Des outils d'évaluation qui remplacent l'examen diagnostique.","j":"Faux : ils ne remplacent pas l'examen ; ils ne sont pas diagnostiques."}]},
-    {"q":"Concernant l'auto-évaluation de la douleur, quelle affirmation en constitue une limite reconnue ?","options":[{"t":"Elle suppose des compétences verbales et peut être altérée par une mémoire imparfaite de la douleur.","correct":true,"j":"Exact : l'auto-évaluation exige des capacités verbales et reste sensible aux imperfections de la mémoire de la douleur."},{"t":"Elle s'affranchit du contexte de l'entretien et reflète fidèlement la douleur ressentie.","j":"Faux : l'entretien influence la réponse et la douleur rapportée peut être déformée."},{"t":"Elle ne dépend pas des capacités verbales du patient et exclut toute déformation.","j":"Faux : elle requiert justement des compétences verbales et une déformation reste possible."}]},
-    {"q":"Selon les données présentées, comment le genre influence-t-il la verbalisation de la douleur ?","options":[{"t":"Les hommes tendent à verbaliser moins leur douleur en présence de femmes.","correct":true,"j":"Exact : les hommes verbalisent moins la douleur devant les femmes."},{"t":"Les femmes tendent à verbaliser moins leur douleur en présence d'hommes.","j":"Faux : c'est chez les hommes, et non les femmes, que la verbalisation diminue devant l'autre sexe."},{"t":"Les hommes tendent à verbaliser davantage leur douleur en présence de femmes.","j":"Faux : la verbalisation masculine diminue, et non augmente, en présence de femmes."}]},
-    {"q":"Quelles variations physiologiques accompagnent typiquement la douleur ?","options":[{"t":"Une augmentation de la fréquence cardiaque et une diminution de la température périphérique.","correct":true,"j":"Exact : la douleur s'accompagne d'une hausse de la fréquence cardiaque et d'une baisse de la température périphérique."},{"t":"Une diminution de la fréquence cardiaque et une augmentation de la température périphérique.","j":"Faux : la fréquence cardiaque augmente et la température périphérique diminue, l'inverse est décrit ici."},{"t":"Une augmentation de la fréquence cardiaque et une augmentation de la température périphérique.","j":"Faux : la fréquence cardiaque augmente bien, mais la température périphérique diminue."}]},
-    {"q":"Qu'est-ce qui caractérise l'approche multimodale en kinésithérapie ?","options":[{"t":"Elle combine des techniques passives, actives et des stratégies éducatives, avec de meilleurs résultats dans la douleur chronique.","correct":true,"j":"Exact : l'approche multimodale associe passif, actif et éducation, et est la plus efficace dans la douleur chronique."},{"t":"Elle combine des techniques passives et actives, mais exclut les stratégies éducatives, dans la douleur chronique.","j":"Faux : les stratégies éducatives font partie intégrante de l'approche multimodale."},{"t":"Elle combine des techniques actives et des stratégies éducatives, mais exclut les techniques passives, dans la douleur aiguë.","j":"Faux : les techniques passives sont incluses et le bénéfice maximal concerne la douleur chronique."}]},
-    {"q":"Quel est le rôle de l'éducation à la douleur parmi les traitements cognitifs ?","options":[{"t":"Elle constitue la première ligne : elle transforme la menace en information gérable et diminue le catastrophisme.","correct":true,"j":"Exact : première ligne des traitements cognitifs, elle rend la menace gérable et réduit le catastrophisme."},{"t":"Elle constitue un recours de dernière ligne : elle entretient la menace et augmente le catastrophisme.","j":"Faux : elle est la première ligne et réduit, au lieu de l'entretenir, le catastrophisme."},{"t":"Elle constitue la première ligne : elle transforme l'information en menace et diminue l'adhésion.","j":"Faux : elle transforme la menace en information et augmente l'adhésion, non l'inverse."}]},
-    {"q":"Quel est l'effet du mindfulness (pleine conscience) dans la prise en charge de la douleur ?","options":[{"t":"Il contribue à réduire l'hypervigilance à la douleur.","correct":true,"j":"Exact : le mindfulness diminue l'hypervigilance."},{"t":"Il contribue à renforcer l'hypervigilance à la douleur.","j":"Faux : il diminue l'hypervigilance, il ne la renforce pas."},{"t":"Il reste sans effet sur l'hypervigilance à la douleur.","j":"Faux : un effet existe, l'hypervigilance étant réduite."}]},
-    {"q":"Quel est l'objectif de l'exposition progressive au mouvement ?","options":[{"t":"Réduire progressivement la kinésiophobie, c'est-à-dire la peur du mouvement.","correct":true,"j":"Exact : l'exposition progressive au mouvement combat la kinésiophobie."},{"t":"Entretenir la kinésiophobie afin de limiter les mouvements douloureux.","j":"Faux : l'objectif est de réduire la kinésiophobie, non de l'entretenir."},{"t":"Supprimer tout mouvement pour ne pas déclencher la kinésiophobie.","j":"Faux : elle réintroduit progressivement le mouvement plutôt que de l'éviter."}]},
-    {"q":"Parmi les techniques cognitivo-comportementales complémentaires, comment sont conçus les programmes de reprise d'activité ?","options":[{"t":"Ils sont fondés sur la capacité du patient et non sur la douleur ressentie.","correct":true,"j":"Exact : ces programmes s'appuient sur la capacité, et non sur la douleur."},{"t":"Ils sont fondés sur la douleur ressentie et non sur la capacité du patient.","j":"Faux : ils reposent sur la capacité, non sur la douleur ressentie."},{"t":"Ils sont fondés sur l'évitement du mouvement plutôt que sur la capacité du patient.","j":"Faux : ils encouragent l'activité selon la capacité, à l'opposé de l'évitement."}]},
-    {"q":"Selon le cours, quelle proportion des patients atteints de maladies chroniques ne suit pas correctement son traitement ?","options":[{"t":"Entre 20 et 50 % des patients ne suivent pas correctement leur traitement","j":"Faux : cette fourchette sous-estime le phénomène, que le cours établit entre 50 et 80 %."},{"t":"Entre 50 et 80 % des patients ne suivent pas correctement leur traitement","correct":true,"j":"Exact : le cours retient qu'entre 50 et 80 % des patients chroniques ne suivent pas correctement leur traitement."},{"t":"Entre 80 et 95 % des patients ne suivent pas correctement leur traitement","j":"Faux : cette fourchette surestime le phénomène, que le cours situe entre 50 et 80 %."}]},
-    {"q":"Selon le cours, en kinésithérapie, quelle proportion des patients ne respecte pas les recommandations de traitement ?","options":[{"t":"Entre 30 et 50 % des patients ne respectent pas les recommandations de traitement","j":"Faux : cette fourchette est trop basse ; en kinésithérapie le cours indique 50 à 66 %."},{"t":"Entre 66 et 80 % des patients ne respectent pas les recommandations de traitement","j":"Faux : cette fourchette est trop haute ; en kinésithérapie le cours indique 50 à 66 %."},{"t":"Entre 50 et 66 % des patients ne respectent pas les recommandations de traitement","correct":true,"j":"Exact : le cours précise qu'en kinésithérapie 50 à 66 % des patients ne respectent pas les recommandations."}]},
-    {"q":"Que traduit le « paradoxe de l'adhérence » présenté dans le cours ?","options":[{"t":"Une hausse de l'adhérence s'accompagne d'une baisse du nombre de séances nécessaires","correct":true,"j":"Exact : c'est le paradoxe énoncé, une adhérence qui augmente s'accompagne d'une diminution des séances."},{"t":"Une hausse de l'adhérence s'accompagne d'une hausse du nombre de séances nécessaires","j":"Faux : le paradoxe décrit l'inverse, l'adhérence qui augmente fait baisser le nombre de séances."},{"t":"Le nombre de séances suivies reflète fidèlement le niveau d'adhérence du patient","j":"Faux : justement, la présence aux séances ne suffit pas à garantir l'adhérence, qui ne s'y réduit pas."}]},
-    {"q":"Selon la classification du cours, à quel niveau de conséquences de la non-adhérence rattache-t-on la résistance aux médicaments ?","options":[{"t":"Aux conséquences individuelles, qui concernent la santé personnelle du patient","j":"Faux : les conséquences individuelles portent sur la santé personnelle, non sur la résistance aux médicaments."},{"t":"Aux conséquences collectives, qui relèvent de la santé publique","correct":true,"j":"Exact : la résistance aux médicaments et la propagation des maladies sont des conséquences collectives (santé publique)."},{"t":"Aux conséquences sociales, qui renvoient aux pertes économiques et aux coûts","j":"Faux : les conséquences sociales renvoient aux pertes économiques et aux coûts, non à la résistance aux médicaments."}]},
-    {"q":"Comment le cours définit-il la motivation ?","options":[{"t":"Le processus qui initie, guide et soutient les comportements orientés vers un objectif, sous l'effet de facteurs internes ou externes","correct":true,"j":"Exact : c'est la définition du cours, un processus qui initie, guide et soutient l'action vers un objectif, par facteurs internes ou externes."},{"t":"Le processus qui initie et soutient les comportements orientés vers un objectif, sous l'effet des seuls facteurs externes","j":"Faux : le cours inclut aussi les facteurs internes (besoins, désirs, intérêts), pas uniquement les facteurs externes."},{"t":"Le processus qui interrompt et réoriente les comportements afin d'éviter un objectif perçu comme menaçant","j":"Faux : la motivation soutient et guide l'action vers un objectif, elle ne l'interrompt pas pour l'éviter."}]},
-    {"q":"Un patient poursuit ses exercices parce qu'il éprouve du plaisir à constater ses propres progrès. De quelle motivation s'agit-il et à quoi est-elle liée ?","options":[{"t":"Une motivation extrinsèque, liée à l'auto-efficacité (compliments et récompenses reçus)","j":"Faux : la motivation extrinsèque vient de l'extérieur (compliments, récompenses) ; le plaisir de progresser relève de l'intrinsèque."},{"t":"Une motivation intrinsèque, liée aux incitations extérieures (pressions et bénéfices attendus)","j":"Faux : le type est bien intrinsèque, mais elle est liée à l'auto-efficacité, non aux incitations extérieures."},{"t":"Une motivation intrinsèque, liée à l'auto-efficacité (plaisir et sentiment de réussir)","correct":true,"j":"Exact : venue de l'intérieur (plaisir, intérêt) et liée à l'auto-efficacité, c'est la motivation intrinsèque."}]},
-    {"q":"Quelle situation illustre une motivation extrinsèque au sens du cours ?","options":[{"t":"Le patient poursuit ses exercices parce qu'il les trouve intéressants et satisfaisants en soi","j":"Faux : trouver l'activité satisfaisante en soi relève de la motivation intrinsèque, qui vient de l'intérieur."},{"t":"Le patient poursuit ses exercices parce qu'il reçoit des compliments et des récompenses","correct":true,"j":"Exact : compliments et récompenses viennent de l'extérieur, c'est la motivation extrinsèque."},{"t":"Le patient poursuit ses exercices parce qu'il ressent du plaisir à progresser par lui-même","j":"Faux : le plaisir de progresser par soi-même est une motivation intrinsèque, liée à l'auto-efficacité."}]},
-    {"q":"Selon le cours, comment le kinésithérapeute doit-il utiliser les facteurs de motivation du patient ?","options":[{"t":"Privilégier les facteurs extrinsèques tout en aidant le patient à trouver ses facteurs intrinsèques","correct":true,"j":"Exact : c'est la consigne du cours, privilégier l'extrinsèque tout en aidant le patient à faire émerger l'intrinsèque."},{"t":"Privilégier les facteurs intrinsèques tout en aidant le patient à trouver ses facteurs extrinsèques","j":"Faux : les deux rôles sont inversés ; le kiné privilégie l'extrinsèque et aide à trouver l'intrinsèque."},{"t":"S'en tenir aux facteurs extrinsèques sans chercher à développer les facteurs intrinsèques","j":"Faux : le kiné ne se limite pas à l'extrinsèque, il aide aussi le patient à trouver ses facteurs intrinsèques."}]},
-    {"q":"Concernant les bénéfices secondaires de la maladie, quelle proposition est exacte ?","options":[{"t":"Ce sont des avantages, souvent inconscients, retirés du maintien de l'état de malade : attention, soutien, temps libre ou avantages financiers.","correct":true,"j":"Définition exacte : avantages tirés de rester malade, le plus souvent inconscients."},{"t":"Ce sont les causes directes de la baisse de motivation, liées à la douleur, à la fatigue et au découragement du patient.","j":"Le cours distingue justement les bénéfices secondaires des causes directes de baisse de motivation."},{"t":"Ce sont des avantages toujours conscients, recherchés délibérément par le patient dans un but de compensation financière.","j":"Ces bénéfices sont le plus souvent inconscients, non recherchés délibérément."}]},
-    {"q":"L'observance thérapeutique se définit comme :","options":[{"t":"Le degré de conformité entre les prescriptions et le comportement du patient (médicaments, doses, horaires, règles hygiéno-diététiques).","correct":true,"j":"C'est bien la mesure de la conformité entre prescription et comportement réel."},{"t":"Le processus actif et collaboratif par lequel le patient adhère aux recommandations convenues avec son soignant.","j":"Ceci décrit l'adhésion, processus actif et centré sur le patient, non l'observance."},{"t":"L'obéissance passive du patient qui applique les prescriptions sans jamais les questionner ni les négocier.","j":"Ceci correspond à la conformité, obéissance passive, et non à l'observance."}]},
-    {"q":"La conformité (compliance au sens strict) correspond à :","options":[{"t":"Une obéissance passive du patient qui suit les prescriptions sans les questionner, dans une relation paternaliste.","correct":true,"j":"Définition exacte : obéissance passive dans une relation paternaliste."},{"t":"Un engagement actif du patient qui négocie et valide avec le soignant les objectifs du traitement.","j":"Cet engagement actif et négocié caractérise l'adhésion, pas la conformité."},{"t":"Le degré de correspondance mesurable entre les prescriptions faites et le comportement réel du patient.","j":"Cette mesure de correspondance définit l'observance, non la conformité."}]},
-    {"q":"L'adhésion thérapeutique se caractérise avant tout par :","options":[{"t":"Un processus actif et collaboratif, centré sur le patient, reposant sur des recommandations convenues ensemble.","correct":true,"j":"C'est bien un processus actif, collaboratif et centré sur le patient."},{"t":"Une obéissance passive du patient aux consignes, sans discussion, dans une relation paternaliste.","j":"L'obéissance passive dans une relation paternaliste définit la conformité."},{"t":"Le simple degré de correspondance entre les prescriptions et le comportement effectivement adopté.","j":"Ce degré de correspondance mesuré renvoie à l'observance, non à l'adhésion."}]},
-    {"q":"Une patiente diminue d'elle-même la dose prescrite afin de limiter des effets indésirables gênants. Comment interpréter ce comportement selon le cours ?","options":[{"t":"Comme une décision raisonnée (analyse coûts-avantages) dont les raisons peuvent différer de celles du soignant.","correct":true,"j":"Les patients prennent des décisions raisonnées, y compris réduire la dose pour limiter les effets."},{"t":"Comme une non-observance irrationnelle, traduisant surtout une mauvaise compréhension des consignes reçues.","j":"Le cours souligne le caractère raisonné de la décision, non l'irrationalité."},{"t":"Comme un oubli involontaire, sans intention particulière, relevant d'une non-observance non intentionnelle.","j":"Il s'agit ici d'une décision intentionnelle, non d'un oubli involontaire."}]},
-    {"q":"Parmi les facteurs d'observance liés au patient, concernant le locus de contrôle :","options":[{"t":"Un locus de contrôle interne est associé à une meilleure adhérence qu'un locus de contrôle externe.","correct":true,"j":"Le cours indique que le locus interne favorise l'adhérence plus que le locus externe."},{"t":"Un locus de contrôle externe est associé à une meilleure adhérence qu'un locus de contrôle interne.","j":"C'est l'inverse : le locus interne, non externe, est lié à une meilleure adhérence."},{"t":"Le locus de contrôle n'a aucun effet sur l'adhérence, seule l'auto-efficacité du patient compte.","j":"Le locus de contrôle est bien un facteur patient influençant l'adhérence."}]},
-    {"q":"Parmi les facteurs d'observance liés au soignant, on retient :","options":[{"t":"Ses connaissances, son style de communication (empathie, écoute active), ses autosoins (burnout) et sa gestion de l'incertitude.","correct":true,"j":"Ce sont précisément les facteurs liés au soignant décrits dans le cours."},{"t":"Ses croyances, son auto-efficacité, son locus de contrôle et son état émotionnel face à la maladie.","j":"Croyances, auto-efficacité et locus de contrôle sont des facteurs liés au patient."},{"t":"La complexité, la durée, la fréquence et les effets secondaires de la prise en charge proposée.","j":"Complexité, durée et effets secondaires sont des facteurs liés au traitement."}]},
-    {"q":"Parmi les facteurs d'observance liés au traitement figurent :","options":[{"t":"Sa complexité, sa durée, sa fréquence, ses effets secondaires ainsi que la charge et les avantages perçus.","correct":true,"j":"Ce sont exactement les facteurs liés au traitement énumérés dans le cours."},{"t":"Le niveau socio-éducatif, l'âge, l'état émotionnel et les psychopathologies éventuelles du patient.","j":"Âge, niveau socio-éducatif et psychopathologies sont des facteurs liés au patient."},{"t":"L'empathie, l'écoute active, les autosoins et la gestion de l'incertitude par le soignant.","j":"Empathie, écoute active et gestion de l'incertitude sont des facteurs liés au soignant."}]},
-    {"q":"Parmi les ensembles suivants, lequel ne regroupe que des facteurs liés à la MALADIE susceptibles d'influencer l'observance ?","options":[{"t":"La gravité, l'évolution et le pronostic de la pathologie.","correct":true,"j":"Exact : gravité, évolution et pronostic sont listés comme facteurs liés à la maladie, avec les comorbidités et les caractéristiques des symptômes (visibilité, variabilité)."},{"t":"La confiance, la continuité et la qualité de la communication.","j":"Ces éléments relèvent des facteurs liés à la relation thérapeutique, pas à la maladie elle-même."},{"t":"Les croyances, l'état émotionnel et le niveau d'éducation.","j":"Ce sont des facteurs liés au patient, distincts des facteurs propres à la maladie."}]},
-    {"q":"Parmi les propositions suivantes, laquelle ne regroupe que des facteurs liés à la relation thérapeutique et au contexte ?","options":[{"t":"Objectifs communs, continuité des soins et soutien social.","correct":true,"j":"Objectifs communs et continuité relèvent de la relation thérapeutique ; le soutien social relève du contexte."},{"t":"Auto-efficacité, locus de contrôle et état émotionnel.","j":"Ces trois éléments sont classés parmi les facteurs liés au patient."},{"t":"Complexité du traitement, effets secondaires et pronostic.","j":"Complexité et effets secondaires relèvent du traitement, et le pronostic de la maladie."}]},
-    {"q":"Quelle attitude caractérise l'entretien motivationnel visant à augmenter la motivation au changement ?","options":[{"t":"Une attitude empathique, centrée sur le patient, qui évite la confrontation.","correct":true,"j":"Exact : l'EM repose sur l'empathie et le centrage patient, évite la confrontation et explore l'ambivalence."},{"t":"Une attitude directive qui convainc le patient par des arguments d'autorité.","j":"Convaincre par l'autorité s'oppose à l'esprit de l'EM, qui passe de « convaincre » à « explorer et accompagner »."},{"t":"Une attitude neutre qui laisse décider sans explorer les raisons.","j":"L'EM explore activement les motivations et l'ambivalence ; ce n'est pas une simple neutralité."}]},
-    {"q":"Selon le cours, quel est le facteur prédictif le plus important du résultat de tout traitement ?","options":[{"t":"La motivation du patient à changer.","correct":true,"j":"Exact : la motivation est présentée comme le facteur prédictif le plus important du résultat de tout traitement."},{"t":"La sévérité initiale des symptômes ressentis.","j":"La gravité des symptômes influence l'observance mais n'est pas désignée comme LE facteur prédictif principal."},{"t":"L'expérience technique du soignant traitant.","j":"L'expertise du soignant compte, mais elle n'est pas désignée comme le facteur prédictif le plus important."}]},
-    {"q":"D'après les effets de mémorisation évoqués (génération, production, enactment, enseignement), quelle situation favorise le mieux la rétention d'un exercice ?","options":[{"t":"Réaliser soi-même l'exercice plutôt que de regarder le kiné le faire.","correct":true,"j":"Exact : l'effet d'enactment — exécuter soi-même une action améliore le rappel par rapport à l'observer."},{"t":"Observer attentivement le kiné exécuter l'exercice en silence.","j":"L'observation passive est moins efficace que la mise en acte pour la rétention."},{"t":"Lire la description de l'exercice sans la reformuler soi-même.","j":"Lire en silence sans générer ni dire soi-même retient moins (effets de génération et de production)."}]},
-    {"q":"Dans quel ordre se déroulent les quatre phases de l'entretien motivationnel ?","options":[{"t":"Rapport, Focaliser, Évoquer, Planifier.","correct":true,"j":"Exact : on instaure la confiance, on recherche des objectifs, on fait émerger les motivations, puis on planifie."},{"t":"Focaliser, Rapport, Planifier, Évoquer.","j":"La confiance (Rapport) doit précéder la focalisation, et la planification vient toujours en dernier."},{"t":"Rapport, Planifier, Focaliser, Évoquer.","j":"La planification ne doit jamais précéder les phases Focaliser et Évoquer."}]},
-    {"q":"Que recouvrent les quatre outils de base OARS de l'entretien motivationnel ?","options":[{"t":"Questions ouvertes, Affirmations, Reflets et Synthèses.","correct":true,"j":"Exact : OARS = questions Ouvertes, Affirmations, Réflexions (reflets) et Synthèses (résumés)."},{"t":"Questions ouvertes, Ordres, Reformulations et Suggestions.","j":"Les « ordres » et « suggestions » ne font pas partie des OARS et s'opposent à l'esprit collaboratif."},{"t":"Observations, Arguments, Recommandations et Solutions.","j":"Arguments et recommandations relèvent du registre persuasif, à l'opposé des outils OARS."}]},
-    {"q":"Un patient déclare : « J'ai vraiment besoin d'aller mieux rapidement. » Quel type de langage du changement exprime-t-il ?","options":[{"t":"Le besoin.","correct":true,"j":"Exact : l'expression d'une nécessité (« j'ai besoin de ») traduit le langage du besoin."},{"t":"La capacité.","j":"La capacité s'exprimerait plutôt par « je pourrais » ou « je suis capable de »."},{"t":"Le désir.","j":"Le désir s'exprimerait plutôt par « j'aimerais » ou « je voudrais »."}]},
-    {"q":"Dans le cadre de l'entretien motivationnel, quelle posture le kinésithérapeute adopte-t-il vis-à-vis de son patient ?","options":[{"t":"Un facilitateur qui accompagne le patient, considéré comme partenaire et expert de sa propre vie.","correct":true,"j":"C'est la posture attendue : le thérapeute facilite et le patient est partenaire, acteur et expert de sa vie."},{"t":"Un persuadeur qui convainc le patient, considéré comme un exécutant des consignes données.","j":"Faux : le thérapeute n'est justement pas un persuadeur et le patient n'est pas un simple exécutant."},{"t":"Un expert qui décide de la solution, le patient devant s'y conformer de façon passive.","j":"Faux : l'expert de sa vie est le patient lui-même, qui demeure acteur et non passif."}]},
-    {"q":"Comment se définit la dissonance cognitive ?","options":[{"t":"L'inconfort lié à des pensées ou des actions contradictoires, que l'on cherche à réduire.","correct":true,"j":"C'est la définition exacte : un inconfort né de contradictions que la personne cherche à diminuer."},{"t":"Le confort lié à des pensées ou des actions cohérentes, que l'on cherche à maintenir.","j":"Faux : la dissonance est un inconfort issu de contradictions, non un confort de cohérence."},{"t":"L'inconfort lié à des pensées ou des actions contradictoires, que l'on cherche à entretenir.","j":"Faux : cet inconfort n'est pas entretenu mais au contraire cherché à être réduit."}]},
-    {"q":"Face à l'ambivalence du patient (des raisons de changer et de ne pas changer), comment le kinésithérapeute doit-il se positionner ?","options":[{"t":"La considérer comme normale et laisser le patient la résoudre lui-même, en évitant le débat.","correct":true,"j":"Correct : l'ambivalence est normale et universelle, et le kiné évite le débat en laissant le patient trancher."},{"t":"La considérer comme anormale et aider le patient à la résoudre par un débat argumenté.","j":"Faux : l'ambivalence est normale et le kiné évite précisément le débat argumenté."},{"t":"La considérer comme normale mais la résoudre à la place du patient en tranchant le débat.","j":"Faux : c'est au patient de résoudre son ambivalence, le kiné ne tranche pas à sa place."}]},
-    {"q":"Quels sont les six stades du modèle transthéorique du changement ?","options":[{"t":"Précontemplation, contemplation, préparation, action, maintien et rechute.","correct":true,"j":"Correct : ce sont bien les six stades du modèle, de la précontemplation à la rechute."},{"t":"Précontemplation, contemplation, action, maintien, rechute et guérison.","j":"Faux : la préparation est omise et la « guérison » n'est pas un stade du modèle."},{"t":"Contemplation, préparation, action, maintien, rechute et consolidation.","j":"Faux : la précontemplation manque et la « consolidation » ne figure pas parmi les stades."}]},
-    {"q":"Comment se caractérisent respectivement les stades de précontemplation et de contemplation ?","options":[{"t":"En précontemplation le patient n'a pas identifié le problème ; en contemplation il est ambivalent.","correct":true,"j":"Correct : absence d'identification du problème puis ambivalence caractérisent ces deux stades."},{"t":"En précontemplation le patient est ambivalent ; en contemplation il n'a pas identifié le problème.","j":"Faux : les deux caractéristiques sont inversées par rapport aux stades décrits."},{"t":"En précontemplation le patient a identifié le problème ; en contemplation il est déjà décidé à agir.","j":"Faux : en précontemplation le problème n'est pas identifié et en contemplation le patient reste ambivalent."}]},
-    {"q":"Selon les objectifs de l'entretien motivationnel par stade, que vise-t-on prioritairement au stade de contemplation ?","options":[{"t":"Explorer avec le patient les avantages et les inconvénients du changement.","correct":true,"j":"Correct : au stade de contemplation, l'objectif est d'explorer avantages et inconvénients du changement."},{"t":"Augmenter la perception du risque lié à l'absence de changement.","j":"Faux : renforcer la perception du risque correspond au stade de précontemplation."},{"t":"Élaborer avec le patient un plan d'action concret et conjoint.","j":"Faux : construire un plan d'action conjoint correspond au stade de préparation."}]},
-    {"q":"Pour anticiper la non-observance, deux questions identifient environ la moitié des patients à risque ; sur quoi portent-elles ?","options":[{"t":"La perception de l'auto-efficacité et la capacité à faire face à l'effort.","correct":true,"j":"Correct : ce sont bien l'auto-efficacité perçue et la capacité à faire face à l'effort."},{"t":"La perception de la gravité de la maladie et la capacité à supporter la douleur.","j":"Faux : les deux questions ne portent ni sur la gravité perçue ni sur la tolérance à la douleur."},{"t":"La perception du soutien de l'entourage et la capacité à financer les soins.","j":"Faux : elles ne concernent ni le soutien de l'entourage ni le financement des soins."}]},
-    {"q":"Parmi les stratégies d'adhérence, quels effets la gamification produit-elle ?","options":[{"t":"Elle augmente l'auto-efficacité, la motivation et l'intensité des répétitions.","correct":true,"j":"Correct : la gamification accroît à la fois auto-efficacité, motivation et intensité des répétitions."},{"t":"Elle augmente l'auto-efficacité et la motivation, mais réduit l'intensité des répétitions.","j":"Faux : l'intensité des répétitions est augmentée et non réduite par la gamification."},{"t":"Elle augmente la motivation et l'intensité des répétitions, mais diminue l'auto-efficacité.","j":"Faux : l'auto-efficacité est renforcée par la gamification, pas diminuée."}]},
-    {"q":"Dans une démarche d'adhérence, que recouvre l'acronyme d'un objectif « SMART » ?","options":[{"t":"Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis.","correct":true,"j":"Ce sont exactement les cinq caractéristiques attendues d'un objectif SMART."},{"t":"Spécifiques, Motivants, Adaptables, Réversibles et Théoriquement définis.","j":"« Motivants », « Adaptables », « Réversibles » et « Théoriquement » ne font pas partie des critères SMART."},{"t":"Simples, Mesurables, Ambitieux, Réalistes et Transposables.","j":"« Simples », « Ambitieux » et « Transposables » ne correspondent pas aux critères SMART."}]},
-    {"q":"À propos de la matrice SWOT et du journal comme stratégies d'adhérence, quelle proposition est exacte ?","options":[{"t":"La matrice SWOT explore forces, faiblesses, opportunités et menaces, et favorise la responsabilité et l'auto-efficacité.","correct":true,"j":"Ce sont bien les quatre composantes de la SWOT et la finalité attribuée à ces outils."},{"t":"La matrice SWOT explore forces, faiblesses, objectifs et moyens, et favorise surtout la dépendance au soignant.","j":"« Objectifs » et « moyens » ne sont pas des composantes, et la finalité visée n'est pas la dépendance."},{"t":"La matrice SWOT explore facilités, freins, opportunités et menaces, et vise avant tout à réduire l'auto-efficacité.","j":"« Facilités » et « freins » sont inexacts, et le but est de renforcer et non de réduire l'auto-efficacité."}]},
-    {"q":"Selon l'analyse des rôles, qu'implique le rôle de soignant ?","options":[{"t":"Agir pour le bien-être avec professionnalisme et objectivité, avec pour privilèges l'accès à l'intimité, l'autonomie et la dominance professionnelle.","correct":true,"j":"Ce sont les devoirs (bien-être, professionnalisme, objectivité) et les privilèges décrits pour ce rôle."},{"t":"Agir pour le bien-être avec empathie et subjectivité, avec pour privilèges l'accès à l'intimité, la dépendance et la soumission professionnelle.","j":"« Subjectivité », « dépendance » et « soumission professionnelle » contredisent le rôle défini."},{"t":"Agir selon son propre intérêt avec professionnalisme et neutralité, avec pour privilèges l'accès au dossier, l'autonomie et la dominance professionnelle.","j":"Agir « selon son propre intérêt » et l'accès limité « au dossier » ne correspondent pas au rôle décrit."}]},
-    {"q":"Concernant l'axiome selon lequel « on ne peut pas ne pas communiquer », quelle affirmation est correcte ?","options":[{"t":"Il est impossible de ne pas communiquer, car même le silence transmet un message.","correct":true,"j":"Le silence est lui-même porteur de sens : on communique donc en permanence."},{"t":"Il est possible de ne pas communiquer, à condition de garder le silence.","j":"Le silence communique aussi, on ne peut donc pas s'abstenir de communiquer."},{"t":"Il est impossible de ne pas communiquer, sauf lorsqu'on garde le silence.","j":"Le silence n'est pas une exception : il communique lui aussi."}]},
-    {"q":"Selon les axiomes de la communication, quels sont les deux aspects de toute communication ?","options":[{"t":"Le contenu et la relation.","correct":true,"j":"Toute communication véhicule une information (contenu) et définit la relation entre interlocuteurs."},{"t":"Le contenu et le contexte.","j":"Le second aspect est la relation, et non le contexte."},{"t":"L'intention et la relation.","j":"Le premier aspect est le contenu, et non l'intention."}]},
-    {"q":"Que signifie l'axiome de la « ponctuation des séquences » de communication ?","options":[{"t":"La nature de la relation dépend de la façon dont chacun interprète qui a commencé l'échange.","correct":true,"j":"Chaque interlocuteur ponctue la séquence en désignant un point de départ différent."},{"t":"La nature de la relation dépend du seul contenu échangé, indépendamment de qui a commencé.","j":"C'est la ponctuation des séquences, et non le seul contenu, qui structure la relation."},{"t":"La nature de la relation dépend d'un accord préalable sur qui doit commencer l'échange.","j":"Il n'y a pas d'accord : chacun interprète différemment qui a commencé."}]},
-    {"q":"Concernant les modes digital et analogique de la communication, quelle proposition est correcte ?","options":[{"t":"Le digital correspond aux mots (verbal) et l'analogique au non-verbal, et leur divergence crée des incongruences.","correct":true,"j":"Digital = verbal, analogique = non-verbal ; leur désaccord produit des incongruences."},{"t":"Le digital correspond au non-verbal et l'analogique aux mots (verbal), et leur divergence crée des incongruences.","j":"L'attribution est inversée : le digital est verbal et l'analogique non-verbal."},{"t":"Le digital correspond aux mots (verbal) et l'analogique au non-verbal, mais ils ne peuvent jamais diverger.","j":"Leur divergence est justement la source des incongruences décrites."}]},
-    {"q":"Selon les axiomes, une communication peut être :","options":[{"t":"Symétrique, fondée sur l'égalité, ou complémentaire, fondée sur une position haute et une position basse.","correct":true,"j":"La symétrie repose sur l'égalité et la complémentarité sur une différence de positions."},{"t":"Symétrique, fondée sur une position haute et basse, ou complémentaire, fondée sur l'égalité.","j":"Les définitions sont inversées : la symétrie est l'égalité et la complémentarité la différence."},{"t":"Symétrique, fondée sur l'égalité, ou complémentaire, fondée sur une alternance systématique des rôles.","j":"La complémentarité repose sur des positions haute/basse, et non sur une simple alternance des rôles."}]},
-    {"q":"À quel moment précis la communication peut-elle être considérée comme achevée ?","options":[{"t":"Lorsque le récepteur retourne l'information à l'émetteur (feedback).","correct":true,"j":"Le feedback ferme la boucle : sans retour du récepteur, la communication reste inachevée."},{"t":"Lorsque l'émetteur a terminé de transmettre son message au récepteur.","j":"L'émission n'est qu'une étape ; le message peut ne pas aboutir sans retour."},{"t":"Lorsque le récepteur a bien reçu et décodé le message émis.","j":"La réception et le décodage ne garantissent pas le retour d'information : la boucle n'est pas fermée."}]},
-    {"q":"Dans la communication affective, comment se répartit l'impact du message ?","options":[{"t":"55 % langage corporel, 38 % voix et 7 % mots.","correct":true,"j":"Le corporel domine, la voix vient ensuite et les mots pèsent le moins."},{"t":"55 % voix, 38 % langage corporel et 7 % mots.","j":"La voix ne domine pas : c'est le langage corporel qui prime."},{"t":"55 % mots, 38 % langage corporel et 7 % voix.","j":"Les mots pèsent le moins (7 %), et non le plus."}]},
-    {"q":"D'où provient surtout la première impression et en combien de temps se forme-t-elle ?","options":[{"t":"Surtout du non-verbal, et elle se forme en quelques secondes.","correct":true,"j":"La première impression se forge très vite et repose majoritairement sur le non-verbal."},{"t":"Surtout du verbal, et elle se forme en quelques secondes.","j":"Ce n'est pas le contenu verbal mais le non-verbal qui prime dans la première impression."},{"t":"Surtout du non-verbal, mais après plusieurs minutes d'échange.","j":"L'impression se forme en quelques secondes, pas au bout de plusieurs minutes."}]},
-    {"q":"Comment qualifier l'ancien modèle de communication soignant, antérieur au consentement aux soins et au patient partenaire autonome ?","options":[{"t":"Un modèle paternaliste, où le soignant décide pour le patient.","correct":true,"j":"L'ancien modèle était paternaliste : le soignant décidait à la place du patient."},{"t":"Un modèle partenarial, centré sur un patient autonome.","j":"Le patient partenaire correspond au modèle récent, pas à l'ancien."},{"t":"Un modèle autonomiste, fondé sur le consentement du patient.","j":"L'autonomie et le consentement ont émergé après : ils ne caractérisent pas l'ancien modèle."}]},
-    {"q":"Quel décalage existe entre professionnels et patients concernant les besoins d'information ?","options":[{"t":"Les soignants sous-estiment l'intérêt du diagnostic/pronostic et surestiment celui du traitement.","correct":true,"j":"Les patients veulent surtout diagnostic, pronostic et cause, alors que les soignants surévaluent le traitement."},{"t":"Les soignants surestiment l'intérêt du diagnostic/pronostic et sous-estiment celui du traitement.","j":"C'est l'inverse : le diagnostic/pronostic est justement sous-estimé par les soignants."},{"t":"Les soignants et les patients accordent la même importance au diagnostic et au traitement.","j":"Il existe précisément un décalage, et non une concordance des priorités."}]},
-    {"q":"En phase terminale, que montre la relation autour de l'annonce entre patients et médecins ?","options":[{"t":"La plupart des patients savent et veulent en parler, alors que la plupart des médecins évitent le sujet.","correct":true,"j":"80 % des patients savent qu'ils vont mourir et veulent en parler, tandis que 80 % des médecins refusent de l'aborder."},{"t":"La plupart des patients ignorent leur pronostic, alors que les médecins souhaitent l'aborder.","j":"Au contraire, les patients savent le plus souvent et souhaitent en parler."},{"t":"La plupart des patients et des médecins souhaitent aborder ouvertement le sujet.","j":"Les médecins évitent majoritairement la question : il n'y a pas de symétrie."}]},
-    {"q":"Comment les patients perçoivent-ils un professionnel qui les informe abondamment ?","options":[{"t":"Ils lui prêtent une motivation positive à leur égard.","correct":true,"j":"Informer abondamment est interprété comme un signe d'attention bienveillante."},{"t":"Ils lui prêtent une motivation négative à leur égard.","j":"L'abondance d'information n'est pas perçue comme une menace mais valorisée."},{"t":"Ils ne lui prêtent aucune intention particulière à leur égard.","j":"Les patients y voient bien une intention, précisément jugée positive."}]},
-    {"q":"Quelles sont les trois compétences de communication ?","options":[{"t":"L'empathie, l'écoute active et l'assertivité.","correct":true,"j":"Ce sont les trois compétences de communication retenues."},{"t":"L'empathie, l'écoute active et la persuasion.","j":"La persuasion ne fait pas partie du trio : c'est l'assertivité qui est attendue."},{"t":"La sympathie, l'écoute active et l'assertivité.","j":"Il s'agit de l'empathie, et non de la sympathie."}]},
-    {"q":"Selon le cours, qu'implique l'empathie dans la relation à autrui ?","options":[{"t":"Comprendre ce que ressent l'autre sans se laisser emporter émotionnellement, sans le juger, en se décentrant de soi.","correct":true,"j":"Définition du cours : comprendre le ressenti d'autrui sans être emporté émotionnellement, sans juger, en se décentrant de soi."},{"t":"Comprendre ce que ressent l'autre en partageant son émotion et en se laissant emporter avec lui.","j":"Se laisser emporter émotionnellement est exclu par le cours : l'empathie suppose de ne pas être emporté."},{"t":"Comprendre ce que ressent l'autre en jugeant sa situation tout en restant centré sur soi.","j":"Le cours exige au contraire l'absence de jugement et une décentration de soi."}]},
-    {"q":"Selon le cours, quel est l'ordre des trois phases de l'empathie ?","options":[{"t":"Identification, puis incorporation, puis séparation (mise à distance pour éviter la culpabilité).","correct":true,"j":"Le cours décrit les trois phases dans cet ordre, la séparation servant à éviter la culpabilité."},{"t":"Incorporation, puis identification, puis séparation (mise à distance pour éviter la culpabilité).","j":"L'ordre est inversé : l'identification vient en premier, avant l'incorporation."},{"t":"Identification, puis séparation (mise à distance pour éviter la culpabilité), puis incorporation.","j":"La séparation est la phase finale de mise à distance, elle ne précède pas l'incorporation."}]},
-    {"q":"Selon le cours, qu'est-ce qui différencie l'empathie de la sympathie ?","options":[{"t":"Dans l'empathie, la compréhension du sentiment de l'autre n'est pas nécessairement partagée.","correct":true,"j":"Le cours oppose empathie et sympathie : dans l'empathie, le sentiment compris n'est pas forcément partagé."},{"t":"Dans l'empathie, le sentiment de l'autre est toujours ressenti et partagé à l'identique.","j":"Partager le sentiment à l'identique relève de la sympathie, non de l'empathie selon le cours."},{"t":"Dans l'empathie, le sentiment de l'autre est nécessairement approuvé et partagé.","j":"Le cours précise que la compréhension du sentiment n'est pas nécessairement partagée."}]},
-    {"q":"Selon le cours, que produit le fait de se forcer à l'empathie ?","options":[{"t":"Des idées erronées, de la méfiance et des contradictions.","correct":true,"j":"Le cours indique que se forcer à l'empathie génère des idées erronées, de la méfiance et des contradictions."},{"t":"Une compréhension plus juste, davantage de confiance et de la cohérence.","j":"C'est l'inverse : le cours décrit des effets négatifs, non une amélioration de la relation."},{"t":"Une meilleure décentration, plus d'authenticité et de la sérénité.","j":"Le cours associe l'empathie forcée à des effets négatifs, pas à ces bénéfices."}]},
-    {"q":"Selon le cours, lequel figure parmi les cinq impératifs de l'écoute active ?","options":[{"t":"S'intéresser davantage à la personne qu'à son problème.","correct":true,"j":"Le cours cite, parmi les cinq impératifs, le fait de s'intéresser à l'autre plus qu'au problème."},{"t":"S'intéresser davantage au problème qu'à la personne elle-même.","j":"Le cours demande l'inverse : s'intéresser à l'autre plus qu'au problème."},{"t":"S'intéresser d'abord à ce que l'on ressent soi-même face au problème.","j":"Le cours centre l'écoute sur ce que vit l'autre, non sur son propre ressenti."}]},
-    {"q":"Selon le cours, quelle attitude correspond à l'écoute active face à une personne qui expose un problème ?","options":[{"t":"Écouter d'abord la personne sans lui proposer de solution immédiate.","correct":true,"j":"Le cours recommande d'écouter d'abord et de ne pas proposer de solution tout de suite."},{"t":"Proposer tout de suite une solution avant d'avoir fini d'écouter la personne.","j":"Le cours déconseille de proposer une solution d'emblée : il faut écouter d'abord."},{"t":"Orienter tout de suite la personne vers la solution qui paraît la meilleure.","j":"Proposer une solution immédiate va à l'encontre de l'écoute active selon le cours."}]},
-    {"q":"Selon le cours, en quoi consiste la technique du miroir en écoute active ?","options":[{"t":"Répéter la dernière phrase ou le dernier mot prononcé par la personne.","correct":true,"j":"Le cours définit le miroir comme la répétition de la dernière phrase ou du dernier mot."},{"t":"Répéter la première phrase ou le premier mot prononcé par la personne.","j":"Le miroir porte sur la dernière phrase ou le dernier mot, pas sur les premiers."},{"t":"Reformuler avec ses propres mots l'ensemble du discours de la personne.","j":"Reformuler tout le discours relève de la paraphrase, non de la technique du miroir."}]},
-    {"q":"Selon le cours, comment sont définies les compétences sociales dans le cadre de l'assertivité ?","options":[{"t":"Des réponses socialement compétentes selon le contexte, qui sont des comportements appris.","correct":true,"j":"Le cours définit les compétences sociales comme des réponses adaptées au contexte et apprises."},{"t":"Des traits de personnalité innés, stables quel que soit le contexte rencontré.","j":"Le cours en fait des comportements appris et dépendants du contexte, non des traits innés."},{"t":"Des réactions instinctives, identiques quel que soit le contexte et non modifiables.","j":"Le cours souligne qu'il s'agit de comportements appris et adaptés au contexte."}]},
-    {"q":"Un collègue, mécontent d'une décision, se mure dans le silence puis multiplie sarcasmes et remarques ironiques, sans jamais exprimer clairement son désaccord ni tenir compte de celui des autres. Quel style relationnel décrit ce comportement ?","options":[{"t":"Le style manipulation (passif-agressif)","correct":true,"j":"Correct : il ne respecte ni ses propres droits ni ceux d'autrui et s'exprime par le silence, le sarcasme et l'ironie, entretenant une atmosphère toxique."},{"t":"Le style passif (effacement)","j":"Faux : le passif ne respecte pas ses propres droits mais respecte ceux d'autrui, il s'efface au lieu d'ironiser."},{"t":"Le style agressif (domination)","j":"Faux : l'agressif défend ses droits en bafouant ouvertement ceux d'autrui, sans passer par le détour du sarcasme."}]},
-    {"q":"Selon le cours, comment réagit la majorité des gens (environ 60 à 70 %) lorsqu'ils se trouvent dans une situation tendue ?","options":[{"t":"Ils basculent vers un style passif ou passif-agressif","correct":true,"j":"Correct : l'assertivité n'étant pas naturelle, 60 à 70 % des personnes glissent vers le passif ou le passif-agressif sous tension."},{"t":"Ils adoptent spontanément un style assertif","j":"Faux : l'assertivité reste minoritaire et n'est pas naturelle, elle doit s'apprendre."},{"t":"Ils adoptent un style agressif pleinement assumé","j":"Faux : le style agressif ouvert n'est pas la réaction majoritaire décrite dans le cours."}]},
-    {"q":"D'après le cours, quel est l'aspect le plus difficile lorsqu'on pose une limite à quelqu'un ?","options":[{"t":"Soutenir l'émotion et rester calme quand l'autre réagit mal","correct":true,"j":"Correct : le plus dur est de tenir face à la réaction négative de l'autre en gérant son émotion sans céder."},{"t":"Formuler la limite avec des mots suffisamment clairs","j":"Faux : bien formuler aide, mais ce n'est pas présenté comme la difficulté principale."},{"t":"Choisir le bon moment pour énoncer la limite","j":"Faux : le choix du moment prépare l'échange mais n'est pas le point le plus difficile."}]},
-    {"q":"Comment le cours explique-t-il l'origine de la peur du rejet ?","options":[{"t":"Le cerveau est programmé pour préserver le lien social","correct":true,"j":"Correct : la peur du rejet découle du câblage du cerveau à maintenir et préserver le lien social."},{"t":"Le cerveau est programmé pour éviter tout conflit ouvert","j":"Faux : c'est la préservation du lien qui est visée, pas l'évitement du conflit en soi."},{"t":"Le cerveau est programmé pour rechercher la reconnaissance","j":"Faux : il s'agit de préserver le lien, non de rechercher reconnaissance ou valorisation."}]},
-    {"q":"Que privilégie l'analyse systémique pour comprendre un conflit ?","options":[{"t":"Les interactions réciproques plutôt qu'une cause unique","correct":true,"j":"Correct : l'approche systémique étudie les interactions réciproques ; le tout dépasse la somme des parties."},{"t":"La recherche de la cause unique du problème","j":"Faux : elle refuse justement la logique de cause unique au profit des interactions."},{"t":"L'addition des comportements individuels isolés","j":"Faux : le tout étant plus que la somme des parties, on ne se limite pas à additionner les éléments."}]},
-    {"q":"Quelle stratégie le cours propose-t-il pour gérer une montée de tension pendant un conflit ?","options":[{"t":"S'accorder un temps mort en s'éloignant ou en comptant","correct":true,"j":"Correct : le temps mort et la distraction (s'éloigner, compter) permettent de faire retomber la tension."},{"t":"Continuer l'échange en élevant progressivement la voix","j":"Faux : élever la voix alimente la tension au lieu de la faire retomber."},{"t":"Exiger de l'autre qu'il se calme sur-le-champ","j":"Faux : exiger le calme de l'autre n'est pas la technique de temps mort recommandée."}]},
-    {"q":"En quoi consiste la technique du disque rayé pour dire non ?","options":[{"t":"Répéter inlassablement le même argument, sans se fâcher","correct":true,"j":"Correct : le disque rayé consiste à redire le même message avec calme, sans s'énerver."},{"t":"Reformuler autrement l'argument à chaque relance","j":"Faux : la technique répète le même argument à l'identique plutôt que de le reformuler."},{"t":"Atténuer son refus un peu plus à chaque répétition","j":"Faux : il s'agit de maintenir son refus, non de l'atténuer ou de céder progressivement."}]},
-    {"q":"Pour exprimer un désaccord de manière respectueuse, quelle distinction le cours recommande-t-il ?","options":[{"t":"Distinguer la personne de son comportement","correct":true,"j":"Correct : on vise le comportement par un constat factuel et respectueux, sans attaquer l'identité de la personne."},{"t":"Distinguer les intentions de la personne de ses paroles","j":"Faux : la distinction porte sur personne et comportement, non sur intentions et paroles."},{"t":"Distinguer le contexte du conflit de la personnalité","j":"Faux : ce n'est pas contexte contre personnalité, mais bien comportement contre personne."}]},
-    {"q":"Selon le cours, quelle attitude adopter pour bien recevoir une critique ?","options":[{"t":"Écouter pour comprendre, remercier, puis questionner sans réfuter","correct":true,"j":"Face à une critique : ne pas réagir immédiatement, écouter pour comprendre, distinguer le feedback de sa personne, remercier et poser des questions sans réfuter."},{"t":"Réagir aussitôt pour rectifier chaque point qui est contesté","j":"Le cours conseille au contraire de ne pas réagir immédiatement, mais d'écouter d'abord pour comprendre."},{"t":"Recevoir la critique comme un jugement porté sur sa personne","j":"Il faut distinguer le feedback de sa personne : la critique vise un comportement, pas soi-même."}]},
-    {"q":"Face à un comportement agressif, quelle approche le cours préconise-t-il ?","options":[{"t":"Combiner l'empathie et la fermeté, dans une attitude assertive","correct":true,"j":"L'approche assertive associe empathie ET fermeté face à l'agressivité."},{"t":"Opposer une fermeté seule, sans manifester d'empathie","j":"La fermeté seule, sans empathie, n'est pas l'attitude assertive attendue."},{"t":"Manifester une empathie seule, en renonçant à la fermeté","j":"L'empathie seule, sans fermeté, ne correspond pas non plus à l'assertivité."}]},
-    {"q":"Selon le cours, comment définit-on une mauvaise nouvelle ?","options":[{"t":"Toute information qui altère négativement la vision du patient sur son avenir","correct":true,"j":"Définition du cours : elle altère négativement la vision qu'a le patient de son avenir ; le kiné est concerné (pronostic fonctionnel, chronicité, restriction de rôle)."},{"t":"Toute information qui annonce au patient un diagnostic de maladie incurable","j":"Trop restrictif : elle ne se limite pas à un diagnostic incurable, mais à toute vision négative de l'avenir."},{"t":"Toute information qui révèle au patient une faute survenue durant les soins","j":"Il ne s'agit pas de révéler une faute de soins, mais d'altérer la vision du patient sur son avenir."}]},
-    {"q":"Laquelle de ces démarches ne fait PAS partie des six étapes du protocole d'annonce ?","options":[{"t":"Obtenir le consentement écrit du patient avant de débuter l'entretien","correct":true,"j":"Le consentement écrit ne figure pas parmi les six étapes, qui vont de la préparation de l'entretien au résumé et à la planification du suivi."},{"t":"Évaluer ce que le patient sait déjà de sa propre situation","j":"Étape du protocole : évaluer ce que le patient sait déjà de sa situation."},{"t":"Répondre aux émotions que le patient exprime pendant l'entretien","j":"Étape du protocole : répondre aux émotions exprimées par le patient."}]},
-    {"q":"Pourquoi la mauvaise nouvelle s'annonce-t-elle par étapes ?","options":[{"t":"Parce qu'après le choc le patient n'entend plus rien, l'émotion bloquant sa compréhension","correct":true,"j":"Sous le choc, la mémoire est fragmentée et l'émotion bloque la compréhension : d'où l'annonce progressive ; le protocole protège aussi le soignant."},{"t":"Parce qu'après le choc le patient retient mieux une information longue et détaillée","j":"Faux : le choc altère la compréhension ; une information longue d'emblée ne serait pas retenue."},{"t":"Parce qu'après le choc le patient réclame aussitôt tout le pronostic d'un coup","j":"Faux : sous le choc le patient n'entend plus rien ; on n'assène pas tout le pronostic d'un coup."}]}
+    {"q":"Une réponse adaptée au stress implique:","c":8,"options":[{"t":"L'apparition d'un syndrome métabolique","j":"Le syndrome métabolique est une conséquence pathologique du stress chronique, pas une réponse adaptée."},{"t":"L'épuisement des réserves biochimiques de l'organisme","j":"L'épuisement des réserves biochimiques correspond à la phase d'épuisement du SGA (négative, mal-adaptée)."},{"t":"Le rétablissement de l'homéostasie de l'organisme","correct":true,"j":"Une réponse adaptée vise le rétablissement de l'homéostasie (sous-phase contre-choc de la phase d'alarme)."}]},
+    {"q":"Etant donné un bébé qui n'a pas peur des souris blanches mais oui aux bruits forts, je lui présente plusieurs fois une souris blanche suivie d'un bruit fort. Ceci, finalement, le bébé déclenche une réponse de peur lorsque je lui montre tout simplement la souris blanche, sans faire de bruit. Ce processus est un processus de:","c":6,"options":[{"t":"Conditionnement métalogique","j":"Terme inexistant / distracteur."},{"t":"Conditionnement classique","correct":true,"j":"Association d'un stimulus neutre (souris = SC) à un SI (bruit) produisant une RC : c'est le conditionnement classique (Petit Albert, Watson & Rayner)."},{"t":"Conditionnement opérant","j":"Le conditionnement opérant concerne les conséquences d'un comportement volontaire, pas l'association de stimuli."}]},
+    {"q":"L'apparition d'un état d'anxiété est lié à l'évaluation cognitive d'un stimulus comme dangereux ou menaçant. Les personnes ayant un élevé trait d'anxiété:","c":7,"options":[{"t":"Perçoivent de façons aussi menaçantes les différentes situations que les personnes avec un trait d'anxiété moins élevé.","j":"Faux : un trait d'anxiété élevé modifie la perception des menaces, elle n'est pas identique."},{"t":"Perçoivent moins de situations menaçantes que les personnes avec un trait d'anxiété moins élevé.","j":"Faux : c'est l'inverse, ils perçoivent davantage de situations comme menaçantes."},{"t":"Perçoivent plus de situations menaçantes que les personnes avec un trait d'anxiété élevé.","correct":true,"j":"Seule réponse dans le bon sens (« plus de situations menaçantes ») : un trait d'anxiété élevé accroît la perception de menace (Spielberger, trait/état) ; comparatif visiblement à lire « moins élevé »."}]},
+    {"q":"L'efficacité personnelle perçue se traduit comme:","c":5,"options":[{"t":"Croyance sur la mesure dans laquelle nous pouvons contrôler ou non que les conséquences de notre comportement","j":"Décrit plutôt le contrôle des conséquences (locus de contrôle / attentes de résultat), pas l'auto-efficacité."},{"t":"Perception des coûts ou des avantages d'un comportement donné","j":"Décrit les bénéfices/coûts perçus (modèle HBM), pas l'auto-efficacité."},{"t":"Croyance sur la capacité qu'à l'individu pour réaliser un comportement","correct":true,"j":"Auto-efficacité (Bandura) = croyance de l'individu en sa capacité à réaliser un comportement."}]},
+    {"q":"La technique du sandwich est généralement très utile pour:","c":18,"options":[{"t":"Donner une très mauvaise nouvelle","j":"L'annonce de mauvaises nouvelles utilise le protocole SPIKES/Buckman, pas le sandwich."},{"t":"Refuser une demande","correct":true,"j":"La technique du sandwich (positif → refus → positif) figure dans les stratégies pour dire NON / refuser une demande."},{"t":"Aucune des deux réponses n'est correcte","j":"Incorrect puisque le refus d'une demande est la bonne réponse."}]},
+    {"q":"Quelle hormone sera sécrétée par le cerveau lors de l'écoute de la musique agréable?","c":7,"options":[{"t":"Dopamine","correct":true,"j":"La musique agréable active le circuit de la récompense et libère de la dopamine (neurotransmetteur du plaisir)."},{"t":"Thyroxine","j":"La thyroxine est une hormone thyroïdienne du métabolisme, sans lien avec le plaisir musical."},{"t":"Mélatonine","j":"La mélatonine régule le sommeil (glande pinéale), pas la réponse au plaisir."}]},
+    {"q":"Le stress est un processus:","c":8,"options":[{"t":"Adaptatif","correct":true,"j":"Le stress est un processus adaptatif : Selye le décrit comme réponse d'adaptation (Syndrome Général d'Adaptation)."},{"t":"Pathologique","j":"Il devient pathologique seulement en cas de chronicité/épuisement, ce n'est pas sa nature."},{"t":"Pathogène","j":"Pathogène qualifie un précurseur de maladie ; le stress en soi est une réaction d'adaptation."}]},
+    {"q":"La fonction évocatrice de la communication verbale consiste à:","c":16,"options":[{"t":"Stimuler l'exécution de certains comportements","j":"Stimuler l'exécution de comportements = fonction incitative/conative, pas évocatrice."},{"t":"Produire certains sentiments et émotions","correct":true,"j":"La fonction évocatrice (évoquer = faire surgir) vise à produire/susciter des sentiments et émotions chez le récepteur."},{"t":"Transmettre des informations","j":"Transmettre des informations = fonction informative/référentielle."}]},
+    {"q":"Si on essaye de parler à quelqu'un, mais il ne nous comprends pas à cause du bruit ambiant, alors:","c":16,"options":[{"t":"La réception est inefficace","j":"La réception fonctionne : c'est l'interférence externe qui bloque, pas le récepteur."},{"t":"Le canal est inefficace","correct":true,"j":"Correct : le bruit ambiant est une interférence qui parasite le canal (support auditif) de transmission du message."},{"t":"L'émission est inefficace","j":"L'émission est correcte : l'émetteur parle bien, le problème est extérieur à lui."}]},
+    {"q":"Dans le conditionnement opérant, un exemple de punition négative pour la plupart des gens:","c":6,"options":[{"t":"Une insulte","j":"Une insulte = ajouter un stimulus désagréable = punition POSITIVE."},{"t":"Enlever un privilège","correct":true,"j":"Correct : retirer un stimulus agréable (privilège) pour diminuer un comportement = punition négative."},{"t":"Enlever la douleur","j":"Enlever la douleur = retirer un stimulus désagréable qui augmente un comportement = renforcement négatif."}]},
+    {"q":"Les substances algésiogènes libérés par les cellules abîmées lorsqu'un stimulus nociceptif de forte intensité nuit à l'intégrité de l'organisme","c":9,"options":[{"t":"Arriver à la moelle épinière, où elles se fixeront à un neurone médullaire qui enverra un potentiel d'action vers le cerveau.","j":"Faux : les substances algésiogènes n'atteignent pas elles-mêmes la moelle ; elles agissent localement."},{"t":"Arriver au cortex frontal et pariétal du cerveau pour déclencher un potentiel d'action qui puisse créer une réaction.","j":"Faux : elles n'atteignent pas le cortex ; c'est le potentiel d'action qui y monte."},{"t":"Se fixer sur des nocicepteurs, déclenchant ainsi la création d'un potentiel d'action qui arrivera à la moelle épinière, où le potentiel d'action continuera sa progression jusqu'au cerveau","correct":true,"j":"Correct : les substances chimiques se fixent sur les nocicepteurs (terminaisons libres), créant un potentiel d'action qui gagne la moelle puis le cerveau."}]},
+    {"q":"La technique DESC est très utile pour exprimer inconfort ou mécontentement de façon assertive et demander un changement de comportement à une autre personne. DESC est un acronyme; La lettre C correspond à:","c":18,"options":[{"t":"Conséquences : conséquences positives du changement de comportement et négatives du non-changement","correct":true,"j":"Correct : dans DESC, C = Conséquences (positives du changement, négatives du non-changement)."},{"t":"Condamner : condamner l'autre personne à un futur sans nous","j":"Condamner ne fait pas partie de la méthode DESC (approche assertive, pas culpabilisante)."},{"t":"Convaincre : convaincre l'autre personne de changer son comportement","j":"Convaincre n'est pas le C de DESC ; l'assertivité expose sans forcer la persuasion."}]},
+    {"q":"La définition de la psychologie de la santé, faite en 1989, a été formulée par:","c":1,"options":[{"t":"Dr.Cannon","j":"Cannon = réactions de stress, pas la définition de la psychologie de la santé."},{"t":"Dr.Engel","j":"Engel = modèle biopsychosocial (1977), pas la définition de 1989."},{"t":"Dr.Matarazzo","correct":true,"j":"Correct : la définition de la psychologie de la santé de 1989 est celle de Matarazzo."}]},
+    {"q":"Lorsqu'on met en place l'écoute active, on essaye de:","c":17,"options":[{"t":"Écouter et comprendre ce que l'autre personne veut dire","correct":true,"j":"Correct : l'écoute active vise à comprendre ce que l'autre veut réellement dire/vit (sens, émotions), au-delà des mots."},{"t":"Écouter et comprendre ce que l'autre personne dit","j":"Se limiter à ce qui est dit littéralement reste superficiel, ce n'est pas l'écoute active."},{"t":"Sympathiser et encourager l'autre personne","j":"Sympathiser/encourager n'est pas l'écoute active (empathie ≠ sympathie ; on n'apporte pas de solution d'emblée)."}]},
+    {"q":"L'expérience douloureuse est:","c":10,"options":[{"t":"La même pour tout le monde, indépendamment de ses expériences","j":"Faux : le digest (IASP 2020) insiste que la douleur varie selon les expériences et facteurs bio/psycho/sociaux, elle n'est pas la même pour tous."},{"t":"Une expérience somatique","j":"Faux : la douleur n'est pas purement somatique, c'est une expérience sensorielle ET émotionnelle, pas réductible au corps."},{"t":"Une expérience personnelle","correct":true,"j":"Correct : le digest définit la douleur comme une expérience personnelle (facteurs bio/psycho/sociaux), on apprend le concept par l'expérience."}]},
+    {"q":"De nos jours, la pratique de la kinésithérapie comporte:","c":1,"options":[{"t":"Les deux réponses sont correctes","correct":true,"j":"Correct : la kiné actuelle englobe à la fois la promotion de la santé (prévention primaire, ateliers) et le traitement des troubles du mouvement."},{"t":"La promotion de la santé","j":"Vrai mais incomplet : la promotion de la santé est une composante, pas la seule."},{"t":"Le traitement des troubles du mouvement ou de la motricité","j":"Vrai mais incomplet : le traitement des troubles moteurs est une composante, pas la seule."}]},
+    {"q":"Une personne revient de vacances. Tout à coup, en rentrant chez lui, il se rend compte qu'il a été volé. A ce moment là, il se trouvera dans la phase du Syndrome Général d'adaptation (Selye, 1936)","c":8,"options":[{"t":"De résistance","j":"Faux : la résistance est la phase de compensation/maintien de l'activation, pas la réaction initiale soudaine."},{"t":"D'alarme","correct":true,"j":"Correct : la découverte brutale du vol déclenche la mobilisation immédiate (sous-phase de choc) = phase d'alarme."},{"t":"D'épuisement","j":"Faux : l'épuisement survient après persistance prolongée du stress, pas lors d'un événement ponctuel."}]},
+    {"q":"Selon le modèle transactionnel du stress (Lazarus et Folkman, 1984), lors de l'évaluation secondaire:","c":8,"options":[{"t":"On cherche une réponse adaptative pour résoudre le stresseur","correct":true,"j":"Correct : l'évaluation secondaire (« Ai-je les ressources ? ») consiste à chercher une réponse adaptative pour faire face au stresseur."},{"t":"On caractérise les dommages potentiels des stresseurs","j":"Faux : caractériser les dommages/menaces potentiels relève de l'évaluation primaire (préjudice/menace/défi)."},{"t":"On met en place une stratégie définie pour faire face au stresseur","j":"Faux : mettre en place une stratégie définie est la mise en œuvre du coping, postérieure à l'évaluation."}]},
+    {"q":"Quel est le facteur le plus important pour déterminer l'intention et le comportement dans le modèle de l'approche du processus d'action de santé (HAPA):","c":5,"options":[{"t":"La vulnérabilité perçue","j":"Faux : la vulnérabilité/perception du risque n'influence que la phase motivationnelle, pas le facteur central."},{"t":"Les croyances d'efficacité personnelle","correct":true,"j":"Correct : le HAPA intègre l'auto-efficacité de Bandura comme déterminant clé de l'intention et du comportement (phases motivation et volition)."},{"t":"Les attentes","j":"Faux : les attentes de résultats sont un facteur secondaire, moins déterminant que l'auto-efficacité."}]},
+    {"q":"La perception et interprétation des symptômes d'une maladie:","c":2,"options":[{"t":"Dépend de plusieurs facteurs, par exemple la nature des symptômes","correct":true,"j":"Correct : la perception/interprétation des symptômes dépend de plusieurs facteurs, dont la nature des symptômes n'est qu'un exemple."},{"t":"Dépend de la nature des symptômes","j":"Incomplet : la nature des symptômes n'est qu'un des facteurs, pas le seul déterminant."},{"t":"Est la même pour tout le monde","j":"Faux : l'interprétation est personnelle et variable, pas identique pour tous."}]},
+    {"q":"La communication non verbale (signaler la réponse incorrecte):","c":16,"options":[{"t":"Est conditionnée par la culture","j":"Vraie affirmation : le non-verbal est conditionné par la culture (cadre de référence, facteurs culturels) → pas la réponse incorrecte."},{"t":"Est caractéristique de la langue des signes","correct":true,"j":"INCORRECTE (à signaler) : la langue des signes est un système linguistique/verbal structuré, pas de la communication non verbale."},{"t":"Est inévitable","j":"Vraie affirmation : « on ne peut pas ne pas communiquer », le non-verbal est inévitable → pas la réponse incorrecte."}]},
+    {"q":"La technique de Résolution de Problèmes définit un problème comme:","c":18,"options":[{"t":"L'incapacité à trouver des solutions appropriées aux situations qui nous concernent","correct":true,"j":"Correct : un problème = l'incapacité à trouver une réponse/solution appropriée à une situation qui nous concerne (modèle de résolution de problèmes)."},{"t":"Une solution qui minimise les conséquences négatives et maximise les conséquences positives","j":"Faux : ceci définit une solution efficace (minimise le négatif, maximise le positif), pas un problème."},{"t":"Une situation qui nous concerne","j":"Faux : trop vague, une simple situation qui nous concerne n'est pas nécessairement un problème."}]},
+    {"q":"Pour mesurer la douleur d'une personne, on doit tenir compte de trois aspects:","c":12,"options":[{"t":"Aspect sensoriel, émotionnel et l'impact que la douleur a sur la vie de la personne","correct":true,"j":"Correct: le digest liste les 3 niveaux d'évaluation = sensoriel, émotionnel et impact sur la vie quotidienne."},{"t":"Aspect sensoriel, émotionnel et origine de la douleur","j":"L'origine (mécanisme) n'est pas l'un des 3 niveaux d'évaluation de la douleur."},{"t":"Aspect sensoriel, émotionnel et tolérance à la douleur","j":"La tolérance n'est pas l'un des 3 niveaux d'évaluation retenus."}]},
+    {"q":"Selon le modèle ABC des émotions (Ellis, 1982), Correspond à:","c":7,"options":[{"t":"Conséquence émotionnelle","j":"C = conséquence émotionnelle (résultat), pas le cœur du modèle."},{"t":"Interprétation","correct":true,"j":"Correct: B = Beliefs = interprétation/croyances, l'élément central causal du modèle ABC d'Ellis."},{"t":"Situation","j":"A = situation/événement déclencheur, neutre."}]},
+    {"q":"Pour annoncer un diagnostic de la douleur chronique à un patient:","c":19,"options":[{"t":"On lui demande d'abord qu'est ce qu'il sait par rapport à ses douleurs","correct":true,"j":"Correct: protocole SPIKES/Buckman, on évalue d'abord ce que le patient sait (questions ouvertes)."},{"t":"On utilise des mots techniques pour qu'il sache qu'on sait de quoi on parle","j":"Erreur à éviter selon le digest: le jargon technique."},{"t":"On utilise des mots à fort contenu émotionnel pour éviter le déni","j":"Erreur à éviter: les mots à fort contenu émotionnel."}]},
+    {"q":"Selon le modèle biopsychosocial, les discordances entre les représentations profanes et scientifiques de la maladie doivent être discutées.","c":3,"options":[{"t":"Le soignant ou le médecin doivent être considérés comme une autorité à qui rien de tout ce qui concerne la santé ne peut être discuté.","j":"Contraire au modèle BPS: le soignant n'est pas une autorité incontestable, le patient est acteur actif."},{"t":"Les croyances et attentes du patient influencent directement les résultats des traitements, donc ils doivents avoir une information rigoureuse et fiable","correct":true,"j":"Correct: principe BPS d'Engel — les croyances/attentes influencent l'issue (placebo, adhésion), d'où information rigoureuse et fiable."},{"t":"La confiance du patient augmente toujours lorsqu'un lui démontre point par point, directement et de façons magistrale qu'il a tort","j":"Démontrer magistralement qu'il a tort nuit à la confiance (contraire au dialogue socratique/BPS)."}]},
+    {"q":"Le conditionnement opérant est un processus à travers lequel le sujet :","c":6,"options":[{"t":"Fait un apprentissage associatif lié au développement de nouveaux comportements en fonction de leurs conséquences","correct":true,"j":"Correct: définition du digest — apprentissage associatif de comportements selon leurs conséquences."},{"t":"Fait un apprentissage lié à la découverte de nouvelles réponses adaptatives au sein de toute situation stressante","j":"Formulation floue non conforme; l'opérant se définit par les conséquences, pas par les situations stressantes."},{"t":"Fait un apprentissage associatif lié à l'association entre les stimulis et les comportements","j":"Association stimuli–comportements = conditionnement classique (Pavlov), pas opérant."}]},
+    {"q":"Antoine a perdu le match d'hier de Volley. A cause de cela, il considère avoir perdu toutes les options pour que son équipe soit championne. Antoine ressentira probablement:","c":7,"options":[{"t":"Anxiété","j":"L'anxiété est anticipatoire face à une menace future, pas une perte déjà survenue."},{"t":"Colère","j":"La colère répond à une frustration/injustice à combattre, pas décrite ici."},{"t":"Tristesse","correct":true,"j":"Correct: la tristesse apparaît face à une perte (match perdu, options perdues)."}]},
+    {"q":"Une personne qui montre généralement un comportement sûr de soi, en respectant ses propres droits et les droits des autres, aura :","c":18,"options":[{"t":"Un style de communication assertif","correct":true,"j":"Assertif = respecte ses droits ET ceux d'autrui, coopération, sûr de soi : correct."},{"t":"Un style de communication agressif","j":"Agressif = respecte ses droits mais pas ceux d'autrui : faux."},{"t":"Un style de communication soumis","j":"Soumis = ne respecte pas ses propres droits : faux."}]},
+    {"q":"Sarah dit à Christophe qu'il devrait faire plus de sport. Dans cet exemple, Sarah est :","c":16,"options":[{"t":"Le feedback","j":"Le feedback est le retour du récepteur, pas Sarah qui initie : faux."},{"t":"L'émetteur","correct":true,"j":"Sarah initie et envoie le message : elle est l'émetteur : correct."},{"t":"Le récepteur","j":"Le récepteur est Christophe qui reçoit le message : faux."}]},
+    {"q":"La loi de Yerkes-Dodson (1908) décrit la relation entre l'activation de l'organisme déclenché par le stresseur et la performance","c":8,"options":[{"t":"Maintient une forme de U inversé","correct":true,"j":"Loi de Yerkes-Dodson : relation activation-performance en U inversé : correct."},{"t":"Maintient une forme de L","j":"Forme en L : faux."},{"t":"Maintient une forme de U","j":"Forme en U : faux, c'est un U inversé."}]},
+    {"q":"Selon le modèle Biopsychosocial (Signalez la réponse incorrect) :","c":3,"options":[{"t":"L'état de complète santé peut être atteint en faisant attention aux variables biologiques, psychologiques et sociales","correct":true,"j":"INCORRECT (réponse à signaler) : dans le BPS le continuum implique que l'état complet de santé n'existe pas."},{"t":"Santé et maladie sont la conséquence d'un ensemble de facteurs biologiques, psychologiques et sociaux qui font partie d'une personne.","j":"Vrai : santé et maladie résultent de facteurs bio-psycho-sociaux : correct."},{"t":"La plupart des pathologies ont des multiples causes et facteurs","j":"Vrai : multi-causalité de la plupart des pathologies : correct."}]},
+    {"q":"Pour gérer un comportement agressif d'une façon assertive, il faut comprendre que:","c":18,"options":[{"t":"L'agressivité manifestée par la personne peut se traduire comme une souffrance interne et la tentative de se protéger","correct":true,"j":"L'agressivité du patient traduit une souffrance interne et une tentative de se protéger : correct (digest)."},{"t":"L'agressivité est manifesté est caractéristique de personnes violentes","j":"Réduire l'agressivité à un trait de personne violente est faux."},{"t":"L'agressivité ne peut être gérée qu'à travers un style de communication plus agressif encore","j":"Répondre par plus d'agressivité n'est pas assertif : faux."}]},
+    {"q":"Dans la conception de la santé, les aspects psychosociaux ont commencé à avoir de l'importanc:","c":2,"options":[{"t":"Au 18eme siècle","j":"18e siècle : santé encore vue de façon mécaniciste/organique : faux."},{"t":"Au 19eme siècle","j":"19e siècle : santé liée à l'hygiène/microbes, pas encore au psychosocial : faux."},{"t":"Au 20eme siècle","correct":true,"j":"20e siècle : OMS 1948 (bien-être mental et social) et modèle BPS : le psychosocial devient important : correct."}]},
+    {"q":"L'hostilité se réfère à :","c":7,"options":[{"t":"Un comportement visant à nuire à des personnes ou des choses","j":"Non : nuire à des personnes/choses = agression/agressivité."},{"t":"Un état émotionnel caractérisé par des sentiments \"d'être fâché\"","j":"Non : sentiment d'être fâché = la colère (émotion temporaire)."},{"t":"Une attitude d'évaluation négative persistante de et envers les autres","correct":true,"j":"Correct : le digest définit l'hostilité comme une attitude durable (trait) de méfiance/négativité envers autrui."}]},
+    {"q":"Selon Selye, lorsqu'on parle de Eustress, on parle de:","c":8,"options":[{"t":"Stress positive et agréable qui apparaît quand on fait une évaluation primaire du stresseur comme un défi","correct":true,"j":"Correct : l'eustress est un stress positif issu d'une évaluation primaire du stresseur comme un défi (Selye/Lazarus)."},{"t":"Stress positive et agréable qui apparaît quand on fait une évaluation primaire du stresseur comme une menace","j":"Non : évaluer comme une menace produit le distress, pas l'eustress."},{"t":"Stress positive et agréable qui apparaît quand on considère le stresseur comme incontrôlable et imprévisible","j":"Non : incontrôlable et imprévisible caractérise le distress (faible contrôle)."}]},
+    {"q":"Les variables qui prédisent l'intention selon la théorie du comportement planifié (TCP) sont:","c":5,"options":[{"t":"L'attitude, les Normes Subjectives et le contrôle comportemental perçu","correct":true,"j":"Correct : la TCP prédit l'intention par l'attitude, les normes subjectives et le contrôle comportemental perçu."},{"t":"La vulnérabilité perçue, les barrières perçues et la menace perçue","j":"Non : vulnérabilité/barrières/menace perçues appartiennent au modèle des croyances sur la santé (HBM)."},{"t":"L'efficacité personnelle et les expectatives du résultat","j":"Non : efficacité personnelle et attentes de résultat relèvent de Bandura, pas des trois facteurs de la TCP."}]},
+    {"q":"Selon la théorie du portillon, ou Gate Control Theory (Melzack&Wall,1965)","c":10,"options":[{"t":"L'activité des fibres, A-Delta et C facilitent la transmission du potentiel d'action","correct":true,"j":"Correct : les fibres nociceptives Aδ et C ouvrent la porte, donc facilitent la transmission du potentiel d'action."},{"t":"L'activité des fibres, A-Delta et C inhibent la transmission du potentiel d'action","j":"Non : Aδ et C n'inhibent pas mais facilitent la transmission (elles ouvrent le portillon)."},{"t":"L'activité des fibres A-Beta facilitent la transmission du potentiel d'action","j":"Non : les fibres Aβ ferment la porte via l'interneurone inhibiteur, donc inhibent (et non facilitent) la transmission."}]},
+    {"q":"Talcot Parson introduit le terme \"Rôle de Malade\" en 1951. Une caractéristique de ce rôle social est :","c":2,"options":[{"t":"Le droit de respecter les exigences sanitaires","j":"Non : formulation confuse ; respecter les exigences sanitaires est plutôt une obligation, pas un privilège du rôle."},{"t":"Le droit de ne pas accomplir les obligations habituelles","correct":true,"j":"Correct : le rôle de malade selon Parsons confère l'exemption des obligations/rôles sociaux habituels."},{"t":"Le droit de signer le document de sortie volontaire de l'hôpital au cas où on n'accepte pas le traitement proposé","j":"Non : signer une sortie volontaire n'est pas une caractéristique du sick role de Parsons."}]},
+    {"q":"Selon les études de Hans Selye, toute nouvelle exigence de l'environnement provoque","c":8,"options":[{"t":"Une réponse spécifique de l'organisme pour faire face à cette exigence","j":"Non : Selye insiste au contraire sur le caractère non spécifique de la réponse."},{"t":"Une réponse d'homéostasie de l'organisme","j":"Non : l'homéostasie est l'équilibre rétabli, pas la réponse initiale à toute exigence."},{"t":"Une réponse non spécifique de l'organisme pour faire face à cette exigence","correct":true,"j":"Correct : Selye définit le stress comme la réponse non spécifique de l'organisme à toute exigence de l'environnement."}]},
+    {"q":"La langue des signes est considérée comme:","c":16,"options":[{"t":"Communication paraverbale","j":"Le paraverbal = ton, débit, volume de la voix ; la langue des signes n'en relève pas."},{"t":"Communication verbale","correct":true,"j":"Correct : la langue des signes est une véritable langue dotée d'une grammaire et d'une syntaxe ; le digest définit le verbal par « langue/syntaxe », donc communication verbale."},{"t":"Communication non verbale","j":"Piège fréquent : elle utilise des gestes, mais reste une langue structurée (syntaxe), donc verbale et non simple gestuelle non verbale."}]},
+    {"q":"Imaginez que l'alarme que vous utilisez depuis 2 ans commence à sonner lors d'une situation détendue. La sensation d'agitation et de tension qui apparaîtra est due à un conditionnement de type:","c":6,"options":[{"t":"Opérant","j":"Opérant = comportement modelé par ses conséquences ; ici c'est un stimulus qui déclenche automatiquement une réaction."},{"t":"Pénible","j":"« Pénible » n'est pas un type de conditionnement, distracteur."},{"t":"Classique","correct":true,"j":"Correct : le son de l'alarme (SC), associé depuis 2 ans au réveil/stress, déclenche automatiquement tension (RC) = conditionnement classique."}]},
+    {"q":"L'auteur de l'article \"le modèle biopsychosocial de la santé\", publié en 1977, est :","c":3,"options":[{"t":"Engel","correct":true,"j":"Correct : le digest attribue les 7 principes du modèle biopsychosocial à Engel, 1977."},{"t":"Matarazzo","j":"Matarazzo est lié à la psychologie de la santé (APA 1978), pas au modèle BPS de 1977."},{"t":"Freud","j":"Freud n'a aucun lien avec le modèle biopsychosocial."}]},
+    {"q":"Les compétences en communication servent, entre autres, à gérer les émotions. A quel système appartiennent-elles?","c":7,"options":[{"t":"Cognitif","j":"Le niveau cognitif regroupe l'identification/compréhension des pensées, la compassion."},{"t":"Physiologique","j":"Le niveau physiologique regroupe respiration abdominale, autogène de Schultz, mindfulness, biofeedback."},{"t":"Moteur","correct":true,"j":"Correct : le digest classe les compétences sociales/communication dans les techniques de régulation du niveau moteur."}]},
+    {"q":"L'intervention et le traitement en psychologie se réalise à travers:","c":1,"options":[{"t":"La psychothérapie","correct":true,"j":"Correct : selon le tableau du digest, l'intervention en psychologie (clinique) se fait par la psychothérapie."},{"t":"Le traitement pharmacologique","j":"Le traitement pharmacologique relève de la psychiatrie (intervention biologique), pas de la psychologie."},{"t":"Les deux réponses sont correctes","j":"Faux : le pharmacologique étant du ressort de la psychiatrie, les deux ne sont pas correctes."}]},
+    {"q":"Une personne qui s'inquiète depuis 7 mois et qui tombe finalement malade, se trouvera, probablement, dans la phase du Syndrome Général d'Adaptation (Selye, 1936)","c":8,"options":[{"t":"D'alarme","j":"Faux : la phase d'alarme est la réaction immédiate initiale, pas 7 mois plus tard."},{"t":"De résistance","j":"Faux : la phase de résistance maintient l'activation mais précède la maladie."},{"t":"D'épuisement","correct":true,"j":"Vrai : après une inquiétude prolongée (7 mois), l'épuisement des réserves entraîne des conséquences négatives et la maladie (phase d'épuisement)."}]},
+    {"q":"La douleur comporte une dimension psychologique. Ceci implique :","c":10,"options":[{"t":"Qu'une personne ressentira la même douleur qu'une autre, même si le stimulus nociceptif n'est pas le même","j":"Faux : à stimulus différent, la douleur ressentie diffère ; elle n'est pas identique entre personnes."},{"t":"Que l'interprétation et la compréhension d'un individu de la douleur module le ressenti de cette douleur, étant l'expérience de la douleur individuelle pour chacun","correct":true,"j":"Vrai : l'interprétation et la compréhension modulent le ressenti, la douleur étant une expérience personnelle propre à chacun."},{"t":"Qu'à intensité nociceptive similaire et même origine de la douleur, le ressenti est le même pour tout le monde","j":"Faux : à intensité et origine similaires, le ressenti varie selon l'individu (dimension psychologique)."}]},
+    {"q":"\"Les stimulis qui m'entourent conditionnent mon comportement\". Cette phrase met en évidence les études en conditionnement:","c":6,"options":[{"t":"Classique","correct":true,"j":"Vrai : le conditionnement classique porte sur l'association entre les stimuli de l'environnement et les réponses/comportements."},{"t":"Opérant","j":"Faux : l'opérant met l'accent sur les conséquences du comportement, pas sur les stimuli environnants."},{"t":"Cognitif","j":"Faux : le cognitif concerne les processus mentaux internes, pas le conditionnement par les stimuli."}]},
+    {"q":"Les émotions:","c":7,"options":[{"t":"Sont toujours adaptatives","j":"Faux : les émotions sont majoritairement adaptatives mais pas toujours (mauvaise régulation)."},{"t":"Sont adaptatives si elles ne dépassent pas une certaine intensité, fréquence et durée et sont en relation avec la réalité","correct":true,"j":"Vrai : elles sont adaptatives tant qu'elles restent proportionnées en intensité/fréquence/durée et en lien avec la réalité."},{"t":"Peuvent être positives, adaptatives, et négatives.","j":"Faux : formulation confuse mêlant valence et adaptativité ; ne décrit pas la condition d'adaptativité."}]},
+    {"q":"Une personne qui ne montre pas un comportement sûr de soi, et respecte les droits des autres mais pas les siens, aura généralement, un style de communication:","c":18,"options":[{"t":"Assertif","j":"Faux : le style assertif respecte à la fois ses droits et ceux d'autrui."},{"t":"Agressif","j":"Faux : l'agressif respecte ses droits mais pas ceux des autres."},{"t":"Soumis","correct":true,"j":"Vrai : le style soumis/passif respecte les droits d'autrui mais pas les siens, sans affirmation de soi."}]},
+    {"q":"Laquelle de ces propositions n'est pas une conséquence des émotions sur la douleur?","c":11,"options":[{"t":"La perte de mémoire","correct":true,"j":"La perte de mémoire n'est pas un mécanisme reliant émotion et douleur — CORRECT (à signaler)"},{"t":"La tension musculaire","j":"La tension musculaire EST une conséquence : anxiété → activation sympathique → contractures/spasmes (Flor & Turk, 2011)"},{"t":"La fatigue","j":"La fatigue est liée : dépression → ↓ sommeil → ↓ seuil de douleur, déconditionnement"}]},
+    {"q":"Comment dirions-nous, en Déclaration Moi/Je, la phrase suivante : \"Tu ne m'écoutes jamais!\"","c":18,"options":[{"t":"\"J'ai l'impression que tu ne m'écoutes pas\"","correct":true,"j":"Déclaration MOI/Je : parle de son propre ressenti (« J'ai l'impression que... ») — CORRECT"},{"t":"\"Tu pourrais m'écouter d'avantages\"","j":"« Tu pourrais... » = déclaration TU (récrimination personnalisée)"},{"t":"\"C'est magnifique comment tu joues le rôle de sourd !\"","j":"Sarcasme/ironie = style passif-agressif (manipulation), pas une déclaration Je"}]},
+    {"q":"Faire la fête est un comportement:","c":4,"options":[{"t":"Immunogène","j":"Faire la fête n'est pas intrinsèquement immunogène (les relations saines le sont, mais pas garanti ici)"},{"t":"Pathogène","j":"Pas intrinsèquement pathogène non plus (alcool/manque de sommeil le seraient)"},{"t":"Ca dépend","correct":true,"j":"Ça dépend : un même comportement est immunogène ou pathogène selon ses conséquences et le contexte — CORRECT"}]},
+    {"q":"Lorsqu'on à un conflit et on veut exprimer inconfort ou mécontentement de façon assertive :","c":18,"options":[{"t":"On doit se centrer en la personne et pas en son comportement","j":"Se centrer sur la personne = attaque de l'identité (« tu es irresponsable »), à éviter"},{"t":"On doit se centrer en le comportement et pas le personne","correct":true,"j":"Se centrer sur le comportement (factuel, « quand tu arrives en retard... ») = assertif — CORRECT"},{"t":"Il ne faut jamais critiquer ni exprimer inconfort ou mécontentement","j":"Faux : la critique constructive/assertive est bénéfique, on peut exprimer un désaccord"}]},
+    {"q":"Dans le conditionnement opérant, un exemple de punition positive pour la plupart des gens:","c":6,"options":[{"t":"Enlever la douleur","j":"Enlever la douleur = retirer un désagréable = renforcement négatif (↑ comportement)"},{"t":"Une insulte","correct":true,"j":"Une insulte = ajouter un stimulus désagréable = punition positive (↓ comportement) — CORRECT"},{"t":"Enlever un privilège","j":"Enlever un privilège = retirer un agréable = punition négative"}]},
+    {"q":"Quelques caractéristiques de la relation thérapeutique (signalez la réponse incorrecte):","c":16,"options":[{"t":"Relation d'attentes et confiance","j":"Relation d'attentes et de confiance = caractéristique valide (Parsons : confiance, motivation)"},{"t":"Relation asymétrique","j":"Relation asymétrique = valide (dominance professionnelle, le patient accepte l'asymétrie)"},{"t":"Relation personnelle privée","correct":true,"j":"Relation personnelle privée = INCORRECT : c'est une relation professionnelle, le soignant garde l'objectivité sans implication émotionnelle personnelle"}]},
+    {"q":"La respiration abdominale est une stratégie de gestion émotionnelle qui affecte principalement...","c":7,"options":[{"t":"Le système moteur","j":"Non: le système moteur relève des compétences sociales, de l'humour."},{"t":"Le système cognitif","j":"Non: le niveau cognitif relève de l'identification des pensées."},{"t":"Le système physiologique","correct":true,"j":"Oui: le digest classe la respiration abdominale parmi les techniques du niveau physiologique."}]},
+    {"q":"Les systèmes de réponse émotionnelle sont:","c":7,"options":[{"t":"Cognitif, physiologique et subjectif","j":"Non: 'subjectif' ne fait pas partie du triple système de réponse."},{"t":"Cognitif, tactile et moteur","j":"Non: 'tactile' n'est pas un niveau de manifestation émotionnelle."},{"t":"Cognitif, physiologique et moteur","correct":true,"j":"Oui: le triple système de réponse = cognitif, physiologique et moteur."}]},
+    {"q":"Une personne qui s'inquiète depuis 7 jours mais cherche toujours une solution, se trouve dans la phase du SGA","c":8,"options":[{"t":"D'épuisement","j":"Non: l'épuisement survient après persistance prolongée avec épuisement des réserves."},{"t":"De résistance","correct":true,"j":"Oui: continuer à compenser/chercher une solution = phase de résistance/endurance."},{"t":"D'alarme","j":"Non: l'alarme est la mobilisation immédiate initiale, pas un maintien sur 7 jours."}]},
+    {"q":"Une personne qui montre un comportement sûr de soi et ne respecte pas les droits des autres mais que les siens...","c":18,"options":[{"t":"Aura un style de communication agressif","correct":true,"j":"Oui: respecter ses droits mais pas ceux d'autrui (assurance/supériorité) = style agressif."},{"t":"Style de communication soumis","j":"Non: le soumis ne respecte pas ses propres droits."},{"t":"Style de communication assertif","j":"Non: l'assertif respecte à la fois ses droits ET ceux d'autrui."}]},
+    {"q":"Si quelqu'un nous parle de physique nucléaire mais on ne comprend rien à ce sujet...","c":16,"options":[{"t":"La réception est inefficace","correct":true,"j":"Oui: le récepteur ne partage pas le code/les connaissances, le décodage échoue donc la réception est inefficace."},{"t":"La communication est tout de même correcte","j":"Non: sans code commun ni feedback compris, la communication n'est pas achevée."},{"t":"L'émission est inefficace","j":"Non: l'émetteur a bien émis le message, le défaut est du côté de la réception."}]},
+    {"q":"Pour le modèle Biopsychosocial (signalez la réponse incorrecte)","c":3,"options":[{"t":"Les conséquences d'une maladie peuvent devenir cause d'autres","j":"Correct pour le BPS: multi-causalité, les conséquences peuvent devenir causes."},{"t":"Tout inconfort dérive d'une anomalie sous-jacente du corps","correct":true,"j":"Incorrect (réponse cherchée): 'tout symptôme dérive d'une anomalie corporelle' est la croyance du modèle biomédical, pas BPS."},{"t":"La santé et la maladie sont des états qualitativement pareils et font partie d'un même continuum","j":"Correct pour le BPS: santé et maladie qualitativement pareilles sur un même continuum."}]},
+    {"q":"Un comportement qui diminue la santé est appelé :","c":4,"options":[{"t":"Comportement immunogène","j":"Non: l'immunogène renforce les défenses et favorise la santé."},{"t":"Comportement pathogène","correct":true,"j":"Oui: le pathogène comportemental est précurseur de maladie et diminue la santé."},{"t":"Comportement essentiel","j":"Non: 'comportement essentiel' n'est pas une catégorie du digest."}]},
+    {"q":"La stratégie de gestion du temps est une stratégie...","c":8,"options":[{"t":"Centrée sur la gestion du problème","correct":true,"j":"Correct : gérer son temps agit sur la source du stress = coping centré sur le problème."},{"t":"Centrée sur la gestion physiologique","j":"Non : ce n'est pas une technique corporelle (respiration, relaxation, biofeedback)."},{"t":"Centrée sur la gestion de l'émotion","j":"Non : elle n'a pas pour but de réguler l'émotion mais d'organiser/résoudre la situation."}]},
+    {"q":"La prévention secondaire :","c":4,"options":[{"t":"Consiste à modifier le comportement des personnes qui ont déjà exhibé le comportement-problème, mais dont les manifestations pathologiques ne sont pas encore perceptibles.","correct":true,"j":"Correct : définition exacte de la prévention secondaire (comportement-problème présent mais sans manifestation pathologique perceptible)."},{"t":"Est destinée à faire en sorte que le comportement-problème ne se développe pas","j":"Non : c'est la prévention primaire (empêcher que le comportement-problème apparaisse)."},{"t":"Vise à modifier le comportement-problème d'individus qui ont déjà subi des manifestations pathologiques","j":"Non : c'est la prévention tertiaire (manifestations pathologiques déjà présentes)."}]},
+    {"q":"Les dimensions de l'adhésion sont:","c":14,"options":[{"t":"Information et charisme","j":"Non : « information et charisme » ne sont pas des dimensions de l'adhésion."},{"t":"Persistance et implémentation","correct":true,"j":"Correct : dimensions de l'adhésion (taxonomie ABC = initiation, implémentation, persistance)."},{"t":"Activation et Valence","j":"Non : activation et valence sont les dimensions des émotions (Russell), pas de l'adhésion."}]},
+    {"q":"La stratégie du sandwich est surtout utile pour :","c":18,"options":[{"t":"Nier quelque chose","correct":true,"j":"Correct : la technique du sandwich (positif-refus-positif) sert à refuser/dire non (negar = refuser)."},{"t":"Trouver les comportements pathogènes d'un patient","j":"Non : sans rapport avec le repérage des comportements pathogènes."},{"t":"Donner une mauvaise nouvelle","j":"Non : une mauvaise nouvelle se donne avec le protocole Buckman/SPIKES, pas le sandwich."}]},
+    {"q":"La perception des symptômes et sensations internes est...","c":2,"options":[{"t":"Moins intense lorsque la stimulation externe est grande et intense","correct":true,"j":"Correct : compétition des indices — une forte stimulation externe détourne l'attention et diminue la perception des sensations internes."},{"t":"Indépendante de la stimulation externe","j":"Non : elle dépend bien de la stimulation externe."},{"t":"Plus intense lorsque la stimulation externe est grande et intense","j":"Non : c'est l'inverse, une stimulation externe forte réduit la perception interne."}]},
+    {"q":"La stratégie du Banc de brume...","c":18,"options":[{"t":"Doit être utilisée avec précaution","correct":true,"j":"Correct : le banc de brouillard doit être utilisé avec précaution car il peut être perçu comme passif-agressif."},{"t":"Consiste à confondre avec beaucoup d'informations en peu de temps","j":"Non : ce n'est pas noyer l'autre sous les informations."},{"t":"Est très utile pour rejeter des demandes","j":"Non : rejeter des demandes relève plutôt du disque rayé/sandwich."}]},
+    {"q":"Dans un journal de douleur, les variables à marquer sont établies par:","c":12,"options":[{"t":"Le patient","j":"Non : le patient consigne le journal mais n'en définit pas les variables."},{"t":"Le professionnel sanitaire","correct":true,"j":"Correct : le professionnel de santé établit les variables cliniques pertinentes à consigner."},{"t":"La famille du patient","j":"Non : la famille n'établit pas les variables du journal."}]},
+    {"q":"Sarah dit à Christophe qu'il devrait faire plus de sport. Sarah est ...","c":16,"options":[{"t":"La source","j":"\"Source\" n'est pas le terme du modèle enseigné (Émetteur→Message→Récepteur→Feedback)."},{"t":"Le récepteur","j":"Le récepteur est Christophe, qui reçoit le message."},{"t":"L'émetteur","correct":true,"j":"Sarah émet le message : elle est l'émetteur."}]},
+    {"q":"La fonction informationnelle de la communication:","c":16,"options":[{"t":"Sert à produire certains sentiments et émotions","j":"Produire sentiments/émotions = fonction affective, pas informationnelle."},{"t":"Stimule l'exécution de certains comportements","j":"Stimuler des comportements = fonction régulatrice/motivante, pas informationnelle."},{"t":"Sert à transmettre des informations","correct":true,"j":"La fonction informationnelle sert précisément à transmettre des informations."}]},
+    {"q":"Pour rejeter une demande, il faut tout d'abord:","c":18,"options":[{"t":"Analyser la demande","correct":true,"j":"Le digest dit : avant tout OUI/NON, analyser la situation et reformuler la demande — première étape correcte."},{"t":"Exprimer nos sentiments","j":"Exprimer ses sentiments vient plus tard (ex. méthode DESC), pas en premier."},{"t":"Dire quelque chose de positif, rejeter la demande puis finir avec quelque chose de positif à nouveau","j":"La technique du sandwich est une manière de refuser, mais pas la toute première étape."}]},
+    {"q":"Au Moyen-Age, la santé est considérée comme:","c":2,"options":[{"t":"Absence de maladie","correct":true,"j":"Conception prémoderne/ancienne de la santé = absence de maladie ; correspond au Moyen-Âge."},{"t":"Un état complet de bien-être physique, mental et social","j":"État complet de bien-être = définition OMS 1948, conception moderne."},{"t":"Une ressource physique de la vie quotidienne","j":"Ressource de la vie quotidienne = conception contemporaine (charte d'Ottawa 1986)."}]},
+    {"q":"Pour le modèle Biomédical:","c":3,"options":[{"t":"Corps et esprit sont deux entités interdépendantes","j":"Corps et esprit interdépendants = modèle biopsychosocial, pas biomédical."},{"t":"Corps et esprit sont deux entité indépendantes","correct":true,"j":"Le modèle biomédical est dualiste : corps et esprit = entités distinctes et indépendantes."},{"t":"Corps et esprit font partie de la même entité physique","j":"Une même entité physique = vision moniste, non retenue par le modèle biomédical."}]},
+    {"q":"Le trait d'anxiété se réfère à:","c":7,"options":[{"t":"Un état relativement stable dans la tendance d'un individu à l'anxiété","correct":true,"j":"Le trait d'anxiété = disposition stable, tendance durable de l'individu à l'anxiété."},{"t":"Une réaction émotionnelle d'anxiété","j":"Une réaction émotionnelle ponctuelle correspond à l'état d'anxiété, pas au trait."},{"t":"Une distorsion cognitive qui déclenche une émotion d'anxiété","j":"Une distorsion cognitive est un autre concept (biais de pensée), pas le trait d'anxiété."}]},
+    {"q":"Une séparation conjugale avec dispute est un stresseur...","c":8,"options":[{"t":"Mineur","correct":true,"j":"Correct - événement important mais non catastrophique et partiellement contrôlable (niveau déménagement/nouvel emploi)."},{"t":"Quotidien","j":"Faux - les quotidiens sont de petits tracas répétés (embouteillages, mails)."},{"t":"Majeur","j":"Faux - le majeur est réservé aux événements graves, soudains, hors contrôle (guerre, séisme → SPT)."}]},
+    {"q":"Selon le modèle bidimensionnel des émotions, ou théorie du plaisir - activation (Russell,1980) les dimensions de la joie sont:","c":7,"options":[{"t":"Activation positive et valence positive","correct":true,"j":"Correct - selon Russell, la joie = activation élevée + valence positive."},{"t":"Activation positive et valence négative","j":"Faux - activation élevée + valence négative correspond à colère/peur/stress."},{"t":"Activation négative et valence négative","j":"Faux - faible activation + valence négative correspond à tristesse/fatigue."}]},
+    {"q":"L'instrument d'évaluation de la douleur qui nous apporte plus d'information parmi les suivants est:","c":12,"options":[{"t":"Echelle d'évaluation visuelle analogique","j":"Faux - l'échelle visuelle analogique est unidimensionnelle (intensité seulement)."},{"t":"Journal de douleur","correct":true,"j":"Correct - le journal de douleur enregistre en temps réel plusieurs dimensions (intensité, moment, contexte), donc le plus d'information."},{"t":"Dessins de douleur","j":"Faux - le dessin apporte surtout la localisation/distribution."}]},
+    {"q":"Pour rejeter une demande de façon assertive, la technique du sandwich peut être très utile. Cette technique là consiste à:","c":18,"options":[{"t":"Confondre notre interlocuteur avec beaucoup d'information en peu de temps","j":"Faux - saturer d'information n'est pas la technique du sandwich."},{"t":"Analyser la demande et ajouter de façon ironique des détails","j":"Faux - ajouter de l'ironie n'est pas le sandwich."},{"t":"Commencer par dire quelque chose de positif, rejeter la demande puis finir en disant autre chose de positif","correct":true,"j":"Correct - la technique du sandwich = positif → refus → positif."}]},
+    {"q":"Pour le modèle biomédical (signalez la réponse incorrect):","c":3,"options":[{"t":"Le médecin est le seul contrôleur de la santé du patient","j":"Vrai pour le modèle biomédical (médecin = seul contrôleur), donc ce n'est pas la réponse cherchée."},{"t":"Le traitement de la maladie doit se concentrer sur le changement de l'état physique","j":"Vrai pour le biomédical (traitement centré sur l'état physique), donc pas la réponse cherchée."},{"t":"Assurer le salut de l'âme est le but de la qualité de vie","correct":true,"j":"Incorrect - le salut de l'âme est religieux/spirituel, étranger au modèle biomédical matérialiste : c'est la proposition fausse recherchée."}]},
+    {"q":"La relation thérapeutique est une relation asymétrique. Ceci implique toujours:","c":16,"options":[{"t":"Que le soignant dit au patient quoi faire et le patient obéit","j":"Non — décrit le modèle paternaliste/de conformité (obéissance passive), pas ce qu'implique 'toujours' l'asymétrie."},{"t":"Que le soignant aide le patient à s'aider lui-même et le patient participe tout au long de sa maladie","j":"Non — décrit l'adhésion collaborative (modèle BPS), qui dépasse la simple notion d'asymétrie."},{"t":"Que le soignant et le patient ont des droits et des obligations différents","correct":true,"j":"Oui — asymétrie (Parsons) = soignant et patient ont des rôles avec des droits et obligations différents."}]},
+    {"q":"Selon le modèle ABC des émotions (Ellis,1962), A correspond à","c":7,"options":[{"t":"Interprétation","j":"Non — l'interprétation/croyance correspond à B (Beliefs)."},{"t":"Situation","correct":true,"j":"Oui — A = Activating event = l'événement déclencheur/la situation."},{"t":"Conséquence émotionnelle","j":"Non — la conséquence émotionnelle correspond à C."}]},
+    {"q":"Les fibres C réceptionnent l'information des:","c":9,"options":[{"t":"Nocicepteurs mécaniques et thermiques","j":"Décrit plutôt les fibres Aδ (mécanique/thermique, douleur vive de coupure)."},{"t":"Nocicepteurs mécaniques et polymodaux","j":"Contient bien 'polymodaux' mais y associe le mécanique, domaine de l'Aδ (coupure)."},{"t":"Nocicepteurs thermiques et polymodaux","correct":true,"j":"Fibres C = polymodales et véhiculent la douleur thermique/brûlante lente ; réponse retenue."}]},
+    {"q":"Selon le modèle Demandes-Control (Karasek,1979), une latitude décisionnelle (autonomie) faible et un niveau élevé des demandes associées au travail implique:","c":8,"options":[{"t":"Un comportement actif","j":"Non — comportement actif = fortes demandes + forte latitude décisionnelle."},{"t":"Un comportement passif","j":"Non — comportement passif = faibles demandes + faible contrôle."},{"t":"Une importante élévation de la tension psychique et physique","correct":true,"j":"Oui — fortes demandes + faible autonomie = 'job strain' → forte tension psychique et physique."}]},
+    {"q":"La fonction promotrice de la communication verbale consiste à:","c":16,"options":[{"t":"Stimuler l'exécution de certains comportements","correct":true,"j":"Oui — fonction promotrice (conative) = inciter/stimuler l'exécution de comportements chez le récepteur."},{"t":"Produire certains sentiments et émotions","j":"Non — produire sentiments/émotions = fonction expressive/émotive."},{"t":"Transmettre des information","j":"Non — transmettre l'information = fonction référentielle/informative."}]},
+    {"q":"Les objectifs de la psychologie de la santé (Signalez la mauvaise réponse):","c":1,"options":[{"t":"Étudier et promouvoir l'adhésion thérapeutique","j":"Vrai objectif — l'étude/promotion de l'adhésion thérapeutique relève bien de la psycho de la santé."},{"t":"Promotion et entretien de la santé","j":"Vrai objectif — promotion et entretien de la santé, explicitement listé."},{"t":"Comprendre les comportements des groupes","correct":true,"j":"Faux (mauvaise réponse à signaler) — comprendre les comportements des groupes relève de la psychologie sociale, pas des objectifs de la psycho de la santé."}]},
+    {"q":"Dans le conditionnement opérant, un renforçateur primaire:","c":6,"options":[{"t":"Manque de valeur intrinsèque jusqu'à qu'il soit associé (par exemple: argent)","j":"Non — décrit le renforçateur secondaire (valeur acquise par association, ex. argent)."},{"t":"Est lié aux besoins essentiels (par exemple : nourriture)","correct":true,"j":"Oui — renforçateur primaire = lié aux besoins essentiels (nourriture, sommeil)."},{"t":"Aucune des deux","j":"Non — l'option 1 est correcte."}]},
+    {"q":"Selon Selye, lorsqu'on parle de Distress, on parle de:","c":8,"options":[{"t":"Stress négatif et déplaisant qui apparaît quand on fait une évaluation primaire du stresseur comme un défi","j":"Une évaluation comme défi correspond à l'eustress (stress positif), pas au distress."},{"t":"Stress négatif et déplaisant qui apparaît quand on fait une évaluation primaire du stresseur comme une menace","correct":true,"j":"Le digest définit le distress comme stress négatif lié à une évaluation primaire de menace."},{"t":"Stress négatif et déplaisant qui apparaît quand on considère le stresseur comme contrôlable et prévisible","j":"Contrôlable et prévisible = caractéristiques de l'eustress, pas du distress."}]},
+    {"q":"Selon le modèle de LeDoux, les voies cérébrales de traitement des stimuli qui peuvent déclencher une réponse émotionnelle (voie rapide et lente), fonctionnent:","c":7,"options":[{"t":"De façons linéaire","j":"Le modèle de LeDoux n'est pas décrit comme linéaire."},{"t":"En perpendiculaire","j":"La perpendicularité n'a pas de sens ici."},{"t":"En parallèle","correct":true,"j":"LeDoux (1996) : voie inférieure rapide et voie supérieure lente fonctionnent en parallèle."}]},
+    {"q":"Pour gérer un comportement agressif d'une façons assertive:","c":18,"options":[{"t":"Il faut demander par rapport au contenue du message","j":"Interroger sur le contenu n'est pas la conduite assertive prioritaire face à l'agressivité."},{"t":"Il faut stopper la parole de la personne tout de suite","j":"Couper la parole augmente la tension, contraire à l'attitude assertive."},{"t":"Il faut favoriser, du moins au début, l'expression verbale de la personne","correct":true,"j":"Le digest recommande de favoriser, au début, l'expression verbale pour faire baisser la tension."}]},
+    {"q":"\"La conséquence de mes actions modifie leur future occurrence\". Cette phrase met en évidence les études en conditionnement:","c":6,"options":[{"t":"Classique","j":"Le conditionnement classique associe des stimuli, pas des conséquences aux comportements."},{"t":"Opérant","correct":true,"j":"Le conditionnement opérant : le comportement se développe en fonction de ses conséquences (renforcement/punition)."},{"t":"Cognitif","j":"Le cognitif ne décrit pas la modification par les conséquences."}]},
+    {"q":"Le modèle biomédical considère santé et maladie comme:","c":3,"options":[{"t":"Des états qualitativement opposés","correct":true,"j":"Le modèle biomédical voit santé et maladie comme des états qualitativement opposés, sans intermédiaire."},{"t":"Des états qualitativement pareils","j":"États pareils = continuum du modèle biopsychosocial, pas biomédical."},{"t":"Des états indépendants l'un de l'autre","j":"L'indépendance dualiste concerne corps et esprit, non le rapport santé/maladie."}]},
+    {"q":"Un désastre naturel est, généralement, un stresseur:","c":8,"options":[{"t":"Majeur","correct":true,"j":"Le tremblement de terre est cité comme stresseur majeur (grave, soudain, hors contrôle → SPT)."},{"t":"Mineur","j":"Un stresseur mineur est important mais non dramatique et partiellement contrôlable."},{"t":"Quotidien","j":"Les stresseurs quotidiens sont de petits tracas accumulés, pas un désastre naturel."}]},
+    {"q":"Être empathique consiste à :","c":17,"options":[{"t":"Se décentrer de soi même et partager les émotions des autres sans les juger","j":"Partager les émotions relève de la sympathie, pas de l'empathie (le digest précise : dans l'empathie, le sentiment n'est pas nécessairement partagé)."},{"t":"Se décentrer de soi même et comprendre les émotions des autres sans les juger","correct":true,"j":"Comprendre les émotions d'autrui sans les juger, en se décentrant : définition exacte de l'empathie (Rogers)."},{"t":"Se décentrer de soi même et juger les émotions des autres sans les comprendres","j":"Juger sans comprendre est l'inverse de l'empathie (ni décentrement ni non-jugement)."}]},
+    {"q":"Sarah dit à Christophe qu'il devrait faire plus de sport, mais Christophe ne l'écoute pas car son attention est attirée vers une annonce TV. Dans cet exemple, on considère l'annonce de TV:","c":16,"options":[{"t":"Un récepteur","j":"Le récepteur est Christophe (celui qui reçoit le message), pas l'annonce TV."},{"t":"Un filtre","j":"Le filtre est une barrière mentale interne (valeurs, préjugés) ; l'annonce est externe."},{"t":"Un bruit","correct":true,"j":"Bruit = interférence externe qui perturbe la communication : l'annonce TV détourne l'attention = bruit."}]},
+    {"q":"Quels sont les 2 pionniers de la relaxation ?","c":7,"options":[{"t":"G.Engel et J.B. Watson","j":"Engel (modèle BPS) et Watson (conditionnement) ne sont pas des pionniers de la relaxation."},{"t":"E.Jacobson et J.H.Schultz","correct":true,"j":"Jacobson (relaxation musculaire progressive) et Schultz (entraînement autogène) = les deux pionniers de la relaxation."},{"t":"S.Freud et J.J.Rosseau","j":"Freud (psychanalyse) et Rousseau ne sont pas liés aux techniques de relaxation."}]},
+    {"q":"La respiration abdominale est une technique/stratégie:","c":7,"options":[{"t":"De relaxation","correct":true,"j":"La respiration abdominale est citée comme technique de régulation physiologique/relaxation (avec Schultz, mindfulness)."},{"t":"D'hypnose","j":"L'hypnose est une technique distincte listée séparément."},{"t":"Cognitive","j":"Ce n'est pas une stratégie cognitive (le niveau cognitif concerne l'identification des pensées, pas la respiration)."}]},
+    {"q":"Antoine a perdu le match d'hier de volley. Il considère que l'arbitre est corrompu. Antoine ressentira probablement:","c":7,"options":[{"t":"Colère","correct":true,"j":"Interprétation « l'arbitre est corrompu » = injustice/besoin de se défendre → colère (modèle ABC d'Ellis, argument d'équité)."},{"t":"Anxiété","j":"L'anxiété est une réponse anticipatoire face à une menace future, non à une injustice passée."},{"t":"Tristesse","j":"La tristesse répond à une perte acceptée ; ici il attribue l'échec à une injustice externe, ce qui génère de la colère."}]},
+    {"q":"Laquelle de ces propositions définit correctement la psychologie en tant que science ?","c":1,"options":[{"t":"La science qui étudie le comportement et les processus mentaux.","correct":true,"j":"Définition retenue : elle englobe à la fois le comportement et les processus mentaux."},{"t":"La science qui étudie uniquement le comportement observable.","j":"Réductrice : elle omet les processus mentaux, pourtant inclus dans la définition."},{"t":"La science qui étudie uniquement les processus mentaux internes.","j":"Réductrice : elle omet le comportement, pourtant inclus dans la définition."}]},
+    {"q":"Dans la démarche scientifique appliquée en psychologie, quel enchaînement respecte l'ordre attendu ?","c":1,"options":[{"t":"Observer, formuler des hypothèses, mesurer, conclure, reproduire.","correct":true,"j":"Ordre correct de la méthode scientifique, fondé sur un recueil objectif des informations."},{"t":"Formuler des hypothèses, observer, mesurer, reproduire, conclure.","j":"L'observation précède la formulation des hypothèses, et la conclusion précède la reproduction."},{"t":"Mesurer, observer, formuler des hypothèses, conclure, reproduire.","j":"La mesure ne peut précéder l'observation et la formulation des hypothèses."}]},
+    {"q":"Selon quels paramètres le comportement se mesure-t-il ?","c":1,"options":[{"t":"La fréquence, la durée et les circonstances.","correct":true,"j":"Ce sont les trois paramètres de mesure du comportement retenus."},{"t":"La fréquence, la durée et l'intensité.","j":"L'intensité n'est pas retenue ; ce sont les circonstances qui complètent la mesure."},{"t":"La valence, la durée et les circonstances.","j":"La valence n'est pas retenue ; c'est la fréquence qui complète la mesure."}]},
+    {"q":"À quels trois niveaux le comportement s'analyse-t-il ?","c":1,"options":[{"t":"Physiologique, moteur et cognitif.","correct":true,"j":"Ce sont les trois niveaux d'analyse du comportement."},{"t":"Physiologique, émotionnel et cognitif.","j":"Le niveau moteur est attendu à la place du niveau émotionnel."},{"t":"Sensoriel, moteur et cognitif.","j":"Le niveau physiologique est attendu à la place du niveau sensoriel."}]},
+    {"q":"Quels sont les principaux processus mentaux, ces opérations internes qui soutiennent le comportement ?","c":1,"options":[{"t":"Le langage, l'attention, la perception et la mémoire.","correct":true,"j":"Ce sont les quatre principaux processus mentaux cités."},{"t":"Le langage, la motivation, la perception et la mémoire.","j":"L'attention est attendue à la place de la motivation."},{"t":"Le langage, l'attention, la perception et l'émotion.","j":"La mémoire est attendue à la place de l'émotion."}]},
+    {"q":"À quelle question répond l'objectif « décrire » ?","c":1,"options":[{"t":"« Comment est-ce ? »","correct":true,"j":"Décrire vise à préciser comment se présente le phénomène."},{"t":"« Pourquoi est-ce ainsi ? »","j":"Cette question relève d'expliquer, non de décrire."},{"t":"« Que signifie cela ? »","j":"Cette question relève de comprendre, non de décrire."}]},
+    {"q":"En quoi consiste l'objectif « expliquer » ?","c":1,"options":[{"t":"Répondre à « pourquoi ? » en établissant les relations entre les faits.","correct":true,"j":"Expliquer cherche les relations entre les faits pour répondre au pourquoi."},{"t":"Répondre à « comment est-ce ? » en décrivant les faits observés.","j":"Cette démarche correspond à décrire, non à expliquer."},{"t":"Répondre à « que signifie cela ? » en interprétant le ressenti.","j":"Cette démarche correspond à comprendre, non à expliquer."}]},
+    {"q":"À quoi correspond l'objectif « comprendre » ?","c":1,"options":[{"t":"Répondre à « que signifie cela ? », par le ressenti et l'interprétation.","correct":true,"j":"Comprendre porte sur le sens, à partir du ressenti et de l'interprétation."},{"t":"Répondre à « pourquoi ? », en établissant les relations entre les faits.","j":"Cette démarche correspond à expliquer, non à comprendre."},{"t":"Répondre à « comment est-ce ? », en décrivant objectivement les faits.","j":"Cette démarche correspond à décrire, non à comprendre."}]},
+    {"q":"Parmi les objectifs de la psychologie, l'objectif de prédiction correspond à quelle formulation ?","c":1,"options":[{"t":"« Que va-t-il se passer ? », abordé en formulant des hypothèses de probabilité.","correct":true,"j":"Prédire anticipe ce qui va survenir à partir d'hypothèses de probabilité : c'est bien cette formulation."},{"t":"« Pourquoi cela se produit-il ? », abordé en recherchant les causes du phénomène.","j":"La question « pourquoi ? » et la recherche des causes relèvent d'expliquer, non de prédire."},{"t":"« Comment changer ? », abordé en agissant sur le comportement de la personne.","j":"« Comment changer ? » et l'action sur le comportement relèvent de modifier, non de prédire."}]},
+    {"q":"Parmi les objectifs de la psychologie, l'objectif de modification correspond à quelle formulation ?","c":1,"options":[{"t":"« Comment changer ? », en intervenant pour transformer le comportement observé.","correct":true,"j":"Modifier vise le changement du comportement : la question « comment changer ? » lui correspond."},{"t":"« Que va-t-il se passer ? », en formulant des hypothèses de probabilité.","j":"Cette formulation et les hypothèses de probabilité définissent prédire, non modifier."},{"t":"« Qu'est-ce qui se passe ? », en décrivant les faits tels qu'ils sont observés.","j":"La question « qu'est-ce qui se passe ? » et la description des faits relèvent de décrire, non de modifier."}]},
+    {"q":"Quelle branche de la psychologie a pour objet d'influencer le comportement d'achat ?","c":1,"options":[{"t":"La psychologie du consommateur.","correct":true,"j":"La psychologie du consommateur porte précisément sur le comportement d'achat et son influence."},{"t":"La psychologie du travail et des organisations.","j":"Cette branche porte sur les conduites liées au travail, non sur le comportement d'achat."},{"t":"La psychologie du sport.","j":"Cette branche porte sur les aptitudes mentales de la performance, non sur le comportement d'achat."}]},
+    {"q":"Quel est l'objet principal de la psychologie du travail et des organisations ?","c":1,"options":[{"t":"Les attitudes et les comportements liés au travail.","correct":true,"j":"Cette branche étudie précisément les attitudes et comportements en situation de travail."},{"t":"Les aptitudes mentales qui déterminent la performance.","j":"Les aptitudes mentales de performance relèvent de la psychologie du sport."},{"t":"Le comportement d'achat et les moyens de l'influencer.","j":"Le comportement d'achat et son influence relèvent de la psychologie du consommateur."}]},
+    {"q":"Quel est l'objet principal de la psychologie sociale ?","c":1,"options":[{"t":"Les interrelations entre l'individu et son environnement social, comme le conformisme et l'obéissance à l'autorité.","correct":true,"j":"La psychologie sociale étudie ces interrelations individu-environnement, dont le conformisme et l'obéissance."},{"t":"Les attitudes et les comportements adoptés par les individus dans leur milieu professionnel.","j":"Les conduites en milieu professionnel relèvent de la psychologie du travail et des organisations."},{"t":"Les moyens d'orienter les décisions et le comportement d'achat des consommateurs.","j":"L'orientation du comportement d'achat relève de la psychologie du consommateur."}]},
+    {"q":"Quelle branche de la psychologie étudie les aptitudes mentales qui déterminent la performance ?","c":1,"options":[{"t":"La psychologie du sport.","correct":true,"j":"La psychologie du sport porte sur les aptitudes mentales qui conditionnent la performance."},{"t":"La psychologie sociale.","j":"La psychologie sociale porte sur les interrelations entre l'individu et son environnement."},{"t":"La psychologie du travail et des organisations.","j":"La psychologie du travail porte sur les attitudes et comportements liés au travail."}]},
+    {"q":"Concernant le statut de ces deux professionnels, quelle affirmation est exacte ?","c":1,"options":[{"t":"Le psychologue clinicien est un spécialiste en psychologie clinique, et le psychiatre un médecin de spécialité psychiatrique.","correct":true,"j":"Le clinicien est spécialiste en psychologie clinique, tandis que le psychiatre est bien un médecin."},{"t":"Le psychologue clinicien est un médecin spécialisé, et le psychiatre un spécialiste non médecin en psychologie.","j":"Les statuts sont inversés : c'est le psychiatre qui est médecin, pas le psychologue clinicien."},{"t":"Le psychologue clinicien et le psychiatre sont tous deux des médecins de spécialité psychiatrique.","j":"Seul le psychiatre est médecin ; le psychologue clinicien ne l'est pas."}]},
+    {"q":"Comment se distinguent les visées de la psychologie clinique et de la psychiatrie ?","c":1,"options":[{"t":"La psychologie clinique traite les problèmes mentaux et enseigne des compétences et stratégies ; la psychiatrie étudie la maladie mentale et ses effets biochimiques et environnementaux.","correct":true,"j":"La clinique traite et enseigne des stratégies, tandis que la psychiatrie étudie la maladie et ses effets biochimiques."},{"t":"La psychiatrie traite les problèmes mentaux et enseigne des stratégies ; la psychologie clinique étudie la maladie mentale et ses effets biochimiques et environnementaux.","j":"Les rôles sont inversés : c'est la clinique qui enseigne les stratégies et la psychiatrie qui étudie les effets."},{"t":"La psychologie clinique et la psychiatrie visent toutes deux uniquement l'étude des effets biochimiques et environnementaux de la maladie mentale.","j":"La psychologie clinique ne se limite pas à l'étude biochimique : elle traite et enseigne des compétences."}]},
+    {"q":"Parmi les ensembles suivants, lequel correspond aux outils diagnostiques propres au psychologue ?","c":1,"options":[{"t":"Les tests psychologiques, les entretiens et l'observation.","correct":true,"j":"Ce sont exactement les trois outils diagnostiques du psychologue selon le cours."},{"t":"Les tests psychologiques, l'IRM et les analyses biologiques.","j":"L'IRM et les analyses biologiques sont des outils du psychiatre, pas du psychologue."},{"t":"Les entretiens cliniques, le scanner et l'observation.","j":"Le scanner relève de l'arsenal médical du psychiatre et non du psychologue."}]},
+    {"q":"Quel est l'objectif visé par la psychologie de la santé ?","c":1,"options":[{"t":"Comprendre, expliquer et prédire les comportements de santé et de maladie pour réduire le prix physique et émotionnel des comportements de risque.","correct":true,"j":"C'est la finalité énoncée : agir sur le prix physique et émotionnel des conduites à risque."},{"t":"Comprendre, expliquer et prédire les comportements de santé et de maladie pour supprimer toute cause biologique des comportements de risque.","j":"L'objectif n'est pas de supprimer une cause biologique mais de réduire le prix physique et émotionnel."},{"t":"Comprendre, décrire et classer les comportements de santé et de maladie pour réduire le coût financier des soins de risque.","j":"Le champ vise à prédire les comportements et le prix physique et émotionnel, pas seulement à les classer ni à viser le coût financier."}]},
+    {"q":"Historiquement, quelles étaient les principales causes de mortalité ?","c":1,"options":[{"t":"Les maladies infectieuses et nutritionnelles.","correct":true,"j":"Ce sont bien les causes de mortalité dominantes avant la transition épidémiologique."},{"t":"Les maladies chroniques et dégénératives.","j":"Ces maladies dominent après la transition épidémiologique, pas historiquement."},{"t":"Les maladies cardiovasculaires et le cancer.","j":"Ce sont des maladies chroniques devenues prépondérantes plus tard, pas les causes historiques."}]},
+    {"q":"La maîtrise des infections par les antibiotiques a déplacé l'attention vers quel type de maladies ?","c":1,"options":[{"t":"Les maladies chroniques comme le cancer, les affections cardiovasculaires et le diabète.","correct":true,"j":"Une fois les infections maîtrisées, l'attention se porte sur ces maladies chroniques."},{"t":"Les maladies infectieuses comme la tuberculose, le choléra et la typhoïde.","j":"Ce sont précisément les infections que les antibiotiques ont permis de maîtriser."},{"t":"Les maladies nutritionnelles comme les carences et la malnutrition sévère.","j":"Le déplacement d'attention se fait vers les maladies chroniques, non nutritionnelles."}]},
+    {"q":"Selon l'OMS, comment se définit la santé ?","c":2,"options":[{"t":"Un état complet de bien-être physique, mental et social qui ne se réduit pas à l'absence de maladie ou d'infirmité.","correct":true,"j":"La définition inclut la dimension sociale et dépasse la simple absence de maladie."},{"t":"Un état complet de bien-être physique et mental correspondant à la seule absence de maladie ou d'infirmité.","j":"La santé ne se réduit pas à l'absence de maladie et intègre aussi la dimension sociale."},{"t":"Un état complet de bien-être physique, mental et social résultant uniquement de l'absence de maladie ou d'infirmité.","j":"La définition précise justement qu'elle ne consiste pas seulement en l'absence de maladie."}]},
+    {"q":"Comment se caractérise la maladie d'après le cours ?","c":2,"options":[{"t":"Une altération de l'état de santé, rupture d'ordre physique, mental et social, avec des symptômes objectifs et subjectifs.","correct":true,"j":"La rupture est à la fois physique, mentale et sociale, avec symptômes objectifs et subjectifs."},{"t":"Une altération de l'état de santé, rupture d'ordre physique, mental et social, avec des symptômes uniquement objectifs.","j":"La maladie comporte aussi des symptômes subjectifs, pas seulement objectifs."},{"t":"Une altération de l'état de santé, rupture d'ordre uniquement physique, avec des symptômes objectifs et subjectifs.","j":"La rupture n'est pas seulement physique : elle est aussi mentale et sociale."}]},
+    {"q":"Dans le modèle biopsychosocial, que montre l'exemple de la personne hypocondriaque ?","c":3,"options":[{"t":"Adopter un rôle de malade n'implique pas nécessairement un trouble biologique.","correct":true,"j":"L'hypocondriaque endosse un rôle de malade sans trouble biologique avéré."},{"t":"Adopter un rôle de malade implique toujours un trouble biologique sous-jacent.","j":"L'exemple montre au contraire qu'un rôle de malade peut exister sans trouble biologique."},{"t":"Adopter un rôle de malade exclut nécessairement tout trouble biologique.","j":"Le rôle de malade n'exclut pas un trouble biologique : il ne l'implique simplement pas toujours."}]},
+    {"q":"Selon le modèle biopsychosocial, que traduit l'effet placebo ?","c":3,"options":[{"t":"L'efficacité des traitements biologiques est influencée par des facteurs psychosociaux.","correct":true,"j":"L'effet placebo illustre l'influence des facteurs psychosociaux sur un traitement biologique."},{"t":"L'efficacité des traitements biologiques est indépendante des facteurs psychosociaux.","j":"L'effet placebo démontre justement une influence psychosociale sur l'efficacité."},{"t":"L'efficacité des traitements biologiques dépend uniquement des facteurs psychosociaux.","j":"Les facteurs psychosociaux influencent l'efficacité sans en être l'unique déterminant."}]},
+    {"q":"Dans le cadre du modèle biopsychosocial, qu'est-ce qui justifie le recours à une étude en double aveugle en recherche clinique ?","c":3,"options":[{"t":"Les patients, contrairement aux sujets inanimés, sont profondément influencés par la façon dont ils sont étudiés.","correct":true,"j":"Exact : le sujet humain réagit au fait d'être observé, ce que le double aveugle vise à neutraliser."},{"t":"Les patients réagissent exactement comme les sujets inanimés, quelle que soit la façon dont ils sont étudiés.","j":"Faux : le cours oppose les patients aux sujets inanimés, justement parce qu'ils sont influençables."},{"t":"Les chercheurs demeurent parfaitement neutres et ne sont jamais influencés par les sujets qu'ils étudient.","j":"Faux : le cours précise que les scientifiques sont eux aussi influencés par leurs sujets."}]},
+    {"q":"Dans la distinction « disease / illness », à quoi correspond la « disease » ?","c":3,"options":[{"t":"À l'état objectif, centré sur le processus pathologique qui produit ou non des symptômes.","correct":true,"j":"Exact : la disease renvoie à l'état de santé objectif et au processus pathologique."},{"t":"À l'état subjectif, centré sur l'expérience vécue de la maladie par la personne.","j":"Décrit l'illness (état subjectif), et non la disease."},{"t":"À l'état ressenti, centré sur la façon dont la personne se définit comme malade ou non.","j":"Relève encore de l'illness : se définir malade tient du vécu subjectif."}]},
+    {"q":"Dans les pays à faible revenu, quelles causes de décès prédominent ?","c":4,"options":[{"t":"Les infections, les maladies tropicales, la mortalité maternelle/périnatale et la malnutrition.","correct":true,"j":"Correspond au tableau des faibles revenus (infections, paludisme/VIH/tuberculose, mortalité maternelle, malnutrition/diarrhée)."},{"t":"Les maladies cardiovasculaires, les cancers et les maladies respiratoires chroniques.","j":"Ce sont les causes dominantes des pays à revenu moyen/élevé, non à faible revenu."},{"t":"Le diabète, les maladies neurodégénératives et les maladies cardiovasculaires.","j":"Diabète et maladies neurodégénératives caractérisent les revenus moyens/élevés."}]},
+    {"q":"Dans les pays à revenu moyen ou élevé, quelles causes de décès prédominent ?","c":4,"options":[{"t":"Les maladies cardiovasculaires, les cancers, les maladies respiratoires chroniques et le diabète.","correct":true,"j":"Correspond au tableau des revenus moyens/élevés (cardiovasculaires, cancers, MPOC, diabète, neurodégénératives)."},{"t":"Les infections respiratoires basses, le paludisme, le VIH/SIDA et la tuberculose.","j":"Ce sont les causes infectieuses dominantes des pays à faible revenu."},{"t":"La malnutrition, la diarrhée, la mortalité périnatale et les causes liées à la grossesse.","j":"Ces causes caractérisent les faibles revenus, non les revenus moyens/élevés."}]},
+    {"q":"Comment évoluent les décès dus aux maladies non transmissibles (MNT) lorsque le revenu augmente ?","c":4,"options":[{"t":"Ils augmentent : la hausse du revenu s'accompagne d'une augmentation des décès dus aux MNT.","correct":true,"j":"Exact : à mesure que les revenus augmentent, les décès dus aux MNT augmentent."},{"t":"Ils diminuent : la hausse du revenu s'accompagne d'une réduction des décès dus aux MNT.","j":"Inverse du cours ; ce sont les maladies transmissibles qui reculent."},{"t":"Ils restent stables : la hausse du revenu n'a aucun effet sur les décès dus aux MNT.","j":"Faux : le cours décrit une augmentation, non une stabilité."}]},
+    {"q":"Parmi les 15 principales causes d'années vécues avec un handicap dans le monde, combien sont des maladies non transmissibles (MNT) ?","c":4,"options":[{"t":"12 des 15 principales causes sont des maladies non transmissibles.","correct":true,"j":"Exact : 12 des 15 principales causes d'années vécues avec un handicap sont des MNT."},{"t":"5 des 15 principales causes sont des maladies non transmissibles.","j":"Sous-estime nettement : le chiffre retenu est 12, traduisant la prédominance des MNT."},{"t":"3 des 15 principales causes sont des maladies non transmissibles.","j":"Trop faible : le cours retient 12, soulignant le poids des MNT."}]},
+    {"q":"Selon l'OMS, quelle proportion des infarctus du myocarde et des AVC pourrait être évitée grâce à une bonne hygiène de vie ?","c":4,"options":[{"t":"Environ 80 % des cas.","correct":true,"j":"Exact : l'OMS estime que 80 % des infarctus et AVC seraient évitables par une bonne hygiène de vie."},{"t":"Environ 50 % des cas.","j":"Correspond plutôt à la borne haute de la prévention des cancers, non aux maladies cardiovasculaires."},{"t":"Environ 30 % des cas.","j":"Correspond à la borne basse de la prévention des cancers (30–50 %), non aux infarctus/AVC."}]},
+    {"q":"Quelle proportion des cas de diabète de type 2 pourrait être évitée grâce à un poids sain, une activité physique régulière et une alimentation équilibrée ?","c":4,"options":[{"t":"Jusqu'à 90 % des cas.","correct":true,"j":"Exact : jusqu'à 90 % des cas de diabète de type 2 seraient évitables selon le cours."},{"t":"Jusqu'à 70 % des cas.","j":"Sous-estime la proportion : le chiffre retenu est de 90 %."},{"t":"Jusqu'à 50 % des cas.","j":"Trop faible : le cours retient jusqu'à 90 %, non 50 %."}]},
+    {"q":"Selon les données de prévention, quelle proportion des cancers peut être évitée grâce à l'adoption de comportements sains ?","c":4,"options":[{"t":"30 à 50 %","correct":true,"j":"Une part importante des cancers, estimée entre 30 et 50 %, est évitable par des comportements sains, ce qui fonde le rôle de la prévention comportementale."},{"t":"10 à 20 %","j":"Cette fourchette sous-estime la part des cancers évitables par les comportements, qui est en réalité plus élevée."},{"t":"60 à 80 %","j":"Cette fourchette surestime la part évitable, car tous les cancers ne relèvent pas de facteurs comportementaux modifiables."}]},
+    {"q":"Comment définit-on un facteur de risque ?","c":4,"options":[{"t":"Une caractéristique ou un comportement qui augmente la probabilité de développer une maladie sans garantir son apparition.","correct":true,"j":"Le facteur de risque élève la probabilité de la maladie sans la rendre inévitable : c'est une association probabiliste, non déterministe."},{"t":"Une caractéristique ou un comportement qui entraîne de façon certaine l'apparition d'une maladie donnée.","j":"Un facteur de risque n'entraîne pas la maladie de façon certaine ; il n'en augmente que la probabilité."},{"t":"Une caractéristique ou un comportement qui apparaît uniquement après le début d'une maladie déclarée.","j":"Le facteur de risque précède et favorise la maladie ; il n'est pas un signe survenant après son installation."}]},
+    {"q":"La nature d'un facteur de risque peut relever de plusieurs registres. Lequel de ces ensembles les recense correctement ?","c":4,"options":[{"t":"Biologique, environnementale, comportementale, sociale et génétique.","correct":true,"j":"Les natures reconnues d'un facteur de risque sont biologique, environnementale, comportementale, sociale et génétique."},{"t":"Biologique, comportementale, génétique, hormonale et infectieuse.","j":"« Hormonale » et « infectieuse » ne sont pas retenues comme natures distinctes ; elles relèvent plutôt du registre biologique."},{"t":"Environnementale, sociale, génétique, digestive et respiratoire.","j":"« Digestive » et « respiratoire » désignent des systèmes de l'organisme, non des natures de facteurs de risque au sens retenu."}]},
+    {"q":"Parmi ces ensembles, lequel correspond aux principaux facteurs de risque des maladies chroniques ?","c":4,"options":[{"t":"Tabagisme, inactivité physique, alcool, alimentation malsaine et pollution atmosphérique.","correct":true,"j":"Ces cinq éléments constituent les principaux facteurs de risque comportementaux et environnementaux des maladies chroniques."},{"t":"Tabagisme, alcool, alimentation malsaine, exposition solaire et bruit environnemental.","j":"L'exposition solaire et le bruit ne figurent pas parmi les cinq principaux facteurs de risque des maladies chroniques retenus."},{"t":"Inactivité physique, pollution atmosphérique, alcool, stress aigu isolé et déshydratation.","j":"Le stress aigu isolé et la déshydratation ne comptent pas parmi les cinq principaux facteurs de risque retenus."}]},
+    {"q":"Pour quelle raison la maladie parodontale est-elle considérée comme un facteur de risque cardiovasculaire ?","c":4,"options":[{"t":"Le passage de bactéries dans le sang y augmente l'inflammation, ce qui favorise l'atteinte cardiovasculaire.","correct":true,"j":"Les bactéries parodontales passent dans la circulation et majorent l'inflammation, mécanisme reliant parodontite et risque cardiovasculaire."},{"t":"La perte dentaire qu'elle provoque limite directement la contraction du muscle cardiaque.","j":"La perte dentaire n'agit pas directement sur la contraction cardiaque ; le lien passe par l'inflammation d'origine bactérienne."},{"t":"La carence alimentaire qu'elle entraîne fragilise mécaniquement la paroi des artères.","j":"Le lien repose sur l'inflammation liée aux bactéries dans le sang, non sur une carence fragilisant la paroi artérielle."}]},
+    {"q":"Que désigne-t-on par « immunogènes comportementaux » ?","c":4,"options":[{"t":"Des comportements qui renforcent les défenses et favorisent la santé, comme la méditation ou le bénévolat.","correct":true,"j":"Les immunogènes comportementaux (méditation, bénévolat, relations saines, autosoins…) renforcent les défenses et favorisent la santé."},{"t":"Des comportements qui affaiblissent les défenses et dégradent la santé, comme la sédentarité prolongée.","j":"Ceux qui affaiblissent les défenses et nuisent à la santé sont les pathogènes comportementaux, non les immunogènes."},{"t":"Des comportements neutres et sans effet sur les défenses, comme de simples habitudes routinières.","j":"Les immunogènes ont un effet bénéfique actif sur les défenses ; ils ne sont pas neutres."}]},
+    {"q":"Pourquoi l'exercice physique peut-il être tantôt immunogène, tantôt pathogène ?","c":4,"options":[{"t":"Parce que son effet dépend du contexte et des conséquences : régulier il protège, excessif ou obsessionnel il nuit.","correct":true,"j":"Un même comportement change de statut selon le contexte et ses conséquences : l'exercice régulier est immunogène, excessif ou obsessionnel il devient pathogène (surentraînement, vigorexie)."},{"t":"Parce qu'il reste toujours immunogène tant qu'il est pratiqué, quelles que soient son intensité et sa fréquence.","j":"L'exercice n'est pas toujours immunogène : pratiqué à l'excès, il devient pathogène."},{"t":"Parce qu'il devient pathogène uniquement lorsqu'il est pratiqué de façon trop occasionnelle et irrégulière.","j":"C'est l'excès ou l'obsession, et non la rareté, qui rend l'exercice pathogène."}]},
+    {"q":"Quel est l'objectif de la prévention primaire ?","c":4,"options":[{"t":"Éviter que le comportement-problème ne se développe, idéalement dès l'enfance.","correct":true,"j":"La prévention primaire agit en amont pour empêcher le comportement-problème d'apparaître, idéalement dès l'enfance."},{"t":"Limiter les conséquences d'un comportement-problème déjà installé et repéré.","j":"Réduire les conséquences d'un problème déjà présent relève de la prévention secondaire, non primaire."},{"t":"Réadapter la personne après les complications d'un comportement-problème ancien.","j":"La réadaptation après complications relève de la prévention tertiaire, non primaire."}]},
+    {"q":"Un kinésithérapeute suit un patient qui présente déjà des manifestations pathologiques installées ; l'objectif est d'éviter une récidive, une aggravation ou le décès. À quel niveau de prévention correspond cette action ?","c":4,"options":[{"t":"La prévention secondaire","j":"Elle vise le dépistage et une prise en charge précoces, avant que des manifestations pathologiques ne soient déjà installées."},{"t":"La prévention tertiaire","correct":true,"j":"Elle modifie le comportement d'individus ayant déjà des manifestations pathologiques pour éviter récidive, évolution ou mort."},{"t":"La prévention quaternaire","j":"Elle cherche à éviter les conséquences néfastes des soins inutiles, non à limiter l'évolution d'une pathologie déjà installée."}]},
+    {"q":"Une équipe met en place une démarche destinée à éviter ou atténuer les conséquences néfastes d'interventions et de soins inutiles. De quel niveau de prévention s'agit-il ?","c":4,"options":[{"t":"La prévention quaternaire","correct":true,"j":"Elle a précisément pour but d'éviter ou d'atténuer les conséquences néfastes des interventions et des soins inutiles."},{"t":"La prévention tertiaire","j":"Elle s'adresse à des individus déjà malades pour éviter récidive, évolution ou mort, non aux effets des soins inutiles."},{"t":"La prévention primaire","j":"Elle agit avant l'apparition de la maladie, et non sur les conséquences néfastes des interventions et des soins."}]},
+    {"q":"Quel est l'objectif principal du modèle des croyances relatives à la santé (Health Belief Model) ?","c":5,"options":[{"t":"Déterminer le niveau de prévention le plus adapté au stade de la maladie","j":"Le choix d'un niveau de prévention relève de la classification des préventions, pas de l'objet de ce modèle."},{"t":"Évaluer les conséquences néfastes des interventions et des soins inutiles","j":"Cela correspond à la prévention quaternaire, et non à la finalité du modèle des croyances relatives à la santé."},{"t":"Expliquer pourquoi les individus adoptent ou non des comportements de protection","correct":true,"j":"Le modèle vise justement à rendre compte de l'adoption ou du refus des comportements de protection de la santé."}]},
+    {"q":"Parmi les éléments suivants, lequel constitue une composante du modèle des croyances relatives à la santé ?","c":5,"options":[{"t":"La vulnérabilité perçue","correct":true,"j":"Elle figure parmi les composantes du modèle, aux côtés de la gravité, des bénéfices et des barrières perçus."},{"t":"La contagiosité perçue","j":"Elle ne fait pas partie des composantes du modèle, qui ne mentionne pas la contagiosité."},{"t":"La guérison perçue","j":"Elle n'appartient pas aux composantes du modèle, centrées sur la menace et la balance bénéfices/barrières."}]},
+    {"q":"Selon le modèle des croyances relatives à la santé, dans quelle situation la probabilité d'adopter le comportement est-elle maximale ?","c":5,"options":[{"t":"Vulnérabilité perçue élevée et obstacles perçus supérieurs aux avantages","j":"Lorsque les obstacles l'emportent sur les avantages, la probabilité d'adopter le comportement diminue."},{"t":"Vulnérabilité perçue élevée et avantages perçus supérieurs aux obstacles","correct":true,"j":"La probabilité d'agir est maximale quand la vulnérabilité est élevée et que les avantages dépassent les obstacles."},{"t":"Vulnérabilité perçue faible et avantages perçus supérieurs aux obstacles","j":"Une vulnérabilité perçue faible réduit la probabilité d'agir, même si les avantages dépassent les obstacles."}]},
+    {"q":"Parmi les domaines d'application du modèle des croyances relatives à la santé, lequel est celui où il se montre le moins efficace ?","c":5,"options":[{"t":"L'observance thérapeutique","j":"Elle fait partie des applications du modèle, mais n'est pas celle où il est le moins efficace."},{"t":"L'utilisation des services médicaux","j":"Elle constitue une application du modèle, sans être le domaine où il est le moins efficace."},{"t":"L'adoption volontaire d'un comportement sain","correct":true,"j":"C'est parmi ses domaines d'application celui où le modèle se révèle le moins efficace."}]},
+    {"q":"Quelle proposition décrit correctement une limite du modèle des croyances relatives à la santé ?","c":5,"options":[{"t":"Centré sur les croyances et la peur, il néglige les émotions et l'influence sociale","correct":true,"j":"Le modèle est reproché pour son centrage sur les croyances et la peur, au détriment des émotions et du social."},{"t":"Centré sur les émotions, il néglige les croyances et la peur ressenties","j":"À l'inverse, le modèle est critiqué pour trop s'appuyer sur les croyances et la peur, non pour les négliger."},{"t":"Centré sur l'influence sociale, il néglige la perception de la vulnérabilité","j":"Le modèle intègre la vulnérabilité perçue et tend au contraire à oublier l'influence sociale."}]},
+    {"q":"Sur quelles deux croyances repose la théorie de l'auto-efficacité ?","c":5,"options":[{"t":"La croyance en la gravité du résultat et la croyance en sa propre vulnérabilité face à celui-ci","j":"Gravité et vulnérabilité perçues relèvent du modèle des croyances relatives à la santé, non de cette théorie."},{"t":"La croyance que le comportement permet d'atteindre le résultat et la croyance en sa capacité à s'y engager","correct":true,"j":"La théorie repose sur l'efficacité attendue du comportement et sur l'auto-efficacité à s'y engager."},{"t":"La croyance que le comportement permet d'atteindre le résultat et la croyance en la gravité perçue de la maladie","j":"L'efficacité du comportement est correcte, mais la seconde croyance est l'auto-efficacité, non la gravité perçue."}]},
+    {"q":"Selon la théorie de l'auto-efficacité, laquelle de ces quatre sources en constitue la source principale ?","c":5,"options":[{"t":"La maîtrise personnelle, c'est-à-dire les expériences de réussite réellement vécues","correct":true,"j":"Exact : les réussites personnelles vécues sont la source la plus puissante d'auto-efficacité."},{"t":"L'apprentissage vicariant, c'est-à-dire l'observation de la réussite d'autrui","j":"C'est bien l'une des quatre sources, mais elle n'est pas la plus déterminante."},{"t":"La persuasion par autrui, c'est-à-dire les encouragements verbaux reçus","j":"Source réelle mais secondaire par rapport à la maîtrise personnelle."}]},
+    {"q":"Comment se définit la prophétie auto-réalisatrice (effet Pygmalion) ?","c":5,"options":[{"t":"Une croyance ou une attente qui oriente le comportement jusqu'à provoquer sa propre réalisation","correct":true,"j":"Exact : l'attente modèle les conduites de façon à se vérifier elle-même."},{"t":"Une croyance erronée qui se dissipe dès qu'elle est confrontée à la réalité des faits","j":"Faux : la prophétie agit précisément en se maintenant et en influençant l'action."},{"t":"Une attente personnelle qui demeure sans effet observable sur le comportement adopté","j":"Faux : par définition elle influence le comportement, elle n'est pas neutre."}]},
+    {"q":"Quelle est la principale limite reprochée à la théorie de l'auto-efficacité ?","c":5,"options":[{"t":"Elle néglige le rôle du contexte et du soutien social dans le comportement","correct":true,"j":"Exact : on lui reproche de sous-estimer l'environnement et le soutien social."},{"t":"Elle néglige le rôle des expériences personnelles de réussite de l'individu","j":"Faux : ces expériences (maîtrise personnelle) sont au contraire centrales."},{"t":"Elle néglige le rôle des états physiologiques et émotionnels de l'individu","j":"Faux : l'état physiologique/émotionnel est une source reconnue, pas un oubli."}]},
+    {"q":"Selon la théorie du comportement interpersonnel, quels sont les trois éléments qui influencent le comportement ?","c":5,"options":[{"t":"L'intention, l'habitude et les conditions facilitantes ou inhibitrices","correct":true,"j":"Exact : ce sont les trois déterminants du comportement dans cette théorie."},{"t":"L'intention, la motivation et les normes sociales perçues par la personne","j":"Faux : l'habitude et les conditions facilitantes y sont indûment remplacées."},{"t":"L'intention, l'attitude et le sentiment de contrôle perçu sur l'action","j":"Faux : ces éléments relèvent plutôt du modèle du comportement planifié."}]},
+    {"q":"Dans la théorie du comportement interpersonnel, comment se définit une habitude ?","c":5,"options":[{"t":"Un comportement routinier exécuté sans réflexion consciente préalable","correct":true,"j":"Exact : l'habitude est répétée et automatique, sans délibération consciente."},{"t":"Un comportement planifié résultant d'une décision mûrement réfléchie","j":"Faux : c'est l'inverse d'une habitude, qui échappe à la délibération."},{"t":"Un comportement occasionnel déclenché par une émotion ponctuelle forte","j":"Faux : l'habitude est routinière et répétée, non occasionnelle."}]},
+    {"q":"Qu'est-ce qui caractérise l'apport original de la théorie du comportement interpersonnel ?","c":5,"options":[{"t":"Elle accorde aux habitudes et aux émotions autant d'importance qu'à la volonté","correct":true,"j":"Exact : elle est la première à les placer au même niveau que la volonté."},{"t":"Elle accorde à la seule volonté davantage d'importance qu'aux habitudes et émotions","j":"Faux : elle refuse justement de subordonner habitudes et émotions à la volonté."},{"t":"Elle réduit le comportement à la seule intention consciente formulée par l'individu","j":"Faux : elle dépasse l'intention en intégrant habitudes et émotions."}]},
+    {"q":"Sur quel postulat concernant l'individu reposent la théorie de l'action raisonnée et celle du comportement planifié ?","c":5,"options":[{"t":"L'individu est rationnel et traite systématiquement l'information dont il dispose","correct":true,"j":"Exact : ces théories supposent un traitement rationnel et systématique de l'information."},{"t":"L'individu est impulsif et agit avant tout par automatismes déjà acquis","j":"Faux : cela contredit le postulat de rationalité de ces théories."},{"t":"L'individu est passif et se conforme d'abord aux pressions de son entourage","j":"Faux : ces théories supposent un traitement actif et raisonné de l'information."}]},
+    {"q":"Pour quel type de comportements la théorie du comportement planifié (TCP) a-t-elle été élaborée ?","c":5,"options":[{"t":"Les comportements sur lesquels l'individu n'exerce qu'un contrôle partiel","correct":true,"j":"Exact : la TCP vise les comportements à contrôle partiel (arrêter de fumer, faire du sport)."},{"t":"Les comportements sur lesquels l'individu exerce un contrôle entier et direct","j":"Faux : ces comportements relèvent déjà de l'action raisonnée."},{"t":"Les comportements sur lesquels l'individu n'exerce strictement aucun contrôle","j":"Faux : sans aucun contrôle possible, la notion de contrôle perçu perdrait son sens."}]},
+    {"q":"Quelle est la principale limite reprochée aux théories de l'action raisonnée et du comportement planifié ?","c":5,"options":[{"t":"Elles supposent des décisions rationnelles et négligent le rôle des émotions, de la fatigue et des habitudes.","correct":true,"j":"Exact : ces modèles reposent sur un choix raisonné et laissent de côté les déterminants affectifs et automatiques."},{"t":"Elles supposent des décisions impulsives et surestiment le rôle des émotions, de la fatigue et des habitudes.","j":"Faux : elles reposent au contraire sur la rationalité, et non sur l'impulsivité ou l'affect."},{"t":"Elles supposent des décisions rationnelles et intègrent pleinement les émotions, la fatigue et les habitudes.","j":"Faux : c'est précisément l'absence de prise en compte de ces facteurs qui leur est reprochée."}]},
+    {"q":"Comment le modèle HAPA décrit-il le changement des comportements de santé ?","c":5,"options":[{"t":"Comme un processus dynamique organisé en étapes d'adoption puis de maintien du comportement.","correct":true,"j":"Exact : le HAPA est un modèle dynamique couvrant à la fois l'adoption et le maintien."},{"t":"Comme un état statique fixé une fois pour toutes au moment de l'adoption du comportement.","j":"Faux : le modèle est dynamique et ne se fige pas à l'étape d'adoption."},{"t":"Comme un processus dynamique limité à la seule étape d'adoption du comportement.","j":"Faux : il ne se limite pas à l'adoption mais inclut aussi le maintien du comportement."}]},
+    {"q":"Que recouvre la phase de volition du modèle HAPA ?","c":5,"options":[{"t":"La planification, l'initiation, le maintien et la récupération de l'action.","correct":true,"j":"Exact : la volition regroupe planification, initiation, maintien et récupération de l'action."},{"t":"La planification, l'initiation et le maintien, mais non la récupération de l'action.","j":"Faux : la récupération de l'action fait aussi partie de la phase de volition."},{"t":"L'initiation, le maintien et la récupération, mais non la planification de l'action.","j":"Faux : la planification appartient bien à la phase de volition."}]},
+    {"q":"Que met en évidence le modèle HAPA à propos des intentions ?","c":5,"options":[{"t":"Que de bonnes intentions ne suffisent pas à garantir un changement effectif de comportement.","correct":true,"j":"Exact : le HAPA souligne l'écart entre l'intention formée et le passage à l'acte."},{"t":"Que de bonnes intentions suffisent à elles seules à garantir un changement de comportement.","j":"Faux : l'intention seule ne garantit pas le changement selon le modèle."},{"t":"Que le changement de comportement survient toujours en l'absence de toute intention préalable.","j":"Faux : le modèle place l'intention en amont, mais montre qu'elle ne suffit pas."}]},
+    {"q":"Quels types de facteurs influencent les comportements de santé ?","c":4,"options":[{"t":"Des facteurs économiques, individuels, environnementaux et sociaux.","correct":true,"j":"Exact : les comportements de santé résultent de facteurs économiques, individuels, environnementaux et sociaux."},{"t":"Des facteurs économiques, individuels et environnementaux, à l'exclusion des facteurs sociaux.","j":"Faux : les facteurs sociaux font partie des déterminants retenus."},{"t":"Uniquement des facteurs individuels, indépendamment de l'environnement et du contexte social.","j":"Faux : les comportements ne dépendent pas des seuls facteurs individuels."}]},
+    {"q":"Quelle définition correspond à l'apprentissage ?","c":6,"options":[{"t":"Un changement relativement permanent du comportement ou des connaissances résultant de l'expérience, distinct de la maturation.","correct":true,"j":"Exact : l'apprentissage est un changement durable issu de l'expérience, à distinguer de la maturation."},{"t":"Un changement temporaire du comportement ou des connaissances résultant de la seule maturation biologique.","j":"Faux : il est relativement permanent et provient de l'expérience, non de la maturation."},{"t":"Un changement relativement permanent du comportement ou des connaissances résultant de la maturation, indépendamment de l'expérience.","j":"Faux : c'est l'expérience, et non la maturation, qui est à l'origine de l'apprentissage."}]},
+    {"q":"Quels sont les trois modes d'apprentissage ?","c":6,"options":[{"t":"Le conditionnement classique, le conditionnement opérant et l'apprentissage social ou vicariant.","correct":true,"j":"Exact : les trois modes sont le conditionnement classique, le conditionnement opérant et l'apprentissage social/vicariant."},{"t":"Le conditionnement classique, le conditionnement opérant et l'apprentissage par maturation.","j":"Faux : la maturation n'est pas un mode d'apprentissage ; il manque l'apprentissage social/vicariant."},{"t":"Le conditionnement classique, l'apprentissage social ou vicariant et l'apprentissage par maturation.","j":"Faux : la maturation ne fait pas partie des modes ; c'est le conditionnement opérant qui complète la liste."}]},
+    {"q":"Dans le conditionnement classique, quelle affirmation caractérise correctement le stimulus inconditionné (SI) et la réponse inconditionnée (RI) ?","c":6,"options":[{"t":"Le SI déclenche naturellement une réponse et la RI est un réflexe inné.","correct":true,"j":"Par définition, le SI provoque une réponse sans apprentissage préalable et la RI est le réflexe inné qu'il déclenche."},{"t":"Le SI est un signal appris et la RI une réponse anticipée acquise.","j":"Le caractère appris et anticipé décrit le couple SC/RC, pas le couple inconditionné SI/RI."},{"t":"Le SI n'agit qu'après apprentissage et la RI est elle aussi acquise.","j":"Exiger un apprentissage pour le SI le confond avec le stimulus conditionné, qui lui est appris."}]},
+    {"q":"En rééducation, un patient reçoit un TENS dont l'appareil émet un bruit de fonctionnement. Quelle correspondance des éléments est correcte ?","c":6,"options":[{"t":"Le TENS est le SI, l'analgésie la RI, son bruit le SC et le soulagement anticipé la RC.","correct":true,"j":"Le courant du TENS soulage sans apprentissage (SI→RI) ; son bruit, d'abord neutre, devient SC et déclenche un soulagement anticipé (RC)."},{"t":"Le bruit est le SI, l'analgésie la RI, le TENS le SC et le soulagement anticipé la RC.","j":"Le bruit est neutre au départ : il ne peut être le SI, car c'est le courant du TENS qui agit naturellement."},{"t":"Le TENS est le SC, l'analgésie la RC, son bruit le SI et le soulagement anticipé la RI.","j":"Inversion complète : le stimulus qui agit naturellement (le TENS) est le SI et non le SC."}]},
+    {"q":"Dans le conditionnement opérant, quel est l'effet respectif du renforcement et de la punition sur un comportement ?","c":6,"options":[{"t":"Le renforcement augmente la probabilité de reproduction du comportement, la punition la diminue.","correct":true,"j":"Renforcer rend le comportement plus probable et punir le rend moins probable : c'est la définition même du conditionnement opérant."},{"t":"Le renforcement diminue la probabilité de reproduction du comportement, la punition l'augmente.","j":"Les effets sont inversés : c'est le renforcement qui augmente et la punition qui diminue le comportement."},{"t":"Le renforcement et la punition augmentent tous deux la probabilité de reproduction du comportement.","j":"La punition ne renforce pas : elle réduit la fréquence du comportement, contrairement au renforcement."}]},
+    {"q":"Dans le conditionnement opérant, comment agit le renforcement positif sur un comportement ?","c":6,"options":[{"t":"Il ajoute un stimulus agréable afin d'augmenter la fréquence du comportement.","correct":true,"j":"Ajouter (positif) un stimulus agréable renforce et fait augmenter le comportement visé."},{"t":"Il retire un stimulus désagréable afin d'augmenter la fréquence du comportement.","j":"Retirer un stimulus désagréable décrit le renforcement négatif, et non le renforcement positif."},{"t":"Il ajoute un stimulus désagréable afin de diminuer la fréquence du comportement.","j":"Ajouter un stimulus désagréable pour réduire le comportement décrit une punition, pas un renforcement."}]},
+    {"q":"En rééducation, corriger la posture d'un patient fait disparaître sa douleur, ce qui l'incite à reproduire cette posture. De quel mécanisme s'agit-il ?","c":6,"options":[{"t":"Renforcement négatif : retirer un stimulus désagréable augmente le comportement.","correct":true,"j":"La disparition de la douleur (stimulus désagréable retiré) fait augmenter la posture correcte : c'est un renforcement négatif."},{"t":"Renforcement positif : ajouter un stimulus agréable augmente le comportement.","j":"Ici rien d'agréable n'est ajouté ; c'est le retrait du désagréable qui agit, donc pas un renforcement positif."},{"t":"Punition négative : retirer un stimulus agréable diminue le comportement.","j":"Le comportement augmente au lieu de diminuer, et c'est un désagréable qui est retiré : ce n'est pas une punition."}]},
+    {"q":"Lorsqu'une conduite d'évitement s'installe, comment les conditionnements classique et opérant coopèrent-ils ?","c":6,"options":[{"t":"Le classique crée l'émotion automatique, l'opérant maintient le comportement.","correct":true,"j":"Le conditionnement classique installe la réaction émotionnelle réflexe, tandis que l'opérant en pérennise le comportement par ses conséquences."},{"t":"Le classique maintient le comportement, l'opérant crée l'émotion automatique.","j":"Les rôles sont inversés : le classique génère l'émotion et l'opérant entretient le comportement."},{"t":"Le classique et l'opérant créent tous deux l'émotion automatique de départ.","j":"L'opérant n'installe pas l'émotion : il agit sur le maintien du comportement via ses conséquences."}]},
+    {"q":"Qu'est-ce qui caractérise l'état d'impuissance apprise chez un individu ?","c":6,"options":[{"t":"L'individu se dit « je ne peux pas » et renonce à agir.","correct":true,"j":"L'impuissance apprise correspond à une conviction d'incapacité (« je ne peux pas ») qui conduit à l'arrêt de l'action."},{"t":"L'individu se dit « je peux réussir » et persévère dans l'action.","j":"Croire en sa réussite et persévérer est exactement l'inverse de l'impuissance apprise."},{"t":"L'individu se dit « je ne veux pas » et choisit de ne pas agir.","j":"« Je ne veux pas » relève d'un choix motivationnel, alors que l'impuissance apprise est un « je ne peux pas » subi."}]},
+    {"q":"Qu'est-ce qui définit l'apprentissage social, dit aussi vicariant ?","c":6,"options":[{"t":"Un apprentissage par observation et imitation de modèles, où la motivation est déterminante.","correct":true,"j":"L'apprentissage vicariant s'acquiert en observant et imitant un modèle, la motivation conditionnant le passage à l'acte."},{"t":"Un apprentissage par essais et erreurs personnels, où la répétition est déterminante.","j":"L'essai-erreur personnel décrit le conditionnement opérant, pas l'apprentissage par observation d'un modèle."},{"t":"Un apprentissage par association de deux stimuli, où l'anticipation est déterminante.","j":"L'association de deux stimuli décrit le conditionnement classique, pas l'apprentissage vicariant."}]},
+    {"q":"Un kiné favorise l'apprentissage par observation chez un patient. Selon la théorie de l'apprentissage social (vicariant), quelles sont, dans l'ordre, les quatre étapes du processus ?","c":6,"options":[{"t":"Attention, rétention, reproduction, motivation.","correct":true,"j":"Ce sont exactement les quatre étapes décrites par la théorie de l'apprentissage social/vicariant : prêter attention au modèle, retenir, reproduire, puis être motivé."},{"t":"Attention, mémorisation, répétition, renforcement.","j":"Termes proches mais inexacts : le cours retient rétention/reproduction/motivation, et le « renforcement » n'y figure pas comme étape."},{"t":"Perception, rétention, imitation, récompense.","j":"Séquence plausible mais fausse : le cours parle d'attention et de motivation, pas de « perception » ni de « récompense » comme étapes."}]},
+    {"q":"Un patient en rééducation observe d'autres patients réussir un exercice qu'il n'ose pas encore faire. Selon le cours, que font ses neurones miroirs dans cette situation ?","c":6,"options":[{"t":"Ils simulent mentalement le mouvement observé chez le patient.","correct":true,"j":"Le cours précise que les neurones miroirs simulent mentalement le mouvement observé, ce qui aide le patient à mémoriser la séquence motrice."},{"t":"Ils exécutent automatiquement le mouvement observé chez le patient.","j":"Faux : le mouvement est seulement simulé mentalement, il n'est pas réellement produit chez l'observateur."},{"t":"Ils inhibent mentalement le mouvement observé chez le patient.","j":"Faux : leur rôle décrit est de simuler le mouvement, pas de le bloquer ou de l'inhiber."}]},
+    {"q":"Selon le cours, quelles sont les trois grandes fonctions des émotions ?","c":7,"options":[{"t":"Adaptation/survie, communication, organisation/motivation.","correct":true,"j":"Le cours attribue aux émotions trois fonctions : adaptation et survie, communication, et fonction organisationnelle/motivante."},{"t":"Adaptation/survie, mémorisation, organisation/motivation.","j":"La mémorisation n'est pas listée comme fonction des émotions ; c'est la communication qui l'est."},{"t":"Défense/régulation, communication, organisation/motivation.","j":"Formulation plausible mais inexacte : la fonction retenue est l'adaptation/survie, pas une « défense/régulation »."}]},
+    {"q":"Tu vois des collègues chuchoter et rire, et tu ressens de la honte, alors qu'ils ne se moquaient pas de toi. Selon le cours, comment comprendre cette émotion ?","c":7,"options":[{"t":"C'est une hypothèse rapide du cerveau, fondée sur l'interprétation et non sur la réalité.","correct":true,"j":"Le cours énonce que l'émotion n'est pas une vérité mais une hypothèse rapide du cerveau, réagissant à l'interprétation de la réalité."},{"t":"C'est une preuve fiable, fondée sur la réalité objective et non sur l'interprétation.","j":"Faux : l'émotion peut se baser sur des informations incomplètes ou fausses, ce n'est pas une vérité."},{"t":"C'est un réflexe conditionné, fondé sur une expérience antérieure strictement identique.","j":"L'émotion réagit à l'interprétation présente de la situation, pas nécessairement à une expérience passée identique."}]},
+    {"q":"Selon le cours, qu'est-ce qui caractérise concrètement une mauvaise régulation émotionnelle ?","c":7,"options":[{"t":"Des réactions disproportionnées, de l'évitement et de la rumination.","correct":true,"j":"Le cours décrit la mauvaise régulation par des réactions disproportionnées, l'évitement et la rumination ; le problème n'est pas l'émotion mais la façon d'y réagir."},{"t":"Des réactions proportionnées, de l'expression et de l'analyse posée.","j":"Ce sont là des signes d'une régulation adaptée, et non d'une mauvaise régulation émotionnelle."},{"t":"Des réactions disproportionnées, de l'impulsivité et de la somatisation.","j":"Les réactions disproportionnées sont exactes, mais le cours cite l'évitement et la rumination, pas l'impulsivité ni la somatisation."}]},
+    {"q":"Selon le cours, qu'est-ce qui caractérise les émotions primaires ?","c":7,"options":[{"t":"Automatiques, universelles, adaptatives et présentes dès la naissance.","correct":true,"j":"Le cours décrit les émotions primaires comme des réactions automatiques, universelles, adaptatives et présentes dès la naissance."},{"t":"Complexes, acquises et façonnées par la culture et l'expérience vécue.","j":"Ce sont là les caractéristiques des émotions secondaires, pas des émotions primaires."},{"t":"Automatiques, universelles et adaptatives mais apparaissant avec le langage.","j":"Faux sur le dernier point : les émotions primaires sont présentes dès la naissance, elles n'attendent pas l'apparition du langage."}]},
+    {"q":"Selon le cours, qu'est-ce qui caractérise les émotions secondaires ?","c":7,"options":[{"t":"Complexes, façonnées par l'expérience et la culture, mélangeant plusieurs primaires.","correct":true,"j":"Le cours décrit les émotions secondaires comme complexes, influencées par l'expérience, la culture et la pensée, et mêlant plusieurs émotions primaires (ex. honte = peur + tristesse)."},{"t":"Automatiques et universelles, adaptatives et présentes dès la naissance.","j":"Ce sont là les caractéristiques des émotions primaires, pas des émotions secondaires."},{"t":"Complexes et façonnées par la culture, mais réductibles à une seule primaire.","j":"Faux sur le dernier point : les émotions secondaires mélangent plusieurs émotions primaires, elles ne se réduisent pas à une seule."}]},
+    {"q":"Dans la classification bidimensionnelle des émotions, à quelle émotion correspond une activation faible associée à une valence positive ?","c":7,"options":[{"t":"Le calme, autrement dit la sérénité","correct":true,"j":"Une activation faible combinée à une valence positive définit précisément le calme et la sérénité."},{"t":"La tristesse ou la fatigue ressentie","j":"Ce couple relève bien d'une activation faible, mais avec une valence négative et non positive."},{"t":"La joie intense ou l'enthousiasme","j":"Ces états sont positifs mais correspondent à une activation forte, et non faible."}]},
+    {"q":"Quelle structure cérébrale joue le rôle de « gare de triage » sensorielle en transmettant les informations aux zones émotionnelles ?","c":7,"options":[{"t":"Le thalamus, relais des messages sensoriels","correct":true,"j":"Le thalamus reçoit et redistribue les informations sensorielles vers les zones émotionnelles."},{"t":"L'hypothalamus, centre des réponses du corps","j":"L'hypothalamus déclenche les réponses physiologiques, il n'assure pas le triage sensoriel."},{"t":"L'hippocampe, lieu de la mémoire vécue","j":"L'hippocampe relie émotions et mémoire, il ne fait pas office de gare de triage."}]},
+    {"q":"Quelle structure agit comme un « détecteur d'alarme » et gère les réponses émotionnelles, en particulier la peur ?","c":7,"options":[{"t":"L'amygdale, sentinelle des menaces","correct":true,"j":"L'amygdale est le détecteur d'alarme qui gère la peur et les réponses émotionnelles."},{"t":"L'hippocampe, gardien des souvenirs","j":"L'hippocampe est impliqué dans la mémoire, pas dans la détection de la peur."},{"t":"Le cortex préfrontal, siège du contrôle","j":"Le cortex préfrontal régule et freine les impulsions, il ne joue pas le rôle d'alarme."}]},
+    {"q":"Quelle structure assure la régulation émotionnelle, le contrôle des impulsions et la prise de décision ?","c":7,"options":[{"t":"Le cortex préfrontal, chef d'orchestre","correct":true,"j":"Le cortex préfrontal est le siège de la régulation, du contrôle des impulsions et de la décision."},{"t":"L'amygdale, déclencheur de la peur","j":"L'amygdale gère la peur et l'alarme, elle ne régule pas les impulsions."},{"t":"Le thalamus, aiguilleur des sensations","j":"Le thalamus trie les informations sensorielles, il n'assure pas le contrôle des impulsions."}]},
+    {"q":"Concernant les bases biologiques des émotions, quelle association structure–fonction est exacte ?","c":7,"options":[{"t":"L'hypothalamus déclenche les réponses physiologiques et l'hippocampe relie émotions et mémoire","correct":true,"j":"C'est la répartition correcte : réponses du corps pour l'hypothalamus, lien mémoire pour l'hippocampe."},{"t":"L'hippocampe déclenche les réponses physiologiques et l'hypothalamus relie émotions et mémoire","j":"Les deux rôles sont ici inversés par rapport à la réalité."},{"t":"L'hypothalamus relie émotions et mémoire et l'hippocampe trie les informations sensorielles","j":"Ces attributions sont fausses : le triage sensoriel revient au thalamus."}]},
+    {"q":"Dans l'organisation du cerveau en trois niveaux, à quoi correspond le niveau limbique ?","c":7,"options":[{"t":"Aux émotions et à la mémoire affective","correct":true,"j":"Le niveau limbique gère les émotions et la mémoire affective, et réagit plus vite que le rationnel."},{"t":"À la survie et aux fonctions vitales","j":"La survie et les fonctions vitales relèvent du niveau reptilien."},{"t":"À la raison et à la régulation","j":"La raison et la régulation relèvent du niveau néocortical."}]},
+    {"q":"Quelles conséquences peut entraîner une lésion du cortex préfrontal, notamment de la région orbitofrontale ?","c":7,"options":[{"t":"Une impulsivité, une agressivité et une incapacité à planifier","correct":true,"j":"Cette lésion altère le contrôle et la planification, modifiant la personnalité."},{"t":"Une perte de la mémoire affective et une désorientation","j":"Ces troubles évoquent plutôt une atteinte de l'hippocampe que du cortex préfrontal."},{"t":"Une disparition de la peur et des réactions d'alarme","j":"L'abolition de la peur renvoie à l'amygdale, non au cortex préfrontal."}]},
+    {"q":"Dans le modèle ABC cognitif, qu'est-ce qui caractérise une croyance irrationnelle ?","c":7,"options":[{"t":"Une proposition inflexible et absolue, formulée sous forme d'obligation","correct":true,"j":"Les croyances irrationnelles sont rigides, absolues et exprimées comme des obligations."},{"t":"Une proposition souple et nuancée, formulée sous forme de préférence","j":"La flexibilité et la préférence caractérisent au contraire une croyance rationnelle."},{"t":"Une proposition neutre et descriptive, formulée comme un simple constat","j":"Un simple constat n'exprime aucune exigence absolue, ce n'est pas une croyance irrationnelle."}]},
+    {"q":"Dans le modèle cognitif ABC, quel est l'objectif du travail thérapeutique sur les croyances du patient ?","c":7,"options":[{"t":"Les assouplir pour les rendre plus réalistes et flexibles, sans viser leur disparition.","correct":true,"j":"Le but est d'adapter les croyances à la réalité et de les rendre plus souples, non de les effacer."},{"t":"Les supprimer complètement afin qu'aucune pensée négative ne puisse réapparaître.","j":"Le modèle ne cherche pas à éliminer les croyances mais à les nuancer et les assouplir."},{"t":"Les remplacer d'emblée par les convictions que le thérapeute juge correctes.","j":"On ne substitue pas les convictions du soignant; on met celles du patient à l'épreuve des faits."}]},
+    {"q":"Après une séance riche en encouragements, un patient ne retient qu'une seule remarque sur sa raideur résiduelle et conclut que la séance a été mauvaise. Quelle distorsion cognitive illustre cette situation ?","c":7,"options":[{"t":"La généralisation excessive.","j":"Elle consiste à tirer une règle générale d'un fait isolé; ici le patient trie, il ne généralise pas."},{"t":"L'abstraction sélective.","correct":true,"j":"Il ne retient que l'élément négatif de la situation en écartant les nombreux éléments positifs."},{"t":"L'inférence arbitraire.","j":"Elle suppose deviner les pensées d'autrui; ici le patient trie ses propres perceptions."}]},
+    {"q":"Un patient estime que sa rééducation est soit une réussite totale, soit un échec complet, sans aucune situation intermédiaire. Quelle distorsion cognitive illustre ce mode de pensée ?","c":7,"options":[{"t":"L'abstraction sélective.","j":"Elle consiste à ne retenir que le négatif; ici il n'y a pas filtrage mais deux catégories opposées."},{"t":"La personnalisation.","j":"Elle attribue à soi des causes externes, sans lien avec un raisonnement en tout ou rien."},{"t":"La pensée dichotomique.","correct":true,"j":"Tout est envisagé en catégories extrêmes (réussite totale ou échec complet), sans nuance intermédiaire."}]},
+    {"q":"Après un seul exercice raté, un patient déclare : « Je n'y arriverai jamais, je rate toujours tout. » Quelle distorsion cognitive illustre cette conclusion ?","c":7,"options":[{"t":"La généralisation excessive.","correct":true,"j":"Un échec unique est érigé en règle absolue et permanente, marquée par « toujours » et « jamais »."},{"t":"La pensée dichotomique.","j":"Elle raisonne en tout ou rien; ici il s'agit d'étendre un fait unique à tous les cas."},{"t":"Le raisonnement émotionnel.","j":"Il prend une émotion pour une preuve; ici le patient part d'un fait isolé, non d'un ressenti."}]},
+    {"q":"Sans qu'aucun élément ne le confirme, un patient est convaincu que son kinésithérapeute le trouve paresseux. Quelle distorsion cognitive illustre cette conviction ?","c":7,"options":[{"t":"La personnalisation.","j":"Elle consiste à se juger responsable d'événements externes; ici il devine une pensée, il ne s'accuse pas."},{"t":"L'inférence arbitraire.","correct":true,"j":"Il affirme connaître le jugement d'autrui sans disposer du moindre élément qui le confirme."},{"t":"L'abstraction sélective.","j":"Elle ne retient que le négatif d'une situation; ici le patient invente une pensée, il ne trie pas des faits."}]},
+    {"q":"Devant une légère douleur, un patient anticipe aussitôt une aggravation irréversible et une invalidité définitive. Quelle distorsion cognitive illustre cette réaction ?","c":7,"options":[{"t":"La généralisation excessive.","j":"Elle transforme un fait isolé en règle générale; ici c'est l'anticipation du pire qui domine."},{"t":"L'inférence arbitraire.","j":"Elle consiste à deviner les pensées d'autrui, ce qui n'est pas en jeu dans cette anticipation."},{"t":"Le catastrophisme.","correct":true,"j":"Le scénario le plus grave est systématiquement envisagé (aggravation, invalidité définitive)."}]},
+    {"q":"Un patient se sent responsable de la mauvaise humeur de son thérapeute, alors que celle-ci tient à des causes qui lui sont totalement étrangères. Quelle distorsion cognitive illustre cette attitude ?","c":7,"options":[{"t":"La personnalisation.","correct":true,"j":"Il s'attribue la responsabilité d'un événement dont les causes lui sont pourtant extérieures."},{"t":"L'inférence arbitraire.","j":"Elle consiste à prêter des pensées à autrui sans preuve; ici le patient s'accuse, il ne devine pas."},{"t":"Le catastrophisme.","j":"Il anticipe le pire; ici le patient n'anticipe rien, il s'attribue une cause qui lui est externe."}]},
+    {"q":"Un patient déclare : « J'ai peur avant l'exercice, donc cet exercice est forcément dangereux pour moi », prenant son émotion pour la preuve d'un fait. Quelle distorsion cognitive illustre ce raisonnement ?","c":7,"options":[{"t":"Les fausses obligations (« je dois »).","j":"Elles consistent à s'imposer des règles rigides; ici aucune injonction de ce type n'est formulée."},{"t":"Le raisonnement émotionnel.","correct":true,"j":"Une émotion (la peur) est tenue pour la preuve d'une réalité (le caractère dangereux de l'exercice)."},{"t":"L'amplification (dramatisation).","j":"Elle exagère la portée d'un fait; ici c'est le ressenti qui sert de preuve, non l'exagération d'un fait."}]},
+    {"q":"En rééducation, face à un patient qui exprime des croyances rigides sur sa guérison, comment le kinésithérapeute utilise-t-il le dialogue socratique ?","c":7,"options":[{"t":"Il aide le patient à examiner lui-même ses pensées au moyen de questions ouvertes, sans le confronter ni lui dire qu'il a tort.","correct":true,"j":"Correct : la méthode socratique amène le patient à remettre en question et nuancer sa propre vision par des questions ouvertes et bienveillantes, sans confrontation."},{"t":"Il démontre au patient, preuves à l'appui, que sa croyance est fausse afin qu'il l'abandonne le plus vite possible.","j":"Faux : le but n'est pas de prouver au patient qu'il a tort, mais de l'amener à nuancer lui-même sa pensée sans le confronter."},{"t":"Il impose au patient une pensée positive de remplacement en corrigeant fermement chacune de ses erreurs de raisonnement.","j":"Faux : il ne s'agit ni d'imposer une pensée ni de corriger fermement, mais d'accompagner par des questions, sans confrontation."}]},
+    {"q":"Face à un patient présentant de fortes distorsions cognitives, comment se situe l'intervention du kinésithérapeute ?","c":7,"options":[{"t":"Il n'agit pas comme psychothérapeute mais intervient à un niveau psychoéducatif, relationnel et comportemental, selon les principes des TCC.","correct":true,"j":"Correct : le kiné n'est pas psychothérapeute mais peut intervenir aux niveaux psychoéducatif, relationnel et comportemental, en s'appuyant sur les principes des TCC."},{"t":"Il agit comme psychothérapeute et conduit une thérapie cognitive structurée, en s'appuyant sur les principes des TCC.","j":"Faux : le kiné ne se substitue pas au psychothérapeute et ne conduit pas de thérapie cognitive structurée."},{"t":"Il s'abstient de tout niveau psychoéducatif ou relationnel et se limite strictement au traitement corporel de la lésion.","j":"Faux : il peut justement intervenir aux niveaux psychoéducatif, relationnel et comportemental, pas seulement sur le corps."}]},
+    {"q":"Quelle proposition décrit correctement la tristesse en tant qu'émotion ?","c":7,"options":[{"t":"Elle apparaît face à une perte, aide à s'arrêter et à réfléchir, et constitue une réponse adaptative et temporaire.","correct":true,"j":"Correct : la tristesse survient quand on interprète une situation comme une perte, permet de s'arrêter/réfléchir et reste adaptative et temporaire."},{"t":"Elle apparaît face à une menace future, pousse à s'activer pour se défendre, et constitue une réaction durable et inadaptée.","j":"Faux : répondre à une menace et pousser à s'activer relève d'autres émotions ; la tristesse n'est ni durable ni inadaptée."},{"t":"Elle apparaît sans cause identifiable, supprime tout intérêt pour les activités, et constitue un état persistant à traiter.","j":"Faux : cause absente, perte d'intérêt et persistance décrivent la dépression, pas la tristesse."}]},
+    {"q":"Quelle proposition caractérise le mieux la dépression ?","c":7,"options":[{"t":"Un trouble de l'humeur persistant, avec tristesse intense, perte d'intérêt (anhédonie) et difficultés à fonctionner, nécessitant souvent un traitement professionnel.","correct":true,"j":"Correct : la dépression est un trouble persistant (tristesse intense, anhédonie, atteinte du fonctionnement) requérant souvent une prise en charge professionnelle."},{"t":"Une émotion passagère apparaissant face à une perte, qui garde du sens et laisse la personne continuer à fonctionner malgré la peine.","j":"Faux : cette description correspond à la tristesse, émotion normale face à une perte qui garde son sens."},{"t":"Un état de tristesse profond mais bref, sans perte d'intérêt ni retentissement sur le fonctionnement, se résolvant seul sans aide.","j":"Faux : brièveté, intérêt conservé et fonctionnement préservé caractérisent la tristesse, pas la dépression."}]},
+    {"q":"Selon le cours, qu'est-ce qui distingue fondamentalement la dépression de la tristesse ?","c":7,"options":[{"t":"Non pas l'intensité de la souffrance ressentie, mais bien la perte de fonctionnement de la personne.","correct":true,"j":"Correct : ce n'est pas la souffrance qui distingue la dépression, mais la perte de fonctionnement."},{"t":"Non pas la perte de fonctionnement de la personne, mais bien l'intensité de la souffrance ressentie.","j":"Faux : la souffrance n'est pas le critère distinctif ; c'est le fonctionnement qui est atteint dans la dépression."},{"t":"Non pas la perte de fonctionnement de la personne, mais bien la seule présence de pleurs.","j":"Faux : les pleurs ne sont pas le critère ; c'est la perte de fonctionnement qui distingue la dépression."}]},
+    {"q":"Quelle définition correspond à la colère ?","c":7,"options":[{"t":"Une émotion intense et temporaire, causée par une frustration ou une menace, pouvant aller de l'irritation à la rage.","correct":true,"j":"Correct : la colère est une émotion intense et temporaire (frustration ou menace), allant de l'irritation à la rage."},{"t":"Une attitude durable et stable, faite de méfiance et de négativité, pouvant aller de la réserve au mépris.","j":"Faux : une attitude durable de méfiance est l'hostilité (un trait), pas la colère (une émotion)."},{"t":"Un comportement intense et ponctuel, visant à nuire à autrui, pouvant aller de l'insulte à l'agression physique.","j":"Faux : un comportement visant à nuire est l'agressivité, pas l'émotion de colère."}]},
+    {"q":"Comment distingue-t-on l'agressivité de l'agression ?","c":7,"options":[{"t":"L'agressivité est un comportement visant à nuire à autrui, et l'agression l'action concrète qui inflige le tort.","correct":true,"j":"Correct : l'agressivité désigne le comportement visant à nuire, l'agression l'action concrète qui inflige le tort."},{"t":"L'agressivité est l'action concrète qui inflige le tort, et l'agression le comportement visant à nuire à autrui.","j":"Faux : les rôles sont inversés ; l'agressivité est le comportement, l'agression l'action qui le manifeste."},{"t":"L'agressivité est une émotion intense et temporaire, et l'agression l'attitude durable de méfiance envers autrui.","j":"Faux : émotion temporaire = colère, attitude durable = hostilité ; aucune ne définit l'agressivité ni l'agression."}]},
+    {"q":"Quelle proposition distingue correctement l'anxiété de la peur ?","c":7,"options":[{"t":"L'anxiété est une réponse anticipatoire face à une menace future, la peur une réponse immédiate à un danger présent.","correct":true,"j":"Correct : l'anxiété anticipe une menace future, tandis que la peur répond immédiatement à un danger présent."},{"t":"L'anxiété est une réponse immédiate à un danger présent, la peur une réponse anticipatoire face à une menace future.","j":"Faux : les définitions sont inversées ; c'est la peur qui est immédiate et l'anxiété qui est anticipatoire."},{"t":"L'anxiété est une réaction d'adaptation à un stimulus externe réel, la peur une réponse à une menace anticipée et imaginaire.","j":"Faux : la réaction à un stimulus externe réel décrit le stress ; l'anxiété est bien une menace anticipée."}]},
+    {"q":"Concernant l'anxiété, quelle proposition est exacte ?","c":7,"options":[{"t":"Les situations qui menacent l'estime de soi sont généralement plus anxiogènes que les dangers physiques.","correct":true,"j":"Le cours établit que l'atteinte à l'estime de soi est plus anxiogène qu'un danger physique."},{"t":"Les dangers physiques sont généralement plus anxiogènes que les situations menaçant l'estime de soi.","j":"Inversion : le danger physique est présenté comme moins anxiogène que la menace à l'estime de soi."},{"t":"Dangers physiques et menaces pour l'estime de soi provoquent une anxiété d'intensité équivalente.","j":"Faux : le cours pose une hiérarchie, non une équivalence entre les deux."}]},
+    {"q":"Concernant les techniques de gestion émotionnelle, quelle proposition est exacte ?","c":7,"options":[{"t":"L'arrêt de la pensée est la technique utilisée pour lutter contre les ruminations.","correct":true,"j":"Le cours présente l'arrêt de la pensée comme dirigé contre les ruminations."},{"t":"La respiration abdominale est la technique utilisée pour lutter contre les ruminations.","j":"La respiration abdominale est une technique de détente, non l'outil anti-rumination du cours."},{"t":"La validation des émotions est la technique utilisée pour lutter contre les ruminations.","j":"La validation est une étape de la régulation émotionnelle, pas la technique visant les ruminations."}]},
+    {"q":"En quoi consiste la respiration abdominale telle que décrite dans le cours ?","c":7,"options":[{"t":"Inspirer par le nez pendant 5 s, retenir l'air 4 s, puis expirer par la bouche pendant 10 s.","correct":true,"j":"Correspond exactement à la séquence enseignée (nez 5 s, rétention 4 s, bouche 10 s)."},{"t":"Inspirer par la bouche pendant 5 s, retenir l'air 4 s, puis expirer par le nez pendant 10 s.","j":"Voies inversées : l'inspiration se fait par le nez et l'expiration par la bouche."},{"t":"Inspirer par le nez pendant 10 s, retenir l'air 4 s, puis expirer par la bouche pendant 5 s.","j":"Durées inversées : 5 s à l'inspiration et 10 s à l'expiration."}]},
+    {"q":"Quelle séquence décrit une bonne régulation émotionnelle selon le cours ?","c":7,"options":[{"t":"Prêter attention à l'émotion, respirer, comparer les émotions, valider ses émotions puis comprendre les besoins sous-jacents.","correct":true,"j":"Reprend exactement les cinq étapes de la régulation présentées dans le cours."},{"t":"Prêter attention à l'émotion, respirer, comparer les émotions, refouler ses émotions puis comprendre les besoins sous-jacents.","j":"Erreur : la régulation demande de valider ses émotions, non de les refouler."},{"t":"Prêter attention à l'émotion, respirer, ignorer les émotions, valider ses émotions puis comprendre les besoins sous-jacents.","j":"Erreur : l'étape attendue est de comparer les émotions, non de les ignorer."}]},
+    {"q":"Quelle proposition distingue correctement le stress de l'anxiété ?","c":8,"options":[{"t":"Le stress est une réaction d'adaptation à un stimulus externe réel, tandis que l'anxiété répond à une menace anticipée ou imaginaire.","correct":true,"j":"Conforme au cours : stress = stimulus réel présent, anxiété = menace anticipée/imaginaire."},{"t":"Le stress répond à une menace anticipée ou imaginaire, tandis que l'anxiété réagit à un stimulus externe réel.","j":"Inversion des définitions du stress et de l'anxiété."},{"t":"Le stress et l'anxiété réagissent tous deux uniquement à un stimulus externe réel et présent.","j":"Faux : l'anxiété répond à une menace anticipée ou imaginaire, non à un stimulus réel présent."}]},
+    {"q":"Comment le cours définit-il le stress psychologique ?","c":8,"options":[{"t":"Une réaction à une situation évaluée comme menaçante ou comme dépassant les ressources de l'individu.","correct":true,"j":"Reprend la définition du cours centrée sur l'évaluation de la situation."},{"t":"Une réaction à une situation évaluée comme neutre et restant en deçà des ressources de l'individu.","j":"Contraire à la définition : la situation est évaluée comme menaçante ou débordante."},{"t":"Une réaction déclenchée dès qu'une situation dépasse objectivement les ressources, indépendamment de son évaluation.","j":"Faux : le cours insiste sur l'évaluation subjective, non sur un dépassement objectif."}]},
+    {"q":"Quelle proposition caractérise les stresseurs biogéniques ?","c":8,"options":[{"t":"Ils agissent directement par leurs propriétés biochimiques, à l'image de la caféine ou de la nicotine.","correct":true,"j":"Conforme au cours : action directe biochimique (amphétamines, caféine, nicotine, douleur, chaud/froid)."},{"t":"Ils agissent indirectement, leur effet dépendant surtout de l'interprétation qu'en fait la personne.","j":"C'est le mécanisme des stresseurs psychosociaux, non biogéniques."},{"t":"Ils agissent surtout par le biais du soutien social, qui en module l'intensité ressentie.","j":"Le soutien social concerne les facteurs psychosociaux, pas l'action biochimique directe."}]},
+    {"q":"Concernant les stresseurs psychosociaux, quelle proposition est exacte ?","c":8,"options":[{"t":"Leur effet dépend de l'interprétation de la personne, et le soutien social atténue les facteurs sociaux.","correct":true,"j":"Conforme au cours : rôle de l'interprétation et effet tampon du soutien social."},{"t":"Leur effet est indépendant de l'interprétation, et le soutien social aggrave les facteurs sociaux.","j":"Double erreur : l'interprétation est centrale et le soutien social atténue, il n'aggrave pas."},{"t":"Leur effet découle directement de leurs propriétés biochimiques, indépendamment du soutien social.","j":"C'est la définition des stresseurs biogéniques, non psychosociaux."}]},
+    {"q":"Dans la réponse physiologique au stress, quelle séquence décrit correctement le déclenchement de la réaction ?","c":8,"options":[{"t":"Interprétation subjective par le cortex sensoriel → système limbique → hypothalamus → activation nerveuse et endocrinienne","correct":true,"j":"C'est l'enchaînement décrit : l'évaluation cognitive corticale précède le relais limbique, puis hypothalamique, avant l'activation nerveuse et endocrinienne."},{"t":"Système limbique → cortex sensoriel → hypothalamus → activation nerveuse et endocrinienne","j":"Faux : l'interprétation subjective par le cortex sensoriel ouvre la séquence, elle ne suit pas le système limbique."},{"t":"Hypothalamus → système limbique → cortex sensoriel → activation nerveuse et endocrinienne","j":"Faux : l'hypothalamus est un relais en aval de l'interprétation corticale, il ne débute pas la séquence."}]},
+    {"q":"Concernant l'activation du système nerveux autonome sympathique lors du stress, quelle proposition est exacte ?","c":8,"options":[{"t":"Elle produit une activation lente mais durable, médiée par l'adrénaline, mettant l'organisme en état d'alerte","j":"Faux : la réponse sympathique est rapide et transitoire, non lente et prolongée."},{"t":"Elle produit une activation rapide mais peu durable, médiée par l'adrénaline, mettant l'organisme en état d'alerte","correct":true,"j":"Exact : le sympathique déclenche une réaction rapide et de courte durée, portée par l'adrénaline, plaçant l'organisme en alerte."},{"t":"Elle produit une activation rapide et durable, médiée par le cortisol, mettant l'organisme en état d'alerte","j":"Faux : cette réponse est portée par l'adrénaline et non par le cortisol, et elle reste brève."}]},
+    {"q":"Quel est l'effet de l'activation de l'axe hypothalamo-hypophyso-surrénalien dans le stress ?","c":8,"options":[{"t":"Elle augmente la sécrétion d'adrénaline","j":"Faux : l'adrénaline relève de la voie nerveuse sympathique, pas de l'axe hypothalamo-hypophyso-surrénalien."},{"t":"Elle augmente la sécrétion de cortisol","correct":true,"j":"Exact : l'axe hypothalamo-hypophyso-surrénalien stimule la production de cortisol."},{"t":"Elle diminue la sécrétion de cortisol","j":"Faux : cet axe accroît la sécrétion de cortisol, il ne la réduit pas."}]},
+    {"q":"Comment le cortisol régule-t-il son propre axe et le métabolisme énergétique lors du stress ?","c":8,"options":[{"t":"Il stimule la sécrétion de CRH et d'ACTH par rétroaction positive et, avec l'adrénaline, mobilise l'énergie","j":"Faux : la boucle de régulation est négative (inhibitrice), et non positive."},{"t":"Il inhibe la sécrétion de CRH et d'ACTH par rétroaction négative et, avec l'adrénaline, met l'énergie en réserve","j":"Faux : cortisol et adrénaline mobilisent l'énergie disponible, ils ne la mettent pas en réserve."},{"t":"Il inhibe la sécrétion de CRH et d'ACTH par rétroaction négative et, avec l'adrénaline, mobilise l'énergie","correct":true,"j":"Exact : le cortisol freine CRH et ACTH par rétroaction négative et, associé à l'adrénaline, mobilise l'énergie."}]},
+    {"q":"Parmi ces ensembles d'effets, lequel correspond aux conséquences du stress chronique ?","c":8,"options":[{"t":"Altération de la mémoire, baisse de l'immunité, stockage de l'énergie en graisse et hausse de la pression artérielle","correct":true,"j":"Exact : le stress chronique altère la mémoire, abaisse l'immunité, favorise le stockage graisseux et élève la pression artérielle."},{"t":"Amélioration de la mémoire, baisse de l'immunité, stockage de l'énergie en graisse et hausse de la pression artérielle","j":"Faux : le stress chronique altère la mémoire, il ne l'améliore pas."},{"t":"Altération de la mémoire, hausse de l'immunité, déstockage des graisses et baisse de la pression artérielle","j":"Faux : le stress chronique diminue l'immunité, favorise le stockage graisseux et augmente la pression artérielle."}]},
+    {"q":"Quelle proportion de la population active souffrirait d'effets négatifs du stress ?","c":8,"options":[{"t":"Environ 23 % de la population active","j":"Faux : la proportion retenue est plus élevée, de l'ordre de 43 %."},{"t":"Environ 63 % de la population active","j":"Faux : le chiffre avancé est d'environ 43 %, et non proche des deux tiers."},{"t":"Environ 43 % de la population active","correct":true,"j":"Exact : environ 43 % de la population active subit des effets négatifs du stress."}]},
+    {"q":"Quelle part des consultations médicales serait liée à des troubles en rapport avec le stress ?","c":8,"options":[{"t":"Entre 25 et 40 % des consultations médicales","j":"Faux : la part attribuée au stress est nettement majoritaire, de 75 à 90 %."},{"t":"Entre 75 et 90 % des consultations médicales","correct":true,"j":"Exact : 75 à 90 % des consultations médicales sont dues à des troubles liés au stress."},{"t":"Entre 50 et 65 % des consultations médicales","j":"Faux : la proportion retenue dépasse ces valeurs, s'étendant de 75 à 90 %."}]},
+    {"q":"Que représente le syndrome métabolique dans l'évolution pathologique liée au stress ?","c":8,"options":[{"t":"Le stade terminal d'une hypersécrétion prolongée de catécholamines et de glucocorticoïdes, sans lien avec le risque cardiovasculaire","j":"Faux : il correspond au premier stade pathologique et constitue bien un facteur de risque cardiovasculaire."},{"t":"Le premier stade pathologique d'une hypersécrétion prolongée de catécholamines et de glucocorticoïdes, et un facteur de risque cardiovasculaire","correct":true,"j":"Exact : c'est le premier stade d'une hypersécrétion prolongée de ces hormones et un facteur de risque cardiovasculaire."},{"t":"Le premier stade pathologique d'une carence prolongée en catécholamines et en glucocorticoïdes, et un facteur de risque cardiovasculaire","j":"Faux : il résulte d'une hypersécrétion (excès) de ces hormones, et non d'une carence."}]},
+    {"q":"L'exposition prolongée aux glucocorticoïdes altère l'apprentissage, la mémoire et la gestion émotionnelle. Quel mécanisme cérébral l'explique directement ?","c":8,"options":[{"t":"Elle diminue le fonctionnement des neurones de l'hippocampe et réduit la neurogenèse.","correct":true,"j":"Exact : les glucocorticoïdes réduisent les neurones hippocampiques et la neurogenèse, or l'hippocampe soutient apprentissage, mémoire et émotions."},{"t":"Elle diminue le fonctionnement des neurones de l'amygdale et réduit la neurogenèse.","j":"L'amygdale participe aux émotions, mais le cours attribue la baisse de neurogenèse à l'hippocampe, pas à elle."},{"t":"Elle diminue le fonctionnement des neurones du cortex préfrontal et réduit la neurogenèse.","j":"Le cortex préfrontal régule impulsions et décisions, mais ce n'est pas la structure dont l'atteinte est décrite ici."}]},
+    {"q":"Concernant l'effet du stress chronique sur le vieillissement, quelle proposition est exacte ?","c":8,"options":[{"t":"Il accélère le vieillissement en réduisant la taille des télomères.","correct":true,"j":"Exact : le stress chronique raccourcit les télomères, ce qui accélère le processus de vieillissement."},{"t":"Il accélère le vieillissement en augmentant la taille des télomères.","j":"Le sens est inversé : le stress réduit, et n'augmente pas, la taille des télomères."},{"t":"Il ralentit le vieillissement en préservant la taille des télomères.","j":"Faux sur les deux points : le stress accélère le vieillissement en raccourcissant les télomères."}]},
+    {"q":"Quel est l'effet d'une exposition prolongée aux glucocorticoïdes sur le système immunitaire ?","c":8,"options":[{"t":"Elle supprime la réponse immunitaire et augmente le risque de maladies auto-immunes.","correct":true,"j":"Exact : la suppression immunitaire favorise les processus inflammatoires et les maladies auto-immunes."},{"t":"Elle stimule la réponse immunitaire et augmente le risque de maladies auto-immunes.","j":"Les glucocorticoïdes suppriment la réponse immunitaire, ils ne la stimulent pas."},{"t":"Elle supprime la réponse immunitaire et diminue le risque de maladies auto-immunes.","j":"La suppression immunitaire augmente le risque auto-immun, elle ne le diminue pas."}]},
+    {"q":"Quel facteur explique en partie les différences individuelles de résistance à la maladie liée au stress ?","c":8,"options":[{"t":"La sensation de contrôle perçu, par opposition au sentiment d'impuissance.","correct":true,"j":"Exact : la sensation de contrôle, opposée à l'impuissance, module la résistance ou la sensibilité à la maladie."},{"t":"Le sentiment d'impuissance perçu, par opposition à la sensation de contrôle.","j":"Inversé : c'est le contrôle perçu, non l'impuissance, qui protège face au stress."},{"t":"L'intensité de l'activation sympathique, indépendamment du contrôle perçu.","j":"Le facteur clé retenu est le contrôle perçu, pas l'intensité de l'activation en elle-même."}]},
+    {"q":"Dans la réaction affective immédiate du modèle transactionnel, à quoi correspond la réponse d'orientation (RO) ?","c":8,"options":[{"t":"Une réponse affectivement neutre de curiosité ou d'acceptation du stimulus.","correct":true,"j":"Exact : la RO est neutre, faite de curiosité ou d'acceptation, préparant le corps à l'analyse du stimulus."},{"t":"Une réponse émotionnelle négative de rejet ou de peur du stimulus.","j":"Ceci décrit la réponse de défense (RD), émotion négative et rejet, pas la réponse d'orientation."},{"t":"Une réponse consciente et réfléchie d'analyse détaillée du stimulus.","j":"La réaction affective est automatique et pré-consciente, elle précède toute réflexion consciente."}]},
+    {"q":"Dans l'évaluation primaire du modèle transactionnel, comment se distinguent une évaluation « menace » et une évaluation « préjudice » ?","c":8,"options":[{"t":"Le préjudice est un dommage déjà subi, la menace un dommage anticipé.","correct":true,"j":"Exact : le préjudice porte sur un effet déjà survenu, la menace sur un effet indésirable encore à venir."},{"t":"Le préjudice est un dommage anticipé, la menace un dommage déjà subi.","j":"Les deux notions sont inversées : le préjudice est déjà subi, la menace est anticipée."},{"t":"Le préjudice et la menace sont tous deux un dommage déjà subi.","j":"Seul le préjudice est déjà subi ; la menace porte sur un dommage non encore produit."}]},
+    {"q":"Concernant le contrôle et la prédictibilité d'un facteur de stress, quelle proposition est exacte ?","c":8,"options":[{"t":"Sa probabilité est indépendante du comportement, et la prédictibilité réduit l'activation psychophysiologique.","correct":true,"j":"Exact : un événement incontrôlable a une probabilité indépendante du comportement, et prévoir le stresseur diminue l'activation."},{"t":"Sa probabilité dépend du comportement, et la prédictibilité augmente l'activation psychophysiologique.","j":"Une probabilité qui dépend du comportement définit un événement contrôlable, et l'effet de la prédictibilité est inversé."},{"t":"Sa probabilité est indépendante du comportement, et la prédictibilité augmente l'activation psychophysiologique.","j":"La première partie est juste, mais la prédictibilité diminue l'activation, elle ne l'augmente pas."}]},
+    {"q":"Que vise le coping centré sur le problème ?","c":8,"options":[{"t":"Agir sur la source du stress pour la modifier, la réduire ou l'éliminer.","correct":true,"j":"Exact : le coping centré sur le problème intervient sur le facteur de stress lui-même pour le contrôler."},{"t":"Agir sur les émotions liées au stress pour réduire la détresse interne.","j":"Ceci décrit le coping centré sur l'émotion, qui régule le vécu affectif et non la source."},{"t":"S'éloigner de la source du stress pour se séparer de la situation.","j":"S'éloigner correspond à une stratégie de distanciation, pas au coping centré sur le problème."}]},
+    {"q":"Le coping centré sur l'émotion a pour objectif principal de :","c":8,"options":[{"t":"réguler les émotions négatives suscitées par la situation stressante.","correct":true,"j":"Correct : le coping centré sur l'émotion vise à gérer le vécu affectif lié à la situation, sans nécessairement agir sur la source du stress."},{"t":"agir sur la situation stressante afin d'en supprimer la cause.","j":"Faux : modifier ou supprimer la source du stress relève du coping centré sur le problème, pas du coping centré sur l'émotion."},{"t":"mettre en place des actions concrètes pour résoudre le problème.","j":"Faux : la mise en œuvre d'actions résolutoires caractérise le coping centré sur le problème, non la gestion des émotions."}]},
+    {"q":"Parmi les propositions suivantes, laquelle correspond exactement à l'une des huit stratégies spécifiques de coping ?","c":8,"options":[{"t":"l'acceptation de la responsabilité personnelle.","correct":true,"j":"Correct : l'acceptation de la responsabilité figure parmi les huit stratégies spécifiques, aux côtés notamment de la confrontation et de la planification."},{"t":"le report de la responsabilité sur autrui.","j":"Faux : reporter la responsabilité sur autrui n'appartient pas à la liste ; c'est l'inverse de l'acceptation de la responsabilité qui, elle, en fait partie."},{"t":"l'acceptation résignée de la situation vécue.","j":"Faux : la résignation ne figure pas parmi les huit stratégies ; elle se rapproche plutôt d'une forme d'évitement passif."}]},
+    {"q":"Les dimensions du soutien social décrites dans le cours sont :","c":8,"options":[{"t":"émotionnelle, instrumentale et informative.","correct":true,"j":"Correct : le soutien social se décline en une dimension émotionnelle, une dimension instrumentale (aide concrète) et une dimension informative."},{"t":"émotionnelle, cognitive et comportementale.","j":"Faux : cognitive et comportementale ne sont pas les dimensions retenues ; il manque les composantes instrumentale et informative."},{"t":"affective, matérielle et normative.","j":"Faux : si affective et matérielle évoquent l'émotionnel et l'instrumental, la dimension normative ne correspond pas à la dimension informative attendue."}]},
+    {"q":"Concernant la stratégie d'évitement, quelle proposition est exacte ?","c":8,"options":[{"t":"elle est inefficace à long terme mais peut être utile à court terme lors de traumatismes graves.","correct":true,"j":"Correct : l'évitement ne règle rien durablement, mais il offre à court terme une protection utile face à un traumatisme grave."},{"t":"elle est efficace à long terme mais nuisible à court terme lors de traumatismes graves.","j":"Faux : les horizons temporels sont inversés ; l'évitement est utile à court terme et non efficace sur le long terme."},{"t":"elle est inefficace à court comme à long terme, quel que soit le traumatisme rencontré.","j":"Faux : c'est trop absolu ; à court terme et face à un traumatisme grave, l'évitement conserve une utilité protectrice."}]},
+    {"q":"Quelle affirmation décrit correctement le rapport entre la réussite d'une stratégie de coping et ses effets ?","c":8,"options":[{"t":"une stratégie réussie peut néanmoins être néfaste, comme le déni prolongé d'un diagnostic.","correct":true,"j":"Correct : réussir à contenir l'angoisse par le déni peut retarder la prise en charge, rendant une stratégie efficace finalement délétère."},{"t":"une stratégie réussie est toujours bénéfique, comme le déni prolongé d'un diagnostic.","j":"Faux : la réussite d'une stratégie ne garantit pas son bénéfice ; le déni prolongé en est justement un contre-exemple."},{"t":"une stratégie néfaste est forcément une stratégie ayant échoué, comme le déni d'un diagnostic.","j":"Faux : une stratégie peut atteindre son but tout en étant néfaste ; nocivité et échec ne se confondent pas."}]},
+    {"q":"Concernant l'usage des questionnaires en kinésithérapie, quelle proposition est correcte ?","c":8,"options":[{"t":"ils mesurent la fonctionnalité ou prédisent l'évolution, sans poser de diagnostic.","correct":true,"j":"Correct : les questionnaires évaluent la fonction ou anticipent l'évolution (Yellow Flags), mais n'ont pas de valeur diagnostique."},{"t":"ils posent le diagnostic tout en mesurant la fonctionnalité du patient.","j":"Faux : ils ne sont pas diagnostiques ; ils renseignent la fonction ou le pronostic, pas la nature de l'affection."},{"t":"ils prédisent l'évolution et se substituent à l'examen clinique du patient.","j":"Faux : prédire l'évolution ne dispense pas de l'examen clinique, qu'ils complètent sans le remplacer."}]},
+    {"q":"Selon la définition du concept de douleur, comment l'individu en acquiert-il la notion ?","c":9,"options":[{"t":"par l'expérience, à travers les situations vécues au cours de la vie.","correct":true,"j":"Correct : le concept de douleur s'apprend, il se construit progressivement à partir des expériences vécues par la personne."},{"t":"de façon innée, indépendamment de toute situation vécue au cours de la vie.","j":"Faux : la notion de douleur n'est pas donnée à la naissance ; elle résulte d'un apprentissage par l'expérience."},{"t":"par le seul raisonnement, à partir de l'analyse rationnelle de la lésion.","j":"Faux : le concept ne se déduit pas d'un raisonnement sur la lésion, il s'acquiert par le vécu expérientiel."}]},
+    {"q":"Concernant l'expression de la douleur par le patient, quelle proposition est exacte ?","c":9,"options":[{"t":"le rapport du patient doit être respecté même sans cause visible, la parole n'étant qu'un mode d'expression parmi d'autres.","correct":true,"j":"Correct : le vécu douloureux rapporté est à respecter en l'absence de lésion apparente, et la verbalisation n'est qu'un des comportements d'expression."},{"t":"le rapport du patient n'est retenu que si une cause visible objective vient le confirmer.","j":"Faux : la douleur doit être respectée même sans cause visible ; l'absence de lésion ne disqualifie pas le rapport du patient."},{"t":"la description verbale reste le seul comportement fiable pour attester de sa douleur.","j":"Faux : la parole n'est qu'un mode d'expression parmi d'autres, aux côtés des comportements et attitudes traduisant la douleur."}]},
+    {"q":"Concernant la nociception, quelle proposition est exacte ?","c":9,"options":[{"t":"Elle constitue une expérience consciente résultant du traitement cérébral de l'information sensorielle.","j":"Faux : cette description correspond à la douleur, pas à la nociception."},{"t":"Elle correspond à un processus physiologique inconscient, purement biologique, issu de l'activité des nocicepteurs.","correct":true,"j":"Exact : la nociception est un phénomène biologique inconscient lié à l'activité des nocicepteurs."},{"t":"Elle intègre d'emblée des facteurs psychologiques et sociaux à la détection du stimulus périphérique.","j":"Faux : l'intégration bio-psycho-sociale caractérise la douleur, non la nociception."}]},
+    {"q":"Concernant la douleur, quelle proposition est exacte ?","c":9,"options":[{"t":"Elle est une expérience consciente issue du traitement cérébral et de facteurs bio-psycho-sociaux.","correct":true,"j":"Exact : la douleur est une expérience consciente à déterminants bio-psycho-sociaux."},{"t":"Elle est un processus inconscient et purement biologique issu de l'activité des nocicepteurs.","j":"Faux : cette définition correspond à la nociception, phénomène inconscient."},{"t":"Elle est un signal biologique automatique dépourvu de toute dimension psychologique ou sociale.","j":"Faux : la douleur comporte justement des dimensions psychologiques et sociales."}]},
+    {"q":"Concernant les rapports entre nociception et douleur, quelle proposition est exacte ?","c":9,"options":[{"t":"La nociception aboutit toujours à une douleur, et toute douleur suppose une nociception active.","j":"Faux : les deux peuvent être dissociés dans les deux sens."},{"t":"La douleur fantôme et la douleur chronique s'expliquent par une nociception intense et durable.","j":"Faux : ce sont précisément des douleurs sans nociception correspondante."},{"t":"Il peut exister une nociception sans douleur (anesthésie, distraction) et une douleur sans nociception (fantôme, chronique).","correct":true,"j":"Exact : la dissociation entre nociception et douleur existe dans les deux sens."}]},
+    {"q":"Concernant les nocicepteurs, quelle proposition est exacte ?","c":9,"options":[{"t":"Ce sont des récepteurs encapsulés détectant uniquement des variations thermiques modérées, localisés dans la peau.","j":"Faux : ce sont des terminaisons libres, non encapsulées, et polymodales."},{"t":"Ce sont des terminaisons libres détectant fortes pressions, températures extrêmes et substances chimiques, présentes partout.","correct":true,"j":"Exact : terminaisons nerveuses libres polymodales réparties dans tout le corps."},{"t":"Ce sont des terminaisons libres détectant surtout le toucher léger et les vibrations, présentes partout.","j":"Faux : ils répondent aux stimuli nociceptifs, non au toucher léger."}]},
+    {"q":"Les nocicepteurs sont connectés :","c":9,"options":[{"t":"aux ganglions de la racine dorsale ou au ganglion trijumeau.","correct":true,"j":"Exact : leurs corps cellulaires siègent dans le ganglion spinal ou trijumeau."},{"t":"aux ganglions sympathiques paravertébraux ou au ganglion cervical supérieur.","j":"Faux : ces ganglions ne relaient pas l'information des nocicepteurs."},{"t":"aux ganglions parasympathiques crâniens ou au ganglion géniculé.","j":"Faux : ces ganglions ne sont pas les relais de la nociception décrite."}]},
+    {"q":"Concernant les fibres Aδ, quelle proposition est exacte ?","c":9,"options":[{"t":"Elles sont amyéliniques et véhiculent une douleur sourde, diffuse et tardive.","j":"Faux : cela décrit les fibres C, amyéliniques et à conduction lente."},{"t":"Elles sont myélinisées mais véhiculent une douleur sourde, diffuse et tardive.","j":"Faux : les fibres Aδ myélinisées conduisent une douleur vive et précoce."},{"t":"Elles sont myélinisées et véhiculent une douleur vive, localisée et précoce.","correct":true,"j":"Exact : la myélinisation permet une conduction rapide, d'où une douleur vive et précoce."}]},
+    {"q":"Concernant la douleur aiguë, quelle proposition est exacte ?","c":9,"options":[{"t":"C'est un signal d'alerte immédiat, qui dure moins de trois mois et disparaît avec la guérison.","correct":true,"j":"Exact : douleur aiguë = alerte transitoire, résolutive à la guérison."},{"t":"C'est un signal d'alerte immédiat, qui persiste au-delà de trois mois malgré la guérison.","j":"Faux : la persistance au-delà de trois mois définit la douleur chronique."},{"t":"C'est un signal d'alerte immédiat, qui dure quelques semaines et traduit une guérison incomplète.","j":"Faux : cette description correspond à la douleur subaiguë."}]},
+    {"q":"Concernant la douleur subaiguë, quelle proposition est exacte ?","c":9,"options":[{"t":"Elle est immédiate et brève, disparaissant dès le début de la guérison des tissus.","j":"Faux : cette description correspond à la douleur aiguë."},{"t":"Elle est intermédiaire (quelques semaines à trois mois), liée à une guérison incomplète ou une inflammation persistante.","correct":true,"j":"Exact : durée intermédiaire traduisant une guérison incomplète ou une inflammation persistante."},{"t":"Elle est prolongée au-delà de trois mois et persiste indépendamment de toute lésion tissulaire.","j":"Faux : cette description correspond à la douleur chronique."}]},
+    {"q":"Concernant la douleur chronique, quelle proposition est exacte ?","c":9,"options":[{"t":"Elle dure plus de 3 mois et peut persister même après la guérison des lésions, devenant une maladie à part entière.","correct":true,"j":"Exact : au-delà de 3 mois, elle subsiste après la guérison tissulaire et constitue une maladie en soi liée à une sensibilisation du système nerveux."},{"t":"Elle dure plus de 3 mois mais cesse toujours une fois les lésions cicatrisées, restant un simple symptôme.","j":"Faux : elle peut justement persister après la cicatrisation et n'est plus un simple symptôme mais une maladie en soi."},{"t":"Elle dure plus de 3 mois et traduit uniquement une lésion tissulaire évolutive non encore guérie.","j":"Faux : elle n'implique pas forcément une lésion active, elle relève d'une sensibilisation du système nerveux."}]},
+    {"q":"Quel critère est considéré comme le plus important pour distinguer une douleur aiguë d'une douleur chronique ?","c":9,"options":[{"t":"La relation avec les aspects cognitifs et comportementaux, davantage que la durée écoulée.","correct":true,"j":"Exact : le critère déterminant n'est pas le temps mais le lien avec les dimensions cognitives et comportementales."},{"t":"La durée écoulée depuis le début, davantage que les aspects cognitifs et comportementaux.","j":"Faux : le seuil temporel est un repère mais n'est pas le critère le plus important."},{"t":"L'intensité ressentie sur l'échelle de douleur, davantage que les aspects cognitifs et comportementaux.","j":"Faux : l'intensité n'est pas le critère distinctif retenu entre aiguë et chronique."}]},
+    {"q":"Concernant la distinction entre douleur adaptative et douleur désadaptative, quelle proposition est correcte ?","c":9,"options":[{"t":"L'adaptative est protectrice, proportionnelle et aiguë ; la désadaptative est disproportionnée, sans stimulus et chronique.","correct":true,"j":"Exact : l'adaptative garde sa fonction protectrice, la désadaptative la perd et devient disproportionnée et chronique."},{"t":"L'adaptative est disproportionnée, sans stimulus et chronique ; la désadaptative est protectrice, proportionnelle et aiguë.","j":"Faux : les caractéristiques sont inversées par rapport à la définition."},{"t":"L'adaptative comme la désadaptative sont protectrices et strictement proportionnelles au stimulus lésionnel.","j":"Faux : la désadaptative perd sa fonction protectrice et devient disproportionnée voire sans stimulus."}]},
+    {"q":"Quelle situation correspond à une douleur nociceptive ?","c":9,"options":[{"t":"Une entorse, une fracture ou une brûlure, liée à un dommage tissulaire réel ou potentiel.","correct":true,"j":"Exact : la douleur nociceptive résulte d'un dommage réel ou potentiel des tissus."},{"t":"Une sciatique, un canal carpien ou une neuropathie diabétique, liés à une atteinte nerveuse.","j":"Faux : ces exemples relèvent de la douleur neuropathique (lésion du système nerveux)."},{"t":"Une fibromyalgie, des lombalgies persistantes ou des céphalées chroniques, sans lésion identifiable.","j":"Faux : ces exemples relèvent de la douleur nociplastique (sensibilisation sans lésion)."}]},
+    {"q":"La douleur neuropathique se définit par :","c":9,"options":[{"t":"Une lésion ou un dysfonctionnement du système nerveux, par exemple une sciatique ou une neuropathie diabétique.","correct":true,"j":"Exact : elle résulte d'une lésion ou d'une dysfonction du système nerveux."},{"t":"Un dommage réel ou potentiel des tissus, par exemple une entorse ou une brûlure cutanée.","j":"Faux : ces exemples correspondent à la douleur nociceptive."},{"t":"Une sensibilisation nerveuse sans lésion identifiable, par exemple une fibromyalgie ou une céphalée chronique.","j":"Faux : cette description correspond à la douleur nociplastique."}]},
+    {"q":"Quelle proposition caractérise la douleur nociplastique (psychosomatique) ?","c":9,"options":[{"t":"Une sensibilisation du système nerveux sans lésion identifiable, comme la fibromyalgie ou les céphalées chroniques.","correct":true,"j":"Exact : elle résulte d'une sensibilisation sans lésion identifiable."},{"t":"Un dommage tissulaire réel ou potentiel bien identifiable, comme une fracture ou une brûlure.","j":"Faux : cette description correspond à la douleur nociceptive."},{"t":"Une lésion nerveuse périphérique clairement objectivée, comme un canal carpien ou une sciatique.","j":"Faux : cette description correspond à la douleur neuropathique."}]},
+    {"q":"Comment comprendre le fait que la douleur chronique « n'est pas imaginaire » ?","c":9,"options":[{"t":"Le système nerveux a appris un mode hyper-protecteur ; la douleur est réelle même sans lésion active.","correct":true,"j":"Exact : la douleur chronique n'est pas imaginaire, le système nerveux a appris un fonctionnement hyper-protecteur."},{"t":"La douleur est simulée par le patient ; elle n'a pas de véritable substrat dans le système nerveux.","j":"Faux : elle n'est pas simulée, elle a bien un substrat neurophysiologique."},{"t":"La douleur correspond toujours à une lésion tissulaire active ; sans lésion elle serait imaginaire.","j":"Faux : elle peut exister sans lésion active grâce à la sensibilisation apprise."}]},
+    {"q":"Selon la théorie du portillon, pourquoi le fait de frotter la peau soulage-t-il la douleur ?","c":10,"options":[{"t":"Les fibres Aβ tactiles activent l'interneurone inhibiteur qui ferme la porte dans la corne dorsale.","correct":true,"j":"Exact : l'activation des fibres Aβ stimule l'interneurone inhibiteur et ferme la porte."},{"t":"Les fibres Aβ tactiles inhibent l'interneurone inhibiteur, ce qui ouvre la porte dans la corne dorsale.","j":"Faux : les fibres Aβ activent l'interneurone inhibiteur, elles ne l'inhibent pas, et la porte se ferme."},{"t":"Les fibres Aβ tactiles activent directement les fibres nociceptives et ferment la porte dans la corne dorsale.","j":"Faux : l'effet passe par l'interneurone inhibiteur, non par une stimulation des fibres nociceptives."}]},
+    {"q":"Selon la théorie du portillon, quel est l'effet des fibres nociceptives Aδ et C sur l'interneurone médullaire ?","c":10,"options":[{"t":"Elles inhibent l'interneurone, ce qui ouvre la porte et laisse passer la douleur","correct":true,"j":"Les fibres fines Aδ et C inhibent l'interneurone inhibiteur : la porte s'ouvre et le message nociceptif est transmis."},{"t":"Elles activent l'interneurone, ce qui ferme la porte et bloque la douleur","j":"Activer l'interneurone pour fermer la porte est le rôle des grosses fibres Aβ (toucher, pression), pas des fibres nociceptives."},{"t":"Elles inhibent l'interneurone, ce qui ferme la porte et atténue la douleur","j":"Les fibres Aδ et C inhibent bien l'interneurone, mais cette inhibition ouvre la porte au lieu de la fermer."}]},
+    {"q":"D'où partent les voies descendantes inhibitrices de la douleur et quels médiateurs libèrent-elles ?","c":10,"options":[{"t":"De la substance grise périaqueducale, relayées par le noyau du raphé, libérant endorphines et enképhalines","correct":true,"j":"La voie inhibitrice descendante naît de la substance grise périaqueducale, fait relais dans le noyau du raphé et libère des opioïdes endogènes (endorphines, enképhalines)."},{"t":"De l'amygdale, relayées par le système limbique, libérant hormones de stress et adrénaline","j":"L'amygdale et le système limbique appartiennent à la voie facilitatrice liée au stress, qui augmente la sensibilité au lieu de l'inhiber."},{"t":"De la substance grise périaqueducale, relayées par le noyau du raphé, libérant substance P et glutamate","j":"L'origine est exacte, mais la substance P et le glutamate sont pro-nociceptifs, non les opioïdes libérés par cette voie."}]},
+    {"q":"Comment les voies descendantes facilitatrices augmentent-elles la sensibilité à la douleur ?","c":10,"options":[{"t":"Le stress et la peur activent le système limbique et l'amygdale, ce qui accroît la sensibilité douloureuse","correct":true,"j":"La voie facilitatrice est mise en jeu par le stress et la peur, qui activent le système limbique et l'amygdale et augmentent la sensibilité."},{"t":"Le stress et la peur activent la substance grise périaqueducale, ce qui accroît la sensibilité douloureuse","j":"La substance grise périaqueducale appartient à la voie inhibitrice qui réduit la douleur, elle n'amplifie pas la sensibilité."},{"t":"La relaxation et le calme activent le système limbique et l'amygdale, ce qui accroît la sensibilité douloureuse","j":"La relaxation et le calme ferment la porte et diminuent la douleur ; ce sont le stress et la peur qui activent cette voie."}]},
+    {"q":"Dans le traitement central de la douleur, quels sont les rôles respectifs du cortex cingulaire antérieur et de la formation réticulaire ?","c":10,"options":[{"t":"Le cingulaire antérieur relie douleur physique et émotion, la formation réticulaire gère l'alerte automatique","correct":true,"j":"Le cortex cingulaire antérieur fait le lien entre douleur physique et charge émotionnelle, tandis que la formation réticulaire gère l'alerte automatique."},{"t":"Le cingulaire antérieur gère l'alerte automatique, la formation réticulaire relie douleur physique et émotion","j":"Les rôles sont inversés : c'est le cingulaire antérieur qui associe douleur et émotion, et la réticulaire qui gère l'alerte."},{"t":"Le cingulaire antérieur relie douleur physique et émotion, la formation réticulaire libère les opioïdes endogènes","j":"Le cingulaire antérieur relie bien douleur et émotion, mais la libération d'opioïdes revient au noyau du raphé, non à la formation réticulaire."}]},
+    {"q":"Parmi ces ensembles de facteurs, lequel OUVRE la porte de la douleur selon la théorie du portillon ?","c":10,"options":[{"t":"L'anxiété, la colère et les pensées catastrophiques","correct":true,"j":"Anxiété, colère et pensées catastrophiques figurent parmi les facteurs qui OUVRENT la porte et amplifient la douleur."},{"t":"La relaxation, l'attitude positive et le soutien social","j":"Relaxation, attitude positive et soutien social FERMENT la porte au lieu de l'ouvrir."},{"t":"La distraction, la confiance et le sentiment de contrôle","j":"Distraction, confiance et sentiment de contrôle sont des facteurs qui FERMENT la porte, non qui l'ouvrent."}]},
+    {"q":"Parmi ces ensembles de facteurs, lequel FERME la porte de la douleur selon la théorie du portillon ?","c":10,"options":[{"t":"Le soutien social, la relaxation et le sentiment de contrôle","correct":true,"j":"Soutien social, relaxation et sentiment de contrôle font partie des facteurs qui FERMENT la porte et réduisent la douleur."},{"t":"La peur du mouvement, la dépression et la concentration sur la douleur","j":"Peur, dépression et focalisation excessive sur la douleur OUVRENT la porte au lieu de la fermer."},{"t":"La gravité de la blessure, l'anxiété et les pensées catastrophiques","j":"Gravité de la blessure, anxiété et catastrophisme sont des facteurs qui OUVRENT la porte, non qui la ferment."}]},
+    {"q":"Dans le modèle d'évitement de la peur, en quoi consiste la voie d'adaptation saine ?","c":10,"options":[{"t":"Percevoir la douleur comme gérable et temporaire, maintenir l'activité et parvenir à la récupération","correct":true,"j":"La voie saine repose sur une perception de la douleur comme gérable et transitoire, le maintien de l'activité et l'évolution vers la récupération."},{"t":"Percevoir la douleur comme menaçante et durable, éviter l'activité et parvenir à la récupération","j":"Percevoir la douleur comme menaçante et éviter l'activité relève de la voie du catastrophisme, qui ne mène pas à la récupération."},{"t":"Percevoir la douleur comme gérable et temporaire, réduire l'activité et parvenir à la récupération","j":"Le maintien de l'activité est essentiel : réduire l'activité oriente vers le déconditionnement, non vers la récupération."}]},
+    {"q":"Dans le modèle d'évitement de la peur, quel enchaînement décrit la voie du catastrophisme ?","c":10,"options":[{"t":"Peur de la douleur, kinésiophobie, déconditionnement, hypervigilance et sensibilisation centrale, jusqu'à la douleur chronique","correct":true,"j":"La voie du catastrophisme enchaîne peur de la douleur, kinésiophobie, déconditionnement, hypervigilance et sensibilisation centrale, aboutissant à la douleur chronique et à l'invalidité."},{"t":"Peur de la douleur, maintien de l'activité, reconditionnement et récupération, jusqu'à la disparition de la douleur","j":"Maintien de l'activité et récupération décrivent la voie d'adaptation saine, à l'opposé de la voie du catastrophisme."},{"t":"Peur de la douleur, kinésiophobie, reconditionnement, hypervigilance et analgésie, jusqu'à la douleur chronique","j":"Le catastrophisme conduit au déconditionnement et à la sensibilisation centrale, non à un reconditionnement ni à une analgésie."}]},
+    {"q":"Selon le modèle du catastrophisme, quelles sont ses trois composantes ?","c":10,"options":[{"t":"Rumination, grossissement (magnification) et désespoir.","correct":true,"j":"Ce sont exactement les trois composantes du catastrophisme décrites dans le cours."},{"t":"Rumination, évitement du mouvement et affaiblissement physique.","j":"Évitement et affaiblissement relèvent du cycle entretenu, non des composantes elles-mêmes."},{"t":"Magnification, hypervigilance et impuissance apprise.","j":"Notions voisines de la douleur, mais ce ne sont pas les composantes qui définissent le catastrophisme."}]},
+    {"q":"Dans le cycle perpétuel du catastrophisme, pourquoi l'évitement du mouvement aggrave-t-il la douleur chronique ?","c":10,"options":[{"t":"Il laisse la lésion cicatriser tout en réactivant périodiquement les pensées catastrophiques.","j":"Le modèle ne décrit pas une cicatrisation protectrice : l'évitement entretient le problème."},{"t":"Il réduit la peur liée au mouvement et diminue progressivement la douleur ressentie.","j":"L'évitement entretient au contraire la peur et la douleur, il ne les diminue pas."},{"t":"Il entraîne un affaiblissement (déconditionnement) qui alimente et perpétue la douleur.","correct":true,"j":"L'évitement affaiblit le corps, bouclant le cycle douleur → catastrophisme → douleur chronique."}]},
+    {"q":"Comment l'apprentissage associé à des stimuli module-t-il la douleur ?","c":10,"options":[{"t":"Les stimuli aversifs, en augmentant la peur, réduisent la douleur ; les appétitifs l'augmentent.","j":"La direction est inversée : l'aversif majore la douleur, l'appétitif l'atténue."},{"t":"Les stimuli aversifs, en augmentant la peur, intensifient la douleur ; les appétitifs la réduisent.","correct":true,"j":"Conforme au cours : la peur induite par l'aversif majore la douleur, l'appétitif l'atténue."},{"t":"Les stimuli aversifs comme appétitifs augmentent la douleur en renforçant la vigilance.","j":"Les stimuli appétitifs diminuent la douleur, ils ne l'augmentent pas."}]},
+    {"q":"Quelle affirmation décrit le mieux le lien entre douleur chronique et troubles anxio-dépressifs ?","c":10,"options":[{"t":"Environ un tiers des patients présente une anxiété/dépression, associée à une douleur plus intense.","correct":true,"j":"Environ un tiers des personnes douloureuses chroniques sont concernées, avec une douleur plus forte."},{"t":"Une minorité négligeable présente une anxiété/dépression, sans effet sur l'intensité de la douleur.","j":"La proportion n'est pas négligeable et le lien avec une douleur accrue est établi."},{"t":"Une majorité présente une anxiété/dépression, laquelle diminue l'intensité de la douleur.","j":"L'anxiété/dépression s'associe à une douleur plus forte, non plus faible."}]},
+    {"q":"Des soldats blessés au combat demandent moins d'analgésiques que des civils présentant des blessures comparables. Qu'illustre ce constat ?","c":10,"options":[{"t":"La gravité objective de la lésion détermine à elle seule l'intensité de la douleur.","j":"Si la gravité seule comptait, des blessures comparables donneraient une douleur comparable."},{"t":"La signification attribuée à la blessure module l'intensité de la douleur ressentie.","correct":true,"j":"Le sens donné à la blessure modifie l'intensité ressentie, à lésion comparable."},{"t":"L'accoutumance aux analgésiques explique le moindre recours aux antalgiques.","j":"Le constat renvoie au sens donné à la blessure, non à une accoutumance pharmacologique."}]},
+    {"q":"Quel est l'effet d'un sentiment d'auto-efficacité élevé (« je peux supporter la douleur ») ?","c":10,"options":[{"t":"Il s'associe à une douleur moindre et à une meilleure récupération.","correct":true,"j":"Une auto-efficacité élevée s'accompagne de moins de douleur et d'une meilleure récupération."},{"t":"Il s'associe à une douleur plus forte car il conduit à négliger les signaux d'alerte.","j":"L'auto-efficacité élevée réduit la douleur, elle ne l'augmente pas."},{"t":"Il reste sans effet sur la douleur et n'influence que la vitesse de récupération.","j":"Elle agit aussi sur l'intensité de la douleur, pas seulement sur la récupération."}]},
+    {"q":"Quel est l'effet respectif de la focalisation attentionnelle et de la distraction sur la douleur ?","c":10,"options":[{"t":"Se focaliser sur la douleur en diminue l'intensité ; se distraire l'augmente.","j":"La direction est inversée : la focalisation majore la douleur, la distraction l'atténue."},{"t":"La focalisation et la distraction augmentent toutes deux la douleur en mobilisant l'attention.","j":"La distraction diminue la douleur, elle ne l'augmente pas."},{"t":"Se focaliser sur la douleur en augmente l'intensité ; se distraire la diminue.","correct":true,"j":"Conforme au cours : l'attention portée à la douleur l'intensifie, la distraction la réduit."}]},
+    {"q":"Qu'est-ce qui caractérise l'effet placebo ?","c":10,"options":[{"t":"Une amélioration réelle sans substance active, liée aux attentes positives et libérant des endorphines.","correct":true,"j":"L'effet placebo est une amélioration réelle liée aux attentes, via la libération d'endorphines."},{"t":"Une amélioration réelle produite par l'action pharmacologique directe d'un principe actif.","j":"Par définition, le placebo ne contient pas de principe actif pharmacologique."},{"t":"Une amélioration purement imaginaire, sans libération d'endorphines ni effet réel.","j":"L'amélioration est réelle et physiologique (endorphines), non purement imaginaire."}]},
+    {"q":"Concernant l'effet nocebo et la douleur, quelle proposition est exacte ?","c":10,"options":[{"t":"Des attentes négatives déclenchent un stress qui, via l'amygdale, augmente réellement la douleur ressentie.","correct":true,"j":"L'effet nocebo repose sur des attentes négatives qui, par le stress et l'amygdale, majorent réellement la douleur."},{"t":"Des attentes positives déclenchent une détente qui, via l'amygdale, diminue réellement la douleur ressentie.","j":"Ce mécanisme décrit l'effet placebo ; le nocebo part d'attentes négatives, non positives."},{"t":"Des attentes négatives déclenchent un stress qui, sans effet biologique réel, laisse la douleur inchangée.","j":"Faux : les effets du nocebo sont bien réels sur le plan biologique, pas une simple impression."}]},
+    {"q":"La sensibilisation centrale se caractérise par :","c":11,"options":[{"t":"Un SNC hyperréactif où un stimulus non douloureux déclenche une réponse exagérée (allodynie) et un stimulus douloureux devient indolore (hyperalgésie).","j":"Les définitions d'allodynie et d'hyperalgésie sont ici inversées."},{"t":"Un SNC hyperréactif où un stimulus non douloureux devient douloureux (allodynie) et un stimulus douloureux déclenche une réponse exagérée (hyperalgésie).","correct":true,"j":"Allodynie = douleur à un stimulus normalement non douloureux ; hyperalgésie = réponse exagérée à un stimulus douloureux."},{"t":"Un SNC hyporéactif où un stimulus non douloureux devient douloureux (hyperalgésie) et un stimulus douloureux est sous-perçu (allodynie).","j":"La sensibilisation centrale rend le SNC hyperréactif, non hyporéactif, et les termes sont mal attribués."}]},
+    {"q":"Concernant les liens entre anxiété et souvenirs de douleur :","c":11,"options":[{"t":"L'anxiété efface les souvenirs de douleur, ce qui contribue à apaiser l'expérience douloureuse actuelle.","j":"L'anxiété n'efface pas les souvenirs de douleur et n'apaise pas la douleur."},{"t":"L'anxiété reste sans lien avec les souvenirs de douleur, qui n'influencent pas l'expérience douloureuse actuelle.","j":"Un lien existe : l'anxiété peut activer les souvenirs de douleur."},{"t":"L'anxiété peut réactiver des souvenirs de douleur, ce qui contribue à entretenir l'expérience douloureuse actuelle.","correct":true,"j":"L'anxiété peut activer des souvenirs de douleur et ainsi entretenir l'expérience douloureuse."}]},
+    {"q":"Par quel mécanisme l'anxiété peut-elle générer des douleurs musculaires ?","c":11,"options":[{"t":"Par une activation du système sympathique entraînant contractures, spasmes musculaires et douleurs myofasciales.","correct":true,"j":"L'activation sympathique liée à l'anxiété génère contractures, spasmes et douleurs myofasciales."},{"t":"Par une activation du système parasympathique entraînant relâchement, détente musculaire et disparition des douleurs.","j":"C'est le système sympathique, non parasympathique, qui est activé, et il ne provoque pas de détente."},{"t":"Par une activation du système sympathique entraînant un relâchement musculaire protégeant des douleurs myofasciales.","j":"L'activation sympathique crée des tensions musculaires, elle ne protège pas des douleurs."}]},
+    {"q":"Selon la théorie de l'attribution appliquée à la douleur :","c":11,"options":[{"t":"Attribuer sa douleur à des causes rassurantes, contrôlables et passagères tend à l'aggraver.","j":"Ces attributions rassurantes tendent à réduire la douleur, pas à l'aggraver."},{"t":"Attribuer sa douleur à des causes menaçantes, incontrôlables et permanentes tend à l'aggraver.","correct":true,"j":"Interpréter la douleur comme menaçante, incontrôlable et permanente en majore le vécu."},{"t":"Attribuer sa douleur à des causes menaçantes, incontrôlables et permanentes tend à la soulager.","j":"Ces attributions menaçantes aggravent la douleur au lieu de la soulager."}]},
+    {"q":"Comment la dépression influence-t-elle la douleur au niveau des neurotransmetteurs ?","c":11,"options":[{"t":"Elle augmente la sérotonine et la dopamine, qui inhibent la douleur, ce qui réduit la douleur ressentie.","j":"La dépression abaisse ces neurotransmetteurs, elle ne les augmente pas."},{"t":"Elle abaisse la sérotonine et la dopamine, qui amplifient la douleur, ce qui réduit la douleur ressentie.","j":"Ces neurotransmetteurs inhibent la douleur ; leur baisse l'augmente, elle ne la réduit pas."},{"t":"Elle abaisse la sérotonine et la dopamine, qui inhibent la douleur, ce qui augmente la douleur ressentie.","correct":true,"j":"La dépression réduit sérotonine et dopamine, régulateurs inhibiteurs de la douleur, d'où une douleur accrue."}]},
+    {"q":"Comment la baisse de motivation liée à la dépression retentit-elle sur les muscles ?","c":11,"options":[{"t":"Elle favorise l'inactivité, conduisant à un déconditionnement et à une atrophie musculaire.","correct":true,"j":"La perte de motivation entraîne l'inactivité, source de déconditionnement et d'atrophie musculaire."},{"t":"Elle favorise l'inactivité, conduisant à un renforcement et à une hypertrophie musculaire.","j":"L'inactivité affaiblit les muscles ; elle ne les renforce pas."},{"t":"Elle favorise l'activité, prévenant tout déconditionnement et toute atrophie musculaire.","j":"La dépression diminue la motivation et l'activité, elle ne les augmente pas."}]},
+    {"q":"Quel est l'effet d'une baisse de la qualité du sommeil sur la douleur ?","c":11,"options":[{"t":"Elle élève le seuil de douleur, rendant la personne moins sensible à la douleur.","j":"Un mauvais sommeil abaisse le seuil de douleur ; il ne rend pas moins sensible."},{"t":"Elle abaisse le seuil de douleur, rendant la personne plus sensible à la douleur.","correct":true,"j":"Une moindre qualité de sommeil abaisse le seuil de douleur et accroît la sensibilité."},{"t":"Elle abaisse le seuil de douleur, rendant la personne moins sensible à la douleur.","j":"Abaisser le seuil de douleur augmente la sensibilité, il ne la diminue pas."}]},
+    {"q":"Comment définit-on le mieux la kinésiophobie ?","c":11,"options":[{"t":"Une peur excessive et irrationnelle du mouvement, reposant sur une perception de menace plutôt que sur la gravité réelle.","correct":true,"j":"Correct : la kinésiophobie est une peur excessive, irrationnelle et invalidante du mouvement, fondée sur la perception de menace et non sur la gravité médicale réelle."},{"t":"Une peur mesurée du mouvement, proportionnée à la gravité médicale réelle de la lésion en cause.","j":"Faux : elle n'est justement pas proportionnée à la gravité réelle ; elle est excessive et irrationnelle."},{"t":"Une appréhension passagère du mouvement, déterminée par l'intensité objective de l'atteinte des tissus.","j":"Faux : elle est invalidante et durable, et dépend de la perception de menace, non de l'atteinte objective."}]},
+    {"q":"Quelles sont les deux composantes de la kinésiophobie ?","c":11,"options":[{"t":"La peur de la douleur et les croyances de vulnérabilité.","correct":true,"j":"Correct : ses deux composantes sont la peur de la douleur et les croyances de vulnérabilité."},{"t":"La peur de la douleur et les croyances d'invulnérabilité.","j":"Faux : la seconde composante est la croyance de vulnérabilité, et non d'invulnérabilité."},{"t":"La peur de la chute et les croyances de vulnérabilité.","j":"Faux : la première composante est la peur de la douleur, et non la peur de la chute."}]},
+    {"q":"Parmi les propositions suivantes, laquelle correspond à des prédicteurs de la kinésiophobie ?","c":11,"options":[{"t":"Un catastrophisme élevé associé à une faible auto-efficacité.","correct":true,"j":"Correct : le catastrophisme élevé et une faible auto-efficacité figurent parmi les prédicteurs."},{"t":"Un catastrophisme faible associé à une auto-efficacité élevée.","j":"Faux : ce profil est protecteur ; ce sont le catastrophisme élevé et la faible auto-efficacité qui prédisent."},{"t":"Un catastrophisme élevé associé à une auto-efficacité élevée.","j":"Faux : le prédicteur est une auto-efficacité faible, et non élevée."}]},
+    {"q":"Que mesure le HADS ?","c":12,"options":[{"t":"Conjointement l'anxiété et la dépression.","correct":true,"j":"Correct : le HADS évalue conjointement l'anxiété et la dépression."},{"t":"Conjointement l'anxiété et le catastrophisme.","j":"Faux : le HADS ne mesure pas le catastrophisme, évalué par le PCS."},{"t":"Conjointement la dépression et la kinésiophobie.","j":"Faux : le HADS ne mesure pas la kinésiophobie, évaluée par le TSK-11."}]},
+    {"q":"Selon quelles dimensions le BDI-II évalue-t-il la dépression ?","c":12,"options":[{"t":"Une dimension cognitivo-affective et une dimension somatique.","correct":true,"j":"Correct : le BDI-II couvre une dimension cognitivo-affective et une dimension somatique."},{"t":"Une dimension cognitivo-affective et une dimension motrice.","j":"Faux : le BDI-II ne comporte pas de dimension motrice ; la seconde est somatique."},{"t":"Une dimension sensorielle et une dimension somatique.","j":"Faux : la première dimension est cognitivo-affective, et non sensorielle."}]},
+    {"q":"À travers quelles composantes le PCS évalue-t-il le catastrophisme ?","c":12,"options":[{"t":"La rumination, la magnification et le désespoir.","correct":true,"j":"Correct : le PCS mesure le catastrophisme via la rumination, la magnification et le désespoir."},{"t":"La rumination, la minimisation et le désespoir.","j":"Faux : la composante est la magnification, et non la minimisation."},{"t":"La rumination, la magnification et l'espoir.","j":"Faux : la troisième composante est le désespoir, et non l'espoir."}]},
+    {"q":"Que mesure le TSK-11 ?","c":12,"options":[{"t":"La kinésiophobie, liée à l'évitement de l'activité et de la douleur.","correct":true,"j":"Correct : le TSK-11 mesure la kinésiophobie, marquée par l'évitement d'activité et de douleur."},{"t":"Le catastrophisme, lié à l'évitement de l'activité et de la douleur.","j":"Faux : le catastrophisme relève du PCS, non du TSK-11."},{"t":"La kinésiophobie, liée à la recherche de l'activité et de la douleur.","j":"Faux : la kinésiophobie renvoie à l'évitement, et non à la recherche de l'activité."}]},
+    {"q":"Quel est le statut des questionnaires utilisés en kinésithérapie ?","c":12,"options":[{"t":"Des outils d'évaluation qui ne posent pas de diagnostic.","correct":true,"j":"Correct : en kiné, les questionnaires servent à l'évaluation et ne sont pas diagnostiques."},{"t":"Des outils diagnostiques qui permettent de poser un diagnostic.","j":"Faux : ils ne permettent pas de poser un diagnostic."},{"t":"Des outils d'évaluation qui remplacent l'examen diagnostique.","j":"Faux : ils ne remplacent pas l'examen ; ils ne sont pas diagnostiques."}]},
+    {"q":"Concernant l'auto-évaluation de la douleur, quelle affirmation en constitue une limite reconnue ?","c":12,"options":[{"t":"Elle suppose des compétences verbales et peut être altérée par une mémoire imparfaite de la douleur.","correct":true,"j":"Exact : l'auto-évaluation exige des capacités verbales et reste sensible aux imperfections de la mémoire de la douleur."},{"t":"Elle s'affranchit du contexte de l'entretien et reflète fidèlement la douleur ressentie.","j":"Faux : l'entretien influence la réponse et la douleur rapportée peut être déformée."},{"t":"Elle ne dépend pas des capacités verbales du patient et exclut toute déformation.","j":"Faux : elle requiert justement des compétences verbales et une déformation reste possible."}]},
+    {"q":"Selon les données présentées, comment le genre influence-t-il la verbalisation de la douleur ?","c":12,"options":[{"t":"Les hommes tendent à verbaliser moins leur douleur en présence de femmes.","correct":true,"j":"Exact : les hommes verbalisent moins la douleur devant les femmes."},{"t":"Les femmes tendent à verbaliser moins leur douleur en présence d'hommes.","j":"Faux : c'est chez les hommes, et non les femmes, que la verbalisation diminue devant l'autre sexe."},{"t":"Les hommes tendent à verbaliser davantage leur douleur en présence de femmes.","j":"Faux : la verbalisation masculine diminue, et non augmente, en présence de femmes."}]},
+    {"q":"Quelles variations physiologiques accompagnent typiquement la douleur ?","c":12,"options":[{"t":"Une augmentation de la fréquence cardiaque et une diminution de la température périphérique.","correct":true,"j":"Exact : la douleur s'accompagne d'une hausse de la fréquence cardiaque et d'une baisse de la température périphérique."},{"t":"Une diminution de la fréquence cardiaque et une augmentation de la température périphérique.","j":"Faux : la fréquence cardiaque augmente et la température périphérique diminue, l'inverse est décrit ici."},{"t":"Une augmentation de la fréquence cardiaque et une augmentation de la température périphérique.","j":"Faux : la fréquence cardiaque augmente bien, mais la température périphérique diminue."}]},
+    {"q":"Qu'est-ce qui caractérise l'approche multimodale en kinésithérapie ?","c":13,"options":[{"t":"Elle combine des techniques passives, actives et des stratégies éducatives, avec de meilleurs résultats dans la douleur chronique.","correct":true,"j":"Exact : l'approche multimodale associe passif, actif et éducation, et est la plus efficace dans la douleur chronique."},{"t":"Elle combine des techniques passives et actives, mais exclut les stratégies éducatives, dans la douleur chronique.","j":"Faux : les stratégies éducatives font partie intégrante de l'approche multimodale."},{"t":"Elle combine des techniques actives et des stratégies éducatives, mais exclut les techniques passives, dans la douleur aiguë.","j":"Faux : les techniques passives sont incluses et le bénéfice maximal concerne la douleur chronique."}]},
+    {"q":"Quel est le rôle de l'éducation à la douleur parmi les traitements cognitifs ?","c":13,"options":[{"t":"Elle constitue la première ligne : elle transforme la menace en information gérable et diminue le catastrophisme.","correct":true,"j":"Exact : première ligne des traitements cognitifs, elle rend la menace gérable et réduit le catastrophisme."},{"t":"Elle constitue un recours de dernière ligne : elle entretient la menace et augmente le catastrophisme.","j":"Faux : elle est la première ligne et réduit, au lieu de l'entretenir, le catastrophisme."},{"t":"Elle constitue la première ligne : elle transforme l'information en menace et diminue l'adhésion.","j":"Faux : elle transforme la menace en information et augmente l'adhésion, non l'inverse."}]},
+    {"q":"Quel est l'effet du mindfulness (pleine conscience) dans la prise en charge de la douleur ?","c":13,"options":[{"t":"Il contribue à réduire l'hypervigilance à la douleur.","correct":true,"j":"Exact : le mindfulness diminue l'hypervigilance."},{"t":"Il contribue à renforcer l'hypervigilance à la douleur.","j":"Faux : il diminue l'hypervigilance, il ne la renforce pas."},{"t":"Il reste sans effet sur l'hypervigilance à la douleur.","j":"Faux : un effet existe, l'hypervigilance étant réduite."}]},
+    {"q":"Quel est l'objectif de l'exposition progressive au mouvement ?","c":13,"options":[{"t":"Réduire progressivement la kinésiophobie, c'est-à-dire la peur du mouvement.","correct":true,"j":"Exact : l'exposition progressive au mouvement combat la kinésiophobie."},{"t":"Entretenir la kinésiophobie afin de limiter les mouvements douloureux.","j":"Faux : l'objectif est de réduire la kinésiophobie, non de l'entretenir."},{"t":"Supprimer tout mouvement pour ne pas déclencher la kinésiophobie.","j":"Faux : elle réintroduit progressivement le mouvement plutôt que de l'éviter."}]},
+    {"q":"Parmi les techniques cognitivo-comportementales complémentaires, comment sont conçus les programmes de reprise d'activité ?","c":13,"options":[{"t":"Ils sont fondés sur la capacité du patient et non sur la douleur ressentie.","correct":true,"j":"Exact : ces programmes s'appuient sur la capacité, et non sur la douleur."},{"t":"Ils sont fondés sur la douleur ressentie et non sur la capacité du patient.","j":"Faux : ils reposent sur la capacité, non sur la douleur ressentie."},{"t":"Ils sont fondés sur l'évitement du mouvement plutôt que sur la capacité du patient.","j":"Faux : ils encouragent l'activité selon la capacité, à l'opposé de l'évitement."}]},
+    {"q":"Selon le cours, quelle proportion des patients atteints de maladies chroniques ne suit pas correctement son traitement ?","c":14,"options":[{"t":"Entre 20 et 50 % des patients ne suivent pas correctement leur traitement","j":"Faux : cette fourchette sous-estime le phénomène, que le cours établit entre 50 et 80 %."},{"t":"Entre 50 et 80 % des patients ne suivent pas correctement leur traitement","correct":true,"j":"Exact : le cours retient qu'entre 50 et 80 % des patients chroniques ne suivent pas correctement leur traitement."},{"t":"Entre 80 et 95 % des patients ne suivent pas correctement leur traitement","j":"Faux : cette fourchette surestime le phénomène, que le cours situe entre 50 et 80 %."}]},
+    {"q":"Selon le cours, en kinésithérapie, quelle proportion des patients ne respecte pas les recommandations de traitement ?","c":14,"options":[{"t":"Entre 30 et 50 % des patients ne respectent pas les recommandations de traitement","j":"Faux : cette fourchette est trop basse ; en kinésithérapie le cours indique 50 à 66 %."},{"t":"Entre 66 et 80 % des patients ne respectent pas les recommandations de traitement","j":"Faux : cette fourchette est trop haute ; en kinésithérapie le cours indique 50 à 66 %."},{"t":"Entre 50 et 66 % des patients ne respectent pas les recommandations de traitement","correct":true,"j":"Exact : le cours précise qu'en kinésithérapie 50 à 66 % des patients ne respectent pas les recommandations."}]},
+    {"q":"Que traduit le « paradoxe de l'adhérence » présenté dans le cours ?","c":14,"options":[{"t":"Une hausse de l'adhérence s'accompagne d'une baisse du nombre de séances nécessaires","correct":true,"j":"Exact : c'est le paradoxe énoncé, une adhérence qui augmente s'accompagne d'une diminution des séances."},{"t":"Une hausse de l'adhérence s'accompagne d'une hausse du nombre de séances nécessaires","j":"Faux : le paradoxe décrit l'inverse, l'adhérence qui augmente fait baisser le nombre de séances."},{"t":"Le nombre de séances suivies reflète fidèlement le niveau d'adhérence du patient","j":"Faux : justement, la présence aux séances ne suffit pas à garantir l'adhérence, qui ne s'y réduit pas."}]},
+    {"q":"Selon la classification du cours, à quel niveau de conséquences de la non-adhérence rattache-t-on la résistance aux médicaments ?","c":14,"options":[{"t":"Aux conséquences individuelles, qui concernent la santé personnelle du patient","j":"Faux : les conséquences individuelles portent sur la santé personnelle, non sur la résistance aux médicaments."},{"t":"Aux conséquences collectives, qui relèvent de la santé publique","correct":true,"j":"Exact : la résistance aux médicaments et la propagation des maladies sont des conséquences collectives (santé publique)."},{"t":"Aux conséquences sociales, qui renvoient aux pertes économiques et aux coûts","j":"Faux : les conséquences sociales renvoient aux pertes économiques et aux coûts, non à la résistance aux médicaments."}]},
+    {"q":"Comment le cours définit-il la motivation ?","c":14,"options":[{"t":"Le processus qui initie, guide et soutient les comportements orientés vers un objectif, sous l'effet de facteurs internes ou externes","correct":true,"j":"Exact : c'est la définition du cours, un processus qui initie, guide et soutient l'action vers un objectif, par facteurs internes ou externes."},{"t":"Le processus qui initie et soutient les comportements orientés vers un objectif, sous l'effet des seuls facteurs externes","j":"Faux : le cours inclut aussi les facteurs internes (besoins, désirs, intérêts), pas uniquement les facteurs externes."},{"t":"Le processus qui interrompt et réoriente les comportements afin d'éviter un objectif perçu comme menaçant","j":"Faux : la motivation soutient et guide l'action vers un objectif, elle ne l'interrompt pas pour l'éviter."}]},
+    {"q":"Un patient poursuit ses exercices parce qu'il éprouve du plaisir à constater ses propres progrès. De quelle motivation s'agit-il et à quoi est-elle liée ?","c":14,"options":[{"t":"Une motivation extrinsèque, liée à l'auto-efficacité (compliments et récompenses reçus)","j":"Faux : la motivation extrinsèque vient de l'extérieur (compliments, récompenses) ; le plaisir de progresser relève de l'intrinsèque."},{"t":"Une motivation intrinsèque, liée aux incitations extérieures (pressions et bénéfices attendus)","j":"Faux : le type est bien intrinsèque, mais elle est liée à l'auto-efficacité, non aux incitations extérieures."},{"t":"Une motivation intrinsèque, liée à l'auto-efficacité (plaisir et sentiment de réussir)","correct":true,"j":"Exact : venue de l'intérieur (plaisir, intérêt) et liée à l'auto-efficacité, c'est la motivation intrinsèque."}]},
+    {"q":"Quelle situation illustre une motivation extrinsèque au sens du cours ?","c":14,"options":[{"t":"Le patient poursuit ses exercices parce qu'il les trouve intéressants et satisfaisants en soi","j":"Faux : trouver l'activité satisfaisante en soi relève de la motivation intrinsèque, qui vient de l'intérieur."},{"t":"Le patient poursuit ses exercices parce qu'il reçoit des compliments et des récompenses","correct":true,"j":"Exact : compliments et récompenses viennent de l'extérieur, c'est la motivation extrinsèque."},{"t":"Le patient poursuit ses exercices parce qu'il ressent du plaisir à progresser par lui-même","j":"Faux : le plaisir de progresser par soi-même est une motivation intrinsèque, liée à l'auto-efficacité."}]},
+    {"q":"Selon le cours, comment le kinésithérapeute doit-il utiliser les facteurs de motivation du patient ?","c":14,"options":[{"t":"Privilégier les facteurs extrinsèques tout en aidant le patient à trouver ses facteurs intrinsèques","correct":true,"j":"Exact : c'est la consigne du cours, privilégier l'extrinsèque tout en aidant le patient à faire émerger l'intrinsèque."},{"t":"Privilégier les facteurs intrinsèques tout en aidant le patient à trouver ses facteurs extrinsèques","j":"Faux : les deux rôles sont inversés ; le kiné privilégie l'extrinsèque et aide à trouver l'intrinsèque."},{"t":"S'en tenir aux facteurs extrinsèques sans chercher à développer les facteurs intrinsèques","j":"Faux : le kiné ne se limite pas à l'extrinsèque, il aide aussi le patient à trouver ses facteurs intrinsèques."}]},
+    {"q":"Concernant les bénéfices secondaires de la maladie, quelle proposition est exacte ?","c":14,"options":[{"t":"Ce sont des avantages, souvent inconscients, retirés du maintien de l'état de malade : attention, soutien, temps libre ou avantages financiers.","correct":true,"j":"Définition exacte : avantages tirés de rester malade, le plus souvent inconscients."},{"t":"Ce sont les causes directes de la baisse de motivation, liées à la douleur, à la fatigue et au découragement du patient.","j":"Le cours distingue justement les bénéfices secondaires des causes directes de baisse de motivation."},{"t":"Ce sont des avantages toujours conscients, recherchés délibérément par le patient dans un but de compensation financière.","j":"Ces bénéfices sont le plus souvent inconscients, non recherchés délibérément."}]},
+    {"q":"L'observance thérapeutique se définit comme :","c":14,"options":[{"t":"Le degré de conformité entre les prescriptions et le comportement du patient (médicaments, doses, horaires, règles hygiéno-diététiques).","correct":true,"j":"C'est bien la mesure de la conformité entre prescription et comportement réel."},{"t":"Le processus actif et collaboratif par lequel le patient adhère aux recommandations convenues avec son soignant.","j":"Ceci décrit l'adhésion, processus actif et centré sur le patient, non l'observance."},{"t":"L'obéissance passive du patient qui applique les prescriptions sans jamais les questionner ni les négocier.","j":"Ceci correspond à la conformité, obéissance passive, et non à l'observance."}]},
+    {"q":"La conformité (compliance au sens strict) correspond à :","c":14,"options":[{"t":"Une obéissance passive du patient qui suit les prescriptions sans les questionner, dans une relation paternaliste.","correct":true,"j":"Définition exacte : obéissance passive dans une relation paternaliste."},{"t":"Un engagement actif du patient qui négocie et valide avec le soignant les objectifs du traitement.","j":"Cet engagement actif et négocié caractérise l'adhésion, pas la conformité."},{"t":"Le degré de correspondance mesurable entre les prescriptions faites et le comportement réel du patient.","j":"Cette mesure de correspondance définit l'observance, non la conformité."}]},
+    {"q":"L'adhésion thérapeutique se caractérise avant tout par :","c":14,"options":[{"t":"Un processus actif et collaboratif, centré sur le patient, reposant sur des recommandations convenues ensemble.","correct":true,"j":"C'est bien un processus actif, collaboratif et centré sur le patient."},{"t":"Une obéissance passive du patient aux consignes, sans discussion, dans une relation paternaliste.","j":"L'obéissance passive dans une relation paternaliste définit la conformité."},{"t":"Le simple degré de correspondance entre les prescriptions et le comportement effectivement adopté.","j":"Ce degré de correspondance mesuré renvoie à l'observance, non à l'adhésion."}]},
+    {"q":"Une patiente diminue d'elle-même la dose prescrite afin de limiter des effets indésirables gênants. Comment interpréter ce comportement selon le cours ?","c":14,"options":[{"t":"Comme une décision raisonnée (analyse coûts-avantages) dont les raisons peuvent différer de celles du soignant.","correct":true,"j":"Les patients prennent des décisions raisonnées, y compris réduire la dose pour limiter les effets."},{"t":"Comme une non-observance irrationnelle, traduisant surtout une mauvaise compréhension des consignes reçues.","j":"Le cours souligne le caractère raisonné de la décision, non l'irrationalité."},{"t":"Comme un oubli involontaire, sans intention particulière, relevant d'une non-observance non intentionnelle.","j":"Il s'agit ici d'une décision intentionnelle, non d'un oubli involontaire."}]},
+    {"q":"Parmi les facteurs d'observance liés au patient, concernant le locus de contrôle :","c":14,"options":[{"t":"Un locus de contrôle interne est associé à une meilleure adhérence qu'un locus de contrôle externe.","correct":true,"j":"Le cours indique que le locus interne favorise l'adhérence plus que le locus externe."},{"t":"Un locus de contrôle externe est associé à une meilleure adhérence qu'un locus de contrôle interne.","j":"C'est l'inverse : le locus interne, non externe, est lié à une meilleure adhérence."},{"t":"Le locus de contrôle n'a aucun effet sur l'adhérence, seule l'auto-efficacité du patient compte.","j":"Le locus de contrôle est bien un facteur patient influençant l'adhérence."}]},
+    {"q":"Parmi les facteurs d'observance liés au soignant, on retient :","c":14,"options":[{"t":"Ses connaissances, son style de communication (empathie, écoute active), ses autosoins (burnout) et sa gestion de l'incertitude.","correct":true,"j":"Ce sont précisément les facteurs liés au soignant décrits dans le cours."},{"t":"Ses croyances, son auto-efficacité, son locus de contrôle et son état émotionnel face à la maladie.","j":"Croyances, auto-efficacité et locus de contrôle sont des facteurs liés au patient."},{"t":"La complexité, la durée, la fréquence et les effets secondaires de la prise en charge proposée.","j":"Complexité, durée et effets secondaires sont des facteurs liés au traitement."}]},
+    {"q":"Parmi les facteurs d'observance liés au traitement figurent :","c":14,"options":[{"t":"Sa complexité, sa durée, sa fréquence, ses effets secondaires ainsi que la charge et les avantages perçus.","correct":true,"j":"Ce sont exactement les facteurs liés au traitement énumérés dans le cours."},{"t":"Le niveau socio-éducatif, l'âge, l'état émotionnel et les psychopathologies éventuelles du patient.","j":"Âge, niveau socio-éducatif et psychopathologies sont des facteurs liés au patient."},{"t":"L'empathie, l'écoute active, les autosoins et la gestion de l'incertitude par le soignant.","j":"Empathie, écoute active et gestion de l'incertitude sont des facteurs liés au soignant."}]},
+    {"q":"Parmi les ensembles suivants, lequel ne regroupe que des facteurs liés à la MALADIE susceptibles d'influencer l'observance ?","c":14,"options":[{"t":"La gravité, l'évolution et le pronostic de la pathologie.","correct":true,"j":"Exact : gravité, évolution et pronostic sont listés comme facteurs liés à la maladie, avec les comorbidités et les caractéristiques des symptômes (visibilité, variabilité)."},{"t":"La confiance, la continuité et la qualité de la communication.","j":"Ces éléments relèvent des facteurs liés à la relation thérapeutique, pas à la maladie elle-même."},{"t":"Les croyances, l'état émotionnel et le niveau d'éducation.","j":"Ce sont des facteurs liés au patient, distincts des facteurs propres à la maladie."}]},
+    {"q":"Parmi les propositions suivantes, laquelle ne regroupe que des facteurs liés à la relation thérapeutique et au contexte ?","c":14,"options":[{"t":"Objectifs communs, continuité des soins et soutien social.","correct":true,"j":"Objectifs communs et continuité relèvent de la relation thérapeutique ; le soutien social relève du contexte."},{"t":"Auto-efficacité, locus de contrôle et état émotionnel.","j":"Ces trois éléments sont classés parmi les facteurs liés au patient."},{"t":"Complexité du traitement, effets secondaires et pronostic.","j":"Complexité et effets secondaires relèvent du traitement, et le pronostic de la maladie."}]},
+    {"q":"Quelle attitude caractérise l'entretien motivationnel visant à augmenter la motivation au changement ?","c":15,"options":[{"t":"Une attitude empathique, centrée sur le patient, qui évite la confrontation.","correct":true,"j":"Exact : l'EM repose sur l'empathie et le centrage patient, évite la confrontation et explore l'ambivalence."},{"t":"Une attitude directive qui convainc le patient par des arguments d'autorité.","j":"Convaincre par l'autorité s'oppose à l'esprit de l'EM, qui passe de « convaincre » à « explorer et accompagner »."},{"t":"Une attitude neutre qui laisse décider sans explorer les raisons.","j":"L'EM explore activement les motivations et l'ambivalence ; ce n'est pas une simple neutralité."}]},
+    {"q":"Selon le cours, quel est le facteur prédictif le plus important du résultat de tout traitement ?","c":15,"options":[{"t":"La motivation du patient à changer.","correct":true,"j":"Exact : la motivation est présentée comme le facteur prédictif le plus important du résultat de tout traitement."},{"t":"La sévérité initiale des symptômes ressentis.","j":"La gravité des symptômes influence l'observance mais n'est pas désignée comme LE facteur prédictif principal."},{"t":"L'expérience technique du soignant traitant.","j":"L'expertise du soignant compte, mais elle n'est pas désignée comme le facteur prédictif le plus important."}]},
+    {"q":"D'après les effets de mémorisation évoqués (génération, production, enactment, enseignement), quelle situation favorise le mieux la rétention d'un exercice ?","c":15,"options":[{"t":"Réaliser soi-même l'exercice plutôt que de regarder le kiné le faire.","correct":true,"j":"Exact : l'effet d'enactment — exécuter soi-même une action améliore le rappel par rapport à l'observer."},{"t":"Observer attentivement le kiné exécuter l'exercice en silence.","j":"L'observation passive est moins efficace que la mise en acte pour la rétention."},{"t":"Lire la description de l'exercice sans la reformuler soi-même.","j":"Lire en silence sans générer ni dire soi-même retient moins (effets de génération et de production)."}]},
+    {"q":"Dans quel ordre se déroulent les quatre phases de l'entretien motivationnel ?","c":15,"options":[{"t":"Rapport, Focaliser, Évoquer, Planifier.","correct":true,"j":"Exact : on instaure la confiance, on recherche des objectifs, on fait émerger les motivations, puis on planifie."},{"t":"Focaliser, Rapport, Planifier, Évoquer.","j":"La confiance (Rapport) doit précéder la focalisation, et la planification vient toujours en dernier."},{"t":"Rapport, Planifier, Focaliser, Évoquer.","j":"La planification ne doit jamais précéder les phases Focaliser et Évoquer."}]},
+    {"q":"Que recouvrent les quatre outils de base OARS de l'entretien motivationnel ?","c":15,"options":[{"t":"Questions ouvertes, Affirmations, Reflets et Synthèses.","correct":true,"j":"Exact : OARS = questions Ouvertes, Affirmations, Réflexions (reflets) et Synthèses (résumés)."},{"t":"Questions ouvertes, Ordres, Reformulations et Suggestions.","j":"Les « ordres » et « suggestions » ne font pas partie des OARS et s'opposent à l'esprit collaboratif."},{"t":"Observations, Arguments, Recommandations et Solutions.","j":"Arguments et recommandations relèvent du registre persuasif, à l'opposé des outils OARS."}]},
+    {"q":"Un patient déclare : « J'ai vraiment besoin d'aller mieux rapidement. » Quel type de langage du changement exprime-t-il ?","c":15,"options":[{"t":"Le besoin.","correct":true,"j":"Exact : l'expression d'une nécessité (« j'ai besoin de ») traduit le langage du besoin."},{"t":"La capacité.","j":"La capacité s'exprimerait plutôt par « je pourrais » ou « je suis capable de »."},{"t":"Le désir.","j":"Le désir s'exprimerait plutôt par « j'aimerais » ou « je voudrais »."}]},
+    {"q":"Dans le cadre de l'entretien motivationnel, quelle posture le kinésithérapeute adopte-t-il vis-à-vis de son patient ?","c":15,"options":[{"t":"Un facilitateur qui accompagne le patient, considéré comme partenaire et expert de sa propre vie.","correct":true,"j":"C'est la posture attendue : le thérapeute facilite et le patient est partenaire, acteur et expert de sa vie."},{"t":"Un persuadeur qui convainc le patient, considéré comme un exécutant des consignes données.","j":"Faux : le thérapeute n'est justement pas un persuadeur et le patient n'est pas un simple exécutant."},{"t":"Un expert qui décide de la solution, le patient devant s'y conformer de façon passive.","j":"Faux : l'expert de sa vie est le patient lui-même, qui demeure acteur et non passif."}]},
+    {"q":"Comment se définit la dissonance cognitive ?","c":15,"options":[{"t":"L'inconfort lié à des pensées ou des actions contradictoires, que l'on cherche à réduire.","correct":true,"j":"C'est la définition exacte : un inconfort né de contradictions que la personne cherche à diminuer."},{"t":"Le confort lié à des pensées ou des actions cohérentes, que l'on cherche à maintenir.","j":"Faux : la dissonance est un inconfort issu de contradictions, non un confort de cohérence."},{"t":"L'inconfort lié à des pensées ou des actions contradictoires, que l'on cherche à entretenir.","j":"Faux : cet inconfort n'est pas entretenu mais au contraire cherché à être réduit."}]},
+    {"q":"Face à l'ambivalence du patient (des raisons de changer et de ne pas changer), comment le kinésithérapeute doit-il se positionner ?","c":15,"options":[{"t":"La considérer comme normale et laisser le patient la résoudre lui-même, en évitant le débat.","correct":true,"j":"Correct : l'ambivalence est normale et universelle, et le kiné évite le débat en laissant le patient trancher."},{"t":"La considérer comme anormale et aider le patient à la résoudre par un débat argumenté.","j":"Faux : l'ambivalence est normale et le kiné évite précisément le débat argumenté."},{"t":"La considérer comme normale mais la résoudre à la place du patient en tranchant le débat.","j":"Faux : c'est au patient de résoudre son ambivalence, le kiné ne tranche pas à sa place."}]},
+    {"q":"Quels sont les six stades du modèle transthéorique du changement ?","c":15,"options":[{"t":"Précontemplation, contemplation, préparation, action, maintien et rechute.","correct":true,"j":"Correct : ce sont bien les six stades du modèle, de la précontemplation à la rechute."},{"t":"Précontemplation, contemplation, action, maintien, rechute et guérison.","j":"Faux : la préparation est omise et la « guérison » n'est pas un stade du modèle."},{"t":"Contemplation, préparation, action, maintien, rechute et consolidation.","j":"Faux : la précontemplation manque et la « consolidation » ne figure pas parmi les stades."}]},
+    {"q":"Comment se caractérisent respectivement les stades de précontemplation et de contemplation ?","c":15,"options":[{"t":"En précontemplation le patient n'a pas identifié le problème ; en contemplation il est ambivalent.","correct":true,"j":"Correct : absence d'identification du problème puis ambivalence caractérisent ces deux stades."},{"t":"En précontemplation le patient est ambivalent ; en contemplation il n'a pas identifié le problème.","j":"Faux : les deux caractéristiques sont inversées par rapport aux stades décrits."},{"t":"En précontemplation le patient a identifié le problème ; en contemplation il est déjà décidé à agir.","j":"Faux : en précontemplation le problème n'est pas identifié et en contemplation le patient reste ambivalent."}]},
+    {"q":"Selon les objectifs de l'entretien motivationnel par stade, que vise-t-on prioritairement au stade de contemplation ?","c":15,"options":[{"t":"Explorer avec le patient les avantages et les inconvénients du changement.","correct":true,"j":"Correct : au stade de contemplation, l'objectif est d'explorer avantages et inconvénients du changement."},{"t":"Augmenter la perception du risque lié à l'absence de changement.","j":"Faux : renforcer la perception du risque correspond au stade de précontemplation."},{"t":"Élaborer avec le patient un plan d'action concret et conjoint.","j":"Faux : construire un plan d'action conjoint correspond au stade de préparation."}]},
+    {"q":"Pour anticiper la non-observance, deux questions identifient environ la moitié des patients à risque ; sur quoi portent-elles ?","c":15,"options":[{"t":"La perception de l'auto-efficacité et la capacité à faire face à l'effort.","correct":true,"j":"Correct : ce sont bien l'auto-efficacité perçue et la capacité à faire face à l'effort."},{"t":"La perception de la gravité de la maladie et la capacité à supporter la douleur.","j":"Faux : les deux questions ne portent ni sur la gravité perçue ni sur la tolérance à la douleur."},{"t":"La perception du soutien de l'entourage et la capacité à financer les soins.","j":"Faux : elles ne concernent ni le soutien de l'entourage ni le financement des soins."}]},
+    {"q":"Parmi les stratégies d'adhérence, quels effets la gamification produit-elle ?","c":15,"options":[{"t":"Elle augmente l'auto-efficacité, la motivation et l'intensité des répétitions.","correct":true,"j":"Correct : la gamification accroît à la fois auto-efficacité, motivation et intensité des répétitions."},{"t":"Elle augmente l'auto-efficacité et la motivation, mais réduit l'intensité des répétitions.","j":"Faux : l'intensité des répétitions est augmentée et non réduite par la gamification."},{"t":"Elle augmente la motivation et l'intensité des répétitions, mais diminue l'auto-efficacité.","j":"Faux : l'auto-efficacité est renforcée par la gamification, pas diminuée."}]},
+    {"q":"Dans une démarche d'adhérence, que recouvre l'acronyme d'un objectif « SMART » ?","c":15,"options":[{"t":"Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis.","correct":true,"j":"Ce sont exactement les cinq caractéristiques attendues d'un objectif SMART."},{"t":"Spécifiques, Motivants, Adaptables, Réversibles et Théoriquement définis.","j":"« Motivants », « Adaptables », « Réversibles » et « Théoriquement » ne font pas partie des critères SMART."},{"t":"Simples, Mesurables, Ambitieux, Réalistes et Transposables.","j":"« Simples », « Ambitieux » et « Transposables » ne correspondent pas aux critères SMART."}]},
+    {"q":"À propos de la matrice SWOT et du journal comme stratégies d'adhérence, quelle proposition est exacte ?","c":15,"options":[{"t":"La matrice SWOT explore forces, faiblesses, opportunités et menaces, et favorise la responsabilité et l'auto-efficacité.","correct":true,"j":"Ce sont bien les quatre composantes de la SWOT et la finalité attribuée à ces outils."},{"t":"La matrice SWOT explore forces, faiblesses, objectifs et moyens, et favorise surtout la dépendance au soignant.","j":"« Objectifs » et « moyens » ne sont pas des composantes, et la finalité visée n'est pas la dépendance."},{"t":"La matrice SWOT explore facilités, freins, opportunités et menaces, et vise avant tout à réduire l'auto-efficacité.","j":"« Facilités » et « freins » sont inexacts, et le but est de renforcer et non de réduire l'auto-efficacité."}]},
+    {"q":"Selon l'analyse des rôles, qu'implique le rôle de soignant ?","c":16,"options":[{"t":"Agir pour le bien-être avec professionnalisme et objectivité, avec pour privilèges l'accès à l'intimité, l'autonomie et la dominance professionnelle.","correct":true,"j":"Ce sont les devoirs (bien-être, professionnalisme, objectivité) et les privilèges décrits pour ce rôle."},{"t":"Agir pour le bien-être avec empathie et subjectivité, avec pour privilèges l'accès à l'intimité, la dépendance et la soumission professionnelle.","j":"« Subjectivité », « dépendance » et « soumission professionnelle » contredisent le rôle défini."},{"t":"Agir selon son propre intérêt avec professionnalisme et neutralité, avec pour privilèges l'accès au dossier, l'autonomie et la dominance professionnelle.","j":"Agir « selon son propre intérêt » et l'accès limité « au dossier » ne correspondent pas au rôle décrit."}]},
+    {"q":"Concernant l'axiome selon lequel « on ne peut pas ne pas communiquer », quelle affirmation est correcte ?","c":16,"options":[{"t":"Il est impossible de ne pas communiquer, car même le silence transmet un message.","correct":true,"j":"Le silence est lui-même porteur de sens : on communique donc en permanence."},{"t":"Il est possible de ne pas communiquer, à condition de garder le silence.","j":"Le silence communique aussi, on ne peut donc pas s'abstenir de communiquer."},{"t":"Il est impossible de ne pas communiquer, sauf lorsqu'on garde le silence.","j":"Le silence n'est pas une exception : il communique lui aussi."}]},
+    {"q":"Selon les axiomes de la communication, quels sont les deux aspects de toute communication ?","c":16,"options":[{"t":"Le contenu et la relation.","correct":true,"j":"Toute communication véhicule une information (contenu) et définit la relation entre interlocuteurs."},{"t":"Le contenu et le contexte.","j":"Le second aspect est la relation, et non le contexte."},{"t":"L'intention et la relation.","j":"Le premier aspect est le contenu, et non l'intention."}]},
+    {"q":"Que signifie l'axiome de la « ponctuation des séquences » de communication ?","c":16,"options":[{"t":"La nature de la relation dépend de la façon dont chacun interprète qui a commencé l'échange.","correct":true,"j":"Chaque interlocuteur ponctue la séquence en désignant un point de départ différent."},{"t":"La nature de la relation dépend du seul contenu échangé, indépendamment de qui a commencé.","j":"C'est la ponctuation des séquences, et non le seul contenu, qui structure la relation."},{"t":"La nature de la relation dépend d'un accord préalable sur qui doit commencer l'échange.","j":"Il n'y a pas d'accord : chacun interprète différemment qui a commencé."}]},
+    {"q":"Concernant les modes digital et analogique de la communication, quelle proposition est correcte ?","c":16,"options":[{"t":"Le digital correspond aux mots (verbal) et l'analogique au non-verbal, et leur divergence crée des incongruences.","correct":true,"j":"Digital = verbal, analogique = non-verbal ; leur désaccord produit des incongruences."},{"t":"Le digital correspond au non-verbal et l'analogique aux mots (verbal), et leur divergence crée des incongruences.","j":"L'attribution est inversée : le digital est verbal et l'analogique non-verbal."},{"t":"Le digital correspond aux mots (verbal) et l'analogique au non-verbal, mais ils ne peuvent jamais diverger.","j":"Leur divergence est justement la source des incongruences décrites."}]},
+    {"q":"Selon les axiomes, une communication peut être :","c":16,"options":[{"t":"Symétrique, fondée sur l'égalité, ou complémentaire, fondée sur une position haute et une position basse.","correct":true,"j":"La symétrie repose sur l'égalité et la complémentarité sur une différence de positions."},{"t":"Symétrique, fondée sur une position haute et basse, ou complémentaire, fondée sur l'égalité.","j":"Les définitions sont inversées : la symétrie est l'égalité et la complémentarité la différence."},{"t":"Symétrique, fondée sur l'égalité, ou complémentaire, fondée sur une alternance systématique des rôles.","j":"La complémentarité repose sur des positions haute/basse, et non sur une simple alternance des rôles."}]},
+    {"q":"À quel moment précis la communication peut-elle être considérée comme achevée ?","c":16,"options":[{"t":"Lorsque le récepteur retourne l'information à l'émetteur (feedback).","correct":true,"j":"Le feedback ferme la boucle : sans retour du récepteur, la communication reste inachevée."},{"t":"Lorsque l'émetteur a terminé de transmettre son message au récepteur.","j":"L'émission n'est qu'une étape ; le message peut ne pas aboutir sans retour."},{"t":"Lorsque le récepteur a bien reçu et décodé le message émis.","j":"La réception et le décodage ne garantissent pas le retour d'information : la boucle n'est pas fermée."}]},
+    {"q":"Dans la communication affective, comment se répartit l'impact du message ?","c":16,"options":[{"t":"55 % langage corporel, 38 % voix et 7 % mots.","correct":true,"j":"Le corporel domine, la voix vient ensuite et les mots pèsent le moins."},{"t":"55 % voix, 38 % langage corporel et 7 % mots.","j":"La voix ne domine pas : c'est le langage corporel qui prime."},{"t":"55 % mots, 38 % langage corporel et 7 % voix.","j":"Les mots pèsent le moins (7 %), et non le plus."}]},
+    {"q":"D'où provient surtout la première impression et en combien de temps se forme-t-elle ?","c":16,"options":[{"t":"Surtout du non-verbal, et elle se forme en quelques secondes.","correct":true,"j":"La première impression se forge très vite et repose majoritairement sur le non-verbal."},{"t":"Surtout du verbal, et elle se forme en quelques secondes.","j":"Ce n'est pas le contenu verbal mais le non-verbal qui prime dans la première impression."},{"t":"Surtout du non-verbal, mais après plusieurs minutes d'échange.","j":"L'impression se forme en quelques secondes, pas au bout de plusieurs minutes."}]},
+    {"q":"Comment qualifier l'ancien modèle de communication soignant, antérieur au consentement aux soins et au patient partenaire autonome ?","c":17,"options":[{"t":"Un modèle paternaliste, où le soignant décide pour le patient.","correct":true,"j":"L'ancien modèle était paternaliste : le soignant décidait à la place du patient."},{"t":"Un modèle partenarial, centré sur un patient autonome.","j":"Le patient partenaire correspond au modèle récent, pas à l'ancien."},{"t":"Un modèle autonomiste, fondé sur le consentement du patient.","j":"L'autonomie et le consentement ont émergé après : ils ne caractérisent pas l'ancien modèle."}]},
+    {"q":"Quel décalage existe entre professionnels et patients concernant les besoins d'information ?","c":17,"options":[{"t":"Les soignants sous-estiment l'intérêt du diagnostic/pronostic et surestiment celui du traitement.","correct":true,"j":"Les patients veulent surtout diagnostic, pronostic et cause, alors que les soignants surévaluent le traitement."},{"t":"Les soignants surestiment l'intérêt du diagnostic/pronostic et sous-estiment celui du traitement.","j":"C'est l'inverse : le diagnostic/pronostic est justement sous-estimé par les soignants."},{"t":"Les soignants et les patients accordent la même importance au diagnostic et au traitement.","j":"Il existe précisément un décalage, et non une concordance des priorités."}]},
+    {"q":"En phase terminale, que montre la relation autour de l'annonce entre patients et médecins ?","c":17,"options":[{"t":"La plupart des patients savent et veulent en parler, alors que la plupart des médecins évitent le sujet.","correct":true,"j":"80 % des patients savent qu'ils vont mourir et veulent en parler, tandis que 80 % des médecins refusent de l'aborder."},{"t":"La plupart des patients ignorent leur pronostic, alors que les médecins souhaitent l'aborder.","j":"Au contraire, les patients savent le plus souvent et souhaitent en parler."},{"t":"La plupart des patients et des médecins souhaitent aborder ouvertement le sujet.","j":"Les médecins évitent majoritairement la question : il n'y a pas de symétrie."}]},
+    {"q":"Comment les patients perçoivent-ils un professionnel qui les informe abondamment ?","c":17,"options":[{"t":"Ils lui prêtent une motivation positive à leur égard.","correct":true,"j":"Informer abondamment est interprété comme un signe d'attention bienveillante."},{"t":"Ils lui prêtent une motivation négative à leur égard.","j":"L'abondance d'information n'est pas perçue comme une menace mais valorisée."},{"t":"Ils ne lui prêtent aucune intention particulière à leur égard.","j":"Les patients y voient bien une intention, précisément jugée positive."}]},
+    {"q":"Quelles sont les trois compétences de communication ?","c":17,"options":[{"t":"L'empathie, l'écoute active et l'assertivité.","correct":true,"j":"Ce sont les trois compétences de communication retenues."},{"t":"L'empathie, l'écoute active et la persuasion.","j":"La persuasion ne fait pas partie du trio : c'est l'assertivité qui est attendue."},{"t":"La sympathie, l'écoute active et l'assertivité.","j":"Il s'agit de l'empathie, et non de la sympathie."}]},
+    {"q":"Selon le cours, qu'implique l'empathie dans la relation à autrui ?","c":17,"options":[{"t":"Comprendre ce que ressent l'autre sans se laisser emporter émotionnellement, sans le juger, en se décentrant de soi.","correct":true,"j":"Définition du cours : comprendre le ressenti d'autrui sans être emporté émotionnellement, sans juger, en se décentrant de soi."},{"t":"Comprendre ce que ressent l'autre en partageant son émotion et en se laissant emporter avec lui.","j":"Se laisser emporter émotionnellement est exclu par le cours : l'empathie suppose de ne pas être emporté."},{"t":"Comprendre ce que ressent l'autre en jugeant sa situation tout en restant centré sur soi.","j":"Le cours exige au contraire l'absence de jugement et une décentration de soi."}]},
+    {"q":"Selon le cours, quel est l'ordre des trois phases de l'empathie ?","c":17,"options":[{"t":"Identification, puis incorporation, puis séparation (mise à distance pour éviter la culpabilité).","correct":true,"j":"Le cours décrit les trois phases dans cet ordre, la séparation servant à éviter la culpabilité."},{"t":"Incorporation, puis identification, puis séparation (mise à distance pour éviter la culpabilité).","j":"L'ordre est inversé : l'identification vient en premier, avant l'incorporation."},{"t":"Identification, puis séparation (mise à distance pour éviter la culpabilité), puis incorporation.","j":"La séparation est la phase finale de mise à distance, elle ne précède pas l'incorporation."}]},
+    {"q":"Selon le cours, qu'est-ce qui différencie l'empathie de la sympathie ?","c":17,"options":[{"t":"Dans l'empathie, la compréhension du sentiment de l'autre n'est pas nécessairement partagée.","correct":true,"j":"Le cours oppose empathie et sympathie : dans l'empathie, le sentiment compris n'est pas forcément partagé."},{"t":"Dans l'empathie, le sentiment de l'autre est toujours ressenti et partagé à l'identique.","j":"Partager le sentiment à l'identique relève de la sympathie, non de l'empathie selon le cours."},{"t":"Dans l'empathie, le sentiment de l'autre est nécessairement approuvé et partagé.","j":"Le cours précise que la compréhension du sentiment n'est pas nécessairement partagée."}]},
+    {"q":"Selon le cours, que produit le fait de se forcer à l'empathie ?","c":17,"options":[{"t":"Des idées erronées, de la méfiance et des contradictions.","correct":true,"j":"Le cours indique que se forcer à l'empathie génère des idées erronées, de la méfiance et des contradictions."},{"t":"Une compréhension plus juste, davantage de confiance et de la cohérence.","j":"C'est l'inverse : le cours décrit des effets négatifs, non une amélioration de la relation."},{"t":"Une meilleure décentration, plus d'authenticité et de la sérénité.","j":"Le cours associe l'empathie forcée à des effets négatifs, pas à ces bénéfices."}]},
+    {"q":"Selon le cours, lequel figure parmi les cinq impératifs de l'écoute active ?","c":17,"options":[{"t":"S'intéresser davantage à la personne qu'à son problème.","correct":true,"j":"Le cours cite, parmi les cinq impératifs, le fait de s'intéresser à l'autre plus qu'au problème."},{"t":"S'intéresser davantage au problème qu'à la personne elle-même.","j":"Le cours demande l'inverse : s'intéresser à l'autre plus qu'au problème."},{"t":"S'intéresser d'abord à ce que l'on ressent soi-même face au problème.","j":"Le cours centre l'écoute sur ce que vit l'autre, non sur son propre ressenti."}]},
+    {"q":"Selon le cours, quelle attitude correspond à l'écoute active face à une personne qui expose un problème ?","c":17,"options":[{"t":"Écouter d'abord la personne sans lui proposer de solution immédiate.","correct":true,"j":"Le cours recommande d'écouter d'abord et de ne pas proposer de solution tout de suite."},{"t":"Proposer tout de suite une solution avant d'avoir fini d'écouter la personne.","j":"Le cours déconseille de proposer une solution d'emblée : il faut écouter d'abord."},{"t":"Orienter tout de suite la personne vers la solution qui paraît la meilleure.","j":"Proposer une solution immédiate va à l'encontre de l'écoute active selon le cours."}]},
+    {"q":"Selon le cours, en quoi consiste la technique du miroir en écoute active ?","c":17,"options":[{"t":"Répéter la dernière phrase ou le dernier mot prononcé par la personne.","correct":true,"j":"Le cours définit le miroir comme la répétition de la dernière phrase ou du dernier mot."},{"t":"Répéter la première phrase ou le premier mot prononcé par la personne.","j":"Le miroir porte sur la dernière phrase ou le dernier mot, pas sur les premiers."},{"t":"Reformuler avec ses propres mots l'ensemble du discours de la personne.","j":"Reformuler tout le discours relève de la paraphrase, non de la technique du miroir."}]},
+    {"q":"Selon le cours, comment sont définies les compétences sociales dans le cadre de l'assertivité ?","c":18,"options":[{"t":"Des réponses socialement compétentes selon le contexte, qui sont des comportements appris.","correct":true,"j":"Le cours définit les compétences sociales comme des réponses adaptées au contexte et apprises."},{"t":"Des traits de personnalité innés, stables quel que soit le contexte rencontré.","j":"Le cours en fait des comportements appris et dépendants du contexte, non des traits innés."},{"t":"Des réactions instinctives, identiques quel que soit le contexte et non modifiables.","j":"Le cours souligne qu'il s'agit de comportements appris et adaptés au contexte."}]},
+    {"q":"Un collègue, mécontent d'une décision, se mure dans le silence puis multiplie sarcasmes et remarques ironiques, sans jamais exprimer clairement son désaccord ni tenir compte de celui des autres. Quel style relationnel décrit ce comportement ?","c":18,"options":[{"t":"Le style manipulation (passif-agressif)","correct":true,"j":"Correct : il ne respecte ni ses propres droits ni ceux d'autrui et s'exprime par le silence, le sarcasme et l'ironie, entretenant une atmosphère toxique."},{"t":"Le style passif (effacement)","j":"Faux : le passif ne respecte pas ses propres droits mais respecte ceux d'autrui, il s'efface au lieu d'ironiser."},{"t":"Le style agressif (domination)","j":"Faux : l'agressif défend ses droits en bafouant ouvertement ceux d'autrui, sans passer par le détour du sarcasme."}]},
+    {"q":"Selon le cours, comment réagit la majorité des gens (environ 60 à 70 %) lorsqu'ils se trouvent dans une situation tendue ?","c":18,"options":[{"t":"Ils basculent vers un style passif ou passif-agressif","correct":true,"j":"Correct : l'assertivité n'étant pas naturelle, 60 à 70 % des personnes glissent vers le passif ou le passif-agressif sous tension."},{"t":"Ils adoptent spontanément un style assertif","j":"Faux : l'assertivité reste minoritaire et n'est pas naturelle, elle doit s'apprendre."},{"t":"Ils adoptent un style agressif pleinement assumé","j":"Faux : le style agressif ouvert n'est pas la réaction majoritaire décrite dans le cours."}]},
+    {"q":"D'après le cours, quel est l'aspect le plus difficile lorsqu'on pose une limite à quelqu'un ?","c":18,"options":[{"t":"Soutenir l'émotion et rester calme quand l'autre réagit mal","correct":true,"j":"Correct : le plus dur est de tenir face à la réaction négative de l'autre en gérant son émotion sans céder."},{"t":"Formuler la limite avec des mots suffisamment clairs","j":"Faux : bien formuler aide, mais ce n'est pas présenté comme la difficulté principale."},{"t":"Choisir le bon moment pour énoncer la limite","j":"Faux : le choix du moment prépare l'échange mais n'est pas le point le plus difficile."}]},
+    {"q":"Comment le cours explique-t-il l'origine de la peur du rejet ?","c":18,"options":[{"t":"Le cerveau est programmé pour préserver le lien social","correct":true,"j":"Correct : la peur du rejet découle du câblage du cerveau à maintenir et préserver le lien social."},{"t":"Le cerveau est programmé pour éviter tout conflit ouvert","j":"Faux : c'est la préservation du lien qui est visée, pas l'évitement du conflit en soi."},{"t":"Le cerveau est programmé pour rechercher la reconnaissance","j":"Faux : il s'agit de préserver le lien, non de rechercher reconnaissance ou valorisation."}]},
+    {"q":"Que privilégie l'analyse systémique pour comprendre un conflit ?","c":18,"options":[{"t":"Les interactions réciproques plutôt qu'une cause unique","correct":true,"j":"Correct : l'approche systémique étudie les interactions réciproques ; le tout dépasse la somme des parties."},{"t":"La recherche de la cause unique du problème","j":"Faux : elle refuse justement la logique de cause unique au profit des interactions."},{"t":"L'addition des comportements individuels isolés","j":"Faux : le tout étant plus que la somme des parties, on ne se limite pas à additionner les éléments."}]},
+    {"q":"Quelle stratégie le cours propose-t-il pour gérer une montée de tension pendant un conflit ?","c":18,"options":[{"t":"S'accorder un temps mort en s'éloignant ou en comptant","correct":true,"j":"Correct : le temps mort et la distraction (s'éloigner, compter) permettent de faire retomber la tension."},{"t":"Continuer l'échange en élevant progressivement la voix","j":"Faux : élever la voix alimente la tension au lieu de la faire retomber."},{"t":"Exiger de l'autre qu'il se calme sur-le-champ","j":"Faux : exiger le calme de l'autre n'est pas la technique de temps mort recommandée."}]},
+    {"q":"En quoi consiste la technique du disque rayé pour dire non ?","c":18,"options":[{"t":"Répéter inlassablement le même argument, sans se fâcher","correct":true,"j":"Correct : le disque rayé consiste à redire le même message avec calme, sans s'énerver."},{"t":"Reformuler autrement l'argument à chaque relance","j":"Faux : la technique répète le même argument à l'identique plutôt que de le reformuler."},{"t":"Atténuer son refus un peu plus à chaque répétition","j":"Faux : il s'agit de maintenir son refus, non de l'atténuer ou de céder progressivement."}]},
+    {"q":"Pour exprimer un désaccord de manière respectueuse, quelle distinction le cours recommande-t-il ?","c":18,"options":[{"t":"Distinguer la personne de son comportement","correct":true,"j":"Correct : on vise le comportement par un constat factuel et respectueux, sans attaquer l'identité de la personne."},{"t":"Distinguer les intentions de la personne de ses paroles","j":"Faux : la distinction porte sur personne et comportement, non sur intentions et paroles."},{"t":"Distinguer le contexte du conflit de la personnalité","j":"Faux : ce n'est pas contexte contre personnalité, mais bien comportement contre personne."}]},
+    {"q":"Selon le cours, quelle attitude adopter pour bien recevoir une critique ?","c":18,"options":[{"t":"Écouter pour comprendre, remercier, puis questionner sans réfuter","correct":true,"j":"Face à une critique : ne pas réagir immédiatement, écouter pour comprendre, distinguer le feedback de sa personne, remercier et poser des questions sans réfuter."},{"t":"Réagir aussitôt pour rectifier chaque point qui est contesté","j":"Le cours conseille au contraire de ne pas réagir immédiatement, mais d'écouter d'abord pour comprendre."},{"t":"Recevoir la critique comme un jugement porté sur sa personne","j":"Il faut distinguer le feedback de sa personne : la critique vise un comportement, pas soi-même."}]},
+    {"q":"Face à un comportement agressif, quelle approche le cours préconise-t-il ?","c":18,"options":[{"t":"Combiner l'empathie et la fermeté, dans une attitude assertive","correct":true,"j":"L'approche assertive associe empathie ET fermeté face à l'agressivité."},{"t":"Opposer une fermeté seule, sans manifester d'empathie","j":"La fermeté seule, sans empathie, n'est pas l'attitude assertive attendue."},{"t":"Manifester une empathie seule, en renonçant à la fermeté","j":"L'empathie seule, sans fermeté, ne correspond pas non plus à l'assertivité."}]},
+    {"q":"Selon le cours, comment définit-on une mauvaise nouvelle ?","c":19,"options":[{"t":"Toute information qui altère négativement la vision du patient sur son avenir","correct":true,"j":"Définition du cours : elle altère négativement la vision qu'a le patient de son avenir ; le kiné est concerné (pronostic fonctionnel, chronicité, restriction de rôle)."},{"t":"Toute information qui annonce au patient un diagnostic de maladie incurable","j":"Trop restrictif : elle ne se limite pas à un diagnostic incurable, mais à toute vision négative de l'avenir."},{"t":"Toute information qui révèle au patient une faute survenue durant les soins","j":"Il ne s'agit pas de révéler une faute de soins, mais d'altérer la vision du patient sur son avenir."}]},
+    {"q":"Laquelle de ces démarches ne fait PAS partie des six étapes du protocole d'annonce ?","c":19,"options":[{"t":"Obtenir le consentement écrit du patient avant de débuter l'entretien","correct":true,"j":"Le consentement écrit ne figure pas parmi les six étapes, qui vont de la préparation de l'entretien au résumé et à la planification du suivi."},{"t":"Évaluer ce que le patient sait déjà de sa propre situation","j":"Étape du protocole : évaluer ce que le patient sait déjà de sa situation."},{"t":"Répondre aux émotions que le patient exprime pendant l'entretien","j":"Étape du protocole : répondre aux émotions exprimées par le patient."}]},
+    {"q":"Pourquoi la mauvaise nouvelle s'annonce-t-elle par étapes ?","c":19,"options":[{"t":"Parce qu'après le choc le patient n'entend plus rien, l'émotion bloquant sa compréhension","correct":true,"j":"Sous le choc, la mémoire est fragmentée et l'émotion bloque la compréhension : d'où l'annonce progressive ; le protocole protège aussi le soignant."},{"t":"Parce qu'après le choc le patient retient mieux une information longue et détaillée","j":"Faux : le choc altère la compréhension ; une information longue d'emblée ne serait pas retenue."},{"t":"Parce qu'après le choc le patient réclame aussitôt tout le pronostic d'un coup","j":"Faux : sous le choc le patient n'entend plus rien ; on n'assène pas tout le pronostic d'un coup."}]}
   ],
   "dentHeadNeck": [
     {"q":"Which of the following muscles inserts into the pterygomandibular ligament?","options":[{"t":"Superior constrictor of the pharynx.","correct":true,"j":"Correct: digest lists superior constrictor anterior insertion = pterygomandibular ligament + hamulus of medial pterygoid plate."},{"t":"Lateral pterygoid muscle.","j":"Wrong: lateral pterygoid inserts on TMJ capsule, disc, pterygoid fovea/condyle."},{"t":"Medial pterygoid muscle.","j":"Wrong: medial pterygoid inserts on medial surface of mandibular angle/ramus (pterygoid tuberosity)."},{"t":"Middle constrictor of the pharynx.","j":"Wrong: middle constrictor anterior insertion = greater/lesser cornu of hyoid + stylohyoid ligament."}]},
@@ -6141,6 +6141,7 @@ const QUESTIONS = {
   "investigation": [
     {
       "q": "Si je souhaite consulter une revue systématique, quelle base de données devrais-je choisir pour trouver celles qui sont de la meilleure qualité ?",
+      "c": 7,
       "options": [
         {
           "t": "PEDro",
@@ -6159,6 +6160,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'affirmation correcte concernant les termes MeSH",
+      "c": 7,
       "options": [
         {
           "t": "Ils ne peuvent être combinés qu'entre eux dans des équations de recherche (ils ne peuvent pas être mélangés avec des termes libres)",
@@ -6177,6 +6179,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le rôle du diagramme PRISMA dans une revue systématique ?",
+      "c": 8,
       "options": [
         {
           "t": "Effectuer l'analyse statistique des données recueillies",
@@ -6195,6 +6198,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'un point de vue statistique, la variable « taille des vêtements », exprimée par des lettres, est une variable…:",
+      "c": 5,
       "options": [
         {
           "t": "Qualitative nominale",
@@ -6213,6 +6217,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans un essai clinique, les patients atteints de maladies moins graves sont affectés au groupe de traitement expérimental. Quelle erreur cela entraîne-t-il ?",
+      "c": 2,
       "options": [
         {
           "t": "Biais d'information.",
@@ -6231,6 +6236,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans un tableau de fréquences, que signifie la fréquence relative ?",
+      "c": 6,
       "options": [
         {
           "t": "La valeur maximale observée dans chaque catégorie",
@@ -6249,6 +6255,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce que les critères d'inclusion dans une étude de recherche ?",
+      "c": 4,
       "options": [
         {
           "t": "Facteurs déterminant qui ne peut pas participer à l'étude",
@@ -6267,6 +6274,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce que la validité externe dans une étude ?",
+      "c": 2,
       "options": [
         {
           "t": "La mesure dans laquelle les résultats correspondent aux attentes du chercheur",
@@ -6285,6 +6293,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel style de référencement est couramment utilisé dans les sciences de la santé ?",
+      "c": 7,
       "options": [
         {
           "t": "APA",
@@ -6303,6 +6312,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un chercheur mesure la force d'un groupe de patients, mais l'Active Force (appareil électronique numérique servant à mesurer la force) présente de légères variations à chaque utilisation, bien qu'il soit correctement calibré. Quel type de problème cela pose-t-il ?",
+      "c": 2,
       "options": [
         {
           "t": "Erreur aléatoire",
@@ -6321,6 +6331,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des options suivantes décrit le mieux les connaissances scientifiques ?",
+      "c": 1,
       "options": [
         {
           "t": "Il s'appuie sur l'avis des experts",
@@ -6339,6 +6350,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour décrire la variable « Couleur de l'élastique utilisé pour faire les exercices », l'indicateur statistique approprié est :",
+      "c": 6,
       "options": [
         {
           "t": "Variance",
@@ -6357,6 +6369,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le cadre de l'évaluation des études portant sur l'efficacité des thérapies manuelles dans le traitement des maux de dos, quel outil est couramment utilisé pour évaluer la qualité méthodologique des essais cliniques et garantir la fiabilité de leurs conclusions ?",
+      "c": 8,
       "options": [
         {
           "t": "PEDro",
@@ -6375,6 +6388,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le 5e décile correspond à…:",
+      "c": 6,
       "options": [
         {
           "t": "5e centile ou percentile",
@@ -6393,6 +6407,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est l'ordre correct, du plus élevé au plus faible, des niveaux de preuve scientifique ?",
+      "c": 8,
       "options": [
         {
           "t": "1) Revues systématiques d'études de cohortes, 2) Études de cohortes, 3) Revues systématiques d'études cas-témoins",
@@ -6411,6 +6426,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qui manque dans cette question PICO : « Les patients atteints de fibromyalgie constatent-ils davantage de changements lorsqu'ils ont recours à des étirements plutôt qu'à l'exercice physique comme traitement ? »",
+      "c": 4,
       "options": [
         {
           "t": "Population",
@@ -6429,6 +6445,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'examen d'un guide de pratique clinique, j'ai besoin de savoir :",
+      "c": 8,
       "options": [
         {
           "t": "Qu'il peut y avoir des articles de différents niveaux de preuve",
@@ -6447,6 +6464,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans une clinique de kinésithérapie, ils veulent réaliser une étude avec un nouveau type d'orthèse qui n'a pas encore le marquage CE. Y a-t-il des exigences ?",
+      "c": 1,
       "options": [
         {
           "t": "Oui, l'approbation par un comité d'éthique",
@@ -6465,6 +6483,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une équipe de recherche évalue la qualité scientifique de plusieurs études liées à la réadaptation chez les patients atteints du syndrome post-poliomyélite. Une étude en particulier suit un groupe de patients au fil du temps et compare les progrès de ceux qui reçoivent un traitement spécifique à ceux qui n'en reçoivent pas. Compte tenu de la hiérarchie des preuves, cette dernière étude :",
+      "c": 8,
       "options": [
         {
           "t": "Elle a un meilleur niveau de preuve qu'une étude cas-témoins",
@@ -6483,6 +6502,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étude publiée révèle que la majorité des patients diabétiques souffrant de douleurs neuropathiques périphériques rapportent, dans une étude avec des entretiens structurés, ressentir de la détresse quant à la possibilité de devenir dépendants. Il s'agit d'une enquête :",
+      "c": 3,
       "options": [
         {
           "t": "Qualitative",
@@ -6501,6 +6521,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étude compare deux traitements pour la gestion de la douleur chez les patients souffrant d'arthrose du genou. Un groupe de patients reçoit d'abord le traitement A pendant un certain temps, puis le traitement B, tandis qu'un autre groupe reçoit d'abord le traitement B, puis le traitement A. De quel type d'étude s'agit-il ?",
+      "c": 3,
       "options": [
         {
           "t": "Un essai de type \"cross-over\"",
@@ -6519,6 +6540,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des affirmations suivantes est VRAIE ?",
+      "c": 7,
       "options": [
         {
           "t": "Il est préférable d'inclure comme références des articles publiés plutôt que des livres",
@@ -6537,6 +6559,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour faire une recherche dans une base de données bibliographique, lequel des suivants est un opérateur de position ?",
+      "c": 7,
       "options": [
         {
           "t": "Guillemets",
@@ -6555,6 +6578,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un chercheur analyse l'influence de la satisfaction au travail sur la relation entre l'environnement physique au travail et le bien-être psychologique des employés. Quel type de variable est la satisfaction au travail dans cette étude ?",
+      "c": 5,
       "options": [
         {
           "t": "Variable médiatrice",
@@ -6573,6 +6597,7 @@ const QUESTIONS = {
     },
     {
       "q": "Grâce à la caractérisation de divers types de douleurs neuropathiques périphériques et centrales chez la souris, il a été démontré que l'acide lysophosphatidique joue un rôle dans les mécanismes ultimes du développement et du maintien de la douleur neuropathique. Fait référence aux résultats de :",
+      "c": 1,
       "options": [
         {
           "t": "Recherche fondamentale",
@@ -6591,6 +6616,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans une étude sur les différences entre la thérapie manuelle lombaire spécifique et la thérapie manuelle globale lombaire, quelle affirmation est correcte ?",
+      "c": 2,
       "options": [
         {
           "t": "Je ne peux qu'aveugler l'analyste",
@@ -6609,6 +6635,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des éléments suivants considéreriez-vous comme un élément du canal formel de communication ?",
+      "c": 7,
       "options": [
         {
           "t": "Une affiche lors d'un congrès médical",
@@ -6627,6 +6654,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une clinique de physiothérapie veut connaître l'efficacité du Pilates dans la réduction de la dysménorrhée primaire. Pour ce faire, les patients atteints de dysménorrhée sont sélectionnés et un groupe de Pilates est créé, mesurant la douleur avant de commencer et 3 mois après le début du Pilates. De quelle conception d'étude s'agit-il ?",
+      "c": 3,
       "options": [
         {
           "t": "Étude quasi-expérimentale",
@@ -6645,6 +6673,7 @@ const QUESTIONS = {
     },
     {
       "q": "La phrase « Une augmentation de la consommation de fruits et légumes est associée à une réduction du risque de maladies cardiovasculaires » est… :",
+      "c": 4,
       "options": [
         {
           "t": "Une hypothèse",
@@ -6663,6 +6692,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans une clinique de physiothérapie, ils veulent savoir s'il existe une relation entre la capsulite et la profession des patients. Pour ce faire, ils analysent les dossiers de leurs patients et collectent des données sur ces deux variables. Il s'agit d'une étude :",
+      "c": 3,
       "options": [
         {
           "t": "Analytique rétrospective",
@@ -6681,6 +6711,7 @@ const QUESTIONS = {
     },
     {
       "q": "Compte tenu des limites actuelles des études en physiothérapie, telles que la difficulté d'établir des traitements placebo, quelle approche méthodologique pourrait potentiellement surmonter ce défi et comment ?",
+      "c": 3,
       "options": [
         {
           "t": "La conception d'études pragmatiques qui mettent l'accent sur l'application de traitements dans des conditions réelles peut faciliter l'évaluation de l'efficacité sans avoir strictement besoin d'un placebo.",
@@ -6699,6 +6730,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans l'évaluation de l'impact d'un programme de réadaptation en physiothérapie pour les patients souffrant de lombalgie chronique, si la fréquence d'utilisation d'analgésiques avant et après le traitement est mesurée, comment cette variable devrait-elle être catégorisée et analysée ?",
+      "c": 5,
       "options": [
         {
           "t": "En tant que variable ordinale, même si la fréquence est comptée, l'analyse prend en compte l'ordre de diminution ou d'augmentation de l'utilisation.",
@@ -6717,6 +6749,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour déterminer les facteurs de risque associés au développement de la tendinite du coude, les chercheurs ont comparé un groupe de patients ayant reçu un diagnostic de tendinite du coude à un groupe de personnes en bonne santé afin d'évaluer les différences dans la fréquence des activités physiques répétitives. Quel type de conception d'étude est utilisé ?",
+      "c": 3,
       "options": [
         {
           "t": "Études cas-témoins",
@@ -6735,6 +6768,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour une étude comparant les moyennes de pression artérielle avant et après une intervention dans deux groupes différents, quel serait le graphique le plus approprié pour représenter ces données ?",
+      "c": 6,
       "options": [
         {
           "t": "Graphique à barres",
@@ -6753,6 +6787,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type de raisonnement appartient cette affirmation : Tous les patients atteints de tendinite ont une inflammation. Pedro a une inflammation. Pedro a probablement une tendinite.",
+      "c": 1,
       "options": [
         {
           "t": "Pensée abductive",
@@ -6771,6 +6806,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous voulez savoir si quitter des cours enregistrés est préférable pour apprendre une matière ou non. À cette fin, avec l'autorisation du bureau du doyen, 5 groupes ont été tirés au sort dans lesquels les cours seront enregistrés et les résultats seront comparés à 5 groupes dans lesquels les cours ne seront pas enregistrés. Le type d'étude est",
+      "c": 3,
       "options": [
         {
           "t": "Expérimental",
@@ -6789,6 +6825,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si la valeur p est supérieure à 0,05",
+      "c": 6,
       "options": [
         {
           "t": "Nous acceptons l'hypothèse nulle",
@@ -6807,6 +6844,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des éléments suivants est un gestionnaire bibliographique ?",
+      "c": 7,
       "options": [
         {
           "t": "Mendeley",
@@ -6825,6 +6863,7 @@ const QUESTIONS = {
     },
     {
       "q": "Revues systématiques…",
+      "c": 8,
       "options": [
         {
           "t": "Ils définissent des bases de données et des mots-clés, entre autres aspects",
@@ -6843,6 +6882,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel endroit de l'article scientifique se trouvent les critères d'inclusion de l'étude ?",
+      "c": 7,
       "options": [
         {
           "t": "Résultats",
@@ -6861,6 +6901,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des principes suivants stipule que l'explication la plus simple est généralement la bonne ?",
+      "c": 1,
       "options": [
         {
           "t": "Principe de plausibilité",
@@ -6879,6 +6920,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des erreurs suivantes constitue un exemple de biais de sélection ?",
+      "c": 2,
       "options": [
         {
           "t": "Utiliser des instruments de mesure inadaptés à la variable",
@@ -6897,6 +6939,7 @@ const QUESTIONS = {
     },
     {
       "q": "Je voudrais savoir si le fait d'être membre de l'Atlético de Madrid est lié à des maladies coronariennes. Pour cela, je mène une enquête à l'entrée du stade, en interrogeant uniquement les supporters de l'Atleti, afin de savoir s'ils ont eu ou des problèmes cardiaques. De quel type d'étude s'agit-il ?",
+      "c": 3,
       "options": [
         {
           "t": "Étude prévalence",
@@ -6915,6 +6958,7 @@ const QUESTIONS = {
     },
     {
       "q": "Je réalise actuellement une revue systématique des effets des ondes de choc sur l'épicondylite latérale. Laquelle des affirmations suivantes n'est PAS correcte ?",
+      "c": 8,
       "options": [
         {
           "t": "Je peux inclure les ECA s'ils datent de ces cinq dernières années et présentent en outre une bonne qualité méthodologique",
@@ -6933,6 +6977,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'échelle PEDro sert à évaluer :",
+      "c": 8,
       "options": [
         {
           "t": "la sensibilité d'un test",
@@ -6951,6 +6996,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des niveaux de preuve suivants présente la plus grande rigueur méthodologique ?",
+      "c": 8,
       "options": [
         {
           "t": "Revue systématique",
@@ -6969,6 +7015,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des variables suivantes est une variable dépendante dans une étude sur l'efficacité de l'électrothérapie chez les patients atteints de tendinite ?",
+      "c": 5,
       "options": [
         {
           "t": "Type d'électrothérapie utilisé",
@@ -6987,6 +7034,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le domaine des tests de dépistage en kinésithérapie, que signifie le fait qu'un test présente une sensibilité élevée ?",
+      "c": 2,
       "options": [
         {
           "t": "Il identifie correctement la plupart des patients en bonne santé",
@@ -7005,6 +7053,7 @@ const QUESTIONS = {
     },
     {
       "q": "Cinq élèves ont obtenu des notes anormalement élevées à l'examen ECOE ; on soupçonne qu'ils auraient triché à l'aide d'écouteurs. Afin de mener une enquête, les enseignants envisagent de réaliser une étude comparative avec un autre groupe. Quelle serait la meilleure approche ?",
+      "c": 3,
       "options": [
         {
           "t": "Étude de cohortes",
@@ -7023,6 +7072,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si un kinésithérapeute souhaite analyser l'évolution d'une pathologie dans le temps ainsi que ses facteurs de risque, quel type d'étude serait le plus approprié ?",
+      "c": 3,
       "options": [
         {
           "t": "ECR",
@@ -7041,6 +7091,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel type d'étude est le plus approprié pour documenter l'évolution et le traitement d'un cas clinique particulier en kinésithérapie ?",
+      "c": 3,
       "options": [
         {
           "t": "Étude transversale",
@@ -7059,6 +7110,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les types d'études suivants, lequel présente le niveau de preuve scientifique le plus élevé lorsqu'il s'agit d'évaluer l'efficacité d'un traitement de kinésithérapie pour soulager la douleur chez les patients souffrant de lombalgie chronique ?",
+      "c": 8,
       "options": [
         {
           "t": "Revue systématique d'études observationnelles",
@@ -7077,6 +7129,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des éléments suivants constitue un objectif valable pour une étude scientifique ?",
+      "c": 4,
       "options": [
         {
           "t": "Il vaut mieux étudier beaucoup que peu pour réussir la matière de méthodologie",
@@ -7097,6 +7150,7 @@ const QUESTIONS = {
   "histoireKine": [
     {
       "q": "Quel type de moyen la physiothérapie utilise-t-elle comme outil thérapeutique ?",
+      "c": 1,
       "options": [
         {
           "t": "Les agents physiques",
@@ -7115,6 +7169,7 @@ const QUESTIONS = {
     },
     {
       "q": "Étymologiquement, que signifie « agent physique » ?",
+      "c": 1,
       "options": [
         {
           "t": "Ce qui agit dans la nature",
@@ -7133,6 +7188,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les catégories d'agents physiques, laquelle correspond au mouvement ?",
+      "c": 1,
       "options": [
         {
           "t": "Les agents cinétiques",
@@ -7151,6 +7207,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quoi correspondent les agents physiques dits « élémentaires » ?",
+      "c": 1,
       "options": [
         {
           "t": "Ceux que l'on trouve dans la nature",
@@ -7169,6 +7226,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment le cours qualifie-t-il la physiothérapie sur le plan de sa nature ?",
+      "c": 1,
       "options": [
         {
           "t": "Une science et un art du traitement physique",
@@ -7187,6 +7245,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi la physiothérapie est-elle aussi considérée comme un « art » ?",
+      "c": 1,
       "options": [
         {
           "t": "Elle exige des compétences pratiques, créatives et humaines adaptées à chaque patient",
@@ -7205,6 +7264,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le but ultime de la physiothérapie selon le cours ?",
+      "c": 1,
       "options": [
         {
           "t": "Améliorer la qualité de vie et faciliter la réintégration sociale",
@@ -7223,6 +7283,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cadre théorique actuel du cours, la physiothérapie est une profession :",
+      "c": 1,
       "options": [
         {
           "t": "Indépendante, qui ne nécessite pas la supervision d'autres professionnels",
@@ -7241,6 +7302,7 @@ const QUESTIONS = {
     },
     {
       "q": "En quelle année l'OMS a-t-elle adopté la CIF, classification du fonctionnement, du handicap et de la santé ?",
+      "c": 1,
       "options": [
         {
           "t": "En 2001",
@@ -7259,6 +7321,7 @@ const QUESTIONS = {
     },
     {
       "q": "Que classe principalement la CIF ?",
+      "c": 1,
       "options": [
         {
           "t": "Le fonctionnement et le handicap liés à la santé",
@@ -7277,6 +7340,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, comment définit-on une science ?",
+      "c": 3,
       "options": [
         {
           "t": "Une connaissance associée à une méthode",
@@ -7295,6 +7359,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles sont les caractéristiques fondamentales de la connaissance scientifique selon le cours ?",
+      "c": 3,
       "options": [
         {
           "t": "Objectivité, rationalité et systématicité",
@@ -7313,6 +7378,7 @@ const QUESTIONS = {
     },
     {
       "q": "En quoi consiste la pratique fondée sur l'évidence en physiothérapie ?",
+      "c": 3,
       "options": [
         {
           "t": "Intégrer l'expérience clinique aux meilleures preuves scientifiques et aux préférences du patient",
@@ -7331,6 +7397,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel peuple de l'Antiquité a inventé l'écriture cunéiforme, gravée sur des tablettes d'argile ?",
+      "c": 2,
       "options": [
         {
           "t": "Les Sumériens",
@@ -7349,6 +7416,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, qui est présenté comme le premier médecin connu, rédacteur du papyrus d'Edwin Smith ?",
+      "c": 2,
       "options": [
         {
           "t": "Imhotep",
@@ -7367,6 +7435,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans l'Égypte antique, comment le papyrus d'Edwin Smith recommandait-il d'utiliser le froid ?",
+      "c": 2,
       "options": [
         {
           "t": "Dans les étapes initiales de l'inflammation",
@@ -7385,6 +7454,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la Chine antique, à quel personnage le livre de médecine 'Nei-Ching' est-il attribué ?",
+      "c": 2,
       "options": [
         {
           "t": "L'empereur Jaune Huangdi",
@@ -7403,6 +7473,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le 'Nei-Ching' présenté dans le cours, la maladie correspond à un déséquilibre entre :",
+      "c": 2,
       "options": [
         {
           "t": "le Yin et le Yang",
@@ -7421,6 +7492,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle thérapie de l'Inde antique est présentée dans le cours comme se rapprochant de la kinésithérapie ?",
+      "c": 2,
       "options": [
         {
           "t": "Le Yoga",
@@ -7439,6 +7511,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment Hippocrate est-il surnommé dans le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "Le Père de la médecine",
@@ -7457,6 +7530,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur quelle théorie repose la conception de la santé dans le Corpus Hippocratique ?",
+      "c": 2,
       "options": [
         {
           "t": "La théorie des quatre humeurs",
@@ -7475,6 +7549,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au Moyen Âge, quelle était la situation de l'exercice physique selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "Il était interdit, le culte de l'âme primant sur celui du corps",
@@ -7493,6 +7568,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qui est considéré dans le cours comme le fondateur de l'anatomie moderne à la Renaissance ?",
+      "c": 2,
       "options": [
         {
           "t": "André Vésale",
@@ -7511,6 +7587,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qui a introduit le mot 'Orthopédie' selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "Nicolas Andry de Bois-Regard",
@@ -7529,6 +7606,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qui est présenté dans le cours comme le père de la Gymnastique Suédoise ?",
+      "c": 2,
       "options": [
         {
           "t": "Pehr Henrik Ling",
@@ -7547,6 +7625,7 @@ const QUESTIONS = {
     },
     {
       "q": "En 1845, qui propose le mot 'Kinésithérapie' pour désigner le traitement des maladies par le mouvement ?",
+      "c": 2,
       "options": [
         {
           "t": "Georgii",
@@ -7565,6 +7644,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qui est l'inventeur de la Mécanothérapie et de ses 71 appareils selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "Gustav Zander",
@@ -7583,6 +7663,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, en quelle année le diplôme d'État de masseur-kinésithérapeute a-t-il été créé en France ?",
+      "c": 2,
       "options": [
         {
           "t": "Le 30 avril 1946",
@@ -7601,6 +7682,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle approche se caractérise par l'intégration de différentes disciplines dans la résolution d'un problème ?",
+      "c": 4,
       "options": [
         {
           "t": "L'approche interdisciplinaire",
@@ -7619,6 +7701,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans l'approche multidisciplinaire, comment travaillent les différentes disciplines sur un même cas ?",
+      "c": 4,
       "options": [
         {
           "t": "En parallèle, chacune avec sa propre méthodologie et sa propre vision",
@@ -7637,6 +7720,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quel type d'interdisciplinarité correspond la physiothérapie qui se développe à partir de la structure d'autres disciplines ?",
+      "c": 4,
       "options": [
         {
           "t": "La relation totale ou structurelle",
@@ -7655,6 +7739,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel risque la spécialisation excessive peut-elle entraîner ?",
+      "c": 4,
       "options": [
         {
           "t": "L'isolement professionnel dans des « silos » de connaissances",
@@ -7673,6 +7758,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, dans quel but sont apparus les premiers programmes de traitement de la douleur dans les années 1970 ?",
+      "c": 4,
       "options": [
         {
           "t": "Soigner les vétérans de guerre",
@@ -7691,6 +7777,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles sont les trois dimensions du modèle biopsychosocial ?",
+      "c": 4,
       "options": [
         {
           "t": "Biologique, psychologique et sociale",
@@ -7709,6 +7796,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, sur quoi se concentrent les « professionnels de la santé » qui n'ont pas nécessairement une formation dans le domaine sanitaire ?",
+      "c": 4,
       "options": [
         {
           "t": "La promotion de la santé et la prévention des maladies par l'éducation",
@@ -7727,6 +7815,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment le cours définit-il l'anamnèse (entretien clinique) ?",
+      "c": 5,
       "options": [
         {
           "t": "Un instrument de collecte de données reposant sur une communication interpersonnelle à double sens",
@@ -7745,6 +7834,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les objectifs de l'entretien clinique, lequel figure dans le cours ?",
+      "c": 5,
       "options": [
         {
           "t": "Établir une bonne relation thérapeutique",
@@ -7763,6 +7853,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les attitudes de base du thérapeute qui favorisent la relation, laquelle est citée dans le cours ?",
+      "c": 5,
       "options": [
         {
           "t": "L'écoute active",
@@ -7781,6 +7872,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, comment se distingue l'empathie de la simple écoute active ?",
+      "c": 5,
       "options": [
         {
           "t": "L'empathie présuppose l'écoute active mais va au-delà, jusqu'à comprendre le sens au-delà de ce que le patient exprime",
@@ -7799,6 +7891,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel type d'entretien clinique est considéré comme offrant un degré acceptable de flexibilité tout en gardant une uniformité suffisante ?",
+      "c": 5,
       "options": [
         {
           "t": "L'entretien semi-structuré",
@@ -7817,6 +7910,7 @@ const QUESTIONS = {
     },
     {
       "q": "Que demande-t-on au patient de faire sur la « carte du corps » lors du recueil de données ?",
+      "c": 5,
       "options": [
         {
           "t": "Dessiner les zones de douleur, de paresthésie, de brûlure ou de picotement",
@@ -7835,6 +7929,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment le raisonnement clinique en physiothérapie est-il défini ?",
+      "c": 6,
       "options": [
         {
           "t": "Un processus de réflexion et de prise de décision qui structure le sens et les stratégies de prise en charge à partir des données cliniques et du choix du patient",
@@ -7853,6 +7948,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le raisonnement clinique en physiothérapie est décrit comme un processus qui est :",
+      "c": 6,
       "options": [
         {
           "t": "Complexe, cognitif, interactif et multifactoriel",
@@ -7871,6 +7967,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le raisonnement inductif, on procède :",
+      "c": 6,
       "options": [
         {
           "t": "De quelque chose de spécifique vers quelque chose de général",
@@ -7889,6 +7986,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle est l'évolution typique du raisonnement avec l'expérience professionnelle ?",
+      "c": 6,
       "options": [
         {
           "t": "On commence par un raisonnement déductif que l'on automatise progressivement vers un raisonnement presque inductif",
@@ -7907,6 +8005,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le processus de raisonnement, à quoi correspond la métacognition ?",
+      "c": 6,
       "options": [
         {
           "t": "Au processus d'autorégulation du clinicien qui réfléchit sur ses propres pensées de façon sceptique",
@@ -7925,6 +8024,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur quel type de raisonnement le modèle initial du raisonnement clinique est-il fondé ?",
+      "c": 6,
       "options": [
         {
           "t": "Un raisonnement hypothético-déductif issu du paradigme des sciences cognitives",
@@ -7943,6 +8043,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment le modèle biopsychosocial décrit-il la douleur et le handicap ?",
+      "c": 6,
       "options": [
         {
           "t": "Comme une interaction multidimensionnelle et réciproque entre facteurs biologiques, psychologiques et sociaux",
@@ -7961,6 +8062,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le modèle biopsychosocial, la kinésiophobie et le catastrophisme relèvent de quel facteur ?",
+      "c": 6,
       "options": [
         {
           "t": "Du facteur psychologique",
@@ -7979,6 +8081,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le principal objectif de l'exploration subjective ?",
+      "c": 6,
       "options": [
         {
           "t": "Définir l'origine du problème, identifier les signaux d'alerte et orienter l'évaluation",
@@ -7997,6 +8100,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément constitue un indicateur d'alarme (drapeau rouge) dans l'exploration subjective ?",
+      "c": 6,
       "options": [
         {
           "t": "Une douleur nocturne intense non modifiée par les médicaments ou la position",
@@ -8015,6 +8119,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le système de catégorisation des hypothèses, à quoi correspond l'hypothèse de prévision ?",
+      "c": 6,
       "options": [
         {
           "t": "Expliquer au patient, sous forme d'hypothèse, la durée probable du processus de guérison",
@@ -8033,6 +8138,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur le système musculo-squelettique, quel est un effet de l'exercice thérapeutique ?",
+      "c": 7,
       "options": [
         {
           "t": "Augmentation de la masse osseuse, prévenant l'ostéoporose",
@@ -8051,6 +8157,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel effet cardiovasculaire l'exercice thérapeutique produit-il à long terme ?",
+      "c": 7,
       "options": [
         {
           "t": "Réduction de la fréquence cardiaque basale",
@@ -8069,6 +8176,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment l'exercice thérapeutique agit-il sur la douleur (système neuromusculaire) ?",
+      "c": 7,
       "options": [
         {
           "t": "Il libère des endorphines et active les contrôles central et périphérique de la douleur",
@@ -8087,6 +8195,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est l'objectif principal du massage sédatif ou relaxant ?",
+      "c": 8,
       "options": [
         {
           "t": "Sédater la douleur en agissant sur les terminaisons nerveuses de la peau",
@@ -8105,6 +8214,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est l'effet du drainage lymphatique manuel ?",
+      "c": 8,
       "options": [
         {
           "t": "Activation du flux lymphatique et réabsorption du liquide interstitiel",
@@ -8123,6 +8233,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon les grades de Maitland, quel est l'objectif d'une mobilisation de grade I ?",
+      "c": 8,
       "options": [
         {
           "t": "Réduire la douleur et désensibiliser l'articulation dans les états irritables",
@@ -8141,6 +8252,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la théorie du portillon, quelles fibres sont stimulées pour inhiber la transmission de la douleur ?",
+      "c": 13,
       "options": [
         {
           "t": "Les fibres A-bêta du toucher et de la pression",
@@ -8159,6 +8271,7 @@ const QUESTIONS = {
     },
     {
       "q": "En électrothérapie, pour quelle finalité utilise-t-on les hautes fréquences (supérieures à 50 Hz) ?",
+      "c": 9,
       "options": [
         {
           "t": "L'analgésie",
@@ -8177,6 +8290,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels tissus sont considérés comme de bons conducteurs du courant électrique ?",
+      "c": 9,
       "options": [
         {
           "t": "Le sang, la lymphe et le muscle",
@@ -8195,6 +8309,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est un effet neurochimique de la neuroplasticité en physiothérapie neurologique ?",
+      "c": 11,
       "options": [
         {
           "t": "Des changements dans les neurotransmetteurs et les récepteurs",
@@ -8213,6 +8328,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment définit-on la plasticité neuronale ?",
+      "c": 11,
       "options": [
         {
           "t": "La capacité du système nerveux à changer de fonction et de structure en réponse aux stimuli",
@@ -8231,6 +8347,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est un effet physiologique de la kinésithérapie respiratoire sur l'échange gazeux ?",
+      "c": 10,
       "options": [
         {
           "t": "Amélioration de l'oxygénation des tissus et réduction de l'hypercapnie",
@@ -8249,6 +8366,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel effet physiologique la kinésithérapie respiratoire produit-elle sur la ventilation ?",
+      "c": 10,
       "options": [
         {
           "t": "Augmentation de la ventilation alvéolaire",
@@ -8267,6 +8385,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les effets mécaniques de la ponction sèche, lequel est décrit dans le cours ?",
+      "c": 12,
       "options": [
         {
           "t": "Élimination des substances sensibilisantes comme la substance P",
@@ -8285,6 +8404,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le mécanisme d'action de l'électrolyse percutanée ?",
+      "c": 12,
       "options": [
         {
           "t": "Un courant galvanique provoquant une réaction inflammatoire contrôlée qui stimule la réparation",
@@ -8303,6 +8423,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, qui a réalisé la première description regroupant tous les moyens ou agents physiques dans le cadre de la physiothérapie (1921) ?",
+      "c": 1,
       "options": [
         {
           "t": "Gilbert et Carnot",
@@ -8321,6 +8442,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon Max Herz, ce qui caractérise les matières physiothérapiques n'est ni un système d'organes ni un type d'affection, mais :",
+      "c": 1,
       "options": [
         {
           "t": "la maîtrise et le maniement exclusifs d'une technique thérapeutique spécifique",
@@ -8339,6 +8461,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, comment Max Herz qualifie-t-il les méthodes physiothérapiques sur le plan des médicaments ?",
+      "c": 1,
       "options": [
         {
           "t": "Thérapeutique sans médicaments, ou art de guérir sans médicaments",
@@ -8357,6 +8480,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les catégories d'agents physiques, à laquelle appartiennent les courants alternatifs et continus, les infrarouges et le laser ?",
+      "c": 1,
       "options": [
         {
           "t": "Les agents électromagnétiques",
@@ -8375,6 +8499,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, les agents physiques électromagnétiques regroupent les ressources électriques sous toutes leurs formes, à l'exception :",
+      "c": 1,
       "options": [
         {
           "t": "des rayonnements ionisants",
@@ -8393,6 +8518,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quel domaine la physiothérapie n'est-elle pas réellement liée, bien que ce lien initial ait conditionné son développement ?",
+      "c": 1,
       "options": [
         {
           "t": "Les soins infirmiers",
@@ -8411,6 +8537,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle différence essentielle sépare le physiothérapeute de l'infirmier(e) ?",
+      "c": 1,
       "options": [
         {
           "t": "Le physiothérapeute cherche une réponse organique de guérison, l'infirmier(e) fournit des actions que la personne ne peut ou ne sait faire elle-même",
@@ -8429,6 +8556,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la loi 44/2003 citée dans le cours, les traitements du physiothérapeute visent la récupération et la réadaptation des personnes souffrant :",
+      "c": 1,
       "options": [
         {
           "t": "de dysfonctionnements somatiques ou de handicaps, ainsi que leur prévention",
@@ -8447,6 +8575,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la définition de l'OMS (1968) citée dans le cours, la physiothérapie est l'art et la science du traitement par :",
+      "c": 1,
       "options": [
         {
           "t": "l'exercice thérapeutique, la chaleur, le froid, l'eau, le massage et l'électricité",
@@ -8465,6 +8594,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la WCPT (1999) citée dans le cours, qu'est-ce qui constitue la base de ce qui est considéré comme sain ?",
+      "c": 1,
       "options": [
         {
           "t": "Un mouvement complet et fonctionnel",
@@ -8483,6 +8613,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la définition de la science donnée dans le cours, les principes et lois déduits doivent avoir une capacité :",
+      "c": 3,
       "options": [
         {
           "t": "prédictive et vérifiable expérimentalement",
@@ -8501,6 +8632,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, la caractéristique radicale d'une science, qui permet de dépasser une simple connaissance superficielle, est :",
+      "c": 3,
       "options": [
         {
           "t": "le fait d'avoir une méthode",
@@ -8519,6 +8651,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels sont les deux piliers fondamentaux sur lesquels repose la méthode scientifique ?",
+      "c": 3,
       "options": [
         {
           "t": "La reproductibilité et la réfutabilité",
@@ -8537,6 +8670,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel indice découvert sur un squelette préhistorique (cal osseux) est interprété comme un signe de l'apparition de l'empathie chez l'Homme ?",
+      "c": 2,
       "options": [
         {
           "t": "Une marque de réparation de fracture",
@@ -8555,6 +8689,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, sur quoi reposait principalement la médecine empirique apparue à la préhistoire ?",
+      "c": 2,
       "options": [
         {
           "t": "L'expérience et l'observation d'effets paraissant bénéfiques",
@@ -8573,6 +8708,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quelle civilisation antique attribue-t-on le gros orteil de Greville Chester, présenté comme la première prothèse de l'histoire ?",
+      "c": 2,
       "options": [
         {
           "t": "L'Égypte antique",
@@ -8591,6 +8727,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quelle pratique thérapeutique les Aztèques (Amérique antique) utilisaient-ils ?",
+      "c": 2,
       "options": [
         {
           "t": "Des douches de vapeur suivies de douches froides",
@@ -8609,6 +8746,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quel empereur chinois recommandait-on des exercices respiratoires et des massages contre la fièvre, les frissons et la paralysie ?",
+      "c": 2,
       "options": [
         {
           "t": "L'empereur Jaune Huangdi",
@@ -8627,6 +8765,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quel médecin de l'Antiquité romaine est décrit comme un enfant prodige ayant « dogmatisé » la médecine pour les 1500 années suivantes ?",
+      "c": 2,
       "options": [
         {
           "t": "Galien",
@@ -8645,6 +8784,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel principe éthique fondamental est associé au Serment hippocratique par la formule « Primum non nocere » ?",
+      "c": 2,
       "options": [
         {
           "t": "La non-malfaisance (ne pas nuire)",
@@ -8663,6 +8803,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quel médecin de la Renaissance a développé la première prothèse de jambe et recommandait le massage du moignon de l'amputé ?",
+      "c": 2,
       "options": [
         {
           "t": "Ambroise Paré",
@@ -8681,6 +8822,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel auteur espagnol de la Renaissance a écrit le « Libro del ejercicio corporal » ?",
+      "c": 2,
       "options": [
         {
           "t": "Cristobal Mendez",
@@ -8699,6 +8841,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quel médecin travaillant sur le rachitisme infantile a présenté la technique de suspension et de traction pour redresser la colonne vertébrale ?",
+      "c": 2,
       "options": [
         {
           "t": "Francis Glisson",
@@ -8717,6 +8860,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel médecin est cité comme traitant la paralysie avec des courants électriques et décrivant l'évolution de l'épaule congelée de son voisin par chocs électriques ?",
+      "c": 2,
       "options": [
         {
           "t": "Benjamin Franklin",
@@ -8735,6 +8879,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, à quel physiologiste attribue-t-on le courant faradique, premier courant alternatif utilisé en thérapie ?",
+      "c": 2,
       "options": [
         {
           "t": "Faraday",
@@ -8753,6 +8898,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, qui est considéré comme le père de l'hydrothérapie, ayant fondé un centre en 1829 pour exercer la méthode hydropathique ?",
+      "c": 2,
       "options": [
         {
           "t": "Vincence Priessnitz",
@@ -8771,6 +8917,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, qui est considéré comme le « père de l'Ostéopathie » ?",
+      "c": 2,
       "options": [
         {
           "t": "Andrew Taylor Still",
@@ -8789,6 +8936,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle méthode de 1943 traite d'abord la paralysie cérébrale infantile puis les adultes hémiplégiques ?",
+      "c": 2,
       "options": [
         {
           "t": "La méthode Bobath",
@@ -8807,6 +8955,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quel principe les différentes disciplines doivent-elles répondre dans le travail interdisciplinaire ?",
+      "c": 4,
       "options": [
         {
           "t": "Un principe de complémentarité",
@@ -8825,6 +8974,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quels professionnels interviennent typiquement dans un programme interdisciplinaire de gestion de la douleur ?",
+      "c": 4,
       "options": [
         {
           "t": "Médecins, infirmières, psychologues, physiothérapeutes et ergothérapeutes",
@@ -8843,6 +8993,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, dans le modèle biopsychosocial, à quelle dimension appartient le travail ?",
+      "c": 4,
       "options": [
         {
           "t": "À la dimension sociale",
@@ -8861,6 +9012,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, en quoi consiste une relation interdisciplinaire de type « partielle ou linéaire » ?",
+      "c": 4,
       "options": [
         {
           "t": "Une discipline emprunte une loi à une autre pour expliquer un phénomène",
@@ -8879,6 +9031,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, où sont inscrits en Espagne les professionnels de la santé réglementés et qualifiés ?",
+      "c": 4,
       "options": [
         {
           "t": "Au registre national des professionnels de la santé",
@@ -8897,6 +9050,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, l'anamnèse (entretien clinique) nécessite un processus de communication qui est :",
+      "c": 5,
       "options": [
         {
           "t": "Interpersonnel et à double sens",
@@ -8915,6 +9069,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quel type d'entretien clinique applique rigoureusement des questions prédéfinies à tous les sujets ?",
+      "c": 5,
       "options": [
         {
           "t": "L'entretien structuré",
@@ -8933,6 +9088,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel est un inconvénient de l'entretien clinique non structuré ?",
+      "c": 5,
       "options": [
         {
           "t": "Il peut y avoir des lacunes dans les informations nécessaires",
@@ -8951,6 +9107,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle distance est recommandée entre le physiothérapeute et le patient pendant l'entretien ?",
+      "c": 5,
       "options": [
         {
           "t": "Environ 50 à 100 cm",
@@ -8969,6 +9126,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les attitudes de base du thérapeute, comment le cours définit-il l'acceptation inconditionnelle ?",
+      "c": 5,
       "options": [
         {
           "t": "Accepter le patient tel qu'il est, sans le juger, et l'apprécier en tant que personne",
@@ -8987,6 +9145,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, en quoi consiste la compétence de « clarification » dans l'écoute ?",
+      "c": 5,
       "options": [
         {
           "t": "Demander au patient de préciser le sens d'un message vague ou ambigu",
@@ -9005,6 +9164,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, que doit-on faire lorsqu'une personne présente un problème pour la première fois ?",
+      "c": 5,
       "options": [
         {
           "t": "La laisser s'exprimer sans l'interrompre par des demandes fréquentes d'éclaircissement",
@@ -9023,6 +9183,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, sur la « carte du corps », avec quels codes le patient marque-t-il les zones concernées ?",
+      "c": 5,
       "options": [
         {
           "t": "Différents codes ou couleurs selon le type de symptôme",
@@ -9041,6 +9202,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le raisonnement déductif, on procède :",
+      "c": 6,
       "options": [
         {
           "t": "du général vers le spécifique",
@@ -9059,6 +9221,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel type de raisonnement est décrit comme très compliqué et difficile à mettre en œuvre ?",
+      "c": 6,
       "options": [
         {
           "t": "Le raisonnement inductif",
@@ -9077,6 +9240,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, l'expérience en matière de raisonnement clinique :",
+      "c": 6,
       "options": [
         {
           "t": "ne se limite pas au nombre d'années de travail",
@@ -9095,6 +9259,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les préjugés possibles du physiothérapeute, lequel est cité dans le cours ?",
+      "c": 6,
       "options": [
         {
           "t": "Le biais de confirmation",
@@ -9113,6 +9278,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le facteur PSYCHO du modèle biopsychosocial, quelle stratégie doit-on toujours essayer de favoriser chez le patient ?",
+      "c": 6,
       "options": [
         {
           "t": "Des stratégies d'adaptation actives",
@@ -9131,6 +9297,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quel facteur du modèle biopsychosocial appartient le statut socio-économique du patient ?",
+      "c": 6,
       "options": [
         {
           "t": "Au facteur social",
@@ -9149,6 +9316,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel modèle de raisonnement clinique n'est pas adapté à la physiothérapie car il repose sur le diagnostic ?",
+      "c": 6,
       "options": [
         {
           "t": "Le modèle initial",
@@ -9167,6 +9335,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon Jones et Magarey, que ne faut-il pas faire face au patient ?",
+      "c": 6,
       "options": [
         {
           "t": "S'enfermer dans une pensée unique",
@@ -9185,6 +9354,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les 7 catégories d'hypothèses, à quoi correspond l'hypothèse de la limitation fonctionnelle ?",
+      "c": 6,
       "options": [
         {
           "t": "Au rôle, aux activités et à la participation du patient",
@@ -9203,6 +9373,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, comment doit-on annoncer le pronostic au patient ?",
+      "c": 6,
       "options": [
         {
           "t": "En donnant un délai plutôt long, sans promettre une guérison à 100 %",
@@ -9221,6 +9392,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, la métacognition correspond au processus par lequel le clinicien :",
+      "c": 6,
       "options": [
         {
           "t": "s'autorégule pour penser ses propres pensées de façon réfléchie",
@@ -9239,6 +9411,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, en quoi l'exercice thérapeutique se distingue-t-il de l'exercice physique ?",
+      "c": 7,
       "options": [
         {
           "t": "Il vise à prévenir ou traiter des pathologies dans un plan de réadaptation",
@@ -9257,6 +9430,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'effet de l'exercice thérapeutique sur le système cardiovasculaire à court terme, on observe :",
+      "c": 7,
       "options": [
         {
           "t": "Une augmentation de la fréquence cardiaque et de la pression artérielle",
@@ -9275,6 +9449,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, l'hypoalgésie généralisée induite par l'exercice est surtout obtenue par :",
+      "c": 7,
       "options": [
         {
           "t": "L'exercice aérobie à intensité moyenne-élevée",
@@ -9293,6 +9468,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quel principe résume l'idée « la dose est plus importante que le type d'exercice » ?",
+      "c": 7,
       "options": [
         {
           "t": "Le dosage adéquat prime sur le choix du type d'exercice",
@@ -9311,6 +9487,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel est l'objectif principal du massage tonique (tonifiant) ?",
+      "c": 8,
       "options": [
         {
           "t": "Récupérer le tonus, le volume, la contractilité et la force",
@@ -9329,6 +9506,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel type de massage détourne le sang vers la périphérie en provoquant une forte hyperémie ?",
+      "c": 8,
       "options": [
         {
           "t": "Le massage révulsif",
@@ -9347,6 +9525,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, une contre-indication de la massothérapie est :",
+      "c": 8,
       "options": [
         {
           "t": "Une inflammation ou infection aiguë",
@@ -9365,6 +9544,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, la mobilisation articulaire de grade IV de Maitland vise à :",
+      "c": 8,
       "options": [
         {
           "t": "Gagner les derniers degrés de mobilité capsulaire en fin de course",
@@ -9383,6 +9563,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel est le principe de la traction articulaire ?",
+      "c": 8,
       "options": [
         {
           "t": "Relâcher la pression intracapsulaire et limiter les frottements entre surfaces",
@@ -9401,6 +9582,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, en électrothérapie, les basses fréquences (inférieures à 50 Hz) sont utilisées pour :",
+      "c": 9,
       "options": [
         {
           "t": "L'électrostimulation musculaire",
@@ -9419,6 +9601,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, l'effet du pôle négatif (cathode) d'un courant à effet polaire est :",
+      "c": 9,
       "options": [
         {
           "t": "Une réaction alcaline avec vasodilatation et excitation",
@@ -9437,6 +9620,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, l'électrolyse percutanée (EPI) applique un courant galvanique afin de :",
+      "c": 12,
       "options": [
         {
           "t": "Provoquer une réaction inflammatoire contrôlée stimulant la réparation tissulaire",
@@ -9455,6 +9639,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, dans le muscle dénervé, l'électrothérapie agit :",
+      "c": 9,
       "options": [
         {
           "t": "Directement sur la fibre musculaire",
@@ -9473,6 +9658,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel est un effet mécanique de la ponction sèche au niveau du point gâchette ?",
+      "c": 12,
       "options": [
         {
           "t": "L'élimination de substances sensibilisantes comme la substance P",
@@ -9491,6 +9677,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, la douleur de type inflammatoire se caractérise par :",
+      "c": 13,
       "options": [
         {
           "t": "Une amélioration avec les anti-inflammatoires et le froid",
@@ -15677,6 +15864,7 @@ const QUESTIONS = {
   "processusBio1": [
     {
       "q": "Lors d'un cours sur l'origine de la vie, un enseignant décrit l'étape où des molécules inorganiques simples (CH4, NH3, H2O, H2) se transforment en premières molécules organiques (acides aminés, acides nucléiques, lipides), comme illustré par l'expérience de Miller (1953). À quelle étape de la formation de la vie ce processus correspond-il selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "L'évolution chimique",
@@ -15699,6 +15887,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle proposition résume CORRECTEMENT la théorie endosymbiotique de Lynn Margulis ?",
+      "c": 2,
       "options": [
         {
           "t": "Les cellules eucaryotes résultent de la symbiose de plusieurs organismes procaryotes",
@@ -15721,6 +15910,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle caractéristique appartient EXCLUSIVEMENT aux cellules eucaryotes ?",
+      "c": 2,
       "options": [
         {
           "t": "ADN nu de forme circulaire",
@@ -15743,6 +15933,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle classification métabolique correspond à une bactérie utilisant la lumière comme énergie et le CO2 comme source de carbone ?",
+      "c": 2,
       "options": [
         {
           "t": "Chimiohétérotrophe",
@@ -15765,6 +15956,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces définitions correspond CORRECTEMENT à un virus ?",
+      "c": 2,
       "options": [
         {
           "t": "Protéine infectieuse dépourvue d'acide nucléique",
@@ -15787,6 +15979,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel bioélément est COMMUN à toutes les biomolécules organiques ?",
+      "c": 1,
       "options": [
         {
           "t": "Le carbone (C)",
@@ -15809,6 +16002,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle association monomère-polymère est CORRECTE ?",
+      "c": 1,
       "options": [
         {
           "t": "Acide gras - protéine",
@@ -15831,6 +16025,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle combinaison représente les trois grandes catégories de constituants de la membrane plasmique ?",
+      "c": 3,
       "options": [
         {
           "t": "Phospholipides, protéines, glucides",
@@ -15853,6 +16048,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle affirmation décrit CORRECTEMENT la nature amphiphile d'un phospholipide ?",
+      "c": 3,
       "options": [
         {
           "t": "Une tête hydrophile et deux queues hydrophobes",
@@ -15875,6 +16071,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle fonction CORRECTE est attribuée au cholestérol membranaire ?",
+      "c": 3,
       "options": [
         {
           "t": "Tamponner la fluidité membranaire selon la température",
@@ -15897,6 +16094,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi les acides gras INSATURÉS augmentent-ils la fluidité membranaire à basse température ?",
+      "c": 3,
       "options": [
         {
           "t": "Le coude des doubles liaisons écarte les lipides voisins",
@@ -15919,6 +16117,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment qualifier une protéine traversant complètement la bicouche lipidique ?",
+      "c": 3,
       "options": [
         {
           "t": "Amphipathique à domaines alternés",
@@ -15941,6 +16140,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient receveur de groupe AB est admis aux urgences. Quel groupe sanguin de donneur est COMPATIBLE avec lui ?",
+      "c": 3,
       "options": [
         {
           "t": "Tous les groupes : A, B, AB et O",
@@ -15963,6 +16163,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle fonction est PRINCIPALEMENT assurée par les glycoprotéines et glycolipides du glycocalyx ?",
+      "c": 3,
       "options": [
         {
           "t": "Reconnaissance intercellulaire et antigènes de groupe",
@@ -15985,6 +16186,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces molécules, laquelle traversera le PLUS facilement la bicouche par diffusion simple ?",
+      "c": 3,
       "options": [
         {
           "t": "Le glucose, hexose polaire de masse élevée",
@@ -16007,6 +16209,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle définition d'une solution isotonique est CORRECTE ?",
+      "c": 3,
       "options": [
         {
           "t": "Osmolarité égale à celle du milieu intracellulaire, flux net d'eau nul",
@@ -16029,6 +16232,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un globule rouge est placé dans une solution HYPOtonique. Que se passe-t-il ?",
+      "c": 3,
       "options": [
         {
           "t": "L'eau sort de la cellule, qui se ratatine",
@@ -16051,6 +16255,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces affirmations sur la diffusion simple est FAUSSE ?",
+      "c": 3,
       "options": [
         {
           "t": "Elle se fait dans le sens du gradient de concentration",
@@ -16073,6 +16278,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle caractéristique est PROPRE à la diffusion facilitée ?",
+      "c": 3,
       "options": [
         {
           "t": "Transport passif consommant directement de l'ATP",
@@ -16095,6 +16301,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle stœchiométrie est CORRECTE pour un cycle de la pompe Na+/K+ ATPase ?",
+      "c": 3,
       "options": [
         {
           "t": "3 Na+ entrants / 2 K+ sortants / 1 ATP hydrolysé",
@@ -16117,6 +16324,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans l'épithélium intestinal, le glucose est absorbé contre son gradient. Quel mécanisme est CORRECT ?",
+      "c": 3,
       "options": [
         {
           "t": "Transport actif primaire utilisant directement l'ATP",
@@ -16139,6 +16347,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment augmenter la VITESSE de transport par diffusion facilitée saturée ?",
+      "c": 3,
       "options": [
         {
           "t": "Ajouter de l'ATP au milieu",
@@ -16161,6 +16370,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un macrophage englobe une bactérie. De quel type d'endocytose s'agit-il ?",
+      "c": 3,
       "options": [
         {
           "t": "Pinocytose en phase fluide",
@@ -16183,6 +16393,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une cellule endocyte des particules de LDL via leurs récepteurs. Quel type de vésicule recouvre cette internalisation ?",
+      "c": 3,
       "options": [
         {
           "t": "Vésicules recouvertes de clathrine",
@@ -16205,6 +16416,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des processus suivants correspond à la TRANSCYTOSE ?",
+      "c": 3,
       "options": [
         {
           "t": "Sortie exclusive de contenu vésiculaire",
@@ -16227,6 +16439,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le canal nicotinique de l'acétylcholine est un exemple de quel type de transport ?",
+      "c": 3,
       "options": [
         {
           "t": "Diffusion simple à travers la bicouche",
@@ -16249,6 +16462,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un enfant atteint de mucoviscidose présente un mucus bronchique épais. Quelle protéine est en cause ?",
+      "c": 3,
       "options": [
         {
           "t": "Canal sodium épithélial ENaC",
@@ -16271,6 +16485,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une hormone liposoluble traverse facilement la bicouche. Où se trouvent typiquement ses récepteurs ?",
+      "c": 6,
       "options": [
         {
           "t": "À la surface externe de la membrane plasmique",
@@ -16293,6 +16508,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le récepteur β-adrénergique, activé par l'adrénaline, appartient à quelle famille ?",
+      "c": 6,
       "options": [
         {
           "t": "Récepteur couplé à une protéine G (RCPG)",
@@ -16315,6 +16531,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une protéine G hétérotrimérique est ACTIVÉE quand…",
+      "c": 6,
       "options": [
         {
           "t": "Le GDP remplace le GTP sur sa sous-unité α",
@@ -16337,6 +16554,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une benzodiazépine POTENTIALISE l'effet inhibiteur du GABA. Comment qualifier ce ligand ?",
+      "c": 6,
       "options": [
         {
           "t": "Antagoniste compétitif du récepteur GABA-A",
@@ -16359,6 +16577,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est l'intérêt principal des seconds messagers dans la cascade RCPG ?",
+      "c": 6,
       "options": [
         {
           "t": "Transmettre le signal sans en modifier l'intensité",
@@ -16381,6 +16600,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un neurone libère un neurotransmetteur dans la fente synaptique. Quel mode de communication ?",
+      "c": 6,
       "options": [
         {
           "t": "Synaptique",
@@ -16403,6 +16623,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi seules certaines cellules cibles répondent-elles à la testostérone ?",
+      "c": 6,
       "options": [
         {
           "t": "Seules ces cellules possèdent un récepteur intracellulaire à la testostérone",
@@ -16425,6 +16646,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle combinaison représente les trois éléments du CYTOSQUELETTE ?",
+      "c": 4,
       "options": [
         {
           "t": "Microfilaments, microtubules, filaments intermédiaires",
@@ -16447,6 +16669,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une cellule épithéliale présente des microvillosités. De quoi sont composés leurs filaments internes ?",
+      "c": 4,
       "options": [
         {
           "t": "Filaments d'actine",
@@ -16469,6 +16692,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente un défaut de transport axonal ANTÉROGRADE. Quelle protéine motrice est en cause ?",
+      "c": 4,
       "options": [
         {
           "t": "La dynéine",
@@ -16491,6 +16715,7 @@ const QUESTIONS = {
     },
     {
       "q": "Classez les éléments du cytosquelette par DIAMÈTRE CROISSANT.",
+      "c": 4,
       "options": [
         {
           "t": "Microfilaments < filaments intermédiaires < microtubules",
@@ -16513,6 +16738,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément du cytosquelette est apolaire et constitue le réseau le PLUS STABLE ?",
+      "c": 4,
       "options": [
         {
           "t": "Les microfilaments d'actine",
@@ -16535,6 +16761,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'AXONÈME des cils mobiles présente la disposition 9+2. De quoi sont faits ces doublets ?",
+      "c": 4,
       "options": [
         {
           "t": "De microfilaments d'actine",
@@ -16557,6 +16784,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel énoncé décrit CORRECTEMENT le cytosol ?",
+      "c": 5,
       "options": [
         {
           "t": "Organite délimité par une double membrane",
@@ -16579,6 +16807,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces éléments NE FAIT PAS partie du système endomembranaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Réticulum endoplasmique",
@@ -16601,6 +16830,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le REL est très développé dans les hépatocytes. Quelle est sa fonction principale ?",
+      "c": 5,
       "options": [
         {
           "t": "Synthèse et maturation des protéines membranaires",
@@ -16623,6 +16853,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, dans quel organite a lieu la N-glycosylation des protéines (transfert d'un oligosaccharide sur un résidu Asparagine) ?",
+      "c": 5,
       "options": [
         {
           "t": "Appareil de Golgi",
@@ -16645,6 +16876,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle proposition sur l'APPAREIL DE GOLGI est CORRECTE ?",
+      "c": 5,
       "options": [
         {
           "t": "Il ne communique pas avec le RER",
@@ -16667,6 +16899,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle caractéristique des lysosomes est CORRECTE ?",
+      "c": 5,
       "options": [
         {
           "t": "Ils contiennent des hydrolases actives à pH neutre",
@@ -16689,6 +16922,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un lysosome PRIMAIRE devient SECONDAIRE quand…",
+      "c": 5,
       "options": [
         {
           "t": "Il fusionne avec un phagosome ou un autophagosome",
@@ -16711,6 +16945,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel organite contient la CATALASE et détoxifie le H2O2 ?",
+      "c": 5,
       "options": [
         {
           "t": "Le peroxysome",
@@ -16733,6 +16968,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le pH acide du lysosome est maintenu par quelle pompe membranaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Pompe à protons (H+) ATPase de type V (V-ATPase)",
@@ -16755,6 +16991,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle description STRUCTURALE de la mitochondrie est CORRECTE ?",
+      "c": 12,
       "options": [
         {
           "t": "Double membrane, espace intermembranaire, crêtes et matrice",
@@ -16777,6 +17014,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la MEMBRANE INTERNE MITOCHONDRIALE (MMI), quelle proposition est CORRECTE ?",
+      "c": 12,
       "options": [
         {
           "t": "Elle héberge l'ATP synthase et les complexes de la chaîne respiratoire",
@@ -16799,6 +17037,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quelle affirmation concernant l'ADN MITOCHONDRIAL humain est CORRECTE ?",
+      "c": 8,
       "options": [
         {
           "t": "C'est une molécule circulaire à double chaîne (chaîne lourde H et chaîne légère L)",
@@ -16821,6 +17060,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où se déroule la GLYCOLYSE dans la cellule eucaryote ?",
+      "c": 12,
       "options": [
         {
           "t": "Dans le cytosol",
@@ -16843,6 +17083,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le CYCLE DE KREBS produit directement par tour (pour 1 acétyl-CoA) :",
+      "c": 12,
       "options": [
         {
           "t": "3 NADH, 1 FADH2, 1 GTP, 2 CO2",
@@ -16865,6 +17106,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où se trouve la CHAÎNE de transport des électrons ?",
+      "c": 12,
       "options": [
         {
           "t": "Dans la matrice mitochondriale",
@@ -16887,6 +17129,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ATP synthase utilise QUELLE source d'énergie directe pour synthétiser de l'ATP ?",
+      "c": 12,
       "options": [
         {
           "t": "L'énergie du gradient électrochimique de H+ à travers la membrane interne",
@@ -16909,6 +17152,7 @@ const QUESTIONS = {
     },
     {
       "q": "La β-OXYDATION des acides gras a lieu PRINCIPALEMENT…",
+      "c": 12,
       "options": [
         {
           "t": "Dans le cytosol",
@@ -16931,6 +17175,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les étapes du métabolisme énergétique étudiées en cours, laquelle ne produit AUCUN CO2 ?",
+      "c": 12,
       "options": [
         {
           "t": "La chaîne de transport des électrons",
@@ -16953,6 +17198,7 @@ const QUESTIONS = {
     },
     {
       "q": "Combien d'ATP NETS produit la glycolyse seule par molécule de glucose ?",
+      "c": 12,
       "options": [
         {
           "t": "0 ATP",
@@ -16975,6 +17221,7 @@ const QUESTIONS = {
     },
     {
       "q": "En conditions ANAÉROBIES, le pyruvate est principalement transformé en…",
+      "c": 12,
       "options": [
         {
           "t": "Acide lactique",
@@ -16997,6 +17244,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle hormone postprandiale augmente l'absorption du glucose par le muscle via GLUT4 ?",
+      "c": 12,
       "options": [
         {
           "t": "L'insuline",
@@ -17019,6 +17267,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la structure de l'ENVELOPPE nucléaire ?",
+      "c": 9,
       "options": [
         {
           "t": "Membrane simple percée de pores nucléaires",
@@ -17041,6 +17290,7 @@ const QUESTIONS = {
     },
     {
       "q": "La LAMINA nucléaire est composée de…",
+      "c": 4,
       "options": [
         {
           "t": "Filaments intermédiaires de lamines",
@@ -17063,6 +17313,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction principale du NUCLÉOLE ?",
+      "c": 9,
       "options": [
         {
           "t": "Transcription des ARN ribosomiques et assemblage des ribosomes",
@@ -17085,6 +17336,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une chromatine peu condensée et activement transcrite est appelée…",
+      "c": 8,
       "options": [
         {
           "t": "Euchromatine",
@@ -17107,6 +17359,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quelle phase du cycle cellulaire la duplication de l'ADN a-t-elle lieu ?",
+      "c": 7,
       "options": [
         {
           "t": "Phase S",
@@ -17129,6 +17382,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le point de non-retour du cycle cellulaire se situe en…",
+      "c": 7,
       "options": [
         {
           "t": "Fin de phase G1, au point R",
@@ -17151,6 +17405,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quelle phase l'enveloppe nucléaire se désintègre-t-elle ?",
+      "c": 7,
       "options": [
         {
           "t": "Prophase",
@@ -17173,6 +17428,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'alignement des chromosomes sur la plaque équatoriale caractérise quelle phase ?",
+      "c": 7,
       "options": [
         {
           "t": "La prophase",
@@ -17195,6 +17451,7 @@ const QUESTIONS = {
     },
     {
       "q": "La CYTOCINÈSE animale fait intervenir un anneau contractile composé de…",
+      "c": 7,
       "options": [
         {
           "t": "Microtubules et dynéine",
@@ -17217,6 +17474,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le caryotype d'une cellule somatique humaine s'écrit…",
+      "c": 8,
       "options": [
         {
           "t": "n = 23",
@@ -17239,6 +17497,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel caryotype caractérise un spermatozoïde humain ?",
+      "c": 8,
       "options": [
         {
           "t": "2n = 46",
@@ -17261,6 +17520,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le CENTROMÈRE d'un chromosome est…",
+      "c": 8,
       "options": [
         {
           "t": "L'extrémité protectrice riche en répétitions TTAGGG",
@@ -17283,6 +17543,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le KINÉTOCHORE assure quelle fonction ?",
+      "c": 7,
       "options": [
         {
           "t": "La protection des extrémités contre la dégradation",
@@ -17305,6 +17566,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une cellule contient 47 chromosomes. Comment qualifier ce caryotype ?",
+      "c": 8,
       "options": [
         {
           "t": "Cellule aneuploïde",
@@ -17327,6 +17589,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le syndrome de DOWN (trisomie 21) résulte de…",
+      "c": 8,
       "options": [
         {
           "t": "Une triploïdie portant sur l'ensemble du génome",
@@ -17349,6 +17612,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces anomalies, laquelle est une mutation STRUCTURALE ?",
+      "c": 8,
       "options": [
         {
           "t": "La trisomie 21 (3 copies du chromosome 21)",
@@ -17371,6 +17635,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un ALLÈLE est défini comme…",
+      "c": 8,
       "options": [
         {
           "t": "La position d'un gène sur le chromosome",
@@ -17393,6 +17658,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle correspondance ARNm/ARNt/ARNr est CORRECTE ?",
+      "c": 9,
       "options": [
         {
           "t": "ARNm = transporte les acides aminés vers le ribosome",
@@ -17415,6 +17681,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le code génétique est dit \"redondant\" parce que…",
+      "c": 9,
       "options": [
         {
           "t": "Un même codon peut coder plusieurs AA",
@@ -17437,6 +17704,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si un peptide contient 100 AA, combien de nucléotides minimum doit avoir l'ARNm ?",
+      "c": 9,
       "options": [
         {
           "t": "100 nucléotides",
@@ -17459,6 +17727,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où se déroulent transcription et traduction chez les eucaryotes ?",
+      "c": 9,
       "options": [
         {
           "t": "Transcription dans le cytosol ; traduction dans le noyau",
@@ -17481,6 +17750,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quelle étape l'AA est-il \"chargé\" sur son ARNt ?",
+      "c": 9,
       "options": [
         {
           "t": "À l'initiation, sur le site P du ribosome",
@@ -17503,6 +17773,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'élongation de la traduction s'arrête quand…",
+      "c": 9,
       "options": [
         {
           "t": "Le ribosome atteint un codon stop non lu par un ARNt",
@@ -17525,6 +17796,7 @@ const QUESTIONS = {
     },
     {
       "q": "Que désigne un POLYSOME en biologie cellulaire ?",
+      "c": 9,
       "options": [
         {
           "t": "Un ribosome géant traduisant plusieurs gènes",
@@ -17547,6 +17819,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'érythrocyte mature obtient son ATP grâce à quelle voie métabolique ?",
+      "c": 12,
       "options": [
         {
           "t": "La phosphorylation oxydative",
@@ -17569,6 +17842,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la définition d'un NEWTON (1 N) ?",
+      "c": 10,
       "options": [
         {
           "t": "1 kg × 1 m/s",
@@ -17591,6 +17865,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment varient masse et poids entre Terre et Lune ?",
+      "c": 10,
       "options": [
         {
           "t": "Masse et poids inchangés sur la Lune",
@@ -17613,6 +17888,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ÉNERGIE D'ACTIVATION d'une réaction chimique est…",
+      "c": 10,
       "options": [
         {
           "t": "L'énergie libérée par la réaction",
@@ -17635,6 +17911,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une enzyme catalyse une réaction. Quel est son effet sur Ea et l'équilibre ?",
+      "c": 10,
       "options": [
         {
           "t": "Elle abaisse l'énergie d'activation sans modifier l'équilibre",
@@ -17657,6 +17934,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une femme dépense 5040 kJ et 1 mole d'ATP libère ~30,6 kJ. Combien de moles d'ATP a-t-elle hydrolysées ?",
+      "c": 10,
       "options": [
         {
           "t": "Environ 130 moles",
@@ -17679,6 +17957,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un système qui échange de l'énergie mais PAS de matière est dit…",
+      "c": 11,
       "options": [
         {
           "t": "Ouvert",
@@ -17701,6 +17980,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le 1er principe s'écrit ΔU = Q - W. Quelle convention est CORRECTE ?",
+      "c": 11,
       "options": [
         {
           "t": "Q > 0 quand le système cède de la chaleur ; W > 0 quand on travaille sur lui",
@@ -17723,6 +18003,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le 2e principe, dans un système isolé, l'entropie…",
+      "c": 11,
       "options": [
         {
           "t": "Diminue lors d'un processus spontané",
@@ -17745,6 +18026,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quelle température en Celsius correspond 0 K ?",
+      "c": 13,
       "options": [
         {
           "t": "0 °C",
@@ -17767,6 +18049,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la théorie cinétique, la température est une mesure indirecte de…",
+      "c": 13,
       "options": [
         {
           "t": "L'énergie potentielle des molécules",
@@ -17789,6 +18072,7 @@ const QUESTIONS = {
     },
     {
       "q": "La chaleur SPÉCIFIQUE d'une substance est…",
+      "c": 13,
       "options": [
         {
           "t": "L'énergie totale contenue dans 1 g de substance",
@@ -17811,6 +18095,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mécanisme de transfert de chaleur NE nécessite PAS de support matériel ?",
+      "c": 13,
       "options": [
         {
           "t": "La conduction",
@@ -17833,6 +18118,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au repos, une personne perd la majeure partie de sa chaleur par…",
+      "c": 13,
       "options": [
         {
           "t": "Conduction",
@@ -17855,6 +18141,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quand la T ambiante s'approche de la T corporelle, quel mécanisme de thermolyse reste efficace ?",
+      "c": 13,
       "options": [
         {
           "t": "La conduction",
@@ -17877,6 +18164,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle énergie l'organisme dissipe-t-il en évaporant 1 g de sueur ?",
+      "c": 13,
       "options": [
         {
           "t": "Environ 4,18 J",
@@ -17899,6 +18187,7 @@ const QUESTIONS = {
     },
     {
       "q": "En thérapeutique, la CRYOTHÉRAPIE consiste à…",
+      "c": 13,
       "options": [
         {
           "t": "Transférer la chaleur du patient vers l'agent froid",
@@ -17921,6 +18210,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une onde MÉCANIQUE LONGITUDINALE correspond à…",
+      "c": 14,
       "options": [
         {
           "t": "La lumière visible",
@@ -17943,6 +18233,7 @@ const QUESTIONS = {
     },
     {
       "q": "La fréquence d'une onde est l'inverse de…",
+      "c": 14,
       "options": [
         {
           "t": "La longueur d'onde",
@@ -17965,6 +18256,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une onde sonore se déplace PLUS RAPIDEMENT dans…",
+      "c": 14,
       "options": [
         {
           "t": "Le plomb",
@@ -17987,6 +18279,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'IMPÉDANCE acoustique (Z = ρc) est plus élevée…",
+      "c": 14,
       "options": [
         {
           "t": "Dans un gaz que dans un liquide",
@@ -18009,6 +18302,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi applique-t-on un GEL entre la sonde échographique et la peau ?",
+      "c": 14,
       "options": [
         {
           "t": "Pour réchauffer les tissus afin d'améliorer la propagation des ultrasons",
@@ -18031,6 +18325,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'épaisseur de demi-réduction des US à 1 MHz est typiquement…",
+      "c": 14,
       "options": [
         {
           "t": "Environ 2 cm",
@@ -18053,6 +18348,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un ultrason de FRÉQUENCE plus élevée…",
+      "c": 14,
       "options": [
         {
           "t": "Pénètre plus profondément mais perd en résolution",
@@ -18075,6 +18371,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'EFFET DOPPLER en échographie permet de mesurer…",
+      "c": 14,
       "options": [
         {
           "t": "Le diamètre du vaisseau exploré",
@@ -18097,6 +18394,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les ondes électromagnétiques diffèrent des ondes sonores parce qu'elles…",
+      "c": 15,
       "options": [
         {
           "t": "Sont longitudinales et nécessitent un milieu matériel",
@@ -18119,6 +18417,7 @@ const QUESTIONS = {
     },
     {
       "q": "La relation FONDAMENTALE entre vitesse, longueur d'onde et fréquence est…",
+      "c": 14,
       "options": [
         {
           "t": "c = λ × f",
@@ -18141,6 +18440,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'énergie d'un photon est donnée par quelle relation ?",
+      "c": 15,
       "options": [
         {
           "t": "E = m·c²",
@@ -18163,6 +18463,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces rayonnements, lesquels sont IONISANTS ?",
+      "c": 15,
       "options": [
         {
           "t": "Lumière visible",
@@ -18185,6 +18486,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si la distance à une source ponctuelle de rayonnement double, l'intensité reçue…",
+      "c": 15,
       "options": [
         {
           "t": "Est divisée par 4",
@@ -18207,6 +18509,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle propriété N'EST PAS une caractéristique d'un faisceau laser ?",
+      "c": 15,
       "options": [
         {
           "t": "Monochromatique (une seule longueur d'onde)",
@@ -18229,6 +18532,7 @@ const QUESTIONS = {
     },
     {
       "q": "En thérapie par UV-C, on utilise principalement leur effet…",
+      "c": 15,
       "options": [
         {
           "t": "Germicide par lésion de l'ADN microbien",
@@ -18251,6 +18555,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les LED rouges/IR (LLLT) en physiothérapie servent à…",
+      "c": 15,
       "options": [
         {
           "t": "Réduire l'inflammation et favoriser la cicatrisation",
@@ -18273,6 +18578,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une onde lumineuse passe de l'air à l'eau. Que se passe-t-il ?",
+      "c": 15,
       "options": [
         {
           "t": "Vitesse et longueur d'onde diminuent, fréquence inchangée",
@@ -18295,6 +18601,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la LOI DE SNELL, quand n2 > n1 (milieu plus dense)…",
+      "c": 15,
       "options": [
         {
           "t": "Le rayon réfracté s'éloigne de la normale",
@@ -18317,6 +18624,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le Soleil chauffe la Terre malgré le vide spatial. Cela illustre…",
+      "c": 13,
       "options": [
         {
           "t": "La conduction",
@@ -18339,6 +18647,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ADN MITOCHONDRIAL est transmis selon quel mode ?",
+      "c": 8,
       "options": [
         {
           "t": "De manière paternelle exclusive",
@@ -18361,6 +18670,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'unité de PUISSANCE dans le SI est le WATT. Il correspond à…",
+      "c": 10,
       "options": [
         {
           "t": "1 J × 1 s",
@@ -18383,6 +18693,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel énoncé sur les RAYONS X est VRAI ?",
+      "c": 15,
       "options": [
         {
           "t": "Os et tissus mous les atténuent de façon identique",
@@ -18405,6 +18716,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'INSULINE en période postprandiale STIMULE quel processus ?",
+      "c": 12,
       "options": [
         {
           "t": "La glycogénolyse",
@@ -18427,6 +18739,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les RIBOSOMES sont composés de…",
+      "c": 9,
       "options": [
         {
           "t": "ARN messager (ARNm) et protéines ribosomales",
@@ -18449,6 +18762,7 @@ const QUESTIONS = {
     },
     {
       "q": "La RÉPLICATION de l'ADN est dite \"semi-conservative\" car…",
+      "c": 7,
       "options": [
         {
           "t": "Chaque molécule fille garde un brin parental et un brin neuf",
@@ -18471,6 +18785,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une SOLUTION HYPERTONIQUE par rapport à la cellule animale induit…",
+      "c": 3,
       "options": [
         {
           "t": "Une entrée d'eau et une lyse de la cellule",
@@ -18493,6 +18808,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un nourrisson a un cœur à 150 bpm. Quelle est sa fréquence cardiaque en Hz ?",
+      "c": 14,
       "options": [
         {
           "t": "2,5 Hz",
@@ -18515,6 +18831,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une cellule eucaryote produit 2 cellules filles génétiquement IDENTIQUES après…",
+      "c": 7,
       "options": [
         {
           "t": "La méiose",
@@ -18537,6 +18854,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'épigénétique inclut la méthylation de l'ADN. Quelle base est typiquement méthylée ?",
+      "c": 9,
       "options": [
         {
           "t": "La cytosine",
@@ -18559,6 +18877,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'acétylation des histones augmente la transcription parce qu'elle…",
+      "c": 9,
       "options": [
         {
           "t": "Neutralise les charges + et décondense la chromatine",
@@ -18581,6 +18900,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'AMP cyclique (AMPc) est un second messager produit par…",
+      "c": 6,
       "options": [
         {
           "t": "La protéine kinase A (PKA)",
@@ -18603,6 +18923,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les MICROTUBULES nécessitent quel nucléotide pour leur polymérisation ?",
+      "c": 4,
       "options": [
         {
           "t": "ATP",
@@ -18625,6 +18946,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ADN dans le noyau est associé à quelles protéines basiques ?",
+      "c": 8,
       "options": [
         {
           "t": "Histones",
@@ -18647,6 +18969,7 @@ const QUESTIONS = {
     },
     {
       "q": "En glycolyse anaérobie, le pyruvate est réduit en lactate principalement pour…",
+      "c": 12,
       "options": [
         {
           "t": "Régénérer le NAD+ nécessaire à la glycolyse",
@@ -18669,6 +18992,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les ACIDES GRAS SATURÉS sont solides à T ambiante parce que…",
+      "c": 1,
       "options": [
         {
           "t": "Leurs chaînes droites s'empilent de façon compacte",
@@ -18691,6 +19015,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'intensité d'une onde évolue comment avec la distance pour une source ponctuelle ?",
+      "c": 14,
       "options": [
         {
           "t": "Proportionnelle à la distance",
@@ -18713,6 +19038,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le débit sanguin (Q) dans un vaisseau s'écrit…",
+      "c": 14,
       "options": [
         {
           "t": "Q = V x A (vitesse x section)",
@@ -18735,6 +19061,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une onde radio à 1 MHz a une longueur d'onde d'environ…",
+      "c": 15,
       "options": [
         {
           "t": "300 m",
@@ -18757,6 +19084,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les desmosomes sont ancrés à quels filaments du cytosquelette ?",
+      "c": 4,
       "options": [
         {
           "t": "Aux microfilaments d'actine",
@@ -18779,6 +19107,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le centromère est :",
+      "c": 8,
       "options": [
         {
           "t": "La région la plus distale d'un chromosome",
@@ -18801,6 +19130,7 @@ const QUESTIONS = {
     },
     {
       "q": "La translocation est :",
+      "c": 8,
       "options": [
         {
           "t": "Une anomalie de structure des chromosomes",
@@ -18823,6 +19153,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les cellules satellites sont des régions de :",
+      "c": 8,
       "options": [
         {
           "t": "ADN répété en tandem",
@@ -18845,6 +19176,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'amélogénine se trouve :",
+      "c": 8,
       "options": [
         {
           "t": "Sur les chromosomes sexuels X et Y",
@@ -18867,6 +19199,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un chromosome acrocentrique est celui auquel :",
+      "c": 8,
       "options": [
         {
           "t": "Le centromère est proche d'une extrémité",
@@ -18889,6 +19222,7 @@ const QUESTIONS = {
     },
     {
       "q": "Combien de chromosomes possède une cellule humaine dans la peau ?",
+      "c": 8,
       "options": [
         {
           "t": "46",
@@ -18911,6 +19245,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qu'un allèle ?",
+      "c": 8,
       "options": [
         {
           "t": "Une des formes alternatives possibles d'un gène",
@@ -18933,6 +19268,7 @@ const QUESTIONS = {
     },
     {
       "q": "La cellule aneuploïde est celle :",
+      "c": 8,
       "options": [
         {
           "t": "Qui contient un ou plusieurs chromosomes en plus ou en moins",
@@ -18955,6 +19291,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le syndrome de Down est :",
+      "c": 8,
       "options": [
         {
           "t": "Une trisomie",
@@ -18977,6 +19314,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le soma est :",
+      "c": 2,
       "options": [
         {
           "t": "Le corps cellulaire abritant le noyau du neurone",
@@ -18999,6 +19337,7 @@ const QUESTIONS = {
     },
     {
       "q": "La membrane mitochondriale interne contient :",
+      "c": 12,
       "options": [
         {
           "t": "Les complexes de la chaîne respiratoire et l'ATP synthase",
@@ -19021,6 +19360,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le composant le plus stable du cytosquelette ?",
+      "c": 4,
       "options": [
         {
           "t": "Les microfilaments d'actine",
@@ -19043,6 +19383,7 @@ const QUESTIONS = {
     },
     {
       "q": "La cellule humaine qui contient 22 autosomes et 1 chromosome Y est :",
+      "c": 8,
       "options": [
         {
           "t": "Un ovule",
@@ -19065,6 +19406,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des énoncés suivants concernant l'enveloppe nucléaire est faux ?",
+      "c": 9,
       "options": [
         {
           "t": "Elle est continue à tous les points",
@@ -19087,6 +19429,7 @@ const QUESTIONS = {
     },
     {
       "q": "La signification génétique de la méiose est :",
+      "c": 16,
       "options": [
         {
           "t": "Réduire le nombre de chromosomes et brasser les allèles",
@@ -19109,6 +19452,7 @@ const QUESTIONS = {
     },
     {
       "q": "La fonction des macrophages est :",
+      "c": 3,
       "options": [
         {
           "t": "Phagocyter les débris et activer d'autres cellules immunitaires",
@@ -19131,6 +19475,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des appariements suivants concernant la fonction-structure est faux ?",
+      "c": 5,
       "options": [
         {
           "t": "Lysosomes – digestion intracellulaire",
@@ -19153,6 +19498,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où commence la synthèse des protéines ?",
+      "c": 9,
       "options": [
         {
           "t": "Dans le noyau, couplée à la transcription de l'ARNm",
@@ -19175,6 +19521,7 @@ const QUESTIONS = {
     },
     {
       "q": "La duplication de l'ADN se produit dans :",
+      "c": 7,
       "options": [
         {
           "t": "La phase S de l'interphase",
@@ -19197,6 +19544,7 @@ const QUESTIONS = {
     },
     {
       "q": "La fonction du kinétochore est :",
+      "c": 7,
       "options": [
         {
           "t": "Ancrer les microtubules du fuseau au centromère du chromosome",
@@ -19219,6 +19567,7 @@ const QUESTIONS = {
     },
     {
       "q": "La pompe Na+/K+ (ATPase Na+/K+) :",
+      "c": 3,
       "options": [
         {
           "t": "Transporte le Na+ et le K+ contre leur gradient grâce à l'ATP",
@@ -19241,6 +19590,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans les transports par diffusion facilitée :",
+      "c": 3,
       "options": [
         {
           "t": "Le passage est médié par une protéine membranaire spécifique du soluté",
@@ -19263,6 +19613,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la différence entre les cellules eucaryotes et procaryotes ?",
+      "c": 2,
       "options": [
         {
           "t": "Un noyau délimité et une taille généralement plus grande",
@@ -19285,6 +19636,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels sont les deux principaux composants de la membrane plasmique ?",
+      "c": 3,
       "options": [
         {
           "t": "Protéines et hydrates de carbone",
@@ -19307,6 +19659,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qu'une solution isotonique ?",
+      "c": 3,
       "options": [
         {
           "t": "Solution dont la concentration en soluté est plus élevée que la référence",
@@ -19329,6 +19682,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles sont les deux caractéristiques que toutes les cellules devraient avoir ?",
+      "c": 2,
       "options": [
         {
           "t": "Capacité de métabolisation et capacité d'auto-multiplication",
@@ -19351,6 +19705,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels sont les composants des ribosomes ?",
+      "c": 9,
       "options": [
         {
           "t": "ADN et protéines",
@@ -19373,6 +19728,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi l'adrénaline, un messager hydrosoluble, peut-elle produire des effets différents, même opposés, dans certains organes ?",
+      "c": 6,
       "options": [
         {
           "t": "Parce que les organes cibles expriment des récepteurs adrénergiques différents",
@@ -19395,6 +19751,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel composé pourra être transporté à travers la membrane plasmique par simple diffusion ?",
+      "c": 3,
       "options": [
         {
           "t": "Le dioxygène (O2)",
@@ -19417,6 +19774,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément du cytosquelette a le plus grand diamètre ?",
+      "c": 4,
       "options": [
         {
           "t": "Les microfilaments d'actine",
@@ -19439,6 +19797,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel/lesquels des éléments suivants du cytosquelette n'a/n'ont pas besoin d'énergie pour se polymériser ?",
+      "c": 4,
       "options": [
         {
           "t": "Les microfilaments d'actine",
@@ -19461,6 +19820,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction de la membrane plasmique ?",
+      "c": 3,
       "options": [
         {
           "t": "Maintenir les différences entre milieux intra- et extracellulaire",
@@ -19483,6 +19843,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quel type de communication cellulaire les cellules sécrètent-elles des médiateurs chimiques locaux agissant uniquement sur les cellules de l'environnement immédiat ?",
+      "c": 6,
       "options": [
         {
           "t": "Communication autocrine/paracrine",
@@ -19505,6 +19866,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle phase de la synthèse protéique a lieu en dehors du ribosome ?",
+      "c": 9,
       "options": [
         {
           "t": "Activation",
@@ -19527,6 +19889,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce que le centromère d'un chromosome ?",
+      "c": 8,
       "options": [
         {
           "t": "La constriction primaire du chromosome",
@@ -19549,6 +19912,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel organite n'appartient pas au système endomembranaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Appareil de Golgi",
@@ -19571,6 +19935,7 @@ const QUESTIONS = {
     },
     {
       "q": "En méiose humaine :",
+      "c": 16,
       "options": [
         {
           "t": "Les quatre cellules filles produites sont diploïdes",
@@ -19593,6 +19958,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des énoncés suivants concernant le réticulum endoplasmique est vrai ?",
+      "c": 5,
       "options": [
         {
           "t": "Le réticulum lisse assure la maturation et le transport des protéines",
@@ -19615,6 +19981,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des éléments suivants peut être trouvé dans la membrane du lysosome ?",
+      "c": 5,
       "options": [
         {
           "t": "Hydrolases acides",
@@ -19637,6 +20004,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction du cytosquelette ?",
+      "c": 4,
       "options": [
         {
           "t": "Maintenir la forme de la cellule",
@@ -19659,6 +20027,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos des mitochondries :",
+      "c": 12,
       "options": [
         {
           "t": "Elles ont des tailles variables",
@@ -19681,6 +20050,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des énoncés sur les ribosomes est correct ?",
+      "c": 9,
       "options": [
         {
           "t": "Ils sont identiques chez procaryotes et eucaryotes",
@@ -19703,6 +20073,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce que l'hétérochromatine ?",
+      "c": 8,
       "options": [
         {
           "t": "La chromatine décondensée et transcrite",
@@ -19725,6 +20096,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des organites suivants participe à la maturation des protéines ?",
+      "c": 5,
       "options": [
         {
           "t": "Le réticulum endoplasmique lisse",
@@ -19747,6 +20119,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où se trouve l'ATP synthase ou complexe V dans les mitochondries ?",
+      "c": 12,
       "options": [
         {
           "t": "Dans la membrane mitochondriale interne",
@@ -19769,6 +20142,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des énoncés sur la diffusion facilitée est correct ?",
+      "c": 3,
       "options": [
         {
           "t": "Elle déplace les solutés CONTRE leur gradient de concentration",
@@ -19791,6 +20165,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel stade du cycle cellulaire se trouve le point de non-retour, après lequel la cellule doit se diviser ?",
+      "c": 7,
       "options": [
         {
           "t": "G0",
@@ -19813,6 +20188,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où se produit le cycle de Krebs (ou cycle de l'acide citrique) ?",
+      "c": 12,
       "options": [
         {
           "t": "Dans la membrane mitochondriale interne",
@@ -19835,6 +20211,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la phase de division cellulaire dans laquelle le cytoplasme se divise ?",
+      "c": 7,
       "options": [
         {
           "t": "Prophase",
@@ -19857,6 +20234,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel type de protéine transporte les vésicules vers l'extrémité + des microtubules ?",
+      "c": 4,
       "options": [
         {
           "t": "Kinésine",
@@ -19879,6 +20257,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'établit la théorie endosymbiotique de Lynn Margulis ?",
+      "c": 2,
       "options": [
         {
           "t": "Les procaryotes proviennent de l'association de plusieurs cellules eucaryotes",
@@ -19901,6 +20280,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qui détermine la fluidité de la membrane plasmique ?",
+      "c": 3,
       "options": [
         {
           "t": "La concentration des glucides membranaires",
@@ -19923,6 +20303,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des types de transport suivants ne suit pas la cinétique de saturation ?",
+      "c": 3,
       "options": [
         {
           "t": "Diffusion simple",
@@ -19945,6 +20326,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qu'un lysosome autophagique ?",
+      "c": 5,
       "options": [
         {
           "t": "Un lysosome primaire qui digère un élément externe à la cellule",
@@ -19967,6 +20349,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qu'un lysosome secondaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Une vésicule golgienne neuve riche en hydrolases inactives",
@@ -19989,6 +20372,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des fonctions suivantes est réalisée par les peroxysomes ?",
+      "c": 5,
       "options": [
         {
           "t": "Dégradation du peroxyde d'hydrogène par la catalase",
@@ -20011,6 +20395,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des énoncés suivants est faux ?",
+      "c": 5,
       "options": [
         {
           "t": "Le cytosol est un organite",
@@ -20033,6 +20418,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'appareil de Golgi :",
+      "c": 5,
       "options": [
         {
           "t": "Assure la synthèse des phospholipides de novo de la cellule",
@@ -20055,6 +20441,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le lipide responsable de l'imperméabilité de la membrane mitochondriale interne ?",
+      "c": 12,
       "options": [
         {
           "t": "Le cholestérol",
@@ -20077,6 +20464,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces structures ne fait pas partie du système endomembranaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Réticulum endoplasmique",
@@ -20099,6 +20487,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'oxygène consommé dans la respiration cellulaire est utilisé pour effectuer :",
+      "c": 12,
       "options": [
         {
           "t": "Le transport des électrons",
@@ -20121,6 +20510,7 @@ const QUESTIONS = {
     },
     {
       "q": "La traduction a lieu dans :",
+      "c": 9,
       "options": [
         {
           "t": "Le noyau",
@@ -20143,6 +20533,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le réticulum endoplasmique lisse :",
+      "c": 5,
       "options": [
         {
           "t": "Assure le tri des enzymes lysosomales",
@@ -20165,6 +20556,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un codon :",
+      "c": 9,
       "options": [
         {
           "t": "Correspond à une région d'un acide aminé",
@@ -20187,6 +20579,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant quel processus est produite une partie du CO2 que nous éliminons par la respiration ?",
+      "c": 12,
       "options": [
         {
           "t": "Le cycle de Krebs",
@@ -20209,6 +20602,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des énoncés suivants décrit une similitude entre l'ARN et l'ADN ?",
+      "c": 1,
       "options": [
         {
           "t": "Les deux sont des acides nucléiques",
@@ -20231,6 +20625,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant la traduction, l'élongation se poursuit jusqu'à ce que :",
+      "c": 9,
       "options": [
         {
           "t": "Un ARNt initiateur reconnaisse le codon d'initiation",
@@ -20253,6 +20648,7 @@ const QUESTIONS = {
     },
     {
       "q": "Durant quelle étape de la formation de la vie apparaissent les premières cellules par association de molécules organiques ?",
+      "c": 2,
       "options": [
         {
           "t": "Évolution chimique",
@@ -20275,6 +20671,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels solutés traverseront la membrane plasmique par diffusion simple ?",
+      "c": 3,
       "options": [
         {
           "t": "Grands et polaires",
@@ -20297,6 +20694,7 @@ const QUESTIONS = {
     },
     {
       "q": "La phagocytose :",
+      "c": 3,
       "options": [
         {
           "t": "Permet aux phagocytes d'ingérer et de détruire les pathogènes",
@@ -20319,6 +20717,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'enzyme ATP synthase :",
+      "c": 12,
       "options": [
         {
           "t": "Crée le gradient de protons servant à produire l'ATP",
@@ -20341,6 +20740,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'ADN mitochondrial, il est vrai que :",
+      "c": 8,
       "options": [
         {
           "t": "Transmission maternelle, copies multiples, taux de mutation élevé",
@@ -20363,6 +20763,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où a lieu la conversion du glucose en pyruvate ?",
+      "c": 12,
       "options": [
         {
           "t": "Dans le cytosol",
@@ -20385,6 +20786,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la synthèse des protéines dans le réticulum endoplasmique rugueux :",
+      "c": 9,
       "options": [
         {
           "t": "Débute dans le cytosol, peptide signal, protéines sécrétables",
@@ -20407,6 +20809,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des fonctions suivantes n'appartient pas à l'appareil de Golgi ?",
+      "c": 5,
       "options": [
         {
           "t": "Trafic dirigé de vésicules",
@@ -20429,6 +20832,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les lysosomes secondaires sont :",
+      "c": 5,
       "options": [
         {
           "t": "Le résultat de la fusion d'un lysosome primaire avec un substrat",
@@ -20451,6 +20855,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte vis-à-vis des ribosomes :",
+      "c": 9,
       "options": [
         {
           "t": "Ils achèvent la synthèse d'une chaîne polypeptidique en rencontrant un codon stop",
@@ -20473,6 +20878,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'anticodon d'une molécule d'ARNt est :",
+      "c": 9,
       "options": [
         {
           "t": "Le triplet complémentaire du codon d'ARNm correspondant",
@@ -20495,6 +20901,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse fausse vis-à-vis des filaments d'actine :",
+      "c": 4,
       "options": [
         {
           "t": "Ils constituent les cheveux et les ongles",
@@ -20517,6 +20924,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le processus de polymérisation des microfilaments dépend de l'énergie sous la forme de :",
+      "c": 4,
       "options": [
         {
           "t": "L'ATP, hydrolysé par les monomères d'actine",
@@ -20539,6 +20947,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les éléments suivants font partie du cytosquelette, SAUF :",
+      "c": 4,
       "options": [
         {
           "t": "Les desmosomes",
@@ -20561,6 +20970,7 @@ const QUESTIONS = {
     },
     {
       "q": "La réplication de l'ADN a lieu dans :",
+      "c": 7,
       "options": [
         {
           "t": "La phase S de l'interphase",
@@ -20583,6 +20993,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la réponse incorrecte vis-à-vis de l'enveloppe nucléaire ?",
+      "c": 9,
       "options": [
         {
           "t": "Elle est continue et close en tout point",
@@ -20605,6 +21016,7 @@ const QUESTIONS = {
     },
     {
       "q": "La cellule humaine contenant 22 autosomes et 1 chromosome Y est :",
+      "c": 8,
       "options": [
         {
           "t": "Un ovule mature",
@@ -20627,6 +21039,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quels endroits de la cellule eucaryote peut-on trouver des ribosomes ?",
+      "c": 9,
       "options": [
         {
           "t": "Uniquement libres dans le cytosol",
@@ -20649,6 +21062,7 @@ const QUESTIONS = {
     },
     {
       "q": "La fonction de la membrane plasmique est :",
+      "c": 3,
       "options": [
         {
           "t": "Former une barrière sélective et assurer les interactions cellulaires",
@@ -20671,6 +21085,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle des affirmations suivantes, à propos du cytosol, est vraie ?",
+      "c": 5,
       "options": [
         {
           "t": "C'est un compartiment cellulaire parcouru par le cytosquelette",
@@ -20693,6 +21108,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la théorie cellulaire :",
+      "c": 2,
       "options": [
         {
           "t": "Chaque cellule provient d'une cellule préexistante",
@@ -20715,6 +21131,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une protéine G est activée quand :",
+      "c": 6,
       "options": [
         {
           "t": "Le ligand se lie au récepteur couplé aux protéines G",
@@ -20737,6 +21154,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un virus :",
+      "c": 2,
       "options": [
         {
           "t": "Est une cellule procaryote dépourvue de noyau",
@@ -20759,6 +21177,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'une des différences entre les procaryotes et les eucaryotes est :",
+      "c": 2,
       "options": [
         {
           "t": "Les eucaryotes confinent leur ADN dans un noyau, absent chez les procaryotes",
@@ -20781,6 +21200,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction des polysomes/polyribosomes ?",
+      "c": 9,
       "options": [
         {
           "t": "Synthétiser plusieurs copies de la même protéine à partir de plusieurs ARNm différents",
@@ -20803,6 +21223,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel organite classe les protéines selon qu'elles vont aux lysosomes, à la membrane plasmique ou sont sécrétées ?",
+      "c": 5,
       "options": [
         {
           "t": "Le réticulum endoplasmique rugueux qui synthétise et replie",
@@ -20825,6 +21246,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction d'un polyribosome ?",
+      "c": 9,
       "options": [
         {
           "t": "Lire plusieurs ARNm en même temps",
@@ -20847,6 +21269,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les microfilaments d'actine :",
+      "c": 4,
       "options": [
         {
           "t": "Polymérisent en consommant de l'ATP lié à l'actine",
@@ -20869,6 +21292,7 @@ const QUESTIONS = {
     },
     {
       "q": "La pinocytose :",
+      "c": 3,
       "options": [
         {
           "t": "Internalise du liquide et des solutés dissous de manière non spécifique",
@@ -20891,6 +21315,7 @@ const QUESTIONS = {
     },
     {
       "q": "La fonction principale du glycocalyx est :",
+      "c": 3,
       "options": [
         {
           "t": "Assurer le transport des solutés polaires à travers la membrane",
@@ -20913,6 +21338,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction du cholestérol dans les cellules animales ?",
+      "c": 3,
       "options": [
         {
           "t": "Augmenter la fluidité à toute température",
@@ -20935,6 +21361,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quel processus génère-t-on le CO2 produit par la respiration aérobie ?",
+      "c": 12,
       "options": [
         {
           "t": "Lors des décarboxylations oxydatives du cycle de Krebs",
@@ -20957,6 +21384,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les vésicules recouvertes de clathrine sont typiques de :",
+      "c": 3,
       "options": [
         {
           "t": "La pinocytose en phase fluide",
@@ -31013,6 +31441,7 @@ const QUESTIONS = {
   "processusBio2": [
     {
       "q": "Étudiante en kiné, vous révisez la méiose. Combien de cellules filles haploïdes une cellule germinale diploïde donne-t-elle après les deux divisions méiotiques complètes ?",
+      "c": 1,
       "options": [
         {
           "t": "2 cellules filles haploïdes",
@@ -31035,6 +31464,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une consultation de génétique, une étudiante en médecine demande à quel sous-stade de la prophase I la méiose des ovocytes est bloquée chez la femme, depuis la vie fœtale jusqu'à la puberté. Que répondez-vous ?",
+      "c": 1,
       "options": [
         {
           "t": "Diplotène",
@@ -31057,6 +31487,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez la femme, à quel stade précis la méiose I de l'ovocyte primaire est-elle bloquée jusqu'à la puberté ?",
+      "c": 1,
       "options": [
         {
           "t": "Métaphase I",
@@ -31079,6 +31510,7 @@ const QUESTIONS = {
     },
     {
       "q": "Footballeur de 28 ans avec rupture du tendon d'Achille. Vous expliquez l'origine embryologique du tendon. De quel feuillet primordial dérive-t-il ?",
+      "c": 2,
       "options": [
         {
           "t": "Ectoderme",
@@ -31101,6 +31533,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel moment précis de la gamétogenèse féminine la méiose II de l'ovocyte secondaire est-elle achevée ?",
+      "c": 1,
       "options": [
         {
           "t": "Au moment de l'ovulation",
@@ -31123,6 +31556,7 @@ const QUESTIONS = {
     },
     {
       "q": "À 5 jours après la fécondation, quelle structure embryonnaire s'implante dans l'endomètre utérin ?",
+      "c": 2,
       "options": [
         {
           "t": "Morula",
@@ -31145,6 +31579,7 @@ const QUESTIONS = {
     },
     {
       "q": "À la 2ᵉ semaine de développement, en quels deux feuillets l'embryoblaste se différencie-t-il pour former le disque germinatif bilaminaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Ectoderme et endoderme",
@@ -31167,6 +31602,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la gastrulation à la 3ᵉ semaine, la migration des cellules de l'épiblaste à travers la ligne primitive donne naissance à quels feuillets ?",
+      "c": 2,
       "options": [
         {
           "t": "Épiblaste et hypoblaste",
@@ -31189,6 +31625,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure embryonnaire induit la formation de la plaque neurale par épaississement de l'ectoderme ?",
+      "c": 2,
       "options": [
         {
           "t": "Notochorde",
@@ -31211,6 +31648,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quelle semaine de développement le tube neural se ferme-t-il normalement chez l'embryon humain ?",
+      "c": 2,
       "options": [
         {
           "t": "2ᵉ semaine",
@@ -31233,6 +31671,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un nouveau-né présente une spina bifida. Cette malformation est causée par un défaut de fermeture de quelle structure embryonnaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Notochorde",
@@ -31255,6 +31694,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les structures suivantes, laquelle dérive du feuillet ectodermique ?",
+      "c": 2,
       "options": [
         {
           "t": "Cellules sanguines",
@@ -31277,6 +31717,7 @@ const QUESTIONS = {
     },
     {
       "q": "En histologie, à quelle famille appartient la coloration hématoxyline-éosine (H&E) la plus utilisée en pratique ?",
+      "c": 3,
       "options": [
         {
           "t": "Colorations différentielles",
@@ -31299,6 +31740,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure cellulaire prendra une coloration basophile (bleue) avec l'hématoxyline ?",
+      "c": 3,
       "options": [
         {
           "t": "Filaments du cytosquelette",
@@ -31321,6 +31763,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle coloration histologique est utilisée pour mettre en évidence le collagène (vert ou bleu) et les fibres musculaires (rouge) ?",
+      "c": 3,
       "options": [
         {
           "t": "Coloration de PAS",
@@ -31343,6 +31786,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le facteur le plus important dans l'observation d'échantillons au microscope ?",
+      "c": 3,
       "options": [
         {
           "t": "Grossissement maximal de l'objectif",
@@ -31365,6 +31809,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le pouvoir de résolution typique de la microscopie optique classique ?",
+      "c": 3,
       "options": [
         {
           "t": "0,1 nm",
@@ -31387,6 +31832,7 @@ const QUESTIONS = {
     },
     {
       "q": "Tous les tissus conjonctifs (lâche, dense, osseux, sang) partagent une origine embryonnaire commune. Laquelle ?",
+      "c": 4,
       "options": [
         {
           "t": "Neuro-ectoderme",
@@ -31409,6 +31855,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel composant de la matrice extracellulaire est le plus abondant parmi les glycosaminoglycanes (GAGs) du tissu conjonctif ?",
+      "c": 4,
       "options": [
         {
           "t": "Chondroïtine sulfate",
@@ -31431,6 +31878,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle protéine d'adhésion lie spécifiquement les cellules à la matrice extracellulaire dans le tissu conjonctif ?",
+      "c": 4,
       "options": [
         {
           "t": "Laminine",
@@ -31453,6 +31901,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel type de collagène constitue principalement les fibres réticulaires du tissu conjonctif ?",
+      "c": 4,
       "options": [
         {
           "t": "Collagène de type I",
@@ -31475,6 +31924,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patient de 35 ans avec syndrome d'Ehlers-Danlos. Quelle anomalie de matrice extracellulaire est en cause ?",
+      "c": 4,
       "options": [
         {
           "t": "Défaut de synthèse ou de maturation du collagène",
@@ -31497,6 +31947,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle vitamine est essentielle à la synthèse correcte du collagène, sa carence provoquant scorbut et mauvaise cicatrisation ?",
+      "c": 4,
       "options": [
         {
           "t": "Vitamine A",
@@ -31519,6 +31970,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les cellules suivantes, laquelle est une cellule fixe (résidente) du tissu conjonctif synthétisant la matrice extracellulaire ?",
+      "c": 4,
       "options": [
         {
           "t": "Fibroblaste",
@@ -31541,6 +31993,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel suffixe désigne les cellules spécialisées dans la dégradation et le remodelage de la matrice extracellulaire ?",
+      "c": 4,
       "options": [
         {
           "t": "-claste",
@@ -31563,6 +32016,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle cellule présente un noyau excentrique en « roue de charrette » et produit des anticorps spécifiques d'antigène ?",
+      "c": 4,
       "options": [
         {
           "t": "Mastocyte",
@@ -31585,6 +32039,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel tissu conjonctif non spécialisé compose les tendons et ligaments, riche en collagène organisé en faisceaux parallèles ?",
+      "c": 5,
       "options": [
         {
           "t": "Tissu conjonctif lâche",
@@ -31607,6 +32062,7 @@ const QUESTIONS = {
     },
     {
       "q": "Footballeur de 28 ans, rupture du tendon d'Achille. Quel type de collagène prédomine dans la structure normale du tendon ?",
+      "c": 5,
       "options": [
         {
           "t": "Collagène de type II",
@@ -31629,6 +32085,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patiente fumeuse de 50 ans, BPCO avec élastolyse pulmonaire. Quel constituant des fibres élastiques est principalement détruit ?",
+      "c": 4,
       "options": [
         {
           "t": "Collagène de type I",
@@ -31651,6 +32108,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où trouve-t-on principalement le tissu conjonctif réticulaire dans l'organisme ?",
+      "c": 5,
       "options": [
         {
           "t": "Tendons et ligaments",
@@ -31673,6 +32131,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la cellule du tissu conjonctif principalement responsable de la libération initiale d'histamine lors d'une réaction inflammatoire aiguë ?",
+      "c": 6,
       "options": [
         {
           "t": "Neutrophile",
@@ -31695,6 +32154,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les 5 signes cardinaux de l'inflammation aiguë décrits par Celse incluent rougeur, chaleur, œdème, douleur et :",
+      "c": 6,
       "options": [
         {
           "t": "Perte de fonction par limitation antalgique et mécanique du foyer",
@@ -31717,6 +32177,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle cytokine pro-inflammatoire est principalement responsable de la fièvre via la production de PGE2 dans l'hypothalamus ?",
+      "c": 6,
       "options": [
         {
           "t": "IL-10",
@@ -31739,6 +32200,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la phase cellulaire de l'inflammation, quel est le rôle initial des sélectines endothéliales ?",
+      "c": 6,
       "options": [
         {
           "t": "Phagocytose des bactéries",
@@ -31761,6 +32223,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des médiateurs suivants a un effet principalement ANTI-inflammatoire et favorise la résolution ?",
+      "c": 6,
       "options": [
         {
           "t": "TNF-α",
@@ -31783,6 +32246,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patient de 60 ans en sepsis sévère. Quelle est la cause physiopathologique principale de la chute tensionnelle dans la « tempête cytokinique » ?",
+      "c": 6,
       "options": [
         {
           "t": "Vasodilatation diffuse induite par les cytokines via le NO",
@@ -31805,6 +32269,7 @@ const QUESTIONS = {
     },
     {
       "q": "Étudiant de 22 ans avec gastrite post-AINS au long cours. Quel mécanisme explique cet effet indésirable ?",
+      "c": 6,
       "options": [
         {
           "t": "Inhibition de COX-1 et baisse des prostaglandines protectrices de la muqueuse",
@@ -31827,6 +32292,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon la capacité de régénération, comment classer le tissu nerveux et le tissu musculaire cardiaque ?",
+      "c": 7,
       "options": [
         {
           "t": "Tissus labiles",
@@ -31849,6 +32315,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la différence fondamentale entre régénération et réparation tissulaire ?",
+      "c": 7,
       "options": [
         {
           "t": "La régénération laisse une cicatrice fibreuse",
@@ -31871,6 +32338,7 @@ const QUESTIONS = {
     },
     {
       "q": "Footballeur de 20 ans avec rupture du LCA opéré. Lors du remodelage de la greffe, quelle transition collagénique se produit ?",
+      "c": 7,
       "options": [
         {
           "t": "Type I remplacé par type III",
@@ -31893,6 +32361,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle caractéristique principale distingue le tissu épithélial du tissu conjonctif ?",
+      "c": 8,
       "options": [
         {
           "t": "Cellules juxtaposées reposant sur une membrane basale avec très peu de MEC",
@@ -31915,6 +32384,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel épithélium tapisse l'intérieur des vaisseaux sanguins (endothélium) et les alvéoles pulmonaires ?",
+      "c": 8,
       "options": [
         {
           "t": "Pavimenteux simple",
@@ -31937,6 +32407,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patient avec hématurie. Quel type d'épithélium tapisse normalement la vessie urinaire et change de forme selon le remplissage ?",
+      "c": 8,
       "options": [
         {
           "t": "Cylindrique pseudostratifié cilié",
@@ -31959,6 +32430,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous étudiez les glandes amphicrines. Lequel des organes suivants en est un exemple typique avec deux types cellulaires distincts ?",
+      "c": 8,
       "options": [
         {
           "t": "Glande sublinguale",
@@ -31981,6 +32453,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante de 21 ans consulte aux urgences avec une cheville rouge, chaude, gonflée et douloureuse 24 h après une entorse au tennis. La professionnelle de santé évoque la phase vasculaire. Quel évènement INITIAL marque cette phase ?",
+      "c": 6,
       "options": [
         {
           "t": "Une brève vasoconstriction artériolaire suivie d'une vasodilatation capillaire",
@@ -32003,6 +32476,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une appendicite aiguë chez un adolescent de 15 ans, les neutrophiles arrivent rapidement au foyer. Quel mécanisme moléculaire permet leur ARRÊT ferme sur l'endothélium activé avant la diapédèse ?",
+      "c": 6,
       "options": [
         {
           "t": "Liaison forte des intégrines leucocytaires aux ICAM endothéliaux",
@@ -32025,6 +32499,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un enfant de 6 ans présente 39,8 °C dans le cadre d'une amygdalite bactérienne. La pédiatre explique aux parents le mécanisme de la fièvre. Quel médiateur agit DIRECTEMENT sur les neurones hypothalamiques pour élever le point de consigne ?",
+      "c": 6,
       "options": [
         {
           "t": "La prostaglandine E2 (PGE2) produite par les cellules endothéliales hypothalamiques",
@@ -32047,6 +32522,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente de 38 ans souffre de polyarthrite rhumatoïde et présente un déséquilibre M1/M2 des macrophages synoviaux. Quelle est la fonction PRINCIPALE des macrophages polarisés en M2 ?",
+      "c": 6,
       "options": [
         {
           "t": "Remodelage de la matrice et réparation des dommages tissulaires",
@@ -32069,6 +32545,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient diabétique de 58 ans présente une inflammation chronique de bas grade. Lequel des médiateurs suivants est considéré comme principalement ANTI-INFLAMMATOIRE, sécrété en phase de résolution ?",
+      "c": 6,
       "options": [
         {
           "t": "L'interleukine-10 (IL-10) libérée par les macrophages M2",
@@ -32091,6 +32568,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente de 27 ans en alimentation déséquilibrée (rapport Ω6/Ω3 proche de 1:20) consulte une diététicienne. Quel est le principal effet attendu d'un EXCÈS d'oméga-6 par rapport aux oméga-3 ?",
+      "c": 6,
       "options": [
         {
           "t": "Favorisation de l'inflammation car précurseurs de médiateurs pro-inflammatoires",
@@ -32113,6 +32591,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient de 70 ans hospitalisé en réanimation pour pneumopathie présente une tempête cytokinique avec hypotension et défaillance multi-organes. Quel diagnostic syndromique le médecin évoque-t-il ?",
+      "c": 6,
       "options": [
         {
           "t": "Un sepsis avec réponse inflammatoire systémique exacerbée",
@@ -32135,6 +32614,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente de 48 ans souffrant de gonarthrose est traitée par ibuprofène quotidien. Sa pharmacienne lui rappelle que le mécanisme d'action principal des AINS est :",
+      "c": 6,
       "options": [
         {
           "t": "L'inhibition des cyclo-oxygénases COX-1 et COX-2 réduisant les prostaglandines",
@@ -32157,6 +32637,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un enseignant en médecine demande à ses étudiants de classer le foie selon sa capacité de régénération. Quelle catégorie correspond à ce tissu ?",
+      "c": 7,
       "options": [
         {
           "t": "Tissu stable : faible prolifération basale mais division rapide après lésion",
@@ -32179,6 +32660,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un footballeur de 28 ans est opéré d'une rupture du tendon d'Achille avec suture chirurgicale. Le retour à l'entraînement a lieu après 9 mois. La phase de PROLIFÉRATION de la cicatrisation tendineuse comporte essentiellement :",
+      "c": 7,
       "options": [
         {
           "t": "La formation d'un tissu de granulation riche en fibroblastes et collagène",
@@ -32201,6 +32683,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la cicatrisation d'une greffe de ligament croisé antérieur chez un footballeur de 20 ans, on parle de processus de « ligamentization ». La phase de NÉCROSE survient à quel moment ?",
+      "c": 7,
       "options": [
         {
           "t": "Entre 0 et 4 semaines : dégénérescence cellulaire de la greffe par ischémie",
@@ -32223,6 +32706,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un physiothérapeute applique un programme d'exercices de résistance progressive à un patient atteint de tendinopathie. Quel concept biologique justifie cette approche ?",
+      "c": 7,
       "options": [
         {
           "t": "La mécanotransduction : conversion des charges mécaniques en réponses cellulaires",
@@ -32245,6 +32729,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une chercheuse explique à ses étudiants que la régénération tissulaire diffère de la réparation. Quel est le critère central qui distingue les deux processus ?",
+      "c": 7,
       "options": [
         {
           "t": "La régénération restaure un tissu identique ; la réparation produit une cicatrice fibreuse",
@@ -32267,6 +32752,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient de 45 ans est hospitalisé pour leucémie myéloïde aiguë et bénéficie d'une greffe allogénique de moelle osseuse. Quelles cellules sont effectivement greffées ?",
+      "c": 9,
       "options": [
         {
           "t": "Des progéniteurs hématopoïétiques exprimant le marqueur CD34",
@@ -32289,6 +32775,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une équipe de recherche cultive des cellules issues de la masse cellulaire interne d'un blastocyste de 5 jours. Quel est leur potentiel de différenciation ?",
+      "c": 9,
       "options": [
         {
           "t": "Pluripotent : capables de générer tous les tissus des trois feuillets embryonnaires",
@@ -32311,6 +32798,7 @@ const QUESTIONS = {
     },
     {
       "q": "En 2006, Yamanaka a révolutionné la recherche en reprogrammant des cellules adultes en cellules souches pluripotentes induites (iPSC). Quel est le principal AVANTAGE des iPSC par rapport aux cellules souches embryonnaires ?",
+      "c": 9,
       "options": [
         {
           "t": "Elles évitent les questions éthiques et réduisent le risque immunogène (autologue)",
@@ -32333,6 +32821,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une chercheuse étudie les cellules satellites du muscle squelettique. Comment doit-elle les classer dans la hiérarchie des cellules souches ?",
+      "c": 9,
       "options": [
         {
           "t": "Progéniteurs adultes oligo/unipotents de la lignée musculaire",
@@ -32355,6 +32844,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le cadre des thérapies cellulaires approuvées en Europe, ChondroCelect a été utilisé pour traiter quelles lésions ?",
+      "c": 9,
       "options": [
         {
           "t": "Lésions cartilagineuses symptomatiques du condyle fémoral du genou de l'adulte",
@@ -32377,6 +32867,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante observe au microscope un épithélium tapissant l'intérieur d'un vaisseau sanguin. Quel terme spécifique désigne ce type d'épithélium ?",
+      "c": 8,
       "options": [
         {
           "t": "Endothélium : épithélium pavimenteux simple tapissant la lumière vasculaire",
@@ -32399,6 +32890,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un histologiste examine l'épithélium de la trachée et observe une seule couche cellulaire dont les noyaux sont situés à des hauteurs différentes, toutes les cellules touchant la lame basale. Comment qualifier cet épithélium ?",
+      "c": 8,
       "options": [
         {
           "t": "Pseudostratifié cylindrique cilié, typique des voies respiratoires",
@@ -32421,6 +32913,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un dermatologue explique à une patiente phototype I que la mélanine est produite dans la couche germinative de l'épiderme. Quelle est la cellule responsable de sa synthèse ?",
+      "c": 8,
       "options": [
         {
           "t": "Le mélanocyte qui transfère le pigment aux kératinocytes adjacents",
@@ -32443,6 +32936,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une miction, l'épithélium tapissant la vessie change d'aspect : les cellules s'aplatissent quand l'organe est plein. Comment se nomme ce type d'épithélium ?",
+      "c": 8,
       "options": [
         {
           "t": "Épithélium transitionnel ou uroépithélium",
@@ -32465,6 +32959,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante étudie le pancréas en histologie et constate qu'il libère des enzymes digestives dans le duodénum et de l'insuline dans le sang. Comment qualifier cette glande ?",
+      "c": 8,
       "options": [
         {
           "t": "Glande amphicrine à différents types de cellules pour différentes fonctions",
@@ -32487,6 +32982,7 @@ const QUESTIONS = {
     },
     {
       "q": "En histologie, un étudiant observe une glande exocrine où le produit de sécrétion est libéré par rupture complète de la cellule. De quel mode de sécrétion s'agit-il ?",
+      "c": 8,
       "options": [
         {
           "t": "Holocrine, comme dans les glandes sébacées de la peau",
@@ -32509,6 +33005,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente de 32 ans présente une plaie chirurgicale propre suturée après césarienne. Quel type de cicatrisation décrit ce processus ?",
+      "c": 10,
       "options": [
         {
           "t": "Première intention : plaie propre suturée, berges rapprochées",
@@ -32531,6 +33028,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la cicatrisation cutanée, quel est l'évènement central de la phase d'HÉMOSTASE ?",
+      "c": 10,
       "options": [
         {
           "t": "Agrégation plaquettaire et formation d'un caillot de fibrine provisoire",
@@ -32553,6 +33051,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente noire de 35 ans développe sur la cicatrice d'un piercing une lésion proéminente débordant largement les limites initiales de la plaie. Quel diagnostic privilégier ?",
+      "c": 10,
       "options": [
         {
           "t": "Chéloïde, proliférant en relief AU-DELÀ des berges de la plaie",
@@ -32575,6 +33074,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente brûlée au troisième degré bénéficie d'une thérapie par pression sur ses cicatrices. Quel est le mécanisme principal expliquant l'efficacité de cette technique ?",
+      "c": 10,
       "options": [
         {
           "t": "Réduction de l'oxygénation et du flux sanguin diminuant le nombre de cellules productrices de collagène",
@@ -32597,6 +33097,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient ayant subi une greffe de LCA présente, lors du remodelage tardif, un changement clé dans la composition collagénique de sa cicatrice. Lequel ?",
+      "c": 7,
       "options": [
         {
           "t": "Le collagène de type III est remplacé par du type I plus résistant",
@@ -32619,6 +33120,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante observe au microscope un tissu adipeux composé de grandes cellules polyédriques contenant chacune une seule gouttelette lipidique. De quel type s'agit-il ?",
+      "c": 11,
       "options": [
         {
           "t": "Tissu adipeux uniloculaire (blanc), principale réserve d'énergie",
@@ -32641,6 +33143,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un médecin explique à un patient en surpoids le rôle endocrine du tissu adipeux. Quelle hormone est principalement produite par les adipocytes blancs pour réguler la satiété ?",
+      "c": 11,
       "options": [
         {
           "t": "La leptine, sécrétée proportionnellement à la masse adipeuse",
@@ -32663,6 +33166,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une nouvelle-née de 2 jours est exposée brièvement à un environnement froid. Quel tissu adipeux assure principalement sa thermorégulation par production de chaleur ?",
+      "c": 11,
       "options": [
         {
           "t": "Le tissu adipeux multiloculaire brun, riche en mitochondries",
@@ -32685,6 +33189,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un sportif de 25 ans s'entraîne en endurance par temps froid. Quel mécanisme moléculaire explique le browning d'une partie de son tissu adipeux blanc ?",
+      "c": 11,
       "options": [
         {
           "t": "Production musculaire d'irisine stimulant UCP-1 et la biogenèse mitochondriale",
@@ -32707,6 +33212,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un endocrinologue explique à un patient avec IMC = 38 la différence entre obésité hyperplasique et hypertrophique. Quelle proposition décrit l'obésité HYPERPLASIQUE ?",
+      "c": 11,
       "options": [
         {
           "t": "Augmentation du NOMBRE d'adipocytes à partir des préadipocytes",
@@ -32729,6 +33235,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans l'obésité, le tissu adipeux subit une fibrose progressive. Quel changement cellulaire principal observe-t-on ?",
+      "c": 11,
       "options": [
         {
           "t": "Bascule des macrophages du phénotype M2 vers le phénotype M1",
@@ -32751,6 +33258,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une fibrose du corps adipeux de Hoffa après chirurgie du LCA. Quelle voie de signalisation est principalement responsable de la fibrose tissulaire ?",
+      "c": 11,
       "options": [
         {
           "t": "La voie TGF-bêta/Smad, pro-fibrotique majeure",
@@ -32773,6 +33281,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un biologiste mesure l'hématocrite d'un patient adulte. Que représente précisément cette valeur ?",
+      "c": 12,
       "options": [
         {
           "t": "Le volume occupé par les éléments cellulaires (surtout les érythrocytes) après centrifugation",
@@ -32795,6 +33304,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante regarde un frottis sanguin et identifie une cellule biconcave énucléée sans organites, contenant de l'hémoglobine. Quelle est cette cellule et sa durée de vie ?",
+      "c": 12,
       "options": [
         {
           "t": "Érythrocyte, durée de vie d'environ 120 jours dans la circulation",
@@ -32817,6 +33327,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur un hémogramme, on retrouve un leucocyte avec noyau polylobé en 3 lobes et cytoplasme finement granuleux qui représente 60-70 % des leucocytes. De quelle cellule s'agit-il ?",
+      "c": 12,
       "options": [
         {
           "t": "Neutrophile, granulocyte à noyau polylobé et granules neutrophiles fins",
@@ -32839,6 +33350,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une allergie sévère avec libération massive d'histaminase atténuant la réaction. Quel granulocyte est principalement responsable de cette régulation anti-allergique ?",
+      "c": 12,
       "options": [
         {
           "t": "L'éosinophile, qui contient de l'histaminase neutralisant l'histamine",
@@ -32861,6 +33373,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient atteint de leucémie nécessite une greffe de cellules souches. Où résident principalement les cellules souches hématopoïétiques chez l'adulte ?",
+      "c": 12,
       "options": [
         {
           "t": "Dans la moelle osseuse rouge des os spongieux du squelette axial",
@@ -32883,6 +33396,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une anémie après hémorragie massive. Le médecin explique que l'organisme va augmenter spécifiquement la production de globules rouges. Quel facteur de croissance régule principalement cette réponse ?",
+      "c": 12,
       "options": [
         {
           "t": "L'érythropoïétine (EPO), facteur de croissance spécifique de la lignée érythroïde",
@@ -32905,6 +33419,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante en histologie observe qu'un épithélium simple recouvre la cavité péricardique. Comment qualifier précisément cet épithélium ?",
+      "c": 8,
       "options": [
         {
           "t": "Mésothélium pavimenteux simple tapissant les cavités séreuses",
@@ -32927,6 +33442,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente vegan en carence de vitamine B12 présente une anémie macrocytaire. Quel est le rôle principal de cette vitamine dans l'hématopoïèse ?",
+      "c": 12,
       "options": [
         {
           "t": "Cofacteur de la synthèse d'ADN nécessaire à la maturation des érythroblastes",
@@ -32949,6 +33465,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un histologiste observe une membrane basale entre un épithélium intestinal et le tissu conjonctif sous-jacent. Quelle est sa fonction principale ?",
+      "c": 8,
       "options": [
         {
           "t": "Adhésion de l'épithélium au conjonctif et filtration sélective entre les deux tissus",
@@ -32971,6 +33488,7 @@ const QUESTIONS = {
     },
     {
       "q": "Femme de 76 ans, sédentaire, consulte pour arthrose de la hanche gauche. Concernant le cartilage hyalin articulaire endommagé, quelle proposition est correcte?",
+      "c": 13,
       "options": [
         {
           "t": "Il est vascularisé et innervé, ce qui explique la douleur mécanique",
@@ -32993,6 +33511,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les trois types de cartilage, quel critère majeur les différencie histologiquement?",
+      "c": 13,
       "options": [
         {
           "t": "Le nombre de noyaux par chondrocyte",
@@ -33015,6 +33534,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le fibrocartilage présent dans les disques intervertébraux et les ménisques, quelle proposition est correcte?",
+      "c": 13,
       "options": [
         {
           "t": "Il possède un périchondre épais à deux couches",
@@ -33037,6 +33557,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la croissance par apposition du cartilage hyalin, quelle proposition est correcte?",
+      "c": 13,
       "options": [
         {
           "t": "Elle se fait par division mitotique des chondrocytes au centre du cartilage",
@@ -33059,6 +33580,7 @@ const QUESTIONS = {
     },
     {
       "q": "Homme sédentaire de 28 ans avec déchirure méniscale en zone blanche-blanche. Quelle proposition concernant cette zone est correcte?",
+      "c": 13,
       "options": [
         {
           "t": "Elle est très vascularisée et cicatrise spontanément",
@@ -33081,6 +33603,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les cellules du tissu osseux, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Les ostéoclastes dérivent de la lignée mésenchymateuse comme les ostéoblastes",
@@ -33103,6 +33626,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la matrice extracellulaire osseuse, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "La fraction organique est dominée par le collagène de type II",
@@ -33125,6 +33649,7 @@ const QUESTIONS = {
     },
     {
       "q": "Femme sédentaire de 60 ans avec fracture du col fémoral et âge osseux DEXA de 77 ans. Concernant l'ostéoporose post-ménopausique, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Elle résulte d'une hyperactivité ostéoblastique sans résorption accrue",
@@ -33147,6 +33672,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'ostéon (système de Havers) de l'os compact, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Il est constitué de lamelles parallèles sans canal central",
@@ -33169,6 +33695,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'ossification endochondrale des os longs, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Elle se déroule directement à partir d'une membrane fibreuse mésenchymateuse",
@@ -33191,6 +33718,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la plaque épiphysaire d'un os long en croissance, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Elle s'ossifie en fin de croissance et stoppe l'allongement de l'os",
@@ -33213,6 +33741,7 @@ const QUESTIONS = {
     },
     {
       "q": "Retraité marcheur de 72 ans avec fracture de stress calcanéenne. Concernant le cal osseux 21 jours post-fracture, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Le cal fibrocartilagineux s'ossifie en os plexiforme primaire",
@@ -33235,6 +33764,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le périoste, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Il recouvre toute la surface osseuse, y compris le cartilage articulaire",
@@ -33257,6 +33787,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la fibre musculaire squelettique, quelle proposition est correcte?",
+      "c": 15,
       "options": [
         {
           "t": "Elle est multinucléée avec des noyaux périphériques sous le sarcolemme",
@@ -33279,6 +33810,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le sarcomère et son comportement lors de la contraction musculaire, quelle proposition est correcte?",
+      "c": 15,
       "options": [
         {
           "t": "La bande A se raccourcit pendant la contraction",
@@ -33301,6 +33833,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'ultrastructure de la fibre musculaire squelettique, quelle proposition est correcte sur la triade?",
+      "c": 15,
       "options": [
         {
           "t": "Elle comprend un tubule T entouré d'une seule citerne de réticulum sarcoplasmique",
@@ -33323,6 +33856,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les enveloppes conjonctives du muscle squelettique, quelle proposition est correcte?",
+      "c": 15,
       "options": [
         {
           "t": "L'épimysium entoure chaque fibre musculaire individuelle",
@@ -33345,6 +33879,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les disques intercalaires du muscle cardiaque, quelle proposition est correcte?",
+      "c": 15,
       "options": [
         {
           "t": "Ils sont localisés au niveau de la ligne M des sarcomères",
@@ -33367,6 +33902,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le muscle lisse, quelle proposition est correcte par rapport au muscle strié squelettique?",
+      "c": 15,
       "options": [
         {
           "t": "Ses myofilaments s'ancrent sur des sarcomères répétés et alignés",
@@ -33389,6 +33925,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la régénération du muscle strié squelettique, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "Les fibres musculaires mûres se divisent par mitose pour réparer la lésion",
@@ -33411,6 +33948,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la voie Notch dans l'activation des cellules satellites musculaires, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "Elle maintient les cellules satellites dans un état de quiescence",
@@ -33433,6 +33971,7 @@ const QUESTIONS = {
     },
     {
       "q": "Rugbyman de 23 ans avec fracture trimalléolaire et atrophie musculaire post-immobilisation. Concernant le rééducation, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "L'immobilisation prolongée active les cellules satellites quiescentes",
@@ -33455,6 +33994,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la réparation du muscle cardiaque après infarctus du myocarde, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "Le myocarde lésé est régénéré par hyperplasie des cardiomyocytes adultes",
@@ -33477,6 +34017,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la fibrose musculaire post-lésionnelle, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "Elle débute dès les premières heures suivant la blessure musculaire",
@@ -33499,6 +34040,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le neurone et ses extensions, quelle proposition est correcte?",
+      "c": 17,
       "options": [
         {
           "t": "Les dendrites sont dépourvues de noyau et d'appareil de Golgi mais contiennent des corps de Nissl",
@@ -33521,6 +34063,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les cellules gliales et leur fonction de myélinisation, quelle proposition est correcte?",
+      "c": 17,
       "options": [
         {
           "t": "Une cellule de Schwann myélinise un seul internode d'un seul axone dans le SNP",
@@ -33543,6 +34086,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les noeuds de Ranvier des fibres nerveuses myélinisées du SNP, quelle proposition est correcte?",
+      "c": 17,
       "options": [
         {
           "t": "Ils correspondent aux zones d'enroulement maximal de la gaine de myéline",
@@ -33565,6 +34109,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les enveloppes conjonctives du nerf périphérique, quelle proposition est correcte?",
+      "c": 17,
       "options": [
         {
           "t": "L'endonèvre est un tissu conjonctif dense irrégulier autour des faisceaux",
@@ -33587,6 +34132,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la classification de Sunderland des lésions nerveuses périphériques, quelle proposition est correcte?",
+      "c": 18,
       "options": [
         {
           "t": "Le grade 1 (neurapraxie) implique une section complète de l'axone",
@@ -33609,6 +34155,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la dégénérescence Wallérienne après section nerveuse, quelle proposition est correcte?",
+      "c": 18,
       "options": [
         {
           "t": "La partie proximale reliée au soma dégénère et est entièrement réabsorbée",
@@ -33631,6 +34178,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la régénération nerveuse dans le SNC versus SNP, quelle proposition est correcte?",
+      "c": 18,
       "options": [
         {
           "t": "Dans le SNC, les oligodendrocytes libèrent des facteurs favorisant la repousse",
@@ -33653,6 +34201,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les caractéristiques générales du tissu cartilagineux, quelle proposition est correcte?",
+      "c": 13,
       "options": [
         {
           "t": "C'est un tissu conjonctif richement vascularisé et innervé",
@@ -33675,6 +34224,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le cartilage élastique, quelle proposition est correcte?",
+      "c": 13,
       "options": [
         {
           "t": "On le trouve sur les surfaces articulaires synoviales",
@@ -33697,6 +34247,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la réparation des lésions cartilagineuses, quelle proposition est correcte?",
+      "c": 13,
       "options": [
         {
           "t": "Le cartilage hyalin se régénère parfaitement par division des chondrocytes",
@@ -33719,6 +34270,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les ostéoclastes et la résorption osseuse, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Ils dérivent de cellules mésenchymateuses indifférenciées",
@@ -33741,6 +34293,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la moelle osseuse, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "La moelle jaune assure l'hématopoïèse grâce à ses adipocytes",
@@ -33763,6 +34316,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'ossification intramembranaire, quelle proposition est correcte?",
+      "c": 14,
       "options": [
         {
           "t": "Elle se fait à partir d'un modèle cartilagineux préexistant",
@@ -33785,6 +34339,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les filaments du muscle squelettique, quelle proposition est correcte?",
+      "c": 15,
       "options": [
         {
           "t": "Les filaments épais sont composés d'actine, tropomyosine et troponine",
@@ -33807,6 +34362,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le sarcoplasme du muscle cardiaque comparé au squelettique, quelle proposition est correcte?",
+      "c": 15,
       "options": [
         {
           "t": "Il contient moins de mitochondries que le squelettique",
@@ -33829,6 +34385,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la phase de prolifération dans la régénération musculaire squelettique, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "Elle correspond au nettoyage des débris cellulaires par les macrophages",
@@ -33851,6 +34408,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la régénération du muscle lisse, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "Elle dépend exclusivement de cellules satellites quiescentes",
@@ -33873,6 +34431,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'hypertrophie cardiaque physiologique observée chez l'athlète d'endurance, quelle proposition est correcte?",
+      "c": 16,
       "options": [
         {
           "t": "Elle correspond à une hyperplasie massive des cardiomyocytes",
@@ -33895,6 +34454,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les astrocytes du SNC, quelle proposition est correcte?",
+      "c": 17,
       "options": [
         {
           "t": "Ils forment la gaine de myéline des axones du SNC",
@@ -33917,6 +34477,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les types morphologiques de neurones, quelle proposition est correcte?",
+      "c": 17,
       "options": [
         {
           "t": "Les neurones pseudo-unipolaires possèdent plusieurs axones distincts",
@@ -33939,6 +34500,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la phase initiale de régénération nerveuse périphérique après axonotmèse, quelle proposition est correcte?",
+      "c": 18,
       "options": [
         {
           "t": "Le segment distal forme un tube de Büngner par les cellules de Schwann",
@@ -33961,6 +34523,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les options chirurgicales en cas de lésion nerveuse périphérique grave, quelle proposition est correcte?",
+      "c": 18,
       "options": [
         {
           "t": "La neurorraphie consiste à transférer un nerf fonctionnel vers un muscle dénervé",
@@ -33983,6 +34546,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ossification endochondrale se produit à partir de :",
+      "c": 14,
       "options": [
         {
           "t": "Une maquette de cartilage hyalin remplacée par de l'os",
@@ -34005,6 +34569,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un endothélium est :",
+      "c": 8,
       "options": [
         {
           "t": "Un épithélium cubique simple qui couvre les vaisseaux de grand diamètre",
@@ -34027,6 +34592,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le remodelage osseux :",
+      "c": 14,
       "options": [
         {
           "t": "Se déroule au périoste et à l'endoste et entretient la forme de l'os",
@@ -34049,6 +34615,7 @@ const QUESTIONS = {
     },
     {
       "q": "Où peut-on trouver un épithélium pseudostratifié cilié ?",
+      "c": 8,
       "options": [
         {
           "t": "Dans la trachée",
@@ -34071,6 +34638,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tissu osseux compact :",
+      "c": 14,
       "options": [
         {
           "t": "Est formé d'ostéones (systèmes de Havers)",
@@ -34093,6 +34661,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les myofibrilles :",
+      "c": 15,
       "options": [
         {
           "t": "Contiennent des sarcomères dont l'alignement strie le muscle",
@@ -34115,6 +34684,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la raison de la striation des fibres musculaires squelettiques ?",
+      "c": 15,
       "options": [
         {
           "t": "L'arrangement régulier des sarcomères le long des myofibrilles",
@@ -34137,6 +34707,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qu'un sarcomère ?",
+      "c": 15,
       "options": [
         {
           "t": "L'unité contractile comprise entre deux lignes Z",
@@ -34159,6 +34730,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les disques intercalaires se situent au niveau de :",
+      "c": 15,
       "options": [
         {
           "t": "Les disques Z, entre cardiomyocytes",
@@ -34181,6 +34753,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le seul type de tissu musculaire qui conserve la capacité mitotique intacte dans toutes ses cellules ?",
+      "c": 16,
       "options": [
         {
           "t": "Tissu musculaire lisse, dont les cellules se divisent encore à l'âge adulte",
@@ -34203,6 +34776,7 @@ const QUESTIONS = {
     },
     {
       "q": "Innervation et irrigation du muscle :",
+      "c": 15,
       "options": [
         {
           "t": "Nerfs et vaisseaux cheminent dans le tissu conjonctif entourant les fibres",
@@ -34225,6 +34799,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel épithélium présente la plus grande résistance à la friction ?",
+      "c": 8,
       "options": [
         {
           "t": "Épithélium pavimenteux stratifié",
@@ -34247,6 +34822,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tissu épithélial :",
+      "c": 8,
       "options": [
         {
           "t": "Repose sur une membrane basale et reste avasculaire",
@@ -34269,6 +34845,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la caractéristique du tissu épithélial de la peau ?",
+      "c": 8,
       "options": [
         {
           "t": "Il constitue une couche continue de cellules étroitement jointives",
@@ -34291,6 +34868,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel épithélium tapisse l'intérieur de la cavité buccale ?",
+      "c": 8,
       "options": [
         {
           "t": "Épithélium pavimenteux stratifié non kératinisé",
@@ -34313,6 +34891,7 @@ const QUESTIONS = {
     },
     {
       "q": "La membrane basale :",
+      "c": 8,
       "options": [
         {
           "t": "Est synthétisée à la fois par l'épithélium et le conjonctif sous-jacent",
@@ -34335,6 +34914,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles sont les principales cellules du tissu conjonctif à capacité phagocytaire ?",
+      "c": 4,
       "options": [
         {
           "t": "Les macrophages, issus de la différenciation des monocytes circulants",
@@ -34357,6 +34937,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles cellules du tissu conjonctif produisent du pus en phagocytant des bactéries ?",
+      "c": 4,
       "options": [
         {
           "t": "Les neutrophiles, polynucléaires recrutés en phase aiguë",
@@ -34379,6 +34960,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles cellules sont capables de produire des immunoglobulines (anticorps) ?",
+      "c": 4,
       "options": [
         {
           "t": "Macrophages",
@@ -34401,6 +34983,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les composants du tissu conjonctif sont :",
+      "c": 4,
       "options": [
         {
           "t": "Des fibroblastes et des agrégats de protéoglycanes",
@@ -34423,6 +35006,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le tissu conjonctif le plus largement disséminé dans le corps humain ?",
+      "c": 5,
       "options": [
         {
           "t": "Tissu conjonctif lâche",
@@ -34445,6 +35029,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel tissu conjonctif forme les tendons ?",
+      "c": 5,
       "options": [
         {
           "t": "Tissu conjonctif lâche aréolaire",
@@ -34467,6 +35052,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles fibres extracellulaires du tissu conjonctif sont capables de retrouver leur forme initiale après distension ou compression ?",
+      "c": 4,
       "options": [
         {
           "t": "Fibres de collagène",
@@ -34489,6 +35075,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tissu cartilagineux :",
+      "c": 13,
       "options": [
         {
           "t": "Est richement vascularisé par des capillaires",
@@ -34511,6 +35098,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les groupes isogéniques (lacunes) du cartilage :",
+      "c": 13,
       "options": [
         {
           "t": "Naissent de la division d'un chondrocyte unique",
@@ -34533,6 +35121,7 @@ const QUESTIONS = {
     },
     {
       "q": "La régénération du tissu cartilagineux :",
+      "c": 13,
       "options": [
         {
           "t": "Est incomplète car le cartilage est avasculaire",
@@ -34555,6 +35144,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction du tissu adipeux ?",
+      "c": 11,
       "options": [
         {
           "t": "Constituer une réserve d'énergie de l'organisme",
@@ -34577,6 +35167,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'obésité hypercellulaire (hyperplasique) survient :",
+      "c": 11,
       "options": [
         {
           "t": "Par suralimentation précoce chez l'enfant",
@@ -34599,6 +35190,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tissu osseux :",
+      "c": 14,
       "options": [
         {
           "t": "Est vascularisé et innervé",
@@ -34621,6 +35213,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des éléments suivants fait partie de la composante inorganique de la matrice osseuse ?",
+      "c": 14,
       "options": [
         {
           "t": "Hydroxyapatite de calcium et de phosphate",
@@ -34643,6 +35236,7 @@ const QUESTIONS = {
     },
     {
       "q": "La couche externe de la diaphyse d'un os long est formée de :",
+      "c": 14,
       "options": [
         {
           "t": "Tissu osseux spongieux",
@@ -34665,6 +35259,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le nom du tissu osseux formé en premier après une fracture (cal) ?",
+      "c": 14,
       "options": [
         {
           "t": "Tissu osseux plexiforme",
@@ -34687,6 +35282,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles cellules sont capables de résorber le tissu osseux pour le remodeler ?",
+      "c": 14,
       "options": [
         {
           "t": "Cellule ostéoprogénitrice",
@@ -34709,6 +35305,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qu'un canal de Volkmann ?",
+      "c": 14,
       "options": [
         {
           "t": "Un canal transversal reliant les canaux de Havers entre eux",
@@ -34731,6 +35328,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le nom de la glande dont le produit est libéré par exocytose (sans perte cellulaire) ?",
+      "c": 8,
       "options": [
         {
           "t": "Glande mérocrine",
@@ -34753,6 +35351,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le nom de la glande qui libère sa sécrétion en perdant une partie de son cytoplasme apical ?",
+      "c": 8,
       "options": [
         {
           "t": "Glande mérocrine",
@@ -34775,6 +35374,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles glandes unicellulaires trouve-t-on associées à l'épithélium intestinal ?",
+      "c": 8,
       "options": [
         {
           "t": "Cellules caliciformes (à mucus)",
@@ -34797,6 +35397,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les glandes endocrines sont caractérisées par :",
+      "c": 8,
       "options": [
         {
           "t": "Le déversement de leur sécrétion directement dans le sang via une riche vascularisation",
@@ -34819,6 +35420,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles cellules synthétisent la matrice du tissu conjonctif lors de sa croissance ?",
+      "c": 4,
       "options": [
         {
           "t": "Cellules mésenchymateuses",
@@ -34841,6 +35443,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure cellulaire est colorée par un colorant basique ?",
+      "c": 3,
       "options": [
         {
           "t": "Le noyau, riche en acides nucléiques",
@@ -34863,6 +35466,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles cellules gliales constituent la barrière hémato-encéphalique dans le système nerveux central ?",
+      "c": 17,
       "options": [
         {
           "t": "Astrocytes",
@@ -34885,6 +35489,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le nom de la partie du neurone chargée de recevoir les stimuli et de les conduire vers le corps cellulaire ?",
+      "c": 17,
       "options": [
         {
           "t": "Dendrite",
@@ -39005,6 +39610,7 @@ const QUESTIONS = {
   "valoMembresSup": [
     {
       "q": "Quel muscle est le principal rotateur interne de l'articulation gléno-humérale ?",
+      "c": 5,
       "options": [
         {
           "t": "Subscapulaire",
@@ -39023,6 +39629,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente effectue un mouvement de sonnette interne de la scapula. Quelle description cinématique est exacte ?",
+      "c": 4,
       "options": [
         {
           "t": "L'angle inférieur se rapproche de la colonne et la cavité glénoïde s'oriente vers le bas",
@@ -39041,6 +39648,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du mouvement d'abduction horizontale de l'épaule (bras à 90° de flexion ramené en arrière dans le plan horizontal), quelle cinématique de la scapula accompagne ce mouvement ?",
+      "c": 4,
       "options": [
         {
           "t": "Adduction (rétraction) scapulaire et orientation postérieure de la glène",
@@ -39059,6 +39667,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une nageuse exécute une antéposition complète de la ceinture scapulaire (mouvement de poussée vers l'avant). Quel ensemble cinématique correspond ?",
+      "c": 4,
       "options": [
         {
           "t": "Protraction scapulaire, ouverture de l'angle omo-claviculaire et glène orientée vers l'avant",
@@ -39077,6 +39686,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous décrivez les articulations de la ceinture scapulaire. Quelle proposition est correcte ?",
+      "c": 1,
       "options": [
         {
           "t": "La scapulo-thoracique est une syssarcose, plan de glissement musculo-aponévrotique sans cartilage",
@@ -39095,6 +39705,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le rôle principal des muscles de la coiffe des rotateurs dans la cinématique gléno-humérale ?",
+      "c": 5,
       "options": [
         {
           "t": "Centrer activement la tête humérale dans la cavité glénoïde lors des mouvements",
@@ -39113,6 +39724,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient effectue une flexion résistée du coude, paume tournée vers le bas (pronation). Quel muscle fléchisseur du coude est principalement sollicité dans cette position ?",
+      "c": 8,
       "options": [
         {
           "t": "Brachioradial (long supinateur)",
@@ -39131,6 +39743,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle proposition décrit correctement les types articulaires constituant le coude ?",
+      "c": 7,
       "options": [
         {
           "t": "Huméro-ulnaire : trochléenne ; huméro-radiale : condylienne ; radio-ulnaire supérieure : trochoïde",
@@ -39149,6 +39762,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément ligamentaire est principalement responsable de la limitation de la supination de l'avant-bras au niveau de l'articulation radio-ulnaire supérieure ?",
+      "c": 9,
       "options": [
         {
           "t": "Fibres antérieures du ligament carré (de Denucé)",
@@ -39167,6 +39781,7 @@ const QUESTIONS = {
     },
     {
       "q": "Décrivez le mouvement osseux relatif au niveau de l'articulation radio-ulnaire supérieure lors de la pronation.",
+      "c": 9,
       "options": [
         {
           "t": "Le radius tourne autour de l'ulna et se croise en avant de lui distalement",
@@ -39185,6 +39800,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la limite osseuse principale de la flexion du coude lorsque le mouvement atteint son maximum passif ?",
+      "c": 8,
       "options": [
         {
           "t": "Impaction du processus coronoïde dans la fosse coronoïdienne",
@@ -39203,6 +39819,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément constitue la limite principale de l'extension complète du coude ?",
+      "c": 8,
       "options": [
         {
           "t": "Impaction du bec olécranien dans la fosse olécranienne",
@@ -39221,6 +39838,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient effectue une flexion active du poignet, depuis la position anatomique. Décrivez l'arthrocinématique au niveau radio-carpienne et médio-carpienne.",
+      "c": 12,
       "options": [
         {
           "t": "Le lunatum et le capitatum roulent vers l'avant et glissent vers l'arrière",
@@ -39239,6 +39857,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles intrinsèques de la main produisent simultanément une flexion des articulations métacarpo-phalangiennes et une extension des interphalangiennes ?",
+      "c": 14,
       "options": [
         {
           "t": "Les muscles lombricaux",
@@ -39257,6 +39876,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous testez la déviation radiale passive du poignet et trouvez une limitation avec sensation osseuse en fin de course. Quelle structure rend compte de cette limite physiologique ?",
+      "c": 12,
       "options": [
         {
           "t": "Contact entre le scaphoïde et le processus styloïde radial",
@@ -39275,6 +39895,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf traverse le canal carpien et quel autre nerf passe par le canal de Guyon au niveau du poignet ?",
+      "c": 16,
       "options": [
         {
           "t": "Nerf médian dans le canal carpien, nerf ulnaire dans le canal de Guyon",
@@ -39293,6 +39914,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous étudiez l'articulation trapézo-métacarpienne du pouce. Quel type articulaire est-elle et quels mouvements la caractérisent ?",
+      "c": 15,
       "options": [
         {
           "t": "Une articulation en selle, à deux degrés de liberté permettant l'opposition",
@@ -39311,6 +39933,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un test passif d'extension du poignet, vous trouvez une limite avec sensation ferme (semi-rigide). Quelles structures en sont normalement responsables ?",
+      "c": 12,
       "options": [
         {
           "t": "Ligaments radio-carpiens palmaires et capsule palmaire",
@@ -39329,6 +39952,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cours d'un test passif d'extension du poignet, on trouve une limite avec sensation élastique. Quelles structures sont responsables ?",
+      "c": 12,
       "options": [
         {
           "t": "Mise en tension des muscles fléchisseurs du carpe",
@@ -39347,6 +39971,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une déviation ulnaire passive du poignet, quel est le déplacement des os de la première rangée du carpe par rapport au radius fixe ?",
+      "c": 12,
       "options": [
         {
           "t": "Roulement ulnaire et glissement radial (sens opposés)",
@@ -39365,6 +39990,7 @@ const QUESTIONS = {
     },
     {
       "q": "Mme L., 42 ans, gymnaste, abaisse activement sa ceinture scapulaire lors d'une descente sur barres parallèles. Quelles structures capsulo-ligamentaires de la sterno-claviculaire sont principalement étirées par cet abaissement claviculaire ?",
+      "c": 3,
       "options": [
         {
           "t": "Capsule supérieure de la SC et ligament interclaviculaire",
@@ -39383,6 +40009,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant l'élévation du bras au-dessus de la tête, la clavicule effectue une rotation postérieure axiale autour de son grand axe. À quel mouvement scapulaire cette rotation est-elle couplée ?",
+      "c": 3,
       "options": [
         {
           "t": "Sonnette externe de la scapula (rotation vers le haut)",
@@ -39401,6 +40028,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'abduction (translation externe) scapulaire, quel devient l'angle omo-claviculaire et l'orientation de la glène ?",
+      "c": 4,
       "options": [
         {
           "t": "L'angle omo-claviculaire s'ouvre et la glène s'oriente vers l'avant et latéralement",
@@ -39419,6 +40047,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles de la coiffe des rotateurs assurent principalement la coaptation transversale (centrage) de la tête humérale dans la glène lors de l'abduction ?",
+      "c": 5,
       "options": [
         {
           "t": "Subscapulaire en avant et infra-épineux/petit rond en arrière",
@@ -39437,6 +40066,7 @@ const QUESTIONS = {
     },
     {
       "q": "M. R., 30 ans, lève le bras à 180° en flexion. Quelle répartition de l'amplitude correspond au rythme scapulo-huméral enseigné dans le cours (Neumann) ?",
+      "c": 6,
       "options": [
         {
           "t": "120° gléno-humérale et 60° scapulo-thoracique",
@@ -39455,6 +40085,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du deuxième temps de l'abduction de l'épaule (de 90° à 150°), quelle articulation est principalement sollicitée et par quel mécanisme cinématique ?",
+      "c": 6,
       "options": [
         {
           "t": "Scapulo-thoracique par sonnette externe",
@@ -39473,6 +40104,7 @@ const QUESTIONS = {
     },
     {
       "q": "M. D., 35 ans, recule activement son bras en extension de l'épaule. Parmi les listes suivantes, laquelle correspond aux muscles extenseurs de la gléno-humérale enseignés dans le cours ?",
+      "c": 5,
       "options": [
         {
           "t": "Deltoïde, grand rond, latissimus dorsi, triceps brachial",
@@ -39491,6 +40123,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cours du mouvement d'adduction horizontale de l'épaule (bras à 90° de flexion ramené vers le sternum), quels mouvements scapulaire et claviculaire accompagnent ce geste ?",
+      "c": 4,
       "options": [
         {
           "t": "Protraction scapulaire et protraction claviculaire",
@@ -39509,6 +40142,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles suivants, lequel est rotateur interne principal de l'articulation gléno-humérale ?",
+      "c": 5,
       "options": [
         {
           "t": "Grand pectoral",
@@ -39527,6 +40161,7 @@ const QUESTIONS = {
     },
     {
       "q": "Mme S., 28 ans, rame en aviron et amène son objet vers le corps (rétroposition de la ceinture scapulaire). Selon le cours, quelle description cinématique est exacte ?",
+      "c": 4,
       "options": [
         {
           "t": "Rétraction scapulaire (adduction vers la colonne) et rétraction claviculaire à la SC",
@@ -39545,6 +40180,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez une luxation de la tête radiale chez un enfant de 3 ans (pulled elbow). Quel muscle est principalement responsable de la luxation antéro-supérieure de la tête radiale lorsque le coude est en flexion à 90° ?",
+      "c": 10,
       "options": [
         {
           "t": "Biceps brachial",
@@ -39563,6 +40199,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous testez le bilan musculaire des abducteurs de l'épaule. Pour évaluer la cotation en position où la gravité est éliminée, dans quelle position installez-vous le patient ?",
+      "c": 5,
       "options": [
         {
           "t": "Décubitus latéral, côté testé au-dessus, bras reposant sur un plan glissant horizontal",
@@ -39581,6 +40218,7 @@ const QUESTIONS = {
     },
     {
       "q": "En goniométrie, un patient présente une raideur du coude en extension fixée à 30° de flexion. Comment notez-vous ce blocage selon la convention internationale (SFTR) sur le plan sagittal ?",
+      "c": 8,
       "options": [
         {
           "t": "S : 0-30-130",
@@ -39599,6 +40237,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente un déficit de l'abducteur du 5e doigt et des interosseux dorsaux. Quel nerf est probablement atteint ?",
+      "c": 16,
       "options": [
         {
           "t": "Nerf ulnaire (cubital)",
@@ -39617,6 +40256,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient consulte pour épicondylalgie latérale chronique liée à un travail répétitif d'extension du poignet. Quel muscle est principalement impliqué dans cette pathologie ?",
+      "c": 13,
       "options": [
         {
           "t": "Court extenseur radial du carpe",
@@ -39635,6 +40275,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un sujet effectue une abduction du 1er métacarpien dans le plan perpendiculaire à la paume. Quelle est l'arthrocinématique au niveau de la trapézo-métacarpienne ?",
+      "c": 15,
       "options": [
         {
           "t": "Surface convexe du métacarpien glissant en sens opposé au mouvement osseux",
@@ -39653,6 +40294,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente un défaut d'opposition du pouce avec aplatissement de l'éminence thénar. Quelle est la cause neurologique la plus probable ?",
+      "c": 16,
       "options": [
         {
           "t": "Lésion du nerf médian",
@@ -39671,6 +40313,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle articulation du carpe est désignée comme la plus mobile et participe à l'enroulement de la main lors d'un geste de saisie cylindrique ?",
+      "c": 14,
       "options": [
         {
           "t": "5e carpo-métacarpienne (méta sur hamatum)",
@@ -39689,6 +40332,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'extension active du poignet par les seuls muscles extenseurs (sans contraction des fléchisseurs des doigts), que se passe-t-il automatiquement au niveau des doigts par effet de ténodèse ?",
+      "c": 13,
       "options": [
         {
           "t": "Flexion automatique des doigts par mise en tension des fléchisseurs extrinsèques",
@@ -39707,6 +40351,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient atteint d'un syndrome du défilé thoraco-brachial présente des paresthésies sur le territoire C8-T1. Quel élément ostéo-ligamentaire peut comprimer le tronc inférieur du plexus brachial ?",
+      "c": 2,
       "options": [
         {
           "t": "Première côte et muscles scalènes",
@@ -39725,6 +40370,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente une scapula alata (décollement de la scapula du thorax) avec faiblesse à la poussée murale. Quel muscle est probablement atteint et quel est son innervation ?",
+      "c": 2,
       "options": [
         {
           "t": "Dentelé antérieur, innervé par le nerf thoracique long (C5-C7)",
@@ -39743,6 +40389,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cours d'un appui sur les mains paume au sol (gainage planche), comment se comportent les muscles fléchisseurs et extenseurs du poignet ?",
+      "c": 13,
       "options": [
         {
           "t": "Co-contraction synergique des fléchisseurs et extenseurs du carpe",
@@ -39761,6 +40408,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous décrivez le mouvement d'opposition du pouce. Quelle séquence cinématique caractérise ce mouvement complexe ?",
+      "c": 15,
       "options": [
         {
           "t": "Abduction + flexion + rotation médiale du 1er métacarpien",
@@ -39779,6 +40427,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle proposition décrit correctement le rôle du ligament annulaire du radius dans la stabilité du coude ?",
+      "c": 7,
       "options": [
         {
           "t": "Il maintient la tête radiale en regard de la cavité sigmoïde de l'ulna pendant la prono-supination",
@@ -39797,6 +40446,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une flexion résistée des doigts contre une dynamométrie globale, le phénomène de Quadriga affecte la mesure. De quoi s'agit-il ?",
+      "c": 13,
       "options": [
         {
           "t": "Interconnexion des tendons du fléchisseur profond limitant la flexion indépendante d'un doigt",
@@ -39815,6 +40465,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez la mobilité d'une articulation interphalangienne proximale (IPP). Quelle amplitude active de flexion est physiologique pour le 5e doigt ?",
+      "c": 14,
       "options": [
         {
           "t": "Environ 135°",
@@ -39833,6 +40484,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cours d'un test d'abduction des doigts contre résistance, quels muscles intrinsèques sollicitez-vous principalement ?",
+      "c": 14,
       "options": [
         {
           "t": "Interosseux dorsaux et abducteur du 5e doigt",
@@ -39851,6 +40503,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est innervé par le nerf radial et permet l'extension du poignet ?",
+      "c": 11,
       "options": [
         {
           "t": "Court extenseur radial du carpe",
@@ -39869,6 +40522,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient effectue une supination forcée de l'avant-bras contre résistance maximale. Quels muscles travaillent en synergie ?",
+      "c": 9,
       "options": [
         {
           "t": "Biceps brachial et supinateur",
@@ -39887,6 +40541,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un débutant en escalade présente une épitrochléite (épicondylite médiale). Quel groupe musculaire est principalement enthésopathique ?",
+      "c": 13,
       "options": [
         {
           "t": "Fléchisseurs et pronateurs du poignet (épitrochléens)",
@@ -39905,6 +40560,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez la goniométrie de la prono-supination chez un patient avec coude fléchi à 90°. Quelle est l'amplitude normale totale de ce mouvement ?",
+      "c": 9,
       "options": [
         {
           "t": "Environ 175° (85° de pronation + 90° de supination)",
@@ -39923,6 +40579,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous mesurez la déviation ulnaire passive du poignet et trouvez une limite à 45° avec sensation osseuse. Quelle structure est responsable ?",
+      "c": 12,
       "options": [
         {
           "t": "Choc du triquetrum contre le disque articulaire ulnaire",
@@ -39941,6 +40598,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la position dite de fonction du poignet utilisée comme position de référence en orthopédie (immobilisation, fixation chirurgicale) ?",
+      "c": 12,
       "options": [
         {
           "t": "10-15° d'extension et 10° de déviation ulnaire",
@@ -39959,6 +40617,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous mesurez la flexion active du coude. À quelle valeur normale doit-elle s'arrêter physiologiquement ?",
+      "c": 8,
       "options": [
         {
           "t": "145° environ",
@@ -39977,6 +40636,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel est le rôle du supra-épineux au niveau de l'articulation gléno-humérale ?",
+      "c": 5,
       "options": [
         {
           "t": "Stabilité dynamique : sa contraction resserre la capsule",
@@ -39995,6 +40655,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, à quels mouvements de l'articulation gléno-humérale le grand pectoral participe-t-il ?",
+      "c": 5,
       "options": [
         {
           "t": "Flexion, rotation interne et adduction",
@@ -40013,6 +40674,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament coraco-claviculaire se compose de deux faisceaux. Quel est le rôle principal du faisceau conoïde ?",
+      "c": 1,
       "options": [
         {
           "t": "Assurer la stabilité verticale clavicule-coracoïde",
@@ -40031,6 +40693,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le mouvement d'opposition du pouce nécessite l'intégrité d'un nerf principal. Lequel ?",
+      "c": 16,
       "options": [
         {
           "t": "Le nerf médian, via sa branche thénarienne",
@@ -40049,6 +40712,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la position de stabilité maximale (close-pack) de l'articulation gléno-humérale ?",
+      "c": 5,
       "options": [
         {
           "t": "Abduction maximale associée à la rotation externe maximale",
@@ -40067,6 +40731,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une scapula avec angle inférieur décollé du thorax (tilt antérieur). Quel muscle, par sa rétraction, est typiquement en cause ?",
+      "c": 4,
       "options": [
         {
           "t": "Petit pectoral",
@@ -40085,6 +40750,7 @@ const QUESTIONS = {
     },
     {
       "q": "En goniométrie de l'épaule, la rotation externe à 0° d'abduction (coude au corps) a une amplitude normale de :",
+      "c": 5,
       "options": [
         {
           "t": "75-85°",
@@ -40103,6 +40769,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez la force d'un patient en pronation contre résistance, coude fléchi à 90°. Quels muscles testez-vous principalement ?",
+      "c": 9,
       "options": [
         {
           "t": "Rond pronateur et pronateur carré",
@@ -40121,6 +40788,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cours d'une flexion complète des MCP des doigts (poing fermé), quelle rotation automatique accompagne ce mouvement ?",
+      "c": 14,
       "options": [
         {
           "t": "Supination des phalanges (convergence vers la pulpe du pouce)",
@@ -40139,6 +40807,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente une rétraction chronique du grand pectoral entraînant une attitude en protraction scapulaire. Selon les muscles moteurs cités par le cours pour la protraction et la rétraction de l'omoplate, quelle situation musculaire en résulte ?",
+      "c": 4,
       "options": [
         {
           "t": "Le petit pectoral est raccourci tandis que le trapèze moyen et les rhomboïdes sont allongés",
@@ -40157,6 +40826,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure du carpe est la plus exposée aux fractures lors d'une chute sur la paume de la main en extension forcée ?",
+      "c": 11,
       "options": [
         {
           "t": "Scaphoïde",
@@ -40175,6 +40845,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous décrivez la goniométrie de la déviation ulnaire du poignet en position de pronation vs supination. Quelle proposition est exacte ?",
+      "c": 12,
       "options": [
         {
           "t": "La déviation ulnaire est plus ample en supination qu'en pronation",
@@ -40193,6 +40864,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles produisent l'extension active des articulations interphalangiennes des doigts ?",
+      "c": 14,
       "options": [
         {
           "t": "Les lombricaux et les interosseux (muscles intrinsèques)",
@@ -40211,6 +40883,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle assure spécifiquement la flexion de l'articulation MCP du pouce ?",
+      "c": 15,
       "options": [
         {
           "t": "Court fléchisseur du pouce",
@@ -40229,6 +40902,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cours du mouvement combiné d'élévation du bras au-dessus de la tête, quelle est la rotation gléno-humérale obligatoire pour atteindre les 180° ?",
+      "c": 6,
       "options": [
         {
           "t": "Rotation externe d'environ 45°",
@@ -40247,6 +40921,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament collatéral médial du coude (LCM ou ligament collatéral ulnaire) est principalement étiré par quel mouvement ?",
+      "c": 7,
       "options": [
         {
           "t": "Contrainte en valgus du coude",
@@ -40265,6 +40940,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un mouvement de rétraction de la clavicule (épaules tirées en arrière), quelle cinématique sterno-claviculaire se produit ?",
+      "c": 3,
       "options": [
         {
           "t": "Roulement et glissement postérieurs de la surface claviculaire",
@@ -40283,6 +40959,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le mouvement principal de la première rangée du carpe lors d'une flexion combinée à une déviation ulnaire (dart throw motion) ?",
+      "c": 12,
       "options": [
         {
           "t": "Mouvement prédominant à l'étage médiocarpien",
@@ -40301,6 +40978,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une chute sur la main avec poignet en extension forcée, quelle articulation interphalangienne est typiquement luxée vers l'arrière ?",
+      "c": 14,
       "options": [
         {
           "t": "L'interphalangienne proximale (IPP) en dorsal",
@@ -40319,6 +40997,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du test de Phalen (poignet en flexion maximale maintenue 60 secondes), une reproduction des paresthésies des trois premiers doigts évoque :",
+      "c": 16,
       "options": [
         {
           "t": "Syndrome du canal carpien (compression du nerf médian)",
@@ -40337,6 +41016,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les principaux rotateurs internes de l'articulation gléno-humérale, on trouve :",
+      "c": 5,
       "options": [
         {
           "t": "Le sous-scapulaire, le grand rond et le grand pectoral",
@@ -40355,6 +41035,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du mouvement de sonnette interne de la scapula :",
+      "c": 4,
       "options": [
         {
           "t": "Le bord inférieur se rapproche de la colonne, grâce au rhomboïde",
@@ -40373,6 +41054,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'abduction horizontale de l'épaule, quelle est la réponse correcte ?",
+      "c": 4,
       "options": [
         {
           "t": "Le mouvement associe une abduction de l'humérus et une adduction (rétraction) de la scapula",
@@ -40391,6 +41073,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle affirmation est correcte lors de l'antéposition (protraction) de la ceinture scapulaire ?",
+      "c": 4,
       "options": [
         {
           "t": "La scapula effectue une abduction et glisse en avant sur le thorax",
@@ -40409,6 +41092,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la bonne réponse sur les articulations de la ceinture scapulaire :",
+      "c": 1,
       "options": [
         {
           "t": "L'articulation omo-serrato-thoracique est une syssarcose, partie de l'unité fonctionnelle scapulo-thoracique",
@@ -40427,6 +41111,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles maintiennent la tête humérale en place pour assurer une bonne congruence articulaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Le supra-épineux, l'infra-épineux, le petit rond et le sous-scapulaire",
@@ -40445,6 +41130,7 @@ const QUESTIONS = {
     },
     {
       "q": "Si le patient tire sur un élastique en fléchissant le coude, paume dirigée vers le sol, quel muscle renforce-t-il principalement ?",
+      "c": 8,
       "options": [
         {
           "t": "Brachio-radial",
@@ -40463,6 +41149,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la bonne réponse concernant la physiologie articulaire du coude ?",
+      "c": 7,
       "options": [
         {
           "t": "L'articulation radio-ulnaire supérieure est de type trochoïde et permet la prono-supination",
@@ -40481,6 +41168,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément est un facteur limitant de la supination ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament carré (de Denucé)",
@@ -40499,6 +41187,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la bonne réponse concernant la pronation de l'avant-bras :",
+      "c": 9,
       "options": [
         {
           "t": "Lors de la pronation, la tête radiale tourne autour de son axe",
@@ -40517,6 +41206,7 @@ const QUESTIONS = {
     },
     {
       "q": "À partir de la position anatomique, lors de la flexion du poignet, quels mouvements observe-t-on ?",
+      "c": 12,
       "options": [
         {
           "t": "Le lunatum et le capitatum roulent vers l'avant et glissent vers l'arrière",
@@ -40535,6 +41225,7 @@ const QUESTIONS = {
     },
     {
       "q": "Signalez la bonne réponse concernant les muscles moteurs du poignet et de la main :",
+      "c": 14,
       "options": [
         {
           "t": "Les lombricaux font la flexion métacarpo-phalangienne et l'extension interphalangienne",
@@ -40553,6 +41244,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la physiologie articulaire du poignet, dans la déviation radiale, il est vrai que :",
+      "c": 12,
       "options": [
         {
           "t": "La sensation finale est élastique, liée aux extenseur et fléchisseur ulnaires du carpe",
@@ -40571,6 +41263,7 @@ const QUESTIONS = {
     },
     {
       "q": "Signalez la bonne réponse concernant le trajet des nerfs au poignet :",
+      "c": 16,
       "options": [
         {
           "t": "Le nerf médian chemine dans le canal carpien, sous le rétinaculum des fléchisseurs",
@@ -40589,6 +41282,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'articulation trapézo-métacarpienne du pouce :",
+      "c": 15,
       "options": [
         {
           "t": "Le mouvement d'opposition comprend flexion + abduction + rotation médiale",
@@ -40607,6 +41301,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une extension passive du poignet, une limite semi-rigide est due à :",
+      "c": 12,
       "options": [
         {
           "t": "Les ligaments radio-carpiens palmaires et la capsule antérieure",
@@ -40625,6 +41320,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mouvement claviculaire, réalisé dans le plan frontal, est limité par le ligament costo-claviculaire et le muscle sous-clavier ?",
+      "c": 3,
       "options": [
         {
           "t": "L'élévation",
@@ -40643,6 +41339,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le deuxième temps de l'abduction de l'épaule (≈ 60-120°), indiquez la bonne réponse :",
+      "c": 6,
       "options": [
         {
           "t": "L'omoplate bascule en sonnette externe",
@@ -40661,6 +41358,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez les principaux moteurs de la rotation interne de l'épaule :",
+      "c": 5,
       "options": [
         {
           "t": "Grand pectoral et grand rond",
@@ -40679,6 +41377,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la rétroposition (rétraction) de l'unité scapulo-thoracique, indiquez la bonne réponse :",
+      "c": 4,
       "options": [
         {
           "t": "La scapula s'adducte et se rapproche du rachis",
@@ -40697,6 +41396,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la physiologie articulaire de l'extension du coude, indiquez la bonne réponse :",
+      "c": 8,
       "options": [
         {
           "t": "L'olécrâne bute dans la fosse olécrânienne, donnant un arrêt dur",
@@ -40715,6 +41415,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la radio-ulnaire proximale, le mouvement est limité par :",
+      "c": 9,
       "options": [
         {
           "t": "La tension du ligament carré de Denucé",
@@ -40733,6 +41434,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la flexion du poignet, il est vrai que :",
+      "c": 12,
       "options": [
         {
           "t": "À rayon fixe, le lunatum et le capitatum roulent en avant et glissent en arrière",
@@ -40751,6 +41453,7 @@ const QUESTIONS = {
     },
     {
       "q": "La sensation de limite élastique dans le mouvement d'extension du poignet est déterminée par :",
+      "c": 12,
       "options": [
         {
           "t": "La mise en tension des muscles fléchisseurs de l'avant-bras",
@@ -40769,6 +41472,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la physiologie du poignet, dans l'inclinaison ulnaire, il est vrai que :",
+      "c": 12,
       "options": [
         {
           "t": "À rayon fixe, la rangée proximale glisse vers le radial pendant que le carpe s'incline en ulnaire",
@@ -40787,6 +41491,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le type articulaire de l'articulation sterno-claviculaire ?",
+      "c": 1,
       "options": [
         {
           "t": "Articulation en selle",
@@ -40805,6 +41510,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'élévation de la clavicule à l'articulation sterno-claviculaire, quelle arthrocinématique se produit ?",
+      "c": 3,
       "options": [
         {
           "t": "Roulement supérieur et glissement inférieur, avec étirement du ligament costo-claviculaire",
@@ -40823,6 +41529,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mouvement de la clavicule constitue la position de blocage (verrouillage) de l'articulation sterno-claviculaire ?",
+      "c": 3,
       "options": [
         {
           "t": "La rotation postérieure complète de la clavicule",
@@ -40841,6 +41548,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles assurent principalement l'abaissement (descente) de la scapula à l'articulation scapulo-thoracique ?",
+      "c": 4,
       "options": [
         {
           "t": "Trapèze inférieur, grand dorsal, sous-clavier et petit pectoral",
@@ -40859,6 +41567,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel angle la tête humérale forme-t-elle avec le corps de l'humérus ?",
+      "c": 1,
       "options": [
         {
           "t": "Environ 135°",
@@ -40877,6 +41586,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, quelle structure capsulo-ligamentaire est principalement resserrée lors de la flexion de l'articulation gléno-humérale ?",
+      "c": 5,
       "options": [
         {
           "t": "La capsule postérieure",
@@ -40895,6 +41605,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ensemble musculaire est moteur de la rotation externe de l'articulation gléno-humérale selon le cours ?",
+      "c": 5,
       "options": [
         {
           "t": "Infra-épineux, petit rond et supra-épineux",
@@ -40913,6 +41624,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf, particulièrement exposé, assure l'innervation du muscle dentelé antérieur ?",
+      "c": 2,
       "options": [
         {
           "t": "Le nerf long thoracique",
@@ -40931,6 +41643,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles assurent la pronation de l'avant-bras ?",
+      "c": 9,
       "options": [
         {
           "t": "Rond pronateur et pronateur carré",
@@ -40949,6 +41662,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de la flexion passive du coude selon le cours ?",
+      "c": 8,
       "options": [
         {
           "t": "160°",
@@ -40967,6 +41681,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude normale de la pronation de l'avant-bras selon le cours ?",
+      "c": 9,
       "options": [
         {
           "t": "85°",
@@ -40985,6 +41700,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la pronosupination, quel os reste le guide ou l'axe du déplacement de l'avant-bras et de la main ?",
+      "c": 9,
       "options": [
         {
           "t": "L'ulna",
@@ -41003,6 +41719,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type de levier mécanique correspond le coude selon le cours ?",
+      "c": 10,
       "options": [
         {
           "t": "Levier du 3e genre",
@@ -41021,6 +41738,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au niveau de quelle articulation s'effectue principalement le mouvement de flexion du coude ?",
+      "c": 8,
       "options": [
         {
           "t": "L'articulation huméro-ulnaire",
@@ -41039,6 +41757,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément amortit le choc du radius sur l'ulna lors de la limite de la pronation ?",
+      "c": 9,
       "options": [
         {
           "t": "Les muscles fléchisseurs",
@@ -41057,6 +41776,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle stabilise la tête radiale et empêche sa luxation en haut et en avant lors de la traction du biceps ?",
+      "c": 10,
       "options": [
         {
           "t": "Le ligament annulaire",
@@ -41075,6 +41795,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel os du carpe s'articule avec le radius pour former, avec le lunatum, l'articulation radio-carpienne ?",
+      "c": 11,
       "options": [
         {
           "t": "Le scaphoïde",
@@ -41093,6 +41814,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude physiologique maximale de la déviation ulnaire du poignet selon le cours ?",
+      "c": 12,
       "options": [
         {
           "t": "45°",
@@ -41111,6 +41833,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type articulaire correspond l'articulation médio-carpienne ?",
+      "c": 11,
       "options": [
         {
           "t": "Double condylienne",
@@ -41129,6 +41852,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la deuxième phase de l'opposition du pouce, quel mouvement du 1er métacarpien se produit après l'abduction ?",
+      "c": 15,
       "options": [
         {
           "t": "Flexion et rotation médiale",
@@ -41147,6 +41871,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle intrinsèque de l'éminence thénar n'effectue que l'adduction et la flexion du pouce, sans composante d'opposition propre ?",
+      "c": 15,
       "options": [
         {
           "t": "L'adducteur du pouce",
@@ -41165,6 +41890,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf innerve les muscles de l'éminence thénar ainsi que les deux premiers lombricaux ?",
+      "c": 16,
       "options": [
         {
           "t": "Le nerf médian",
@@ -41183,6 +41909,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au niveau de l'articulation carpo-métacarpienne, quel métacarpien est le plus mobile en flexion (20-25°) ?",
+      "c": 14,
       "options": [
         {
           "t": "Le 5e métacarpien (avec l'hamatum)",
@@ -41201,6 +41928,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est le seul fléchisseur de l'articulation interphalangienne du pouce ?",
+      "c": 15,
       "options": [
         {
           "t": "Le long fléchisseur du pouce",
@@ -41219,6 +41947,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle fraction de sphère représente la surface articulaire de la tête humérale à l'articulation gléno-humérale ?",
+      "c": 1,
       "options": [
         {
           "t": "Un tiers de sphère",
@@ -41237,6 +41966,7 @@ const QUESTIONS = {
     },
     {
       "q": "D'après le cours, où le cartilage de la cavité glénoïde est-il le plus épais ?",
+      "c": 1,
       "options": [
         {
           "t": "En bas plutôt qu'en haut",
@@ -41255,6 +41985,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, la concavité de la cavité glénoïde est plus profonde dans quelle région ?",
+      "c": 1,
       "options": [
         {
           "t": "Dans sa partie postérieure",
@@ -41273,6 +42004,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles racines forment le plexus brachial selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "C4 à T2",
@@ -41291,6 +42023,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels nerfs sont susceptibles d'être lésés lors d'un traumatisme axillaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Le nerf radial, le nerf médian et le nerf cubital",
@@ -41309,6 +42042,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, à quoi correspond l'arthrocinématique de la descente claviculaire à l'articulation sterno-claviculaire ?",
+      "c": 3,
       "options": [
         {
           "t": "Roulement inférieur et glissement supérieur",
@@ -41327,6 +42061,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles assurent principalement la protraction de la scapula à l'articulation scapulo-thoracique selon le cours ?",
+      "c": 4,
       "options": [
         {
           "t": "Dentelé antérieur, petit pectoral et sous-clavière",
@@ -41345,6 +42080,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, le ligament costo-claviculaire comporte deux fascicules. Quelle est l'orientation du fascicule antérieur ?",
+      "c": 1,
       "options": [
         {
           "t": "Oblique en avant et en arrière",
@@ -41363,6 +42099,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels muscles renforcent en haut l'articulation acromio-claviculaire par leurs insertions ?",
+      "c": 1,
       "options": [
         {
           "t": "Les insertions du deltoïde et du trapèze",
@@ -41381,6 +42118,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ensemble de muscles est moteur de la flexion du coude selon le cours ?",
+      "c": 8,
       "options": [
         {
           "t": "Biceps brachial, brachial antérieur et brachioradial",
@@ -41399,6 +42137,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles sont moteurs de l'extension du coude selon le cours ?",
+      "c": 8,
       "options": [
         {
           "t": "Triceps brachial et anconé",
@@ -41417,6 +42156,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément capsulaire limite la flexion du coude selon le cours ?",
+      "c": 8,
       "options": [
         {
           "t": "La tension de la partie postérieure de la capsule",
@@ -41435,6 +42175,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel facteur capsulaire constitue une limite de l'extension du coude selon le cours ?",
+      "c": 8,
       "options": [
         {
           "t": "La tension de la partie antérieure de la capsule articulaire",
@@ -41453,6 +42194,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type articulaire correspond l'articulation radio-ulnaire distale selon le cours ?",
+      "c": 7,
       "options": [
         {
           "t": "Articulation trochoïde",
@@ -41471,6 +42213,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure fibrocartilagineuse fait partie des moyens de fixation de l'articulation radio-ulnaire distale ?",
+      "c": 7,
       "options": [
         {
           "t": "Le fibrocartilage triangulaire, disque articulaire",
@@ -41489,6 +42232,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de la supination de l'avant-bras selon le cours ?",
+      "c": 9,
       "options": [
         {
           "t": "90°",
@@ -41507,6 +42251,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels muscles assurent la stabilité de l'ulna lorsque le coude est en flexion à 90° ?",
+      "c": 10,
       "options": [
         {
           "t": "Triceps brachial, brachial antérieur et anconé",
@@ -41525,6 +42270,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude physiologique maximale de la flexion du poignet selon le cours ?",
+      "c": 12,
       "options": [
         {
           "t": "85°",
@@ -41543,6 +42289,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels sont les moteurs principaux de la flexion des articulations carpiennes ?",
+      "c": 12,
       "options": [
         {
           "t": "Fléchisseur radial du carpe, long palmaire et fléchisseur ulnaire du carpe",
@@ -41561,6 +42308,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'extension du poignet, radius fixe, comment se comportent le lunatum et le capitatum ?",
+      "c": 12,
       "options": [
         {
           "t": "Ils roulent vers l'arrière et glissent vers l'avant",
@@ -41579,6 +42327,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type articulaire correspondent les articulations interphalangiennes des doigts ?",
+      "c": 14,
       "options": [
         {
           "t": "Trochléennes",
@@ -41597,6 +42346,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type articulaire correspondent les articulations métacarpophalangiennes ?",
+      "c": 14,
       "options": [
         {
           "t": "Condyliennes",
@@ -41615,6 +42365,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles assurent l'abduction des doigts au niveau des articulations métacarpophalangiennes ?",
+      "c": 14,
       "options": [
         {
           "t": "Les interosseux dorsaux et l'abducteur du 5e doigt",
@@ -41633,6 +42384,7 @@ const QUESTIONS = {
     },
     {
       "q": "Combien de canaux fibreux le rétinaculum des extenseurs (ligament annulaire dorsal) délimite-t-il pour le passage des tendons ?",
+      "c": 11,
       "options": [
         {
           "t": "Six",
@@ -41651,6 +42403,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur quels os s'insèrent distalement les longs et courts extenseurs radiaux du carpe ?",
+      "c": 11,
       "options": [
         {
           "t": "Sur la base des 2e et 3e métacarpiens",
@@ -41669,6 +42422,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de flexion de l'articulation trapézo-métacarpienne du pouce selon le cours ?",
+      "c": 15,
       "options": [
         {
           "t": "35-50°",
@@ -41689,6 +42443,7 @@ const QUESTIONS = {
   "valoMembresInf": [
     {
       "q": "Vous évaluez une patiente lors d'une marche : pendant la phase d'appui unipodal droite, le bassin reste horizontal sans chute controlatérale. Quels muscles assurent principalement cette stabilité frontale du bassin ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit fessier, moyen fessier et tenseur du fascia lata du côté en appui",
@@ -41707,6 +42462,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient en décubitus ventral, genou fléchi à 90°, ramène activement le tibia vers le côté controlatéral du corps. Quels muscles produisent ce mouvement ?",
+      "c": 2,
       "options": [
         {
           "t": "Pelvitrochantériens (piriforme, jumeaux, obturateurs, carré fémoral) et sartorius",
@@ -41725,6 +42481,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous mesurez la flexion passive de hanche chez un patient. La même hanche atteint 90° genou tendu et 130° genou fléchi. Quel mécanisme principal explique cette différence ?",
+      "c": 1,
       "options": [
         {
           "t": "Détente des ischio-jambiers biarticulaires lorsque le genou est fléchi",
@@ -41743,6 +42500,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une flexion maximale passive de la hanche genou fléchi, le mouvement s'arrête vers 135-140°. Quelle est la limite physiologique principale à ce moment ?",
+      "c": 1,
       "options": [
         {
           "t": "Contact des masses molles de la cuisse avec la paroi abdominale antérieure",
@@ -41761,6 +42519,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une course en montée avec port d'une charge dorsale, quel groupe musculaire est principalement sollicité pour assurer la stabilité antéropostérieure du bassin et l'extension de hanche ?",
+      "c": 3,
       "options": [
         {
           "t": "Le grand fessier, extenseur le plus puissant de la coxo-fémorale",
@@ -41779,6 +42538,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une danseuse en grand écart latéral, hanche en abduction maximale et rotation externe, ressent une sensation de tirage profond dans la région antéro-inférieure de la coxo-fémorale. Quel ligament est principalement mis en tension ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament pubo-fémoral",
@@ -41797,6 +42557,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une raideur isolée du ligament pubo-fémoral après chirurgie de la hanche. Quels mouvements seront principalement limités d'après les limites articulaires décrites en cours ?",
+      "c": 1,
       "options": [
         {
           "t": "Extension et abduction de la hanche",
@@ -41815,6 +42576,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous décrivez à un patient les mouvements principaux et secondaires du genou en vous appuyant sur la biomécanique articulaire. Quelle proposition correspond exactement au cours ?",
+      "c": 6,
       "options": [
         {
           "t": "Flexion-extension principale dans le plan sagittal, rotations secondaires nécessitant une flexion préalable",
@@ -41833,6 +42595,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un test de force des ischio-jambiers (flexion résistée du genou), pourquoi est-il préférable de mettre le patient hanche fléchie plutôt qu'en extension neutre ?",
+      "c": 6,
       "options": [
         {
           "t": "Hanche fléchie, les ischio-jambiers biarticulaires sont pré-étirés et donc plus efficaces",
@@ -41851,6 +42614,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous testez passivement la flexion maximale du genou, hanche fléchie. Quelle sensation de fin de course (end-feel) attendez-vous physiologiquement ?",
+      "c": 6,
       "options": [
         {
           "t": "Sensation molle, par contact des masses molles cuisse-jambe postérieures",
@@ -41869,6 +42633,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une joueuse de handball, assise, ramène activement la pointe du pied vers l'intérieur (rotation interne du genou). Quels ligaments sont principalement mis en tension par ce mouvement ?",
+      "c": 9,
       "options": [
         {
           "t": "Les ligaments croisés antérieur et postérieur, qui s'enroulent l'un sur l'autre",
@@ -41887,6 +42652,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous étudiez la cinématique méniscale du genou en flexion (passage de la position debout à accroupie). D'après le cours, comment se déplacent les ménisques ?",
+      "c": 7,
       "options": [
         {
           "t": "Ils reculent tous les deux, le ménisque externe davantage et se déforme plus",
@@ -41905,6 +42671,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient effectue un squat profond. Décrivez le comportement biomécanique des condyles fémoraux sur les plateaux tibiaux lors de la descente.",
+      "c": 7,
       "options": [
         {
           "t": "Roulement postérieur et glissement antérieur simultanés",
@@ -41923,6 +42690,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente une hyperextension du genou de 15° (genu recurvatum). Quelles structures contrôlent normalement et limitent l'hyperextension du genou ?",
+      "c": 9,
       "options": [
         {
           "t": "Plan capsulo-ligamentaire postérieur, ligaments collatéraux et muscles fléchisseurs",
@@ -41941,6 +42709,7 @@ const QUESTIONS = {
     },
     {
       "q": "En chaîne cinétique fermée (CCF), un sujet effectue une extension de genou en se relevant d'un squat. Décrivez la cinématique fémoro-tibiale.",
+      "c": 7,
       "options": [
         {
           "t": "Roulement antérieur des condyles, glissement postérieur simultané",
@@ -41959,6 +42728,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi la rotule a-t-elle une tendance physiologique à la luxation latérale en extension complète du genou ?",
+      "c": 10,
       "options": [
         {
           "t": "Angle Q ouvert latéralement et joue trochléenne externe plus proéminente",
@@ -41977,6 +42747,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient est assis sur une table, jambe pendante. Il effectue une extension active du genou en CCO. Décrivez la cinématique tibio-fémorale.",
+      "c": 7,
       "options": [
         {
           "t": "Le tibia roule antérieurement et glisse antérieurement sur le fémur",
@@ -41995,6 +42766,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un coureur de fond, debout, désigne ses muscles éverseurs. Quels muscles sont responsables de l'éversion active du pied ?",
+      "c": 13,
       "options": [
         {
           "t": "Long fibulaire et court fibulaire",
@@ -42013,6 +42785,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient effectue une flexion dorsale maximale active de cheville. Que se passe-t-il au niveau des articulations tibio-fibulaires inférieure et talo-crurale ?",
+      "c": 12,
       "options": [
         {
           "t": "Écartement et rotation externe de la malléole externe, roulement antérieur du talus",
@@ -42031,6 +42804,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous décomposez le mouvement d'inversion du pied. Quelles composantes cinématiques retrouvez-vous ?",
+      "c": 13,
       "options": [
         {
           "t": "Flexion plantaire + adduction + supination",
@@ -42049,6 +42823,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'axe de Henke est un repère anatomique fondamental du pied. Quelle description est exacte ?",
+      "c": 15,
       "options": [
         {
           "t": "Axe oblique passant par le col du talus et la tubérosité postéro-latérale du calcanéum, permettant l'inversion-éversion",
@@ -42067,6 +42842,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez la voûte plantaire d'une patiente. Quels muscles soutiennent activement l'arche longitudinale interne du pied ?",
+      "c": 15,
       "options": [
         {
           "t": "Tibial postérieur et long fibulaire",
@@ -42085,6 +42861,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente porteuse d'une instabilité chronique de cheville présente une rupture isolée d'un faisceau du ligament collatéral latéral. Quel mécanisme traumatique en est typiquement responsable et quel faisceau est concerné ?",
+      "c": 13,
       "options": [
         {
           "t": "Inversion forcée en flexion plantaire, rupture du ligament talo-fibulaire antérieur",
@@ -42103,6 +42880,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un joueur de basket atterrit après un saut sur un pied en éversion forcée. Quelle conséquence anatomique principale faut-il craindre ?",
+      "c": 13,
       "options": [
         {
           "t": "Fracture des malléoles, particulièrement la malléole latérale",
@@ -42121,6 +42899,7 @@ const QUESTIONS = {
     },
     {
       "q": "En chaîne cinétique ouverte (CCO), un patient assis effectue une extension active du genou. Quelle est la cinématique fémoro-tibiale exacte ?",
+      "c": 7,
       "options": [
         {
           "t": "Le tibia roule et glisse antérieurement, dans le même sens, sur le fémur fixe",
@@ -42139,6 +42918,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une danseuse présente un syndrome rotulien avec luxation latérale récidivante. Quel facteur biomécanique principal favorise cette tendance ?",
+      "c": 10,
       "options": [
         {
           "t": "Insuffisance du vaste médial oblique opposé à la latéralisation rotulienne",
@@ -42157,6 +42937,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente de 65 ans présente un pied plat acquis avec affaissement de la voûte longitudinale interne. Quel muscle, par son insuffisance, est principalement responsable de cet affaissement ?",
+      "c": 15,
       "options": [
         {
           "t": "Tibial postérieur",
@@ -42175,6 +42956,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient est en décubitus dorsal, vous saisissez son tibia distal et le tirez vers l'avant, genou fléchi à 90°, hanche à 45°. Quel ligament testez-vous ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament croisé antérieur",
@@ -42193,6 +42975,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la marche normale, un mécanisme de rotation axiale automatique du genou se produit dans les derniers degrés d'extension. Quelle est cette rotation ?",
+      "c": 8,
       "options": [
         {
           "t": "Rotation externe automatique du tibia",
@@ -42211,6 +42994,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une raideur du LCP suite à une ancienne entorse postérieure. Quel mouvement sera principalement limité ?",
+      "c": 9,
       "options": [
         {
           "t": "Flexion complète du genou",
@@ -42229,6 +43013,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un mouvement de rotation externe du genou en CCO, quel déplacement réalise le ménisque externe ?",
+      "c": 7,
       "options": [
         {
           "t": "Le ménisque externe s'avance sur sa glène pendant que le médial recule",
@@ -42247,6 +43032,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'évaluation d'une flexion plantaire isolée du gros orteil, quel muscle testez-vous principalement ?",
+      "c": 14,
       "options": [
         {
           "t": "Long fléchisseur de l'hallux",
@@ -42265,6 +43051,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est principalement responsable de la flexion plantaire de la cheville et atteint son efficacité maximale genou en extension ?",
+      "c": 12,
       "options": [
         {
           "t": "Triceps sural (gastrocnémiens et soléaire)",
@@ -42283,6 +43070,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un test passif de flexion dorsale de cheville chez un patient retrouve une limite à 5°, genou en extension, qui passe à 15° genou fléchi. Quel muscle est responsable de cette différence ?",
+      "c": 12,
       "options": [
         {
           "t": "Gastrocnémiens (muscle biarticulaire enjambant le genou)",
@@ -42301,6 +43089,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle position est dite de stabilité maximale (close-pack) pour l'articulation du genou ?",
+      "c": 8,
       "options": [
         {
           "t": "Extension complète avec rotation externe automatique",
@@ -42319,6 +43108,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle articulation tarsienne forme l'articulation médio-tarsienne de Chopart ?",
+      "c": 11,
       "options": [
         {
           "t": "Talo-naviculaire + calcanéo-cuboïdienne",
@@ -42337,6 +43127,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient en décubitus dorsal, hanche fléchie à 90° et genou fléchi à 90°, présente une douleur lors de la rotation interne passive de la hanche. Vers quelle pathologie cela oriente-t-il principalement ?",
+      "c": 4,
       "options": [
         {
           "t": "Conflit fémoro-acétabulaire antérieur",
@@ -42355,6 +43146,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le triceps sural produit la flexion plantaire mais sa contraction maximale s'accompagne d'une autre composante au niveau du pied. Laquelle ?",
+      "c": 12,
       "options": [
         {
           "t": "Adduction et supination (varus du pied)",
@@ -42373,6 +43165,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une étudiante en kinésithérapie évalue la stabilité antérolatérale du genou lors d'un test de pivot shift positif. Quel ligament est principalement lésé ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament croisé antérieur",
@@ -42391,6 +43184,7 @@ const QUESTIONS = {
     },
     {
       "q": "En position anatomique debout, un sujet effectue une flexion passive du tronc en avant. Quelle composante intervient au niveau de la hanche dans le rythme lombo-pelvien ipsi-directionnel ?",
+      "c": 3,
       "options": [
         {
           "t": "Bassin et colonne lombaire tournent dans le même sens, vers l'avant",
@@ -42409,6 +43203,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une flexion de hanche au-delà de 90°, quelle modification posturale rachidienne est physiologique ?",
+      "c": 3,
       "options": [
         {
           "t": "Rétroversion du bassin et diminution de la lordose lombaire",
@@ -42427,6 +43222,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une marche normale, à quel moment du cycle survient la supination maximale de l'arrière-pied selon le cours ?",
+      "c": 15,
       "options": [
         {
           "t": "Pendant la phase d'impulsion (propulsion)",
@@ -42445,6 +43241,7 @@ const QUESTIONS = {
     },
     {
       "q": "En extension active du genou, quel mécanisme tire la corne postérieure du ménisque externe vers l'avant selon le cours ?",
+      "c": 7,
       "options": [
         {
           "t": "La tension du ligament ménisco-fémoral",
@@ -42463,6 +43260,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une raideur des fléchisseurs du genou (ischio-jambiers courts). Quel test simple utilisez-vous pour les évaluer cliniquement ?",
+      "c": 6,
       "options": [
         {
           "t": "Test du SLR (jambe tendue) ou angle poplité",
@@ -42481,6 +43279,7 @@ const QUESTIONS = {
     },
     {
       "q": "En appui unipodal pathologique, le bassin chute du côté oscillant (signe de Trendelenburg). Quel muscle est en cause du côté en appui ?",
+      "c": 3,
       "options": [
         {
           "t": "Moyen fessier",
@@ -42499,6 +43298,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez la mobilité de la rotule en glissement latéro-médial chez un patient. À quelle position du genou le test est-il optimal ?",
+      "c": 10,
       "options": [
         {
           "t": "Extension complète",
@@ -42517,6 +43317,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le muscle poplité a un rôle spécifique au niveau du genou. Lequel ?",
+      "c": 8,
       "options": [
         {
           "t": "Déverrouille le genou en initiant la rotation interne du tibia",
@@ -42535,6 +43336,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient effectue un test de Lachman positif. Quelle structure ligamentaire est probablement rompue ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament croisé antérieur",
@@ -42553,6 +43355,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une flexion plantaire de cheville, quel mouvement de la mortaise tibio-fibulaire inférieure est observé ?",
+      "c": 12,
       "options": [
         {
           "t": "Rapprochement des malléoles, descente et rotation interne de la malléole externe",
@@ -42571,6 +43374,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez la cinématique du pied chez un sprinter en phase de propulsion. Quel mouvement domine pour stabiliser l'avant-pied ?",
+      "c": 15,
       "options": [
         {
           "t": "Supination (verrouillage du transverse du tarse)",
@@ -42589,6 +43393,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente de 32 ans, debout, est en rotation externe maximale passive de la coxo-fémorale (genou tendu). Selon le cours, quel(s) ligament(s) limite(nt) ce mouvement ?",
+      "c": 1,
       "options": [
         {
           "t": "Le ligament ilio-fémoral et le ligament de la tête fémorale",
@@ -42607,6 +43412,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un coureur présente un déficit de stabilité pelvienne antéropostérieure lors de la propulsion (course, montée). Selon la biomécanique enseignée, quels muscles sont essentiels au contrôle de cette stabilité ?",
+      "c": 3,
       "options": [
         {
           "t": "Les extenseurs de hanche : ischio-jambiers et grand fessier",
@@ -42625,6 +43431,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous mesurez au goniomètre la flexion de hanche d'un patient, genou tendu (ischio-jambiers en tension). Quelle amplitude maximale attendez-vous selon les normes enseignées ?",
+      "c": 2,
       "options": [
         {
           "t": "Environ 90°",
@@ -42643,6 +43450,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une jeune femme effectue un grand écart facial (flexion de hanche + abduction). Quelle position de hanche minimise la limitation par les structures capsulo-ligamentaires ?",
+      "c": 1,
       "options": [
         {
           "t": "Flexion de hanche associée à l'abduction",
@@ -42661,6 +43469,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la limite physiologique principale de l'abduction de hanche en position debout ?",
+      "c": 1,
       "options": [
         {
           "t": "Tension des adducteurs et butée du col fémoral sur l'acétabulum",
@@ -42679,6 +43488,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente en décubitus dorsal présente une flexion de la hanche droite avec un test de Thomas positif. Quelle est la signification clinique ?",
+      "c": 2,
       "options": [
         {
           "t": "Rétraction des fléchisseurs de la hanche",
@@ -42697,6 +43507,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament empêche principalement le glissement antérieur du tibia sous le fémur (par exemple lors d'une décélération brutale en course) ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament croisé antérieur",
@@ -42715,6 +43526,7 @@ const QUESTIONS = {
     },
     {
       "q": "En position assise jambes croisées, quels mouvements coxo-fémoraux sont combinés du côté de la hanche en croisement (jambe sur l'autre) ?",
+      "c": 2,
       "options": [
         {
           "t": "Flexion + adduction + rotation externe",
@@ -42733,6 +43545,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous mesurez la flexion de hanche genou tendu (SLR) chez un patient avec ischio-jambiers normaux. Quelle est l'amplitude attendue ?",
+      "c": 2,
       "options": [
         {
           "t": "Environ 80-90°",
@@ -42751,6 +43564,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez un patient avec rupture isolée du LCP. Quel signe clinique recherchez-vous principalement ?",
+      "c": 9,
       "options": [
         {
           "t": "Tiroir postérieur positif",
@@ -42769,6 +43583,7 @@ const QUESTIONS = {
     },
     {
       "q": "En appui bipodal symétrique, l'action des abducteurs et adducteurs de hanche est :",
+      "c": 3,
       "options": [
         {
           "t": "Une co-contraction bilatérale et tonique des deux groupes",
@@ -42787,6 +43602,7 @@ const QUESTIONS = {
     },
     {
       "q": "En décubitus dorsal, hanche fléchie à 90° genou fléchi à 90°, vous réalisez le test passif de rotation interne et trouvez une amplitude de 32°. Selon les valeurs de référence du cours, cette amplitude est :",
+      "c": 2,
       "options": [
         {
           "t": "Dans la norme : la rotation interne passive en flexion 90° est de 30-40°",
@@ -42805,6 +43621,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel facteur de risque est associé à une luxation de la hanche due à une adduction forcée ?",
+      "c": 4,
       "options": [
         {
           "t": "Antéversion du col du fémur",
@@ -42823,6 +43640,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la réponse correcte concernant la mise en tension des ligaments de la hanche selon la position ?",
+      "c": 1,
       "options": [
         {
           "t": "Lors de l'abduction se tendent le ligament pubo-fémoral et le ligament ischio-fémoral",
@@ -42841,6 +43659,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse correcte par rapport à la coaptation de la hanche :",
+      "c": 3,
       "options": [
         {
           "t": "Vers 40° d'abduction, la résultante musculaire devient coaptante",
@@ -42859,6 +43678,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles assurent la stabilité latérale (frontale) de la hanche en appui unipodal ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit et moyen fessiers et le tenseur du fascia lata",
@@ -42877,6 +43697,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patient en décubitus ventral, genou fléchi, qui ramène le tibia vers le côté controlatéral : quels muscles produisent ce mouvement ?",
+      "c": 2,
       "options": [
         {
           "t": "Pelvitrochantériens et sartorius",
@@ -42895,6 +43716,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le mouvement physiologique du genou, signalez la bonne réponse :",
+      "c": 8,
       "options": [
         {
           "t": "Les rotations interne et externe ne sont possibles que genou fléchi, une fois l'articulation déverrouillée",
@@ -42913,6 +43735,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la bonne réponse concernant les fléchisseurs du genou :",
+      "c": 6,
       "options": [
         {
           "t": "Ils sont plus efficaces lorsque la hanche est fléchie, qui pré-étire les ischio-jambiers biarticulaires",
@@ -42931,6 +43754,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patient assis qui amène la pointe du pied vers l'intérieur (rotation interne du tibia) : quels ligaments du genou se mettent en tension ?",
+      "c": 9,
       "options": [
         {
           "t": "Les ligaments croisés antérieur et postérieur",
@@ -42949,6 +43773,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lorsqu'un individu fait un squat (flexion en chaîne fermée), signalez la bonne réponse :",
+      "c": 7,
       "options": [
         {
           "t": "Les condyles fémoraux roulent en arrière et glissent en avant",
@@ -42967,6 +43792,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles réalisent l'éversion de la cheville ?",
+      "c": 13,
       "options": [
         {
           "t": "Long fibulaire et court fibulaire",
@@ -42985,6 +43811,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patient assis qui ramène le dos du pied vers le tibia (flexion dorsale) : que observe-t-on à la cheville ?",
+      "c": 12,
       "options": [
         {
           "t": "Le talus réalise un roulement antérieur et un glissement postérieur",
@@ -43003,6 +43830,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'affirmation correcte concernant la physiologie articulaire de la cheville :",
+      "c": 13,
       "options": [
         {
           "t": "L'éversion met en tension le plan médial (ligament deltoïde)",
@@ -43021,6 +43849,7 @@ const QUESTIONS = {
     },
     {
       "q": "Signalez la bonne réponse sur les axes de la cheville et du pied :",
+      "c": 15,
       "options": [
         {
           "t": "L'axe de Henke (sous-talien) permet l'inversion-éversion",
@@ -43039,6 +43868,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la réponse correcte concernant la voûte plantaire ?",
+      "c": 15,
       "options": [
         {
           "t": "L'arche longitudinale médiale est soutenue activement par le tibial postérieur et le long fibulaire",
@@ -43057,6 +43887,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez les mouvements de la hanche limités par le ligament pubo-fémoral :",
+      "c": 1,
       "options": [
         {
           "t": "Abduction et rotation externe",
@@ -43075,6 +43906,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la limite du mouvement de flexion de la hanche (genou fléchi) ?",
+      "c": 1,
       "options": [
         {
           "t": "Le contact de la face antérieure de la cuisse avec l'abdomen",
@@ -43093,6 +43925,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'axe mécanique du membre inférieur :",
+      "c": 5,
       "options": [
         {
           "t": "Relie le centre de la tête fémorale au centre de la cheville",
@@ -43111,6 +43944,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles structures limitent l'hyperextension du genou ?",
+      "c": 9,
       "options": [
         {
           "t": "La capsule postérieure et le ligament poplité oblique",
@@ -43129,6 +43963,7 @@ const QUESTIONS = {
     },
     {
       "q": "Énoncez l'affirmation vraie concernant la rotule en extension :",
+      "c": 10,
       "options": [
         {
           "t": "En extension, la rotule tend à se subluxer en dehors",
@@ -43147,6 +43982,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les facteurs de coaptation de la hanche, lesquels sont principalement assurés par les ligaments et par les muscles ?",
+      "c": 3,
       "options": [
         {
           "t": "Ligaments surtout antérieurs et muscles surtout postérieurs",
@@ -43165,6 +44001,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle position l'abduction de hanche est-elle maximale, et par quel mécanisme ligamentaire ?",
+      "c": 1,
       "options": [
         {
           "t": "Hanche fléchie, car les ligaments pubo-fémoral et ilio-rétrochantérien sont détendus",
@@ -43183,6 +44020,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude d'extension de hanche genou tendu (quadriceps détendu) selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "20 à 30° (jusqu'à environ 30°)",
@@ -43201,6 +44039,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels ligaments limitent principalement la rotation interne de la hanche ?",
+      "c": 1,
       "options": [
         {
           "t": "Le ligament ischio-fémoral et le ligament de la tête fémorale",
@@ -43219,6 +44058,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle est la valeur normale de l'angle d'inclinaison entre l'axe du col anatomique et l'axe diaphysaire du fémur ?",
+      "c": 4,
       "options": [
         {
           "t": "Environ 125°",
@@ -43237,6 +44077,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels mouvements de la hanche sont principalement limités par le ligament ilio-fémoral selon le cours ?",
+      "c": 1,
       "options": [
         {
           "t": "L'adduction (faisceau supérieur) et la rotation externe",
@@ -43255,6 +44096,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, en flexion-extension neutre, quelle est l'action des muscles adducteurs de la hanche (hormis les fibres postérieures du grand adducteur) ?",
+      "c": 2,
       "options": [
         {
           "t": "Ils sont fléchisseurs",
@@ -43273,6 +44115,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la rotation externe de hanche en position de flexion coxo-fémorale, quelle proposition est exacte ?",
+      "c": 2,
       "options": [
         {
           "t": "Le mouvement actif est réduit à 30-35°, le passif pouvant dépasser 60°",
@@ -43291,6 +44134,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'orientation exacte du ligament croisé antérieur (LCA) ?",
+      "c": 5,
       "options": [
         {
           "t": "Oblique vers le haut, vers l'arrière et vers l'extérieur",
@@ -43309,6 +44153,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le roulement pur (sans glissement) des condyles en début de flexion, lequel persiste le plus longtemps ?",
+      "c": 7,
       "options": [
         {
           "t": "Le condyle externe, jusqu'à environ 20°",
@@ -43327,6 +44172,7 @@ const QUESTIONS = {
     },
     {
       "q": "En flexion, quelle structure tire vers l'arrière la corne antérieure du ménisque interne ?",
+      "c": 7,
       "options": [
         {
           "t": "Les fibres du LCA",
@@ -43345,6 +44191,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'orientation du ligament collatéral médial du genou ?",
+      "c": 5,
       "options": [
         {
           "t": "Oblique vers le bas et vers l'avant",
@@ -43363,6 +44210,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au-delà de 90° de flexion, et surtout à 120°, lequel des croisés se tend le plus ?",
+      "c": 9,
       "options": [
         {
           "t": "Le LCP, qui se verticalise davantage",
@@ -43381,6 +44229,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel rôle joue le vaste médial (fibres obliques) au niveau de la rotule ?",
+      "c": 10,
       "options": [
         {
           "t": "Il résiste à la luxation externe de la rotule",
@@ -43399,6 +44248,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi la flexion active du genou est-elle moindre (120°) hanche en extension qu'en flexion de hanche (140°) ?",
+      "c": 6,
       "options": [
         {
           "t": "Par efficacité réduite des ischio-jambiers et tension du droit fémoral",
@@ -43417,6 +44267,7 @@ const QUESTIONS = {
     },
     {
       "q": "En extension, quelle structure tire vers l'avant la corne postérieure du ménisque externe ?",
+      "c": 7,
       "options": [
         {
           "t": "Le ligament ménisco-fémoral",
@@ -43435,6 +44286,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels os l'articulation talo-crurale (mortaise) met-elle en présence ?",
+      "c": 11,
       "options": [
         {
           "t": "Le tibia et la fibula avec le talus",
@@ -43453,6 +44305,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces propositions est exacte concernant le ligament collatéral médial (deltoïde) ?",
+      "c": 11,
       "options": [
         {
           "t": "Il s'étend de la malléole interne au naviculaire, au calcanéus et au talus",
@@ -43471,6 +44324,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle articulation forme la tarso-métatarsienne (articulation de Lisfranc) ?",
+      "c": 14,
       "options": [
         {
           "t": "L'articulation entre le tarse antérieur (cunéiformes et cuboïde) et les métatarsiens",
@@ -43489,6 +44343,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles sont les trois composantes du mouvement d'inversion du pied ?",
+      "c": 13,
       "options": [
         {
           "t": "Adduction, supination et extension",
@@ -43507,6 +44362,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure ligamentaire est rompue lors d'une inversion forcée de la cheville ?",
+      "c": 13,
       "options": [
         {
           "t": "Le ligament talo-fibulaire antérieur",
@@ -43525,6 +44381,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de la flexion plantaire de l'articulation talo-crurale ?",
+      "c": 12,
       "options": [
         {
           "t": "30° à 50°",
@@ -43543,6 +44400,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la flexion plantaire, comment se comporte la malléole externe au niveau de la tibio-fibulaire inférieure ?",
+      "c": 12,
       "options": [
         {
           "t": "Elle se rapproche, fermant la mortaise, avec descente, rotation interne et antériorisation",
@@ -43561,6 +44419,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon les quadrants des axes XX et de Henke, quels muscles produisent l'extension, l'abduction et la pronation du pied ?",
+      "c": 13,
       "options": [
         {
           "t": "Le court fibulaire et le long fibulaire",
@@ -43579,6 +44438,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude normale de la rotation interne de la hanche selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "35°",
@@ -43597,6 +44457,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude maximale de l'adduction de la hanche selon le cours ?",
+      "c": 2,
       "options": [
         {
           "t": "20 à 30°",
@@ -43615,6 +44476,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle est la valeur de l'angle de torsion (déclinaison ou antéversion) du col fémoral ?",
+      "c": 4,
       "options": [
         {
           "t": "10 à 30°",
@@ -43633,6 +44495,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, comment nomme-t-on une augmentation de l'angle d'inclinaison cervico-diaphysaire du fémur ?",
+      "c": 4,
       "options": [
         {
           "t": "Coxa valga",
@@ -43651,6 +44514,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels muscles sont moteurs de l'abduction de la hanche ?",
+      "c": 2,
       "options": [
         {
           "t": "Moyen fessier, petit fessier et tenseur du fascia lata",
@@ -43669,6 +44533,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels muscles sont moteurs de la rotation externe de la hanche ?",
+      "c": 2,
       "options": [
         {
           "t": "Pyramidal, obturateurs et quadratus femoris",
@@ -43687,6 +44552,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels ligaments limitent l'adduction de la hanche ?",
+      "c": 1,
       "options": [
         {
           "t": "L'ilio-fémoral (faisceau supérieur) et le ligament de la tête fémorale",
@@ -43705,6 +44571,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, l'adduction pure de la hanche en position anatomique :",
+      "c": 2,
       "options": [
         {
           "t": "N'existe pas et se combine à la flexion, l'extension ou l'abduction opposée",
@@ -43723,6 +44590,7 @@ const QUESTIONS = {
     },
     {
       "q": "En appui unipodal hanche en extension (bassin en rétroversion), quelles structures assurent d'abord la stabilité frontale selon le cours ?",
+      "c": 3,
       "options": [
         {
           "t": "Le tenseur du fascia lata et le ligament ilio-fémoral",
@@ -43741,6 +44609,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la flexion du genou en chaîne cinétique fermée, dans quel sens se fait le glissement des condyles fémoraux sur les plateaux tibiaux ?",
+      "c": 7,
       "options": [
         {
           "t": "Vers l'avant, en sens opposé au roulement",
@@ -43759,6 +44628,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament croisé est COMPLÈTEMENT tendu lorsque le genou est en extension ?",
+      "c": 9,
       "options": [
         {
           "t": "Le LCA",
@@ -43777,6 +44647,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la flexion du genou, quel ménisque recule le plus et de combien selon le cours ?",
+      "c": 7,
       "options": [
         {
           "t": "Le ménisque externe, d'environ 12 mm",
@@ -43795,6 +44666,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment se comportent les ligaments collatéraux lors de la flexion du genou ?",
+      "c": 9,
       "options": [
         {
           "t": "Ils se relâchent",
@@ -43813,6 +44685,7 @@ const QUESTIONS = {
     },
     {
       "q": "Que devient la force de coaptation de la rotule sur le fémur lors de la flexion du genou ?",
+      "c": 10,
       "options": [
         {
           "t": "Elle augmente",
@@ -43831,6 +44704,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament collatéral contrôle le déséquilibre en valgus du genou ?",
+      "c": 9,
       "options": [
         {
           "t": "Le ligament collatéral interne (médial)",
@@ -43849,6 +44723,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles sont moteurs de la rotation externe du genou selon le cours ?",
+      "c": 8,
       "options": [
         {
           "t": "Le biceps fémoral et le tenseur du fascia lata",
@@ -43867,6 +44742,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de la rotation externe active du genou selon le cours ?",
+      "c": 8,
       "options": [
         {
           "t": "40°",
@@ -43885,6 +44761,7 @@ const QUESTIONS = {
     },
     {
       "q": "Combien d'os compose la ligne antérieure du tarse ?",
+      "c": 11,
       "options": [
         {
           "t": "Cinq os : cuboïde, naviculaire et trois cunéiformes",
@@ -43903,6 +44780,7 @@ const QUESTIONS = {
     },
     {
       "q": "Avec quel(s) os du tarse la base du 2e métatarsien s'articule-t-elle ?",
+      "c": 14,
       "options": [
         {
           "t": "Avec les trois cunéiformes",
@@ -43921,6 +44799,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle particularité caractérise le talus en tant qu'os « en cage » ?",
+      "c": 11,
       "options": [
         {
           "t": "Il ne reçoit aucune insertion musculaire",
@@ -43939,6 +44818,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels types d'articulations composent la médio-tarsienne de Chopart ?",
+      "c": 11,
       "options": [
         {
           "t": "Une énarthrose talo-naviculaire et une calcanéo-cuboïdienne en selle",
@@ -43957,6 +44837,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'arthrocinématique du talus lors de la flexion dorsale de la talo-crurale ?",
+      "c": 12,
       "options": [
         {
           "t": "Un roulement antérieur du talus avec glissement postérieur",
@@ -43975,6 +44856,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type articulaire correspondent les articulations métatarso-phalangiennes ?",
+      "c": 14,
       "options": [
         {
           "t": "Des énarthroses",
@@ -43993,6 +44875,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la limite osseuse principale du mouvement d'inversion du pied ?",
+      "c": 13,
       "options": [
         {
           "t": "Le confinement de la malléole médiale (interne)",
@@ -44011,6 +44894,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de la supination autour de l'axe longitudinal du pied (Z-Z') ?",
+      "c": 15,
       "options": [
         {
           "t": "52°",
@@ -44029,6 +44913,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment nomme-t-on respectivement le pied supinateur et le pied pronateur ?",
+      "c": 15,
       "options": [
         {
           "t": "Pied varus pour le supinateur et pied valgus pour le pronateur",
@@ -44049,6 +44934,7 @@ const QUESTIONS = {
   "valoColonne": [
     {
       "q": "Un patient de 32 ans en bureau penche le tronc vers l'avant pour saisir un dossier. Concernant le comportement du segment vertébral lombaire en flexion globale, quelle est la proposition exacte ?",
+      "c": 4,
       "options": [
         {
           "t": "Le noyau pulpeux se déplace vers l'arrière et la tension augmente sur la partie postérieure de l'anneau fibreux",
@@ -44067,6 +44953,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une extension globale du rachis chez un patient debout, quel ensemble de modifications est correct ?",
+      "c": 1,
       "options": [
         {
           "t": "Les épineuses se rapprochent, le noyau pulpeux avance, l'anneau fibreux antérieur se tend",
@@ -44085,6 +44972,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur le plan articulaire, lors d'une inclinaison latérale globale du rachis, on observe :",
+      "c": 1,
       "options": [
         {
           "t": "Une compression du disque côté concavité avec déplacement du noyau vers la convexité",
@@ -44103,6 +44991,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la rotation globale du rachis, la proposition correcte est :",
+      "c": 1,
       "options": [
         {
           "t": "Les apophyses transverses du côté de la rotation se postériorisent et l'épineuse va à l'opposé",
@@ -44121,6 +45010,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ensemble musculaire correspond aux principaux rotateurs droits du tronc ?",
+      "c": 2,
       "options": [
         {
           "t": "Oblique interne droit + oblique externe gauche + iliocostal droit + grand dorsal droit",
@@ -44139,6 +45029,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au niveau lombaire, en extension, le mouvement est limité par :",
+      "c": 4,
       "options": [
         {
           "t": "Le ligament longitudinal antérieur et le contact osseux des apophyses épineuses",
@@ -44157,6 +45048,7 @@ const QUESTIONS = {
     },
     {
       "q": "En inclinaison lombaire droite, on observe une rotation automatique :",
+      "c": 4,
       "options": [
         {
           "t": "Controlatérale, vers la gauche, par compression discale et tension ligamentaire",
@@ -44175,6 +45067,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant l'inspiration calme, quel élément participe principalement à l'augmentation du diamètre vertical du thorax ?",
+      "c": 6,
       "options": [
         {
           "t": "La descente du centre phrénique avec aplatissement de la coupole diaphragmatique",
@@ -44193,6 +45086,7 @@ const QUESTIONS = {
     },
     {
       "q": "Avec point fixe sur le bassin, quelle est l'action principale du muscle carré des lombes ?",
+      "c": 2,
       "options": [
         {
           "t": "Inclinaison homolatérale du rachis lombaire",
@@ -44211,6 +45105,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les côtes inférieures (8 à 12), pendant l'inspiration, effectuent principalement un mouvement :",
+      "c": 6,
       "options": [
         {
           "t": "En anse de seau, élevant le corps de la côte et augmentant le diamètre transversal",
@@ -44229,6 +45124,7 @@ const QUESTIONS = {
     },
     {
       "q": "En inclinaison latérale dorsale gauche, on observe :",
+      "c": 5,
       "options": [
         {
           "t": "Une rotation controlatérale avec dilatation thoracique du côté convexe",
@@ -44247,6 +45143,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le mouvement principal réalisé entre C0 et C1 (occipito-atloïdien) est :",
+      "c": 8,
       "options": [
         {
           "t": "La flexion-extension, par roulement et glissement des condyles occipitaux",
@@ -44265,6 +45162,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au rachis cervical inférieur, quelle structure est spécifique et limite les mouvements latéraux entre vertèbres ?",
+      "c": 7,
       "options": [
         {
           "t": "Les processus unciformes (uncus de Luschka)",
@@ -44283,6 +45181,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'action du SCM en contraction unilatérale droite :",
+      "c": 7,
       "options": [
         {
           "t": "Inclinaison homolatérale droite + rotation controlatérale gauche + extension cervicale haute",
@@ -44301,6 +45200,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation temporo-mandibulaire (ATM) doit la possibilité d'allier rotation et translation à la présence :",
+      "c": 9,
       "options": [
         {
           "t": "D'un disque articulaire biconcave divisant l'articulation en deux étages",
@@ -44319,6 +45219,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la rotation axiale C1-C2 vers la gauche :",
+      "c": 8,
       "options": [
         {
           "t": "L'anneau atlas + ligament transverse tourne autour de l'apophyse odontoïde qui reste fixe",
@@ -44337,6 +45238,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au rachis cervical inférieur, en extension, le mouvement est limité par :",
+      "c": 8,
       "options": [
         {
           "t": "Le ligament longitudinal antérieur et le contact osseux des arcs postérieurs",
@@ -44355,6 +45257,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le sacrum possède plusieurs axes transversaux. L'axe transversal moyen passant par S2 correspond principalement au mouvement de :",
+      "c": 10,
       "options": [
         {
           "t": "Nutation et contre-nutation",
@@ -44373,6 +45276,7 @@ const QUESTIONS = {
     },
     {
       "q": "La limite principale de la flexion lombaire à la charnière lombo-sacrée est :",
+      "c": 4,
       "options": [
         {
           "t": "Le faisceau ilio-lombaire supérieur (ilio-transverse supérieur)",
@@ -44391,6 +45295,7 @@ const QUESTIONS = {
     },
     {
       "q": "La faible amplitude (3 à 18°) de la rotation lombaire s'explique par :",
+      "c": 4,
       "options": [
         {
           "t": "Le cisaillement discal contrarié par l'orientation sagittale des facettes",
@@ -44409,6 +45314,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'expiration forcée fait essentiellement intervenir :",
+      "c": 6,
       "options": [
         {
           "t": "Les muscles abdominaux qui abaissent les côtes et remontent le diaphragme",
@@ -44427,6 +45333,7 @@ const QUESTIONS = {
     },
     {
       "q": "En inclinaison cervicale basse droite, le couplage automatique est :",
+      "c": 8,
       "options": [
         {
           "t": "Une rotation homolatérale droite due à l'orientation des facettes cervicales basses",
@@ -44445,6 +45352,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au rachis cervical inférieur, la flexion est limitée principalement par :",
+      "c": 8,
       "options": [
         {
           "t": "Le ligament jaune, l'anneau fibreux postérieur et les capsules en bâillement",
@@ -44463,6 +45371,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez un patient présentant une hypercyphose dorsale fixée, la compensation posturale lombaire attendue est :",
+      "c": 1,
       "options": [
         {
           "t": "Une hyperlordose lombaire pour ramener le tronc en arrière",
@@ -44481,6 +45390,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez un patient assis avec genoux tendus, le muscle limitant en premier l'antéversion du bassin est :",
+      "c": 11,
       "options": [
         {
           "t": "Les ischio-jambiers, biarticulaires, étirés sur genoux tendus",
@@ -44499,6 +45409,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la classification des côtes, la 10e côte est :",
+      "c": 5,
       "options": [
         {
           "t": "Une fausse côte, rattachée au sternum par un cartilage commun",
@@ -44517,6 +45428,7 @@ const QUESTIONS = {
     },
     {
       "q": "La côte qui s'articule avec l'angle sternal (angle de Louis) est :",
+      "c": 5,
       "options": [
         {
           "t": "La 2e côte, dont le mouvement est en bras de pompe",
@@ -44535,6 +45447,7 @@ const QUESTIONS = {
     },
     {
       "q": "En rotation C0-C1 vers la gauche, le couplage automatique est :",
+      "c": 8,
       "options": [
         {
           "t": "Une inclinaison controlatérale (vers la droite), liée au ligament alaire",
@@ -44553,6 +45466,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une flexion cervicale active à partir de la position anatomique, les condyles occipitaux :",
+      "c": 8,
       "options": [
         {
           "t": "Roulent vers l'avant et glissent vers l'arrière sur les masses latérales de l'atlas",
@@ -44571,6 +45485,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une mobilisation passive d'inclinaison cervicale droite par le kinésithérapeute, les condyles occipitaux :",
+      "c": 8,
       "options": [
         {
           "t": "Glissent vers la gauche (sens opposé à l'inclinaison)",
@@ -44589,6 +45504,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans l'extension de la tête sur le cou, en levier de premier genre, le composant central (point d'appui) est :",
+      "c": 8,
       "options": [
         {
           "t": "Les articulations atlanto-occipitales (C0-C1)",
@@ -44607,6 +45523,7 @@ const QUESTIONS = {
     },
     {
       "q": "Patient en décubitus dorsal avec membres inférieurs fléchis (genoux ramenés sur le ventre) : que se passe-t-il au niveau du bassin ?",
+      "c": 11,
       "options": [
         {
           "t": "Le bassin bascule en rétroversion par l'action des ischio-jambiers raccourcis",
@@ -44625,6 +45542,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle combinaison de mouvements sacro-iliaques produit une ouverture du détroit inférieur du bassin ?",
+      "c": 10,
       "options": [
         {
           "t": "Nutation + rotation interne iliaque + adduction",
@@ -44643,6 +45561,7 @@ const QUESTIONS = {
     },
     {
       "q": "En inclinaison lombaire droite, le noyau pulpeux et l'anneau fibreux se comportent ainsi :",
+      "c": 4,
       "options": [
         {
           "t": "Le noyau migre vers la convexité gauche et l'anneau gauche se tend",
@@ -44661,6 +45580,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la charnière lombo-sacrée selon le cours de valorisation lombaire :",
+      "c": 4,
       "options": [
         {
           "t": "Sa mobilité est limitée par les faisceaux ilio-lombaires",
@@ -44679,6 +45599,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au rachis lombaire, le mouvement le moins ample est :",
+      "c": 4,
       "options": [
         {
           "t": "La rotation axiale",
@@ -44697,6 +45618,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles suivants, lequel est moteur de l'ouverture buccale ?",
+      "c": 9,
       "options": [
         {
           "t": "Le ptérygoïdien latéral (faisceau inférieur)",
@@ -44715,6 +45637,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle région du rachis l'inclinaison s'accompagne d'une rotation automatique homolatérale ?",
+      "c": 8,
       "options": [
         {
           "t": "Au rachis cervical inférieur",
@@ -44733,6 +45656,7 @@ const QUESTIONS = {
     },
     {
       "q": "La mobilisation passive analytique simple est caractérisée par :",
+      "c": 13,
       "options": [
         {
           "t": "Des prises longues, respectant les axes physiologiques, pouvant intercaler plusieurs articulations",
@@ -44751,6 +45675,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les effets physiologiques attendus de la kinésithérapie articulaire passive :",
+      "c": 13,
       "options": [
         {
           "t": "Nutrition du cartilage et entretien des propriétés mécaniques articulaires",
@@ -44769,6 +45694,7 @@ const QUESTIONS = {
     },
     {
       "q": "La mobilisation passive analytique spécifique se distingue par :",
+      "c": 13,
       "options": [
         {
           "t": "Des prises courtes, glissements intimes intra-articulaires, objectif capsulo-ligamentaire ciblé",
@@ -44787,6 +45713,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez un patient qui présente une perte du schéma corporel après une semaine de coma, pour le récupérer on choisit :",
+      "c": 13,
       "options": [
         {
           "t": "La kinésithérapie passive manuelle fonctionnelle",
@@ -44805,6 +45732,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon l'échelle de Daniels, un patient capable d'effectuer le mouvement complet contre la pesanteur sans résistance a un grade :",
+      "c": 12,
       "options": [
         {
           "t": "3",
@@ -44823,6 +45751,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour un patient en bilan musculaire à grade 3, l'indication de travail actif appropriée est :",
+      "c": 14,
       "options": [
         {
           "t": "Travail actif libre contre pesanteur sans résistance",
@@ -44841,6 +45770,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une conséquence physiologique de l'immobilisation prolongée est :",
+      "c": 13,
       "options": [
         {
           "t": "Une baisse de la proprioception avec raideur capsulaire",
@@ -44859,6 +45789,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'évaluation, l'échelle visuelle analogique (EVA) sert principalement à mesurer :",
+      "c": 12,
       "options": [
         {
           "t": "L'intensité subjective de la douleur sur une réglette de 0 à 10",
@@ -44877,6 +45808,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un levier de premier genre est caractérisé par :",
+      "c": 14,
       "options": [
         {
           "t": "Le point d'appui situé entre la puissance et la résistance",
@@ -44895,6 +45827,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour un patient sous plâtre cruro-pédieux après fracture, l'exercice indiqué pour le quadriceps est :",
+      "c": 14,
       "options": [
         {
           "t": "Des contractions isométriques sous plâtre",
@@ -44913,6 +45846,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'agent physique principal de la kinésithérapie est :",
+      "c": 14,
       "options": [
         {
           "t": "Le mouvement",
@@ -44931,6 +45865,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une coureuse de 28 ans présente une bascule pelvienne droite vers le bas en appui unipodal gauche. Quel muscle insuffisant doit-on suspecter ?",
+      "c": 11,
       "options": [
         {
           "t": "Le moyen fessier gauche",
@@ -44949,6 +45884,7 @@ const QUESTIONS = {
     },
     {
       "q": "En physiologie articulaire, la nutation sacrée correspond à :",
+      "c": 10,
       "options": [
         {
           "t": "Une bascule antérieure de la base sacrée et un recul de l'apex",
@@ -44967,6 +45903,7 @@ const QUESTIONS = {
     },
     {
       "q": "La contre-nutation sacrée a pour limite principale :",
+      "c": 10,
       "options": [
         {
           "t": "La tension du ligament sacro-iliaque postérieur",
@@ -44985,6 +45922,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une rotation antérieure iliaque droite se traduit par :",
+      "c": 10,
       "options": [
         {
           "t": "L'EIAS droite descend et avance, l'EIPS droite monte",
@@ -45003,6 +45941,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle facilite la rotation antérieure iliaque ?",
+      "c": 10,
       "options": [
         {
           "t": "Le droit antérieur du quadriceps",
@@ -45021,6 +45960,7 @@ const QUESTIONS = {
     },
     {
       "q": "La symphyse pubienne est une articulation de type :",
+      "c": 10,
       "options": [
         {
           "t": "Amphiarthrose à disque fibrocartilagineux",
@@ -45039,6 +45979,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au scanner (TDM), l'élément interprété en blanc (haute densité) est :",
+      "c": 16,
       "options": [
         {
           "t": "Le métal et le calcium (os cortical)",
@@ -45057,6 +45998,7 @@ const QUESTIONS = {
     },
     {
       "q": "En IRM séquence T1, la graisse sous-cutanée apparaît :",
+      "c": 16,
       "options": [
         {
           "t": "Hyperintense (blanc)",
@@ -45075,6 +46017,7 @@ const QUESTIONS = {
     },
     {
       "q": "En IRM séquence T2, le liquide céphalo-rachidien apparaît :",
+      "c": 16,
       "options": [
         {
           "t": "Hyperintense (blanc)",
@@ -45093,6 +46036,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'avantage principal de l'IRM par rapport au scanner est :",
+      "c": 16,
       "options": [
         {
           "t": "Une meilleure résolution des tissus mous",
@@ -45111,6 +46055,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une contre-indication absolue de l'IRM est :",
+      "c": 16,
       "options": [
         {
           "t": "La présence d'un pacemaker non IRM-compatible",
@@ -45129,6 +46074,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'échographie a comme \"ennemi\" diagnostique principal :",
+      "c": 16,
       "options": [
         {
           "t": "L'os et l'air (cône d'ombre et arrêt du faisceau)",
@@ -45147,6 +46093,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'élastographie échographique mesure :",
+      "c": 16,
       "options": [
         {
           "t": "La rigidité ou l'élasticité du tissu en évaluant la propagation d'une onde",
@@ -45165,6 +46112,7 @@ const QUESTIONS = {
     },
     {
       "q": "La densitométrie osseuse (DEXA) explore principalement :",
+      "c": 17,
       "options": [
         {
           "t": "Le rachis lombaire et l'extrémité supérieure du fémur",
@@ -45183,6 +46131,7 @@ const QUESTIONS = {
     },
     {
       "q": "En radiographie simple, l'hiérarchie des densités du noir vers le blanc est :",
+      "c": 15,
       "options": [
         {
           "t": "Air < graisse < eau < os < métal",
@@ -45201,6 +46150,7 @@ const QUESTIONS = {
     },
     {
       "q": "La grille ABCS de lecture radiographique correspond à :",
+      "c": 15,
       "options": [
         {
           "t": "A=Alignement, B=os (bones), C=cartilage/articulations, S=tissus mous (soft tissues)",
@@ -45219,6 +46169,7 @@ const QUESTIONS = {
     },
     {
       "q": "En radiographie, la projection antéro-postérieure (AP) signifie :",
+      "c": 15,
       "options": [
         {
           "t": "Le faisceau entre par la face antérieure et ressort par la face postérieure du patient",
@@ -45237,6 +46188,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'électromyogramme (EMG) en aiguille permet d'évaluer :",
+      "c": 17,
       "options": [
         {
           "t": "L'activité électrique du muscle au repos et à la contraction volontaire",
@@ -45255,6 +46207,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'étude de la conduction nerveuse (ENG) mesure :",
+      "c": 17,
       "options": [
         {
           "t": "La vitesse de conduction et la latence des fibres myélinisées",
@@ -45273,6 +46226,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour différencier une atteinte centrale d'une atteinte périphérique nerveuse, le test utile est :",
+      "c": 17,
       "options": [
         {
           "t": "Les potentiels évoqués somesthésiques",
@@ -45291,6 +46245,7 @@ const QUESTIONS = {
     },
     {
       "q": "La scintigraphie osseuse au technétium 99 met en évidence :",
+      "c": 17,
       "options": [
         {
           "t": "Les zones d'hyperactivité métabolique osseuse",
@@ -45309,6 +46264,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un examen objectif, après l'observation et l'analyse de la douleur, l'étape suivante est :",
+      "c": 12,
       "options": [
         {
           "t": "La démonstration fonctionnelle, où le patient reproduit activement le geste ou la position qui déclenche sa douleur",
@@ -45327,6 +46283,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'évaluation neurologique périphérique du membre inférieur comprend systématiquement :",
+      "c": 12,
       "options": [
         {
           "t": "Réflexes ostéo-tendineux, force motrice et sensibilité",
@@ -45345,6 +46302,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un jeune sportif de 22 ans présente une lombalgie après soulèvement en flexion. Le mécanisme le plus probable est :",
+      "c": 4,
       "options": [
         {
           "t": "Une contrainte sur l'anneau fibreux postérieur par migration postérieure du noyau",
@@ -45363,6 +46321,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'amplitude approximative de flexion-extension de la colonne dorsale est :",
+      "c": 5,
       "options": [
         {
           "t": "30-40° de flexion et 20-25° d'extension",
@@ -45381,6 +46340,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au rachis dorsal, les segments les plus mobiles en rotation axiale sont :",
+      "c": 5,
       "options": [
         {
           "t": "T3 et T9 (mobilité rotatoire maximale)",
@@ -45399,6 +46359,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ménisque articulaire de l'ATM est qualifié de :",
+      "c": 9,
       "options": [
         {
           "t": "Disque biconcave fibrocartilagineux interposé",
@@ -45417,6 +46378,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'ouverture buccale maximale, on observe :",
+      "c": 9,
       "options": [
         {
           "t": "Une rotation condylienne suivie d'une translation antérieure du condyle sous le tubercule articulaire",
@@ -45435,6 +46397,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une diduction droite (latérotrusion vers la droite) implique principalement :",
+      "c": 9,
       "options": [
         {
           "t": "Le ptérygoïdien latéral gauche, controlatéral au côté de déplacement",
@@ -45453,6 +46416,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'os hyoïde joue un rôle de :",
+      "c": 9,
       "options": [
         {
           "t": "Ancrage central reliant les muscles supra-hyoïdiens aux muscles infra-hyoïdiens",
@@ -45471,6 +46435,7 @@ const QUESTIONS = {
     },
     {
       "q": "En extension cervicale, la mandibule a tendance à :",
+      "c": 9,
       "options": [
         {
           "t": "S'ouvrir par mise en tension des muscles supra-hyoïdiens",
@@ -45489,6 +46454,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'inspiration, le diamètre antéro-postérieur du thorax supérieur :",
+      "c": 6,
       "options": [
         {
           "t": "Augmente par mouvement en bras de pompe des côtes supérieures",
@@ -45507,6 +46473,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament transverse de l'atlas a pour fonction principale :",
+      "c": 7,
       "options": [
         {
           "t": "Plaquer l'apophyse odontoïde contre l'arc antérieur de l'atlas",
@@ -45525,6 +46492,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'apophyse épineuse de C7 (vertèbre proéminente) se distingue par :",
+      "c": 7,
       "options": [
         {
           "t": "Sa longueur et son caractère non bifide, palpable sous la peau",
@@ -45543,6 +46511,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'apophyse odontoïde appartient à :",
+      "c": 7,
       "options": [
         {
           "t": "L'axis (C2)",
@@ -45561,6 +46530,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'atlas (C1) se caractérise anatomiquement par :",
+      "c": 7,
       "options": [
         {
           "t": "L'absence de corps vertébral et deux masses latérales",
@@ -45579,6 +46549,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente des cervicalgies et un acouphène pulsatile après un traumatisme. La structure cervicale à risque qui chemine dans le foramen transverse est :",
+      "c": 7,
       "options": [
         {
           "t": "L'artère vertébrale, de C6 à C1",
@@ -45597,6 +46568,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour évaluer la mobilité passive cervicale en flexion-extension, le kinésithérapeute place sa prise :",
+      "c": 8,
       "options": [
         {
           "t": "Sous l'occiput et sous le menton, en induisant un hochement",
@@ -45615,6 +46587,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une mobilisation passive d'inclinaison cervicale chez un patient en décubitus dorsal pour rapprocher l'oreille droite de l'épaule droite :",
+      "c": 8,
       "options": [
         {
           "t": "Les condyles occipitaux glissent vers la gauche, côté opposé à l'inclinaison",
@@ -45633,6 +46606,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient se plaint de douleurs ATM bilatérales avec claquement. Les muscles à examiner en priorité sont :",
+      "c": 9,
       "options": [
         {
           "t": "Les masséters, les temporaux et les ptérygoïdiens",
@@ -45651,6 +46625,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le mouvement en bras de pompe des côtes supérieures augmente principalement :",
+      "c": 6,
       "options": [
         {
           "t": "Le diamètre antéro-postérieur du thorax supérieur",
@@ -45669,6 +46644,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la flexion lombaire, le rythme lombo-pelvien attendu pour la flexion totale du tronc est :",
+      "c": 4,
       "options": [
         {
           "t": "40° de flexion lombaire + 70° de flexion de hanche",
@@ -45687,6 +46663,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la flexion du tronc, les muscles qui contrôlent excentriquement la descente sont :",
+      "c": 2,
       "options": [
         {
           "t": "Érecteurs du rachis, multifides et grand fessier",
@@ -45705,6 +46682,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament jaune au niveau lombaire :",
+      "c": 3,
       "options": [
         {
           "t": "Relie les lames vertébrales adjacentes en arrière du canal",
@@ -45723,6 +46701,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une douleur fessière irradiant à la face postérieure de la cuisse jusqu'au talon : on évoque une sciatique de territoire :",
+      "c": 11,
       "options": [
         {
           "t": "S1 : fesse, face postérieure de cuisse et mollet, talon, bord latéral du pied",
@@ -45741,6 +46720,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le réflexe ostéotendineux achilléen explore principalement la racine :",
+      "c": 11,
       "options": [
         {
           "t": "S1, via le triceps sural",
@@ -45759,6 +46739,7 @@ const QUESTIONS = {
     },
     {
       "q": "La nutation sacrée s'accompagne d'un mouvement iliaque :",
+      "c": 10,
       "options": [
         {
           "t": "De fermeture iliaque : les ailes iliaques se rapprochent",
@@ -45777,6 +46758,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le diamètre promontoire / sus-pubien augmente lors de :",
+      "c": 10,
       "options": [
         {
           "t": "La contre-nutation sacrée",
@@ -45795,6 +46777,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente une douleur sacro-iliaque droite au test de Patrick (FABER). Ce test évalue :",
+      "c": 11,
       "options": [
         {
           "t": "Une atteinte de la sacro-iliaque ou de la coxofémorale",
@@ -45813,6 +46796,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente une douleur lombaire avec irradiation antérieure de cuisse. La racine la plus probable est :",
+      "c": 11,
       "options": [
         {
           "t": "L3 ou L4 : face antérieure de cuisse, parfois face médiale de jambe (cruralgie)",
@@ -45831,6 +46815,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'évaluation neurodynamique par le test de Lasègue positif évoque :",
+      "c": 11,
       "options": [
         {
           "t": "Une mécanosensibilité accrue du nerf sciatique",
@@ -45849,6 +46834,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au lombaire, le psoas iliaque, avec point fixe sur le rachis, agit comme :",
+      "c": 2,
       "options": [
         {
           "t": "Fléchisseur de la hanche",
@@ -45867,6 +46853,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cervical haut, le ligament alaire relie principalement :",
+      "c": 7,
       "options": [
         {
           "t": "L'apophyse odontoïde aux condyles occipitaux",
@@ -45885,6 +46872,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les fibres profondes des muscles postérieurs cervicaux (multifides) produisent en contraction unilatérale :",
+      "c": 7,
       "options": [
         {
           "t": "Extension + inclinaison + rotation homolatérales",
@@ -45903,6 +46891,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'évaluation de la mobilité passive comprend la perception de la sensation de fin de mouvement (end-feel). Un end-feel mou normal correspond à :",
+      "c": 12,
       "options": [
         {
           "t": "Une approximation des tissus mous",
@@ -45921,6 +46910,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament longitudinal antérieur :",
+      "c": 1,
       "options": [
         {
           "t": "Tapisse la face antérieure des corps vertébraux et limite l'extension",
@@ -45939,6 +46929,7 @@ const QUESTIONS = {
     },
     {
       "q": "En IRM, le disque intervertébral sain apparaît :",
+      "c": 16,
       "options": [
         {
           "t": "Hyperintense en T2 au niveau du noyau pulpeux",
@@ -45957,6 +46948,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'examen radiologique de référence pour visualiser une fracture occulte costale est :",
+      "c": 16,
       "options": [
         {
           "t": "Le scanner thoracique",
@@ -45975,6 +46967,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une rotation lombaire droite, l'oblique interne agit comme :",
+      "c": 2,
       "options": [
         {
           "t": "Rotateur homolatéral droit",
@@ -45993,6 +46986,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un effort de poussée (Valsalva), le rôle du transverse de l'abdomen est de :",
+      "c": 2,
       "options": [
         {
           "t": "Augmenter la pression intra-abdominale pour stabiliser le rachis lombaire",
@@ -46011,6 +47005,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le diaphragme thoracique est innervé par :",
+      "c": 6,
       "options": [
         {
           "t": "Le nerf phrénique (C3-C5)",
@@ -46029,6 +47024,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une dysfonction des sacro-iliaques peut donner cliniquement :",
+      "c": 11,
       "options": [
         {
           "t": "Une douleur fessière asymétrique reproduite à la palpation des EIPS",
@@ -46047,6 +47043,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament supra-épineux du rachis :",
+      "c": 1,
       "options": [
         {
           "t": "Relie les apex des apophyses épineuses adjacentes",
@@ -46065,6 +47062,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une rotation cervicale active droite, le splénius du cou droit agit comme :",
+      "c": 7,
       "options": [
         {
           "t": "Rotateur homolatéral droit",
@@ -46083,6 +47081,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'amplitude de rotation totale du rachis cervical de chaque côté atteint normalement :",
+      "c": 8,
       "options": [
         {
           "t": "Environ 80-90° de chaque côté",
@@ -46101,6 +47100,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'index de Delmas évalue :",
+      "c": 1,
       "options": [
         {
           "t": "Le rapport entre la longueur déroulée du rachis et sa hauteur projetée",
@@ -46119,6 +47119,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du mouvement de protrusion mandibulaire, les muscles principaux sont :",
+      "c": 9,
       "options": [
         {
           "t": "Les ptérygoïdiens latéraux, aidés du masséter superficiel",
@@ -46137,6 +47138,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'examen radiologique de référence pour le diagnostic d'une sacro-iliite débutante est :",
+      "c": 16,
       "options": [
         {
           "t": "L'IRM des sacro-iliaques avec séquences STIR",
@@ -46155,6 +47157,7 @@ const QUESTIONS = {
     },
     {
       "q": "La mobilisation articulaire manuelle analytique simple :",
+      "c": 13,
       "options": [
         {
           "t": "Respecte les axes et plans en reproduisant glissements et roulements",
@@ -46173,6 +47176,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'un des effets physiologiques de la kinésithérapie est :",
+      "c": 13,
       "options": [
         {
           "t": "Maintenir ou améliorer les propriétés mécaniques de l'articulation",
@@ -46191,6 +47195,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la kinésithérapie passive manuelle analytique spécifique :",
+      "c": 13,
       "options": [
         {
           "t": "Elle imprime des mouvements intimes de glissement",
@@ -46209,6 +47214,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez un patient ayant perdu le schéma corporel après une semaine de coma, on utilisera pour le récupérer :",
+      "c": 13,
       "options": [
         {
           "t": "La kinésithérapie passive manuelle fonctionnelle, globale",
@@ -46227,6 +47233,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le bilan musculaire, indiquez la bonne réponse :",
+      "c": 12,
       "options": [
         {
           "t": "Le grade 1 correspond à une contraction palpable sans déplacement angulaire",
@@ -46245,6 +47252,7 @@ const QUESTIONS = {
     },
     {
       "q": "La kinésithérapie active se distingue de la mobilisation passive par :",
+      "c": 14,
       "options": [
         {
           "t": "La présence d'une contraction musculaire volontaire du patient",
@@ -46263,6 +47271,7 @@ const QUESTIONS = {
     },
     {
       "q": "La kinésithérapie active libre serait indiquée lorsque :",
+      "c": 14,
       "options": [
         {
           "t": "Le patient présente un bilan musculaire de grade 3",
@@ -46281,6 +47290,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'extension du rachis dans son ensemble, indiquez la bonne réponse :",
+      "c": 1,
       "options": [
         {
           "t": "Les épineuses se rapprochent et leur collision est la limite du mouvement",
@@ -46299,6 +47309,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour le mouvement de flexion du rachis dans son ensemble :",
+      "c": 1,
       "options": [
         {
           "t": "Les processus articulaires s'ouvrent (bâillent)",
@@ -46317,6 +47328,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'inclinaison du rachis dans son ensemble :",
+      "c": 1,
       "options": [
         {
           "t": "Le ligament intertransversaire est la limite du mouvement",
@@ -46335,6 +47347,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour la rotation du rachis dans son ensemble :",
+      "c": 1,
       "options": [
         {
           "t": "Le processus transverse homolatéral recule (est retardé)",
@@ -46353,6 +47366,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles responsables de la rotation gauche du tronc sont :",
+      "c": 2,
       "options": [
         {
           "t": "Oblique interne gauche, oblique externe droit et transversaire-épineux droit",
@@ -46371,6 +47385,7 @@ const QUESTIONS = {
     },
     {
       "q": "En physiologie articulaire lombaire, lors de l'extension :",
+      "c": 4,
       "options": [
         {
           "t": "Les articulations des processus articulaires se ferment (s'emboîtent)",
@@ -46389,6 +47404,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant l'inclinaison lombaire :",
+      "c": 4,
       "options": [
         {
           "t": "La mise en tension des ligaments de la convexité explique la rotation controlatérale automatique",
@@ -46407,6 +47423,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la respiration, on peut affirmer que :",
+      "c": 6,
       "options": [
         {
           "t": "Les muscles abdominaux sont synergiques du diaphragme",
@@ -46425,6 +47442,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les actions musculaires du rachis lombaire :",
+      "c": 2,
       "options": [
         {
           "t": "Les muscles iliocostal et longissimus sont inclinateurs homolatéraux en activation unilatérale",
@@ -46443,6 +47461,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les côtes pendant l'inspiration, il est vrai que :",
+      "c": 6,
       "options": [
         {
           "t": "Les côtes supérieures augmentent surtout le diamètre antéro-postérieur (bras de pompe)",
@@ -46461,6 +47480,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'inclinaison du rachis dorsal, il est vrai que :",
+      "c": 5,
       "options": [
         {
           "t": "Les muscles moteurs de l'inclinaison sont situés dans la concavité",
@@ -46479,6 +47499,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le rachis cervical supérieur, indiquez la bonne réponse :",
+      "c": 8,
       "options": [
         {
           "t": "L'inclinaison se produit essentiellement à l'étage occiput-C1",
@@ -46497,6 +47518,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le rachis cervical inférieur, indiquez la bonne réponse :",
+      "c": 8,
       "options": [
         {
           "t": "Les processus unciformes (onciformes) facilitent le mouvement de flexion-extension",
@@ -46515,6 +47537,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la rotation droite du rachis cervical, il est vrai que :",
+      "c": 7,
       "options": [
         {
           "t": "Le trapèze gauche incline vers la gauche et tourne vers la droite",
@@ -46533,6 +47556,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type de chaîne cinétique facilitatrice correspond : « les muscles des membres déclenchent l'activité de ceux du tronc » ?",
+      "c": 14,
       "options": [
         {
           "t": "Une chaîne périphérique-axial",
@@ -46551,6 +47575,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'articulation temporo-mandibulaire :",
+      "c": 9,
       "options": [
         {
           "t": "Le disque accompagne le condyle vers l'avant lors de l'ouverture buccale",
@@ -46569,6 +47594,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les conséquences d'une immobilisation se caractérisent par :",
+      "c": 13,
       "options": [
         {
           "t": "Une diminution de l'information proprioceptive",
@@ -46587,6 +47613,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'évaluation du patient, choisissez la bonne réponse :",
+      "c": 12,
       "options": [
         {
           "t": "L'echelle visuelle analogique (EVA) est un outil d'evaluation de la douleur",
@@ -46605,6 +47632,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la rotation du rachis dans son ensemble, indiquez la bonne réponse :",
+      "c": 1,
       "options": [
         {
           "t": "Le sens de la rotation est déterminé par le déplacement du corps vertébral",
@@ -46623,6 +47651,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant une latéroflexion de la colonne lombaire :",
+      "c": 2,
       "options": [
         {
           "t": "L'iliopsoas, à point fixe lombaire, participe au mouvement comme muscle principal",
@@ -46641,6 +47670,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la physiologie articulaire dorsale lors de la flexion :",
+      "c": 5,
       "options": [
         {
           "t": "Il y a une ouverture des espaces intercostaux postérieurs",
@@ -46659,6 +47689,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant la phase inspiratoire, identifiez le bon choix :",
+      "c": 6,
       "options": [
         {
           "t": "Le diamètre vertical du thorax augmente",
@@ -46677,6 +47708,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du mouvement de rotation axiale entre C1 et C2 :",
+      "c": 8,
       "options": [
         {
           "t": "L'axe du mouvement passe par l'apophyse odontoïde de l'axis",
@@ -46695,6 +47727,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le mouvement d'extension du rachis cervical inférieur est limité par :",
+      "c": 8,
       "options": [
         {
           "t": "Le ligament longitudinal antérieur",
@@ -46713,6 +47746,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'axe transverse moyen du sacrum, il est vrai que :",
+      "c": 10,
       "options": [
         {
           "t": "Autour de lui se produisent les mouvements de nutation et de contre-nutation",
@@ -46731,6 +47765,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les effets physiologiques de la kinésithérapie, on peut dire que :",
+      "c": 13,
       "options": [
         {
           "t": "L'articulation est soumise à des forces de tension, de compression et de friction",
@@ -46749,6 +47784,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la mobilisation articulaire manuelle analytique simple, indiquez la bonne réponse :",
+      "c": 13,
       "options": [
         {
           "t": "Elle reproduit les glissements et roulements dans les plans physiologiques",
@@ -46767,6 +47803,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la rotation du rachis dans son ensemble, une des limites du mouvement est :",
+      "c": 1,
       "options": [
         {
           "t": "La mise en butée des faces articulaires (facettes)",
@@ -46785,6 +47822,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au cours d'une latéroflexion de la colonne lombaire :",
+      "c": 2,
       "options": [
         {
           "t": "Le carré des lombes, point fixe sur la crête iliaque, est un des responsables du mouvement",
@@ -46803,6 +47841,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la physiologie articulaire de la rotation au niveau dorsal :",
+      "c": 5,
       "options": [
         {
           "t": "La concavité costale s'accentue du côté homolatéral à la rotation",
@@ -46821,6 +47860,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant la phase d'inspiration, identifiez le bon choix :",
+      "c": 6,
       "options": [
         {
           "t": "Les côtes supérieures se relèvent et avancent (bras de pompe)",
@@ -46839,6 +47879,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le mouvement de flexion du rachis cervical inférieur est limité par :",
+      "c": 8,
       "options": [
         {
           "t": "La tension des ligaments jaunes",
@@ -46857,6 +47898,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant l'axe transverse inférieur du sacrum, il est vrai que :",
+      "c": 10,
       "options": [
         {
           "t": "Il porte les mouvements de rotation iliaque antérieure et postérieure",
@@ -46875,6 +47917,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des effets physiologiques de la kinésithérapie se produit au niveau du système nerveux ?",
+      "c": 13,
       "options": [
         {
           "t": "Maintien de la mémoire kinesthésique et du schéma corporel",
@@ -46893,6 +47936,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle thérapie est indiquée chez un patient devant maintenir l'amplitude articulaire au coude ?",
+      "c": 13,
       "options": [
         {
           "t": "La mobilisation passive analytique simple",
@@ -46911,6 +47955,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant les tractions articulaires, indiquez la bonne réponse :",
+      "c": 13,
       "options": [
         {
           "t": "Elle exerce une force perpendiculaire à la surface articulaire",
@@ -46929,6 +47974,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'objectif principal de la kinésithérapie passive analytique spécifique est :",
+      "c": 13,
       "options": [
         {
           "t": "Élargir l'amplitude articulaire",
@@ -46947,6 +47993,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la mobilisation passive articulaire globale :",
+      "c": 13,
       "options": [
         {
           "t": "Elle travaille une chaîne cinétique de mouvement articulaire",
@@ -46965,6 +48012,7 @@ const QUESTIONS = {
     },
     {
       "q": "Chez un patient présentant un bilan musculaire de grade 4, il est vrai que :",
+      "c": 12,
       "options": [
         {
           "t": "Le mouvement est complet contre une résistance modérée",
@@ -46983,6 +48031,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un bilan musculaire de grade 2 indique que le muscle évalué :",
+      "c": 12,
       "options": [
         {
           "t": "Réalise le mouvement dans toute l'amplitude si la pesanteur est éliminée",
@@ -47001,6 +48050,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour un patient présentant une goniométrie de 90°/0°/10° (plan sagittal) et un bilan musculaire de grade 4 :",
+      "c": 12,
       "options": [
         {
           "t": "Le secteur articulaire utile est de 100° en flexion-extension",
@@ -47019,6 +48069,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la flexion du rachis, quel comportement des structures vertébrales est correct ?",
+      "c": 1,
       "options": [
         {
           "t": "Le disque se pince en avant et le noyau migre en arrière",
@@ -47037,6 +48088,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors du mouvement de rotation du rachis dans son ensemble, il est vrai que :",
+      "c": 1,
       "options": [
         {
           "t": "L'épineuse se dirige du côté opposé de la rotation",
@@ -47055,6 +48107,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles agonistes de l'inclinaison latérale du rachis dans son ensemble sont :",
+      "c": 2,
       "options": [
         {
           "t": "Les muscles obliques de l'abdomen homolatéraux",
@@ -47073,6 +48126,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles rotateurs du rachis lombaire sont :",
+      "c": 2,
       "options": [
         {
           "t": "Le psoas controlatéral",
@@ -47091,6 +48145,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez lequel des éléments suivants limite le mouvement de flexion lombaire :",
+      "c": 4,
       "options": [
         {
           "t": "Le ligament ilio-lombaire supérieur",
@@ -47109,6 +48164,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces options concernant le rachis lombaire, laquelle est correcte ?",
+      "c": 4,
       "options": [
         {
           "t": "La rotation lombaire entraîne un cisaillement du disque",
@@ -47127,6 +48183,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces options concernant le rachis dorsal, laquelle est correcte ?",
+      "c": 5,
       "options": [
         {
           "t": "Le mouvement d'extension est associé à l'inspiration",
@@ -47145,6 +48202,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le mouvement d'expiration forcée, laquelle est correcte ?",
+      "c": 6,
       "options": [
         {
           "t": "Le diaphragme se relâche et les abdominaux se contractent",
@@ -47163,6 +48221,7 @@ const QUESTIONS = {
     },
     {
       "q": "Au niveau costal inférieur, lorsque le mouvement d'inspiration se produit :",
+      "c": 6,
       "options": [
         {
           "t": "Les côtes diminuent leur obliquité en se relevant",
@@ -47181,6 +48240,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de flexion-extension attribuée au rachis cervical inférieur ?",
+      "c": 8,
       "options": [
         {
           "t": "Environ 100° à 110°",
@@ -47199,6 +48259,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle est l'amplitude de rotation du rachis cervical supérieur ?",
+      "c": 8,
       "options": [
         {
           "t": "Environ 24° de rotation",
@@ -47217,6 +48278,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure, propre à la colonne cervicale, contribue à la stabilité latérale ?",
+      "c": 7,
       "options": [
         {
           "t": "L'articulation unco-vertébrale (Luschka)",
@@ -47235,6 +48297,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la région cervicale, à quel niveau le disque intervertébral est-il le plus épais ?",
+      "c": 7,
       "options": [
         {
           "t": "Vers l'avant, ce qui crée la lordose cervicale",
@@ -47253,6 +48316,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mouvement de l'articulation atlanto-occipitale (C0-C1) est limité par un contact osseux ?",
+      "c": 8,
       "options": [
         {
           "t": "L'extension, par contact occiput – arc postérieur C1 – arc postérieur C2",
@@ -47271,6 +48335,7 @@ const QUESTIONS = {
     },
     {
       "q": "Qu'est-ce qui limite la flexion de l'articulation atlanto-occipitale (C0-C1) ?",
+      "c": 8,
       "options": [
         {
           "t": "La tension capsulaire et des ligaments postérieurs",
@@ -47289,6 +48354,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pourquoi n'y a-t-il pas de bâillement articulaire dans l'articulation atlanto-odontoïde ?",
+      "c": 8,
       "options": [
         {
           "t": "Grâce à la présence du ligament transverse",
@@ -47307,6 +48373,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quels niveaux observe-t-on un mouvement d'inclinaison dans le rachis cervical supérieur ?",
+      "c": 8,
       "options": [
         {
           "t": "Entre Occiput-C1 et C2-C3",
@@ -47325,6 +48392,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une rotation à gauche de C0-C1, dans quel sens s'incline automatiquement l'occiput ?",
+      "c": 8,
       "options": [
         {
           "t": "Vers la droite (controlatérale)",
@@ -47343,6 +48411,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle, en contraction unilatérale, produit une inclinaison et une rotation controlatérale du cou ?",
+      "c": 7,
       "options": [
         {
           "t": "Le muscle scalène",
@@ -47361,6 +48430,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels plans des muscles postérieurs réalisent une extension avec inclinaison et rotation homolatérales ?",
+      "c": 7,
       "options": [
         {
           "t": "Les plans profond/intermédiaire",
@@ -47379,6 +48449,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles appartient au groupe des sous-occipitaux ?",
+      "c": 7,
       "options": [
         {
           "t": "L'oblique inférieur de la tête",
@@ -47397,6 +48468,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quels niveaux le foramen transverse livre-t-il passage à l'artère vertébrale ?",
+      "c": 7,
       "options": [
         {
           "t": "De C1 à C6",
@@ -47415,6 +48487,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le système rachidien, quel segment est considéré comme le plus rigide et le plus stable ?",
+      "c": 5,
       "options": [
         {
           "t": "Le rachis dorsal",
@@ -47433,6 +48506,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur une vertèbre dorsale typique (T2-T10), où se situent les facettes costales destinées aux tubercules des côtes ?",
+      "c": 5,
       "options": [
         {
           "t": "Sur les apophyses transverses",
@@ -47451,6 +48525,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur une vertèbre dorsale typique, comment sont orientées les facettes articulaires supérieures ?",
+      "c": 5,
       "options": [
         {
           "t": "Vers l'arrière (postérieure)",
@@ -47469,6 +48544,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la particularité costale des vertèbres atypiques T11 et T12 ?",
+      "c": 5,
       "options": [
         {
           "t": "Elles présentent une facette costale complète",
@@ -47487,6 +48563,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de rotation axiale du rachis dorsal de chaque côté ?",
+      "c": 5,
       "options": [
         {
           "t": "Environ 30°",
@@ -47505,6 +48582,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles structures constituent les limites du mouvement de rotation du rachis dorsal ?",
+      "c": 5,
       "options": [
         {
           "t": "Le sternum et les ligaments costo-vertébraux",
@@ -47523,6 +48601,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment se comporte le disque intervertébral dorsal lors de la rotation d'une vertèbre sur l'autre ?",
+      "c": 5,
       "options": [
         {
           "t": "Il subit une rotation-torsion",
@@ -47541,6 +48620,7 @@ const QUESTIONS = {
     },
     {
       "q": "Comment le cours qualifie-t-il les articulations costo-vertébrale et costo-transversaire entre elles ?",
+      "c": 5,
       "options": [
         {
           "t": "Deux arthrodies mécaniquement liées",
@@ -47559,6 +48639,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel type de mouvement réalisent les articulations costo-vertébrale et costo-transversaire lors de la ventilation ?",
+      "c": 5,
       "options": [
         {
           "t": "Une rotation autour d'un axe central",
@@ -47577,6 +48658,7 @@ const QUESTIONS = {
     },
     {
       "q": "De quel plan se rapproche l'axe XX' du mouvement costal des côtes inférieures ?",
+      "c": 5,
       "options": [
         {
           "t": "Du plan sagittal",
@@ -47595,6 +48677,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'expiration passive, quel muscle abaisse les côtes avec les intercostaux internes ?",
+      "c": 6,
       "options": [
         {
           "t": "Le transverse thoracique",
@@ -47613,6 +48696,7 @@ const QUESTIONS = {
     },
     {
       "q": "En contraction bilatérale, quel effet le groupe transverso-épineux exerce-t-il sur la cyphose thoracique ?",
+      "c": 5,
       "options": [
         {
           "t": "Il réduit la cyphose thoracique",
@@ -47631,6 +48715,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le revêtement de l'extrémité antérieure d'une côte ?",
+      "c": 5,
       "options": [
         {
           "t": "Du cartilage hyalin",
@@ -47649,6 +48734,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant le disque intervertébral lombaire, quelle proposition est exacte ?",
+      "c": 3,
       "options": [
         {
           "t": "Il représente environ 25 % de la longueur du rachis et est plus épais en lombaire",
@@ -47667,6 +48753,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la composition du noyau pulpeux du disque intervertébral lombaire ?",
+      "c": 3,
       "options": [
         {
           "t": "Un gel de mucoprotéines riche en protéoglycanes et fibres de collagène",
@@ -47685,6 +48772,7 @@ const QUESTIONS = {
     },
     {
       "q": "Concernant la teneur en eau du noyau pulpeux lombaire au cours de la vie, on retient :",
+      "c": 3,
       "options": [
         {
           "t": "Elle diminue d'environ 88 % à 70 %",
@@ -47703,6 +48791,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les facettes des articulations postérieures lombaires sont :",
+      "c": 3,
       "options": [
         {
           "t": "Recouvertes de cartilage hyalin et maintenues par une capsule fine et lâche",
@@ -47721,6 +48810,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le segment vertébral lombaire considéré comme un levier du premier genre, quel élément agit comme un ressort amortisseur ?",
+      "c": 4,
       "options": [
         {
           "t": "Le disque intervertébral",
@@ -47739,6 +48829,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la flexion lombaire, quel est le comportement du noyau pulpeux et de l'anneau fibreux ?",
+      "c": 4,
       "options": [
         {
           "t": "Le noyau recule et la tension augmente dans la partie postérieure de l'anneau",
@@ -47757,6 +48848,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est l'amplitude de flexion de la colonne lombaire selon le cours ?",
+      "c": 4,
       "options": [
         {
           "t": "40° à 60°",
@@ -47775,6 +48867,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel étage se situe l'amplitude maximale de flexion-extension du rachis lombaire ?",
+      "c": 4,
       "options": [
         {
           "t": "L4-L5",
@@ -47793,6 +48886,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la latéroflexion lombaire, comment se comporte le disque intervertébral ?",
+      "c": 4,
       "options": [
         {
           "t": "Le noyau se déplace vers la convexité et l'anneau se tend du côté convexe",
@@ -47811,6 +48905,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'inclinaison latérale lombaire s'accompagne d'une rotation automatique :",
+      "c": 4,
       "options": [
         {
           "t": "Controlatérale, l'épineuse tournant vers la concavité",
@@ -47829,6 +48924,7 @@ const QUESTIONS = {
     },
     {
       "q": "À la charnière lombo-sacrée, qu'est-ce qui limite l'inclinaison latérale lombaire ?",
+      "c": 4,
       "options": [
         {
           "t": "Les ligaments ilio-lombaires du côté de la convexité",
@@ -47847,6 +48943,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le rythme lombo-pelvique, la flexion totale du tronc se répartit en :",
+      "c": 4,
       "options": [
         {
           "t": "40° de lombaire et 70° de hanche",
@@ -47865,6 +48962,7 @@ const QUESTIONS = {
     },
     {
       "q": "Combien d'articulations composent le bassin ?",
+      "c": 10,
       "options": [
         {
           "t": "4 articulations",
@@ -47883,6 +48981,7 @@ const QUESTIONS = {
     },
     {
       "q": "À quel type appartient l'articulation sacro-iliaque ?",
+      "c": 10,
       "options": [
         {
           "t": "Condylienne",
@@ -47901,6 +49000,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la nutation, comment se comportent les tubercules ischiatiques ?",
+      "c": 10,
       "options": [
         {
           "t": "Ils se séparent",
@@ -47919,6 +49019,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la contre-nutation, dans quel sens se déplace le promontoire du sacrum ?",
+      "c": 10,
       "options": [
         {
           "t": "Vers le haut et l'arrière",
@@ -47937,6 +49038,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mouvement sacro-iliaque s'accompagne d'une ouverture iliaque ?",
+      "c": 10,
       "options": [
         {
           "t": "La contre-nutation",
@@ -47955,6 +49057,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament limite principalement la contre-nutation ?",
+      "c": 10,
       "options": [
         {
           "t": "Le ligament sacro-iliaque postérieur",
@@ -47973,6 +49076,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament participe à limiter la nutation aux côtés du sacro-épineux ?",
+      "c": 10,
       "options": [
         {
           "t": "Le ligament sacro-tubéreux",
@@ -47991,6 +49095,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction principale du disque fibrocartilagineux de la symphyse pubienne ?",
+      "c": 10,
       "options": [
         {
           "t": "Compression et absorption des chocs",
@@ -48009,6 +49114,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la rotation postérieure de l'iliaque, comment se déplace la branche pubienne ?",
+      "c": 10,
       "options": [
         {
           "t": "Elle monte",
@@ -48027,6 +49133,7 @@ const QUESTIONS = {
     },
     {
       "q": "Par où le poids corporel est-il transmis du rachis vers le bassin ?",
+      "c": 11,
       "options": [
         {
           "t": "De L5-S1 vers les ailes sacrées",
@@ -48045,6 +49152,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de l'extension des membres inférieurs, comment s'incline le bassin ?",
+      "c": 11,
       "options": [
         {
           "t": "En antéversion",
@@ -48063,6 +49171,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle combinaison de mouvements provoque une fermeture du détroit supérieur du bassin ?",
+      "c": 10,
       "options": [
         {
           "t": "Nutation, rotation interne et adduction",
