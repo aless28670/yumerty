@@ -170,6 +170,7 @@ const STATS_KEY = "neuro_question_stats";
 const COUNTER_KEY = "neuro_session_counters";
 const MISTAKES_KEY = "yumerty_mistakes_v1";
 const SEEN_KEY = "yumerty_seen_v1";
+const CHAPTERS_KEY = "yumerty_chapters_v1";
 const SESSION_KEY = "yumerty_active_session_v1";
 
 /* ----------- State ----------- */
@@ -311,6 +312,117 @@ function countMistakesForBanks(bankKeys) {
   return bankKeys.reduce((sum, bk) => sum + (all[bk] || []).length, 0);
 }
 
+/* ----------- Chapter selection ----------- */
+
+/* Chapters declared for a bank, or null when the bank isn't tagged yet. */
+function chaptersOf(bank) {
+  const defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[bank]) || null;
+  if (!defs || !defs.length) return null;
+  const counts = {};
+  (QUESTIONS[bank] || []).forEach(q => { if (q.c) counts[q.c] = (counts[q.c] || 0) + 1; });
+  const list = defs.map(ch => ({ id: ch.id, nom: ch.nom, count: counts[ch.id] || 0 }))
+                   .filter(ch => ch.count > 0);
+  return list.length ? list : null;
+}
+
+function getChapterSelection(bank) {
+  const all = readJSON(CHAPTERS_KEY);
+  const sel = all[bank];
+  return Array.isArray(sel) ? sel : [];
+}
+
+function saveChapterSelection(bank, ids) {
+  const all = readJSON(CHAPTERS_KEY);
+  if (!ids || !ids.length) delete all[bank]; else all[bank] = ids;
+  writeJSON(CHAPTERS_KEY, all);
+}
+
+/* Set of bank indices allowed by the current chapter selection, or null for "all". */
+function chapterPool(bank) {
+  const sel = getChapterSelection(bank);
+  if (!sel.length || !chaptersOf(bank)) return null;
+  const set = new Set();
+  (QUESTIONS[bank] || []).forEach((q, i) => { if (sel.indexOf(q.c) !== -1) set.add(i); });
+  return set.size ? set : null;
+}
+
+/* How many questions the current selection makes available. */
+function availableCount(bank) {
+  const pool = chapterPool(bank);
+  return pool ? pool.size : (QUESTIONS[bank] || []).length;
+}
+
+/* Summary line shown on the toggle: "Tous les chapitres" or "3 chapitres · 54 QCU". */
+function chapterSummary(bank) {
+  const chaps = chaptersOf(bank);
+  if (!chaps) return "";
+  const sel = getChapterSelection(bank);
+  if (!sel.length) return "Tous les chapitres · " + (QUESTIONS[bank] || []).length + " QCU";
+  const n = availableCount(bank);
+  return sel.length + (sel.length > 1 ? " chapitres" : " chapitre") + " · " + n + " QCU";
+}
+
+/* Collapsible chapter picker injected in a module card. */
+function chapterBlockHtml(bank) {
+  const chaps = chaptersOf(bank);
+  if (!chaps) return "";
+  const sel = getChapterSelection(bank);
+  const items = chaps.map(ch => `
+    <label class="chap-item">
+      <input type="checkbox" value="${ch.id}"${sel.indexOf(ch.id) !== -1 ? " checked" : ""}>
+      <span class="chap-name">${ch.id}. ${escapeHtml(ch.nom)}</span>
+      <span class="chap-count">${ch.count}</span>
+    </label>`).join("");
+  return `
+    <div class="chap-block" data-chap-block="${escapeHtml(bank)}">
+      <button type="button" class="chap-toggle" aria-expanded="false">
+        <span class="chap-toggle-label">Chapitres</span>
+        <span class="chap-toggle-state">${escapeHtml(chapterSummary(bank))}</span>
+        <span class="chap-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="chap-panel" hidden>
+        <p class="chap-help">Coche les chapitres que tu as révisés. Sans sélection, les questions sont tirées dans toute la matière, comme à l'examen.</p>
+        <div class="chap-bulk">
+          <button type="button" class="chap-bulk-btn" data-chap-all>Tout sélectionner</button>
+          <button type="button" class="chap-bulk-btn" data-chap-none>Tout effacer</button>
+        </div>
+        <div class="chap-list">${items}</div>
+      </div>
+    </div>`;
+}
+
+/* Wire the checkboxes of one module card. */
+function wireChapterBlock(card, bank) {
+  const block = card.querySelector('[data-chap-block="' + bank + '"]');
+  if (!block) return;
+  const panel = block.querySelector(".chap-panel");
+  const toggle = block.querySelector(".chap-toggle");
+  const state$ = block.querySelector(".chap-toggle-state");
+  const boxes = () => Array.prototype.slice.call(block.querySelectorAll('.chap-item input[type="checkbox"]'));
+
+  const refresh = () => {
+    const ids = boxes().filter(b => b.checked).map(b => Number(b.value));
+    saveChapterSelection(bank, ids);
+    state$.textContent = chapterSummary(bank);
+    block.classList.toggle("chap-active", ids.length > 0);
+  };
+
+  toggle.addEventListener("click", () => {
+    const open = panel.hidden;
+    panel.hidden = !open;
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    block.classList.toggle("chap-open", open);
+  });
+  block.addEventListener("change", e => { if (e.target.matches('input[type="checkbox"]')) refresh(); });
+  block.querySelector("[data-chap-all]").addEventListener("click", () => {
+    boxes().forEach(b => { b.checked = true; }); refresh();
+  });
+  block.querySelector("[data-chap-none]").addEventListener("click", () => {
+    boxes().forEach(b => { b.checked = false; }); refresh();
+  });
+  block.classList.toggle("chap-active", getChapterSelection(bank).length > 0);
+}
+
 /* Strict no-repeat selection: exhaust every unseen question in the bank
    before any previously-seen one is allowed back. Once the full bank has
    been cycled through, the seen set resets and a new cycle begins. */
@@ -319,14 +431,19 @@ function pickQuestions(mode, length) {
   const len = length || getQuizLength(mode);
   let seen = getSeenIndices(mode);
 
+  // Chapter filter: when the user has selected chapters, only those questions
+  // are eligible. No selection (or no chapter data) = whole bank, as before.
+  const pool = chapterPool(mode);
+  const inPool = idx => pool === null || pool.has(idx);
+
   // Build the unseen pool for the current cycle.
   let unseen = [];
-  bank.forEach((_, i) => { if (!seen.includes(i)) unseen.push(i); });
+  bank.forEach((_, i) => { if (inPool(i) && !seen.includes(i)) unseen.push(i); });
 
   // If everything has been cycled through, reset and start fresh.
   if (unseen.length === 0) {
-    seen = [];
-    unseen = bank.map((_, i) => i);
+    seen = seen.filter(i => !inPool(i));
+    unseen = bank.map((_, i) => i).filter(inPool);
     saveSeenIndices(mode, seen);
   }
 
@@ -337,7 +454,7 @@ function pickQuestions(mode, length) {
     // Not enough unseen left → take all unseen, fill the rest by resetting
     // (avoids ever showing a duplicate within the same session).
     const remainder = len - unseen.length;
-    const recycled = bank.map((_, i) => i).filter(i => !unseen.includes(i));
+    const recycled = bank.map((_, i) => i).filter(i => inPool(i) && !unseen.includes(i));
     chosen = [...unseen, ...shuffle(recycled).slice(0, remainder)];
     chosen = shuffle(chosen);
     // The unseen pool is fully drained; flag everything as fresh for next time.
@@ -364,6 +481,7 @@ function pickQuestions(mode, length) {
     return {
       bankIndex: idx,
       q: src.q,
+      c: src.c,
       options
     };
   });
@@ -554,6 +672,7 @@ function renderNav() {
           </div>
           <h3 class="mode-title">${escapeHtml(mod.label)}</h3>
           <p class="mode-desc">${escapeHtml(mod.desc || ("QCU à " + mod.optionCount + " propositions. Score final ramené sur 10."))}</p>
+          ${chapterBlockHtml(mod.bankKey)}
           <div class="mode-card-actions">
             <button class="length-btn" data-bank-key="${escapeHtml(mod.bankKey)}" data-length="20">20 QCU</button>
             <button class="length-btn" data-bank-key="${escapeHtml(mod.bankKey)}" data-length="30">30 QCU</button>
@@ -563,6 +682,7 @@ function renderNav() {
       `;
       applyBorderGlow(card, accent);
       list.appendChild(card);
+      wireChapterBlock(card, mod.bankKey);
     });
   }
 }
@@ -611,7 +731,18 @@ function startMode(mode, length) {
     alert("Cette matière est en cours de construction — la banque de questions n'est pas encore disponible.");
     return;
   }
-  state.quizLength = length || getQuizLength(mode);
+  // With a chapter selection, never ask for more questions than the selection holds.
+  const available = availableCount(mode);
+  let wanted = length || getQuizLength(mode);
+  if (wanted > available) {
+    const sel = getChapterSelection(mode);
+    if (sel.length) {
+      alert("Les chapitres sélectionnés contiennent " + available + " questions. Le quiz en comptera " + available + ".");
+    }
+    wanted = available;
+  }
+  if (wanted < 1) { alert("Aucune question ne correspond aux chapitres sélectionnés."); return; }
+  state.quizLength = wanted;
   state.points = getPoints(mode);
   state.rawMax = state.quizLength * state.points.good;
   state.questions = pickQuestions(mode, state.quizLength);
@@ -667,6 +798,15 @@ function renderQuestion() {
   $("#progress-fill").style.width = ((state.index + 1) / state.quizLength * 100) + "%";
 
   $("#question-text").textContent = q.q;
+
+  // Chapitre de la question (quand la matière est découpée en chapitres).
+  const chapEl = $("#question-chapter");
+  if (chapEl) {
+    const defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[state.mode]) || null;
+    const ch = defs && q.c ? defs.filter(d => d.id === q.c)[0] : null;
+    chapEl.hidden = !ch;
+    if (ch) chapEl.textContent = "Chapitre " + ch.id + " · " + ch.nom;
+  }
 
   const optsEl = $("#options");
   optsEl.innerHTML = "";

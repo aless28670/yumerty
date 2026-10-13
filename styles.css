@@ -2151,3 +2151,72 @@ html { scroll-behavior: smooth; }
 
 .home-right::before { display: none !important; }
 .home-right { overflow: visible; }
+
+/* ---------- Sélecteur de chapitres ---------- */
+.chap-block { margin: 14px 0 4px; }
+.chap-toggle {
+  width: 100%;
+  display: flex; align-items: center; gap: 10px;
+  padding: 11px 14px;
+  border-radius: 13px;
+  background: #f7f2e9;
+  border: 1px solid rgba(40, 35, 28, 0.12);
+  color: var(--text);
+  font-family: 'Archivo', 'Space Grotesk', sans-serif;
+  font-size: 13px; font-weight: 700;
+  cursor: pointer; text-align: left;
+  transition: background 180ms ease, border-color 180ms ease;
+}
+.chap-toggle:hover { background: #f1e9db; border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.45); }
+.chap-toggle-label { flex: none; }
+.chap-toggle-state { flex: 1; font-weight: 600; font-size: 12.5px; color: var(--muted, #7a6f60); }
+.chap-chevron { flex: none; transition: transform 200ms ease; font-size: 12px; }
+.chap-block.chap-open .chap-chevron { transform: rotate(180deg); }
+.chap-block.chap-active .chap-toggle {
+  background: rgba(var(--accent-rgb, 185, 118, 63), 0.1);
+  border-color: rgba(var(--accent-rgb, 185, 118, 63), 0.45);
+}
+.chap-block.chap-active .chap-toggle-state { color: rgb(var(--accent-rgb, 185, 118, 63)); font-weight: 700; }
+.chap-panel {
+  margin-top: 10px; padding: 12px;
+  border-radius: 13px;
+  background: #fdfbf6;
+  border: 1px solid rgba(40, 35, 28, 0.1);
+}
+.chap-help { margin: 0 0 10px; font-size: 12px; line-height: 1.45; color: var(--muted, #7a6f60); }
+.chap-bulk { display: flex; gap: 8px; margin-bottom: 10px; }
+.chap-bulk-btn {
+  flex: 1; padding: 8px 10px; border-radius: 10px;
+  background: #f4efe6; border: 1px solid rgba(40, 35, 28, 0.12);
+  color: var(--text); font-family: inherit; font-size: 12px; font-weight: 700; cursor: pointer;
+}
+.chap-bulk-btn:hover { background: rgb(var(--accent-rgb, 185, 118, 63)); border-color: rgb(var(--accent-rgb, 185, 118, 63)); color: #fdfbf6; }
+.chap-list { display: flex; flex-direction: column; gap: 4px; max-height: 320px; overflow-y: auto; }
+.chap-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px; border-radius: 10px;
+  font-size: 13px; line-height: 1.35; cursor: pointer;
+  transition: background 150ms ease;
+}
+.chap-item:hover { background: #f4efe6; }
+.chap-item input { flex: none; width: 17px; height: 17px; accent-color: rgb(var(--accent-rgb, 185, 118, 63)); cursor: pointer; }
+.chap-name { flex: 1; }
+.chap-count {
+  flex: none; min-width: 34px; text-align: right;
+  font-size: 11.5px; font-weight: 700; color: var(--muted, #7a6f60);
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 480px) {
+  .chap-toggle { flex-wrap: wrap; }
+  .chap-toggle-state { flex-basis: 100%; }
+  .chap-list { max-height: 280px; }
+}
+
+.chap-badge {
+  margin: 0 0 8px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(var(--accent-rgb, 185, 118, 63), 0.95);
+}

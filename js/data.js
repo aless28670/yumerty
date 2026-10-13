@@ -9511,6 +9511,7 @@ const QUESTIONS = {
   "anat1": [
     {
       "q": "Un footballeur de 22 ans consulte pour un genou douloureux. Sur le plan biomécanique, autour de quel axe le genou ne presente-t-il aucun mouvement physiologique ?",
+      "c": 11,
       "options": [
         {
           "t": "Axe antero-posterieur (sagittal)",
@@ -9533,6 +9534,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient de 30 ans présente une laxité anormale en rotation interne du genou fléchi à 90°. Quel ligament limite normalement la rotation interne du tibia sous le fémur ?",
+      "c": 11,
       "options": [
         {
           "t": "Les deux ligaments croises enroules",
@@ -9555,6 +9557,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une dissection du genou, le tendon du muscle poplité traverse la capsule articulaire en passant sous un ligament. Lequel ?",
+      "c": 11,
       "options": [
         {
           "t": "Ligament poplité arqué",
@@ -9577,6 +9580,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une danseuse classique sollicite intensément la rotation externe du genou fléchi pour stabiliser sa position 'en dehors'. Parmi ces muscles, lequel réalise cette rotation latérale de la jambe fléchie ?",
+      "c": 12,
       "options": [
         {
           "t": "Biceps fémoral",
@@ -9599,6 +9603,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un jeune sportif présente une tendinopathie de la patte d'oie superficielle après un marathon. Quels sont les trois muscles qui la constituent ?",
+      "c": 12,
       "options": [
         {
           "t": "Sartorius, gracile, semi-tendineux",
@@ -9621,6 +9626,7 @@ const QUESTIONS = {
     },
     {
       "q": "En anatomie, l'articulation coxo-fémorale est classée comme :",
+      "c": 9,
       "options": [
         {
           "t": "Enarthrose (spheroide)",
@@ -9643,6 +9649,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur la face antérieure de la hanche, quel ligament prend la forme d'un Y inversé et constitue le plus solide de l'organisme ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament ilio-fémoral (Bertin)",
@@ -9665,6 +9672,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient debout en position bipède : quel ligament de la hanche se met en tension et stabilise passivement l'extension de cuisse ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament ilio-fémoral",
@@ -9687,6 +9695,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour un test de Trendelenburg positif à gauche, quel muscle est principalement déficitaire ?",
+      "c": 10,
       "options": [
         {
           "t": "Moyen glutéal",
@@ -9709,6 +9718,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces muscles, lequel NE participe PAS à l'adduction de la cuisse ?",
+      "c": 10,
       "options": [
         {
           "t": "Piriforme",
@@ -9731,6 +9741,7 @@ const QUESTIONS = {
     },
     {
       "q": "Hanche fléchie à 90° en position assise, quel muscle est principalement rotateur INTERNE (médial) de la hanche selon le cours ?",
+      "c": 10,
       "options": [
         {
           "t": "Petit glutéal",
@@ -9753,6 +9764,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'obturateur externe et l'obturateur interne ont en commun :",
+      "c": 10,
       "options": [
         {
           "t": "L'origine sur la membrane obturatrice",
@@ -9775,6 +9787,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle pelvi-trochantérien s'insère dans la fosse trochantérique du fémur ?",
+      "c": 10,
       "options": [
         {
           "t": "Obturateur externe",
@@ -9797,6 +9810,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'iliopsoas s'insère distalement sur :",
+      "c": 10,
       "options": [
         {
           "t": "Le petit trochanter du fémur",
@@ -9819,6 +9833,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le quadriceps fémoral est composé de quatre chefs. Quel chef naît sur l'épine iliaque antéro-inférieure (EIAI) ?",
+      "c": 12,
       "options": [
         {
           "t": "Droit fémoral (chef direct)",
@@ -9841,6 +9856,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les chefs du quadriceps, lequel est le plus profond et recouvert par les trois autres ?",
+      "c": 12,
       "options": [
         {
           "t": "Vaste intermédiaire",
@@ -9863,6 +9879,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles de la cuisse, lequel est mono-articulaire (n'agit que sur la hanche) ?",
+      "c": 10,
       "options": [
         {
           "t": "Grand adducteur",
@@ -9885,6 +9902,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle de la cuisse NE s'insère PAS sur la ligne âpre du fémur ?",
+      "c": 12,
       "options": [
         {
           "t": "Droit fémoral",
@@ -9907,6 +9925,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est à la fois fléchisseur de la hanche et fléchisseur du genou ?",
+      "c": 12,
       "options": [
         {
           "t": "Sartorius",
@@ -9929,6 +9948,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la loge postérieure de la jambe, quelle association action-muscle est correcte ?",
+      "c": 14,
       "options": [
         {
           "t": "Tibial postérieur : inversion du pied",
@@ -9951,6 +9971,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est à la fois fléchisseur du genou ET acteur de la flexion plantaire du pied ?",
+      "c": 14,
       "options": [
         {
           "t": "Plantaire (grêle)",
@@ -9973,6 +9994,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles suivants de la jambe, lequel s'insère sur la tête de la fibula ?",
+      "c": 12,
       "options": [
         {
           "t": "Biceps fémoral",
@@ -9995,6 +10017,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le long fléchisseur de l'hallux naît :",
+      "c": 14,
       "options": [
         {
           "t": "De la moitié distale de la face postérieure de la fibula",
@@ -10017,6 +10040,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation talo-crurale (cheville) est classée comme :",
+      "c": 13,
       "options": [
         {
           "t": "Synoviale en trochlée (ginglyme)",
@@ -10039,6 +10063,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament renforce la face LATÉRALE de la cheville et est le plus fréquemment lésé dans l'entorse en varus forcée ?",
+      "c": 13,
       "options": [
         {
           "t": "Talo-fibulaire antérieur",
@@ -10061,6 +10086,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament bifurqué (Y de Chopart) s'insère proximalement sur le calcanéum et se divise en deux faisceaux qui rejoignent :",
+      "c": 13,
       "options": [
         {
           "t": "L'os cuboïde et l'os naviculaire",
@@ -10083,6 +10109,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation sous-talienne (talo-calcanéenne postérieure) est :",
+      "c": 13,
       "options": [
         {
           "t": "Trochoïde à axe oblique d'Henke",
@@ -10105,6 +10132,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une inversion (supination + adduction) du pied au cours d'une réception de saut, quels muscles travaillent en synergie selon le cours ?",
+      "c": 14,
       "options": [
         {
           "t": "Tibial postérieur, long fléchisseur des orteils et de l'hallux",
@@ -10127,6 +10155,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles lombricaux du pied prennent leur origine sur :",
+      "c": 15,
       "options": [
         {
           "t": "Les tendons du long fléchisseur des orteils",
@@ -10149,6 +10178,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle plantaire s'insère sur la phalange MOYENNE (intermédiaire) des 4 derniers orteils par ses tendons perforés ?",
+      "c": 15,
       "options": [
         {
           "t": "Court fléchisseur des orteils",
@@ -10171,6 +10201,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'adduction des orteils (rapprochement vers l'axe du 2e orteil) est réalisée par :",
+      "c": 15,
       "options": [
         {
           "t": "Les interosseux plantaires (au nombre de 3)",
@@ -10193,6 +10224,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le court extenseur des orteils (pédius) s'insère distalement sur :",
+      "c": 15,
       "options": [
         {
           "t": "Les tendons du long extenseur des orteils (2e, 3e, 4e)",
@@ -10215,6 +10247,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf fibulaire profond innerve :",
+      "c": 14,
       "options": [
         {
           "t": "Le long extenseur de l'hallux",
@@ -10237,6 +10270,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf plantaire médial innerve, parmi ces muscles plantaires :",
+      "c": 15,
       "options": [
         {
           "t": "Le court fléchisseur des orteils",
@@ -10259,6 +10293,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf sciatique se divise dans la fosse poplitée en :",
+      "c": 12,
       "options": [
         {
           "t": "Nerf tibial + nerf fibulaire commun",
@@ -10281,6 +10316,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une atteinte sélective du nerf obturateur entraîne :",
+      "c": 10,
       "options": [
         {
           "t": "Une perte d'adduction de la cuisse",
@@ -10303,6 +10339,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle région de la colonne vertébrale rencontre-t-on les processus unciformes s'articulant avec la vertèbre sus-jacente ?",
+      "c": 1,
       "options": [
         {
           "t": "Cervicale",
@@ -10325,6 +10362,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans le plan sagittal, quelles régions de la colonne présentent une CYPHOSE physiologique ?",
+      "c": 1,
       "options": [
         {
           "t": "Thoracique et sacrée",
@@ -10347,6 +10385,7 @@ const QUESTIONS = {
     },
     {
       "q": "La présence de fosses costales sur le corps vertébral ET sur les apophyses transverses caractérise :",
+      "c": 1,
       "options": [
         {
           "t": "Les vertèbres thoraciques typiques",
@@ -10369,6 +10408,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le foramen transverse, perforé dans chaque apophyse transverse, est caractéristique :",
+      "c": 1,
       "options": [
         {
           "t": "Des vertèbres cervicales",
@@ -10391,6 +10431,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les processus articulaires SUPÉRIEURS des vertèbres lombaires sont orientés :",
+      "c": 1,
       "options": [
         {
           "t": "Médialement et légèrement en arrière",
@@ -10413,6 +10454,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation entre deux corps vertébraux adjacents (via le disque) est :",
+      "c": 1,
       "options": [
         {
           "t": "Une symphyse (amphi-arthrose)",
@@ -10435,6 +10477,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament longitudinal POSTÉRIEUR de la colonne vertébrale :",
+      "c": 1,
       "options": [
         {
           "t": "Tapisse la face postérieure des corps vertébraux dans le canal rachidien",
@@ -10457,6 +10500,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est le ligament le plus postérieur de la colonne vertébrale (le plus superficiel sur la ligne médiane) ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament supra-épineux",
@@ -10479,6 +10523,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament cruciforme de l'atlas (région atlanto-axoïdienne) est formé par :",
+      "c": 1,
       "options": [
         {
           "t": "Le ligament transverse de l'atlas et deux faisceaux longitudinaux",
@@ -10501,6 +10546,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament transverse (composante horizontale du cruciforme) a pour rôle principal :",
+      "c": 1,
       "options": [
         {
           "t": "Plaquer la dent de l'axis contre l'arc antérieur de l'atlas",
@@ -10523,6 +10569,7 @@ const QUESTIONS = {
     },
     {
       "q": "Combien d'articulations existe-t-il entre l'atlas (C1) et l'axis (C2) et de quel type fonctionnel sont-elles ?",
+      "c": 1,
       "options": [
         {
           "t": "3 articulations dont une médiane trochoïde entre la dent et l'atlas",
@@ -10545,6 +10592,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'atlas (C1) s'articule en haut avec :",
+      "c": 1,
       "options": [
         {
           "t": "Les condyles occipitaux, par une articulation condylienne",
@@ -10567,6 +10615,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces éléments, lequel n'appartient PAS à la face postérieure du sacrum ?",
+      "c": 1,
       "options": [
         {
           "t": "Le promontoire",
@@ -10589,6 +10638,7 @@ const QUESTIONS = {
     },
     {
       "q": "La crête sacrale latérale résulte de la fusion :",
+      "c": 1,
       "options": [
         {
           "t": "Des processus transverses des vertèbres sacrées",
@@ -10611,6 +10661,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les 8e, 9e et 10e paires de côtes sont qualifiées de :",
+      "c": 1,
       "options": [
         {
           "t": "Fausses côtes",
@@ -10633,6 +10684,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le manubrium sternal s'articule avec :",
+      "c": 1,
       "options": [
         {
           "t": "La clavicule, la 1ere côte et le cartilage de la 2eme côte",
@@ -10655,6 +10707,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation costo-vertébrale (entre tête de la côte et corps vertébraux) est renforcée par :",
+      "c": 1,
       "options": [
         {
           "t": "Le ligament radié de la tête de la côte",
@@ -10677,6 +10730,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur une côte typique, quelle structure de l'extrémité postérieure est décrite par le cours comme la région joignant la tête et le tubercule ?",
+      "c": 1,
       "options": [
         {
           "t": "Le col de la côte",
@@ -10699,6 +10753,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'épine ischiatique de l'os coxal sépare :",
+      "c": 1,
       "options": [
         {
           "t": "La grande échancrure ischiatique de la petite échancrure ischiatique",
@@ -10721,6 +10776,7 @@ const QUESTIONS = {
     },
     {
       "q": "En s'appuyant sur le cours d'ostéoarthrologie du tronc, les deux pièces osseuses qui délimitent le foramen obturateur de l'os coxal sont :",
+      "c": 1,
       "options": [
         {
           "t": "La branche de l'ischion et le pubis",
@@ -10743,6 +10799,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez le nom respectif des sutures suivantes : entre l'os frontal et les pariétaux, puis entre les deux pariétaux :",
+      "c": 2,
       "options": [
         {
           "t": "Suture coronale et suture sagittale",
@@ -10765,6 +10822,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels os contribuent à la formation de l'orbite osseuse ?",
+      "c": 2,
       "options": [
         {
           "t": "Sphénoïde, frontal, ethmoïde, maxillaire, zygomatique, palatin et lacrymal",
@@ -10787,6 +10845,7 @@ const QUESTIONS = {
     },
     {
       "q": "La mandibule s'articule avec le crâne via l'articulation temporo-mandibulaire. Avec quel os exactement ?",
+      "c": 5,
       "options": [
         {
           "t": "L'os temporal, au niveau de la fosse mandibulaire",
@@ -10809,6 +10868,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces muscles masticateurs, lequel n'est PAS élévateur de la mandibule ?",
+      "c": 5,
       "options": [
         {
           "t": "Ptérygoïdien latéral",
@@ -10831,6 +10891,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles de la mimique faciale sont innervés par :",
+      "c": 5,
       "options": [
         {
           "t": "Le nerf facial (VII)",
@@ -10853,6 +10914,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une lésion du nerf trijumeau (V) entraînera une faiblesse :",
+      "c": 5,
       "options": [
         {
           "t": "Du muscle temporal",
@@ -10875,6 +10937,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf accessoire (XI) innerve :",
+      "c": 4,
       "options": [
         {
           "t": "Le sterno-cléido-mastoïdien et le trapèze",
@@ -10897,6 +10960,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le petit droit postérieur de la tête (sous-occipital) s'insère :",
+      "c": 3,
       "options": [
         {
           "t": "Du tubercule postérieur de l'atlas (C1) à la ligne nucale inférieure de l'occipital",
@@ -10919,6 +10983,7 @@ const QUESTIONS = {
     },
     {
       "q": "Action principale du sterno-cléido-mastoïdien lors d'une contraction UNILATÉRALE :",
+      "c": 4,
       "options": [
         {
           "t": "Inclinaison homolatérale et rotation controlatérale de la tête",
@@ -10941,6 +11006,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles infrahyoïdiens, lequel est le plus SUPERFICIEL ?",
+      "c": 4,
       "options": [
         {
           "t": "Sterno-hyoïdien",
@@ -10963,6 +11029,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles supra-hyoïdiens, lesquels naissent de la mandibule ?",
+      "c": 4,
       "options": [
         {
           "t": "Mylo-hyoïdien, génio-hyoïdien et ventre antérieur du digastrique",
@@ -10985,6 +11052,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles scalènes (antérieur, moyen, postérieur) participent à :",
+      "c": 4,
       "options": [
         {
           "t": "L'inspiration en élevant les 1ère et 2ème côtes",
@@ -11007,6 +11075,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles de la région postérieure du cou, lequel est dans le plan le plus PROFOND ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit droit postérieur de la tête",
@@ -11029,6 +11098,7 @@ const QUESTIONS = {
     },
     {
       "q": "En rotation de la tête, le splénius et le SCM ont des actions :",
+      "c": 3,
       "options": [
         {
           "t": "Opposées : splénius rotateur HOMOLATÉRAL, SCM rotateur CONTROLATÉRAL",
@@ -11051,6 +11121,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le système TRANSVERSAIRE-ÉPINEUX (couche profonde) comprend :",
+      "c": 3,
       "options": [
         {
           "t": "Le multifide, les rotateurs et le semi-épineux",
@@ -11073,6 +11144,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle s'étend de l'angle des 6 dernières côtes à l'angle des 6 premières côtes ?",
+      "c": 3,
       "options": [
         {
           "t": "Ilio-costal thoracique",
@@ -11095,6 +11167,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est l'ordre, du plus superficiel au plus profond, des muscles du dos ?",
+      "c": 3,
       "options": [
         {
           "t": "Trapèze > rhomboïdes > dentelé post. sup. > érecteurs",
@@ -11117,6 +11190,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une lésion d'origine traumatique entraîne une perte d'expiration forcée accessoire et de rotation interne d'épaule. Quel muscle est en cause ?",
+      "c": 3,
       "options": [
         {
           "t": "Grand dorsal",
@@ -11139,6 +11213,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces muscles, lequel N'EST PAS innervé par les rameaux dorsaux des nerfs spinaux ?",
+      "c": 3,
       "options": [
         {
           "t": "Trapèze",
@@ -11161,6 +11236,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles s'inserent sur le processus mastoide de l'os temporal ?",
+      "c": 3,
       "options": [
         {
           "t": "Sterno-cléido-mastoïdien et splénius de la tête",
@@ -11183,6 +11259,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle de la région postérieure du tronc s'insère sur l'os occipital ?",
+      "c": 3,
       "options": [
         {
           "t": "Le trapèze (par ses fibres supérieures)",
@@ -11205,6 +11282,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos du diaphragme, choisissez la proposition CORRECTE :",
+      "c": 6,
       "options": [
         {
           "t": "Il est le principal muscle inspirateur, innervé par le nerf phrénique",
@@ -11227,6 +11305,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces muscles, lequel NE participe PAS à l'inspiration ?",
+      "c": 6,
       "options": [
         {
           "t": "Transverse thoracique",
@@ -11249,6 +11328,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les muscles subcostaux sont situés :",
+      "c": 6,
       "options": [
         {
           "t": "Sur la face interne, croisant 2 ou 3 espaces intercostaux",
@@ -11271,6 +11351,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le dentelé POSTÉRIEUR SUPÉRIEUR a une fonction principalement :",
+      "c": 3,
       "options": [
         {
           "t": "Inspiratrice, en élevant les côtes hautes",
@@ -11293,6 +11374,7 @@ const QUESTIONS = {
     },
     {
       "q": "La gaine du muscle droit de l'abdomen est formée par les aponévroses de :",
+      "c": 7,
       "options": [
         {
           "t": "L'oblique externe, l'oblique interne et le transverse de l'abdomen",
@@ -11315,6 +11397,7 @@ const QUESTIONS = {
     },
     {
       "q": "La ligne blanche, sur la ligne médiane abdominale, est formée par :",
+      "c": 7,
       "options": [
         {
           "t": "L'entrecroisement des aponévroses des trois muscles plats des deux côtés",
@@ -11337,6 +11420,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'oblique externe de l'abdomen, par sa contraction UNILATÉRALE droite, réalise :",
+      "c": 7,
       "options": [
         {
           "t": "Une inclinaison droite et une rotation CONTROLATÉRALE (gauche) du tronc",
@@ -11359,6 +11443,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une rotation du tronc vers la DROITE, quels muscles travaillent en synergie ?",
+      "c": 7,
       "options": [
         {
           "t": "Oblique externe GAUCHE + oblique interne DROIT",
@@ -11381,6 +11466,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles abdominaux/inguinaux ont une insertion sur le pubis ?",
+      "c": 7,
       "options": [
         {
           "t": "Grand droit, pyramidal, oblique externe et oblique interne",
@@ -11403,6 +11489,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles du plancher pelvien suivants, lequel est dans le plan le plus SUPERFICIEL (inférieur) ?",
+      "c": 8,
       "options": [
         {
           "t": "Bulbo-spongieux",
@@ -11425,6 +11512,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle appartient au plan MOYEN (diaphragme uro-génital) du plancher pelvien ?",
+      "c": 8,
       "options": [
         {
           "t": "Transverse profond du périnée",
@@ -11447,6 +11535,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le muscle élévateur de l'anus (levator ani) est constitué de trois faisceaux. Lequel des suivants en fait partie ?",
+      "c": 8,
       "options": [
         {
           "t": "Pubo-coccygien",
@@ -11469,6 +11558,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle plantaire pelvien NE s'insère PAS sur le centre tendineux du périnée ?",
+      "c": 8,
       "options": [
         {
           "t": "Coccygien",
@@ -11491,6 +11581,7 @@ const QUESTIONS = {
     },
     {
       "q": "La fonction principale des muscles du plancher pelvien est :",
+      "c": 8,
       "options": [
         {
           "t": "Le soutien des viscères pelviens",
@@ -11513,6 +11604,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le détroit supérieur du bassin (pelvis) est formé par :",
+      "c": 1,
       "options": [
         {
           "t": "Le promontoire, les lignes arquées et le bord supérieur du pubis",
@@ -11535,6 +11627,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une jeune femme de 28 ans présente une faiblesse marquée à l'abduction de la hanche en décubitus latéral. Le testing met en évidence un grade 2 sur :",
+      "c": 10,
       "options": [
         {
           "t": "Le moyen gluteal",
@@ -11557,6 +11650,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ménisque MÉDIAL du genou a une forme rappelant :",
+      "c": 11,
       "options": [
         {
           "t": "Un C ouvert",
@@ -11579,6 +11673,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur le fémur, la trifurcation supérieure de la ligne âpre donne notamment :",
+      "c": 12,
       "options": [
         {
           "t": "La tubérosité glutéale",
@@ -11601,6 +11696,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament croisé ANTÉRIEUR (LCA) du genou :",
+      "c": 11,
       "options": [
         {
           "t": "S'oppose à la translation tibiale antérieure sous le fémur",
@@ -11623,6 +11719,7 @@ const QUESTIONS = {
     },
     {
       "q": "La capsule articulaire du genou est ABSENTE en avant du tendon :",
+      "c": 11,
       "options": [
         {
           "t": "Du muscle poplité",
@@ -11645,6 +11742,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tractus ilio-tibial :",
+      "c": 11,
       "options": [
         {
           "t": "Reçoit l'insertion du grand glutéal et du tenseur du fascia lata",
@@ -11667,6 +11765,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est le seul innervé par le nerf glutéal INFÉRIEUR ?",
+      "c": 10,
       "options": [
         {
           "t": "Grand glutéal",
@@ -11689,6 +11788,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le triangle fémoral (de Scarpa) est limité par :",
+      "c": 12,
       "options": [
         {
           "t": "Ligament inguinal en haut, sartorius en dehors, long adducteur en dedans",
@@ -11711,6 +11811,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le contenu du canal des adducteurs (de Hunter) comprend :",
+      "c": 12,
       "options": [
         {
           "t": "Artère fémorale, veine fémorale et nerf saphène",
@@ -11733,6 +11834,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure NE passe PAS dans la fosse poplitée ?",
+      "c": 11,
       "options": [
         {
           "t": "Nerf fémoral",
@@ -11755,6 +11857,7 @@ const QUESTIONS = {
     },
     {
       "q": "La trochlée talienne est plus large en :",
+      "c": 13,
       "options": [
         {
           "t": "Avant qu'en arrière",
@@ -11777,6 +11880,7 @@ const QUESTIONS = {
     },
     {
       "q": "La flexion dorsale forcée de cheville peut être limitée osseusement par :",
+      "c": 13,
       "options": [
         {
           "t": "Le col du talus contre le bord antérieur du tibia",
@@ -11799,6 +11903,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament COLLATÉRAL MÉDIAL de la cheville (deltoïde) est constitué de plusieurs faisceaux. Lequel ne lui appartient PAS ?",
+      "c": 13,
       "options": [
         {
           "t": "Calcanéo-fibulaire",
@@ -11821,6 +11926,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation calcanéo-cuboïdienne (composant latéral de Chopart) est :",
+      "c": 13,
       "options": [
         {
           "t": "Sellaire",
@@ -11843,6 +11949,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle court extenseur de l'hallux a-t-il en commun avec le pédius ?",
+      "c": 15,
       "options": [
         {
           "t": "Son origine sur la face dorsale du calcanéus",
@@ -11865,6 +11972,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur le coxal, la ligne arquée :",
+      "c": 1,
       "options": [
         {
           "t": "Participe au détroit supérieur du pelvis",
@@ -11887,6 +11995,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'os sphénoïde possède une cavité caractéristique sur sa face supérieure appelée :",
+      "c": 2,
       "options": [
         {
           "t": "Selle turcique du sphénoïde",
@@ -11909,6 +12018,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une rupture du ligament transverse de l'atlas peut être explorée par :",
+      "c": 1,
       "options": [
         {
           "t": "Une instabilité C1-C2 exposant à une compression médullaire",
@@ -11931,6 +12041,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ventre ANTÉRIEUR du digastrique est innervé par :",
+      "c": 4,
       "options": [
         {
           "t": "Le nerf mylo-hyoïdien, branche du V3",
@@ -11953,6 +12064,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ventre POSTERIEUR du digastrique est innerve par :",
+      "c": 4,
       "options": [
         {
           "t": "Le nerf facial, septième paire crânienne",
@@ -11975,6 +12087,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le foramen magnum est situe :",
+      "c": 2,
       "options": [
         {
           "t": "Sur l'os occipital",
@@ -11997,6 +12110,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les piliers du diaphragme s'insèrent sur :",
+      "c": 6,
       "options": [
         {
           "t": "Les corps vertébraux L1-L3 à droite, L1-L2 à gauche",
@@ -12019,6 +12133,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le hiatus aortique du diaphragme se situe :",
+      "c": 6,
       "options": [
         {
           "t": "En regard de T12, entre les piliers du diaphragme",
@@ -12041,6 +12156,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel orifice du diaphragme se situe au niveau de T8 ?",
+      "c": 6,
       "options": [
         {
           "t": "Le foramen de la veine cave inférieure",
@@ -12063,6 +12179,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur la 1ere côte, on note la présence :",
+      "c": 1,
       "options": [
         {
           "t": "D'un tubercule du scalène entre deux sillons vasculaires",
@@ -12085,6 +12202,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le scalène postérieur s'insère sur :",
+      "c": 4,
       "options": [
         {
           "t": "Le bord supérieur de la 2eme côte",
@@ -12107,6 +12225,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'ATM est classée fonctionnellement comme :",
+      "c": 5,
       "options": [
         {
           "t": "Une articulation ginglymo-arthrodiale",
@@ -12129,6 +12248,7 @@ const QUESTIONS = {
     },
     {
       "q": "La propulsion de la mandibule est réalisée par :",
+      "c": 5,
       "options": [
         {
           "t": "Les muscles ptérygoïdiens latéraux",
@@ -12151,6 +12271,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le muscle buccinateur :",
+      "c": 5,
       "options": [
         {
           "t": "Est un muscle peaucier innervé par le nerf facial (VII)",
@@ -12173,6 +12294,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'orbiculaire des paupières est innervé par :",
+      "c": 5,
       "options": [
         {
           "t": "Le nerf facial (VII)",
@@ -12195,6 +12317,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle masticateur prend son origine sur l'arcade zygomatique ?",
+      "c": 5,
       "options": [
         {
           "t": "Masséter",
@@ -12217,6 +12340,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ptérygoïdien LATÉRAL insère son tendon notamment sur :",
+      "c": 5,
       "options": [
         {
           "t": "Le col de la mandibule et le disque de l'ATM",
@@ -12239,6 +12363,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur l'os pariétal, la suture qui le sépare du pariétal controlatéral est :",
+      "c": 2,
       "options": [
         {
           "t": "La suture sagittale",
@@ -12261,6 +12386,7 @@ const QUESTIONS = {
     },
     {
       "q": "La suture LAMBDOÏDE sépare :",
+      "c": 2,
       "options": [
         {
           "t": "L'os occipital des deux os pariétaux",
@@ -12283,6 +12409,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'aponévrose plantaire moyenne naît :",
+      "c": 15,
       "options": [
         {
           "t": "Du tubercule médial du calcanéum",
@@ -12305,6 +12432,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le triceps sural est formé par :",
+      "c": 14,
       "options": [
         {
           "t": "Les deux chefs du gastrocnémien et le soléaire",
@@ -12327,6 +12455,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tendon calcanéen (Achille) s'insère sur :",
+      "c": 14,
       "options": [
         {
           "t": "La tubérosité postérieure du calcanéum",
@@ -12349,6 +12478,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf passe dans le tunnel tarsien (face médiale de cheville) ?",
+      "c": 14,
       "options": [
         {
           "t": "Le nerf tibial",
@@ -12371,6 +12501,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le piriforme prend son origine sur :",
+      "c": 10,
       "options": [
         {
           "t": "La face antérieure du sacrum",
@@ -12393,6 +12524,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle structure NEUROVASCULAIRE passe entre les scalènes antérieur et moyen ?",
+      "c": 4,
       "options": [
         {
           "t": "Plexus brachial et artère sous-clavière",
@@ -12415,6 +12547,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament inguinal s'étend :",
+      "c": 7,
       "options": [
         {
           "t": "De l'EIAS au tubercule pubien",
@@ -12437,6 +12570,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le carre des lombes a pour innervation :",
+      "c": 7,
       "options": [
         {
           "t": "Le nerf sous-costal et les premiers nerfs lombaires",
@@ -12459,6 +12593,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le muscle pyramidal de l'abdomen s'insère sur :",
+      "c": 7,
       "options": [
         {
           "t": "La ligne blanche",
@@ -12481,6 +12616,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le sphincter externe de l'anus appartient :",
+      "c": 8,
       "options": [
         {
           "t": "Au triangle anal du périnée",
@@ -12503,6 +12639,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le nerf pudendal sort de la cavité pelvienne par :",
+      "c": 8,
       "options": [
         {
           "t": "La grande échancrure ischiatique",
@@ -12525,6 +12662,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur la face postérieure du calcanéum, l'insertion du tendon d'Achille se situe sur :",
+      "c": 13,
       "options": [
         {
           "t": "La tubérosité calcanéenne (face postérieure)",
@@ -12547,6 +12685,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ménisque LATÉRAL du genou est :",
+      "c": 11,
       "options": [
         {
           "t": "Plus mobile et de forme arrondie (en O)",
@@ -12569,6 +12708,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle proposition est VRAIE concernant la patella ?",
+      "c": 11,
       "options": [
         {
           "t": "C'est un os sésamoïde intratendineux du quadriceps",
@@ -12591,6 +12731,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'angle de Henke (axe sous-talien) est orienté :",
+      "c": 13,
       "options": [
         {
           "t": "Oblique en haut, en avant et en dedans",
@@ -12613,6 +12754,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles suivants n'a PAS une action de flexion plantaire ?",
+      "c": 14,
       "options": [
         {
           "t": "Le long extenseur des orteils",
@@ -12635,6 +12777,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tunnel tarsien médial contient, entre autres :",
+      "c": 14,
       "options": [
         {
           "t": "Tibial postérieur, long fléchisseur des orteils et paquet vasculo-nerveux tibial postérieur",
@@ -12657,6 +12800,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament sacro-tubéreux et le ligament sacro-épineux délimitent :",
+      "c": 1,
       "options": [
         {
           "t": "Le grand et le petit foramen ischiatique",
@@ -12679,6 +12823,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le canal inguinal contient chez l'homme :",
+      "c": 7,
       "options": [
         {
           "t": "Le cordon spermatique avec le canal déférent et le nerf ilio-inguinal",
@@ -12701,6 +12846,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'aponévrose de l'oblique externe, repliée sur elle-même inférieurement, forme :",
+      "c": 7,
       "options": [
         {
           "t": "Le ligament inguinal",
@@ -12723,6 +12869,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament glénoïdien (plaque plantaire) des MTP est :",
+      "c": 13,
       "options": [
         {
           "t": "Un épaississement fibrocartilagineux PLANTAIRE de la capsule",
@@ -12745,6 +12892,7 @@ const QUESTIONS = {
     },
     {
       "q": "La rotation controlatérale de la tête (visage tourné vers le côté opposé au muscle qui se contracte) est réalisée par :",
+      "c": 4,
       "options": [
         {
           "t": "Le sterno-cléido-mastoïdien",
@@ -12767,6 +12915,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'arc tendineux du levator ani est :",
+      "c": 8,
       "options": [
         {
           "t": "Un épaississement du fascia obturateur servant d'insertion à l'ilio-coccygien",
@@ -12789,6 +12938,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le centre tendineux du périnée (corps périnéal) :",
+      "c": 8,
       "options": [
         {
           "t": "Reçoit le transverse superficiel, le bulbo-spongieux et le sphincter externe",
@@ -12811,6 +12961,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour qu'un patient hémiplégique récupère la marche, la fonction de stabilisation du bassin en appui unipodal dépend principalement de :",
+      "c": 10,
       "options": [
         {
           "t": "Du moyen glutéal",
@@ -12833,6 +12984,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le tubercule infracondylaire de Gerdy (sur le tibia) reçoit l'insertion :",
+      "c": 11,
       "options": [
         {
           "t": "Du tractus ilio-tibial (Maissiat)",
@@ -12855,6 +13007,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation tibio-fibulaire INFÉRIEURE est :",
+      "c": 13,
       "options": [
         {
           "t": "Une syndesmose (articulation fibreuse)",
@@ -12877,6 +13030,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles s'insère sur le tendon du muscle long extenseur commun des orteils ?",
+      "c": 15,
       "options": [
         {
           "t": "Court extenseur des orteils",
@@ -12899,6 +13053,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles s'insère sur la phalange intermédiaire (du pied) ?",
+      "c": 15,
       "options": [
         {
           "t": "Court fléchisseur des orteils",
@@ -12921,6 +13076,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos des muscles du groupe postérieur de la jambe, indiquez l'association correcte :",
+      "c": 14,
       "options": [
         {
           "t": "Muscle tibial postérieur → flexion plantaire",
@@ -12943,6 +13099,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles participe à la fois à la flexion du genou et à la flexion plantaire ?",
+      "c": 14,
       "options": [
         {
           "t": "Plantaire",
@@ -12965,6 +13122,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles produit une action au niveau d'une seule articulation ?",
+      "c": 10,
       "options": [
         {
           "t": "Grand adducteur",
@@ -12987,6 +13145,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles présente une origine/insertion au niveau de l'épine iliaque antéro-inférieure ?",
+      "c": 12,
       "options": [
         {
           "t": "Droit fémoral",
@@ -13009,6 +13168,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles NE participe PAS à l'adduction du fémur ?",
+      "c": 10,
       "options": [
         {
           "t": "Piriforme",
@@ -13031,6 +13191,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est le plus supérieur ?",
+      "c": 10,
       "options": [
         {
           "t": "Petit glutéal",
@@ -13053,6 +13214,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces associations articulation–type est correcte ?",
+      "c": 13,
       "options": [
         {
           "t": "Articulation calcanéo-cuboïdienne → en selle",
@@ -13075,6 +13237,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament s'étend entre le calcaneus, le naviculaire et le cuboïde ?",
+      "c": 13,
       "options": [
         {
           "t": "Ligament bifurqué de Chopart",
@@ -13097,6 +13260,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces ligaments limite la rotation interne du genou ?",
+      "c": 11,
       "options": [
         {
           "t": "Ligament croisé antérieur",
@@ -13119,6 +13283,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sous quel ligament du genou s'introduit le muscle poplité à travers la capsule ?",
+      "c": 11,
       "options": [
         {
           "t": "Ligament poplité arqué",
@@ -13141,6 +13306,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse VRAIE à propos de l'articulation coxo-fémorale :",
+      "c": 9,
       "options": [
         {
           "t": "Le labrum et le ligament transverse approfondissent l'acétabulum et coiffent la tête fémorale.",
@@ -13163,6 +13329,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les deux articulations du corps qui permettent le plus de liberté de mouvement et sont de type énarthrose sont :",
+      "c": 9,
       "options": [
         {
           "t": "La coxo-fémorale et la scapulo-humérale",
@@ -13185,6 +13352,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf innerve le muscle long extenseur de l'hallux ?",
+      "c": 14,
       "options": [
         {
           "t": "Nerf fibulaire profond",
@@ -13207,6 +13375,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est innervé par le nerf plantaire médial ?",
+      "c": 15,
       "options": [
         {
           "t": "Court fléchisseur des orteils",
@@ -13229,6 +13398,7 @@ const QUESTIONS = {
     },
     {
       "q": "Autour duquel de ces axes n'y a-t-il PAS de mouvement dans l'articulation du genou ?",
+      "c": 11,
       "options": [
         {
           "t": "Sagittal (antéro-postérieur)",
@@ -13251,6 +13421,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles NE présente PAS d'origine/insertion sur la ligne âpre du fémur ?",
+      "c": 12,
       "options": [
         {
           "t": "Semi-membraneux",
@@ -13273,6 +13444,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles participe à la rotation externe du genou ?",
+      "c": 12,
       "options": [
         {
           "t": "Biceps fémoral",
@@ -13295,6 +13467,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est innervé par le nerf sciatique ?",
+      "c": 10,
       "options": [
         {
           "t": "Grand adducteur",
@@ -13317,6 +13490,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des nerfs suivants est une ramification du nerf sciatique ?",
+      "c": 12,
       "options": [
         {
           "t": "Tibial",
@@ -13339,6 +13513,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles NE présente PAS d'origine/insertion sur la tête de la fibula ?",
+      "c": 14,
       "options": [
         {
           "t": "Long fléchisseur de l'hallux",
@@ -13361,6 +13536,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelles sont les origines/insertions du muscle long fléchisseur de l'hallux ?",
+      "c": 14,
       "options": [
         {
           "t": "Fibula → phalange distale de l'hallux",
@@ -13383,6 +13559,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles s'insère dans la fosse trochantérique ?",
+      "c": 10,
       "options": [
         {
           "t": "Obturateur externe",
@@ -13405,6 +13582,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est rotateur interne de la hanche ?",
+      "c": 10,
       "options": [
         {
           "t": "Petit glutéal",
@@ -13427,6 +13605,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les articulations métatarso-phalangiennes sont de type :",
+      "c": 13,
       "options": [
         {
           "t": "Condylienne",
@@ -13449,6 +13628,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament se trouve sur la face antérieure de l'articulation coxo-fémorale ?",
+      "c": 9,
       "options": [
         {
           "t": "Ilio-fémoral",
@@ -13471,6 +13651,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles suivants réalise l'inversion du pied ?",
+      "c": 14,
       "options": [
         {
           "t": "Tibial postérieur, long fléchisseur de l'hallux et des orteils",
@@ -13493,6 +13674,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles participe à l'adduction des orteils ?",
+      "c": 15,
       "options": [
         {
           "t": "Interosseux plantaires",
@@ -13515,6 +13697,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament renforce la partie latérale de l'articulation de la cheville ?",
+      "c": 13,
       "options": [
         {
           "t": "Ligament talo-fibulaire antérieur",
@@ -13537,6 +13720,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est innervé par le nerf obturateur ?",
+      "c": 10,
       "options": [
         {
           "t": "Obturateur externe",
@@ -13559,6 +13743,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle action de la hanche réalise le muscle moyen glutéal ?",
+      "c": 10,
       "options": [
         {
           "t": "Abduction",
@@ -13581,6 +13766,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles suivants s'insère sur le petit trochanter du fémur ?",
+      "c": 10,
       "options": [
         {
           "t": "Psoas-iliaque",
@@ -13603,6 +13789,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est moteur de l'articulation de la hanche ET de l'articulation du genou ?",
+      "c": 12,
       "options": [
         {
           "t": "Gracile",
@@ -13625,6 +13812,7 @@ const QUESTIONS = {
     },
     {
       "q": "Par combien d'articulations l'atlas et l'axis sont-ils articulés ?",
+      "c": 1,
       "options": [
         {
           "t": "3 articulations",
@@ -13647,6 +13835,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation de type selle présente :",
+      "c": 1,
       "options": [
         {
           "t": "2 degrés de liberté",
@@ -13669,6 +13858,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces structures se trouve sur la face interne (pelvienne) de l'os coxal ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligne arquée",
@@ -13691,6 +13881,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vers où s'orientent les processus articulaires supérieurs des vertèbres lombaires ?",
+      "c": 1,
       "options": [
         {
           "t": "En dedans et en arrière (facettes concaves)",
@@ -13713,6 +13904,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la partie supérieure de l'abdomen, le feuillet antérieur de la gaine du muscle droit est composé :",
+      "c": 7,
       "options": [
         {
           "t": "De l'aponévrose de l'oblique externe et de l'oblique interne",
@@ -13735,6 +13927,7 @@ const QUESTIONS = {
     },
     {
       "q": "La facette articulaire postérieure de la dent de l'axis s'articule avec :",
+      "c": 1,
       "options": [
         {
           "t": "Le ligament transverse de l'atlas",
@@ -13757,6 +13950,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sont considérées comme vraies côtes celles qui :",
+      "c": 1,
       "options": [
         {
           "t": "Rejoignent le sternum par leur propre cartilage costal",
@@ -13779,6 +13973,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la correspondance articulation–type qui est FAUSSE :",
+      "c": 1,
       "options": [
         {
           "t": "Articulation des corps vertébraux = plane",
@@ -13801,6 +13996,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces structures NE s'articule PAS avec le manubrium du sternum ?",
+      "c": 1,
       "options": [
         {
           "t": "La 3e côte",
@@ -13823,6 +14019,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'atlas s'articule supérieurement avec :",
+      "c": 1,
       "options": [
         {
           "t": "Les condyles occipitaux",
@@ -13845,6 +14042,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces structures NE se trouve PAS sur la partie postérieure du sacrum ?",
+      "c": 1,
       "options": [
         {
           "t": "Promontoire",
@@ -13867,6 +14065,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez le muscle le plus profond du plancher pelvien :",
+      "c": 8,
       "options": [
         {
           "t": "Élévateur de l'anus",
@@ -13889,6 +14088,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la caractéristique des vertèbres thoraciques ?",
+      "c": 1,
       "options": [
         {
           "t": "Facettes articulaires costales sur les processus transverses",
@@ -13911,6 +14111,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles ne présente pas d'insertion sur la scapula ?",
+      "c": 4,
       "options": [
         {
           "t": "Scalène postérieur",
@@ -13933,6 +14134,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la bonne réponse à propos des nerfs crâniens :",
+      "c": 4,
       "options": [
         {
           "t": "Le XI (accessoire) innerve le sternocléidomastoïdien et le trapèze",
@@ -13955,6 +14157,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles présente une origine différente des autres ?",
+      "c": 3,
       "options": [
         {
           "t": "Multifide",
@@ -13977,6 +14180,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le sternocléidomastoïdien n'intervient pas dans :",
+      "c": 4,
       "options": [
         {
           "t": "L'extension de la tête",
@@ -13999,6 +14203,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse FAUSSE à propos du diaphragme :",
+      "c": 6,
       "options": [
         {
           "t": "Il sépare la cavité abdominale du pelvis",
@@ -14021,6 +14226,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément n'est PAS en relation avec le processus épineux ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament longitudinal postérieur",
@@ -14043,6 +14249,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces ligaments est le plus postérieur ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament inter-épineux",
@@ -14065,6 +14272,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément participe à la formation du ligament cruciforme de l'atlas ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament transverse",
@@ -14087,6 +14295,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles s'insère sur le processus mastoïde ?",
+      "c": 3,
       "options": [
         {
           "t": "Longissimus de la tête",
@@ -14109,6 +14318,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles ne présente pas d'insertion sur l'os occipital ?",
+      "c": 3,
       "options": [
         {
           "t": "Longissimus de la tête",
@@ -14131,6 +14341,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles sous-occipitaux effectue une rotation de la tête ?",
+      "c": 3,
       "options": [
         {
           "t": "Oblique inférieur de la tête",
@@ -14153,6 +14364,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles effectue une rotation du tronc vers la droite ?",
+      "c": 7,
       "options": [
         {
           "t": "L'oblique externe gauche",
@@ -14175,6 +14387,7 @@ const QUESTIONS = {
     },
     {
       "q": "La crête sacrale latérale est formée par la fusion de :",
+      "c": 1,
       "options": [
         {
           "t": "Processus transversaux",
@@ -14197,6 +14410,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles n'effectue pas l'élévation de la mandibule ?",
+      "c": 5,
       "options": [
         {
           "t": "Ptérygoïde latéral",
@@ -14219,6 +14433,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'ordre des muscles du dos du plus profond au plus superficiel :",
+      "c": 3,
       "options": [
         {
           "t": "Iliocostal, petit rhomboïde et trapèze",
@@ -14241,6 +14456,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos du grand dorsal, indiquez la réponse FAUSSE :",
+      "c": 3,
       "options": [
         {
           "t": "Insertion sur la scapula",
@@ -14263,6 +14479,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel n'appartient pas au système transversaire-épineux ?",
+      "c": 3,
       "options": [
         {
           "t": "Épineux",
@@ -14285,6 +14502,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel n'intervient pas dans l'inspiration ?",
+      "c": 6,
       "options": [
         {
           "t": "Droit abdominal",
@@ -14307,6 +14525,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans l'os coxal, quelle structure se trouve entre la grande et la petite échancrure ischiatique ?",
+      "c": 1,
       "options": [
         {
           "t": "L'épine ischiatique",
@@ -14329,6 +14548,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez lequel de ces muscles présente une insertion commune sur le pubis :",
+      "c": 7,
       "options": [
         {
           "t": "Transverse et oblique interne",
@@ -14351,6 +14571,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles n'est pas innervé par les rameaux dorsaux du nerf spinal ?",
+      "c": 3,
       "options": [
         {
           "t": "Trapèze",
@@ -14373,6 +14594,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle région de la colonne les corps vertébraux présentent-ils des processus unciformes qui s'articulent avec la vertèbre sus-jacente ?",
+      "c": 1,
       "options": [
         {
           "t": "Cervicale",
@@ -14395,6 +14617,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les 8e, 9e et 10e paires de côtes sont appelées :",
+      "c": 1,
       "options": [
         {
           "t": "Fausses côtes",
@@ -14417,6 +14640,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle s'étend depuis l'angle des 6 dernières côtes vers l'angle des 6 premières côtes ?",
+      "c": 3,
       "options": [
         {
           "t": "Ilio-costal thoracique",
@@ -14439,6 +14663,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle de la région postérieure du cou est situé dans le plan le plus profond ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit droit postérieur de la tête",
@@ -14461,6 +14686,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez le nom des deux sutures suivantes : entre l'os frontal et les pariétaux, et entre les deux pariétaux.",
+      "c": 2,
       "options": [
         {
           "t": "Suture coronale et sagittale",
@@ -14483,6 +14709,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les os suivants, lesquels contribuent à la formation de l'orbite ?",
+      "c": 2,
       "options": [
         {
           "t": "Frontal, maxillaire, zygomatique, sphénoïde, ethmoïde, lacrymal et palatin",
@@ -14505,6 +14732,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quels muscles ont leur origine sur la mandibule ?",
+      "c": 4,
       "options": [
         {
           "t": "Génio-hyoïdien, mylo-hyoïdien et ventre antérieur du digastrique",
@@ -14527,6 +14755,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi ces muscles, lequel est innervé par une branche du nerf trijumeau ?",
+      "c": 5,
       "options": [
         {
           "t": "Temporal",
@@ -14549,6 +14778,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos du muscle diaphragme, indiquez la réponse correcte :",
+      "c": 6,
       "options": [
         {
           "t": "Il s'insère sur le centre phrénique et c'est le principal muscle inspirateur",
@@ -14571,6 +14801,7 @@ const QUESTIONS = {
     },
     {
       "q": "Entre la face interne d'une côte et la face interne de la 2e ou 3e côte inférieure se situent les muscles :",
+      "c": 6,
       "options": [
         {
           "t": "Subcostaux",
@@ -14593,6 +14824,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles du plancher pelvien, lequel est situé dans le plan le plus superficiel (inférieur) ?",
+      "c": 8,
       "options": [
         {
           "t": "Muscle bulbo-spongieux",
@@ -14615,6 +14847,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle fonction importante réalisent beaucoup de muscles du plancher pelvien ?",
+      "c": 8,
       "options": [
         {
           "t": "Soutien des viscères pelviens",
@@ -14637,6 +14870,7 @@ const QUESTIONS = {
     },
     {
       "q": "Choisissez l'affirmation VRAIE à propos des muscles obturateurs :",
+      "c": 10,
       "options": [
         {
           "t": "L'obturateur externe s'attache à la face extra-pelvienne de la membrane obturatrice",
@@ -14659,6 +14893,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament se tend lors de l'extension de la cuisse, limitant ce mouvement ?",
+      "c": 9,
       "options": [
         {
           "t": "Ligament ilio-fémoral",
@@ -14681,6 +14916,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces éléments NE contribue PAS à former le détroit pelvien supérieur ?",
+      "c": 1,
       "options": [
         {
           "t": "Branche ischio-pubienne",
@@ -14703,6 +14939,7 @@ const QUESTIONS = {
     },
     {
       "q": "Du plus superficiel au plus profond, quel est l'ordre correct de ces muscles du dos ?",
+      "c": 3,
       "options": [
         {
           "t": "Trapèze, Dentelés postérieurs, Longissimus, Multifides, Rotateurs",
@@ -14725,6 +14962,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles prend son origine ou s'insère sur la colonne vertébrale ?",
+      "c": 3,
       "options": [
         {
           "t": "Grand dorsal",
@@ -14747,6 +14985,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces articulations est renforcée par un ligament radié antérieur et un ligament radié postérieur ?",
+      "c": 1,
       "options": [
         {
           "t": "Sternocostale",
@@ -14769,6 +15008,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles N'est PAS un transversaire-épineux ?",
+      "c": 3,
       "options": [
         {
           "t": "Inter-épineux",
@@ -14791,6 +15031,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles se trouve dans le plan moyen (diaphragme uro-génital) du périnée ?",
+      "c": 8,
       "options": [
         {
           "t": "Transverse profond du périnée",
@@ -14813,6 +15054,7 @@ const QUESTIONS = {
     },
     {
       "q": "La ligne blanche est formée par l'aponévrose des muscles :",
+      "c": 7,
       "options": [
         {
           "t": "Oblique externe, oblique interne et transverse de l'abdomen",
@@ -14835,6 +15077,7 @@ const QUESTIONS = {
     },
     {
       "q": "La mandibule s'articule avec lequel des os suivants ?",
+      "c": 5,
       "options": [
         {
           "t": "Temporal",
@@ -14857,6 +15100,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces régions de la colonne forme une cyphose ?",
+      "c": 1,
       "options": [
         {
           "t": "Thoracique",
@@ -14879,6 +15123,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles appartient au plan profond de la région postérieure du cou ?",
+      "c": 3,
       "options": [
         {
           "t": "Oblique supérieur de la tête",
@@ -14901,6 +15146,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction du muscle dentelé postérieur supérieur ?",
+      "c": 3,
       "options": [
         {
           "t": "Il participe à l'inspiration",
@@ -14923,6 +15169,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles participe à la rotation controlatérale du cou ?",
+      "c": 4,
       "options": [
         {
           "t": "Sterno-cléido-mastoïdien",
@@ -14945,6 +15192,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles verra sa fonction affectée en cas de lésion du nerf trijumeau (Ve paire) ?",
+      "c": 5,
       "options": [
         {
           "t": "Ptérygoïdien latéral",
@@ -14967,6 +15215,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez la réponse CORRECTE à propos de l'os coxal :",
+      "c": 1,
       "options": [
         {
           "t": "La crête iliaque se termine en avant et en arrière par une épine iliaque supérieure",
@@ -14989,6 +15238,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos du muscle oblique externe de l'abdomen, indiquez la réponse CORRECTE :",
+      "c": 7,
       "options": [
         {
           "t": "Toutes les réponses sont vraies",
@@ -15011,6 +15261,7 @@ const QUESTIONS = {
     },
     {
       "q": "Sur laquelle de ces structures le diaphragme NE s'origine-t-il PAS ?",
+      "c": 6,
       "options": [
         {
           "t": "Processus transverse de la vertèbre T12",
@@ -15033,6 +15284,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des éléments suivants est caractéristique des processus transverses des vertèbres cervicales ?",
+      "c": 1,
       "options": [
         {
           "t": "Foramen transverse",
@@ -15055,6 +15307,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles intercostaux suivants est le plus superficiel ?",
+      "c": 6,
       "options": [
         {
           "t": "Intercostaux externes",
@@ -15077,6 +15330,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les articulations des corps vertébraux sont un exemple de :",
+      "c": 1,
       "options": [
         {
           "t": "Symphyse",
@@ -15099,6 +15353,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles s'insère sur la ligne nuchale inférieure de l'os occipital ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit droit postérieur de la tête",
@@ -15121,6 +15376,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'association CORRECTE entre muscle masticateur et action :",
+      "c": 5,
       "options": [
         {
           "t": "Ptérygoïdien médial → élévation de la mandibule",
@@ -15143,6 +15399,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles infra-hyoïdiens est le plus superficiel ?",
+      "c": 4,
       "options": [
         {
           "t": "Sterno-hyoïdien",
@@ -15165,6 +15422,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles suivants NE s'insère PAS sur le centre tendineux (corps) du périnée ?",
+      "c": 8,
       "options": [
         {
           "t": "Ischio-caverneux",
@@ -15187,6 +15445,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles suivants est un faisceau du muscle élévateur de l'anus ?",
+      "c": 8,
       "options": [
         {
           "t": "Faisceau pubo-coccygien",
@@ -15209,6 +15468,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament bifurqué (en Y de Chopart) n'est PAS fixé sur l'un de ces os :",
+      "c": 13,
       "options": [
         {
           "t": "Talus (astragale)",
@@ -15231,6 +15491,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles suivants provoque l'abduction de la hanche ?",
+      "c": 10,
       "options": [
         {
           "t": "Piriforme",
@@ -15253,6 +15514,7 @@ const QUESTIONS = {
     },
     {
       "q": "En ce qui concerne le muscle quadriceps fémoral, laquelle de ces affirmations est correcte ?",
+      "c": 12,
       "options": [
         {
           "t": "Le droit fémoral naît de l'épine iliaque antéro-inférieure",
@@ -15275,6 +15537,7 @@ const QUESTIONS = {
     },
     {
       "q": "La suture lambdoïde est établie entre les os :",
+      "c": 2,
       "options": [
         {
           "t": "Pariétal et occipital",
@@ -15297,6 +15560,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des muscles suivants est inspirateur ?",
+      "c": 3,
       "options": [
         {
           "t": "Dentelé postérieur supérieur",
@@ -15319,6 +15583,7 @@ const QUESTIONS = {
     },
     {
       "q": "La patte d'oie superficielle est formée par les muscles :",
+      "c": 12,
       "options": [
         {
           "t": "Sartorius, gracile et semi-tendineux",
@@ -15341,6 +15606,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle s'insère sur l'épine iliaque antéro-supérieure ?",
+      "c": 12,
       "options": [
         {
           "t": "Sartorius",
@@ -15363,6 +15629,7 @@ const QUESTIONS = {
     },
     {
       "q": "Face à une diminution de la force d'adduction de la cuisse, on doit penser à une lésion du nerf :",
+      "c": 10,
       "options": [
         {
           "t": "Obturateur",
@@ -15385,6 +15652,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel mouvement de l'articulation du genou n'est PAS limité par les ligaments croisés ?",
+      "c": 11,
       "options": [
         {
           "t": "Rotation externe",
@@ -26941,6 +27209,7 @@ const QUESTIONS = {
   "anat2": [
     {
       "q": "Une violoniste de 28 ans consulte pour douleur antérieure d'épaule. À l'examen, vous testez la flexion résistée du bras et palpez un muscle qui s'insère sur la diaphyse humérale et naît du processus coracoïde. Quel muscle suspectez-vous ?",
+      "c": 4,
       "options": [
         {
           "t": "Coraco-brachial",
@@ -26963,6 +27232,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un peintre de 45 ans présente une douleur sur le bord ulnaire du poignet, aggravée par les mouvements de déviation ulnaire. Vous pensez à une atteinte d'un muscle qui s'insère sur la base du 5e métacarpien et naît de l'épicondyle latéral. Lequel ?",
+      "c": 6,
       "options": [
         {
           "t": "Extenseur ulnaire du carpe",
@@ -26985,6 +27255,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un examen pour suspicion de syndrome du canal carpien, un étudiant en kinésithérapie doit identifier le muscle le plus profond du compartiment antérieur de l'avant-bras. Quelle est la bonne réponse ?",
+      "c": 6,
       "options": [
         {
           "t": "Carré pronateur",
@@ -27007,6 +27278,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient de 35 ans présente une faiblesse de l'abduction du 5e doigt après un traumatisme du poignet. Quel muscle est testé par ce mouvement spécifique ?",
+      "c": 7,
       "options": [
         {
           "t": "Abducteur du 5e doigt",
@@ -27029,6 +27301,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une couturière de 52 ans consulte pour faiblesse de la flexion-adduction du 2e doigt. Vous suspectez une atteinte d'un muscle naissant du 2e métacarpien. Lequel est responsable de ce déficit ?",
+      "c": 7,
       "options": [
         {
           "t": "1er interosseux palmaire",
@@ -27051,6 +27324,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une dissection, un étudiant identifie un muscle naissant des tendons du fléchisseur profond des doigts et s'insérant sur le tendon extenseur correspondant. De quel groupe musculaire s'agit-il ?",
+      "c": 7,
       "options": [
         {
           "t": "Lombricaux",
@@ -27073,6 +27347,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient consulte pour difficulté à étendre l'index isolément lors d'une activité de pointage. Quel muscle est spécifiquement responsable de l'extension indépendante de l'index ?",
+      "c": 6,
       "options": [
         {
           "t": "Extenseur de l'index",
@@ -27095,6 +27370,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un boxeur de 24 ans présente une faiblesse marquée de l'abduction du poignet (déviation radiale). Quel couple musculaire est principalement testé ?",
+      "c": 6,
       "options": [
         {
           "t": "Long extenseur radial du carpe et long abducteur du pouce",
@@ -27117,6 +27393,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pendant l'examen d'un joueur de tennis présentant une épicondylite latérale, vous évaluez les muscles épicondyliens latéraux. Lequel des muscles suivants ne naît PAS de l'épicondyle latéral ?",
+      "c": 6,
       "options": [
         {
           "t": "Long extenseur du pouce",
@@ -27139,6 +27416,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une violoniste de 31 ans présente une douleur épitrochléenne. Vous explorez les muscles épicondyliens médiaux. Lequel des muscles suivants ne fait PAS partie des épicondyliens médiaux classiques ?",
+      "c": 6,
       "options": [
         {
           "t": "Brachio-radial",
@@ -27161,6 +27439,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient de 40 ans tombe sur la main en pronation forcée et présente une luxation de la tête radiale. Quelle structure ligamentaire est principalement déchirée ?",
+      "c": 2,
       "options": [
         {
           "t": "Ligament annulaire",
@@ -27183,6 +27462,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une chute sur la main en extension, un patient se fracture le pisiforme. Sur quel os repose anatomiquement le pisiforme dans la rangée proximale du carpe ?",
+      "c": 5,
       "options": [
         {
           "t": "Triquétrum",
@@ -27205,6 +27485,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant doit identifier l'os du carpe le plus latéral de la rangée proximale, fréquemment fracturé lors d'une chute sur la paume. De quel os s'agit-il ?",
+      "c": 5,
       "options": [
         {
           "t": "Scaphoïde",
@@ -27227,6 +27508,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour identifier les os de la rangée distale du carpe, un étudiant doit éliminer un intrus. Quel os n'appartient PAS à la rangée distale du carpe ?",
+      "c": 5,
       "options": [
         {
           "t": "Lunatum",
@@ -27249,6 +27531,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente de 60 ans présente une rhizarthrose. Cette atteinte concerne quelle articulation et de quel type est-elle ?",
+      "c": 5,
       "options": [
         {
           "t": "Trapézo-métacarpienne du pouce, en selle",
@@ -27271,6 +27554,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une diminution de la rotation médiale active de l'épaule. Parmi les muscles suivants, lequel n'est PAS un rotateur médial du bras ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit rond",
@@ -27293,6 +27577,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient de 50 ans présente une rupture de la coiffe des rotateurs. Parmi les muscles suivants, lequel ne fait PAS partie de la coiffe ?",
+      "c": 3,
       "options": [
         {
           "t": "Grand rond",
@@ -27315,6 +27600,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un nageur de 19 ans présente une faiblesse à l'abduction au-delà des 15 premiers degrés. Quel muscle est principalement responsable de l'initiation de l'abduction du bras ?",
+      "c": 3,
       "options": [
         {
           "t": "Supra-épineux",
@@ -27337,6 +27623,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un mécanicien de 38 ans présente une douleur sur la face latérale de l'humérus avec déficit d'abduction. Quelle innervation est probablement compromise ?",
+      "c": 8,
       "options": [
         {
           "t": "Nerf axillaire",
@@ -27359,6 +27646,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une chute sur l'épaule, un cycliste présente une fracture-décollement de l'extrémité latérale de la clavicule avec atteinte ligamentaire. Quels ligaments stabilisent normalement la clavicule à la coracoïde ?",
+      "c": 1,
       "options": [
         {
           "t": "Trapézoïde et conoïde",
@@ -27381,6 +27669,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cours d'arthrologie demande d'identifier le type articulaire de l'articulation acromio-claviculaire. Quelle est la bonne classification ?",
+      "c": 1,
       "options": [
         {
           "t": "Arthrodie",
@@ -27403,6 +27692,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un médecin du sport explique à un patient le type articulaire de l'épaule. Quel est le type morphologique de l'articulation gléno-humérale ?",
+      "c": 1,
       "options": [
         {
           "t": "Énarthrose",
@@ -27425,6 +27715,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous devez identifier le ligament qui transforme le sillon intertuberculaire en un véritable canal pour le tendon du chef long du biceps. Lequel est-ce ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament transverse huméral",
@@ -27447,6 +27738,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une instabilité antérieure de l'épaule. Quel ligament gléno-huméral est principalement lésé dans les luxations antéro-inférieures ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament gléno-huméral inférieur",
@@ -27469,6 +27761,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une faiblesse à la protraction de la scapula et un \"scapula alata\" (omoplate décollée). Quel muscle est probablement déficient ?",
+      "c": 3,
       "options": [
         {
           "t": "Dentelé antérieur",
@@ -27491,6 +27784,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf assure l'innervation du dentelé antérieur, et quelles racines fournit-il ?",
+      "c": 8,
       "options": [
         {
           "t": "Nerf thoracique long, C5-C6-C7",
@@ -27513,6 +27807,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une faiblesse du triceps brachial après un traumatisme. Quel nerf est probablement atteint ?",
+      "c": 8,
       "options": [
         {
           "t": "Nerf radial",
@@ -27535,6 +27830,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un examen, le clinicien teste l'opposition du pouce. Quel muscle réalise principalement ce mouvement et quelle est son innervation ?",
+      "c": 7,
       "options": [
         {
           "t": "Opposant du pouce, nerf médian",
@@ -27557,6 +27853,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient consulte pour faiblesse de la flexion du coude en position de pronation maximale. Quel muscle est principalement testé ?",
+      "c": 4,
       "options": [
         {
           "t": "Brachial antérieur",
@@ -27579,6 +27876,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant doit identifier le muscle qui réalise la supination de l'avant-bras lorsque le coude est en extension complète. Lequel est-ce ?",
+      "c": 6,
       "options": [
         {
           "t": "Supinateur",
@@ -27601,6 +27899,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient avec une lésion du nerf radial conserve néanmoins une supination active. Quel muscle suppléé cette fonction ?",
+      "c": 4,
       "options": [
         {
           "t": "Biceps brachial",
@@ -27623,6 +27922,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une chirurgienne de 33 ans souffre d'un syndrome du canal carpien. Quelle structure traverse ce canal ?",
+      "c": 5,
       "options": [
         {
           "t": "Nerf médian et tendons des fléchisseurs des doigts",
@@ -27645,6 +27945,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle de la coiffe des rotateurs occupe la face antérieure de la scapula et réalise une rotation médiale du bras ?",
+      "c": 3,
       "options": [
         {
           "t": "Sous-scapulaire",
@@ -27667,6 +27968,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant doit identifier le faisceau du deltoïde responsable de l'abduction pure du bras. Lequel est-ce ?",
+      "c": 3,
       "options": [
         {
           "t": "Faisceau moyen (acromial)",
@@ -27689,6 +27991,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une faiblesse d'élévation de la scapula. Quel muscle parmi les suivants n'est PAS un élévateur de la scapula ?",
+      "c": 3,
       "options": [
         {
           "t": "Dentelé antérieur",
@@ -27711,6 +28014,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cours d'anatomie palpatoire mentionne l'insertion humérale commune à trois muscles dans le sillon intertuberculaire. Lequel des muscles suivants ne s'y insère PAS ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit rond",
@@ -27733,6 +28037,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une faiblesse d'extension du coude et une chute du poignet (\"main tombante\"). Quel nerf est lésé ?",
+      "c": 8,
       "options": [
         {
           "t": "Nerf radial",
@@ -27755,6 +28060,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une main en griffe ulnaire après section au coude. Quel territoire moteur est atteint ?",
+      "c": 8,
       "options": [
         {
           "t": "Interosseux, lombricaux médiaux et adducteur du pouce",
@@ -27777,6 +28083,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant doit identifier l'articulation du coude qui assure principalement la prono-supination. Laquelle ?",
+      "c": 2,
       "options": [
         {
           "t": "Radio-ulnaire proximale",
@@ -27799,6 +28106,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel est le type morphologique de l'articulation huméro-radiale du coude ?",
+      "c": 2,
       "options": [
         {
           "t": "Énarthrose",
@@ -27821,6 +28129,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un kinésithérapeute travaille la mobilité du poignet d'un patient post-fracture. Quel est le type morphologique de l'articulation radio-carpienne ?",
+      "c": 5,
       "options": [
         {
           "t": "Condylienne",
@@ -27843,6 +28152,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament du coude renforce la face antérieure de l'articulation ?",
+      "c": 2,
       "options": [
         {
           "t": "Ligament collatéral radial",
@@ -27865,6 +28175,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous palpez la fosse infra-épineuse à la recherche d'une atrophie. Quel muscle naît du bord axillaire de cette fosse et s'insère sur le tubercule majeur ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit rond",
@@ -27887,6 +28198,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une faiblesse de la pronation. Quel couple musculaire réalise principalement ce mouvement ?",
+      "c": 6,
       "options": [
         {
           "t": "Rond pronateur et carré pronateur",
@@ -27909,6 +28221,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quel muscle possède une tête longue née du tubercule infraglénoïdien de la scapula, une tête latérale et une tête médiale nées de la face postérieure de l'humérus, et se termine sur l'olécrane ?",
+      "c": 4,
       "options": [
         {
           "t": "Triceps brachial",
@@ -27931,6 +28244,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une chute, un patient se fracture l'extrémité distale du radius (fracture de Pouteau-Colles). Quelle articulation est principalement affectée fonctionnellement ?",
+      "c": 5,
       "options": [
         {
           "t": "Radio-carpienne",
@@ -27953,6 +28267,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous examinez un patient avec une suspicion de tendinopathie du chef long du biceps. Où naît ce tendon ?",
+      "c": 4,
       "options": [
         {
           "t": "Tubercule supra-glénoïdien de la scapula",
@@ -27975,6 +28290,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un athlète de 26 ans présente une rupture distale du biceps brachial. Sur quelle structure se termine ce tendon distal ?",
+      "c": 4,
       "options": [
         {
           "t": "Tubérosité bicipitale du radius",
@@ -27997,6 +28313,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament du coude renforce spécifiquement la face inférieure de la capsule entre l'ulna et le radius ?",
+      "c": 2,
       "options": [
         {
           "t": "Ligament carré",
@@ -28019,6 +28336,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient sportif présente une lésion isolée du nerf musculo-cutané. Quel déficit moteur attendez-vous ?",
+      "c": 8,
       "options": [
         {
           "t": "Faiblesse de la flexion du coude et de la supination",
@@ -28041,6 +28359,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle, naissant de l'angle inférieur de la fosse infra-épineuse, s'insère dans le sillon intertuberculaire et participe à la rotation médiale ?",
+      "c": 3,
       "options": [
         {
           "t": "Grand rond",
@@ -28063,6 +28382,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant doit identifier le contenu de la paroi postérieure du creux axillaire. Quels muscles forment cette paroi ?",
+      "c": 3,
       "options": [
         {
           "t": "Sous-scapulaire, grand dorsal et grand rond",
@@ -28085,6 +28405,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une diminution de la force de descente de la scapula et d'élévation forcée du thorax. Quel muscle est probablement déficient ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit pectoral",
@@ -28107,6 +28428,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle naît de la 1ère côte et s'insère sur la clavicule, avec un rôle de stabilisation sterno-claviculaire ?",
+      "c": 3,
       "options": [
         {
           "t": "Sous-clavier",
@@ -28129,6 +28451,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un examen demande d'identifier les muscles s'insérant sur la scapula. Parmi les suivants, lequel ne s'insère PAS sur la scapula ?",
+      "c": 3,
       "options": [
         {
           "t": "Scalène postérieur",
@@ -28151,6 +28474,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous examinez un patient avec faiblesse d'opposition du 5e doigt. Quel muscle hypothénar est responsable et quelle est son origine ?",
+      "c": 7,
       "options": [
         {
           "t": "Opposant du 5e doigt, origine sur l'hamatum",
@@ -28173,6 +28497,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une déficit d'abduction de l'index. Quel muscle est testé ?",
+      "c": 7,
       "options": [
         {
           "t": "1er interosseux dorsal",
@@ -28195,6 +28520,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez un blessé avec une faiblesse de la flexion du pouce. Quel muscle est responsable de la flexion de la phalange distale du pouce ?",
+      "c": 6,
       "options": [
         {
           "t": "Long fléchisseur du pouce",
@@ -28217,6 +28543,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient avec section du nerf médian au poignet présente une faiblesse marquée de l'opposition du pouce. Quelle innervation correspond aux muscles thénariens principalement touchés ?",
+      "c": 8,
       "options": [
         {
           "t": "Court abducteur, opposant et chef superficiel du court fléchisseur du pouce",
@@ -28239,6 +28566,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cours d'arthrologie demande le type articulaire de la sterno-claviculaire. Quelle est la bonne réponse ?",
+      "c": 1,
       "options": [
         {
           "t": "En selle (sellaire)",
@@ -28261,6 +28589,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une chute provoque une fracture du processus coronoïde de l'ulna. Quel muscle s'y insère et risque d'être affecté ?",
+      "c": 4,
       "options": [
         {
           "t": "Brachial antérieur",
@@ -28283,6 +28612,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament du poignet renforce la face dorsale de l'articulation radio-carpienne ?",
+      "c": 5,
       "options": [
         {
           "t": "Ligament radio-carpien dorsal",
@@ -28305,6 +28635,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient a un déficit du long abducteur du pouce. Quelle est l'action principale de ce muscle ?",
+      "c": 6,
       "options": [
         {
           "t": "Abduction du 1er métacarpien",
@@ -28327,6 +28658,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'un examen, vous testez l'extension de P1 du pouce. Quel muscle est principalement responsable ?",
+      "c": 6,
       "options": [
         {
           "t": "Court extenseur du pouce",
@@ -28349,6 +28681,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une chute du poignet. Quel groupe musculaire est paralysé ?",
+      "c": 8,
       "options": [
         {
           "t": "Extenseurs du carpe (radiaux et ulnaire)",
@@ -28371,6 +28704,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un médecin teste la flexion résistée du poignet en déviation radiale. Quel muscle est principalement sollicité ?",
+      "c": 6,
       "options": [
         {
           "t": "Fléchisseur radial du carpe",
@@ -28393,6 +28727,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle naît de l'humérus (bord latéral, en dehors de l'épicondyle) et s'insère sur l'apophyse styloïde du radius ?",
+      "c": 6,
       "options": [
         {
           "t": "Brachio-radial",
@@ -28415,6 +28750,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle pronateur s'insère sur la face antérieure du radius (1/3 moyen) en venant de l'épicondyle médial ?",
+      "c": 6,
       "options": [
         {
           "t": "Rond pronateur",
@@ -28437,6 +28773,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une faiblesse de l'extension du petit doigt isolément. Quel muscle est testé ?",
+      "c": 6,
       "options": [
         {
           "t": "Extenseur du petit doigt",
@@ -28459,6 +28796,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient avec une lésion C5-C6 (Erb-Duchenne) présente une attitude de \"pourboire\". Quels muscles sont principalement paralysés ?",
+      "c": 8,
       "options": [
         {
           "t": "Deltoïde, biceps, brachial antérieur",
@@ -28481,6 +28819,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une joueuse de tennis présente des troubles d'extension après un coup mal géré. Quel muscle ne fait pas partie des muscles épicondyliens latéraux ?",
+      "c": 6,
       "options": [
         {
           "t": "Long extenseur du pouce",
@@ -28503,6 +28842,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle de l'avant-bras prend son origine à un niveau supra-épicondylien (au-dessus de l'épicondyle latéral) ?",
+      "c": 6,
       "options": [
         {
           "t": "Brachio-radial",
@@ -28525,6 +28865,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un médecin examine un patient avec un déficit du long fléchisseur du pouce. Quelle est l'innervation de ce muscle ?",
+      "c": 8,
       "options": [
         {
           "t": "Nerf médian",
@@ -28547,6 +28888,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors d'une lésion du nerf médian au coude, quel muscle de l'avant-bras antérieur conserve son innervation ?",
+      "c": 8,
       "options": [
         {
           "t": "Fléchisseur ulnaire du carpe",
@@ -28569,6 +28911,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous examinez un patient avec une douleur à la palpation de l'incisure radiale de l'ulna. Quel os normal articule en regard ?",
+      "c": 2,
       "options": [
         {
           "t": "Tête du radius (circonférence)",
@@ -28591,6 +28934,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un kinésithérapeute manipule une articulation du coude raide. Quel est le degré de liberté global de l'articulation huméro-ulnaire ?",
+      "c": 2,
       "options": [
         {
           "t": "1 degré de liberté, flexion-extension",
@@ -28613,6 +28957,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un examen demande d'identifier les trois articulations du coude. Laquelle des suivantes ne fait PAS partie du complexe articulaire du coude ?",
+      "c": 2,
       "options": [
         {
           "t": "Radio-ulnaire distale",
@@ -28635,6 +28980,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lors de la pronation, le radius effectue quel mouvement par rapport à l'ulna ?",
+      "c": 2,
       "options": [
         {
           "t": "Le radius croise en avant de l'ulna",
@@ -28657,6 +29003,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel élément anatomique sépare le radius de la tête de l'ulna au niveau du poignet ?",
+      "c": 5,
       "options": [
         {
           "t": "Disque articulaire triangulaire",
@@ -28679,6 +29026,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cours mentionne les trois fonctions de la membrane interosseuse antébrachiale. Laquelle des suivantes n'en fait PAS partie ?",
+      "c": 2,
       "options": [
         {
           "t": "Limiter la pronation et la supination",
@@ -28701,6 +29049,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament protège la tête humérale de l'arche acromio-coracoïdienne mais n'a pas de rôle stabilisateur de l'épaule ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament coraco-acromial",
@@ -28723,6 +29072,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une luxation de l'épaule avec atteinte fréquente du labrum. Quel rôle joue cette structure ?",
+      "c": 1,
       "options": [
         {
           "t": "Augmente la profondeur de la cavité glénoïde",
@@ -28745,6 +29095,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un radiologue identifie une fracture du col chirurgical de l'humérus. Quel nerf est statistiquement le plus à risque dans cette zone ?",
+      "c": 8,
       "options": [
         {
           "t": "Nerf axillaire",
@@ -28767,6 +29118,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant doit citer les trois muscles qui s'insèrent sur la coracoïde. Lequel est faux ?",
+      "c": 3,
       "options": [
         {
           "t": "Sous-clavier",
@@ -28789,6 +29141,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une danseuse de 20 ans présente une faiblesse de l'élévation des dernières côtes lors d'une inspiration profonde. Quel muscle de la ceinture scapulaire participe à cette fonction ?",
+      "c": 3,
       "options": [
         {
           "t": "Grand dorsal",
@@ -28811,6 +29164,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf moteur naît directement des racines C5 du plexus brachial et innerve les rhomboïdes et l'élévateur de la scapula ?",
+      "c": 8,
       "options": [
         {
           "t": "Nerf dorsal de la scapula",
@@ -28833,6 +29187,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un kinésithérapeute teste la rotation latérale de l'épaule. Quel muscle est principalement responsable de ce mouvement ?",
+      "c": 3,
       "options": [
         {
           "t": "Infra-épineux",
@@ -28855,6 +29210,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la principale action du faisceau antérieur (claviculaire) du deltoïde ?",
+      "c": 3,
       "options": [
         {
           "t": "Flexion et rotation médiale du bras",
@@ -28877,6 +29233,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une faiblesse à la flexion d'épaule. Quels sont les muscles principaux de ce mouvement ?",
+      "c": 3,
       "options": [
         {
           "t": "Deltoïde antérieur, grand pectoral, coraco-brachial",
@@ -28899,6 +29256,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cours d'arthrologie décrit la capsule de l'épaule. Quelle caractéristique est correcte ?",
+      "c": 1,
       "options": [
         {
           "t": "Capsule lâche autorisant une grande mobilité",
@@ -28921,6 +29279,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle assure principalement l'adduction du bras lors d'un mouvement de \"développé-couché\" ?",
+      "c": 3,
       "options": [
         {
           "t": "Grand pectoral",
@@ -28943,6 +29302,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente un déficit de flexion et adduction de l'épaule. Quel muscle de petit calibre, naissant de la coracoïde, peut être impliqué ?",
+      "c": 4,
       "options": [
         {
           "t": "Coraco-brachial",
@@ -28965,6 +29325,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel ligament accessoire (en dehors de la capsule) renforce l'articulation sterno-claviculaire ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament costo-claviculaire",
@@ -28987,6 +29348,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cours décrit le contenu de la fosse axillaire. Quel élément n'y passe PAS ?",
+      "c": 3,
       "options": [
         {
           "t": "Nerf phrénique",
@@ -29009,6 +29371,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un médecin du sport teste la stabilité du coude en valgus. Quel ligament est principalement évalué ?",
+      "c": 2,
       "options": [
         {
           "t": "Ligament collatéral ulnaire",
@@ -29031,6 +29394,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours d'ostéo-arthrologie du poignet, quelle articulation porte les mouvements de flexion-extension, abduction-adduction et circumduction ?",
+      "c": 5,
       "options": [
         {
           "t": "Articulation radio-carpienne",
@@ -29053,6 +29417,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un étudiant doit identifier l'insertion latérale du rétinaculum des fléchisseurs au poignet. Quels os ?",
+      "c": 5,
       "options": [
         {
           "t": "Scaphoïde et trapèze",
@@ -29075,6 +29440,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient avec un canal carpien sévère présente une atrophie thénarienne. Quel muscle thénarien conserve son innervation (ulnaire) ?",
+      "c": 7,
       "options": [
         {
           "t": "Adducteur du pouce",
@@ -29097,6 +29463,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est le plus superficiel de l'éminence hypothénar et tend l'aponévrose palmaire ?",
+      "c": 7,
       "options": [
         {
           "t": "Court palmaire",
@@ -29119,6 +29486,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un musicien se plaint d'une faiblesse à la flexion de P2 des doigts longs. Quel muscle est principalement testé ?",
+      "c": 6,
       "options": [
         {
           "t": "Fléchisseur superficiel des doigts",
@@ -29141,6 +29509,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel test évalue spécifiquement le fléchisseur profond des doigts ?",
+      "c": 6,
       "options": [
         {
           "t": "Flexion isolée de P3, autres doigts en extension",
@@ -29163,6 +29532,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un kinésithérapeute identifie une articulation à 2 degrés de liberté (flexion-extension et abduction-adduction). Quelle articulation correspond ?",
+      "c": 5,
       "options": [
         {
           "t": "Métacarpo-phalangienne des doigts longs",
@@ -29185,6 +29555,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quelle association d'actions caractérise le biceps brachial ?",
+      "c": 4,
       "options": [
         {
           "t": "Flexion de l'avant-bras et supination de l'avant-bras",
@@ -29207,6 +29578,7 @@ const QUESTIONS = {
     },
     {
       "q": "Une patiente présente une amyotrophie du dentelé antérieur. Quel signe clinique recherchez-vous ?",
+      "c": 3,
       "options": [
         {
           "t": "Décollement du bord médial de la scapula à la poussée murale",
@@ -29229,6 +29601,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une déficit moteur après section de la branche profonde du nerf radial. Quel muscle reste indemne ?",
+      "c": 8,
       "options": [
         {
           "t": "Brachio-radial",
@@ -29251,6 +29624,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un cours mentionne le nerf interosseux antérieur (branche du médian). Quel muscle n'est PAS innervé par ce nerf ?",
+      "c": 8,
       "options": [
         {
           "t": "Rond pronateur",
@@ -29273,6 +29647,7 @@ const QUESTIONS = {
     },
     {
       "q": "Selon le cours, quels os constituent le condyle du carpe s'articulant au niveau de l'articulation radio-carpienne ?",
+      "c": 5,
       "options": [
         {
           "t": "Scaphoïde, lunatum et triquetum",
@@ -29295,6 +29670,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle articulation de la main est de type \"en selle\" ?",
+      "c": 5,
       "options": [
         {
           "t": "Trapézo-métacarpienne du pouce",
@@ -29317,6 +29693,7 @@ const QUESTIONS = {
     },
     {
       "q": "Vous évaluez un patient avec une rupture isolée du grand pectoral. Quelle attitude observez-vous au repos ?",
+      "c": 3,
       "options": [
         {
           "t": "Asymétrie du pli axillaire antérieur",
@@ -29339,6 +29716,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente une fracture de l'olécrane avec déplacement. Quel muscle est responsable du déplacement proximal du fragment ?",
+      "c": 4,
       "options": [
         {
           "t": "Triceps brachial",
@@ -29361,6 +29739,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle est testé par la flexion résistée du coude avec l'avant-bras en position semi-pronation (\"pouce au plafond\") ?",
+      "c": 6,
       "options": [
         {
           "t": "Brachio-radial",
@@ -29383,6 +29762,7 @@ const QUESTIONS = {
     },
     {
       "q": "Un patient présente, à 3 mois d'une fracture de la tête radiale, une limitation passive de la prono-supination sans déficit moteur. Quelle structure ligamentaire du cours peut expliquer cette limitation ?",
+      "c": 2,
       "options": [
         {
           "t": "Ligament carré",
@@ -29405,6 +29785,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est impliqué à la fois dans la flexion et l'adduction du 2e doigt de la main ?",
+      "c": 7,
       "options": [
         {
           "t": "Interosseux palmaire",
@@ -29427,6 +29808,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles s'étend entre l'os hamatum et le 5e métacarpien ?",
+      "c": 7,
       "options": [
         {
           "t": "L'opposant du petit doigt",
@@ -29449,6 +29831,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel muscle prend son origine sur l'épicondyle latéral de l'humérus et s'insère sur la base proximale du 5e métacarpien ?",
+      "c": 6,
       "options": [
         {
           "t": "Extenseur ulnaire du carpe",
@@ -29471,6 +29854,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles N'intervient PAS dans l'abduction de la main ?",
+      "c": 6,
       "options": [
         {
           "t": "Long palmaire",
@@ -29493,6 +29877,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles a pour origine le processus coracoïde et s'insère sur l'humérus ?",
+      "c": 4,
       "options": [
         {
           "t": "Le coraco-brachial",
@@ -29515,6 +29900,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est rotateur médial (interne) de l'humérus ?",
+      "c": 3,
       "options": [
         {
           "t": "Subscapulaire",
@@ -29537,6 +29923,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles s'étend entre la scapula et les côtes ?",
+      "c": 3,
       "options": [
         {
           "t": "Petit pectoral",
@@ -29559,6 +29946,7 @@ const QUESTIONS = {
     },
     {
       "q": "De quel type est l'articulation carpo-métacarpienne du pouce ?",
+      "c": 5,
       "options": [
         {
           "t": "En selle",
@@ -29581,6 +29969,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est l'os le plus médial de la rangée proximale du carpe ?",
+      "c": 5,
       "options": [
         {
           "t": "Scaphoïde",
@@ -29603,6 +29992,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos de l'articulation du coude, indiquez quelle est l'affirmation FAUSSE :",
+      "c": 2,
       "options": [
         {
           "t": "L'articulation du coude permet aussi le mouvement d'abduction-adduction de l'avant-bras.",
@@ -29625,6 +30015,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les articulations qui suivent, laquelle est de type arthrodie ?",
+      "c": 1,
       "options": [
         {
           "t": "Acromio-claviculaire",
@@ -29647,6 +30038,7 @@ const QUESTIONS = {
     },
     {
       "q": "Le ligament transverse huméral stabilise :",
+      "c": 1,
       "options": [
         {
           "t": "Le tendon du chef long du biceps brachial",
@@ -29669,6 +30061,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles suivants, lequel peut réaliser l'abduction du poignet ?",
+      "c": 6,
       "options": [
         {
           "t": "Fléchisseur ulnaire du carpe",
@@ -29691,6 +30084,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles N'est PAS un muscle épicondylien médial ?",
+      "c": 6,
       "options": [
         {
           "t": "Extenseur ulnaire du carpe",
@@ -29713,6 +30107,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle articulation se trouve le ligament carré ?",
+      "c": 2,
       "options": [
         {
           "t": "Radio-ulnaire proximale",
@@ -29735,6 +30130,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces articulations N'est PAS une trochlée ?",
+      "c": 2,
       "options": [
         {
           "t": "Inter-phalangienne",
@@ -29757,6 +30153,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles suivants, lequel est innervé par le nerf radial ?",
+      "c": 8,
       "options": [
         {
           "t": "Triceps brachial",
@@ -29779,6 +30176,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est innervé par le nerf ulnaire ?",
+      "c": 8,
       "options": [
         {
           "t": "Court abducteur du pouce",
@@ -29801,6 +30199,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles présente une origine/insertion sur l'ulna ?",
+      "c": 6,
       "options": [
         {
           "t": "L'extenseur ulnaire du carpe",
@@ -29823,6 +30222,7 @@ const QUESTIONS = {
     },
     {
       "q": "Pour les articulations du coude, quelle articulation réalise principalement les mouvements de prono-supination tout en permettant la flexo-extension ?",
+      "c": 2,
       "options": [
         {
           "t": "Huméro-radiale",
@@ -29845,6 +30245,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'articulation radio-carpienne est de type :",
+      "c": 5,
       "options": [
         {
           "t": "Condylienne (ellipsoïde)",
@@ -29867,6 +30268,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel nerf innerve le muscle dentelé antérieur ?",
+      "c": 8,
       "options": [
         {
           "t": "Thoracique long",
@@ -29889,6 +30291,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles est innervé par le nerf axillaire ?",
+      "c": 8,
       "options": [
         {
           "t": "Petit rond",
@@ -29911,6 +30314,7 @@ const QUESTIONS = {
     },
     {
       "q": "Laquelle de ces actions N'est PAS une action du muscle deltoïde ?",
+      "c": 3,
       "options": [
         {
           "t": "Adduction de l'humérus",
@@ -29933,6 +30337,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles NE s'origine/insère PAS sur la clavicule ?",
+      "c": 3,
       "options": [
         {
           "t": "Coraco-brachial",
@@ -29955,6 +30360,7 @@ const QUESTIONS = {
     },
     {
       "q": "Les ligaments trapézoïde et conoïde :",
+      "c": 1,
       "options": [
         {
           "t": "Sont des ligaments acromio-claviculaires",
@@ -29977,6 +30383,7 @@ const QUESTIONS = {
     },
     {
       "q": "Parmi les muscles suivants, lequel NE s'insère PAS sur le tendon du muscle extenseur commun des doigts ?",
+      "c": 7,
       "options": [
         {
           "t": "Les lombricaux",
@@ -29999,6 +30406,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quel est l'os le plus latéral de la rangée proximale du carpe ?",
+      "c": 5,
       "options": [
         {
           "t": "Lunatum",
@@ -30021,6 +30429,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles peut réaliser l'abduction de l'index ?",
+      "c": 7,
       "options": [
         {
           "t": "Extenseur de l'index",
@@ -30043,6 +30452,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles NE s'origine/s'insère PAS sur l'épicondyle médial de l'humérus ?",
+      "c": 6,
       "options": [
         {
           "t": "Fléchisseur commun superficiel des doigts",
@@ -30065,6 +30475,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles peut participer à la flexion du coude ?",
+      "c": 4,
       "options": [
         {
           "t": "Anconé",
@@ -30087,6 +30498,7 @@ const QUESTIONS = {
     },
     {
       "q": "Indiquez l'association CORRECTE entre muscle et action :",
+      "c": 4,
       "options": [
         {
           "t": "Coraco-brachial → flexion du coude",
@@ -30109,6 +30521,7 @@ const QUESTIONS = {
     },
     {
       "q": "Quelle est la fonction du ligament annulaire ?",
+      "c": 2,
       "options": [
         {
           "t": "Il maintient la tete du radius contre l'incisure radiale de l'ulna",
@@ -30131,6 +30544,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'un des muscles suivants ne provient PAS du processus coracoïde :",
+      "c": 3,
       "options": [
         {
           "t": "Subclavier",
@@ -30153,6 +30567,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel de ces muscles de l'avant-bras est situé dans le plan le plus profond ?",
+      "c": 6,
       "options": [
         {
           "t": "Carré pronateur",
@@ -30175,6 +30590,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans quelle articulation décrit-on un ligament triangulaire ?",
+      "c": 5,
       "options": [
         {
           "t": "Articulation radio-ulnaire distale",
@@ -30197,6 +30613,7 @@ const QUESTIONS = {
     },
     {
       "q": "Lequel des ligaments suivants renforce la partie supérieure de la capsule de l'articulation de l'épaule ?",
+      "c": 1,
       "options": [
         {
           "t": "Ligament coraco-huméral",
@@ -30219,6 +30636,7 @@ const QUESTIONS = {
     },
     {
       "q": "À propos du muscle biceps brachial, indiquez la bonne réponse :",
+      "c": 4,
       "options": [
         {
           "t": "Sur l'avant-bras, il est flechisseur du coude et supinateur",
@@ -30241,6 +30659,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans la rangée distale des os du carpe, on NE trouve PAS :",
+      "c": 5,
       "options": [
         {
           "t": "Le lunatum (semi-lunaire)",
@@ -30263,6 +30682,7 @@ const QUESTIONS = {
     },
     {
       "q": "L'un des muscles suivants ne provient PAS de l'épicondyle latéral de l'humérus :",
+      "c": 6,
       "options": [
         {
           "t": "Long extenseur du pouce",
@@ -30285,6 +30705,7 @@ const QUESTIONS = {
     },
     {
       "q": "Dans laquelle de ces articulations trouve-t-on un disque articulaire ?",
+      "c": 1,
       "options": [
         {
           "t": "Sterno-costo-claviculaire",
