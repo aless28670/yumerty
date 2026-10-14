@@ -8452,7 +8452,7 @@ const QUESTIONS = {
         {
           "t": "Les fibres A-bêta du toucher et de la pression",
           "correct": true,
-          "j": "Le cours indique que les fibres A-bêta, de grand diamètre, arrivent plus tôt et bloquent l'interneurone."
+          "j": "Le cours indique que les fibres A-bêta, de gros diamètre, du toucher et de la pression, activent l'interneurone inhibiteur de la corne dorsale et ferment ainsi le portillon à la douleur."
         },
         {
           "t": "Les fibres A-delta de la douleur aiguë",
@@ -10598,7 +10598,7 @@ const QUESTIONS = {
       "options": [
         {
           "t": "Dans le cortex préfrontal et le système limbique",
-          "j": "Ces structures reçoivent l'information après le thalamus, où elle est interprétée comme douleur ou non."
+          "j": "Ces structures sont atteintes en dernier, après le relais thalamique, et non à la sortie du nocicepteur de premier ordre."
         },
         {
           "t": "Dans le thalamus, avant le relais cortical",
@@ -10725,113 +10725,2069 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Comment le cours définit-il l'exercice thérapeutique ?","c":7,"options":[{"t":"Une exécution systématique et planifiée de mouvements, de postures et d'activités physiques à objectifs précis","correct":true,"j":"Le cours reprend cette définition : une exécution systématique et planifiée, conçue pour corriger ou prévenir les troubles physiques et restaurer les fonctions."},{"t":"Une succession de mouvements libres choisis spontanément par le patient selon ses sensations du jour","j":"Le caractère systématique et planifié est constitutif de l'exercice thérapeutique : rien n'y est laissé au choix spontané."},{"t":"Un ensemble de postures maintenues passivement par le thérapeute sans participation active du patient","j":"La définition porte sur des mouvements, postures et activités physiques exécutés par le patient, et non sur une mise en posture passive."}]},
-    {"q":"Un programme de dépistage visant à réduire la gravité et la durée d'une maladie déjà installée ainsi que ses séquelles relève de :","c":7,"options":[{"t":"La prévention secondaire","correct":true,"j":"Le cours définit ce niveau par le diagnostic précoce et la réduction de la gravité, de la durée et des séquelles de la maladie existante."},{"t":"La prévention primaire","j":"Elle intervient avant l'apparition de la maladie, par des activités de promotion de la santé auprès des populations à risque."},{"t":"La prévention tertiaire","j":"Elle recourt aux techniques de réadaptation pour réduire le degré ou limiter la progression du handicap actuel chez des personnes atteintes d'une maladie chronique et irréversible."}]},
-    {"q":"Dans la synthèse sur les lésions des ischio-jambiers, quel type de travail musculaire raccourcit le plus le délai de retour au sport ?","c":7,"options":[{"t":"Un travail excentrique insistant sur l'allongement musculaire","correct":true,"j":"Les deux études citées montrent que les exercices excentriques en allongement (protocole L) réduisent de 38 à 45 % le temps nécessaire pour revenir au sport, par rapport à un renforcement concentrique."},{"t":"Un travail concentrique de renforcement progressif du muscle","j":"C'est le protocole de comparaison, auquel le travail en allongement s'est montré supérieur sur le délai de retour au sport."},{"t":"Un travail isométrique maintenu en course interne du muscle","j":"Ce mode de contraction n'est pas celui qu'évaluent les études citées, qui opposent travail en allongement et travail concentrique."}]},
-    {"q":"D'après la conclusion du cours, dans quelle fourchette se situe le temps de retour au sport après une blessure musculaire ?","c":7,"options":[{"t":"Entre 15 et 86 jours","correct":true,"j":"La conclusion retient cette fourchette très large, assortie de taux de récidive s'étendant de 0 à 70 %."},{"t":"Entre 2 et 15 jours","j":"Le cours place la borne haute à 86 jours : une fourchette s'arrêtant à 15 jours ne retient que le délai le plus court observé."},{"t":"Entre 90 et 180 jours","j":"Cette durée dépasse la borne haute retenue par le cours, fixée à 86 jours."}]},
-    {"q":"Commencer la rééducation deux jours après la lésion musculaire plutôt que neuf jours :","c":7,"options":[{"t":"Avance d'une vingtaine de jours le retour au sport","correct":true,"j":"Le cours oppose un retour à 63 jours pour la rééducation précoce contre 83 jours pour la rééducation retardée."},{"t":"N'a aucune incidence sur le délai de retour au sport","j":"Les chiffres rapportés montrent au contraire un écart net entre prise en charge précoce et prise en charge différée."},{"t":"Retarde le retour au sport en prolongeant la cicatrisation","j":"Le cours attribue à la rééducation précoce un retour plus rapide, et non un allongement du délai."}]},
-    {"q":"Qu'est-ce qui persiste longtemps après une blessure musculaire et peut augmenter le risque de récidive ?","c":7,"options":[{"t":"Des changements structurels dans les tissus affectés","correct":true,"j":"Le cours souligne que ces modifications structurelles persistent bien après la blessure et influencent la fonction musculaire."},{"t":"Une inflammation aiguë entretenue dans le muscle lésé","j":"Aucune inflammation prolongée n'est décrite : ce sont des remaniements du tissu qui demeurent."},{"t":"Une perte définitive du recrutement nerveux du muscle","j":"Le cours ne décrit aucune atteinte nerveuse définitive après une lésion musculaire."}]},
-    {"q":"Que désigne la « fonction musculaire » dont l'exercice thérapeutique améliore le niveau ?","c":7,"options":[{"t":"La capacité du muscle à produire de la tension et à fonctionner","correct":true,"j":"Le cours définit explicitement l'amélioration de la fonction musculaire comme celle de la capacité du muscle à produire de la tension."},{"t":"La capacité du muscle à s'allonger sans douleur au repos","j":"L'allongement relève de la flexibilité et de l'élasticité musculo-tendineuses, et non de la définition retenue ici."},{"t":"La capacité du muscle à stocker du glycogène à l'effort","j":"Les réserves énergétiques relèvent des changements métaboliques, décrits à part des qualités musculaires."}]},
-    {"q":"Par quels mécanismes l'exercice thérapeutique augmente-t-il la résistance à la fatigue musculaire ?","c":7,"options":[{"t":"Par l'hypertrophie musculaire et un meilleur recrutement des fibres à l'effort","correct":true,"j":"Le cours relie directement le gain de résistance à la fatigue à l'hypertrophie et au recrutement des fibres pendant l'activité."},{"t":"Par l'augmentation de l'amplitude articulaire et de l'élasticité des tendons","j":"Ces gains relèvent de la mobilité et de la flexibilité, qui constituent un effet distinct de la résistance à la fatigue."},{"t":"Par la diminution du nombre d'unités motrices sollicitées pendant l'activité","j":"Le cours décrit un gain d'efficacité à l'effort, non une réduction des unités motrices mises en jeu."}]},
-    {"q":"Comment la vascularisation accrue par l'exercice favorise-t-elle la réparation des tissus ?","c":7,"options":[{"t":"Elle apporte nutriments et substances trophiques et élimine les déchets","correct":true,"j":"Le cours décrit un apport de nutriments et de substances trophiques indispensables à la régénération, avec évacuation des déchets."},{"t":"Elle augmente la pression intramusculaire et comprime la zone lésée","j":"Aucune compression de la lésion n'est décrite : c'est l'apport circulatoire qui soutient la régénération."},{"t":"Elle abaisse la température locale et ralentit le métabolisme tissulaire","j":"Un ralentissement métabolique irait contre la régénération, qui exige au contraire des apports soutenus."}]},
-    {"q":"Que recouvre précisément l'augmentation de la capacité aérobique obtenue par l'exercice thérapeutique ?","c":7,"options":[{"t":"Une meilleure utilisation de l'oxygène et une efficacité cardiovasculaire accrue","correct":true,"j":"Le cours définit cette capacité comme l'aptitude du corps à utiliser l'oxygène, avec gain d'endurance et d'efficacité du système cardiovasculaire."},{"t":"Un stockage accru d'oxygène dans les muscles pendant les phases de repos","j":"Il s'agit d'une meilleure utilisation de l'oxygène à l'effort, et non d'une mise en réserve musculaire au repos."},{"t":"Une élévation du métabolisme de base liée à la modification de la composition corporelle","j":"Cet effet appartient aux changements métaboliques, qui forment un chapitre distinct des adaptations cardiovasculaires."}]},
-    {"q":"Sur le système neuromusculaire, l'amélioration de la coordination et du contrôle du mouvement s'explique par :","c":7,"options":[{"t":"L'amélioration des connexions neuromusculaires","correct":true,"j":"Le cours attribue l'optimisation de la coordination et du contrôle moteur à l'amélioration des connexions entre nerf et muscle."},{"t":"L'allongement du temps de contraction des fibres","j":"Le cours ne décrit aucune modification de la vitesse de contraction : il rattache le contrôle du mouvement à la qualité de la commande nerveuse."},{"t":"L'augmentation du nombre de fibres musculaires","j":"Aucune création de fibres nouvelles n'est décrite ; c'est la liaison entre le nerf et le muscle qui est optimisée par l'exercice."}]},
-    {"q":"Quel effet l'exercice thérapeutique produit-il sur le système immunitaire ?","c":7,"options":[{"t":"Il augmente la production de cellules qui combattent l'infection et régulent l'inflammation","correct":true,"j":"Le cours retient une augmentation de l'activité immunitaire, avec production de cellules de défense et régulation de l'inflammation."},{"t":"Il déprime transitoirement les défenses de l'organisme au profit de la réparation tissulaire","j":"Aucune dépression immunitaire n'est décrite : l'activité immunitaire est au contraire renforcée."},{"t":"Il accroît surtout la production de globules rouges et le transport de l'oxygène","j":"L'effet décrit porte sur les cellules de l'immunité, non sur la lignée érythrocytaire et le transport de l'oxygène."}]},
-    {"q":"Quels effets psychologiques le cours attribue-t-il à l'exercice thérapeutique ?","c":7,"options":[{"t":"Une réduction du stress et de l'anxiété et une amélioration de l'humeur","correct":true,"j":"Le cours retient ces deux effets psychologiques : la baisse du stress et de l'anxiété, et l'amélioration de l'humeur."},{"t":"Une réduction de l'anxiété au prix d'une humeur plus fluctuante","j":"Le cours ne décrit aucune contrepartie sur l'humeur, qu'il présente au contraire comme améliorée."},{"t":"Une amélioration de l'humeur sans effet mesurable sur l'anxiété","j":"La réduction du stress et de l'anxiété figure explicitement parmi les effets psychologiques retenus."}]},
-    {"q":"Pourquoi le cours recommande-t-il de relier les objectifs d'exercice à des activités qui comptent pour le patient ?","c":7,"options":[{"t":"Parce que cela augmente sa motivation à réaliser le programme","correct":true,"j":"Le cours demande des objectifs clairs et atteignables, liés à des activités significatives, précisément pour accroître la motivation."},{"t":"Parce que cela dispense de fixer des objectifs mesurables","j":"Le caractère clair et atteignable de l'objectif reste exigé, quelle que soit l'activité choisie comme référence."},{"t":"Parce que cela permet d'augmenter la charge sans surveillance","j":"Le choix d'activités significatives porte sur la finalité de l'exercice, non sur le réglage de la charge."}]},
-    {"q":"Comment le kinésithérapeute doit-il présenter un nouvel exercice au patient ?","c":7,"options":[{"t":"En le démontrant avec maîtrise et en verbalisant, pour que le patient imite","correct":true,"j":"Le cours décrit une démonstration maîtrisée, précise et verbalisée, que le patient observe d'abord puis reproduit."},{"t":"En le décrivant uniquement par écrit sur une fiche détaillée remise au patient","j":"Le cours exige une démonstration réalisée devant le patient, qu'un document écrit ne peut remplacer."},{"t":"En laissant le patient l'essayer seul avant toute explication du geste","j":"L'ordre retenu place l'intervention du professionnel avant la première exécution du patient."}]},
-    {"q":"Quelles qualités le retour donné au patient (feedback) doit-il réunir ?","c":7,"options":[{"t":"Être immédiat et positif, pour motiver sans démoraliser","correct":true,"j":"Le cours demande un feedback immédiat et positif, qui motive sans démoraliser et consolide les résultats obtenus."},{"t":"Être différé en fin de séance pour ne pas interrompre l'exercice","j":"Le cours réclame un retour immédiat, donné au moment où le geste est réalisé."},{"t":"Être strictement correctif pour éviter tout excès de confiance","j":"Un retour uniquement correctif démoralise le patient, alors que sa dimension positive est explicitement exigée."}]},
-    {"q":"Que doit faire le kinésithérapeute pendant que le patient réalise ses exercices ?","c":7,"options":[{"t":"Observer attentivement, détecter les erreurs et renforcer le geste correct","correct":true,"j":"Le cours impose l'observation attentive, la détection des erreurs, l'intervention si nécessaire et le renforcement verbal ou physique du geste correct."},{"t":"Laisser le patient terminer sans intervenir, pour préserver son autonomie","j":"L'absence d'intervention laisse s'installer les erreurs : le cours demande de corriger pendant la pratique."},{"t":"Compter les répétitions sans commenter la qualité du geste réalisé","j":"Le décompte ne suffit pas : c'est la qualité du mouvement qui doit être surveillée et commentée."}]},
-    {"q":"Que signifie favoriser l'autonomie du patient dans l'exercice thérapeutique ?","c":7,"options":[{"t":"Qu'il réalise seul l'exercice, en comprend le but et l'intègre à son quotidien","correct":true,"j":"Le cours attend une exécution autonome et comprise, puis son intégration au quotidien sous forme de routine."},{"t":"Qu'il choisisse lui-même les exercices qu'il juge utiles à sa pathologie","j":"Le choix des exercices demeure une décision professionnelle : l'autonomie porte sur l'exécution et la compréhension."},{"t":"Qu'il poursuive sa rééducation sans aucune réévaluation ultérieure","j":"L'autonomie d'exécution ne supprime ni le suivi ni la réévaluation du patient par le professionnel."}]},
-    {"q":"D'après la revue citée dans le cours, quelle dose hebdomadaire d'exercice est nécessaire pour réduire modérément les symptômes dépressifs du post-partum ?","c":7,"options":[{"t":"Au moins 350 MET-min par semaine, soit environ 80 minutes d'intensité modérée","correct":true,"j":"La méta-analyse citée fixe ce seuil d'environ 350 MET-min hebdomadaires pour obtenir une réduction modérée des symptômes."},{"t":"Au moins 150 MET-min par semaine, soit environ 30 minutes d'intensité modérée","j":"Cette dose reste inférieure au seuil retenu par la revue pour obtenir une réduction modérée."},{"t":"Au moins 700 MET-min par semaine, soit environ 160 minutes d'intensité modérée","j":"Cette dose dépasse largement le seuil décrit comme nécessaire pour une réduction modérée des symptômes."}]},
-    {"q":"D'après la méta-analyse citée, de combien l'exercice réduit-il le risque de dépression du post-partum ?","c":7,"options":[{"t":"D'environ 45 %","correct":true,"j":"La revue rapporte une diminution du risque de dépression du post-partum de 45 %, correspondant à un odds ratio de 0,55."},{"t":"D'environ 10 %","j":"Cette réduction est nettement inférieure à l'effet rapporté par la revue citée dans le cours."},{"t":"D'environ 80 %","j":"Une telle ampleur dépasse largement l'effet rapporté pour l'exercice en post-partum."}]},
-    {"q":"Qu'est-ce qu'un objectif thérapeutique, tel que le cours le définit ?","c":1,"options":[{"t":"Une cible spécifique et mesurable guidant la planification du traitement","correct":true,"j":"Le cours en fait une cible spécifique et mesurable, servant de guide pour planifier puis évaluer les interventions thérapeutiques."},{"t":"Un pronostic de récupération établi dès le premier jour de la prise en charge","j":"Le pronostic estime une évolution probable, alors que l'objectif fixe un résultat à atteindre et à mesurer."},{"t":"Une technique choisie par le kinésithérapeute selon son domaine d'expertise","j":"La technique est un moyen d'intervention : elle sert l'objectif mais ne constitue pas la cible visée."}]},
-    {"q":"Selon les statuts professionnels cités dans le cours, quelle étape précède obligatoirement tout acte kinésithérapeutique ?","c":1,"options":[{"t":"La détermination du bilan et du diagnostic kinésithérapeutique","correct":true,"j":"Le cours fait du bilan et du diagnostic kinésithérapeutique l'étape préalable à tout acte de la profession."},{"t":"L'obtention d'une prescription du médecin rééducateur","j":"Les statuts cités placent avant l'acte le bilan et le diagnostic kinésithérapeutiques, et non l'obtention d'une prescription."},{"t":"L'inscription du patient au registre des professions de santé","j":"Ce registre recense les professionnels eux-mêmes et ne constitue en rien une étape du traitement."}]},
-    {"q":"Dans la CIF, que recouvre le terme générique « fonctionnement » ?","c":1,"options":[{"t":"Les fonctions et structures corporelles, les activités et la participation","correct":true,"j":"Le cours définit le fonctionnement comme le terme générique qui englobe les fonctions et les structures corporelles, les activités et la participation."},{"t":"Les seules fonctions corporelles encore conservées malgré la maladie","j":"Le terme est bien plus large et ne se réduit pas à la composante des fonctions corporelles."},{"t":"Les facteurs environnementaux et personnels du cadre de vie du patient","j":"Ces éléments composent les facteurs contextuels, qui forment l'autre partie de la classification."}]},
-    {"q":"Selon le cours, de quoi le handicap d'une personne résulte-t-il ?","c":1,"options":[{"t":"D'une interaction complexe entre état de santé, facteurs personnels et milieu de vie","correct":true,"j":"Le cours décrit le handicap comme le produit d'une interaction complexe entre l'état de santé, les facteurs personnels et les circonstances externes de vie."},{"t":"De la seule gravité de la lésion organique initialement constituée par la maladie","j":"Ramener le handicap à la lésion reproduit le modèle linéaire antérieur, que la CIF a précisément dépassé."},{"t":"De l'étiologie de la maladie, telle que l'OMS la code dans sa classification","j":"Le classement par étiologie relève d'une autre classification de l'OMS, étrangère à l'approche du handicap retenue ici."}]},
-    {"q":"Dans la CIF, que décrit la « performance » ou réalisation, par opposition à la capacité ?","c":1,"options":[{"t":"Ce que la personne fait dans son environnement actuel","correct":true,"j":"Le cours la définit par le contexte : c'est « l'acte de s'engager dans une situation actuelle », donc dans l'environnement de vie réel."},{"t":"L'aptitude de la personne à accomplir une tâche ou une action","j":"C'est la définition de la capacité, qui s'apprécie indépendamment du contexte de vie réel."},{"t":"Le degré d'autonomie attendu d'une personne de cet âge","j":"La CIF décrit ce que la personne fait, sans poser de norme attendue selon des caractéristiques individuelles."}]},
-    {"q":"À quelle composante de la CIF appartiennent l'âge, le niveau d'éducation et les habitudes de vie d'un patient ?","c":1,"options":[{"t":"Aux facteurs personnels","correct":true,"j":"Le cours y range le sexe, l'âge, l'éducation, la profession et les modes de vie, qui forment le contexte particulier de la vie de l'individu."},{"t":"Aux facteurs environnementaux","j":"Ceux-ci décrivent le milieu physique et social extérieur : domicile, travail, services, réglementations et attitudes."},{"t":"Aux fonctions corporelles","j":"L'énoncé ne porte pas sur le fonctionnement de l'organisme mais sur le contexte particulier de la vie de la personne."}]},
-    {"q":"Dans la CIF, où sont classées les fonctions mentales ou psychologiques ?","c":1,"options":[{"t":"Parmi les fonctions corporelles","correct":true,"j":"Le cours précise que le terme « corps » désigne l'organisme entier, cerveau compris : les fonctions mentales y sont donc rangées."},{"t":"Parmi les structures corporelles","j":"Les structures corporelles désignent les parties anatomiques de l'organisme — l'étude de cas code ainsi l'articulation du genou —, et non les fonctions elles-mêmes."},{"t":"Parmi les activités et la participation","j":"Cette composante décrit l'exécution de tâches et l'engagement dans des situations de vie, non les fonctions de l'organisme."}]},
-    {"q":"Le cours indique qu'une déficience peut en entraîner une autre. Quel exemple en donne-t-il ?","c":1,"options":[{"t":"Une diminution de la force musculaire peut altérer les fonctions de mouvement","correct":true,"j":"Le cours cite précisément cet enchaînement, comme il cite un déficit respiratoire retentissant sur le fonctionnement cardiaque."},{"t":"Une limitation d'activité entraîne toujours une restriction de participation","j":"Ces deux notions appartiennent au versant négatif du fonctionnement, mais n'illustrent pas une déficience en produisant une autre."},{"t":"Une maladie chronique produit nécessairement une déficience durable","j":"La notion de déficience est plus large que celle de maladie et n'en découle pas automatiquement."}]},
-    {"q":"Quels principes le cours retient-il comme socle de l'éthique professionnelle en physiothérapie ?","c":1,"options":[{"t":"Bienfaisance, non-malfaisance, autonomie et justice","correct":true,"j":"Le cours présente ces quatre principes comme le socle de l'éthique professionnelle du physiothérapeute."},{"t":"Bienfaisance, confidentialité, autonomie et efficience","j":"La confidentialité et l'efficience sont des exigences de pratique, non les quatre principes éthiques énoncés."},{"t":"Non-malfaisance, justice, solidarité et responsabilité","j":"La solidarité et la responsabilité ne figurent pas parmi les quatre principes retenus par le cours."}]},
-    {"q":"Sur quoi la relation avec le patient doit-elle reposer, d'après le code de déontologie cité dans le cours ?","c":1,"options":[{"t":"Sur le respect, la confiance et la compréhension mutuelle","correct":true,"j":"Le code cité fonde la relation sur ces trois exigences, complétées par l'information du patient et son consentement éclairé."},{"t":"Sur l'autorité du professionnel et l'observance stricte du patient","j":"Le patient conserve le droit d'être informé de son traitement et de choisir ou de changer de kinésithérapeute."},{"t":"Sur la seule prescription établie par le médecin traitant","j":"La relation se noue directement entre le kinésithérapeute et son patient et ne se réduit pas à une prescription."}]},
-    {"q":"Comment la massothérapie se situe-t-elle du point de vue de l'acceptation par les patients et du niveau de preuve scientifique ?","c":8,"options":[{"t":"Forte acceptation des patients, faible niveau de preuve","correct":true,"j":"Le cours souligne ce décalage : les patients adhèrent très bien à la massothérapie alors que les travaux qui la soutiennent sont de faible qualité méthodologique."},{"t":"Faible acceptation des patients, fort niveau de preuve","j":"L'acceptation par les patients est au contraire décrite comme forte, et les preuves disponibles restent limitées."},{"t":"Forte acceptation des patients, fort niveau de preuve","j":"L'acceptation est bien forte, mais le niveau de preuve est qualifié de faible en raison de la faible qualité méthodologique des études."}]},
-    {"q":"Quelle manœuvre de massage appartient au groupe des manœuvres de base ?","c":8,"options":[{"t":"Le pétrissage","correct":true,"j":"Le pétrissage figure parmi les manœuvres de base, aux côtés de la friction profonde et des pressions."},{"t":"L'effleurage","j":"L'effleurage, comme la friction superficielle, est une manœuvre préparatoire qui ouvre la séance."},{"t":"La percussion","j":"La percussion appartient aux manœuvres supplémentaires, avec la vibration, les secousses et le pincement."}]},
-    {"q":"Quel effet figure parmi les effets généraux du massage classique ?","c":8,"options":[{"t":"Une augmentation de la température musculaire","correct":true,"j":"L'élévation de la température du muscle est citée parmi les effets généraux du massage classique, avec la détente et la réduction des adhérences entre les tissus."},{"t":"Une augmentation du taux de cortisol sanguin","j":"Le massage classique s'accompagne d'une détente et d'une baisse du taux de cortisol, non d'une hausse."},{"t":"Une diminution du flux sanguin de la région traitée","j":"Le massage classique augmente le flux sanguin de la région traitée au lieu de le réduire."}]},
-    {"q":"Au niveau de la peau, par quel mécanisme le massage favorise-t-il l'élimination des déchets ?","c":8,"options":[{"t":"Par une augmentation de la transpiration","correct":true,"j":"Parmi les effets cutanés, le cours retient une élimination des déchets obtenue grâce à l'augmentation de la transpiration."},{"t":"Par une accélération du renouvellement cornéen","j":"Aucun effet sur le renouvellement de la couche cornée n'est décrit : la peau bénéficie surtout d'une amélioration de son trophisme."},{"t":"Par une vasoconstriction de la zone traitée","j":"La réponse cutanée au massage est une vasodilatation active avec hyperémie locale, et non une vasoconstriction."}]},
-    {"q":"Quel effet le massage exerce-t-il sur le tissu cellulaire sous-cutané ?","c":8,"options":[{"t":"La réabsorption des adipocytes par lyse mécanique","correct":true,"j":"Au niveau sous-cutané, la pression des manœuvres produit une lyse mécanique permettant la réabsorption des adipocytes."},{"t":"La néoformation de fibres élastiques dans le derme","j":"Aucune néoformation de fibres n'est décrite : les effets sous-cutanés sont circulatoires et portent sur les liquides et les adipocytes."},{"t":"L'augmentation de la viscosité du liquide interstitiel","j":"Les liquides d'œdème et d'épanchement sont réabsorbés ; leur viscosité n'est pas l'élément modifié par le massage."}]},
-    {"q":"De quoi dépend le fait que le massage relaxe le muscle ou au contraire augmente son excitabilité ?","c":8,"options":[{"t":"Des paramètres d'application choisis","correct":true,"j":"La relaxation ou l'excitabilité musculaire obtenue dépend des paramètres d'application retenus pour la manœuvre."},{"t":"De la température initiale du muscle","j":"La température du muscle avant la séance n'est pas le critère retenu : l'effet obtenu dépend de la façon dont la manœuvre est appliquée."},{"t":"Du nombre de séances déjà réalisées","j":"Le cumul des séances n'est pas le facteur déterminant : c'est la façon dont la manœuvre est appliquée qui fixe l'effet."}]},
-    {"q":"Quel effet le massage produit-il au niveau du tissu articulaire ?","c":8,"options":[{"t":"La résorption des exsudats articulaires","correct":true,"j":"Sur l'articulation, les effets retenus sont la réduction de la raideur, l'assouplissement des adhérences et la résorption des exsudats."},{"t":"La régénération du cartilage usé","j":"Aucune action régénératrice sur le cartilage n'est décrite ; les effets articulaires du massage sont mécaniques et circulatoires."},{"t":"Le renforcement de la capsule articulaire","j":"Le massage assouplit la capsule et les adhérences périarticulaires plutôt qu'il ne les renforce."}]},
-    {"q":"Comment le massage modifie-t-il l'activité du tissu nerveux ?","c":8,"options":[{"t":"Sensibilité des terminaisons sensorielles diminuée, excitabilité des nerfs moteurs augmentée","correct":true,"j":"L'analgésie vient de la baisse de sensibilité des terminaisons sensorielles, tandis que l'excitabilité des nerfs moteurs, elle, augmente."},{"t":"Sensibilité des terminaisons sensorielles diminuée, excitabilité des nerfs moteurs diminuée","j":"La partie sensorielle est exacte, mais l'excitabilité des nerfs moteurs augmente au lieu de diminuer."},{"t":"Sensibilité des terminaisons sensorielles augmentée, excitabilité des nerfs moteurs augmentée","j":"L'excitabilité motrice augmente bien, mais la sensibilité des terminaisons sensorielles diminue, ce qui explique l'effet antalgique."}]},
-    {"q":"Par quel type d'action le massage agit-il sur le tissu viscéral, par exemple en augmentant le péristaltisme intestinal ?","c":8,"options":[{"t":"Par une action réflexe déclenchée à distance","correct":true,"j":"L'effet viscéral du massage est réflexe : le massage d'évacuation augmente ainsi le péristaltisme intestinal."},{"t":"Par une pression mécanique directe sur l'intestin","j":"Il ne s'agit pas d'un pétrissage direct du viscère : la réponse passe par un réflexe déclenché depuis la paroi."},{"t":"Par une augmentation du débit sanguin mésentérique","j":"Le mécanisme invoqué n'est pas vasculaire ; c'est une réponse réflexe provoquée par la manœuvre."}]},
-    {"q":"Parmi les contre-indications du massage, laquelle tient à l'état neurologique de la zone à traiter ?","c":8,"options":[{"t":"Les zones d'anesthésie ou de sensibilité modifiée","correct":true,"j":"Les changements de sensibilité et les zones d'anesthésie figurent parmi les contre-indications ; ce sont les seules de la liste qui portent sur la sensibilité de la région."},{"t":"Les troubles graves de la coagulation sanguine","j":"Ils contre-indiquent bien le massage, mais au titre du risque hémorragique, pas de l'état neurologique local."},{"t":"Les lésions et les allergies cutanées de la zone","j":"Elles contre-indiquent le massage au titre de l'état de la peau, et non pour un motif neurologique."}]},
-    {"q":"Au cours de la manœuvre de drainage lymphatique manuel, quelle phase correspond à la tension maximale ?","c":8,"options":[{"t":"La phase de poussée active","correct":true,"j":"La manœuvre comporte quatre phases et c'est la poussée active qui porte la tension à son maximum."},{"t":"La phase de soutien passif","j":"La phase de soutien passif ouvre la manœuvre et prépare le tissu sans appliquer la tension maximale."},{"t":"La phase de contact passif","j":"La phase de contact passif termine la manœuvre avec une tension ramenée à zéro."}]},
-    {"q":"Quel effet immunitaire le drainage lymphatique manuel produit-il chez un patient immunodéprimé ?","c":8,"options":[{"t":"Une augmentation de la production d'IgA","correct":true,"j":"En cas d'immunodéficience, le drainage lymphatique est crédité d'une augmentation de la production d'IgA."},{"t":"Une augmentation de la production d'IgE","j":"Les IgE, liées aux réactions allergiques, ne font pas partie des effets immunitaires décrits pour cette technique."},{"t":"Une diminution des cellules immunitaires locales","j":"Le drainage améliore au contraire l'efficacité des cellules immunitaires présentes dans l'espace interstitiel."}]},
-    {"q":"Quel type de mobilisation articulaire est principalement utilisé chez les patients alités et hospitalisés ?","c":8,"options":[{"t":"La mobilisation globale ou fonctionnelle","correct":true,"j":"La mobilisation globale concerne plus d'une articulation et aide à conserver un bon schéma moteur, d'où son usage chez les patients alités."},{"t":"La mobilisation analytique spécifique","j":"La mobilisation analytique vise un mouvement accessoire précis d'une seule articulation, ce qui n'est pas l'objectif ici."},{"t":"La mobilisation passive simple","j":"La mobilisation simple ne porte que sur une articulation et son mouvement physiologique, sans viser le schéma moteur global."}]},
-    {"q":"Lors d'une mobilisation passive, où le physiothérapeute place-t-il généralement le contrepoint ?","c":8,"options":[{"t":"Sur le segment proximal, qu'il maintient fixe","correct":true,"j":"Le contrepoint est le point fixe de la mobilisation ; il est le plus souvent pris sur le segment proximal du corps."},{"t":"Sur le segment distal, qu'il déplace","j":"Le segment distal reçoit habituellement le grip, c'est-à-dire le point mobile de la mobilisation."},{"t":"Sur l'interligne articulaire, qu'il comprime","j":"Aucune prise compressive sur l'interligne n'est décrite : le contrepoint est une prise de fixation sur un segment."}]},
-    {"q":"Quelle est la conséquence du choix d'une prise à bras de levier long lors d'une mobilisation passive ?","c":8,"options":[{"t":"Moins de précision, mais moins de force à produire","correct":true,"j":"Le bras de levier long réduit la force à fournir par le thérapeute, au prix d'une mobilisation moins précise."},{"t":"Plus de précision, mais plus de force à produire","j":"C'est la prise courte, à bras de levier court, qui offre davantage de précision en exigeant plus de force."},{"t":"Plus de précision et moins de force à produire","j":"Aucune prise ne cumule les deux avantages : précision et économie de force varient en sens inverse."}]},
-    {"q":"Quelle progression le cours décrit-il pour la mobilisation active ?","c":8,"options":[{"t":"De l'actif vers l'actif assisté ou résisté, puis le travail fonctionnel","correct":true,"j":"La progression décrite va de l'actif vers l'actif assisté ou résisté, puis vers une tâche spécifique fonctionnelle, avec augmentation progressive de l'amplitude et de la résistance."},{"t":"Du travail fonctionnel vers le mouvement actif analytique isolé","j":"La tâche fonctionnelle spécifique est le terme de la progression, non son point de départ."},{"t":"Du mouvement passif conduit par le thérapeute vers l'actif libre","j":"La progression décrite part du mouvement déjà réalisé par le patient ; le mouvement conduit par le thérapeute relève de la mobilisation passive."}]},
-    {"q":"Dans quelle situation clinique la mobilisation active est-elle indiquée ?","c":8,"options":[{"t":"Douleur modérée avec faible irritabilité, après immobilisation","correct":true,"j":"Les indications retenues sont la douleur modérée et la faible irritabilité, aux phases intermédiaires d'une immobilisation ou d'une chirurgie."},{"t":"Douleur sévère avec forte irritabilité, en phase aiguë","j":"Une douleur sévère et une irritabilité élevée ne figurent pas parmi les indications : le tissu réagit encore trop fortement."},{"t":"Patient peu coopérant, juste après une chirurgie","j":"La mobilisation active suppose un patient capable de suivre les consignes et de participer activement au mouvement."}]},
-    {"q":"Par quel mécanisme la mobilisation active diminue-t-elle la douleur ?","c":8,"options":[{"t":"Par le pompage synovial et le contrôle neuromusculaire","correct":true,"j":"Le mouvement produit par le patient assure un pompage synovial et entretient le contrôle neuromusculaire, ce qui diminue la douleur."},{"t":"Par l'étirement prolongé des structures capsulaires","j":"L'étirement capsulaire n'est pas le mécanisme antalgique retenu ; la mobilisation active prévient d'ailleurs la perte d'extensibilité capsulaire."},{"t":"Par la diminution de la température articulaire","j":"Aucun effet thermique n'est invoqué : l'effet antalgique tient au mouvement actif lui-même."}]},
-    {"q":"Quel est le principe des techniques de mobilisation neuroméningée (neurodynamique) ?","c":8,"options":[{"t":"Libérer les points de pression qui gênent le glissement du nerf","correct":true,"j":"Le nerf traverse fascias, muscles et capsules qui peuvent se raidir et le pincer ; ces techniques libèrent les points de pression le long de son trajet."},{"t":"Étirer le nerf jusqu'à sa limite élastique pour l'allonger","j":"Il ne s'agit pas d'allonger le nerf, mais de restaurer son mouvement là où son glissement est entravé."},{"t":"Renforcer les muscles innervés pour compenser le déficit","j":"Le renforcement musculaire n'est pas l'objet de ces techniques, qui s'adressent au tissu nerveux et à son environnement."}]},
-    {"q":"Pourquoi les techniques neurodynamiques sont-elles aussi employées dans des douleurs nociceptives qui n'atteignent pas le tissu nerveux ?","c":8,"options":[{"t":"Parce qu'elles améliorent le seuil de la douleur du patient","correct":true,"j":"Le cours indique que ces techniques améliorent le seuil de la douleur et réduisent ainsi la douleur perçue, même lorsque le tissu nerveux n'est pas atteint."},{"t":"Parce qu'elles accélèrent la cicatrisation du tissu lésé","j":"Aucun effet sur la cicatrisation tissulaire n'est avancé pour justifier cet usage élargi."},{"t":"Parce qu'elles suppriment la compression du tissu nerveux","j":"Il n'y a précisément aucune compression nerveuse à lever dans cette situation, puisque le tissu nerveux n'est pas atteint."}]},
-    {"q":"Lorsque les symptômes du patient sont jugés irritables ou graves, comment conduire l'examen physique ?","c":6,"options":[{"t":"En limitant les tests de mouvement à l'apparition des symptômes","correct":true,"j":"Face à des symptômes irritables ou graves, les tests de mouvement ne sont menés que jusqu'au moment où les symptômes apparaissent."},{"t":"En poussant chaque test jusqu'à l'amplitude maximale disponible","j":"Pousser les tests au maximum expose à aggraver un tableau déjà réactif, ce que l'examen doit justement éviter."},{"t":"En remplaçant les tests de mouvement par l'imagerie médicale","j":"Il n'est pas proposé de substituer l'imagerie à l'examen physique : c'est la conduite des tests qui est adaptée."}]},
-    {"q":"Quel inconvénient est associé au fait de suivre toujours la même séquence de questions lors de l'entretien ?","c":6,"options":[{"t":"Enchaîner les questions sans interpréter les réponses reçues","correct":true,"j":"On risque de « prescrire des questions », c'est-à-dire de les dérouler l'une après l'autre sans se demander si elles sont utiles ni interpréter ce qui est dit."},{"t":"Laisser de côté certains domaines pertinents de l'entretien","j":"C'est au contraire un avantage de la séquence constante : elle garantit que tous les domaines pertinents sont abordés."},{"t":"Allonger le temps nécessaire pour remplir le questionnaire","j":"La séquence habituelle fait gagner du temps de recueil ; l'allongement n'est pas l'inconvénient décrit."}]},
-    {"q":"À quels moments la réévaluation du patient doit-elle être réalisée ?","c":6,"options":[{"t":"Pendant la séance, après chaque approche, à la fin et au début de la suivante","correct":true,"j":"La réévaluation s'effectue en cours de séance, après chaque approche, à la fin de la séance et au début de celle du lendemain ; on ne peut jamais s'en passer."},{"t":"Seulement à la fin du programme de traitement, pour mesurer le résultat","j":"Attendre la fin du programme prive le thérapeute de l'information qui permet d'ajuster la prise en charge en cours de route."},{"t":"Seulement au début de chaque séance, avant d'appliquer une technique","j":"Une réévaluation initiale ne suffit pas : elle doit aussi suivre chaque approche et clore la séance."}]},
-    {"q":"En quoi consiste l'hypothèse de traitement dans le système de catégorisation des hypothèses ?","c":6,"options":[{"t":"Réaliser un traitement test dès le premier jour pour vérifier l'hypothèse","correct":true,"j":"Dès la première séance, on applique un traitement test destiné à vérifier si l'hypothèse formulée se confirme ou non."},{"t":"Choisir d'emblée le protocole standard correspondant au diagnostic","j":"Le raisonnement par hypothèses s'oppose à l'application d'un protocole choisi d'avance, trop rigide pour chaque patient."},{"t":"Lister les techniques interdites avant tout contact avec le patient","j":"Les précautions et les contre-indications constituent une autre catégorie d'hypothèses, distincte de celle du traitement."}]},
-    {"q":"Dans l'analyse du diagramme du corps, dans quel ordre les structures responsables de la douleur sont-elles envisagées ?","c":6,"options":[{"t":"Des structures situées sous la douleur vers les causes les moins probables","correct":true,"j":"On commence par les structures situées sous la zone douloureuse, les plus probables, puis les structures voisines, et enfin les hypothèses les moins probables."},{"t":"Des causes viscérales à exclure vers les structures locales probables","j":"Les causes viscérales comptent parmi les moins probables : elles sont envisagées en dernier, sans être oubliées pour autant."},{"t":"Des structures qui irradient à distance vers les structures locales","j":"La musculature qui irradie vers la zone est examinée après celle qui se trouve sous la douleur, non avant."}]},
-    {"q":"À quel groupe de préjugés du physiothérapeute « l'erreur du coût irrécupérable » appartient-elle ?","c":6,"options":[{"t":"Aux préjugés liés au raisonnement","correct":true,"j":"Elle figure parmi les préjugés du raisonnement, avec le manque de parcimonie et le fait de ne pas suivre l'état actuel des connaissances et des preuves."},{"t":"Aux préjugés liés aux croyances","j":"Le groupe des croyances réunit d'autres biais du thérapeute, comme le biais de confirmation, et non les défauts dans la conduite même du raisonnement."},{"t":"Aux préjugés liés aux prévisions","j":"Le groupe des prévisions concerne l'honnêteté et l'explication de l'histoire naturelle du problème au patient."}]},
-    {"q":"Pourquoi la croyance du patient à propos de son problème influence-t-elle le raisonnement clinique ?","c":6,"options":[{"t":"Parce que beaucoup s'auto-diagnostiquent à partir d'informations peu fiables","correct":true,"j":"La connaissance que le patient a de son problème compte : nombreux sont ceux qui s'auto-diagnostiquent via Internet, où toutes les informations ne sont pas fiables."},{"t":"Parce qu'elle détermine la durée réelle de cicatrisation des tissus","j":"Les croyances ne modifient pas la biologie de la réparation ; elles pèsent sur la manière dont le patient présente et comprend son problème."},{"t":"Parce qu'elle dispense d'explorer les facteurs sociaux du patient","j":"La croyance du patient ne remplace aucun autre facteur d'influence : le niveau culturel, la langue ou les ressources comptent également."}]},
-    {"q":"Que cherche le physiothérapeute lorsqu'il identifie des « signes comparables » au cours de l'examen objectif ?","c":6,"options":[{"t":"Des repères de qualité ou de quantité de mouvement, comme une asymétrie","correct":true,"j":"Les signes comparables sont des repères tirés de l'examen physique lui-même : qualité ou quantité du mouvement, asymétries."},{"t":"Des signes imposant d'interrompre immédiatement l'examen physique","j":"Interrompre l'examen relève des précautions et des indicateurs d'alarme, non de la recherche de signes comparables."},{"t":"Des résultats d'imagerie concordant avec la plainte exprimée","j":"Les signes comparables sont recueillis par les tests réalisés, et non par les examens complémentaires apportés par le patient."}]},
-    {"q":"L'électrothérapie est l'application d'un courant électrique ou d'une énergie électromagnétique produisant des réactions physiologiques dans l'organisme. À quelles fins ces réactions sont-elles exploitées ?","c":9,"options":[{"t":"À des fins thérapeutiques, préventives et diagnostiques","correct":true,"j":"La définition retient ces trois usages : on exploite les réactions physiologiques induites pour traiter, pour prévenir et pour explorer."},{"t":"À des fins thérapeutiques, préventives et antiseptiques","j":"La désinfection ne fait pas partie des usages retenus ; le troisième versant de la définition est le diagnostic, à côté du traitement et de la prévention."},{"t":"À des fins thérapeutiques, diagnostiques et chirurgicales","j":"L'électrothérapie n'est pas présentée comme un geste chirurgical ; c'est la prévention qui complète ici le traitement et le diagnostic."}]},
-    {"q":"Au niveau des tissus, quel phénomène le passage du courant électrique provoque-t-il en premier lieu ?","c":9,"options":[{"t":"Un déplacement d'ions tels que le sodium, le potassium, le calcium et le chlore","correct":true,"j":"Le courant est un flux de charges : il met en mouvement les ions des milieux traversés, ce qui conditionne ensuite les réponses sensorielles et motrices."},{"t":"Une dénaturation des protéines de la membrane des cellules excitables","j":"Aucune destruction protéique n'est en jeu : le courant modifie l'état électrique de la membrane, il n'en altère pas la structure."},{"t":"Une libération de neuropeptides par les terminaisons nerveuses libres","j":"La circulation des neuropeptides, des hormones et des lipides peut être favorisée, mais c'est une conséquence du déplacement ionique, non le phénomène initial."}]},
-    {"q":"L'impédance des tissus au passage du courant génère des réponses parfois indésirables. Lesquelles ?","c":9,"options":[{"t":"Un échauffement et une stimulation des terminaisons nociceptives","correct":true,"j":"La résistance opposée par les tissus dissipe de l'énergie sous forme de chaleur et peut recruter les terminaisons nociceptives, d'où une sensation désagréable."},{"t":"Une liquéfaction des tissus avec rejet des ions négatifs","j":"Liquéfaction et rejet d'ions négatifs sont des réactions d'électrode propres aux courants à effet polaire, pas une conséquence de l'impédance tissulaire."},{"t":"Une coagulation locale accompagnée d'un dégagement d'oxygène","j":"Coagulation et dégagement d'oxygène relèvent eux aussi d'une réaction d'électrode, et non de la résistance que les tissus opposent au courant."}]},
-    {"q":"En dehors du déclenchement d'un potentiel d'action, quel effet le courant électrique peut-il exercer sur la membrane d'une cellule excitable ?","c":9,"options":[{"t":"Modifier son excitabilité en la facilitant ou en l'entravant","correct":true,"j":"Le courant agit comme un modulateur : il rend le tissu plus ou moins facile à exciter, ce qui permet par exemple d'abaisser le seuil de la douleur."},{"t":"Inverser durablement la polarité de repos de la cellule","j":"Aucune inversion durable n'est décrite : la cellule retrouve son état de départ, le courant ne fait que faciliter ou gêner son excitation."},{"t":"Supprimer la période réfractaire qui suit la dépolarisation","j":"La période réfractaire est une propriété de la membrane que le courant ne supprime pas ; le thérapeute doit au contraire en tenir compte."}]},
-    {"q":"Pourquoi la connaissance des paramètres nécessaires à l'activation du potentiel d'action est-elle essentielle ?","c":9,"options":[{"t":"Parce qu'elle permet d'être sélectif selon le tissu visé et l'effet recherché","correct":true,"j":"Ce sont les paramètres choisis qui décident du tissu réellement activé, donc de l'effet thérapeutique obtenu ; sans eux, l'application est aveugle."},{"t":"Parce que la durée de la séance détermine à elle seule la réponse","j":"La durée d'application ne suffit pas : c'est la combinaison des caractéristiques du courant qui conditionne l'activation d'un tissu donné."},{"t":"Parce que les réglages modifient la conductivité propre de chaque tissu","j":"La conductivité dépend de la composition du tissu lui-même ; les réglages ne la changent pas, ils décident seulement du tissu que l'on parvient à exciter."}]},
-    {"q":"L'électrothérapie soulage la douleur par deux voies : l'amélioration de la sensation ou de la perception douloureuse, et :","c":9,"options":[{"t":"La régénération des tissus endommagés par la lésion","correct":true,"j":"La seconde voie passe par la réparation du tissu lui-même : en améliorant son état, on tarit la source de la douleur."},{"t":"L'hyperpolarisation permanente des fibres motrices","j":"L'hyperpolarisation est un effet du pôle positif d'un courant à effet polaire, aux côtés de la vasoconstriction et de la sédation ; ce n'est pas l'une des deux voies d'analgésie décrites."},{"t":"L'élévation progressive du seuil moteur du muscle","j":"Le seuil moteur concerne le recrutement de la contraction et non le traitement de la douleur."}]},
-    {"q":"À quoi correspond le mécanisme métabolique de l'analgésie par électrothérapie ?","c":9,"options":[{"t":"À l'accélération de la synthèse et de la destruction par l'afflux circulatoire","correct":true,"j":"L'augmentation du débit circulatoire accélère les processus de synthèse et de destruction : c'est le versant métabolique de l'analgésie."},{"t":"À la transmission préférentielle des informations tactiles jusqu'au cerveau","j":"C'est le versant neurophysiologique, celui de la théorie du contrôle de la porte, distinct du mécanisme métabolique."},{"t":"À l'élévation du seuil de la douleur par la conjonction des deux autres versants","j":"Cette conjonction définit le mécanisme mixte, que le cours distingue du mécanisme purement métabolique."}]},
-    {"q":"Parmi les effets obtenus sur un tissu lésé, lequel le cours attribue-t-il à la stimulation électrique ?","c":9,"options":[{"t":"Une réduction des spasmes musculaires avec amélioration de la vascularisation","correct":true,"j":"Le cours range la réduction des spasmes musculaires et l'amélioration de la vascularisation des tissus parmi les effets obtenus sur un tissu lésé."},{"t":"Un renforcement du tonus de repos avec ralentissement de la circulation locale","j":"C'est l'inverse de ce qui est décrit : la stimulation détend le muscle et augmente le flux sanguin local, condition de l'apport de nutriments et d'oxygène au tissu."},{"t":"Une rétraction des fibres conjonctives avec durcissement du tissu traité","j":"Aucun remaniement rétractile n'est décrit : l'effet recherché sur le tissu lésé est circulatoire et antispasmodique, non mécanique."}]},
-    {"q":"Trois finalités sont assignées à l'électrothérapie destinée à provoquer une contraction musculaire : le renforcement en cas d'atrophie, la potentialisation et :","c":9,"options":[{"t":"La prise de conscience de la contraction","correct":true,"j":"Le troisième objectif est pédagogique : la contraction provoquée aide le patient à percevoir son muscle et à le recruter ensuite volontairement."},{"t":"La réduction de la spasticité du muscle traité","j":"La lutte contre la spasticité ne figure pas parmi les trois finalités retenues pour la contraction provoquée."},{"t":"L'allongement du tendon par étirement répété","j":"L'étirement du tendon n'est pas un objectif de la contraction provoquée, qui s'adresse au muscle lui-même."}]},
-    {"q":"Sur quel critère distingue-t-on le courant pulsé du courant continu ?","c":9,"options":[{"t":"Il s'écoule par impulsions séparées par des temps sans courant","correct":true,"j":"C'est l'interruption du flux qui définit le courant pulsé : des impulsions successives entrecoupées de périodes d'absence de courant."},{"t":"Il change le sens du flux à chaque impulsion délivrée","j":"L'inversion du sens du flux définit le courant alternatif, et non le caractère pulsé, qui tient uniquement à l'interruption du courant entre les impulsions."},{"t":"Il délivre une intensité croissante à chaque impulsion","j":"L'intensité n'intervient pas dans cette classification, qui repose uniquement sur la continuité ou non du flux."}]},
-    {"q":"Parmi les effets suivants, lequel figure parmi les effets physiologiques des courants à effet polaire ?","c":9,"options":[{"t":"Une action anti-inflammatoire et anti-œdémateuse","correct":true,"j":"Les courants à effet polaire sont crédités d'une action anti-inflammatoire et anti-œdémateuse, à côté de la réparation tissulaire et de l'analgésie."},{"t":"Une élévation thermique profonde des tissus traversés","j":"L'élévation thermique profonde ne compte pas parmi les effets des courants à effet polaire : elle relève des techniques de diathermie."},{"t":"Une fréquence de battement issue de deux courants","j":"Un battement résulte de la rencontre de deux courants : c'est un procédé de production du courant, non un effet physiologique polaire."}]},
-    {"q":"À quel type de courant l'iontophorèse est-elle rattachée ?","c":9,"options":[{"t":"Au courant continu","correct":true,"j":"L'iontophorèse suppose un transport d'ions toujours dans le même sens, ce qui la rattache au courant continu."},{"t":"Au courant alternatif","j":"Le courant alternatif change de sens au fil du temps : il n'entraînerait pas les ions dans une direction constante, condition pourtant indispensable au transport transcutané."},{"t":"Au courant pulsé","j":"Le courant pulsé est rangé du côté du contrôle de la douleur et de la contraction musculaire, et non du transport transcutané de substances ionisées."}]},
-    {"q":"Pour la cicatrisation des tissus et le traitement des œdèmes aigus, comment le courant pulsé est-il appliqué ?","c":9,"options":[{"t":"Sous forme d'impulsions à phase unique","correct":true,"j":"Ces deux indications font appel à un courant pulsé à phase unique : le flux ne circule que dans un sens, ce qui conserve sous l'électrode l'effet polaire recherché."},{"t":"En trains de moyenne fréquence superposés","j":"La superposition de deux moyennes fréquences caractérise les courants interférentiels, employés à d'autres fins."},{"t":"En alternance symétrique équilibrée","j":"Une alternance symétrique équilibre les deux phases et annule la polarité résultante, ce qui prive l'application de l'effet recherché ici."}]},
-    {"q":"Lorsque la fréquence appliquée devient trop élevée, de nombreuses impulsions ne déclenchent plus de potentiel d'action. Pourquoi ?","c":9,"options":[{"t":"Parce que la membrane non repolarisée reste en période réfractaire","correct":true,"j":"Tant que la repolarisation n'est pas achevée, la membrane n'accepte aucun nouveau stimulus : les impulsions trop rapprochées tombent dans cette période."},{"t":"Parce que l'intensité délivrée diminue quand la fréquence augmente","j":"Fréquence et intensité sont deux paramètres indépendants : augmenter l'une ne réduit pas l'autre."},{"t":"Parce que les impulsions rapprochées s'annulent entre elles","j":"Les impulsions ne s'annulent pas mutuellement ; c'est l'état de la membrane au moment du stimulus qui décide de la réponse."}]},
-    {"q":"Dans un courant délivré en trains d'impulsions, à quoi correspond le temps mort ?","c":9,"options":[{"t":"À la période sans courant qui sépare deux trains d'impulsions","correct":true,"j":"Le temps mort est l'intervalle d'absence totale de stimulation qui s'intercale entre deux trains successifs."},{"t":"Au temps pendant lequel le courant circule dans chaque impulsion","j":"C'est la définition de la durée de la phase, exprimée en millisecondes, qui se mesure à l'intérieur même de l'impulsion."},{"t":"Au délai qui sépare deux impulsions consécutives d'un train","j":"C'est l'intervalle inter-impulsions, ou pause : il sépare deux impulsions, non deux trains entiers."}]},
-    {"q":"Parmi les situations suivantes, laquelle figure parmi les contre-indications générales de l'électrothérapie ?","c":9,"options":[{"t":"Un processus tumoral évolutif","correct":true,"j":"Les processus tumoraux font partie des contre-indications générales, au même titre que les infections actives et les dispositifs implantés."},{"t":"Une cicatrice fermée et ancienne","j":"Ce sont les plaies ouvertes qui contre-indiquent l'application, et non une cicatrice refermée de longue date."},{"t":"Une amyotrophie après immobilisation","j":"L'amyotrophie consécutive à une immobilisation constitue au contraire une indication classique de la contraction provoquée."}]},
-    {"q":"Sur quels ordres de connaissances la définition de la kinésithérapie respiratoire fonde-t-elle les techniques physiques appliquées au patient ?","c":10,"options":[{"t":"La physiopathologie respiratoire et les soins psycho-émotionnels du patient","correct":true,"j":"La définition associe explicitement la connaissance de la physiopathologie respiratoire à celle des soins psycho-émotionnels du patient."},{"t":"La physiopathologie respiratoire et la biomécanique costo-vertébrale","j":"La mécanique costo-vertébrale n'est pas citée comme socle de la discipline : le second versant retenu est la dimension psycho-émotionnelle du soin."},{"t":"L'anatomie des voies aériennes et la pharmacologie des bronchodilatateurs","j":"Le traitement médicamenteux n'entre pas dans la définition, qui repose sur des techniques physiques et non sur une prescription pharmacologique."}]},
-    {"q":"Quelles finalités la définition de la kinésithérapie respiratoire assigne-t-elle face aux troubles qu'elle prend en charge ?","c":10,"options":[{"t":"Prévenir, guérir ou parfois simplement stabiliser ces troubles","correct":true,"j":"La définition énonce ces trois niveaux d'ambition, la stabilisation restant un objectif légitime lorsque la guérison n'est pas atteignable."},{"t":"Dépister, guérir et compenser durablement ces troubles","j":"Le dépistage ne fait pas partie des finalités énoncées, et la définition parle de stabiliser le trouble plutôt que de le compenser."},{"t":"Prévenir, guérir et supprimer toute récidive de ces troubles","j":"Aucune abolition des récidives n'est annoncée : la définition admet au contraire que l'on puisse se limiter à stabiliser le trouble."}]},
-    {"q":"Quel ensemble la définition de la kinésithérapie respiratoire désigne-t-elle comme champ d'action de la discipline ?","c":10,"options":[{"t":"Le système thoracopulmonaire","correct":true,"j":"La définition vise les troubles affectant le système thoracopulmonaire, c'est-à-dire le poumon et le thorax qui le contient."},{"t":"Le système cardio-respiratoire","j":"Le versant cardiaque n'est pas inclus dans le champ énoncé, qui reste centré sur le thorax et le poumon."},{"t":"Les voies aériennes supérieures","j":"Le champ décrit ne se limite pas aux voies aériennes hautes : il englobe l'ensemble thoraco-pulmonaire."}]},
-    {"q":"Au-delà de ses objectifs techniques, quelle finalité générale le cours assigne-t-il à la kinésithérapie respiratoire ?","c":10,"options":[{"t":"Promouvoir la qualité de vie des patients atteints de troubles respiratoires","correct":true,"j":"Le cours conclut l'énoncé de ses objectifs en indiquant qu'elle vise à promouvoir la qualité de vie des patients souffrant de troubles du système respiratoire."},{"t":"Réduire la durée d'hospitalisation des patients atteints de troubles respiratoires","j":"La durée de séjour n'est pas la finalité énoncée : le cours raisonne en termes de vécu et de fonction du patient."},{"t":"Restaurer l'intégrité du tissu pulmonaire lésé chez ces mêmes patients","j":"Aucune réparation du parenchyme n'est promise : la discipline agit sur la fonction respiratoire, non sur la lésion tissulaire elle-même."}]},
-    {"q":"Le cours range la diminution de l'hyperinflation pulmonaire sous lequel de ses grands effets physiologiques ?","c":10,"options":[{"t":"L'amélioration de la ventilation pulmonaire","correct":true,"j":"La réduction du volume d'air piégé dans le poumon est présentée comme une composante de l'amélioration de la ventilation pulmonaire."},{"t":"L'amélioration de l'échange gazeux alvéolaire","j":"Cet effet porte sur le transfert des gaz entre alvéole et capillaire, et non sur le degré de distension du poumon."},{"t":"Le dégagement des voies respiratoires","j":"Cet effet concerne l'évacuation des sécrétions bronchiques, un mécanisme distinct de la réduction de la distension pulmonaire."}]},
-    {"q":"Dans quel cadre l'OMS situe-t-elle l'importance de la réadaptation ?","c":11,"options":[{"t":"Dans le cadre de la couverture sanitaire universelle","correct":true,"j":"Le cours rapporte que l'OMS souligne l'importance de la réadaptation dans le cadre de la couverture sanitaire universelle."},{"t":"Dans le cadre des programmes de soins palliatifs","j":"Les soins palliatifs visent le confort en phase avancée de maladie ; ce n'est pas le cadre dans lequel la réadaptation est placée."},{"t":"Dans le cadre de la santé au travail des soignants","j":"La santé au travail porte sur la prévention des risques professionnels et ne correspond pas au cadre invoqué ici."}]},
-    {"q":"Que vise l'objectif de développement durable auquel l'OMS rattache la réadaptation ?","c":11,"options":[{"t":"Garantir une vie saine et promouvoir le bien-être à tout âge","correct":true,"j":"Le cours précise que cet objectif vise à garantir une vie saine et à promouvoir le bien-être de tous à tout âge."},{"t":"Réduire les inégalités d'accès aux soins entre les pays","j":"La réduction des inégalités entre pays constitue un objectif distinct, qui n'est pas celui cité pour la réadaptation."},{"t":"Assurer une éducation de qualité tout au long de la vie","j":"L'éducation de qualité relève d'un autre objectif, sans rapport avec la finalité sanitaire mentionnée dans le cours."}]},
-    {"q":"Quelle place les affections neurologiques occupent-elles aujourd'hui dans le monde ?","c":11,"options":[{"t":"Elles sont la principale cause de maladie et d'invalidité","correct":true,"j":"Le cours les désigne comme la première cause de maladie et d'invalidité à l'échelle mondiale."},{"t":"Elles sont la première cause d'hospitalisation non programmée","j":"Le recours hospitalier urgent n'est pas l'indicateur par lequel le cours situe leur poids mondial."},{"t":"Elles sont la deuxième cause d'invalidité après les cancers","j":"Le cours ne les place ni au second rang ni derrière les cancers pour l'invalidité qu'elles entraînent."}]},
-    {"q":"Jusqu'où peut aller la modification produite par la plasticité neuronale ?","c":11,"options":[{"t":"Jusqu'à la modification de facteurs génétiques","correct":true,"j":"La définition retenue précise que le changement peut aller jusqu'à modifier des facteurs génétiques."},{"t":"Jusqu'au seul renforcement des synapses existantes","j":"Le renforcement des synapses déjà en place ne représente qu'une partie des changements décrits."},{"t":"Jusqu'à la seule réorganisation des réseaux corticaux","j":"Limiter le changement à une réorganisation corticale sous-estime la profondeur de ce que décrit le cours."}]},
-    {"q":"À quels stimuli le système nerveux répond-il lorsqu'il met en jeu sa plasticité ?","c":11,"options":[{"t":"À des stimuli aussi bien externes qu'internes","correct":true,"j":"Le cours associe le changement plastique à des stimuli d'origine externe comme interne."},{"t":"Aux seuls stimuli externes issus de l'environnement","j":"Restreindre la plasticité aux sollicitations venues du dehors écarte à tort l'origine interne."},{"t":"Aux seuls stimuli internes d'origine métabolique","j":"Les stimuli internes comptent bien, mais ils ne sont pas les seuls à provoquer le changement."}]},
-    {"q":"Selon le cours, qu'est-ce qui produit les modifications de la neuroplasticité ?","c":11,"options":[{"t":"Les expériences environnementales et une médiation appropriée","correct":true,"j":"Le cours attribue ces modifications aux expériences vécues dans l'environnement, associées à une médiation appropriée."},{"t":"La maturation génétiquement programmée du système nerveux central","j":"Une maturation purement programmée ne suffit pas : le rôle de l'expérience et de la médiation est déterminant."},{"t":"L'administration répétée de traitements pharmacologiques ciblés","j":"Le cours ne fait pas reposer les modifications de neuroplasticité sur un traitement médicamenteux."}]},
-    {"q":"Comment le cours caractérise-t-il la plasticité grâce à laquelle le cerveau s'adapte aux stimuli ?","c":11,"options":[{"t":"C'est une plasticité qui suit l'activité","correct":true,"j":"Le cours souligne que cette capacité d'adaptation suit l'activité réalisée par le sujet."},{"t":"C'est une plasticité qui précède l'activité","j":"La plasticité décrite s'installe à la suite de l'activité, et non avant qu'elle n'ait lieu."},{"t":"C'est une plasticité indépendante de l'activité","j":"Rendre la plasticité indépendante de l'activité contredit le lien que le cours établit entre les deux."}]},
-    {"q":"Selon le cours, en quelles deux grandes parties le système nerveux se divise-t-il ?","c":11,"options":[{"t":"Le système nerveux central et le système nerveux périphérique","correct":true,"j":"Le cours partage le système nerveux en une composante centrale et une composante périphérique."},{"t":"Le système nerveux somatique et le système nerveux autonome","j":"Cette opposition sépare la commande volontaire de la commande végétative, mais ce n'est pas le découpage présenté."},{"t":"Le système nerveux sensitif et le système nerveux moteur","j":"Sensitif et moteur désignent des fonctions et non les deux grandes divisions retenues ici."}]},
-    {"q":"Chez le patient neurologique, lequel de ces éléments relève de l'atteinte sous-jacente et non de ce qui s'observe au premier abord ?","c":11,"options":[{"t":"Une lésion de la moelle épinière","correct":true,"j":"La lésion médullaire fait partie des atteintes causales situées en amont des signes constatés."},{"t":"Une imprécision de la sensorialité","j":"Il s'agit d'un signe perçu lors de l'examen du patient, non de la cause qui le produit."},{"t":"Une perturbation de la coordination","j":"La perturbation de la coordination est l'une des manifestations constatées, pas leur origine."}]},
-    {"q":"Outre la lésion et le dommage, quelle situation entre dans le champ d'étude de la neurophysiothérapie ?","c":11,"options":[{"t":"Le fonctionnement anormal des structures nerveuses","correct":true,"j":"La discipline étudie aussi les conséquences d'un fonctionnement anormal des structures du système nerveux."},{"t":"Le vieillissement physiologique des voies motrices","j":"Le vieillissement normal n'est pas inscrit dans l'objet d'étude défini pour cette discipline."},{"t":"La fatigue musculaire d'origine périphérique","j":"La fatigue du muscle relève d'un autre champ : la définition porte sur les structures nerveuses."}]},
-    {"q":"Selon la définition générale de la physiothérapie invasive, quelles zones peuvent être traitées sans échographe ?","c":12,"options":[{"t":"Les zones superficielles et facilement accessibles à l'aiguille","correct":true,"j":"Le cours recommande l'échographe pour la sécurité, la précision et l'efficacité du geste, mais admet que les zones superficielles et facilement accessibles soient traitées sans lui ; l'électrolyse percutanée et la neuromodulation, elles, imposent le guidage échographique."},{"t":"Les zones profondes situées loin d'un trajet vasculo-nerveux","j":"La profondeur du tissu est au contraire ce qui rend le repérage échographique nécessaire : l'éloignement d'un trajet vasculo-nerveux n'est pas le critère retenu."},{"t":"Les zones déjà traitées par cette technique auparavant","j":"L'antériorité du traitement n'intervient pas : seul le caractère superficiel et accessible de la zone est retenu comme condition."}]},
-    {"q":"Pourquoi certaines aiguilles de physiothérapie invasive sont-elles recouvertes d'argent ou de platine ?","c":12,"options":[{"t":"Pour améliorer leur conductivité électrique","correct":true,"j":"Ce revêtement d'argent ou de platine a pour but d'améliorer la conductivité électrique de l'aiguille lorsqu'un courant lui est appliqué."},{"t":"Pour les rendre plus solides à la pénétration","j":"C'est l'acier inoxydable, matériau de base des aiguilles, qui leur assure solidité et résistance à la rupture pendant la procédure."},{"t":"Pour adapter leur calibre au tissu visé","j":"L'adaptation à la profondeur du tissu passe par le choix du diamètre de l'aiguille, non par un revêtement de surface."}]},
-    {"q":"Quel diamètre présentent les aiguilles les plus couramment utilisées en physiothérapie invasive ?","c":12,"options":[{"t":"Entre 0,25 et 0,35 mm","correct":true,"j":"Les aiguilles les plus courantes ont un diamètre de 0,25 à 0,35 mm, le calibre variant ensuite selon la zone et la profondeur du tissu."},{"t":"Entre 0,10 et 0,20 mm","j":"Ce calibre reste en dessous de celui des aiguilles les plus courantes, dont le diamètre débute à 0,25 mm."},{"t":"Entre 0,50 et 0,60 mm","j":"Ce calibre dépasse celui des aiguilles les plus courantes, dont le diamètre s'arrête à 0,35 mm, les plus épaisses étant réservées aux tissus profonds."}]},
-    {"q":"Par quoi se termine la procédure type d'une séance de physiothérapie invasive, et dans quel but ?","c":12,"options":[{"t":"Par un traitement post-invasif destiné à éviter les douleurs ultérieures","correct":true,"j":"La dernière étape de la procédure est un traitement post-invasif, dont l'objectif est de prévenir les douleurs survenant après la séance."},{"t":"Par le recueil du consentement éclairé, une fois le patient informé","j":"Le consentement éclairé est la cinquième étape de la procédure, recueillie en amont, juste après avoir informé le patient de ce qui va être réalisé."},{"t":"Par la désinfection des mains du kinésithérapeute et de la peau du patient","j":"L'hygiène et la désinfection appartiennent aux étapes de préparation, avant l'installation du patient et l'exécution du geste."}]},
-    {"q":"À quoi correspond le syndrome de douleur myofasciale (SDM) ?","c":12,"options":[{"t":"À l'ensemble des symptômes et des signes provoqués par un point gâchette myofascial","correct":true,"j":"Le SDM est défini comme l'ensemble des symptômes et signes causés par un point gâchette, foyer d'hyperirritabilité musculo-squelettique."},{"t":"À une contracture musculaire diffuse d'origine centrale, sans foyer localisé","j":"Le SDM part au contraire d'un foyer localisé d'hyperirritabilité dans le muscle, et non d'une origine centrale diffuse."},{"t":"À une douleur articulaire irradiant vers les masses musculaires voisines","j":"La douleur du SDM naît du muscle lui-même et de son point gâchette, et non d'une souffrance articulaire irradiée."}]},
-    {"q":"Lequel de ces éléments figure parmi les trois critères cliniques minimaux de diagnostic du syndrome de douleur myofasciale ?","c":12,"options":[{"t":"La douleur référée après palpation du point douloureux","correct":true,"j":"C'est le troisième des critères minimaux, avec la bande de tension palpable et les points hypersensibles situés à l'intérieur de cette bande."},{"t":"La reproduction de la douleur habituelle du patient","j":"La reproduction de la douleur du patient appartient aux six critères de confirmation, et non aux trois critères minimaux."},{"t":"La réponse spasmodique locale à la palpation","j":"La réponse spasmodique locale ouvre elle aussi la liste des critères de confirmation, juste après les trois critères minimaux."}]},
-    {"q":"Quelles structures du cytosquelette l'aiguille étire-t-elle lors d'une ponction sèche ?","c":12,"options":[{"t":"La titine et la bande Z du sarcomère","correct":true,"j":"Parmi les effets mécaniques de la ponction sèche figure l'étirement des structures du cytosquelette, à savoir la titine et la bande Z."},{"t":"L'actine et la myosine des myofibrilles","j":"Actine et myosine sont les protéines contractiles du sarcomère, et non les structures du cytosquelette visées par cet effet."},{"t":"Le collagène de l'endomysium musculaire","j":"Ce collagène appartient au tissu conjonctif qui enveloppe la fibre, à l'extérieur du cytosquelette proprement dit."}]},
-    {"q":"Quelles fibres nerveuses la ponction sèche stimule-t-elle parmi ses effets neurophysiologiques ?","c":12,"options":[{"t":"Les fibres Aδ et C","correct":true,"j":"La stimulation des fibres Aδ et C est rangée parmi les effets neurophysiologiques de la ponction sèche, avec la réduction de la nociception périphérique."},{"t":"Les fibres Aβ et Aδ","j":"Les fibres Aβ, de gros calibre, ne figurent pas dans la liste du cours, qui ne retient que les deux fibres nociceptives."},{"t":"Les fibres Aα et C","j":"Les fibres C sont bien concernées, mais ce sont les fibres Aδ, et non les Aα, qui complètent la liste enseignée."}]},
-    {"q":"Quel effet la ponction sèche exerce-t-elle sur les régions limbiques comme l'amygdale et le cortex préfrontal ?","c":12,"options":[{"t":"Une diminution de leur activité","correct":true,"j":"Parmi les effets neurophysiologiques figure une diminution de l'activité des régions limbiques, amygdale et cortex préfrontal compris."},{"t":"Une augmentation de leur activité","j":"L'effet décrit va dans le sens inverse : l'activité des régions limbiques baisse sous l'effet de la ponction sèche."},{"t":"Une activité strictement inchangée","j":"La modulation ne se limite pas à la moelle et au cortex sensoriel : un retentissement limbique est bien décrit."}]},
-    {"q":"Dans quelles conditions un tatouage contre-indique-t-il la ponction sèche ?","c":12,"options":[{"t":"Uniquement lorsqu'il recouvre la zone à traiter","correct":true,"j":"Le tatouage n'est retenu comme contre-indication que lorsqu'il se situe sur la zone à traiter."},{"t":"Quel que soit son emplacement sur le corps","j":"Un tatouage situé à distance du point de ponction n'entre pas dans les contre-indications retenues."},{"t":"Uniquement lorsqu'il date de moins de six mois","j":"C'est la localisation du tatouage, et non son ancienneté, qui fonde la restriction enseignée."}]},
-    {"q":"Quel bénéfice particulier les courants biphasiques symétriques apportent-ils en électro-puncture sèche ?","c":12,"options":[{"t":"Ils réduisent la douleur ressentie après la ponction","correct":true,"j":"Parmi les recommandations rapportées, les courants biphasiques symétriques sont retenus parce qu'ils réduisent la douleur post-ponction."},{"t":"Ils produisent un effet polaire au bout de l'aiguille","j":"Un effet polaire suppose un courant circulant dans un seul sens ; un courant biphasique symétrique n'en produit pas."},{"t":"Ils autorisent le dépassement du seuil douloureux du patient","j":"L'intensité dépend du seuil du patient et le cours recommande expressément d'utiliser un courant non douloureux."}]},
-    {"q":"Quels paramètres de séance sont recommandés en électro-puncture sèche ?","c":12,"options":[{"t":"Environ 30 minutes de traitement, 1 à 3 séances par semaine","correct":true,"j":"Les recommandations rapportées retiennent une durée d'environ 30 minutes et un rythme de 1 à 3 séances hebdomadaires."},{"t":"Environ 10 minutes de traitement, 1 à 3 séances par semaine","j":"Le rythme hebdomadaire est exact, mais la durée enseignée est bien plus longue, de l'ordre d'une demi-heure."},{"t":"Environ 30 minutes de traitement, 4 à 5 séances par semaine","j":"La durée est exacte, mais le rythme enseigné ne dépasse pas trois séances par semaine."}]},
-    {"q":"En électro-puncture sèche, à quoi correspond l'application d'une fréquence de 15 Hz ?","c":12,"options":[{"t":"À la libération de diamorphine","correct":true,"j":"La fréquence de 15 Hz est associée à la libération de diamorphine dans l'activation du système de gestion de la douleur."},{"t":"À la libération d'enképhalines","j":"Les enképhalines, libérées avec les endorphines, sont rattachées aux fréquences basses de 2 à 4 Hz."},{"t":"À la combinaison de deux effets","j":"Cette combinaison des deux effets antalgiques est obtenue à 100 Hz, fréquence nettement plus élevée."}]},
-    {"q":"Selon le cours, à quelle condition les effets thérapeutiques de l'électrolyse percutanée se maintiennent-ils et gagnent-ils en efficacité ?","c":12,"options":[{"t":"Lorsqu'ils sont associés à d'autres approches comme l'exercice physique","correct":true,"j":"Ces effets se maintiennent dans le temps et deviennent plus efficaces lorsqu'ils sont combinés à d'autres alternatives thérapeutiques, l'exercice physique notamment."},{"t":"Lorsque le nombre d'aiguilles insérées simultanément est augmenté","j":"La durabilité des effets n'est jamais rapportée au nombre d'aiguilles utilisées pendant la séance."},{"t":"Lorsque l'intensité du courant est augmentée à chaque nouvelle séance","j":"Aucune montée progressive de l'intensité d'une séance à l'autre n'est présentée comme un facteur de durabilité."}]},
-    {"q":"Quels mécanismes le cours range-t-il sous l'effet de modulation de la douleur de l'électrolyse percutanée ?","c":12,"options":[{"t":"Récepteurs opioïdes endogènes, canaux ioniques et substances analgésiques","correct":true,"j":"La modulation de la douleur regroupe l'activation des récepteurs opioïdes endogènes, la modulation des canaux ioniques et la stimulation de la libération de substances analgésiques."},{"t":"Récepteurs opioïdes endogènes, canaux ioniques et fibres de gros calibre","j":"Les deux premiers éléments sont exacts, mais le recrutement des fibres de gros calibre relève de la théorie du portillon et n'est pas cité ici."},{"t":"Récepteurs opioïdes endogènes, canaux calciques et substances vasoactives","j":"Le cours vise les canaux ioniques au sens large, et les substances dont il décrit la libération sont analgésiques, non vasoactives."}]},
-    {"q":"Laquelle de ces situations figure parmi les contre-indications de l'électrolyse percutanée ?","c":12,"options":[{"t":"Un épisode de fièvre","correct":true,"j":"La fièvre est listée parmi les contre-indications de l'électrolyse percutanée, avec la grossesse et le stimulateur cardiaque."},{"t":"Un rougissement cutané","j":"Le rougissement de la peau est rangé parmi les précautions à surveiller, et non parmi les contre-indications."},{"t":"Une lésion bursale","j":"Les lésions bursales constituent au contraire une indication reconnue de la technique."}]},
-    {"q":"Quel mécanisme de la neuromodulation percutanée met en jeu la plasticité neuronale et la sommation temporelle pour améliorer une douleur chronique ?","c":12,"options":[{"t":"La désensibilisation centrale","correct":true,"j":"Elle réduit la surcharge du signal douloureux qui avait rendu le système nerveux trop sensible, en jouant sur la plasticité neuronale et la sommation temporelle."},{"t":"La désensibilisation périphérique","j":"Elle normalise l'excitabilité des nerfs irrités au niveau local, et non la sensibilisation entretenue par le système nerveux central."},{"t":"La plasticité corticale adaptative","j":"Elle modifie la représentation corticale du corps et agit surtout sur les douleurs diffuses ou fantômes."}]},
-    {"q":"Laquelle de ces situations constitue une contre-indication de la neuromodulation percutanée ?","c":12,"options":[{"t":"L'utilisation récente d'une autre technique invasive dans la région","correct":true,"j":"Cette situation est listée parmi les contre-indications de la neuromodulation percutanée, au même titre que l'infection active de la zone."},{"t":"Une douleur neuropathique installée depuis plusieurs mois","j":"Les douleurs neuropathiques figurent au contraire parmi les indications retenues pour cette technique."},{"t":"Une intervention chirurgicale prévue dans les semaines à venir","j":"La période pré-opératoire est présentée comme une indication de la neuromodulation, et non comme une contre-indication."}]}
+    {
+      "q": "Comment le cours définit-il l'exercice thérapeutique ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Une exécution systématique et planifiée de mouvements, de postures et d'activités physiques à objectifs précis",
+          "correct": true,
+          "j": "Le cours reprend cette définition : une exécution systématique et planifiée, conçue pour corriger ou prévenir les troubles physiques et restaurer les fonctions."
+        },
+        {
+          "t": "Une succession de mouvements libres choisis spontanément par le patient selon ses sensations du jour",
+          "j": "Le caractère systématique et planifié est constitutif de l'exercice thérapeutique : rien n'y est laissé au choix spontané."
+        },
+        {
+          "t": "Un ensemble de postures maintenues passivement par le thérapeute sans participation active du patient",
+          "j": "La définition porte sur des mouvements, postures et activités physiques exécutés par le patient, et non sur une mise en posture passive."
+        }
+      ]
+    },
+    {
+      "q": "Un programme de dépistage visant à réduire la gravité et la durée d'une maladie déjà installée ainsi que ses séquelles relève de :",
+      "c": 7,
+      "options": [
+        {
+          "t": "La prévention secondaire",
+          "correct": true,
+          "j": "Le cours définit ce niveau par le diagnostic précoce et la réduction de la gravité, de la durée et des séquelles de la maladie existante."
+        },
+        {
+          "t": "La prévention primaire",
+          "j": "Elle intervient avant l'apparition de la maladie, par des activités de promotion de la santé auprès des populations à risque."
+        },
+        {
+          "t": "La prévention tertiaire",
+          "j": "Elle recourt aux techniques de réadaptation pour réduire le degré ou limiter la progression du handicap actuel chez des personnes atteintes d'une maladie chronique et irréversible."
+        }
+      ]
+    },
+    {
+      "q": "Dans la synthèse sur les lésions des ischio-jambiers, quel type de travail musculaire raccourcit le plus le délai de retour au sport ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Un travail excentrique insistant sur l'allongement musculaire",
+          "correct": true,
+          "j": "Les deux études citées montrent que les exercices excentriques en allongement (protocole L) réduisent de 38 à 45 % le temps nécessaire pour revenir au sport, par rapport à un renforcement concentrique."
+        },
+        {
+          "t": "Un travail concentrique de renforcement progressif du muscle",
+          "j": "C'est le protocole de comparaison, auquel le travail en allongement s'est montré supérieur sur le délai de retour au sport."
+        },
+        {
+          "t": "Un travail isométrique maintenu en course interne du muscle",
+          "j": "Ce mode de contraction n'est pas celui qu'évaluent les études citées, qui opposent travail en allongement et travail concentrique."
+        }
+      ]
+    },
+    {
+      "q": "D'après la conclusion du cours, dans quelle fourchette se situe le temps de retour au sport après une blessure musculaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Entre 15 et 86 jours",
+          "correct": true,
+          "j": "La conclusion retient cette fourchette très large, assortie de taux de récidive s'étendant de 0 à 70 %."
+        },
+        {
+          "t": "Entre 2 et 15 jours",
+          "j": "Le cours place la borne haute à 86 jours : une fourchette s'arrêtant à 15 jours ne retient que le délai le plus court observé."
+        },
+        {
+          "t": "Entre 90 et 180 jours",
+          "j": "Cette durée dépasse la borne haute retenue par le cours, fixée à 86 jours."
+        }
+      ]
+    },
+    {
+      "q": "Commencer la rééducation deux jours après la lésion musculaire plutôt que neuf jours :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Avance d'une vingtaine de jours le retour au sport",
+          "correct": true,
+          "j": "Le cours oppose un retour à 63 jours pour la rééducation précoce contre 83 jours pour la rééducation retardée."
+        },
+        {
+          "t": "N'a aucune incidence sur le délai de retour au sport",
+          "j": "Les chiffres rapportés montrent au contraire un écart net entre prise en charge précoce et prise en charge différée."
+        },
+        {
+          "t": "Retarde le retour au sport en prolongeant la cicatrisation",
+          "j": "Le cours attribue à la rééducation précoce un retour plus rapide, et non un allongement du délai."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui persiste longtemps après une blessure musculaire et peut augmenter le risque de récidive ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Des changements structurels dans les tissus affectés",
+          "correct": true,
+          "j": "Le cours souligne que ces modifications structurelles persistent bien après la blessure et influencent la fonction musculaire."
+        },
+        {
+          "t": "Une inflammation aiguë entretenue dans le muscle lésé",
+          "j": "Aucune inflammation prolongée n'est décrite : ce sont des remaniements du tissu qui demeurent."
+        },
+        {
+          "t": "Une perte définitive du recrutement nerveux du muscle",
+          "j": "Le cours ne décrit aucune atteinte nerveuse définitive après une lésion musculaire."
+        }
+      ]
+    },
+    {
+      "q": "Que désigne la « fonction musculaire » dont l'exercice thérapeutique améliore le niveau ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "La capacité du muscle à produire de la tension et à fonctionner",
+          "correct": true,
+          "j": "Le cours définit explicitement l'amélioration de la fonction musculaire comme celle de la capacité du muscle à produire de la tension."
+        },
+        {
+          "t": "La capacité du muscle à s'allonger sans douleur au repos",
+          "j": "L'allongement relève de la flexibilité et de l'élasticité musculo-tendineuses, et non de la définition retenue ici."
+        },
+        {
+          "t": "La capacité du muscle à stocker du glycogène à l'effort",
+          "j": "Les réserves énergétiques relèvent des changements métaboliques, décrits à part des qualités musculaires."
+        }
+      ]
+    },
+    {
+      "q": "Par quels mécanismes l'exercice thérapeutique augmente-t-il la résistance à la fatigue musculaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Par l'hypertrophie musculaire et un meilleur recrutement des fibres à l'effort",
+          "correct": true,
+          "j": "Le cours relie directement le gain de résistance à la fatigue à l'hypertrophie et au recrutement des fibres pendant l'activité."
+        },
+        {
+          "t": "Par l'augmentation de l'amplitude articulaire et de l'élasticité des tendons",
+          "j": "Ces gains relèvent de la mobilité et de la flexibilité, qui constituent un effet distinct de la résistance à la fatigue."
+        },
+        {
+          "t": "Par la diminution du nombre d'unités motrices sollicitées pendant l'activité",
+          "j": "Le cours décrit un gain d'efficacité à l'effort, non une réduction des unités motrices mises en jeu."
+        }
+      ]
+    },
+    {
+      "q": "Comment la vascularisation accrue par l'exercice favorise-t-elle la réparation des tissus ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Elle apporte nutriments et substances trophiques et élimine les déchets",
+          "correct": true,
+          "j": "Le cours décrit un apport de nutriments et de substances trophiques indispensables à la régénération, avec évacuation des déchets."
+        },
+        {
+          "t": "Elle augmente la pression intramusculaire et comprime la zone lésée",
+          "j": "Aucune compression de la lésion n'est décrite : c'est l'apport circulatoire qui soutient la régénération."
+        },
+        {
+          "t": "Elle abaisse la température locale et ralentit le métabolisme tissulaire",
+          "j": "Un ralentissement métabolique irait contre la régénération, qui exige au contraire des apports soutenus."
+        }
+      ]
+    },
+    {
+      "q": "Que recouvre précisément l'augmentation de la capacité aérobique obtenue par l'exercice thérapeutique ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Une meilleure utilisation de l'oxygène et une efficacité cardiovasculaire accrue",
+          "correct": true,
+          "j": "Le cours définit cette capacité comme l'aptitude du corps à utiliser l'oxygène, avec gain d'endurance et d'efficacité du système cardiovasculaire."
+        },
+        {
+          "t": "Un stockage accru d'oxygène dans les muscles pendant les phases de repos",
+          "j": "Il s'agit d'une meilleure utilisation de l'oxygène à l'effort, et non d'une mise en réserve musculaire au repos."
+        },
+        {
+          "t": "Une élévation du métabolisme de base liée à la modification de la composition corporelle",
+          "j": "Cet effet appartient aux changements métaboliques, qui forment un chapitre distinct des adaptations cardiovasculaires."
+        }
+      ]
+    },
+    {
+      "q": "Sur le système neuromusculaire, l'amélioration de la coordination et du contrôle du mouvement s'explique par :",
+      "c": 7,
+      "options": [
+        {
+          "t": "L'amélioration des connexions neuromusculaires",
+          "correct": true,
+          "j": "Le cours attribue l'optimisation de la coordination et du contrôle moteur à l'amélioration des connexions entre nerf et muscle."
+        },
+        {
+          "t": "L'allongement du temps de contraction des fibres",
+          "j": "Le cours ne décrit aucune modification de la vitesse de contraction : il rattache le contrôle du mouvement à la qualité de la commande nerveuse."
+        },
+        {
+          "t": "L'augmentation du nombre de fibres musculaires",
+          "j": "Aucune création de fibres nouvelles n'est décrite ; c'est la liaison entre le nerf et le muscle qui est optimisée par l'exercice."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet l'exercice thérapeutique produit-il sur le système immunitaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Il augmente la production de cellules qui combattent l'infection et régulent l'inflammation",
+          "correct": true,
+          "j": "Le cours retient une augmentation de l'activité immunitaire, avec production de cellules de défense et régulation de l'inflammation."
+        },
+        {
+          "t": "Il déprime transitoirement les défenses de l'organisme au profit de la réparation tissulaire",
+          "j": "Aucune dépression immunitaire n'est décrite : l'activité immunitaire est au contraire renforcée."
+        },
+        {
+          "t": "Il accroît surtout la production de globules rouges et le transport de l'oxygène",
+          "j": "L'effet décrit porte sur les cellules de l'immunité, non sur la lignée érythrocytaire et le transport de l'oxygène."
+        }
+      ]
+    },
+    {
+      "q": "Quels effets psychologiques le cours attribue-t-il à l'exercice thérapeutique ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Une réduction du stress et de l'anxiété et une amélioration de l'humeur",
+          "correct": true,
+          "j": "Le cours retient ces deux effets psychologiques : la baisse du stress et de l'anxiété, et l'amélioration de l'humeur."
+        },
+        {
+          "t": "Une réduction de l'anxiété au prix d'une humeur plus fluctuante",
+          "j": "Le cours ne décrit aucune contrepartie sur l'humeur, qu'il présente au contraire comme améliorée."
+        },
+        {
+          "t": "Une amélioration de l'humeur sans effet mesurable sur l'anxiété",
+          "j": "La réduction du stress et de l'anxiété figure explicitement parmi les effets psychologiques retenus."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi le cours recommande-t-il de relier les objectifs d'exercice à des activités qui comptent pour le patient ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Parce que cela augmente sa motivation à réaliser le programme",
+          "correct": true,
+          "j": "Le cours demande des objectifs clairs et atteignables, liés à des activités significatives, précisément pour accroître la motivation."
+        },
+        {
+          "t": "Parce que cela dispense de fixer des objectifs mesurables",
+          "j": "Le caractère clair et atteignable de l'objectif reste exigé, quelle que soit l'activité choisie comme référence."
+        },
+        {
+          "t": "Parce que cela permet d'augmenter la charge sans surveillance",
+          "j": "Le choix d'activités significatives porte sur la finalité de l'exercice, non sur le réglage de la charge."
+        }
+      ]
+    },
+    {
+      "q": "Comment le kinésithérapeute doit-il présenter un nouvel exercice au patient ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "En le démontrant avec maîtrise et en verbalisant, pour que le patient imite",
+          "correct": true,
+          "j": "Le cours décrit une démonstration maîtrisée, précise et verbalisée, que le patient observe d'abord puis reproduit."
+        },
+        {
+          "t": "En le décrivant uniquement par écrit sur une fiche détaillée remise au patient",
+          "j": "Le cours exige une démonstration réalisée devant le patient, qu'un document écrit ne peut remplacer."
+        },
+        {
+          "t": "En laissant le patient l'essayer seul avant toute explication du geste",
+          "j": "L'ordre retenu place l'intervention du professionnel avant la première exécution du patient."
+        }
+      ]
+    },
+    {
+      "q": "Quelles qualités le retour donné au patient (feedback) doit-il réunir ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Être immédiat et positif, pour motiver sans démoraliser",
+          "correct": true,
+          "j": "Le cours demande un feedback immédiat et positif, qui motive sans démoraliser et consolide les résultats obtenus."
+        },
+        {
+          "t": "Être différé en fin de séance pour ne pas interrompre l'exercice",
+          "j": "Le cours réclame un retour immédiat, donné au moment où le geste est réalisé."
+        },
+        {
+          "t": "Être strictement correctif pour éviter tout excès de confiance",
+          "j": "Un retour uniquement correctif démoralise le patient, alors que sa dimension positive est explicitement exigée."
+        }
+      ]
+    },
+    {
+      "q": "Que doit faire le kinésithérapeute pendant que le patient réalise ses exercices ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Observer attentivement, détecter les erreurs et renforcer le geste correct",
+          "correct": true,
+          "j": "Le cours impose l'observation attentive, la détection des erreurs, l'intervention si nécessaire et le renforcement verbal ou physique du geste correct."
+        },
+        {
+          "t": "Laisser le patient terminer sans intervenir, pour préserver son autonomie",
+          "j": "L'absence d'intervention laisse s'installer les erreurs : le cours demande de corriger pendant la pratique."
+        },
+        {
+          "t": "Compter les répétitions sans commenter la qualité du geste réalisé",
+          "j": "Le décompte ne suffit pas : c'est la qualité du mouvement qui doit être surveillée et commentée."
+        }
+      ]
+    },
+    {
+      "q": "Que signifie favoriser l'autonomie du patient dans l'exercice thérapeutique ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Qu'il réalise seul l'exercice, en comprend le but et l'intègre à son quotidien",
+          "correct": true,
+          "j": "Le cours attend une exécution autonome et comprise, puis son intégration au quotidien sous forme de routine."
+        },
+        {
+          "t": "Qu'il choisisse lui-même les exercices qu'il juge utiles à sa pathologie",
+          "j": "Le choix des exercices demeure une décision professionnelle : l'autonomie porte sur l'exécution et la compréhension."
+        },
+        {
+          "t": "Qu'il poursuive sa rééducation sans aucune réévaluation ultérieure",
+          "j": "L'autonomie d'exécution ne supprime ni le suivi ni la réévaluation du patient par le professionnel."
+        }
+      ]
+    },
+    {
+      "q": "D'après la revue citée dans le cours, quelle dose hebdomadaire d'exercice est nécessaire pour réduire modérément les symptômes dépressifs du post-partum ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Au moins 350 MET-min par semaine, soit environ 80 minutes d'intensité modérée",
+          "correct": true,
+          "j": "La méta-analyse citée fixe ce seuil d'environ 350 MET-min hebdomadaires pour obtenir une réduction modérée des symptômes."
+        },
+        {
+          "t": "Au moins 150 MET-min par semaine, soit environ 30 minutes d'intensité modérée",
+          "j": "Cette dose reste inférieure au seuil retenu par la revue pour obtenir une réduction modérée."
+        },
+        {
+          "t": "Au moins 700 MET-min par semaine, soit environ 160 minutes d'intensité modérée",
+          "j": "Cette dose dépasse largement le seuil décrit comme nécessaire pour une réduction modérée des symptômes."
+        }
+      ]
+    },
+    {
+      "q": "D'après la méta-analyse citée, de combien l'exercice réduit-il le risque de dépression du post-partum ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "D'environ 45 %",
+          "correct": true,
+          "j": "La revue rapporte une diminution du risque de dépression du post-partum de 45 %, correspondant à un odds ratio de 0,55."
+        },
+        {
+          "t": "D'environ 10 %",
+          "j": "Cette réduction est nettement inférieure à l'effet rapporté par la revue citée dans le cours."
+        },
+        {
+          "t": "D'environ 80 %",
+          "j": "Une telle ampleur dépasse largement l'effet rapporté pour l'exercice en post-partum."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qu'un objectif thérapeutique, tel que le cours le définit ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Une cible spécifique et mesurable guidant la planification du traitement",
+          "correct": true,
+          "j": "Le cours en fait une cible spécifique et mesurable, servant de guide pour planifier puis évaluer les interventions thérapeutiques."
+        },
+        {
+          "t": "Un pronostic de récupération établi dès le premier jour de la prise en charge",
+          "j": "Le pronostic estime une évolution probable, alors que l'objectif fixe un résultat à atteindre et à mesurer."
+        },
+        {
+          "t": "Une technique choisie par le kinésithérapeute selon son domaine d'expertise",
+          "j": "La technique est un moyen d'intervention : elle sert l'objectif mais ne constitue pas la cible visée."
+        }
+      ]
+    },
+    {
+      "q": "Selon les statuts professionnels cités dans le cours, quelle étape précède obligatoirement tout acte kinésithérapeutique ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La détermination du bilan et du diagnostic kinésithérapeutique",
+          "correct": true,
+          "j": "Le cours fait du bilan et du diagnostic kinésithérapeutique l'étape préalable à tout acte de la profession."
+        },
+        {
+          "t": "L'obtention d'une prescription du médecin rééducateur",
+          "j": "Les statuts cités placent avant l'acte le bilan et le diagnostic kinésithérapeutiques, et non l'obtention d'une prescription."
+        },
+        {
+          "t": "L'inscription du patient au registre des professions de santé",
+          "j": "Ce registre recense les professionnels eux-mêmes et ne constitue en rien une étape du traitement."
+        }
+      ]
+    },
+    {
+      "q": "Dans la CIF, que recouvre le terme générique « fonctionnement » ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Les fonctions et structures corporelles, les activités et la participation",
+          "correct": true,
+          "j": "Le cours définit le fonctionnement comme le terme générique qui englobe les fonctions et les structures corporelles, les activités et la participation."
+        },
+        {
+          "t": "Les seules fonctions corporelles encore conservées malgré la maladie",
+          "j": "Le terme est bien plus large et ne se réduit pas à la composante des fonctions corporelles."
+        },
+        {
+          "t": "Les facteurs environnementaux et personnels du cadre de vie du patient",
+          "j": "Ces éléments composent les facteurs contextuels, qui forment l'autre partie de la classification."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, de quoi le handicap d'une personne résulte-t-il ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "D'une interaction complexe entre état de santé, facteurs personnels et milieu de vie",
+          "correct": true,
+          "j": "Le cours décrit le handicap comme le produit d'une interaction complexe entre l'état de santé, les facteurs personnels et les circonstances externes de vie."
+        },
+        {
+          "t": "De la seule gravité de la lésion organique initialement constituée par la maladie",
+          "j": "Ramener le handicap à la lésion reproduit le modèle linéaire antérieur, que la CIF a précisément dépassé."
+        },
+        {
+          "t": "De l'étiologie de la maladie, telle que l'OMS la code dans sa classification",
+          "j": "Le classement par étiologie relève d'une autre classification de l'OMS, étrangère à l'approche du handicap retenue ici."
+        }
+      ]
+    },
+    {
+      "q": "Dans la CIF, que décrit la « performance » ou réalisation, par opposition à la capacité ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Ce que la personne fait dans son environnement actuel",
+          "correct": true,
+          "j": "Le cours la définit par le contexte : c'est « l'acte de s'engager dans une situation actuelle », donc dans l'environnement de vie réel."
+        },
+        {
+          "t": "L'aptitude de la personne à accomplir une tâche ou une action",
+          "j": "C'est la définition de la capacité, qui s'apprécie indépendamment du contexte de vie réel."
+        },
+        {
+          "t": "Le degré d'autonomie attendu d'une personne de cet âge",
+          "j": "La CIF décrit ce que la personne fait, sans poser de norme attendue selon des caractéristiques individuelles."
+        }
+      ]
+    },
+    {
+      "q": "À quelle composante de la CIF appartiennent l'âge, le niveau d'éducation et les habitudes de vie d'un patient ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Aux facteurs personnels",
+          "correct": true,
+          "j": "Le cours y range le sexe, l'âge, l'éducation, la profession et les modes de vie, qui forment le contexte particulier de la vie de l'individu."
+        },
+        {
+          "t": "Aux facteurs environnementaux",
+          "j": "Ceux-ci décrivent le milieu physique et social extérieur : domicile, travail, services, réglementations et attitudes."
+        },
+        {
+          "t": "Aux fonctions corporelles",
+          "j": "L'énoncé ne porte pas sur le fonctionnement de l'organisme mais sur le contexte particulier de la vie de la personne."
+        }
+      ]
+    },
+    {
+      "q": "Dans la CIF, où sont classées les fonctions mentales ou psychologiques ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Parmi les fonctions corporelles",
+          "correct": true,
+          "j": "Le cours précise que le terme « corps » désigne l'organisme entier, cerveau compris : les fonctions mentales y sont donc rangées."
+        },
+        {
+          "t": "Parmi les structures corporelles",
+          "j": "Les structures corporelles désignent les parties anatomiques de l'organisme — l'étude de cas code ainsi l'articulation du genou —, et non les fonctions elles-mêmes."
+        },
+        {
+          "t": "Parmi les activités et la participation",
+          "j": "Cette composante décrit l'exécution de tâches et l'engagement dans des situations de vie, non les fonctions de l'organisme."
+        }
+      ]
+    },
+    {
+      "q": "Le cours indique qu'une déficience peut en entraîner une autre. Quel exemple en donne-t-il ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Une diminution de la force musculaire peut altérer les fonctions de mouvement",
+          "correct": true,
+          "j": "Le cours cite précisément cet enchaînement, comme il cite un déficit respiratoire retentissant sur le fonctionnement cardiaque."
+        },
+        {
+          "t": "Une limitation d'activité entraîne toujours une restriction de participation",
+          "j": "Ces deux notions appartiennent au versant négatif du fonctionnement, mais n'illustrent pas une déficience en produisant une autre."
+        },
+        {
+          "t": "Une maladie chronique produit nécessairement une déficience durable",
+          "j": "La notion de déficience est plus large que celle de maladie et n'en découle pas automatiquement."
+        }
+      ]
+    },
+    {
+      "q": "Quels principes le cours retient-il comme socle de l'éthique professionnelle en physiothérapie ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Bienfaisance, non-malfaisance, autonomie et justice",
+          "correct": true,
+          "j": "Le cours présente ces quatre principes comme le socle de l'éthique professionnelle du physiothérapeute."
+        },
+        {
+          "t": "Bienfaisance, confidentialité, autonomie et efficience",
+          "j": "La confidentialité et l'efficience sont des exigences de pratique, non les quatre principes éthiques énoncés."
+        },
+        {
+          "t": "Non-malfaisance, justice, solidarité et responsabilité",
+          "j": "La solidarité et la responsabilité ne figurent pas parmi les quatre principes retenus par le cours."
+        }
+      ]
+    },
+    {
+      "q": "Sur quoi la relation avec le patient doit-elle reposer, d'après le code de déontologie cité dans le cours ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Sur le respect, la confiance et la compréhension mutuelle",
+          "correct": true,
+          "j": "Le code cité fonde la relation sur ces trois exigences, complétées par l'information du patient et son consentement éclairé."
+        },
+        {
+          "t": "Sur l'autorité du professionnel et l'observance stricte du patient",
+          "j": "Le patient conserve le droit d'être informé de son traitement et de choisir ou de changer de kinésithérapeute."
+        },
+        {
+          "t": "Sur la seule prescription établie par le médecin traitant",
+          "j": "La relation se noue directement entre le kinésithérapeute et son patient et ne se réduit pas à une prescription."
+        }
+      ]
+    },
+    {
+      "q": "Comment la massothérapie se situe-t-elle du point de vue de l'acceptation par les patients et du niveau de preuve scientifique ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Forte acceptation des patients, faible niveau de preuve",
+          "correct": true,
+          "j": "Le cours souligne ce décalage : les patients adhèrent très bien à la massothérapie alors que les travaux qui la soutiennent sont de faible qualité méthodologique."
+        },
+        {
+          "t": "Faible acceptation des patients, fort niveau de preuve",
+          "j": "L'acceptation par les patients est au contraire décrite comme forte, et les preuves disponibles restent limitées."
+        },
+        {
+          "t": "Forte acceptation des patients, fort niveau de preuve",
+          "j": "L'acceptation est bien forte, mais le niveau de preuve est qualifié de faible en raison de la faible qualité méthodologique des études."
+        }
+      ]
+    },
+    {
+      "q": "Quelle manœuvre de massage appartient au groupe des manœuvres de base ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le pétrissage",
+          "correct": true,
+          "j": "Le pétrissage figure parmi les manœuvres de base, aux côtés de la friction profonde et des pressions."
+        },
+        {
+          "t": "L'effleurage",
+          "j": "L'effleurage, comme la friction superficielle, est une manœuvre préparatoire qui ouvre la séance."
+        },
+        {
+          "t": "La percussion",
+          "j": "La percussion appartient aux manœuvres supplémentaires, avec la vibration, les secousses et le pincement."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet figure parmi les effets généraux du massage classique ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Une augmentation de la température musculaire",
+          "correct": true,
+          "j": "L'élévation de la température du muscle est citée parmi les effets généraux du massage classique, avec la détente et la réduction des adhérences entre les tissus."
+        },
+        {
+          "t": "Une augmentation du taux de cortisol sanguin",
+          "j": "Le massage classique s'accompagne d'une détente et d'une baisse du taux de cortisol, non d'une hausse."
+        },
+        {
+          "t": "Une diminution du flux sanguin de la région traitée",
+          "j": "Le massage classique augmente le flux sanguin de la région traitée au lieu de le réduire."
+        }
+      ]
+    },
+    {
+      "q": "Au niveau de la peau, par quel mécanisme le massage favorise-t-il l'élimination des déchets ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Par une augmentation de la transpiration",
+          "correct": true,
+          "j": "Parmi les effets cutanés, le cours retient une élimination des déchets obtenue grâce à l'augmentation de la transpiration."
+        },
+        {
+          "t": "Par une accélération du renouvellement cornéen",
+          "j": "Aucun effet sur le renouvellement de la couche cornée n'est décrit : la peau bénéficie surtout d'une amélioration de son trophisme."
+        },
+        {
+          "t": "Par une vasoconstriction de la zone traitée",
+          "j": "La réponse cutanée au massage est une vasodilatation active avec hyperémie locale, et non une vasoconstriction."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet le massage exerce-t-il sur le tissu cellulaire sous-cutané ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "La réabsorption des adipocytes par lyse mécanique",
+          "correct": true,
+          "j": "Au niveau sous-cutané, la pression des manœuvres produit une lyse mécanique permettant la réabsorption des adipocytes."
+        },
+        {
+          "t": "La néoformation de fibres élastiques dans le derme",
+          "j": "Aucune néoformation de fibres n'est décrite : les effets sous-cutanés sont circulatoires et portent sur les liquides et les adipocytes."
+        },
+        {
+          "t": "L'augmentation de la viscosité du liquide interstitiel",
+          "j": "Les liquides d'œdème et d'épanchement sont réabsorbés ; leur viscosité n'est pas l'élément modifié par le massage."
+        }
+      ]
+    },
+    {
+      "q": "De quoi dépend le fait que le massage relaxe le muscle ou au contraire augmente son excitabilité ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Des paramètres d'application choisis",
+          "correct": true,
+          "j": "La relaxation ou l'excitabilité musculaire obtenue dépend des paramètres d'application retenus pour la manœuvre."
+        },
+        {
+          "t": "De la température initiale du muscle",
+          "j": "La température du muscle avant la séance n'est pas le critère retenu : l'effet obtenu dépend de la façon dont la manœuvre est appliquée."
+        },
+        {
+          "t": "Du nombre de séances déjà réalisées",
+          "j": "Le cumul des séances n'est pas le facteur déterminant : c'est la façon dont la manœuvre est appliquée qui fixe l'effet."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet le massage produit-il au niveau du tissu articulaire ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "La résorption des exsudats articulaires",
+          "correct": true,
+          "j": "Sur l'articulation, les effets retenus sont la réduction de la raideur, l'assouplissement des adhérences et la résorption des exsudats."
+        },
+        {
+          "t": "La régénération du cartilage usé",
+          "j": "Aucune action régénératrice sur le cartilage n'est décrite ; les effets articulaires du massage sont mécaniques et circulatoires."
+        },
+        {
+          "t": "Le renforcement de la capsule articulaire",
+          "j": "Le massage assouplit la capsule et les adhérences périarticulaires plutôt qu'il ne les renforce."
+        }
+      ]
+    },
+    {
+      "q": "Comment le massage modifie-t-il l'activité du tissu nerveux ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Sensibilité des terminaisons sensorielles diminuée, excitabilité des nerfs moteurs augmentée",
+          "correct": true,
+          "j": "L'analgésie vient de la baisse de sensibilité des terminaisons sensorielles, tandis que l'excitabilité des nerfs moteurs, elle, augmente."
+        },
+        {
+          "t": "Sensibilité des terminaisons sensorielles diminuée, excitabilité des nerfs moteurs diminuée",
+          "j": "La partie sensorielle est exacte, mais l'excitabilité des nerfs moteurs augmente au lieu de diminuer."
+        },
+        {
+          "t": "Sensibilité des terminaisons sensorielles augmentée, excitabilité des nerfs moteurs augmentée",
+          "j": "L'excitabilité motrice augmente bien, mais la sensibilité des terminaisons sensorielles diminue, ce qui explique l'effet antalgique."
+        }
+      ]
+    },
+    {
+      "q": "Par quel type d'action le massage agit-il sur le tissu viscéral, par exemple en augmentant le péristaltisme intestinal ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Par une action réflexe déclenchée à distance",
+          "correct": true,
+          "j": "L'effet viscéral du massage est réflexe : le massage d'évacuation augmente ainsi le péristaltisme intestinal."
+        },
+        {
+          "t": "Par une pression mécanique directe sur l'intestin",
+          "j": "Il ne s'agit pas d'un pétrissage direct du viscère : la réponse passe par un réflexe déclenché depuis la paroi."
+        },
+        {
+          "t": "Par une augmentation du débit sanguin mésentérique",
+          "j": "Le mécanisme invoqué n'est pas vasculaire ; c'est une réponse réflexe provoquée par la manœuvre."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les contre-indications du massage, laquelle tient à l'état neurologique de la zone à traiter ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Les zones d'anesthésie ou de sensibilité modifiée",
+          "correct": true,
+          "j": "Les changements de sensibilité et les zones d'anesthésie figurent parmi les contre-indications ; ce sont les seules de la liste qui portent sur la sensibilité de la région."
+        },
+        {
+          "t": "Les troubles graves de la coagulation sanguine",
+          "j": "Ils contre-indiquent bien le massage, mais au titre du risque hémorragique, pas de l'état neurologique local."
+        },
+        {
+          "t": "Les lésions et les allergies cutanées de la zone",
+          "j": "Elles contre-indiquent le massage au titre de l'état de la peau, et non pour un motif neurologique."
+        }
+      ]
+    },
+    {
+      "q": "Au cours de la manœuvre de drainage lymphatique manuel, quelle phase correspond à la tension maximale ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "La phase de poussée active",
+          "correct": true,
+          "j": "La manœuvre comporte quatre phases et c'est la poussée active qui porte la tension à son maximum."
+        },
+        {
+          "t": "La phase de soutien passif",
+          "j": "La phase de soutien passif ouvre la manœuvre et prépare le tissu sans appliquer la tension maximale."
+        },
+        {
+          "t": "La phase de contact passif",
+          "j": "La phase de contact passif termine la manœuvre avec une tension ramenée à zéro."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet immunitaire le drainage lymphatique manuel produit-il chez un patient immunodéprimé ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Une augmentation de la production d'IgA",
+          "correct": true,
+          "j": "En cas d'immunodéficience, le drainage lymphatique est crédité d'une augmentation de la production d'IgA."
+        },
+        {
+          "t": "Une augmentation de la production d'IgE",
+          "j": "Les IgE, liées aux réactions allergiques, ne font pas partie des effets immunitaires décrits pour cette technique."
+        },
+        {
+          "t": "Une diminution des cellules immunitaires locales",
+          "j": "Le drainage améliore au contraire l'efficacité des cellules immunitaires présentes dans l'espace interstitiel."
+        }
+      ]
+    },
+    {
+      "q": "Quel type de mobilisation articulaire est principalement utilisé chez les patients alités et hospitalisés ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "La mobilisation globale ou fonctionnelle",
+          "correct": true,
+          "j": "La mobilisation globale concerne plus d'une articulation et aide à conserver un bon schéma moteur, d'où son usage chez les patients alités."
+        },
+        {
+          "t": "La mobilisation analytique spécifique",
+          "j": "La mobilisation analytique vise un mouvement accessoire précis d'une seule articulation, ce qui n'est pas l'objectif ici."
+        },
+        {
+          "t": "La mobilisation passive simple",
+          "j": "La mobilisation simple ne porte que sur une articulation et son mouvement physiologique, sans viser le schéma moteur global."
+        }
+      ]
+    },
+    {
+      "q": "Lors d'une mobilisation passive, où le physiothérapeute place-t-il généralement le contrepoint ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Sur le segment proximal, qu'il maintient fixe",
+          "correct": true,
+          "j": "Le contrepoint est le point fixe de la mobilisation ; il est le plus souvent pris sur le segment proximal du corps."
+        },
+        {
+          "t": "Sur le segment distal, qu'il déplace",
+          "j": "Le segment distal reçoit habituellement le grip, c'est-à-dire le point mobile de la mobilisation."
+        },
+        {
+          "t": "Sur l'interligne articulaire, qu'il comprime",
+          "j": "Aucune prise compressive sur l'interligne n'est décrite : le contrepoint est une prise de fixation sur un segment."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est la conséquence du choix d'une prise à bras de levier long lors d'une mobilisation passive ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Moins de précision, mais moins de force à produire",
+          "correct": true,
+          "j": "Le bras de levier long réduit la force à fournir par le thérapeute, au prix d'une mobilisation moins précise."
+        },
+        {
+          "t": "Plus de précision, mais plus de force à produire",
+          "j": "C'est la prise courte, à bras de levier court, qui offre davantage de précision en exigeant plus de force."
+        },
+        {
+          "t": "Plus de précision et moins de force à produire",
+          "j": "Aucune prise ne cumule les deux avantages : précision et économie de force varient en sens inverse."
+        }
+      ]
+    },
+    {
+      "q": "Quelle progression le cours décrit-il pour la mobilisation active ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "De l'actif vers l'actif assisté ou résisté, puis le travail fonctionnel",
+          "correct": true,
+          "j": "La progression décrite va de l'actif vers l'actif assisté ou résisté, puis vers une tâche spécifique fonctionnelle, avec augmentation progressive de l'amplitude et de la résistance."
+        },
+        {
+          "t": "Du travail fonctionnel vers le mouvement actif analytique isolé",
+          "j": "La tâche fonctionnelle spécifique est le terme de la progression, non son point de départ."
+        },
+        {
+          "t": "Du mouvement passif conduit par le thérapeute vers l'actif libre",
+          "j": "La progression décrite part du mouvement déjà réalisé par le patient ; le mouvement conduit par le thérapeute relève de la mobilisation passive."
+        }
+      ]
+    },
+    {
+      "q": "Dans quelle situation clinique la mobilisation active est-elle indiquée ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Douleur modérée avec faible irritabilité, après immobilisation",
+          "correct": true,
+          "j": "Les indications retenues sont la douleur modérée et la faible irritabilité, aux phases intermédiaires d'une immobilisation ou d'une chirurgie."
+        },
+        {
+          "t": "Douleur sévère avec forte irritabilité, en phase aiguë",
+          "j": "Une douleur sévère et une irritabilité élevée ne figurent pas parmi les indications : le tissu réagit encore trop fortement."
+        },
+        {
+          "t": "Patient peu coopérant, juste après une chirurgie",
+          "j": "La mobilisation active suppose un patient capable de suivre les consignes et de participer activement au mouvement."
+        }
+      ]
+    },
+    {
+      "q": "Par quel mécanisme la mobilisation active diminue-t-elle la douleur ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Par le pompage synovial et le contrôle neuromusculaire",
+          "correct": true,
+          "j": "Le mouvement produit par le patient assure un pompage synovial et entretient le contrôle neuromusculaire, ce qui diminue la douleur."
+        },
+        {
+          "t": "Par l'étirement prolongé des structures capsulaires",
+          "j": "L'étirement capsulaire n'est pas le mécanisme antalgique retenu ; la mobilisation active prévient d'ailleurs la perte d'extensibilité capsulaire."
+        },
+        {
+          "t": "Par la diminution de la température articulaire",
+          "j": "Aucun effet thermique n'est invoqué : l'effet antalgique tient au mouvement actif lui-même."
+        }
+      ]
+    },
+    {
+      "q": "Quel est le principe des techniques de mobilisation neuroméningée (neurodynamique) ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Libérer les points de pression qui gênent le glissement du nerf",
+          "correct": true,
+          "j": "Le nerf traverse fascias, muscles et capsules qui peuvent se raidir et le pincer ; ces techniques libèrent les points de pression le long de son trajet."
+        },
+        {
+          "t": "Étirer le nerf jusqu'à sa limite élastique pour l'allonger",
+          "j": "Il ne s'agit pas d'allonger le nerf, mais de restaurer son mouvement là où son glissement est entravé."
+        },
+        {
+          "t": "Renforcer les muscles innervés pour compenser le déficit",
+          "j": "Le renforcement musculaire n'est pas l'objet de ces techniques, qui s'adressent au tissu nerveux et à son environnement."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi les techniques neurodynamiques sont-elles aussi employées dans des douleurs nociceptives qui n'atteignent pas le tissu nerveux ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Parce qu'elles améliorent le seuil de la douleur du patient",
+          "correct": true,
+          "j": "Le cours indique que ces techniques améliorent le seuil de la douleur et réduisent ainsi la douleur perçue, même lorsque le tissu nerveux n'est pas atteint."
+        },
+        {
+          "t": "Parce qu'elles accélèrent la cicatrisation du tissu lésé",
+          "j": "Aucun effet sur la cicatrisation tissulaire n'est avancé pour justifier cet usage élargi."
+        },
+        {
+          "t": "Parce qu'elles suppriment la compression du tissu nerveux",
+          "j": "Il n'y a précisément aucune compression nerveuse à lever dans cette situation, puisque le tissu nerveux n'est pas atteint."
+        }
+      ]
+    },
+    {
+      "q": "Lorsque les symptômes du patient sont jugés irritables ou graves, comment conduire l'examen physique ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "En limitant les tests de mouvement à l'apparition des symptômes",
+          "correct": true,
+          "j": "Face à des symptômes irritables ou graves, les tests de mouvement ne sont menés que jusqu'au moment où les symptômes apparaissent."
+        },
+        {
+          "t": "En poussant chaque test jusqu'à l'amplitude maximale disponible",
+          "j": "Pousser les tests au maximum expose à aggraver un tableau déjà réactif, ce que l'examen doit justement éviter."
+        },
+        {
+          "t": "En remplaçant les tests de mouvement par l'imagerie médicale",
+          "j": "Il n'est pas proposé de substituer l'imagerie à l'examen physique : c'est la conduite des tests qui est adaptée."
+        }
+      ]
+    },
+    {
+      "q": "Quel inconvénient est associé au fait de suivre toujours la même séquence de questions lors de l'entretien ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Enchaîner les questions sans interpréter les réponses reçues",
+          "correct": true,
+          "j": "On risque de « prescrire des questions », c'est-à-dire de les dérouler l'une après l'autre sans se demander si elles sont utiles ni interpréter ce qui est dit."
+        },
+        {
+          "t": "Laisser de côté certains domaines pertinents de l'entretien",
+          "j": "C'est au contraire un avantage de la séquence constante : elle garantit que tous les domaines pertinents sont abordés."
+        },
+        {
+          "t": "Allonger le temps nécessaire pour remplir le questionnaire",
+          "j": "La séquence habituelle fait gagner du temps de recueil ; l'allongement n'est pas l'inconvénient décrit."
+        }
+      ]
+    },
+    {
+      "q": "À quels moments la réévaluation du patient doit-elle être réalisée ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Pendant la séance, après chaque approche, à la fin et au début de la suivante",
+          "correct": true,
+          "j": "La réévaluation s'effectue en cours de séance, après chaque approche, à la fin de la séance et au début de celle du lendemain ; on ne peut jamais s'en passer."
+        },
+        {
+          "t": "Seulement à la fin du programme de traitement, pour mesurer le résultat",
+          "j": "Attendre la fin du programme prive le thérapeute de l'information qui permet d'ajuster la prise en charge en cours de route."
+        },
+        {
+          "t": "Seulement au début de chaque séance, avant d'appliquer une technique",
+          "j": "Une réévaluation initiale ne suffit pas : elle doit aussi suivre chaque approche et clore la séance."
+        }
+      ]
+    },
+    {
+      "q": "En quoi consiste l'hypothèse de traitement dans le système de catégorisation des hypothèses ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Réaliser un traitement test dès le premier jour pour vérifier l'hypothèse",
+          "correct": true,
+          "j": "Dès la première séance, on applique un traitement test destiné à vérifier si l'hypothèse formulée se confirme ou non."
+        },
+        {
+          "t": "Choisir d'emblée le protocole standard correspondant au diagnostic",
+          "j": "Le raisonnement par hypothèses s'oppose à l'application d'un protocole choisi d'avance, trop rigide pour chaque patient."
+        },
+        {
+          "t": "Lister les techniques interdites avant tout contact avec le patient",
+          "j": "Les précautions et les contre-indications constituent une autre catégorie d'hypothèses, distincte de celle du traitement."
+        }
+      ]
+    },
+    {
+      "q": "Dans l'analyse du diagramme du corps, dans quel ordre les structures responsables de la douleur sont-elles envisagées ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Des structures situées sous la douleur vers les causes les moins probables",
+          "correct": true,
+          "j": "On commence par les structures situées sous la zone douloureuse, les plus probables, puis les structures voisines, et enfin les hypothèses les moins probables."
+        },
+        {
+          "t": "Des causes viscérales à exclure vers les structures locales probables",
+          "j": "Les causes viscérales comptent parmi les moins probables : elles sont envisagées en dernier, sans être oubliées pour autant."
+        },
+        {
+          "t": "Des structures qui irradient à distance vers les structures locales",
+          "j": "La musculature qui irradie vers la zone est examinée après celle qui se trouve sous la douleur, non avant."
+        }
+      ]
+    },
+    {
+      "q": "À quel groupe de préjugés du physiothérapeute « l'erreur du coût irrécupérable » appartient-elle ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Aux préjugés liés au raisonnement",
+          "correct": true,
+          "j": "Elle figure parmi les préjugés du raisonnement, avec le manque de parcimonie et le fait de ne pas suivre l'état actuel des connaissances et des preuves."
+        },
+        {
+          "t": "Aux préjugés liés aux croyances",
+          "j": "Le groupe des croyances réunit d'autres biais du thérapeute, comme le biais de confirmation, et non les défauts dans la conduite même du raisonnement."
+        },
+        {
+          "t": "Aux préjugés liés aux prévisions",
+          "j": "Le groupe des prévisions concerne l'honnêteté et l'explication de l'histoire naturelle du problème au patient."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi la croyance du patient à propos de son problème influence-t-elle le raisonnement clinique ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Parce que beaucoup s'auto-diagnostiquent à partir d'informations peu fiables",
+          "correct": true,
+          "j": "La connaissance que le patient a de son problème compte : nombreux sont ceux qui s'auto-diagnostiquent via Internet, où toutes les informations ne sont pas fiables."
+        },
+        {
+          "t": "Parce qu'elle détermine la durée réelle de cicatrisation des tissus",
+          "j": "Les croyances ne modifient pas la biologie de la réparation ; elles pèsent sur la manière dont le patient présente et comprend son problème."
+        },
+        {
+          "t": "Parce qu'elle dispense d'explorer les facteurs sociaux du patient",
+          "j": "La croyance du patient ne remplace aucun autre facteur d'influence : le niveau culturel, la langue ou les ressources comptent également."
+        }
+      ]
+    },
+    {
+      "q": "Que cherche le physiothérapeute lorsqu'il identifie des « signes comparables » au cours de l'examen objectif ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Des repères de qualité ou de quantité de mouvement, comme une asymétrie",
+          "correct": true,
+          "j": "Les signes comparables sont des repères tirés de l'examen physique lui-même : qualité ou quantité du mouvement, asymétries."
+        },
+        {
+          "t": "Des signes imposant d'interrompre immédiatement l'examen physique",
+          "j": "Interrompre l'examen relève des précautions et des indicateurs d'alarme, non de la recherche de signes comparables."
+        },
+        {
+          "t": "Des résultats d'imagerie concordant avec la plainte exprimée",
+          "j": "Les signes comparables sont recueillis par les tests réalisés, et non par les examens complémentaires apportés par le patient."
+        }
+      ]
+    },
+    {
+      "q": "L'électrothérapie est l'application d'un courant électrique ou d'une énergie électromagnétique produisant des réactions physiologiques dans l'organisme. À quelles fins ces réactions sont-elles exploitées ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "À des fins thérapeutiques, préventives et diagnostiques",
+          "correct": true,
+          "j": "La définition retient ces trois usages : on exploite les réactions physiologiques induites pour traiter, pour prévenir et pour explorer."
+        },
+        {
+          "t": "À des fins thérapeutiques, préventives et antiseptiques",
+          "j": "La désinfection ne fait pas partie des usages retenus ; le troisième versant de la définition est le diagnostic, à côté du traitement et de la prévention."
+        },
+        {
+          "t": "À des fins thérapeutiques, diagnostiques et chirurgicales",
+          "j": "L'électrothérapie n'est pas présentée comme un geste chirurgical ; c'est la prévention qui complète ici le traitement et le diagnostic."
+        }
+      ]
+    },
+    {
+      "q": "Au niveau des tissus, quel phénomène le passage du courant électrique provoque-t-il en premier lieu ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Un déplacement d'ions tels que le sodium, le potassium, le calcium et le chlore",
+          "correct": true,
+          "j": "Le courant est un flux de charges : il met en mouvement les ions des milieux traversés, ce qui conditionne ensuite les réponses sensorielles et motrices."
+        },
+        {
+          "t": "Une dénaturation des protéines de la membrane des cellules excitables",
+          "j": "Aucune destruction protéique n'est en jeu : le courant modifie l'état électrique de la membrane, il n'en altère pas la structure."
+        },
+        {
+          "t": "Une libération de neuropeptides par les terminaisons nerveuses libres",
+          "j": "La circulation des neuropeptides, des hormones et des lipides peut être favorisée, mais c'est une conséquence du déplacement ionique, non le phénomène initial."
+        }
+      ]
+    },
+    {
+      "q": "L'impédance des tissus au passage du courant génère des réponses parfois indésirables. Lesquelles ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Un échauffement et une stimulation des terminaisons nociceptives",
+          "correct": true,
+          "j": "La résistance opposée par les tissus dissipe de l'énergie sous forme de chaleur et peut recruter les terminaisons nociceptives, d'où une sensation désagréable."
+        },
+        {
+          "t": "Une liquéfaction des tissus avec rejet des ions négatifs",
+          "j": "Liquéfaction et rejet d'ions négatifs sont des réactions d'électrode propres aux courants à effet polaire, pas une conséquence de l'impédance tissulaire."
+        },
+        {
+          "t": "Une coagulation locale accompagnée d'un dégagement d'oxygène",
+          "j": "Coagulation et dégagement d'oxygène relèvent eux aussi d'une réaction d'électrode, et non de la résistance que les tissus opposent au courant."
+        }
+      ]
+    },
+    {
+      "q": "En dehors du déclenchement d'un potentiel d'action, quel effet le courant électrique peut-il exercer sur la membrane d'une cellule excitable ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Modifier son excitabilité en la facilitant ou en l'entravant",
+          "correct": true,
+          "j": "Le courant agit comme un modulateur : il rend le tissu plus ou moins facile à exciter, ce qui permet par exemple d'abaisser le seuil de la douleur."
+        },
+        {
+          "t": "Inverser durablement la polarité de repos de la cellule",
+          "j": "Aucune inversion durable n'est décrite : la cellule retrouve son état de départ, le courant ne fait que faciliter ou gêner son excitation."
+        },
+        {
+          "t": "Supprimer la période réfractaire qui suit la dépolarisation",
+          "j": "La période réfractaire est une propriété de la membrane que le courant ne supprime pas ; le thérapeute doit au contraire en tenir compte."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi la connaissance des paramètres nécessaires à l'activation du potentiel d'action est-elle essentielle ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Parce qu'elle permet d'être sélectif selon le tissu visé et l'effet recherché",
+          "correct": true,
+          "j": "Ce sont les paramètres choisis qui décident du tissu réellement activé, donc de l'effet thérapeutique obtenu ; sans eux, l'application est aveugle."
+        },
+        {
+          "t": "Parce que la durée de la séance détermine à elle seule la réponse",
+          "j": "La durée d'application ne suffit pas : c'est la combinaison des caractéristiques du courant qui conditionne l'activation d'un tissu donné."
+        },
+        {
+          "t": "Parce que les réglages modifient la conductivité propre de chaque tissu",
+          "j": "La conductivité dépend de la composition du tissu lui-même ; les réglages ne la changent pas, ils décident seulement du tissu que l'on parvient à exciter."
+        }
+      ]
+    },
+    {
+      "q": "L'électrothérapie soulage la douleur par deux voies : l'amélioration de la sensation ou de la perception douloureuse, et :",
+      "c": 9,
+      "options": [
+        {
+          "t": "La régénération des tissus endommagés par la lésion",
+          "correct": true,
+          "j": "La seconde voie passe par la réparation du tissu lui-même : en améliorant son état, on tarit la source de la douleur."
+        },
+        {
+          "t": "L'hyperpolarisation permanente des fibres motrices",
+          "j": "L'hyperpolarisation est un effet du pôle positif d'un courant à effet polaire, aux côtés de la vasoconstriction et de la sédation ; ce n'est pas l'une des deux voies d'analgésie décrites."
+        },
+        {
+          "t": "L'élévation progressive du seuil moteur du muscle",
+          "j": "Le seuil moteur concerne le recrutement de la contraction et non le traitement de la douleur."
+        }
+      ]
+    },
+    {
+      "q": "À quoi correspond le mécanisme métabolique de l'analgésie par électrothérapie ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "À l'accélération de la synthèse et de la destruction par l'afflux circulatoire",
+          "correct": true,
+          "j": "L'augmentation du débit circulatoire accélère les processus de synthèse et de destruction : c'est le versant métabolique de l'analgésie."
+        },
+        {
+          "t": "À la transmission préférentielle des informations tactiles jusqu'au cerveau",
+          "j": "C'est le versant neurophysiologique, celui de la théorie du contrôle de la porte, distinct du mécanisme métabolique."
+        },
+        {
+          "t": "À l'élévation du seuil de la douleur par la conjonction des deux autres versants",
+          "j": "Cette conjonction définit le mécanisme mixte, que le cours distingue du mécanisme purement métabolique."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les effets obtenus sur un tissu lésé, lequel le cours attribue-t-il à la stimulation électrique ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Une réduction des spasmes musculaires avec amélioration de la vascularisation",
+          "correct": true,
+          "j": "Le cours range la réduction des spasmes musculaires et l'amélioration de la vascularisation des tissus parmi les effets obtenus sur un tissu lésé."
+        },
+        {
+          "t": "Un renforcement du tonus de repos avec ralentissement de la circulation locale",
+          "j": "C'est l'inverse de ce qui est décrit : la stimulation détend le muscle et augmente le flux sanguin local, condition de l'apport de nutriments et d'oxygène au tissu."
+        },
+        {
+          "t": "Une rétraction des fibres conjonctives avec durcissement du tissu traité",
+          "j": "Aucun remaniement rétractile n'est décrit : l'effet recherché sur le tissu lésé est circulatoire et antispasmodique, non mécanique."
+        }
+      ]
+    },
+    {
+      "q": "Trois finalités sont assignées à l'électrothérapie destinée à provoquer une contraction musculaire : le renforcement en cas d'atrophie, la potentialisation et :",
+      "c": 9,
+      "options": [
+        {
+          "t": "La prise de conscience de la contraction",
+          "correct": true,
+          "j": "Le troisième objectif est pédagogique : la contraction provoquée aide le patient à percevoir son muscle et à le recruter ensuite volontairement."
+        },
+        {
+          "t": "La réduction de la spasticité du muscle traité",
+          "j": "La lutte contre la spasticité ne figure pas parmi les trois finalités retenues pour la contraction provoquée."
+        },
+        {
+          "t": "L'allongement du tendon par étirement répété",
+          "j": "L'étirement du tendon n'est pas un objectif de la contraction provoquée, qui s'adresse au muscle lui-même."
+        }
+      ]
+    },
+    {
+      "q": "Sur quel critère distingue-t-on le courant pulsé du courant continu ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Il s'écoule par impulsions séparées par des temps sans courant",
+          "correct": true,
+          "j": "C'est l'interruption du flux qui définit le courant pulsé : des impulsions successives entrecoupées de périodes d'absence de courant."
+        },
+        {
+          "t": "Il change le sens du flux à chaque impulsion délivrée",
+          "j": "L'inversion du sens du flux définit le courant alternatif, et non le caractère pulsé, qui tient uniquement à l'interruption du courant entre les impulsions."
+        },
+        {
+          "t": "Il délivre une intensité croissante à chaque impulsion",
+          "j": "L'intensité n'intervient pas dans cette classification, qui repose uniquement sur la continuité ou non du flux."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les effets suivants, lequel figure parmi les effets physiologiques des courants à effet polaire ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Une action anti-inflammatoire et anti-œdémateuse",
+          "correct": true,
+          "j": "Les courants à effet polaire sont crédités d'une action anti-inflammatoire et anti-œdémateuse, à côté de la réparation tissulaire et de l'analgésie."
+        },
+        {
+          "t": "Une élévation thermique profonde des tissus traversés",
+          "j": "L'élévation thermique profonde ne compte pas parmi les effets des courants à effet polaire : elle relève des techniques de diathermie."
+        },
+        {
+          "t": "Une fréquence de battement issue de deux courants",
+          "j": "Un battement résulte de la rencontre de deux courants : c'est un procédé de production du courant, non un effet physiologique polaire."
+        }
+      ]
+    },
+    {
+      "q": "À quel type de courant l'iontophorèse est-elle rattachée ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Au courant continu",
+          "correct": true,
+          "j": "L'iontophorèse suppose un transport d'ions toujours dans le même sens, ce qui la rattache au courant continu."
+        },
+        {
+          "t": "Au courant alternatif",
+          "j": "Le courant alternatif change de sens au fil du temps : il n'entraînerait pas les ions dans une direction constante, condition pourtant indispensable au transport transcutané."
+        },
+        {
+          "t": "Au courant pulsé",
+          "j": "Le courant pulsé est rangé du côté du contrôle de la douleur et de la contraction musculaire, et non du transport transcutané de substances ionisées."
+        }
+      ]
+    },
+    {
+      "q": "Pour la cicatrisation des tissus et le traitement des œdèmes aigus, comment le courant pulsé est-il appliqué ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Sous forme d'impulsions à phase unique",
+          "correct": true,
+          "j": "Ces deux indications font appel à un courant pulsé à phase unique : le flux ne circule que dans un sens, ce qui conserve sous l'électrode l'effet polaire recherché."
+        },
+        {
+          "t": "En trains de moyenne fréquence superposés",
+          "j": "La superposition de deux moyennes fréquences caractérise les courants interférentiels, employés à d'autres fins."
+        },
+        {
+          "t": "En alternance symétrique équilibrée",
+          "j": "Une alternance symétrique équilibre les deux phases et annule la polarité résultante, ce qui prive l'application de l'effet recherché ici."
+        }
+      ]
+    },
+    {
+      "q": "Lorsque la fréquence appliquée devient trop élevée, de nombreuses impulsions ne déclenchent plus de potentiel d'action. Pourquoi ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Parce que la membrane non repolarisée reste en période réfractaire",
+          "correct": true,
+          "j": "Tant que la repolarisation n'est pas achevée, la membrane n'accepte aucun nouveau stimulus : les impulsions trop rapprochées tombent dans cette période."
+        },
+        {
+          "t": "Parce que l'intensité délivrée diminue quand la fréquence augmente",
+          "j": "Fréquence et intensité sont deux paramètres indépendants : augmenter l'une ne réduit pas l'autre."
+        },
+        {
+          "t": "Parce que les impulsions rapprochées s'annulent entre elles",
+          "j": "Les impulsions ne s'annulent pas mutuellement ; c'est l'état de la membrane au moment du stimulus qui décide de la réponse."
+        }
+      ]
+    },
+    {
+      "q": "Dans un courant délivré en trains d'impulsions, à quoi correspond le temps mort ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "À la période sans courant qui sépare deux trains d'impulsions",
+          "correct": true,
+          "j": "Le temps mort est l'intervalle d'absence totale de stimulation qui s'intercale entre deux trains successifs."
+        },
+        {
+          "t": "Au temps pendant lequel le courant circule dans chaque impulsion",
+          "j": "C'est la définition de la durée de la phase, exprimée en millisecondes, qui se mesure à l'intérieur même de l'impulsion."
+        },
+        {
+          "t": "Au délai qui sépare deux impulsions consécutives d'un train",
+          "j": "C'est l'intervalle inter-impulsions, ou pause : il sépare deux impulsions, non deux trains entiers."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les situations suivantes, laquelle figure parmi les contre-indications générales de l'électrothérapie ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Un processus tumoral évolutif",
+          "correct": true,
+          "j": "Les processus tumoraux font partie des contre-indications générales, au même titre que les infections actives et les dispositifs implantés."
+        },
+        {
+          "t": "Une cicatrice fermée et ancienne",
+          "j": "Ce sont les plaies ouvertes qui contre-indiquent l'application, et non une cicatrice refermée de longue date."
+        },
+        {
+          "t": "Une amyotrophie après immobilisation",
+          "j": "L'amyotrophie consécutive à une immobilisation constitue au contraire une indication classique de la contraction provoquée."
+        }
+      ]
+    },
+    {
+      "q": "Sur quels ordres de connaissances la définition de la kinésithérapie respiratoire fonde-t-elle les techniques physiques appliquées au patient ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "La physiopathologie respiratoire et les soins psycho-émotionnels du patient",
+          "correct": true,
+          "j": "La définition associe explicitement la connaissance de la physiopathologie respiratoire à celle des soins psycho-émotionnels du patient."
+        },
+        {
+          "t": "La physiopathologie respiratoire et la biomécanique costo-vertébrale",
+          "j": "La mécanique costo-vertébrale n'est pas citée comme socle de la discipline : le second versant retenu est la dimension psycho-émotionnelle du soin."
+        },
+        {
+          "t": "L'anatomie des voies aériennes et la pharmacologie des bronchodilatateurs",
+          "j": "Le traitement médicamenteux n'entre pas dans la définition, qui repose sur des techniques physiques et non sur une prescription pharmacologique."
+        }
+      ]
+    },
+    {
+      "q": "Quelles finalités la définition de la kinésithérapie respiratoire assigne-t-elle face aux troubles qu'elle prend en charge ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Prévenir, guérir ou parfois simplement stabiliser ces troubles",
+          "correct": true,
+          "j": "La définition énonce ces trois niveaux d'ambition, la stabilisation restant un objectif légitime lorsque la guérison n'est pas atteignable."
+        },
+        {
+          "t": "Dépister, guérir et compenser durablement ces troubles",
+          "j": "Le dépistage ne fait pas partie des finalités énoncées, et la définition parle de stabiliser le trouble plutôt que de le compenser."
+        },
+        {
+          "t": "Prévenir, guérir et supprimer toute récidive de ces troubles",
+          "j": "Aucune abolition des récidives n'est annoncée : la définition admet au contraire que l'on puisse se limiter à stabiliser le trouble."
+        }
+      ]
+    },
+    {
+      "q": "Quel ensemble la définition de la kinésithérapie respiratoire désigne-t-elle comme champ d'action de la discipline ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Le système thoracopulmonaire",
+          "correct": true,
+          "j": "La définition vise les troubles affectant le système thoracopulmonaire, c'est-à-dire le poumon et le thorax qui le contient."
+        },
+        {
+          "t": "Le système cardio-respiratoire",
+          "j": "Le versant cardiaque n'est pas inclus dans le champ énoncé, qui reste centré sur le thorax et le poumon."
+        },
+        {
+          "t": "Les voies aériennes supérieures",
+          "j": "Le champ décrit ne se limite pas aux voies aériennes hautes : il englobe l'ensemble thoraco-pulmonaire."
+        }
+      ]
+    },
+    {
+      "q": "Au-delà de ses objectifs techniques, quelle finalité générale le cours assigne-t-il à la kinésithérapie respiratoire ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Promouvoir la qualité de vie des patients atteints de troubles respiratoires",
+          "correct": true,
+          "j": "Le cours conclut l'énoncé de ses objectifs en indiquant qu'elle vise à promouvoir la qualité de vie des patients souffrant de troubles du système respiratoire."
+        },
+        {
+          "t": "Réduire la durée d'hospitalisation des patients atteints de troubles respiratoires",
+          "j": "La durée de séjour n'est pas la finalité énoncée : le cours raisonne en termes de vécu et de fonction du patient."
+        },
+        {
+          "t": "Restaurer l'intégrité du tissu pulmonaire lésé chez ces mêmes patients",
+          "j": "Aucune réparation du parenchyme n'est promise : la discipline agit sur la fonction respiratoire, non sur la lésion tissulaire elle-même."
+        }
+      ]
+    },
+    {
+      "q": "Le cours range la diminution de l'hyperinflation pulmonaire sous lequel de ses grands effets physiologiques ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "L'amélioration de la ventilation pulmonaire",
+          "correct": true,
+          "j": "La réduction du volume d'air piégé dans le poumon est présentée comme une composante de l'amélioration de la ventilation pulmonaire."
+        },
+        {
+          "t": "L'amélioration de l'échange gazeux alvéolaire",
+          "j": "Cet effet porte sur le transfert des gaz entre alvéole et capillaire, et non sur le degré de distension du poumon."
+        },
+        {
+          "t": "Le dégagement des voies respiratoires",
+          "j": "Cet effet concerne l'évacuation des sécrétions bronchiques, un mécanisme distinct de la réduction de la distension pulmonaire."
+        }
+      ]
+    },
+    {
+      "q": "Dans quel cadre l'OMS situe-t-elle l'importance de la réadaptation ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Dans le cadre de la couverture sanitaire universelle",
+          "correct": true,
+          "j": "Le cours rapporte que l'OMS souligne l'importance de la réadaptation dans le cadre de la couverture sanitaire universelle."
+        },
+        {
+          "t": "Dans le cadre des programmes de soins palliatifs",
+          "j": "Les soins palliatifs visent le confort en phase avancée de maladie ; ce n'est pas le cadre dans lequel la réadaptation est placée."
+        },
+        {
+          "t": "Dans le cadre de la santé au travail des soignants",
+          "j": "La santé au travail porte sur la prévention des risques professionnels et ne correspond pas au cadre invoqué ici."
+        }
+      ]
+    },
+    {
+      "q": "Que vise l'objectif de développement durable auquel l'OMS rattache la réadaptation ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Garantir une vie saine et promouvoir le bien-être à tout âge",
+          "correct": true,
+          "j": "Le cours précise que cet objectif vise à garantir une vie saine et à promouvoir le bien-être de tous à tout âge."
+        },
+        {
+          "t": "Réduire les inégalités d'accès aux soins entre les pays",
+          "j": "La réduction des inégalités entre pays constitue un objectif distinct, qui n'est pas celui cité pour la réadaptation."
+        },
+        {
+          "t": "Assurer une éducation de qualité tout au long de la vie",
+          "j": "L'éducation de qualité relève d'un autre objectif, sans rapport avec la finalité sanitaire mentionnée dans le cours."
+        }
+      ]
+    },
+    {
+      "q": "Quelle place les affections neurologiques occupent-elles aujourd'hui dans le monde ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Elles sont la principale cause de maladie et d'invalidité",
+          "correct": true,
+          "j": "Le cours les désigne comme la première cause de maladie et d'invalidité à l'échelle mondiale."
+        },
+        {
+          "t": "Elles sont la première cause d'hospitalisation non programmée",
+          "j": "Le recours hospitalier urgent n'est pas l'indicateur par lequel le cours situe leur poids mondial."
+        },
+        {
+          "t": "Elles sont la deuxième cause d'invalidité après les cancers",
+          "j": "Le cours ne les place ni au second rang ni derrière les cancers pour l'invalidité qu'elles entraînent."
+        }
+      ]
+    },
+    {
+      "q": "Jusqu'où peut aller la modification produite par la plasticité neuronale ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Jusqu'à la modification de facteurs génétiques",
+          "correct": true,
+          "j": "La définition retenue précise que le changement peut aller jusqu'à modifier des facteurs génétiques."
+        },
+        {
+          "t": "Jusqu'au seul renforcement des synapses existantes",
+          "j": "Le renforcement des synapses déjà en place ne représente qu'une partie des changements décrits."
+        },
+        {
+          "t": "Jusqu'à la seule réorganisation des réseaux corticaux",
+          "j": "Limiter le changement à une réorganisation corticale sous-estime la profondeur de ce que décrit le cours."
+        }
+      ]
+    },
+    {
+      "q": "À quels stimuli le système nerveux répond-il lorsqu'il met en jeu sa plasticité ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "À des stimuli aussi bien externes qu'internes",
+          "correct": true,
+          "j": "Le cours associe le changement plastique à des stimuli d'origine externe comme interne."
+        },
+        {
+          "t": "Aux seuls stimuli externes issus de l'environnement",
+          "j": "Restreindre la plasticité aux sollicitations venues du dehors écarte à tort l'origine interne."
+        },
+        {
+          "t": "Aux seuls stimuli internes d'origine métabolique",
+          "j": "Les stimuli internes comptent bien, mais ils ne sont pas les seuls à provoquer le changement."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, qu'est-ce qui produit les modifications de la neuroplasticité ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Les expériences environnementales et une médiation appropriée",
+          "correct": true,
+          "j": "Le cours attribue ces modifications aux expériences vécues dans l'environnement, associées à une médiation appropriée."
+        },
+        {
+          "t": "La maturation génétiquement programmée du système nerveux central",
+          "j": "Une maturation purement programmée ne suffit pas : le rôle de l'expérience et de la médiation est déterminant."
+        },
+        {
+          "t": "L'administration répétée de traitements pharmacologiques ciblés",
+          "j": "Le cours ne fait pas reposer les modifications de neuroplasticité sur un traitement médicamenteux."
+        }
+      ]
+    },
+    {
+      "q": "Comment le cours caractérise-t-il la plasticité grâce à laquelle le cerveau s'adapte aux stimuli ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "C'est une plasticité qui suit l'activité",
+          "correct": true,
+          "j": "Le cours souligne que cette capacité d'adaptation suit l'activité réalisée par le sujet."
+        },
+        {
+          "t": "C'est une plasticité qui précède l'activité",
+          "j": "La plasticité décrite s'installe à la suite de l'activité, et non avant qu'elle n'ait lieu."
+        },
+        {
+          "t": "C'est une plasticité indépendante de l'activité",
+          "j": "Rendre la plasticité indépendante de l'activité contredit le lien que le cours établit entre les deux."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, en quelles deux grandes parties le système nerveux se divise-t-il ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Le système nerveux central et le système nerveux périphérique",
+          "correct": true,
+          "j": "Le cours partage le système nerveux en une composante centrale et une composante périphérique."
+        },
+        {
+          "t": "Le système nerveux somatique et le système nerveux autonome",
+          "j": "Cette opposition sépare la commande volontaire de la commande végétative, mais ce n'est pas le découpage présenté."
+        },
+        {
+          "t": "Le système nerveux sensitif et le système nerveux moteur",
+          "j": "Sensitif et moteur désignent des fonctions et non les deux grandes divisions retenues ici."
+        }
+      ]
+    },
+    {
+      "q": "Chez le patient neurologique, lequel de ces éléments relève de l'atteinte sous-jacente et non de ce qui s'observe au premier abord ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Une lésion de la moelle épinière",
+          "correct": true,
+          "j": "La lésion médullaire fait partie des atteintes causales situées en amont des signes constatés."
+        },
+        {
+          "t": "Une imprécision de la sensorialité",
+          "j": "Il s'agit d'un signe perçu lors de l'examen du patient, non de la cause qui le produit."
+        },
+        {
+          "t": "Une perturbation de la coordination",
+          "j": "La perturbation de la coordination est l'une des manifestations constatées, pas leur origine."
+        }
+      ]
+    },
+    {
+      "q": "Outre la lésion et le dommage, quelle situation entre dans le champ d'étude de la neurophysiothérapie ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Le fonctionnement anormal des structures nerveuses",
+          "correct": true,
+          "j": "La discipline étudie aussi les conséquences d'un fonctionnement anormal des structures du système nerveux."
+        },
+        {
+          "t": "Le vieillissement physiologique des voies motrices",
+          "j": "Le vieillissement normal n'est pas inscrit dans l'objet d'étude défini pour cette discipline."
+        },
+        {
+          "t": "La fatigue musculaire d'origine périphérique",
+          "j": "La fatigue du muscle relève d'un autre champ : la définition porte sur les structures nerveuses."
+        }
+      ]
+    },
+    {
+      "q": "Selon la définition générale de la physiothérapie invasive, quelles zones peuvent être traitées sans échographe ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Les zones superficielles et facilement accessibles à l'aiguille",
+          "correct": true,
+          "j": "Le cours recommande l'échographe pour la sécurité, la précision et l'efficacité du geste, mais admet que les zones superficielles et facilement accessibles soient traitées sans lui ; l'électrolyse percutanée et la neuromodulation, elles, imposent le guidage échographique."
+        },
+        {
+          "t": "Les zones profondes situées loin d'un trajet vasculo-nerveux",
+          "j": "La profondeur du tissu est au contraire ce qui rend le repérage échographique nécessaire : l'éloignement d'un trajet vasculo-nerveux n'est pas le critère retenu."
+        },
+        {
+          "t": "Les zones déjà traitées par cette technique auparavant",
+          "j": "L'antériorité du traitement n'intervient pas : seul le caractère superficiel et accessible de la zone est retenu comme condition."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi certaines aiguilles de physiothérapie invasive sont-elles recouvertes d'argent ou de platine ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Pour améliorer leur conductivité électrique",
+          "correct": true,
+          "j": "Ce revêtement d'argent ou de platine a pour but d'améliorer la conductivité électrique de l'aiguille lorsqu'un courant lui est appliqué."
+        },
+        {
+          "t": "Pour les rendre plus solides à la pénétration",
+          "j": "C'est l'acier inoxydable, matériau de base des aiguilles, qui leur assure solidité et résistance à la rupture pendant la procédure."
+        },
+        {
+          "t": "Pour adapter leur calibre au tissu visé",
+          "j": "L'adaptation à la profondeur du tissu passe par le choix du diamètre de l'aiguille, non par un revêtement de surface."
+        }
+      ]
+    },
+    {
+      "q": "Quel diamètre présentent les aiguilles les plus couramment utilisées en physiothérapie invasive ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Entre 0,25 et 0,35 mm",
+          "correct": true,
+          "j": "Les aiguilles les plus courantes ont un diamètre de 0,25 à 0,35 mm, le calibre variant ensuite selon la zone et la profondeur du tissu."
+        },
+        {
+          "t": "Entre 0,10 et 0,20 mm",
+          "j": "Ce calibre reste en dessous de celui des aiguilles les plus courantes, dont le diamètre débute à 0,25 mm."
+        },
+        {
+          "t": "Entre 0,50 et 0,60 mm",
+          "j": "Ce calibre dépasse celui des aiguilles les plus courantes, dont le diamètre s'arrête à 0,35 mm, les plus épaisses étant réservées aux tissus profonds."
+        }
+      ]
+    },
+    {
+      "q": "Par quoi se termine la procédure type d'une séance de physiothérapie invasive, et dans quel but ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Par un traitement post-invasif destiné à éviter les douleurs ultérieures",
+          "correct": true,
+          "j": "La dernière étape de la procédure est un traitement post-invasif, dont l'objectif est de prévenir les douleurs survenant après la séance."
+        },
+        {
+          "t": "Par le recueil du consentement éclairé, une fois le patient informé",
+          "j": "Le consentement éclairé est la cinquième étape de la procédure, recueillie en amont, juste après avoir informé le patient de ce qui va être réalisé."
+        },
+        {
+          "t": "Par la désinfection des mains du kinésithérapeute et de la peau du patient",
+          "j": "L'hygiène et la désinfection appartiennent aux étapes de préparation, avant l'installation du patient et l'exécution du geste."
+        }
+      ]
+    },
+    {
+      "q": "À quoi correspond le syndrome de douleur myofasciale (SDM) ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "À l'ensemble des symptômes et des signes provoqués par un point gâchette myofascial",
+          "correct": true,
+          "j": "Le SDM est défini comme l'ensemble des symptômes et signes causés par un point gâchette, foyer d'hyperirritabilité musculo-squelettique."
+        },
+        {
+          "t": "À une contracture musculaire diffuse d'origine centrale, sans foyer localisé",
+          "j": "Le SDM part au contraire d'un foyer localisé d'hyperirritabilité dans le muscle, et non d'une origine centrale diffuse."
+        },
+        {
+          "t": "À une douleur articulaire irradiant vers les masses musculaires voisines",
+          "j": "La douleur du SDM naît du muscle lui-même et de son point gâchette, et non d'une souffrance articulaire irradiée."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces éléments figure parmi les trois critères cliniques minimaux de diagnostic du syndrome de douleur myofasciale ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "La douleur référée après palpation du point douloureux",
+          "correct": true,
+          "j": "C'est le troisième des critères minimaux, avec la bande de tension palpable et les points hypersensibles situés à l'intérieur de cette bande."
+        },
+        {
+          "t": "La reproduction de la douleur habituelle du patient",
+          "j": "La reproduction de la douleur du patient appartient aux six critères de confirmation, et non aux trois critères minimaux."
+        },
+        {
+          "t": "La réponse spasmodique locale à la palpation",
+          "j": "La réponse spasmodique locale ouvre elle aussi la liste des critères de confirmation, juste après les trois critères minimaux."
+        }
+      ]
+    },
+    {
+      "q": "Quelles structures du cytosquelette l'aiguille étire-t-elle lors d'une ponction sèche ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "La titine et la bande Z du sarcomère",
+          "correct": true,
+          "j": "Parmi les effets mécaniques de la ponction sèche figure l'étirement des structures du cytosquelette, à savoir la titine et la bande Z."
+        },
+        {
+          "t": "L'actine et la myosine des myofibrilles",
+          "j": "Actine et myosine sont les protéines contractiles du sarcomère, et non les structures du cytosquelette visées par cet effet."
+        },
+        {
+          "t": "Le collagène de l'endomysium musculaire",
+          "j": "Ce collagène appartient au tissu conjonctif qui enveloppe la fibre, à l'extérieur du cytosquelette proprement dit."
+        }
+      ]
+    },
+    {
+      "q": "Quelles fibres nerveuses la ponction sèche stimule-t-elle parmi ses effets neurophysiologiques ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Les fibres Aδ et C",
+          "correct": true,
+          "j": "La stimulation des fibres Aδ et C est rangée parmi les effets neurophysiologiques de la ponction sèche, avec la réduction de la nociception périphérique."
+        },
+        {
+          "t": "Les fibres Aβ et Aδ",
+          "j": "Les fibres Aβ, de gros calibre, ne figurent pas dans la liste du cours, qui ne retient que les deux fibres nociceptives."
+        },
+        {
+          "t": "Les fibres Aα et C",
+          "j": "Les fibres C sont bien concernées, mais ce sont les fibres Aδ, et non les Aα, qui complètent la liste enseignée."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet la ponction sèche exerce-t-elle sur les régions limbiques comme l'amygdale et le cortex préfrontal ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Une diminution de leur activité",
+          "correct": true,
+          "j": "Parmi les effets neurophysiologiques figure une diminution de l'activité des régions limbiques, amygdale et cortex préfrontal compris."
+        },
+        {
+          "t": "Une augmentation de leur activité",
+          "j": "L'effet décrit va dans le sens inverse : l'activité des régions limbiques baisse sous l'effet de la ponction sèche."
+        },
+        {
+          "t": "Une activité strictement inchangée",
+          "j": "La modulation ne se limite pas à la moelle et au cortex sensoriel : un retentissement limbique est bien décrit."
+        }
+      ]
+    },
+    {
+      "q": "Dans quelles conditions un tatouage contre-indique-t-il la ponction sèche ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Uniquement lorsqu'il recouvre la zone à traiter",
+          "correct": true,
+          "j": "Le tatouage n'est retenu comme contre-indication que lorsqu'il se situe sur la zone à traiter."
+        },
+        {
+          "t": "Quel que soit son emplacement sur le corps",
+          "j": "Un tatouage situé à distance du point de ponction n'entre pas dans les contre-indications retenues."
+        },
+        {
+          "t": "Uniquement lorsqu'il date de moins de six mois",
+          "j": "C'est la localisation du tatouage, et non son ancienneté, qui fonde la restriction enseignée."
+        }
+      ]
+    },
+    {
+      "q": "Quel bénéfice particulier les courants biphasiques symétriques apportent-ils en électro-puncture sèche ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Ils réduisent la douleur ressentie après la ponction",
+          "correct": true,
+          "j": "Parmi les recommandations rapportées, les courants biphasiques symétriques sont retenus parce qu'ils réduisent la douleur post-ponction."
+        },
+        {
+          "t": "Ils produisent un effet polaire au bout de l'aiguille",
+          "j": "Un effet polaire suppose un courant circulant dans un seul sens ; un courant biphasique symétrique n'en produit pas."
+        },
+        {
+          "t": "Ils autorisent le dépassement du seuil douloureux du patient",
+          "j": "L'intensité dépend du seuil du patient et le cours recommande expressément d'utiliser un courant non douloureux."
+        }
+      ]
+    },
+    {
+      "q": "Quels paramètres de séance sont recommandés en électro-puncture sèche ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Environ 30 minutes de traitement, 1 à 3 séances par semaine",
+          "correct": true,
+          "j": "Les recommandations rapportées retiennent une durée d'environ 30 minutes et un rythme de 1 à 3 séances hebdomadaires."
+        },
+        {
+          "t": "Environ 10 minutes de traitement, 1 à 3 séances par semaine",
+          "j": "Le rythme hebdomadaire est exact, mais la durée enseignée est bien plus longue, de l'ordre d'une demi-heure."
+        },
+        {
+          "t": "Environ 30 minutes de traitement, 4 à 5 séances par semaine",
+          "j": "La durée est exacte, mais le rythme enseigné ne dépasse pas trois séances par semaine."
+        }
+      ]
+    },
+    {
+      "q": "En électro-puncture sèche, à quoi correspond l'application d'une fréquence de 15 Hz ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "À la libération de diamorphine",
+          "correct": true,
+          "j": "La fréquence de 15 Hz est associée à la libération de diamorphine dans l'activation du système de gestion de la douleur."
+        },
+        {
+          "t": "À la libération d'enképhalines",
+          "j": "Les enképhalines, libérées avec les endorphines, sont rattachées aux fréquences basses de 2 à 4 Hz."
+        },
+        {
+          "t": "À la combinaison de deux effets",
+          "j": "Cette combinaison des deux effets antalgiques est obtenue à 100 Hz, fréquence nettement plus élevée."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, à quelle condition les effets thérapeutiques de l'électrolyse percutanée se maintiennent-ils et gagnent-ils en efficacité ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Lorsqu'ils sont associés à d'autres approches comme l'exercice physique",
+          "correct": true,
+          "j": "Ces effets se maintiennent dans le temps et deviennent plus efficaces lorsqu'ils sont combinés à d'autres alternatives thérapeutiques, l'exercice physique notamment."
+        },
+        {
+          "t": "Lorsque le nombre d'aiguilles insérées simultanément est augmenté",
+          "j": "La durabilité des effets n'est jamais rapportée au nombre d'aiguilles utilisées pendant la séance."
+        },
+        {
+          "t": "Lorsque l'intensité du courant est augmentée à chaque nouvelle séance",
+          "j": "Aucune montée progressive de l'intensité d'une séance à l'autre n'est présentée comme un facteur de durabilité."
+        }
+      ]
+    },
+    {
+      "q": "Quels mécanismes le cours range-t-il sous l'effet de modulation de la douleur de l'électrolyse percutanée ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Récepteurs opioïdes endogènes, canaux ioniques et substances analgésiques",
+          "correct": true,
+          "j": "La modulation de la douleur regroupe l'activation des récepteurs opioïdes endogènes, la modulation des canaux ioniques et la stimulation de la libération de substances analgésiques."
+        },
+        {
+          "t": "Récepteurs opioïdes endogènes, canaux ioniques et fibres de gros calibre",
+          "j": "Les deux premiers éléments sont exacts, mais le recrutement des fibres de gros calibre relève de la théorie du portillon et n'est pas cité ici."
+        },
+        {
+          "t": "Récepteurs opioïdes endogènes, canaux calciques et substances vasoactives",
+          "j": "Le cours vise les canaux ioniques au sens large, et les substances dont il décrit la libération sont analgésiques, non vasoactives."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle de ces situations figure parmi les contre-indications de l'électrolyse percutanée ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Un épisode de fièvre",
+          "correct": true,
+          "j": "La fièvre est listée parmi les contre-indications de l'électrolyse percutanée, avec la grossesse et le stimulateur cardiaque."
+        },
+        {
+          "t": "Un rougissement cutané",
+          "j": "Le rougissement de la peau est rangé parmi les précautions à surveiller, et non parmi les contre-indications."
+        },
+        {
+          "t": "Une lésion bursale",
+          "j": "Les lésions bursales constituent au contraire une indication reconnue de la technique."
+        }
+      ]
+    },
+    {
+      "q": "Quel mécanisme de la neuromodulation percutanée met en jeu la plasticité neuronale et la sommation temporelle pour améliorer une douleur chronique ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "La désensibilisation centrale",
+          "correct": true,
+          "j": "Elle réduit la surcharge du signal douloureux qui avait rendu le système nerveux trop sensible, en jouant sur la plasticité neuronale et la sommation temporelle."
+        },
+        {
+          "t": "La désensibilisation périphérique",
+          "j": "Elle normalise l'excitabilité des nerfs irrités au niveau local, et non la sensibilisation entretenue par le système nerveux central."
+        },
+        {
+          "t": "La plasticité corticale adaptative",
+          "j": "Elle modifie la représentation corticale du corps et agit surtout sur les douleurs diffuses ou fantômes."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle de ces situations constitue une contre-indication de la neuromodulation percutanée ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "L'utilisation récente d'une autre technique invasive dans la région",
+          "correct": true,
+          "j": "Cette situation est listée parmi les contre-indications de la neuromodulation percutanée, au même titre que l'infection active de la zone."
+        },
+        {
+          "t": "Une douleur neuropathique installée depuis plusieurs mois",
+          "j": "Les douleurs neuropathiques figurent au contraire parmi les indications retenues pour cette technique."
+        },
+        {
+          "t": "Une intervention chirurgicale prévue dans les semaines à venir",
+          "j": "La période pré-opératoire est présentée comme une indication de la neuromodulation, et non comme une contre-indication."
+        }
+      ]
+    },
+    {"q":"Quel rôle le cours attribue-t-il à la nociception ?","c":13,"options":[{"t":"La réception ou la production, la conduction et la transmission du message sous forme de signal électrique","correct":true,"j":"La nociception est définie par ces trois temps : réception ou production du message, puis sa conduction et sa transmission sous forme de signal électrique."},{"t":"La production, le stockage puis la libération différée des médiateurs chimiques du message nocif","j":"Aucun stockage différé n'entre dans cette définition : le message est acheminé immédiatement sous forme de signal électrique."},{"t":"La réception du message nocif et sa conversion immédiate en une réponse motrice réflexe","j":"Aucune boucle motrice n'est décrite dans la nociception : le message reçu est conduit et transmis, non converti en commande motrice."}]},
+    {"q":"Comment un nocicepteur est-il défini ?","c":13,"options":[{"t":"Comme un neurone spécifique chargé de capter les stimuli potentiellement nocifs","correct":true,"j":"Le nocicepteur est présenté comme un neurone spécialisé dans la captation des stimuli potentiellement nocifs."},{"t":"Comme un récepteur membranaire isolé, dépourvu de prolongement nerveux propre","j":"Le récepteur membranaire n'est qu'un élément du nocicepteur : celui-ci est une cellule nerveuse entière, pas un récepteur isolé."},{"t":"Comme une terminaison nerveuse libre dépourvue de seuil d'activation propre","j":"Les récepteurs membranaires du nocicepteur possèdent au contraire un seuil d'activation, plus élevé que celui d'autres neurones."}]},
+    {"q":"Une fois ses récepteurs membranaires activés, que fait le neurone du stimulus reçu ?","c":13,"options":[{"t":"Il le transforme en potentiel d'action qui se propage jusqu'à l'autre extrémité de la cellule","correct":true,"j":"Le stimulus est converti en potentiel d'action, c'est-à-dire un changement du potentiel électrique de membrane qui gagne l'autre extrémité du neurone."},{"t":"Il le conduit tel quel, sous sa forme mécanique ou thermique, jusqu'à la terminaison","j":"Le stimulus n'est pas acheminé sous sa forme d'origine : le neurone le convertit d'abord en un signal électrique."},{"t":"Il modifie durablement le seuil de ses récepteurs pour les stimuli suivants","j":"Aucune modification durable du seuil n'est décrite à cette étape : le stimulus est converti puis propagé le long de la cellule."}]},
+    {"q":"Comment le message passe-t-il d'un neurone au neurone suivant ?","c":13,"options":[{"t":"Par des neurotransmetteurs libérés dans l'espace synaptique et captés par le neurone suivant","correct":true,"j":"Le cours décrit la libération de neurotransmetteurs dans l'espace synaptique, où les récepteurs membranaires du neurone suivant les captent."},{"t":"Par la propagation directe du courant électrique à travers les deux membranes accolées","j":"Le passage d'un neurone à l'autre n'est pas électrique mais chimique, puisqu'un espace sépare les deux cellules."},{"t":"Par la fusion des deux terminaisons nerveuses au niveau de la synapse","j":"Les deux neurones restent séparés par l'espace synaptique : aucune fusion membranaire n'est décrite entre eux."}]},
+    {"q":"À quelle condition le nocicepteur de second ordre transmet-il l'information vers le thalamus ?","c":13,"options":[{"t":"Si le stimulus nocif reçu est suffisamment important","correct":true,"j":"Le cours conditionne ce relais à l'importance du stimulus : s'il l'est assez, l'information poursuit sa route vers les étages supérieurs."},{"t":"Si le stimulus est mécanique plutôt que chimique","j":"La nature mécanique, thermique ou chimique du stimulus n'intervient pas à ce relais : seule compte l'importance du message reçu."},{"t":"Si plusieurs nocicepteurs de premier ordre convergent","j":"Aucun phénomène de sommation entre plusieurs fibres de premier ordre n'est décrit comme condition de ce relais."}]},
+    {"q":"Quel rapport le cours établit-il entre l'information nociceptive et la douleur ?","c":13,"options":[{"t":"L'information nociceptive ne devient une douleur que si le cortex l'interprète ainsi","correct":true,"j":"Le message nociceptif et la douleur sont distingués : c'est au niveau cortical que l'information est interprétée comme douloureuse, ou non."},{"t":"Toute information nociceptive parvenue au thalamus est ressentie comme une douleur","j":"Le passage par ce relais n'engage pas à lui seul la perception : l'information peut ne pas être interprétée comme douloureuse."},{"t":"La douleur est constituée dès l'activation des récepteurs du nocicepteur","j":"L'activation périphérique produit un message nociceptif, qui n'équivaut pas encore à une douleur."}]},
+    {"q":"En l'absence d'activité des fibres C, qu'est-ce qui maintient la voie de la douleur silencieuse ?","c":13,"options":[{"t":"Un interneurone inhibiteur, tonique, qui supprime la voie ascendante","correct":true,"j":"Tant que les fibres C n'apportent aucun message, cet interneurone reste actif en permanence et supprime la voie : aucun signal ne part vers le cerveau."},{"t":"Une inhibition exercée en continu par le thalamus sur la corne dorsale","j":"L'inhibition en jeu ici est locale et médullaire ; le thalamus est un relais ascendant, pas la source de ce blocage."},{"t":"Le faible diamètre des fibres C, insuffisant pour franchir le relais médullaire","j":"Le diamètre des fibres n'explique pas ce silence : les fibres C franchissent bien ce relais lorsqu'elles sont activées."}]},
+    {"q":"Quelle relation le cours établit-il entre l'importance d'une lésion et l'intensité de la douleur ?","c":13,"options":[{"t":"Une lésion, même importante, peut s'accompagner d'une douleur faible ou absente","correct":true,"j":"Le cours illustre la dissociation entre lésion et douleur : une atteinte tissulaire sévère peut être vécue avec peu de douleur."},{"t":"L'intensité de la douleur reflète fidèlement l'étendue de l'atteinte tissulaire","j":"C'est précisément la proportionnalité que le cours écarte, exemples à l'appui."},{"t":"Toute douleur persistante suppose une lésion visible à l'imagerie","j":"Rien dans le cours ne subordonne la persistance d'une douleur à la présence d'une lésion visible : l'image et la plainte y sont justement dissociées."}]},
+    {"q":"Que montrent les IRM lombaires réalisées chez des personnes dépourvues de tout symptôme ?","c":13,"options":[{"t":"Les anomalies « positives » y sont fréquentes et augmentent avec l'âge","correct":true,"j":"Chez des sujets sans aucune plainte, l'IRM lombaire retrouve couramment des anomalies, d'autant plus souvent que l'âge avance : l'image anormale ne suffit donc pas à expliquer une douleur."},{"t":"Elles restent normales tant qu'aucune douleur lombaire n'est apparue","j":"L'absence de plainte ne garantit pas une imagerie normale : c'est précisément ce que le cours met en évidence chez ces sujets asymptomatiques."},{"t":"Les anomalies y sont fréquentes avant 30 ans puis se raréfient avec l'âge","j":"La tendance est inverse : la fréquence de ces anomalies augmente avec l'âge au lieu de décroître."}]},
+    {"q":"Au-delà du simple délai, à quoi le cours propose-t-il d'associer la douleur aiguë ?","c":13,"options":[{"t":"À une pathologie en cours, comme une déchirure musculaire","correct":true,"j":"Le cours propose de considérer la douleur aiguë comme celle qui accompagne une pathologie en cours, l'exemple donné étant la déchirure musculaire."},{"t":"À un retard de la réparation tissulaire par rapport à la récupération habituelle","j":"Cette lecture est celle que le cours réserve à l'autre extrémité de la classification, et non à la douleur aiguë."},{"t":"À une atteinte du nerf accompagnée de signes neurologiques","j":"Ce tableau relève du classement des douleurs par leur cause, et non de la relecture de la classification fondée sur la durée."}]},
+    {"q":"Dans le modèle d'évolution de la douleur décrit par le cours, qu'est-ce qui alimente le catastrophisme ?","c":13,"options":[{"t":"Une affectivité négative et des informations menaçantes sur la maladie","correct":true,"j":"Le modèle fait converger l'affectivité négative et les informations menaçantes reçues sur la maladie vers le catastrophisme."},{"t":"La gravité de la lésion initiale et son étendue constatée à l'imagerie","j":"Le modèle ne fait pas découler le catastrophisme de la lésion ni de son image : il part de l'expérience douloureuse et de la façon dont elle est vécue."},{"t":"La répétition des épisodes douloureux et l'ancienneté de la plainte","j":"L'ancienneté de la plainte est un aboutissement possible du circuit décrit, et non le facteur qui déclenche le catastrophisme."}]},
+    {"q":"Dans le modèle d'évolution de la douleur décrit par le cours, vers quoi conduisent l'évitement et l'hypervigilance ?","c":13,"options":[{"t":"Vers le déconditionnement, la dépression et l'incapacité","correct":true,"j":"L'évitement et l'hypervigilance débouchent sur ce trépied, qui relance ensuite l'expérience douloureuse et referme le cercle."},{"t":"Vers une diminution de l'intensité douloureuse à chaque épisode","j":"Le modèle n'attribue aucun bénéfice antalgique à l'évitement : il décrit au contraire un circuit qui entretient la douleur."},{"t":"Vers une extinction progressive de la peur liée à la douleur","j":"L'évitement n'éteint pas la peur : il la maintient, puisqu'il empêche de vérifier que le mouvement reste possible."}]},
+    {"q":"Dans le modèle d'évolution de la douleur décrit par le cours, quelle voie mène à la récupération après l'expérience douloureuse ?","c":13,"options":[{"t":"L'absence de peur, suivie de la confrontation à l'activité","correct":true,"j":"Le modèle oppose une branche sans peur, qui conduit à la confrontation puis à la récupération, à la branche dominée par la peur."},{"t":"Le repos strict jusqu'à la disparition complète des symptômes","j":"Le modèle ne retient pas l'attente passive comme issue favorable : l'évolution dépend de la réaction du patient à sa douleur."},{"t":"L'hypervigilance, qui permet de surveiller les mouvements à risque","j":"L'hypervigilance appartient à la branche défavorable du modèle et éloigne de la récupération."}]},
+    {"q":"Comment la réponse inflammatoire est-elle définie ?","c":13,"options":[{"t":"Comme la réponse du système immunitaire aux agressions de l'environnement, générée par des agents inflammatoires","correct":true,"j":"Le cours fait de l'inflammation une réponse du système immunitaire aux agressions de l'environnement, déclenchée par des agents inflammatoires."},{"t":"Comme la réaction du tissu conjonctif à la baisse du flux sanguin local, déclenchée par l'obstruction d'un vaisseau","j":"La baisse du flux sanguin caractérise un mécanisme ischémique ; l'inflammation relève d'une réponse immunitaire à une agression."},{"t":"Comme la réponse du système nerveux autonome aux agressions chimiques ou thermiques de l'environnement","j":"Le système nerveux autonome n'est pas l'acteur désigné : c'est le système immunitaire qui porte cette réponse."}]},
+    {"q":"Par quelles actions la réponse inflammatoire se manifeste-t-elle ?","c":13,"options":[{"t":"Défendre contre l'agent nocif, l'isoler et le détruire, puis réparer le tissu lésé","correct":true,"j":"Le cours énumère ces trois actions : défense contre l'agent nocif, isolement et destruction de celui-ci, réparation du tissu ou de l'organe endommagé."},{"t":"Diluer l'agent nocif, le neutraliser dans le sang puis l'éliminer par voie urinaire","j":"Aucune élimination par voie urinaire n'est décrite : l'action se joue localement, dans le tissu agressé."},{"t":"Isoler l'agent nocif, ralentir le métabolisme local puis fibroser la zone atteinte","j":"La réparation visée porte sur le tissu lésé lui-même, et la fibrose n'est pas présentée comme l'issue attendue."}]},
+    {"q":"Quel processus cellulaire le cours met-il en avant dans la réponse inflammatoire ?","c":13,"options":[{"t":"La phagocytose, à laquelle il attribue un rôle important","correct":true,"j":"Le cours souligne la phagocytose comme un acteur important de la réponse inflammatoire."},{"t":"L'apoptose des cellules du tissu agressé dès le début du processus","j":"Le cours ne fait pas de la mort des cellules du tissu agressé le moteur de la réponse inflammatoire : c'est l'activité des cellules de défense qui y est mise en avant."},{"t":"La prolifération des fibroblastes pendant la phase vasculaire","j":"La prolifération fibroblastique ne figure pas parmi les éléments de la réponse inflammatoire décrite."}]},
+    {"q":"De quoi dépend la durée de la réponse inflammatoire ?","c":13,"options":[{"t":"Du degré de la blessure et du type de tissu en réparation","correct":true,"j":"Le cours rapporte la durée de la réponse au degré de la blessure et au type de tissu qui se répare."},{"t":"De l'âge du patient et de son niveau d'activité physique","j":"Ces paramètres ne sont pas retenus : la durée est rapportée à la lésion elle-même et au tissu concerné."},{"t":"De la rapidité de la migration leucocytaire vers le foyer","j":"La migration leucocytaire est une étape du processus, non le facteur qui en fixe la durée."}]},
+    {"q":"Quelle étape précède immédiatement la migration leucocytaire dans la séquence inflammatoire ?","c":13,"options":[{"t":"Les changements dans la perméabilité","correct":true,"j":"La séquence du cours place les changements de perméabilité juste avant la sortie des leucocytes vers le tissu."},{"t":"L'activation des médiateurs inflammatoires","j":"L'activation des médiateurs intervient plus tôt dans la séquence, avant les modifications vasculaires."},{"t":"L'apparition de la rougeur et de la chaleur","j":"Ces signes accompagnent cliniquement l'inflammation mais ne figurent pas comme une étape de la séquence décrite."}]},
+    {"q":"De quels facteurs dépendent les périodes d'intensité plus ou moins grande de l'inflammation chronique ?","c":13,"options":[{"t":"De l'humidité, du régime alimentaire et de l'état du système immunitaire","correct":true,"j":"Le cours cite l'humidité, le régime alimentaire et l'état du système immunitaire lui-même comme facteurs de variation de l'intensité."},{"t":"De la température locale, du niveau d'activité et de la qualité du sommeil","j":"Ces éléments de mode de vie ne figurent pas dans la liste retenue par le cours pour expliquer ces variations."},{"t":"De la pression atmosphérique, du stress et de la prise d'anti-inflammatoires","j":"Ni la pression atmosphérique ni la prise de traitements ne font partie des facteurs énumérés par le cours."}]},
+    {"q":"Quel est le statut actuel du dossier clinique propre à la kinésithérapie ?","c":5,"options":[{"t":"Aucun dossier officiel propre à la kinésithérapie : il s'intègre au dossier médical du patient.","correct":true,"j":"L'usage de l'histoire clinique est exigé pour l'exercice de la profession, mais aucun modèle officiel propre à la kinésithérapie n'existe à ce jour : le dossier de physiothérapie s'intègre au dossier médical du patient."},{"t":"Il constitue un dossier officiel distinct, conservé séparément du dossier médical du patient.","j":"Aucun dossier officiel distinct n'a été créé pour la profession : les données de kinésithérapie sont intégrées au dossier médical et non archivées à part."},{"t":"Il est laissé à la libre appréciation du praticien, aucun texte professionnel n'en imposant la tenue.","j":"La tenue d'une histoire clinique s'impose au contraire au kinésithérapeute ; c'est seulement le modèle officiel propre à la profession qui fait défaut."}]},
+    {"q":"Lorsque plusieurs professionnels ou équipes de soins interviennent auprès d'un même patient, comment leurs actes figurent-ils dans le dossier clinique ?","c":5,"options":[{"t":"Chaque professionnel y enregistre individuellement ses actions, ses interventions et ses prescriptions.","correct":true,"j":"Dès que plus d'un professionnel ou d'une équipe intervient, l'enregistrement se fait individuellement : chacun consigne lui-même ce qu'il a réalisé."},{"t":"Le responsable de l'équipe rédige un compte rendu unique résumant l'ensemble des interventions.","j":"Aucun compte rendu unique rédigé pour le compte des autres n'est prévu : la traçabilité repose sur l'enregistrement séparé de chaque intervenant."},{"t":"Seuls les actes ayant modifié le plan de traitement initial y sont consignés par leur auteur.","j":"L'enregistrement ne se limite pas aux actes marquants : toutes les actions, interventions et prescriptions effectuées doivent être consignées."}]},
+    {"q":"Que doit comporter toute information saisie dans le dossier clinique ?","c":5,"options":[{"t":"La date, l'heure et la signature identifiant sans ambiguïté la personne qui l'a saisie.","correct":true,"j":"Chaque information saisie est enregistrée avec sa date, son heure et la signature de son auteur, de manière à identifier clairement et sans ambiguïté qui l'a inscrite."},{"t":"Le nom du service et le motif de la consultation, l'auteur de la saisie restant anonyme.","j":"L'anonymat de celui qui écrit est exclu : c'est précisément l'identification de l'auteur de chaque saisie qui est exigée."},{"t":"La date seule, la signature n'étant requise que sur le rapport de sortie du patient.","j":"La signature accompagne chaque information saisie dans le dossier, et pas uniquement les documents de fin de prise en charge."}]},
+    {"q":"Quelle règle s'applique aux abréviations et aux acronymes employés dans le dossier clinique ?","c":5,"options":[{"t":"Les éviter autant que possible et, si on les emploie, en donner le sens dès la première fois.","correct":true,"j":"Le dossier doit rester lisible et intelligible : symboles, abréviations et acronymes sont évités dans la mesure du possible et, s'ils sont utilisés, leur signification complète accompagne la première occurrence."},{"t":"Les employer librement dès lors qu'une terminologie normalisée est utilisée dans le reste du document.","j":"L'emploi d'une terminologie normalisée est bien exigé, mais il ne dispense ni d'éviter les abréviations ni d'expliciter celles que l'on utilise."},{"t":"Les regrouper en fin de document dans une liste récapitulative qui en donne la signification.","j":"La signification est donnée dès la première utilisation, dans le corps même du texte, et non reportée à la fin du document."}]},
+    {"q":"Parmi les caractéristiques de l'entretien clinique, laquelle est exacte ?","c":5,"options":[{"t":"Il se déroule dans un espace et à un moment précis, avec des rôles bien définis de part et d'autre.","correct":true,"j":"L'entretien clinique est une conversation à but déterminé : elle se tient dans un espace et à un moment précis, avec des rôles clairement répartis entre le thérapeute et le patient."},{"t":"Il se tient sans cadre fixé à l'avance, le thérapeute s'adaptant au moment où le patient souhaite parler.","j":"L'absence de cadre dans le temps et dans l'espace caractériserait une conversation ordinaire ; l'entretien, lui, est organisé autour d'objectifs et de thèmes définis."},{"t":"Il repose sur une alternance des rôles, le thérapeute se livrant autant que le patient le fait.","j":"Les rôles ne s'échangent pas : une certaine ouverture du thérapeute peut rapprocher du patient, mais la relation reste asymétrique et centrée sur ce dernier."}]},
+    {"q":"Parmi les objectifs de l'entretien clinique figure le retour d'information au patient. En quoi consiste-t-il ?","c":5,"options":[{"t":"Lui communiquer aussi clairement que possible les résultats de l'évaluation et les justifier.","correct":true,"j":"Donner un retour d'information, c'est transmettre au patient, aussi clairement que possible, les résultats de l'évaluation et les motifs qui les fondent."},{"t":"Lui demander de reformuler avec ses propres mots ce qu'il a retenu des consignes de la séance.","j":"Faire reformuler le patient est une vérification de compréhension ; le retour d'information circule dans l'autre sens, du thérapeute vers le patient."},{"t":"Lui remettre le compte rendu écrit destiné au médecin qui l'a adressé au kinésithérapeute.","j":"La transmission d'un document à un confrère relève de la fonction de communication entre professionnels, pas du retour fait au patient."}]},
+    {"q":"Parmi les obstacles à une écoute efficace, lequel relève des variables situationnelles ?","c":5,"options":[{"t":"Une chaleur ou un froid excessifs, le bruit, ou encore l'heure de la journée.","correct":true,"j":"Les variables situationnelles désignent les conditions matérielles dans lesquelles se tient l'entretien : température excessive, bruit ambiant, moment de la journée."},{"t":"La tendance à porter un jugement sur les messages que le patient délivre.","j":"Juger les messages du patient nuit bien à l'écoute, mais cet obstacle tient à l'attitude du thérapeute et non aux conditions de l'entretien."},{"t":"Les interruptions inutiles du discours du patient pendant qu'il s'exprime.","j":"Interrompre inutilement le patient figure aussi parmi les obstacles, du côté du comportement du thérapeute et non des variables de situation."}]},
+    {"q":"Comment le thérapeute communique-t-il concrètement sa compréhension empathique au patient ?","c":5,"options":[{"t":"Par des paraphrases, des résumés et le reflet des sentiments que le problème provoque chez lui.","correct":true,"j":"Communiquer l'empathie passe par les signes d'écoute, puis par les paraphrases, les résumés et le fait de renvoyer au patient les sentiments que son problème suscite."},{"t":"En racontant une expérience personnelle comparable afin de montrer qu'il comprend le patient.","j":"Déplacer la conversation sur sa propre histoire détourne l'attention du cadre de référence du patient, qui est pourtant ce qu'il s'agit de comprendre."},{"t":"En rassurant d'emblée le patient sur l'issue favorable du problème qu'il vient de décrire.","j":"Rassurer par avance revient à promettre un résultat, et les fausses promesses sont justement déconseillées car elles fragilisent l'alliance."}]},
+    {"q":"Parmi les caractéristiques du thérapeute qui favorisent la relation avec le patient, comment se définit la cordialité ?","c":5,"options":[{"t":"Exprimer verbalement et non verbalement son intérêt et sa reconnaissance envers le patient.","correct":true,"j":"La cordialité consiste à manifester, par la parole comme par le comportement non verbal, son intérêt et sa considération pour le patient."},{"t":"Être perçu par le patient comme réellement capable de l'aider à résoudre son problème.","j":"Cette aptitude perçue à aider le patient définit la compétence, autre caractéristique favorisant la relation."},{"t":"Faire percevoir au patient qu'on ne l'induira jamais en erreur et qu'on ne lui nuira pas.","j":"Cette assurance de ne pas être trompé ni lésé définit la confiance, elle aussi déterminée par la perception du patient."}]},
+    {"q":"Que désignent les « tests de confiance » auxquels un patient peut soumettre son thérapeute ?","c":5,"options":[{"t":"Des conduites comme le déranger pour éprouver les limites ou lui confier des secrets.","correct":true,"j":"Le patient met la relation à l'épreuve : il dérange pour tester les limites, se sous-estime, demande des faveurs ou livre des secrets pour vérifier la confidentialité et l'acceptation."},{"t":"Des questionnaires validés qui mesurent la qualité de l'alliance thérapeutique.","j":"Il ne s'agit pas d'un outil de mesure : ces tests sont des comportements spontanés du patient au fil de la relation."},{"t":"Les questions par lesquelles le thérapeute vérifie la sincérité du récit du patient.","j":"Les tests de confiance viennent du patient et portent sur le thérapeute, et non l'inverse."}]},
+    {"q":"Selon le cours, comment les données à recueillir auprès du patient sont-elles qualifiées selon leur degré d'exigence ?","c":5,"options":[{"t":"En données obligatoires, importantes et pertinentes.","correct":true,"j":"Le recueil distingue ce qui est obligatoire, ce qui est important et ce qui est pertinent, auxquels s'ajoutent les commentaires sur le cas et les notes sur l'information obtenue."},{"t":"En données subjectives et en données objectives.","j":"La distinction entre subjectif et objectif sépare l'entretien de l'examen physique ; elle ne hiérarchise pas l'importance des données collectées."},{"t":"En données obligatoires, facultatives et complémentaires.","j":"Le cours n'oppose pas obligatoire et facultatif : les deux autres degrés qu'il retient sont l'important et le pertinent."}]}
   ],
   "anat1": [
     {
