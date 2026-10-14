@@ -534,7 +534,7 @@ const QUESTIONS = {
     {"q":"Antoine a perdu le match d'hier de Volley. A cause de cela, il considère avoir perdu toutes les options pour que son équipe soit championne. Antoine ressentira probablement:","c":7,"options":[{"t":"Anxiété","j":"L'anxiété est anticipatoire face à une menace future, pas une perte déjà survenue."},{"t":"Colère","j":"La colère répond à une frustration/injustice à combattre, pas décrite ici."},{"t":"Tristesse","correct":true,"j":"Correct: la tristesse apparaît face à une perte (match perdu, options perdues)."}]},
     {"q":"Une personne qui montre généralement un comportement sûr de soi, en respectant ses propres droits et les droits des autres, aura :","c":18,"options":[{"t":"Un style de communication assertif","correct":true,"j":"Assertif = respecte ses droits ET ceux d'autrui, coopération, sûr de soi : correct."},{"t":"Un style de communication agressif","j":"Agressif = respecte ses droits mais pas ceux d'autrui : faux."},{"t":"Un style de communication soumis","j":"Soumis = ne respecte pas ses propres droits : faux."}]},
     {"q":"Sarah dit à Christophe qu'il devrait faire plus de sport. Dans cet exemple, Sarah est :","c":16,"options":[{"t":"Le feedback","j":"Le feedback est le retour du récepteur, pas Sarah qui initie : faux."},{"t":"L'émetteur","correct":true,"j":"Sarah initie et envoie le message : elle est l'émetteur : correct."},{"t":"Le récepteur","j":"Le récepteur est Christophe qui reçoit le message : faux."}]},
-    {"q":"La loi de Yerkes-Dodson (1908) décrit la relation entre l'activation de l'organisme déclenché par le stresseur et la performance","c":8,"options":[{"t":"Maintient une forme de U inversé","correct":true,"j":"Loi de Yerkes-Dodson : relation activation-performance en U inversé : correct."},{"t":"Maintient une forme de L","j":"Forme en L : faux."},{"t":"Maintient une forme de U","j":"Forme en U : faux, c'est un U inversé."}]},
+    {"q":"La loi de Yerkes-Dodson (1908) décrit la relation entre l'activation de l'organisme déclenché par le stresseur et la performance","c":8,"options":[{"t":"Maintient une forme de U inversé","correct":true,"j":"Loi de Yerkes-Dodson : relation activation-performance en U inversé : correct."},{"t":"Maintient une forme de L","j":"Une forme en L supposerait que la performance chute dès la moindre activation, ce que la loi contredit."},{"t":"Maintient une forme de U","j":"Un U signifierait une performance maximale aux deux extrêmes d'activation : c'est l'inverse de la courbe décrite."}]},
     {"q":"Selon le modèle Biopsychosocial (Signalez la réponse incorrect) :","c":3,"options":[{"t":"L'état de complète santé peut être atteint en faisant attention aux variables biologiques, psychologiques et sociales","correct":true,"j":"INCORRECT (réponse à signaler) : dans le BPS le continuum implique que l'état complet de santé n'existe pas."},{"t":"Santé et maladie sont la conséquence d'un ensemble de facteurs biologiques, psychologiques et sociaux qui font partie d'une personne.","j":"Vrai : santé et maladie résultent de facteurs bio-psycho-sociaux : correct."},{"t":"La plupart des pathologies ont des multiples causes et facteurs","j":"Vrai : multi-causalité de la plupart des pathologies : correct."}]},
     {"q":"Pour gérer un comportement agressif d'une façon assertive, il faut comprendre que:","c":18,"options":[{"t":"L'agressivité manifestée par la personne peut se traduire comme une souffrance interne et la tentative de se protéger","correct":true,"j":"L'agressivité du patient traduit une souffrance interne et une tentative de se protéger : correct (digest)."},{"t":"L'agressivité est manifesté est caractéristique de personnes violentes","j":"Réduire l'agressivité à un trait de personne violente est faux."},{"t":"L'agressivité ne peut être gérée qu'à travers un style de communication plus agressif encore","j":"Répondre par plus d'agressivité n'est pas assertif : faux."}]},
     {"q":"Dans la conception de la santé, les aspects psychosociaux ont commencé à avoir de l'importanc:","c":2,"options":[{"t":"Au 18eme siècle","j":"18e siècle : santé encore vue de façon mécaniciste/organique : faux."},{"t":"Au 19eme siècle","j":"19e siècle : santé liée à l'hygiène/microbes, pas encore au psychosocial : faux."},{"t":"Au 20eme siècle","correct":true,"j":"20e siècle : OMS 1948 (bien-être mental et social) et modèle BPS : le psychosocial devient important : correct."}]},
@@ -10107,7 +10107,7 @@ const QUESTIONS = {
         },
         {
           "t": "Ligament ischio-fémoral",
-          "j": "Il limite plutôt la rotation médiale et l'adduction de la cuisse fléchie."
+          "j": "Il limite plutôt la rotation médiale de la cuisse ; c'est le faisceau supérieur de l'ilio-fémoral qui freine l'adduction."
         },
         {
           "t": "Ligament pubo-fémoral",
@@ -10218,7 +10218,7 @@ const QUESTIONS = {
         {
           "t": "Obturateur externe",
           "correct": true,
-          "j": "Son insertion se fait dans la fosse trochantérique, en avant et en dedans du grand trochanter."
+          "j": "Son insertion se fait dans la fosse trochantérique, en arrière et en dedans du grand trochanter."
         },
         {
           "t": "Carré fémoral",
@@ -10245,7 +10245,7 @@ const QUESTIONS = {
         },
         {
           "t": "La fosse trochantérique",
-          "j": "Insertion de l'obturateur externe, en avant et en dedans du grand trochanter, et non de l'iliopsoas."
+          "j": "Insertion de l'obturateur externe, en arrière et en dedans du grand trochanter, et non de l'iliopsoas."
         },
         {
           "t": "La face médiale du grand trochanter",
@@ -10701,15 +10701,15 @@ const QUESTIONS = {
         {
           "t": "Le court fléchisseur des orteils",
           "correct": true,
-          "j": "Le nerf plantaire médial innerve : court fléchisseur des orteils, abducteur de l'hallux, court fléchisseur de l'hallux (tête méd.), 1er lombrical."
+          "j": "Le nerf plantaire médial, branche terminale médiale du nerf tibial, innerve le court fléchisseur des orteils ; les muscles de la loge latérale et les muscles profonds de la plante relèvent du nerf plantaire latéral."
         },
         {
           "t": "Le carré plantaire",
-          "j": "Innervé par le nerf plantaire LATÉRAL."
+          "j": "Il relève du nerf plantaire LATÉRAL, qui prend en charge les muscles les plus profonds de la plante."
         },
         {
           "t": "L'adducteur de l'hallux",
-          "j": "Innervé par le nerf plantaire LATÉRAL."
+          "j": "Malgré sa position médiale sur l'hallux, il est innervé par le nerf plantaire LATÉRAL."
         },
         {
           "t": "L'abducteur du 5e orteil",
@@ -12265,7 +12265,7 @@ const QUESTIONS = {
         {
           "t": "Nerf fémoral",
           "correct": true,
-          "j": "Le nerf fémoral est antérieur (canal de Hunter) et ne pénètre pas la fosse poplitée."
+          "j": "Le nerf fémoral se divise à la racine de la cuisse, en avant : il n'atteint jamais la face postérieure du genou."
         },
         {
           "t": "Nerfs tibial et fibulaire commun",
@@ -13561,11 +13561,11 @@ const QUESTIONS = {
         },
         {
           "t": "Droit fémoral",
-          "j": "Il croise la hanche et le genou (bi-articulaire)."
+          "j": "Bi-articulaire : il croise la hanche avant d'agir sur le genou."
         },
         {
           "t": "Gracile",
-          "j": "Il croise la hanche et le genou (bi-articulaire)."
+          "j": "Lui aussi bi-articulaire : il franchit la hanche puis le genou."
         }
       ]
     },
@@ -14021,7 +14021,7 @@ const QUESTIONS = {
         },
         {
           "t": "Obturateur externe",
-          "j": "Rotateur latéral."
+          "j": "Il tourne la cuisse en DEHORS ; aucun muscle obturateur n'est rotateur médial."
         },
         {
           "t": "Jumeau supérieur",
@@ -14044,7 +14044,7 @@ const QUESTIONS = {
         },
         {
           "t": "Arthrodie",
-          "j": "L'arthrodie est plane."
+          "j": "L'arthrodie unit deux surfaces planes qui ne permettent qu'un glissement, sans axe de mouvement."
         },
         {
           "t": "Trochlée",
@@ -14063,7 +14063,7 @@ const QUESTIONS = {
         },
         {
           "t": "Ischio-fémoral",
-          "j": "Il est postérieur."
+          "j": "Ce ligament renforce la face POSTÉRIEURE de la capsule coxo-fémorale, pas l'antérieure."
         },
         {
           "t": "Ligament transverse de l'acétabulum",
@@ -14416,7 +14416,7 @@ const QUESTIONS = {
         },
         {
           "t": "Articulation temporo-mandibulaire = condylienne",
-          "j": "Vrai (bicondylienne)."
+          "j": "Vrai : l'ATM est classée bicondylienne, la correspondance proposée est donc exacte."
         }
       ]
     },
@@ -14945,7 +14945,7 @@ const QUESTIONS = {
         },
         {
           "t": "Muscle élévateur des côtes",
-          "j": "Inspirateur accessoire."
+          "j": "Le cours le range parmi les inspirateurs accessoires : ce n'est donc pas la réponse attendue."
         }
       ]
     },
@@ -15005,16 +15005,16 @@ const QUESTIONS = {
           "j": "Exact : le trapèze est innervé par le nerf accessoire (XI) et le plexus cervical, non par les rameaux dorsaux."
         },
         {
-          "t": "Inter-transversaire",
-          "j": "Muscle profond du dos, innervé par les rameaux dorsaux."
+          "t": "Multifide",
+          "j": "Muscle du système transversaire-épineux, innervé par les rameaux dorsaux du nerf spinal."
         },
         {
           "t": "Longissimus",
-          "j": "Érecteur du rachis, innervé par les rameaux dorsaux."
+          "j": "Érecteur du rachis de la colonne intermédiaire, il dépend des rameaux dorsaux."
         },
         {
           "t": "Iliocostal",
-          "j": "Érecteur du rachis, innervé par les rameaux dorsaux."
+          "j": "Érecteur du rachis de la colonne latérale, il dépend lui aussi des rameaux dorsaux."
         }
       ]
     },
@@ -15443,15 +15443,15 @@ const QUESTIONS = {
         },
         {
           "t": "Rotateur",
-          "j": "Faux : il appartient au système transversaire-épineux."
+          "j": "Faux : les rotateurs, courts et profonds, sont les plus segmentaires des transversaires-épineux."
         },
         {
           "t": "Semi-épineux",
-          "j": "Faux : il appartient au système transversaire-épineux."
+          "j": "Faux : le semi-épineux est le plus superficiel et le plus étendu des transversaires-épineux."
         },
         {
           "t": "Multifide",
-          "j": "Faux : il appartient au système transversaire-épineux."
+          "j": "Faux : le multifide appartient bien à ce système, dont il occupe le plan le plus profond."
         }
       ]
     },
@@ -15627,11 +15627,11 @@ const QUESTIONS = {
         },
         {
           "t": "Buccinateur",
-          "j": "Muscle de la mimique, innervé par le VII (facial)."
+          "j": "Muscle peaucier de la joue : il relève du nerf facial, pas du trijumeau."
         },
         {
           "t": "Orbiculaire de la bouche",
-          "j": "Muscle de la mimique, innervé par le VII (facial)."
+          "j": "Sphincter des lèvres, lui aussi moteur du VII : il échappe au territoire du V."
         },
         {
           "t": "Sterno-hyoïdien",
@@ -15677,11 +15677,11 @@ const QUESTIONS = {
         },
         {
           "t": "Il s'insère sur la ligne blanche",
-          "j": "Vrai en soi, mais partiel : 'toutes les réponses sont vraies' est attendue."
+          "j": "Vrai : son aponévrose participe à la ligne blanche. Mais ce n'est pas la seule affirmation exacte de la liste."
         },
         {
           "t": "En contraction unilatérale, il participe à l'inclinaison latérale du tronc",
-          "j": "Vrai en soi, mais partiel : 'toutes les réponses sont vraies' est attendue."
+          "j": "Vrai : en contraction unilatérale il incline le tronc. Là encore, une autre proposition est exacte elle aussi."
         }
       ]
     },
@@ -16099,10 +16099,2718 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Parmi les os du neurocrâne, lequel est un os pair ?","c":2,"options":[{"t":"Le temporal","correct":true,"j":"Le neurocrâne compte huit os : quatre impairs et deux pairs. Le temporal est l'un des deux os pairs, avec le pariétal."},{"t":"L'occipital","j":"L'occipital est un os impair, situé à la partie postérieure de la base du crâne, où le foramen magnum le divise en trois parties."},{"t":"Le sphénoïde","j":"Le sphénoïde est un os impair, situé au centre de la base du crâne ; il comprend un corps, les ailes majeures et mineures et le processus ptérygoïde."},{"t":"L'ethmoïde","j":"L'ethmoïde est un os impair de la partie antérieure de la base du crâne, formé d'une lame horizontale, d'une lame verticale et de deux masses latérales."}]},
-    {"q":"Dans la capsule de l'articulation coxo-fémorale, quelles fibres resserrent la capsule juste sous la tête du fémur ?","c":9,"options":[{"t":"Les fibres orbiculaires, dites circulaires","correct":true,"j":"Les fibres circulaires ou orbiculaires rétrécissent la capsule dans sa partie sous-capitale, c'est-à-dire sous la tête fémorale."},{"t":"Les fibres longitudinales, du coxal au fémur","j":"Les fibres longitudinales s'étendent de l'os coxal au fémur : elles donnent à la capsule sa forme cylindrique, sans la resserrer."},{"t":"Les fibres arciformes, en forme d'arche","j":"Les fibres arciformes partent de l'os coxal et y reviennent après un arc circonférentiel : elles croisent et renforcent les autres fibres."},{"t":"Les freins capsulaires, plis de la synoviale","j":"Les freins capsulaires sont des plis de la membrane synoviale, et non des faisceaux de fibres de la capsule."}]},
-    {"q":"Que contient la fosse acétabulaire, au centre de l'acétabulum ?","c":9,"options":[{"t":"Un amas graisseux fibroélastique jouant le rôle de coussin de pression","correct":true,"j":"La fosse acétabulaire est occupée par une accumulation de graisse aux propriétés fibroélastiques qui agit comme un coussin de pression."},{"t":"Un anneau fibrocartilagineux approfondissant la cavité articulaire","j":"Ce rôle est celui du labrum acétabulaire, inséré sur le rebord de l'acétabulum et non dans la fosse acétabulaire."},{"t":"Un croissant de cartilage hyalin recevant la tête du fémur","j":"La surface articulaire cartilagineuse est la surface semi-lunaire, qui entoure la fosse acétabulaire sans l'occuper."},{"t":"Un faisceau fibreux tendu entre les bases ischiatique et pubienne","j":"Cette description correspond au ligament transverse de l'acétabulum, qui franchit l'échancrure ischio-pubienne."}]},
-    {"q":"Concernant le ligament de la tête fémorale, dit ligament rond, quelle proposition est exacte ?","c":9,"options":[{"t":"Il apporte une vascularisation secondaire à la tête fémorale avant la puberté","correct":true,"j":"Sa fonction avant la puberté est bien décrite : il assure un apport sanguin secondaire à la tête fémorale, par l'artère qu'il contient."},{"t":"Il devient le stabilisateur principal de l'articulation à l'âge adulte","j":"À l'âge adulte il n'est qu'un stabilisateur secondaire, qui complète le travail des ligaments capsulaires."},{"t":"Il naît de l'épine iliaque antéro-inférieure et se termine sur la fovéa","j":"Cette origine est celle du ligament ilio-fémoral ; le ligament rond naît du ligament transverse de l'acétabulum."},{"t":"Il se tend en position debout et stabilise passivement l'extension","j":"C'est le ligament ilio-fémoral qui se tend dans l'extension et stabilise la position bipède."}]}
+    {
+      "q": "Parmi les os du neurocrâne, lequel est un os pair ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le temporal",
+          "correct": true,
+          "j": "Le neurocrâne compte huit os : quatre impairs et deux pairs. Le temporal est l'un des deux os pairs, avec le pariétal."
+        },
+        {
+          "t": "L'occipital",
+          "j": "L'occipital est un os impair, situé à la partie postérieure de la base du crâne, où le foramen magnum le divise en trois parties."
+        },
+        {
+          "t": "Le sphénoïde",
+          "j": "Le sphénoïde est un os impair, situé au centre de la base du crâne ; il comprend un corps, les ailes majeures et mineures et le processus ptérygoïde."
+        },
+        {
+          "t": "L'ethmoïde",
+          "j": "L'ethmoïde est un os impair de la partie antérieure de la base du crâne, formé d'une lame horizontale, d'une lame verticale et de deux masses latérales."
+        }
+      ]
+    },
+    {
+      "q": "Dans la capsule de l'articulation coxo-fémorale, quelles fibres resserrent la capsule juste sous la tête du fémur ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Les fibres orbiculaires, dites circulaires",
+          "correct": true,
+          "j": "Les fibres circulaires ou orbiculaires rétrécissent la capsule dans sa partie sous-capitale, c'est-à-dire sous la tête fémorale."
+        },
+        {
+          "t": "Les fibres longitudinales, du coxal au fémur",
+          "j": "Les fibres longitudinales s'étendent de l'os coxal au fémur : elles donnent à la capsule sa forme cylindrique, sans la resserrer."
+        },
+        {
+          "t": "Les fibres arciformes, en forme d'arche",
+          "j": "Les fibres arciformes partent de l'os coxal et y reviennent après un arc circonférentiel : elles croisent et renforcent les autres fibres."
+        },
+        {
+          "t": "Les freins capsulaires, plis de la synoviale",
+          "j": "Les freins capsulaires sont des plis de la membrane synoviale, et non des faisceaux de fibres de la capsule."
+        }
+      ]
+    },
+    {
+      "q": "Que contient la fosse acétabulaire, au centre de l'acétabulum ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Un amas graisseux fibroélastique jouant le rôle de coussin de pression",
+          "correct": true,
+          "j": "La fosse acétabulaire est occupée par une accumulation de graisse aux propriétés fibroélastiques qui agit comme un coussin de pression."
+        },
+        {
+          "t": "Un anneau fibrocartilagineux approfondissant la cavité articulaire",
+          "j": "Ce rôle est celui du labrum acétabulaire, inséré sur le rebord de l'acétabulum et non dans la fosse acétabulaire."
+        },
+        {
+          "t": "Un croissant de cartilage hyalin recevant la tête du fémur",
+          "j": "La surface articulaire cartilagineuse est la surface semi-lunaire, qui entoure la fosse acétabulaire sans l'occuper."
+        },
+        {
+          "t": "Un faisceau fibreux tendu entre les bases ischiatique et pubienne",
+          "j": "Cette description correspond au ligament transverse de l'acétabulum, qui franchit l'échancrure ischio-pubienne."
+        }
+      ]
+    },
+    {
+      "q": "Concernant le ligament de la tête fémorale, dit ligament rond, quelle proposition est exacte ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Il apporte une vascularisation secondaire à la tête fémorale avant la puberté",
+          "correct": true,
+          "j": "Sa fonction avant la puberté est bien décrite : il assure un apport sanguin secondaire à la tête fémorale, par l'artère qu'il contient."
+        },
+        {
+          "t": "Il devient le stabilisateur principal de l'articulation à l'âge adulte",
+          "j": "À l'âge adulte il n'est qu'un stabilisateur secondaire, qui complète le travail des ligaments capsulaires."
+        },
+        {
+          "t": "Il naît de l'épine iliaque antéro-inférieure et se termine sur la fovéa",
+          "j": "Cette origine est celle du ligament ilio-fémoral ; le ligament rond naît du ligament transverse de l'acétabulum."
+        },
+        {
+          "t": "Il se tend en position debout et stabilise passivement l'extension",
+          "j": "C'est le ligament ilio-fémoral qui se tend dans l'extension et stabilise la position bipède."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les surfaces articulaires de l'articulation temporo-mandibulaire, quelle structure osseuse borde ventralement la fosse mandibulaire du temporal ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le tubercule articulaire du temporal",
+          "correct": true,
+          "j": "Le cours décrit, en avant de la fosse mandibulaire (glène) de l'os temporal, un tubercule articulaire ; c'est donc lui qui la borde ventralement."
+        },
+        {
+          "t": "Le processus styloïde du temporal",
+          "j": "Le processus styloïde descend en arrière, sous le méat acoustique externe, et donne le ligament stylo-mandibulaire : il ne borde pas la fosse en avant."
+        },
+        {
+          "t": "Le processus mastoïde du temporal",
+          "j": "Le processus mastoïde est une saillie postéro-inférieure du temporal, située en arrière de l'articulation et destinée au sterno-cléido-mastoïdien."
+        },
+        {
+          "t": "La partie tympanique du temporal",
+          "j": "La partie tympanique limite la fosse mandibulaire en ARRIÈRE, en avant du méat acoustique externe : elle ne la borde pas ventralement."
+        }
+      ]
+    },
+    {
+      "q": "Le disque interarticulaire de l'articulation temporo-mandibulaire :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Ne recouvre que le versant postérieur du condyle, laissant la fosse libre",
+          "j": "Le disque s'interpose sur toute la surface entre le condyle et la fosse, et non sur le seul versant postérieur du condyle."
+        },
+        {
+          "t": "Comporte trois régions prolongées en arrière par les lames rétrodiscales",
+          "correct": true,
+          "j": "Le cours distingue sur le disque une région antérieure, une région intermédiaire et une région postérieure, cette dernière se continuant par les lames rétrodiscales supérieure et inférieure."
+        },
+        {
+          "t": "Est un fibrocartilage incomplet laissant communiquer les deux cavités",
+          "j": "Les deux cavités synoviales de l'ATM restent closes et indépendantes, à la différence des ménisques du genou qui sont eux incomplets."
+        },
+        {
+          "t": "Est maintenu en place uniquement par le ligament stylo-mandibulaire",
+          "j": "Le disque est maintenu par l'ensemble de ses attaches péri-articulaires et par le muscle qui s'y insère ; le stylo-mandibulaire, lui, reste un ligament à distance de l'articulation."
+        }
+      ]
+    },
+    {
+      "q": "À propos de la capsule de l'articulation temporo-mandibulaire, indiquez la réponse CORRECTE :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Elle est renforcée en dedans par le ligament temporo-mandibulaire",
+          "j": "Le ligament temporo-mandibulaire est latéral : il renforce la capsule en dehors, et non en dedans comme le propose cet item."
+        },
+        {
+          "t": "Elle est entièrement close et n'est traversée par aucun muscle",
+          "j": "Sa partie antérieure est justement perforée pour laisser le ptérygoïdien latéral rejoindre le disque articulaire."
+        },
+        {
+          "t": "Elle s'attache au bord libre du disque et présente un orifice antérieur",
+          "correct": true,
+          "j": "Selon le cours, la capsule se fixe au bord libre du disque et sa partie antérieure est percée d'un trou livrant passage au ptérygoïdien latéral, qui s'insère sur le disque."
+        },
+        {
+          "t": "Elle s'insère sur le col mandibulaire sans contact avec le disque",
+          "j": "La capsule descend bien jusqu'au col, mais elle adhère au bord libre du disque, ce qui ménage les deux cavités articulaires."
+        }
+      ]
+    },
+    {
+      "q": "Le ligament temporo-mandibulaire latéral s'étend :",
+      "c": 5,
+      "options": [
+        {
+          "t": "De l'épine du sphénoïde à la face médiale de la branche",
+          "j": "C'est le trajet du ligament sphéno-mandibulaire, tendu de l'épine du sphénoïde à la face médiale de la branche, donc en dedans de l'articulation."
+        },
+        {
+          "t": "Du processus styloïde à l'angle de la mandibule",
+          "j": "C'est le trajet du ligament stylo-mandibulaire, tendu en arrière depuis le processus styloïde du temporal."
+        },
+        {
+          "t": "Du tubercule articulaire au processus coronoïde",
+          "j": "Aucun ligament de l'ATM ne gagne le processus coronoïde : ce relief reçoit le tendon du muscle temporal."
+        },
+        {
+          "t": "De l'arcade zygomatique au col de la mandibule",
+          "correct": true,
+          "j": "C'est bien son trajet : il limite les déplacements de la mandibule vers l'arrière et protège ainsi le méat acoustique externe."
+        }
+      ]
+    },
+    {
+      "q": "Quel ligament de l'articulation temporo-mandibulaire fait partie du fascia interptérygoïdien ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le ligament sphéno-mandibulaire",
+          "correct": true,
+          "j": "Tendu du sphénoïde à la face médiale de la branche mandibulaire, il appartient au fascia interptérygoïdien tendu entre les deux muscles ptérygoïdiens."
+        },
+        {
+          "t": "Le ligament stylo-mandibulaire",
+          "j": "Il descend du processus styloïde à la face médiale de la mandibule près de l'angle, en dehors du plan interptérygoïdien."
+        },
+        {
+          "t": "Le ligament temporo-mandibulaire",
+          "j": "C'est le renfort latéral et superficiel de la capsule de l'ATM : il reste en dehors du plan tendu entre les deux ptérygoïdiens."
+        },
+        {
+          "t": "Le raphé ptérygo-mandibulaire",
+          "j": "Ce raphé est une bande fibreuse d'insertion musculaire pharyngo-jugale, et non un ligament reliant le crâne à la mandibule."
+        }
+      ]
+    },
+    {
+      "q": "Le ligament stylo-mandibulaire se termine :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Sur le col de la mandibule, en dehors de la capsule",
+          "j": "C'est la terminaison du ligament temporo-mandibulaire latéral, renfort externe de la capsule et non du plan médial."
+        },
+        {
+          "t": "Sur la face médiale de la mandibule, près de son angle",
+          "correct": true,
+          "j": "Né du processus styloïde du temporal, il gagne la face médiale de la mandibule au voisinage de l'angle mandibulaire."
+        },
+        {
+          "t": "Sur la lingula, au bord du foramen mandibulaire",
+          "j": "C'est la zone de terminaison du ligament sphéno-mandibulaire, fixé sur la face médiale de la branche près du foramen."
+        },
+        {
+          "t": "Sur le bord libre du disque articulaire",
+          "j": "Le disque est une structure intra-articulaire ; le stylo-mandibulaire, lui, est un ligament extrinsèque qui reste à distance de la capsule."
+        }
+      ]
+    },
+    {
+      "q": "Lors de l'ouverture de la bouche, indiquez la réponse CORRECTE concernant la succession des mouvements :",
+      "c": 5,
+      "options": [
+        {
+          "t": "La translation dans la cavité supérieure précède toute rotation du condyle",
+          "j": "L'ordre est inversé : c'est la rotation qui amorce l'ouverture, la translation ne survenant que pour la grande ouverture."
+        },
+        {
+          "t": "La rotation et la translation se font toutes deux dans la cavité inférieure",
+          "j": "La cavité inférieure n'autorise que la rotation ; la translation se produit dans la cavité supérieure, entre le disque et la fosse mandibulaire."
+        },
+        {
+          "t": "La rotation du condyle sous le disque précède la translation condyle-disque",
+          "correct": true,
+          "j": "L'ouverture débute par une rotation dans la cavité inférieure, puis se poursuit par la translation de l'ensemble condyle-disque vers l'avant, dans la cavité supérieure."
+        },
+        {
+          "t": "Le condyle recule sous la fosse mandibulaire avant de tourner sur le disque",
+          "j": "Ce recul initial du condyle et du disque caractérise l'élévation (fermeture) ; l'ouverture porte au contraire le condyle vers l'avant."
+        }
+      ]
+    },
+    {
+      "q": "Lors de la descente de la mandibule, quels muscles assurent l'abaissement proprement dit, les ptérygoïdiens latéraux n'étant que les initiateurs du mouvement ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le masséter, le temporal et le ptérygoïdien médial",
+          "j": "Ces trois muscles sont au contraire les élévateurs de la mandibule : ils ferment la bouche et serrent les arcades dentaires."
+        },
+        {
+          "t": "Le stylohyoïdien, le sternohyoïdien et l'omohyoïdien",
+          "j": "Ces muscles agissent sur l'os hyoïde, qu'ils élèvent ou abaissent, mais aucun ne tire directement sur la mandibule."
+        },
+        {
+          "t": "Le buccinateur, le mentonnier et le platysma",
+          "j": "Ce sont des muscles peauciers innervés par le nerf facial : ils mobilisent les lèvres et la peau du cou, non la mandibule."
+        },
+        {
+          "t": "Le digastrique, le géniohyoïdien et le mylohyoïdien",
+          "correct": true,
+          "j": "Le cours nomme ces trois muscles sus-hyoïdiens comme les abaisseurs de la mâchoire, actifs dès que la bouche s'ouvre."
+        }
+      ]
+    },
+    {
+      "q": "Le mouvement de diduction (latéralité) de la mandibule :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Se fait autour d'un axe vertical passant par l'un des condyles",
+          "correct": true,
+          "j": "Le cours décrit un axe vertical passant par l'un des condyles, avec alternance de protrusion d'un côté et de rétraction de l'autre, le menton se déplaçant en sens inverse."
+        },
+        {
+          "t": "Se fait autour d'un axe transversal passant par les deux condyles",
+          "j": "L'axe transversal bicondylien est celui de la rotation d'ouverture et de fermeture, et non celui de la latéralité."
+        },
+        {
+          "t": "Se fait autour d'un axe sagittal passant par la symphyse mentonnière",
+          "j": "Aucun mouvement de l'ATM ne se fait autour d'un axe sagittal mentonnier ; la latéralité emprunte un axe vertical condylien."
+        },
+        {
+          "t": "Résulte d'une protrusion symétrique et simultanée des deux condyles",
+          "j": "Une protrusion bilatérale symétrique donne la propulsion, qui porte la mandibule droit en avant sans aucune déviation latérale."
+        }
+      ]
+    },
+    {
+      "q": "Au cours de la propulsion (protrusion) de la mandibule, indiquez la réponse CORRECTE :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le condyle recule dans la fosse mandibulaire en entraînant le disque",
+          "j": "Ce recul du couple condyle-disque définit la rétropulsion, mouvement inverse assuré par les fibres postérieures du temporal."
+        },
+        {
+          "t": "Le disque avance sur le tubercule articulaire et entraîne le condyle avec lui",
+          "correct": true,
+          "j": "Le cours décrit l'avancée du ménisque sur le tubercule antérieur, entraînant le condyle, si bien que les dents inférieures passent en avant des dents supérieures."
+        },
+        {
+          "t": "Le disque reste immobile tandis que le condyle glisse seul vers l'avant",
+          "j": "Condyle et disque se déplacent solidairement dans la cavité supérieure ; leur désolidarisation correspond à un dérangement discal, non au mouvement normal."
+        },
+        {
+          "t": "Les dents supérieures viennent passer en avant des dents inférieures",
+          "j": "Seule la mandibule est mobile : ce sont donc les dents inférieures qui avancent sur les dents supérieures au cours de la propulsion."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle occipito-frontal :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Se termine sur la ligne nucale supérieure et abaisse les sourcils",
+          "j": "La ligne nucale supérieure est l'ORIGINE du ventre occipital et non sa terminaison, et le muscle élève les sourcils au lieu de les abaisser."
+        },
+        {
+          "t": "Se termine sur l'arcade zygomatique et plisse la peau du front",
+          "j": "L'arcade zygomatique donne insertion au masséter ; l'occipito-frontal ne l'atteint jamais et converge vers l'aponévrose épicrânienne."
+        },
+        {
+          "t": "Se termine sur l'aponévrose épicrânienne et élève les sourcils",
+          "correct": true,
+          "j": "Ses deux ventres, occipital et frontal, convergent sur l'aponévrose épicrânienne ; sa contraction élève les sourcils et plisse le front."
+        },
+        {
+          "t": "Se termine sur la commissure labiale et élève l'angle de la bouche",
+          "j": "C'est l'action des muscles élévateurs de la commissure labiale ; l'occipito-frontal reste cantonné au cuir chevelu et au front."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle de la mimique s'étend de l'os nasal à la peau située entre les sourcils ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le muscle nasal, partie transversale",
+          "j": "Cette partie du nasal naît du maxillaire et gagne l'aponévrose de l'arête du nez, qu'elle tend : elle n'atteint pas la peau du front."
+        },
+        {
+          "t": "Le muscle sourcilier, ou corrugateur",
+          "j": "Le sourcilier naît de l'os frontal et se termine dans le sourcil, qu'il fronce : son origine n'est pas l'os nasal."
+        },
+        {
+          "t": "L'élévateur de la lèvre supérieure",
+          "j": "Ce muscle descend du bord inférieur de l'orbite vers la lèvre supérieure, qu'il élève : son trajet est descendant et il n'atteint pas le front."
+        },
+        {
+          "t": "Le muscle procérus, ou pyramidal du nez",
+          "correct": true,
+          "j": "Tendu de l'os nasal à la peau inter-sourcilière, le procérus plisse transversalement la peau de la racine du nez."
+        }
+      ]
+    },
+    {
+      "q": "La partie alaire du muscle nasal a pour action :",
+      "c": 5,
+      "options": [
+        {
+          "t": "D'élargir l'ouverture narinaire",
+          "correct": true,
+          "j": "Terminée sur l'aile du nez, la partie alaire du nasal dilate l'orifice nasal lors de l'inspiration forcée."
+        },
+        {
+          "t": "De tendre la peau de l'arête du nez",
+          "j": "C'est l'action de la partie TRANSVERSALE du nasal, qui se termine sur l'aponévrose dorsale du nez."
+        },
+        {
+          "t": "De plisser la racine du nez",
+          "j": "C'est l'action du procérus, muscle du groupe nasal qui ride transversalement la racine du nez."
+        },
+        {
+          "t": "D'élever l'aile du nez et la lèvre",
+          "j": "C'est l'action de l'élévateur de la lèvre supérieure et de l'aile du nez, qui soulève à la fois la narine et la lèvre."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle buccinateur prend son origine :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Sur la face latérale de la branche mandibulaire",
+          "j": "C'est la zone d'insertion du masséter ; le buccinateur naît en dedans de la branche, sur le raphé ptérygo-mandibulaire."
+        },
+        {
+          "t": "Sur le raphé ptérygo-mandibulaire",
+          "correct": true,
+          "j": "Il naît de ce raphé tendu du processus ptérygoïde à la face interne de la branche mandibulaire, et gagne la commissure labiale : il permet de souffler."
+        },
+        {
+          "t": "Sur le processus coronoïde de la mandibule",
+          "j": "Le processus coronoïde reçoit le tendon du muscle temporal ; le buccinateur n'a aucune attache coronoïdienne."
+        },
+        {
+          "t": "Dans la fosse ptérygoïdienne du sphénoïde",
+          "j": "C'est l'origine du ptérygoïdien médial, muscle masticateur profond, et non celle d'un muscle peaucier de la joue."
+        }
+      ]
+    },
+    {
+      "q": "Les muscles grand et petit zygomatiques :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Vont de la pommette à la lèvre inférieure, qu'ils abaissent",
+          "j": "L'abaissement de la lèvre inférieure revient à l'abaisseur de la lèvre inférieure, né de la mandibule et non de l'os zygomatique."
+        },
+        {
+          "t": "Vont du maxillaire à l'aile du nez, qu'ils élèvent",
+          "j": "Ce trajet est celui de l'élévateur de la lèvre supérieure et de l'aile du nez, issu de la région canine du maxillaire."
+        },
+        {
+          "t": "Vont de la pommette à la lèvre supérieure, qu'ils relèvent",
+          "correct": true,
+          "j": "Nés de l'os zygomatique, ils se terminent dans la lèvre supérieure et sa commissure, qu'ils élèvent lors du sourire."
+        },
+        {
+          "t": "Entourent la fente labiale et ferment les lèvres",
+          "j": "Cette disposition circulaire est celle de l'orbiculaire de la bouche, véritable sphincter des lèvres."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle dentelé postérieur supérieur prend son origine sur :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Les processus épineux cervicaux inférieurs et thoraciques supérieurs",
+          "correct": true,
+          "j": "Le cours lui donne pour origine les apophyses épineuses cervicales inférieures et thoraciques supérieures, d'où ses fibres gagnent les côtes supérieures."
+        },
+        {
+          "t": "Les processus épineux thoraciques inférieurs et lombaires supérieurs",
+          "j": "C'est l'origine du dentelé postérieur inférieur, dont les fibres descendent vers les côtes basses et dont l'action est expiratrice."
+        },
+        {
+          "t": "Les sommets des processus transverses des vertèbres thoraciques",
+          "j": "Les processus transverses donnent naissance aux muscles élévateurs des côtes, et non aux dentelés postérieurs."
+        },
+        {
+          "t": "Le bord médial de la scapula et la face externe des côtes",
+          "j": "Ces attaches scapulaires sont celles du dentelé antérieur et des rhomboïdes, muscles extrinsèques du membre supérieur."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle dentelé postérieur inférieur s'étend :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Des épineuses thoraciques inférieures et lombaires supérieures aux dernières côtes",
+          "correct": true,
+          "j": "Ce trajet oblique lui permet d'abaisser les côtes inférieures : c'est un expirateur accessoire innervé par les nerfs intercostaux."
+        },
+        {
+          "t": "Des épineuses cervicales inférieures et thoraciques supérieures aux premières côtes",
+          "j": "C'est le trajet du dentelé postérieur SUPÉRIEUR, élévateur des côtes supérieures et donc inspirateur accessoire."
+        },
+        {
+          "t": "Des processus transverses thoraciques au bord supérieur de la côte sous-jacente",
+          "j": "C'est le trajet des muscles élévateurs des côtes, bien plus courts et situés en profondeur contre la colonne."
+        },
+        {
+          "t": "Du bord médial de la scapula aux quatre dernières côtes",
+          "j": "Aucun dentelé postérieur n'atteint la scapula : c'est le dentelé antérieur qui relie la scapula aux côtes."
+        }
+      ]
+    },
+    {
+      "q": "Les muscles élévateurs des côtes se distinguent des muscles intercostaux par :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Leur innervation par le nerf phrénique issu des racines C3 à C5",
+          "j": "Le nerf phrénique n'innerve que le diaphragme ; aucun muscle de la paroi costale ne dépend de lui."
+        },
+        {
+          "t": "Leur innervation par les branches postérieures des nerfs rachidiens",
+          "correct": true,
+          "j": "Les intercostaux dépendent des nerfs intercostaux, alors que les élévateurs des côtes reçoivent les branches postérieures des nerfs rachidiens."
+        },
+        {
+          "t": "Leur action expiratoire par abaissement de la côte sous-jacente",
+          "j": "Les élévateurs des côtes soulèvent au contraire la côte sous-jacente : leur action est inspiratoire."
+        },
+        {
+          "t": "Leur situation dans le plan le plus superficiel de la paroi",
+          "j": "Le cours range au contraire l'élévateur des côtes dans la couche externe du groupe intercostal, au même plan que les intercostaux externes : sa situation n'est donc pas ce qui l'en distingue."
+        }
+      ]
+    },
+    {
+      "q": "Les muscles intercostaux externes s'étendent :",
+      "c": 6,
+      "options": [
+        {
+          "t": "De l'angle costal au sternum, relayés en arrière par une membrane",
+          "j": "C'est la disposition des intercostaux INTERNES, dont le plan est remplacé en arrière de l'angle costal par la membrane intercostale interne."
+        },
+        {
+          "t": "De l'angle costal jusqu'à cinq ou six centimètres du sternum seulement",
+          "j": "Cette étendue, qui s'arrête à quelques centimètres du sternum, correspond à la couche la plus profonde de l'espace et non au plan superficiel."
+        },
+        {
+          "t": "Du tubercule costal aux cartilages costaux, relayés ensuite par une membrane",
+          "correct": true,
+          "j": "Exact : ils vont du tubercule costal aux cartilages costaux, où leur plan est prolongé en avant par la membrane intercostale externe."
+        },
+        {
+          "t": "Sur toute la longueur de l'espace intercostal, du rachis au sternum",
+          "j": "Aucun des trois plans intercostaux n'occupe la totalité de l'espace : chacun est complété par une membrane fibreuse."
+        }
+      ]
+    },
+    {
+      "q": "Les muscles intercostaux intimes :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Occupent la couche la plus profonde en croisant deux ou trois espaces",
+          "j": "Le franchissement de plusieurs espaces caractérise les subcostaux ; les intimes restent dans un seul espace intercostal."
+        },
+        {
+          "t": "Occupent la couche moyenne, du tubercule costal aux cartilages costaux",
+          "j": "La couche moyenne est celle des intercostaux internes ; l'arrêt aux cartilages costaux caractérise un autre plan que celui des intimes."
+        },
+        {
+          "t": "Occupent la couche la plus profonde en arrière du corps du sternum",
+          "j": "La région rétrosternale est occupée par le transverse du thorax, muscle expirateur appliqué contre la face postérieure du sternum."
+        },
+        {
+          "t": "Occupent la couche la plus profonde, de l'angle costal jusque près du sternum",
+          "correct": true,
+          "j": "Profonds par rapport aux intercostaux internes, ils vont de l'angle costal jusqu'à cinq ou six centimètres du sternum, sans occuper tout l'espace."
+        }
+      ]
+    },
+    {
+      "q": "Dans quel plan chemine le paquet vasculo-nerveux de l'espace intercostal ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Entre l'intercostal interne et l'intercostal intime",
+          "correct": true,
+          "j": "Le cours situe le faisceau neurovasculaire, contenant nerf et vaisseaux intercostaux, dans le plan compris entre les intercostaux internes et les intimes."
+        },
+        {
+          "t": "Entre l'intercostal externe et l'intercostal interne",
+          "j": "Ce plan intermédiaire ne contient pas le paquet : celui-ci est plus profond, en dedans de l'intercostal interne."
+        },
+        {
+          "t": "En dedans de l'intercostal intime, contre la plèvre pariétale",
+          "j": "En dedans de l'intercostal intime se trouvent le fascia endothoracique et la plèvre pariétale, mais le paquet reste en dehors de l'intime."
+        },
+        {
+          "t": "En dehors de l'intercostal externe, sous le fascia superficiel",
+          "j": "Le plan superficiel à l'intercostal externe ne contient que des branches cutanées terminales, non le tronc vasculo-nerveux intercostal."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, quelle est la fonction générale des muscles intercostaux ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Assurer l'augmentation du diamètre vertical du thorax",
+          "j": "L'augmentation du diamètre vertical dépend de la descente du dôme diaphragmatique, et non des muscles intercostaux."
+        },
+        {
+          "t": "Maintenir la rigidité des espaces intercostaux pendant la respiration",
+          "correct": true,
+          "j": "Au-delà de leur rôle d'élévation ou d'abaissement costal, les trois plans intercostaux solidarisent les côtes et empêchent l'espace de se déformer à chaque cycle respiratoire."
+        },
+        {
+          "t": "Suspendre la plèvre pariétale à la face interne des côtes",
+          "j": "La plèvre pariétale est fixée à la paroi par le fascia endothoracique, et non par les muscles intercostaux."
+        },
+        {
+          "t": "Protéger le paquet vasculo-nerveux logé dans le sillon costal",
+          "j": "Ce rapport topographique existe, mais la fonction générale énoncée dans le cours est le maintien de la rigidité des espaces, non la protection du paquet."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle transverse du thorax (triangulaire du sternum) se termine :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Sur la face postérieure du corps du sternum et du processus xiphoïde",
+          "j": "Il s'agit là de son ORIGINE, et non de sa terminaison : ses faisceaux divergent ensuite vers les cartilages costaux."
+        },
+        {
+          "t": "Sur la face interne de la deuxième ou troisième côte sous-jacente",
+          "j": "C'est la terminaison des muscles subcostaux, qui croisent deux ou trois espaces en arrière, près de l'angle costal."
+        },
+        {
+          "t": "Sur la face postérieure des deuxième à sixième cartilages costaux",
+          "correct": true,
+          "j": "Né de la face postérieure du corps du sternum et du processus xiphoïde, il se termine sur ces cartilages qu'il abaisse : il est expirateur."
+        },
+        {
+          "t": "Sur le bord supérieur de la côte immédiatement inférieure",
+          "j": "C'est la terminaison des muscles intercostaux, qui restent à l'intérieur d'un seul espace intercostal."
+        }
+      ]
+    },
+    {
+      "q": "À propos du centre tendineux (centre phrénique) du diaphragme, indiquez la réponse CORRECTE :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Il comprend deux folioles symétriques séparées par les piliers",
+          "j": "Le centre phrénique compte trois parties et non deux, et les piliers appartiennent à la portion musculaire lombaire, en arrière de lui."
+        },
+        {
+          "t": "Il est situé plus près de la paroi postérieure que de la paroi antérieure",
+          "j": "C'est l'inverse : le centre tendineux est nettement antérieur dans la coupole diaphragmatique."
+        },
+        {
+          "t": "Il donne insertion aux ligaments arqués médial et latéral",
+          "j": "Les ligaments arqués appartiennent à l'insertion lombaire périphérique du muscle : ils enjambent le psoas et le carré des lombes, loin du centre tendineux."
+        },
+        {
+          "t": "Il comprend trois folioles : une antérieure, une droite et une gauche",
+          "correct": true,
+          "j": "Le cours décrit un tendon central à trois parties, plus proche de la paroi antérieure du thorax, vers lequel convergent toutes les fibres musculaires périphériques."
+        }
+      ]
+    },
+    {
+      "q": "Le ligament arqué latéral du diaphragme enjambe :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Le muscle carré des lombes",
+          "correct": true,
+          "j": "Cette arcade fibreuse, tendue du processus transverse de L1 à la douzième côte, laisse passer le carré des lombes sous le diaphragme."
+        },
+        {
+          "t": "Le muscle grand psoas",
+          "j": "C'est le ligament arqué MÉDIAL qui enjambe le psoas, plus près de la colonne lombaire."
+        },
+        {
+          "t": "L'aorte thoracique descendante",
+          "j": "C'est le ligament arqué MÉDIAN qui passe en avant de l'aorte, délimitant le hiatus aortique entre les deux piliers."
+        },
+        {
+          "t": "Le muscle transverse de l'abdomen",
+          "j": "Le transverse de l'abdomen ne passe pas sous une arcade : ses digitations s'engrènent directement avec la portion costale du diaphragme."
+        }
+      ]
+    },
+    {
+      "q": "La portion costale du diaphragme prend son origine :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Sur les deuxième à sixième cartilages costaux, en arrière du sternum",
+          "j": "Ces cartilages, en situation rétrosternale, appartiennent au groupe profond de la paroi thoracique antérieure ; la portion costale du diaphragme naît du rebord costal inférieur, bien plus bas."
+        },
+        {
+          "t": "Sur les septième à douzième côtes, en s'engrenant avec le transverse de l'abdomen",
+          "correct": true,
+          "j": "Ses digitations naissent du rebord costal et s'intriquent avec celles du transverse de l'abdomen, réalisant la continuité entre paroi thoracique et paroi abdominale."
+        },
+        {
+          "t": "Sur les première et deuxième côtes, en s'engrenant avec les scalènes",
+          "j": "Les deux premières côtes reçoivent les scalènes, inspirateurs accessoires du cou ; le diaphragme naît du rebord costal inférieur."
+        },
+        {
+          "t": "Sur les onzième et douzième côtes uniquement, par deux digitations charnues",
+          "j": "L'origine costale est bien plus étendue : elle intéresse les six dernières côtes, de la septième à la douzième."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE concernant la forme du diaphragme :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Il présente deux coupoles symétriques séparées par le hiatus aortique",
+          "j": "Les deux coupoles ne sont pas symétriques, et c'est le centre tendineux, non le hiatus aortique, qui les sépare en avant."
+        },
+        {
+          "t": "Il forme une cloison plane tendue horizontalement sous les poumons",
+          "j": "Le diaphragme n'est pas plan : sa forme en dôme fait saillie dans le thorax, ce qui explique le gain de volume lors de sa descente."
+        },
+        {
+          "t": "Il présente deux coupoles asymétriques, la droite remontant plus haut que la gauche",
+          "correct": true,
+          "j": "Le cours décrit un dôme à deux voûtes asymétriques ; la coupole droite, refoulée par le foie, monte jusqu'au niveau de la cinquième côte."
+        },
+        {
+          "t": "Il présente deux coupoles asymétriques, la droite culminant au niveau du dixième espace intercostal",
+          "j": "Le côté est exact mais pas le niveau : la planche du cours situe le sommet de la coupole droite en regard de la cinquième côte, bien plus haut."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les muscles extrinsèques du membre supérieur, lesquels s'insèrent sur le squelette thoracique ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Les muscles scalènes antérieur, moyen et postérieur",
+          "j": "Les scalènes s'insèrent bien sur les deux premières côtes, mais ce sont des muscles du COU et non des muscles du membre supérieur."
+        },
+        {
+          "t": "Le transverse du thorax, les subcostaux et les intercostaux",
+          "j": "Ces muscles sont intrinsèques à la paroi thoracique : ils ne relient pas le thorax au membre supérieur."
+        },
+        {
+          "t": "Les muscles dentelés postérieurs supérieur et inférieur",
+          "j": "Ces deux muscles relient les épineuses aux côtes : ce sont des muscles du tronc, étrangers à la ceinture scapulaire."
+        },
+        {
+          "t": "Le grand pectoral, le petit pectoral et le dentelé antérieur",
+          "correct": true,
+          "j": "Le cours les cite comme muscles d'autres régions prenant appui sur le gril costal et le sternum, d'où leur rôle d'inspirateurs accessoires sur point fixe huméral ou scapulaire."
+        }
+      ]
+    },
+    {
+      "q": "Dans la classification du cours, quel muscle est rangé avec les intercostaux externes dans la COUCHE EXTERNE du groupe intercostal ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Le muscle élévateur des côtes",
+          "correct": true,
+          "j": "La diapositive de classification range l'élévateur des côtes avec les intercostaux externes dans la couche externe du groupe intercostal, bien qu'il soit topographiquement profond et paravertébral ; il élève la côte sous-jacente à l'inspiration."
+        },
+        {
+          "t": "Le muscle subcostal",
+          "j": "Les subcostaux appartiennent à la couche interne, sur la face profonde des côtes, où ils croisent deux ou trois espaces."
+        },
+        {
+          "t": "Le muscle intercostal intime",
+          "j": "L'intercostal intime constitue précisément la couche la plus interne de l'espace, en dedans du paquet vasculo-nerveux."
+        },
+        {
+          "t": "Le muscle transverse du thorax",
+          "j": "Le transverse du thorax fait partie du groupe profond, appliqué sur la face postérieure du sternum et des cartilages costaux."
+        }
+      ]
+    },
+    {
+      "q": "Au cours d'une respiration calme, l'expiration :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Est assurée par la contraction du transverse du thorax et des subcostaux",
+          "j": "Ces muscles expirateurs n'entrent en jeu que dans l'expiration ACTIVE ou forcée, pas lors de la ventilation de repos."
+        },
+        {
+          "t": "Est passive et résulte du retour élastique du poumon et du thorax",
+          "correct": true,
+          "j": "En ventilation de repos, aucun muscle ne travaille à l'expiration : le relâchement du diaphragme et le rappel élastique thoraco-pulmonaire suffisent à chasser l'air."
+        },
+        {
+          "t": "Est assurée par la contraction des muscles de la paroi abdominale",
+          "j": "Les abdominaux sont des expirateurs forcés : ils refoulent les viscères vers le haut lors de la toux ou de l'effort, non en respiration calme."
+        },
+        {
+          "t": "Est assurée par la contraction excentrique du diaphragme",
+          "j": "Le diaphragme est inspirateur : il se relâche simplement à l'expiration calme, il ne la produit pas activement."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle grand droit de l'abdomen se termine, en haut, sur :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les cinquième à septième cartilages costaux et l'appendice xiphoïde",
+          "correct": true,
+          "j": "Né de la crête pubienne, il monte verticalement pour se fixer sur les cartilages costaux 5 à 7 et sur l'appendice xiphoïde du sternum."
+        },
+        {
+          "t": "Les huitième à dixième cartilages costaux et le corps du sternum",
+          "j": "Les cartilages 8 à 10 forment le rebord costal où se fixent les muscles larges ; le grand droit ne remonte jamais jusqu'au corps du sternum."
+        },
+        {
+          "t": "Les trois dernières côtes et l'appendice xiphoïde du sternum",
+          "j": "Ce sont les trois dernières côtes qui reçoivent l'oblique interne ; le grand droit se fixe sur des cartilages costaux et non sur des côtes."
+        },
+        {
+          "t": "La face interne des six dernières côtes et la ligne blanche",
+          "j": "La face interne des six dernières côtes est une origine du transverse de l'abdomen, et le grand droit ne se termine pas sur la ligne blanche."
+        }
+      ]
+    },
+    {
+      "q": "L'innervation motrice du muscle grand droit de l'abdomen est assurée par :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les derniers nerfs intercostaux, soit les racines T5 à T12",
+          "correct": true,
+          "j": "Le cours attribue le grand droit aux derniers nerfs intercostaux, c'est-à-dire aux rameaux ventraux des nerfs thoraciques T5 à T12."
+        },
+        {
+          "t": "Les nerfs ilio-inguinal et ilio-hypogastrique du plexus lombaire",
+          "j": "Ces deux branches du plexus lombaire sont destinées aux muscles larges dans leur portion basse ; le grand droit, lui, dépend des derniers nerfs intercostaux T5 à T12."
+        },
+        {
+          "t": "Le nerf sous-costal et les quatre premiers nerfs lombaires",
+          "j": "C'est la description de l'innervation du carré des lombes, muscle du groupe postérieur de la paroi abdominale."
+        },
+        {
+          "t": "Les six premiers nerfs intercostaux, de T1 à T6",
+          "j": "Les nerfs intercostaux hauts sont destinés aux muscles de la cage thoracique ; le grand droit dépend des derniers intercostaux."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les actions suivantes, laquelle correspond au muscle grand droit de l'abdomen ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "La flexion du tronc et la compression des viscères abdominaux",
+          "correct": true,
+          "j": "Muscle vertical tendu du pubis au thorax, il rapproche le sternum du pubis et participe à la presse abdominale ainsi qu'à l'expiration forcée."
+        },
+        {
+          "t": "La rotation controlatérale et l'inclinaison homolatérale du tronc",
+          "j": "C'est le profil d'action de l'oblique externe, rotateur controlatéral du tronc ; le grand droit, nappe verticale, n'a aucune action de rotation."
+        },
+        {
+          "t": "La rotation homolatérale du tronc et l'inclinaison du même côté",
+          "j": "C'est le profil d'action de l'oblique interne, rotateur homolatéral du tronc ; le grand droit ne tourne pas le tronc, il le fléchit."
+        },
+        {
+          "t": "La seule compression de la sangle abdominale, sans action sur le tronc",
+          "j": "Cette formulation ampute le grand droit de son action principale : le cours le donne d'abord comme fléchisseur du tronc, en plus de comprimer les viscères."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle oblique externe de l'abdomen prend son origine sur :",
+      "c": 7,
+      "options": [
+        {
+          "t": "La face externe des huit dernières côtes, de la cinquième à la douzième",
+          "correct": true,
+          "j": "Il naît par digitations de la face externe des côtes 5 à 12, s'interdigitant avec le dentelé antérieur et le grand dorsal."
+        },
+        {
+          "t": "La face interne des six dernières côtes et les transverses lombaires",
+          "j": "Ces insertions profondes sont celles du transverse de l'abdomen, situé sous l'oblique interne, et non du plan le plus superficiel."
+        },
+        {
+          "t": "La crête iliaque et les deux tiers latéraux du ligament inguinal",
+          "j": "C'est l'origine de l'oblique interne ; chez l'oblique externe, crête iliaque et ligament inguinal sont au contraire des terminaisons, son origine étant costale."
+        },
+        {
+          "t": "La crête pubienne et le bord supérieur de la symphyse pubienne",
+          "j": "C'est l'origine du grand droit et du pyramidal, muscles du groupe antérieur ; l'oblique externe se termine, lui, sur le pubis."
+        }
+      ]
+    },
+    {
+      "q": "La direction des fibres charnues des trois muscles larges de l'abdomen est :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Oblique en bas et en dedans pour l'externe, en haut et en dedans pour l'interne, horizontale pour le transverse",
+          "correct": true,
+          "j": "Cette orientation croisée explique tout : l'externe tourne le tronc du côté opposé, l'interne du même côté, et le transverse ne fait que serrer la sangle."
+        },
+        {
+          "t": "Oblique en haut et en dedans pour l'externe, en bas et en dedans pour l'interne, horizontale pour le transverse",
+          "j": "Les deux obliques sont inversés : si l'externe montait en dedans, il serait rotateur homolatéral, alors qu'il tourne le tronc du côté opposé."
+        },
+        {
+          "t": "Horizontale pour l'externe, oblique en bas et en dedans pour l'interne, verticale pour le transverse",
+          "j": "La seule nappe verticale de la paroi abdominale est le grand droit ; aucun des trois muscles larges n'a de nappe verticale."
+        },
+        {
+          "t": "Verticale pour l'externe, oblique en haut et en dehors pour l'interne, oblique en bas pour le transverse",
+          "j": "La seule nappe verticale de la paroi abdominale est le grand droit ; aucun des trois muscles larges n'a de fibres verticales."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle oblique interne de l'abdomen prend son origine sur :",
+      "c": 7,
+      "options": [
+        {
+          "t": "La crête iliaque et le ligament inguinal homolatéral",
+          "correct": true,
+          "j": "Le cours lui donne pour origine la crête iliaque et le ligament inguinal ; ses fibres s'épanouissent ensuite en éventail vers les côtes basses, l'appendice xiphoïde et la ligne blanche."
+        },
+        {
+          "t": "La crête iliaque et les processus transverses lombaires",
+          "j": "Les processus transverses lombaires appartiennent aux origines du transverse de l'abdomen, situé immédiatement sous l'oblique interne."
+        },
+        {
+          "t": "La face externe des huit dernières côtes",
+          "j": "C'est l'origine de l'oblique externe, plan le plus superficiel ; l'oblique interne se termine sur les côtes mais n'en part pas."
+        },
+        {
+          "t": "La crête pubienne et les tubercules pubiens",
+          "j": "C'est l'origine du grand droit et du pyramidal ; l'oblique interne naît bien plus latéralement, sur la crête iliaque."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle oblique interne de l'abdomen se termine sur :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les trois dernières côtes, l'appendice xiphoïde et la ligne blanche",
+          "correct": true,
+          "j": "Ses fibres postérieures gagnent les trois dernières côtes, tandis que son aponévrose antérieure rejoint l'appendice xiphoïde et la ligne blanche."
+        },
+        {
+          "t": "Les cinquième à septième cartilages costaux et l'appendice xiphoïde",
+          "j": "C'est la terminaison du grand droit de l'abdomen ; l'oblique interne atteint des côtes et non les cartilages costaux 5 à 7."
+        },
+        {
+          "t": "La crête iliaque, la ligne blanche et le ligament inguinal",
+          "j": "C'est la terminaison de l'oblique externe, dont le bord inférieur replié constitue justement le ligament inguinal."
+        },
+        {
+          "t": "La ligne blanche et le pubis, sans aucune attache costale",
+          "j": "C'est la terminaison du transverse de l'abdomen ; l'oblique interne possède bien une attache sur les trois dernières côtes."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle transverse de l'abdomen prend son origine sur :",
+      "c": 7,
+      "options": [
+        {
+          "t": "La face interne des six dernières côtes, les transverses lombaires et la crête iliaque",
+          "correct": true,
+          "j": "Plan le plus profond, il naît de la face interne des côtes basses, des transverses lombaires, de la crête iliaque et du ligament inguinal."
+        },
+        {
+          "t": "La crête iliaque, le ligament inguinal et la ligne blanche",
+          "j": "Crête iliaque et ligament inguinal sont bien des origines du transverse, mais la ligne blanche est sa terminaison avec le pubis, et non une origine."
+        },
+        {
+          "t": "La crête iliaque, le ligament inguinal et la face externe des côtes basses",
+          "j": "Crête iliaque et ligament inguinal sont corrects, mais le transverse naît de la face interne des côtes, pas de leur face externe."
+        },
+        {
+          "t": "La douzième côte, les transverses lombaires et la crête iliaque",
+          "j": "C'est la description du carré des lombes, muscle rectangulaire du groupe postérieur tendu entre côte et crête iliaque."
+        }
+      ]
+    },
+    {
+      "q": "L'action principale du muscle transverse de l'abdomen est :",
+      "c": 7,
+      "options": [
+        {
+          "t": "La compression des viscères, qui maintient la pression intra-abdominale",
+          "correct": true,
+          "j": "Ses fibres horizontales ferment la sangle abdominale comme une ceinture : elles pressent les viscères sans mobiliser le tronc."
+        },
+        {
+          "t": "La rotation du tronc du côté opposé, associée à l'inclinaison latérale",
+          "j": "C'est l'action de l'oblique externe, dont les fibres obliques permettent la rotation ; le transverse, horizontal, n'est pas rotateur."
+        },
+        {
+          "t": "La flexion du tronc par rapprochement du pubis et du sternum",
+          "j": "C'est l'action du grand droit, seul muscle vertical de la paroi ; le transverse n'a aucune action de flexion."
+        },
+        {
+          "t": "L'inclinaison de la colonne lombaire du même côté, par abaissement de la côte",
+          "j": "C'est l'action du carré des lombes du groupe postérieur, pas celle du transverse de l'abdomen."
+        }
+      ]
+    },
+    {
+      "q": "Outre les derniers nerfs intercostaux, le muscle transverse de l'abdomen est innervé par :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les nerfs ilio-inguinal et ilio-hypogastrique",
+          "correct": true,
+          "j": "Ces deux branches hautes du plexus lombaire complètent l'innervation des muscles larges dans leur portion basse, près du canal inguinal."
+        },
+        {
+          "t": "Les nerfs génito-fémoral et cutané latéral de la cuisse",
+          "j": "Le nerf génito-fémoral donne des rameaux au scrotum et à la face latérale de la cuisse, sans rameau pour le transverse."
+        },
+        {
+          "t": "Le nerf fémoral et le nerf obturateur",
+          "j": "Ce sont les deux nerfs terminaux du plexus lombaire, destinés au quadriceps et aux adducteurs, non à la paroi abdominale."
+        },
+        {
+          "t": "Le nerf sous-costal et le nerf pudendal",
+          "j": "Le nerf sous-costal n'est autre que le dernier nerf intercostal, déjà cité par l'énoncé, et le nerf pudendal est le nerf du périnée : il n'innerve aucun muscle abdominal."
+        }
+      ]
+    },
+    {
+      "q": "La ligne arquée, ou arcade de Douglas, correspond :",
+      "c": 7,
+      "options": [
+        {
+          "t": "À l'extrémité inférieure du feuillet postérieur de la gaine du droit",
+          "correct": true,
+          "j": "Au-dessous d'elle, la paroi postérieure de la gaine disparaît et le muscle droit ne repose plus que sur le fascia transversalis."
+        },
+        {
+          "t": "À l'extrémité inférieure du feuillet antérieur de la gaine du droit",
+          "j": "Le feuillet antérieur de la gaine ne s'interrompt jamais : il descend jusqu'au pubis, c'est le feuillet postérieur qui s'arrête."
+        },
+        {
+          "t": "Au bord inférieur replié de l'aponévrose de l'oblique externe",
+          "j": "Ce bord replié forme le ligament inguinal, structure tendue entre l'épine iliaque antéro-supérieure et le tubercule pubien."
+        },
+        {
+          "t": "À la ligne médiane d'entrecroisement des aponévroses des muscles larges",
+          "j": "Cet entrecroisement médian constitue la ligne blanche, qui s'étend verticalement de l'appendice xiphoïde au pubis."
+        }
+      ]
+    },
+    {
+      "q": "Au-dessous de la ligne arquée, la gaine du muscle droit de l'abdomen est constituée :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Des aponévroses des trois muscles larges passant toutes en avant du droit",
+          "correct": true,
+          "j": "À ce niveau, les aponévroses de l'oblique externe, de l'oblique interne et du transverse passent toutes en avant : la face postérieure du muscle n'est plus doublée que par le fascia transversalis."
+        },
+        {
+          "t": "Des aponévroses des trois muscles larges passant toutes en arrière du droit",
+          "j": "La disposition est strictement inverse : c'est en avant du muscle que les trois aponévroses se regroupent sous la ligne arquée."
+        },
+        {
+          "t": "De l'oblique externe en avant et du transverse en arrière du muscle droit",
+          "j": "Cette disposition est celle qui existe au-dessus de la ligne arquée, où le transverse participe encore au feuillet postérieur."
+        },
+        {
+          "t": "De l'oblique interne dédoublée entourant complètement le muscle droit",
+          "j": "Le dédoublement de l'aponévrose de l'oblique interne autour du droit n'existe qu'au-dessus de la ligne arquée, et il s'y ajoute l'oblique externe en avant et le transverse en arrière."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle crémaster est formé par des fibres provenant :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Du muscle oblique interne de l'abdomen",
+          "correct": true,
+          "j": "Des fibres de l'oblique interne descendent avec le cordon spermatique vers le testicule et forment une de ses enveloppes."
+        },
+        {
+          "t": "Du muscle oblique externe de l'abdomen",
+          "j": "Son aponévrose fournit au cordon le fascia spermatique externe, mais aucune fibre musculaire ne descend vers le testicule."
+        },
+        {
+          "t": "Du muscle grand droit de l'abdomen",
+          "j": "Muscle vertical contenu dans sa gaine, il reste à distance du canal inguinal et ne fournit aucune fibre au cordon."
+        },
+        {
+          "t": "Du muscle pyramidal de l'abdomen",
+          "j": "Petit muscle triangulaire tendu du pubis à la ligne blanche, il reste dans la gaine du droit et n'accompagne pas le cordon."
+        }
+      ]
+    },
+    {
+      "q": "L'anneau inguinal superficiel est un orifice situé :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Dans l'aponévrose de l'oblique externe, au-dessus du tubercule pubien",
+          "correct": true,
+          "j": "C'est l'ouverture externe du canal inguinal, par laquelle sortent le cordon spermatique chez l'homme et le ligament rond chez la femme."
+        },
+        {
+          "t": "Dans le fascia transversalis, au-dessus du milieu du ligament inguinal",
+          "j": "Cette description est celle de l'anneau inguinal profond, orifice d'entrée du canal et non son ouverture superficielle."
+        },
+        {
+          "t": "Dans l'aponévrose du transverse, en arrière du tubercule pubien",
+          "j": "L'aponévrose du transverse participe à la paroi postérieure de la région inguinale, mais ne porte pas l'orifice superficiel."
+        },
+        {
+          "t": "Dans la ligne blanche, immédiatement au-dessus de la symphyse pubienne",
+          "j": "Les orifices de la ligne blanche sont les sièges des hernies ombilicales et épigastriques, sans rapport avec le canal inguinal."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle carré des lombes est tendu :",
+      "c": 7,
+      "options": [
+        {
+          "t": "De la crête iliaque à la douzième côte et aux transverses lombaires",
+          "correct": true,
+          "j": "Muscle rectangulaire du groupe postérieur, il est tendu entre la partie postérieure de la crête iliaque, la douzième côte et les processus transverses lombaires, par ses faisceaux ilio-costal, ilio-transversaire et costo-transversaire."
+        },
+        {
+          "t": "De la crête iliaque aux trois dernières côtes et à la ligne blanche",
+          "j": "L'attache sur les trois dernières côtes et la ligne blanche appartient à l'oblique interne, muscle du groupe latéral."
+        },
+        {
+          "t": "Des processus transverses lombaires au petit trochanter du fémur",
+          "j": "C'est le trajet du grand psoas, voisin du carré des lombes mais dont l'action principale concerne la hanche."
+        },
+        {
+          "t": "De la face interne des six dernières côtes au pubis et à la ligne blanche",
+          "j": "C'est le trajet du transverse de l'abdomen, muscle du groupe latéral qui ceinture la cavité abdominale."
+        }
+      ]
+    },
+    {
+      "q": "Le nerf pudendal, nerf moteur des muscles du périnée, naît des rameaux antérieurs :",
+      "c": 8,
+      "options": [
+        {
+          "t": "Des deuxième, troisième et quatrième nerfs sacrés",
+          "correct": true,
+          "j": "Le pudendal est constitué par les rameaux ventraux S2, S3 et S4 : c'est le nerf de la continence et de l'ensemble du périnée."
+        },
+        {
+          "t": "Des premier, deuxième et troisième nerfs sacrés",
+          "j": "S1 appartient aux racines du nerf sciatique et du nerf glutéal inférieur ; le pudendal commence en S2 et descend jusqu'à S4."
+        },
+        {
+          "t": "Du cinquième nerf lombaire et des deux premiers sacrés",
+          "j": "L5-S1-S2 est l'origine du nerf de l'obturateur interne et du nerf glutéal inférieur, destinés aux muscles pelvi-trochantériens et non au périnée."
+        },
+        {
+          "t": "Des troisième, quatrième et cinquième nerfs sacrés",
+          "j": "S5 ne participe pas au pudendal mais au plexus coccygien ; c'est la racine supérieure S2 qui manque dans cette proposition."
+        }
+      ]
+    },
+    {
+      "q": "Quels muscles le nerf pudendal innerve-t-il ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le coccygien, l'élévateur de l'anus et le sphincter anal externe",
+          "correct": true,
+          "j": "Le cours attribue au nerf pudendal l'innervation du coccygien, de l'élévateur de l'anus et du sphincter anal externe."
+        },
+        {
+          "t": "L'obturateur interne, le piriforme et le carré fémoral",
+          "j": "Ces muscles pariétaux pelviens et pelvi-trochantériens reçoivent leurs nerfs propres du plexus sacré, non le pudendal."
+        },
+        {
+          "t": "Le transverse de l'abdomen, le carré des lombes et le psoas",
+          "j": "Ces trois muscles appartiennent à la paroi abdominale et dépendent des nerfs intercostaux et du plexus lombaire."
+        },
+        {
+          "t": "Le grand glutéal, le moyen glutéal et le petit glutéal",
+          "j": "Les muscles glutéaux sont innervés par les nerfs glutéaux supérieur et inférieur, issus du plexus sacré."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle coccygien reçoit son innervation :",
+      "c": 8,
+      "options": [
+        {
+          "t": "Des rameaux antérieurs des troisième et quatrième nerfs sacrés",
+          "correct": true,
+          "j": "Le coccygien est innervé par des branches directes issues des rameaux ventraux S3 et S4, au contact de la paroi pelvienne."
+        },
+        {
+          "t": "Des rameaux antérieurs des premier et deuxième nerfs sacrés",
+          "j": "S1-S2 fournissent surtout les nerfs des muscles pelvi-trochantériens et du membre inférieur, non celui du coccygien."
+        },
+        {
+          "t": "Du nerf de l'obturateur interne, issu de L5 et S1",
+          "j": "Ce nerf est destiné à l'obturateur interne, muscle de la paroi pelvienne latérale terminé sur le grand trochanter."
+        },
+        {
+          "t": "Du nerf glutéal inférieur, issu de L5, S1 et S2",
+          "j": "Ce nerf sort du pelvis sous le piriforme pour innerver le grand fessier, et ne donne aucun rameau au plancher pelvien."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle coccygien prend son origine sur :",
+      "c": 8,
+      "options": [
+        {
+          "t": "L'épine ischiatique et la face pelvienne du ligament sacro-épineux",
+          "correct": true,
+          "j": "Il double exactement le ligament sacro-épineux et ferme en arrière le diaphragme pelvien, derrière l'élévateur de l'anus."
+        },
+        {
+          "t": "L'épine ischiatique et la face pelvienne du ligament sacro-tubéreux",
+          "j": "Le ligament sacro-tubéreux va du sacrum à la tubérosité ischiatique et limite le périnée ; il ne double pas le coccygien."
+        },
+        {
+          "t": "L'arc tendineux formé par le fascia de l'obturateur interne",
+          "j": "C'est l'insertion du faisceau ilio-coccygien de l'élévateur de l'anus, et non celle du coccygien, plus postérieur."
+        },
+        {
+          "t": "La face antérieure du sacrum, entre les foramens sacrés antérieurs",
+          "j": "C'est l'origine du piriforme, muscle pariétal qui quitte le pelvis par le grand foramen sciatique vers le fémur."
+        }
+      ]
+    },
+    {
+      "q": "Outre le soutien des viscères, quelle fonction particulière est attribuée au muscle coccygien ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Ramener le coccyx vers l'avant après la défécation",
+          "correct": true,
+          "j": "Tendu de l'épine ischiatique au coccyx, il replace le coccyx en position antérieure après qu'il a été repoussé en arrière."
+        },
+        {
+          "t": "Ancrer latéralement le plancher pelvien sur l'arc tendineux du fascia obturateur",
+          "j": "Cet ancrage sur l'arc tendineux du fascia de l'obturateur interne est l'affaire du faisceau ilio-coccygien de l'élévateur de l'anus."
+        },
+        {
+          "t": "Stabiliser le centre tendineux du périnée",
+          "j": "Ce rôle appartient aux muscles transverses du périnée, superficiel et profond, orientés d'un ischion à l'autre."
+        },
+        {
+          "t": "Comprimer l'urètre membraneux au repos",
+          "j": "C'est le rôle du sphincter urétral externe, muscle strié du plan moyen, extérieur au diaphragme pelvien."
+        }
+      ]
+    },
+    {
+      "q": "Le faisceau pubo-rectal de l'élévateur de l'anus assure plus particulièrement :",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le maintien de l'angle entre le rectum et le canal anal",
+          "correct": true,
+          "j": "En formant une sangle postérieure autour de la jonction ano-rectale, il crée le cap anal et renforce le sphincter anal externe."
+        },
+        {
+          "t": "L'ancrage du plancher pelvien sur l'arc tendineux du fascia",
+          "j": "Cet ancrage latéral sur l'arc tendineux de l'obturateur interne est le fait du faisceau ilio-coccygien, plus postérieur."
+        },
+        {
+          "t": "La fermeture du hiatus uro-génital autour du vagin",
+          "j": "C'est le rôle de sphincter vaginal attribué chez la femme à l'élévateur de l'anus dans son ensemble, et non spécifiquement au faisceau pubo-rectal."
+        },
+        {
+          "t": "La fermeture volontaire de l'urètre membraneux",
+          "j": "Cette fermeture est assurée par le sphincter urétral externe, situé dans le plan moyen et non dans le diaphragme pelvien."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle ischio-caverneux s'étend :",
+      "c": 8,
+      "options": [
+        {
+          "t": "De la tubérosité et de la branche ischiatiques au pilier du pénis ou du clitoris",
+          "correct": true,
+          "j": "Il recouvre le pilier (corps caverneux) et le comprime pour chasser le sang vers le corps de l'organe érectile."
+        },
+        {
+          "t": "De la tubérosité et de la branche ischiatiques au centre tendineux du périnée",
+          "j": "C'est le trajet du transverse superficiel du périnée, qui a la même origine mais converge vers la ligne médiane."
+        },
+        {
+          "t": "Du centre tendineux du périnée au bulbe du vestibule ou au corps spongieux",
+          "j": "C'est le trajet du bulbo-spongieux, qui engaine la partie médiane des organes érectiles et non leurs piliers latéraux."
+        },
+        {
+          "t": "De la branche ischio-pubienne à la ligne médiane, en avant de l'urètre",
+          "j": "C'est le trajet du compresseur de l'urètre, muscle du sac périnéal profond propre à la femme."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle transverse superficiel du périnée a pour fonction principale :",
+      "c": 8,
+      "options": [
+        {
+          "t": "Stabiliser le centre tendineux du périnée à l'effort",
+          "correct": true,
+          "j": "Tendu de chaque ischion vers la ligne médiane, il fixe transversalement le corps périnéal, carrefour des muscles du périnée."
+        },
+        {
+          "t": "Chasser le sang des piliers vers le corps érectile",
+          "j": "C'est la fonction de l'ischio-caverneux, qui comprime le pilier du pénis ou du clitoris appliqué sur la branche ischiatique."
+        },
+        {
+          "t": "Comprimer volontairement l'urètre membraneux",
+          "j": "C'est le rôle du sphincter urétral externe, muscle strié volontaire du sac périnéal profond."
+        },
+        {
+          "t": "Soutenir les viscères et fermer le détroit inférieur",
+          "j": "C'est la fonction d'ensemble du diaphragme pelvien, formé de l'élévateur de l'anus et du coccygien, situé bien plus haut."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle transverse profond du périnée s'étend :",
+      "c": 8,
+      "options": [
+        {
+          "t": "De la face médiale de la branche ischiatique au corps périnéal",
+          "correct": true,
+          "j": "Muscle du sac périnéal profond, il rejoint transversalement son homologue sur le corps périnéal, dont il stabilise la position."
+        },
+        {
+          "t": "De l'épine ischiatique à l'arc tendineux du fascia obturateur",
+          "j": "C'est la ligne d'origine de l'élévateur de l'anus sur la paroi pelvienne, et non celle d'un muscle du sac périnéal profond."
+        },
+        {
+          "t": "Du corps périnéal au bulbe du vestibule et au corps spongieux",
+          "j": "C'est le trajet du bulbo-spongieux, également superficiel, qui entoure le bulbe et participe aux fonctions érectiles."
+        },
+        {
+          "t": "De l'épine ischiatique au bord latéral du coccyx",
+          "j": "C'est le trajet du muscle coccygien, qui appartient au diaphragme pelvien et non au diaphragme uro-génital."
+        }
+      ]
+    },
+    {
+      "q": "À propos du muscle sphincter externe de l'urètre, indiquez la réponse CORRECTE :",
+      "c": 8,
+      "options": [
+        {
+          "t": "Il entoure la partie membraneuse de l'urètre et se relâche pendant la miction",
+          "correct": true,
+          "j": "Muscle strié volontaire du sac périnéal profond, né des branches inférieures du pubis, il comprime l'urètre membraneux et ne se relâche qu'à la miction."
+        },
+        {
+          "t": "Il entoure la partie prostatique de l'urètre et se contracte pendant la miction",
+          "j": "L'urètre prostatique est entouré du sphincter urétral interne, lisse et involontaire, situé au col de la vessie ; le sphincter externe est strié et volontaire."
+        },
+        {
+          "t": "Il entoure le canal anal et se relâche pendant la défécation",
+          "j": "Cette description est celle du sphincter externe de l'anus, muscle du triangle anal et non du triangle uro-génital."
+        },
+        {
+          "t": "Il entoure le vagin depuis l'ischion et se contracte à l'effort",
+          "j": "Cette description est celle des muscles accessoires féminins du sac périnéal profond (compresseur de l'urètre et sphincter urétro-vaginal), absents chez l'homme."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les muscles du sac périnéal profond, lesquels n'existent que chez la femme ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le compresseur de l'urètre et le sphincter urétro-vaginal",
+          "correct": true,
+          "j": "Ces deux muscles accessoires renforcent la fermeture de l'urètre chez la femme et n'ont pas d'équivalent masculin."
+        },
+        {
+          "t": "Le sphincter urétral externe et le transverse profond du périnée",
+          "j": "Ces deux muscles constituent le sac périnéal profond dans les deux sexes : ils existent aussi bien chez l'homme."
+        },
+        {
+          "t": "Le bulbo-spongieux et le transverse superficiel du périnée",
+          "j": "Ces deux muscles existent dans les deux sexes et appartiennent au plan superficiel, non au sac périnéal profond."
+        },
+        {
+          "t": "Le pubo-coccygien et l'ilio-coccygien de l'élévateur de l'anus",
+          "j": "Ces deux faisceaux de l'élévateur de l'anus sont présents chez l'homme comme chez la femme, dans le plan profond."
+        }
+      ]
+    },
+    {
+      "q": "Le périnée a la forme d'un losange dont le pourtour est limité par :",
+      "c": 8,
+      "options": [
+        {
+          "t": "La symphyse pubienne, les tubérosités ischiatiques, les ligaments sacro-tubéreux et le sacrum",
+          "correct": true,
+          "j": "Ces repères constituent le détroit inférieur du bassin, cadre ostéo-ligamentaire que le périnée vient fermer en bas."
+        },
+        {
+          "t": "Le promontoire, les lignes arquées, les éminences ilio-pubiennes et la symphyse pubienne",
+          "j": "Ces repères délimitent le détroit SUPÉRIEUR, limite entre cavité abdominale et cavité pelvienne, et non le périnée."
+        },
+        {
+          "t": "Les branches ischio-pubiennes, les épines ischiatiques et les ligaments sacro-épineux",
+          "j": "Épines ischiatiques et ligaments sacro-épineux sont des repères du diaphragme pelvien, situés au-dessus du périnée."
+        },
+        {
+          "t": "Les crêtes iliaques, les épines iliaques antéro-supérieures et le ligament inguinal",
+          "j": "Ces repères appartiennent à la paroi abdominale antéro-latérale et sont très au-dessus du plancher pelvien."
+        }
+      ]
+    },
+    {
+      "q": "Que contient le triangle uro-génital du périnée ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Les orifices urinaire et génital et l'insertion des organes génitaux externes",
+          "correct": true,
+          "j": "Le cours lui attribue les orifices de l'appareil urinaire et de l'appareil reproducteur, ainsi que l'insertion des organes génitaux externes."
+        },
+        {
+          "t": "L'anus, le sphincter anal externe et les fosses ischio-anales latérales",
+          "j": "C'est le contenu du triangle anal, l'autre moitié du losange périnéal, située en arrière de la ligne bi-ischiatique."
+        },
+        {
+          "t": "Le canal anal, le corps périnéal et le ligament ano-coccygien médian",
+          "j": "Le corps périnéal est à la jonction des deux triangles, et le canal anal comme le ligament ano-coccygien appartiennent au triangle anal."
+        },
+        {
+          "t": "Le diaphragme pelvien et l'arc tendineux du fascia de l'obturateur",
+          "j": "Ces deux structures sont au-dessus du périnée : elles forment le plancher pelvien, pas le contenu d'un de ses triangles."
+        }
+      ]
+    },
+    {
+      "q": "La membrane périnéale correspond :",
+      "c": 8,
+      "options": [
+        {
+          "t": "À l'aponévrose inférieure, triangulaire, du diaphragme uro-génital",
+          "correct": true,
+          "j": "Elle recouvre par en bas les muscles du plan profond du périnée et sert d'ancrage aux organes érectiles."
+        },
+        {
+          "t": "À l'aponévrose supérieure du diaphragme pelvien, de forme concave",
+          "j": "La face supérieure du diaphragme pelvien est recouverte par le fascia pelvien pariétal, en rapport avec les viscères."
+        },
+        {
+          "t": "Au feuillet adipeux superficiel du fascia périnéal sous-cutané",
+          "j": "Ce feuillet graisseux est la couche la plus externe du fascia périnéal superficiel, située sous la peau."
+        },
+        {
+          "t": "À l'épaississement du fascia obturateur portant l'élévateur de l'anus",
+          "j": "Cet épaississement est l'arc tendineux de l'élévateur de l'anus, repère latéral du diaphragme pelvien."
+        }
+      ]
+    },
+    {
+      "q": "Chez l'homme, le muscle bulbo-spongieux assure notamment :",
+      "c": 8,
+      "options": [
+        {
+          "t": "L'évacuation de l'urine résiduelle de l'urètre après la miction",
+          "correct": true,
+          "j": "En comprimant le bulbe du corps spongieux, il vide l'urètre de l'urine résiduelle et participe à l'émission pulsatile du sperme."
+        },
+        {
+          "t": "La fermeture volontaire de l'urètre membraneux pendant l'effort",
+          "j": "C'est le rôle du sphincter urétral externe, situé plus haut, dans le sac périnéal profond entourant l'urètre membraneux."
+        },
+        {
+          "t": "La stabilisation du centre tendineux du périnée à la marche",
+          "j": "C'est le rôle des muscles transverses du périnée, superficiel et profond, orientés transversalement vers le corps périnéal."
+        },
+        {
+          "t": "Le maintien de l'angle ano-rectal lors de la retenue des selles",
+          "j": "C'est le rôle du faisceau pubo-rectal de l'élévateur de l'anus, muscle du diaphragme pelvien et non du plan superficiel."
+        }
+      ]
+    },
+    {
+      "q": "Les trois pièces osseuses qui constituent l'os coxal se rejoignent au niveau :",
+      "c": 9,
+      "options": [
+        {
+          "t": "De la cavité acétabulaire",
+          "correct": true,
+          "j": "L'ilium, l'ischium et le pubis convergent et fusionnent au niveau de l'acétabulum, la cavité qui reçoit la tête fémorale."
+        },
+        {
+          "t": "De la symphyse pubienne",
+          "j": "La symphyse pubienne unit en avant les deux os coxaux l'un à l'autre ; elle ne réunit pas les trois pièces d'un même coxal."
+        },
+        {
+          "t": "Du foramen obturé",
+          "j": "Le foramen obturé n'est qu'un orifice délimité par les branches du pubis et de l'ischion, sans participation de l'ilium."
+        },
+        {
+          "t": "De la surface auriculaire",
+          "j": "La surface auriculaire est la zone articulaire du coxal avec le sacrum, sur sa face interne, et non un point de fusion."
+        }
+      ]
+    },
+    {
+      "q": "Sur la face interne de l'os coxal, quelle structure en occupe la partie la plus antérieure et la plus médiale ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "La crête pectinéale",
+          "correct": true,
+          "j": "Le cours la décrit comme la partie la plus antérieure et la plus médiale de la face interne, sur la branche supérieure du pubis."
+        },
+        {
+          "t": "La fosse iliaque",
+          "j": "La fosse iliaque est la large dépression concave de la face interne de l'ilium, située au-dessus et en arrière de la crête pectinéale."
+        },
+        {
+          "t": "La surface auriculaire",
+          "j": "La surface auriculaire occupe la partie postérieure de la face interne : c'est elle qui s'articule avec le sacrum."
+        },
+        {
+          "t": "La tubérosité iliaque",
+          "j": "La tubérosité iliaque est une rugosité postérieure à la surface auriculaire, destinée aux ligaments sacro-iliaques."
+        }
+      ]
+    },
+    {
+      "q": "Le bord supérieur de l'os coxal, appelé crête iliaque, est limité à ses deux extrémités par :",
+      "c": 9,
+      "options": [
+        {
+          "t": "L'épine iliaque antéro-supérieure et l'épine iliaque postéro-supérieure",
+          "correct": true,
+          "j": "La crête iliaque court d'avant en arrière entre ces deux épines, qui en marquent respectivement l'extrémité antérieure et postérieure."
+        },
+        {
+          "t": "L'épine iliaque antéro-inférieure et l'épine iliaque postéro-inférieure",
+          "j": "Ces deux épines sont situées plus bas, sous les épines supérieures, et appartiennent aux bords antérieur et postérieur."
+        },
+        {
+          "t": "L'épine iliaque antéro-supérieure et l'épine ischiatique",
+          "j": "L'épine ischiatique appartient au bord postérieur, entre la grande et la petite échancrure ischiatique."
+        },
+        {
+          "t": "L'épine iliaque postéro-supérieure et la tubérosité iliaque",
+          "j": "La tubérosité iliaque est un relief de la face interne destiné aux ligaments, et non une extrémité de la crête."
+        }
+      ]
+    },
+    {
+      "q": "Parmi ces reliefs, lequel n'appartient PAS au bord postérieur de l'os coxal ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "La fosse iliaque interne",
+          "correct": true,
+          "j": "La fosse iliaque est creusée sur la FACE INTERNE de l'ilium, où elle donne insertion au muscle iliaque : elle n'appartient pas au bord postérieur."
+        },
+        {
+          "t": "L'épine ischiatique",
+          "j": "Elle fait bien partie du bord postérieur, où elle sépare la grande de la petite échancrure ischiatique."
+        },
+        {
+          "t": "La grande échancrure ischiatique",
+          "j": "Elle creuse le bord postérieur, entre l'épine iliaque postéro-inférieure et l'épine ischiatique."
+        },
+        {
+          "t": "La tubérosité ischiatique",
+          "j": "Elle termine le bord postérieur vers le bas, en dessous de la petite échancrure ischiatique."
+        }
+      ]
+    },
+    {
+      "q": "Le corps (diaphyse) du fémur, de section triangulaire, est décrit comme comportant :",
+      "c": 9,
+      "options": [
+        {
+          "t": "Trois faces réunies par trois bords, dont la ligne âpre en arrière",
+          "correct": true,
+          "j": "Faces antérieure, latérale et médiale, réunies par les bords médial, latéral et par la ligne âpre, qui occupe le bord postérieur."
+        },
+        {
+          "t": "Deux faces réunies par deux bords, dont la ligne âpre en avant",
+          "j": "Le corps du fémur est triangulaire et non aplati : il a trois faces, et la ligne âpre est postérieure, jamais antérieure."
+        },
+        {
+          "t": "Quatre faces réunies par quatre bords, dont la ligne âpre en dedans",
+          "j": "Une section quadrangulaire ne correspond pas au fémur ; de plus la ligne âpre est postérieure et non médiale."
+        },
+        {
+          "t": "Trois faces réunies par deux bords, dont la ligne âpre en dehors",
+          "j": "Trois faces supposent nécessairement trois bords, et la ligne âpre est postérieure et non latérale."
+        }
+      ]
+    },
+    {
+      "q": "En bas, la bifurcation de la ligne âpre du fémur se poursuit par :",
+      "c": 9,
+      "options": [
+        {
+          "t": "Les lignes supracondyliennes médiale et latérale",
+          "correct": true,
+          "j": "Les deux branches divergentes de la bifurcation inférieure descendent vers les condyles médial et latéral du fémur."
+        },
+        {
+          "t": "La ligne pectinée et la tubérosité glutéale",
+          "j": "Ces deux reliefs sont des branches de la trifurcation SUPÉRIEURE de la ligne âpre, situées en haut du corps du fémur."
+        },
+        {
+          "t": "La crête du vaste médial et la ligne pectinée",
+          "j": "Ce sont également deux branches de la trifurcation supérieure, et non de la bifurcation inférieure."
+        },
+        {
+          "t": "La crête intertrochantérienne et la fosse trochantérienne",
+          "j": "Ces deux reliefs appartiennent à l'extrémité proximale du fémur et n'ont aucun rapport avec la ligne âpre."
+        }
+      ]
+    },
+    {
+      "q": "Sur le col du fémur, où s'insère la capsule de l'articulation coxo-fémorale ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "En avant sur la ligne intertrochantérienne, en arrière sur la crête intertrochantérienne",
+          "correct": true,
+          "j": "Le cours décrit cette double insertion sur la face latérale du col : ligne intertrochantérienne en avant, crête intertrochantérienne en arrière."
+        },
+        {
+          "t": "En avant sur la crête intertrochantérienne, en arrière sur la ligne intertrochantérienne",
+          "j": "Les deux repères sont inversés : la crête est postérieure et la ligne antérieure, jamais le contraire."
+        },
+        {
+          "t": "En avant et en arrière sur le pourtour du petit trochanter, sous le col fémoral",
+          "j": "Le petit trochanter est le site d'insertion du tendon de l'iliopsoas et reste en dehors de l'insertion capsulaire."
+        },
+        {
+          "t": "En avant et en arrière sur le pourtour de la fovéa, à la base de la tête fémorale",
+          "j": "La fovéa est intra-articulaire et donne attache au ligament de la tête fémorale, pas à la capsule."
+        }
+      ]
+    },
+    {
+      "q": "Concernant la face axiale (externe) du labrum acétabulaire, quelle proposition est exacte ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Elle est recouverte de cartilage et entre en contact avec la tête du fémur",
+          "correct": true,
+          "j": "Le cours précise que la face axiale du labrum est revêtue de cartilage et répond directement à la tête fémorale."
+        },
+        {
+          "t": "Elle adhère à la capsule articulaire qu'elle prolonge vers le col fémoral",
+          "j": "C'est la face périphérique du labrum qui donne attache à la capsule, et non sa face axiale."
+        },
+        {
+          "t": "Elle s'insère sur le rebord osseux de l'acétabulum qu'elle vient coiffer",
+          "j": "Cette insertion osseuse est celle de la face profonde du labrum, appliquée sur le rebord acétabulaire."
+        },
+        {
+          "t": "Elle tapisse le fond de la fosse acétabulaire sous le coussinet graisseux",
+          "j": "Le fond de la fosse acétabulaire est occupé par de la graisse fibroélastique, où le labrum ne pénètre pas."
+        }
+      ]
+    },
+    {
+      "q": "Entre les ligaments ilio-fémoral et pubo-fémoral, la capsule présente fréquemment une perforation qui fait communiquer la synoviale avec :",
+      "c": 9,
+      "options": [
+        {
+          "t": "La bourse séreuse du tendon du muscle psoas-iliaque",
+          "correct": true,
+          "j": "Cette perforation antérieure met la cavité articulaire en communication avec la bourse du tendon de l'iliopsoas, qui glisse juste en avant d'elle."
+        },
+        {
+          "t": "La bourse séreuse du tendon de l'obturateur interne",
+          "j": "L'obturateur interne glisse sur la petite échancrure ischiatique, en arrière de l'articulation, loin de l'intervalle entre ces deux ligaments."
+        },
+        {
+          "t": "La bourse séreuse trochantérienne du grand glutéal",
+          "j": "Cette bourse est latérale, interposée entre le grand trochanter et le tendon du grand glutéal, sans communication décrite."
+        },
+        {
+          "t": "La bourse séreuse ischiatique du grand glutéal",
+          "j": "Les bourses de la région ischiatique sont postéro-inférieures et n'entrent pas en rapport avec l'intervalle inter-ligamentaire antérieur."
+        }
+      ]
+    },
+    {
+      "q": "Les ligaments ilio-fémoral et pubo-fémoral dessinent ensemble un Z sur la face antérieure de la hanche. Quel en est le rôle ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Fermer l'articulation en avant et s'opposer aux luxations antérieures",
+          "correct": true,
+          "j": "Ce dispositif en Z verrouille la face antérieure de la capsule et empêche la tête fémorale de s'échapper vers l'avant."
+        },
+        {
+          "t": "Fermer l'articulation en arrière et s'opposer aux luxations postérieures",
+          "j": "Les deux ligaments sont antérieurs : la paroi postérieure est renforcée par le ligament ischio-fémoral."
+        },
+        {
+          "t": "Amortir les contraintes en répartissant la pression sur la tête fémorale",
+          "j": "L'amortissement des pressions revient au coussinet graisseux de la fosse acétabulaire, pas aux ligaments capsulaires."
+        },
+        {
+          "t": "Approfondir l'acétabulum en augmentant la surface de contact articulaire",
+          "j": "L'approfondissement de la cavité est assuré par le labrum et le ligament transverse, et non par ces renforts capsulaires."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, en combien de parties se divise le ligament ischio-fémoral, et lesquelles ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Trois : un segment supérieur, un segment latéral inférieur et un segment médial inférieur",
+          "correct": true,
+          "j": "Le ligament ischio-fémoral, postérieur, s'enroule autour de l'articulation et se décompose en ces trois segments."
+        },
+        {
+          "t": "Trois : un segment antérieur, un segment moyen circulaire et un segment postérieur",
+          "j": "Cette division ne correspond à aucun ligament de la hanche ; les fibres circulaires appartiennent à la capsule, pas à l'ischio-fémoral."
+        },
+        {
+          "t": "Deux : un faisceau supérieur horizontal et un faisceau inférieur vertical en Y",
+          "j": "Cette description en Y est celle du ligament ilio-fémoral, le plus solide de l'organisme, situé en avant."
+        },
+        {
+          "t": "Deux : un faisceau pubien antérieur et un faisceau ischiatique postérieur",
+          "j": "Un faisceau pubien appartiendrait au ligament pubo-fémoral ; l'ischio-fémoral naît uniquement en arrière."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours d'anatomie de la hanche, quelle est l'amplitude de la flexion de hanche lorsque le genou est fléchi ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "120°",
+          "correct": true,
+          "j": "Genou fléchi, les ischio-jambiers sont détendus et la flexion de hanche atteint 120° selon le cours."
+        },
+        {
+          "t": "90°",
+          "j": "90° est l'amplitude de flexion de hanche genou tendu, plafonnée par la mise en tension des ischio-jambiers ; genou fléchi, ils se détendent."
+        },
+        {
+          "t": "145°",
+          "j": "Cette valeur correspond à l'amplitude de flexion du genou, et non à celle de la hanche."
+        },
+        {
+          "t": "60°",
+          "j": "60° est l'amplitude de la rotation latérale de hanche donnée par le cours, pas celle de la flexion."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure ligamentaire contribue à limiter la FLEXION de l'articulation de la hanche ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Les parties inféro-latérale et inféro-médiale du ligament ischio-fémoral",
+          "correct": true,
+          "j": "Le cours attribue la restriction de la flexion de hanche aux segments inféro-latéral et inféro-médial du ligament ischio-fémoral."
+        },
+        {
+          "t": "Les fibres supérieures du ligament ischio-fémoral et le ligament transverse",
+          "j": "Les fibres supérieures de l'ischio-fémoral freinent la rotation médiale, et le ligament transverse ferme simplement l'échancrure acétabulaire."
+        },
+        {
+          "t": "Le faisceau supérieur du ligament ilio-fémoral et le ligament de la tête",
+          "j": "Le faisceau supérieur de l'ilio-fémoral est un renfort antérieur, mis en tension par la rotation latérale ; le ligament de la tête fémorale n'est, chez l'adulte, qu'un stabilisateur secondaire. Aucun des deux n'est cité comme frein de la flexion."
+        },
+        {
+          "t": "Le ligament pubo-fémoral et la partie profonde du labrum acétabulaire",
+          "j": "Le pubo-fémoral intervient surtout dans l'abduction et la rotation latérale, et le labrum n'a pas de rôle de frein ligamentaire."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure ligamentaire limite le mouvement d'ADDUCTION de la hanche ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Le faisceau supérieur du ligament ilio-fémoral",
+          "correct": true,
+          "j": "Le cours attribue la contrainte ligamentaire de l'adduction au seul faisceau supérieur du ligament ilio-fémoral."
+        },
+        {
+          "t": "Le faisceau inférieur du ligament pubo-fémoral",
+          "j": "Le ligament pubo-fémoral se tend au contraire dans l'abduction, dont il est le principal frein ligamentaire."
+        },
+        {
+          "t": "Le segment supérieur du ligament ischio-fémoral",
+          "j": "Les fibres supérieures de l'ischio-fémoral sont mises en tension par la rotation médiale, et non par l'adduction."
+        },
+        {
+          "t": "Le faisceau postérieur du ligament de la tête fémorale",
+          "j": "Le ligament de la tête fémorale, intra-articulaire, n'est qu'un stabilisateur accessoire sans rôle de frein d'adduction."
+        }
+      ]
+    },
+    {
+      "q": "Autour de quel axe s'effectuent l'abduction et l'adduction de la hanche ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Un axe sagittal passant par le centre de la tête fémorale",
+          "correct": true,
+          "j": "Les mouvements frontaux d'abduction-adduction se font autour d'un axe sagittal (antéro-postérieur) centré sur la tête fémorale."
+        },
+        {
+          "t": "Un axe transversal passant par le centre de la tête fémorale",
+          "j": "L'axe transversal est celui de la flexion-extension, mouvements qui se déroulent dans le plan sagittal."
+        },
+        {
+          "t": "Un axe longitudinal passant par le centre de la tête fémorale",
+          "j": "L'axe longitudinal porte les rotations médiale et latérale de la hanche, et non l'abduction-adduction."
+        },
+        {
+          "t": "Un axe oblique passant par le col et le grand trochanter",
+          "j": "Aucun des trois mouvements de la hanche n'est décrit autour d'un axe oblique cervico-trochantérien."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, quels muscles assurent l'EXTENSION de la hanche ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Le grand glutéal, les ischio-jambiers et le faisceau condylien du grand adducteur",
+          "correct": true,
+          "j": "Ces trois groupes postérieurs sont cités comme les moteurs de l'extension."
+        },
+        {
+          "t": "Le grand glutéal, le moyen glutéal et le faisceau pubien du grand adducteur",
+          "j": "Le moyen glutéal est avant tout abducteur et stabilisateur du bassin, et le faisceau pubien du grand adducteur est adducteur."
+        },
+        {
+          "t": "Le psoas-iliaque, les ischio-jambiers et le faisceau supérieur du petit glutéal",
+          "j": "Le psoas-iliaque est le fléchisseur principal de la hanche : il s'oppose à l'extension au lieu de la produire."
+        },
+        {
+          "t": "Le piriforme, le carré fémoral et le faisceau condylien du grand adducteur",
+          "j": "Le piriforme et le carré fémoral sont des pelvi-trochantériens rotateurs latéraux, non des extenseurs principaux."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle tenseur du fascia lata s'étend :",
+      "c": 10,
+      "options": [
+        {
+          "t": "De l'épine iliaque antéro-supérieure au condyle latéral du tibia par le tractus ilio-tibial",
+          "correct": true,
+          "j": "Son origine est l'épine iliaque antéro-supérieure et sa force est transmise au tibia par le tractus ilio-tibial."
+        },
+        {
+          "t": "De l'épine iliaque antéro-inférieure au condyle latéral du fémur par le tractus ilio-tibial",
+          "j": "L'épine iliaque antéro-INFÉRIEURE donne insertion au droit fémoral et au ligament ilio-fémoral, et le tractus dépasse le fémur jusqu'au tibia."
+        },
+        {
+          "t": "De la crête iliaque au grand trochanter du fémur par un tendon court et épais",
+          "j": "Cette description correspond davantage aux glutéaux moyen et petit, qui se terminent sur le grand trochanter."
+        },
+        {
+          "t": "De l'épine iliaque antéro-supérieure au petit trochanter par un tendon commun",
+          "j": "Le petit trochanter reçoit l'iliopsoas : le tenseur du fascia lata descend au contraire jusqu'au tibia."
+        }
+      ]
+    },
+    {
+      "q": "Comment se terminent les fibres du muscle grand glutéal ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Les fibres profondes sur la crête du grand glutéal, les fibres superficielles sur le tractus ilio-tibial",
+          "correct": true,
+          "j": "Le cours sépare bien un plan profond osseux, sur la branche latérale de la trifurcation de la ligne âpre, et un plan superficiel fascial."
+        },
+        {
+          "t": "Les fibres profondes sur le tractus ilio-tibial, les fibres superficielles sur la crête du grand glutéal",
+          "j": "Les deux plans sont intervertis : l'insertion osseuse est profonde et l'insertion fasciale superficielle."
+        },
+        {
+          "t": "Les fibres profondes sur la face latérale du grand trochanter, les fibres superficielles sur le fascia lata",
+          "j": "La face latérale du grand trochanter reçoit le moyen glutéal, et non les fibres profondes du grand glutéal."
+        },
+        {
+          "t": "Les fibres profondes sur la crête intertrochantérienne, les fibres superficielles sur la crête iliaque",
+          "j": "La crête intertrochantérienne reçoit le carré fémoral, et la crête iliaque est une origine, jamais une terminaison."
+        }
+      ]
+    },
+    {
+      "q": "Les muscles jumeaux supérieur et inférieur prennent respectivement leur origine sur :",
+      "c": 10,
+      "options": [
+        {
+          "t": "L'épine ischiatique et la tubérosité ischiatique",
+          "correct": true,
+          "j": "Le jumeau supérieur naît de l'épine ischiatique, le jumeau inférieur de la tubérosité ischiatique, de part et d'autre de l'obturateur interne."
+        },
+        {
+          "t": "La tubérosité ischiatique et l'épine ischiatique",
+          "j": "Les deux repères sont inversés : c'est le jumeau supérieur qui occupe l'épine, plus haut située."
+        },
+        {
+          "t": "La face antérieure du sacrum et l'épine ischiatique",
+          "j": "La face antérieure du sacrum est l'origine du piriforme, qui sort par la grande échancrure ischiatique."
+        },
+        {
+          "t": "La membrane obturatrice et la tubérosité ischiatique",
+          "j": "La membrane obturatrice donne naissance aux muscles obturateurs interne et externe, pas aux jumeaux."
+        }
+      ]
+    },
+    {
+      "q": "Presque tous les muscles de la hanche dépendent du plexus sacré. Quels sont les deux muscles qui font exception et reçoivent leur innervation du plexus lombaire ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "L'iliopsoas et l'obturateur externe",
+          "correct": true,
+          "j": "Le cours les cite explicitement comme les deux seules exceptions : l'iliopsoas par le plexus lombaire et l'obturateur externe par le nerf obturateur."
+        },
+        {
+          "t": "L'iliopsoas et l'obturateur interne",
+          "j": "L'obturateur interne est innervé par un rameau du plexus sacré, le nerf de l'obturateur interne, malgré son nom voisin."
+        },
+        {
+          "t": "Le piriforme et l'obturateur externe",
+          "j": "Le piriforme reçoit une branche directe du plexus sacré, comme la plupart des pelvi-trochantériens."
+        },
+        {
+          "t": "Le carré fémoral et l'iliopsoas",
+          "j": "Le carré fémoral dépend du nerf du carré fémoral, branche du plexus sacré, et non du plexus lombaire."
+        }
+      ]
+    },
+    {
+      "q": "Quels muscles sont innervés par le nerf glutéal supérieur ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Le moyen glutéal, le petit glutéal et le tenseur du fascia lata",
+          "correct": true,
+          "j": "Ces trois abducteurs de hanche forment le territoire moteur du nerf glutéal supérieur (L4-S1)."
+        },
+        {
+          "t": "Le grand glutéal, le moyen glutéal et le petit glutéal",
+          "j": "Le grand glutéal échappe à ce nerf : il est innervé par le nerf glutéal INFÉRIEUR (L5-S2)."
+        },
+        {
+          "t": "Le moyen glutéal, le piriforme et le tenseur du fascia lata",
+          "j": "Le piriforme reçoit un rameau propre du plexus sacré et ne fait pas partie de ce territoire."
+        },
+        {
+          "t": "Le petit glutéal, l'obturateur interne et le jumeau supérieur",
+          "j": "L'obturateur interne et le jumeau supérieur dépendent du nerf de l'obturateur interne, issu du plexus sacré."
+        }
+      ]
+    },
+    {
+      "q": "Outre la flexion de hanche, quelle action l'iliopsoas exerce-t-il sur le bassin et le rachis lombaire ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Une antéversion du bassin accompagnée d'une hyperlordose lombaire",
+          "correct": true,
+          "j": "Prenant appui sur le fémur, l'iliopsoas bascule le bassin en avant et accentue la lordose lombaire via ses attaches rachidiennes."
+        },
+        {
+          "t": "Une rétroversion du bassin accompagnée d'un effacement de la lordose",
+          "j": "La rétroversion du bassin est l'œuvre du grand glutéal et de l'obturateur interne, antagonistes de l'iliopsoas."
+        },
+        {
+          "t": "Une inclinaison latérale du bassin avec ascension de l'hémibassin",
+          "j": "La bascule frontale du bassin dépend des abducteurs, moyen et petit glutéal, et non de l'iliopsoas."
+        },
+        {
+          "t": "Une rotation du bassin du côté opposé avec délordose lombaire",
+          "j": "L'iliopsoas agit dans le plan sagittal : il n'imprime pas de rotation controlatérale au bassin."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, comment se classe l'articulation du genou ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Articulation synoviale en trochlée modifiée, à deux degrés de liberté",
+          "correct": true,
+          "j": "Le genou associe la flexion-extension autour d'un axe transversal et la rotation autour d'un axe longitudinal : deux degrés de liberté."
+        },
+        {
+          "t": "Articulation synoviale en trochlée pure, à un seul degré de liberté",
+          "j": "Une trochlée pure, comme la huméro-ulnaire, n'autorise que la flexion-extension ; le genou possède en plus une rotation axiale."
+        },
+        {
+          "t": "Articulation synoviale sphéroïde, à trois degrés de liberté",
+          "j": "Les trois degrés de liberté caractérisent les énarthroses comme la hanche ou l'épaule, pas le genou."
+        },
+        {
+          "t": "Articulation synoviale en selle, à deux degrés de liberté",
+          "j": "L'articulation en selle (type trapézo-métacarpien du pouce) associe deux surfaces concavo-convexes croisées, ce qui n'est pas le cas du genou."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, quelles sont les amplitudes de flexion du genou, et quel ligament limite ce mouvement ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "135° en actif et 145° en passif, la flexion étant limitée par le ligament croisé postérieur",
+          "correct": true,
+          "j": "Le cours retient 135° de flexion active et 145° de flexion passive, freinées par le ligament croisé postérieur et par les masses musculaires."
+        },
+        {
+          "t": "145° en actif et 135° en passif, la flexion étant limitée par le ligament croisé postérieur",
+          "j": "Les deux valeurs sont inversées : la flexion passive dépasse toujours la flexion active, qui se heurte au contact des masses musculaires."
+        },
+        {
+          "t": "135° en actif et 145° en passif, la flexion étant limitée par le ligament croisé antérieur",
+          "j": "Le croisé antérieur est cité parmi les freins de l'EXTENSION, avec les ligaments collatéraux et le plan fibreux postérieur."
+        },
+        {
+          "t": "110° en actif et 120° en passif, la flexion étant limitée par les ligaments collatéraux",
+          "j": "Ces valeurs sont très inférieures à celles du cours, et les collatéraux freinent l'extension et la rotation latérale, pas la flexion."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, le splanchnocrâne (squelette facial) est constitué de :",
+      "c": 2,
+      "options": [
+        {
+          "t": "Quatorze os, dont deux impairs et six pairs",
+          "correct": true,
+          "j": "Exact : le cours chiffre le squelette facial à quatorze os, répartis en deux impairs médians et six paires symétriques."
+        },
+        {
+          "t": "Huit os, dont quatre impairs et deux pairs",
+          "j": "C'est la composition du NEUROCRÂNE : quatre impairs (occipital, sphénoïde, ethmoïde, frontal) et deux pairs (pariétal, temporal)."
+        },
+        {
+          "t": "Douze os, dont deux impairs et cinq pairs",
+          "j": "Le total est faux : douze os ne suffisent pas à réunir le vomer, la mandibule et les six paires faciales décrites par le cours."
+        },
+        {
+          "t": "Quatorze os, dont quatre impairs et cinq pairs",
+          "j": "Le total de quatorze est juste, mais la répartition ne l'est pas : les impairs sont deux seulement, et les paires six."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les os du splanchnocrâne, lequel est un os IMPAIR ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La mandibule",
+          "correct": true,
+          "j": "Exact : avec le vomer, la mandibule est l'un des deux os impairs de la face ; elle est formée d'un corps et de deux branches montantes."
+        },
+        {
+          "t": "Le maxillaire",
+          "j": "Le maxillaire est un os PAIR : il en existe un droit et un gauche."
+        },
+        {
+          "t": "Le palatin",
+          "j": "Le palatin est un os PAIR : il en existe un de chaque côté de la ligne médiane."
+        },
+        {
+          "t": "Le zygomatique",
+          "j": "Le zygomatique est un os PAIR : ce sont les deux os des pommettes, qui donnent le relief des joues."
+        }
+      ]
+    },
+    {
+      "q": "Avec quel os la partie basilaire de l'os occipital s'articule-t-elle en AVANT ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le sphénoïde",
+          "correct": true,
+          "j": "Exact : la partie basilaire rejoint en avant le corps du sphénoïde, et leur union forme le clivus de la base du crâne."
+        },
+        {
+          "t": "L'ethmoïde",
+          "j": "L'ethmoïde occupe la partie ANTÉRIEURE de la base du crâne ; tout le sphénoïde le sépare du basi-occiput."
+        },
+        {
+          "t": "Le vomer",
+          "j": "Le vomer est un os de la face, situé bien en avant et en dessous du basi-occiput, dont il n'approche jamais."
+        },
+        {
+          "t": "L'os temporal",
+          "j": "Le temporal s'articule avec l'occipital LATÉRALEMENT, de chaque côté de la partie basilaire, et non en avant d'elle."
+        }
+      ]
+    },
+    {
+      "q": "Quel os du crâne forme les cornets nasaux supérieur et moyen ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "L'ethmoïde",
+          "correct": true,
+          "j": "Exact : les masses latérales de l'ethmoïde donnent les cornets supérieur et moyen ; seul le cornet inférieur est un os indépendant."
+        },
+        {
+          "t": "Le vomer",
+          "j": "Le vomer est une lame médiane impaire de la face ; aucune de ses faces ne porte de cornet."
+        },
+        {
+          "t": "Le palatin",
+          "j": "Le palatin est un os pair du squelette facial, sans masse latérale ni cornet propre."
+        },
+        {
+          "t": "Le maxillaire",
+          "j": "Le maxillaire constitue une partie des parois latérales des fosses nasales et s'articule avec le cornet inférieur, mais ne le forme pas."
+        }
+      ]
+    },
+    {
+      "q": "L'os temporal se compose des trois parties suivantes :",
+      "c": 2,
+      "options": [
+        {
+          "t": "Partie squameuse, région mastoïdienne et partie pétreuse",
+          "correct": true,
+          "j": "Exact : l'écaille aplatie, la région mastoïdienne bombée en arrière et le rocher ferment la partie latérale de la base et de la voûte du crâne."
+        },
+        {
+          "t": "Partie squameuse, région mastoïdienne et partie basilaire",
+          "j": "Cette partie n'appartient pas au temporal ; le temporal lui oppose son rocher pétreux."
+        },
+        {
+          "t": "Partie squameuse, partie orbitaire et partie pétreuse",
+          "j": "La partie orbitaire est une portion du FRONTAL qui forme le toit de l'orbite ; le temporal ne participe pas à l'orbite."
+        },
+        {
+          "t": "Partie condylienne, région mastoïdienne et partie pétreuse",
+          "j": "Cette partie n'appartient pas au temporal, qui présente à sa place son écaille squameuse."
+        }
+      ]
+    },
+    {
+      "q": "Le ptérion, repère de la face latérale du crâne, correspond à la rencontre :",
+      "c": 2,
+      "options": [
+        {
+          "t": "Du frontal, du pariétal, de l'écaille du temporal et de la grande aile du sphénoïde",
+          "correct": true,
+          "j": "Exact : à la fosse temporale, l'écaille du frontal, l'angle antéro-inférieur du pariétal, l'écaille du temporal et la grande aile du sphénoïde convergent en un même point, qui répond en profondeur aux vaisseaux méningés moyens."
+        },
+        {
+          "t": "Du pariétal, de l'occipital et de la partie mastoïdienne de l'os temporal",
+          "j": "Cette rencontre définit l'ASTÉRION, repère plus postérieur, à la jonction des sutures lambdoïde, pariéto-mastoïdienne et occipito-mastoïdienne."
+        },
+        {
+          "t": "Du frontal, de l'os nasal, du maxillaire et de l'os lacrymal",
+          "j": "Ces os bordent la racine du nez et la paroi médiale de l'orbite ; aucun n'appartient à la fosse temporale où siège le ptérion."
+        },
+        {
+          "t": "Du pariétal, du temporal, de l'occipital et de la grande aile du sphénoïde",
+          "j": "Le frontal, indispensable au ptérion, manque ici, et l'occipital est bien trop postérieur pour atteindre la grande aile du sphénoïde."
+        }
+      ]
+    },
+    {
+      "q": "Quel os forme la partie inférieure et postérieure de la cloison nasale ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le vomer",
+          "correct": true,
+          "j": "Exact : le vomer complète en bas et en arrière la cloison nasale, dont la partie supérieure revient à la lame verticale de l'ethmoïde."
+        },
+        {
+          "t": "L'ethmoïde",
+          "j": "La lame verticale de l'ethmoïde forme la partie SUPÉRIEURE de la cloison nasale, au-dessus et en avant du vomer."
+        },
+        {
+          "t": "L'unguis",
+          "j": "L'unguis (os lacrymal) occupe la paroi interne de l'ORBITE, où il loge le sac lacrymal, et non la cloison nasale."
+        },
+        {
+          "t": "Le nasal",
+          "j": "L'os nasal forme la partie supérieure de l'arête du nez, en avant et en haut, et ne descend pas dans la cloison."
+        }
+      ]
+    },
+    {
+      "q": "Quel os forme la partie postérieure du palais dur ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le palatin",
+          "correct": true,
+          "j": "Exact : le palatin forme l'arrière du palais dur ainsi que le plancher et les parois latérales des fosses nasales."
+        },
+        {
+          "t": "Le maxillaire",
+          "j": "Le maxillaire forme la partie ANTÉRIEURE du palais, ainsi qu'une partie du plancher orbitaire et des parois nasales latérales."
+        },
+        {
+          "t": "Le sphénoïde",
+          "j": "Le sphénoïde descend en arrière du palais par ses processus ptérygoïdes, mais ne participe pas à la voûte palatine elle-même."
+        },
+        {
+          "t": "Le vomer",
+          "j": "Le vomer est une lame médiane verticale de la cloison nasale ; il repose sur le palais sans en constituer la voûte."
+        }
+      ]
+    },
+    {
+      "q": "Quel nerf emprunte le foramen ovale pour quitter la base du crâne ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le nerf mandibulaire (V3)",
+          "correct": true,
+          "j": "Exact : le foramen ovale fait communiquer la fosse crânienne moyenne et la fosse infratemporale, livrant passage à la branche mandibulaire du trijumeau."
+        },
+        {
+          "t": "Le nerf maxillaire (V2)",
+          "j": "Le nerf maxillaire sort par le foramen ROND, qui conduit à la fosse ptérygo-palatine, et non par le foramen ovale."
+        },
+        {
+          "t": "Le nerf ophtalmique (V1)",
+          "j": "Le nerf ophtalmique gagne l'orbite par la fissure orbitaire supérieure, en compagnie du III, du IV et du VI."
+        },
+        {
+          "t": "Le nerf facial (VII)",
+          "j": "Le facial entre dans le rocher par le méat acoustique interne et quitte le crâne par le foramen stylo-mastoïdien."
+        }
+      ]
+    },
+    {
+      "q": "Quels nerfs crâniens empruntent le foramen jugulaire ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le glosso-pharyngien (IX), le vague (X) et l'accessoire (XI)",
+          "correct": true,
+          "j": "Exact : ces trois nerfs mixtes traversent le foramen jugulaire, d'où sort également la veine jugulaire interne."
+        },
+        {
+          "t": "Le facial (VII) et le vestibulo-cochléaire (VIII)",
+          "j": "Ces deux nerfs empruntent le MÉAT ACOUSTIQUE INTERNE, creusé dans la face postérieure du rocher."
+        },
+        {
+          "t": "Le vague (X), l'accessoire (XI) et l'hypoglosse (XII)",
+          "j": "L'hypoglosse ne passe pas par le foramen jugulaire : il dispose de son propre canal de l'hypoglosse, dans l'occipital."
+        },
+        {
+          "t": "Le glosso-pharyngien (IX), le vague (X) et l'hypoglosse (XII)",
+          "j": "Le IX et le X sont bien jugulaires, mais le XII sort par le canal de l'hypoglosse ; c'est le XI qui complète le trio."
+        }
+      ]
+    },
+    {
+      "q": "Dans quelle fosse crânienne la selle turcique est-elle située ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La fosse crânienne moyenne",
+          "correct": true,
+          "j": "Exact : la selle turcique occupe la partie médiane de l'étage moyen, creusée sur la face supérieure du corps du sphénoïde."
+        },
+        {
+          "t": "La fosse crânienne antérieure",
+          "j": "L'étage antérieur est formé par la partie orbitaire du frontal et la lame criblée de l'ethmoïde, et s'arrête en avant de la selle."
+        },
+        {
+          "t": "La fosse crânienne postérieure",
+          "j": "L'étage postérieur commence en arrière du dorsum sellae et du rocher ; c'est lui qui contient le foramen magnum."
+        },
+        {
+          "t": "La fosse infratemporale",
+          "j": "La fosse infratemporale est située SOUS la base du crâne, en dehors : ce n'est pas un étage de l'endocrâne."
+        }
+      ]
+    },
+    {
+      "q": "Dans le groupe transversaire-épineux, quel est le trajet du muscle MULTIFIDE ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Du processus transverse à la base de l'épineuse de la 3e ou 4e vertèbre sus-jacente",
+          "correct": true,
+          "j": "Exact : le multifide saute trois à quatre niveaux et se termine sur la base du processus épineux, entre les rotateurs et le semi-épineux."
+        },
+        {
+          "t": "Du processus transverse à la lame de la vertèbre immédiatement sus-jacente",
+          "j": "C'est le trajet du ROTATEUR COURT, le plus segmentaire du groupe, qui ne franchit qu'un seul niveau vertébral."
+        },
+        {
+          "t": "Du processus transverse à la lame de la deuxième vertèbre sus-jacente",
+          "j": "C'est le trajet du ROTATEUR LONG, qui franchit deux niveaux et se termine lui aussi sur une lame vertébrale."
+        },
+        {
+          "t": "Du processus transverse à l'apex de l'épineuse, plus de quatre vertèbres plus haut",
+          "j": "C'est le trajet du SEMI-ÉPINEUX, le plus long du groupe, qui saute six à huit niveaux et gagne l'apex de l'épineuse."
+        }
+      ]
+    },
+    {
+      "q": "Les quatre muscles de la région sous-occipitale reçoivent leur innervation :",
+      "c": 3,
+      "options": [
+        {
+          "t": "Du rameau postérieur du premier nerf cervical (C1)",
+          "correct": true,
+          "j": "Exact : les deux droits postérieurs et les deux obliques de la tête dépendent tous du rameau postérieur de C1, dit nerf sous-occipital."
+        },
+        {
+          "t": "Du rameau postérieur du deuxième nerf cervical (C2)",
+          "j": "Le rameau postérieur de C2 donne le nerf grand occipital (nerf d'Arnold), surtout sensitif pour le cuir chevelu postérieur."
+        },
+        {
+          "t": "Des rameaux antérieurs des trois premiers nerfs cervicaux",
+          "j": "Les rameaux antérieurs cervicaux forment le plexus cervical et l'anse cervicale, destinés aux muscles antérieurs du cou."
+        },
+        {
+          "t": "Du nerf accessoire (XI), onzième paire crânienne",
+          "j": "Le nerf accessoire est le nerf moteur du sterno-cléido-mastoïdien et du trapèze, muscles extrinsèques superficiels."
+        }
+      ]
+    },
+    {
+      "q": "Quel nerf assure l'innervation motrice du platysma (muscle peaucier du cou) ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le nerf facial (VII)",
+          "correct": true,
+          "j": "Exact : lame musculaire logée dans l'aponévrose superficielle du cou, le platysma est un muscle peaucier et dépend donc du nerf facial."
+        },
+        {
+          "t": "Le nerf accessoire (XI)",
+          "j": "Le nerf accessoire innerve le sterno-cléido-mastoïdien et le trapèze, muscles superficiels situés en profondeur du platysma."
+        },
+        {
+          "t": "Le nerf trijumeau (V3)",
+          "j": "Le V3 commande les muscles masticateurs, le mylo-hyoïdien et le ventre antérieur du digastrique, mais aucun muscle peaucier."
+        },
+        {
+          "t": "L'anse cervicale",
+          "j": "L'anse cervicale innerve les muscles infra-hyoïdiens, situés bien plus profondément, dans le plan pré-viscéral du cou."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'action du platysma (muscle peaucier du cou) ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Il tend la peau du cou et abaisse les commissures labiales",
+          "correct": true,
+          "j": "Exact : tendu de la peau du thorax supérieur à la mandibule et à la peau de la face, il abaisse aussi la lèvre inférieure."
+        },
+        {
+          "t": "Il élève l'os hyoïde et le plancher de la bouche vers l'avant",
+          "j": "C'est l'action des muscles SUPRA-HYOÏDIENS comme le génio-hyoïdien et le mylo-hyoïdien, situés sous le plancher buccal."
+        },
+        {
+          "t": "Il fléchit le rachis cervical et élève les deux premières côtes",
+          "j": "Flexion cervicale et élévation de K1-K2 décrivent les SCALÈNES, muscles profonds insérés sur les premières côtes."
+        },
+        {
+          "t": "Il élève le sternum et agit comme inspirateur accessoire",
+          "j": "C'est une action du sterno-cléido-mastoïdien, qui peut élever le sternum lors de l'inspiration forcée ; le platysma, simple lame cutanée, n'a aucun rôle respiratoire."
+        }
+      ]
+    },
+    {
+      "q": "Sur quels repères osseux se termine le muscle sterno-cléido-mastoïdien ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le processus mastoïde et la ligne nucale supérieure",
+          "correct": true,
+          "j": "Exact : né du sternum et de la clavicule, le SCM monte obliquement se fixer sur la mastoïde et sur la ligne nucale supérieure de l'occipital."
+        },
+        {
+          "t": "Le processus mastoïde et la ligne nucale inférieure",
+          "j": "La ligne nucale INFÉRIEURE reçoit les droits postérieurs de la tête, muscles sous-occipitaux profonds, et non le SCM."
+        },
+        {
+          "t": "Le processus styloïde et la ligne nucale supérieure",
+          "j": "Le processus styloïde est la fine épine située en avant de la mastoïde ; le sterno-cléido-mastoïdien, lui, se termine sur l'apophyse mastoïde elle-même et sur la ligne nucale supérieure."
+        },
+        {
+          "t": "Le processus transverse de l'atlas et la mastoïde",
+          "j": "Le processus transverse de l'atlas reçoit l'oblique supérieur et le droit latéral de la tête, muscles profonds, pas le SCM."
+        }
+      ]
+    },
+    {
+      "q": "Quelle veine est en rapport avec la face superficielle du sterno-cléido-mastoïdien ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "La veine jugulaire externe",
+          "correct": true,
+          "j": "Exact : la jugulaire externe croise obliquement la face superficielle du SCM, immédiatement sous le platysma."
+        },
+        {
+          "t": "La veine jugulaire interne",
+          "j": "La jugulaire interne chemine en PROFONDEUR, dans le compartiment vasculaire, avec la carotide commune et le nerf vague."
+        },
+        {
+          "t": "La veine sous-clavière",
+          "j": "La veine sous-clavière passe en avant du scalène antérieur, à la base du cou, et non sur le trajet du SCM."
+        },
+        {
+          "t": "La veine vertébrale",
+          "j": "La veine vertébrale accompagne l'artère dans les foramens transversaires cervicaux, dans le plan prévertébral profond."
+        }
+      ]
+    },
+    {
+      "q": "En contraction UNILATÉRALE, quelle est l'action du trapèze sur la tête ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Il incline la tête du même côté et la tourne du côté opposé",
+          "correct": true,
+          "j": "Exact : les fibres supérieures du trapèze, nées de l'occipital, inclinent la tête du côté contracté et portent le visage du côté opposé."
+        },
+        {
+          "t": "Il incline la tête du côté opposé et la tourne du même côté",
+          "j": "Les deux composantes sont inversées : aucune ne correspond au trajet des fibres occipitales du trapèze."
+        },
+        {
+          "t": "Il produit une extension pure de la tête, sans rotation",
+          "j": "L'extension pure est obtenue en contraction BILATÉRALE, quand les deux trapèzes neutralisent mutuellement leurs rotations."
+        },
+        {
+          "t": "Il fléchit la tête et la tourne du même côté",
+          "j": "La flexion de la tête revient aux muscles antérieurs (SCM, prévertébraux) ; le trapèze, postérieur, ne peut qu'étendre."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'action principale du muscle sterno-thyroïdien ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Il abaisse le larynx",
+          "correct": true,
+          "j": "Exact : tendu de la face postérieure du sternum au cartilage thyroïde, il tire le larynx vers le bas après la déglutition."
+        },
+        {
+          "t": "Il élève le larynx",
+          "j": "L'élévation du larynx est obtenue par le thyro-hyoïdien lorsque l'hyoïde est fixé, en rapprochant le cartilage thyroïde de l'os hyoïde."
+        },
+        {
+          "t": "Il élève l'os hyoïde",
+          "j": "L'élévation de l'os hyoïde est l'action des muscles SUPRA-hyoïdiens, comme le génio-hyoïdien et le mylo-hyoïdien."
+        },
+        {
+          "t": "Il abaisse la mandibule",
+          "j": "L'abaissement de la mandibule est produit par le digastrique, lorsque l'hyoïde est fixé par les muscles infra-hyoïdiens."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle infra-hyoïdien reçoit, en plus de l'anse cervicale, des fibres de C1 par le nerf hypoglosse (XII) ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le thyro-hyoïdien",
+          "correct": true,
+          "j": "Exact : le cours attribue au thyro-hyoïdien une double innervation, par l'anse cervicale et par le nerf hypoglosse, qui lui amène des fibres du premier nerf cervical."
+        },
+        {
+          "t": "Le sterno-hyoïdien",
+          "j": "Le sterno-hyoïdien, le plus superficiel du groupe, dépend de la seule anse cervicale (C1-C3), sans apport par le nerf hypoglosse."
+        },
+        {
+          "t": "Le sterno-thyroïdien",
+          "j": "Le sterno-thyroïdien, placé en arrière du précédent, relève lui aussi de la seule anse cervicale (C1-C3)."
+        },
+        {
+          "t": "L'omo-hyoïdien",
+          "j": "L'omo-hyoïdien, tendu de la scapula à l'hyoïde, est innervé par la seule anse cervicale (C1-C3), comme les deux sterno-."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle supra-hyoïdien est innervé par des fibres de C1 cheminant avec le nerf hypoglosse (XII) ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le génio-hyoïdien",
+          "correct": true,
+          "j": "Exact : le génio-hyoïdien, tendu du corps de la mandibule à l'hyoïde, est le seul supra-hyoïdien innervé par C1 via le XII."
+        },
+        {
+          "t": "Le mylo-hyoïdien",
+          "j": "Le mylo-hyoïdien dépend du nerf mylo-hyoïdien, branche du trijumeau (V3), comme le ventre antérieur du digastrique."
+        },
+        {
+          "t": "Le stylo-hyoïdien",
+          "j": "Le stylo-hyoïdien est innervé par le nerf facial (VII), qui lui donne un rameau à sa sortie du foramen stylo-mastoïdien."
+        },
+        {
+          "t": "Le digastrique",
+          "j": "Le digastrique ne dépend ni de C1 ni du XII : son ventre antérieur relève du V3 et son ventre postérieur du nerf facial."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'action du muscle mylo-hyoïdien ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Il soulève le plancher de la bouche et l'os hyoïde",
+          "correct": true,
+          "j": "Exact : les deux mylo-hyoïdiens forment le diaphragme du plancher buccal et le soulèvent avec l'hyoïde lors de la déglutition."
+        },
+        {
+          "t": "Il abaisse le plancher de la bouche et le larynx",
+          "j": "Aucun supra-hyoïdien n'abaisse le plancher buccal ; l'abaissement du larynx revient au sterno-thyroïdien, muscle infra-hyoïdien."
+        },
+        {
+          "t": "Il abaisse l'os hyoïde et le cartilage thyroïde",
+          "j": "Abaisser l'hyoïde et le cartilage thyroïde est le rôle du groupe INFRA-hyoïdien, tendu sous l'os hyoïde."
+        },
+        {
+          "t": "Il recule l'os hyoïde et étend le rachis cervical",
+          "j": "Le stylo-hyoïdien élève et repositionne l'hyoïde, mais aucun muscle hyoïdien n'étend le cou, mouvement des muscles postérieurs."
+        }
+      ]
+    },
+    {
+      "q": "Le tendon intermédiaire du muscle digastrique :",
+      "c": 4,
+      "options": [
+        {
+          "t": "Perfore le muscle stylo-hyoïdien et s'amarre à l'os hyoïde",
+          "correct": true,
+          "j": "Exact : entre le ventre postérieur mastoïdien et le ventre antérieur mandibulaire, le tendon traverse le stylo-hyoïdien et se fixe à l'hyoïde par une membrane."
+        },
+        {
+          "t": "Perfore le muscle mylo-hyoïdien et s'amarre au cartilage thyroïde",
+          "j": "Le mylo-hyoïdien est une lame tendue sous le digastrique, qui ne la traverse pas, et le tendon s'arrête à l'hyoïde, non au thyroïde."
+        },
+        {
+          "t": "Contourne le processus styloïde avant d'atteindre la mandibule",
+          "j": "Le tendon ne contourne aucun relief osseux, il perfore un muscle ; quant au ventre postérieur du digastrique, le cours le fait naître de l'apophyse mastoïde et non du processus styloïde."
+        },
+        {
+          "t": "Glisse sous le muscle génio-hyoïdien pour gagner l'épine mentonnière",
+          "j": "Le génio-hyoïdien est un muscle distinct, placé au-dessus du mylo-hyoïdien, et l'épine mentonnière est sa propre origine."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle supra-hyoïdien naît du processus styloïde de l'os temporal ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le stylo-hyoïdien",
+          "correct": true,
+          "j": "Exact : le stylo-hyoïdien descend du processus styloïde vers l'os hyoïde, qu'il élève et recule ; il est innervé par le nerf facial."
+        },
+        {
+          "t": "Le génio-hyoïdien",
+          "j": "Le génio-hyoïdien naît de l'épine mentonnière, sur la face interne du corps de la mandibule."
+        },
+        {
+          "t": "Le mylo-hyoïdien",
+          "j": "Le mylo-hyoïdien naît de la ligne mylo-hyoïdienne du corps de la mandibule, qu'il relie à l'os hyoïde."
+        },
+        {
+          "t": "Le digastrique",
+          "j": "Le digastrique naît du corps de la mandibule par son ventre antérieur et de l'apophyse mastoïde par son ventre postérieur."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces muscles profonds du cou N'appartient PAS au groupe prévertébral ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le scalène moyen",
+          "correct": true,
+          "j": "Exact : les scalènes forment un groupe profond distinct, latéral, tendu des processus transverses cervicaux aux deux premières côtes."
+        },
+        {
+          "t": "Le long du cou",
+          "j": "Le long du cou (longus colli) est bien prévertébral : il s'applique directement en avant des corps vertébraux cervicaux."
+        },
+        {
+          "t": "Le long de la tête",
+          "j": "Le long de la tête (longus capitis) est prévertébral : il monte des transverses cervicales à la partie basilaire de l'occipital."
+        },
+        {
+          "t": "Le droit antérieur",
+          "j": "Le droit antérieur de la tête est un muscle prévertébral, tendu de la masse latérale de l'atlas à la partie basilaire de l'occipital."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'innervation des muscles scalènes ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Les rameaux antérieurs des nerfs cervicaux C3 à C8",
+          "correct": true,
+          "j": "Exact : le cours attribue aux scalènes les branches antérieures des nerfs cervicaux C3 à C8, et non une branche du plexus cervical."
+        },
+        {
+          "t": "Les rameaux postérieurs des nerfs cervicaux C3 à C8",
+          "j": "Les rameaux postérieurs sont destinés aux muscles intrinsèques du DOS et de la nuque, situés en arrière du rachis."
+        },
+        {
+          "t": "L'anse cervicale, issue des nerfs cervicaux C1 à C3",
+          "j": "L'anse cervicale est réservée aux muscles infra-hyoïdiens, qui descendent du sternum et de la scapula vers l'os hyoïde."
+        },
+        {
+          "t": "Le nerf accessoire (XI) et le plexus cervical",
+          "j": "Cette association innerve le sterno-cléido-mastoïdien, muscle superficiel, et non les scalènes du plan profond."
+        }
+      ]
+    },
+    {
+      "q": "Sur la première côte, entre les deux sillons des vaisseaux sous-claviers, on trouve :",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le tubercule du scalène antérieur",
+          "correct": true,
+          "j": "Exact : ce tubercule sépare les deux sillons de la face supérieure de la première côte et reçoit l'insertion du scalène antérieur."
+        },
+        {
+          "t": "La surface du scalène postérieur",
+          "j": "Cette surface rugueuse appartient à la DEUXIÈME côte, dont les faces sont obliques, et reçoit le scalène postérieur."
+        },
+        {
+          "t": "La facette articulaire de la tête",
+          "j": "La première côte ne possède qu'une seule facette articulaire, portée par sa tête, en arrière et non entre les sillons."
+        },
+        {
+          "t": "Le tubercule costal postérieur",
+          "j": "Le tubercule costal se situe en arrière, à la jonction du col et du corps, où il répond au processus transverse."
+        }
+      ]
+    },
+    {"q":"Comment le condyle fémoral médial se compare-t-il au condyle latéral ?","c":11,"options":[{"t":"Il est plus étroit et plus long","correct":true,"j":"Le cours insiste sur ce point : le condyle médial est à la fois plus étroit et plus long, et il dépasse le condyle latéral vers le bas."},{"t":"Il est plus large et plus court","j":"C'est l'inverse exact de la description du cours : large et court caractérise plutôt le condyle latéral."},{"t":"Il est plus étroit et plus court","j":"La largeur est juste mais la longueur est fausse : le condyle médial est le plus long des deux, et c'est pourquoi il descend plus bas."},{"t":"Il est plus large et plus long","j":"La longueur est juste mais la largeur est fausse : c'est le condyle latéral qui est le plus large des deux."}]},
+    {"q":"La cavité glénoïde LATÉRALE du tibia est :","c":11,"options":[{"t":"Concave transversalement et convexe d'avant en arrière","correct":true,"j":"Le cours la décrit comme légèrement concave dans le plan frontal mais convexe dans le plan sagittal, ce qui la rend peu contenante."},{"t":"Concave transversalement et concave d'avant en arrière","j":"Cette double concavité est celle de la cavité glénoïde médiale, nettement plus creusée et plus congruente."},{"t":"Convexe transversalement et concave d'avant en arrière","j":"Les deux courbures sont inversées : aucune cavité glénoïde n'est convexe dans le plan transversal."},{"t":"Convexe transversalement et convexe d'avant en arrière","j":"Une surface entièrement convexe ne pourrait pas recevoir un condyle fémoral ; la convexité du plateau latéral est limitée au sens antéro-postérieur."}]},
+    {"q":"La courbure antéro-postérieure des condyles fémoraux :","c":11,"options":[{"t":"Décrit une spirale dont le rayon diminue d'avant en arrière","correct":true,"j":"Le cours parle d'une courbe en spirale dont le rayon décroît dans le sens antéro-postérieur, ce qui déplace le contact fémoro-tibial au fil de la flexion."},{"t":"Décrit une spirale dont le rayon augmente d'avant en arrière","j":"Le sens de variation est inversé : le rayon de courbure des condyles se réduit vers l'arrière, il n'augmente pas."},{"t":"Correspond à un arc de cercle de rayon constant","j":"Un rayon constant imposerait une rotation pure autour d'un axe fixe ; le cours décrit au contraire une courbe en spirale."},{"t":"Correspond à deux arcs de cercle de rayons égaux","j":"Il ne s'agit pas de deux arcs de cercle : le cours décrit pour chaque condyle une courbe en spirale, dont le rayon varie tout au long du trajet antéro-postérieur."}]},
+    {"q":"La face patellaire (trochlée fémorale) se caractérise par :","c":11,"options":[{"t":"Un versant latéral plus large et plus proéminent","correct":true,"j":"Le cours souligne que le versant latéral de la trochlée domine en largeur comme en relief, ce qui s'oppose au déplacement latéral de la patella."},{"t":"Un versant médial plus large et plus proéminent","j":"La latéralité est inversée : le versant médial est le plus petit et le moins saillant des deux."},{"t":"Deux versants strictement symétriques","j":"La trochlée fémorale est asymétrique ; une symétrie parfaite laisserait la patella sans butée osseuse latérale."},{"t":"Un versant latéral plus large mais moins proéminent","j":"La largeur est juste, le relief est faux : le versant latéral est aussi celui qui fait le plus saillie en avant."}]},
+    {"q":"La face postérieure de la patella comporte :","c":11,"options":[{"t":"Une partie supérieure lisse cartilagineuse et une partie inférieure rugueuse","correct":true,"j":"Le cours distingue bien ces deux zones : en haut le cartilage articulaire, en bas une surface rugueuse qui répond à un faisceau cellulo-adipeux."},{"t":"Une partie supérieure rugueuse et une partie inférieure lisse cartilagineuse","j":"Les deux zones sont inversées : c'est la partie supérieure qui porte le revêtement cartilagineux articulaire."},{"t":"Une surface rugueuse uniforme, entièrement non articulaire","j":"La patella serait alors dépourvue de surface articulaire, alors que sa face postérieure glisse sur le fémur par du cartilage."},{"t":"Deux facettes cartilagineuses, latérale et médiale, sans aucune zone rugueuse","j":"Les deux facettes articulaires existent bien, mais elles n'occupent que la moitié supérieure : la partie inférieure de la face postérieure reste rugueuse et non articulaire."}]},
+    {"q":"Les cornes des ménisques du genou s'attachent :","c":11,"options":[{"t":"Dans l'espace intercondylaire du plateau tibial","correct":true,"j":"Le cours précise que les cornes méniscales s'amarrent dans la zone intercondylaire du tibia, ce qui fixe les deux extrémités de chaque ménisque."},{"t":"Sur la fosse intercondylaire du fémur","j":"La fosse intercondylaire sépare les deux condyles fémoraux et reçoit les ligaments croisés, non les cornes méniscales."},{"t":"Sur la face profonde de la capsule articulaire","j":"C'est le bord externe du ménisque, et non ses cornes, qui adhère à la capsule sur toute sa périphérie."},{"t":"Sur le pourtour cartilagineux des cavités glénoïdes","j":"Le ménisque repose sur ce pourtour mais n'y prend pas attache : ses cornes gagnent la zone intercondylaire."}]},
+    {"q":"Le plan profond (capsulaire) du groupe ligamentaire antérieur du genou comprend :","c":11,"options":[{"t":"Les ligaments fémoro-patellaires et ménisco-patellaires","correct":true,"j":"Ce plan est constitué de renforts capsulaires qui amarrent la patella aux condyles fémoraux (ailerons) et aux ménisques."},{"t":"Le ligament patellaire et les rétinaculums patellaires","j":"Ces structures appartiennent au plan médial (ou tendineux) du groupe antérieur, situé en avant du plan capsulaire."},{"t":"Le fascia lata et le fascia de la jambe","j":"Ces deux nappes constituent le plan superficiel, dit fascial, le plus externe des trois plans antérieurs."},{"t":"Les ligaments ménisco-fémoraux antérieur et postérieur","j":"Le cours range ces ligaments dans le groupe postérieur du genou, avec les croisés, et non dans le groupe antérieur."}]},
+    {"q":"La capsule articulaire du genou s'insère :","c":11,"options":[{"t":"Sur trois sites : fémoral, tibial et patellaire","correct":true,"j":"La capsule a l'aspect d'un cylindre dont les bords gagnent l'extrémité inférieure du fémur, l'extrémité supérieure du tibia et la patella."},{"t":"Sur deux sites : fémoral et tibial","j":"Cette description oublie l'insertion patellaire, pourtant indispensable puisque la patella est enchâssée dans la paroi capsulaire."},{"t":"Sur trois sites : fémoral, tibial et fibulaire","j":"La fibula ne participe pas à l'articulation du genou : elle appartient à l'articulation tibio-fibulaire proximale, indépendante."},{"t":"Sur deux sites : fémoral et patellaire","j":"L'insertion tibiale manque ici, alors qu'elle forme tout le bord inférieur du cylindre capsulaire."}]},
+    {"q":"Dans sa région postérieure, la membrane synoviale du genou :","c":11,"options":[{"t":"Recouvre les faces antérieure et latérales des croisés","correct":true,"j":"Elle se réfléchit en avant et sur les côtés des ligaments croisés, qui restent ainsi en dehors de la cavité articulaire proprement dite."},{"t":"Englobe entièrement les deux ligaments croisés","j":"Les croisés ne baignent pas dans le liquide articulaire : la synoviale ne les tapisse pas sur toute leur circonférence."},{"t":"Est interrompue en regard des ligaments croisés","j":"Il n'existe aucune interruption synoviale à ce niveau ; l'interruption décrite par le cours siège au niveau des bords du ménisque."},{"t":"Passe entre les deux croisés sans les recouvrir","j":"Réduire la synoviale à un simple refend entre les deux croisés méconnaît la gaine qui les habille en avant et latéralement."}]},
+    {"q":"La bourse suprapatellaire (cul-de-sac sous-quadricipital) :","c":11,"options":[{"t":"S'étend vers le haut entre le fémur et le tendon du quadriceps","correct":true,"j":"Elle facilite le glissement du tendon quadricipital sur l'extrémité distale du fémur et autorise la flexion comme l'extension complètes."},{"t":"S'étend en arrière entre la capsule et le gastrocnémien médial","j":"Il existe bien une bourse sous-tendineuse à ce niveau, mais c'est une bourse postérieure, sans rapport avec l'appareil extenseur."},{"t":"S'interpose entre la peau et la face antérieure de la patella","j":"Cette situation sous-cutanée est celle de la bourse pré-patellaire, qui ne communique pas avec le cul-de-sac supérieur."},{"t":"Se situe entre le tendon du poplité et le condyle latéral","j":"Ce récessus postéro-latéral accompagne le tendon du poplité ; il n'est pas un prolongement supérieur de la cavité articulaire."}]},
+    {"q":"Quelle bourse séreuse s'interpose entre le ligament patellaire et la face antérieure du tibia ?","c":11,"options":[{"t":"La bourse infra-patellaire profonde","correct":true,"j":"Logée en arrière du ligament patellaire, elle amortit le frottement de ce tendon contre l'os tibial sous-jacent."},{"t":"La bourse infra-patellaire superficielle","j":"Celle-ci siège en avant du ligament patellaire, juste sous la peau, et non entre le ligament et l'os."},{"t":"La bourse sous-cutanée pré-patellaire","j":"Elle répond à la patella elle-même, sous la peau, bien au-dessus du segment tibial de l'appareil extenseur."},{"t":"La bourse du muscle semi-membraneux","j":"Cette bourse double le tendon du semi-membraneux sur le versant postérieur du genou, loin de la face antérieure du tibia."}]},
+    {"q":"Les mouvements de rotation du genou se produisent :","c":11,"options":[{"t":"À l'articulation ménisco-tibiale, autour d'un axe passant par l'épine tibiale","correct":true,"j":"Le cours situe la rotation entre les ménisques et le plateau tibial, l'axe vertical traversant l'épine tibiale."},{"t":"À l'articulation fémoro-méniscale, autour d'un axe passant par la fosse intercondylaire","j":"L'étage fémoro-méniscal est celui de la flexion-extension ; la rotation se joue à l'étage situé au-dessous."},{"t":"À l'articulation fémoro-patellaire, autour d'un axe passant par la trochlée","j":"L'articulation fémoro-patellaire ne fait que guider la patella dans la gorge trochléenne, sans rotation axiale de la jambe."},{"t":"À l'articulation tibio-fibulaire, autour d'un axe passant par la tête fibulaire","j":"Cette articulation accompagne les contraintes venues de la cheville ; elle n'est pas le siège de la rotation du genou."}]},
+    {"q":"Quelles sont les amplitudes d'hyperextension du genou ?","c":11,"options":[{"t":"10° en actif et 15° en passif","correct":true,"j":"Ce sont les valeurs retenues par le cours pour l'extension au-delà de la rectitude, freinée notamment par le plan fibreux postérieur."},{"t":"5° en actif et 10° en passif","j":"Ces chiffres sous-estiment l'hyperextension : le cours accorde le double en actif, et davantage encore en passif."},{"t":"15° en actif et 20° en passif","j":"Ces valeurs traduiraient un genou recurvatum ; le cours place l'hyperextension active nettement plus bas."},{"t":"10° en actif et 20° en passif","j":"La valeur active est juste mais le gain passif est surestimé : il n'est que de quelques degrés supplémentaires."}]},
+    {"q":"Lequel de ces muscles appartient au plan PROFOND du groupe médial de la cuisse ?","c":12,"options":[{"t":"L'obturateur externe","correct":true,"j":"Le cours range dans le plan profond du groupe médial l'obturateur externe et le grand adducteur."},{"t":"Le court adducteur","j":"Le court adducteur occupe le plan médian du groupe médial, intercalé entre les deux autres plans."},{"t":"Le long adducteur","j":"Le long adducteur appartient au plan superficiel du groupe médial, qu'il partage avec le pectiné."},{"t":"Le muscle gracile","j":"Le gracile est le muscle le plus médial du plan superficiel ; il ne descend jamais dans le plan profond."}]},
+    {"q":"Quel muscle du groupe médial de la cuisse est innervé par le nerf fémoral ?","c":12,"options":[{"t":"Le muscle pectiné","correct":true,"j":"Le pectiné est le seul muscle du groupe médial à recevoir sa commande du nerf fémoral, alors que ses voisins dépendent du nerf obturateur."},{"t":"Le long adducteur","j":"Le long adducteur dépend du nerf obturateur, comme la grande majorité des muscles de ce groupe."},{"t":"Le court adducteur","j":"Le court adducteur est lui aussi tributaire du nerf obturateur, qui chemine directement à son contact."},{"t":"Le muscle gracile","j":"Le gracile est innervé par le nerf obturateur, bien qu'il franchisse le genou et agisse sur la jambe."}]},
+    {"q":"Quels nerfs innervent le grand adducteur ?","c":12,"options":[{"t":"Le nerf obturateur et le nerf sciatique","correct":true,"j":"Le grand adducteur est à double commande : sa composante adductrice relève de l'obturateur, sa composante extensive du sciatique."},{"t":"Le nerf obturateur et le nerf fémoral","j":"Le nerf fémoral n'envoie aucune branche au grand adducteur : il commande essentiellement la loge antérieure de la cuisse."},{"t":"Le nerf fémoral exclusivement","j":"Une innervation fémorale exclusive est impossible pour ce muscle, qui ne reçoit aucune fibre de ce nerf."},{"t":"Le nerf obturateur exclusivement","j":"L'obturateur innerve bien une partie du grand adducteur, mais sa commande n'est pas exclusive : un second tronc la complète."}]},
+    {"q":"Le long adducteur réalise sur la cuisse :","c":12,"options":[{"t":"Adduction, flexion et rotation externe","correct":true,"j":"Le cours lui attribue ces trois actions, qu'il partage avec le court adducteur dont il a la même origine pubienne."},{"t":"Adduction, extension et rotation interne","j":"Les deux dernières actions sont inversées : le long adducteur fléchit la cuisse et la tourne en dehors."},{"t":"Adduction, flexion et rotation interne","j":"La flexion est juste, le sens de rotation est faux : ce muscle porte la cuisse en rotation externe."},{"t":"Adduction, extension et rotation externe","j":"La rotation est juste, mais le long adducteur est fléchisseur de la cuisse et non extenseur."}]},
+    {"q":"Le sartorius réalise sur la hanche :","c":12,"options":[{"t":"Flexion, abduction et rotation latérale","correct":true,"j":"Son trajet oblique depuis l'épine iliaque antéro-supérieure lui fait associer ces trois composantes sur la cuisse."},{"t":"Flexion, adduction et rotation latérale","j":"Le sartorius écarte la cuisse de l'axe du corps : il est abducteur et non adducteur."},{"t":"Extension, abduction et rotation médiale","j":"Deux erreurs ici : le sartorius fléchit la hanche et la tourne en dehors, non en dedans."},{"t":"Flexion, abduction et rotation médiale","j":"Les deux premières actions sont justes mais le sens de rotation est inversé : la rotation imprimée est latérale."}]},
+    {"q":"Le groupe antérieur de la cuisse est composé :","c":12,"options":[{"t":"Du quadriceps fémoral et du muscle sartorius","correct":true,"j":"Le cours ne retient que ces deux formations dans la loge antérieure, le quadriceps comptant à lui seul quatre chefs."},{"t":"Du quadriceps fémoral et du tenseur du fascia lata","j":"Le tenseur du fascia lata est rattaché aux muscles de la hanche et n'est pas compté dans le groupe antérieur de la cuisse."},{"t":"Du quadriceps fémoral, du sartorius et du gracile","j":"Le gracile est de trop : le cours le classe dans le plan superficiel du groupe médial de la cuisse."},{"t":"Du quadriceps fémoral et du muscle pectiné","j":"Le pectiné n'appartient pas à la loge antérieure : il figure dans le plan superficiel du groupe médial."}]},
+    {"q":"Quel muscle forme la paroi LATÉRALE du canal des adducteurs (de Hunter) ?","c":12,"options":[{"t":"Le vaste médial","correct":true,"j":"Malgré son nom, ce chef du quadriceps borde le canal en dehors et le sépare de la loge antérieure de la cuisse."},{"t":"Le sartorius","j":"Le sartorius constitue la paroi antéro-interne du canal, qu'il recouvre comme un toit."},{"t":"Le long adducteur","j":"Le long adducteur participe à la paroi postérieure du canal, et non à sa paroi latérale."},{"t":"Le grand adducteur","j":"Le grand adducteur ferme lui aussi le canal en arrière ; son anneau en marque l'extrémité inférieure."}]},
+    {"q":"Le plancher de la fosse poplitée est formé par :","c":12,"options":[{"t":"La face postérieure de l'articulation et le muscle poplité","correct":true,"j":"Le plancher associe le plan articulaire postérieur du genou et ce petit muscle appliqué contre lui."},{"t":"La face postérieure du fémur et le chef médial du gastrocnémien","j":"Le chef médial du gastrocnémien borde la fosse sans en constituer le plancher, et le fémur n'est pas retenu par le cours parmi les éléments de ce plancher."},{"t":"La membrane interosseuse et le corps du muscle soléaire","j":"Ces structures appartiennent à la jambe et se situent bien au-dessous des limites de la fosse poplitée."},{"t":"La capsule articulaire et le muscle plantaire grêle","j":"Le plantaire est un muscle grêle accessoire que le cours ne retient pas dans la constitution du plancher."}]},
+    {"q":"La fosse poplitée est limitée en haut et en dedans par :","c":12,"options":[{"t":"Le semi-membraneux et le semi-tendineux","correct":true,"j":"Ces deux ischio-jambiers médiaux dessinent le bord supéro-médial du losange poplité."},{"t":"Le biceps fémoral et le gracile","j":"Le biceps fémoral borde la fosse en haut et en dehors, et le gracile ne figure pas parmi les muscles qui la limitent."},{"t":"Le chef médial du gastrocnémien et le sartorius","j":"Le gastrocnémien médial ferme la fosse en bas et non en haut ; le sartorius n'entre pas dans ses limites."},{"t":"Le grand adducteur et le semi-membraneux","j":"Le semi-membraneux est bien l'un des deux muscles attendus, mais le grand adducteur s'arrête avant la fosse."}]},
+    {"q":"Le triangle fémoral (de Scarpa) contient :","c":12,"options":[{"t":"L'artère fémorale, la veine fémorale et le nerf fémoral","correct":true,"j":"Le cours décrit ce trépied vasculo-nerveux dans le triangle, le nerf étant le plus latéral des trois éléments."},{"t":"L'artère fémorale profonde, la veine et le nerf obturateur","j":"Le nerf obturateur reste plus médial et plus profond : il quitte le bassin sans traverser le triangle."},{"t":"L'artère fémorale, la veine fémorale et le nerf obturateur","j":"Les deux vaisseaux sont justes mais le nerf est faux : c'est le nerf fémoral qui accompagne ici le paquet vasculaire."},{"t":"L'artère iliaque externe, la veine fémorale et le nerf fémoral","j":"L'artère iliaque externe change de nom en franchissant le ligament inguinal : dans le triangle, elle est déjà fémorale."}]},
+    {"q":"Quelle est l'origine commune du semi-tendineux, du semi-membraneux et du chef long du biceps fémoral ?","c":12,"options":[{"t":"La tubérosité ischiatique","correct":true,"j":"Les trois ischio-jambiers vrais y prennent naissance, ce qui explique leur action extensive commune sur la cuisse."},{"t":"La branche ischio-pubienne","j":"Cette branche donne naissance au grand adducteur, qui appartient au groupe médial et non au groupe postérieur."},{"t":"L'épine ischiatique","j":"L'épine ischiatique donne insertion à des muscles pelvi-trochantériens, et non aux muscles de la loge postérieure."},{"t":"La ligne âpre du fémur","j":"Seul le chef court du biceps fémoral y naît ; les trois muscles cités ont tous une origine pelvienne."}]},
+    {"q":"Selon le cours, le premier plan (le plus superficiel) de la plante du pied est constitué par :","c":15,"options":[{"t":"Le court fléchisseur des orteils, le court abducteur de l'hallux et l'abducteur du 5e orteil","correct":true,"j":"Ces trois muscles forment la couche 1, étalée juste sous l'aponévrose plantaire : un muscle central flanqué des deux muscles d'écartement des orteils extrêmes."},{"t":"Le court fléchisseur des orteils, le carré plantaire et l'adducteur de l'hallux","j":"Le carré plantaire et l'adducteur de l'hallux sont tous deux recouverts par d'autres muscles plantaires : seul le court fléchisseur des orteils, ici, affleure sous l'aponévrose."},{"t":"Le court abducteur de l'hallux, l'abducteur du 5e orteil et les interosseux dorsaux","j":"Les interosseux dorsaux sont logés entre les métatarsiens, dans le plan le plus profond du pied : ils ne peuvent appartenir à la couche superficielle."},{"t":"Le court fléchisseur des orteils, le court fléchisseur de l'hallux et le fléchisseur du 5e orteil","j":"Les deux fléchisseurs courts des orteils extrêmes sont des muscles profonds de l'avant-pied ; la couche 1 leur substitue les deux abducteurs."}]},
+    {"q":"Quels muscles constituent le deuxième plan (couche 2) de la plante du pied ?","c":15,"options":[{"t":"Le carré plantaire et les muscles lombricaux du pied","correct":true,"j":"Ces deux formations constituent ensemble la couche 2, interposée entre le muscle superficiel de la plante et les muscles courts des orteils extrêmes."},{"t":"Le carré plantaire et le court fléchisseur des orteils","j":"Le court fléchisseur des orteils possède ses propres tendons pour les orteils et occupe un étage plus superficiel que la couche 2."},{"t":"Les muscles lombricaux et les interosseux plantaires","j":"Les interosseux plantaires, tendus entre les métatarsiens, appartiennent à la couche la plus profonde du pied."},{"t":"Le court fléchisseur de l'hallux et l'adducteur de l'hallux","j":"Ce couple constitue le plan profond du groupe médial, consacré au seul gros orteil, et non la couche 2."}]},
+    {"q":"Sur quelles structures les quatre muscles interosseux dorsaux s'insèrent-ils distalement ?","c":15,"options":[{"t":"Sur la base des premières phalanges des 2e, 3e et 4e orteils","correct":true,"j":"Selon le cours, les quatre interosseux dorsaux gagnent la base de la phalange proximale de ces trois orteils moyens."},{"t":"Sur la base des premières phalanges des 3e, 4e et 5e orteils","j":"Cette répartition plus latérale, qui délaisse le 2e orteil, est celle des interosseux plantaires et non des dorsaux."},{"t":"Sur la base des phalanges intermédiaires des 2e, 3e et 4e orteils","j":"Aucun interosseux n'atteint la phalange intermédiaire : ces muscles s'arrêtent à la base de la phalange proximale."},{"t":"Sur la face dorsale des têtes des 2e, 3e et 4e métatarsiens","j":"Les têtes métatarsiennes ne sont qu'un relief franchi par ces muscles, qui dépassent l'articulation pour gagner la phalange."}]},
+    {"q":"Dans la classification du cours, le groupe latéral de la plante du pied comprend :","c":15,"options":[{"t":"Le fléchisseur du 5e orteil, son opposant et son abducteur","correct":true,"j":"Ce groupe réunit trois muscles propres au 5e orteil : le fléchisseur et l'opposant dans le plan profond, l'abducteur dans le plan de surface."},{"t":"Le court fléchisseur, l'adducteur et l'abducteur de l'hallux","j":"Ces trois muscles composent le groupe médial, entièrement consacré au gros orteil, à l'opposé du bord latéral du pied."},{"t":"Le court fléchisseur des orteils, le carré plantaire et les lombricaux","j":"Ce sont les muscles du groupe central de la plante, qui agissent sur les quatre derniers orteils et non sur le seul 5e."},{"t":"L'abducteur du 5e orteil et les interosseux de la plante","j":"Les interosseux appartiennent au plan profond du groupe CENTRAL de la plante ; l'abducteur du 5e orteil ne représente à lui seul que le plan de surface du groupe latéral."}]},
+    {"q":"Quelle est l'origine des muscles interosseux dorsaux du pied ?","c":15,"options":[{"t":"Les deux parois de chaque espace interosseux","correct":true,"j":"Chaque interosseux dorsal est bipenné : il naît des deux faces osseuses qui bordent l'espace compris entre deux métatarsiens voisins."},{"t":"La face plantaire de la base des métatarsiens","j":"Cette face reçoit des ligaments plantaires et des tendons longs, mais les interosseux dorsaux naissent à l'intérieur même de l'espace."},{"t":"Le bord latéral du tendon du long fléchisseur des orteils","j":"Ce bord tendineux est une zone de terminaison musculaire dans la plante, et non une surface d'origine : aucun interosseux n'y prend naissance."},{"t":"La face dorsale de la base des phalanges proximales","j":"Il s'agit d'une zone de terminaison de l'appareil extenseur des orteils, non d'une origine musculaire sur le squelette métatarsien."}]},
+    {"q":"De quelle paroi naissent les trois muscles interosseux plantaires ?","c":15,"options":[{"t":"De la paroi latérale des 2e, 3e et 4e espaces interosseux","correct":true,"j":"Ils s'attachent au versant latéral de ces espaces, c'est-à-dire aux 3e, 4e et 5e métatarsiens, d'où leur disposition unipennée."},{"t":"De la paroi médiale des 2e, 3e et 4e espaces interosseux","j":"La paroi médiale de ces espaces n'offre aucune origine aux interosseux plantaires, qui s'attachent sur le versant opposé."},{"t":"De la paroi latérale des 1er, 2e et 3e espaces interosseux","j":"Les trois premiers espaces intéressent les métatarsiens médiaux ; les interosseux plantaires dépendent au contraire des trois derniers métatarsiens."},{"t":"De la face plantaire des 1er, 2e et 3e métatarsiens","j":"La face plantaire des métatarsiens médiaux est longée par les tendons fléchisseurs et ne donne pas naissance à ces muscles."}]},
+    {"q":"Le carré plantaire (chair carrée de Sylvius) prend son origine :","c":15,"options":[{"t":"Sur la face inférieure du calcanéum, par deux faisceaux","correct":true,"j":"Ses deux faisceaux naissent de la face plantaire du calcanéum et convergent en avant en un corps charnu quadrilatère."},{"t":"Sur le tubercule médial du calcanéum, par quatre faisceaux","j":"Le tubercule médial donne naissance aux éléments les plus superficiels de la plante ; le carré plantaire, plus profond, occupe la face inférieure de l'os."},{"t":"Sur la face plantaire du cuboïde et du cunéiforme latéral","j":"Ces os du tarse antérieur donnent attache à des muscles destinés au gros orteil, alors que le carré plantaire reste strictement calcanéen."},{"t":"Sur la tubérosité du naviculaire et le long ligament plantaire","j":"Le naviculaire reçoit surtout un tendon long inverseur du pied ; aucun faisceau du carré plantaire ne s'y attache."}]},
+    {"q":"Les muscles lombricaux du pied sont innervés par :","c":15,"options":[{"t":"Les nerfs plantaires médial et latéral","correct":true,"j":"Leur innervation est partagée entre les deux branches terminales du nerf tibial, les lombricaux les plus internes relevant du contingent médial."},{"t":"Le nerf plantaire latéral uniquement","j":"Le nerf plantaire latéral n'assure qu'une partie de cette innervation, les lombricaux les plus médiaux échappant à son territoire."},{"t":"Le nerf plantaire médial uniquement","j":"Le nerf plantaire médial ne couvre pas tous les lombricaux : les plus latéraux dépendent de l'autre branche terminale du nerf tibial."},{"t":"Le nerf fibulaire profond","j":"Le fibulaire profond innerve les muscles courts de la région dorsale du pied et ne pénètre jamais dans la loge plantaire."}]},
+    {"q":"Dans la plante du pied, le tendon du long fléchisseur de l'hallux chemine dans un sillon ménagé par :","c":15,"options":[{"t":"Les têtes médiale et latérale du court fléchisseur de l'hallux","correct":true,"j":"Les deux têtes de ce muscle s'écartent l'une de l'autre et ménagent entre elles la gouttière où glisse le tendon long du gros orteil."},{"t":"Les deux chefs, oblique et transverse, de l'adducteur de l'hallux","j":"Les deux chefs de l'adducteur convergent vers un point d'insertion commun et ne délimitent aucune gouttière tendineuse."},{"t":"Les deux faisceaux d'origine du carré plantaire","j":"Les faisceaux du carré plantaire encadrent un tendon destiné aux quatre derniers orteils, en arrière de la plante, et non celui du gros orteil."},{"t":"Les deux premiers muscles interosseux dorsaux","j":"Les interosseux dorsaux occupent les espaces entre les métatarsiens, bien au-dessus du trajet plantaire de ce tendon."}]},
+    {"q":"Le court abducteur de l'hallux se termine sur la phalange proximale du gros orteil par l'intermédiaire :","c":15,"options":[{"t":"Du sésamoïde médial de la 1re métatarso-phalangienne","correct":true,"j":"Son tendon englobe le sésamoïde médial du gros orteil avant de se fixer sur la base de la phalange proximale."},{"t":"Du sésamoïde latéral de la 1re métatarso-phalangienne","j":"Le sésamoïde latéral sert de relais au muscle qui ramène au contraire le gros orteil vers les autres orteils."},{"t":"D'une expansion de l'aponévrose plantaire médiale","j":"L'aponévrose médiale enveloppe la loge du gros orteil mais ne constitue pas le relais terminal de ce muscle."},{"t":"Du tendon du long fléchisseur de l'hallux","j":"Ce tendon traverse la loge médiale pour rejoindre la phalange distale et ne reçoit aucune terminaison du court abducteur."}]},
+    {"q":"La tête transversale de l'adducteur de l'hallux prend son origine :","c":15,"options":[{"t":"Sur les 3e, 4e et 5e articulations métatarso-phalangiennes","correct":true,"j":"Elle naît des éléments capsulo-ligamentaires de ces trois articulations et traverse l'avant-pied transversalement jusqu'au gros orteil."},{"t":"Sur les bases des 2e à 5e métatarsiens et le cuboïde","j":"Ces attaches tarso-métatarsiennes postérieures sont celles de l'autre tête du muscle, dont les fibres suivent un trajet oblique."},{"t":"Sur les ligaments plantaires des 1re et 2e articulations métatarso-phalangiennes","j":"Les deux premières articulations métatarso-phalangiennes sont dépassées par le muscle ; sa tête transversale ne naît que des trois dernières."},{"t":"Sur la face plantaire des cunéiformes médial et intermédiaire","j":"Les cunéiformes médiaux donnent attache à d'autres formations fibreuses de la loge du gros orteil, pas à cette tête du muscle."}]},
+    {"q":"Quel muscle du pied soutient à la fois la voûte plantaire longitudinale et la voûte plantaire transversale ?","c":15,"options":[{"t":"L'adducteur de l'hallux","correct":true,"j":"La direction de ses deux têtes, l'une oblique et l'autre transversale, lui permet d'étayer les deux voûtes de la plante à la fois."},{"t":"Le court fléchisseur de l'hallux","j":"Son trajet reste parallèle au bord médial du pied : il ne soutient que la voûte longitudinale."},{"t":"Le carré plantaire","j":"Son corps charnu reste en arrière de la plante et se termine sur le tendon des fléchisseurs, sans jamais croiser la ligne des têtes métatarsiennes : il ne peut étayer l'arche transversale."},{"t":"Le court abducteur de l'hallux","j":"Placé le long du bord médial du pied, il participe au maintien de la voûte longitudinale sans agir sur l'arche transversale."}]},
+    {"q":"Quelle est l'origine du fléchisseur (court fléchisseur) du 5e orteil ?","c":15,"options":[{"t":"La base du 5e métatarsien et le long ligament plantaire","correct":true,"j":"Il naît de l'extrémité postérieure du 5e métatarsien et du puissant ligament plantaire long qui double cette région en arrière."},{"t":"La face inférieure du calcanéum, en dehors","j":"Cette surface calcanéenne latérale est l'origine de l'abducteur du 5e orteil, alors que le fléchisseur s'attache sur l'avant-pied."},{"t":"La moitié distale du 5e métatarsien","j":"La portion distale du 5e métatarsien correspond à l'origine de l'autre muscle profond du bord latéral, qui gagne la même phalange."},{"t":"Le tubercule latéral de la tubérosité calcanéenne et le cuboïde","j":"Ces reliefs postérieurs donnent attache à des formations fibreuses du bord latéral, non à ce muscle de l'avant-pied."}]},
+    {"q":"Quelle est l'action de l'opposant du 5e orteil ?","c":15,"options":[{"t":"Flexion et adduction du 5e orteil","correct":true,"j":"Il fléchit le 5e orteil tout en le ramenant vers l'axe du pied, ce qui accentue la concavité du bord latéral de la plante."},{"t":"Flexion et abduction du 5e orteil","j":"L'association flexion-abduction caractérise le muscle le plus superficiel du bord latéral, et non l'opposant."},{"t":"Flexion isolée du 5e orteil","j":"Une flexion pure est l'action de l'autre muscle profond du bord latéral ; l'opposant y ajoute une composante de déplacement."},{"t":"Extension et abduction du 5e orteil","j":"Aucun muscle du groupe latéral de la plante n'étend le 5e orteil : l'extension revient aux muscles de la région dorsale."}]},
+    {"q":"Selon le cours, l'aponévrose plantaire se divise en :","c":15,"options":[{"t":"Trois parties : moyenne, médiale et latérale","correct":true,"j":"La partie moyenne, la plus résistante, est flanquée de deux expansions, l'une médiale et l'autre latérale, avec lesquelles elle reste en continuité."},{"t":"Deux parties : médiale et latérale","j":"Cette description omet la partie moyenne, qui est précisément la lame la plus épaisse et la plus solide de l'ensemble."},{"t":"Trois parties : superficielle, moyenne et profonde","j":"Le découpage de l'aponévrose plantaire est transversal, d'un bord du pied à l'autre, et non étagé en profondeur."},{"t":"Quatre parties, une pour chaque compartiment musculaire","j":"L'aponévrose ne se calque pas loge par loge : sa division en parties est indépendante du nombre de compartiments musculaires de la plante."}]},
+    {"q":"La « mortaise » tibio-fibulaire qui reçoit le talus est formée par :","c":13,"options":[{"t":"La face inférieure du tibia, la surface malléolaire tibiale et la surface malléolaire fibulaire","correct":true,"j":"Le cours décrit la mortaise comme l'emboîtement de la face inférieure du tibia, prolongée par la surface de la malléole médiale, et de la surface malléolaire de la fibula."},{"t":"La face inférieure du tibia et les deux surfaces malléolaires du talus","j":"Les surfaces malléolaires du talus appartiennent à l'os mobile : elles s'appliquent dans la mortaise mais ne la constituent pas."},{"t":"La face inférieure du tibia, la surface malléolaire tibiale et la face supérieure du calcanéus","j":"Le calcanéus reste situé sous le talus : il n'offre aucune surface à la pince formée par les deux os de la jambe."},{"t":"La face inférieure du tibia, la surface malléolaire fibulaire et la membrane interosseuse","j":"La membrane interosseuse unit les diaphyses bien au-dessus de l'interligne et n'offre aucune surface cartilagineuse."}]},
+    {"q":"Selon le cours, la capsule de l'articulation talo-crurale :","c":13,"options":[{"t":"Est plus lâche en avant et en arrière, et résistante sur ses deux faces latérales","correct":true,"j":"Cette laxité antéro-postérieure laisse le talus glisser en flexion plantaire et dorsale, tandis que les renforts latéraux verrouillent les mouvements frontaux."},{"t":"Est plus lâche sur ses deux faces latérales, et résistante en avant et en arrière","j":"Inverse la répartition : les faces latérales sont les plus épaisses, et ce sont les parties antérieure et postérieure qui sont lâches."},{"t":"Est uniformément épaisse et s'insère à distance des surfaces cartilagineuses","j":"Le cours décrit au contraire une capsule d'épaisseur inégale, insérée au contour même des surfaces cartilagineuses sauf à leur partie supérieure."},{"t":"Est doublée en dedans par un fibro-cartilage interposé entre les surfaces","j":"Aucune pièce fibro-cartilagineuse n'est interposée dans la talo-crurale : seuls deux replis synoviaux, antérieur et postérieur, sont décrits."}]},
+    {"q":"Quelles structures ligamentaires limitent la flexion dorsale de la cheville ?","c":13,"options":[{"t":"Le ligament talo-fibulaire postérieur et les faisceaux postérieurs du ligament deltoïde","correct":true,"j":"Le cours écrit : « La flexion dorsale est limitée par le ligament talo-fibulaire postérieur et les fascicules postérieurs du ligament deltoïde » : ce sont les éléments postérieurs des deux plans collatéraux."},{"t":"Le ligament talo-fibulaire antérieur et les faisceaux antérieurs du ligament deltoïde","j":"Le cours ne cite pas ces faisceaux antérieurs parmi les freins de la flexion dorsale : ils appartiennent au versant antérieur des deux plans collatéraux."},{"t":"Le ligament calcanéo-fibulaire et le faisceau tibio-calcanéen du deltoïde","j":"Ces deux faisceaux descendent vers le calcanéus et contrôlent surtout les contraintes frontales, en varus et en valgus."},{"t":"Les ligaments tibio-fibulaires antérieur et postérieur de la syndesmose","j":"Ils solidarisent les deux os de la jambe entre eux et maintiennent la largeur de la mortaise, sans freiner le déplacement du talus."}]},
+    {"q":"Dans l'articulation sous-talienne, quelles sont les surfaces en présence ?","c":13,"options":[{"t":"Une surface concave sur la face inférieure du talus et une surface convexe sur le calcanéus","correct":true,"j":"Le cours décrit la facette postérieure de la face inférieure du talus comme concave, reçue par la facette postérieure convexe de la face supérieure du calcanéus."},{"t":"Une surface convexe sur la face inférieure du talus et une surface concave sur le calcanéus","j":"Inverse exactement les courbures : c'est le calcanéus qui porte la facette bombée, et le talus la cavité qui la coiffe."},{"t":"Deux surfaces planes glissant l'une sur l'autre, sans courbure ni emboîtement marqué","j":"La sous-talienne possède au contraire deux courbures nettes et complémentaires, qui guident le mouvement autour de l'axe de Henke."},{"t":"Une tête convexe du talus reçue dans une large cavité creusée par le calcanéus","j":"La tête du talus regarde en avant et appartient à l'étage articulaire antérieur du tarse, non à la facette postérieure."}]},
+    {"q":"Le ligament interosseux talo-calcanéen est situé :","c":13,"options":[{"t":"Dans le sinus du tarse, où il se dispose en deux faisceaux, antérieur et postérieur","correct":true,"j":"Le cours le place dans le sinus du tarse, entre talus et calcanéus, et lui décrit deux faisceaux, l'un antérieur et l'autre postérieur."},{"t":"Dans le sinus du tarse, où il forme un faisceau unique vertical et épais","j":"La localisation est exacte mais la description est fausse : le cours lui reconnaît deux faisceaux distincts, et non un seul."},{"t":"Sur la face latérale du calcanéus, en dehors de l'interligne sous-talien","j":"Cette situation externe et superficielle est celle d'un renfort latéral de la sous-talienne ; l'interosseux est profond, caché entre les deux os."},{"t":"Entre le sustentaculum tali et le tubercule du naviculaire, en situation plantaire","j":"Ce trajet plantaire médial est celui d'un ligament de soutien de la tête talienne, et non d'un ligament logé entre talus et calcanéus."}]},
+    {"q":"Le ligament talo-calcanéen postérieur est tendu :","c":13,"options":[{"t":"Du tubercule postéro-latéral du talus à la face supérieure du calcanéus","correct":true,"j":"Le cours lui donne pour origine le tubercule postéro-externe du processus postérieur du talus et pour terminaison la face supérieure du calcanéus."},{"t":"Du processus latéral du talus à la face latérale du calcanéus","j":"Ce trajet oblique en dehors est celui du renfort latéral de la sous-talienne, situé bien plus en avant et plus superficiellement."},{"t":"Du tubercule postéro-médial du talus à la face médiale du calcanéus","j":"Le tubercule postéro-médial borde la gouttière des tendons fléchisseurs ; aucun faisceau postérieur n'en part vers le calcanéus."},{"t":"De la face postérieure de la malléole latérale à la face supérieure du calcanéus","j":"Une origine malléolaire en ferait un ligament de la cheville, alors qu'il unit deux os du tarse entre eux."}]},
+    {"q":"Dans l'articulation talo-calcanéo-naviculaire, la tête du talus s'articule avec :","c":13,"options":[{"t":"La face postérieure concave du naviculaire et la surface antérieure du calcanéus","correct":true,"j":"Le cours associe à la tête du talus la cavité postérieure du naviculaire et la facette antérieure de la face supérieure du calcanéus."},{"t":"La face antérieure du naviculaire et la surface postérieure du calcanéus","j":"Intervertit les deux faces : le naviculaire creuse sa concavité en arrière, et la facette calcanéenne concernée est l'antérieure."},{"t":"La face postérieure concave du cuboïde et la surface antérieure du calcanéus","j":"Le cuboïde répond au calcanéus sur le versant latéral du pied, sans aucun contact avec la tête du talus."},{"t":"Les trois os cunéiformes et la face antérieure concave du naviculaire","j":"Ces surfaces appartiennent à l'étage distal du tarse, situé bien en avant de la tête talienne."}]},
+    {"q":"L'articulation transverse du tarse (Chopart) est constituée par la réunion de :","c":13,"options":[{"t":"L'articulation talo-calcanéo-naviculaire et l'articulation calcanéo-cuboïdienne","correct":true,"j":"Le cours définit l'interligne de Chopart par l'association de ces deux articulations, l'une médiale, l'autre latérale, alignées en travers du tarse."},{"t":"L'articulation sous-talienne et l'articulation calcanéo-cuboïdienne","j":"La sous-talienne est située en arrière de l'interligne de Chopart et appartient à un étage différent du tarse."},{"t":"L'articulation cunéo-naviculaire et l'articulation cubo-naviculaire","j":"Ces deux unions appartiennent à la deuxième rangée du tarse, en avant de l'interligne transverse."},{"t":"L'articulation talo-calcanéo-naviculaire et l'articulation cunéo-cuboïdienne","j":"La cunéo-cuboïdienne unit deux os de la rangée distale entre eux : elle est trop antérieure pour border l'interligne de Chopart."}]},
+    {"q":"Quel est le type de l'articulation cubo-naviculaire ?","c":13,"options":[{"t":"Une syndesmose (union fibreuse)","correct":true,"j":"Le cours précise qu'il s'agit généralement d'une syndesmose : les deux os sont unis par du tissu fibreux dense, sans cavité synoviale constante."},{"t":"Une arthrodie (synoviale plane)","j":"L'arthrodie suppose une cavité synoviale entre deux surfaces planes cartilagineuses ; ici l'union est fibreuse et le plus souvent sans synoviale."},{"t":"Une sellaire (emboîtement réciproque)","j":"Une selle suppose deux surfaces cartilagineuses à double courbure inversée ; le cours ne décrit rien de tel entre le cuboïde et le naviculaire."},{"t":"Une symphyse (fibro-cartilage)","j":"La symphyse unit deux os par un fibro-cartilage épais ; aucune pièce fibro-cartilagineuse n'est décrite entre ces deux os du tarse."}]},
+    {"q":"Quel est le type des articulations cunéo-naviculaire et intercunéiformes ?","c":13,"options":[{"t":"Des articulations planes (arthrodies), bridées par des ligaments dorsaux et plantaires","correct":true,"j":"Le cours les classe en arthrodies : la face antérieure du naviculaire et les faces en regard des cunéiformes sont planes et simplement bridées par des ligaments."},{"t":"Des articulations en selle, renforcées par des ligaments dorsaux et plantaires","j":"Aucune de ces unions ne présente la double courbure d'une selle ; leurs surfaces sont planes et n'autorisent que des glissements."},{"t":"Des trochoïdes autorisant une rotation autour d'un axe longitudinal unique","j":"Une trochoïde impose un pivot central ; ces petites unions du tarse antérieur n'offrent aucun axe de rotation défini."},{"t":"Des syndesmoses unies par du tissu fibreux dense, sans cavité articulaire","j":"Une union fibreuse sans cavité ne correspond pas à ces articulations, qui possèdent bien une synoviale et des surfaces cartilagineuses."}]},
+    {"q":"L'interligne de Lisfranc sépare les bases des métatarsiens de :","c":13,"options":[{"t":"Les trois cunéiformes et le cuboïde","correct":true,"j":"L'interligne tarso-métatarsien oppose les cinq bases métatarsiennes aux trois cunéiformes en dedans et au cuboïde en dehors."},{"t":"Les trois cunéiformes et le naviculaire","j":"Le naviculaire reste en arrière des cunéiformes : il ne vient jamais au contact des bases métatarsiennes."},{"t":"Le cuboïde et le naviculaire","j":"Ce couple laisse de côté les cunéiformes, qui forment pourtant toute la partie médiale de l'interligne."},{"t":"Les trois cunéiformes seulement","j":"Les cunéiformes ne répondent qu'aux trois premiers métatarsiens ; les deux derniers s'articulent avec un autre os du tarse distal."}]},
+    {"q":"Quel ligament réunit transversalement les articulations métatarso-phalangiennes entre elles ?","c":13,"options":[{"t":"Le ligament métatarsien transverse profond","correct":true,"j":"Il court d'une articulation métatarso-phalangienne à la suivante et solidarise l'avant-pied en reliant les rayons les uns aux autres."},{"t":"Le ligament plantaire des métatarso-phalangiennes","j":"Ce renfort n'appartient qu'à une seule articulation : il ne franchit pas l'espace qui sépare deux rayons voisins."},{"t":"Les ligaments collatéraux métatarso-phalangiens","j":"Ils sont tendus de la tête métatarsienne à la base de la phalange du même rayon, donc dans un plan longitudinal."},{"t":"Les ligaments intermétatarsiens dorsaux","j":"Ils unissent les métatarsiens par leurs bases, à l'extrémité proximale du rayon, et non au niveau des têtes."}]},
+    {"q":"Quelles surfaces osseuses forment l'articulation calcanéo-cuboïdienne ?","c":13,"options":[{"t":"La facette antérieure du calcanéus et la facette postérieure du cuboïde","correct":true,"j":"Le cours décrit cette articulation en selle entre la facette antérieure du calcanéus et la facette postérieure du cuboïde."},{"t":"La facette postérieure du calcanéus et la facette antérieure du cuboïde","j":"Intervertit les deux faces : le calcanéus offre au cuboïde sa facette antérieure, et le cuboïde la reçoit par sa face postérieure."},{"t":"La facette latérale du calcanéus et la face médiale du cuboïde","j":"Ces deux faces se regardent de côté et ne portent aucun cartilage : l'interligne est orienté d'arrière en avant."},{"t":"La trochlée fibulaire du calcanéus et la gouttière plantaire du cuboïde","j":"Ces deux reliefs servent de poulies aux tendons fibulaires et ne participent pas à la composition de l'interligne."}]},
+    {"q":"L'aponévrose profonde de la jambe envoie en profondeur des septums intermusculaires qui délimitent :","c":14,"options":[{"t":"Trois loges : antérieure, latérale et postérieure, celle-ci subdivisée par un septum transversal","correct":true,"j":"Les septums intermusculaires antérieur et postérieur gagnent la fibula et isolent trois loges ; dans la postérieure, un septum transversal sépare un plan superficiel d'un plan profond."},{"t":"Deux loges, antérieure et postérieure, séparées par la seule membrane interosseuse","j":"La membrane interosseuse unit tibia et fibula mais ne cloisonne pas la jambe : ce sont les septums issus de l'aponévrose qui créent les loges."},{"t":"Quatre loges indépendantes, fermées chacune par son propre septum intermusculaire","j":"Le cours n'en décrit que trois ; le quatrième espace n'est qu'une subdivision interne de l'une d'elles."},{"t":"Trois loges — antérieure, latérale et postérieure — la loge antérieure étant subdivisée par un septum transversal","j":"Le septum transversal existe bien, mais il partage la loge postérieure, et non la loge antérieure."}]},
+    {"q":"Le muscle tibial antérieur se termine sur :","c":14,"options":[{"t":"La face plantaire du premier cunéiforme et du premier métatarsien","correct":true,"j":"Son tendon contourne le bord médial du pied pour s'épanouir à la face plantaire du cunéiforme médial et du premier métatarsien."},{"t":"La face dorsale du naviculaire et du premier cunéiforme","j":"Le tendon reste dorsal au cou-de-pied mais bascule en plantaire pour se fixer : aucune terminaison dorsale ne lui est décrite."},{"t":"La face plantaire du cuboïde et du cunéiforme latéral","j":"Ces repères appartiennent à la moitié latérale de la plante, à l'opposé du trajet médial suivi par le tibial antérieur."},{"t":"La base de la phalange proximale du premier orteil (hallux)","j":"Le tibial antérieur s'arrête sur le tarse et le premier métatarsien : il ne franchit jamais l'articulation métatarso-phalangienne."}]},
+    {"q":"Le long extenseur des orteils se termine sur :","c":14,"options":[{"t":"Les deuxième et troisième phalanges des quatre derniers orteils","correct":true,"j":"Le cours lui fait gagner les deux dernières phalanges des orteils 2 à 5, ce qui lui permet d'étendre l'ensemble du rayon digital."},{"t":"Les phalanges distales des quatre derniers orteils uniquement","j":"Il ne se limite pas à la dernière phalange : le cours lui décrit une terminaison sur les deux dernières."},{"t":"Les phalanges proximales des quatre derniers orteils","j":"La phalange proximale est la cible des muscles intrinsèques du pied, non d'un extenseur long venu de la jambe."},{"t":"La deuxième phalange du premier orteil uniquement","j":"Cette terminaison sur le seul gros orteil est celle du long extenseur de l'hallux, son voisin de la même loge."}]},
+    {"q":"Le long fibulaire se termine sur :","c":14,"options":[{"t":"La base du premier métatarsien","correct":true,"j":"Son tendon traverse obliquement la plante du pied, de dehors en dedans, pour gagner la base du premier métatarsien."},{"t":"La face plantaire du cuboïde","j":"Le cuboïde ne fait que livrer passage au tendon dans sa gouttière plantaire : il le réfléchit mais ne l'arrête pas."},{"t":"La base de la phalange proximale de l'hallux","j":"Le tendon s'arrête au squelette métatarsien et n'atteint aucune phalange du gros orteil."},{"t":"Le tubercule du naviculaire","j":"Ce relief médial du tarse reçoit un tendon issu de la loge postérieure profonde, et non un muscle de la loge latérale."}]},
+    {"q":"Selon le cours, le troisième fibulaire — muscle inconstant, généralement fusionné au long extenseur des orteils — se termine sur :","c":14,"options":[{"t":"La base du cinquième métatarsien","correct":true,"j":"Il descend avec les extenseurs sur le dos du pied et s'ancre à l'extrémité proximale du cinquième rayon."},{"t":"La base de la phalange proximale du cinquième orteil","j":"Cette terminaison phalangienne revient aux muscles intrinsèques du bord latéral de la plante, pas à un muscle de jambe."},{"t":"La face plantaire du cuboïde","j":"Le troisième fibulaire reste dorsal sur tout son trajet : il ne gagne jamais la face plantaire du pied."},{"t":"Le tubercule du naviculaire","j":"Ce repère est médial, alors que le troisième fibulaire se dirige au contraire vers le bord latéral de l'avant-pied."}]},
+    {"q":"Le court fibulaire se termine sur :","c":14,"options":[{"t":"Le tubercule du cinquième métatarsien","correct":true,"j":"Son tendon contourne la malléole latérale et s'arrête sur la saillie proximale et latérale du cinquième métatarsien."},{"t":"La trochlée fibulaire du calcanéus","j":"Ce relief ne fait que séparer les deux tendons fibulaires dans leur coulisse : aucun des deux ne s'y termine."},{"t":"La face plantaire du cunéiforme latéral","j":"Les cunéiformes reçoivent des tendons venus de la plante ou de la loge postérieure profonde ; le court fibulaire reste latéral."},{"t":"La base de la phalange proximale du cinquième orteil","j":"Le court fibulaire s'arrête sur le squelette métatarsien sans jamais atteindre les phalanges."}]},
+    {"q":"Parmi les muscles de la loge antérieure de la jambe, lequel associe à la flexion dorsale une composante de SUPINATION ?","c":14,"options":[{"t":"Le muscle tibial antérieur","correct":true,"j":"Le cours lui attribue trois actions : flexion dorsale, adduction et supination, ce qui en fait le seul supinateur de cette loge."},{"t":"Le long extenseur des orteils","j":"Il ajoute à la flexion dorsale une abduction et une pronation, donc l'inverse exact de la supination."},{"t":"Le muscle troisième fibulaire","j":"Il complète la flexion dorsale par une pronation du pied, action opposée à celle qui est recherchée ici."},{"t":"Le long extenseur de l'hallux","j":"À la flexion dorsale il associe une adduction, mais aucune composante de supination ne lui est décrite."}]},
+    {"q":"Le muscle poplité naît :","c":14,"options":[{"t":"De la face latérale du condyle latéral du fémur, des fibres gagnant le ménisque latéral","correct":true,"j":"Le cours place son origine en arrière et au-dessous de l'épicondyle latéral, avec des fibres qui s'attachent au ménisque latéral."},{"t":"De la face médiale du condyle médial du fémur, des fibres gagnant le ménisque médial","j":"Le poplité occupe l'angle latéral du creux poplité : aucune attache médiale ne lui est décrite."},{"t":"De la face postérieure du tibia, au-dessus de la ligne oblique du soléaire","j":"C'est là qu'il se TERMINE après avoir traversé le creux poplité ; son origine, elle, est fémorale."},{"t":"De la tête de la fibula et du ligament poplité arqué, en dehors","j":"Son tendon croise ces structures et passe sous le ligament poplité arqué, mais ne s'y attache pas."}]},
+    {"q":"Quelle action le cours attribue-t-il au muscle poplité au niveau du genou ?","c":14,"options":[{"t":"Flexion et rotation interne, avec déverrouillage de l'articulation et recul du ménisque latéral","correct":true,"j":"Le cours lui confie l'amorce de la flexion par rotation interne du tibia, qui déverrouille le genou, ainsi que le recul du ménisque latéral."},{"t":"Flexion et rotation externe, avec déverrouillage de l'articulation et recul du ménisque médial","j":"Les deux composantes sont inversées : le poplité tourne le tibia en dedans et déplace le ménisque latéral."},{"t":"Extension et rotation interne, avec verrouillage de l'articulation en fin de course","j":"Le verrouillage terminal en extension résulte d'une rotation externe automatique, que le poplité combat au lieu de produire."},{"t":"Flexion du genou et flexion plantaire de la cheville, sans composante rotatoire","j":"Le poplité ne descend pas au-delà du tibia proximal : il n'exerce aucune action sur la cheville."}]},
+    {"q":"Au passage de la cheville, le tendon du long fléchisseur des orteils se situe :","c":14,"options":[{"t":"En arrière de la malléole médiale, en arrière et en dehors du tendon du tibial postérieur","correct":true,"j":"Le cours le fait passer derrière la malléole tibiale, en situation postéro-latérale par rapport au tibial postérieur, puis sur l'apex du sustentaculum tali."},{"t":"En arrière de la malléole médiale, en avant et en dedans du tendon du tibial postérieur","j":"Inverse les rapports : c'est le tibial postérieur qui occupe la position la plus antérieure et la plus médiale de la coulisse."},{"t":"En arrière de la malléole latérale, dans la coulisse des tendons fibulaires","j":"Cette coulisse rétro-malléolaire externe est réservée aux muscles de la loge latérale de la jambe."},{"t":"En avant de la malléole médiale, sous le rétinaculum des extenseurs","j":"Le passage antérieur est celui des muscles de la loge antérieure ; les fléchisseurs contournent la cheville par l'arrière."}]},
+    {"q":"Dans la plante du pied, le tendon du long fléchisseur de l'hallux croise celui du long fléchisseur des orteils. Selon le cours, il :","c":14,"options":[{"t":"Passe sur le tendon du long fléchisseur des orteils et lui abandonne un faisceau communicant","correct":true,"j":"Le cours écrit que le tendon du long fléchisseur de l'hallux « passe sur le tendon du LFO (faisceau communicant) », et décrit en miroir le LFO passant sous celui de l'hallux."},{"t":"Passe sous le tendon du long fléchisseur des orteils et lui abandonne un faisceau communicant","j":"Le faisceau communicant existe bien, mais le cours décrit le rapport inverse : c'est le long fléchisseur des orteils qui passe sous le tendon de l'hallux."},{"t":"Passe sur le tendon du long fléchisseur des orteils sans aucun échange de fibres","j":"Le rapport de position est juste, mais le cours insiste sur l'existence d'un faisceau communicant entre les deux tendons."},{"t":"Reste latéral par rapport à lui sur tout son trajet, sans jamais le croiser","j":"Les deux tendons se croisent bel et bien, celui de l'hallux venant du bord latéral pour gagner le premier orteil."}]},
+    {"q":"Le tendon du tibial postérieur se termine sur :","c":14,"options":[{"t":"Le naviculaire, le cuboïde, les cunéiformes et les bases des 2e à 4e métatarsiens","correct":true,"j":"Le cours lui décrit une terminaison étalée en éventail sur plusieurs os du tarse et sur trois bases métatarsiennes."},{"t":"Le tubercule du naviculaire et lui seul, en arrière du cunéiforme médial","j":"Le tubercule naviculaire n'est que son ancrage principal : le cours étend sa terminaison à plusieurs autres pièces osseuses."},{"t":"Les bases des phalanges distales des quatre derniers orteils","j":"Cette terminaison digitale est celle d'un fléchisseur long des orteils ; le tibial postérieur reste tarsien et métatarsien."},{"t":"La base de la phalange distale de l'hallux, après la gouttière du talus","j":"Le tibial postérieur n'atteint aucune phalange et son tendon n'est pas réservé au premier rayon."}]},
+    {"q":"Le rétinaculum inférieur des extenseurs, en forme de Y, s'insère :","c":14,"options":[{"t":"Par sa pointe sur le calcanéus, sa branche supérieure sur la malléole médiale, sa branche inférieure se prolongeant par l'aponévrose plantaire","correct":true,"j":"Le cours décrit exactement cette disposition : pied du Y sur le calcanéus en dehors, branche haute vers la malléole interne, branche basse continue avec l'aponévrose plantaire."},{"t":"Par sa pointe sur la malléole médiale, sa branche supérieure sur le calcanéus, sa branche inférieure se prolongeant par l'aponévrose plantaire","j":"Intervertit la pointe et la branche supérieure : c'est le calcanéus, en dehors, qui donne le pied du Y."},{"t":"Par sa pointe sur le calcanéus, sa branche supérieure sur la malléole latérale, sa branche inférieure se prolongeant par le fascia dorsal du pied","j":"La branche supérieure gagne la malléole médiale, et c'est l'aponévrose plantaire qui prolonge la branche inférieure."},{"t":"Par sa pointe sur le cuboïde, ses deux branches gagnant les bords antérieurs du tibia et de la fibula","j":"Ces attaches tibiale et fibulaire sont celles du rétinaculum supérieur des extenseurs, simple bande transversale sans forme en Y."}]},
+    {"q":"Le rétinaculum fibulaire supérieur est tendu :","c":14,"options":[{"t":"De la malléole latérale à la face latérale du calcanéus","correct":true,"j":"Le cours le fait partir de la malléole latérale vers l'arrière pour s'insérer sur la face latérale du calcanéus, où il plaque les tendons des long et court fibulaires, chacun pourvu de sa gaine synoviale."},{"t":"De la malléole médiale à la face médiale du calcanéus","j":"Ce trajet médial est celui du rétinaculum des fléchisseurs, qui maintient les tendons de la loge postérieure profonde."},{"t":"De la crête fibulaire du calcanéus aux bords antérieurs du tibia et de la fibula","j":"Il mêle des repères empruntés à deux autres rétinaculums, l'un fibulaire inférieur, l'autre extenseur supérieur."},{"t":"Du bord postérieur de la fibula au tendon calcanéen","j":"Aucun rétinaculum ne prend attache sur le tendon calcanéen, qui reste libre dans la région postérieure de la cheville."}]},
+    {"q":"Outre la flexion des orteils, quelle fonction le cours attribue-t-il au carré plantaire ?","c":15,"options":[{"t":"Le maintien de la voûte plantaire longitudinale du pied","correct":true,"j":"Le cours lui attribue, outre la flexion des orteils, le maintien de la voûte plantaire longitudinale, qu'il assure en redressant la traction oblique du tendon des fléchisseurs."},{"t":"Le rapprochement des orteils vers l'axe du deuxième orteil","j":"Le carré plantaire se termine sur le tendon des fléchisseurs et n'a aucune attache propre sur le squelette des orteils : il ne peut les rapprocher les uns des autres."},{"t":"L'écartement du cinquième orteil par rapport à l'axe du pied","j":"Cette abduction du petit orteil est l'œuvre d'un muscle propre au bord latéral de la plante."},{"t":"L'extension des phalanges distales par l'expansion dorsale","j":"Cette action passe par l'appareil extenseur dorsal, auquel le carré plantaire n'envoie aucune expansion."}]}
   ],
   "processusBio1": [
     {
@@ -20251,15 +22959,15 @@ const QUESTIONS = {
       "options": [
         {
           "t": "Maintenir la forme de la cellule",
-          "j": "Vrai, mais partiel."
+          "j": "Vrai : les filaments du cytosquelette donnent à la cellule sa forme. Mais ce n'est pas sa seule fonction."
         },
         {
           "t": "Maintenir l'organisation interne de la cellule",
-          "j": "Vrai, mais partiel."
+          "j": "Vrai : il ancre et positionne les organites dans le cytoplasme. Là encore, ce n'est pas la seule réponse exacte."
         },
         {
           "t": "Produire des mouvements cellulaires",
-          "j": "Vrai, mais partiel."
+          "j": "Vrai : il engendre les mouvements cellulaires, des cils à la migration. Une autre proposition l'est aussi."
         },
         {
           "t": "Toutes les réponses sont correctes",
@@ -20274,15 +22982,15 @@ const QUESTIONS = {
       "options": [
         {
           "t": "Elles ont des tailles variables",
-          "j": "Vrai, mais partiel."
+          "j": "Vrai : leur taille varie d'une mitochondrie à l'autre. Mais ce n'est pas la seule affirmation exacte."
         },
         {
           "t": "La localisation cellulaire varie d'une cellule à l'autre",
-          "j": "Vrai, mais partiel."
+          "j": "Vrai : elles se concentrent là où la cellule consomme de l'énergie. Ce n'est pas la seule exacte non plus."
         },
         {
           "t": "La quantité de mitochondries par cellule varie d'une cellule à l'autre",
-          "j": "Vrai, mais partiel."
+          "j": "Vrai : leur nombre suit l'activité métabolique de la cellule. Une autre proposition est exacte elle aussi."
         },
         {
           "t": "Toutes les réponses sont correctes",
@@ -21493,7 +24201,7 @@ const QUESTIONS = {
       "options": [
         {
           "t": "Lire plusieurs ARNm en même temps",
-          "j": "Il lit un seul ARNm."
+          "j": "Un polyribosome ne lit qu'un seul ARNm, garni de plusieurs ribosomes à la file."
         },
         {
           "t": "Faire différents types de protéines simultanément",
@@ -21648,31 +24356,581 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"De quoi est constitué un NUCLÉOTIDE, unité répétitive des acides nucléiques ?","c":1,"options":[{"t":"Une base azotée, un glucide et un groupe phosphate","correct":true,"j":"Le cours définit le nucléotide comme l'association d'une base azotée, d'un glucide et d'un groupe phosphate ; les acides nucléiques contiennent donc C, H, O, N et P."},{"t":"Une base azotée et un glucide, sans groupe phosphate","j":"Sans groupe phosphate, l'ensemble base azotée + glucide ne peut pas s'enchaîner pour former la chaîne d'un acide nucléique."},{"t":"Un acide aminé, un glucide et un groupe phosphate","j":"L'acide aminé, avec son groupe aminé et son groupe carboxyle, est le monomère des protéines et non des acides nucléiques."},{"t":"Une base azotée, un glycérol et un groupe phosphate","j":"Le glycérol entre dans la composition des triglycérides et des phospholipides ; le nucléotide contient un glucide, pas un glycérol."}]},
-    {"q":"Quelle liaison stabilise l'appariement des bases entre les deux brins de l'ADN ?","c":1,"options":[{"t":"Des liaisons ioniques entre les groupes phosphate","j":"Les groupes phosphate, chargés négativement, sont tournés vers l'extérieur de l'hélice et se repoussent ; aucune liaison ionique n'apparie les bases."},{"t":"Des liaisons hydrogène, de nature non covalente","correct":true,"j":"Le cours précise que la double hélice dextrogyre est stabilisée par des liaisons hydrogène, non covalentes, entre chaque paire de bases complémentaires A-T et G-C."},{"t":"Des liaisons phosphodiester, de nature covalente","j":"La liaison phosphodiester est covalente et relie les nucléotides successifs le long d'un même brin ; elle n'unit pas les deux brins entre eux."},{"t":"Des liaisons glycosidiques entre les pentoses","j":"La liaison glycosidique unit les monosaccharides entre eux dans les glucides ; elle n'intervient pas dans l'appariement des bases azotées."}]},
-    {"q":"Quelle composition correspond à celle d'un PHOSPHOLIPIDE ?","c":1,"options":[{"t":"Un noyau stéroïde dépourvu d'acide gras","j":"Le cholestérol est le lipide d'importance biologique dépourvu d'acide gras ; il est structurel mais n'est pas un phospholipide."},{"t":"Un glycérol uni à deux groupes polaires","j":"Un phospholipide ne comporte qu'une seule tête polaire : c'est l'association d'un pôle polaire et de deux chaînes hydrophobes qui le rend amphipathique."},{"t":"Un groupe polaire uni à deux acides gras","correct":true,"j":"Le cours décrit le phospholipide comme un groupe polaire associé à deux acides gras, ce qui lui donne son caractère amphipathique membranaire."},{"t":"Un glycérol uni à trois acides gras","j":"Glycérol et trois acides gras correspondent au triglycéride, forme de stockage de l'énergie dans les cellules adipeuses."}]},
-    {"q":"Quel glucide constitue la forme de stockage de l'énergie dans les cellules animales ?","c":1,"options":[{"t":"L'amidon, polymère de glucose","j":"L'amidon assure la même fonction de réserve, mais dans les cellules végétales et non dans les cellules animales."},{"t":"La cellulose, polymère de glucose","j":"La cellulose est un polysaccharide à rôle structurel, partie intégrante des cellules végétales."},{"t":"Le saccharose, disaccharide de glucose et de fructose","j":"Le saccharose est un disaccharide et non un polysaccharide de réserve des cellules animales."},{"t":"Le glycogène, polymère de glucose","correct":true,"j":"Le glycogène, polysaccharide formé de monomères de glucose, est la forme de stockage de l’énergie des cellules animales."}]},
-    {"q":"La structure QUATERNAIRE d'une protéine correspond à…","c":1,"options":[{"t":"La disposition de plusieurs chaînes polypeptidiques entre elles","correct":true,"j":"Le cours définit la structure quaternaire comme la disposition de deux ou plusieurs chaînes polypeptidiques les unes par rapport aux autres."},{"t":"La forme tridimensionnelle d'une seule chaîne polypeptidique","j":"C'est la définition de la structure tertiaire : la forme tridimensionnelle prise par la chaîne polypeptidique."},{"t":"Le repliement répété d'acides aminés adjacents de la chaîne","j":"Il s'agit de la structure secondaire, torsion ou repliement répété des acides aminés adjacents de la chaîne polypeptidique."},{"t":"La séquence d'acides aminés déterminée génétiquement","j":"C'est la structure primaire, déterminée génétiquement ; toute modification de cette séquence peut avoir de graves conséquences cellulaires."}]},
-    {"q":"Quelle association protéine-fonction est CORRECTE ?","c":1,"options":[{"t":"Immunoglobulines – fonction de réserve","j":"Les immunoglobulines ont une fonction protectrice ; la protéine de réserve citée par le cours est l'ovalbumine."},{"t":"Hémoglobine – fonction de transport","correct":true,"j":"Le cours classe l'hémoglobine, avec les lipoprotéines, parmi les protéines à fonction de transport."},{"t":"Collagène – fonction contractile","j":"Le collagène a une fonction de structure ; la fonction contractile est assurée par l'actine et la myosine."},{"t":"Lactase – fonction hormonale","j":"La lactase est une enzyme : sa fonction est enzymatique ; la fonction hormonale est illustrée par l'insuline."}]},
-    {"q":"Dans la molécule d’ATP, l’hydrolyse de quelle liaison libère les 30,6 kJ par mole utilisés par la cellule ?","c":10,"options":[{"t":"Entre le ribose et le premier groupe phosphate","j":"Le premier groupe phosphate est relié au ribose par une liaison phospho-ester, qui n'est pas la liaison à haute énergie."},{"t":"Entre l'adénine et le ribose du nucléotide","j":"L'adénine et le ribose forment la partie nucléosidique de l'ATP ; leur liaison n'est pas riche en énergie."},{"t":"Entre le deuxième et le troisième groupe phosphate","correct":true,"j":"La liaison entre le 2e et le 3e groupe phosphate est la liaison à haute énergie de l’ATP : son hydrolyse libère 30,6 kJ par mole."},{"t":"Entre le premier et le deuxième groupe phosphate","j":"L’hydrolyse de cette liaison libérerait de l’AMP et du pyrophosphate ; ce n’est pas la réaction à 30,6 kJ/mol, qui est l’hydrolyse de l’ATP en ADP + Pi."}]},
-    {"q":"Les réactions ANABOLIQUES de la cellule se caractérisent par le fait que…","c":10,"options":[{"t":"Elles sont exergoniques et fournissent l'ATP utilisé par le catabolisme","j":"Ce sont les réactions cataboliques qui sont exergoniques et qui stockent l'énergie libérée sous forme d'ATP."},{"t":"Elles dégradent les nutriments organiques en produits simples et en déchets","j":"La dégradation des nutriments organiques en produits simples définit le catabolisme, et non l'anabolisme."},{"t":"Elles libèrent sous forme de chaleur l'énergie des liaisons des nutriments","j":"Une part de l'énergie est bien perdue en chaleur, mais lors du catabolisme ; ce n'est pas une caractéristique de l'anabolisme."},{"t":"Elles sont endergoniques et consomment l'ATP produit par le catabolisme","correct":true,"j":"Le cours décrit l'anabolisme comme l'ensemble des réactions endothermiques qui forment les composants structurels de la cellule en consommant de l'ATP."}]},
-    {"q":"Un sujet consomme 150 litres d'oxygène au cours d'un exercice. Avec un équivalent énergétique de l'oxygène de 20,2 kJ/L, quelle énergie a-t-il dépensée ?","c":10,"options":[{"t":"Environ 3 030 kJ","correct":true,"j":"La calorimétrie indirecte donne E = V(O2) × Ee, soit 150 L × 20,2 kJ/L = 3 030 kJ."},{"t":"Environ 1 515 kJ","j":"Cette valeur correspondrait à un équivalent énergétique de 10,1 kJ/L, soit la moitié de la valeur moyenne établie à 20,2 kJ/L."},{"t":"Environ 2 580 kJ","j":"Ce résultat s'obtient en multipliant par 17,2, qui est le contenu énergétique des glucides en kJ/g et non l'équivalent énergétique de l'oxygène."},{"t":"Environ 5 835 kJ","j":"Ce résultat s'obtient en multipliant par 38,9, qui est le contenu énergétique des graisses en kJ/g et non l'équivalent énergétique de l'oxygène."}]},
-    {"q":"Pourquoi la combustion du glucose dans la cellule s'effectue-t-elle par une longue suite de réactions catalysées par des enzymes ?","c":10,"options":[{"t":"Parce que le fractionnement en étapes supprime toute énergie d'activation","j":"Chaque étape de la glycolyse conserve sa propre énergie d'activation, simplement abaissée par l'enzyme qui la catalyse."},{"t":"Pour extraire l'énergie par étapes et éviter une hausse brutale de température","correct":true,"j":"Le cours explique que la combustion séquentielle permet d'extraire l'énergie du glucose en évitant une libération brusque de chaleur, qui serait fatale à la cellule."},{"t":"Pour extraire la totalité de l'énergie chimique contenue dans le glucose","j":"Le cours rappelle au contraire qu'il est impossible d'extraire 100 % de l'énergie chimique d'une molécule : une part est toujours perdue en chaleur."},{"t":"Parce qu'une enzyme unique ne peut abaisser l'énergie d'activation du glucose","j":"Les enzymes abaissent l'énergie d'activation de chaque réaction qu'elles catalysent ; le fractionnement n'est pas imposé par une limite de la catalyse."}]},
-    {"q":"Comment qualifie-t-on les parois d'un système qui ne permettent AUCUN échange thermique ?","c":11,"options":[{"t":"Des parois imperméables","j":"Une paroi imperméable interdit l'échange de matière, mais pas nécessairement celui de chaleur."},{"t":"Des parois rigides ou fixes","j":"Une paroi rigide ou fixe interdit toute variation de volume du système, indépendamment des échanges thermiques."},{"t":"Des parois adiabatiques","correct":true,"j":"Le cours appelle adiabatiques les parois qui ne permettent pas les échanges thermiques entre le système et son environnement."},{"t":"Des parois diathermiques","j":"Les parois diathermiques sont celles qui, à l'inverse, permettent les échanges de chaleur."}]},
-    {"q":"L'ÉNERGIE INTERNE (U) d'un système thermodynamique est définie comme…","c":11,"options":[{"t":"La quantité de chaleur que le système échange avec son milieu","j":"La chaleur Q est une énergie en transit entre le système et le milieu ; ce n'est pas une fonction d'état comme l'énergie interne."},{"t":"La part de l'énergie du système inutilisable pour un travail","j":"Cette formulation correspond à l'entropie, part de l'énergie non utilisable pour effectuer un travail par unité de température."},{"t":"Le travail maximal que le système peut fournir au milieu","j":"Le travail W est l'une des deux grandeurs d'échange du premier principe ; il ne définit pas l'énergie interne du système."},{"t":"La somme des énergies de toutes les particules du système","correct":true,"j":"Le cours définit U comme une fonction d'état égale à la somme des énergies de toutes les particules du système, mesurée en joules."}]},
-    {"q":"Chez une personne dont le bilan énergétique est nul (ΔU = 0), que peut-on affirmer ?","c":11,"options":[{"t":"L'énergie des nutriments égale le travail fourni plus la chaleur dissipée","correct":true,"j":"Si ΔU = 0, le bilan donne Unutriments = W − Q ; la chaleur dissipée par le corps étant comptée négativement (Q < 0), l’apport alimentaire compense exactement le travail effectué et la chaleur dissipée."},{"t":"L'énergie des nutriments dépasse le travail fourni et la chaleur dissipée","j":"Un apport supérieur aux dépenses correspond à ΔU > 0 : le corps gagne de l'énergie interne, le bilan n'est donc pas nul."},{"t":"Le travail fourni est réalisé aux dépens de l'énergie interne de l'organisme","j":"C'est la situation ΔU < 0, où le travail est réalisé en puisant dans l'énergie interne du corps."},{"t":"L'organisme ne dissipe plus de chaleur puisque son énergie interne est stable","j":"Tout travail effectué par le corps dissipe de la chaleur ; cette dissipation existe quel que soit le signe du bilan énergétique."}]},
-    {"q":"Quel est l'ordre de grandeur du rendement du corps humain lorsqu'il effectue un travail ?","c":11,"options":[{"t":"Il est de 100 %, puisque l'énergie totale se conserve","j":"La conservation de l'énergie n'implique pas un rendement de 100 % : l'énoncé de Kelvin interdit de convertir intégralement la chaleur en travail."},{"t":"Il dépasse rarement 30 %, le reste étant dissipé en chaleur","correct":true,"j":"Le cours indique que les rendements du corps humain sont faibles et atteignent rarement 30 %, le reste de l'énergie étant dissipé sous forme de chaleur."},{"t":"Il avoisine 50 %, le reste étant dissipé en chaleur","j":"Une valeur de 50 % surestime largement le rendement biologique décrit par le cours."},{"t":"Il atteint 70 %, le reste étant stocké sous forme d'ATP","j":"L'énergie non convertie en travail est perdue sous forme de chaleur et non restockée dans de l'ATP."}]},
-    {"q":"Selon le deuxième principe, lequel de ces processus ne peut PAS se produire spontanément ?","c":11,"options":[{"t":"La dissolution d'un cristal de sel dans un volume d'eau","j":"La dissolution du sel dans l'eau est citée comme processus naturel spontané, qui augmente le désordre du système."},{"t":"La chute libre d'un corps vers une position plus basse","j":"La chute libre figure parmi les exemples de processus spontanés compatibles avec le deuxième principe."},{"t":"Le passage de chaleur d'un corps froid vers un corps plus chaud","correct":true,"j":"Le deuxième principe, dans la formulation rapportée par le cours, interdit le passage spontané de la chaleur d'un corps froid vers un corps chaud."},{"t":"Le passage de chaleur d'un corps chaud vers un corps plus froid","j":"C'est précisément le sens spontané du flux de chaleur, donné en exemple de processus possible dans le cours."}]},
-    {"q":"Que mesure l'ENTROPIE (S) d'un système thermodynamique ?","c":11,"options":[{"t":"La quantité totale d'énergie que contiennent les particules du système","j":"L'énergie totale des particules du système définit l'énergie interne U et non l'entropie."},{"t":"La quantité de chaleur dégagée par le système vers l'environnement","j":"La chaleur dégagée est Q, une grandeur d'échange ; elle n'intervient dans ΔS que divisée par la température absolue."},{"t":"La proportion d'énergie convertible en travail à volume constant","j":"L'entropie quantifie au contraire la part de l'énergie qui n'est pas convertible en travail."},{"t":"Le degré d'organisation du système et sa part d'énergie inexploitable","correct":true,"j":"Le cours définit l'entropie comme une fonction d'état mesurant le degré d'organisation du système, égale à la part de son énergie qui ne peut pas produire de travail."}]},
-    {"q":"Comment un organisme vivant maintient-il son organisation sans contredire le deuxième principe ?","c":11,"options":[{"t":"Il consomme de l'énergie et augmente l'entropie du milieu qui l'entoure","correct":true,"j":"Le cours précise qu'une cellule dépense beaucoup d'énergie pour rester ordonnée : son entropie peut diminuer à condition que celle du milieu environnant augmente."},{"t":"Il constitue un système isolé auquel le deuxième principe ne s'applique pas","j":"Le corps humain est au contraire un système ouvert, qui échange matière et énergie avec son environnement."},{"t":"Il réalise ses réactions enzymatiques sans aucune variation d'entropie","j":"Toute transformation réelle, y compris enzymatique, s'accompagne d'une variation d'entropie ; les enzymes n'en dispensent pas."},{"t":"Il maintient constante l'entropie totale de l'univers tant qu'il vit","j":"Selon le deuxième principe, l'entropie totale de l'univers doit augmenter, et non rester constante."}]},
-    {"q":"Le flux de chaleur émis par un corps par rayonnement est proportionnel à…","c":13,"options":[{"t":"La racine carrée de sa température absolue en kelvins","j":"La loi de Stefan fait intervenir une puissance de la température, non une racine : le flux émis augmente fortement, et non lentement, avec elle."},{"t":"La quatrième puissance de sa température absolue en kelvins","correct":true,"j":"La loi de Stefan donnée par le cours s'écrit Hre = εσATe⁴ : le flux émis varie comme la puissance quatrième de la température absolue du corps."},{"t":"La différence de température avec le milieu ambiant","j":"Ce sont les flux par conduction et par convection qui sont proportionnels à ΔT ; le flux émis par rayonnement ne dépend que de la température du corps."},{"t":"Le carré de sa température absolue exprimée en kelvins","j":"L'exposant de la température dans la loi de Stefan est 4 et non 2, ce qui rend le rayonnement très sensible à la température du corps."}]},
-    {"q":"Combien de phases de réplication de l'ADN (phase S) la méiose humaine comporte-t-elle ?","c":16,"options":[{"t":"Deux, toutes les deux avant la première division","j":"Deux réplications consécutives avant la méiose I donneraient des chromosomes à quatre chromatides, qui ne correspondent à aucune étape de la méiose."},{"t":"Aucune, les chromosomes étant dupliqués dès la naissance","j":"Les cellules germinales répliquent bien leur ADN avant d'entrer en méiose ; aucune duplication n'est acquise une fois pour toutes."},{"t":"Une seule, très longue, qui précède la première division","correct":true,"j":"La méiose ne comporte qu'une seule phase S, qui précède la méiose I ; les deux divisions successives s'enchaînent ensuite sans nouvelle réplication."},{"t":"Deux, une avant chacune des deux divisions de méiose","j":"Deux phases S indépendantes doubleraient le matériel génétique, ce qui est incompatible avec la réduction chromosomique de la méiose."}]},
-    {"q":"Au cours de quelle étape de la méiose les chromosomes homologues s'apparient-ils et échangent-ils des segments ?","c":16,"options":[{"t":"La métaphase de la première division","j":"En métaphase I, les bivalents déjà constitués se placent sur la plaque équatoriale ; les échanges de segments ont eu lieu auparavant."},{"t":"La prophase de la seconde division","j":"En prophase II, les cellules sont déjà haploïdes et ne contiennent plus de paires d'homologues susceptibles de s'apparier."},{"t":"L'anaphase de la seconde division","j":"L'anaphase II ne sépare que les chromatides sœurs de chaque chromosome, sans aucun échange de matériel génétique."},{"t":"La prophase de la première division","correct":true,"j":"L'appariement des homologues en bivalents et les crossing-over qui en découlent se déroulent en prophase I, seule étape où la recombinaison est possible."}]},
-    {"q":"Que sépare l'ANAPHASE I de la méiose ?","c":16,"options":[{"t":"Les chromosomes homologues, qui gardent leurs deux chromatides","correct":true,"j":"L'anaphase I réalise la réduction chromosomique en séparant les deux chromosomes de chaque paire d'homologues, chacun restant formé de deux chromatides."},{"t":"Les chromatides sœurs de chacun des chromosomes dupliqués","j":"La séparation des chromatides sœurs est caractéristique de l'anaphase II, ou de l'anaphase de mitose, mais pas de l'anaphase I."},{"t":"Les deux brins complémentaires de la double hélice d'ADN","j":"La séparation des deux brins de la double hélice relève de la réplication de l'ADN en phase S, et non d'une anaphase."},{"t":"Les quatre chromatides de chaque bivalent, réparties une par pôle","j":"Chaque pôle reçoit un chromosome homologue entier, soit deux chromatides ; les quatre chromatides d’un bivalent ne sont pas réparties individuellement."}]},
-    {"q":"À l'issue de la méiose, que contient chaque cellule fille chez l'être humain ?","c":16,"options":[{"t":"46 chromosomes constitués de deux chromatides","j":"Cette formule décrit une cellule diploïde ayant achevé sa phase S, c'est-à-dire la cellule qui entre en méiose."},{"t":"23 chromosomes constitués d'une seule chromatide","correct":true,"j":"Les quatre cellules filles de la méiose sont haploïdes : 23 chromosomes à une chromatide, qui reconstitueront 46 chromosomes lors de la fécondation."},{"t":"23 chromosomes constitués de deux chromatides","j":"C'est l'état des cellules issues de la méiose I : déjà haploïdes, mais encore formées de chromosomes à deux chromatides."},{"t":"46 chromosomes constitués d'une seule chromatide","j":"Cette formule correspond à une cellule somatique à l’issue d’une mitose : elle est diploïde, et non haploïde comme un gamète."}]},
-    {"q":"Outre les crossing-over, quel événement de la méiose crée de nouvelles combinaisons de chromosomes parentaux dans les gamètes ?","c":16,"options":[{"t":"La séparation des chromatides sœurs de chaque chromosome en anaphase II","j":"L'anaphase II ne fait que répartir des chromatides sœurs, génétiquement identiques en dehors des recombinaisons antérieures."},{"t":"La réplication semi-conservative de l'ADN au cours de la phase S","j":"La réplication en phase S copie fidèlement l'ADN et ne crée par elle-même aucune nouvelle combinaison d'allèles."},{"t":"La répartition au hasard des homologues de chaque paire en anaphase I","correct":true,"j":"La migration indépendante, vers l’un ou l’autre pôle, des deux chromosomes de chaque paire d’homologues en anaphase I produit des assortiments nouveaux de chromosomes parentaux."},{"t":"L'échange de segments entre chromatides homologues en prophase I","j":"Les crossing-over de la prophase I recombinent les allèles à l’intérieur d’une même paire d’homologues ; l’énoncé les met précisément de côté."}]},
-    {"q":"Quelle particularité distingue l'ovogenèse de la spermatogenèse ?","c":16,"options":[{"t":"Quatre gamètes fonctionnels sont produits par cellule entrant en méiose","j":"C'est le cas de la spermatogenèse, où chaque spermatocyte I donne quatre spermatozoïdes fonctionnels."},{"t":"Les divisions y sont égales et donnent quatre ovocytes de même taille","j":"Les divisions de l'ovogenèse sont au contraire très asymétriques, l'ovocyte conservant la quasi-totalité du cytoplasme."},{"t":"Elle ne comporte qu'une seule division de méiose au lieu de deux","j":"L'ovogenèse comporte bien les deux divisions de méiose, même si la seconde ne s'achève qu'après la fécondation."},{"t":"Une seule cellule fonctionnelle est produite, avec des globules polaires","correct":true,"j":"La méiose féminine est inégale : chaque ovocyte I ne donne qu'un seul gamète fonctionnel, le reste du matériel étant éliminé dans les globules polaires."}]},
-    {"q":"Que produit une non-disjonction des chromosomes homologues en anaphase I ?","c":16,"options":[{"t":"Des gamètes dont l'un des chromosomes présente une délétion","j":"Une délétion est la perte d'un segment à l'intérieur d'un chromosome, et non la perte ou le gain d'un chromosome entier."},{"t":"Des gamètes aneuploïdes, avec un chromosome en trop ou en moins","correct":true,"j":"Si les deux homologues migrent vers le même pôle, les gamètes obtenus possèdent un chromosome surnuméraire ou manquant : ils sont aneuploïdes."},{"t":"Des gamètes diploïdes porteurs des 46 chromosomes de la cellule mère","j":"Un gamète à 46 chromosomes résulterait de l’échec global de la première division de méiose, et non de la non-disjonction d’une seule paire d’homologues."},{"t":"Des gamètes porteurs d'une translocation entre deux chromosomes","j":"Une translocation est un remaniement de structure provenant d'un échange entre chromosomes non homologues, indépendant de la disjonction."}]}
+    {
+      "q": "De quoi est constitué un NUCLÉOTIDE, unité répétitive des acides nucléiques ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Une base azotée, un glucide et un groupe phosphate",
+          "correct": true,
+          "j": "Le cours définit le nucléotide comme l'association d'une base azotée, d'un glucide et d'un groupe phosphate ; les acides nucléiques contiennent donc C, H, O, N et P."
+        },
+        {
+          "t": "Une base azotée et un glucide, sans groupe phosphate",
+          "j": "Sans groupe phosphate, l'ensemble base azotée + glucide ne peut pas s'enchaîner pour former la chaîne d'un acide nucléique."
+        },
+        {
+          "t": "Un acide aminé, un glucide et un groupe phosphate",
+          "j": "L'acide aminé, avec son groupe aminé et son groupe carboxyle, est le monomère des protéines et non des acides nucléiques."
+        },
+        {
+          "t": "Une base azotée, un glycérol et un groupe phosphate",
+          "j": "Le glycérol entre dans la composition des triglycérides et des phospholipides ; le nucléotide contient un glucide, pas un glycérol."
+        }
+      ]
+    },
+    {
+      "q": "Quelle liaison stabilise l'appariement des bases entre les deux brins de l'ADN ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Des liaisons ioniques entre les groupes phosphate",
+          "j": "Les groupes phosphate, chargés négativement, sont tournés vers l'extérieur de l'hélice et se repoussent ; aucune liaison ionique n'apparie les bases."
+        },
+        {
+          "t": "Des liaisons hydrogène, de nature non covalente",
+          "correct": true,
+          "j": "Le cours précise que la double hélice dextrogyre est stabilisée par des liaisons hydrogène, non covalentes, entre chaque paire de bases complémentaires A-T et G-C."
+        },
+        {
+          "t": "Des liaisons phosphodiester, de nature covalente",
+          "j": "La liaison phosphodiester est covalente et relie les nucléotides successifs le long d'un même brin ; elle n'unit pas les deux brins entre eux."
+        },
+        {
+          "t": "Des liaisons glycosidiques entre les pentoses",
+          "j": "La liaison glycosidique unit les monosaccharides entre eux dans les glucides ; elle n'intervient pas dans l'appariement des bases azotées."
+        }
+      ]
+    },
+    {
+      "q": "Quelle composition correspond à celle d'un PHOSPHOLIPIDE ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Un noyau stéroïde dépourvu d'acide gras",
+          "j": "Le cholestérol est le lipide d'importance biologique dépourvu d'acide gras ; il est structurel mais n'est pas un phospholipide."
+        },
+        {
+          "t": "Un glycérol uni à deux groupes polaires",
+          "j": "Un phospholipide ne comporte qu'une seule tête polaire : c'est l'association d'un pôle polaire et de deux chaînes hydrophobes qui le rend amphipathique."
+        },
+        {
+          "t": "Un groupe polaire uni à deux acides gras",
+          "correct": true,
+          "j": "Le cours décrit le phospholipide comme un groupe polaire associé à deux acides gras, ce qui lui donne son caractère amphipathique membranaire."
+        },
+        {
+          "t": "Un glycérol uni à trois acides gras",
+          "j": "Glycérol et trois acides gras correspondent au triglycéride, forme de stockage de l'énergie dans les cellules adipeuses."
+        }
+      ]
+    },
+    {
+      "q": "Quel glucide constitue la forme de stockage de l'énergie dans les cellules animales ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "L'amidon, polymère de glucose",
+          "j": "L'amidon assure la même fonction de réserve, mais dans les cellules végétales et non dans les cellules animales."
+        },
+        {
+          "t": "La cellulose, polymère de glucose",
+          "j": "La cellulose est un polysaccharide à rôle structurel, partie intégrante des cellules végétales."
+        },
+        {
+          "t": "Le saccharose, disaccharide de glucose et de fructose",
+          "j": "Le saccharose est un disaccharide et non un polysaccharide de réserve des cellules animales."
+        },
+        {
+          "t": "Le glycogène, polymère de glucose",
+          "correct": true,
+          "j": "Le glycogène, polysaccharide formé de monomères de glucose, est la forme de stockage de l’énergie des cellules animales."
+        }
+      ]
+    },
+    {
+      "q": "La structure QUATERNAIRE d'une protéine correspond à…",
+      "c": 1,
+      "options": [
+        {
+          "t": "La disposition de plusieurs chaînes polypeptidiques entre elles",
+          "correct": true,
+          "j": "Le cours définit la structure quaternaire comme la disposition de deux ou plusieurs chaînes polypeptidiques les unes par rapport aux autres."
+        },
+        {
+          "t": "La forme tridimensionnelle d'une seule chaîne polypeptidique",
+          "j": "C'est la définition de la structure tertiaire : la forme tridimensionnelle prise par la chaîne polypeptidique."
+        },
+        {
+          "t": "Le repliement répété d'acides aminés adjacents de la chaîne",
+          "j": "Il s'agit de la structure secondaire, torsion ou repliement répété des acides aminés adjacents de la chaîne polypeptidique."
+        },
+        {
+          "t": "La séquence d'acides aminés déterminée génétiquement",
+          "j": "C'est la structure primaire, déterminée génétiquement ; toute modification de cette séquence peut avoir de graves conséquences cellulaires."
+        }
+      ]
+    },
+    {
+      "q": "Quelle association protéine-fonction est CORRECTE ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Immunoglobulines – fonction de réserve",
+          "j": "Les immunoglobulines ont une fonction protectrice ; la protéine de réserve citée par le cours est l'ovalbumine."
+        },
+        {
+          "t": "Hémoglobine – fonction de transport",
+          "correct": true,
+          "j": "Le cours classe l'hémoglobine, avec les lipoprotéines, parmi les protéines à fonction de transport."
+        },
+        {
+          "t": "Collagène – fonction contractile",
+          "j": "Le collagène a une fonction de structure ; la fonction contractile est assurée par l'actine et la myosine."
+        },
+        {
+          "t": "Lactase – fonction hormonale",
+          "j": "La lactase est une enzyme : sa fonction est enzymatique ; la fonction hormonale est illustrée par l'insuline."
+        }
+      ]
+    },
+    {
+      "q": "Dans la molécule d’ATP, l’hydrolyse de quelle liaison libère les 30,6 kJ par mole utilisés par la cellule ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Entre le ribose et le premier groupe phosphate",
+          "j": "Le premier groupe phosphate est relié au ribose par une liaison phospho-ester, qui n'est pas la liaison à haute énergie."
+        },
+        {
+          "t": "Entre l'adénine et le ribose du nucléotide",
+          "j": "L'adénine et le ribose forment la partie nucléosidique de l'ATP ; leur liaison n'est pas riche en énergie."
+        },
+        {
+          "t": "Entre le deuxième et le troisième groupe phosphate",
+          "correct": true,
+          "j": "La liaison entre le 2e et le 3e groupe phosphate est la liaison à haute énergie de l’ATP : son hydrolyse libère 30,6 kJ par mole."
+        },
+        {
+          "t": "Entre le premier et le deuxième groupe phosphate",
+          "j": "L’hydrolyse de cette liaison libérerait de l’AMP et du pyrophosphate ; ce n’est pas la réaction à 30,6 kJ/mol, qui est l’hydrolyse de l’ATP en ADP + Pi."
+        }
+      ]
+    },
+    {
+      "q": "Les réactions ANABOLIQUES de la cellule se caractérisent par le fait que…",
+      "c": 10,
+      "options": [
+        {
+          "t": "Elles sont exergoniques et fournissent l'ATP utilisé par le catabolisme",
+          "j": "Ce sont les réactions cataboliques qui sont exergoniques et qui stockent l'énergie libérée sous forme d'ATP."
+        },
+        {
+          "t": "Elles dégradent les nutriments organiques en produits simples et en déchets",
+          "j": "La dégradation des nutriments organiques en produits simples définit le catabolisme, et non l'anabolisme."
+        },
+        {
+          "t": "Elles libèrent sous forme de chaleur l'énergie des liaisons des nutriments",
+          "j": "Une part de l'énergie est bien perdue en chaleur, mais lors du catabolisme ; ce n'est pas une caractéristique de l'anabolisme."
+        },
+        {
+          "t": "Elles sont endergoniques et consomment l'ATP produit par le catabolisme",
+          "correct": true,
+          "j": "Le cours décrit l'anabolisme comme l'ensemble des réactions endothermiques qui forment les composants structurels de la cellule en consommant de l'ATP."
+        }
+      ]
+    },
+    {
+      "q": "Un sujet consomme 150 litres d'oxygène au cours d'un exercice. Avec un équivalent énergétique de l'oxygène de 20,2 kJ/L, quelle énergie a-t-il dépensée ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Environ 3 030 kJ",
+          "correct": true,
+          "j": "La calorimétrie indirecte donne E = V(O2) × Ee, soit 150 L × 20,2 kJ/L = 3 030 kJ."
+        },
+        {
+          "t": "Environ 1 515 kJ",
+          "j": "Cette valeur correspondrait à un équivalent énergétique de 10,1 kJ/L, soit la moitié de la valeur moyenne établie à 20,2 kJ/L."
+        },
+        {
+          "t": "Environ 2 580 kJ",
+          "j": "Ce résultat s'obtient en multipliant par 17,2, qui est le contenu énergétique des glucides en kJ/g et non l'équivalent énergétique de l'oxygène."
+        },
+        {
+          "t": "Environ 5 835 kJ",
+          "j": "Ce résultat s'obtient en multipliant par 38,9, qui est le contenu énergétique des graisses en kJ/g et non l'équivalent énergétique de l'oxygène."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi la combustion du glucose dans la cellule s'effectue-t-elle par une longue suite de réactions catalysées par des enzymes ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Parce que le fractionnement en étapes supprime toute énergie d'activation",
+          "j": "Chaque étape de la glycolyse conserve sa propre énergie d'activation, simplement abaissée par l'enzyme qui la catalyse."
+        },
+        {
+          "t": "Pour extraire l'énergie par étapes et éviter une hausse brutale de température",
+          "correct": true,
+          "j": "Le cours explique que la combustion séquentielle permet d'extraire l'énergie du glucose en évitant une libération brusque de chaleur, qui serait fatale à la cellule."
+        },
+        {
+          "t": "Pour extraire la totalité de l'énergie chimique contenue dans le glucose",
+          "j": "Le cours rappelle au contraire qu'il est impossible d'extraire 100 % de l'énergie chimique d'une molécule : une part est toujours perdue en chaleur."
+        },
+        {
+          "t": "Parce qu'une enzyme unique ne peut abaisser l'énergie d'activation du glucose",
+          "j": "Les enzymes abaissent l'énergie d'activation de chaque réaction qu'elles catalysent ; le fractionnement n'est pas imposé par une limite de la catalyse."
+        }
+      ]
+    },
+    {
+      "q": "Comment qualifie-t-on les parois d'un système qui ne permettent AUCUN échange thermique ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Des parois imperméables",
+          "j": "Une paroi imperméable interdit l'échange de matière, mais pas nécessairement celui de chaleur."
+        },
+        {
+          "t": "Des parois rigides ou fixes",
+          "j": "Une paroi rigide ou fixe interdit toute variation de volume du système, indépendamment des échanges thermiques."
+        },
+        {
+          "t": "Des parois adiabatiques",
+          "correct": true,
+          "j": "Le cours appelle adiabatiques les parois qui ne permettent pas les échanges thermiques entre le système et son environnement."
+        },
+        {
+          "t": "Des parois diathermiques",
+          "j": "Les parois diathermiques sont celles qui, à l'inverse, permettent les échanges de chaleur."
+        }
+      ]
+    },
+    {
+      "q": "L'ÉNERGIE INTERNE (U) d'un système thermodynamique est définie comme…",
+      "c": 11,
+      "options": [
+        {
+          "t": "La quantité de chaleur que le système échange avec son milieu",
+          "j": "La chaleur Q est une énergie en transit entre le système et le milieu ; ce n'est pas une fonction d'état comme l'énergie interne."
+        },
+        {
+          "t": "La part de l'énergie du système inutilisable pour un travail",
+          "j": "Cette formulation correspond à l'entropie, part de l'énergie non utilisable pour effectuer un travail par unité de température."
+        },
+        {
+          "t": "Le travail maximal que le système peut fournir au milieu",
+          "j": "Le travail W est l'une des deux grandeurs d'échange du premier principe ; il ne définit pas l'énergie interne du système."
+        },
+        {
+          "t": "La somme des énergies de toutes les particules du système",
+          "correct": true,
+          "j": "Le cours définit U comme une fonction d'état égale à la somme des énergies de toutes les particules du système, mesurée en joules."
+        }
+      ]
+    },
+    {
+      "q": "Chez une personne dont le bilan énergétique est nul (ΔU = 0), que peut-on affirmer ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "L'énergie des nutriments égale le travail fourni plus la chaleur dissipée",
+          "correct": true,
+          "j": "Si ΔU = 0, le bilan donne Unutriments = W − Q ; la chaleur dissipée par le corps étant comptée négativement (Q < 0), l’apport alimentaire compense exactement le travail effectué et la chaleur dissipée."
+        },
+        {
+          "t": "L'énergie des nutriments dépasse le travail fourni et la chaleur dissipée",
+          "j": "Un apport supérieur aux dépenses correspond à ΔU > 0 : le corps gagne de l'énergie interne, le bilan n'est donc pas nul."
+        },
+        {
+          "t": "Le travail fourni est réalisé aux dépens de l'énergie interne de l'organisme",
+          "j": "C'est la situation ΔU < 0, où le travail est réalisé en puisant dans l'énergie interne du corps."
+        },
+        {
+          "t": "L'organisme ne dissipe plus de chaleur puisque son énergie interne est stable",
+          "j": "Tout travail effectué par le corps dissipe de la chaleur ; cette dissipation existe quel que soit le signe du bilan énergétique."
+        }
+      ]
+    },
+    {
+      "q": "Quel est l'ordre de grandeur du rendement du corps humain lorsqu'il effectue un travail ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Il est de 100 %, puisque l'énergie totale se conserve",
+          "j": "La conservation de l'énergie n'implique pas un rendement de 100 % : l'énoncé de Kelvin interdit de convertir intégralement la chaleur en travail."
+        },
+        {
+          "t": "Il dépasse rarement 30 %, le reste étant dissipé en chaleur",
+          "correct": true,
+          "j": "Le cours indique que les rendements du corps humain sont faibles et atteignent rarement 30 %, le reste de l'énergie étant dissipé sous forme de chaleur."
+        },
+        {
+          "t": "Il avoisine 50 %, le reste étant dissipé en chaleur",
+          "j": "Une valeur de 50 % surestime largement le rendement biologique décrit par le cours."
+        },
+        {
+          "t": "Il atteint 70 %, le reste étant stocké sous forme d'ATP",
+          "j": "L'énergie non convertie en travail est perdue sous forme de chaleur et non restockée dans de l'ATP."
+        }
+      ]
+    },
+    {
+      "q": "Selon le deuxième principe, lequel de ces processus ne peut PAS se produire spontanément ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "La dissolution d'un cristal de sel dans un volume d'eau",
+          "j": "La dissolution du sel dans l'eau est citée comme processus naturel spontané, qui augmente le désordre du système."
+        },
+        {
+          "t": "La chute libre d'un corps vers une position plus basse",
+          "j": "La chute libre figure parmi les exemples de processus spontanés compatibles avec le deuxième principe."
+        },
+        {
+          "t": "Le passage de chaleur d'un corps froid vers un corps plus chaud",
+          "correct": true,
+          "j": "Le deuxième principe, dans la formulation rapportée par le cours, interdit le passage spontané de la chaleur d'un corps froid vers un corps chaud."
+        },
+        {
+          "t": "Le passage de chaleur d'un corps chaud vers un corps plus froid",
+          "j": "C'est précisément le sens spontané du flux de chaleur, donné en exemple de processus possible dans le cours."
+        }
+      ]
+    },
+    {
+      "q": "Que mesure l'ENTROPIE (S) d'un système thermodynamique ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "La quantité totale d'énergie que contiennent les particules du système",
+          "j": "L'énergie totale des particules du système définit l'énergie interne U et non l'entropie."
+        },
+        {
+          "t": "La quantité de chaleur dégagée par le système vers l'environnement",
+          "j": "La chaleur dégagée est Q, une grandeur d'échange ; elle n'intervient dans ΔS que divisée par la température absolue."
+        },
+        {
+          "t": "La proportion d'énergie convertible en travail à volume constant",
+          "j": "L'entropie quantifie au contraire la part de l'énergie qui n'est pas convertible en travail."
+        },
+        {
+          "t": "Le degré d'organisation du système et sa part d'énergie inexploitable",
+          "correct": true,
+          "j": "Le cours définit l'entropie comme une fonction d'état mesurant le degré d'organisation du système, égale à la part de son énergie qui ne peut pas produire de travail."
+        }
+      ]
+    },
+    {
+      "q": "Comment un organisme vivant maintient-il son organisation sans contredire le deuxième principe ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Il consomme de l'énergie et augmente l'entropie du milieu qui l'entoure",
+          "correct": true,
+          "j": "Le cours précise qu'une cellule dépense beaucoup d'énergie pour rester ordonnée : son entropie peut diminuer à condition que celle du milieu environnant augmente."
+        },
+        {
+          "t": "Il constitue un système isolé auquel le deuxième principe ne s'applique pas",
+          "j": "Le corps humain est au contraire un système ouvert, qui échange matière et énergie avec son environnement."
+        },
+        {
+          "t": "Il réalise ses réactions enzymatiques sans aucune variation d'entropie",
+          "j": "Toute transformation réelle, y compris enzymatique, s'accompagne d'une variation d'entropie ; les enzymes n'en dispensent pas."
+        },
+        {
+          "t": "Il maintient constante l'entropie totale de l'univers tant qu'il vit",
+          "j": "Selon le deuxième principe, l'entropie totale de l'univers doit augmenter, et non rester constante."
+        }
+      ]
+    },
+    {
+      "q": "Le flux de chaleur émis par un corps par rayonnement est proportionnel à…",
+      "c": 13,
+      "options": [
+        {
+          "t": "La racine carrée de sa température absolue en kelvins",
+          "j": "La loi de Stefan fait intervenir une puissance de la température, non une racine : le flux émis augmente fortement, et non lentement, avec elle."
+        },
+        {
+          "t": "La quatrième puissance de sa température absolue en kelvins",
+          "correct": true,
+          "j": "La loi de Stefan donnée par le cours s'écrit Hre = εσATe⁴ : le flux émis varie comme la puissance quatrième de la température absolue du corps."
+        },
+        {
+          "t": "La différence de température avec le milieu ambiant",
+          "j": "Ce sont les flux par conduction et par convection qui sont proportionnels à ΔT ; le flux émis par rayonnement ne dépend que de la température du corps."
+        },
+        {
+          "t": "Le carré de sa température absolue exprimée en kelvins",
+          "j": "L'exposant de la température dans la loi de Stefan est 4 et non 2, ce qui rend le rayonnement très sensible à la température du corps."
+        }
+      ]
+    },
+    {
+      "q": "Combien de phases de réplication de l'ADN (phase S) la méiose humaine comporte-t-elle ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Deux, toutes les deux avant la première division",
+          "j": "Deux réplications consécutives avant la méiose I donneraient des chromosomes à quatre chromatides, qui ne correspondent à aucune étape de la méiose."
+        },
+        {
+          "t": "Aucune, les chromosomes étant dupliqués dès la naissance",
+          "j": "Les cellules germinales répliquent bien leur ADN avant d'entrer en méiose ; aucune duplication n'est acquise une fois pour toutes."
+        },
+        {
+          "t": "Une seule, très longue, qui précède la première division",
+          "correct": true,
+          "j": "La méiose ne comporte qu'une seule phase S, qui précède la méiose I ; les deux divisions successives s'enchaînent ensuite sans nouvelle réplication."
+        },
+        {
+          "t": "Deux, une avant chacune des deux divisions de méiose",
+          "j": "Deux phases S indépendantes doubleraient le matériel génétique, ce qui est incompatible avec la réduction chromosomique de la méiose."
+        }
+      ]
+    },
+    {
+      "q": "Au cours de quelle étape de la méiose les chromosomes homologues s'apparient-ils et échangent-ils des segments ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "La métaphase de la première division",
+          "j": "En métaphase I, les bivalents déjà constitués se placent sur la plaque équatoriale ; les échanges de segments ont eu lieu auparavant."
+        },
+        {
+          "t": "La prophase de la seconde division",
+          "j": "En prophase II, les cellules sont déjà haploïdes et ne contiennent plus de paires d'homologues susceptibles de s'apparier."
+        },
+        {
+          "t": "L'anaphase de la seconde division",
+          "j": "L'anaphase II ne sépare que les chromatides sœurs de chaque chromosome, sans aucun échange de matériel génétique."
+        },
+        {
+          "t": "La prophase de la première division",
+          "correct": true,
+          "j": "L'appariement des homologues en bivalents et les crossing-over qui en découlent se déroulent en prophase I, seule étape où la recombinaison est possible."
+        }
+      ]
+    },
+    {
+      "q": "Que sépare l'ANAPHASE I de la méiose ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Les chromosomes homologues, qui gardent leurs deux chromatides",
+          "correct": true,
+          "j": "L'anaphase I réalise la réduction chromosomique en séparant les deux chromosomes de chaque paire d'homologues, chacun restant formé de deux chromatides."
+        },
+        {
+          "t": "Les chromatides sœurs de chacun des chromosomes dupliqués",
+          "j": "La séparation des chromatides sœurs est caractéristique de l'anaphase II, ou de l'anaphase de mitose, mais pas de l'anaphase I."
+        },
+        {
+          "t": "Les deux brins complémentaires de la double hélice d'ADN",
+          "j": "La séparation des deux brins de la double hélice relève de la réplication de l'ADN en phase S, et non d'une anaphase."
+        },
+        {
+          "t": "Les quatre chromatides de chaque bivalent, réparties une par pôle",
+          "j": "Chaque pôle reçoit un chromosome homologue entier, soit deux chromatides ; les quatre chromatides d’un bivalent ne sont pas réparties individuellement."
+        }
+      ]
+    },
+    {
+      "q": "À l'issue de la méiose, que contient chaque cellule fille chez l'être humain ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "46 chromosomes constitués de deux chromatides",
+          "j": "Cette formule décrit une cellule diploïde ayant achevé sa phase S, c'est-à-dire la cellule qui entre en méiose."
+        },
+        {
+          "t": "23 chromosomes constitués d'une seule chromatide",
+          "correct": true,
+          "j": "Les quatre cellules filles de la méiose sont haploïdes : 23 chromosomes à une chromatide, qui reconstitueront 46 chromosomes lors de la fécondation."
+        },
+        {
+          "t": "23 chromosomes constitués de deux chromatides",
+          "j": "C'est l'état des cellules issues de la méiose I : déjà haploïdes, mais encore formées de chromosomes à deux chromatides."
+        },
+        {
+          "t": "46 chromosomes constitués d'une seule chromatide",
+          "j": "Cette formule correspond à une cellule somatique à l’issue d’une mitose : elle est diploïde, et non haploïde comme un gamète."
+        }
+      ]
+    },
+    {
+      "q": "Outre les crossing-over, quel événement de la méiose crée de nouvelles combinaisons de chromosomes parentaux dans les gamètes ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "La séparation des chromatides sœurs de chaque chromosome en anaphase II",
+          "j": "L'anaphase II ne fait que répartir des chromatides sœurs, génétiquement identiques en dehors des recombinaisons antérieures."
+        },
+        {
+          "t": "La réplication semi-conservative de l'ADN au cours de la phase S",
+          "j": "La réplication en phase S copie fidèlement l'ADN et ne crée par elle-même aucune nouvelle combinaison d'allèles."
+        },
+        {
+          "t": "La répartition au hasard des homologues de chaque paire en anaphase I",
+          "correct": true,
+          "j": "La migration indépendante, vers l’un ou l’autre pôle, des deux chromosomes de chaque paire d’homologues en anaphase I produit des assortiments nouveaux de chromosomes parentaux."
+        },
+        {
+          "t": "L'échange de segments entre chromatides homologues en prophase I",
+          "j": "Les crossing-over de la prophase I recombinent les allèles à l’intérieur d’une même paire d’homologues ; l’énoncé les met précisément de côté."
+        }
+      ]
+    },
+    {
+      "q": "Quelle particularité distingue l'ovogenèse de la spermatogenèse ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Quatre gamètes fonctionnels sont produits par cellule entrant en méiose",
+          "j": "C'est le cas de la spermatogenèse, où chaque spermatocyte I donne quatre spermatozoïdes fonctionnels."
+        },
+        {
+          "t": "Les divisions y sont égales et donnent quatre ovocytes de même taille",
+          "j": "Les divisions de l'ovogenèse sont au contraire très asymétriques, l'ovocyte conservant la quasi-totalité du cytoplasme."
+        },
+        {
+          "t": "Elle ne comporte qu'une seule division de méiose au lieu de deux",
+          "j": "L'ovogenèse comporte bien les deux divisions de méiose, même si la seconde ne s'achève qu'après la fécondation."
+        },
+        {
+          "t": "Une seule cellule fonctionnelle est produite, avec des globules polaires",
+          "correct": true,
+          "j": "La méiose féminine est inégale : chaque ovocyte I ne donne qu'un seul gamète fonctionnel, le reste du matériel étant éliminé dans les globules polaires."
+        }
+      ]
+    },
+    {
+      "q": "Que produit une non-disjonction des chromosomes homologues en anaphase I ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Des gamètes dont l'un des chromosomes présente une délétion",
+          "j": "Une délétion est la perte d'un segment à l'intérieur d'un chromosome, et non la perte ou le gain d'un chromosome entier."
+        },
+        {
+          "t": "Des gamètes aneuploïdes, avec un chromosome en trop ou en moins",
+          "correct": true,
+          "j": "Si les deux homologues migrent vers le même pôle, les gamètes obtenus possèdent un chromosome surnuméraire ou manquant : ils sont aneuploïdes."
+        },
+        {
+          "t": "Des gamètes diploïdes porteurs des 46 chromosomes de la cellule mère",
+          "j": "Un gamète à 46 chromosomes résulterait de l’échec global de la première division de méiose, et non de la non-disjonction d’une seule paire d’homologues."
+        },
+        {
+          "t": "Des gamètes porteurs d'une translocation entre deux chromosomes",
+          "j": "Une translocation est un remaniement de structure provenant d'un échange entre chromosomes non homologues, indépendant de la disjonction."
+        }
+      ]
+    }
   ],
   "structure1": [
     {
@@ -25435,15 +28693,15 @@ const QUESTIONS = {
         },
         {
           "t": "Hippocampe – lobe temporal",
-          "j": "Association exacte."
+          "j": "Association exacte : l'hippocampe occupe la face médiale du lobe temporal."
         },
         {
           "t": "Décussation des pyramides – Bulbe rachidien",
-          "j": "Association exacte."
+          "j": "Association exacte : la décussation des faisceaux pyramidaux se fait bien dans le bulbe."
         },
         {
           "t": "Colliculi quadrijumeaux – mésencéphale",
-          "j": "Association exacte (tectum mésencéphalique)."
+          "j": "Association exacte : les colliculi quadrijumeaux forment le tectum du mésencéphale."
         }
       ]
     },
@@ -25737,7 +28995,7 @@ const QUESTIONS = {
         },
         {
           "t": "Sortie du Ca2+ du réticulum sarcoplasmique / Propagation du PA dans les tubules T / Exocytose de l'Ach du neurone / Potentiel d'action musculaire.",
-          "j": "Ordre incohérent."
+          "j": "Ordre incohérent : la sortie du Ca2+ ne peut pas précéder l'exocytose d'ACh."
         },
         {
           "t": "Exocytose de l'Ach du neurone / Potentiel d'action musculaire / Propagation du PA dans les tubules T / Sortie du Ca2+ du réticulum sarcoplasmique.",
@@ -27551,7 +30809,7 @@ const QUESTIONS = {
         },
         {
           "t": "Une articulation immobile formée par une dent et la cavité alvéolaire",
-          "j": "C'est une gomphose."
+          "j": "Cette description est celle d'une gomphose, l'articulation entre la dent et son alvéole."
         },
         {
           "t": "La fusion complète des articulations synoviales.",
@@ -28184,27 +31442,489 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Selon les niveaux d'organisation structurale du corps humain, comment le cours définit-il un organe ?","c":1,"options":[{"t":"Une association de plusieurs types de tissus assurant une fonction précise","correct":true,"j":"L'organe réunit des tissus de natures différentes (épithélial, conjonctif, musculaire, nerveux) coordonnés pour une fonction spécifique, comme l'estomac."},{"t":"Un groupe de cellules semblables remplissant une même fonction","j":"C'est la définition du tissu : le corps en compte quatre grands groupes, qui s'associent ensuite pour former les organes."},{"t":"Un ensemble d'organes liés assurant une activité biologique commune","j":"C'est la définition du système, niveau d'organisation immédiatement supérieur à l'organe, comme le système musculaire."},{"t":"L'unité structurale et fonctionnelle de base de l'être vivant","j":"C'est la définition de la cellule, niveau situé en dessous du tissu et de l'organe dans la hiérarchie structurale."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos des deux grands systèmes qui régulent l'homéostasie :","c":1,"options":[{"t":"Le système nerveux agit par des influx rapides, le système endocrinien par des hormones plus lentes","correct":true,"j":"Le système nerveux détecte la variation et transmet l'information sous forme d'influx à effet rapide, alors que les hormones véhiculées par le sang produisent des changements lents ; les deux coopèrent."},{"t":"Le système nerveux agit par des hormones sanguines, le système endocrinien par des influx rapides","j":"Les deux moyens d'action sont inversés : l'hormone est le messager du système endocrinien, l'influx nerveux celui du système nerveux."},{"t":"Les deux systèmes agissent par des hormones, seule leur vitesse de diffusion les distingue","j":"Le système nerveux ne déverse pas d'hormones dans le sang pour commander ses effecteurs : il utilise des influx conduits le long de ses voies."},{"t":"Le système endocrinien ne règle que les voies locales, le système nerveux les voies réflexes","j":"La distinction voie locale / voie réflexe concerne l'étendue de la réponse, et non un partage des rôles entre les deux systèmes régulateurs."}]},
-    {"q":"Indiquez l'ordre correct des composantes d'une voie réflexe de régulation homéostatique :","c":1,"options":[{"t":"Stimulus - récepteur - voie afférente - centre d'intégration - voie efférente - effecteur","correct":true,"j":"Le récepteur détecte d'abord la variation, l'information monte par la voie afférente jusqu'au centre qui fixe la valeur de référence, puis l'ordre descend par la voie efférente vers l'effecteur."},{"t":"Stimulus - voie afférente - récepteur - voie efférente - centre d'intégration - effecteur","j":"La voie afférente ne peut pas précéder le récepteur : c'est le capteur qui engendre l'information ensuite conduite par cette voie."},{"t":"Stimulus - récepteur - centre d'intégration - voie afférente - effecteur - voie efférente","j":"La voie afférente est ici placée après le centre d'intégration, alors qu'elle sert précisément à lui apporter l'information détectée."},{"t":"Stimulus - centre d'intégration - récepteur - voie afférente - effecteur - voie efférente","j":"Le centre d'intégration figure avant toute détection : il ne peut analyser une variation que si un récepteur l'a d'abord décelée."}]},
-    {"q":"Quel liquide de l'organisme appartient au compartiment transcellulaire ?","c":1,"options":[{"t":"Le liquide synovial contenu dans les cavités articulaires","correct":true,"j":"Le compartiment transcellulaire regroupe les liquides séquestrés dans des cavités closes : synovial, péritonéal, péricardique, intraoculaire et céphalo-rachidien."},{"t":"Le liquide interstitiel qui baigne directement les cellules","j":"Le liquide interstitiel est le principal sous-compartiment du liquide extracellulaire, mais il n'est enfermé dans aucune cavité : il n'est pas transcellulaire."},{"t":"Le plasma qui circule à l'intérieur des vaisseaux sanguins","j":"Le plasma constitue le sous-compartiment vasculaire du liquide extracellulaire, distinct des liquides transcellulaires."},{"t":"La lymphe qui circule dans les vaisseaux lymphatiques","j":"La lymphe, dérivée du liquide interstitiel, est rattachée au liquide extracellulaire circulant et non au compartiment transcellulaire."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos de la pression oncotique du plasma :","c":1,"options":[{"t":"Exercée par les protéines plasmatiques, elle attire l'eau dans le secteur vasculaire","correct":true,"j":"La pression oncotique, ou osmotique colloïdale, est due aux protéines du plasma : elle retient l'eau dans le vaisseau et s'oppose à la pression hydrostatique."},{"t":"Exercée par les protéines plasmatiques, elle pousse l'eau hors du capillaire","j":"La sortie d'eau du capillaire est produite par la pression hydrostatique du sang ; les protéines, elles, retiennent l'eau à l'intérieur du vaisseau."},{"t":"Exercée par les électrolytes du plasma, elle attire l'eau dans le secteur vasculaire","j":"Les électrolytes traversent librement la paroi capillaire : seule la fraction protéique, non diffusible, engendre une pression oncotique."},{"t":"Exercée par les protéines interstitielles, elle attire l'eau hors du capillaire","j":"Le liquide interstitiel est très pauvre en protéines ; la pression oncotique dominante est celle du plasma, qui ramène l'eau vers le capillaire."}]},
-    {"q":"Selon le cours, qu'est-ce qu'un tampon dans les liquides de l'organisme ?","c":1,"options":[{"t":"Une substance qui s'oppose aux variations brusques du pH, comme le bicarbonate","correct":true,"j":"Un tampon capte ou libère des H+ pour limiter les variations de pH : la réaction HCO3- + H+ donnant H2CO3 en est l'exemple-type dans l'organisme."},{"t":"Une molécule qui libère des ions H+ lorsqu'elle se dissocie dans l'eau","j":"C'est la définition d'un acide : loin de stabiliser le pH, il l'abaisse en enrichissant la solution en protons."},{"t":"Une molécule qui capte les ions H+ et alcalinise ainsi la solution","j":"C'est la définition d'une base, accepteur de protons : elle déplace le pH vers le haut au lieu de s'opposer à sa variation."},{"t":"Un ion qui attire l'eau par osmose et fixe l'osmolarité du compartiment","j":"Cette description est celle d'un osmole actif comme le Na+ : elle concerne l'équilibre hydrique, non l'équilibre acido-basique."}]},
-    {"q":"Un patient présente une hypokaliémie. Quelles manifestations le cours décrit-il en priorité ?","c":1,"options":[{"t":"Des crampes, une hypotonie, voire une paralysie ascendante des membres inférieurs","correct":true,"j":"La baisse du K+ perturbe la jonction neuromusculaire : crampes et hypotonie pouvant aller jusqu'à une paralysie ascendante gagnant le tronc, avec troubles du rythme cardiaque."},{"t":"Une faiblesse musculaire avec diarrhée et troubles de la conduction cardiaque","j":"Ce tableau est celui de l'hyperkaliémie, qui perturbe les tissus excitables par excès de potassium extracellulaire."},{"t":"Une tétanie avec tremblements par hyperexcitabilité neuromusculaire","j":"Tétanie et tremblements signent l'hypocalcémie : c'est le calcium, non le potassium, qui règle le seuil d'excitation de la jonction neuromusculaire."},{"t":"Une asthénie avec anorexie, confusion et lithiases calciques","j":"Ce tableau correspond à l'hypercalcémie ; le potassium n'intervient pas dans la formation des lithiases ni dans ces signes digestifs."}]},
-    {"q":"Quels organes lymphoïdes assurent la formation et la maturation des cellules immunitaires ?","c":6,"options":[{"t":"Le thymus et la moelle osseuse hématopoïétique","correct":true,"j":"Ce sont les organes lymphoïdes primaires : la moelle osseuse produit les leucocytes et le thymus achève la maturation des lymphocytes T."},{"t":"La rate et les ganglions lymphatiques","j":"Ce sont des organes lymphoïdes secondaires encapsulés : les leucocytes déjà mûrs y rencontrent le pathogène et y amorcent la réponse."},{"t":"Les amygdales et le tissu lymphoïde digestif","j":"Ce sont les organes lymphoïdes secondaires diffus, lieux de rencontre avec l'antigène et non de maturation cellulaire."},{"t":"Les ganglions lymphatiques et le thymus","j":"Le thymus est bien un organe primaire, mais les ganglions sont secondaires : cette paire mélange les deux catégories."}]},
-    {"q":"Quelle fonction le cours attribue aux granulocytes basophiles ?","c":6,"options":[{"t":"Une action anticoagulante par l'héparine et la libération d'histamine","correct":true,"j":"Riches en héparine, cofacteur de l'antithrombine, les basophiles exercent une action anticoagulante et libèrent de l'histamine lors des réactions allergiques."},{"t":"Une action antiparasitaire et l'élimination des produits de l'allergie","j":"C'est le rôle des éosinophiles, qui s'attaquent aux parasites et neutralisent les molécules responsables de l'allergie."},{"t":"Une action phagocytaire de première ligne contre les bactéries","j":"La phagocytose de première ligne revient aux neutrophiles, granulocytes les plus abondants du sang périphérique."},{"t":"Une action cytotoxique contre les cellules infectées par un virus","j":"La lyse des cellules infectées ou tumorales est assurée par les cellules NK, lymphocytes de l'immunité innée."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos des monocytes :","c":6,"options":[{"t":"Immatures dans le sang, ils deviennent des macrophages en gagnant les tissus","correct":true,"j":"Le monocyte ne circule qu'un à deux jours sous forme immature ; devenu macrophage tissulaire, il assure pleinement la phagocytose de l'immunité innée."},{"t":"Granulocytes du sang, ils phagocytent dès leur sortie de la moelle osseuse","j":"Les monocytes sont des agranulocytes, et leur pleine capacité phagocytaire n'apparaît qu'après différenciation en macrophage dans les tissus."},{"t":"Produits dans la moelle, ils achèvent leur maturation dans le thymus","j":"Le passage par le thymus est propre aux lymphocytes T ; le monocyte mûrit dans le tissu où il migre."},{"t":"Agranulocytes du sang, ils sont les leucocytes les plus nombreux","j":"Les monocytes ne représentent que 2 à 8 % des leucocytes, loin derrière les neutrophiles qui en constituent 50 à 70 %."}]},
-    {"q":"Parmi les défenses innées suivantes, laquelle constitue une barrière chimique ?","c":6,"options":[{"t":"L'acide gastrique qui détruit les germes avalés","correct":true,"j":"Les barrières chimiques regroupent l'acide gastrique, les enzymes et le pH des sécrétions, qui rendent le milieu hostile aux micro-organismes."},{"t":"La peau, élément le plus étendu de la défense","j":"La peau est la barrière physique la plus importante du système de défense : elle agit par sa continuité mécanique, non par un agent chimique."},{"t":"La flore intestinale qui occupe le terrain","j":"La flore intestinale est une barrière biologique : elle protège par compétition entre micro-organismes, sans action chimique propre."},{"t":"Les cellules NK qui lysent les cellules altérées","j":"Les cellules NK font partie des défenses internes innées, qui n'entrent en jeu qu'une fois les barrières superficielles franchies."}]},
-    {"q":"Quelle est la structure d'une molécule d'anticorps selon le cours ?","c":6,"options":[{"t":"Une protéine en Y faite de deux chaînes lourdes et deux légères","correct":true,"j":"L'immunoglobuline associe deux chaînes lourdes et deux chaînes légères en Y, avec une partie constante et une partie variable qui porte la spécificité antigénique."},{"t":"Une protéine en Y formée de quatre chaînes lourdes identiques","j":"Les quatre chaînes ne sont pas identiques : deux sont lourdes et deux sont légères, et c'est leur assemblage qui dessine le Y."},{"t":"Une protéine globulaire formée d'une seule chaîne variable","j":"Une chaîne unique ne suffit pas : le site de reconnaissance naît de l'association des parties variables d'une chaîne lourde et d'une chaîne légère."},{"t":"Un complexe membranaire associant une chaîne légère au CMH","j":"L'association d'un peptide à une molécule de CMH est le mode de présentation reconnu par les lymphocytes T, et non la structure d'un anticorps."}]},
-    {"q":"Quelle immunoglobuline sert de récepteur antigénique à la surface du lymphocyte B et participe à son activation clonale ?","c":6,"options":[{"t":"Les IgD","correct":true,"j":"Présentes à la surface des lymphocytes B et très minoritaires dans le sérum, les IgD servent de récepteur antigénique et déclenchent l'activation clonale."},{"t":"Les IgA","j":"Les IgA sont sécrétées dans les larmes, la salive, le mucus et le lait, où elles neutralisent bactéries et virus au niveau des muqueuses."},{"t":"Les IgE","j":"Les IgE se fixent sur les basophiles et déclenchent les réactions allergiques ainsi que la défense antiparasitaire."},{"t":"Les IgG","j":"Les IgG, les plus abondantes du sérum, sont produites massivement lors de la réponse secondaire et neutralisent toxines, bactéries et virus."}]},
-    {"q":"Laquelle des actions suivantes n'EST PAS une action des anticorps décrite dans le cours ?","c":6,"options":[{"t":"La libération de cytokines qui activent macrophages et lymphocytes B","correct":true,"j":"La sécrétion de cytokines qui activent macrophages, lymphocytes B et LT cytotoxiques est l'œuvre des lymphocytes T auxiliaires CD4 ; elle ne figure pas dans la liste des actions des anticorps."},{"t":"La neutralisation et l'agglutination des antigènes circulants","j":"Les anticorps masquent les sites actifs de l'antigène et agglutinent les particules : la neutralisation et l'agglutination figurent bien dans la liste du cours."},{"t":"L'activation en cascade du système du complément","j":"La fixation des anticorps sur l'antigène déclenche la cascade du complément, qui amplifie la réponse innée : cette action est bien au programme."},{"t":"La stimulation de la phagocytose et l'immobilisation des bactéries","j":"En recouvrant le germe, les anticorps le rendent plus visible aux phagocytes et limitent sa mobilité : deux actions effectivement décrites dans le cours."}]},
-    {"q":"Par quel mécanisme un lymphocyte T cytotoxique détruit-il sa cellule cible ?","c":6,"options":[{"t":"Il perce sa membrane et y introduit des enzymes digestives","correct":true,"j":"Après avoir reconnu le peptide présenté sur le CMH de classe I, le CD8 perce la membrane de la cellule cible et y fait pénétrer des enzymes qui la détruisent."},{"t":"Il sécrète des anticorps spécifiques qui dissolvent sa membrane","j":"La sécrétion d'anticorps est le fait des plasmocytes issus des lymphocytes B ; le lymphocyte T n'en produit pas."},{"t":"Il l'englobe par phagocytose et la digère dans ses lysosomes","j":"L'englobement puis la digestion intracellulaire caractérisent les phagocytes professionnels, macrophages et neutrophiles."},{"t":"Il libère de l'histamine qui provoque sa lyse osmotique","j":"La libération d'histamine est le propre des basophiles et des mastocytes dans les réactions allergiques, sans effet lytique ciblé."}]},
-    {"q":"Pourquoi la réponse immunitaire primaire est-elle plus lente que la réponse secondaire ?","c":6,"options":[{"t":"Parce que les clones de lymphocytes spécifiques doivent d'abord être constitués","correct":true,"j":"Au premier contact, il faut activer le lymphocyte puis le faire proliférer en clones avant d'obtenir des plasmocytes ; les cellules mémoire suppriment ensuite ce délai."},{"t":"Parce que les barrières innées doivent s'épuiser avant que l'adaptatif s'active","j":"Immunité innée et adaptative ne se relaient pas après épuisement : leurs activations se chevauchent dans le temps."},{"t":"Parce que les anticorps de la réponse primaire doivent être neutralisés","j":"Aucune neutralisation préalable n'est nécessaire : les anticorps de la réponse primaire participent à la défense et ne la freinent pas."},{"t":"Parce que le thymus doit produire de nouveaux lymphocytes T à chaque contact","j":"Le répertoire lymphocytaire est constitué avant la rencontre avec l'antigène : aucune nouvelle maturation thymique n'est requise à chaque exposition."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos de l'inflammation chronique :","c":6,"options":[{"t":"Elle persiste dans le temps et finit par affaiblir les tissus et la réponse immunitaire","correct":true,"j":"À la différence de la phase aiguë, bénéfique et résolutive, l'inflammation chronique s'installe, devient inefficace et épuise à la fois les tissus et le système immunitaire."},{"t":"Elle donne les mêmes signes cardinaux, mais plus intenses que la phase aiguë","j":"La réponse immunitaire s'épuisant, les symptômes de la phase chronique diffèrent de ceux de l'inflammation aiguë au lieu de s'exagérer."},{"t":"Elle amorce la réparation du tissu plus vite que l'inflammation aiguë","j":"C'est l'inflammation aiguë qui élimine les débris et amorce les premières étapes de la réparation ; la forme chronique entretient la lésion."},{"t":"Elle constitue la phase spécifique de l'inflammation, dirigée contre un antigène","j":"Aiguë ou chronique, l'inflammation reste une réaction non spécifique de l'immunité innée, indépendante de la reconnaissance d'un antigène précis."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos de la position anatomique de référence :","c":7,"options":[{"t":"Debout, bras pendants le long du corps, avant-bras et mains en supination","correct":true,"j":"Dans cette position de référence, le sujet est debout, le regard horizontal, les bras pendants et les paumes tournées vers l'avant : c'est elle qui fixe le sens de tous les termes d'orientation."},{"t":"Debout, bras pendants le long du corps, avant-bras et mains en pronation","j":"Paumes tournées vers l'arrière, il s'agit de la pronation ; la position de référence impose la supination, pouce vers l'extérieur."},{"t":"Debout, membres supérieurs en abduction à 90°, mains en supination","j":"Les membres supérieurs ne sont pas écartés dans la position de référence : ils pendent le long du corps."},{"t":"Couché sur le dos, membres inférieurs tendus et mains en supination","j":"Une position allongée se décrit par le décubitus (supinus, pronus ou latéral) et n'est pas la position anatomique de référence, qui est debout."}]},
-    {"q":"Indiquez la qualification correcte de l'os du crâne par rapport au cuir chevelu :","c":7,"options":[{"t":"Il lui est profond, car plus éloigné de la surface","correct":true,"j":"Profond désigne ce qui est éloigné de la surface du corps : l'os du crâne, recouvert par le cuir chevelu, lui est donc profond."},{"t":"Il lui est superficiel, car plus proche de la surface","j":"Superficiel qualifie ce qui est proche de la surface, ce qui correspond ici au cuir chevelu et non à l'os sous-jacent."},{"t":"Il lui est postérieur, dans le plan sagittal","j":"Antérieur/postérieur situe deux structures selon l'axe avant-arrière, ce qui ne convient pas à une relation surface-profondeur."},{"t":"Il lui est proximal, le long de l'axe du corps","j":"Proximal/distal ne s'emploie que le long d'un membre, par rapport à sa racine, et jamais pour les structures de la tête."}]},
-    {"q":"Comment nomme-t-on l'articulation fibreuse immobile qui unit une dent à son alvéole osseuse ?","c":7,"options":[{"t":"Une gomphose","correct":true,"j":"La gomphose est l'articulation fibreuse immobile qui enchâsse la racine de la dent dans son alvéole osseuse, à la manière d'une cheville dans sa mortaise."},{"t":"Une suture","j":"La suture est aussi une articulation fibreuse immobile, mais elle unit deux os plats du crâne et non une dent à l'os."},{"t":"Une syndesmose","j":"La syndesmose réunit deux os par une membrane ou un ligament interosseux, comme entre radius et ulna, en laissant un léger jeu."},{"t":"Une synchondrose","j":"La synchondrose est une articulation cartilagineuse immobile, comme la plaque de croissance, et non une articulation fibreuse."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos des cavités du corps humain :","c":7,"options":[{"t":"La cavité postérieure réunit la cavité crânienne et la cavité vertébrale","correct":true,"j":"La cavité postérieure (dorsale) se compose de la cavité crânienne, qui loge l'encéphale, et de la cavité vertébrale, qui loge la moelle épinière."},{"t":"La cavité postérieure réunit la cavité crânienne et la cavité thoracique","j":"La cavité thoracique appartient à la cavité antérieure (ventrale) : elle est ici rattachée à tort à la cavité postérieure."},{"t":"La cavité antérieure réunit la cavité vertébrale et la cavité abdominale","j":"La cavité vertébrale est postérieure ; la cavité antérieure associe la cavité thoracique et la cavité abdomino-pelvienne."},{"t":"La cavité antérieure réunit les cavités thoracique et crânienne","j":"La cavité crânienne est postérieure : la cavité antérieure comprend la cavité thoracique et la cavité abdomino-pelvienne, pas le crâne."}]}
+    {
+      "q": "Selon les niveaux d'organisation structurale du corps humain, comment le cours définit-il un organe ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Une association de plusieurs types de tissus assurant une fonction précise",
+          "correct": true,
+          "j": "L'organe réunit des tissus de natures différentes (épithélial, conjonctif, musculaire, nerveux) coordonnés pour une fonction spécifique, comme l'estomac."
+        },
+        {
+          "t": "Un groupe de cellules semblables remplissant une même fonction",
+          "j": "C'est la définition du tissu : le corps en compte quatre grands groupes, qui s'associent ensuite pour former les organes."
+        },
+        {
+          "t": "Un ensemble d'organes liés assurant une activité biologique commune",
+          "j": "C'est la définition du système, niveau d'organisation immédiatement supérieur à l'organe, comme le système musculaire."
+        },
+        {
+          "t": "L'unité structurale et fonctionnelle de base de l'être vivant",
+          "j": "C'est la définition de la cellule, niveau situé en dessous du tissu et de l'organe dans la hiérarchie structurale."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos des deux grands systèmes qui régulent l'homéostasie :",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le système nerveux agit par des influx rapides, le système endocrinien par des hormones plus lentes",
+          "correct": true,
+          "j": "Le système nerveux détecte la variation et transmet l'information sous forme d'influx à effet rapide, alors que les hormones véhiculées par le sang produisent des changements lents ; les deux coopèrent."
+        },
+        {
+          "t": "Le système nerveux agit par des hormones sanguines, le système endocrinien par des influx rapides",
+          "j": "Les deux moyens d'action sont inversés : l'hormone est le messager du système endocrinien, l'influx nerveux celui du système nerveux."
+        },
+        {
+          "t": "Les deux systèmes agissent par des hormones, seule leur vitesse de diffusion les distingue",
+          "j": "Le système nerveux ne déverse pas d'hormones dans le sang pour commander ses effecteurs : il utilise des influx conduits le long de ses voies."
+        },
+        {
+          "t": "Le système endocrinien ne règle que les voies locales, le système nerveux les voies réflexes",
+          "j": "La distinction voie locale / voie réflexe concerne l'étendue de la réponse, et non un partage des rôles entre les deux systèmes régulateurs."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez l'ordre correct des composantes d'une voie réflexe de régulation homéostatique :",
+      "c": 1,
+      "options": [
+        {
+          "t": "Stimulus - récepteur - voie afférente - centre d'intégration - voie efférente - effecteur",
+          "correct": true,
+          "j": "Le récepteur détecte d'abord la variation, l'information monte par la voie afférente jusqu'au centre qui fixe la valeur de référence, puis l'ordre descend par la voie efférente vers l'effecteur."
+        },
+        {
+          "t": "Stimulus - voie afférente - récepteur - voie efférente - centre d'intégration - effecteur",
+          "j": "La voie afférente ne peut pas précéder le récepteur : c'est le capteur qui engendre l'information ensuite conduite par cette voie."
+        },
+        {
+          "t": "Stimulus - récepteur - centre d'intégration - voie afférente - effecteur - voie efférente",
+          "j": "La voie afférente est ici placée après le centre d'intégration, alors qu'elle sert précisément à lui apporter l'information détectée."
+        },
+        {
+          "t": "Stimulus - centre d'intégration - récepteur - voie afférente - effecteur - voie efférente",
+          "j": "Le centre d'intégration figure avant toute détection : il ne peut analyser une variation que si un récepteur l'a d'abord décelée."
+        }
+      ]
+    },
+    {
+      "q": "Quel liquide de l'organisme appartient au compartiment transcellulaire ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le liquide synovial contenu dans les cavités articulaires",
+          "correct": true,
+          "j": "Le compartiment transcellulaire regroupe les liquides séquestrés dans des cavités closes : synovial, péritonéal, péricardique, intraoculaire et céphalo-rachidien."
+        },
+        {
+          "t": "Le liquide interstitiel qui baigne directement les cellules",
+          "j": "Le liquide interstitiel est le principal sous-compartiment du liquide extracellulaire, mais il n'est enfermé dans aucune cavité : il n'est pas transcellulaire."
+        },
+        {
+          "t": "Le plasma qui circule à l'intérieur des vaisseaux sanguins",
+          "j": "Le plasma constitue le sous-compartiment vasculaire du liquide extracellulaire, distinct des liquides transcellulaires."
+        },
+        {
+          "t": "La lymphe qui circule dans les vaisseaux lymphatiques",
+          "j": "La lymphe, dérivée du liquide interstitiel, est rattachée au liquide extracellulaire circulant et non au compartiment transcellulaire."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos de la pression oncotique du plasma :",
+      "c": 1,
+      "options": [
+        {
+          "t": "Exercée par les protéines plasmatiques, elle attire l'eau dans le secteur vasculaire",
+          "correct": true,
+          "j": "La pression oncotique, ou osmotique colloïdale, est due aux protéines du plasma : elle retient l'eau dans le vaisseau et s'oppose à la pression hydrostatique."
+        },
+        {
+          "t": "Exercée par les protéines plasmatiques, elle pousse l'eau hors du capillaire",
+          "j": "La sortie d'eau du capillaire est produite par la pression hydrostatique du sang ; les protéines, elles, retiennent l'eau à l'intérieur du vaisseau."
+        },
+        {
+          "t": "Exercée par les électrolytes du plasma, elle attire l'eau dans le secteur vasculaire",
+          "j": "Les électrolytes traversent librement la paroi capillaire : seule la fraction protéique, non diffusible, engendre une pression oncotique."
+        },
+        {
+          "t": "Exercée par les protéines interstitielles, elle attire l'eau hors du capillaire",
+          "j": "Le liquide interstitiel est très pauvre en protéines ; la pression oncotique dominante est celle du plasma, qui ramène l'eau vers le capillaire."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, qu'est-ce qu'un tampon dans les liquides de l'organisme ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Une substance qui s'oppose aux variations brusques du pH, comme le bicarbonate",
+          "correct": true,
+          "j": "Un tampon capte ou libère des H+ pour limiter les variations de pH : la réaction HCO3- + H+ donnant H2CO3 en est l'exemple-type dans l'organisme."
+        },
+        {
+          "t": "Une molécule qui libère des ions H+ lorsqu'elle se dissocie dans l'eau",
+          "j": "C'est la définition d'un acide : loin de stabiliser le pH, il l'abaisse en enrichissant la solution en protons."
+        },
+        {
+          "t": "Une molécule qui capte les ions H+ et alcalinise ainsi la solution",
+          "j": "C'est la définition d'une base, accepteur de protons : elle déplace le pH vers le haut au lieu de s'opposer à sa variation."
+        },
+        {
+          "t": "Un ion qui attire l'eau par osmose et fixe l'osmolarité du compartiment",
+          "j": "Cette description est celle d'un osmole actif comme le Na+ : elle concerne l'équilibre hydrique, non l'équilibre acido-basique."
+        }
+      ]
+    },
+    {
+      "q": "Un patient présente une hypokaliémie. Quelles manifestations le cours décrit-il en priorité ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Des crampes, une hypotonie, voire une paralysie ascendante des membres inférieurs",
+          "correct": true,
+          "j": "La baisse du K+ perturbe la jonction neuromusculaire : crampes et hypotonie pouvant aller jusqu'à une paralysie ascendante gagnant le tronc, avec troubles du rythme cardiaque."
+        },
+        {
+          "t": "Une faiblesse musculaire avec diarrhée et troubles de la conduction cardiaque",
+          "j": "Ce tableau est celui de l'hyperkaliémie, qui perturbe les tissus excitables par excès de potassium extracellulaire."
+        },
+        {
+          "t": "Une tétanie avec tremblements par hyperexcitabilité neuromusculaire",
+          "j": "Tétanie et tremblements signent l'hypocalcémie : c'est le calcium, non le potassium, qui règle le seuil d'excitation de la jonction neuromusculaire."
+        },
+        {
+          "t": "Une asthénie avec anorexie, confusion et lithiases calciques",
+          "j": "Ce tableau correspond à l'hypercalcémie ; le potassium n'intervient pas dans la formation des lithiases ni dans ces signes digestifs."
+        }
+      ]
+    },
+    {
+      "q": "Quels organes lymphoïdes assurent la formation et la maturation des cellules immunitaires ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Le thymus et la moelle osseuse hématopoïétique",
+          "correct": true,
+          "j": "Ce sont les organes lymphoïdes primaires : la moelle osseuse produit les leucocytes et le thymus achève la maturation des lymphocytes T."
+        },
+        {
+          "t": "La rate et les ganglions lymphatiques",
+          "j": "Ce sont des organes lymphoïdes secondaires encapsulés : les leucocytes déjà mûrs y rencontrent le pathogène et y amorcent la réponse."
+        },
+        {
+          "t": "Les amygdales et le tissu lymphoïde digestif",
+          "j": "Ce sont les organes lymphoïdes secondaires diffus, lieux de rencontre avec l'antigène et non de maturation cellulaire."
+        },
+        {
+          "t": "Les ganglions lymphatiques et le thymus",
+          "j": "Le thymus est bien un organe primaire, mais les ganglions sont secondaires : cette paire mélange les deux catégories."
+        }
+      ]
+    },
+    {
+      "q": "Quelle fonction le cours attribue aux granulocytes basophiles ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Une action anticoagulante par l'héparine et la libération d'histamine",
+          "correct": true,
+          "j": "Riches en héparine, cofacteur de l'antithrombine, les basophiles exercent une action anticoagulante et libèrent de l'histamine lors des réactions allergiques."
+        },
+        {
+          "t": "Une action antiparasitaire et l'élimination des produits de l'allergie",
+          "j": "C'est le rôle des éosinophiles, qui s'attaquent aux parasites et neutralisent les molécules responsables de l'allergie."
+        },
+        {
+          "t": "Une action phagocytaire de première ligne contre les bactéries",
+          "j": "La phagocytose de première ligne revient aux neutrophiles, granulocytes les plus abondants du sang périphérique."
+        },
+        {
+          "t": "Une action cytotoxique contre les cellules infectées par un virus",
+          "j": "La lyse des cellules infectées ou tumorales est assurée par les cellules NK, lymphocytes de l'immunité innée."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos des monocytes :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Immatures dans le sang, ils deviennent des macrophages en gagnant les tissus",
+          "correct": true,
+          "j": "Le monocyte ne circule qu'un à deux jours sous forme immature ; devenu macrophage tissulaire, il assure pleinement la phagocytose de l'immunité innée."
+        },
+        {
+          "t": "Granulocytes du sang, ils phagocytent dès leur sortie de la moelle osseuse",
+          "j": "Les monocytes sont des agranulocytes, et leur pleine capacité phagocytaire n'apparaît qu'après différenciation en macrophage dans les tissus."
+        },
+        {
+          "t": "Produits dans la moelle, ils achèvent leur maturation dans le thymus",
+          "j": "Le passage par le thymus est propre aux lymphocytes T ; le monocyte mûrit dans le tissu où il migre."
+        },
+        {
+          "t": "Agranulocytes du sang, ils sont les leucocytes les plus nombreux",
+          "j": "Les monocytes ne représentent que 2 à 8 % des leucocytes, loin derrière les neutrophiles qui en constituent 50 à 70 %."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les défenses innées suivantes, laquelle constitue une barrière chimique ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "L'acide gastrique qui détruit les germes avalés",
+          "correct": true,
+          "j": "Les barrières chimiques regroupent l'acide gastrique, les enzymes et le pH des sécrétions, qui rendent le milieu hostile aux micro-organismes."
+        },
+        {
+          "t": "La peau, élément le plus étendu de la défense",
+          "j": "La peau est la barrière physique la plus importante du système de défense : elle agit par sa continuité mécanique, non par un agent chimique."
+        },
+        {
+          "t": "La flore intestinale qui occupe le terrain",
+          "j": "La flore intestinale est une barrière biologique : elle protège par compétition entre micro-organismes, sans action chimique propre."
+        },
+        {
+          "t": "Les cellules NK qui lysent les cellules altérées",
+          "j": "Les cellules NK font partie des défenses internes innées, qui n'entrent en jeu qu'une fois les barrières superficielles franchies."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est la structure d'une molécule d'anticorps selon le cours ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Une protéine en Y faite de deux chaînes lourdes et deux légères",
+          "correct": true,
+          "j": "L'immunoglobuline associe deux chaînes lourdes et deux chaînes légères en Y, avec une partie constante et une partie variable qui porte la spécificité antigénique."
+        },
+        {
+          "t": "Une protéine en Y formée de quatre chaînes lourdes identiques",
+          "j": "Les quatre chaînes ne sont pas identiques : deux sont lourdes et deux sont légères, et c'est leur assemblage qui dessine le Y."
+        },
+        {
+          "t": "Une protéine globulaire formée d'une seule chaîne variable",
+          "j": "Une chaîne unique ne suffit pas : le site de reconnaissance naît de l'association des parties variables d'une chaîne lourde et d'une chaîne légère."
+        },
+        {
+          "t": "Un complexe membranaire associant une chaîne légère au CMH",
+          "j": "L'association d'un peptide à une molécule de CMH est le mode de présentation reconnu par les lymphocytes T, et non la structure d'un anticorps."
+        }
+      ]
+    },
+    {
+      "q": "Quelle immunoglobuline sert de récepteur antigénique à la surface du lymphocyte B et participe à son activation clonale ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Les IgD",
+          "correct": true,
+          "j": "Présentes à la surface des lymphocytes B et très minoritaires dans le sérum, les IgD servent de récepteur antigénique et déclenchent l'activation clonale."
+        },
+        {
+          "t": "Les IgA",
+          "j": "Les IgA sont sécrétées dans les larmes, la salive, le mucus et le lait, où elles neutralisent bactéries et virus au niveau des muqueuses."
+        },
+        {
+          "t": "Les IgE",
+          "j": "Les IgE se fixent sur les basophiles et déclenchent les réactions allergiques ainsi que la défense antiparasitaire."
+        },
+        {
+          "t": "Les IgG",
+          "j": "Les IgG, les plus abondantes du sérum, sont produites massivement lors de la réponse secondaire et neutralisent toxines, bactéries et virus."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle des actions suivantes n'EST PAS une action des anticorps décrite dans le cours ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "La libération de cytokines qui activent macrophages et lymphocytes B",
+          "correct": true,
+          "j": "La sécrétion de cytokines qui activent macrophages, lymphocytes B et LT cytotoxiques est l'œuvre des lymphocytes T auxiliaires CD4 ; elle ne figure pas dans la liste des actions des anticorps."
+        },
+        {
+          "t": "La neutralisation et l'agglutination des antigènes circulants",
+          "j": "Les anticorps masquent les sites actifs de l'antigène et agglutinent les particules : la neutralisation et l'agglutination figurent bien dans la liste du cours."
+        },
+        {
+          "t": "L'activation en cascade du système du complément",
+          "j": "La fixation des anticorps sur l'antigène déclenche la cascade du complément, qui amplifie la réponse innée : cette action est bien au programme."
+        },
+        {
+          "t": "La stimulation de la phagocytose et l'immobilisation des bactéries",
+          "j": "En recouvrant le germe, les anticorps le rendent plus visible aux phagocytes et limitent sa mobilité : deux actions effectivement décrites dans le cours."
+        }
+      ]
+    },
+    {
+      "q": "Par quel mécanisme un lymphocyte T cytotoxique détruit-il sa cellule cible ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Il perce sa membrane et y introduit des enzymes digestives",
+          "correct": true,
+          "j": "Après avoir reconnu le peptide présenté sur le CMH de classe I, le CD8 perce la membrane de la cellule cible et y fait pénétrer des enzymes qui la détruisent."
+        },
+        {
+          "t": "Il sécrète des anticorps spécifiques qui dissolvent sa membrane",
+          "j": "La sécrétion d'anticorps est le fait des plasmocytes issus des lymphocytes B ; le lymphocyte T n'en produit pas."
+        },
+        {
+          "t": "Il l'englobe par phagocytose et la digère dans ses lysosomes",
+          "j": "L'englobement puis la digestion intracellulaire caractérisent les phagocytes professionnels, macrophages et neutrophiles."
+        },
+        {
+          "t": "Il libère de l'histamine qui provoque sa lyse osmotique",
+          "j": "La libération d'histamine est le propre des basophiles et des mastocytes dans les réactions allergiques, sans effet lytique ciblé."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi la réponse immunitaire primaire est-elle plus lente que la réponse secondaire ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Parce que les clones de lymphocytes spécifiques doivent d'abord être constitués",
+          "correct": true,
+          "j": "Au premier contact, il faut activer le lymphocyte puis le faire proliférer en clones avant d'obtenir des plasmocytes ; les cellules mémoire suppriment ensuite ce délai."
+        },
+        {
+          "t": "Parce que les barrières innées doivent s'épuiser avant que l'adaptatif s'active",
+          "j": "Immunité innée et adaptative ne se relaient pas après épuisement : leurs activations se chevauchent dans le temps."
+        },
+        {
+          "t": "Parce que les anticorps de la réponse primaire doivent être neutralisés",
+          "j": "Aucune neutralisation préalable n'est nécessaire : les anticorps de la réponse primaire participent à la défense et ne la freinent pas."
+        },
+        {
+          "t": "Parce que le thymus doit produire de nouveaux lymphocytes T à chaque contact",
+          "j": "Le répertoire lymphocytaire est constitué avant la rencontre avec l'antigène : aucune nouvelle maturation thymique n'est requise à chaque exposition."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos de l'inflammation chronique :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Elle persiste dans le temps et finit par affaiblir les tissus et la réponse immunitaire",
+          "correct": true,
+          "j": "À la différence de la phase aiguë, bénéfique et résolutive, l'inflammation chronique s'installe, devient inefficace et épuise à la fois les tissus et le système immunitaire."
+        },
+        {
+          "t": "Elle donne les mêmes signes cardinaux, mais plus intenses que la phase aiguë",
+          "j": "La réponse immunitaire s'épuisant, les symptômes de la phase chronique diffèrent de ceux de l'inflammation aiguë au lieu de s'exagérer."
+        },
+        {
+          "t": "Elle amorce la réparation du tissu plus vite que l'inflammation aiguë",
+          "j": "C'est l'inflammation aiguë qui élimine les débris et amorce les premières étapes de la réparation ; la forme chronique entretient la lésion."
+        },
+        {
+          "t": "Elle constitue la phase spécifique de l'inflammation, dirigée contre un antigène",
+          "j": "Aiguë ou chronique, l'inflammation reste une réaction non spécifique de l'immunité innée, indépendante de la reconnaissance d'un antigène précis."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos de la position anatomique de référence :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Debout, bras pendants le long du corps, avant-bras et mains en supination",
+          "correct": true,
+          "j": "Dans cette position de référence, le sujet est debout, le regard horizontal, les bras pendants et les paumes tournées vers l'avant : c'est elle qui fixe le sens de tous les termes d'orientation."
+        },
+        {
+          "t": "Debout, bras pendants le long du corps, avant-bras et mains en pronation",
+          "j": "Paumes tournées vers l'arrière, il s'agit de la pronation ; la position de référence impose la supination, pouce vers l'extérieur."
+        },
+        {
+          "t": "Debout, membres supérieurs en abduction à 90°, mains en supination",
+          "j": "Les membres supérieurs ne sont pas écartés dans la position de référence : ils pendent le long du corps."
+        },
+        {
+          "t": "Couché sur le dos, membres inférieurs tendus et mains en supination",
+          "j": "Une position allongée se décrit par le décubitus (supinus, pronus ou latéral) et n'est pas la position anatomique de référence, qui est debout."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la qualification correcte de l'os du crâne par rapport au cuir chevelu :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Il lui est profond, car plus éloigné de la surface",
+          "correct": true,
+          "j": "Profond désigne ce qui est éloigné de la surface du corps : l'os du crâne, recouvert par le cuir chevelu, lui est donc profond."
+        },
+        {
+          "t": "Il lui est superficiel, car plus proche de la surface",
+          "j": "Superficiel qualifie ce qui est proche de la surface, ce qui correspond ici au cuir chevelu et non à l'os sous-jacent."
+        },
+        {
+          "t": "Il lui est postérieur, dans le plan sagittal",
+          "j": "Antérieur/postérieur situe deux structures selon l'axe avant-arrière, ce qui ne convient pas à une relation surface-profondeur."
+        },
+        {
+          "t": "Il lui est proximal, le long de l'axe du corps",
+          "j": "Proximal/distal ne s'emploie que le long d'un membre, par rapport à sa racine, et jamais pour les structures de la tête."
+        }
+      ]
+    },
+    {
+      "q": "Comment nomme-t-on l'articulation fibreuse immobile qui unit une dent à son alvéole osseuse ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Une gomphose",
+          "correct": true,
+          "j": "La gomphose est l'articulation fibreuse immobile qui enchâsse la racine de la dent dans son alvéole osseuse, à la manière d'une cheville dans sa mortaise."
+        },
+        {
+          "t": "Une suture",
+          "j": "La suture est aussi une articulation fibreuse immobile, mais elle unit deux os plats du crâne et non une dent à l'os."
+        },
+        {
+          "t": "Une syndesmose",
+          "j": "La syndesmose réunit deux os par une membrane ou un ligament interosseux, comme entre radius et ulna, en laissant un léger jeu."
+        },
+        {
+          "t": "Une synchondrose",
+          "j": "La synchondrose est une articulation cartilagineuse immobile, comme la plaque de croissance, et non une articulation fibreuse."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos des cavités du corps humain :",
+      "c": 7,
+      "options": [
+        {
+          "t": "La cavité postérieure réunit la cavité crânienne et la cavité vertébrale",
+          "correct": true,
+          "j": "La cavité postérieure (dorsale) se compose de la cavité crânienne, qui loge l'encéphale, et de la cavité vertébrale, qui loge la moelle épinière."
+        },
+        {
+          "t": "La cavité postérieure réunit la cavité crânienne et la cavité thoracique",
+          "j": "La cavité thoracique appartient à la cavité antérieure (ventrale) : elle est ici rattachée à tort à la cavité postérieure."
+        },
+        {
+          "t": "La cavité antérieure réunit la cavité vertébrale et la cavité abdominale",
+          "j": "La cavité vertébrale est postérieure ; la cavité antérieure associe la cavité thoracique et la cavité abdomino-pelvienne."
+        },
+        {
+          "t": "La cavité antérieure réunit les cavités thoracique et crânienne",
+          "j": "La cavité crânienne est postérieure : la cavité antérieure comprend la cavité thoracique et la cavité abdomino-pelvienne, pas le crâne."
+        }
+      ]
+    }
   ],
   "anat2": [
     {
@@ -29151,7 +32871,7 @@ const QUESTIONS = {
       ]
     },
     {
-      "q": "Quel ligament du coude renforce la face antérieure de l'articulation ?",
+      "q": "Quel ligament du coude renforce la face latérale de l'articulation ?",
       "c": 2,
       "options": [
         {
@@ -29901,11 +33621,11 @@ const QUESTIONS = {
         },
         {
           "t": "Fléchisseur radial du carpe",
-          "j": "Innervé par le médian, paralysé en cas de lésion médiane."
+          "j": "Fléchisseur et abducteur du poignet, il dépend du médian : il est paralysé."
         },
         {
           "t": "Long palmaire",
-          "j": "Innervé par le médian, paralysé en cas de lésion médiane."
+          "j": "Faible fléchisseur du poignet, il dépend lui aussi du médian : paralysé également."
         }
       ]
     },
@@ -30338,11 +34058,11 @@ const QUESTIONS = {
         },
         {
           "t": "Ligament conoïde",
-          "j": "Composante coraco-claviculaire de l'articulation acromio-claviculaire, à l'extrémité latérale de la clavicule, pas à la sterno-claviculaire."
+          "j": "Ce faisceau conique appartient à l'extrémité LATÉRALE de la clavicule, pas à la sterno-claviculaire."
         },
         {
           "t": "Ligament trapézoïde",
-          "j": "Composante coraco-claviculaire de l'articulation acromio-claviculaire, à l'extrémité latérale de la clavicule, pas à la sterno-claviculaire."
+          "j": "Ce faisceau quadrilatère renforce lui aussi l'extrémité LATÉRALE de la clavicule."
         }
       ]
     },
@@ -30449,11 +34169,11 @@ const QUESTIONS = {
         },
         {
           "t": "Opposant du pouce",
-          "j": "Innervé exclusivement par le médian, donc paralysé en cas de canal carpien sévère."
+          "j": "Il porte le pouce en opposition sous la seule commande du médian : il est paralysé."
         },
         {
           "t": "Court abducteur du pouce",
-          "j": "Innervé exclusivement par le médian, donc paralysé en cas de canal carpien sévère."
+          "j": "Il écarte le pouce de la paume sous la commande du médian : il est paralysé."
         },
         {
           "t": "Court fléchisseur du pouce",
@@ -30541,11 +34261,11 @@ const QUESTIONS = {
         },
         {
           "t": "Inter-phalangienne proximale",
-          "j": "Trochléenne pure, 1 seul degré (flexion-extension)."
+          "j": "L'inter-phalangienne proximale est une trochléenne : un seul axe, la flexion-extension."
         },
         {
           "t": "Inter-phalangienne distale",
-          "j": "Trochléenne pure, 1 seul degré (flexion-extension)."
+          "j": "L'inter-phalangienne distale est uniaxiale elle aussi : aucune abduction n'y est possible."
         },
         {
           "t": "Carpo-métacarpienne du 3e doigt",
@@ -30610,15 +34330,15 @@ const QUESTIONS = {
         },
         {
           "t": "Extenseur commun des doigts",
-          "j": "Innervé par la branche profonde du radial, paralysé."
+          "j": "Il étend les quatre doigts longs sous la commande de la branche profonde : paralysé."
         },
         {
           "t": "Long extenseur du pouce",
-          "j": "Innervé par la branche profonde du radial, paralysé."
+          "j": "Il étend la phalange distale du pouce sous la même commande : paralysé."
         },
         {
           "t": "Extenseur ulnaire du carpe",
-          "j": "Innervé par la branche profonde du radial, paralysé."
+          "j": "Extenseur et adducteur du poignet, il dépend lui aussi de la branche profonde : paralysé."
         }
       ]
     },
@@ -30913,11 +34633,11 @@ const QUESTIONS = {
         },
         {
           "t": "Infra-épineux",
-          "j": "Il est rotateur latéral (externe)."
+          "j": "L'infra-épineux tourne l'humérus en DEHORS : c'est l'action inverse de celle demandée."
         },
         {
           "t": "Petit rond",
-          "j": "Il est rotateur latéral (externe)."
+          "j": "Le petit rond, son voisin inférieur dans la coiffe, est lui aussi rotateur latéral."
         }
       ]
     },
@@ -31093,15 +34813,15 @@ const QUESTIONS = {
         },
         {
           "t": "Long palmaire",
-          "j": "Muscle épicondylien médial (fléchisseur)."
+          "j": "Épicondylien médial : c'est un faible fléchisseur du poignet."
         },
         {
           "t": "Fléchisseur radial du carpe",
-          "j": "Muscle épicondylien médial."
+          "j": "Épicondylien médial : il fléchit et abducte le poignet."
         },
         {
           "t": "Fléchisseur ulnaire du carpe",
-          "j": "Muscle épicondylien médial."
+          "j": "Épicondylien médial : il fléchit et adducte le poignet."
         }
       ]
     },
@@ -31142,7 +34862,7 @@ const QUESTIONS = {
         },
         {
           "t": "Huméro-ulnaire",
-          "j": "C'est une trochléenne."
+          "j": "L'huméro-ulnaire est la trochléenne type du coude, avec un seul axe de mouvement."
         },
         {
           "t": "Huméro-radiale",
@@ -31465,11 +35185,11 @@ const QUESTIONS = {
         },
         {
           "t": "Fléchisseur ulnaire du carpe",
-          "j": "Muscle épicondylien médial."
+          "j": "Épicondylien médial, il fléchit et adducte le poignet."
         },
         {
           "t": "Long palmaire",
-          "j": "Muscle épicondylien médial."
+          "j": "Épicondylien médial également, il n'a qu'une action fléchissante modeste."
         }
       ]
     },
@@ -31553,11 +35273,11 @@ const QUESTIONS = {
         },
         {
           "t": "Chef court du biceps brachial",
-          "j": "Il naît du processus coracoïde."
+          "j": "Le chef court du biceps brachial naît bien du coracoïde, en dedans du chef long."
         },
         {
           "t": "Coraco-brachial",
-          "j": "Il naît du processus coracoïde."
+          "j": "Le coraco-brachial y prend naissance aussi : son nom même l'indique."
         },
         {
           "t": "Petit pectoral",
@@ -31584,7 +35304,7 @@ const QUESTIONS = {
         },
         {
           "t": "Fléchisseur ulnaire du carpe",
-          "j": "Plan superficiel."
+          "j": "Il appartient au plan superficiel, bien en avant du carré pronateur."
         }
       ]
     },
@@ -31723,6 +35443,1547 @@ const QUESTIONS = {
         {
           "t": "Radio-ulnaire distale",
           "j": "Faux ici : la radio-ulnaire distale comporte un ligament triangulaire (disque triangulaire), fibrocartilage incomplet rattaché à l'ulna, et non un disque articulaire complet comme la sterno-claviculaire."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure n'est présente que dans un tiers des cas environ dans l'articulation acromio-claviculaire ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La capsule articulaire fibreuse",
+          "j": "La capsule est constante : l'acromio-claviculaire est une articulation synoviale, donc toujours pourvue d'une capsule et d'une synoviale."
+        },
+        {
+          "t": "Le ligament coraco-claviculaire trapézoïde",
+          "j": "Le trapézoïde est un ligament coraco-claviculaire constant, accessoire de l'acromio-claviculaire car situé hors de la capsule."
+        },
+        {
+          "t": "Le ligament acromio-claviculaire supérieur",
+          "j": "Ce ligament renforce constamment la face supérieure de la capsule acromio-claviculaire ; il n'a rien d'inconstant."
+        },
+        {
+          "t": "Le fibrocartilage interarticulaire",
+          "correct": true,
+          "j": "Le cours décrit un fibrocartilage interarticulaire, véritable ménisque, retrouvé dans un tiers des cas seulement : c'est l'élément inconstant de cette articulation plane."
+        }
+      ]
+    },
+    {
+      "q": "Quelles surfaces entrent en présence dans l'articulation sterno-costo-claviculaire ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Extrémité sternale de la clavicule, manubrium et premier cartilage costal",
+          "correct": true,
+          "j": "Le cours décrit trois surfaces : l'extrémité sternale de la clavicule, le manubrium sternal et le premier cartilage costal, séparées par un disque articulaire."
+        },
+        {
+          "t": "Extrémité sternale de la clavicule, manubrium et première côte",
+          "j": "La clavicule répond au premier cartilage costal, pas à l'os costal lui-même ; le ligament costo-claviculaire, lui, rejoint la première côte."
+        },
+        {
+          "t": "Extrémité acromiale de la clavicule, manubrium et premier cartilage costal",
+          "j": "L'extrémité acromiale (latérale) de la clavicule s'articule avec l'acromion : elle appartient à l'articulation acromio-claviculaire."
+        },
+        {
+          "t": "Extrémité sternale de la clavicule, corps du sternum et deuxième cartilage costal",
+          "j": "C'est le manubrium, et non le corps du sternum, qui reçoit la clavicule ; le cartilage concerné est le premier, pas le deuxième."
+        }
+      ]
+    },
+    {
+      "q": "Autour de quel axe se produit le mouvement d'élévation-abaissement de la clavicule dans l'articulation sterno-costo-claviculaire ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Un axe sagittal, le mouvement se faisant dans le plan frontal",
+          "correct": true,
+          "j": "Le cours rattache l'élévation-abaissement à un axe sagittal, le déplacement de la clavicule se faisant alors dans le plan frontal."
+        },
+        {
+          "t": "Un axe vertical, le mouvement se faisant dans le plan horizontal",
+          "j": "L'axe vertical commande la protraction-rétraction de la clavicule, mouvement d'avant en arrière dans le plan horizontal."
+        },
+        {
+          "t": "Un axe longitudinal passant par la clavicule",
+          "j": "L'axe longitudinal de la clavicule commande la rotation claviculaire, troisième mouvement de cette articulation."
+        },
+        {
+          "t": "Un axe transversal, le mouvement se faisant dans le plan sagittal",
+          "j": "Aucun mouvement de l'articulation sterno-costo-claviculaire n'est décrit autour d'un axe transversal dans le cours."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos de la clavicule :",
+      "c": 1,
+      "options": [
+        {
+          "t": "Elle est entièrement recouverte par le muscle deltoïde",
+          "j": "Le deltoïde ne naît que du tiers latéral de la clavicule ; l'os reste superficiel sur tout son trajet."
+        },
+        {
+          "t": "Son extrémité médiale s'articule avec le corps du sternum",
+          "j": "L'extrémité médiale répond au manubrium sternal, partie supérieure du sternum, et non à son corps."
+        },
+        {
+          "t": "Elle reste sous-cutanée et palpable sur toute sa longueur",
+          "correct": true,
+          "j": "Os long et fin, la clavicule reste sous-cutanée d'un bout à l'autre, ce qui la rend intégralement palpable et explique la fréquence des fractures exposées."
+        },
+        {
+          "t": "Elle s'articule latéralement avec le processus coracoïde",
+          "j": "Latéralement la clavicule s'articule avec l'acromion ; elle est seulement reliée à la coracoïde par les ligaments conoïde et trapézoïde."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure de l'épiphyse proximale de l'humérus sépare le tubercule majeur du tubercule mineur ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le col chirurgical de l'humérus",
+          "j": "Le col chirurgical est le rétrécissement situé sous les tubercules, à la jonction avec la diaphyse."
+        },
+        {
+          "t": "La crête du tubercule majeur",
+          "j": "Cette crête prolonge le tubercule majeur vers le bas et borde latéralement le sillon, sans le séparer du tubercule mineur."
+        },
+        {
+          "t": "Le col anatomique de l'humérus",
+          "j": "Le col anatomique sépare la tête humérale des deux tubercules : il ne passe pas entre eux."
+        },
+        {
+          "t": "Le sillon intertuberculaire",
+          "correct": true,
+          "j": "Le sillon intertuberculaire creuse l'espace entre les deux tubercules et livre passage au tendon du chef long du biceps brachial."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos du tendon du chef long du biceps brachial au niveau de l'épaule :",
+      "c": 1,
+      "options": [
+        {
+          "t": "Il s'attache sur le bord inférieur du bourrelet glénoïdien",
+          "j": "Il s'attache à la partie supérieure du bourrelet glénoïdien, au niveau du tubercule supra-glénoïdien."
+        },
+        {
+          "t": "Il reste entièrement en dehors de la capsule articulaire",
+          "j": "Son trajet est au contraire intra-articulaire sur son segment proximal, particularité rare qui explique les ténosynovites associées aux atteintes de l'épaule."
+        },
+        {
+          "t": "Il traverse la cavité articulaire avant de perforer la capsule",
+          "correct": true,
+          "j": "Né au sommet de la glène, le tendon traverse la cavité de l'articulation scapulo-humérale puis perce la capsule pour gagner le sillon intertuberculaire."
+        },
+        {
+          "t": "Il est maintenu dans son sillon par le ligament coraco-acromial",
+          "j": "Le ligament coraco-acromial forme l'arche au-dessus de la tête humérale ; c'est le ligament transverse huméral qui retient ce tendon."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure limite le premier temps de la flexion de l'épaule (0 à 60°) ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La tension du ligament costo-claviculaire",
+          "j": "Ce ligament accessoire freine l'élévation de la clavicule dans l'articulation sterno-costo-claviculaire, pas la flexion gléno-humérale."
+        },
+        {
+          "t": "La butée du tubercule majeur sur la glène",
+          "j": "Cette butée osseuse limite le premier temps de l'abduction, pas celui de la flexion."
+        },
+        {
+          "t": "La tension du ligament coraco-huméral",
+          "correct": true,
+          "j": "Le premier temps est purement scapulo-huméral et s'arrête sur la mise en tension du ligament coraco-huméral, renfort supérieur de la capsule."
+        },
+        {
+          "t": "La tension de la partie postérieure de la capsule",
+          "j": "La capsule postérieure se tend lors de la rotation médiale, qu'elle limite à environ 90°."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui arrête le premier temps de l'abduction de l'épaule (0 à 90°) ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La butée du tubercule majeur sur le bord de la glène",
+          "correct": true,
+          "j": "Au-delà de 90°, le tubercule majeur vient heurter le bord supérieur de la glène, la tension des ligaments gléno-huméraux moyen et inférieur s'y ajoutant."
+        },
+        {
+          "t": "L'enroulement du tendon du long biceps dans son sillon",
+          "j": "Le tendon bicipital glisse dans le sillon pendant tout le mouvement et n'exerce aucun effet de frein."
+        },
+        {
+          "t": "La butée du processus coracoïde contre le col huméral",
+          "j": "La coracoïde reste en avant et en dedans de la tête : elle ne constitue pas le butoir de l'abduction."
+        },
+        {
+          "t": "La mise en tension du ligament coraco-huméral",
+          "j": "Ce ligament limite le premier temps de la flexion ; il n'est pas le frein principal de l'abduction."
+        }
+      ]
+    },
+    {
+      "q": "À partir de quel degré d'abduction la ceinture scapulaire entre-t-elle en jeu, par bascule de la scapula ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "60°",
+          "j": "Le seuil de 60° marque la fin du premier temps de la flexion de l'épaule, et non de l'abduction."
+        },
+        {
+          "t": "90°",
+          "correct": true,
+          "j": "Le deuxième temps de l'abduction va de 90° à 150° : la scapula bascule et oriente la glène vers le haut, relayant l'articulation scapulo-humérale."
+        },
+        {
+          "t": "120°",
+          "j": "C'est au-delà de 120° que le rachis intervient dans la flexion ; pour l'abduction, la scapula a déjà basculé bien avant."
+        },
+        {
+          "t": "150°",
+          "j": "À 150° commence le troisième temps de l'abduction, qui met en jeu l'inclinaison latérale du rachis, non la scapula."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui limite la rotation médiale de l'épaule, évaluée coude fléchi à 90° ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La butée de l'acromion sur le tubercule majeur",
+          "j": "Le conflit entre acromion et tubercule majeur se produit en abduction, non lors des rotations coude au corps."
+        },
+        {
+          "t": "La tension de la partie antérieure de la capsule",
+          "j": "C'est la rotation latérale, également de 90°, qui est freinée par la tension de la capsule antérieure."
+        },
+        {
+          "t": "La tension de la partie postérieure de la capsule",
+          "correct": true,
+          "j": "La rotation médiale atteint environ 90° et s'arrête sur la mise en tension de la partie postérieure de la capsule gléno-humérale."
+        },
+        {
+          "t": "La tension du ligament coraco-acromial",
+          "j": "Ce ligament ne s'attache pas à l'humérus : il protège la coiffe sous l'arche mais ne limite aucune rotation."
+        }
+      ]
+    },
+    {
+      "q": "Quelle amplitude atteint environ l'adduction du bras lorsqu'elle est associée à une flexion (adduction antérieure) ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "90°",
+          "j": "Amplitude des rotations de l'épaule, pas de l'adduction, qui reste bridée par la présence du thorax."
+        },
+        {
+          "t": "45°",
+          "correct": true,
+          "j": "Le cours chiffre l'adduction antérieure à environ 45° : le bras croise alors la ligne médiane en avant du tronc."
+        },
+        {
+          "t": "15°",
+          "j": "Le cours ne chiffre pas l'adduction postérieure : il la décrit seulement comme minime, le tronc faisant rapidement obstacle."
+        },
+        {
+          "t": "30°",
+          "j": "Valeur trop basse : le cours chiffre à environ 45° l'adduction antérieure, lorsque le bras passe en avant du tronc."
+        }
+      ]
+    },
+    {
+      "q": "Que forme la membrane synoviale de l'épaule lorsqu'elle fait saillie à travers les ouvertures de la membrane fibreuse ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le ligament transverse huméral",
+          "j": "Ce ligament ferme le sillon intertuberculaire entre les deux tubercules : c'est une structure fibreuse, pas synoviale."
+        },
+        {
+          "t": "Le bourrelet glénoïdien",
+          "j": "Le bourrelet est un anneau fibrocartilagineux fixé au pourtour de la glène, et non une expansion de la synoviale."
+        },
+        {
+          "t": "Des sacs (bourses) synoviaux",
+          "correct": true,
+          "j": "La synoviale s'échappe par les orifices de la membrane fibreuse et forme des sacs synoviaux, qui facilitent le glissement des tendons péri-articulaires."
+        },
+        {
+          "t": "Les ligaments gléno-huméraux",
+          "j": "Ces trois ligaments sont des épaississements fibreux de la capsule antérieure, pas des évaginations synoviales."
+        }
+      ]
+    },
+    {
+      "q": "Quel type de mouvement se produit dans l'articulation acromio-claviculaire lors de la sonnette de la scapula ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Un glissement des surfaces articulaires planes",
+          "correct": true,
+          "j": "Arthrodie aux surfaces planes, l'acromio-claviculaire n'autorise qu'un glissement, qui accompagne la sonnette de la scapula et l'élévation de la clavicule."
+        },
+        {
+          "t": "Une circumduction à trois degrés de liberté",
+          "j": "La circumduction appartient aux énarthroses comme la gléno-humérale, dotées de trois degrés de liberté."
+        },
+        {
+          "t": "Une rotation pure autour d'un axe longitudinal",
+          "j": "Ce type de mouvement caractérise les articulations trochoïdes, comme la radio-ulnaire proximale."
+        },
+        {
+          "t": "Une flexion-extension autour d'un axe transversal",
+          "j": "La flexion-extension suppose des surfaces en poulie ou en condyle, ce que ne sont pas les surfaces planes de l'acromio-claviculaire."
+        }
+      ]
+    },
+    {
+      "q": "Sur quelle partie de la scapula se situe le processus coracoïde ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "L'angle inférieur de l'os",
+          "j": "L'angle inférieur est le sommet le plus bas de l'os triangulaire, repère palpable mais dépourvu de processus."
+        },
+        {
+          "t": "Le bord médial (spinal)",
+          "j": "Le bord médial reçoit les insertions du dentelé antérieur et des rhomboïdes ; aucun processus n'en naît."
+        },
+        {
+          "t": "Le bord latéral (axillaire)",
+          "j": "Le bord latéral porte la cavité glénoïde à son extrémité supérieure, mais pas la coracoïde."
+        },
+        {
+          "t": "Le bord supérieur de l'os",
+          "correct": true,
+          "j": "Le processus coracoïde naît du bord supérieur de la scapula et sert d'ancrage à plusieurs muscles et ligaments de la ceinture scapulaire."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure prolonge latéralement l'épine de la scapula et s'articule avec la clavicule ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "L'angle supérieur de la scapula",
+          "j": "L'angle supérieur reçoit l'élévateur de la scapula ; il n'entre dans aucune articulation."
+        },
+        {
+          "t": "Le tubercule supra-glénoïdien",
+          "j": "Ce tubercule surplombe la cavité glénoïde et donne naissance au chef long du biceps brachial."
+        },
+        {
+          "t": "Le processus coracoïde",
+          "j": "La coracoïde naît du bord supérieur de la scapula et ne s'articule avec aucun os : elle n'offre que des insertions."
+        },
+        {
+          "t": "L'acromion de la scapula",
+          "correct": true,
+          "j": "L'épine de la scapula se prolonge en dehors par l'acromion, qui porte la surface articulaire répondant à l'extrémité latérale de la clavicule."
+        }
+      ]
+    },
+    {
+      "q": "Quelle surface de l'épiphyse distale de l'humérus s'articule avec l'ulna ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La trochlée humérale",
+          "correct": true,
+          "j": "La trochlée, en forme de poulie, répond à l'incisure trochléaire de l'ulna et constitue l'articulation huméro-ulnaire."
+        },
+        {
+          "t": "Le capitulum (condyle)",
+          "j": "Le capitulum est la surface arrondie latérale, qui s'articule avec le dôme de la tête radiale."
+        },
+        {
+          "t": "L'épicondyle médial",
+          "j": "L'épicondyle médial est une saillie d'insertion musculaire, extra-articulaire : il ne porte aucune surface articulaire."
+        },
+        {
+          "t": "La fosse olécranienne",
+          "j": "Cette fosse postérieure reçoit l'olécrane en extension, mais c'est une dépression de logement, pas une surface articulaire."
+        }
+      ]
+    },
+    {
+      "q": "Combien de capsules articulaires comporte le complexe articulaire du coude ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Une seule, commune aux trois articulations",
+          "correct": true,
+          "j": "Chaque articulation du coude a ses propres surfaces, mais la capsule, les ligaments et la synoviale sont communs aux trois."
+        },
+        {
+          "t": "Deux, l'une huméro-ulnaire, l'autre radiale",
+          "j": "Aucune cloison ne sépare les compartiments : la cavité articulaire du coude est unique."
+        },
+        {
+          "t": "Trois, soit une par articulation",
+          "j": "Les trois articulations possèdent des surfaces distinctes mais partagent une seule et même capsule."
+        },
+        {
+          "t": "Trois, dont deux unies par un disque",
+          "j": "Il n'existe aucun disque dans le coude, et le nombre de capsules n'est pas de trois mais d'une."
+        }
+      ]
+    },
+    {
+      "q": "Où la capsule du coude s'insère-t-elle sur l'humérus ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Sur l'épicondyle médial et sur l'épicondyle latéral de l'humérus",
+          "j": "Les épicondyles sont extra-articulaires : la capsule passe en dedans d'eux pour laisser libres les insertions musculaires."
+        },
+        {
+          "t": "Sur la crête supracondylaire latérale et sur la trochlée",
+          "j": "La crête supracondylaire donne insertion au brachio-radial et reste très au-dessus de la ligne d'insertion capsulaire."
+        },
+        {
+          "t": "Au fond des fosses coronoïdienne, radiale et olécranienne",
+          "j": "La capsule longe le bord supérieur de ces fosses, qui restent donc incluses dans la cavité articulaire."
+        },
+        {
+          "t": "Au bord supérieur des fosses coronoïdienne, radiale et olécranienne",
+          "correct": true,
+          "j": "Le cours situe l'insertion humérale de la capsule le long des bords supérieurs des trois fosses — coronoïdienne, radiale et olécranienne —, ce qui laisse l'épicondyle et l'épitrochlée en dehors de l'articulation."
+        }
+      ]
+    },
+    {
+      "q": "Quelle cavité articulaire de l'ulna est également appelée grande cavité sigmoïde ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La fosse coronoïdienne",
+          "j": "Cette fosse appartient à l'humérus : elle reçoit le processus coronoïde en flexion maximale."
+        },
+        {
+          "t": "L'incisure ulnaire",
+          "j": "L'incisure ulnaire appartient au radius, à son extrémité distale, et reçoit la tête de l'ulna."
+        },
+        {
+          "t": "L'incisure trochléaire",
+          "correct": true,
+          "j": "L'incisure trochléaire, ou grande cavité sigmoïde, est creusée entre l'olécrane et le processus coronoïde et reçoit la trochlée humérale."
+        },
+        {
+          "t": "L'incisure radiale",
+          "j": "L'incisure radiale est la petite cavité sigmoïde, située sur le bord latéral du processus coronoïde, où tourne la tête radiale."
+        }
+      ]
+    },
+    {
+      "q": "Avec quelle structure s'articule le dôme (fossette) de la tête radiale ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "L'incisure radiale de l'ulna",
+          "j": "C'est la circonférence (le pourtour) de la tête radiale, et non son dôme, qui tourne dans l'incisure radiale."
+        },
+        {
+          "t": "Le capitulum de l'humérus",
+          "correct": true,
+          "j": "La fossette creusée au sommet de la tête radiale répond au capitulum, surface arrondie latérale de l'humérus : c'est l'articulation huméro-radiale."
+        },
+        {
+          "t": "La trochlée de l'humérus",
+          "j": "La trochlée en poulie s'articule avec l'incisure trochléaire de l'ulna, et non avec le radius."
+        },
+        {
+          "t": "L'incisure trochléaire de l'ulna",
+          "j": "L'incisure trochléaire ne reçoit que la trochlée humérale ; elle n'a aucun contact avec le radius."
+        }
+      ]
+    },
+    {
+      "q": "À quel niveau du radius se situe la tubérosité radiale (bicipitale) ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Au tiers moyen de la face postérieure",
+          "j": "Le cours ne décrit aucune tubérosité sur la diaphyse radiale : la tubérosité bicipitale est un relief de l'épiphyse proximale."
+        },
+        {
+          "t": "À l'épiphyse distale, près de la styloïde",
+          "j": "L'épiphyse distale est volumineuse et porte le processus styloïde, mais aucune tubérosité bicipitale."
+        },
+        {
+          "t": "Au niveau du col, juste sous la tête radiale",
+          "correct": true,
+          "j": "La tubérosité radiale occupe le col, immédiatement sous la tête, et reçoit le tendon terminal du biceps brachial."
+        },
+        {
+          "t": "Sur le bord latéral de la tête radiale",
+          "j": "Le bord latéral de la tête est une surface articulaire lisse qui tourne dans le ligament annulaire."
+        }
+      ]
+    },
+    {
+      "q": "Quel ligament du coude s'étend de l'humérus au processus coronoïde de l'ulna et au ligament annulaire du radius ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le ligament antérieur (oblique antérieur)",
+          "correct": true,
+          "j": "Le ligament antérieur, dit oblique antérieur, part de l'épicondyle médial et se fixe sur le coronoïde et sur la face antérieure du ligament annulaire, renforçant l'avant de la capsule."
+        },
+        {
+          "t": "Le ligament postérieur du coude",
+          "j": "Le ligament postérieur renforce l'arrière de la capsule et ne rejoint ni le coronoïde ni le ligament annulaire."
+        },
+        {
+          "t": "Le ligament carré de la radio-ulnaire",
+          "j": "Le ligament carré est un feuillet quadrilatéral tendu sous l'incisure radiale, qui renforce la face inférieure de la capsule."
+        },
+        {
+          "t": "Le ligament collatéral ulnaire",
+          "j": "Le collatéral ulnaire naît de l'épicondyle médial et se termine sur l'ulna par ses trois faisceaux ; il renforce le côté médial de la capsule, pas sa face antérieure."
+        }
+      ]
+    },
+    {
+      "q": "Quels faisceaux le ligament de Cooper (ligament transverse du coude) vient-il renforcer ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Les faisceaux moyen et postérieur du ligament collatéral ulnaire",
+          "correct": true,
+          "j": "Le ligament de Cooper est un renfort transversal jeté sur les faisceaux moyen et postérieur du collatéral ulnaire, essentiel dans les gestes de lancer."
+        },
+        {
+          "t": "Les faisceaux antérieur et moyen du ligament collatéral radial",
+          "j": "Le collatéral radial comporte bien trois faisceaux, mais aucun n'est renforcé par le ligament de Cooper."
+        },
+        {
+          "t": "Les fibres inférieures du ligament carré de la radio-ulnaire",
+          "j": "Le ligament carré est un renfort indépendant de la face inférieure de la capsule, sans rapport avec le ligament de Cooper."
+        },
+        {
+          "t": "Les fibres antérieures du ligament annulaire du radius",
+          "j": "Le ligament annulaire est renforcé en avant par le ligament oblique antérieur, pas par le ligament de Cooper."
+        }
+      ]
+    },
+    {
+      "q": "Sur quelle structure se termine le faisceau postérieur du ligament collatéral radial du coude ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La partie externe de l'olécrane",
+          "correct": true,
+          "j": "Le faisceau postérieur du collatéral radial contourne la tête radiale pour se fixer sur la partie externe de l'olécrane."
+        },
+        {
+          "t": "Le bord antérieur de l'incisure radiale",
+          "j": "C'est le faisceau antérieur du collatéral radial qui gagne le bord antérieur de l'incisure radiale de l'ulna."
+        },
+        {
+          "t": "La partie interne du col du radius",
+          "j": "Le col du radius reçoit le ligament carré sur sa partie interne, pas les faisceaux du collatéral radial."
+        },
+        {
+          "t": "Le bord postérieur de l'incisure radiale",
+          "j": "Ce bord reçoit le faisceau moyen du ligament collatéral radial, et non son faisceau postérieur."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui limite le mouvement de flexion du coude ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La mise en tension du ligament carré et des antagonistes",
+          "j": "Ces structures freinent la prono-supination dans l'articulation radio-ulnaire proximale, pas la flexion."
+        },
+        {
+          "t": "Le ligament postérieur et les faisceaux postérieurs des collatéraux",
+          "correct": true,
+          "j": "La flexion se termine sur la mise en tension du ligament postérieur et des faisceaux postérieurs des collatéraux, le contact des masses musculaires s'y ajoutant."
+        },
+        {
+          "t": "La butée du sommet de l'olécrane dans sa fosse humérale",
+          "j": "Ce butoir osseux limite l'extension du coude, lorsque l'olécrane vient se loger dans la fosse olécranienne."
+        },
+        {
+          "t": "La mise en tension de la membrane interosseuse antébrachiale",
+          "j": "La membrane interosseuse transmet les contraintes entre les deux os de l'avant-bras et ne limite aucun mouvement du coude."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui arrête l'extension du coude ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La mise en tension du ligament annulaire autour du radius",
+          "j": "Le ligament annulaire maintient la tête radiale contre l'ulna pendant la rotation ; il n'intervient pas dans la flexion-extension."
+        },
+        {
+          "t": "La butée du sommet de l'olécrane dans la fosse olécranienne",
+          "correct": true,
+          "j": "L'extension est stoppée par un butoir osseux : le sommet de l'olécrane vient heurter le fond de la fosse olécranienne de l'humérus."
+        },
+        {
+          "t": "La butée du processus coronoïde dans sa fosse humérale",
+          "j": "Le contact coronoïde-fosse coronoïdienne survient en flexion maximale, à l'opposé du mouvement d'extension."
+        },
+        {
+          "t": "La mise en tension des faisceaux postérieurs des collatéraux",
+          "j": "Ces faisceaux se tendent en flexion : ils participent au frein de la flexion, pas de l'extension."
+        }
+      ]
+    },
+    {
+      "q": "Quel élément fibreux s'étend du processus coronoïde de l'ulna au corps du radius ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Le ligament carré de la radio-ulnaire proximale",
+          "j": "Le ligament carré est tendu horizontalement sous l'incisure radiale, entre l'ulna et le col du radius."
+        },
+        {
+          "t": "La membrane interosseuse antébrachiale",
+          "j": "La membrane interosseuse est tendue entre le bord médial du radius et le bord latéral de l'ulna, sur toute la longueur des diaphyses."
+        },
+        {
+          "t": "Le ligament annulaire du radius",
+          "j": "Le ligament annulaire s'insère de part et d'autre de l'incisure radiale et encercle la tête du radius."
+        },
+        {
+          "t": "La corde oblique (ligament de Weitbrecht)",
+          "correct": true,
+          "j": "La corde oblique, ou ligament de Weitbrecht, va du processus coronoïde au corps du radius ; le cours la présente comme un vestige de l'évolution."
+        }
+      ]
+    },
+    {
+      "q": "Quelles surfaces constituent l'articulation radio-ulnaire distale ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La tête de l'ulna et le processus styloïde du radius",
+          "j": "La styloïde radiale est un relief d'insertion ligamentaire latéral, qui ne s'articule pas avec l'ulna."
+        },
+        {
+          "t": "La tête de l'ulna et l'incisure ulnaire du radius",
+          "correct": true,
+          "j": "La radio-ulnaire distale unit la tête de l'ulna à l'incisure ulnaire du radius, complétée par le disque articulaire triangulaire."
+        },
+        {
+          "t": "La tête du radius et l'incisure radiale de l'ulna",
+          "j": "Ces surfaces forment la radio-ulnaire proximale, au coude, maintenue par le ligament annulaire."
+        },
+        {
+          "t": "La tête de l'ulna et les os lunatum et triquétrum",
+          "j": "L'ulna ne s'articule pas directement avec le carpe : le disque triangulaire s'interpose entre elle et ces deux os."
+        }
+      ]
+    },
+    {
+      "q": "Quel nerf assure l'innervation motrice du muscle trapèze ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Le nerf accessoire (XI)",
+          "correct": true,
+          "j": "Le trapèze est innervé par le nerf accessoire, onzième paire crânienne, avec un appoint du plexus cervical : c'est le seul muscle de la ceinture scapulaire innervé par un nerf crânien."
+        },
+        {
+          "t": "Le nerf dorsal de la scapula",
+          "j": "Le nerf dorsal de la scapula innerve les rhomboïdes et l'élévateur de la scapula, situés sous le trapèze."
+        },
+        {
+          "t": "Le nerf suprascapulaire",
+          "j": "Le nerf suprascapulaire passe dans l'incisure scapulaire et innerve le supra-épineux et l'infra-épineux."
+        },
+        {
+          "t": "Le nerf thoracique long",
+          "j": "Le nerf thoracique long descend sur la paroi latérale du thorax pour innerver le dentelé antérieur."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez l'association CORRECTE entre un faisceau du trapèze et son action sur la scapula :",
+      "c": 3,
+      "options": [
+        {
+          "t": "Fibres transversales → adduction de la scapula",
+          "correct": true,
+          "j": "Les fibres transversales, horizontales, rapprochent la scapula du rachis : elles réalisent l'adduction, c'est-à-dire la rétraction de l'omoplate."
+        },
+        {
+          "t": "Fibres descendantes → abaissement de la scapula",
+          "j": "Les fibres descendantes élèvent au contraire la scapula et participent à sa rotation supérieure."
+        },
+        {
+          "t": "Fibres ascendantes → élévation de la scapula",
+          "j": "Les fibres ascendantes abaissent la scapula tout en l'adductant et en participant à sa rotation supérieure."
+        },
+        {
+          "t": "Fibres descendantes → rotation inférieure de la scapula",
+          "j": "Les fibres descendantes orientent la glène vers le haut : elles font tourner la scapula en rotation supérieure."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces muscles du bras n'est PAS innervé par le nerf musculo-cutané ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le coraco-brachial",
+          "j": "Le coraco-brachial appartient au groupe antérieur du bras, dont le musculo-cutané assure la totalité de l'innervation."
+        },
+        {
+          "t": "Le triceps brachial",
+          "correct": true,
+          "j": "Seul muscle de la loge postérieure du bras, le triceps échappe au musculo-cutané : il est innervé par le nerf radial."
+        },
+        {
+          "t": "Le brachial antérieur",
+          "j": "Le brachial est un muscle antérieur du bras : il reçoit lui aussi ses fibres motrices du nerf musculo-cutané."
+        },
+        {
+          "t": "Le biceps brachial",
+          "j": "Le biceps, le plus superficiel du groupe antérieur, est innervé par le musculo-cutané, comme ses deux voisins."
+        }
+      ]
+    },
+    {
+      "q": "À quels muscles le coraco-brachial répond-il en arrière ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Dentelé antérieur, sous-clavier et trapèze",
+          "j": "Le dentelé antérieur forme la paroi médiale de l'aisselle, le sous-clavier et le trapèze agissent sur la clavicule et la scapula."
+        },
+        {
+          "t": "Supra-épineux, infra-épineux et petit rond",
+          "j": "Ces muscles occupent la face dorsale de la scapula, loin en arrière du trajet du coraco-brachial."
+        },
+        {
+          "t": "Deltoïde, grand pectoral et petit pectoral",
+          "j": "Ces muscles sont situés en avant : les pectoraux forment la paroi antérieure de l'aisselle, le deltoïde recouvre l'épaule."
+        },
+        {
+          "t": "Sous-scapulaire, grand dorsal et grand rond",
+          "correct": true,
+          "j": "En arrière, le coraco-brachial longe le sous-scapulaire, le grand dorsal et le grand rond, les trois muscles de la paroi postérieure de l'aisselle."
+        }
+      ]
+    },
+    {
+      "q": "Quel est le rôle des fibres les plus profondes du muscle brachial ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Elles se prolongent sur la membrane interosseuse",
+          "j": "La membrane interosseuse unit radius et ulna et ne reçoit que les muscles profonds de l'avant-bras ; le brachial ne l'atteint pas."
+        },
+        {
+          "t": "Elles renforcent le ligament annulaire du radius",
+          "j": "Le ligament annulaire est maintenu par le ligament oblique antérieur, et non par des fibres du brachial."
+        },
+        {
+          "t": "Elles se fixent sur la capsule du coude et la tendent",
+          "correct": true,
+          "j": "Les fibres profondes du brachial s'insèrent sur la capsule antérieure du coude et la mettent en tension, évitant son pincement lors de la flexion."
+        },
+        {
+          "t": "Elles maintiennent le long biceps dans son sillon",
+          "j": "C'est le ligament transverse huméral qui retient le tendon du long biceps dans le sillon intertuberculaire."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces muscles n'appartient PAS au groupe antérieur du bras ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le muscle brachial",
+          "j": "Le brachial fait partie du groupe antérieur du bras, en position intermédiaire sous le biceps."
+        },
+        {
+          "t": "Le muscle anconé",
+          "correct": true,
+          "j": "L'anconé est un muscle de l'avant-bras, tendu de l'épicondyle latéral à la face postérieure de l'ulna, et extenseur du coude."
+        },
+        {
+          "t": "Le biceps brachial",
+          "j": "Le biceps est le muscle le plus superficiel du groupe antérieur du bras, avec ses deux chefs scapulaires."
+        },
+        {
+          "t": "Le coraco-brachial",
+          "j": "Le coraco-brachial est le plus profond des trois muscles antérieurs du bras, innervé par le musculo-cutané."
+        }
+      ]
+    },
+    {
+      "q": "De quel type est l'articulation médio-carpienne ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Articulation en selle",
+          "j": "La seule articulation en selle de la main est la trapézo-métacarpienne du pouce."
+        },
+        {
+          "t": "Articulation trochoïde",
+          "j": "Les trochoïdes autorisent une rotation autour d'un axe longitudinal, comme la radio-ulnaire distale : aucune articulation du carpe n'en est une."
+        },
+        {
+          "t": "Articulation double condylienne",
+          "correct": true,
+          "j": "La médio-carpienne est décrite comme une double articulation condylienne, car l'interligne entre les deux rangées du carpe dessine deux condyles emboîtés."
+        },
+        {
+          "t": "Articulation plane (arthrodie)",
+          "j": "Les arthrodies du carpe sont les articulations intercarpiennes, entre les os d'une même rangée."
+        }
+      ]
+    },
+    {
+      "q": "Quel ligament collatéral médial renforce l'articulation médio-carpienne ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le ligament tendu du pisiforme à l'hamatum",
+          "j": "Cette bandelette prolonge le tendon du fléchisseur ulnaire du carpe et n'est pas décrite comme ligament de la médio-carpienne."
+        },
+        {
+          "t": "Le ligament tendu du triquétrum à l'hamatum",
+          "correct": true,
+          "j": "Le collatéral médial de la médio-carpienne relie le triquétrum, de la rangée proximale, à l'hamatum, de la rangée distale."
+        },
+        {
+          "t": "Le ligament tendu du scaphoïde au trapèze",
+          "j": "Cette bandelette est le ligament collatéral latéral de la médio-carpienne, situé du côté radial."
+        },
+        {
+          "t": "Le ligament tendu du capitatum au lunatum",
+          "j": "Le capitatum rayonne vers les os voisins par le ligament radié du carpe, ligament palmaire et non collatéral."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos des articulations intercarpiennes :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Elles sont de type condylien à deux degrés de liberté",
+          "j": "Ce sont des arthrodies, aux surfaces planes, qui n'autorisent que de petits glissements."
+        },
+        {
+          "t": "Elles forment une cavité articulaire unique à synoviale commune",
+          "correct": true,
+          "j": "La capsule s'insère au pourtour des surfaces et réunit toutes les intercarpiennes en une seule cavité, dont la synoviale est commune."
+        },
+        {
+          "t": "Elles sont dépourvues de ligaments interosseux propres",
+          "j": "Elles possèdent au contraire des ligaments intercarpiens interosseux, palmaires et dorsaux."
+        },
+        {
+          "t": "Chacune possède sa propre capsule et sa propre synoviale",
+          "j": "L'inverse est vrai : la continuité des cavités explique qu'une arthrite intercarpienne diffuse à tout le carpe."
+        }
+      ]
+    },
+    {
+      "q": "Quelles surfaces s'articulent dans les articulations métacarpo-phalangiennes des doigts longs ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "La rangée distale du carpe et la base des métacarpiens",
+          "j": "Cette description correspond aux articulations carpo-métacarpiennes."
+        },
+        {
+          "t": "La tête de la phalange proximale et la base de la moyenne",
+          "j": "Ces surfaces constituent l'articulation interphalangienne proximale, de type trochléen."
+        },
+        {
+          "t": "La base du métacarpien et la tête de la phalange proximale",
+          "j": "Les bases des métacarpiens regardent le carpe : ce sont les surfaces des articulations carpo-métacarpiennes."
+        },
+        {
+          "t": "La tête du métacarpien et la base de la phalange proximale",
+          "correct": true,
+          "j": "La tête arrondie du métacarpien joue le rôle de condyle et reçoit la base creusée de la phalange proximale."
+        }
+      ]
+    },
+    {
+      "q": "Quel ligament relie entre elles les articulations métacarpo-phalangiennes du 2e au 5e doigt ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le ligament palmaire de chaque articulation",
+          "j": "Le ligament palmaire, ou plaque palmaire, ferme la face antérieure d'une seule articulation."
+        },
+        {
+          "t": "Les ligaments collatéraux des articulations",
+          "j": "Les collatéraux renforcent chaque articulation sur ses côtés, mais ne relient pas les doigts entre eux."
+        },
+        {
+          "t": "Le rétinaculum des fléchisseurs du poignet",
+          "j": "Le rétinaculum ferme le canal carpien au poignet, bien en amont des articulations métacarpo-phalangiennes."
+        },
+        {
+          "t": "Le ligament métacarpien transverse profond",
+          "correct": true,
+          "j": "Ce ligament solidarise les plaques palmaires des quatre articulations métacarpo-phalangiennes médiales, le pouce restant libre."
+        }
+      ]
+    },
+    {
+      "q": "Avec quels os du carpe le disque articulaire triangulaire est-il en contact par sa face inférieure ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le triquétrum et le pisiforme",
+          "j": "Le pisiforme est un sésamoïde posé en avant du triquétrum : il reste à distance du disque articulaire."
+        },
+        {
+          "t": "Le lunatum et le triquétrum",
+          "correct": true,
+          "j": "Sa face supérieure répond à la tête de l'ulna et sa face inférieure au lunatum et au triquétrum, qu'elle sépare ainsi de l'ulna."
+        },
+        {
+          "t": "Le scaphoïde et le lunatum",
+          "j": "Le scaphoïde s'articule directement avec la surface distale du radius, en dehors du territoire du disque."
+        },
+        {
+          "t": "Le capitatum et l'hamatum",
+          "j": "Ces deux os appartiennent à la rangée distale et participent à l'articulation médio-carpienne."
+        }
+      ]
+    },
+    {
+      "q": "De quels métacarpiens naissent les muscles interosseux palmaires ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Du 3e métacarpien uniquement",
+          "j": "Le 3e métacarpien est l'axe de la main : il ne donne aucun interosseux palmaire, mais le chef transversal de l'adducteur du pouce et deux interosseux dorsaux."
+        },
+        {
+          "t": "Des 1er, 2e et 3e métacarpiens",
+          "j": "Le 3e métacarpien représente l'axe de la main : aucun interosseux palmaire n'en part, puisqu'ils rapprochent les doigts de cet axe."
+        },
+        {
+          "t": "De tous les métacarpiens, par deux chefs",
+          "j": "C'est la disposition des interosseux dorsaux, qui s'attachent aux deux faces bordant chaque espace interosseux."
+        },
+        {
+          "t": "Des 2e, 4e et 5e métacarpiens",
+          "correct": true,
+          "j": "Les interosseux palmaires naissent de la face latérale des 2e, 4e et 5e métacarpiens, celle qui regarde l'axe de la main, ce qui explique leur action d'adduction."
+        }
+      ]
+    },
+    {
+      "q": "Quelle action les muscles interosseux exercent-ils sur les phalanges des doigts longs ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Ils fléchissent les trois phalanges du doigt simultanément",
+          "j": "La flexion des trois phalanges revient aux fléchisseurs superficiel et profond des doigts, venus de l'avant-bras."
+        },
+        {
+          "t": "Ils étendent la première phalange et fléchissent les autres",
+          "j": "C'est l'inverse de leur action : leur terminaison sur l'appareil extenseur étend P2 et P3, tandis que P1 est fléchie."
+        },
+        {
+          "t": "Ils fléchissent les deux dernières phalanges seulement",
+          "j": "Les deux dernières phalanges sont étendues, et non fléchies, par les interosseux et les lombricaux."
+        },
+        {
+          "t": "Ils fléchissent la première phalange et étendent les deux autres",
+          "correct": true,
+          "j": "En se terminant à la fois sur la base de P1 et sur le tendon extenseur, les interosseux fléchissent la métacarpo-phalangienne et étendent les interphalangiennes."
+        }
+      ]
+    },
+    {
+      "q": "Comment les muscles interosseux dorsaux s'attachent-ils aux métacarpiens ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Par un seul chef, sur la face tournée vers l'axe de la main",
+          "j": "Cette origine unique, du côté de l'axe de la main, est celle des interosseux palmaires, adducteurs des doigts."
+        },
+        {
+          "t": "Par deux chefs, sur les faces qui bordent l'espace interosseux",
+          "correct": true,
+          "j": "Chaque interosseux dorsal est bipenné : il naît des deux faces des métacarpiens qui limitent son espace, d'où son volume et sa puissance d'abduction."
+        },
+        {
+          "t": "Par un seul chef, sur la base des métacarpiens",
+          "j": "Les bases des métacarpiens reçoivent les tendons venus de l'avant-bras, comme les extenseurs radiaux du carpe."
+        },
+        {
+          "t": "Par deux chefs, sur la face palmaire des métacarpiens",
+          "j": "Les métacarpiens ne donnent d'insertion aux interosseux que par leurs faces latérales bordant les espaces, jamais par leur face palmaire."
+        }
+      ]
+    },
+    {
+      "q": "Quel nerf innerve l'ensemble des muscles interosseux de la main ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Le nerf médian seul",
+          "j": "Le médian innerve le court abducteur, l'opposant et le chef superficiel du court fléchisseur du pouce, ainsi que les deux lombricaux latéraux, mais aucun interosseux."
+        },
+        {
+          "t": "Le nerf ulnaire seul",
+          "correct": true,
+          "j": "Interosseux dorsaux comme palmaires dépendent tous du nerf ulnaire, d'où la griffe et l'amyotrophie des espaces interosseux lors de sa paralysie."
+        },
+        {
+          "t": "Le nerf radial seul",
+          "j": "Le radial s'épuise dans les extenseurs de l'avant-bras et n'innerve aucun muscle intrinsèque de la main."
+        },
+        {
+          "t": "Le médian et l'ulnaire",
+          "j": "Cette double dépendance est celle des lombricaux ; les interosseux, eux, relèvent entièrement de l'ulnaire."
+        }
+      ]
+    },
+    {
+      "q": "Comment se répartit l'innervation des muscles lombricaux ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les quatre lombricaux par le seul nerf médian",
+          "j": "Une paralysie ulnaire déficite les deux lombricaux médiaux : ils ne peuvent donc pas dépendre du médian."
+        },
+        {
+          "t": "Les deux latéraux par le médian, les deux médiaux par l'ulnaire",
+          "correct": true,
+          "j": "Les lombricaux des 2e et 3e doigts suivent le nerf médian, ceux des 4e et 5e doigts le nerf ulnaire, comme le montrent les planches du cours de neuroanatomie (médian : lombricaux latéraux ; ulnaire : lombricaux médiaux) ; la diapositive de myologie qui inverse ces deux termes est fautive."
+        },
+        {
+          "t": "Les quatre lombricaux par le seul nerf ulnaire",
+          "j": "Seuls les interosseux, et non les quatre lombricaux, sont intégralement sous la dépendance de l'ulnaire."
+        },
+        {
+          "t": "Les deux latéraux par l'ulnaire, les deux médiaux par le médian",
+          "j": "La répartition est exactement inverse : c'est le bord ulnaire de la main qui dépend du nerf ulnaire."
+        }
+      ]
+    },
+    {
+      "q": "Quelles sont les origines des deux chefs du muscle adducteur du pouce ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les deux chefs sur le rétinaculum des fléchisseurs du carpe",
+          "j": "Le rétinaculum donne surtout insertion au court fléchisseur et au court abducteur du pouce, et non aux deux chefs de l'adducteur."
+        },
+        {
+          "t": "Chef oblique sur l'hamatum, chef transversal sur le 4e métacarpien",
+          "j": "L'hamatum donne naissance aux muscles hypothénariens, opposant et court fléchisseur du 5e doigt."
+        },
+        {
+          "t": "Chef oblique sur le trapèze et le capitatum, chef transversal sur le 3e métacarpien",
+          "correct": true,
+          "j": "L'adducteur du pouce est le seul muscle thénarien à naître de deux sites distincts : une tête oblique carpienne (trapèze et capitatum) et une tête transversale née du troisième métacarpien."
+        },
+        {
+          "t": "Chef oblique sur le scaphoïde et le trapèze, chef transversal sur le 2e métacarpien",
+          "j": "Le scaphoïde et le trapèze donnent naissance au court abducteur du pouce, muscle superficiel de l'éminence thénar."
+        }
+      ]
+    },
+    {
+      "q": "Où se termine le muscle adducteur du pouce ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Sur le bord médial de la première phalange du pouce",
+          "correct": true,
+          "j": "L'adducteur se fixe au bord médial de la base de P1, par l'intermédiaire du sésamoïde médial : il ramène le pouce contre l'index."
+        },
+        {
+          "t": "Sur la base du premier métacarpien du pouce",
+          "j": "La base du premier métacarpien reçoit le long abducteur du pouce, venu de l'avant-bras."
+        },
+        {
+          "t": "Sur le bord latéral de la première phalange du pouce",
+          "j": "Le bord latéral de P1, avec le sésamoïde latéral, reçoit le court abducteur et le court fléchisseur du pouce."
+        },
+        {
+          "t": "Sur la phalange distale du pouce, en avant",
+          "j": "La phalange distale du pouce reçoit le long fléchisseur du pouce, muscle profond de l'avant-bras."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'origine du court abducteur du pouce ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Le trapèze, le trapézoïde et le capitatum",
+          "j": "Cette origine large sur la rangée distale est celle du court fléchisseur du pouce."
+        },
+        {
+          "t": "Le trapèze seul, en avant de son tubercule",
+          "j": "Le trapèze isolé est l'origine de l'opposant du pouce, qui se termine sur le premier métacarpien."
+        },
+        {
+          "t": "Le scaphoïde, le trapèze et le rétinaculum",
+          "correct": true,
+          "j": "Le court abducteur naît du bord latéral du carpe et du rétinaculum, puis gagne la base de P1 : il écarte le pouce avec le long abducteur."
+        },
+        {
+          "t": "L'hamatum et le pisiforme, en dedans",
+          "j": "Ces deux os donnent naissance aux muscles de l'éminence hypothénar, à l'autre bord de la main."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle de l'éminence thénar se termine sur le premier métacarpien et non sur la phalange du pouce ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "L'adducteur du pouce",
+          "j": "L'adducteur se termine sur le bord médial de la première phalange, par le sésamoïde médial."
+        },
+        {
+          "t": "Le court abducteur du pouce",
+          "j": "Le court abducteur se termine sur la base de la première phalange, par le sésamoïde latéral."
+        },
+        {
+          "t": "Le muscle opposant du pouce",
+          "correct": true,
+          "j": "L'opposant se fixe sur le bord radial du premier métacarpien : agissant sur la colonne entière du pouce, il l'amène en opposition face aux autres doigts."
+        },
+        {
+          "t": "Le court fléchisseur du pouce",
+          "j": "Le court fléchisseur gagne lui aussi la première phalange du pouce, qu'il fléchit."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle thénarien reçoit une double innervation, par le nerf médian et par le nerf ulnaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Le court fléchisseur du pouce",
+          "correct": true,
+          "j": "Le court fléchisseur du pouce est partagé : son chef superficiel dépend du médian, son chef profond de l'ulnaire, d'où sa conservation partielle dans les deux paralysies."
+        },
+        {
+          "t": "Le court abducteur du pouce",
+          "j": "Le court abducteur est innervé par le médian seul : son amyotrophie creuse l'éminence thénar."
+        },
+        {
+          "t": "Le muscle adducteur du pouce",
+          "j": "L'adducteur du pouce est le seul muscle thénarien purement ulnaire, d'où son atteinte dans le signe de Froment."
+        },
+        {
+          "t": "Le muscle opposant du pouce",
+          "j": "L'opposant dépend du seul nerf médian, ce qui explique la perte d'opposition dans le syndrome du canal carpien."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle occupe le plan le plus superficiel de l'éminence thénar ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Le court abducteur du pouce",
+          "correct": true,
+          "j": "Le court abducteur occupe le plan superficiel de l'éminence thénar et recouvre le court fléchisseur, lequel masque à son tour l'adducteur."
+        },
+        {
+          "t": "L'adducteur du pouce",
+          "j": "L'adducteur est le plus profond des muscles thénariens."
+        },
+        {
+          "t": "Le court fléchisseur du pouce",
+          "j": "Le court fléchisseur est intermédiaire : recouvert par le court abducteur, il recouvre lui-même l'adducteur du pouce."
+        },
+        {
+          "t": "L'opposant du pouce",
+          "j": "L'opposant est profond, plaqué contre le premier métacarpien, et reste caché par le court abducteur."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle hypothénarien naît de l'hamatum et se termine sur la phalange proximale du 5e doigt ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Le muscle abducteur du 5e doigt",
+          "j": "L'abducteur du 5e doigt naît du pisiforme et non de l'hamatum, avant de gagner la base de la première phalange."
+        },
+        {
+          "t": "Le muscle opposant du 5e doigt",
+          "j": "L'opposant naît lui aussi de l'hamatum, mais se termine sur le bord ulnaire du cinquième métacarpien."
+        },
+        {
+          "t": "Le court fléchisseur du 5e doigt",
+          "correct": true,
+          "j": "Le court fléchisseur du 5e doigt descend de l'hamatum jusqu'à la phalange proximale, qu'il fléchit ; il est innervé par le nerf ulnaire."
+        },
+        {
+          "t": "Le muscle court palmaire",
+          "j": "Le court palmaire est tendu de l'aponévrose palmaire à la peau : il ne touche aucune phalange."
+        }
+      ]
+    },
+    {
+      "q": "Sur quelle structure se termine le muscle court palmaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "La base de la première phalange du 5e doigt",
+          "j": "Cette base reçoit l'abducteur et le court fléchisseur du 5e doigt, muscles qui agissent sur le squelette."
+        },
+        {
+          "t": "Le tendon extenseur du cinquième doigt",
+          "j": "Les tendons extenseurs reçoivent les interosseux et les lombricaux, et non le court palmaire."
+        },
+        {
+          "t": "La peau du bord ulnaire de la main",
+          "correct": true,
+          "j": "Tendu de l'aponévrose palmaire à la peau du bord ulnaire, le court palmaire est un muscle cutané : il plisse la peau de l'éminence hypothénar."
+        },
+        {
+          "t": "Le bord ulnaire du cinquième métacarpien",
+          "j": "Ce bord est la terminaison de l'opposant du 5e doigt, qui creuse la paume."
+        }
+      ]
+    },
+    {
+      "q": "Dans quels espaces de la main se situe le muscle adducteur du pouce ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "La loge hypothénar, en dedans",
+          "j": "La loge hypothénar contient l'opposant, le court fléchisseur et l'abducteur du 5e doigt."
+        },
+        {
+          "t": "Le canal carpien, sous le rétinaculum",
+          "j": "Le canal carpien ne contient que le nerf médian et les tendons fléchisseurs, aucun corps musculaire de la main."
+        },
+        {
+          "t": "Les deux premiers espaces interosseux",
+          "correct": true,
+          "j": "L'adducteur occupe en profondeur les deux premiers espaces interosseux, ce qui le rend palpable entre le pouce et l'index."
+        },
+        {
+          "t": "Les deux derniers espaces interosseux",
+          "j": "Les derniers espaces sont occupés par les interosseux correspondants, du côté ulnaire de la main."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure forme le ligament métacarpien transverse profond ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "L'aponévrose palmaire profonde",
+          "correct": true,
+          "j": "Située en arrière des tendons fléchisseurs, l'aponévrose palmaire profonde recouvre les interosseux et s'épaissit en avant pour former ce ligament."
+        },
+        {
+          "t": "L'aponévrose palmaire superficielle",
+          "j": "L'aponévrose palmaire superficielle est tendue sous la peau de la paume et reçoit le court palmaire."
+        },
+        {
+          "t": "L'aponévrose dorsale de la main",
+          "j": "L'aponévrose dorsale superficielle recouvre les tendons extenseurs, à l'opposé de la paume."
+        },
+        {
+          "t": "Le rétinaculum des fléchisseurs",
+          "j": "Le rétinaculum ferme le canal carpien au poignet, en amont des têtes métacarpiennes."
+        }
+      ]
+    },
+    {
+      "q": "Que recouvre l'aponévrose dorsale superficielle de la main ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "La face dorsale des muscles interosseux",
+          "j": "C'est l'aponévrose dorsale interosseuse, profonde, qui coiffe la face dorsale des interosseux."
+        },
+        {
+          "t": "Les tendons des muscles extenseurs",
+          "correct": true,
+          "j": "L'aponévrose dorsale de la main, superficielle, enveloppe les tendons extenseurs à leur arrivée sur le dos de la main."
+        },
+        {
+          "t": "Les tendons des muscles fléchisseurs",
+          "j": "Les tendons fléchisseurs sont palmaires et cheminent sous l'aponévrose palmaire, pas sur le dos de la main."
+        },
+        {
+          "t": "Les muscles de l'éminence hypothénar",
+          "j": "Les muscles hypothénariens sont palmaires et recouverts par le court palmaire et l'aponévrose palmaire."
+        }
+      ]
+    },
+    {
+      "q": "Dans quel ordre s'organise le plexus brachial depuis les racines ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Racines, divisions, troncs, faisceaux, branches terminales",
+          "j": "Les divisions naissent du dédoublement des troncs : elles viennent donc après eux, et non avant."
+        },
+        {
+          "t": "Racines, troncs, faisceaux, divisions, branches terminales",
+          "j": "Ce sont les divisions qui se regroupent pour constituer les faisceaux, et non l'inverse."
+        },
+        {
+          "t": "Racines, faisceaux, troncs, divisions, branches terminales",
+          "j": "Les faisceaux sont les dernières formations avant les branches terminales : ils ne peuvent précéder les troncs."
+        },
+        {
+          "t": "Racines, troncs, divisions, faisceaux, branches terminales",
+          "correct": true,
+          "j": "Les racines se réunissent en troncs, qui se partagent en divisions antérieures et postérieures, lesquelles forment les faisceaux d'où naissent les branches terminales."
+        }
+      ]
+    },
+    {
+      "q": "De quelles racines médullaires naît le plexus brachial ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "C3 à C7",
+          "j": "C3 et C4 participent surtout au plexus cervical, dont naît notamment le nerf phrénique."
+        },
+        {
+          "t": "C5 à T1",
+          "correct": true,
+          "j": "Le plexus brachial est formé par les branches antérieures des nerfs spinaux C5 à T1, avec une contribution inconstante de C4."
+        },
+        {
+          "t": "C6 à T2",
+          "j": "C5 participe pleinement au plexus, par le tronc supérieur ; T2 appartient aux nerfs intercostaux."
+        },
+        {
+          "t": "C4 à C8",
+          "j": "La racine T1 est indispensable : sans elle, l'innervation des muscles intrinsèques de la main ne serait pas assurée."
+        }
+      ]
+    },
+    {
+      "q": "Par rapport à quelle structure les faisceaux du plexus brachial sont-ils nommés latéral, médial et postérieur ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le petit pectoral",
+          "j": "Le petit pectoral croise le plexus en avant dans l'espace sous-coracoïdien, sans donner leur nom aux faisceaux."
+        },
+        {
+          "t": "La veine axillaire",
+          "j": "La veine axillaire chemine en dedans de l'artère, mais ce n'est pas elle qui sert de repère pour nommer les faisceaux."
+        },
+        {
+          "t": "La première côte",
+          "j": "La première côte marque le passage du plexus dans l'espace costo-claviculaire, en amont de la formation des faisceaux."
+        },
+        {
+          "t": "L'artère axillaire",
+          "correct": true,
+          "j": "Les trois faisceaux doivent leur nom à leur position autour de l'artère axillaire, qu'ils entourent dans le creux de l'aisselle."
+        }
+      ]
+    },
+    {
+      "q": "De quel faisceau du plexus brachial naît le nerf musculo-cutané ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le faisceau latéral",
+          "correct": true,
+          "j": "Le musculo-cutané naît du faisceau latéral, qu'il quitte pour perforer le coraco-brachial et innerver les muscles antérieurs du bras."
+        },
+        {
+          "t": "Le tronc supérieur",
+          "j": "Le tronc supérieur donne le nerf suprascapulaire et le nerf du subclavier, mais pas une branche terminale."
+        },
+        {
+          "t": "Le faisceau postérieur",
+          "j": "Le faisceau postérieur fournit les nerfs axillaire et radial, destinés aux muscles extenseurs."
+        },
+        {
+          "t": "Le faisceau médial",
+          "j": "Le faisceau médial donne le nerf ulnaire ainsi que la racine médiale du nerf médian."
+        }
+      ]
+    },
+    {
+      "q": "Quelles branches terminales naissent du faisceau postérieur du plexus brachial ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le nerf musculo-cutané et le nerf médian",
+          "j": "Ces deux nerfs proviennent du faisceau latéral, le médian recevant aussi une racine du faisceau médial."
+        },
+        {
+          "t": "Le nerf axillaire et le nerf radial",
+          "correct": true,
+          "j": "Le faisceau postérieur, issu des divisions postérieures des trois troncs, donne les deux nerfs des muscles extenseurs : l'axillaire et le radial."
+        },
+        {
+          "t": "Le nerf suprascapulaire et le nerf dorsal de la scapula",
+          "j": "Le suprascapulaire naît du tronc supérieur et le nerf dorsal de la scapula directement des racines, en amont des faisceaux."
+        },
+        {
+          "t": "Le nerf ulnaire et le nerf médian",
+          "j": "Le nerf ulnaire naît du faisceau médial, qui fournit également la racine médiale du médian."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos du nerf médian :",
+      "c": 8,
+      "options": [
+        {
+          "t": "Il donne plusieurs branches musculaires dans le bras",
+          "j": "Le médian traverse le bras sans y donner de branche motrice : ses premières branches naissent au coude."
+        },
+        {
+          "t": "Il innerve le fléchisseur ulnaire du carpe à l'avant-bras",
+          "j": "Ce muscle échappe au médian : il est innervé par le nerf ulnaire, de même que la moitié médiale du fléchisseur profond."
+        },
+        {
+          "t": "Il naît du faisceau postérieur, avec le nerf axillaire",
+          "j": "Le faisceau postérieur ne donne que le nerf axillaire et le nerf radial, destinés aux muscles extenseurs."
+        },
+        {
+          "t": "Il naît de la réunion d'une racine latérale et d'une racine médiale",
+          "correct": true,
+          "j": "Le médian est le seul nerf du membre supérieur formé par deux racines, l'une issue du faisceau latéral, l'autre du faisceau médial, qui encadrent l'artère axillaire."
+        }
+      ]
+    },
+    {
+      "q": "Quelles racines médullaires forment le nerf ulnaire ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "C5 et C6",
+          "j": "C5 et C6 forment le tronc supérieur, à l'origine du nerf axillaire et de l'innervation de l'épaule."
+        },
+        {
+          "t": "C6 et C7",
+          "j": "Ces racines participent au nerf médian et au nerf radial, mais pas au contingent ulnaire."
+        },
+        {
+          "t": "C8 et T1",
+          "correct": true,
+          "j": "Issu du faisceau médial, le nerf ulnaire est constitué des racines C8 et T1, les plus basses du plexus brachial."
+        },
+        {
+          "t": "C7 et C8",
+          "j": "C7 appartient au tronc moyen et rejoint surtout le médian et le radial ; le nerf ulnaire lui est inférieur."
+        }
+      ]
+    },
+    {
+      "q": "Par où passe le nerf ulnaire au niveau du coude ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "En avant du pli du coude, puis entre les chefs du rond pronateur",
+          "j": "C'est le trajet du nerf médian, qui descend au milieu du pli du coude avant de traverser le rond pronateur."
+        },
+        {
+          "t": "En arrière du coude, dans la fosse olécranienne de l'humérus",
+          "j": "La fosse olécranienne reçoit l'olécrane en extension : aucun nerf n'y chemine."
+        },
+        {
+          "t": "En avant de l'épicondyle latéral, puis sous le muscle supinateur",
+          "j": "Ce trajet est celui de la branche profonde du nerf radial, qui s'engage sous l'arcade du supinateur."
+        },
+        {
+          "t": "En arrière de l'épicondyle médial, puis sous le fléchisseur ulnaire du carpe",
+          "correct": true,
+          "j": "Le nerf ulnaire contourne l'épicondyle médial dans sa gouttière puis s'engage sous le ligament arqué, entre les deux chefs du fléchisseur ulnaire du carpe."
+        }
+      ]
+    },
+    {
+      "q": "À quel endroit la branche profonde du nerf radial peut-elle être comprimée à l'avant-bras ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Sous le ligament annulaire autour de la tête radiale",
+          "j": "Le ligament annulaire maintient la tête du radius lors de la prono-supination, sans rapport de voisinage nerveux."
+        },
+        {
+          "t": "Sous le rétinaculum des fléchisseurs du poignet",
+          "j": "Le canal carpien, fermé par ce rétinaculum, est le siège de la compression du nerf médian."
+        },
+        {
+          "t": "En arrière de l'épicondyle médial de l'humérus",
+          "j": "Cette gouttière épitrochléo-olécranienne est le site d'irritation du nerf ulnaire, pas du radial."
+        },
+        {
+          "t": "Au bord proximal du muscle supinateur",
+          "correct": true,
+          "j": "La branche profonde du radial traverse le muscle supinateur ; son bord proximal fibreux, appelé arcade de Frohse, est le site classique de compression du nerf interosseux postérieur."
+        }
+      ]
+    },
+    {
+      "q": "Entre quels muscles le plexus brachial émerge-t-il à la base du cou ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Entre le petit pectoral et la paroi thoracique",
+          "j": "Cet espace sous-coracoïdien est un site de compression plus distal, bien après la sortie du cou."
+        },
+        {
+          "t": "Entre les scalènes antérieur et moyen",
+          "correct": true,
+          "j": "Le plexus franchit d'abord le triangle interscalénique, entre scalène antérieur et scalène moyen, premier rétrécissement du défilé thoraco-brachial."
+        },
+        {
+          "t": "Entre le trapèze et l'élévateur de la scapula",
+          "j": "Ces muscles appartiennent au plan postérieur du cou, en arrière du trajet du plexus."
+        },
+        {
+          "t": "Entre le sous-clavier et le grand pectoral",
+          "j": "Ces muscles sont situés en avant du trajet du plexus et ne délimitent pas sa sortie cervicale."
+        }
+      ]
+    },
+    {
+      "q": "Quels nerfs innervent le groupe antérieur des muscles de l'avant-bras ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le nerf médian et le nerf radial",
+          "j": "Le radial ne participe pas à la loge antérieure : le partage s'y fait entre le médian et l'ulnaire."
+        },
+        {
+          "t": "Le nerf médian et le nerf ulnaire",
+          "correct": true,
+          "j": "La loge antérieure de l'avant-bras est partagée entre le médian, qui en innerve la majeure partie, et l'ulnaire, réservé au fléchisseur ulnaire du carpe et à la moitié médiale du fléchisseur profond."
+        },
+        {
+          "t": "Le nerf radial et le nerf ulnaire",
+          "j": "Le radial n'innerve que les groupes latéral et postérieur de l'avant-bras, c'est-à-dire les extenseurs et le supinateur."
+        },
+        {
+          "t": "Le nerf médian et le musculo-cutané",
+          "j": "Le musculo-cutané s'épuise dans les muscles antérieurs du bras et ne devient que sensitif à l'avant-bras."
         }
       ]
     }
@@ -38792,11 +44053,11 @@ const QUESTIONS = {
       "options": [
         {
           "t": "Est une structure clé de la mémoire procédurale (ou motrice) et de l'apprentissage moteur.",
-          "j": "Vrai, mais ce n'est pas la seule affirmation correcte."
+          "j": "Vrai : le cervelet est central dans la mémoire procédurale. Mais une autre proposition est exacte elle aussi."
         },
         {
           "t": "Reçoit des informations visuelles pour faire des corrections des mouvements en cours.",
-          "j": "Vrai, mais partiel."
+          "j": "Vrai : il reçoit des afférences visuelles qui servent à corriger le mouvement en cours. Ce n'est pas la seule exacte."
         },
         {
           "t": "Module l'activité du cortex moteur et des noyaux moteurs du tronc cérébral.",
@@ -40557,29 +45818,535 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Indiquez la réponse CORRECTE sur la distinction entre réponse et adaptation à l'exercice physique :","c":3,"options":[{"t":"La réponse est ponctuelle et commune à tous, l'adaptation est chronique et propre aux entraînés","correct":true,"j":"La réponse est un changement ponctuel qui accompagne chaque séance chez n'importe quel sujet et cesse avec le stimulus ; l'adaptation est une modification durable de structure ou de fonction acquise par la répétition."},{"t":"La réponse est chronique et propre aux entraînés, l'adaptation est ponctuelle et commune à tous","j":"Les deux définitions sont inversées : c'est l'adaptation qui exige une exposition répétée et ne s'observe que chez les sujets entraînés."},{"t":"Les deux sont ponctuelles et disparaissent dès l'arrêt de l'activité physique","j":"L'adaptation reste visible en l'absence de stimulus, comme la bradycardie de repos du sportif : elle ne s'éteint pas à la fin de la séance."},{"t":"Les deux sont durables et ne concernent que les sujets déjà entraînés","j":"La réponse à l'exercice survient chez tous les individus, entraînés ou non, et cesse avec l'effort : elle n'est ni durable ni réservée aux sportifs."}]},
-    {"q":"Quelle est la réponse normale du pancréas pendant une activité physique ?","c":3,"options":[{"t":"Il freine la sécrétion d'insuline, le muscle captant le glucose par ses GLUT activés par le Ca2+","correct":true,"j":"L'insuline chute à l'effort : le muscle n'en a pas besoin car l'élévation du Ca2+ liée à la contraction active elle-même ses transporteurs GLUT, et la glycémie baisse."},{"t":"Il augmente la sécrétion d'insuline, seul moyen pour le muscle d'activer ses GLUT","j":"La captation musculaire de glucose à l'effort ne dépend pas de l'insuline : la contraction et le Ca2+ intracellulaire suffisent à mobiliser les transporteurs."},{"t":"Il augmente la sécrétion d'insuline, ce qui oriente le glucose vers les tissus inactifs","j":"C'est l'inverse : la baisse de l'insuline réduit l'arrivée de glucose aux tissus qui ne travaillent pas, afin de le réserver au muscle actif."},{"t":"Il freine la sécrétion de glucagon, ce qui épargne le glycogène du foie","j":"Le glucagon augmente au contraire pendant l'effort, surtout à jeun, pour libérer vers les muscles le glucose stocké dans le foie."}]},
-    {"q":"Comment le débit ventilatoire augmente-t-il au cours d'un exercice d'intensité croissante ?","c":3,"options":[{"t":"D'abord par l'augmentation du volume courant, puis par celle de la fréquence respiratoire","correct":true,"j":"La profondeur de l'inspiration s'accroît la première ; lorsque le volume courant ne peut plus augmenter, c'est la fréquence respiratoire qui prend le relais."},{"t":"D'abord par l'augmentation de la fréquence respiratoire, puis par celle du volume courant","j":"L'ordre est inversé : l'approfondissement de l'inspiration précède l'accélération du rythme respiratoire."},{"t":"Uniquement par l'augmentation de la fréquence respiratoire, le volume courant restant fixe","j":"Le volume courant s'élève nettement dès le début de l'effort : il n'est pas une donnée fixe."},{"t":"Uniquement par l'augmentation du volume courant, quelle que soit l'intensité atteinte","j":"Le volume courant atteint un plafond : au-delà, seule l'accélération de la fréquence permet encore d'augmenter le débit ventilatoire."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos de l'organisation interne du rein :","c":5,"options":[{"t":"La médulla est faite de pyramides dont la base regarde le cortex et l'apex le hile rénal","correct":true,"j":"Les pyramides rénales ont leur base tournée vers le cortex et leur apex, la papille, dirigé vers le hile du rein."},{"t":"La médulla est faite de pyramides dont la base se prolonge par un calice majeur","j":"La base de la pyramide regarde le cortex et ne communique avec aucun calice : c'est la papille, à l'apex, qui s'ouvre dans un calice mineur."},{"t":"Les colonnes rénales sont des prolongements de la médulla entre les pyramides","j":"Les colonnes rénales sont au contraire des travées de cortex insinuées entre les pyramides médullaires."},{"t":"Les corpuscules rénaux siègent dans la médulla et les tubules dans le cortex","j":"Tous les corpuscules rénaux sont corticaux ; seules les anses de Henlé et les tubes collecteurs plongent dans la médulla."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos de la paroi de la vessie et des sphincters de l'urètre :","c":5,"options":[{"t":"Le détrusor et le sphincter interne sont lisses, le sphincter externe est strié et volontaire","correct":true,"j":"Le détrusor et le sphincter interne, faits de muscle lisse, échappent à la volonté ; le sphincter externe, strié, permet la retenue consciente de l'urine."},{"t":"Le détrusor et le sphincter interne sont striés, le sphincter externe est lisse et involontaire","j":"Les natures musculaires sont inversées : c'est le sphincter externe qui est strié, et c'est pour cela qu'il est volontaire."},{"t":"Le détrusor est strié et volontaire, les deux sphincters de l'urètre étant lisses","j":"Le détrusor est un muscle lisse involontaire : la contraction de la vessie ne se commande pas directement."},{"t":"Les deux sphincters de l'urètre sont striés, seul le détrusor échappe à la volonté","j":"Le sphincter interne est lisse : il se ferme automatiquement, sans participation de la volonté."}]},
-    {"q":"Quelles substances à action hormonale sont produites par le rein ?","c":5,"options":[{"t":"L'érythropoïétine, la rénine et la forme active de la vitamine D","correct":true,"j":"Le rein a aussi une fonction endocrine : il sécrète l'érythropoïétine qui stimule l'érythropoïèse, la rénine qui règle la pression artérielle, et achève l'activation de la vitamine D."},{"t":"L'aldostérone, l'hormone antidiurétique et le peptide natriurétique","j":"Ces trois hormones agissent sur le rein mais viennent d'ailleurs : cortex surrénalien, neurohypophyse et oreillettes cardiaques."},{"t":"L'angiotensine II, l'aldostérone et la forme active de la vitamine D","j":"L'angiotensine II se forme dans le sang circulant et l'aldostérone dans la surrénale ; seule l'activation de la vitamine D revient au rein."},{"t":"L'érythropoïétine, l'insuline et l'hormone antidiurétique","j":"L'insuline provient des cellules bêta du pancréas et l'ADH de la neurohypophyse : aucune des deux n'est d'origine rénale."}]},
-    {"q":"Quel segment du néphron réabsorbe la plus grande part de l'eau et du sodium filtrés ?","c":5,"options":[{"t":"Le tubule contourné proximal","correct":true,"j":"Doté d'une bordure en brosse, le proximal assure la réabsorption massive et obligatoire : la majeure partie de l'eau, du sodium et des bicarbonates y est récupérée."},{"t":"La branche descendante de l'anse","j":"Elle ne laisse sortir que de l'eau par osmose et reste peu perméable aux solutés : elle ne réabsorbe pas le sodium."},{"t":"Le tubule contourné distal","j":"Le distal n'ajuste que de faibles quantités de sodium sous l'effet de l'aldostérone : c'est une réabsorption facultative, bien plus limitée en volume."},{"t":"Le tube collecteur médullaire","j":"Le tube collecteur règle finement la réabsorption d'eau selon l'ADH, mais il ne reçoit qu'une faible fraction du filtrat initial."}]},
-    {"q":"Pourquoi du glucose apparaît-il dans l'urine lorsque la glycémie est très élevée ?","c":5,"options":[{"t":"Parce que les transporteurs du tubule proximal atteignent leur transport maximum","correct":true,"j":"La réabsorption du glucose repose sur des co-transporteurs couplés au sodium, en nombre limité : au-delà de leur transport maximum, l'excédent filtré reste dans l'urine."},{"t":"Parce que la barrière de filtration devient perméable aux grosses molécules","j":"Le glucose est librement filtré en toutes circonstances, sa concentration dans le filtrat égalant celle du plasma : la barrière n'a pas à se modifier."},{"t":"Parce que le glucose est activement sécrété dans le tube collecteur","j":"Aucune sécrétion tubulaire de glucose n'existe : les substances sécrétées sont notamment les protons, le potassium et certains médicaments."},{"t":"Parce que l'aldostérone détourne le glucose vers la lumière du tubule distal","j":"L'aldostérone règle la réabsorption du sodium et la sécrétion du potassium dans le néphron distal, sans aucune action sur le glucose."}]},
-    {"q":"Quel est le rôle des vasa recta dans la médulla rénale ?","c":5,"options":[{"t":"Nourrir les tubules médullaires par un échange à contre-courant qui épargne le gradient","correct":true,"j":"Circulant à contre-courant du liquide tubulaire, les vasa recta apportent oxygène et nutriments à la médulla en échangeant passivement eau et solutés, sans effacer le gradient osmotique."},{"t":"Filtrer une seconde fois le plasma dans la profondeur de la médulla","j":"La filtration n'a lieu qu'une fois, dans le capillaire glomérulaire du corpuscule : les vasa recta sont des capillaires d'échange, pas de filtration."},{"t":"Créer le gradient cortico-médullaire en sécrétant du NaCl dans l'interstitium","j":"Le gradient est bâti par les perméabilités opposées des deux branches de l'anse de Henlé ; les vasa recta se contentent de le préserver."},{"t":"Drainer l'urine définitive depuis les papilles vers les calices mineurs","j":"L'urine formée quitte les papilles par les calices : elle ne circule jamais à l'intérieur d'un vaisseau sanguin."}]},
-    {"q":"Que provoque la macula densa lorsqu'elle détecte une concentration élevée de NaCl dans le liquide tubulaire ?","c":5,"options":[{"t":"Une vasoconstriction de l'artériole afférente, qui abaisse le débit de filtration","correct":true,"j":"Par un signal paracrine, la macula densa contracte l'artériole afférente : ce rétrocontrôle tubulo-glomérulaire ramène le débit de filtration vers sa valeur normale, plus lentement que la réponse myogénique."},{"t":"Une vasodilatation de l'artériole afférente, qui élève le débit de filtration","j":"Une dilatation aggraverait la charge en sodium : elle correspond à la situation inverse, lorsque le NaCl tubulaire est bas."},{"t":"Une libération accrue de rénine par les cellules juxtaglomérulaires","j":"La rénine est libérée lorsque le sodium tubulaire est au contraire bas ; une concentration élevée freine sa sécrétion."},{"t":"Une insertion d'aquaporines dans les cellules principales du tube collecteur","j":"L'insertion d'aquaporines est l'effet propre de l'ADH sur le tube collecteur et ne dépend pas de la macula densa."}]},
-    {"q":"Quelle situation déclenche la libération d'hormone antidiurétique ?","c":5,"options":[{"t":"Une élévation de l'osmolarité plasmatique détectée par l'hypothalamus","correct":true,"j":"Les osmorécepteurs hypothalamiques réagissent à l'hyperosmolarité en déclenchant la soif et la libération d'ADH par la neurohypophyse, ce qui concentre l'urine."},{"t":"Une baisse de l'osmolarité plasmatique après une boisson abondante","j":"L'hypo-osmolarité freine au contraire l'ADH : le tube collecteur redevient imperméable à l'eau et l'urine se dilue."},{"t":"Une distension des oreillettes par augmentation du volume sanguin","j":"La distension auriculaire inhibe au contraire la libération d'ADH par les barorécepteurs, et libère le peptide natriurétique atrial, de sens opposé."},{"t":"Une élévation du potassium plasmatique détectée par la surrénale","j":"L'hyperkaliémie stimule la sécrétion d'aldostérone par le cortex surrénalien, et non celle de l'ADH."}]},
-    {"q":"Comment l'angiotensine II se forme-t-elle à partir de l'angiotensinogène ?","c":5,"options":[{"t":"La rénine libère l'angiotensine I, convertie ensuite par l'enzyme de conversion","correct":true,"j":"La rénine rénale coupe l'angiotensinogène d'origine hépatique en angiotensine I, que l'enzyme de conversion, surtout présente dans le poumon, transforme en angiotensine II active."},{"t":"La rénine libère directement l'angiotensine II, sans étape intermédiaire","j":"La rénine ne produit que l'angiotensine I, peu active : une seconde coupure enzymatique est indispensable."},{"t":"L'aldostérone convertit l'angiotensine I en angiotensine II dans la surrénale","j":"L'aldostérone est au contraire libérée sous l'effet de l'angiotensine II et n'a aucune activité enzymatique de conversion."},{"t":"L'enzyme de conversion coupe l'angiotensinogène en angiotensine II","j":"L'enzyme de conversion n'agit que sur l'angiotensine I : le clivage initial de l'angiotensinogène revient à la rénine."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos de la composition du filtrat glomérulaire :","c":5,"options":[{"t":"Eau, glucose, acides aminés, ions et déchets azotés, mais presque pas de protéines","correct":true,"j":"Le filtrat est un plasma dépourvu de cellules et de grosses protéines : il conserve l'eau, les petites molécules organiques, les ions et les déchets azotés comme l'urée et la créatinine."},{"t":"La même composition que le plasma, protéines et cellules sanguines comprises","j":"La barrière de filtration retient les éléments figurés et les grosses protéines : le filtrat n'est pas un plasma intégral."},{"t":"De l'eau et des déchets azotés seulement, les nutriments restant dans le sang","j":"Le glucose et les acides aminés sont bien filtrés ; ils sont ensuite entièrement récupérés dans le tubule proximal, d'où leur absence dans l'urine."},{"t":"Un liquide hypertonique au plasma, ce qui amorce la concentration de l'urine","j":"Le filtrat est isotonique au plasma à la sortie du corpuscule : la concentration de l'urine ne débute que dans l'anse de Henlé."}]},
-    {"q":"Quelle voie descendante coordonne les mouvements des yeux avec ceux de la tête et du cou ?","c":6,"options":[{"t":"La voie tectospinale","correct":true,"j":"La voie tectospinale est responsable de la recherche d'une cible dans le champ visuel : elle coordonne les mouvements oculaires avec ceux de la tête et du cou."},{"t":"La voie rubrospinale","j":"La voie rubrospinale est un système descendant latéral qui contrôle la partie distale des membres, et s'active surtout lors de l'apprentissage de nouvelles tâches manuelles."},{"t":"La voie corticospinale latérale","j":"La voie corticospinale latérale porte la commande volontaire vers la musculature distale des membres, et non la coordination du regard."},{"t":"La voie corticospinale ventrale","j":"La voie corticospinale ventrale appartient aux systèmes médians : elle intervient sur la musculature axiale et la posture."}]},
-    {"q":"À quels filaments correspond la bande sombre, ou bande A, du sarcomère ?","c":6,"options":[{"t":"Aux filaments épais de myosine","correct":true,"j":"La bande A, sombre, correspond à la longueur des filaments épais de myosine et garde la même largeur pendant la contraction."},{"t":"Aux filaments minces d'actine","j":"Actine, troponine et tropomyosine composent le filament mince, qui dessine la bande I, claire."},{"t":"À la zone dépourvue de chevauchement","j":"La zone sans chevauchement est la zone H, située au centre de la bande A, et non la bande A dans son ensemble."},{"t":"Au disque Z d'ancrage des filaments","j":"Le disque Z est la limite du sarcomère, point d'ancrage des filaments minces, et non une bande de filaments."}]},
-    {"q":"À quoi la tension développée par un muscle est-elle directement proportionnelle ?","c":6,"options":[{"t":"Au nombre de ponts d'union formés entre l'actine et la myosine","correct":true,"j":"Les ponts d'union sont les moteurs de la contraction : plus ils sont nombreux à un instant donné, plus la tension produite est élevée."},{"t":"À la longueur atteinte par les filaments de myosine qui se contractent","j":"Les filaments ne changent pas de longueur : ils glissent les uns sur les autres, et seul le sarcomère se raccourcit."},{"t":"À la quantité de tropomyosine déplacée hors des sites de l'actine","j":"Le déplacement de la tropomyosine est une condition de départ de type tout ou rien ; il ne gradue pas la tension produite."},{"t":"À la vitesse de repompage du calcium par le réticulum sarcoplasmique","j":"Le repompage du Ca2+ gouverne la fin de la contraction et la vitesse de relâchement, non la tension développée."}]},
-    {"q":"Quel type de motoneurone commande les unités motrices de type I ?","c":6,"options":[{"t":"Un motoneurone tonique, à vitesse de conduction lente","correct":true,"j":"Les unités de type I associent un motoneurone tonique à conduction lente et des fibres petites, oxydatives et très résistantes à la fatigue."},{"t":"Un motoneurone phasique, à vitesse de conduction rapide","j":"Le motoneurone phasique à conduction rapide commande les unités de type IIx, grandes, puissantes et rapidement fatigables."},{"t":"Un motoneurone de seuil moyen, à conduction rapide","j":"Ce profil correspond aux unités de type IIa, intermédiaires : rapides, mais capables de résister quelques minutes à la fatigue."},{"t":"Un motoneurone autonome, à conduction lente","j":"Les motoneurones autonomes innervent le muscle lisse, le cœur et les glandes, jamais une unité motrice squelettique."}]},
-    {"q":"Comment nomme-t-on la contraction de toutes les fibres d'une unité motrice en réponse à un seul potentiel d'action de son motoneurone ?","c":6,"options":[{"t":"Une secousse musculaire","correct":true,"j":"La secousse est la réponse mécanique élémentaire d'une unité motrice à un potentiel d'action unique ; l'électromyogramme en enregistre la dynamique."},{"t":"Un tétanos incomplet","j":"Le tétanos incomplet suppose une série de stimuli rapprochés : les secousses se somment alors en une contraction soutenue mais oscillante."},{"t":"Une sommation spatiale","j":"La sommation spatiale désigne le recrutement de plusieurs unités motrices, et non la réponse d'une seule à un stimulus unique."},{"t":"Une contraction isométrique","j":"L'isométrique qualifie une contraction sans changement de longueur du muscle : c'est un mode de contraction, pas la réponse élémentaire à un potentiel d'action."}]},
-    {"q":"Selon le cours, comment se subdivisent les contractions dynamiques d'après le développement du mouvement ?","c":6,"options":[{"t":"En contractions isotoniques et isocinétiques","correct":true,"j":"Selon le déroulement du mouvement, la contraction dynamique est isotonique (charge constante) ou isocinétique (vitesse constante) ; s'y ajoutent les formes auxotonique et pliocentrique."},{"t":"En contractions isométriques et isotoniques","j":"L'isométrique est précisément la contraction statique, sans mouvement : elle ne peut figurer parmi les subdivisions des contractions dynamiques."},{"t":"En contractions concentriques et isométriques","j":"La concentrique est bien dynamique, mais l'isométrique est statique : ce couple mélange les deux grandes catégories de contraction."},{"t":"En contractions isométriques et auxotoniques","j":"L'auxotonique est bien une forme dynamique supplémentaire, mais l'isométrique reste la contraction statique de référence."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos des trois catégories de mouvements décrites par le cours :","c":6,"options":[{"t":"Les mouvements réflexes sont rapides, stéréotypés et involontaires","correct":true,"j":"Le réflexe est une séquence rapide, automatique et stéréotypée déclenchée par un stimulus donné, sans participation du cortex cérébral."},{"t":"Les mouvements rythmiques exigent la participation du cortex","j":"Le cours réserve cette exigence aux mouvements volontaires ; les mouvements rythmiques comme la marche reposent sur des générateurs centraux de schémas, sans commande corticale de chaque cycle."},{"t":"Les mouvements volontaires sont stéréotypés et sans apprentissage","j":"Le mouvement volontaire est conscient et acquis par apprentissage ; c'est le réflexe qui est stéréotypé et inné."},{"t":"Les réflexes de posture relèvent d'un contrôle conscient","j":"Le contrôle de la posture est un contrôle moteur inconscient, qui sert de fond stable aux mouvements volontaires."}]},
-    {"q":"Indiquez la réponse CORRECTE à propos des deux grands types de systèmes moteurs descendants :","c":6,"options":[{"t":"Les systèmes posturaux naissent du tronc cérébral et descendent médialement vers les muscles axiaux","correct":true,"j":"Issues des noyaux du tronc cérébral, les voies posturales cheminent dans la partie médiane de la moelle et entretiennent l'activité tonique de la musculature axiale."},{"t":"Les systèmes posturaux naissent du cortex moteur et descendent latéralement vers les muscles distaux","j":"Cette description est celle des systèmes de mouvement : origine corticale, trajet latéral et commande des muscles des mains et des pieds."},{"t":"Les systèmes de mouvement naissent du tronc cérébral et règlent le tonus postural de fond","j":"Le réglage du tonus postural appartient aux systèmes posturaux du tronc cérébral, et non aux systèmes de mouvement d'origine corticale."},{"t":"Les deux systèmes naissent du cortex moteur et ne diffèrent que par leur vitesse de conduction","j":"Seuls les systèmes de mouvement sont d'origine corticale ; les systèmes posturaux prennent naissance dans les noyaux du tronc cérébral."}]},
-    {"q":"Qu'est-ce qui caractérise les systèmes de modulation du contrôle moteur, comme le cervelet et les ganglions de la base ?","c":6,"options":[{"t":"Ils n'ont pas de connexion directe avec les motoneurones et ne produisent pas le mouvement","correct":true,"j":"Ces systèmes agissent en modulant le cortex et les noyaux moteurs : privés de liaison directe avec les motoneurones médullaires, ils ne déclenchent aucun mouvement par eux-mêmes."},{"t":"Ils commandent directement les motoneurones de la corne antérieure de la moelle","j":"La connexion directe avec les motoneurones est le propre des voies descendantes, la corticospinale en tête, et non des systèmes modulateurs."},{"t":"Ils constituent la voie finale commune entre le cortex et le muscle squelettique","j":"La voie finale commune est le motoneurone inférieur, seul élément à rejoindre le muscle ; les systèmes de modulation se situent en amont."},{"t":"Leur atteinte provoque une paralysie complète du territoire musculaire concerné","j":"Leur pathologie donne des troubles de la coordination ou du mouvement, comme l'ataxie, les dystonies ou le parkinsonisme, mais pas une paralysie."}]},
-    {"q":"Qu'est-ce qui définit un arc réflexe monosynaptique ?","c":6,"options":[{"t":"Le neurone sensitif fait directement synapse avec le motoneurone dans la moelle","correct":true,"j":"Le centre d'intégration ne comporte alors qu'une seule synapse, entre l'afférence sensitive et le motoneurone : c'est le cas du réflexe myotatique."},{"t":"Le neurone sensitif passe par un interneurone avant d'atteindre le motoneurone","j":"L'interposition d'un ou plusieurs interneurones définit au contraire un arc polysynaptique, comme le réflexe de flexion."},{"t":"Le centre d'intégration de l'arc réflexe se situe dans l'encéphale","j":"La position du centre d'intégration distingue réflexe crânien et réflexe spinal, mais ne dit rien du nombre de synapses de l'arc."},{"t":"L'effecteur de l'arc réflexe est un muscle lisse ou une glande","j":"La nature de l'effecteur sépare réflexe somatique et réflexe autonome ; elle ne renseigne pas sur le nombre de synapses."}]}
+    {
+      "q": "Indiquez la réponse CORRECTE sur la distinction entre réponse et adaptation à l'exercice physique :",
+      "c": 3,
+      "options": [
+        {
+          "t": "La réponse est ponctuelle et commune à tous, l'adaptation est chronique et propre aux entraînés",
+          "correct": true,
+          "j": "La réponse est un changement ponctuel qui accompagne chaque séance chez n'importe quel sujet et cesse avec le stimulus ; l'adaptation est une modification durable de structure ou de fonction acquise par la répétition."
+        },
+        {
+          "t": "La réponse est chronique et propre aux entraînés, l'adaptation est ponctuelle et commune à tous",
+          "j": "Les deux définitions sont inversées : c'est l'adaptation qui exige une exposition répétée et ne s'observe que chez les sujets entraînés."
+        },
+        {
+          "t": "Les deux sont ponctuelles et disparaissent dès l'arrêt de l'activité physique",
+          "j": "L'adaptation reste visible en l'absence de stimulus, comme la bradycardie de repos du sportif : elle ne s'éteint pas à la fin de la séance."
+        },
+        {
+          "t": "Les deux sont durables et ne concernent que les sujets déjà entraînés",
+          "j": "La réponse à l'exercice survient chez tous les individus, entraînés ou non, et cesse avec l'effort : elle n'est ni durable ni réservée aux sportifs."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est la réponse normale du pancréas pendant une activité physique ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Il freine la sécrétion d'insuline, le muscle captant le glucose par ses GLUT activés par le Ca2+",
+          "correct": true,
+          "j": "L'insuline chute à l'effort : le muscle n'en a pas besoin car l'élévation du Ca2+ liée à la contraction active elle-même ses transporteurs GLUT, et la glycémie baisse."
+        },
+        {
+          "t": "Il augmente la sécrétion d'insuline, seul moyen pour le muscle d'activer ses GLUT",
+          "j": "La captation musculaire de glucose à l'effort ne dépend pas de l'insuline : la contraction et le Ca2+ intracellulaire suffisent à mobiliser les transporteurs."
+        },
+        {
+          "t": "Il augmente la sécrétion d'insuline, ce qui oriente le glucose vers les tissus inactifs",
+          "j": "C'est l'inverse : la baisse de l'insuline réduit l'arrivée de glucose aux tissus qui ne travaillent pas, afin de le réserver au muscle actif."
+        },
+        {
+          "t": "Il freine la sécrétion de glucagon, ce qui épargne le glycogène du foie",
+          "j": "Le glucagon augmente au contraire pendant l'effort, surtout à jeun, pour libérer vers les muscles le glucose stocké dans le foie."
+        }
+      ]
+    },
+    {
+      "q": "Comment le débit ventilatoire augmente-t-il au cours d'un exercice d'intensité croissante ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "D'abord par l'augmentation du volume courant, puis par celle de la fréquence respiratoire",
+          "correct": true,
+          "j": "La profondeur de l'inspiration s'accroît la première ; lorsque le volume courant ne peut plus augmenter, c'est la fréquence respiratoire qui prend le relais."
+        },
+        {
+          "t": "D'abord par l'augmentation de la fréquence respiratoire, puis par celle du volume courant",
+          "j": "L'ordre est inversé : l'approfondissement de l'inspiration précède l'accélération du rythme respiratoire."
+        },
+        {
+          "t": "Uniquement par l'augmentation de la fréquence respiratoire, le volume courant restant fixe",
+          "j": "Le volume courant s'élève nettement dès le début de l'effort : il n'est pas une donnée fixe."
+        },
+        {
+          "t": "Uniquement par l'augmentation du volume courant, quelle que soit l'intensité atteinte",
+          "j": "Le volume courant atteint un plafond : au-delà, seule l'accélération de la fréquence permet encore d'augmenter le débit ventilatoire."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos de l'organisation interne du rein :",
+      "c": 5,
+      "options": [
+        {
+          "t": "La médulla est faite de pyramides dont la base regarde le cortex et l'apex le hile rénal",
+          "correct": true,
+          "j": "Les pyramides rénales ont leur base tournée vers le cortex et leur apex, la papille, dirigé vers le hile du rein."
+        },
+        {
+          "t": "La médulla est faite de pyramides dont la base se prolonge par un calice majeur",
+          "j": "La base de la pyramide regarde le cortex et ne communique avec aucun calice : c'est la papille, à l'apex, qui s'ouvre dans un calice mineur."
+        },
+        {
+          "t": "Les colonnes rénales sont des prolongements de la médulla entre les pyramides",
+          "j": "Les colonnes rénales sont au contraire des travées de cortex insinuées entre les pyramides médullaires."
+        },
+        {
+          "t": "Les corpuscules rénaux siègent dans la médulla et les tubules dans le cortex",
+          "j": "Tous les corpuscules rénaux sont corticaux ; seules les anses de Henlé et les tubes collecteurs plongent dans la médulla."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos de la paroi de la vessie et des sphincters de l'urètre :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le détrusor et le sphincter interne sont lisses, le sphincter externe est strié et volontaire",
+          "correct": true,
+          "j": "Le détrusor et le sphincter interne, faits de muscle lisse, échappent à la volonté ; le sphincter externe, strié, permet la retenue consciente de l'urine."
+        },
+        {
+          "t": "Le détrusor et le sphincter interne sont striés, le sphincter externe est lisse et involontaire",
+          "j": "Les natures musculaires sont inversées : c'est le sphincter externe qui est strié, et c'est pour cela qu'il est volontaire."
+        },
+        {
+          "t": "Le détrusor est strié et volontaire, les deux sphincters de l'urètre étant lisses",
+          "j": "Le détrusor est un muscle lisse involontaire : la contraction de la vessie ne se commande pas directement."
+        },
+        {
+          "t": "Les deux sphincters de l'urètre sont striés, seul le détrusor échappe à la volonté",
+          "j": "Le sphincter interne est lisse : il se ferme automatiquement, sans participation de la volonté."
+        }
+      ]
+    },
+    {
+      "q": "Quelles substances à action hormonale sont produites par le rein ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "L'érythropoïétine, la rénine et la forme active de la vitamine D",
+          "correct": true,
+          "j": "Le rein a aussi une fonction endocrine : il sécrète l'érythropoïétine qui stimule l'érythropoïèse, la rénine qui règle la pression artérielle, et achève l'activation de la vitamine D."
+        },
+        {
+          "t": "L'aldostérone, l'hormone antidiurétique et le peptide natriurétique",
+          "j": "Ces trois hormones agissent sur le rein mais viennent d'ailleurs : cortex surrénalien, neurohypophyse et oreillettes cardiaques."
+        },
+        {
+          "t": "L'angiotensine II, l'aldostérone et la forme active de la vitamine D",
+          "j": "L'angiotensine II se forme dans le sang circulant et l'aldostérone dans la surrénale ; seule l'activation de la vitamine D revient au rein."
+        },
+        {
+          "t": "L'érythropoïétine, l'insuline et l'hormone antidiurétique",
+          "j": "L'insuline provient des cellules bêta du pancréas et l'ADH de la neurohypophyse : aucune des deux n'est d'origine rénale."
+        }
+      ]
+    },
+    {
+      "q": "Quel segment du néphron réabsorbe la plus grande part de l'eau et du sodium filtrés ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le tubule contourné proximal",
+          "correct": true,
+          "j": "Doté d'une bordure en brosse, le proximal assure la réabsorption massive et obligatoire : la majeure partie de l'eau, du sodium et des bicarbonates y est récupérée."
+        },
+        {
+          "t": "La branche descendante de l'anse",
+          "j": "Elle ne laisse sortir que de l'eau par osmose et reste peu perméable aux solutés : elle ne réabsorbe pas le sodium."
+        },
+        {
+          "t": "Le tubule contourné distal",
+          "j": "Le distal n'ajuste que de faibles quantités de sodium sous l'effet de l'aldostérone : c'est une réabsorption facultative, bien plus limitée en volume."
+        },
+        {
+          "t": "Le tube collecteur médullaire",
+          "j": "Le tube collecteur règle finement la réabsorption d'eau selon l'ADH, mais il ne reçoit qu'une faible fraction du filtrat initial."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi du glucose apparaît-il dans l'urine lorsque la glycémie est très élevée ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Parce que les transporteurs du tubule proximal atteignent leur transport maximum",
+          "correct": true,
+          "j": "La réabsorption du glucose repose sur des co-transporteurs couplés au sodium, en nombre limité : au-delà de leur transport maximum, l'excédent filtré reste dans l'urine."
+        },
+        {
+          "t": "Parce que la barrière de filtration devient perméable aux grosses molécules",
+          "j": "Le glucose est librement filtré en toutes circonstances, sa concentration dans le filtrat égalant celle du plasma : la barrière n'a pas à se modifier."
+        },
+        {
+          "t": "Parce que le glucose est activement sécrété dans le tube collecteur",
+          "j": "Aucune sécrétion tubulaire de glucose n'existe : les substances sécrétées sont notamment les protons, le potassium et certains médicaments."
+        },
+        {
+          "t": "Parce que l'aldostérone détourne le glucose vers la lumière du tubule distal",
+          "j": "L'aldostérone règle la réabsorption du sodium et la sécrétion du potassium dans le néphron distal, sans aucune action sur le glucose."
+        }
+      ]
+    },
+    {
+      "q": "Quel est le rôle des vasa recta dans la médulla rénale ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Nourrir les tubules médullaires par un échange à contre-courant qui épargne le gradient",
+          "correct": true,
+          "j": "Circulant à contre-courant du liquide tubulaire, les vasa recta apportent oxygène et nutriments à la médulla en échangeant passivement eau et solutés, sans effacer le gradient osmotique."
+        },
+        {
+          "t": "Filtrer une seconde fois le plasma dans la profondeur de la médulla",
+          "j": "La filtration n'a lieu qu'une fois, dans le capillaire glomérulaire du corpuscule : les vasa recta sont des capillaires d'échange, pas de filtration."
+        },
+        {
+          "t": "Créer le gradient cortico-médullaire en sécrétant du NaCl dans l'interstitium",
+          "j": "Le gradient est bâti par les perméabilités opposées des deux branches de l'anse de Henlé ; les vasa recta se contentent de le préserver."
+        },
+        {
+          "t": "Drainer l'urine définitive depuis les papilles vers les calices mineurs",
+          "j": "L'urine formée quitte les papilles par les calices : elle ne circule jamais à l'intérieur d'un vaisseau sanguin."
+        }
+      ]
+    },
+    {
+      "q": "Que provoque la macula densa lorsqu'elle détecte une concentration élevée de NaCl dans le liquide tubulaire ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Une vasoconstriction de l'artériole afférente, qui abaisse le débit de filtration",
+          "correct": true,
+          "j": "Par un signal paracrine, la macula densa contracte l'artériole afférente : ce rétrocontrôle tubulo-glomérulaire ramène le débit de filtration vers sa valeur normale, plus lentement que la réponse myogénique."
+        },
+        {
+          "t": "Une vasodilatation de l'artériole afférente, qui élève le débit de filtration",
+          "j": "Une dilatation aggraverait la charge en sodium : elle correspond à la situation inverse, lorsque le NaCl tubulaire est bas."
+        },
+        {
+          "t": "Une libération accrue de rénine par les cellules juxtaglomérulaires",
+          "j": "La rénine est libérée lorsque le sodium tubulaire est au contraire bas ; une concentration élevée freine sa sécrétion."
+        },
+        {
+          "t": "Une insertion d'aquaporines dans les cellules principales du tube collecteur",
+          "j": "L'insertion d'aquaporines est l'effet propre de l'ADH sur le tube collecteur et ne dépend pas de la macula densa."
+        }
+      ]
+    },
+    {
+      "q": "Quelle situation déclenche la libération d'hormone antidiurétique ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Une élévation de l'osmolarité plasmatique détectée par l'hypothalamus",
+          "correct": true,
+          "j": "Les osmorécepteurs hypothalamiques réagissent à l'hyperosmolarité en déclenchant la soif et la libération d'ADH par la neurohypophyse, ce qui concentre l'urine."
+        },
+        {
+          "t": "Une baisse de l'osmolarité plasmatique après une boisson abondante",
+          "j": "L'hypo-osmolarité freine au contraire l'ADH : le tube collecteur redevient imperméable à l'eau et l'urine se dilue."
+        },
+        {
+          "t": "Une distension des oreillettes par augmentation du volume sanguin",
+          "j": "La distension auriculaire inhibe au contraire la libération d'ADH par les barorécepteurs, et libère le peptide natriurétique atrial, de sens opposé."
+        },
+        {
+          "t": "Une élévation du potassium plasmatique détectée par la surrénale",
+          "j": "L'hyperkaliémie stimule la sécrétion d'aldostérone par le cortex surrénalien, et non celle de l'ADH."
+        }
+      ]
+    },
+    {
+      "q": "Comment l'angiotensine II se forme-t-elle à partir de l'angiotensinogène ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "La rénine libère l'angiotensine I, convertie ensuite par l'enzyme de conversion",
+          "correct": true,
+          "j": "La rénine rénale coupe l'angiotensinogène d'origine hépatique en angiotensine I, que l'enzyme de conversion, surtout présente dans le poumon, transforme en angiotensine II active."
+        },
+        {
+          "t": "La rénine libère directement l'angiotensine II, sans étape intermédiaire",
+          "j": "La rénine ne produit que l'angiotensine I, peu active : une seconde coupure enzymatique est indispensable."
+        },
+        {
+          "t": "L'aldostérone convertit l'angiotensine I en angiotensine II dans la surrénale",
+          "j": "L'aldostérone est au contraire libérée sous l'effet de l'angiotensine II et n'a aucune activité enzymatique de conversion."
+        },
+        {
+          "t": "L'enzyme de conversion coupe l'angiotensinogène en angiotensine II",
+          "j": "L'enzyme de conversion n'agit que sur l'angiotensine I : le clivage initial de l'angiotensinogène revient à la rénine."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos de la composition du filtrat glomérulaire :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Eau, glucose, acides aminés, ions et déchets azotés, mais presque pas de protéines",
+          "correct": true,
+          "j": "Le filtrat est un plasma dépourvu de cellules et de grosses protéines : il conserve l'eau, les petites molécules organiques, les ions et les déchets azotés comme l'urée et la créatinine."
+        },
+        {
+          "t": "La même composition que le plasma, protéines et cellules sanguines comprises",
+          "j": "La barrière de filtration retient les éléments figurés et les grosses protéines : le filtrat n'est pas un plasma intégral."
+        },
+        {
+          "t": "De l'eau et des déchets azotés seulement, les nutriments restant dans le sang",
+          "j": "Le glucose et les acides aminés sont bien filtrés ; ils sont ensuite entièrement récupérés dans le tubule proximal, d'où leur absence dans l'urine."
+        },
+        {
+          "t": "Un liquide hypertonique au plasma, ce qui amorce la concentration de l'urine",
+          "j": "Le filtrat est isotonique au plasma à la sortie du corpuscule : la concentration de l'urine ne débute que dans l'anse de Henlé."
+        }
+      ]
+    },
+    {
+      "q": "Quelle voie descendante coordonne les mouvements des yeux avec ceux de la tête et du cou ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "La voie tectospinale",
+          "correct": true,
+          "j": "La voie tectospinale est responsable de la recherche d'une cible dans le champ visuel : elle coordonne les mouvements oculaires avec ceux de la tête et du cou."
+        },
+        {
+          "t": "La voie rubrospinale",
+          "j": "La voie rubrospinale est un système descendant latéral qui contrôle la partie distale des membres, et s'active surtout lors de l'apprentissage de nouvelles tâches manuelles."
+        },
+        {
+          "t": "La voie corticospinale latérale",
+          "j": "La voie corticospinale latérale porte la commande volontaire vers la musculature distale des membres, et non la coordination du regard."
+        },
+        {
+          "t": "La voie corticospinale ventrale",
+          "j": "La voie corticospinale ventrale appartient aux systèmes médians : elle intervient sur la musculature axiale et la posture."
+        }
+      ]
+    },
+    {
+      "q": "À quels filaments correspond la bande sombre, ou bande A, du sarcomère ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Aux filaments épais de myosine",
+          "correct": true,
+          "j": "La bande A, sombre, correspond à la longueur des filaments épais de myosine et garde la même largeur pendant la contraction."
+        },
+        {
+          "t": "Aux filaments minces d'actine",
+          "j": "Actine, troponine et tropomyosine composent le filament mince, qui dessine la bande I, claire."
+        },
+        {
+          "t": "À la zone dépourvue de chevauchement",
+          "j": "La zone sans chevauchement est la zone H, située au centre de la bande A, et non la bande A dans son ensemble."
+        },
+        {
+          "t": "Au disque Z d'ancrage des filaments",
+          "j": "Le disque Z est la limite du sarcomère, point d'ancrage des filaments minces, et non une bande de filaments."
+        }
+      ]
+    },
+    {
+      "q": "À quoi la tension développée par un muscle est-elle directement proportionnelle ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Au nombre de ponts d'union formés entre l'actine et la myosine",
+          "correct": true,
+          "j": "Les ponts d'union sont les moteurs de la contraction : plus ils sont nombreux à un instant donné, plus la tension produite est élevée."
+        },
+        {
+          "t": "À la longueur atteinte par les filaments de myosine qui se contractent",
+          "j": "Les filaments ne changent pas de longueur : ils glissent les uns sur les autres, et seul le sarcomère se raccourcit."
+        },
+        {
+          "t": "À la quantité de tropomyosine déplacée hors des sites de l'actine",
+          "j": "Le déplacement de la tropomyosine est une condition de départ de type tout ou rien ; il ne gradue pas la tension produite."
+        },
+        {
+          "t": "À la vitesse de repompage du calcium par le réticulum sarcoplasmique",
+          "j": "Le repompage du Ca2+ gouverne la fin de la contraction et la vitesse de relâchement, non la tension développée."
+        }
+      ]
+    },
+    {
+      "q": "Quel type de motoneurone commande les unités motrices de type I ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Un motoneurone tonique, à vitesse de conduction lente",
+          "correct": true,
+          "j": "Les unités de type I associent un motoneurone tonique à conduction lente et des fibres petites, oxydatives et très résistantes à la fatigue."
+        },
+        {
+          "t": "Un motoneurone phasique, à vitesse de conduction rapide",
+          "j": "Le motoneurone phasique à conduction rapide commande les unités de type IIx, grandes, puissantes et rapidement fatigables."
+        },
+        {
+          "t": "Un motoneurone de seuil moyen, à conduction rapide",
+          "j": "Ce profil correspond aux unités de type IIa, intermédiaires : rapides, mais capables de résister quelques minutes à la fatigue."
+        },
+        {
+          "t": "Un motoneurone autonome, à conduction lente",
+          "j": "Les motoneurones autonomes innervent le muscle lisse, le cœur et les glandes, jamais une unité motrice squelettique."
+        }
+      ]
+    },
+    {
+      "q": "Comment nomme-t-on la contraction de toutes les fibres d'une unité motrice en réponse à un seul potentiel d'action de son motoneurone ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Une secousse musculaire",
+          "correct": true,
+          "j": "La secousse est la réponse mécanique élémentaire d'une unité motrice à un potentiel d'action unique ; l'électromyogramme en enregistre la dynamique."
+        },
+        {
+          "t": "Un tétanos incomplet",
+          "j": "Le tétanos incomplet suppose une série de stimuli rapprochés : les secousses se somment alors en une contraction soutenue mais oscillante."
+        },
+        {
+          "t": "Une sommation spatiale",
+          "j": "La sommation spatiale désigne le recrutement de plusieurs unités motrices, et non la réponse d'une seule à un stimulus unique."
+        },
+        {
+          "t": "Une contraction isométrique",
+          "j": "L'isométrique qualifie une contraction sans changement de longueur du muscle : c'est un mode de contraction, pas la réponse élémentaire à un potentiel d'action."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, comment se subdivisent les contractions dynamiques d'après le développement du mouvement ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "En contractions isotoniques et isocinétiques",
+          "correct": true,
+          "j": "Selon le déroulement du mouvement, la contraction dynamique est isotonique (charge constante) ou isocinétique (vitesse constante) ; s'y ajoutent les formes auxotonique et pliocentrique."
+        },
+        {
+          "t": "En contractions isométriques et isotoniques",
+          "j": "L'isométrique est précisément la contraction statique, sans mouvement : elle ne peut figurer parmi les subdivisions des contractions dynamiques."
+        },
+        {
+          "t": "En contractions concentriques et isométriques",
+          "j": "La concentrique est bien dynamique, mais l'isométrique est statique : ce couple mélange les deux grandes catégories de contraction."
+        },
+        {
+          "t": "En contractions isométriques et auxotoniques",
+          "j": "L'auxotonique est bien une forme dynamique supplémentaire, mais l'isométrique reste la contraction statique de référence."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos des trois catégories de mouvements décrites par le cours :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Les mouvements réflexes sont rapides, stéréotypés et involontaires",
+          "correct": true,
+          "j": "Le réflexe est une séquence rapide, automatique et stéréotypée déclenchée par un stimulus donné, sans participation du cortex cérébral."
+        },
+        {
+          "t": "Les mouvements rythmiques exigent la participation du cortex",
+          "j": "Le cours réserve cette exigence aux mouvements volontaires ; les mouvements rythmiques comme la marche reposent sur des générateurs centraux de schémas, sans commande corticale de chaque cycle."
+        },
+        {
+          "t": "Les mouvements volontaires sont stéréotypés et sans apprentissage",
+          "j": "Le mouvement volontaire est conscient et acquis par apprentissage ; c'est le réflexe qui est stéréotypé et inné."
+        },
+        {
+          "t": "Les réflexes de posture relèvent d'un contrôle conscient",
+          "j": "Le contrôle de la posture est un contrôle moteur inconscient, qui sert de fond stable aux mouvements volontaires."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la réponse CORRECTE à propos des deux grands types de systèmes moteurs descendants :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Les systèmes posturaux naissent du tronc cérébral et descendent médialement vers les muscles axiaux",
+          "correct": true,
+          "j": "Issues des noyaux du tronc cérébral, les voies posturales cheminent dans la partie médiane de la moelle et entretiennent l'activité tonique de la musculature axiale."
+        },
+        {
+          "t": "Les systèmes posturaux naissent du cortex moteur et descendent latéralement vers les muscles distaux",
+          "j": "Cette description est celle des systèmes de mouvement : origine corticale, trajet latéral et commande des muscles des mains et des pieds."
+        },
+        {
+          "t": "Les systèmes de mouvement naissent du tronc cérébral et règlent le tonus postural de fond",
+          "j": "Le réglage du tonus postural appartient aux systèmes posturaux du tronc cérébral, et non aux systèmes de mouvement d'origine corticale."
+        },
+        {
+          "t": "Les deux systèmes naissent du cortex moteur et ne diffèrent que par leur vitesse de conduction",
+          "j": "Seuls les systèmes de mouvement sont d'origine corticale ; les systèmes posturaux prennent naissance dans les noyaux du tronc cérébral."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui caractérise les systèmes de modulation du contrôle moteur, comme le cervelet et les ganglions de la base ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Ils n'ont pas de connexion directe avec les motoneurones et ne produisent pas le mouvement",
+          "correct": true,
+          "j": "Ces systèmes agissent en modulant le cortex et les noyaux moteurs : privés de liaison directe avec les motoneurones médullaires, ils ne déclenchent aucun mouvement par eux-mêmes."
+        },
+        {
+          "t": "Ils commandent directement les motoneurones de la corne antérieure de la moelle",
+          "j": "La connexion directe avec les motoneurones est le propre des voies descendantes, la corticospinale en tête, et non des systèmes modulateurs."
+        },
+        {
+          "t": "Ils constituent la voie finale commune entre le cortex et le muscle squelettique",
+          "j": "La voie finale commune est le motoneurone inférieur, seul élément à rejoindre le muscle ; les systèmes de modulation se situent en amont."
+        },
+        {
+          "t": "Leur atteinte provoque une paralysie complète du territoire musculaire concerné",
+          "j": "Leur pathologie donne des troubles de la coordination ou du mouvement, comme l'ataxie, les dystonies ou le parkinsonisme, mais pas une paralysie."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui définit un arc réflexe monosynaptique ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Le neurone sensitif fait directement synapse avec le motoneurone dans la moelle",
+          "correct": true,
+          "j": "Le centre d'intégration ne comporte alors qu'une seule synapse, entre l'afférence sensitive et le motoneurone : c'est le cas du réflexe myotatique."
+        },
+        {
+          "t": "Le neurone sensitif passe par un interneurone avant d'atteindre le motoneurone",
+          "j": "L'interposition d'un ou plusieurs interneurones définit au contraire un arc polysynaptique, comme le réflexe de flexion."
+        },
+        {
+          "t": "Le centre d'intégration de l'arc réflexe se situe dans l'encéphale",
+          "j": "La position du centre d'intégration distingue réflexe crânien et réflexe spinal, mais ne dit rien du nombre de synapses de l'arc."
+        },
+        {
+          "t": "L'effecteur de l'arc réflexe est un muscle lisse ou une glande",
+          "j": "La nature de l'effecteur sépare réflexe somatique et réflexe autonome ; elle ne renseigne pas sur le nombre de synapses."
+        }
+      ]
+    }
   ],
   "valoMembresSup": [
     {
