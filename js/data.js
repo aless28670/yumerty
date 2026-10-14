@@ -8338,15 +8338,15 @@ const QUESTIONS = {
         {
           "t": "Augmentation de la masse osseuse, prévenant l'ostéoporose",
           "correct": true,
-          "j": "Le cours cite l'augmentation de la masse osseuse (prévient l'ostéoporose)."
+          "j": "Le cours cite l'augmentation de la masse osseuse, qui prévient l'ostéoporose, parmi les effets musculo-squelettiques."
         },
         {
-          "t": "Diminution de l'amplitude articulaire et de l'élasticité",
-          "j": "Le cours indique au contraire une augmentation de la mobilité et de l'élasticité."
+          "t": "Épaississement du cartilage articulaire par apport de collagène",
+          "j": "Le cours ne décrit aucun épaississement du cartilage : les effets musculo-squelettiques qu'il retient portent sur l'os, le muscle et la mobilité."
         },
         {
-          "t": "Réduction de la vascularisation des tissus lésés",
-          "j": "Le cours décrit une vascularisation accrue favorisant la réparation des tissus."
+          "t": "Raccourcissement adaptatif des tendons les plus sollicités",
+          "j": "Aucun raccourcissement tendineux n'est décrit : la charge d'entraînement n'est pas présentée comme une contrainte de rétraction."
         }
       ]
     },
@@ -9889,50 +9889,900 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Pour qu'une discipline soit considérée comme une science, elle doit réunir :","c":3,"options":[{"t":"un corpus de connaissances propre, un champ d'action et une méthode systématique","correct":true,"j":"Le cours énonce exactement ces trois exigences pour qu'une discipline accède au statut de science."},{"t":"un corpus de connaissances propre, un champ d'action et une tradition reconnue","j":"La tradition ne figure pas parmi les exigences du cours : c'est la méthode systématique d'accès au savoir qui est requise."},{"t":"un champ d'action, une méthode systématique et un consensus entre experts","j":"Le consensus d'experts ne remplace pas le corpus de connaissances propre exigé par le cours."}]},
-    {"q":"Dans la hiérarchie des preuves présentée dans le cours, quel type d'étude est considéré comme l'étalon-or pour déterminer l'efficacité d'une intervention ?","c":3,"options":[{"t":"L'essai contrôlé randomisé, où les participants sont répartis au hasard","correct":true,"j":"Le cours le décrit comme une étude expérimentale de haut niveau et comme l'étalon-or de l'efficacité d'une intervention."},{"t":"L'essai clinique contrôlé, dont les groupes sont constitués sans tirage au sort","j":"Il compare bien les sujets traités et non traités, mais l'absence de randomisation le place sous l'essai randomisé."},{"t":"L'étude de cohorte, qui suit un groupe de sujets au fil du temps","j":"Elle suit les résultats selon l'exposition à un facteur ou à une intervention, mais se situe plus bas dans la pyramide."}]},
-    {"q":"Dans le processus en cinq étapes de la pratique fondée sur l'évidence, l'étape « Appraise » consiste à :","c":3,"options":[{"t":"transformer un besoin d'information en une question à laquelle on peut répondre","j":"Cela correspond à l'étape « Ask », première du processus, qui précède la recherche des preuves."},{"t":"évaluer de façon critique la validité et l'applicabilité des preuves trouvées","correct":true,"j":"C'est l'étape d'évaluation critique, qui comprend la détermination du niveau d'évidence scientifique."},{"t":"rechercher dans les bases de données les meilleures preuves disponibles","j":"Cela correspond à l'étape « Acquire », qui fournit le matériel que l'étape suivante évaluera."}]},
-    {"q":"Dans la méthode scientifique telle que décrite dans le cours, la phase d'analyse des données consiste à :","c":3,"options":[{"t":"déterminer si l'hypothèse est correcte, incorrecte ou nécessite des ajustements","j":"C'est la phase des conclusions, qui vient après l'analyse des données."},{"t":"examiner les données recueillies pour voir si elles soutiennent ou rejettent l'hypothèse","correct":true,"j":"Le cours définit cette phase comme l'analyse des données collectées afin de voir si elles appuient ou rejettent l'hypothèse."},{"t":"réaliser l'intervention et recueillir les échantillons des variables étudiées","j":"C'est la phase d'expérimentation, qui précède l'analyse des données."}]},
-    {"q":"Quel effet l'exercice thérapeutique produit-il sur le métabolisme ?","c":7,"options":[{"t":"Il diminue la masse musculaire et ralentit la dépense énergétique","j":"L'exercice thérapeutique augmente la masse musculaire, ce qui améliore le métabolisme de base."},{"t":"Il augmente la masse grasse et abaisse le métabolisme de base","j":"Le cours décrit l'inverse : perte de graisse corporelle, gain de masse musculaire et amélioration du métabolisme de base."},{"t":"Il améliore la sensibilité à l'insuline et aide à réguler la glycémie","correct":true,"j":"Le cours retient cet effet comme bénéfique chez les personnes diabétiques ou à risque de diabète."}]},
-    {"q":"Selon le cours, l'hypoalgésie induite par l'exercice apparaît pendant la séance et peut persister :","c":7,"options":[{"t":"jusqu'à environ deux heures","j":"Aucune durée de cet ordre n'est enseignée : l'effet décrit se limite à une trentaine de minutes."},{"t":"jusqu'à environ douze heures","j":"Cette durée dépasse largement la fenêtre décrite dans le cours, qui est d'environ 30 minutes."},{"t":"jusqu'à environ 30 minutes","correct":true,"j":"Le cours précise que l'effet se produit pendant la séance d'exercice et peut durer jusqu'à 30 minutes."}]},
-    {"q":"Quel effet l'exercice thérapeutique produit-il sur le système respiratoire ?","c":7,"options":[{"t":"Il augmente la capacité pulmonaire et facilite l'élimination du dioxyde de carbone","correct":true,"j":"Le cours retient l'augmentation de la capacité pulmonaire, l'amélioration de l'oxygénation et l'élimination du CO2."},{"t":"Il accroît la rétention de dioxyde de carbone lors d'un entraînement ciblé","j":"L'entraînement ciblé améliore la fonction des muscles respiratoires et donc l'élimination du CO2."},{"t":"Il réduit la capacité pulmonaire tout en améliorant l'oxygénation des tissus","j":"La capacité pulmonaire augmente avec l'exercice : le cours ne décrit aucune réduction."}]},
-    {"q":"Qu'affirme-t-on des effets physiologiques de la manipulation articulaire ?","c":8,"options":[{"t":"Ils sont mal connus et n'exigent pas la cavitation pour produire une analgésie","correct":true,"j":"Le cours indique que les effets ne sont pas connus avec précision et que le phénomène de cavitation n'est pas nécessaire à l'analgésie."},{"t":"Ils reposent sur la lubrification des surfaces par production de liquide synovial","j":"Cet effet est attribué dans le cours à la mobilisation articulaire analytique, non à la manipulation."},{"t":"Ils résultent du relâchement de la pression intracapsulaire de l'articulation","j":"C'est le principe de la traction articulaire, décrite séparément dans le cours."}]},
-    {"q":"Parmi les effets physiologiques de la mobilisation articulaire analytique, on retient :","c":8,"options":[{"t":"l'augmentation de la laxité articulaire et la lubrification des surfaces articulaires","correct":true,"j":"Le cours cite l'activation du système Top-Down, la porte de contrôle, l'augmentation de la laxité et la production de liquide synovial."},{"t":"la réabsorption du liquide interstitiel et l'activation du flux des lymphangions","j":"Ces effets drainants sont ceux du drainage lymphatique manuel, pas de la mobilisation analytique."},{"t":"la réduction de l'excitabilité neuromusculaire et la baisse du taux de cortisol","j":"Ces effets figurent dans le cours parmi ceux du massage classique."}]},
-    {"q":"Dans une cellule excitable, qu'est-ce qui caractérise le potentiel d'action par rapport au potentiel gradué ?","c":9,"options":[{"t":"Il correspond à la différence de charge entre intérieur et extérieur au repos","j":"C'est le potentiel de repos, normalement situé entre -60 et -90 mV."},{"t":"Son amplitude et sa durée varient selon l'intensité du stimulus appliqué","j":"C'est la définition du potentiel gradué, qui ne déclenche une réponse que s'il dépasse le seuil d'excitation."},{"t":"Il répond à la loi du tout ou rien et conserve toujours la même intensité","correct":true,"j":"Le cours précise qu'une fois déclenché, le potentiel d'action est un phénomène « tout ou rien », toujours de même intensité."}]},
-    {"q":"Les courants interférentiels de Kotz (protocole russe) associent deux moyennes fréquences afin d'obtenir :","c":9,"options":[{"t":"un courant unidirectionnel de 0 Hz à visée polaire","j":"Un courant continu de 0 Hz ne s'obtient pas par interférence de deux moyennes fréquences."},{"t":"une fréquence de battement de 50 Hz à visée excitomotrice","correct":true,"j":"Le cours indique 2500 Hz + 2550 Hz, soit une fréquence de battement de 50 Hz, à visée excitomotrice (protocole russe, réservé aux bilans musculaires les plus élevés)."},{"t":"une fréquence de battement de 100 Hz à visée antalgique","j":"C'est le résultat des interférentiels de Nemec, qui associent 4000 Hz et 4100 Hz."}]},
-    {"q":"Selon le cours, comment applique-t-on le TENS antalgique (100-150 Hz) selon le type de douleur ?","c":9,"options":[{"t":"En trains dans les deux cas, en abaissant la fréquence à 50 Hz","j":"La fréquence de 50 Hz correspond au TENS excitomoteur et non au TENS antalgique."},{"t":"En mode continu dans les douleurs chroniques et en trains dans les douleurs aiguës","j":"Les deux modalités sont inversées par rapport à ce qu'enseigne le cours."},{"t":"En mode continu dans les douleurs aiguës et en trains dans les douleurs chroniques","correct":true,"j":"Le cours associe le continuum à la douleur aiguë et l'application en trains (burst) à la douleur chronique."}]},
-    {"q":"Comment agissent les courants de haute fréquence (au-delà de 100 000 Hz) ?","c":9,"options":[{"t":"Ils produisent des effets polaires avec réaction acide et réaction alcaline","j":"Les effets polaires exigent un flux qui ne circule que dans un seul sens : courant continu ou courant alternatif asymétrique déséquilibré."},{"t":"Ils ne dépolarisent pas la membrane nerveuse et agissent par production de chaleur","correct":true,"j":"Le cours indique que la haute fréquence ne dépolarise pas la membrane et que les tissus s'opposant à son passage s'échauffent."},{"t":"Ils dépolarisent les motoneurones et provoquent une contraction musculaire","j":"C'est le mode d'action des basses fréquences utilisées en électrostimulation du muscle innervé."}]},
-    {"q":"Selon le cours, pourquoi l'intensité appliquée en moyenne fréquence ne doit-elle pas dépasser 20 mA ?","c":9,"options":[{"t":"Parce qu'au-delà de ce seuil, la membrane reste en période réfractaire permanente","j":"La période réfractaire dépend de la fréquence des impulsions, non de l'intensité appliquée."},{"t":"Parce que plus le courant est élevé, plus la chaleur dégagée augmente, avec risque de brûlure","correct":true,"j":"Le cours rappelle la loi de Joule : plus de courant signifie plus de chaleur, d'où la limite de 20 mA pour éviter la brûlure."},{"t":"Parce qu'au-delà de ce seuil, l'impédance de la peau augmente et bloque le courant","j":"Le cours enseigne l'inverse : l'impédance cutanée diminue lorsque la fréquence augmente."}]},
-    {"q":"Parmi les objectifs de la kinésithérapie respiratoire, on retient :","c":10,"options":[{"t":"prévenir les dysfonctionnements respiratoires et optimiser la fonction ventilatoire","correct":true,"j":"Le cours fixe comme objectifs la prévention des dysfonctionnements, l'optimisation de la fonction pulmonaire et ventilatoire et l'amélioration de la clairance mucociliaire."},{"t":"corriger les déformations thoraciques et restaurer la mobilité articulaire costale","j":"La correction orthopédique n'est pas un objectif retenu par le cours, qui cible la fonction ventilatoire et le drainage."},{"t":"supprimer la production de sécrétions bronchiques et abolir la sensation de dyspnée","j":"Le cours parle d'améliorer la clairance mucociliaire et la sensation de dyspnée, non de les supprimer."}]},
-    {"q":"Quels sont les quatre grands groupes de techniques de la kinésithérapie respiratoire ?","c":10,"options":[{"t":"Drainage des sécrétions, aérosolthérapie, oxygénothérapie et renforcement musculaire général","j":"L'aérosolthérapie et l'oxygénothérapie ne figurent pas parmi les groupes de techniques enseignés."},{"t":"Drainage des sécrétions, rééducation respiratoire, relaxation respiratoire et renforcement musculaire","correct":true,"j":"Ce sont les quatre familles de techniques présentées dans le cours."},{"t":"Rééducation respiratoire, relaxation respiratoire, massage thoracique et ventilation mécanique","j":"Le massage thoracique et la ventilation mécanique ne font pas partie des quatre groupes décrits."}]},
-    {"q":"De quoi dépend le choix d'une technique de kinésithérapie respiratoire lors de l'évaluation du patient ?","c":10,"options":[{"t":"De l'âge, de la coopération et de la tolérance, de la gravité et de la maladie","correct":true,"j":"Le cours retient précisément ces éléments d'évaluation pour orienter le choix technique."},{"t":"De l'âge, du sexe, de l'indice de masse corporelle et du niveau d'activité","j":"Le sexe et l'indice de masse corporelle ne figurent pas parmi les critères d'évaluation enseignés."},{"t":"De la gravité, de la durée d'hospitalisation, du traitement et du lieu de vie","j":"Ces paramètres ne sont pas ceux que le cours retient : il insiste sur la coopération et la tolérance du patient."}]},
-    {"q":"Quelles techniques sont utilisées pour le dégagement des voies respiratoires ?","c":10,"options":[{"t":"Les techniques manuelles à faible et à haut débit, la pression expiratoire positive et sa variante oscillatoire","correct":true,"j":"Le cours énumère ces trois modalités (techniques manuelles, PEP, PEP oscillatoire) au titre de l’hygiène bronchique."},{"t":"La pression expiratoire oscillatoire, la ventilation non invasive et l'entraînement des muscles inspirateurs","j":"La ventilation non invasive et l'entraînement inspiratoire relèvent d'autres effets que l'hygiène bronchique."},{"t":"Les techniques manuelles à faible débit, l'aspiration trachéale et l'humidification des voies aériennes","j":"L'aspiration et l'humidification ne figurent pas parmi les techniques de dégagement citées."}]},
-    {"q":"Pourquoi la kinésithérapie respiratoire du nourrisson est-elle surtout orientée vers le drainage des sécrétions ?","c":10,"options":[{"t":"En raison de la fréquence des déformations orthopédiques du thorax à cet âge","j":"Les déformations orthopédiques concernent les enfants atteints d'une déficience neurologique grave."},{"t":"En raison des particularités anatomiques et physiologiques de son système respiratoire","correct":true,"j":"Le cours justifie la priorité donnée au drainage par les particularités physiologiques et anatomiques du système respiratoire du nourrisson."},{"t":"En raison de l'immaturité isolée de ses muscles inspirateurs accessoires","j":"Le cours ne retient pas ce motif : il invoque l'ensemble des particularités anatomiques et physiologiques."}]},
-    {"q":"Chez l'enfant atteint d'une déficience neurologique grave, la kinésithérapie respiratoire est orientée vers :","c":10,"options":[{"t":"la prévention de l'obstruction bronchique et la pathologie restrictive liée aux déformations","correct":true,"j":"Le cours décrit cette double orientation chez les enfants porteurs d'une atteinte neurologique sévère."},{"t":"la rééducation de la toux volontaire et la relaxation respiratoire thoracique en priorité","j":"Le cours met en avant la gestion de l'obstruction bronchique et de la composante restrictive, pas ces deux axes."},{"t":"le renforcement exclusif des muscles inspirateurs et la tolérance à l'effort","j":"Le renforcement musculaire est un effet attendu de la discipline, mais ce n'est pas l'orientation décrite dans cette population."}]},
-    {"q":"Quel effet la kinésithérapie respiratoire a-t-elle sur la capacité fonctionnelle et la qualité de vie ?","c":10,"options":[{"t":"Elle réduit l'intensité perçue de la dyspnée mais diminue la tolérance à l'exercice","j":"La capacité d'exercice est au contraire améliorée ou augmentée selon le cours."},{"t":"Elle augmente la capacité d'exercice et réduit l'intensité perçue de la dyspnée","correct":true,"j":"Le cours retient l'amélioration de la capacité d'exercice, de la qualité de vie liée à la santé et la baisse de la dyspnée perçue."},{"t":"Elle augmente la capacité d'exercice sans modifier l'intensité perçue de la dyspnée","j":"La réduction de l'intensité perçue de la dyspnée fait partie des effets attendus."}]},
-    {"q":"Selon le cours, parmi les effets physiologiques de la kinésithérapie respiratoire, lequel bénéficie d'un niveau de preuve A ?","c":10,"options":[{"t":"Le renforcement de la musculature respiratoire et de la musculature générale","correct":true,"j":"Le cours attribue explicitement un niveau de preuve A au renforcement musculaire respiratoire et général."},{"t":"L'amélioration de l'échange gazeux avec réduction de l'hypercapnie","j":"Cet effet est bien décrit, mais aucun niveau de preuve A ne lui est associé dans le cours."},{"t":"L'amélioration de la clairance mucociliaire et du dégagement bronchique","j":"Cet effet figure parmi ceux de la discipline, sans la mention du niveau de preuve A."}]},
-    {"q":"Comment l'Organisation mondiale de la santé définit-elle la neuroréhabilitation ?","c":11,"options":[{"t":"Un programme d'entretien stabilisant les séquelles sans viser de récupération active","j":"La définition vise explicitement la meilleure récupération possible de la personne."},{"t":"Un processus de compensation passive des déficits par des aides techniques adaptées","j":"La définition retenue par le cours décrit un processus actif, non une compensation passive."},{"t":"Un processus actif visant la meilleure récupération possible et l'intégration sociale","correct":true,"j":"La définition citée insiste sur le caractère actif du processus, la meilleure récupération possible et l'intégration physique, mentale et sociale."}]},
-    {"q":"Qu'étudie la neurophysiothérapie en tant que discipline ?","c":11,"options":[{"t":"Les mécanismes génétiques de la dégénérescence progressive des motoneurones","j":"Le cours n'assigne pas cet objet à la discipline, qui porte sur les conséquences sensori-motrices des atteintes nerveuses."},{"t":"Les effets d'une atteinte du système nerveux sur les fonctions sensori-motrices","correct":true,"j":"Le cours la définit comme l'étude de ces effets, qui retentissent sur la fonctionnalité et donc sur l'autonomie."},{"t":"Les effets des agents physiques sur la conduction nerveuse périphérique","j":"L'étude des agents physiques appartient à d'autres domaines : la neurophysiothérapie cible les fonctions sensori-motrices."}]},
-    {"q":"Après son évaluation, quelle stratégie le neurophysiothérapeute propose-t-il ?","c":11,"options":[{"t":"Éviter toute sollicitation du système lésé et compenser le déficit par des aides techniques","j":"Le cours propose au contraire de stimuler le système nerveux pour en exploiter la plasticité."},{"t":"Stimuler le système nerveux pour créer de nouvelles connexions et prévenir les complications","correct":true,"j":"Le cours décrit des outils qui stimulent le système nerveux pour générer de nouvelles connexions, augmenter le potentiel fonctionnel et prévenir d'autres complications."},{"t":"Rétablir la conduction nerveuse en stimulant électriquement les nerfs périphériques","j":"Ce n'est pas la stratégie décrite : l'objectif est d'augmenter le potentiel fonctionnel par de nouvelles connexions."}]},
-    {"q":"À quel type de modification de la neuroplasticité correspondent la formation de nouvelles synapses et la régénération axonale ?","c":11,"options":[{"t":"Aux modifications neurochimiques","j":"Le niveau neurochimique correspond aux changements des neurotransmetteurs et de leurs récepteurs."},{"t":"Aux modifications morphologiques","correct":true,"j":"Le cours classe les nouvelles synapses et la régénération axonale parmi les changements morphologiques."},{"t":"Aux modifications physiologiques","j":"Le niveau physiologique correspond aux variations de l'efficacité synaptique."}]},
-    {"q":"Que désigne le feed-back dans le contrôle du mouvement ?","c":11,"options":[{"t":"Les consignes verbales données au patient avant de débuter le mouvement","j":"Le feed-back désigne des informations sensorielles internes, non les consignes du thérapeute."},{"t":"Les informations sensorielles reçues pendant l'exécution du mouvement ou de la posture","correct":true,"j":"Le cours définit le feed-back comme l'ensemble des informations sensorielles reçues au cours de l'exécution."},{"t":"Les informations stockées et utilisées avant l'exécution d'un mouvement futur","j":"C'est la définition du feed-forward, construit à partir des informations de feed-back."}]},
-    {"q":"Comment le feed-forward se constitue-t-il ?","c":11,"options":[{"t":"Par le stockage des informations sensorielles reçues lors des exécutions précédentes","correct":true,"j":"Le cours indique que les informations du feed-back sont intégrées et stockées pour former le feed-forward, utilisé avant l'exécution future."},{"t":"Par la correction continue du mouvement au fur et à mesure de son exécution","j":"La correction en cours d'exécution repose sur le feed-back : le feed-forward précède le mouvement."},{"t":"Par la seule maturation des voies motrices descendantes au cours du développement","j":"Le cours rattache le feed-forward à l'expérience sensorielle stockée, non à la seule maturation."}]},
-    {"q":"Quels sont les trois processus pertinents de la neuroplasticité ?","c":11,"options":[{"t":"L'apprentissage moteur, la plasticité post-lésionnelle et la régulation autonome du tonus","j":"La régulation autonome du tonus ne fait pas partie des trois processus énumérés."},{"t":"La neuroplasticité au cours du développement, le vieillissement cérébral et la mémoire déclarative","j":"Le vieillissement et la mémoire déclarative ne figurent pas parmi les processus retenus."},{"t":"La neuroplasticité au cours du développement, l'apprentissage moteur et la plasticité post-lésionnelle","correct":true,"j":"Le cours retient ces trois processus comme pertinents en physiothérapie neurologique."}]},
-    {"q":"À quelle altération la maladie de Parkinson est-elle rattachée chez le patient neurologique ?","c":11,"options":[{"t":"À une altération génomique","j":"L'altération génomique est mentionnée séparément et ne correspond pas à la maladie de Parkinson."},{"t":"À une lésion de la moelle épinière","j":"La lésion médullaire est citée comme une entité distincte dans le cours."},{"t":"À une perturbation dopaminergique","correct":true,"j":"Le cours associe la maladie de Parkinson à une perturbation dopaminergique."}]},
-    {"q":"Quelles sont les caractéristiques du courant galvanique utilisé en électrolyse percutanée ?","c":12,"options":[{"t":"Un courant alternatif symétrique de basse fréquence, réglé entre 0,5 et 10 mA","j":"Le courant galvanique n'est pas alternatif : il circule dans un seul sens entre anode et cathode."},{"t":"Un courant continu unidirectionnel, de fréquence nulle, réglé entre 15 et 20 mA","j":"Le type de courant est exact, mais l’intensité enseignée se situe entre 0,5 et 10 mA ; 15 à 20 mA n’est pas la plage clinique du cours."},{"t":"Un courant continu unidirectionnel, de fréquence nulle, réglé entre 0,5 et 10 mA","correct":true,"j":"Le cours décrit un courant continu unidirectionnel d'intensité constante, de 0 Hz, réglé typiquement entre 0,5 et 10 mA."}]},
-    {"q":"En quoi consiste l'effet mécanique de l'électrolyse percutanée ?","c":12,"options":[{"t":"En une élévation du pH par élimination locale des substances sensibilisantes du muscle","j":"L'élévation du pH et l'élimination des substances sensibilisantes relèvent des effets mécaniques de la ponction sèche."},{"t":"En une mécanotransduction par activation des fibrocytes, liée au mouvement de l'aiguille","correct":true,"j":"Le cours rattache l'effet mécanique au mouvement de l'aiguille, qui active les fibrocytes et produit une mécanotransduction."},{"t":"En une rupture puis une régénération des fibres musculaires et des plaques motrices","j":"Cet effet mécanique est décrit pour la ponction sèche au niveau du point gâchette."}]},
-    {"q":"En quoi consiste la neuromodulation percutanée ?","c":12,"options":[{"t":"En une aiguille reliée à un courant de basse fréquence, appliquée au nerf périphérique sous échographie","correct":true,"j":"Le cours la définit comme une approche invasive et indolore visant l'épinèvre du nerf périphérique avec un courant de basse fréquence, sous échographie."},{"t":"En une aiguille introduite sans courant dans le point gâchette musculaire, sans injection de substance","j":"C'est la définition de la ponction sèche, technique distincte de la neuromodulation."},{"t":"En une aiguille reliée à un courant galvanique appliquée au tendon dégénéré sous contrôle échographique","j":"Cette description correspond à l'électrolyse percutanée, qui cible le foyer lésionnel du tendon."}]},
-    {"q":"À quoi correspond le mécanisme d'inhibition médullaire de la neuromodulation percutanée ?","c":12,"options":[{"t":"À l'activation des structures analgésiques cérébrales libérant endorphines et sérotonine","j":"Cela correspond à la modulation vers le bas, dont le résultat clinique est une analgésie prolongée."},{"t":"À la normalisation du seuil d'activation des nocicepteurs irrités ou hyperactifs","j":"Cela correspond à la désensibilisation périphérique, qui diminue la douleur locale."},{"t":"Au blocage des signaux douloureux dans la moelle par les interneurones inhibiteurs","correct":true,"j":"Le cours rattache ce mécanisme aux interneurones inhibiteurs de la corne dorsale et à la théorie du contrôle de la porte, avec réduction immédiate de la douleur."}]},
-    {"q":"Quel est l'objectif de la technique d'entrée et sortie rapide de Hong en ponction sèche profonde ?","c":12,"options":[{"t":"Obtenir une analgésie immédiate en évitant toute réponse spasmodique locale","j":"Les réponses spasmodiques locales sont au contraire recherchées avec cette technique."},{"t":"Étirer le cytosquelette par rotation maintenue de l'aiguille dans le point gâchette","j":"La rotation de l'aiguille correspond à la modalité de torsion, distincte de l'entrée-sortie rapide."},{"t":"Reproduire la douleur du patient et générer des réponses spasmodiques locales","correct":true,"j":"Le cours présente cette modalité, la plus utilisée en clinique, comme destinée à reproduire la douleur et à obtenir des réponses spasmodiques locales."}]},
-    {"q":"Selon le cours, quels sont les paramètres de la ponction sèche superficielle ?","c":12,"options":[{"t":"Une introduction de 5 à 10 mm, maintenue environ 10 à 15 minutes","j":"La durée est erronée : le cours retient une application d'environ 30 secondes à 3 minutes."},{"t":"Une introduction de 5 à 10 mm, maintenue environ 30 secondes à 3 minutes","correct":true,"j":"Ce sont les paramètres enseignés pour la ponction sèche superficielle, à laquelle un courant ou une rotation peuvent être ajoutés."},{"t":"Une introduction de 20 à 30 mm, maintenue environ 30 secondes à 3 minutes","j":"Cette profondeur correspond à une ponction profonde, non à la modalité superficielle."}]},
-    {"q":"Selon le cours, quelles caractéristiques distinguent les nocicepteurs de type C ?","c":13,"options":[{"t":"Une conduction lente, d'environ 20 m/s, et un caractère mécano-thermique","j":"Ces caractéristiques sont celles des nocicepteurs A-delta, mécano-sensibles et mécano-thermiques."},{"t":"Une conduction très lente, d'environ 2 m/s, et un caractère polymodal","correct":true,"j":"Le cours décrit les fibres C comme très lentes (2 m/s) et polymodales, répondant aux stimuli thermiques, mécaniques et chimiques."},{"t":"Une conduction rapide, de gros diamètre, sensible au toucher et à la pression","j":"Cela correspond aux fibres A-bêta du toucher et de la pression, qui ne sont pas des nocicepteurs."}]},
-    {"q":"Où le nocicepteur de premier ordre transmet-il l'information au nocicepteur de second ordre ?","c":13,"options":[{"t":"Dans le cortex préfrontal et le système limbique","j":"Ces structures reçoivent l'information après le thalamus, où elle est interprétée comme douleur ou non."},{"t":"Dans le thalamus, avant le relais cortical","j":"Le thalamus est le relais suivant, atteint par le nocicepteur de second ordre si le stimulus est suffisant."},{"t":"Dans la corne dorsale de la moelle épinière","correct":true,"j":"Le cours situe ce relais dans la corne dorsale, où le nocicepteur de premier ordre transmet au second ordre."}]},
-    {"q":"En quoi consiste le système Top-Down de régulation de la douleur ?","c":13,"options":[{"t":"Des cellules du tronc cérébral inhibent ou augmentent le passage de l'information nocive","correct":true,"j":"Le cours décrit des cellules ON-OFF du tronc cérébral agissant entre les nocicepteurs de premier et de second ordre."},{"t":"Des récepteurs membranaires élèvent leur seuil d'activation au niveau périphérique","j":"Le seuil élevé des récepteurs caractérise le nocicepteur lui-même, il ne s'agit pas d'une régulation descendante."},{"t":"Des fibres de gros diamètre ferment l'accès de l'interneurone médullaire à la douleur","j":"C'est la théorie du portillon, mécanisme distinct du système Top-Down."}]},
-    {"q":"Selon la classification du cours en fonction de la durée, la douleur subaiguë correspond à :","c":13,"options":[{"t":"une douleur évoluant entre quatre jours et trois mois","correct":true,"j":"Le cours situe la douleur subaiguë entre 4 jours et 3 mois d'évolution."},{"t":"une douleur évoluant depuis plus de trois mois","j":"Ce délai définit la douleur chronique, assimilée à un retard de réparation tissulaire."},{"t":"une douleur évoluant depuis moins de trois jours","j":"Cette durée définit la douleur aiguë dans la classification du cours."}]},
-    {"q":"Selon le cours, comment se comporte une douleur d'origine ischémique ?","c":13,"options":[{"t":"Elle augmente la nuit et s'accompagne de fourmillements et de perte de force","j":"Ces signes neurologiques caractérisent la douleur neuropathique, liée à une lésion du nerf."},{"t":"Elle augmente au repos, diminue au mouvement et s'améliore avec le chaud","correct":true,"j":"Le cours rattache la douleur ischémique à une diminution du flux sanguin, aggravée au repos et améliorée par le chaud."},{"t":"Elle augmente au mouvement, diminue au repos et s'améliore avec le froid","j":"Ce profil mélange deux tableaux du cours : la douleur mécanique, très localisée et diminuant au repos, et la douleur inflammatoire, qui s’améliore avec le froid et les anti-inflammatoires."}]},
-    {"q":"Dans quels tissus la réponse inflammatoire peut-elle apparaître ?","c":13,"options":[{"t":"Dans tous les tissus, vascularisés ou non","j":"L'absence de vascularisation empêche la réponse inflammatoire telle que décrite dans le cours."},{"t":"Uniquement dans les épithéliums et les muqueuses","j":"Le cours ne limite pas l'inflammation à ces tissus : il exige un tissu conjonctif vascularisé."},{"t":"Uniquement dans les tissus conjonctifs vascularisés","correct":true,"j":"Le cours précise que la réponse inflammatoire n'apparaît que dans les tissus conjonctifs vascularisés."}]},
-    {"q":"Quel changement suit immédiatement l'agression tissulaire dans la séquence inflammatoire ?","c":13,"options":[{"t":"Des changements métaboliques avec hypoxie","correct":true,"j":"Le cours place les changements métaboliques, avec hypoxie, juste après l'agression et avant l'activation des médiateurs."},{"t":"Des changements hémodynamiques locaux","j":"Ils surviennent plus tard, après l'activation des médiateurs inflammatoires."},{"t":"Une migration des leucocytes vers le foyer","j":"La migration leucocytaire est la dernière étape de la séquence décrite."}]},
-    {"q":"Comment se termine une inflammation aiguë ?","c":13,"options":[{"t":"Le liquide accumulé est drainé par le système lymphatique et les cellules inflammatoires entrent en apoptose","correct":true,"j":"Le cours décrit le drainage lymphatique du liquide et des protéines puis l'apoptose des cellules inflammatoires, ce qui normalise le tissu."},{"t":"Le liquide persiste et les cellules inflammatoires se maintiennent avec des périodes d'intensité variable","j":"Cette évolution caractérise l'inflammation chronique, qui dure de 3 à 6 mois voire des années."},{"t":"Le liquide accumulé est réabsorbé par les capillaires veineux et les cellules inflammatoires se fibrosent","j":"Le cours attribue le drainage au système lymphatique et décrit une mort cellulaire programmée, non une fibrose."}]}
+    {
+      "q": "Pour qu'une discipline soit considérée comme une science, elle doit réunir :",
+      "c": 3,
+      "options": [
+        {
+          "t": "un corpus de connaissances propre, un champ d'action et une méthode systématique",
+          "correct": true,
+          "j": "Le cours énonce exactement ces trois exigences pour qu'une discipline accède au statut de science."
+        },
+        {
+          "t": "un corpus de connaissances propre, un champ d'action et une tradition reconnue",
+          "j": "La tradition ne figure pas parmi les exigences du cours : c'est la méthode systématique d'accès au savoir qui est requise."
+        },
+        {
+          "t": "un champ d'action, une méthode systématique et un consensus entre experts",
+          "j": "Le consensus d'experts ne remplace pas le corpus de connaissances propre exigé par le cours."
+        }
+      ]
+    },
+    {
+      "q": "Dans la hiérarchie des preuves présentée dans le cours, quel type d'étude est considéré comme l'étalon-or pour déterminer l'efficacité d'une intervention ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "L'essai contrôlé randomisé, où les participants sont répartis au hasard",
+          "correct": true,
+          "j": "Le cours le décrit comme une étude expérimentale de haut niveau et comme l'étalon-or de l'efficacité d'une intervention."
+        },
+        {
+          "t": "L'essai clinique contrôlé, dont les groupes sont constitués sans tirage au sort",
+          "j": "Il compare bien les sujets traités et non traités, mais l'absence de randomisation le place sous l'essai randomisé."
+        },
+        {
+          "t": "L'étude de cohorte, qui suit un groupe de sujets au fil du temps",
+          "j": "Elle suit les résultats selon l'exposition à un facteur ou à une intervention, mais se situe plus bas dans la pyramide."
+        }
+      ]
+    },
+    {
+      "q": "Dans le processus en cinq étapes de la pratique fondée sur l'évidence, l'étape « Appraise » consiste à :",
+      "c": 3,
+      "options": [
+        {
+          "t": "transformer un besoin d'information en une question à laquelle on peut répondre",
+          "j": "Cela correspond à l'étape « Ask », première du processus, qui précède la recherche des preuves."
+        },
+        {
+          "t": "évaluer de façon critique la validité et l'applicabilité des preuves trouvées",
+          "correct": true,
+          "j": "C'est l'étape d'évaluation critique, qui comprend la détermination du niveau d'évidence scientifique."
+        },
+        {
+          "t": "rechercher dans les bases de données les meilleures preuves disponibles",
+          "j": "Cela correspond à l'étape « Acquire », qui fournit le matériel que l'étape suivante évaluera."
+        }
+      ]
+    },
+    {
+      "q": "Dans la méthode scientifique telle que décrite dans le cours, la phase d'analyse des données consiste à :",
+      "c": 3,
+      "options": [
+        {
+          "t": "déterminer si l'hypothèse est correcte, incorrecte ou nécessite des ajustements",
+          "j": "C'est la phase des conclusions, qui vient après l'analyse des données."
+        },
+        {
+          "t": "examiner les données recueillies pour voir si elles soutiennent ou rejettent l'hypothèse",
+          "correct": true,
+          "j": "Le cours définit cette phase comme l'analyse des données collectées afin de voir si elles appuient ou rejettent l'hypothèse."
+        },
+        {
+          "t": "réaliser l'intervention et recueillir les échantillons des variables étudiées",
+          "j": "C'est la phase d'expérimentation, qui précède l'analyse des données."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet l'exercice thérapeutique produit-il sur le métabolisme ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Il diminue la masse musculaire et ralentit la dépense énergétique",
+          "j": "L'exercice thérapeutique augmente la masse musculaire, ce qui améliore le métabolisme de base."
+        },
+        {
+          "t": "Il augmente la masse grasse et abaisse le métabolisme de base",
+          "j": "Le cours décrit l'inverse : perte de graisse corporelle, gain de masse musculaire et amélioration du métabolisme de base."
+        },
+        {
+          "t": "Il améliore la sensibilité à l'insuline et aide à réguler la glycémie",
+          "correct": true,
+          "j": "Le cours retient cet effet comme bénéfique chez les personnes diabétiques ou à risque de diabète."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, l'hypoalgésie induite par l'exercice apparaît pendant la séance et peut persister :",
+      "c": 7,
+      "options": [
+        {
+          "t": "jusqu'à environ deux heures",
+          "j": "Aucune durée de cet ordre n'est enseignée : l'effet décrit se limite à une trentaine de minutes."
+        },
+        {
+          "t": "jusqu'à environ douze heures",
+          "j": "Cette durée dépasse largement la fenêtre décrite dans le cours, qui est d'environ 30 minutes."
+        },
+        {
+          "t": "jusqu'à environ 30 minutes",
+          "correct": true,
+          "j": "Le cours précise que l'effet se produit pendant la séance d'exercice et peut durer jusqu'à 30 minutes."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet l'exercice thérapeutique produit-il sur le système respiratoire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Il augmente la capacité pulmonaire et facilite l'élimination du dioxyde de carbone",
+          "correct": true,
+          "j": "Le cours retient l'augmentation de la capacité pulmonaire, l'amélioration de l'oxygénation et l'élimination du CO2."
+        },
+        {
+          "t": "Il accroît la rétention de dioxyde de carbone lors d'un entraînement ciblé",
+          "j": "L'entraînement ciblé améliore la fonction des muscles respiratoires et donc l'élimination du CO2."
+        },
+        {
+          "t": "Il réduit la capacité pulmonaire tout en améliorant l'oxygénation des tissus",
+          "j": "La capacité pulmonaire augmente avec l'exercice : le cours ne décrit aucune réduction."
+        }
+      ]
+    },
+    {
+      "q": "Qu'affirme-t-on des effets physiologiques de la manipulation articulaire ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Ils sont mal connus et n'exigent pas la cavitation pour produire une analgésie",
+          "correct": true,
+          "j": "Le cours indique que les effets ne sont pas connus avec précision et que le phénomène de cavitation n'est pas nécessaire à l'analgésie."
+        },
+        {
+          "t": "Ils reposent sur la lubrification des surfaces par production de liquide synovial",
+          "j": "Cet effet est attribué dans le cours à la mobilisation articulaire analytique, non à la manipulation."
+        },
+        {
+          "t": "Ils résultent du relâchement de la pression intracapsulaire de l'articulation",
+          "j": "C'est le principe de la traction articulaire, décrite séparément dans le cours."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les effets physiologiques de la mobilisation articulaire analytique, on retient :",
+      "c": 8,
+      "options": [
+        {
+          "t": "l'augmentation de la laxité articulaire et la lubrification des surfaces articulaires",
+          "correct": true,
+          "j": "Le cours cite l'activation du système Top-Down, la porte de contrôle, l'augmentation de la laxité et la production de liquide synovial."
+        },
+        {
+          "t": "la réabsorption du liquide interstitiel et l'activation du flux des lymphangions",
+          "j": "Ces effets drainants sont ceux du drainage lymphatique manuel, pas de la mobilisation analytique."
+        },
+        {
+          "t": "la réduction de l'excitabilité neuromusculaire et la baisse du taux de cortisol",
+          "j": "Ces effets figurent dans le cours parmi ceux du massage classique."
+        }
+      ]
+    },
+    {
+      "q": "Dans une cellule excitable, qu'est-ce qui caractérise le potentiel d'action par rapport au potentiel gradué ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Il correspond à la différence de charge entre intérieur et extérieur au repos",
+          "j": "C'est le potentiel de repos, normalement situé entre -60 et -90 mV."
+        },
+        {
+          "t": "Son amplitude et sa durée varient selon l'intensité du stimulus appliqué",
+          "j": "C'est la définition du potentiel gradué, qui ne déclenche une réponse que s'il dépasse le seuil d'excitation."
+        },
+        {
+          "t": "Il répond à la loi du tout ou rien et conserve toujours la même intensité",
+          "correct": true,
+          "j": "Le cours précise qu'une fois déclenché, le potentiel d'action est un phénomène « tout ou rien », toujours de même intensité."
+        }
+      ]
+    },
+    {
+      "q": "Les courants interférentiels de Kotz (protocole russe) associent deux moyennes fréquences afin d'obtenir :",
+      "c": 9,
+      "options": [
+        {
+          "t": "un courant unidirectionnel de 0 Hz à visée polaire",
+          "j": "Un courant continu de 0 Hz ne s'obtient pas par interférence de deux moyennes fréquences."
+        },
+        {
+          "t": "une fréquence de battement de 50 Hz à visée excitomotrice",
+          "correct": true,
+          "j": "Le cours indique 2500 Hz + 2550 Hz, soit une fréquence de battement de 50 Hz, à visée excitomotrice (protocole russe, réservé aux bilans musculaires les plus élevés)."
+        },
+        {
+          "t": "une fréquence de battement de 100 Hz à visée antalgique",
+          "j": "C'est le résultat des interférentiels de Nemec, qui associent 4000 Hz et 4100 Hz."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, comment applique-t-on le TENS antalgique (100-150 Hz) selon le type de douleur ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "En trains dans les deux cas, en abaissant la fréquence à 50 Hz",
+          "j": "La fréquence de 50 Hz correspond au TENS excitomoteur et non au TENS antalgique."
+        },
+        {
+          "t": "En mode continu dans les douleurs chroniques et en trains dans les douleurs aiguës",
+          "j": "Les deux modalités sont inversées par rapport à ce qu'enseigne le cours."
+        },
+        {
+          "t": "En mode continu dans les douleurs aiguës et en trains dans les douleurs chroniques",
+          "correct": true,
+          "j": "Le cours associe le continuum à la douleur aiguë et l'application en trains (burst) à la douleur chronique."
+        }
+      ]
+    },
+    {
+      "q": "Comment agissent les courants de haute fréquence (au-delà de 100 000 Hz) ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Ils produisent des effets polaires avec réaction acide et réaction alcaline",
+          "j": "Les effets polaires exigent un flux qui ne circule que dans un seul sens : courant continu ou courant alternatif asymétrique déséquilibré."
+        },
+        {
+          "t": "Ils ne dépolarisent pas la membrane nerveuse et agissent par production de chaleur",
+          "correct": true,
+          "j": "Le cours indique que la haute fréquence ne dépolarise pas la membrane et que les tissus s'opposant à son passage s'échauffent."
+        },
+        {
+          "t": "Ils dépolarisent les motoneurones et provoquent une contraction musculaire",
+          "j": "C'est le mode d'action des basses fréquences utilisées en électrostimulation du muscle innervé."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, pourquoi l'intensité appliquée en moyenne fréquence ne doit-elle pas dépasser 20 mA ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Parce qu'au-delà de ce seuil, la membrane reste en période réfractaire permanente",
+          "j": "La période réfractaire dépend de la fréquence des impulsions, non de l'intensité appliquée."
+        },
+        {
+          "t": "Parce que plus le courant est élevé, plus la chaleur dégagée augmente, avec risque de brûlure",
+          "correct": true,
+          "j": "Le cours rappelle la loi de Joule : plus de courant signifie plus de chaleur, d'où la limite de 20 mA pour éviter la brûlure."
+        },
+        {
+          "t": "Parce qu'au-delà de ce seuil, l'impédance de la peau augmente et bloque le courant",
+          "j": "Le cours enseigne l'inverse : l'impédance cutanée diminue lorsque la fréquence augmente."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les objectifs de la kinésithérapie respiratoire, on retient :",
+      "c": 10,
+      "options": [
+        {
+          "t": "prévenir les dysfonctionnements respiratoires et optimiser la fonction ventilatoire",
+          "correct": true,
+          "j": "Le cours fixe comme objectifs la prévention des dysfonctionnements, l'optimisation de la fonction pulmonaire et ventilatoire et l'amélioration de la clairance mucociliaire."
+        },
+        {
+          "t": "corriger les déformations thoraciques et restaurer la mobilité articulaire costale",
+          "j": "La correction orthopédique n'est pas un objectif retenu par le cours, qui cible la fonction ventilatoire et le drainage."
+        },
+        {
+          "t": "supprimer la production de sécrétions bronchiques et abolir la sensation de dyspnée",
+          "j": "Le cours parle d'améliorer la clairance mucociliaire et la sensation de dyspnée, non de les supprimer."
+        }
+      ]
+    },
+    {
+      "q": "Quels sont les quatre grands groupes de techniques de la kinésithérapie respiratoire ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Drainage des sécrétions, aérosolthérapie, oxygénothérapie et renforcement musculaire général",
+          "j": "L'aérosolthérapie et l'oxygénothérapie ne figurent pas parmi les groupes de techniques enseignés."
+        },
+        {
+          "t": "Drainage des sécrétions, rééducation respiratoire, relaxation respiratoire et renforcement musculaire",
+          "correct": true,
+          "j": "Ce sont les quatre familles de techniques présentées dans le cours."
+        },
+        {
+          "t": "Rééducation respiratoire, relaxation respiratoire, massage thoracique et ventilation mécanique",
+          "j": "Le massage thoracique et la ventilation mécanique ne font pas partie des quatre groupes décrits."
+        }
+      ]
+    },
+    {
+      "q": "De quoi dépend le choix d'une technique de kinésithérapie respiratoire lors de l'évaluation du patient ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "De l'âge, de la coopération et de la tolérance, de la gravité et de la maladie",
+          "correct": true,
+          "j": "Le cours retient précisément ces éléments d'évaluation pour orienter le choix technique."
+        },
+        {
+          "t": "De l'âge, du sexe, de l'indice de masse corporelle et du niveau d'activité",
+          "j": "Le sexe et l'indice de masse corporelle ne figurent pas parmi les critères d'évaluation enseignés."
+        },
+        {
+          "t": "De la gravité, de la durée d'hospitalisation, du traitement et du lieu de vie",
+          "j": "Ces paramètres ne sont pas ceux que le cours retient : il insiste sur la coopération et la tolérance du patient."
+        }
+      ]
+    },
+    {
+      "q": "Quelles techniques sont utilisées pour le dégagement des voies respiratoires ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Les techniques manuelles à faible et à haut débit, la pression expiratoire positive et sa variante oscillatoire",
+          "correct": true,
+          "j": "Le cours énumère ces trois modalités (techniques manuelles, PEP, PEP oscillatoire) au titre de l’hygiène bronchique."
+        },
+        {
+          "t": "La pression expiratoire oscillatoire, la ventilation non invasive et l'entraînement des muscles inspirateurs",
+          "j": "La ventilation non invasive et l'entraînement inspiratoire relèvent d'autres effets que l'hygiène bronchique."
+        },
+        {
+          "t": "Les techniques manuelles à faible débit, l'aspiration trachéale et l'humidification des voies aériennes",
+          "j": "L'aspiration et l'humidification ne figurent pas parmi les techniques de dégagement citées."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi la kinésithérapie respiratoire du nourrisson est-elle surtout orientée vers le drainage des sécrétions ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "En raison de la fréquence des déformations orthopédiques du thorax à cet âge",
+          "j": "Les déformations orthopédiques concernent les enfants atteints d'une déficience neurologique grave."
+        },
+        {
+          "t": "En raison des particularités anatomiques et physiologiques de son système respiratoire",
+          "correct": true,
+          "j": "Le cours justifie la priorité donnée au drainage par les particularités physiologiques et anatomiques du système respiratoire du nourrisson."
+        },
+        {
+          "t": "En raison de l'immaturité isolée de ses muscles inspirateurs accessoires",
+          "j": "Le cours ne retient pas ce motif : il invoque l'ensemble des particularités anatomiques et physiologiques."
+        }
+      ]
+    },
+    {
+      "q": "Chez l'enfant atteint d'une déficience neurologique grave, la kinésithérapie respiratoire est orientée vers :",
+      "c": 10,
+      "options": [
+        {
+          "t": "la prévention de l'obstruction bronchique et la pathologie restrictive liée aux déformations",
+          "correct": true,
+          "j": "Le cours décrit cette double orientation chez les enfants porteurs d'une atteinte neurologique sévère."
+        },
+        {
+          "t": "la rééducation de la toux volontaire et la relaxation respiratoire thoracique en priorité",
+          "j": "Le cours met en avant la gestion de l'obstruction bronchique et de la composante restrictive, pas ces deux axes."
+        },
+        {
+          "t": "le renforcement exclusif des muscles inspirateurs et la tolérance à l'effort",
+          "j": "Le renforcement musculaire est un effet attendu de la discipline, mais ce n'est pas l'orientation décrite dans cette population."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet la kinésithérapie respiratoire a-t-elle sur la capacité fonctionnelle et la qualité de vie ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Elle réduit l'intensité perçue de la dyspnée mais diminue la tolérance à l'exercice",
+          "j": "La capacité d'exercice est au contraire améliorée ou augmentée selon le cours."
+        },
+        {
+          "t": "Elle augmente la capacité d'exercice et réduit l'intensité perçue de la dyspnée",
+          "correct": true,
+          "j": "Le cours retient l'amélioration de la capacité d'exercice, de la qualité de vie liée à la santé et la baisse de la dyspnée perçue."
+        },
+        {
+          "t": "Elle augmente la capacité d'exercice sans modifier l'intensité perçue de la dyspnée",
+          "j": "La réduction de l'intensité perçue de la dyspnée fait partie des effets attendus."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, parmi les effets physiologiques de la kinésithérapie respiratoire, lequel bénéficie d'un niveau de preuve A ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Le renforcement de la musculature respiratoire et de la musculature générale",
+          "correct": true,
+          "j": "Le cours attribue explicitement un niveau de preuve A au renforcement musculaire respiratoire et général."
+        },
+        {
+          "t": "L'amélioration de l'échange gazeux avec réduction de l'hypercapnie",
+          "j": "Cet effet est bien décrit, mais aucun niveau de preuve A ne lui est associé dans le cours."
+        },
+        {
+          "t": "L'amélioration de la clairance mucociliaire et du dégagement bronchique",
+          "j": "Cet effet figure parmi ceux de la discipline, sans la mention du niveau de preuve A."
+        }
+      ]
+    },
+    {
+      "q": "Comment l'Organisation mondiale de la santé définit-elle la neuroréhabilitation ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Un programme d'entretien stabilisant les séquelles sans viser de récupération active",
+          "j": "La définition vise explicitement la meilleure récupération possible de la personne."
+        },
+        {
+          "t": "Un processus de compensation passive des déficits par des aides techniques adaptées",
+          "j": "La définition retenue par le cours décrit un processus actif, non une compensation passive."
+        },
+        {
+          "t": "Un processus actif visant la meilleure récupération possible et l'intégration sociale",
+          "correct": true,
+          "j": "La définition citée insiste sur le caractère actif du processus, la meilleure récupération possible et l'intégration physique, mentale et sociale."
+        }
+      ]
+    },
+    {
+      "q": "Qu'étudie la neurophysiothérapie en tant que discipline ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Les mécanismes génétiques de la dégénérescence progressive des motoneurones",
+          "j": "Le cours n'assigne pas cet objet à la discipline, qui porte sur les conséquences sensori-motrices des atteintes nerveuses."
+        },
+        {
+          "t": "Les effets d'une atteinte du système nerveux sur les fonctions sensori-motrices",
+          "correct": true,
+          "j": "Le cours la définit comme l'étude de ces effets, qui retentissent sur la fonctionnalité et donc sur l'autonomie."
+        },
+        {
+          "t": "Les effets des agents physiques sur la conduction nerveuse périphérique",
+          "j": "L'étude des agents physiques appartient à d'autres domaines : la neurophysiothérapie cible les fonctions sensori-motrices."
+        }
+      ]
+    },
+    {
+      "q": "Après son évaluation, quelle stratégie le neurophysiothérapeute propose-t-il ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Éviter toute sollicitation du système lésé et compenser le déficit par des aides techniques",
+          "j": "Le cours propose au contraire de stimuler le système nerveux pour en exploiter la plasticité."
+        },
+        {
+          "t": "Stimuler le système nerveux pour créer de nouvelles connexions et prévenir les complications",
+          "correct": true,
+          "j": "Le cours décrit des outils qui stimulent le système nerveux pour générer de nouvelles connexions, augmenter le potentiel fonctionnel et prévenir d'autres complications."
+        },
+        {
+          "t": "Rétablir la conduction nerveuse en stimulant électriquement les nerfs périphériques",
+          "j": "Ce n'est pas la stratégie décrite : l'objectif est d'augmenter le potentiel fonctionnel par de nouvelles connexions."
+        }
+      ]
+    },
+    {
+      "q": "À quel type de modification de la neuroplasticité correspondent la formation de nouvelles synapses et la régénération axonale ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Aux modifications neurochimiques",
+          "j": "Le niveau neurochimique correspond aux changements des neurotransmetteurs et de leurs récepteurs."
+        },
+        {
+          "t": "Aux modifications morphologiques",
+          "correct": true,
+          "j": "Le cours classe les nouvelles synapses et la régénération axonale parmi les changements morphologiques."
+        },
+        {
+          "t": "Aux modifications physiologiques",
+          "j": "Le niveau physiologique correspond aux variations de l'efficacité synaptique."
+        }
+      ]
+    },
+    {
+      "q": "Que désigne le feed-back dans le contrôle du mouvement ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Les consignes verbales données au patient avant de débuter le mouvement",
+          "j": "Le feed-back désigne des informations sensorielles internes, non les consignes du thérapeute."
+        },
+        {
+          "t": "Les informations sensorielles reçues pendant l'exécution du mouvement ou de la posture",
+          "correct": true,
+          "j": "Le cours définit le feed-back comme l'ensemble des informations sensorielles reçues au cours de l'exécution."
+        },
+        {
+          "t": "Les informations stockées et utilisées avant l'exécution d'un mouvement futur",
+          "j": "C'est la définition du feed-forward, construit à partir des informations de feed-back."
+        }
+      ]
+    },
+    {
+      "q": "Comment le feed-forward se constitue-t-il ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Par le stockage des informations sensorielles reçues lors des exécutions précédentes",
+          "correct": true,
+          "j": "Le cours indique que les informations du feed-back sont intégrées et stockées pour former le feed-forward, utilisé avant l'exécution future."
+        },
+        {
+          "t": "Par la correction continue du mouvement au fur et à mesure de son exécution",
+          "j": "La correction en cours d'exécution repose sur le feed-back : le feed-forward précède le mouvement."
+        },
+        {
+          "t": "Par la seule maturation des voies motrices descendantes au cours du développement",
+          "j": "Le cours rattache le feed-forward à l'expérience sensorielle stockée, non à la seule maturation."
+        }
+      ]
+    },
+    {
+      "q": "Quels sont les trois processus pertinents de la neuroplasticité ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "L'apprentissage moteur, la plasticité post-lésionnelle et la régulation autonome du tonus",
+          "j": "La régulation autonome du tonus ne fait pas partie des trois processus énumérés."
+        },
+        {
+          "t": "La neuroplasticité au cours du développement, le vieillissement cérébral et la mémoire déclarative",
+          "j": "Le vieillissement et la mémoire déclarative ne figurent pas parmi les processus retenus."
+        },
+        {
+          "t": "La neuroplasticité au cours du développement, l'apprentissage moteur et la plasticité post-lésionnelle",
+          "correct": true,
+          "j": "Le cours retient ces trois processus comme pertinents en physiothérapie neurologique."
+        }
+      ]
+    },
+    {
+      "q": "À quelle altération la maladie de Parkinson est-elle rattachée chez le patient neurologique ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "À une altération génomique",
+          "j": "L'altération génomique est mentionnée séparément et ne correspond pas à la maladie de Parkinson."
+        },
+        {
+          "t": "À une lésion de la moelle épinière",
+          "j": "La lésion médullaire est citée comme une entité distincte dans le cours."
+        },
+        {
+          "t": "À une perturbation dopaminergique",
+          "correct": true,
+          "j": "Le cours associe la maladie de Parkinson à une perturbation dopaminergique."
+        }
+      ]
+    },
+    {
+      "q": "Quelles sont les caractéristiques du courant galvanique utilisé en électrolyse percutanée ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Un courant alternatif symétrique de basse fréquence, réglé entre 0,5 et 10 mA",
+          "j": "Le courant galvanique n'est pas alternatif : il circule dans un seul sens entre anode et cathode."
+        },
+        {
+          "t": "Un courant continu unidirectionnel, de fréquence nulle, réglé entre 15 et 20 mA",
+          "j": "Le type de courant est exact, mais l’intensité enseignée se situe entre 0,5 et 10 mA ; 15 à 20 mA n’est pas la plage clinique du cours."
+        },
+        {
+          "t": "Un courant continu unidirectionnel, de fréquence nulle, réglé entre 0,5 et 10 mA",
+          "correct": true,
+          "j": "Le cours décrit un courant continu unidirectionnel d'intensité constante, de 0 Hz, réglé typiquement entre 0,5 et 10 mA."
+        }
+      ]
+    },
+    {
+      "q": "En quoi consiste l'effet mécanique de l'électrolyse percutanée ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "En une élévation du pH par élimination locale des substances sensibilisantes du muscle",
+          "j": "L'élévation du pH et l'élimination des substances sensibilisantes relèvent des effets mécaniques de la ponction sèche."
+        },
+        {
+          "t": "En une mécanotransduction par activation des fibrocytes, liée au mouvement de l'aiguille",
+          "correct": true,
+          "j": "Le cours rattache l'effet mécanique au mouvement de l'aiguille, qui active les fibrocytes et produit une mécanotransduction."
+        },
+        {
+          "t": "En une rupture puis une régénération des fibres musculaires et des plaques motrices",
+          "j": "Cet effet mécanique est décrit pour la ponction sèche au niveau du point gâchette."
+        }
+      ]
+    },
+    {
+      "q": "En quoi consiste la neuromodulation percutanée ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "En une aiguille reliée à un courant de basse fréquence, appliquée au nerf périphérique sous échographie",
+          "correct": true,
+          "j": "Le cours la définit comme une approche invasive et indolore visant l'épinèvre du nerf périphérique avec un courant de basse fréquence, sous échographie."
+        },
+        {
+          "t": "En une aiguille introduite sans courant dans le point gâchette musculaire, sans injection de substance",
+          "j": "C'est la définition de la ponction sèche, technique distincte de la neuromodulation."
+        },
+        {
+          "t": "En une aiguille reliée à un courant galvanique appliquée au tendon dégénéré sous contrôle échographique",
+          "j": "Cette description correspond à l'électrolyse percutanée, qui cible le foyer lésionnel du tendon."
+        }
+      ]
+    },
+    {
+      "q": "À quoi correspond le mécanisme d'inhibition médullaire de la neuromodulation percutanée ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "À l'activation des structures analgésiques cérébrales libérant endorphines et sérotonine",
+          "j": "Cela correspond à la modulation vers le bas, dont le résultat clinique est une analgésie prolongée."
+        },
+        {
+          "t": "À la normalisation du seuil d'activation des nocicepteurs irrités ou hyperactifs",
+          "j": "Cela correspond à la désensibilisation périphérique, qui diminue la douleur locale."
+        },
+        {
+          "t": "Au blocage des signaux douloureux dans la moelle par les interneurones inhibiteurs",
+          "correct": true,
+          "j": "Le cours rattache ce mécanisme aux interneurones inhibiteurs de la corne dorsale et à la théorie du contrôle de la porte, avec réduction immédiate de la douleur."
+        }
+      ]
+    },
+    {
+      "q": "Quel est l'objectif de la technique d'entrée et sortie rapide de Hong en ponction sèche profonde ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Obtenir une analgésie immédiate en évitant toute réponse spasmodique locale",
+          "j": "Les réponses spasmodiques locales sont au contraire recherchées avec cette technique."
+        },
+        {
+          "t": "Étirer le cytosquelette par rotation maintenue de l'aiguille dans le point gâchette",
+          "j": "La rotation de l'aiguille correspond à la modalité de torsion, distincte de l'entrée-sortie rapide."
+        },
+        {
+          "t": "Reproduire la douleur du patient et générer des réponses spasmodiques locales",
+          "correct": true,
+          "j": "Le cours présente cette modalité, la plus utilisée en clinique, comme destinée à reproduire la douleur et à obtenir des réponses spasmodiques locales."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, quels sont les paramètres de la ponction sèche superficielle ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Une introduction de 5 à 10 mm, maintenue environ 10 à 15 minutes",
+          "j": "La durée est erronée : le cours retient une application d'environ 30 secondes à 3 minutes."
+        },
+        {
+          "t": "Une introduction de 5 à 10 mm, maintenue environ 30 secondes à 3 minutes",
+          "correct": true,
+          "j": "Ce sont les paramètres enseignés pour la ponction sèche superficielle, à laquelle un courant ou une rotation peuvent être ajoutés."
+        },
+        {
+          "t": "Une introduction de 20 à 30 mm, maintenue environ 30 secondes à 3 minutes",
+          "j": "Cette profondeur correspond à une ponction profonde, non à la modalité superficielle."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, quelles caractéristiques distinguent les nocicepteurs de type C ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Une conduction lente, d'environ 20 m/s, et un caractère mécano-thermique",
+          "j": "Ces caractéristiques sont celles des nocicepteurs A-delta, mécano-sensibles et mécano-thermiques."
+        },
+        {
+          "t": "Une conduction très lente, d'environ 2 m/s, et un caractère polymodal",
+          "correct": true,
+          "j": "Le cours décrit les fibres C comme très lentes (2 m/s) et polymodales, répondant aux stimuli thermiques, mécaniques et chimiques."
+        },
+        {
+          "t": "Une conduction rapide, de gros diamètre, sensible au toucher et à la pression",
+          "j": "Cela correspond aux fibres A-bêta du toucher et de la pression, qui ne sont pas des nocicepteurs."
+        }
+      ]
+    },
+    {
+      "q": "Où le nocicepteur de premier ordre transmet-il l'information au nocicepteur de second ordre ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Dans le cortex préfrontal et le système limbique",
+          "j": "Ces structures reçoivent l'information après le thalamus, où elle est interprétée comme douleur ou non."
+        },
+        {
+          "t": "Dans le thalamus, avant le relais cortical",
+          "j": "Le thalamus est le relais suivant, atteint par le nocicepteur de second ordre si le stimulus est suffisant."
+        },
+        {
+          "t": "Dans la corne dorsale de la moelle épinière",
+          "correct": true,
+          "j": "Le cours situe ce relais dans la corne dorsale, où le nocicepteur de premier ordre transmet au second ordre."
+        }
+      ]
+    },
+    {
+      "q": "En quoi consiste le système Top-Down de régulation de la douleur ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Des cellules du tronc cérébral inhibent ou augmentent le passage de l'information nocive",
+          "correct": true,
+          "j": "Le cours décrit des cellules ON-OFF du tronc cérébral agissant entre les nocicepteurs de premier et de second ordre."
+        },
+        {
+          "t": "Des récepteurs membranaires élèvent leur seuil d'activation au niveau périphérique",
+          "j": "Le seuil élevé des récepteurs caractérise le nocicepteur lui-même, il ne s'agit pas d'une régulation descendante."
+        },
+        {
+          "t": "Des fibres de gros diamètre ferment l'accès de l'interneurone médullaire à la douleur",
+          "j": "C'est la théorie du portillon, mécanisme distinct du système Top-Down."
+        }
+      ]
+    },
+    {
+      "q": "Selon la classification du cours en fonction de la durée, la douleur subaiguë correspond à :",
+      "c": 13,
+      "options": [
+        {
+          "t": "une douleur évoluant entre quatre jours et trois mois",
+          "correct": true,
+          "j": "Le cours situe la douleur subaiguë entre 4 jours et 3 mois d'évolution."
+        },
+        {
+          "t": "une douleur évoluant depuis plus de trois mois",
+          "j": "Ce délai définit la douleur chronique, assimilée à un retard de réparation tissulaire."
+        },
+        {
+          "t": "une douleur évoluant depuis moins de trois jours",
+          "j": "Cette durée définit la douleur aiguë dans la classification du cours."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, comment se comporte une douleur d'origine ischémique ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Elle augmente la nuit et s'accompagne de fourmillements et de perte de force",
+          "j": "Ces signes neurologiques caractérisent la douleur neuropathique, liée à une lésion du nerf."
+        },
+        {
+          "t": "Elle augmente au repos, diminue au mouvement et s'améliore avec le chaud",
+          "correct": true,
+          "j": "Le cours rattache la douleur ischémique à une diminution du flux sanguin, aggravée au repos et améliorée par le chaud."
+        },
+        {
+          "t": "Elle augmente au mouvement, diminue au repos et s'améliore avec le froid",
+          "j": "Ce profil mélange deux tableaux du cours : la douleur mécanique, très localisée et diminuant au repos, et la douleur inflammatoire, qui s’améliore avec le froid et les anti-inflammatoires."
+        }
+      ]
+    },
+    {
+      "q": "Dans quels tissus la réponse inflammatoire peut-elle apparaître ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Dans tous les tissus, vascularisés ou non",
+          "j": "L'absence de vascularisation empêche la réponse inflammatoire telle que décrite dans le cours."
+        },
+        {
+          "t": "Uniquement dans les épithéliums et les muqueuses",
+          "j": "Le cours ne limite pas l'inflammation à ces tissus : il exige un tissu conjonctif vascularisé."
+        },
+        {
+          "t": "Uniquement dans les tissus conjonctifs vascularisés",
+          "correct": true,
+          "j": "Le cours précise que la réponse inflammatoire n'apparaît que dans les tissus conjonctifs vascularisés."
+        }
+      ]
+    },
+    {
+      "q": "Quel changement suit immédiatement l'agression tissulaire dans la séquence inflammatoire ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Des changements métaboliques avec hypoxie",
+          "correct": true,
+          "j": "Le cours place les changements métaboliques, avec hypoxie, juste après l'agression et avant l'activation des médiateurs."
+        },
+        {
+          "t": "Des changements hémodynamiques locaux",
+          "j": "Ils surviennent plus tard, après l'activation des médiateurs inflammatoires."
+        },
+        {
+          "t": "Une migration des leucocytes vers le foyer",
+          "j": "La migration leucocytaire est la dernière étape de la séquence décrite."
+        }
+      ]
+    },
+    {
+      "q": "Comment se termine une inflammation aiguë ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Le liquide accumulé est drainé par le système lymphatique et les cellules inflammatoires entrent en apoptose",
+          "correct": true,
+          "j": "Le cours décrit le drainage lymphatique du liquide et des protéines puis l'apoptose des cellules inflammatoires, ce qui normalise le tissu."
+        },
+        {
+          "t": "Le liquide persiste et les cellules inflammatoires se maintiennent avec des périodes d'intensité variable",
+          "j": "Cette évolution caractérise l'inflammation chronique, qui dure de 3 à 6 mois voire des années."
+        },
+        {
+          "t": "Le liquide accumulé est réabsorbé par les capillaires veineux et les cellules inflammatoires se fibrosent",
+          "j": "Le cours attribue le drainage au système lymphatique et décrit une mort cellulaire programmée, non une fibrose."
+        }
+      ]
+    },
+    {"q":"Comment le cours définit-il l'exercice thérapeutique ?","c":7,"options":[{"t":"Une exécution systématique et planifiée de mouvements, de postures et d'activités physiques à objectifs précis","correct":true,"j":"Le cours reprend cette définition : une exécution systématique et planifiée, conçue pour corriger ou prévenir les troubles physiques et restaurer les fonctions."},{"t":"Une succession de mouvements libres choisis spontanément par le patient selon ses sensations du jour","j":"Le caractère systématique et planifié est constitutif de l'exercice thérapeutique : rien n'y est laissé au choix spontané."},{"t":"Un ensemble de postures maintenues passivement par le thérapeute sans participation active du patient","j":"La définition porte sur des mouvements, postures et activités physiques exécutés par le patient, et non sur une mise en posture passive."}]},
+    {"q":"Un programme de dépistage visant à réduire la gravité et la durée d'une maladie déjà installée ainsi que ses séquelles relève de :","c":7,"options":[{"t":"La prévention secondaire","correct":true,"j":"Le cours définit ce niveau par le diagnostic précoce et la réduction de la gravité, de la durée et des séquelles de la maladie existante."},{"t":"La prévention primaire","j":"Elle intervient avant l'apparition de la maladie, par des activités de promotion de la santé auprès des populations à risque."},{"t":"La prévention tertiaire","j":"Elle recourt aux techniques de réadaptation pour réduire le degré ou limiter la progression du handicap actuel chez des personnes atteintes d'une maladie chronique et irréversible."}]},
+    {"q":"Dans la synthèse sur les lésions des ischio-jambiers, quel type de travail musculaire raccourcit le plus le délai de retour au sport ?","c":7,"options":[{"t":"Un travail excentrique insistant sur l'allongement musculaire","correct":true,"j":"Les deux études citées montrent que les exercices excentriques en allongement (protocole L) réduisent de 38 à 45 % le temps nécessaire pour revenir au sport, par rapport à un renforcement concentrique."},{"t":"Un travail concentrique de renforcement progressif du muscle","j":"C'est le protocole de comparaison, auquel le travail en allongement s'est montré supérieur sur le délai de retour au sport."},{"t":"Un travail isométrique maintenu en course interne du muscle","j":"Ce mode de contraction n'est pas celui qu'évaluent les études citées, qui opposent travail en allongement et travail concentrique."}]},
+    {"q":"D'après la conclusion du cours, dans quelle fourchette se situe le temps de retour au sport après une blessure musculaire ?","c":7,"options":[{"t":"Entre 15 et 86 jours","correct":true,"j":"La conclusion retient cette fourchette très large, assortie de taux de récidive s'étendant de 0 à 70 %."},{"t":"Entre 2 et 15 jours","j":"Le cours place la borne haute à 86 jours : une fourchette s'arrêtant à 15 jours ne retient que le délai le plus court observé."},{"t":"Entre 90 et 180 jours","j":"Cette durée dépasse la borne haute retenue par le cours, fixée à 86 jours."}]},
+    {"q":"Commencer la rééducation deux jours après la lésion musculaire plutôt que neuf jours :","c":7,"options":[{"t":"Avance d'une vingtaine de jours le retour au sport","correct":true,"j":"Le cours oppose un retour à 63 jours pour la rééducation précoce contre 83 jours pour la rééducation retardée."},{"t":"N'a aucune incidence sur le délai de retour au sport","j":"Les chiffres rapportés montrent au contraire un écart net entre prise en charge précoce et prise en charge différée."},{"t":"Retarde le retour au sport en prolongeant la cicatrisation","j":"Le cours attribue à la rééducation précoce un retour plus rapide, et non un allongement du délai."}]},
+    {"q":"Qu'est-ce qui persiste longtemps après une blessure musculaire et peut augmenter le risque de récidive ?","c":7,"options":[{"t":"Des changements structurels dans les tissus affectés","correct":true,"j":"Le cours souligne que ces modifications structurelles persistent bien après la blessure et influencent la fonction musculaire."},{"t":"Une inflammation aiguë entretenue dans le muscle lésé","j":"Aucune inflammation prolongée n'est décrite : ce sont des remaniements du tissu qui demeurent."},{"t":"Une perte définitive du recrutement nerveux du muscle","j":"Le cours ne décrit aucune atteinte nerveuse définitive après une lésion musculaire."}]},
+    {"q":"Que désigne la « fonction musculaire » dont l'exercice thérapeutique améliore le niveau ?","c":7,"options":[{"t":"La capacité du muscle à produire de la tension et à fonctionner","correct":true,"j":"Le cours définit explicitement l'amélioration de la fonction musculaire comme celle de la capacité du muscle à produire de la tension."},{"t":"La capacité du muscle à s'allonger sans douleur au repos","j":"L'allongement relève de la flexibilité et de l'élasticité musculo-tendineuses, et non de la définition retenue ici."},{"t":"La capacité du muscle à stocker du glycogène à l'effort","j":"Les réserves énergétiques relèvent des changements métaboliques, décrits à part des qualités musculaires."}]},
+    {"q":"Par quels mécanismes l'exercice thérapeutique augmente-t-il la résistance à la fatigue musculaire ?","c":7,"options":[{"t":"Par l'hypertrophie musculaire et un meilleur recrutement des fibres à l'effort","correct":true,"j":"Le cours relie directement le gain de résistance à la fatigue à l'hypertrophie et au recrutement des fibres pendant l'activité."},{"t":"Par l'augmentation de l'amplitude articulaire et de l'élasticité des tendons","j":"Ces gains relèvent de la mobilité et de la flexibilité, qui constituent un effet distinct de la résistance à la fatigue."},{"t":"Par la diminution du nombre d'unités motrices sollicitées pendant l'activité","j":"Le cours décrit un gain d'efficacité à l'effort, non une réduction des unités motrices mises en jeu."}]},
+    {"q":"Comment la vascularisation accrue par l'exercice favorise-t-elle la réparation des tissus ?","c":7,"options":[{"t":"Elle apporte nutriments et substances trophiques et élimine les déchets","correct":true,"j":"Le cours décrit un apport de nutriments et de substances trophiques indispensables à la régénération, avec évacuation des déchets."},{"t":"Elle augmente la pression intramusculaire et comprime la zone lésée","j":"Aucune compression de la lésion n'est décrite : c'est l'apport circulatoire qui soutient la régénération."},{"t":"Elle abaisse la température locale et ralentit le métabolisme tissulaire","j":"Un ralentissement métabolique irait contre la régénération, qui exige au contraire des apports soutenus."}]},
+    {"q":"Que recouvre précisément l'augmentation de la capacité aérobique obtenue par l'exercice thérapeutique ?","c":7,"options":[{"t":"Une meilleure utilisation de l'oxygène et une efficacité cardiovasculaire accrue","correct":true,"j":"Le cours définit cette capacité comme l'aptitude du corps à utiliser l'oxygène, avec gain d'endurance et d'efficacité du système cardiovasculaire."},{"t":"Un stockage accru d'oxygène dans les muscles pendant les phases de repos","j":"Il s'agit d'une meilleure utilisation de l'oxygène à l'effort, et non d'une mise en réserve musculaire au repos."},{"t":"Une élévation du métabolisme de base liée à la modification de la composition corporelle","j":"Cet effet appartient aux changements métaboliques, qui forment un chapitre distinct des adaptations cardiovasculaires."}]},
+    {"q":"Sur le système neuromusculaire, l'amélioration de la coordination et du contrôle du mouvement s'explique par :","c":7,"options":[{"t":"L'amélioration des connexions neuromusculaires","correct":true,"j":"Le cours attribue l'optimisation de la coordination et du contrôle moteur à l'amélioration des connexions entre nerf et muscle."},{"t":"L'allongement du temps de contraction des fibres","j":"Le cours ne décrit aucune modification de la vitesse de contraction : il rattache le contrôle du mouvement à la qualité de la commande nerveuse."},{"t":"L'augmentation du nombre de fibres musculaires","j":"Aucune création de fibres nouvelles n'est décrite ; c'est la liaison entre le nerf et le muscle qui est optimisée par l'exercice."}]},
+    {"q":"Quel effet l'exercice thérapeutique produit-il sur le système immunitaire ?","c":7,"options":[{"t":"Il augmente la production de cellules qui combattent l'infection et régulent l'inflammation","correct":true,"j":"Le cours retient une augmentation de l'activité immunitaire, avec production de cellules de défense et régulation de l'inflammation."},{"t":"Il déprime transitoirement les défenses de l'organisme au profit de la réparation tissulaire","j":"Aucune dépression immunitaire n'est décrite : l'activité immunitaire est au contraire renforcée."},{"t":"Il accroît surtout la production de globules rouges et le transport de l'oxygène","j":"L'effet décrit porte sur les cellules de l'immunité, non sur la lignée érythrocytaire et le transport de l'oxygène."}]},
+    {"q":"Quels effets psychologiques le cours attribue-t-il à l'exercice thérapeutique ?","c":7,"options":[{"t":"Une réduction du stress et de l'anxiété et une amélioration de l'humeur","correct":true,"j":"Le cours retient ces deux effets psychologiques : la baisse du stress et de l'anxiété, et l'amélioration de l'humeur."},{"t":"Une réduction de l'anxiété au prix d'une humeur plus fluctuante","j":"Le cours ne décrit aucune contrepartie sur l'humeur, qu'il présente au contraire comme améliorée."},{"t":"Une amélioration de l'humeur sans effet mesurable sur l'anxiété","j":"La réduction du stress et de l'anxiété figure explicitement parmi les effets psychologiques retenus."}]},
+    {"q":"Pourquoi le cours recommande-t-il de relier les objectifs d'exercice à des activités qui comptent pour le patient ?","c":7,"options":[{"t":"Parce que cela augmente sa motivation à réaliser le programme","correct":true,"j":"Le cours demande des objectifs clairs et atteignables, liés à des activités significatives, précisément pour accroître la motivation."},{"t":"Parce que cela dispense de fixer des objectifs mesurables","j":"Le caractère clair et atteignable de l'objectif reste exigé, quelle que soit l'activité choisie comme référence."},{"t":"Parce que cela permet d'augmenter la charge sans surveillance","j":"Le choix d'activités significatives porte sur la finalité de l'exercice, non sur le réglage de la charge."}]},
+    {"q":"Comment le kinésithérapeute doit-il présenter un nouvel exercice au patient ?","c":7,"options":[{"t":"En le démontrant avec maîtrise et en verbalisant, pour que le patient imite","correct":true,"j":"Le cours décrit une démonstration maîtrisée, précise et verbalisée, que le patient observe d'abord puis reproduit."},{"t":"En le décrivant uniquement par écrit sur une fiche détaillée remise au patient","j":"Le cours exige une démonstration réalisée devant le patient, qu'un document écrit ne peut remplacer."},{"t":"En laissant le patient l'essayer seul avant toute explication du geste","j":"L'ordre retenu place l'intervention du professionnel avant la première exécution du patient."}]},
+    {"q":"Quelles qualités le retour donné au patient (feedback) doit-il réunir ?","c":7,"options":[{"t":"Être immédiat et positif, pour motiver sans démoraliser","correct":true,"j":"Le cours demande un feedback immédiat et positif, qui motive sans démoraliser et consolide les résultats obtenus."},{"t":"Être différé en fin de séance pour ne pas interrompre l'exercice","j":"Le cours réclame un retour immédiat, donné au moment où le geste est réalisé."},{"t":"Être strictement correctif pour éviter tout excès de confiance","j":"Un retour uniquement correctif démoralise le patient, alors que sa dimension positive est explicitement exigée."}]},
+    {"q":"Que doit faire le kinésithérapeute pendant que le patient réalise ses exercices ?","c":7,"options":[{"t":"Observer attentivement, détecter les erreurs et renforcer le geste correct","correct":true,"j":"Le cours impose l'observation attentive, la détection des erreurs, l'intervention si nécessaire et le renforcement verbal ou physique du geste correct."},{"t":"Laisser le patient terminer sans intervenir, pour préserver son autonomie","j":"L'absence d'intervention laisse s'installer les erreurs : le cours demande de corriger pendant la pratique."},{"t":"Compter les répétitions sans commenter la qualité du geste réalisé","j":"Le décompte ne suffit pas : c'est la qualité du mouvement qui doit être surveillée et commentée."}]},
+    {"q":"Que signifie favoriser l'autonomie du patient dans l'exercice thérapeutique ?","c":7,"options":[{"t":"Qu'il réalise seul l'exercice, en comprend le but et l'intègre à son quotidien","correct":true,"j":"Le cours attend une exécution autonome et comprise, puis son intégration au quotidien sous forme de routine."},{"t":"Qu'il choisisse lui-même les exercices qu'il juge utiles à sa pathologie","j":"Le choix des exercices demeure une décision professionnelle : l'autonomie porte sur l'exécution et la compréhension."},{"t":"Qu'il poursuive sa rééducation sans aucune réévaluation ultérieure","j":"L'autonomie d'exécution ne supprime ni le suivi ni la réévaluation du patient par le professionnel."}]},
+    {"q":"D'après la revue citée dans le cours, quelle dose hebdomadaire d'exercice est nécessaire pour réduire modérément les symptômes dépressifs du post-partum ?","c":7,"options":[{"t":"Au moins 350 MET-min par semaine, soit environ 80 minutes d'intensité modérée","correct":true,"j":"La méta-analyse citée fixe ce seuil d'environ 350 MET-min hebdomadaires pour obtenir une réduction modérée des symptômes."},{"t":"Au moins 150 MET-min par semaine, soit environ 30 minutes d'intensité modérée","j":"Cette dose reste inférieure au seuil retenu par la revue pour obtenir une réduction modérée."},{"t":"Au moins 700 MET-min par semaine, soit environ 160 minutes d'intensité modérée","j":"Cette dose dépasse largement le seuil décrit comme nécessaire pour une réduction modérée des symptômes."}]},
+    {"q":"D'après la méta-analyse citée, de combien l'exercice réduit-il le risque de dépression du post-partum ?","c":7,"options":[{"t":"D'environ 45 %","correct":true,"j":"La revue rapporte une diminution du risque de dépression du post-partum de 45 %, correspondant à un odds ratio de 0,55."},{"t":"D'environ 10 %","j":"Cette réduction est nettement inférieure à l'effet rapporté par la revue citée dans le cours."},{"t":"D'environ 80 %","j":"Une telle ampleur dépasse largement l'effet rapporté pour l'exercice en post-partum."}]},
+    {"q":"Qu'est-ce qu'un objectif thérapeutique, tel que le cours le définit ?","c":1,"options":[{"t":"Une cible spécifique et mesurable guidant la planification du traitement","correct":true,"j":"Le cours en fait une cible spécifique et mesurable, servant de guide pour planifier puis évaluer les interventions thérapeutiques."},{"t":"Un pronostic de récupération établi dès le premier jour de la prise en charge","j":"Le pronostic estime une évolution probable, alors que l'objectif fixe un résultat à atteindre et à mesurer."},{"t":"Une technique choisie par le kinésithérapeute selon son domaine d'expertise","j":"La technique est un moyen d'intervention : elle sert l'objectif mais ne constitue pas la cible visée."}]},
+    {"q":"Selon les statuts professionnels cités dans le cours, quelle étape précède obligatoirement tout acte kinésithérapeutique ?","c":1,"options":[{"t":"La détermination du bilan et du diagnostic kinésithérapeutique","correct":true,"j":"Le cours fait du bilan et du diagnostic kinésithérapeutique l'étape préalable à tout acte de la profession."},{"t":"L'obtention d'une prescription du médecin rééducateur","j":"Les statuts cités placent avant l'acte le bilan et le diagnostic kinésithérapeutiques, et non l'obtention d'une prescription."},{"t":"L'inscription du patient au registre des professions de santé","j":"Ce registre recense les professionnels eux-mêmes et ne constitue en rien une étape du traitement."}]},
+    {"q":"Dans la CIF, que recouvre le terme générique « fonctionnement » ?","c":1,"options":[{"t":"Les fonctions et structures corporelles, les activités et la participation","correct":true,"j":"Le cours définit le fonctionnement comme le terme générique qui englobe les fonctions et les structures corporelles, les activités et la participation."},{"t":"Les seules fonctions corporelles encore conservées malgré la maladie","j":"Le terme est bien plus large et ne se réduit pas à la composante des fonctions corporelles."},{"t":"Les facteurs environnementaux et personnels du cadre de vie du patient","j":"Ces éléments composent les facteurs contextuels, qui forment l'autre partie de la classification."}]},
+    {"q":"Selon le cours, de quoi le handicap d'une personne résulte-t-il ?","c":1,"options":[{"t":"D'une interaction complexe entre état de santé, facteurs personnels et milieu de vie","correct":true,"j":"Le cours décrit le handicap comme le produit d'une interaction complexe entre l'état de santé, les facteurs personnels et les circonstances externes de vie."},{"t":"De la seule gravité de la lésion organique initialement constituée par la maladie","j":"Ramener le handicap à la lésion reproduit le modèle linéaire antérieur, que la CIF a précisément dépassé."},{"t":"De l'étiologie de la maladie, telle que l'OMS la code dans sa classification","j":"Le classement par étiologie relève d'une autre classification de l'OMS, étrangère à l'approche du handicap retenue ici."}]},
+    {"q":"Dans la CIF, que décrit la « performance » ou réalisation, par opposition à la capacité ?","c":1,"options":[{"t":"Ce que la personne fait dans son environnement actuel","correct":true,"j":"Le cours la définit par le contexte : c'est « l'acte de s'engager dans une situation actuelle », donc dans l'environnement de vie réel."},{"t":"L'aptitude de la personne à accomplir une tâche ou une action","j":"C'est la définition de la capacité, qui s'apprécie indépendamment du contexte de vie réel."},{"t":"Le degré d'autonomie attendu d'une personne de cet âge","j":"La CIF décrit ce que la personne fait, sans poser de norme attendue selon des caractéristiques individuelles."}]},
+    {"q":"À quelle composante de la CIF appartiennent l'âge, le niveau d'éducation et les habitudes de vie d'un patient ?","c":1,"options":[{"t":"Aux facteurs personnels","correct":true,"j":"Le cours y range le sexe, l'âge, l'éducation, la profession et les modes de vie, qui forment le contexte particulier de la vie de l'individu."},{"t":"Aux facteurs environnementaux","j":"Ceux-ci décrivent le milieu physique et social extérieur : domicile, travail, services, réglementations et attitudes."},{"t":"Aux fonctions corporelles","j":"L'énoncé ne porte pas sur le fonctionnement de l'organisme mais sur le contexte particulier de la vie de la personne."}]},
+    {"q":"Dans la CIF, où sont classées les fonctions mentales ou psychologiques ?","c":1,"options":[{"t":"Parmi les fonctions corporelles","correct":true,"j":"Le cours précise que le terme « corps » désigne l'organisme entier, cerveau compris : les fonctions mentales y sont donc rangées."},{"t":"Parmi les structures corporelles","j":"Les structures corporelles désignent les parties anatomiques de l'organisme — l'étude de cas code ainsi l'articulation du genou —, et non les fonctions elles-mêmes."},{"t":"Parmi les activités et la participation","j":"Cette composante décrit l'exécution de tâches et l'engagement dans des situations de vie, non les fonctions de l'organisme."}]},
+    {"q":"Le cours indique qu'une déficience peut en entraîner une autre. Quel exemple en donne-t-il ?","c":1,"options":[{"t":"Une diminution de la force musculaire peut altérer les fonctions de mouvement","correct":true,"j":"Le cours cite précisément cet enchaînement, comme il cite un déficit respiratoire retentissant sur le fonctionnement cardiaque."},{"t":"Une limitation d'activité entraîne toujours une restriction de participation","j":"Ces deux notions appartiennent au versant négatif du fonctionnement, mais n'illustrent pas une déficience en produisant une autre."},{"t":"Une maladie chronique produit nécessairement une déficience durable","j":"La notion de déficience est plus large que celle de maladie et n'en découle pas automatiquement."}]},
+    {"q":"Quels principes le cours retient-il comme socle de l'éthique professionnelle en physiothérapie ?","c":1,"options":[{"t":"Bienfaisance, non-malfaisance, autonomie et justice","correct":true,"j":"Le cours présente ces quatre principes comme le socle de l'éthique professionnelle du physiothérapeute."},{"t":"Bienfaisance, confidentialité, autonomie et efficience","j":"La confidentialité et l'efficience sont des exigences de pratique, non les quatre principes éthiques énoncés."},{"t":"Non-malfaisance, justice, solidarité et responsabilité","j":"La solidarité et la responsabilité ne figurent pas parmi les quatre principes retenus par le cours."}]},
+    {"q":"Sur quoi la relation avec le patient doit-elle reposer, d'après le code de déontologie cité dans le cours ?","c":1,"options":[{"t":"Sur le respect, la confiance et la compréhension mutuelle","correct":true,"j":"Le code cité fonde la relation sur ces trois exigences, complétées par l'information du patient et son consentement éclairé."},{"t":"Sur l'autorité du professionnel et l'observance stricte du patient","j":"Le patient conserve le droit d'être informé de son traitement et de choisir ou de changer de kinésithérapeute."},{"t":"Sur la seule prescription établie par le médecin traitant","j":"La relation se noue directement entre le kinésithérapeute et son patient et ne se réduit pas à une prescription."}]},
+    {"q":"Comment la massothérapie se situe-t-elle du point de vue de l'acceptation par les patients et du niveau de preuve scientifique ?","c":8,"options":[{"t":"Forte acceptation des patients, faible niveau de preuve","correct":true,"j":"Le cours souligne ce décalage : les patients adhèrent très bien à la massothérapie alors que les travaux qui la soutiennent sont de faible qualité méthodologique."},{"t":"Faible acceptation des patients, fort niveau de preuve","j":"L'acceptation par les patients est au contraire décrite comme forte, et les preuves disponibles restent limitées."},{"t":"Forte acceptation des patients, fort niveau de preuve","j":"L'acceptation est bien forte, mais le niveau de preuve est qualifié de faible en raison de la faible qualité méthodologique des études."}]},
+    {"q":"Quelle manœuvre de massage appartient au groupe des manœuvres de base ?","c":8,"options":[{"t":"Le pétrissage","correct":true,"j":"Le pétrissage figure parmi les manœuvres de base, aux côtés de la friction profonde et des pressions."},{"t":"L'effleurage","j":"L'effleurage, comme la friction superficielle, est une manœuvre préparatoire qui ouvre la séance."},{"t":"La percussion","j":"La percussion appartient aux manœuvres supplémentaires, avec la vibration, les secousses et le pincement."}]},
+    {"q":"Quel effet figure parmi les effets généraux du massage classique ?","c":8,"options":[{"t":"Une augmentation de la température musculaire","correct":true,"j":"L'élévation de la température du muscle est citée parmi les effets généraux du massage classique, avec la détente et la réduction des adhérences entre les tissus."},{"t":"Une augmentation du taux de cortisol sanguin","j":"Le massage classique s'accompagne d'une détente et d'une baisse du taux de cortisol, non d'une hausse."},{"t":"Une diminution du flux sanguin de la région traitée","j":"Le massage classique augmente le flux sanguin de la région traitée au lieu de le réduire."}]},
+    {"q":"Au niveau de la peau, par quel mécanisme le massage favorise-t-il l'élimination des déchets ?","c":8,"options":[{"t":"Par une augmentation de la transpiration","correct":true,"j":"Parmi les effets cutanés, le cours retient une élimination des déchets obtenue grâce à l'augmentation de la transpiration."},{"t":"Par une accélération du renouvellement cornéen","j":"Aucun effet sur le renouvellement de la couche cornée n'est décrit : la peau bénéficie surtout d'une amélioration de son trophisme."},{"t":"Par une vasoconstriction de la zone traitée","j":"La réponse cutanée au massage est une vasodilatation active avec hyperémie locale, et non une vasoconstriction."}]},
+    {"q":"Quel effet le massage exerce-t-il sur le tissu cellulaire sous-cutané ?","c":8,"options":[{"t":"La réabsorption des adipocytes par lyse mécanique","correct":true,"j":"Au niveau sous-cutané, la pression des manœuvres produit une lyse mécanique permettant la réabsorption des adipocytes."},{"t":"La néoformation de fibres élastiques dans le derme","j":"Aucune néoformation de fibres n'est décrite : les effets sous-cutanés sont circulatoires et portent sur les liquides et les adipocytes."},{"t":"L'augmentation de la viscosité du liquide interstitiel","j":"Les liquides d'œdème et d'épanchement sont réabsorbés ; leur viscosité n'est pas l'élément modifié par le massage."}]},
+    {"q":"De quoi dépend le fait que le massage relaxe le muscle ou au contraire augmente son excitabilité ?","c":8,"options":[{"t":"Des paramètres d'application choisis","correct":true,"j":"La relaxation ou l'excitabilité musculaire obtenue dépend des paramètres d'application retenus pour la manœuvre."},{"t":"De la température initiale du muscle","j":"La température du muscle avant la séance n'est pas le critère retenu : l'effet obtenu dépend de la façon dont la manœuvre est appliquée."},{"t":"Du nombre de séances déjà réalisées","j":"Le cumul des séances n'est pas le facteur déterminant : c'est la façon dont la manœuvre est appliquée qui fixe l'effet."}]},
+    {"q":"Quel effet le massage produit-il au niveau du tissu articulaire ?","c":8,"options":[{"t":"La résorption des exsudats articulaires","correct":true,"j":"Sur l'articulation, les effets retenus sont la réduction de la raideur, l'assouplissement des adhérences et la résorption des exsudats."},{"t":"La régénération du cartilage usé","j":"Aucune action régénératrice sur le cartilage n'est décrite ; les effets articulaires du massage sont mécaniques et circulatoires."},{"t":"Le renforcement de la capsule articulaire","j":"Le massage assouplit la capsule et les adhérences périarticulaires plutôt qu'il ne les renforce."}]},
+    {"q":"Comment le massage modifie-t-il l'activité du tissu nerveux ?","c":8,"options":[{"t":"Sensibilité des terminaisons sensorielles diminuée, excitabilité des nerfs moteurs augmentée","correct":true,"j":"L'analgésie vient de la baisse de sensibilité des terminaisons sensorielles, tandis que l'excitabilité des nerfs moteurs, elle, augmente."},{"t":"Sensibilité des terminaisons sensorielles diminuée, excitabilité des nerfs moteurs diminuée","j":"La partie sensorielle est exacte, mais l'excitabilité des nerfs moteurs augmente au lieu de diminuer."},{"t":"Sensibilité des terminaisons sensorielles augmentée, excitabilité des nerfs moteurs augmentée","j":"L'excitabilité motrice augmente bien, mais la sensibilité des terminaisons sensorielles diminue, ce qui explique l'effet antalgique."}]},
+    {"q":"Par quel type d'action le massage agit-il sur le tissu viscéral, par exemple en augmentant le péristaltisme intestinal ?","c":8,"options":[{"t":"Par une action réflexe déclenchée à distance","correct":true,"j":"L'effet viscéral du massage est réflexe : le massage d'évacuation augmente ainsi le péristaltisme intestinal."},{"t":"Par une pression mécanique directe sur l'intestin","j":"Il ne s'agit pas d'un pétrissage direct du viscère : la réponse passe par un réflexe déclenché depuis la paroi."},{"t":"Par une augmentation du débit sanguin mésentérique","j":"Le mécanisme invoqué n'est pas vasculaire ; c'est une réponse réflexe provoquée par la manœuvre."}]},
+    {"q":"Parmi les contre-indications du massage, laquelle tient à l'état neurologique de la zone à traiter ?","c":8,"options":[{"t":"Les zones d'anesthésie ou de sensibilité modifiée","correct":true,"j":"Les changements de sensibilité et les zones d'anesthésie figurent parmi les contre-indications ; ce sont les seules de la liste qui portent sur la sensibilité de la région."},{"t":"Les troubles graves de la coagulation sanguine","j":"Ils contre-indiquent bien le massage, mais au titre du risque hémorragique, pas de l'état neurologique local."},{"t":"Les lésions et les allergies cutanées de la zone","j":"Elles contre-indiquent le massage au titre de l'état de la peau, et non pour un motif neurologique."}]},
+    {"q":"Au cours de la manœuvre de drainage lymphatique manuel, quelle phase correspond à la tension maximale ?","c":8,"options":[{"t":"La phase de poussée active","correct":true,"j":"La manœuvre comporte quatre phases et c'est la poussée active qui porte la tension à son maximum."},{"t":"La phase de soutien passif","j":"La phase de soutien passif ouvre la manœuvre et prépare le tissu sans appliquer la tension maximale."},{"t":"La phase de contact passif","j":"La phase de contact passif termine la manœuvre avec une tension ramenée à zéro."}]},
+    {"q":"Quel effet immunitaire le drainage lymphatique manuel produit-il chez un patient immunodéprimé ?","c":8,"options":[{"t":"Une augmentation de la production d'IgA","correct":true,"j":"En cas d'immunodéficience, le drainage lymphatique est crédité d'une augmentation de la production d'IgA."},{"t":"Une augmentation de la production d'IgE","j":"Les IgE, liées aux réactions allergiques, ne font pas partie des effets immunitaires décrits pour cette technique."},{"t":"Une diminution des cellules immunitaires locales","j":"Le drainage améliore au contraire l'efficacité des cellules immunitaires présentes dans l'espace interstitiel."}]},
+    {"q":"Quel type de mobilisation articulaire est principalement utilisé chez les patients alités et hospitalisés ?","c":8,"options":[{"t":"La mobilisation globale ou fonctionnelle","correct":true,"j":"La mobilisation globale concerne plus d'une articulation et aide à conserver un bon schéma moteur, d'où son usage chez les patients alités."},{"t":"La mobilisation analytique spécifique","j":"La mobilisation analytique vise un mouvement accessoire précis d'une seule articulation, ce qui n'est pas l'objectif ici."},{"t":"La mobilisation passive simple","j":"La mobilisation simple ne porte que sur une articulation et son mouvement physiologique, sans viser le schéma moteur global."}]},
+    {"q":"Lors d'une mobilisation passive, où le physiothérapeute place-t-il généralement le contrepoint ?","c":8,"options":[{"t":"Sur le segment proximal, qu'il maintient fixe","correct":true,"j":"Le contrepoint est le point fixe de la mobilisation ; il est le plus souvent pris sur le segment proximal du corps."},{"t":"Sur le segment distal, qu'il déplace","j":"Le segment distal reçoit habituellement le grip, c'est-à-dire le point mobile de la mobilisation."},{"t":"Sur l'interligne articulaire, qu'il comprime","j":"Aucune prise compressive sur l'interligne n'est décrite : le contrepoint est une prise de fixation sur un segment."}]},
+    {"q":"Quelle est la conséquence du choix d'une prise à bras de levier long lors d'une mobilisation passive ?","c":8,"options":[{"t":"Moins de précision, mais moins de force à produire","correct":true,"j":"Le bras de levier long réduit la force à fournir par le thérapeute, au prix d'une mobilisation moins précise."},{"t":"Plus de précision, mais plus de force à produire","j":"C'est la prise courte, à bras de levier court, qui offre davantage de précision en exigeant plus de force."},{"t":"Plus de précision et moins de force à produire","j":"Aucune prise ne cumule les deux avantages : précision et économie de force varient en sens inverse."}]},
+    {"q":"Quelle progression le cours décrit-il pour la mobilisation active ?","c":8,"options":[{"t":"De l'actif vers l'actif assisté ou résisté, puis le travail fonctionnel","correct":true,"j":"La progression décrite va de l'actif vers l'actif assisté ou résisté, puis vers une tâche spécifique fonctionnelle, avec augmentation progressive de l'amplitude et de la résistance."},{"t":"Du travail fonctionnel vers le mouvement actif analytique isolé","j":"La tâche fonctionnelle spécifique est le terme de la progression, non son point de départ."},{"t":"Du mouvement passif conduit par le thérapeute vers l'actif libre","j":"La progression décrite part du mouvement déjà réalisé par le patient ; le mouvement conduit par le thérapeute relève de la mobilisation passive."}]},
+    {"q":"Dans quelle situation clinique la mobilisation active est-elle indiquée ?","c":8,"options":[{"t":"Douleur modérée avec faible irritabilité, après immobilisation","correct":true,"j":"Les indications retenues sont la douleur modérée et la faible irritabilité, aux phases intermédiaires d'une immobilisation ou d'une chirurgie."},{"t":"Douleur sévère avec forte irritabilité, en phase aiguë","j":"Une douleur sévère et une irritabilité élevée ne figurent pas parmi les indications : le tissu réagit encore trop fortement."},{"t":"Patient peu coopérant, juste après une chirurgie","j":"La mobilisation active suppose un patient capable de suivre les consignes et de participer activement au mouvement."}]},
+    {"q":"Par quel mécanisme la mobilisation active diminue-t-elle la douleur ?","c":8,"options":[{"t":"Par le pompage synovial et le contrôle neuromusculaire","correct":true,"j":"Le mouvement produit par le patient assure un pompage synovial et entretient le contrôle neuromusculaire, ce qui diminue la douleur."},{"t":"Par l'étirement prolongé des structures capsulaires","j":"L'étirement capsulaire n'est pas le mécanisme antalgique retenu ; la mobilisation active prévient d'ailleurs la perte d'extensibilité capsulaire."},{"t":"Par la diminution de la température articulaire","j":"Aucun effet thermique n'est invoqué : l'effet antalgique tient au mouvement actif lui-même."}]},
+    {"q":"Quel est le principe des techniques de mobilisation neuroméningée (neurodynamique) ?","c":8,"options":[{"t":"Libérer les points de pression qui gênent le glissement du nerf","correct":true,"j":"Le nerf traverse fascias, muscles et capsules qui peuvent se raidir et le pincer ; ces techniques libèrent les points de pression le long de son trajet."},{"t":"Étirer le nerf jusqu'à sa limite élastique pour l'allonger","j":"Il ne s'agit pas d'allonger le nerf, mais de restaurer son mouvement là où son glissement est entravé."},{"t":"Renforcer les muscles innervés pour compenser le déficit","j":"Le renforcement musculaire n'est pas l'objet de ces techniques, qui s'adressent au tissu nerveux et à son environnement."}]},
+    {"q":"Pourquoi les techniques neurodynamiques sont-elles aussi employées dans des douleurs nociceptives qui n'atteignent pas le tissu nerveux ?","c":8,"options":[{"t":"Parce qu'elles améliorent le seuil de la douleur du patient","correct":true,"j":"Le cours indique que ces techniques améliorent le seuil de la douleur et réduisent ainsi la douleur perçue, même lorsque le tissu nerveux n'est pas atteint."},{"t":"Parce qu'elles accélèrent la cicatrisation du tissu lésé","j":"Aucun effet sur la cicatrisation tissulaire n'est avancé pour justifier cet usage élargi."},{"t":"Parce qu'elles suppriment la compression du tissu nerveux","j":"Il n'y a précisément aucune compression nerveuse à lever dans cette situation, puisque le tissu nerveux n'est pas atteint."}]},
+    {"q":"Lorsque les symptômes du patient sont jugés irritables ou graves, comment conduire l'examen physique ?","c":6,"options":[{"t":"En limitant les tests de mouvement à l'apparition des symptômes","correct":true,"j":"Face à des symptômes irritables ou graves, les tests de mouvement ne sont menés que jusqu'au moment où les symptômes apparaissent."},{"t":"En poussant chaque test jusqu'à l'amplitude maximale disponible","j":"Pousser les tests au maximum expose à aggraver un tableau déjà réactif, ce que l'examen doit justement éviter."},{"t":"En remplaçant les tests de mouvement par l'imagerie médicale","j":"Il n'est pas proposé de substituer l'imagerie à l'examen physique : c'est la conduite des tests qui est adaptée."}]},
+    {"q":"Quel inconvénient est associé au fait de suivre toujours la même séquence de questions lors de l'entretien ?","c":6,"options":[{"t":"Enchaîner les questions sans interpréter les réponses reçues","correct":true,"j":"On risque de « prescrire des questions », c'est-à-dire de les dérouler l'une après l'autre sans se demander si elles sont utiles ni interpréter ce qui est dit."},{"t":"Laisser de côté certains domaines pertinents de l'entretien","j":"C'est au contraire un avantage de la séquence constante : elle garantit que tous les domaines pertinents sont abordés."},{"t":"Allonger le temps nécessaire pour remplir le questionnaire","j":"La séquence habituelle fait gagner du temps de recueil ; l'allongement n'est pas l'inconvénient décrit."}]},
+    {"q":"À quels moments la réévaluation du patient doit-elle être réalisée ?","c":6,"options":[{"t":"Pendant la séance, après chaque approche, à la fin et au début de la suivante","correct":true,"j":"La réévaluation s'effectue en cours de séance, après chaque approche, à la fin de la séance et au début de celle du lendemain ; on ne peut jamais s'en passer."},{"t":"Seulement à la fin du programme de traitement, pour mesurer le résultat","j":"Attendre la fin du programme prive le thérapeute de l'information qui permet d'ajuster la prise en charge en cours de route."},{"t":"Seulement au début de chaque séance, avant d'appliquer une technique","j":"Une réévaluation initiale ne suffit pas : elle doit aussi suivre chaque approche et clore la séance."}]},
+    {"q":"En quoi consiste l'hypothèse de traitement dans le système de catégorisation des hypothèses ?","c":6,"options":[{"t":"Réaliser un traitement test dès le premier jour pour vérifier l'hypothèse","correct":true,"j":"Dès la première séance, on applique un traitement test destiné à vérifier si l'hypothèse formulée se confirme ou non."},{"t":"Choisir d'emblée le protocole standard correspondant au diagnostic","j":"Le raisonnement par hypothèses s'oppose à l'application d'un protocole choisi d'avance, trop rigide pour chaque patient."},{"t":"Lister les techniques interdites avant tout contact avec le patient","j":"Les précautions et les contre-indications constituent une autre catégorie d'hypothèses, distincte de celle du traitement."}]},
+    {"q":"Dans l'analyse du diagramme du corps, dans quel ordre les structures responsables de la douleur sont-elles envisagées ?","c":6,"options":[{"t":"Des structures situées sous la douleur vers les causes les moins probables","correct":true,"j":"On commence par les structures situées sous la zone douloureuse, les plus probables, puis les structures voisines, et enfin les hypothèses les moins probables."},{"t":"Des causes viscérales à exclure vers les structures locales probables","j":"Les causes viscérales comptent parmi les moins probables : elles sont envisagées en dernier, sans être oubliées pour autant."},{"t":"Des structures qui irradient à distance vers les structures locales","j":"La musculature qui irradie vers la zone est examinée après celle qui se trouve sous la douleur, non avant."}]},
+    {"q":"À quel groupe de préjugés du physiothérapeute « l'erreur du coût irrécupérable » appartient-elle ?","c":6,"options":[{"t":"Aux préjugés liés au raisonnement","correct":true,"j":"Elle figure parmi les préjugés du raisonnement, avec le manque de parcimonie et le fait de ne pas suivre l'état actuel des connaissances et des preuves."},{"t":"Aux préjugés liés aux croyances","j":"Le groupe des croyances réunit d'autres biais du thérapeute, comme le biais de confirmation, et non les défauts dans la conduite même du raisonnement."},{"t":"Aux préjugés liés aux prévisions","j":"Le groupe des prévisions concerne l'honnêteté et l'explication de l'histoire naturelle du problème au patient."}]},
+    {"q":"Pourquoi la croyance du patient à propos de son problème influence-t-elle le raisonnement clinique ?","c":6,"options":[{"t":"Parce que beaucoup s'auto-diagnostiquent à partir d'informations peu fiables","correct":true,"j":"La connaissance que le patient a de son problème compte : nombreux sont ceux qui s'auto-diagnostiquent via Internet, où toutes les informations ne sont pas fiables."},{"t":"Parce qu'elle détermine la durée réelle de cicatrisation des tissus","j":"Les croyances ne modifient pas la biologie de la réparation ; elles pèsent sur la manière dont le patient présente et comprend son problème."},{"t":"Parce qu'elle dispense d'explorer les facteurs sociaux du patient","j":"La croyance du patient ne remplace aucun autre facteur d'influence : le niveau culturel, la langue ou les ressources comptent également."}]},
+    {"q":"Que cherche le physiothérapeute lorsqu'il identifie des « signes comparables » au cours de l'examen objectif ?","c":6,"options":[{"t":"Des repères de qualité ou de quantité de mouvement, comme une asymétrie","correct":true,"j":"Les signes comparables sont des repères tirés de l'examen physique lui-même : qualité ou quantité du mouvement, asymétries."},{"t":"Des signes imposant d'interrompre immédiatement l'examen physique","j":"Interrompre l'examen relève des précautions et des indicateurs d'alarme, non de la recherche de signes comparables."},{"t":"Des résultats d'imagerie concordant avec la plainte exprimée","j":"Les signes comparables sont recueillis par les tests réalisés, et non par les examens complémentaires apportés par le patient."}]}
   ],
   "anat1": [
     {
@@ -10640,7 +11490,7 @@ const QUESTIONS = {
         },
         {
           "t": "Les lombricaux",
-          "j": "Les lombricaux fléchissent et participent à l'extension distale ; pas d'action significative d'adduction."
+          "j": "Le cours ne leur attribue que la flexion des orteils et leur rapprochement du gros orteil : ni extension, ni adduction vers l'axe du deuxième orteil, qui revient aux interosseux plantaires."
         },
         {
           "t": "Le court fléchisseur des orteils",
@@ -11196,7 +12046,7 @@ const QUESTIONS = {
         },
         {
           "t": "La symphyse pubienne de la tubérosité ischiatique",
-          "j": "Faux : ce sont deux repères du bord inférieur (antéro-médial et postéro-inférieur), non séparés par l'épine ischiatique."
+          "j": "Faux : la symphyse pubienne appartient au bord inférieur de l'os coxal tandis que la tubérosité ischiatique termine en bas son bord postérieur ; ces deux repères n'encadrent donc pas l'épine ischiatique, qui sépare la grande de la petite échancrure ischiatique."
         }
       ]
     },
@@ -12380,7 +13230,7 @@ const QUESTIONS = {
         {
           "t": "Son origine sur la face dorsale du calcanéus",
           "correct": true,
-          "j": "Tous deux naissent du calcanéus dorso-latéral (sinus du tarse) en continuité des fibres dorsales."
+          "j": "Tous deux naissent de la face dorsale du calcanéus, le court extenseur de l'hallux prenant simplement son origine plus médialement que le pédius."
         },
         {
           "t": "Son insertion sur la phalange distale de l'hallux",
@@ -15692,7 +16542,7 @@ const QUESTIONS = {
         {
           "t": "Processus transverse de la vertèbre T12",
           "correct": true,
-          "j": "Exact : le diaphragme naît du processus xiphoïde, des côtes 7-12 et des corps de L1-L3 (piliers), pas des processus transverses."
+          "j": "Exact : le cours ne retient comme attaches du diaphragme que le processus xiphoïde, les côtes 7 à 12, les corps de L1 à L3 par les piliers et, pour les arcades fibreuses, le processus transverse de L1 et la douzième côte. Aucun processus transverse thoracique n'y figure, et en particulier pas celui de T12."
         },
         {
           "t": "Processus xiphoïde",
@@ -18744,73 +19594,1565 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Comment le condyle fémoral médial se compare-t-il au condyle latéral ?","c":11,"options":[{"t":"Il est plus étroit et plus long","correct":true,"j":"Le cours insiste sur ce point : le condyle médial est à la fois plus étroit et plus long, et il dépasse le condyle latéral vers le bas."},{"t":"Il est plus large et plus court","j":"C'est l'inverse exact de la description du cours : large et court caractérise plutôt le condyle latéral."},{"t":"Il est plus étroit et plus court","j":"La largeur est juste mais la longueur est fausse : le condyle médial est le plus long des deux, et c'est pourquoi il descend plus bas."},{"t":"Il est plus large et plus long","j":"La longueur est juste mais la largeur est fausse : c'est le condyle latéral qui est le plus large des deux."}]},
-    {"q":"La cavité glénoïde LATÉRALE du tibia est :","c":11,"options":[{"t":"Concave transversalement et convexe d'avant en arrière","correct":true,"j":"Le cours la décrit comme légèrement concave dans le plan frontal mais convexe dans le plan sagittal, ce qui la rend peu contenante."},{"t":"Concave transversalement et concave d'avant en arrière","j":"Cette double concavité est celle de la cavité glénoïde médiale, nettement plus creusée et plus congruente."},{"t":"Convexe transversalement et concave d'avant en arrière","j":"Les deux courbures sont inversées : aucune cavité glénoïde n'est convexe dans le plan transversal."},{"t":"Convexe transversalement et convexe d'avant en arrière","j":"Une surface entièrement convexe ne pourrait pas recevoir un condyle fémoral ; la convexité du plateau latéral est limitée au sens antéro-postérieur."}]},
-    {"q":"La courbure antéro-postérieure des condyles fémoraux :","c":11,"options":[{"t":"Décrit une spirale dont le rayon diminue d'avant en arrière","correct":true,"j":"Le cours parle d'une courbe en spirale dont le rayon décroît dans le sens antéro-postérieur, ce qui déplace le contact fémoro-tibial au fil de la flexion."},{"t":"Décrit une spirale dont le rayon augmente d'avant en arrière","j":"Le sens de variation est inversé : le rayon de courbure des condyles se réduit vers l'arrière, il n'augmente pas."},{"t":"Correspond à un arc de cercle de rayon constant","j":"Un rayon constant imposerait une rotation pure autour d'un axe fixe ; le cours décrit au contraire une courbe en spirale."},{"t":"Correspond à deux arcs de cercle de rayons égaux","j":"Il ne s'agit pas de deux arcs de cercle : le cours décrit pour chaque condyle une courbe en spirale, dont le rayon varie tout au long du trajet antéro-postérieur."}]},
-    {"q":"La face patellaire (trochlée fémorale) se caractérise par :","c":11,"options":[{"t":"Un versant latéral plus large et plus proéminent","correct":true,"j":"Le cours souligne que le versant latéral de la trochlée domine en largeur comme en relief, ce qui s'oppose au déplacement latéral de la patella."},{"t":"Un versant médial plus large et plus proéminent","j":"La latéralité est inversée : le versant médial est le plus petit et le moins saillant des deux."},{"t":"Deux versants strictement symétriques","j":"La trochlée fémorale est asymétrique ; une symétrie parfaite laisserait la patella sans butée osseuse latérale."},{"t":"Un versant latéral plus large mais moins proéminent","j":"La largeur est juste, le relief est faux : le versant latéral est aussi celui qui fait le plus saillie en avant."}]},
-    {"q":"La face postérieure de la patella comporte :","c":11,"options":[{"t":"Une partie supérieure lisse cartilagineuse et une partie inférieure rugueuse","correct":true,"j":"Le cours distingue bien ces deux zones : en haut le cartilage articulaire, en bas une surface rugueuse qui répond à un faisceau cellulo-adipeux."},{"t":"Une partie supérieure rugueuse et une partie inférieure lisse cartilagineuse","j":"Les deux zones sont inversées : c'est la partie supérieure qui porte le revêtement cartilagineux articulaire."},{"t":"Une surface rugueuse uniforme, entièrement non articulaire","j":"La patella serait alors dépourvue de surface articulaire, alors que sa face postérieure glisse sur le fémur par du cartilage."},{"t":"Deux facettes cartilagineuses, latérale et médiale, sans aucune zone rugueuse","j":"Les deux facettes articulaires existent bien, mais elles n'occupent que la moitié supérieure : la partie inférieure de la face postérieure reste rugueuse et non articulaire."}]},
-    {"q":"Les cornes des ménisques du genou s'attachent :","c":11,"options":[{"t":"Dans l'espace intercondylaire du plateau tibial","correct":true,"j":"Le cours précise que les cornes méniscales s'amarrent dans la zone intercondylaire du tibia, ce qui fixe les deux extrémités de chaque ménisque."},{"t":"Sur la fosse intercondylaire du fémur","j":"La fosse intercondylaire sépare les deux condyles fémoraux et reçoit les ligaments croisés, non les cornes méniscales."},{"t":"Sur la face profonde de la capsule articulaire","j":"C'est le bord externe du ménisque, et non ses cornes, qui adhère à la capsule sur toute sa périphérie."},{"t":"Sur le pourtour cartilagineux des cavités glénoïdes","j":"Le ménisque repose sur ce pourtour mais n'y prend pas attache : ses cornes gagnent la zone intercondylaire."}]},
-    {"q":"Le plan profond (capsulaire) du groupe ligamentaire antérieur du genou comprend :","c":11,"options":[{"t":"Les ligaments fémoro-patellaires et ménisco-patellaires","correct":true,"j":"Ce plan est constitué de renforts capsulaires qui amarrent la patella aux condyles fémoraux (ailerons) et aux ménisques."},{"t":"Le ligament patellaire et les rétinaculums patellaires","j":"Ces structures appartiennent au plan médial (ou tendineux) du groupe antérieur, situé en avant du plan capsulaire."},{"t":"Le fascia lata et le fascia de la jambe","j":"Ces deux nappes constituent le plan superficiel, dit fascial, le plus externe des trois plans antérieurs."},{"t":"Les ligaments ménisco-fémoraux antérieur et postérieur","j":"Le cours range ces ligaments dans le groupe postérieur du genou, avec les croisés, et non dans le groupe antérieur."}]},
-    {"q":"La capsule articulaire du genou s'insère :","c":11,"options":[{"t":"Sur trois sites : fémoral, tibial et patellaire","correct":true,"j":"La capsule a l'aspect d'un cylindre dont les bords gagnent l'extrémité inférieure du fémur, l'extrémité supérieure du tibia et la patella."},{"t":"Sur deux sites : fémoral et tibial","j":"Cette description oublie l'insertion patellaire, pourtant indispensable puisque la patella est enchâssée dans la paroi capsulaire."},{"t":"Sur trois sites : fémoral, tibial et fibulaire","j":"La fibula ne participe pas à l'articulation du genou : elle appartient à l'articulation tibio-fibulaire proximale, indépendante."},{"t":"Sur deux sites : fémoral et patellaire","j":"L'insertion tibiale manque ici, alors qu'elle forme tout le bord inférieur du cylindre capsulaire."}]},
-    {"q":"Dans sa région postérieure, la membrane synoviale du genou :","c":11,"options":[{"t":"Recouvre les faces antérieure et latérales des croisés","correct":true,"j":"Elle se réfléchit en avant et sur les côtés des ligaments croisés, qui restent ainsi en dehors de la cavité articulaire proprement dite."},{"t":"Englobe entièrement les deux ligaments croisés","j":"Les croisés ne baignent pas dans le liquide articulaire : la synoviale ne les tapisse pas sur toute leur circonférence."},{"t":"Est interrompue en regard des ligaments croisés","j":"Il n'existe aucune interruption synoviale à ce niveau ; l'interruption décrite par le cours siège au niveau des bords du ménisque."},{"t":"Passe entre les deux croisés sans les recouvrir","j":"Réduire la synoviale à un simple refend entre les deux croisés méconnaît la gaine qui les habille en avant et latéralement."}]},
-    {"q":"La bourse suprapatellaire (cul-de-sac sous-quadricipital) :","c":11,"options":[{"t":"S'étend vers le haut entre le fémur et le tendon du quadriceps","correct":true,"j":"Elle facilite le glissement du tendon quadricipital sur l'extrémité distale du fémur et autorise la flexion comme l'extension complètes."},{"t":"S'étend en arrière entre la capsule et le gastrocnémien médial","j":"Il existe bien une bourse sous-tendineuse à ce niveau, mais c'est une bourse postérieure, sans rapport avec l'appareil extenseur."},{"t":"S'interpose entre la peau et la face antérieure de la patella","j":"Cette situation sous-cutanée est celle de la bourse pré-patellaire, qui ne communique pas avec le cul-de-sac supérieur."},{"t":"Se situe entre le tendon du poplité et le condyle latéral","j":"Ce récessus postéro-latéral accompagne le tendon du poplité ; il n'est pas un prolongement supérieur de la cavité articulaire."}]},
-    {"q":"Quelle bourse séreuse s'interpose entre le ligament patellaire et la face antérieure du tibia ?","c":11,"options":[{"t":"La bourse infra-patellaire profonde","correct":true,"j":"Logée en arrière du ligament patellaire, elle amortit le frottement de ce tendon contre l'os tibial sous-jacent."},{"t":"La bourse infra-patellaire superficielle","j":"Celle-ci siège en avant du ligament patellaire, juste sous la peau, et non entre le ligament et l'os."},{"t":"La bourse sous-cutanée pré-patellaire","j":"Elle répond à la patella elle-même, sous la peau, bien au-dessus du segment tibial de l'appareil extenseur."},{"t":"La bourse du muscle semi-membraneux","j":"Cette bourse double le tendon du semi-membraneux sur le versant postérieur du genou, loin de la face antérieure du tibia."}]},
-    {"q":"Les mouvements de rotation du genou se produisent :","c":11,"options":[{"t":"À l'articulation ménisco-tibiale, autour d'un axe passant par l'épine tibiale","correct":true,"j":"Le cours situe la rotation entre les ménisques et le plateau tibial, l'axe vertical traversant l'épine tibiale."},{"t":"À l'articulation fémoro-méniscale, autour d'un axe passant par la fosse intercondylaire","j":"L'étage fémoro-méniscal est celui de la flexion-extension ; la rotation se joue à l'étage situé au-dessous."},{"t":"À l'articulation fémoro-patellaire, autour d'un axe passant par la trochlée","j":"L'articulation fémoro-patellaire ne fait que guider la patella dans la gorge trochléenne, sans rotation axiale de la jambe."},{"t":"À l'articulation tibio-fibulaire, autour d'un axe passant par la tête fibulaire","j":"Cette articulation accompagne les contraintes venues de la cheville ; elle n'est pas le siège de la rotation du genou."}]},
-    {"q":"Quelles sont les amplitudes d'hyperextension du genou ?","c":11,"options":[{"t":"10° en actif et 15° en passif","correct":true,"j":"Ce sont les valeurs retenues par le cours pour l'extension au-delà de la rectitude, freinée notamment par le plan fibreux postérieur."},{"t":"5° en actif et 10° en passif","j":"Ces chiffres sous-estiment l'hyperextension : le cours accorde le double en actif, et davantage encore en passif."},{"t":"15° en actif et 20° en passif","j":"Ces valeurs traduiraient un genou recurvatum ; le cours place l'hyperextension active nettement plus bas."},{"t":"10° en actif et 20° en passif","j":"La valeur active est juste mais le gain passif est surestimé : il n'est que de quelques degrés supplémentaires."}]},
-    {"q":"Lequel de ces muscles appartient au plan PROFOND du groupe médial de la cuisse ?","c":12,"options":[{"t":"L'obturateur externe","correct":true,"j":"Le cours range dans le plan profond du groupe médial l'obturateur externe et le grand adducteur."},{"t":"Le court adducteur","j":"Le court adducteur occupe le plan médian du groupe médial, intercalé entre les deux autres plans."},{"t":"Le long adducteur","j":"Le long adducteur appartient au plan superficiel du groupe médial, qu'il partage avec le pectiné."},{"t":"Le muscle gracile","j":"Le gracile est le muscle le plus médial du plan superficiel ; il ne descend jamais dans le plan profond."}]},
-    {"q":"Quel muscle du groupe médial de la cuisse est innervé par le nerf fémoral ?","c":12,"options":[{"t":"Le muscle pectiné","correct":true,"j":"Le pectiné est le seul muscle du groupe médial à recevoir sa commande du nerf fémoral, alors que ses voisins dépendent du nerf obturateur."},{"t":"Le long adducteur","j":"Le long adducteur dépend du nerf obturateur, comme la grande majorité des muscles de ce groupe."},{"t":"Le court adducteur","j":"Le court adducteur est lui aussi tributaire du nerf obturateur, qui chemine directement à son contact."},{"t":"Le muscle gracile","j":"Le gracile est innervé par le nerf obturateur, bien qu'il franchisse le genou et agisse sur la jambe."}]},
-    {"q":"Quels nerfs innervent le grand adducteur ?","c":12,"options":[{"t":"Le nerf obturateur et le nerf sciatique","correct":true,"j":"Le grand adducteur est à double commande : sa composante adductrice relève de l'obturateur, sa composante extensive du sciatique."},{"t":"Le nerf obturateur et le nerf fémoral","j":"Le nerf fémoral n'envoie aucune branche au grand adducteur : il commande essentiellement la loge antérieure de la cuisse."},{"t":"Le nerf fémoral exclusivement","j":"Une innervation fémorale exclusive est impossible pour ce muscle, qui ne reçoit aucune fibre de ce nerf."},{"t":"Le nerf obturateur exclusivement","j":"L'obturateur innerve bien une partie du grand adducteur, mais sa commande n'est pas exclusive : un second tronc la complète."}]},
-    {"q":"Le long adducteur réalise sur la cuisse :","c":12,"options":[{"t":"Adduction, flexion et rotation externe","correct":true,"j":"Le cours lui attribue ces trois actions, qu'il partage avec le court adducteur dont il a la même origine pubienne."},{"t":"Adduction, extension et rotation interne","j":"Les deux dernières actions sont inversées : le long adducteur fléchit la cuisse et la tourne en dehors."},{"t":"Adduction, flexion et rotation interne","j":"La flexion est juste, le sens de rotation est faux : ce muscle porte la cuisse en rotation externe."},{"t":"Adduction, extension et rotation externe","j":"La rotation est juste, mais le long adducteur est fléchisseur de la cuisse et non extenseur."}]},
-    {"q":"Le sartorius réalise sur la hanche :","c":12,"options":[{"t":"Flexion, abduction et rotation latérale","correct":true,"j":"Son trajet oblique depuis l'épine iliaque antéro-supérieure lui fait associer ces trois composantes sur la cuisse."},{"t":"Flexion, adduction et rotation latérale","j":"Le sartorius écarte la cuisse de l'axe du corps : il est abducteur et non adducteur."},{"t":"Extension, abduction et rotation médiale","j":"Deux erreurs ici : le sartorius fléchit la hanche et la tourne en dehors, non en dedans."},{"t":"Flexion, abduction et rotation médiale","j":"Les deux premières actions sont justes mais le sens de rotation est inversé : la rotation imprimée est latérale."}]},
-    {"q":"Le groupe antérieur de la cuisse est composé :","c":12,"options":[{"t":"Du quadriceps fémoral et du muscle sartorius","correct":true,"j":"Le cours ne retient que ces deux formations dans la loge antérieure, le quadriceps comptant à lui seul quatre chefs."},{"t":"Du quadriceps fémoral et du tenseur du fascia lata","j":"Le tenseur du fascia lata est rattaché aux muscles de la hanche et n'est pas compté dans le groupe antérieur de la cuisse."},{"t":"Du quadriceps fémoral, du sartorius et du gracile","j":"Le gracile est de trop : le cours le classe dans le plan superficiel du groupe médial de la cuisse."},{"t":"Du quadriceps fémoral et du muscle pectiné","j":"Le pectiné n'appartient pas à la loge antérieure : il figure dans le plan superficiel du groupe médial."}]},
-    {"q":"Quel muscle forme la paroi LATÉRALE du canal des adducteurs (de Hunter) ?","c":12,"options":[{"t":"Le vaste médial","correct":true,"j":"Malgré son nom, ce chef du quadriceps borde le canal en dehors et le sépare de la loge antérieure de la cuisse."},{"t":"Le sartorius","j":"Le sartorius constitue la paroi antéro-interne du canal, qu'il recouvre comme un toit."},{"t":"Le long adducteur","j":"Le long adducteur participe à la paroi postérieure du canal, et non à sa paroi latérale."},{"t":"Le grand adducteur","j":"Le grand adducteur ferme lui aussi le canal en arrière ; son anneau en marque l'extrémité inférieure."}]},
-    {"q":"Le plancher de la fosse poplitée est formé par :","c":12,"options":[{"t":"La face postérieure de l'articulation et le muscle poplité","correct":true,"j":"Le plancher associe le plan articulaire postérieur du genou et ce petit muscle appliqué contre lui."},{"t":"La face postérieure du fémur et le chef médial du gastrocnémien","j":"Le chef médial du gastrocnémien borde la fosse sans en constituer le plancher, et le fémur n'est pas retenu par le cours parmi les éléments de ce plancher."},{"t":"La membrane interosseuse et le corps du muscle soléaire","j":"Ces structures appartiennent à la jambe et se situent bien au-dessous des limites de la fosse poplitée."},{"t":"La capsule articulaire et le muscle plantaire grêle","j":"Le plantaire est un muscle grêle accessoire que le cours ne retient pas dans la constitution du plancher."}]},
-    {"q":"La fosse poplitée est limitée en haut et en dedans par :","c":12,"options":[{"t":"Le semi-membraneux et le semi-tendineux","correct":true,"j":"Ces deux ischio-jambiers médiaux dessinent le bord supéro-médial du losange poplité."},{"t":"Le biceps fémoral et le gracile","j":"Le biceps fémoral borde la fosse en haut et en dehors, et le gracile ne figure pas parmi les muscles qui la limitent."},{"t":"Le chef médial du gastrocnémien et le sartorius","j":"Le gastrocnémien médial ferme la fosse en bas et non en haut ; le sartorius n'entre pas dans ses limites."},{"t":"Le grand adducteur et le semi-membraneux","j":"Le semi-membraneux est bien l'un des deux muscles attendus, mais le grand adducteur s'arrête avant la fosse."}]},
-    {"q":"Le triangle fémoral (de Scarpa) contient :","c":12,"options":[{"t":"L'artère fémorale, la veine fémorale et le nerf fémoral","correct":true,"j":"Le cours décrit ce trépied vasculo-nerveux dans le triangle, le nerf étant le plus latéral des trois éléments."},{"t":"L'artère fémorale profonde, la veine et le nerf obturateur","j":"Le nerf obturateur reste plus médial et plus profond : il quitte le bassin sans traverser le triangle."},{"t":"L'artère fémorale, la veine fémorale et le nerf obturateur","j":"Les deux vaisseaux sont justes mais le nerf est faux : c'est le nerf fémoral qui accompagne ici le paquet vasculaire."},{"t":"L'artère iliaque externe, la veine fémorale et le nerf fémoral","j":"L'artère iliaque externe change de nom en franchissant le ligament inguinal : dans le triangle, elle est déjà fémorale."}]},
-    {"q":"Quelle est l'origine commune du semi-tendineux, du semi-membraneux et du chef long du biceps fémoral ?","c":12,"options":[{"t":"La tubérosité ischiatique","correct":true,"j":"Les trois ischio-jambiers vrais y prennent naissance, ce qui explique leur action extensive commune sur la cuisse."},{"t":"La branche ischio-pubienne","j":"Cette branche donne naissance au grand adducteur, qui appartient au groupe médial et non au groupe postérieur."},{"t":"L'épine ischiatique","j":"L'épine ischiatique donne insertion à des muscles pelvi-trochantériens, et non aux muscles de la loge postérieure."},{"t":"La ligne âpre du fémur","j":"Seul le chef court du biceps fémoral y naît ; les trois muscles cités ont tous une origine pelvienne."}]},
-    {"q":"Selon le cours, le premier plan (le plus superficiel) de la plante du pied est constitué par :","c":15,"options":[{"t":"Le court fléchisseur des orteils, le court abducteur de l'hallux et l'abducteur du 5e orteil","correct":true,"j":"Ces trois muscles forment la couche 1, étalée juste sous l'aponévrose plantaire : un muscle central flanqué des deux muscles d'écartement des orteils extrêmes."},{"t":"Le court fléchisseur des orteils, le carré plantaire et l'adducteur de l'hallux","j":"Le carré plantaire et l'adducteur de l'hallux sont tous deux recouverts par d'autres muscles plantaires : seul le court fléchisseur des orteils, ici, affleure sous l'aponévrose."},{"t":"Le court abducteur de l'hallux, l'abducteur du 5e orteil et les interosseux dorsaux","j":"Les interosseux dorsaux sont logés entre les métatarsiens, dans le plan le plus profond du pied : ils ne peuvent appartenir à la couche superficielle."},{"t":"Le court fléchisseur des orteils, le court fléchisseur de l'hallux et le fléchisseur du 5e orteil","j":"Les deux fléchisseurs courts des orteils extrêmes sont des muscles profonds de l'avant-pied ; la couche 1 leur substitue les deux abducteurs."}]},
-    {"q":"Quels muscles constituent le deuxième plan (couche 2) de la plante du pied ?","c":15,"options":[{"t":"Le carré plantaire et les muscles lombricaux du pied","correct":true,"j":"Ces deux formations constituent ensemble la couche 2, interposée entre le muscle superficiel de la plante et les muscles courts des orteils extrêmes."},{"t":"Le carré plantaire et le court fléchisseur des orteils","j":"Le court fléchisseur des orteils possède ses propres tendons pour les orteils et occupe un étage plus superficiel que la couche 2."},{"t":"Les muscles lombricaux et les interosseux plantaires","j":"Les interosseux plantaires, tendus entre les métatarsiens, appartiennent à la couche la plus profonde du pied."},{"t":"Le court fléchisseur de l'hallux et l'adducteur de l'hallux","j":"Ce couple constitue le plan profond du groupe médial, consacré au seul gros orteil, et non la couche 2."}]},
-    {"q":"Sur quelles structures les quatre muscles interosseux dorsaux s'insèrent-ils distalement ?","c":15,"options":[{"t":"Sur la base des premières phalanges des 2e, 3e et 4e orteils","correct":true,"j":"Selon le cours, les quatre interosseux dorsaux gagnent la base de la phalange proximale de ces trois orteils moyens."},{"t":"Sur la base des premières phalanges des 3e, 4e et 5e orteils","j":"Cette répartition plus latérale, qui délaisse le 2e orteil, est celle des interosseux plantaires et non des dorsaux."},{"t":"Sur la base des phalanges intermédiaires des 2e, 3e et 4e orteils","j":"Aucun interosseux n'atteint la phalange intermédiaire : ces muscles s'arrêtent à la base de la phalange proximale."},{"t":"Sur la face dorsale des têtes des 2e, 3e et 4e métatarsiens","j":"Les têtes métatarsiennes ne sont qu'un relief franchi par ces muscles, qui dépassent l'articulation pour gagner la phalange."}]},
-    {"q":"Dans la classification du cours, le groupe latéral de la plante du pied comprend :","c":15,"options":[{"t":"Le fléchisseur du 5e orteil, son opposant et son abducteur","correct":true,"j":"Ce groupe réunit trois muscles propres au 5e orteil : le fléchisseur et l'opposant dans le plan profond, l'abducteur dans le plan de surface."},{"t":"Le court fléchisseur, l'adducteur et l'abducteur de l'hallux","j":"Ces trois muscles composent le groupe médial, entièrement consacré au gros orteil, à l'opposé du bord latéral du pied."},{"t":"Le court fléchisseur des orteils, le carré plantaire et les lombricaux","j":"Ce sont les muscles du groupe central de la plante, qui agissent sur les quatre derniers orteils et non sur le seul 5e."},{"t":"L'abducteur du 5e orteil et les interosseux de la plante","j":"Les interosseux appartiennent au plan profond du groupe CENTRAL de la plante ; l'abducteur du 5e orteil ne représente à lui seul que le plan de surface du groupe latéral."}]},
-    {"q":"Quelle est l'origine des muscles interosseux dorsaux du pied ?","c":15,"options":[{"t":"Les deux parois de chaque espace interosseux","correct":true,"j":"Chaque interosseux dorsal est bipenné : il naît des deux faces osseuses qui bordent l'espace compris entre deux métatarsiens voisins."},{"t":"La face plantaire de la base des métatarsiens","j":"Cette face reçoit des ligaments plantaires et des tendons longs, mais les interosseux dorsaux naissent à l'intérieur même de l'espace."},{"t":"Le bord latéral du tendon du long fléchisseur des orteils","j":"Ce bord tendineux est une zone de terminaison musculaire dans la plante, et non une surface d'origine : aucun interosseux n'y prend naissance."},{"t":"La face dorsale de la base des phalanges proximales","j":"Il s'agit d'une zone de terminaison de l'appareil extenseur des orteils, non d'une origine musculaire sur le squelette métatarsien."}]},
-    {"q":"De quelle paroi naissent les trois muscles interosseux plantaires ?","c":15,"options":[{"t":"De la paroi latérale des 2e, 3e et 4e espaces interosseux","correct":true,"j":"Ils s'attachent au versant latéral de ces espaces, c'est-à-dire aux 3e, 4e et 5e métatarsiens, d'où leur disposition unipennée."},{"t":"De la paroi médiale des 2e, 3e et 4e espaces interosseux","j":"La paroi médiale de ces espaces n'offre aucune origine aux interosseux plantaires, qui s'attachent sur le versant opposé."},{"t":"De la paroi latérale des 1er, 2e et 3e espaces interosseux","j":"Les trois premiers espaces intéressent les métatarsiens médiaux ; les interosseux plantaires dépendent au contraire des trois derniers métatarsiens."},{"t":"De la face plantaire des 1er, 2e et 3e métatarsiens","j":"La face plantaire des métatarsiens médiaux est longée par les tendons fléchisseurs et ne donne pas naissance à ces muscles."}]},
-    {"q":"Le carré plantaire (chair carrée de Sylvius) prend son origine :","c":15,"options":[{"t":"Sur la face inférieure du calcanéum, par deux faisceaux","correct":true,"j":"Ses deux faisceaux naissent de la face plantaire du calcanéum et convergent en avant en un corps charnu quadrilatère."},{"t":"Sur le tubercule médial du calcanéum, par quatre faisceaux","j":"Le tubercule médial donne naissance aux éléments les plus superficiels de la plante ; le carré plantaire, plus profond, occupe la face inférieure de l'os."},{"t":"Sur la face plantaire du cuboïde et du cunéiforme latéral","j":"Ces os du tarse antérieur donnent attache à des muscles destinés au gros orteil, alors que le carré plantaire reste strictement calcanéen."},{"t":"Sur la tubérosité du naviculaire et le long ligament plantaire","j":"Le naviculaire reçoit surtout un tendon long inverseur du pied ; aucun faisceau du carré plantaire ne s'y attache."}]},
-    {"q":"Les muscles lombricaux du pied sont innervés par :","c":15,"options":[{"t":"Les nerfs plantaires médial et latéral","correct":true,"j":"Leur innervation est partagée entre les deux branches terminales du nerf tibial, les lombricaux les plus internes relevant du contingent médial."},{"t":"Le nerf plantaire latéral uniquement","j":"Le nerf plantaire latéral n'assure qu'une partie de cette innervation, les lombricaux les plus médiaux échappant à son territoire."},{"t":"Le nerf plantaire médial uniquement","j":"Le nerf plantaire médial ne couvre pas tous les lombricaux : les plus latéraux dépendent de l'autre branche terminale du nerf tibial."},{"t":"Le nerf fibulaire profond","j":"Le fibulaire profond innerve les muscles courts de la région dorsale du pied et ne pénètre jamais dans la loge plantaire."}]},
-    {"q":"Dans la plante du pied, le tendon du long fléchisseur de l'hallux chemine dans un sillon ménagé par :","c":15,"options":[{"t":"Les têtes médiale et latérale du court fléchisseur de l'hallux","correct":true,"j":"Les deux têtes de ce muscle s'écartent l'une de l'autre et ménagent entre elles la gouttière où glisse le tendon long du gros orteil."},{"t":"Les deux chefs, oblique et transverse, de l'adducteur de l'hallux","j":"Les deux chefs de l'adducteur convergent vers un point d'insertion commun et ne délimitent aucune gouttière tendineuse."},{"t":"Les deux faisceaux d'origine du carré plantaire","j":"Les faisceaux du carré plantaire encadrent un tendon destiné aux quatre derniers orteils, en arrière de la plante, et non celui du gros orteil."},{"t":"Les deux premiers muscles interosseux dorsaux","j":"Les interosseux dorsaux occupent les espaces entre les métatarsiens, bien au-dessus du trajet plantaire de ce tendon."}]},
-    {"q":"Le court abducteur de l'hallux se termine sur la phalange proximale du gros orteil par l'intermédiaire :","c":15,"options":[{"t":"Du sésamoïde médial de la 1re métatarso-phalangienne","correct":true,"j":"Son tendon englobe le sésamoïde médial du gros orteil avant de se fixer sur la base de la phalange proximale."},{"t":"Du sésamoïde latéral de la 1re métatarso-phalangienne","j":"Le sésamoïde latéral sert de relais au muscle qui ramène au contraire le gros orteil vers les autres orteils."},{"t":"D'une expansion de l'aponévrose plantaire médiale","j":"L'aponévrose médiale enveloppe la loge du gros orteil mais ne constitue pas le relais terminal de ce muscle."},{"t":"Du tendon du long fléchisseur de l'hallux","j":"Ce tendon traverse la loge médiale pour rejoindre la phalange distale et ne reçoit aucune terminaison du court abducteur."}]},
-    {"q":"La tête transversale de l'adducteur de l'hallux prend son origine :","c":15,"options":[{"t":"Sur les 3e, 4e et 5e articulations métatarso-phalangiennes","correct":true,"j":"Elle naît des éléments capsulo-ligamentaires de ces trois articulations et traverse l'avant-pied transversalement jusqu'au gros orteil."},{"t":"Sur les bases des 2e à 5e métatarsiens et le cuboïde","j":"Ces attaches tarso-métatarsiennes postérieures sont celles de l'autre tête du muscle, dont les fibres suivent un trajet oblique."},{"t":"Sur les ligaments plantaires des 1re et 2e articulations métatarso-phalangiennes","j":"Les deux premières articulations métatarso-phalangiennes sont dépassées par le muscle ; sa tête transversale ne naît que des trois dernières."},{"t":"Sur la face plantaire des cunéiformes médial et intermédiaire","j":"Les cunéiformes médiaux donnent attache à d'autres formations fibreuses de la loge du gros orteil, pas à cette tête du muscle."}]},
-    {"q":"Quel muscle du pied soutient à la fois la voûte plantaire longitudinale et la voûte plantaire transversale ?","c":15,"options":[{"t":"L'adducteur de l'hallux","correct":true,"j":"La direction de ses deux têtes, l'une oblique et l'autre transversale, lui permet d'étayer les deux voûtes de la plante à la fois."},{"t":"Le court fléchisseur de l'hallux","j":"Son trajet reste parallèle au bord médial du pied : il ne soutient que la voûte longitudinale."},{"t":"Le carré plantaire","j":"Son corps charnu reste en arrière de la plante et se termine sur le tendon des fléchisseurs, sans jamais croiser la ligne des têtes métatarsiennes : il ne peut étayer l'arche transversale."},{"t":"Le court abducteur de l'hallux","j":"Placé le long du bord médial du pied, il participe au maintien de la voûte longitudinale sans agir sur l'arche transversale."}]},
-    {"q":"Quelle est l'origine du fléchisseur (court fléchisseur) du 5e orteil ?","c":15,"options":[{"t":"La base du 5e métatarsien et le long ligament plantaire","correct":true,"j":"Il naît de l'extrémité postérieure du 5e métatarsien et du puissant ligament plantaire long qui double cette région en arrière."},{"t":"La face inférieure du calcanéum, en dehors","j":"Cette surface calcanéenne latérale est l'origine de l'abducteur du 5e orteil, alors que le fléchisseur s'attache sur l'avant-pied."},{"t":"La moitié distale du 5e métatarsien","j":"La portion distale du 5e métatarsien correspond à l'origine de l'autre muscle profond du bord latéral, qui gagne la même phalange."},{"t":"Le tubercule latéral de la tubérosité calcanéenne et le cuboïde","j":"Ces reliefs postérieurs donnent attache à des formations fibreuses du bord latéral, non à ce muscle de l'avant-pied."}]},
-    {"q":"Quelle est l'action de l'opposant du 5e orteil ?","c":15,"options":[{"t":"Flexion et adduction du 5e orteil","correct":true,"j":"Il fléchit le 5e orteil tout en le ramenant vers l'axe du pied, ce qui accentue la concavité du bord latéral de la plante."},{"t":"Flexion et abduction du 5e orteil","j":"L'association flexion-abduction caractérise le muscle le plus superficiel du bord latéral, et non l'opposant."},{"t":"Flexion isolée du 5e orteil","j":"Une flexion pure est l'action de l'autre muscle profond du bord latéral ; l'opposant y ajoute une composante de déplacement."},{"t":"Extension et abduction du 5e orteil","j":"Aucun muscle du groupe latéral de la plante n'étend le 5e orteil : l'extension revient aux muscles de la région dorsale."}]},
-    {"q":"Selon le cours, l'aponévrose plantaire se divise en :","c":15,"options":[{"t":"Trois parties : moyenne, médiale et latérale","correct":true,"j":"La partie moyenne, la plus résistante, est flanquée de deux expansions, l'une médiale et l'autre latérale, avec lesquelles elle reste en continuité."},{"t":"Deux parties : médiale et latérale","j":"Cette description omet la partie moyenne, qui est précisément la lame la plus épaisse et la plus solide de l'ensemble."},{"t":"Trois parties : superficielle, moyenne et profonde","j":"Le découpage de l'aponévrose plantaire est transversal, d'un bord du pied à l'autre, et non étagé en profondeur."},{"t":"Quatre parties, une pour chaque compartiment musculaire","j":"L'aponévrose ne se calque pas loge par loge : sa division en parties est indépendante du nombre de compartiments musculaires de la plante."}]},
-    {"q":"La « mortaise » tibio-fibulaire qui reçoit le talus est formée par :","c":13,"options":[{"t":"La face inférieure du tibia, la surface malléolaire tibiale et la surface malléolaire fibulaire","correct":true,"j":"Le cours décrit la mortaise comme l'emboîtement de la face inférieure du tibia, prolongée par la surface de la malléole médiale, et de la surface malléolaire de la fibula."},{"t":"La face inférieure du tibia et les deux surfaces malléolaires du talus","j":"Les surfaces malléolaires du talus appartiennent à l'os mobile : elles s'appliquent dans la mortaise mais ne la constituent pas."},{"t":"La face inférieure du tibia, la surface malléolaire tibiale et la face supérieure du calcanéus","j":"Le calcanéus reste situé sous le talus : il n'offre aucune surface à la pince formée par les deux os de la jambe."},{"t":"La face inférieure du tibia, la surface malléolaire fibulaire et la membrane interosseuse","j":"La membrane interosseuse unit les diaphyses bien au-dessus de l'interligne et n'offre aucune surface cartilagineuse."}]},
-    {"q":"Selon le cours, la capsule de l'articulation talo-crurale :","c":13,"options":[{"t":"Est plus lâche en avant et en arrière, et résistante sur ses deux faces latérales","correct":true,"j":"Cette laxité antéro-postérieure laisse le talus glisser en flexion plantaire et dorsale, tandis que les renforts latéraux verrouillent les mouvements frontaux."},{"t":"Est plus lâche sur ses deux faces latérales, et résistante en avant et en arrière","j":"Inverse la répartition : les faces latérales sont les plus épaisses, et ce sont les parties antérieure et postérieure qui sont lâches."},{"t":"Est uniformément épaisse et s'insère à distance des surfaces cartilagineuses","j":"Le cours décrit au contraire une capsule d'épaisseur inégale, insérée au contour même des surfaces cartilagineuses sauf à leur partie supérieure."},{"t":"Est doublée en dedans par un fibro-cartilage interposé entre les surfaces","j":"Aucune pièce fibro-cartilagineuse n'est interposée dans la talo-crurale : seuls deux replis synoviaux, antérieur et postérieur, sont décrits."}]},
-    {"q":"Quelles structures ligamentaires limitent la flexion dorsale de la cheville ?","c":13,"options":[{"t":"Le ligament talo-fibulaire postérieur et les faisceaux postérieurs du ligament deltoïde","correct":true,"j":"Le cours écrit : « La flexion dorsale est limitée par le ligament talo-fibulaire postérieur et les fascicules postérieurs du ligament deltoïde » : ce sont les éléments postérieurs des deux plans collatéraux."},{"t":"Le ligament talo-fibulaire antérieur et les faisceaux antérieurs du ligament deltoïde","j":"Le cours ne cite pas ces faisceaux antérieurs parmi les freins de la flexion dorsale : ils appartiennent au versant antérieur des deux plans collatéraux."},{"t":"Le ligament calcanéo-fibulaire et le faisceau tibio-calcanéen du deltoïde","j":"Ces deux faisceaux descendent vers le calcanéus et contrôlent surtout les contraintes frontales, en varus et en valgus."},{"t":"Les ligaments tibio-fibulaires antérieur et postérieur de la syndesmose","j":"Ils solidarisent les deux os de la jambe entre eux et maintiennent la largeur de la mortaise, sans freiner le déplacement du talus."}]},
-    {"q":"Dans l'articulation sous-talienne, quelles sont les surfaces en présence ?","c":13,"options":[{"t":"Une surface concave sur la face inférieure du talus et une surface convexe sur le calcanéus","correct":true,"j":"Le cours décrit la facette postérieure de la face inférieure du talus comme concave, reçue par la facette postérieure convexe de la face supérieure du calcanéus."},{"t":"Une surface convexe sur la face inférieure du talus et une surface concave sur le calcanéus","j":"Inverse exactement les courbures : c'est le calcanéus qui porte la facette bombée, et le talus la cavité qui la coiffe."},{"t":"Deux surfaces planes glissant l'une sur l'autre, sans courbure ni emboîtement marqué","j":"La sous-talienne possède au contraire deux courbures nettes et complémentaires, qui guident le mouvement autour de l'axe de Henke."},{"t":"Une tête convexe du talus reçue dans une large cavité creusée par le calcanéus","j":"La tête du talus regarde en avant et appartient à l'étage articulaire antérieur du tarse, non à la facette postérieure."}]},
-    {"q":"Le ligament interosseux talo-calcanéen est situé :","c":13,"options":[{"t":"Dans le sinus du tarse, où il se dispose en deux faisceaux, antérieur et postérieur","correct":true,"j":"Le cours le place dans le sinus du tarse, entre talus et calcanéus, et lui décrit deux faisceaux, l'un antérieur et l'autre postérieur."},{"t":"Dans le sinus du tarse, où il forme un faisceau unique vertical et épais","j":"La localisation est exacte mais la description est fausse : le cours lui reconnaît deux faisceaux distincts, et non un seul."},{"t":"Sur la face latérale du calcanéus, en dehors de l'interligne sous-talien","j":"Cette situation externe et superficielle est celle d'un renfort latéral de la sous-talienne ; l'interosseux est profond, caché entre les deux os."},{"t":"Entre le sustentaculum tali et le tubercule du naviculaire, en situation plantaire","j":"Ce trajet plantaire médial est celui d'un ligament de soutien de la tête talienne, et non d'un ligament logé entre talus et calcanéus."}]},
-    {"q":"Le ligament talo-calcanéen postérieur est tendu :","c":13,"options":[{"t":"Du tubercule postéro-latéral du talus à la face supérieure du calcanéus","correct":true,"j":"Le cours lui donne pour origine le tubercule postéro-externe du processus postérieur du talus et pour terminaison la face supérieure du calcanéus."},{"t":"Du processus latéral du talus à la face latérale du calcanéus","j":"Ce trajet oblique en dehors est celui du renfort latéral de la sous-talienne, situé bien plus en avant et plus superficiellement."},{"t":"Du tubercule postéro-médial du talus à la face médiale du calcanéus","j":"Le tubercule postéro-médial borde la gouttière des tendons fléchisseurs ; aucun faisceau postérieur n'en part vers le calcanéus."},{"t":"De la face postérieure de la malléole latérale à la face supérieure du calcanéus","j":"Une origine malléolaire en ferait un ligament de la cheville, alors qu'il unit deux os du tarse entre eux."}]},
-    {"q":"Dans l'articulation talo-calcanéo-naviculaire, la tête du talus s'articule avec :","c":13,"options":[{"t":"La face postérieure concave du naviculaire et la surface antérieure du calcanéus","correct":true,"j":"Le cours associe à la tête du talus la cavité postérieure du naviculaire et la facette antérieure de la face supérieure du calcanéus."},{"t":"La face antérieure du naviculaire et la surface postérieure du calcanéus","j":"Intervertit les deux faces : le naviculaire creuse sa concavité en arrière, et la facette calcanéenne concernée est l'antérieure."},{"t":"La face postérieure concave du cuboïde et la surface antérieure du calcanéus","j":"Le cuboïde répond au calcanéus sur le versant latéral du pied, sans aucun contact avec la tête du talus."},{"t":"Les trois os cunéiformes et la face antérieure concave du naviculaire","j":"Ces surfaces appartiennent à l'étage distal du tarse, situé bien en avant de la tête talienne."}]},
-    {"q":"L'articulation transverse du tarse (Chopart) est constituée par la réunion de :","c":13,"options":[{"t":"L'articulation talo-calcanéo-naviculaire et l'articulation calcanéo-cuboïdienne","correct":true,"j":"Le cours définit l'interligne de Chopart par l'association de ces deux articulations, l'une médiale, l'autre latérale, alignées en travers du tarse."},{"t":"L'articulation sous-talienne et l'articulation calcanéo-cuboïdienne","j":"La sous-talienne est située en arrière de l'interligne de Chopart et appartient à un étage différent du tarse."},{"t":"L'articulation cunéo-naviculaire et l'articulation cubo-naviculaire","j":"Ces deux unions appartiennent à la deuxième rangée du tarse, en avant de l'interligne transverse."},{"t":"L'articulation talo-calcanéo-naviculaire et l'articulation cunéo-cuboïdienne","j":"La cunéo-cuboïdienne unit deux os de la rangée distale entre eux : elle est trop antérieure pour border l'interligne de Chopart."}]},
-    {"q":"Quel est le type de l'articulation cubo-naviculaire ?","c":13,"options":[{"t":"Une syndesmose (union fibreuse)","correct":true,"j":"Le cours précise qu'il s'agit généralement d'une syndesmose : les deux os sont unis par du tissu fibreux dense, sans cavité synoviale constante."},{"t":"Une arthrodie (synoviale plane)","j":"L'arthrodie suppose une cavité synoviale entre deux surfaces planes cartilagineuses ; ici l'union est fibreuse et le plus souvent sans synoviale."},{"t":"Une sellaire (emboîtement réciproque)","j":"Une selle suppose deux surfaces cartilagineuses à double courbure inversée ; le cours ne décrit rien de tel entre le cuboïde et le naviculaire."},{"t":"Une symphyse (fibro-cartilage)","j":"La symphyse unit deux os par un fibro-cartilage épais ; aucune pièce fibro-cartilagineuse n'est décrite entre ces deux os du tarse."}]},
-    {"q":"Quel est le type des articulations cunéo-naviculaire et intercunéiformes ?","c":13,"options":[{"t":"Des articulations planes (arthrodies), bridées par des ligaments dorsaux et plantaires","correct":true,"j":"Le cours les classe en arthrodies : la face antérieure du naviculaire et les faces en regard des cunéiformes sont planes et simplement bridées par des ligaments."},{"t":"Des articulations en selle, renforcées par des ligaments dorsaux et plantaires","j":"Aucune de ces unions ne présente la double courbure d'une selle ; leurs surfaces sont planes et n'autorisent que des glissements."},{"t":"Des trochoïdes autorisant une rotation autour d'un axe longitudinal unique","j":"Une trochoïde impose un pivot central ; ces petites unions du tarse antérieur n'offrent aucun axe de rotation défini."},{"t":"Des syndesmoses unies par du tissu fibreux dense, sans cavité articulaire","j":"Une union fibreuse sans cavité ne correspond pas à ces articulations, qui possèdent bien une synoviale et des surfaces cartilagineuses."}]},
-    {"q":"L'interligne de Lisfranc sépare les bases des métatarsiens de :","c":13,"options":[{"t":"Les trois cunéiformes et le cuboïde","correct":true,"j":"L'interligne tarso-métatarsien oppose les cinq bases métatarsiennes aux trois cunéiformes en dedans et au cuboïde en dehors."},{"t":"Les trois cunéiformes et le naviculaire","j":"Le naviculaire reste en arrière des cunéiformes : il ne vient jamais au contact des bases métatarsiennes."},{"t":"Le cuboïde et le naviculaire","j":"Ce couple laisse de côté les cunéiformes, qui forment pourtant toute la partie médiale de l'interligne."},{"t":"Les trois cunéiformes seulement","j":"Les cunéiformes ne répondent qu'aux trois premiers métatarsiens ; les deux derniers s'articulent avec un autre os du tarse distal."}]},
-    {"q":"Quel ligament réunit transversalement les articulations métatarso-phalangiennes entre elles ?","c":13,"options":[{"t":"Le ligament métatarsien transverse profond","correct":true,"j":"Il court d'une articulation métatarso-phalangienne à la suivante et solidarise l'avant-pied en reliant les rayons les uns aux autres."},{"t":"Le ligament plantaire des métatarso-phalangiennes","j":"Ce renfort n'appartient qu'à une seule articulation : il ne franchit pas l'espace qui sépare deux rayons voisins."},{"t":"Les ligaments collatéraux métatarso-phalangiens","j":"Ils sont tendus de la tête métatarsienne à la base de la phalange du même rayon, donc dans un plan longitudinal."},{"t":"Les ligaments intermétatarsiens dorsaux","j":"Ils unissent les métatarsiens par leurs bases, à l'extrémité proximale du rayon, et non au niveau des têtes."}]},
-    {"q":"Quelles surfaces osseuses forment l'articulation calcanéo-cuboïdienne ?","c":13,"options":[{"t":"La facette antérieure du calcanéus et la facette postérieure du cuboïde","correct":true,"j":"Le cours décrit cette articulation en selle entre la facette antérieure du calcanéus et la facette postérieure du cuboïde."},{"t":"La facette postérieure du calcanéus et la facette antérieure du cuboïde","j":"Intervertit les deux faces : le calcanéus offre au cuboïde sa facette antérieure, et le cuboïde la reçoit par sa face postérieure."},{"t":"La facette latérale du calcanéus et la face médiale du cuboïde","j":"Ces deux faces se regardent de côté et ne portent aucun cartilage : l'interligne est orienté d'arrière en avant."},{"t":"La trochlée fibulaire du calcanéus et la gouttière plantaire du cuboïde","j":"Ces deux reliefs servent de poulies aux tendons fibulaires et ne participent pas à la composition de l'interligne."}]},
-    {"q":"L'aponévrose profonde de la jambe envoie en profondeur des septums intermusculaires qui délimitent :","c":14,"options":[{"t":"Trois loges : antérieure, latérale et postérieure, celle-ci subdivisée par un septum transversal","correct":true,"j":"Les septums intermusculaires antérieur et postérieur gagnent la fibula et isolent trois loges ; dans la postérieure, un septum transversal sépare un plan superficiel d'un plan profond."},{"t":"Deux loges, antérieure et postérieure, séparées par la seule membrane interosseuse","j":"La membrane interosseuse unit tibia et fibula mais ne cloisonne pas la jambe : ce sont les septums issus de l'aponévrose qui créent les loges."},{"t":"Quatre loges indépendantes, fermées chacune par son propre septum intermusculaire","j":"Le cours n'en décrit que trois ; le quatrième espace n'est qu'une subdivision interne de l'une d'elles."},{"t":"Trois loges — antérieure, latérale et postérieure — la loge antérieure étant subdivisée par un septum transversal","j":"Le septum transversal existe bien, mais il partage la loge postérieure, et non la loge antérieure."}]},
-    {"q":"Le muscle tibial antérieur se termine sur :","c":14,"options":[{"t":"La face plantaire du premier cunéiforme et du premier métatarsien","correct":true,"j":"Son tendon contourne le bord médial du pied pour s'épanouir à la face plantaire du cunéiforme médial et du premier métatarsien."},{"t":"La face dorsale du naviculaire et du premier cunéiforme","j":"Le tendon reste dorsal au cou-de-pied mais bascule en plantaire pour se fixer : aucune terminaison dorsale ne lui est décrite."},{"t":"La face plantaire du cuboïde et du cunéiforme latéral","j":"Ces repères appartiennent à la moitié latérale de la plante, à l'opposé du trajet médial suivi par le tibial antérieur."},{"t":"La base de la phalange proximale du premier orteil (hallux)","j":"Le tibial antérieur s'arrête sur le tarse et le premier métatarsien : il ne franchit jamais l'articulation métatarso-phalangienne."}]},
-    {"q":"Le long extenseur des orteils se termine sur :","c":14,"options":[{"t":"Les deuxième et troisième phalanges des quatre derniers orteils","correct":true,"j":"Le cours lui fait gagner les deux dernières phalanges des orteils 2 à 5, ce qui lui permet d'étendre l'ensemble du rayon digital."},{"t":"Les phalanges distales des quatre derniers orteils uniquement","j":"Il ne se limite pas à la dernière phalange : le cours lui décrit une terminaison sur les deux dernières."},{"t":"Les phalanges proximales des quatre derniers orteils","j":"La phalange proximale est la cible des muscles intrinsèques du pied, non d'un extenseur long venu de la jambe."},{"t":"La deuxième phalange du premier orteil uniquement","j":"Cette terminaison sur le seul gros orteil est celle du long extenseur de l'hallux, son voisin de la même loge."}]},
-    {"q":"Le long fibulaire se termine sur :","c":14,"options":[{"t":"La base du premier métatarsien","correct":true,"j":"Son tendon traverse obliquement la plante du pied, de dehors en dedans, pour gagner la base du premier métatarsien."},{"t":"La face plantaire du cuboïde","j":"Le cuboïde ne fait que livrer passage au tendon dans sa gouttière plantaire : il le réfléchit mais ne l'arrête pas."},{"t":"La base de la phalange proximale de l'hallux","j":"Le tendon s'arrête au squelette métatarsien et n'atteint aucune phalange du gros orteil."},{"t":"Le tubercule du naviculaire","j":"Ce relief médial du tarse reçoit un tendon issu de la loge postérieure profonde, et non un muscle de la loge latérale."}]},
-    {"q":"Selon le cours, le troisième fibulaire — muscle inconstant, généralement fusionné au long extenseur des orteils — se termine sur :","c":14,"options":[{"t":"La base du cinquième métatarsien","correct":true,"j":"Il descend avec les extenseurs sur le dos du pied et s'ancre à l'extrémité proximale du cinquième rayon."},{"t":"La base de la phalange proximale du cinquième orteil","j":"Cette terminaison phalangienne revient aux muscles intrinsèques du bord latéral de la plante, pas à un muscle de jambe."},{"t":"La face plantaire du cuboïde","j":"Le troisième fibulaire reste dorsal sur tout son trajet : il ne gagne jamais la face plantaire du pied."},{"t":"Le tubercule du naviculaire","j":"Ce repère est médial, alors que le troisième fibulaire se dirige au contraire vers le bord latéral de l'avant-pied."}]},
-    {"q":"Le court fibulaire se termine sur :","c":14,"options":[{"t":"Le tubercule du cinquième métatarsien","correct":true,"j":"Son tendon contourne la malléole latérale et s'arrête sur la saillie proximale et latérale du cinquième métatarsien."},{"t":"La trochlée fibulaire du calcanéus","j":"Ce relief ne fait que séparer les deux tendons fibulaires dans leur coulisse : aucun des deux ne s'y termine."},{"t":"La face plantaire du cunéiforme latéral","j":"Les cunéiformes reçoivent des tendons venus de la plante ou de la loge postérieure profonde ; le court fibulaire reste latéral."},{"t":"La base de la phalange proximale du cinquième orteil","j":"Le court fibulaire s'arrête sur le squelette métatarsien sans jamais atteindre les phalanges."}]},
-    {"q":"Parmi les muscles de la loge antérieure de la jambe, lequel associe à la flexion dorsale une composante de SUPINATION ?","c":14,"options":[{"t":"Le muscle tibial antérieur","correct":true,"j":"Le cours lui attribue trois actions : flexion dorsale, adduction et supination, ce qui en fait le seul supinateur de cette loge."},{"t":"Le long extenseur des orteils","j":"Il ajoute à la flexion dorsale une abduction et une pronation, donc l'inverse exact de la supination."},{"t":"Le muscle troisième fibulaire","j":"Il complète la flexion dorsale par une pronation du pied, action opposée à celle qui est recherchée ici."},{"t":"Le long extenseur de l'hallux","j":"À la flexion dorsale il associe une adduction, mais aucune composante de supination ne lui est décrite."}]},
-    {"q":"Le muscle poplité naît :","c":14,"options":[{"t":"De la face latérale du condyle latéral du fémur, des fibres gagnant le ménisque latéral","correct":true,"j":"Le cours place son origine en arrière et au-dessous de l'épicondyle latéral, avec des fibres qui s'attachent au ménisque latéral."},{"t":"De la face médiale du condyle médial du fémur, des fibres gagnant le ménisque médial","j":"Le poplité occupe l'angle latéral du creux poplité : aucune attache médiale ne lui est décrite."},{"t":"De la face postérieure du tibia, au-dessus de la ligne oblique du soléaire","j":"C'est là qu'il se TERMINE après avoir traversé le creux poplité ; son origine, elle, est fémorale."},{"t":"De la tête de la fibula et du ligament poplité arqué, en dehors","j":"Son tendon croise ces structures et passe sous le ligament poplité arqué, mais ne s'y attache pas."}]},
-    {"q":"Quelle action le cours attribue-t-il au muscle poplité au niveau du genou ?","c":14,"options":[{"t":"Flexion et rotation interne, avec déverrouillage de l'articulation et recul du ménisque latéral","correct":true,"j":"Le cours lui confie l'amorce de la flexion par rotation interne du tibia, qui déverrouille le genou, ainsi que le recul du ménisque latéral."},{"t":"Flexion et rotation externe, avec déverrouillage de l'articulation et recul du ménisque médial","j":"Les deux composantes sont inversées : le poplité tourne le tibia en dedans et déplace le ménisque latéral."},{"t":"Extension et rotation interne, avec verrouillage de l'articulation en fin de course","j":"Le verrouillage terminal en extension résulte d'une rotation externe automatique, que le poplité combat au lieu de produire."},{"t":"Flexion du genou et flexion plantaire de la cheville, sans composante rotatoire","j":"Le poplité ne descend pas au-delà du tibia proximal : il n'exerce aucune action sur la cheville."}]},
-    {"q":"Au passage de la cheville, le tendon du long fléchisseur des orteils se situe :","c":14,"options":[{"t":"En arrière de la malléole médiale, en arrière et en dehors du tendon du tibial postérieur","correct":true,"j":"Le cours le fait passer derrière la malléole tibiale, en situation postéro-latérale par rapport au tibial postérieur, puis sur l'apex du sustentaculum tali."},{"t":"En arrière de la malléole médiale, en avant et en dedans du tendon du tibial postérieur","j":"Inverse les rapports : c'est le tibial postérieur qui occupe la position la plus antérieure et la plus médiale de la coulisse."},{"t":"En arrière de la malléole latérale, dans la coulisse des tendons fibulaires","j":"Cette coulisse rétro-malléolaire externe est réservée aux muscles de la loge latérale de la jambe."},{"t":"En avant de la malléole médiale, sous le rétinaculum des extenseurs","j":"Le passage antérieur est celui des muscles de la loge antérieure ; les fléchisseurs contournent la cheville par l'arrière."}]},
-    {"q":"Dans la plante du pied, le tendon du long fléchisseur de l'hallux croise celui du long fléchisseur des orteils. Selon le cours, il :","c":14,"options":[{"t":"Passe sur le tendon du long fléchisseur des orteils et lui abandonne un faisceau communicant","correct":true,"j":"Le cours écrit que le tendon du long fléchisseur de l'hallux « passe sur le tendon du LFO (faisceau communicant) », et décrit en miroir le LFO passant sous celui de l'hallux."},{"t":"Passe sous le tendon du long fléchisseur des orteils et lui abandonne un faisceau communicant","j":"Le faisceau communicant existe bien, mais le cours décrit le rapport inverse : c'est le long fléchisseur des orteils qui passe sous le tendon de l'hallux."},{"t":"Passe sur le tendon du long fléchisseur des orteils sans aucun échange de fibres","j":"Le rapport de position est juste, mais le cours insiste sur l'existence d'un faisceau communicant entre les deux tendons."},{"t":"Reste latéral par rapport à lui sur tout son trajet, sans jamais le croiser","j":"Les deux tendons se croisent bel et bien, celui de l'hallux venant du bord latéral pour gagner le premier orteil."}]},
-    {"q":"Le tendon du tibial postérieur se termine sur :","c":14,"options":[{"t":"Le naviculaire, le cuboïde, les cunéiformes et les bases des 2e à 4e métatarsiens","correct":true,"j":"Le cours lui décrit une terminaison étalée en éventail sur plusieurs os du tarse et sur trois bases métatarsiennes."},{"t":"Le tubercule du naviculaire et lui seul, en arrière du cunéiforme médial","j":"Le tubercule naviculaire n'est que son ancrage principal : le cours étend sa terminaison à plusieurs autres pièces osseuses."},{"t":"Les bases des phalanges distales des quatre derniers orteils","j":"Cette terminaison digitale est celle d'un fléchisseur long des orteils ; le tibial postérieur reste tarsien et métatarsien."},{"t":"La base de la phalange distale de l'hallux, après la gouttière du talus","j":"Le tibial postérieur n'atteint aucune phalange et son tendon n'est pas réservé au premier rayon."}]},
-    {"q":"Le rétinaculum inférieur des extenseurs, en forme de Y, s'insère :","c":14,"options":[{"t":"Par sa pointe sur le calcanéus, sa branche supérieure sur la malléole médiale, sa branche inférieure se prolongeant par l'aponévrose plantaire","correct":true,"j":"Le cours décrit exactement cette disposition : pied du Y sur le calcanéus en dehors, branche haute vers la malléole interne, branche basse continue avec l'aponévrose plantaire."},{"t":"Par sa pointe sur la malléole médiale, sa branche supérieure sur le calcanéus, sa branche inférieure se prolongeant par l'aponévrose plantaire","j":"Intervertit la pointe et la branche supérieure : c'est le calcanéus, en dehors, qui donne le pied du Y."},{"t":"Par sa pointe sur le calcanéus, sa branche supérieure sur la malléole latérale, sa branche inférieure se prolongeant par le fascia dorsal du pied","j":"La branche supérieure gagne la malléole médiale, et c'est l'aponévrose plantaire qui prolonge la branche inférieure."},{"t":"Par sa pointe sur le cuboïde, ses deux branches gagnant les bords antérieurs du tibia et de la fibula","j":"Ces attaches tibiale et fibulaire sont celles du rétinaculum supérieur des extenseurs, simple bande transversale sans forme en Y."}]},
-    {"q":"Le rétinaculum fibulaire supérieur est tendu :","c":14,"options":[{"t":"De la malléole latérale à la face latérale du calcanéus","correct":true,"j":"Le cours le fait partir de la malléole latérale vers l'arrière pour s'insérer sur la face latérale du calcanéus, où il plaque les tendons des long et court fibulaires, chacun pourvu de sa gaine synoviale."},{"t":"De la malléole médiale à la face médiale du calcanéus","j":"Ce trajet médial est celui du rétinaculum des fléchisseurs, qui maintient les tendons de la loge postérieure profonde."},{"t":"De la crête fibulaire du calcanéus aux bords antérieurs du tibia et de la fibula","j":"Il mêle des repères empruntés à deux autres rétinaculums, l'un fibulaire inférieur, l'autre extenseur supérieur."},{"t":"Du bord postérieur de la fibula au tendon calcanéen","j":"Aucun rétinaculum ne prend attache sur le tendon calcanéen, qui reste libre dans la région postérieure de la cheville."}]},
-    {"q":"Outre la flexion des orteils, quelle fonction le cours attribue-t-il au carré plantaire ?","c":15,"options":[{"t":"Le maintien de la voûte plantaire longitudinale du pied","correct":true,"j":"Le cours lui attribue, outre la flexion des orteils, le maintien de la voûte plantaire longitudinale, qu'il assure en redressant la traction oblique du tendon des fléchisseurs."},{"t":"Le rapprochement des orteils vers l'axe du deuxième orteil","j":"Le carré plantaire se termine sur le tendon des fléchisseurs et n'a aucune attache propre sur le squelette des orteils : il ne peut les rapprocher les uns des autres."},{"t":"L'écartement du cinquième orteil par rapport à l'axe du pied","j":"Cette abduction du petit orteil est l'œuvre d'un muscle propre au bord latéral de la plante."},{"t":"L'extension des phalanges distales par l'expansion dorsale","j":"Cette action passe par l'appareil extenseur dorsal, auquel le carré plantaire n'envoie aucune expansion."}]}
+    {
+      "q": "Comment le condyle fémoral médial se compare-t-il au condyle latéral ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Il est plus étroit et plus long",
+          "correct": true,
+          "j": "Le cours insiste sur ce point : le condyle médial est à la fois plus étroit et plus long, et il dépasse le condyle latéral vers le bas."
+        },
+        {
+          "t": "Il est plus large et plus court",
+          "j": "C'est l'inverse exact de la description du cours : large et court caractérise plutôt le condyle latéral."
+        },
+        {
+          "t": "Il est plus étroit et plus court",
+          "j": "La largeur est juste mais la longueur est fausse : le condyle médial est le plus long des deux, et c'est pourquoi il descend plus bas."
+        },
+        {
+          "t": "Il est plus large et plus long",
+          "j": "La longueur est juste mais la largeur est fausse : c'est le condyle latéral qui est le plus large des deux."
+        }
+      ]
+    },
+    {
+      "q": "La cavité glénoïde LATÉRALE du tibia est :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Concave transversalement et convexe d'avant en arrière",
+          "correct": true,
+          "j": "Le cours la décrit comme légèrement concave dans le plan frontal mais convexe dans le plan sagittal, ce qui la rend peu contenante."
+        },
+        {
+          "t": "Concave transversalement et concave d'avant en arrière",
+          "j": "Cette double concavité est celle de la cavité glénoïde médiale, nettement plus creusée et plus congruente."
+        },
+        {
+          "t": "Convexe transversalement et concave d'avant en arrière",
+          "j": "Les deux courbures sont inversées : aucune cavité glénoïde n'est convexe dans le plan transversal."
+        },
+        {
+          "t": "Convexe transversalement et convexe d'avant en arrière",
+          "j": "Une surface entièrement convexe ne pourrait pas recevoir un condyle fémoral ; la convexité du plateau latéral est limitée au sens antéro-postérieur."
+        }
+      ]
+    },
+    {
+      "q": "La courbure antéro-postérieure des condyles fémoraux :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Décrit une spirale dont le rayon diminue d'avant en arrière",
+          "correct": true,
+          "j": "Le cours parle d'une courbe en spirale dont le rayon décroît dans le sens antéro-postérieur, ce qui déplace le contact fémoro-tibial au fil de la flexion."
+        },
+        {
+          "t": "Décrit une spirale dont le rayon augmente d'avant en arrière",
+          "j": "Le sens de variation est inversé : le rayon de courbure des condyles se réduit vers l'arrière, il n'augmente pas."
+        },
+        {
+          "t": "Correspond à un arc de cercle de rayon constant",
+          "j": "Un rayon constant imposerait une rotation pure autour d'un axe fixe ; le cours décrit au contraire une courbe en spirale."
+        },
+        {
+          "t": "Correspond à deux arcs de cercle de rayons égaux",
+          "j": "Il ne s'agit pas de deux arcs de cercle : le cours décrit pour chaque condyle une courbe en spirale, dont le rayon varie tout au long du trajet antéro-postérieur."
+        }
+      ]
+    },
+    {
+      "q": "La face patellaire (trochlée fémorale) se caractérise par :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Un versant latéral plus large et plus proéminent",
+          "correct": true,
+          "j": "Le cours souligne que le versant latéral de la trochlée domine en largeur comme en relief, ce qui s'oppose au déplacement latéral de la patella."
+        },
+        {
+          "t": "Un versant médial plus large et plus proéminent",
+          "j": "La latéralité est inversée : le versant médial est le plus petit et le moins saillant des deux."
+        },
+        {
+          "t": "Deux versants strictement symétriques",
+          "j": "La trochlée fémorale est asymétrique ; une symétrie parfaite laisserait la patella sans butée osseuse latérale."
+        },
+        {
+          "t": "Un versant latéral plus large mais moins proéminent",
+          "j": "La largeur est juste, le relief est faux : le versant latéral est aussi celui qui fait le plus saillie en avant."
+        }
+      ]
+    },
+    {
+      "q": "La face postérieure de la patella comporte :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Une partie supérieure lisse cartilagineuse et une partie inférieure rugueuse",
+          "correct": true,
+          "j": "Le cours distingue bien ces deux zones : en haut le cartilage articulaire, en bas une surface rugueuse qui répond à un faisceau cellulo-adipeux."
+        },
+        {
+          "t": "Une partie supérieure rugueuse et une partie inférieure lisse cartilagineuse",
+          "j": "Les deux zones sont inversées : c'est la partie supérieure qui porte le revêtement cartilagineux articulaire."
+        },
+        {
+          "t": "Une surface rugueuse uniforme, entièrement non articulaire",
+          "j": "La patella serait alors dépourvue de surface articulaire, alors que sa face postérieure glisse sur le fémur par du cartilage."
+        },
+        {
+          "t": "Deux facettes cartilagineuses, latérale et médiale, sans aucune zone rugueuse",
+          "j": "Les deux facettes articulaires existent bien, mais elles n'occupent que la moitié supérieure : la partie inférieure de la face postérieure reste rugueuse et non articulaire."
+        }
+      ]
+    },
+    {
+      "q": "Les cornes des ménisques du genou s'attachent :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Dans l'espace intercondylaire du plateau tibial",
+          "correct": true,
+          "j": "Le cours précise que les cornes méniscales s'amarrent dans la zone intercondylaire du tibia, ce qui fixe les deux extrémités de chaque ménisque."
+        },
+        {
+          "t": "Sur la fosse intercondylaire du fémur",
+          "j": "La fosse intercondylaire sépare les deux condyles fémoraux et reçoit les ligaments croisés, non les cornes méniscales."
+        },
+        {
+          "t": "Sur la face profonde de la capsule articulaire",
+          "j": "C'est le bord externe du ménisque, et non ses cornes, qui adhère à la capsule sur toute sa périphérie."
+        },
+        {
+          "t": "Sur le pourtour cartilagineux des cavités glénoïdes",
+          "j": "Le ménisque repose sur ce pourtour mais n'y prend pas attache : ses cornes gagnent la zone intercondylaire."
+        }
+      ]
+    },
+    {
+      "q": "Le plan profond (capsulaire) du groupe ligamentaire antérieur du genou comprend :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Les ligaments fémoro-patellaires et ménisco-patellaires",
+          "correct": true,
+          "j": "Ce plan est constitué de renforts capsulaires qui amarrent la patella aux condyles fémoraux (ailerons) et aux ménisques."
+        },
+        {
+          "t": "Le ligament patellaire et les rétinaculums patellaires",
+          "j": "Ces structures appartiennent au plan médial (ou tendineux) du groupe antérieur, situé en avant du plan capsulaire."
+        },
+        {
+          "t": "Le fascia lata et le fascia de la jambe",
+          "j": "Ces deux nappes constituent le plan superficiel, dit fascial, le plus externe des trois plans antérieurs."
+        },
+        {
+          "t": "Les ligaments ménisco-fémoraux antérieur et postérieur",
+          "j": "Le cours range ces ligaments dans le groupe postérieur du genou, avec les croisés, et non dans le groupe antérieur."
+        }
+      ]
+    },
+    {
+      "q": "La capsule articulaire du genou s'insère :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Sur trois sites : fémoral, tibial et patellaire",
+          "correct": true,
+          "j": "La capsule a l'aspect d'un cylindre dont les bords gagnent l'extrémité inférieure du fémur, l'extrémité supérieure du tibia et la patella."
+        },
+        {
+          "t": "Sur deux sites : fémoral et tibial",
+          "j": "Cette description oublie l'insertion patellaire, pourtant indispensable puisque la patella est enchâssée dans la paroi capsulaire."
+        },
+        {
+          "t": "Sur trois sites : fémoral, tibial et fibulaire",
+          "j": "La fibula ne participe pas à l'articulation du genou : elle appartient à l'articulation tibio-fibulaire proximale, indépendante."
+        },
+        {
+          "t": "Sur deux sites : fémoral et patellaire",
+          "j": "L'insertion tibiale manque ici, alors qu'elle forme tout le bord inférieur du cylindre capsulaire."
+        }
+      ]
+    },
+    {
+      "q": "Dans sa région postérieure, la membrane synoviale du genou :",
+      "c": 11,
+      "options": [
+        {
+          "t": "Recouvre les faces antérieure et latérales des croisés",
+          "correct": true,
+          "j": "Elle se réfléchit en avant et sur les côtés des ligaments croisés, qui restent ainsi en dehors de la cavité articulaire proprement dite."
+        },
+        {
+          "t": "Englobe entièrement les deux ligaments croisés",
+          "j": "Les croisés ne baignent pas dans le liquide articulaire : la synoviale ne les tapisse pas sur toute leur circonférence."
+        },
+        {
+          "t": "Est interrompue en regard des ligaments croisés",
+          "j": "Il n'existe aucune interruption synoviale à ce niveau ; l'interruption décrite par le cours siège au niveau des bords du ménisque."
+        },
+        {
+          "t": "Passe entre les deux croisés sans les recouvrir",
+          "j": "Réduire la synoviale à un simple refend entre les deux croisés méconnaît la gaine qui les habille en avant et latéralement."
+        }
+      ]
+    },
+    {
+      "q": "La bourse suprapatellaire (cul-de-sac sous-quadricipital) :",
+      "c": 11,
+      "options": [
+        {
+          "t": "S'étend vers le haut entre le fémur et le tendon du quadriceps",
+          "correct": true,
+          "j": "Elle facilite le glissement du tendon quadricipital sur l'extrémité distale du fémur et autorise la flexion comme l'extension complètes."
+        },
+        {
+          "t": "S'étend en arrière entre la capsule et le gastrocnémien médial",
+          "j": "Il existe bien une bourse sous-tendineuse à ce niveau, mais c'est une bourse postérieure, sans rapport avec l'appareil extenseur."
+        },
+        {
+          "t": "S'interpose entre la peau et la face antérieure de la patella",
+          "j": "Cette situation sous-cutanée est celle de la bourse pré-patellaire, qui ne communique pas avec le cul-de-sac supérieur."
+        },
+        {
+          "t": "Se situe entre le tendon du poplité et le condyle latéral",
+          "j": "Ce récessus postéro-latéral accompagne le tendon du poplité ; il n'est pas un prolongement supérieur de la cavité articulaire."
+        }
+      ]
+    },
+    {
+      "q": "Quelle bourse séreuse s'interpose entre le ligament patellaire et la face antérieure du tibia ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "La bourse infra-patellaire profonde",
+          "correct": true,
+          "j": "Logée en arrière du ligament patellaire, elle amortit le frottement de ce tendon contre l'os tibial sous-jacent."
+        },
+        {
+          "t": "La bourse infra-patellaire superficielle",
+          "j": "Celle-ci siège en avant du ligament patellaire, juste sous la peau, et non entre le ligament et l'os."
+        },
+        {
+          "t": "La bourse sous-cutanée pré-patellaire",
+          "j": "Elle répond à la patella elle-même, sous la peau, bien au-dessus du segment tibial de l'appareil extenseur."
+        },
+        {
+          "t": "La bourse du muscle semi-membraneux",
+          "j": "Cette bourse double le tendon du semi-membraneux sur le versant postérieur du genou, loin de la face antérieure du tibia."
+        }
+      ]
+    },
+    {
+      "q": "Les mouvements de rotation du genou se produisent :",
+      "c": 11,
+      "options": [
+        {
+          "t": "À l'articulation ménisco-tibiale, autour d'un axe passant par l'épine tibiale",
+          "correct": true,
+          "j": "Le cours situe la rotation entre les ménisques et le plateau tibial, l'axe vertical traversant l'épine tibiale."
+        },
+        {
+          "t": "À l'articulation fémoro-méniscale, autour d'un axe passant par la fosse intercondylaire",
+          "j": "L'étage fémoro-méniscal est celui de la flexion-extension ; la rotation se joue à l'étage situé au-dessous."
+        },
+        {
+          "t": "À l'articulation fémoro-patellaire, autour d'un axe passant par la trochlée",
+          "j": "L'articulation fémoro-patellaire ne fait que guider la patella dans la gorge trochléenne, sans rotation axiale de la jambe."
+        },
+        {
+          "t": "À l'articulation tibio-fibulaire, autour d'un axe passant par la tête fibulaire",
+          "j": "Cette articulation accompagne les contraintes venues de la cheville ; elle n'est pas le siège de la rotation du genou."
+        }
+      ]
+    },
+    {
+      "q": "Quelles sont les amplitudes d'hyperextension du genou ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "10° en actif et 15° en passif",
+          "correct": true,
+          "j": "Ce sont les valeurs retenues par le cours pour l'extension au-delà de la rectitude, freinée notamment par le plan fibreux postérieur."
+        },
+        {
+          "t": "5° en actif et 10° en passif",
+          "j": "Ces chiffres sous-estiment l'hyperextension : le cours accorde le double en actif, et davantage encore en passif."
+        },
+        {
+          "t": "15° en actif et 20° en passif",
+          "j": "Ces valeurs traduiraient un genou recurvatum ; le cours place l'hyperextension active nettement plus bas."
+        },
+        {
+          "t": "10° en actif et 20° en passif",
+          "j": "La valeur active est juste mais le gain passif est surestimé : il n'est que de quelques degrés supplémentaires."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces muscles appartient au plan PROFOND du groupe médial de la cuisse ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "L'obturateur externe",
+          "correct": true,
+          "j": "Le cours range dans le plan profond du groupe médial l'obturateur externe et le grand adducteur."
+        },
+        {
+          "t": "Le court adducteur",
+          "j": "Le court adducteur occupe le plan médian du groupe médial, intercalé entre les deux autres plans."
+        },
+        {
+          "t": "Le long adducteur",
+          "j": "Le long adducteur appartient au plan superficiel du groupe médial, qu'il partage avec le pectiné."
+        },
+        {
+          "t": "Le muscle gracile",
+          "j": "Le gracile est le muscle le plus médial du plan superficiel ; il ne descend jamais dans le plan profond."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle du groupe médial de la cuisse est innervé par le nerf fémoral ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Le muscle pectiné",
+          "correct": true,
+          "j": "Le pectiné est le seul muscle du groupe médial à recevoir sa commande du nerf fémoral, alors que ses voisins dépendent du nerf obturateur."
+        },
+        {
+          "t": "Le long adducteur",
+          "j": "Le long adducteur dépend du nerf obturateur, comme la grande majorité des muscles de ce groupe."
+        },
+        {
+          "t": "Le court adducteur",
+          "j": "Le court adducteur est lui aussi tributaire du nerf obturateur, qui chemine directement à son contact."
+        },
+        {
+          "t": "Le muscle gracile",
+          "j": "Le gracile est innervé par le nerf obturateur, bien qu'il franchisse le genou et agisse sur la jambe."
+        }
+      ]
+    },
+    {
+      "q": "Quels nerfs innervent le grand adducteur ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Le nerf obturateur et le nerf sciatique",
+          "correct": true,
+          "j": "Le grand adducteur est à double commande : sa composante adductrice relève de l'obturateur, sa composante extensive du sciatique."
+        },
+        {
+          "t": "Le nerf obturateur et le nerf fémoral",
+          "j": "Le nerf fémoral n'envoie aucune branche au grand adducteur : il commande essentiellement la loge antérieure de la cuisse."
+        },
+        {
+          "t": "Le nerf fémoral exclusivement",
+          "j": "Une innervation fémorale exclusive est impossible pour ce muscle, qui ne reçoit aucune fibre de ce nerf."
+        },
+        {
+          "t": "Le nerf obturateur exclusivement",
+          "j": "L'obturateur innerve bien une partie du grand adducteur, mais sa commande n'est pas exclusive : un second tronc la complète."
+        }
+      ]
+    },
+    {
+      "q": "Le long adducteur réalise sur la cuisse :",
+      "c": 12,
+      "options": [
+        {
+          "t": "Adduction, flexion et rotation externe",
+          "correct": true,
+          "j": "Le cours lui attribue ces trois actions, qu'il partage avec le court adducteur dont il a la même origine pubienne."
+        },
+        {
+          "t": "Adduction, extension et rotation interne",
+          "j": "Les deux dernières actions sont inversées : le long adducteur fléchit la cuisse et la tourne en dehors."
+        },
+        {
+          "t": "Adduction, flexion et rotation interne",
+          "j": "La flexion est juste, le sens de rotation est faux : ce muscle porte la cuisse en rotation externe."
+        },
+        {
+          "t": "Adduction, extension et rotation externe",
+          "j": "La rotation est juste, mais le long adducteur est fléchisseur de la cuisse et non extenseur."
+        }
+      ]
+    },
+    {
+      "q": "Le sartorius réalise sur la hanche :",
+      "c": 12,
+      "options": [
+        {
+          "t": "Flexion, abduction et rotation latérale",
+          "correct": true,
+          "j": "Son trajet oblique depuis l'épine iliaque antéro-supérieure lui fait associer ces trois composantes sur la cuisse."
+        },
+        {
+          "t": "Flexion, adduction et rotation latérale",
+          "j": "Le sartorius écarte la cuisse de l'axe du corps : il est abducteur et non adducteur."
+        },
+        {
+          "t": "Extension, abduction et rotation médiale",
+          "j": "Deux erreurs ici : le sartorius fléchit la hanche et la tourne en dehors, non en dedans."
+        },
+        {
+          "t": "Flexion, abduction et rotation médiale",
+          "j": "Les deux premières actions sont justes mais le sens de rotation est inversé : la rotation imprimée est latérale."
+        }
+      ]
+    },
+    {
+      "q": "Le groupe antérieur de la cuisse est composé :",
+      "c": 12,
+      "options": [
+        {
+          "t": "Du quadriceps fémoral et du muscle sartorius",
+          "correct": true,
+          "j": "Le cours ne retient que ces deux formations dans la loge antérieure, le quadriceps comptant à lui seul quatre chefs."
+        },
+        {
+          "t": "Du quadriceps fémoral et du tenseur du fascia lata",
+          "j": "Le tenseur du fascia lata est rattaché aux muscles de la hanche et n'est pas compté dans le groupe antérieur de la cuisse."
+        },
+        {
+          "t": "Du quadriceps fémoral, du sartorius et du gracile",
+          "j": "Le gracile est de trop : le cours le classe dans le plan superficiel du groupe médial de la cuisse."
+        },
+        {
+          "t": "Du quadriceps fémoral et du muscle pectiné",
+          "j": "Le pectiné n'appartient pas à la loge antérieure : il figure dans le plan superficiel du groupe médial."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle forme la paroi LATÉRALE du canal des adducteurs (de Hunter) ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Le vaste médial",
+          "correct": true,
+          "j": "Malgré son nom, ce chef du quadriceps borde le canal en dehors et le sépare de la loge antérieure de la cuisse."
+        },
+        {
+          "t": "Le sartorius",
+          "j": "Le sartorius constitue la paroi antéro-interne du canal, qu'il recouvre comme un toit."
+        },
+        {
+          "t": "Le long adducteur",
+          "j": "Le long adducteur participe à la paroi postérieure du canal, et non à sa paroi latérale."
+        },
+        {
+          "t": "Le grand adducteur",
+          "j": "Le grand adducteur ferme lui aussi le canal en arrière ; son anneau en marque l'extrémité inférieure."
+        }
+      ]
+    },
+    {
+      "q": "Le plancher de la fosse poplitée est formé par :",
+      "c": 12,
+      "options": [
+        {
+          "t": "La face postérieure de l'articulation et le muscle poplité",
+          "correct": true,
+          "j": "Le plancher associe le plan articulaire postérieur du genou et ce petit muscle appliqué contre lui."
+        },
+        {
+          "t": "La face postérieure du fémur et le chef médial du gastrocnémien",
+          "j": "Le chef médial du gastrocnémien borde la fosse sans en constituer le plancher, et le fémur n'est pas retenu par le cours parmi les éléments de ce plancher."
+        },
+        {
+          "t": "La membrane interosseuse et le corps du muscle soléaire",
+          "j": "Ces structures appartiennent à la jambe et se situent bien au-dessous des limites de la fosse poplitée."
+        },
+        {
+          "t": "La capsule articulaire et le muscle plantaire grêle",
+          "j": "Le plantaire est un muscle grêle accessoire que le cours ne retient pas dans la constitution du plancher."
+        }
+      ]
+    },
+    {
+      "q": "La fosse poplitée est limitée en haut et en dedans par :",
+      "c": 12,
+      "options": [
+        {
+          "t": "Le semi-membraneux et le semi-tendineux",
+          "correct": true,
+          "j": "Ces deux ischio-jambiers médiaux dessinent le bord supéro-médial du losange poplité."
+        },
+        {
+          "t": "Le biceps fémoral et le gracile",
+          "j": "Le biceps fémoral borde la fosse en haut et en dehors, et le gracile ne figure pas parmi les muscles qui la limitent."
+        },
+        {
+          "t": "Le chef médial du gastrocnémien et le sartorius",
+          "j": "Le gastrocnémien médial ferme la fosse en bas et non en haut ; le sartorius n'entre pas dans ses limites."
+        },
+        {
+          "t": "Le grand adducteur et le semi-membraneux",
+          "j": "Le semi-membraneux est bien l'un des deux muscles attendus, mais le grand adducteur s'arrête avant la fosse."
+        }
+      ]
+    },
+    {
+      "q": "Le triangle fémoral (de Scarpa) contient :",
+      "c": 12,
+      "options": [
+        {
+          "t": "L'artère fémorale, la veine fémorale et le nerf fémoral",
+          "correct": true,
+          "j": "Le cours décrit ce trépied vasculo-nerveux dans le triangle, le nerf étant le plus latéral des trois éléments."
+        },
+        {
+          "t": "L'artère fémorale profonde, la veine et le nerf obturateur",
+          "j": "Le nerf obturateur reste plus médial et plus profond : il quitte le bassin sans traverser le triangle."
+        },
+        {
+          "t": "L'artère fémorale, la veine fémorale et le nerf obturateur",
+          "j": "Les deux vaisseaux sont justes mais le nerf est faux : c'est le nerf fémoral qui accompagne ici le paquet vasculaire."
+        },
+        {
+          "t": "L'artère iliaque externe, la veine fémorale et le nerf fémoral",
+          "j": "L'artère iliaque externe change de nom en franchissant le ligament inguinal : dans le triangle, elle est déjà fémorale."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'origine commune du semi-tendineux, du semi-membraneux et du chef long du biceps fémoral ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "La tubérosité ischiatique",
+          "correct": true,
+          "j": "Les trois ischio-jambiers vrais y prennent naissance, ce qui explique leur action extensive commune sur la cuisse."
+        },
+        {
+          "t": "La branche ischio-pubienne",
+          "j": "Cette branche donne naissance au grand adducteur, qui appartient au groupe médial et non au groupe postérieur."
+        },
+        {
+          "t": "L'épine ischiatique",
+          "j": "L'épine ischiatique donne insertion à des muscles pelvi-trochantériens, et non aux muscles de la loge postérieure."
+        },
+        {
+          "t": "La ligne âpre du fémur",
+          "j": "Seul le chef court du biceps fémoral y naît ; les trois muscles cités ont tous une origine pelvienne."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, le premier plan (le plus superficiel) de la plante du pied est constitué par :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Le court fléchisseur des orteils, le court abducteur de l'hallux et l'abducteur du 5e orteil",
+          "correct": true,
+          "j": "Ces trois muscles forment la couche 1, étalée juste sous l'aponévrose plantaire : un muscle central flanqué des deux muscles d'écartement des orteils extrêmes."
+        },
+        {
+          "t": "Le court fléchisseur des orteils, le carré plantaire et l'adducteur de l'hallux",
+          "j": "Le carré plantaire et l'adducteur de l'hallux sont tous deux recouverts par d'autres muscles plantaires : seul le court fléchisseur des orteils, ici, affleure sous l'aponévrose."
+        },
+        {
+          "t": "Le court abducteur de l'hallux, l'abducteur du 5e orteil et les interosseux dorsaux",
+          "j": "Les interosseux dorsaux sont logés entre les métatarsiens, dans le plan le plus profond du pied : ils ne peuvent appartenir à la couche superficielle."
+        },
+        {
+          "t": "Le court fléchisseur des orteils, le court fléchisseur de l'hallux et le fléchisseur du 5e orteil",
+          "j": "Les deux fléchisseurs courts des orteils extrêmes sont des muscles profonds de l'avant-pied ; la couche 1 leur substitue les deux abducteurs."
+        }
+      ]
+    },
+    {
+      "q": "Quels muscles constituent le deuxième plan (couche 2) de la plante du pied ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Le carré plantaire et les muscles lombricaux du pied",
+          "correct": true,
+          "j": "Ces deux formations constituent ensemble la couche 2, interposée entre le muscle superficiel de la plante et les muscles courts des orteils extrêmes."
+        },
+        {
+          "t": "Le carré plantaire et le court fléchisseur des orteils",
+          "j": "Le court fléchisseur des orteils possède ses propres tendons pour les orteils et occupe un étage plus superficiel que la couche 2."
+        },
+        {
+          "t": "Les muscles lombricaux et les interosseux plantaires",
+          "j": "Les interosseux plantaires, tendus entre les métatarsiens, appartiennent à la couche la plus profonde du pied."
+        },
+        {
+          "t": "Le court fléchisseur de l'hallux et l'adducteur de l'hallux",
+          "j": "Ce couple constitue le plan profond du groupe médial, consacré au seul gros orteil, et non la couche 2."
+        }
+      ]
+    },
+    {
+      "q": "Sur quelles structures les quatre muscles interosseux dorsaux s'insèrent-ils distalement ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Sur la base des premières phalanges des 2e, 3e et 4e orteils",
+          "correct": true,
+          "j": "Selon le cours, les quatre interosseux dorsaux gagnent la base de la phalange proximale de ces trois orteils moyens."
+        },
+        {
+          "t": "Sur la base des premières phalanges des 3e, 4e et 5e orteils",
+          "j": "Cette répartition plus latérale, qui délaisse le 2e orteil, est celle des interosseux plantaires et non des dorsaux."
+        },
+        {
+          "t": "Sur la base des phalanges intermédiaires des 2e, 3e et 4e orteils",
+          "j": "Aucun interosseux n'atteint la phalange intermédiaire : ces muscles s'arrêtent à la base de la phalange proximale."
+        },
+        {
+          "t": "Sur la face dorsale des têtes des 2e, 3e et 4e métatarsiens",
+          "j": "Les têtes métatarsiennes ne sont qu'un relief franchi par ces muscles, qui dépassent l'articulation pour gagner la phalange."
+        }
+      ]
+    },
+    {
+      "q": "Dans la classification du cours, le groupe latéral de la plante du pied comprend :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Le fléchisseur du 5e orteil, son opposant et son abducteur",
+          "correct": true,
+          "j": "Ce groupe réunit trois muscles propres au 5e orteil : le fléchisseur et l'opposant dans le plan profond, l'abducteur dans le plan de surface."
+        },
+        {
+          "t": "Le court fléchisseur, l'adducteur et l'abducteur de l'hallux",
+          "j": "Ces trois muscles composent le groupe médial, entièrement consacré au gros orteil, à l'opposé du bord latéral du pied."
+        },
+        {
+          "t": "Le court fléchisseur des orteils, le carré plantaire et les lombricaux",
+          "j": "Ce sont les muscles du groupe central de la plante, qui agissent sur les quatre derniers orteils et non sur le seul 5e."
+        },
+        {
+          "t": "L'abducteur du 5e orteil et les interosseux de la plante",
+          "j": "Les interosseux appartiennent au plan profond du groupe CENTRAL de la plante ; l'abducteur du 5e orteil ne représente à lui seul que le plan de surface du groupe latéral."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'origine des muscles interosseux dorsaux du pied ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Les deux parois de chaque espace interosseux",
+          "correct": true,
+          "j": "Chaque interosseux dorsal est bipenné : il naît des deux faces osseuses qui bordent l'espace compris entre deux métatarsiens voisins."
+        },
+        {
+          "t": "La face plantaire de la base des métatarsiens",
+          "j": "Cette face reçoit des ligaments plantaires et des tendons longs, mais les interosseux dorsaux naissent à l'intérieur même de l'espace."
+        },
+        {
+          "t": "Le bord latéral du tendon du long fléchisseur des orteils",
+          "j": "Ce bord tendineux est une zone de terminaison musculaire dans la plante, et non une surface d'origine : aucun interosseux n'y prend naissance."
+        },
+        {
+          "t": "La face dorsale de la base des phalanges proximales",
+          "j": "Il s'agit d'une zone de terminaison de l'appareil extenseur des orteils, non d'une origine musculaire sur le squelette métatarsien."
+        }
+      ]
+    },
+    {
+      "q": "De quelle paroi naissent les trois muscles interosseux plantaires ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "De la paroi latérale des 2e, 3e et 4e espaces interosseux",
+          "correct": true,
+          "j": "Ils s'attachent au versant latéral de ces espaces, c'est-à-dire aux 3e, 4e et 5e métatarsiens, d'où leur disposition unipennée."
+        },
+        {
+          "t": "De la paroi médiale des 2e, 3e et 4e espaces interosseux",
+          "j": "La paroi médiale de ces espaces n'offre aucune origine aux interosseux plantaires, qui s'attachent sur le versant opposé."
+        },
+        {
+          "t": "De la paroi latérale des 1er, 2e et 3e espaces interosseux",
+          "j": "Les trois premiers espaces intéressent les métatarsiens médiaux ; les interosseux plantaires dépendent au contraire des trois derniers métatarsiens."
+        },
+        {
+          "t": "De la face plantaire des 1er, 2e et 3e métatarsiens",
+          "j": "La face plantaire des métatarsiens médiaux est longée par les tendons fléchisseurs et ne donne pas naissance à ces muscles."
+        }
+      ]
+    },
+    {
+      "q": "Le carré plantaire (chair carrée de Sylvius) prend son origine :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Sur la face inférieure du calcanéum, par deux faisceaux",
+          "correct": true,
+          "j": "Ses deux faisceaux naissent de la face plantaire du calcanéum et convergent en avant en un corps charnu quadrilatère."
+        },
+        {
+          "t": "Sur le tubercule médial du calcanéum, par quatre faisceaux",
+          "j": "Le tubercule médial donne naissance aux éléments les plus superficiels de la plante ; le carré plantaire, plus profond, occupe la face inférieure de l'os."
+        },
+        {
+          "t": "Sur la face plantaire du cuboïde et du cunéiforme latéral",
+          "j": "Ces os du tarse antérieur donnent attache à des muscles destinés au gros orteil, alors que le carré plantaire reste strictement calcanéen."
+        },
+        {
+          "t": "Sur la tubérosité du naviculaire et le long ligament plantaire",
+          "j": "Le naviculaire reçoit surtout un tendon long inverseur du pied ; aucun faisceau du carré plantaire ne s'y attache."
+        }
+      ]
+    },
+    {
+      "q": "Les muscles lombricaux du pied sont innervés par :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Les nerfs plantaires médial et latéral",
+          "correct": true,
+          "j": "Leur innervation est partagée entre les deux branches terminales du nerf tibial, les lombricaux les plus internes relevant du contingent médial."
+        },
+        {
+          "t": "Le nerf plantaire latéral uniquement",
+          "j": "Le nerf plantaire latéral n'assure qu'une partie de cette innervation, les lombricaux les plus médiaux échappant à son territoire."
+        },
+        {
+          "t": "Le nerf plantaire médial uniquement",
+          "j": "Le nerf plantaire médial ne couvre pas tous les lombricaux : les plus latéraux dépendent de l'autre branche terminale du nerf tibial."
+        },
+        {
+          "t": "Le nerf fibulaire profond",
+          "j": "Le fibulaire profond innerve les muscles courts de la région dorsale du pied et ne pénètre jamais dans la loge plantaire."
+        }
+      ]
+    },
+    {
+      "q": "Dans la plante du pied, le tendon du long fléchisseur de l'hallux chemine dans un sillon ménagé par :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Les têtes médiale et latérale du court fléchisseur de l'hallux",
+          "correct": true,
+          "j": "Les deux têtes de ce muscle s'écartent l'une de l'autre et ménagent entre elles la gouttière où glisse le tendon long du gros orteil."
+        },
+        {
+          "t": "Les deux chefs, oblique et transverse, de l'adducteur de l'hallux",
+          "j": "Les deux chefs de l'adducteur convergent vers un point d'insertion commun et ne délimitent aucune gouttière tendineuse."
+        },
+        {
+          "t": "Les deux faisceaux d'origine du carré plantaire",
+          "j": "Les faisceaux du carré plantaire encadrent un tendon destiné aux quatre derniers orteils, en arrière de la plante, et non celui du gros orteil."
+        },
+        {
+          "t": "Les deux premiers muscles interosseux dorsaux",
+          "j": "Les interosseux dorsaux occupent les espaces entre les métatarsiens, bien au-dessus du trajet plantaire de ce tendon."
+        }
+      ]
+    },
+    {
+      "q": "Le court abducteur de l'hallux se termine sur la phalange proximale du gros orteil par l'intermédiaire :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Du sésamoïde médial de la 1re métatarso-phalangienne",
+          "correct": true,
+          "j": "Son tendon englobe le sésamoïde médial du gros orteil avant de se fixer sur la base de la phalange proximale."
+        },
+        {
+          "t": "Du sésamoïde latéral de la 1re métatarso-phalangienne",
+          "j": "Le sésamoïde latéral de la première métatarso-phalangienne sert de relais à un autre muscle court du gros orteil ; le court abducteur, lui, aborde l'hallux par son versant médial."
+        },
+        {
+          "t": "D'une expansion de l'aponévrose plantaire médiale",
+          "j": "L'aponévrose médiale enveloppe la loge du gros orteil mais ne constitue pas le relais terminal de ce muscle."
+        },
+        {
+          "t": "Du tendon du long fléchisseur de l'hallux",
+          "j": "Ce tendon traverse la loge médiale pour rejoindre la phalange distale et ne reçoit aucune terminaison du court abducteur."
+        }
+      ]
+    },
+    {
+      "q": "La tête transversale de l'adducteur de l'hallux prend son origine :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Sur les 3e, 4e et 5e articulations métatarso-phalangiennes",
+          "correct": true,
+          "j": "Elle naît des éléments capsulo-ligamentaires de ces trois articulations et traverse l'avant-pied transversalement jusqu'au gros orteil."
+        },
+        {
+          "t": "Sur les bases des 2e à 5e métatarsiens et le cuboïde",
+          "j": "Ces attaches tarso-métatarsiennes postérieures sont celles de l'autre tête du muscle, dont les fibres suivent un trajet oblique."
+        },
+        {
+          "t": "Sur les ligaments plantaires des 1re et 2e articulations métatarso-phalangiennes",
+          "j": "Les deux premières articulations métatarso-phalangiennes sont dépassées par le muscle ; sa tête transversale ne naît que des trois dernières."
+        },
+        {
+          "t": "Sur la face plantaire des cunéiformes médial et intermédiaire",
+          "j": "Les cunéiformes médiaux donnent attache à d'autres formations fibreuses de la loge du gros orteil, pas à cette tête du muscle."
+        }
+      ]
+    },
+    {
+      "q": "Quel muscle du pied soutient à la fois la voûte plantaire longitudinale et la voûte plantaire transversale ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "L'adducteur de l'hallux",
+          "correct": true,
+          "j": "La direction de ses deux têtes, l'une oblique et l'autre transversale, lui permet d'étayer les deux voûtes de la plante à la fois."
+        },
+        {
+          "t": "Le court fléchisseur de l'hallux",
+          "j": "Son trajet reste parallèle au bord médial du pied : il ne soutient que la voûte longitudinale."
+        },
+        {
+          "t": "Le carré plantaire",
+          "j": "Son corps charnu reste en arrière de la plante et se termine sur le tendon des fléchisseurs, sans jamais croiser la ligne des têtes métatarsiennes : il ne peut étayer l'arche transversale."
+        },
+        {
+          "t": "Le court abducteur de l'hallux",
+          "j": "Placé le long du bord médial du pied, il participe au maintien de la voûte longitudinale sans agir sur l'arche transversale."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'origine du fléchisseur (court fléchisseur) du 5e orteil ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "La base du 5e métatarsien et le long ligament plantaire",
+          "correct": true,
+          "j": "Il naît de l'extrémité postérieure du 5e métatarsien et du puissant ligament plantaire long qui double cette région en arrière."
+        },
+        {
+          "t": "La face inférieure du calcanéum, en dehors",
+          "j": "Cette surface calcanéenne latérale est l'origine de l'abducteur du 5e orteil, alors que le fléchisseur s'attache sur l'avant-pied."
+        },
+        {
+          "t": "La moitié distale du 5e métatarsien",
+          "j": "La portion distale du 5e métatarsien correspond à l'origine de l'autre muscle profond du bord latéral, qui gagne la même phalange."
+        },
+        {
+          "t": "Le tubercule latéral de la tubérosité calcanéenne et le cuboïde",
+          "j": "Ces reliefs postérieurs donnent attache à des formations fibreuses du bord latéral, non à ce muscle de l'avant-pied."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'action de l'opposant du 5e orteil ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Flexion et adduction du 5e orteil",
+          "correct": true,
+          "j": "Il fléchit le 5e orteil tout en le ramenant vers l'axe du pied, ce qui accentue la concavité du bord latéral de la plante."
+        },
+        {
+          "t": "Flexion et abduction du 5e orteil",
+          "j": "L'association flexion-abduction caractérise le muscle le plus superficiel du bord latéral, et non l'opposant."
+        },
+        {
+          "t": "Flexion isolée du 5e orteil",
+          "j": "Une flexion pure est l'action de l'autre muscle profond du bord latéral ; l'opposant y ajoute une composante de déplacement."
+        },
+        {
+          "t": "Extension et abduction du 5e orteil",
+          "j": "Aucun muscle du groupe latéral de la plante n'étend le 5e orteil : l'extension revient aux muscles de la région dorsale."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, l'aponévrose plantaire se divise en :",
+      "c": 15,
+      "options": [
+        {
+          "t": "Trois parties : moyenne, médiale et latérale",
+          "correct": true,
+          "j": "La partie moyenne, la plus résistante, est flanquée de deux expansions, l'une médiale et l'autre latérale, avec lesquelles elle reste en continuité."
+        },
+        {
+          "t": "Deux parties : médiale et latérale",
+          "j": "Cette description omet la partie moyenne, qui est précisément la lame la plus épaisse et la plus solide de l'ensemble."
+        },
+        {
+          "t": "Trois parties : superficielle, moyenne et profonde",
+          "j": "Le découpage de l'aponévrose plantaire est transversal, d'un bord du pied à l'autre, et non étagé en profondeur."
+        },
+        {
+          "t": "Quatre parties, une pour chaque compartiment musculaire",
+          "j": "L'aponévrose ne se calque pas loge par loge : sa division en parties est indépendante du nombre de compartiments musculaires de la plante."
+        }
+      ]
+    },
+    {
+      "q": "La « mortaise » tibio-fibulaire qui reçoit le talus est formée par :",
+      "c": 13,
+      "options": [
+        {
+          "t": "La face inférieure du tibia, la surface malléolaire tibiale et la surface malléolaire fibulaire",
+          "correct": true,
+          "j": "Le cours décrit la mortaise comme l'emboîtement de la face inférieure du tibia, prolongée par la surface de la malléole médiale, et de la surface malléolaire de la fibula."
+        },
+        {
+          "t": "La face inférieure du tibia et les deux surfaces malléolaires du talus",
+          "j": "Les surfaces malléolaires du talus appartiennent à l'os mobile : elles s'appliquent dans la mortaise mais ne la constituent pas."
+        },
+        {
+          "t": "La face inférieure du tibia, la surface malléolaire tibiale et la face supérieure du calcanéus",
+          "j": "Le calcanéus reste situé sous le talus : il n'offre aucune surface à la pince formée par les deux os de la jambe."
+        },
+        {
+          "t": "La face inférieure du tibia, la surface malléolaire fibulaire et la membrane interosseuse",
+          "j": "La membrane interosseuse unit les diaphyses bien au-dessus de l'interligne et n'offre aucune surface cartilagineuse."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, la capsule de l'articulation talo-crurale :",
+      "c": 13,
+      "options": [
+        {
+          "t": "Est plus lâche en avant et en arrière, et résistante sur ses deux faces latérales",
+          "correct": true,
+          "j": "Cette laxité antéro-postérieure laisse le talus glisser en flexion plantaire et dorsale, tandis que les renforts latéraux verrouillent les mouvements frontaux."
+        },
+        {
+          "t": "Est plus lâche sur ses deux faces latérales, et résistante en avant et en arrière",
+          "j": "Inverse la répartition : les faces latérales sont les plus épaisses, et ce sont les parties antérieure et postérieure qui sont lâches."
+        },
+        {
+          "t": "Est uniformément épaisse et s'insère à distance des surfaces cartilagineuses",
+          "j": "Le cours décrit au contraire une capsule d'épaisseur inégale, insérée au contour même des surfaces cartilagineuses sauf à leur partie supérieure."
+        },
+        {
+          "t": "Est doublée en dedans par un fibro-cartilage interposé entre les surfaces",
+          "j": "Aucune pièce fibro-cartilagineuse n'est interposée dans la talo-crurale : seuls deux replis synoviaux, antérieur et postérieur, sont décrits."
+        }
+      ]
+    },
+    {
+      "q": "Quelles structures ligamentaires limitent la flexion dorsale de la cheville ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Le ligament talo-fibulaire postérieur et les faisceaux postérieurs du ligament deltoïde",
+          "correct": true,
+          "j": "Le cours écrit : « La flexion dorsale est limitée par le ligament talo-fibulaire postérieur et les fascicules postérieurs du ligament deltoïde » : ce sont les éléments postérieurs des deux plans collatéraux."
+        },
+        {
+          "t": "Le ligament talo-fibulaire antérieur et les faisceaux antérieurs du ligament deltoïde",
+          "j": "Le cours ne cite pas ces faisceaux antérieurs parmi les freins de la flexion dorsale : ils appartiennent au versant antérieur des deux plans collatéraux."
+        },
+        {
+          "t": "Le ligament calcanéo-fibulaire et le faisceau tibio-calcanéen du deltoïde",
+          "j": "Ces deux faisceaux descendent vers le calcanéus et contrôlent surtout les contraintes frontales, en varus et en valgus."
+        },
+        {
+          "t": "Les ligaments tibio-fibulaires antérieur et postérieur de la syndesmose",
+          "j": "Ils solidarisent les deux os de la jambe entre eux et maintiennent la largeur de la mortaise, sans freiner le déplacement du talus."
+        }
+      ]
+    },
+    {
+      "q": "Dans l'articulation sous-talienne, quelles sont les surfaces en présence ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Une surface concave sur la face inférieure du talus et une surface convexe sur le calcanéus",
+          "correct": true,
+          "j": "Le cours décrit la facette postérieure de la face inférieure du talus comme concave, reçue par la facette postérieure convexe de la face supérieure du calcanéus."
+        },
+        {
+          "t": "Une surface convexe sur la face inférieure du talus et une surface concave sur le calcanéus",
+          "j": "Inverse exactement les courbures : c'est le calcanéus qui porte la facette bombée, et le talus la cavité qui la coiffe."
+        },
+        {
+          "t": "Deux surfaces planes glissant l'une sur l'autre, sans courbure ni emboîtement marqué",
+          "j": "La sous-talienne possède au contraire deux courbures nettes et complémentaires, qui guident le mouvement autour de l'axe de Henke."
+        },
+        {
+          "t": "Une tête convexe du talus reçue dans une large cavité creusée par le calcanéus",
+          "j": "La tête du talus regarde en avant et appartient à l'étage articulaire antérieur du tarse, non à la facette postérieure."
+        }
+      ]
+    },
+    {
+      "q": "Le ligament interosseux talo-calcanéen est situé :",
+      "c": 13,
+      "options": [
+        {
+          "t": "Dans le sinus du tarse, où il se dispose en deux faisceaux, antérieur et postérieur",
+          "correct": true,
+          "j": "Le cours le place dans le sinus du tarse, entre talus et calcanéus, et lui décrit deux faisceaux, l'un antérieur et l'autre postérieur."
+        },
+        {
+          "t": "Dans le sinus du tarse, où il forme un faisceau unique vertical et épais",
+          "j": "La localisation est exacte mais la description est fausse : le cours lui reconnaît deux faisceaux distincts, et non un seul."
+        },
+        {
+          "t": "Sur la face latérale du calcanéus, en dehors de l'interligne sous-talien",
+          "j": "Cette situation externe et superficielle est celle d'un renfort latéral de la sous-talienne ; l'interosseux est profond, caché entre les deux os."
+        },
+        {
+          "t": "Entre le sustentaculum tali et le tubercule du naviculaire, en situation plantaire",
+          "j": "Ce trajet plantaire médial est celui d'un ligament de soutien de la tête talienne, et non d'un ligament logé entre talus et calcanéus."
+        }
+      ]
+    },
+    {
+      "q": "Le ligament talo-calcanéen postérieur est tendu :",
+      "c": 13,
+      "options": [
+        {
+          "t": "Du tubercule postéro-latéral du talus à la face supérieure du calcanéus",
+          "correct": true,
+          "j": "Le cours lui donne pour origine le tubercule postéro-externe du processus postérieur du talus et pour terminaison la face supérieure du calcanéus."
+        },
+        {
+          "t": "Du processus latéral du talus à la face latérale du calcanéus",
+          "j": "Ce trajet oblique en dehors est celui du renfort latéral de la sous-talienne, situé bien plus en avant et plus superficiellement."
+        },
+        {
+          "t": "Du tubercule postéro-médial du talus à la face médiale du calcanéus",
+          "j": "Le tubercule postéro-médial borde la gouttière des tendons fléchisseurs ; aucun faisceau postérieur n'en part vers le calcanéus."
+        },
+        {
+          "t": "De la face postérieure de la malléole latérale à la face supérieure du calcanéus",
+          "j": "Une origine malléolaire en ferait un ligament de la cheville, alors qu'il unit deux os du tarse entre eux."
+        }
+      ]
+    },
+    {
+      "q": "Dans l'articulation talo-calcanéo-naviculaire, la tête du talus s'articule avec :",
+      "c": 13,
+      "options": [
+        {
+          "t": "La face postérieure concave du naviculaire et la surface antérieure du calcanéus",
+          "correct": true,
+          "j": "Le cours associe à la tête du talus la cavité postérieure du naviculaire et la facette antérieure de la face supérieure du calcanéus."
+        },
+        {
+          "t": "La face antérieure du naviculaire et la surface postérieure du calcanéus",
+          "j": "Intervertit les deux faces : le naviculaire creuse sa concavité en arrière, et la facette calcanéenne concernée est l'antérieure."
+        },
+        {
+          "t": "La face postérieure concave du cuboïde et la surface antérieure du calcanéus",
+          "j": "Le cuboïde répond au calcanéus sur le versant latéral du pied, sans aucun contact avec la tête du talus."
+        },
+        {
+          "t": "Les trois os cunéiformes et la face antérieure concave du naviculaire",
+          "j": "Ces surfaces appartiennent à l'étage distal du tarse, situé bien en avant de la tête talienne."
+        }
+      ]
+    },
+    {
+      "q": "L'articulation transverse du tarse (Chopart) est constituée par la réunion de :",
+      "c": 13,
+      "options": [
+        {
+          "t": "L'articulation talo-calcanéo-naviculaire et l'articulation calcanéo-cuboïdienne",
+          "correct": true,
+          "j": "Le cours définit l'interligne de Chopart par l'association de ces deux articulations, l'une médiale, l'autre latérale, alignées en travers du tarse."
+        },
+        {
+          "t": "L'articulation sous-talienne et l'articulation calcanéo-cuboïdienne",
+          "j": "La sous-talienne est située en arrière de l'interligne de Chopart et appartient à un étage différent du tarse."
+        },
+        {
+          "t": "L'articulation cunéo-naviculaire et l'articulation cubo-naviculaire",
+          "j": "Ces deux unions appartiennent à la deuxième rangée du tarse, en avant de l'interligne transverse."
+        },
+        {
+          "t": "L'articulation talo-calcanéo-naviculaire et l'articulation cunéo-cuboïdienne",
+          "j": "La cunéo-cuboïdienne unit deux os de la rangée distale entre eux : elle est trop antérieure pour border l'interligne de Chopart."
+        }
+      ]
+    },
+    {
+      "q": "Quel est le type de l'articulation cubo-naviculaire ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Une syndesmose (union fibreuse)",
+          "correct": true,
+          "j": "Le cours précise qu'il s'agit généralement d'une syndesmose : les deux os sont unis par du tissu fibreux dense, sans cavité synoviale constante."
+        },
+        {
+          "t": "Une arthrodie (synoviale plane)",
+          "j": "L'arthrodie suppose une cavité synoviale entre deux surfaces planes cartilagineuses ; ici l'union est fibreuse et le plus souvent sans synoviale."
+        },
+        {
+          "t": "Une sellaire (emboîtement réciproque)",
+          "j": "Une selle suppose deux surfaces cartilagineuses à double courbure inversée ; le cours ne décrit rien de tel entre le cuboïde et le naviculaire."
+        },
+        {
+          "t": "Une symphyse (fibro-cartilage)",
+          "j": "La symphyse unit deux os par un fibro-cartilage épais ; aucune pièce fibro-cartilagineuse n'est décrite entre ces deux os du tarse."
+        }
+      ]
+    },
+    {
+      "q": "Quel est le type des articulations cunéo-naviculaire et intercunéiformes ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Des articulations planes (arthrodies), bridées par des ligaments dorsaux et plantaires",
+          "correct": true,
+          "j": "Le cours les classe en arthrodies : la face antérieure du naviculaire et les faces en regard des cunéiformes sont planes et simplement bridées par des ligaments."
+        },
+        {
+          "t": "Des articulations en selle, renforcées par des ligaments dorsaux et plantaires",
+          "j": "Aucune de ces unions ne présente la double courbure d'une selle ; leurs surfaces sont planes et n'autorisent que des glissements."
+        },
+        {
+          "t": "Des trochoïdes autorisant une rotation autour d'un axe longitudinal unique",
+          "j": "Une trochoïde impose un pivot central ; ces petites unions du tarse antérieur n'offrent aucun axe de rotation défini."
+        },
+        {
+          "t": "Des syndesmoses unies par du tissu fibreux dense, sans cavité articulaire",
+          "j": "Une union fibreuse sans cavité ne correspond pas à ces articulations, qui possèdent bien une synoviale et des surfaces cartilagineuses."
+        }
+      ]
+    },
+    {
+      "q": "L'interligne de Lisfranc sépare les bases des métatarsiens de :",
+      "c": 13,
+      "options": [
+        {
+          "t": "Les trois cunéiformes et le cuboïde",
+          "correct": true,
+          "j": "L'interligne tarso-métatarsien oppose les cinq bases métatarsiennes aux trois cunéiformes en dedans et au cuboïde en dehors."
+        },
+        {
+          "t": "Les trois cunéiformes et le naviculaire",
+          "j": "Le naviculaire reste en arrière des cunéiformes : il ne vient jamais au contact des bases métatarsiennes."
+        },
+        {
+          "t": "Le cuboïde et le naviculaire",
+          "j": "Ce couple laisse de côté les cunéiformes, qui forment pourtant toute la partie médiale de l'interligne."
+        },
+        {
+          "t": "Les trois cunéiformes seulement",
+          "j": "Les cunéiformes ne répondent qu'aux trois premiers métatarsiens ; les deux derniers s'articulent avec un autre os du tarse distal."
+        }
+      ]
+    },
+    {
+      "q": "Quel ligament réunit transversalement les articulations métatarso-phalangiennes entre elles ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Le ligament métatarsien transverse profond",
+          "correct": true,
+          "j": "Il court d'une articulation métatarso-phalangienne à la suivante et solidarise l'avant-pied en reliant les rayons les uns aux autres."
+        },
+        {
+          "t": "Le ligament plantaire des métatarso-phalangiennes",
+          "j": "Ce renfort n'appartient qu'à une seule articulation : il ne franchit pas l'espace qui sépare deux rayons voisins."
+        },
+        {
+          "t": "Les ligaments collatéraux métatarso-phalangiens",
+          "j": "Ils sont tendus de la tête métatarsienne à la base de la phalange du même rayon, donc dans un plan longitudinal."
+        },
+        {
+          "t": "Les ligaments intermétatarsiens dorsaux",
+          "j": "Ils unissent les métatarsiens par leurs bases, à l'extrémité proximale du rayon, et non au niveau des têtes."
+        }
+      ]
+    },
+    {
+      "q": "Quelles surfaces osseuses forment l'articulation calcanéo-cuboïdienne ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "La facette antérieure du calcanéus et la facette postérieure du cuboïde",
+          "correct": true,
+          "j": "Le cours décrit cette articulation en selle entre la facette antérieure du calcanéus et la facette postérieure du cuboïde."
+        },
+        {
+          "t": "La facette postérieure du calcanéus et la facette antérieure du cuboïde",
+          "j": "Intervertit les deux faces : le calcanéus offre au cuboïde sa facette antérieure, et le cuboïde la reçoit par sa face postérieure."
+        },
+        {
+          "t": "La facette latérale du calcanéus et la face médiale du cuboïde",
+          "j": "Ces deux faces se regardent de côté et ne portent aucun cartilage : l'interligne est orienté d'arrière en avant."
+        },
+        {
+          "t": "La trochlée fibulaire du calcanéus et la gouttière plantaire du cuboïde",
+          "j": "Ces deux reliefs servent de poulies aux tendons fibulaires et ne participent pas à la composition de l'interligne."
+        }
+      ]
+    },
+    {
+      "q": "L'aponévrose profonde de la jambe envoie en profondeur des septums intermusculaires qui délimitent :",
+      "c": 14,
+      "options": [
+        {
+          "t": "Trois loges : antérieure, latérale et postérieure, celle-ci subdivisée par un septum transversal",
+          "correct": true,
+          "j": "Les septums intermusculaires antérieur et postérieur gagnent la fibula et isolent trois loges ; dans la postérieure, un septum transversal sépare un plan superficiel d'un plan profond."
+        },
+        {
+          "t": "Deux loges, antérieure et postérieure, séparées par la seule membrane interosseuse",
+          "j": "La membrane interosseuse unit tibia et fibula mais ne cloisonne pas la jambe : ce sont les septums issus de l'aponévrose qui créent les loges."
+        },
+        {
+          "t": "Quatre loges indépendantes, fermées chacune par son propre septum intermusculaire",
+          "j": "Le cours n'en décrit que trois ; le quatrième espace n'est qu'une subdivision interne de l'une d'elles."
+        },
+        {
+          "t": "Trois loges — antérieure, latérale et postérieure — la loge antérieure étant subdivisée par un septum transversal",
+          "j": "Le septum transversal existe bien, mais il partage la loge postérieure, et non la loge antérieure."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle tibial antérieur se termine sur :",
+      "c": 14,
+      "options": [
+        {
+          "t": "La face plantaire du premier cunéiforme et du premier métatarsien",
+          "correct": true,
+          "j": "Son tendon contourne le bord médial du pied pour s'épanouir à la face plantaire du cunéiforme médial et du premier métatarsien."
+        },
+        {
+          "t": "La face dorsale du naviculaire et du premier cunéiforme",
+          "j": "Le tendon reste dorsal au cou-de-pied mais bascule en plantaire pour se fixer : aucune terminaison dorsale ne lui est décrite."
+        },
+        {
+          "t": "La face plantaire du cuboïde et du cunéiforme latéral",
+          "j": "Ces repères appartiennent à la moitié latérale de la plante, à l'opposé du trajet médial suivi par le tibial antérieur."
+        },
+        {
+          "t": "La base de la phalange proximale du premier orteil (hallux)",
+          "j": "Le tibial antérieur s'arrête sur le tarse et le premier métatarsien : il ne franchit jamais l'articulation métatarso-phalangienne."
+        }
+      ]
+    },
+    {
+      "q": "Le long extenseur des orteils se termine sur :",
+      "c": 14,
+      "options": [
+        {
+          "t": "Les deuxième et troisième phalanges des quatre derniers orteils",
+          "correct": true,
+          "j": "Le cours lui fait gagner les deux dernières phalanges des orteils 2 à 5, ce qui lui permet d'étendre l'ensemble du rayon digital."
+        },
+        {
+          "t": "Les phalanges distales des quatre derniers orteils uniquement",
+          "j": "Il ne se limite pas à la dernière phalange : le cours lui décrit une terminaison sur les deux dernières."
+        },
+        {
+          "t": "Les phalanges proximales des quatre derniers orteils",
+          "j": "La phalange proximale est la cible des muscles intrinsèques du pied, non d'un extenseur long venu de la jambe."
+        },
+        {
+          "t": "La deuxième phalange du premier orteil uniquement",
+          "j": "Cette terminaison sur le seul gros orteil est celle du long extenseur de l'hallux, son voisin de la même loge."
+        }
+      ]
+    },
+    {
+      "q": "Le long fibulaire se termine sur :",
+      "c": 14,
+      "options": [
+        {
+          "t": "La base du premier métatarsien",
+          "correct": true,
+          "j": "Son tendon traverse obliquement la plante du pied, de dehors en dedans, pour gagner la base du premier métatarsien."
+        },
+        {
+          "t": "La face plantaire du cuboïde",
+          "j": "Le cuboïde ne fait que livrer passage au tendon dans sa gouttière plantaire : il le réfléchit mais ne l'arrête pas."
+        },
+        {
+          "t": "La base de la phalange proximale de l'hallux",
+          "j": "Le tendon s'arrête au squelette métatarsien et n'atteint aucune phalange du gros orteil."
+        },
+        {
+          "t": "Le tubercule du naviculaire",
+          "j": "Ce relief médial du tarse reçoit un tendon issu de la loge postérieure profonde, et non un muscle de la loge latérale."
+        }
+      ]
+    },
+    {
+      "q": "Selon le cours, le troisième fibulaire — muscle inconstant, généralement fusionné au long extenseur des orteils — se termine sur :",
+      "c": 14,
+      "options": [
+        {
+          "t": "La base du cinquième métatarsien",
+          "correct": true,
+          "j": "Il descend avec les extenseurs sur le dos du pied et s'ancre à l'extrémité proximale du cinquième rayon."
+        },
+        {
+          "t": "La base de la phalange proximale du cinquième orteil",
+          "j": "Cette terminaison phalangienne revient aux muscles intrinsèques du bord latéral de la plante, pas à un muscle de jambe."
+        },
+        {
+          "t": "La face plantaire du cuboïde",
+          "j": "Le troisième fibulaire reste dorsal sur tout son trajet : il ne gagne jamais la face plantaire du pied."
+        },
+        {
+          "t": "Le tubercule du naviculaire",
+          "j": "Ce repère est médial, alors que le troisième fibulaire se dirige au contraire vers le bord latéral de l'avant-pied."
+        }
+      ]
+    },
+    {
+      "q": "Le court fibulaire se termine sur :",
+      "c": 14,
+      "options": [
+        {
+          "t": "Le tubercule du cinquième métatarsien",
+          "correct": true,
+          "j": "Son tendon contourne la malléole latérale et s'arrête sur la saillie proximale et latérale du cinquième métatarsien."
+        },
+        {
+          "t": "La trochlée fibulaire du calcanéus",
+          "j": "Ce relief ne fait que séparer les deux tendons fibulaires dans leur coulisse : aucun des deux ne s'y termine."
+        },
+        {
+          "t": "La face plantaire du cunéiforme latéral",
+          "j": "Les cunéiformes reçoivent des tendons venus de la plante ou de la loge postérieure profonde ; le court fibulaire reste latéral."
+        },
+        {
+          "t": "La base de la phalange proximale du cinquième orteil",
+          "j": "Le court fibulaire s'arrête sur le squelette métatarsien sans jamais atteindre les phalanges."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les muscles de la loge antérieure de la jambe, lequel associe à la flexion dorsale une composante de SUPINATION ?",
+      "c": 14,
+      "options": [
+        {
+          "t": "Le muscle tibial antérieur",
+          "correct": true,
+          "j": "Le cours lui attribue trois actions : flexion dorsale, adduction et supination, ce qui en fait le seul supinateur de cette loge."
+        },
+        {
+          "t": "Le long extenseur des orteils",
+          "j": "Il ajoute à la flexion dorsale une abduction et une pronation, donc l'inverse exact de la supination."
+        },
+        {
+          "t": "Le muscle troisième fibulaire",
+          "j": "Il complète la flexion dorsale par une pronation du pied, action opposée à celle qui est recherchée ici."
+        },
+        {
+          "t": "Le long extenseur de l'hallux",
+          "j": "À la flexion dorsale il associe une adduction, mais aucune composante de supination ne lui est décrite."
+        }
+      ]
+    },
+    {
+      "q": "Le muscle poplité naît :",
+      "c": 14,
+      "options": [
+        {
+          "t": "De la face latérale du condyle latéral du fémur, des fibres gagnant le ménisque latéral",
+          "correct": true,
+          "j": "Le cours place son origine en arrière et au-dessous de l'épicondyle latéral, avec des fibres qui s'attachent au ménisque latéral."
+        },
+        {
+          "t": "De la face médiale du condyle médial du fémur, des fibres gagnant le ménisque médial",
+          "j": "Le poplité occupe l'angle latéral du creux poplité : aucune attache médiale ne lui est décrite."
+        },
+        {
+          "t": "De la face postérieure du tibia, au-dessus de la ligne oblique du soléaire",
+          "j": "C'est là qu'il se TERMINE après avoir traversé le creux poplité ; son origine, elle, est fémorale."
+        },
+        {
+          "t": "De la tête de la fibula et du ligament poplité arqué, en dehors",
+          "j": "Son tendon croise ces structures et passe sous le ligament poplité arqué, mais ne s'y attache pas."
+        }
+      ]
+    },
+    {
+      "q": "Quelle action le cours attribue-t-il au muscle poplité au niveau du genou ?",
+      "c": 14,
+      "options": [
+        {
+          "t": "Flexion et rotation interne, avec déverrouillage de l'articulation et recul du ménisque latéral",
+          "correct": true,
+          "j": "Le cours lui confie l'amorce de la flexion par rotation interne du tibia, qui déverrouille le genou, ainsi que le recul du ménisque latéral."
+        },
+        {
+          "t": "Flexion et rotation externe, avec déverrouillage de l'articulation et recul du ménisque médial",
+          "j": "Les deux composantes sont inversées : le poplité tourne le tibia en dedans et déplace le ménisque latéral."
+        },
+        {
+          "t": "Extension et rotation interne, avec verrouillage de l'articulation en fin de course",
+          "j": "Le verrouillage terminal en extension résulte d'une rotation externe automatique, que le poplité combat au lieu de produire."
+        },
+        {
+          "t": "Flexion du genou et flexion plantaire de la cheville, sans composante rotatoire",
+          "j": "Le poplité ne descend pas au-delà du tibia proximal : il n'exerce aucune action sur la cheville."
+        }
+      ]
+    },
+    {
+      "q": "Au passage de la cheville, le tendon du long fléchisseur des orteils se situe :",
+      "c": 14,
+      "options": [
+        {
+          "t": "En arrière de la malléole médiale, en arrière et en dehors du tendon du tibial postérieur",
+          "correct": true,
+          "j": "Le cours le fait passer derrière la malléole tibiale, en situation postéro-latérale par rapport au tibial postérieur, puis sur l'apex du sustentaculum tali."
+        },
+        {
+          "t": "En arrière de la malléole médiale, en avant et en dedans du tendon du tibial postérieur",
+          "j": "Inverse les rapports : c'est le tibial postérieur qui occupe la position la plus antérieure et la plus médiale de la coulisse."
+        },
+        {
+          "t": "En arrière de la malléole latérale, dans la coulisse des tendons fibulaires",
+          "j": "Cette coulisse rétro-malléolaire externe est réservée aux muscles de la loge latérale de la jambe."
+        },
+        {
+          "t": "En avant de la malléole médiale, sous le rétinaculum des extenseurs",
+          "j": "Le passage antérieur est celui des muscles de la loge antérieure ; les fléchisseurs contournent la cheville par l'arrière."
+        }
+      ]
+    },
+    {
+      "q": "Dans la plante du pied, le tendon du long fléchisseur de l'hallux croise celui du long fléchisseur des orteils. Selon le cours, il :",
+      "c": 14,
+      "options": [
+        {
+          "t": "Passe sur le tendon du long fléchisseur des orteils et lui abandonne un faisceau communicant",
+          "correct": true,
+          "j": "Le cours écrit que le tendon du long fléchisseur de l'hallux « passe sur le tendon du LFO (faisceau communicant) », et décrit en miroir le LFO passant sous celui de l'hallux."
+        },
+        {
+          "t": "Passe sous le tendon du long fléchisseur des orteils et lui abandonne un faisceau communicant",
+          "j": "Le faisceau communicant existe bien, mais le cours décrit le rapport inverse : c'est le long fléchisseur des orteils qui passe sous le tendon de l'hallux."
+        },
+        {
+          "t": "Passe sur le tendon du long fléchisseur des orteils sans aucun échange de fibres",
+          "j": "Le rapport de position est juste, mais le cours insiste sur l'existence d'un faisceau communicant entre les deux tendons."
+        },
+        {
+          "t": "Reste latéral par rapport à lui sur tout son trajet, sans jamais le croiser",
+          "j": "Les deux tendons se croisent bel et bien, celui de l'hallux venant du bord latéral pour gagner le premier orteil."
+        }
+      ]
+    },
+    {
+      "q": "Le tendon du tibial postérieur se termine sur :",
+      "c": 14,
+      "options": [
+        {
+          "t": "Le naviculaire, le cuboïde, les cunéiformes et les bases des 2e à 4e métatarsiens",
+          "correct": true,
+          "j": "Le cours lui décrit une terminaison étalée en éventail sur plusieurs os du tarse et sur trois bases métatarsiennes."
+        },
+        {
+          "t": "Le tubercule du naviculaire et lui seul, en arrière du cunéiforme médial",
+          "j": "Le tubercule naviculaire n'est que son ancrage principal : le cours étend sa terminaison à plusieurs autres pièces osseuses."
+        },
+        {
+          "t": "Les bases des phalanges distales des quatre derniers orteils",
+          "j": "Cette terminaison digitale est celle d'un fléchisseur long des orteils ; le tibial postérieur reste tarsien et métatarsien."
+        },
+        {
+          "t": "La base de la phalange distale de l'hallux, après la gouttière du talus",
+          "j": "Le tibial postérieur n'atteint aucune phalange et son tendon n'est pas réservé au premier rayon."
+        }
+      ]
+    },
+    {
+      "q": "Le rétinaculum inférieur des extenseurs, en forme de Y, s'insère :",
+      "c": 14,
+      "options": [
+        {
+          "t": "Par sa pointe sur le calcanéus, sa branche supérieure sur la malléole médiale, sa branche inférieure se prolongeant par l'aponévrose plantaire",
+          "correct": true,
+          "j": "Le cours décrit exactement cette disposition : pied du Y sur le calcanéus en dehors, branche haute vers la malléole interne, branche basse continue avec l'aponévrose plantaire."
+        },
+        {
+          "t": "Par sa pointe sur la malléole médiale, sa branche supérieure sur le calcanéus, sa branche inférieure se prolongeant par l'aponévrose plantaire",
+          "j": "Intervertit la pointe et la branche supérieure : c'est le calcanéus, en dehors, qui donne le pied du Y."
+        },
+        {
+          "t": "Par sa pointe sur le calcanéus, sa branche supérieure sur la malléole latérale, sa branche inférieure se prolongeant par le fascia dorsal du pied",
+          "j": "La branche supérieure gagne la malléole médiale, et c'est l'aponévrose plantaire qui prolonge la branche inférieure."
+        },
+        {
+          "t": "Par sa pointe sur le cuboïde, ses deux branches gagnant les bords antérieurs du tibia et de la fibula",
+          "j": "Ces attaches tibiale et fibulaire sont celles du rétinaculum supérieur des extenseurs, simple bande transversale sans forme en Y."
+        }
+      ]
+    },
+    {
+      "q": "Le rétinaculum fibulaire supérieur est tendu :",
+      "c": 14,
+      "options": [
+        {
+          "t": "De la malléole latérale à la face latérale du calcanéus",
+          "correct": true,
+          "j": "Le cours le fait partir de la malléole latérale vers l'arrière pour s'insérer sur la face latérale du calcanéus, où il plaque les tendons des long et court fibulaires, chacun pourvu de sa gaine synoviale."
+        },
+        {
+          "t": "De la malléole médiale à la face médiale du calcanéus",
+          "j": "Ce trajet médial est celui du rétinaculum des fléchisseurs, qui maintient les tendons de la loge postérieure profonde."
+        },
+        {
+          "t": "De la crête fibulaire du calcanéus aux bords antérieurs du tibia et de la fibula",
+          "j": "Il mêle des repères empruntés à deux autres rétinaculums, l'un fibulaire inférieur, l'autre extenseur supérieur."
+        },
+        {
+          "t": "Du bord postérieur de la fibula au tendon calcanéen",
+          "j": "Aucun rétinaculum ne prend attache sur le tendon calcanéen, qui reste libre dans la région postérieure de la cheville."
+        }
+      ]
+    },
+    {
+      "q": "Outre la flexion des orteils, quelle fonction le cours attribue-t-il au carré plantaire ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Le maintien de la voûte plantaire longitudinale du pied",
+          "correct": true,
+          "j": "Le cours lui attribue, outre la flexion des orteils, le maintien de la voûte plantaire longitudinale, qu'il assure en redressant la traction oblique du tendon des fléchisseurs."
+        },
+        {
+          "t": "Le rapprochement des orteils vers l'axe du deuxième orteil",
+          "j": "Le carré plantaire se termine sur le tendon des fléchisseurs et n'a aucune attache propre sur le squelette des orteils : il ne peut les rapprocher les uns des autres."
+        },
+        {
+          "t": "L'écartement du cinquième orteil par rapport à l'axe du pied",
+          "j": "Cette abduction du petit orteil est l'œuvre d'un muscle propre au bord latéral de la plante."
+        },
+        {
+          "t": "L'extension des phalanges distales par l'expansion dorsale",
+          "j": "Cette action passe par l'appareil extenseur dorsal, auquel le carré plantaire n'envoie aucune expansion."
+        }
+      ]
+    },
+    {"q":"Dans quel ordre, de la surface vers la profondeur, se succèdent les couches du cuir chevelu ?","c":2,"options":[{"t":"Peau, tissu conjonctif dense, couche aponévrotique, tissu conjonctif lâche, péricrâne","correct":true,"j":"C'est la succession décrite par le cours : la peau est doublée d'un tissu conjonctif dense, puis vient la lame aponévrotique, un plan de glissement lâche et enfin le périoste."},{"t":"Peau, couche aponévrotique, tissu conjonctif dense, tissu conjonctif lâche, péricrâne","j":"La lame aponévrotique ne touche pas la peau : un tissu conjonctif dense, riche en vaisseaux, s'interpose entre les deux."},{"t":"Peau, tissu conjonctif dense, tissu conjonctif lâche, couche aponévrotique, péricrâne","j":"Le tissu conjonctif lâche est le plan de glissement situé SOUS la lame aponévrotique, et non au-dessus d'elle."},{"t":"Peau, tissu conjonctif lâche, couche aponévrotique, tissu conjonctif dense, péricrâne","j":"Les deux tissus conjonctifs sont ici intervertis : le dense double la peau, le lâche s'applique sur le périoste."}]},
+    {"q":"La dure-mère crânienne est formée :","c":2,"options":[{"t":"De deux feuillets, l'un périosté externe, l'autre méningé interne","correct":true,"j":"Le feuillet externe tapisse la face interne des os du crâne et le feuillet interne regarde l'arachnoïde ; leur écartement ménage les sinus veineux."},{"t":"D'un feuillet unique, séparé de l'os par un espace permanent","j":"La dure-mère adhère à l'os par son feuillet le plus externe : l'espace extra-dural n'est décrit, dans le crâne, que comme un espace virtuel."},{"t":"De deux feuillets, l'un arachnoïdien externe, l'autre pial interne","j":"L'arachnoïde et la pie-mère sont deux enveloppes indépendantes, situées en dedans de la dure-mère, et non des feuillets de celle-ci."},{"t":"De trois feuillets superposés, tous unis à la face interne de l'os","j":"La dure-mère ne compte que deux feuillets, et seul le plus externe adhère à l'os, l'autre s'en détachant pour former les cloisons intracrâniennes."}]},
+    {"q":"L'espace sub-arachnoïdien est situé :","c":2,"options":[{"t":"Entre l'arachnoïde et la pie-mère","correct":true,"j":"C'est le seul espace méningé réellement ouvert : il contient le liquide cérébro-spinal et les vaisseaux qui cheminent à la surface du cerveau."},{"t":"Entre la dure-mère et l'arachnoïde","j":"Cette interface correspond à l'espace sub-dural, que le cours présente comme un espace virtuel et non comme une cavité ouverte."},{"t":"Entre l'os de la voûte et la dure-mère","j":"Cette interface correspond à l'espace extra-dural, lui aussi virtuel, la dure-mère étant appliquée contre la face interne de l'os."},{"t":"Entre la pie-mère et le cortex cérébral","j":"La pie-mère adhère intimement à la surface du cortex, qu'elle épouse jusqu'au fond des sillons : aucun espace ne les sépare."}]},
+    {"q":"En coupe, la paroi osseuse de la voûte crânienne est constituée :","c":2,"options":[{"t":"D'une table externe, d'une couche spongieuse diploïque et d'une table interne","correct":true,"j":"Deux lames d'os compact encadrent le diploé, couche spongieuse dans laquelle cheminent les veines diploïques."},{"t":"D'une table externe et d'une table interne directement accolées","j":"Les deux lames compactes ne sont jamais accolées : une couche spongieuse veineuse s'interpose entre elles sur toute la voûte."},{"t":"D'une table externe compacte doublée en dedans par le péricrâne","j":"Le péricrâne est le périoste de la face EXTERNE de la voûte ; la face interne de l'os, elle, est tapissée par la dure-mère."},{"t":"D'une couche spongieuse unique recouverte en dehors par la dure-mère","j":"La dure-mère tapisse la face interne de la voûte, et l'os comporte bien deux lames compactes encadrant sa couche spongieuse."}]},
+    {"q":"Dans la fosse crânienne antérieure, quel os porte la crista galli ?","c":2,"options":[{"t":"L'ethmoïde","correct":true,"j":"Cette crête médiane prolonge vers le haut la lame verticale de l'ethmoïde et donne attache à la cloison durale qui sépare les hémisphères."},{"t":"Le frontal","j":"Le frontal participe à l'étage antérieur par sa partie orbitaire, qui en forme le plancher de part et d'autre de la ligne médiane."},{"t":"Le sphénoïde","j":"Le sphénoïde ferme l'étage antérieur en arrière par ses petites ailes, mais ne s'avance pas jusqu'à sa partie médiane antérieure."},{"t":"Le vomer","j":"Le vomer est un os du squelette facial, situé sous la base du crâne : il n'apparaît sur aucun des trois étages de l'endocrâne."}]},
+    {"q":"Quelle structure emprunte le foramen épineux (foramen spinosum) de la base du crâne ?","c":2,"options":[{"t":"L'artère méningée moyenne","correct":true,"j":"Ce petit orifice de la grande aile du sphénoïde livre passage à l'artère méningée moyenne, destinée à la dure-mère."},{"t":"Le nerf grand pétreux","j":"Le nerf grand pétreux dispose de son propre hiatus, sur la face antérieure du rocher, en dehors de tout foramen sphénoïdal."},{"t":"La veine jugulaire interne","j":"La veine jugulaire interne se forme au foramen jugulaire, entre le rocher et l'occipital, dans l'étage postérieur de la base."},{"t":"L'artère carotide interne","j":"L'artère carotide interne pénètre par le canal carotidien du rocher, puis longe le corps du sphénoïde dans le sillon carotidien."}]},
+    {"q":"Quelles structures traversent le canal optique ?","c":2,"options":[{"t":"Le nerf optique (II) et l'artère ophtalmique","correct":true,"j":"Creusé dans la petite aile du sphénoïde, le canal optique conduit à l'orbite le nerf optique accompagné de l'artère ophtalmique."},{"t":"Le nerf optique (II) et le nerf oculomoteur (III)","j":"Le nerf oculomoteur n'accompagne pas le nerf optique : il gagne l'orbite par la fissure ouverte à côté du canal optique."},{"t":"Le nerf optique (II) et les veines ophtalmiques","j":"Les veines ophtalmiques quittent l'orbite par la fissure orbitaire supérieure, et non par le canal creusé pour le nerf optique."},{"t":"Le nerf olfactif (I) et l'artère ophtalmique","j":"Les filets du nerf olfactif ne descendent pas jusqu'au sphénoïde : ils traversent les orifices de la lame criblée de l'ethmoïde."}]},
+    {"q":"La suture sphéno-squameuse unit :","c":2,"options":[{"t":"La grande aile du sphénoïde à l'écaille du temporal","correct":true,"j":"Sur la face latérale du crâne, cette suture descend vers la base en séparant la grande aile sphénoïdale de l'écaille temporale."},{"t":"La grande aile du sphénoïde au bord antérieur du pariétal","j":"Le contact entre la grande aile et l'angle antéro-inférieur du pariétal est assuré par la suture sphéno-pariétale, plus haut située."},{"t":"L'écaille du temporal au bord inférieur du pariétal","j":"Cette union latérale en biseau est l'œuvre de la suture squameuse, qui ne met en jeu aucune pièce du sphénoïde."},{"t":"La partie mastoïdienne du temporal à l'occipital","j":"Cette union postérieure est celle de la suture occipito-mastoïdienne, située bien en arrière de la fosse temporale."}]},
+    {"q":"Comment nomme-t-on la surface lisse de l'os frontal comprise entre les deux arcades sourcilières ?","c":2,"options":[{"t":"La glabelle","correct":true,"j":"Repère médian de la face antérieure du frontal, elle sépare les deux arcades sourcilières juste au-dessus de la racine du nez."},{"t":"L'inion","j":"L'inion est un repère médian POSTÉRIEUR du crâne : il correspond à la protubérance occipitale externe."},{"t":"Le vertex","j":"Le vertex est le point le plus élevé de la voûte, sur la ligne médiane, bien au-dessus du massif facial."},{"t":"Le point malaire","j":"Le point malaire est un repère de l'os zygomatique, qui forme le relief de la pommette en dehors de l'orbite."}]},
+    {"q":"Quelles sont les attaches des muscles intercostaux intimes ?","c":6,"options":[{"t":"De la pente interne du sillon costal au bord supérieur de la côte sous-jacente","correct":true,"j":"Ce sont les deux attaches que leur donne le cours : ils naissent dans le sillon de la côte sus-jacente et descendent sur la côte suivante."},{"t":"De la pente externe du sillon costal au bord supérieur de la côte sous-jacente","j":"La lèvre externe du sillon costal reste en dehors du plan de ce muscle, qui naît du versant interne de la gouttière."},{"t":"De la pente interne du sillon costal au bord inférieur de la côte sous-jacente","j":"Le bord inférieur d'une côte regarde déjà l'espace suivant : un muscle intercostal s'arrête au bord supérieur de la côte qu'il rejoint."},{"t":"Du tubercule costal au bord supérieur de la côte sous-jacente","j":"Le tubercule costal est un repère postérieur de l'arc costal, étranger aux attaches que le cours décrit pour ce muscle profond."}]},
+    {"q":"Dans le sillon costal, les éléments du paquet vasculo-nerveux intercostal se disposent, de haut en bas, dans l'ordre suivant :","c":6,"options":[{"t":"Veine, puis artère, puis nerf","correct":true,"j":"La veine intercostale occupe la position la plus haute, abritée sous le rebord de la côte, l'artère la suit et le nerf occupe la position la plus basse."},{"t":"Nerf, puis artère, puis veine","j":"L'ordre est exactement inversé : c'est le nerf, et non la veine, qui occupe la position la plus basse et la plus exposée de la gouttière."},{"t":"Artère, puis veine, puis nerf","j":"L'artère n'est pas l'élément le plus haut : elle chemine entre la veine, placée au-dessus d'elle, et le nerf, placé au-dessous."},{"t":"Veine, puis nerf, puis artère","j":"Le nerf n'est pas intercalé entre les deux vaisseaux : il reste l'élément le plus inférieur des trois dans la gouttière costale."}]},
+    {"q":"L'amplitude de l'extension de hanche retenue par le cours d'anatomie est de :","c":9,"options":[{"t":"20°","correct":true,"j":"Valeur retenue par le cours d'anatomie pour l'extension de hanche, mouvement de faible amplitude qui porte la cuisse en arrière du plan frontal."},{"t":"30°","j":"Trente degrés correspondent, dans le cours, à l'amplitude de l'adduction de hanche, et non à celle de l'extension."},{"t":"35°","j":"Trente-cinq degrés correspondent, dans le cours, à l'amplitude de la rotation médiale, mouvement de l'axe longitudinal."},{"t":"40°","j":"Quarante degrés correspondent, dans le cours, à l'amplitude de l'abduction de hanche, mouvement du plan frontal."}]},
+    {"q":"Le ligament pubo-fémoral s'étend :","c":9,"options":[{"t":"De la partie antérieure de la branche pubienne à la face antérieure de la fosse intertrochantérienne","correct":true,"j":"Ce trajet, décrit par le cours, le maintient d'un bout à l'autre sur la face antérieure de l'articulation coxo-fémorale."},{"t":"De la partie antérieure de la branche pubienne à la face postérieure du grand trochanter","j":"Une terminaison postérieure contredirait sa situation : ce renfort capsulaire reste appliqué en avant de l'articulation sur tout son trajet."},{"t":"De la face antérieure de la branche ischiatique à la face antérieure de la fosse intertrochantérienne","j":"L'ischium donne naissance au renfort postérieur de la capsule ; ce ligament-ci part du pubis, comme son nom l'indique."},{"t":"De la partie antérieure de la branche pubienne à la fovéa de la tête fémorale","j":"La fovéa, creusée sur la tête du fémur, est un point d'attache intra-articulaire qu'un renfort de la capsule n'atteint jamais."}]},
+    {"q":"Après un trajet circonférentiel autour de l'articulation, le ligament ischio-fémoral se termine :","c":9,"options":[{"t":"Sur la face antérieure du fémur","correct":true,"j":"Né en arrière, du pourtour postérieur du bourrelet acétabulaire, il contourne l'articulation pour gagner finalement la face antérieure de l'os."},{"t":"Sur la face postérieure du col fémoral","j":"S'il s'arrêtait en arrière, il n'aurait pas le trajet circonférentiel autour de l'articulation que le cours lui décrit explicitement."},{"t":"Sur la tubérosité ischiatique","j":"La tubérosité ischiatique appartient à l'os coxal : un ligament articulaire ne revient pas se fixer sur son propre os d'origine."},{"t":"Sur le sommet du grand trochanter","j":"Le sommet du grand trochanter est une zone d'insertions tendineuses située hors du manchon capsulaire de l'articulation."}]},
+    {"q":"Quels muscles le cours cite-t-il comme moteurs de la FLEXION de hanche ?","c":9,"options":[{"t":"Le psoas-iliaque, le tenseur du fascia lata, le sartorius, le droit fémoral et le pectiné","correct":true,"j":"Tous croisent l'articulation en avant de son axe transversal, ce qui explique leur action motrice commune sur la flexion."},{"t":"Le psoas-iliaque, le sartorius, le droit fémoral, le gracile et le long adducteur","j":"Le gracile et le long adducteur sont deux muscles médiaux que le cours ne retient pas dans sa liste des fléchisseurs de hanche."},{"t":"Le psoas-iliaque, le tenseur du fascia lata, le sartorius, le pectiné et le piriforme","j":"Le piriforme est un muscle pelvi-trochantérien postérieur, étranger à la liste des fléchisseurs donnée par le cours."},{"t":"Le psoas-iliaque, le droit fémoral, le pectiné, le moyen glutéal et le petit glutéal","j":"Le moyen et le petit glutéal croisent l'articulation en dehors de son axe de flexion : le cours ne les cite pas parmi les fléchisseurs."}]},
+    {"q":"Quelle est l'action des muscles lombricaux du pied ?","c":15,"options":[{"t":"Une flexion des orteils, qu'ils rapprochent en outre du gros orteil","correct":true,"j":"Le cours leur attribue la flexion des orteils et leur déplacement vers le gros orteil, conformément à leur trajet le long du bord médial des tendons fléchisseurs."},{"t":"Une flexion des orteils, qu'ils écartent en outre les uns des autres","j":"Les lombricaux ne séparent pas les orteils : l'écartement revient aux muscles logés entre les métatarsiens, et non aux muscles nés des tendons fléchisseurs."},{"t":"Une extension des orteils, qu'ils rapprochent en outre du gros orteil","j":"Le cours ne décrit pour les lombricaux du pied aucune extension : l'extension des orteils est l'œuvre des muscles de la région dorsale."},{"t":"Une flexion du seul gros orteil, qu'ils rapprochent des autres orteils","j":"Les lombricaux naissent des tendons destinés aux quatre derniers orteils : aucun d'entre eux n'atteint le gros orteil."}]},
+    {"q":"L'adducteur de l'hallux se termine :","c":15,"options":[{"t":"Sur la phalange proximale de l'hallux, par l'intermédiaire du sésamoïde latéral","correct":true,"j":"Ses deux têtes convergent en un tendon qui englobe le sésamoïde latéral avant d'atteindre la base de la première phalange du gros orteil."},{"t":"Sur la phalange distale de l'hallux, par l'intermédiaire du sésamoïde latéral","j":"Le relais sésamoïdien est exact, mais aucun muscle court du gros orteil ne dépasse la première phalange : la phalange distale reçoit un tendon long."},{"t":"Sur la phalange proximale de l'hallux, par l'intermédiaire du sésamoïde médial","j":"Le sésamoïde médial siège de l'autre côté de la première articulation métatarso-phalangienne, hors du trajet de ce muscle qui aborde l'hallux par son versant latéral."},{"t":"Sur la base du premier métatarsien, par l'intermédiaire de la capsule articulaire","j":"Le muscle dépasse largement le premier métatarsien : son tendon franchit l'articulation métatarso-phalangienne pour gagner le squelette de l'orteil."}]},
+    {"q":"Le court extenseur des orteils (pédius) prend son origine :","c":15,"options":[{"t":"Sur le calcanéum, latéralement et en avant du sinus du tarse","correct":true,"j":"Le cours situe précisément là son origine, d'où le muscle se divise ensuite en trois fascicules dirigés en avant et en dedans."},{"t":"Sur le calcanéum, latéralement et en arrière du sinus du tarse","j":"En arrière du sinus du tarse se trouve la surface articulaire postérieure du calcanéum, qui ne donne attache à aucun muscle dorsal du pied."},{"t":"Sur le calcanéum, médialement et en avant du sinus du tarse","j":"Le versant médial du calcanéum regarde la plante et le canal tarsien ; ce muscle dorsal naît au contraire du versant latéral de l'os."},{"t":"Sur le col du talus, en avant du sinus du tarse","j":"Le col du talus est recouvert par la capsule talo-naviculaire et croisé par les tendons extenseurs longs : il ne donne naissance à aucun de ces fascicules."}]}
   ],
   "processusBio1": [
     {
