@@ -32136,24 +32136,420 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Quels quatre éléments chimiques constituent à eux seuls 96 % du nombre total d'atomes présents dans le corps humain ?","c":1,"options":[{"t":"Le carbone, l'hydrogène, l'oxygène et l'azote","correct":true,"j":"Ces quatre éléments sont ceux que le cours désigne comme constituant 96 % du nombre total d'atomes présents dans le corps humain ; les sept éléments suivants n'en représentent ensemble qu'environ 3,6 %."},{"t":"Le carbone, l'hydrogène, l'oxygène et le phosphore","j":"Le phosphore est bien un bioélément, mais il appartient au groupe des sept éléments qui ne pèsent ensemble qu'environ 3,6 % des atomes du corps."},{"t":"Le carbone, l'hydrogène, l'azote et le soufre","j":"Le soufre figure lui aussi parmi les sept éléments minoritaires du cours : il ne peut pas remplacer l'oxygène dans ce quatuor majoritaire."},{"t":"Le carbone, l'oxygène, l'azote et le calcium","j":"Le calcium est indispensable à l'organisme sans compter parmi les quatre éléments majoritaires : il relève du groupe des 3,6 %."}]},
-    {"q":"Pourquoi les éléments d'une même colonne verticale du tableau périodique se comportent-ils de façon similaire dans la formation des liaisons et des ions ?","c":1,"options":[{"t":"Parce qu'ils gagnent ou perdent le même nombre d'électrons pour remplir leur couche externe","correct":true,"j":"Le cours explique que les atomes d'une même colonne doivent gagner ou perdre le même nombre d'électrons pour atteindre une couche externe remplie, d'où un comportement chimique semblable."},{"t":"Parce qu'ils possèdent le même numéro atomique, qui détermine leur position dans la classification","j":"Le numéro atomique est propre à chaque élément : c'est précisément lui qui permet de les classer et de les distinguer les uns des autres."},{"t":"Parce qu'ils comptent tous le même nombre de couches électroniques autour du noyau","j":"Le nombre de couches électroniques n'est pas le critère retenu : le cours rattache le comportement semblable des éléments d'une même colonne au nombre d'électrons qu'ils doivent gagner ou perdre pour atteindre une couche externe remplie."},{"t":"Parce que leur masse atomique est presque identique d'un élément à l'autre","j":"Les masses atomiques d'une même colonne diffèrent beaucoup ; la ressemblance de comportement tient aux électrons de la couche externe, pas à la masse."}]},
-    {"q":"L'eau (H2O) et le dioxyde de carbone (CO2) appartiennent à quelle catégorie de molécules ?","c":1,"options":[{"t":"Les biomolécules inorganiques, présentes dans les êtres vivants","correct":true,"j":"Le cours range H2O et CO2 parmi les biomolécules inorganiques : elles sont présentes dans les êtres vivants sans être synthétisées par eux."},{"t":"Les biomolécules organiques, synthétisées par les organismes vivants","j":"Les biomolécules organiques sont fabriquées par les organismes vivants et bâties sur des chaînes de carbone portant des groupes fonctionnels, ce qui n'est le cas ni de l'eau ni du CO2."},{"t":"Les bioéléments, éléments chimiques présents dans les êtres vivants","j":"Un bioélément est un élément chimique simple, comme C, O, H, N, P ou S ; l'eau et le dioxyde de carbone sont déjà des assemblages de plusieurs éléments."},{"t":"Les sels minéraux, reliés entre eux par une liaison ionique","j":"Les sels minéraux forment une catégorie distincte, unie par une liaison ionique, alors que l'eau et le dioxyde de carbone résultent de liaisons covalentes entre atomes de bioéléments."}]},
-    {"q":"Au pH des fluides corporels, quelle charge porte la plupart des groupes aminés ?","c":1,"options":[{"t":"Une charge de 1+","correct":true,"j":"Le cours précise qu'au pH des fluides corporels la plupart des groupes aminés sont chargés et portent une charge de 1+."},{"t":"Une charge négative","j":"Le groupe aminé ne fixe pas de charge négative à ce pH : il capte au contraire un proton supplémentaire du milieu."},{"t":"Aucune charge nette","j":"Rester neutre serait l'exception : le cours décrit la plupart de ces groupes comme chargés aux valeurs de pH de l'organisme."},{"t":"Une double charge de 2+","j":"La charge décrite par le cours est unitaire ; aucun doublement de charge n'est évoqué pour ce groupe fonctionnel."}]},
-    {"q":"Au pH des cellules du corps, quelle forme du groupe acide carboxylique prédomine ?","c":1,"options":[{"t":"Sa forme chargée négativement, qui est hydrophile","correct":true,"j":"Le cours indique que la forme chargée négativement prédomine au pH des cellules du corps et qu'elle est hydrophile."},{"t":"Sa forme chargée positivement, hydrophile","j":"Ce groupe cède un proton au lieu d'en capter un : il ne peut pas devenir positif, même si sa forme ionisée attire bien l'eau."},{"t":"Sa forme neutre, qui reste hydrophile","j":"L'affinité pour l'eau est exacte, mais la forme non ionisée n'est pas celle qui prédomine au pH des cellules."},{"t":"Sa forme neutre, qui est hydrophobe","j":"Le groupe acide carboxylique ne fuit pas l'eau : sa forme dominante est ionisée et, à ce titre, hydrophile."}]},
-    {"q":"Quels deux types de composés le groupe carbonyle regroupe-t-il ?","c":1,"options":[{"t":"Les cétones et les aldéhydes","correct":true,"j":"Le cours subdivise le groupe carbonyle en deux sous-types : les cétones et les aldéhydes."},{"t":"Les alcools et les thiols","j":"Alcools et thiols sont deux groupes fonctionnels distincts dans la liste du cours, et non deux sous-types du carbonyle."},{"t":"Les esters et les groupes phosphate","j":"L'ester et le phosphate figurent eux aussi comme deux groupes fonctionnels à part entière, au même rang que le carbonyle."},{"t":"Les acides carboxyliques et les esters","j":"L'acide carboxylique et l'ester contiennent bien un atome de carbone doublement lié à un oxygène, mais le cours les liste comme deux groupes fonctionnels à part entière : seuls les cétones et les aldéhydes sont donnés comme les deux sous-types du carbonyle."}]},
-    {"q":"Laquelle de ces biomolécules n'est PAS exclusive à la matière vivante ?","c":1,"options":[{"t":"L'eau","correct":true,"j":"L'eau est une biomolécule inorganique : elle est présente dans les êtres vivants sans y être exclusive, et se range du côté non exclusif de la matière vivante, avec les sels minéraux."},{"t":"Les glucides","j":"Les glucides comptent parmi les quatre familles de biomolécules organiques, synthétisées par les organismes vivants et donc exclusives à la matière vivante."},{"t":"Les protéines","j":"Les protéines sont des biomolécules organiques faites de chaînes de carbone et de groupes fonctionnels : elles n'existent que dans la matière vivante."},{"t":"Les acides nucléiques, chaînes de nucléotides","j":"Les acides nucléiques sont synthétisés par les organismes vivants et figurent, avec les glucides, les lipides et les protéines, parmi les molécules exclusives au vivant."}]},
-    {"q":"Quels bioéléments entrent dans la structure des lipides ?","c":1,"options":[{"t":"C, H et O, auxquels s'ajoutent parfois N, P et S","correct":true,"j":"Le cours décrit les lipides comme des chaînes de C, H et O, comportant parfois aussi de l'azote, du phosphore ou du soufre."},{"t":"C, H et O uniquement, sans aucun autre bioélément","j":"Cette composition refuse aux lipides les trois éléments que le cours ajoute pour certains d'entre eux."},{"t":"C et H uniquement, d'où leur caractère gras","j":"L'oxygène fait partie intégrante de la structure décrite par le cours ; l'omettre réduirait le lipide à un simple hydrocarbure."},{"t":"C, H, O et P, présents dans la totalité des lipides","j":"Le phosphore n'a rien de constant : le cours ne le mentionne que parmi les éléments présents « parfois » dans les lipides."}]},
-    {"q":"À quelle fonction des lipides les vitamines et les hormones stéroïdes se rattachent-elles ?","c":1,"options":[{"t":"À la fonction de biocatalyseur","correct":true,"j":"Le cours classe les vitamines et les hormones stéroïdes sous la fonction de biocatalyseur des lipides."},{"t":"À la fonction de stockage de l'énergie","j":"Le stockage de l'énergie revient aux triglycérides des cellules adipeuses, et non aux vitamines ni aux hormones."},{"t":"À la fonction de composant structurel des cellules","j":"La fonction structurelle est tenue par les phospholipides et le cholestérol, constituants des cellules."},{"t":"À la fonction de transport d'autres lipides","j":"Le transport d'autres lipides est bien une fonction lipidique citée par le cours, mais il ne concerne ni les vitamines ni les hormones."}]},
-    {"q":"À partir de quelle molécule les hormones stéroïdes sont-elles synthétisées ?","c":1,"options":[{"t":"Le cholestérol","correct":true,"j":"Le cours précise que les hormones stéroïdes sont synthétisées à partir du cholestérol."},{"t":"Les triglycérides","j":"Le triglycéride associe un glycérol à trois acides gras et sert de réserve ; il n'est pas présenté comme un précurseur hormonal."},{"t":"Les phospholipides","j":"Le phospholipide est un constituant des membranes cellulaires et non un précurseur d'hormones."},{"t":"Les acides gras saturés","j":"Les acides gras saturés entrent dans la composition d'autres lipides, mais le cours n'en fait pas l'origine des hormones stéroïdes."}]},
-    {"q":"Dans la formule générale d'un acide aminé, quelle partie diffère d'un acide aminé à l'autre ?","c":1,"options":[{"t":"La chaîne latérale","correct":true,"j":"Le cours bâtit les 20 acides aminés sur un même plan et note que la chaîne latérale est différente dans chacun d'eux."},{"t":"Le groupe aminé","j":"Le groupe aminé appartient au plan commun : on le retrouve identique dans les 20 acides aminés."},{"t":"Le groupe carboxyle","j":"Le groupe carboxyle fait lui aussi partie de la formule générale et se répète tel quel d'un acide aminé à l'autre."},{"t":"Le carbone central","j":"Le carbone qui porte les deux groupes et la chaîne latérale est commun à tous les acides aminés."}]},
-    {"q":"Les protéines contiennent toutes du carbone, de l'hydrogène, de l'oxygène et de l'azote. Quel bioélément supplémentaire n'est présent que dans quelques-unes d'entre elles ?","c":1,"options":[{"t":"Le soufre","correct":true,"j":"Le cours indique que toutes les protéines contiennent C, H, O et N, et que quelques-unes seulement contiennent du soufre."},{"t":"L'azote","j":"L'azote entre dans la composition de toutes les protéines sans exception, aux côtés du carbone, de l'hydrogène et de l'oxygène."},{"t":"Le phosphore","j":"Le phosphore compte parmi les bioéléments, mais le cours ne le fait pas entrer dans la composition des protéines."},{"t":"L'oxygène","j":"L'oxygène appartient à la composition commune à toutes les protéines, et non à une minorité d'entre elles."}]},
-    {"q":"Comment les deux chaînes de nucléotides de l'ADN sont-elles orientées l'une par rapport à l'autre ?","c":1,"options":[{"t":"Elles sont antiparallèles, donc de sens opposés","correct":true,"j":"Le cours décrit l'organisation tridimensionnelle de l'ADN comme deux chaînes de nucléotides antiparallèles et complémentaires."},{"t":"Elles sont parallèles, décalées d'un demi-tour","j":"Un décalage d'un demi-tour décrirait l'enroulement de l'hélice et non l'orientation des deux chaînes, que le cours qualifie d'antiparallèles."},{"t":"Elles sont antiparallèles par endroits","j":"Le cours ne décrit aucune alternance de ce genre : l'orientation opposée vaut sur toute la longueur de la molécule."},{"t":"Elles sont parallèles et de même sens","j":"Le cours décrit les deux chaînes de nucléotides comme antiparallèles, c'est-à-dire de sens opposés, et non orientées dans le même sens."}]},
-    {"q":"La physique est la branche des sciences qui étudie :","c":1,"options":[{"t":"la matière, l'énergie et leurs interactions","correct":true,"j":"Le cours définit ainsi la physique et lui rattache des domaines comme la mécanique, la chaleur ou l'électricité."},{"t":"la structure et les interactions de la matière","j":"C'est la définition que le cours donne de la chimie, qui laisse l'énergie hors de son objet."},{"t":"la composition chimique des êtres vivants","j":"La composition chimique des êtres vivants est l'objet de la biochimie ; la physique s'applique aussi aux corps sans vie."},{"t":"l'énergie et ses seules transformations thermiques","j":"La chaleur n'est qu'un domaine de la physique, à côté de la mécanique et de l'électricité : la restreindre ampute la définition."}]},
-    {"q":"Étymologiquement, la physiothérapie est la science du traitement au moyen :","c":1,"options":[{"t":"d'agents physiques, c'est-à-dire d'éléments naturels","correct":true,"j":"Le mot associe le grec physis, « nature », et therapéia, « traitement » : soigner au moyen d'agents physiques, les éléments naturels."},{"t":"d'agents pharmacologiques prescrits par le médecin traitant","j":"Le médicament ne figure pas dans l'étymologie du mot, qui renvoie à la nature et non à la pharmacologie."},{"t":"d'agents chimiques de synthèse administrés au patient","j":"Un produit de synthèse s'oppose précisément aux éléments naturels auxquels renvoie la racine physis."},{"t":"d'agents chirurgicaux appliqués aux tissus lésés","j":"L'acte chirurgical n'entre pas dans cette définition : le traitement y est obtenu par des agents naturels."}]},
-    {"q":"Quelle grandeur physique fondamentale a pour unité de base la candela ?","c":1,"options":[{"t":"L'intensité lumineuse","correct":true,"j":"La candela est l'unité de base de l'intensité lumineuse parmi les sept unités fondamentales du Système international."},{"t":"L'intensité du courant électrique","j":"L'intensité du courant électrique a pour unité de base l'ampère, et non la candela."},{"t":"La température thermodynamique","j":"La température figure bien parmi les sept grandeurs fondamentales, mais son unité de base est le kelvin."},{"t":"La quantité de substance","j":"La quantité de substance figure elle aussi parmi les sept grandeurs fondamentales, mais son unité de base est la mole et non la candela."}]},
-    {"q":"Quelle grandeur physique l'unité dérivée « pascal » mesure-t-elle ?","c":1,"options":[{"t":"La pression, rapport d'une force à une surface","correct":true,"j":"Le pascal est l'unité dérivée de la pression ; dans le Système international il équivaut à un newton par mètre carré."},{"t":"Le potentiel électrique entre deux points","j":"Le potentiel électrique se mesure en volts, soit des joules par coulomb."},{"t":"La charge électrique d'un courant continu","j":"La charge électrique se mesure en coulombs, qui valent un ampère-seconde."},{"t":"La résistance opposée par un conducteur","j":"La résistance électrique se mesure en ohms, soit des volts par ampère."}]},
-    {"q":"Quel préfixe du Système international correspond au facteur 10⁻⁶ ?","c":1,"options":[{"t":"Micro","correct":true,"j":"Le préfixe micro désigne le facteur 10⁻⁶, soit un millionième de l'unité de départ."},{"t":"Milli","j":"Le préfixe milli correspond au facteur 10⁻³, soit un millième de l'unité, mille fois plus grand."},{"t":"Nano","j":"Le préfixe nano correspond au facteur 10⁻⁹, soit mille fois plus petit que celui demandé."},{"t":"Pico","j":"Le préfixe pico correspond au facteur 10⁻¹², le plus petit des sous-multiples cités par le cours."}]}
+    {
+      "q": "Quels quatre éléments chimiques constituent à eux seuls 96 % du nombre total d'atomes présents dans le corps humain ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le carbone, l'hydrogène, l'oxygène et l'azote",
+          "correct": true,
+          "j": "Ces quatre éléments sont ceux que le cours désigne comme constituant 96 % du nombre total d'atomes présents dans le corps humain ; les sept éléments suivants n'en représentent ensemble qu'environ 3,6 %."
+        },
+        {
+          "t": "Le carbone, l'hydrogène, l'oxygène et le phosphore",
+          "j": "Le phosphore est bien un bioélément, mais il appartient au groupe des sept éléments qui ne pèsent ensemble qu'environ 3,6 % des atomes du corps."
+        },
+        {
+          "t": "Le carbone, l'hydrogène, l'azote et le soufre",
+          "j": "Le soufre figure lui aussi parmi les sept éléments minoritaires du cours : il ne peut pas remplacer l'oxygène dans ce quatuor majoritaire."
+        },
+        {
+          "t": "Le carbone, l'oxygène, l'azote et le calcium",
+          "j": "Le calcium est indispensable à l'organisme sans compter parmi les quatre éléments majoritaires : il relève du groupe des 3,6 %."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi les éléments d'une même colonne verticale du tableau périodique se comportent-ils de façon similaire dans la formation des liaisons et des ions ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Parce qu'ils gagnent ou perdent le même nombre d'électrons pour remplir leur couche externe",
+          "correct": true,
+          "j": "Le cours explique que les atomes d'une même colonne doivent gagner ou perdre le même nombre d'électrons pour atteindre une couche externe remplie, d'où un comportement chimique semblable."
+        },
+        {
+          "t": "Parce qu'ils possèdent le même numéro atomique, qui détermine leur position dans la classification",
+          "j": "Le numéro atomique est propre à chaque élément : c'est précisément lui qui permet de les classer et de les distinguer les uns des autres."
+        },
+        {
+          "t": "Parce qu'ils comptent tous le même nombre de couches électroniques autour du noyau",
+          "j": "Le nombre de couches électroniques n'est pas le critère retenu : le cours rattache le comportement semblable des éléments d'une même colonne au nombre d'électrons qu'ils doivent gagner ou perdre pour atteindre une couche externe remplie."
+        },
+        {
+          "t": "Parce que leur masse atomique est presque identique d'un élément à l'autre",
+          "j": "Les masses atomiques d'une même colonne diffèrent beaucoup ; la ressemblance de comportement tient aux électrons de la couche externe, pas à la masse."
+        }
+      ]
+    },
+    {
+      "q": "L'eau (H2O) et le dioxyde de carbone (CO2) appartiennent à quelle catégorie de molécules ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Les biomolécules inorganiques, présentes dans les êtres vivants",
+          "correct": true,
+          "j": "Le cours range H2O et CO2 parmi les biomolécules inorganiques : elles sont présentes dans les êtres vivants sans être synthétisées par eux."
+        },
+        {
+          "t": "Les biomolécules organiques, synthétisées par les organismes vivants",
+          "j": "Les biomolécules organiques sont fabriquées par les organismes vivants et bâties sur des chaînes de carbone portant des groupes fonctionnels, ce qui n'est le cas ni de l'eau ni du CO2."
+        },
+        {
+          "t": "Les bioéléments, éléments chimiques présents dans les êtres vivants",
+          "j": "Un bioélément est un élément chimique simple, comme C, O, H, N, P ou S ; l'eau et le dioxyde de carbone sont déjà des assemblages de plusieurs éléments."
+        },
+        {
+          "t": "Les sels minéraux, reliés entre eux par une liaison ionique",
+          "j": "Les sels minéraux forment une catégorie distincte, unie par une liaison ionique, alors que l'eau et le dioxyde de carbone résultent de liaisons covalentes entre atomes de bioéléments."
+        }
+      ]
+    },
+    {
+      "q": "Au pH des fluides corporels, quelle charge porte la plupart des groupes aminés ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Une charge de 1+",
+          "correct": true,
+          "j": "Le cours précise qu'au pH des fluides corporels la plupart des groupes aminés sont chargés et portent une charge de 1+."
+        },
+        {
+          "t": "Une charge négative",
+          "j": "Le groupe aminé ne fixe pas de charge négative à ce pH : il capte au contraire un proton supplémentaire du milieu."
+        },
+        {
+          "t": "Aucune charge nette",
+          "j": "Rester neutre serait l'exception : le cours décrit la plupart de ces groupes comme chargés aux valeurs de pH de l'organisme."
+        },
+        {
+          "t": "Une double charge de 2+",
+          "j": "La charge décrite par le cours est unitaire ; aucun doublement de charge n'est évoqué pour ce groupe fonctionnel."
+        }
+      ]
+    },
+    {
+      "q": "Au pH des cellules du corps, quelle forme du groupe acide carboxylique prédomine ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Sa forme chargée négativement, qui est hydrophile",
+          "correct": true,
+          "j": "Le cours indique que la forme chargée négativement prédomine au pH des cellules du corps et qu'elle est hydrophile."
+        },
+        {
+          "t": "Sa forme chargée positivement, hydrophile",
+          "j": "Ce groupe cède un proton au lieu d'en capter un : il ne peut pas devenir positif, même si sa forme ionisée attire bien l'eau."
+        },
+        {
+          "t": "Sa forme neutre, qui reste hydrophile",
+          "j": "L'affinité pour l'eau est exacte, mais la forme non ionisée n'est pas celle qui prédomine au pH des cellules."
+        },
+        {
+          "t": "Sa forme neutre, qui est hydrophobe",
+          "j": "Le groupe acide carboxylique ne fuit pas l'eau : sa forme dominante est ionisée et, à ce titre, hydrophile."
+        }
+      ]
+    },
+    {
+      "q": "Quels deux types de composés le groupe carbonyle regroupe-t-il ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Les cétones et les aldéhydes",
+          "correct": true,
+          "j": "Le cours subdivise le groupe carbonyle en deux sous-types : les cétones et les aldéhydes."
+        },
+        {
+          "t": "Les alcools et les thiols",
+          "j": "Alcools et thiols sont deux groupes fonctionnels distincts dans la liste du cours, et non deux sous-types du carbonyle."
+        },
+        {
+          "t": "Les esters et les groupes phosphate",
+          "j": "L'ester et le phosphate figurent eux aussi comme deux groupes fonctionnels à part entière, au même rang que le carbonyle."
+        },
+        {
+          "t": "Les acides carboxyliques et les esters",
+          "j": "L'acide carboxylique et l'ester contiennent bien un atome de carbone doublement lié à un oxygène, mais le cours les liste comme deux groupes fonctionnels à part entière : seuls les cétones et les aldéhydes sont donnés comme les deux sous-types du carbonyle."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle de ces biomolécules n'est PAS exclusive à la matière vivante ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "L'eau",
+          "correct": true,
+          "j": "L'eau est une biomolécule inorganique : elle est présente dans les êtres vivants sans y être exclusive, et se range du côté non exclusif de la matière vivante, avec les sels minéraux."
+        },
+        {
+          "t": "Les glucides",
+          "j": "Les glucides comptent parmi les quatre familles de biomolécules organiques, synthétisées par les organismes vivants et donc exclusives à la matière vivante."
+        },
+        {
+          "t": "Les protéines",
+          "j": "Les protéines sont des biomolécules organiques faites de chaînes de carbone et de groupes fonctionnels : elles n'existent que dans la matière vivante."
+        },
+        {
+          "t": "Les acides nucléiques, chaînes de nucléotides",
+          "j": "Les acides nucléiques sont synthétisés par les organismes vivants et figurent, avec les glucides, les lipides et les protéines, parmi les molécules exclusives au vivant."
+        }
+      ]
+    },
+    {
+      "q": "Quels bioéléments entrent dans la structure des lipides ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "C, H et O, auxquels s'ajoutent parfois N, P et S",
+          "correct": true,
+          "j": "Le cours décrit les lipides comme des chaînes de C, H et O, comportant parfois aussi de l'azote, du phosphore ou du soufre."
+        },
+        {
+          "t": "C, H et O uniquement, sans aucun autre bioélément",
+          "j": "Cette composition refuse aux lipides les trois éléments que le cours ajoute pour certains d'entre eux."
+        },
+        {
+          "t": "C et H uniquement, d'où leur caractère gras",
+          "j": "L'oxygène fait partie intégrante de la structure décrite par le cours ; l'omettre réduirait le lipide à un simple hydrocarbure."
+        },
+        {
+          "t": "C, H, O et P, présents dans la totalité des lipides",
+          "j": "Le phosphore n'a rien de constant : le cours ne le mentionne que parmi les éléments présents « parfois » dans les lipides."
+        }
+      ]
+    },
+    {
+      "q": "À quelle fonction des lipides les vitamines et les hormones stéroïdes se rattachent-elles ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "À la fonction de biocatalyseur",
+          "correct": true,
+          "j": "Le cours classe les vitamines et les hormones stéroïdes sous la fonction de biocatalyseur des lipides."
+        },
+        {
+          "t": "À la fonction de stockage de l'énergie",
+          "j": "Le stockage de l'énergie revient aux triglycérides des cellules adipeuses, et non aux vitamines ni aux hormones."
+        },
+        {
+          "t": "À la fonction de composant structurel des cellules",
+          "j": "La fonction structurelle est tenue par les phospholipides et le cholestérol, constituants des cellules."
+        },
+        {
+          "t": "À la fonction de transport d'autres lipides",
+          "j": "Le transport d'autres lipides est bien une fonction lipidique citée par le cours, mais il ne concerne ni les vitamines ni les hormones."
+        }
+      ]
+    },
+    {
+      "q": "À partir de quelle molécule les hormones stéroïdes sont-elles synthétisées ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le cholestérol",
+          "correct": true,
+          "j": "Le cours précise que les hormones stéroïdes sont synthétisées à partir du cholestérol."
+        },
+        {
+          "t": "Les triglycérides",
+          "j": "Le triglycéride associe un glycérol à trois acides gras et sert de réserve ; il n'est pas présenté comme un précurseur hormonal."
+        },
+        {
+          "t": "Les phospholipides",
+          "j": "Le phospholipide est un constituant des membranes cellulaires et non un précurseur d'hormones."
+        },
+        {
+          "t": "Les acides gras saturés",
+          "j": "Les acides gras saturés entrent dans la composition d'autres lipides, mais le cours n'en fait pas l'origine des hormones stéroïdes."
+        }
+      ]
+    },
+    {
+      "q": "Dans la formule générale d'un acide aminé, quelle partie diffère d'un acide aminé à l'autre ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La chaîne latérale",
+          "correct": true,
+          "j": "Le cours bâtit les 20 acides aminés sur un même plan et note que la chaîne latérale est différente dans chacun d'eux."
+        },
+        {
+          "t": "Le groupe aminé",
+          "j": "Le groupe aminé appartient au plan commun : on le retrouve identique dans les 20 acides aminés."
+        },
+        {
+          "t": "Le groupe carboxyle",
+          "j": "Le groupe carboxyle fait lui aussi partie de la formule générale et se répète tel quel d'un acide aminé à l'autre."
+        },
+        {
+          "t": "Le carbone central",
+          "j": "Le carbone qui porte les deux groupes et la chaîne latérale est commun à tous les acides aminés."
+        }
+      ]
+    },
+    {
+      "q": "Quel bioélément n’est présent que dans quelques protéines, et non dans la totalité d’entre elles ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le soufre",
+          "correct": true,
+          "j": "Le cours range le soufre à part : il indique que seules quelques protéines en contiennent, à la différence des bioéléments que l’on trouve dans chacune d’elles."
+        },
+        {
+          "t": "L'azote",
+          "j": "L’azote entre dans la composition de toutes les protéines sans exception : il n’est donc pas le bioélément réservé à quelques-unes d’entre elles."
+        },
+        {
+          "t": "Le phosphore",
+          "j": "Le phosphore compte parmi les bioéléments, mais le cours ne le fait pas entrer dans la composition des protéines."
+        },
+        {
+          "t": "L'oxygène",
+          "j": "L'oxygène appartient à la composition commune à toutes les protéines, et non à une minorité d'entre elles."
+        }
+      ]
+    },
+    {
+      "q": "Comment les deux chaînes de nucléotides de l'ADN sont-elles orientées l'une par rapport à l'autre ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Elles sont antiparallèles, donc de sens opposés",
+          "correct": true,
+          "j": "Le cours décrit l'organisation tridimensionnelle de l'ADN comme deux chaînes de nucléotides antiparallèles et complémentaires."
+        },
+        {
+          "t": "Elles sont parallèles, décalées d'un demi-tour",
+          "j": "Un décalage d'un demi-tour décrirait l'enroulement de l'hélice et non l'orientation des deux chaînes, que le cours qualifie d'antiparallèles."
+        },
+        {
+          "t": "Elles sont antiparallèles par endroits",
+          "j": "Le cours ne décrit aucune alternance de ce genre : l'orientation opposée vaut sur toute la longueur de la molécule."
+        },
+        {
+          "t": "Elles sont parallèles et de même sens",
+          "j": "Le cours décrit les deux chaînes de nucléotides comme antiparallèles, c'est-à-dire de sens opposés, et non orientées dans le même sens."
+        }
+      ]
+    },
+    {
+      "q": "La physique est la branche des sciences qui étudie :",
+      "c": 1,
+      "options": [
+        {
+          "t": "la matière, l'énergie et leurs interactions",
+          "correct": true,
+          "j": "Le cours définit ainsi la physique et lui rattache des domaines comme la mécanique, la chaleur ou l'électricité."
+        },
+        {
+          "t": "la structure et les interactions de la matière",
+          "j": "C'est la définition que le cours donne de la chimie, qui laisse l'énergie hors de son objet."
+        },
+        {
+          "t": "la composition chimique des êtres vivants",
+          "j": "La composition chimique des êtres vivants est l'objet de la biochimie ; la physique s'applique aussi aux corps sans vie."
+        },
+        {
+          "t": "l'énergie et ses seules transformations thermiques",
+          "j": "La chaleur n'est qu'un domaine de la physique, à côté de la mécanique et de l'électricité : la restreindre ampute la définition."
+        }
+      ]
+    },
+    {
+      "q": "Étymologiquement, la physiothérapie est la science du traitement au moyen :",
+      "c": 1,
+      "options": [
+        {
+          "t": "d'agents physiques, c'est-à-dire d'éléments naturels",
+          "correct": true,
+          "j": "Le mot associe le grec physis, « nature », et therapéia, « traitement » : soigner au moyen d'agents physiques, les éléments naturels."
+        },
+        {
+          "t": "d'agents pharmacologiques prescrits par le médecin traitant",
+          "j": "Le médicament ne figure pas dans l'étymologie du mot, qui renvoie à la nature et non à la pharmacologie."
+        },
+        {
+          "t": "d'agents chimiques de synthèse administrés au patient",
+          "j": "Un produit de synthèse s'oppose précisément aux éléments naturels auxquels renvoie la racine physis."
+        },
+        {
+          "t": "d'agents chirurgicaux appliqués aux tissus lésés",
+          "j": "L'acte chirurgical n'entre pas dans cette définition : le traitement y est obtenu par des agents naturels."
+        }
+      ]
+    },
+    {
+      "q": "Quelle grandeur physique fondamentale a pour unité de base la candela ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "L'intensité lumineuse",
+          "correct": true,
+          "j": "La candela est l'unité de base de l'intensité lumineuse parmi les sept unités fondamentales du Système international."
+        },
+        {
+          "t": "L'intensité du courant électrique",
+          "j": "L'intensité du courant électrique a pour unité de base l'ampère, et non la candela."
+        },
+        {
+          "t": "La température thermodynamique",
+          "j": "La température figure bien parmi les sept grandeurs fondamentales, mais son unité de base est le kelvin."
+        },
+        {
+          "t": "La quantité de substance",
+          "j": "La quantité de substance figure elle aussi parmi les sept grandeurs fondamentales, mais son unité de base est la mole et non la candela."
+        }
+      ]
+    },
+    {
+      "q": "Quelle grandeur physique l'unité dérivée « pascal » mesure-t-elle ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La pression, rapport d'une force à une surface",
+          "correct": true,
+          "j": "Le pascal est l'unité dérivée de la pression ; dans le Système international il équivaut à un newton par mètre carré."
+        },
+        {
+          "t": "Le potentiel électrique entre deux points",
+          "j": "Le potentiel électrique se mesure en volts, soit des joules par coulomb."
+        },
+        {
+          "t": "La charge électrique d'un courant continu",
+          "j": "La charge électrique se mesure en coulombs, qui valent un ampère-seconde."
+        },
+        {
+          "t": "La résistance opposée par un conducteur",
+          "j": "La résistance électrique se mesure en ohms, soit des volts par ampère."
+        }
+      ]
+    },
+    {
+      "q": "Quel préfixe du Système international correspond au facteur 10⁻⁶ ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Micro",
+          "correct": true,
+          "j": "Le préfixe micro désigne le facteur 10⁻⁶, soit un millionième de l'unité de départ."
+        },
+        {
+          "t": "Milli",
+          "j": "Le préfixe milli correspond au facteur 10⁻³, soit un millième de l'unité, mille fois plus grand."
+        },
+        {
+          "t": "Nano",
+          "j": "Le préfixe nano correspond au facteur 10⁻⁹, soit mille fois plus petit que celui demandé."
+        },
+        {
+          "t": "Pico",
+          "j": "Le préfixe pico correspond au facteur 10⁻¹², le plus petit des sous-multiples cités par le cours."
+        }
+      ]
+    }
   ],
   "structure1": [
     {
