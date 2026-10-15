@@ -28691,21 +28691,21 @@ const QUESTIONS = {
       "c": 2,
       "options": [
         {
-          "t": "Est une cellule procaryote dépourvue de noyau",
-          "j": "Faux : un virus n'est pas une cellule ; la cellule procaryote sans noyau correspond à la bactérie."
+          "t": "Utilise toujours l’ADN comme matériel génétique",
+          "j": "C’est l’inverse qui est mis en avant : le cours cite les virus comme exemples d’emploi de l’ARN comme matériel génétique, et non de l’ADN seul."
         },
         {
-          "t": "Est de l'ADN nu sans capside protéique",
-          "j": "Faux : un virus possède toujours une capside ; l'acide nucléique nu infectieux sans capside correspond au viroïde."
+          "t": "Porte son information génétique dans des protéines",
+          "j": "Dans la discussion du cours, ce sont les acides nucléiques — et l’ARN au premier chef — qui portent l’information ; les protéines n’y tiennent pas ce rôle."
         },
         {
-          "t": "Est appelé phage s'il infecte les cellules animales",
-          "j": "Faux : le bactériophage infecte les bactéries, pas les cellules animales."
+          "t": "Ne possède aucun matériel génétique propre",
+          "j": "Le cours leur en attribue un, et c’est même la raison pour laquelle il les mentionne : de nombreux virus utilisent l’ARN comme matériel génétique."
         },
         {
           "t": "Peut avoir de l'ARN comme matériel génétique",
           "correct": true,
-          "j": "Exact : le génome viral est constitué soit d'ADN, soit d'ARN, enfermé dans une capside."
+          "j": "Le cours cite précisément les virus pour appuyer l’hypothèse de l’ARN : « de nombreux virus utilisent l’ARN comme matériel génétique » (ch. 2, p. 11)."
         }
       ]
     },
@@ -33953,45 +33953,903 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Qu'est-ce qui oscille dans une onde électromagnétique ?","c":15,"options":[{"t":"Un champ électrique et un champ magnétique","correct":true,"j":"Une onde électromagnétique est l'oscillation d'un champ électrique et d'un champ magnétique qui se propage dans l'espace à une certaine vitesse."},{"t":"Les molécules du milieu qu'elle traverse","j":"Le passage d'une onde dans un milieu met certes les atomes de celui-ci en oscillation, mais c'est un effet induit sur le milieu traversé ; l'onde électromagnétique elle-même est l'oscillation de deux champs, et elle se propage jusque dans le vide."},{"t":"Un champ électrique seul, sans composante magnétique","j":"Les deux champs sont indissociables dans ce type d'onde : il n'existe pas de rayonnement dont seule la composante électrique oscillerait."},{"t":"La pression du milieu, transmise de proche en proche","j":"Une oscillation de pression transmise de proche en proche caractérise une onde mécanique, dont la propagation suppose la mise en mouvement de la matière elle-même."}]},
-    {"q":"Quelle est l'origine des ondes électromagnétiques ?","c":15,"options":[{"t":"Des charges électriques en mouvement","correct":true,"j":"Ce sont les charges électriques en mouvement qui engendrent les ondes électromagnétiques, lesquelles se propagent ensuite dans l'espace à une certaine vitesse."},{"t":"Des charges électriques parfaitement immobiles","j":"C'est le mouvement des charges, et non leur simple présence, qui est désigné comme l'origine des ondes électromagnétiques : une charge qui ne se déplace pas n'en engendre aucune."},{"t":"L'absorption d'un rayonnement par les atomes d'un milieu","j":"L'absorption est ce qui arrive à une onde déjà formée lorsqu'elle traverse la matière : son énergie y est convertie en énergie thermique. Ce qui donne naissance aux ondes électromagnétiques est le mouvement de charges électriques."},{"t":"La compression périodique d'un gaz enfermé","j":"La compression périodique d'un gaz met en jeu la matière du milieu : elle engendre une onde mécanique et non un rayonnement électromagnétique."}]},
-    {"q":"La vitesse d'une onde électromagnétique est toujours plus faible dans un milieu matériel que dans le vide. Pour quelle raison ?","c":15,"options":[{"t":"Les atomes du milieu, mis en oscillation, produisent des ondes secondaires qui freinent l'onde initiale","correct":true,"j":"Le passage de l'onde induit des oscillations dans les atomes du milieu traversé ; ces oscillations produisent des ondes électromagnétiques secondaires qui réduisent la vitesse de l'onde d'origine."},{"t":"La fréquence de l'onde diminue à mesure qu'elle progresse dans le milieu","j":"La fréquence est déterminée par la source et ne change pas avec le milieu de propagation : elle ne peut pas expliquer le ralentissement."},{"t":"Le milieu absorbe une fraction de l'énergie, ce qui abaisse la vitesse de l'onde","j":"L'absorption diminue l'énergie que l'onde transporte, donc son intensité, mais ce n'est pas le mécanisme auquel ce ralentissement est attribué."},{"t":"Une partie du rayonnement est renvoyée vers la source, ce qui retient le reste du faisceau","j":"La part renvoyée vers l'arrière quitte le milieu et cesse d'y progresser : elle n'exerce aucune retenue sur l'onde qui continue."}]},
-    {"q":"Comment l'indice de réfraction (n) d'une substance est-il défini ?","c":15,"options":[{"t":"Par le quotient de la vitesse de la lumière dans le vide et de sa vitesse dans cette substance","correct":true,"j":"L'indice vaut n = c0/c ; comme la lumière va toujours moins vite dans une substance que dans le vide, cet indice est toujours supérieur à 1."},{"t":"Par le quotient de la vitesse de la lumière dans cette substance et de sa vitesse dans le vide","j":"Pris dans ce sens, le quotient serait toujours inférieur à 1, alors que l'indice de réfraction d'une substance dépasse toujours cette valeur."},{"t":"Par le quotient de la longueur d'onde dans le vide et de la fréquence dans cette substance","j":"L'indice de réfraction est construit à partir de deux vitesses de la lumière — celle du vide et celle de la substance — et non à partir d'une longueur d'onde et d'une fréquence."},{"t":"Par le quotient de l'intensité transmise au second milieu et de l'intensité incidente sur la surface","j":"Ce quotient décrit le partage de l'onde à une frontière et dépend donc de deux milieux à la fois, alors que l'indice caractérise une seule substance."}]},
-    {"q":"Un milieu est dit optiquement plus dense qu'un autre lorsque :","c":15,"options":[{"t":"son indice de réfraction est plus élevé","correct":true,"j":"Un milieu est défini comme d'autant plus dense que son indice de réfraction est élevé."},{"t":"son indice de réfraction est plus faible","j":"Un indice plus faible caractérise au contraire le moins dense des deux milieux."},{"t":"sa masse volumique est plus élevée","j":"La densité dont il est question ici est une densité optique, qui se lit sur l'indice et non sur la masse d'un volume donné."},{"t":"sa température est plus élevée","j":"La température n'entre pas dans cette définition, qui ne repose que sur une propriété optique du milieu."}]},
-    {"q":"Une lumière de longueur d'onde 600 nm se propageant dans l'air (n = 1) pénètre dans un milieu d'indice de réfraction n = 1,5. Quelle y devient sa longueur d'onde ?","c":15,"options":[{"t":"400 nm","correct":true,"j":"Le rapport des longueurs d'onde est l'inverse du rapport des indices : λ devient λ0/n, soit 600/1,5 = 400 nm."},{"t":"900 nm","j":"Cette valeur multiplie la longueur d'onde par l'indice au lieu de la diviser ; dans un milieu d'indice supérieur à 1 elle ne peut pas s'allonger."},{"t":"600 nm","j":"La longueur d'onde ne se conserve pas d'un milieu à l'autre ; c'est la fréquence, imposée par la source, qui reste inchangée."},{"t":"267 nm","j":"Cette valeur revient à diviser deux fois par l'indice (600/1,5²), alors que celui-ci n'intervient qu'à la puissance un."}]},
-    {"q":"Une onde atteint la surface d'un second milieu. À quelle condition la part qui y pénètre est-elle qualifiée d'onde réfractée ?","c":15,"options":[{"t":"Si le second milieu est translucide, l'onde qui continue de s'y propager est dite réfractée","correct":true,"j":"L'onde transmise est celle qui pénètre dans le second milieu ; lorsque ce milieu est translucide, la part qui y poursuit sa propagation porte le nom d'onde réfractée."},{"t":"Si le second milieu l'absorbe en totalité et la transforme en énergie thermique","j":"La part absorbée par le nouveau milieu est convertie en énergie thermique : elle cesse précisément de se propager."},{"t":"Si elle revient dans le premier milieu après avoir changé de direction","j":"L'onde qui repart par le milieu d'où elle venait est l'onde réfléchie, et non l'onde réfractée."},{"t":"Si elle traverse le second milieu sans subir la moindre déviation","j":"L'onde réfractée subit au contraire une déviation de son chemin en entrant dans le nouveau milieu."}]},
-    {"q":"On appelle normale la ligne imaginaire perpendiculaire à la surface que frappe une onde. Que dit la loi de la réflexion ?","c":15,"options":[{"t":"L'angle d'incidence est égal à l'angle de réflexion","correct":true,"j":"L'onde réfléchie repart en faisant avec la normale un angle rigoureusement égal à celui du rayon incident."},{"t":"L'angle de réflexion est le complémentaire de l'angle d'incidence","j":"La loi de la réflexion pose l'égalité des deux angles mesurés par rapport à la normale, et non leur complémentarité : l'onde repart exactement sous l'angle où elle est arrivée."},{"t":"L'angle de réflexion dépend des indices de réfraction des deux milieux","j":"La direction de l'onde réfléchie est fixée par celle du rayon incident et par la normale, sans que l'indice du second milieu y intervienne."},{"t":"L'angle de réflexion est toujours nul, quelle que soit l'incidence","j":"Un angle nul signifierait que l'onde repart systématiquement perpendiculairement à la surface, indépendamment de la façon dont elle est arrivée."}]},
-    {"q":"Un faisceau lumineux venant de l'air (n = 1) frappe une lentille en verre d'indice n = 1,5. Quelle proportion de la lumière incidente est réfléchie à cette surface ?","c":15,"options":[{"t":"4 %","correct":true,"j":"La proportion réfléchie vaut ((n2 − n1)/(n2 + n1))², soit ((1,5 − 1)/(1,5 + 1))² = 0,04 : 4 % de la lumière est réfléchie et 96 % passe dans le verre."},{"t":"20 %","j":"20 % correspond au rapport (1 − 1,5)/(1 + 1,5) laissé tel quel, alors que ce rapport doit être élevé au carré."},{"t":"25 %","j":"25 % s'obtient en rapportant l'écart des deux indices au seul indice du premier milieu, alors que le dénominateur est leur somme."},{"t":"50 %","j":"Un partage par moitié supposerait que la surface renvoie autant de lumière qu'elle en laisse passer, ce que le calcul à partir des deux indices ne donne pas."}]},
-    {"q":"Qu'est-ce qu'un photon ?","c":15,"options":[{"t":"La plus petite unité d'énergie du rayonnement électromagnétique","correct":true,"j":"Le rayonnement électromagnétique est composé de petits paquets, ou quanta, d'énergie : ces quanta sont les photons."},{"t":"Une particule chargée négativement qui gravite autour du noyau","j":"Cette description est celle de l'électron, constituant de l'atome, et non du grain d'énergie que transporte un rayonnement."},{"t":"La plus petite masse que puisse transporter une onde lumineuse","j":"Ce qui est découpé en paquets dans un rayonnement électromagnétique est l'énergie qu'il transporte, et non une masse."},{"t":"L'unité de mesure de la fréquence d'une onde lumineuse","j":"La fréquence se mesure en hertz ; le photon n'est pas une unité de mesure mais un grain bien réel du rayonnement."}]},
-    {"q":"L'intensité d'un faisceau monochromatique augmente. Qu'est-ce qui a changé dans ce faisceau ?","c":15,"options":[{"t":"Le nombre de photons qu'il transporte","correct":true,"j":"L'intensité d'un faisceau monochromatique est déterminée par le nombre de photons : plus ils sont nombreux, plus le faisceau est intense."},{"t":"L'énergie portée par chacun de ses photons","j":"Dans un faisceau monochromatique, tous les photons sont identiques : ce que chacun transporte reste le même d'un bout à l'autre du faisceau."},{"t":"La vitesse de déplacement de ses photons","j":"Les quanta de rayonnement électromagnétique se comportent comme des corpuscules qui se déplacent à la vitesse de la lumière : cette vitesse ne se règle pas."},{"t":"La longueur d'onde propre à chacun de ses photons","j":"Un faisceau monochromatique ne comporte qu'une seule longueur d'onde, fixée par la source ; si elle changeait, ce ne serait plus le même rayonnement."}]},
-    {"q":"À mesure que la fréquence d'un rayonnement électromagnétique augmente, l'énergie qui lui est associée augmente. Quelle capacité acquiert-il alors ?","c":15,"options":[{"t":"Celle de pénétrer la matière et d'en extraire des électrons","correct":true,"j":"C'est ce qu'on appelle la capacité ionisante : le rayonnement pénètre davantage la matière et parvient à en arracher des électrons."},{"t":"Celle de traverser la matière sans lui céder la moindre énergie","j":"Un rayonnement qui ne céderait aucune énergie à la matière traversée n'y produirait aucun effet, ni utile ni nocif."},{"t":"Celle de se propager dans la matière plus vite que dans le vide","j":"La vitesse d'une onde électromagnétique dans un milieu matériel reste toujours inférieure à celle qu'elle atteint dans le vide, quelle que soit sa fréquence."},{"t":"Celle d'échauffer les tissus sans produire d'autre effet","j":"Un effet chauffant est déjà obtenu par des rayonnements de fréquence bien plus basse ; ce que l'élévation de fréquence apporte est d'une autre nature."}]},
-    {"q":"Un photon cède son énergie à un électron d'un atome, sans que cet électron parvienne à s'en échapper. Que lui arrive-t-il alors ?","c":15,"options":[{"t":"Il s'élève vers un niveau d'énergie supérieur, puis revient à son état naturel en émettant un nouveau photon","correct":true,"j":"C'est la transition électronique : l'énergie absorbée fait monter l'électron d'un niveau, et quelques instants plus tard il redescend en émettant un photon."},{"t":"Il s'élève vers un niveau d'énergie supérieur et y demeure définitivement, sans jamais redescendre","j":"Le séjour au niveau supérieur ne dure que quelques instants ; l'électron ne s'y installe pas de façon permanente."},{"t":"Il transmet aussitôt au noyau de l'atome l'énergie que le photon vient de lui céder","j":"C'est l'électron lui-même qui absorbe l'énergie apportée par le photon ; le noyau n'est pas en cause dans cette interaction."},{"t":"Il perd une partie de sa charge électrique au profit du photon absorbé","j":"Ce que l'absorption du photon modifie est le niveau d'énergie de l'électron, qui s'élève puis redescend quelques instants plus tard ; sa charge n'intervient à aucun moment dans cette description."}]},
-    {"q":"Lequel des énoncés suivants à propos de la thermographie est FAUX ?","c":15,"options":[{"t":"Elle construit son image en captant le rayonnement ultraviolet émis par les tissus","correct":true,"j":"C'est l'énoncé faux : la thermographie capte le rayonnement thermique infrarouge, celui qu'un corps émet en raison de son énergie thermique."},{"t":"Elle permet de visualiser des zones du corps dont les températures diffèrent","j":"Énoncé exact : c'est précisément ce qu'elle apporte en sciences de la santé, en distinguant les régions selon leur température."},{"t":"Elle restitue ces températures sous forme d'échelles de gris ou de couleurs","j":"Énoncé exact : l'image obtenue traduit les différences de température par des gris ou par des couleurs."},{"t":"Elle est utilisée pour détecter une inflammation, une thrombose veineuse ou une tumeur","j":"Énoncé exact : ces trois situations figurent parmi ses applications, les zones enflammées présentant une hyperthermie."}]},
-    {"q":"Le facteur d'émissivité directionnelle d'un corps est le quotient entre deux grandeurs. Lesquelles ?","c":15,"options":[{"t":"L'intensité du rayonnement thermique qu'il émet et celle qu'émettrait un corps noir à la même température et à la même longueur d'onde","correct":true,"j":"L'émissivité confronte l'émission réelle d'un corps à celle d'un corps noir placé à la même température et observé à la même longueur d'onde."},{"t":"L'intensité du rayonnement thermique qu'il émet et celle qu'il reçoit de l'environnement qui l'entoure","j":"Ce quotient opposerait ce que le corps émet à ce qu'il reçoit : il décrirait son bilan d'échange, et non la qualité de sa propre émission."},{"t":"L'intensité du rayonnement thermique qu'il émet et l'étendue de la surface par laquelle il l'émet","j":"Rapporter un rayonnement à l'étendue de la surface qui l'émet fournirait une intensité par unité d'aire, et non une comparaison entre deux émissions."},{"t":"L'intensité du rayonnement thermique qu'il émet et celle qu'émettrait une surface parfaitement réfléchissante","j":"La référence retenue est le corps noir, c'est-à-dire l'émetteur idéal dont l'émissivité vaut 1, et non une surface choisie pour ses propriétés de réflexion."}]},
-    {"q":"Selon la loi du cosinus de Lambert, quand l'intensité du rayonnement reçue par une surface est-elle maximale ?","c":15,"options":[{"t":"Quand le faisceau frappe la surface perpendiculairement","correct":true,"j":"L'intensité maximale est obtenue pour une incidence perpendiculaire ; dès que le faisceau s'incline, l'intensité diminue à cause de la réflexion, selon I = IN cos θ."},{"t":"Quand le faisceau frappe la surface en la rasant","j":"Une incidence rasante correspond à un angle très ouvert par rapport à la normale, et donc à l'intensité reçue la plus faible."},{"t":"Quand le faisceau fait un angle de 45° avec la normale à la surface","j":"Une telle inclinaison réduit déjà sensiblement l'intensité reçue par rapport à une incidence droite."},{"t":"Quand la surface irradiée est la plus étendue possible","j":"Cette loi ne fait intervenir que l'inclinaison du faisceau par rapport à la normale, et non l'étendue de la zone traitée."}]},
-    {"q":"Sur quel principe repose la loi de Bunsen-Roscoe ?","c":15,"options":[{"t":"Pour maintenir un même effet biologique, le produit de l'intensité du rayonnement et de la durée d'application doit rester constant","correct":true,"j":"La loi s'écrit I × t = constante : en réduisant de moitié l'intensité, il faut doubler la durée d'application pour conserver le même effet biologique."},{"t":"Pour maintenir un même effet biologique, le produit de l'intensité du rayonnement et de la distance à la source doit rester constant","j":"La distance à la source relève d'une autre loi d'application du rayonnement ; celle-ci met en regard l'intensité et le temps d'application."},{"t":"L'effet biologique obtenu ne dépend que de la durée d'application, quelle que soit l'intensité employée","j":"Une même durée ne produit pas le même effet selon l'intensité choisie : les deux grandeurs se compensent l'une l'autre."},{"t":"L'effet biologique obtenu varie comme le carré de l'intensité du rayonnement appliqué","j":"Aucun carré n'intervient dans cette loi, qui met en jeu un simple produit entre deux grandeurs."}]},
-    {"q":"Du point de vue des effets biologiques, quelle part du rayonnement appliqué est efficace ?","c":15,"options":[{"t":"Uniquement la part absorbée par le tissu","correct":true,"j":"Seul le rayonnement absorbé est efficace ; c'est pourquoi le calcul de la dose impose d'éviter la réflexion et la dispersion vers d'autres tissus, et de tenir compte de la pénétrance liée à la longueur d'onde."},{"t":"La totalité du rayonnement émis par l'appareil","j":"Une partie du rayonnement émis est réfléchie ou dispersée et n'atteint jamais la cible : elle ne contribue à aucun effet."},{"t":"La part réfléchie par la surface cutanée","j":"Le rayonnement réfléchi repart sans avoir cédé son énergie au tissu ; c'est précisément ce que le calcul de la dose cherche à éviter."},{"t":"La part dispersée vers les tissus voisins","j":"Cette fraction quitte la zone visée : elle est l'autre perte dont il faut tenir compte au moment de calculer la dose."}]},
-    {"q":"Qu'est-ce qui caractérise la reproduction asexuée ?","c":16,"options":[{"t":"Un seul parent, une progéniture identique à lui","correct":true,"j":"La reproduction asexuée n'engage qu'un seul parent et sa progéniture lui est identique : ce sont des clones, et aucune variabilité génétique n'apparaît."},{"t":"Deux parents, une progéniture identique à eux","j":"Faire intervenir deux parents est le propre de la reproduction sexuée, et sa progéniture est justement différente de chacun des deux parents."},{"t":"Un seul parent, une progéniture différente de lui","j":"Un parent unique ne transmet que son propre matériel génétique : sa progéniture lui est identique, elle n'en diffère pas."},{"t":"Deux parents, une progéniture différente d'eux","j":"Cette description est celle de la reproduction sexuée, qui réunit deux parents et donne des descendants différents de chacun d'eux."}]},
-    {"q":"À quoi sert la variabilité génétique engendrée par la reproduction sexuée ?","c":16,"options":[{"t":"Elle rend possible l'adaptation à l'environnement","correct":true,"j":"La reproduction sexuée génère de la variabilité génétique, et c'est elle qui permet à l'espèce de s'adapter à son environnement."},{"t":"Elle fixe le nombre de gènes de l'espèce","j":"Le nombre de gènes n'est pas ce que la variabilité fait varier : ce sont les combinaisons de gènes qui sont renouvelées à chaque génération."},{"t":"Elle assure la conservation des caractères des deux parents","j":"Conserver les caractères parentaux reviendrait à produire des clones, ce qui est le propre de la reproduction asexuée et non de la reproduction sexuée."},{"t":"Elle accélère la multiplication des cellules germinales","j":"La multiplication des cellules germinales ne dépend pas de la variabilité : celle-ci porte sur le contenu génétique des gamètes, pas sur leur rythme de production."}]},
-    {"q":"Combien de sous-stades la prophase I de la méiose comporte-t-elle ?","c":16,"options":[{"t":"Cinq","correct":true,"j":"La prophase I se décompose en cinq étapes successives, de la première jusqu'à la dernière avant la métaphase I."},{"t":"Trois","j":"Ce compte est trop bas de deux unités : la prophase I n'en compte pas trois mais cinq."},{"t":"Quatre","j":"Quatre est le nombre de phases de chaque division méiotique prise dans son entier (prophase, métaphase, anaphase, télophase), et non celui des sous-stades de la seule prophase I."},{"t":"Six","j":"Ce compte ajoute une étape de trop : la prophase I s'arrête à cinq sous-stades."}]},
-    {"q":"Comment nomme-t-on les points par lesquels les chromosomes homologues restent attachés l'un à l'autre à la fin de la prophase I ?","c":16,"options":[{"t":"Les chiasmas","correct":true,"j":"À la fin de la prophase I, les chromosomes homologues demeurent réunis l'un à l'autre par les chiasmas, et l'ensemble ainsi formé constitue un bivalent."},{"t":"Les bivalents","j":"Le bivalent désigne l'ensemble que forment les deux homologues une fois réunis, et non les points d'attache par lesquels ils tiennent ensemble."},{"t":"Les centromères","j":"Le centromère est une région propre à un même chromosome : il n'attache jamais deux chromosomes homologues l'un à l'autre."},{"t":"Les télomères","j":"Les télomères sont les extrémités du chromosome et ne solidarisent pas deux chromosomes homologues entre eux au cours de la prophase I."}]},
-    {"q":"Selon quel mécanisme, rare, des jumeaux semi-identiques peuvent-ils apparaître ?","c":16,"options":[{"t":"Un corpuscule polaire est fécondé à son tour","correct":true,"j":"Le corpuscule polaire issu de la méiose de l'ovocyte peut rarement être fécondé et donner alors naissance à des jumeaux semi-identiques, dits sesquizygotes."},{"t":"Deux ovocytes secondaires sont libérés au même cycle","j":"La libération de deux gamètes femelles au même cycle donne des jumeaux issus de deux ovocytes distincts, aussi différents l'un de l'autre que frère et sœur, et non semi-identiques."},{"t":"Un ovule mature se scinde après la fusion des noyaux","j":"Une fois les deux noyaux haploïdes fusionnés, il n'existe plus qu'un seul noyau 2n : une scission à ce stade donnerait deux embryons au génome identique, donc de vrais jumeaux."},{"t":"Une oogonie se divise deux fois de suite par mitose","j":"Les divisions mitotiques des oogonies précèdent l'entrée en méiose et ne font intervenir aucune fécondation ; elles ne produisent pas de jumeaux."}]},
-    {"q":"Les jumeaux sesquizygotes partagent quelle proportion de leur matériel génétique ?","c":16,"options":[{"t":"Plus de 50 % mais moins de 100 %","correct":true,"j":"Les jumeaux semi-identiques, ou sesquizygotes, partagent plus de la moitié de leur matériel génétique sans jamais en partager la totalité."},{"t":"Exactement 50 % de leur matériel génétique","j":"Une proportion d'exactement la moitié ne rendrait pas compte du caractère semi-identique de ces jumeaux, qui en partagent davantage."},{"t":"Moins de 50 % de leur matériel génétique","j":"Partager moins de la moitié situerait ces jumeaux en deçà de la ressemblance qui leur est propre : ils en partagent au contraire plus de la moitié."},{"t":"La totalité de leur matériel génétique","j":"Un partage total les rendrait identiques et non semi-identiques ; le cours borne expressément ce partage en deçà de 100 %."}]},
-    {"q":"Pourquoi les cellules de la lignée spermatogénétique restent-elles réunies en syncytiums pendant leur différenciation ?","c":16,"options":[{"t":"La cytokinèse ne s'achève qu'une fois la différenciation complète","correct":true,"j":"Tant que la différenciation en spermatozoïdes n'est pas terminée, la cytokinèse n'a pas eu lieu : les cellules demeurent réunies en syncytiums."},{"t":"Leurs membranes plasmiques fusionnent au terme de la méiose II","j":"Il ne s'agit pas d'une fusion de membranes déjà séparées : les cellules n'ont tout simplement pas encore été séparées les unes des autres."},{"t":"Les spermatocytes primaires n'entrent en méiose qu'une fois groupés","j":"Les spermatocytes primaires entrent en méiose sans avoir à se regrouper au préalable ; le groupement observé résulte de la division elle-même."},{"t":"Les spermatides perdent leur membrane plasmique en se différenciant","j":"Les spermatides conservent leur membrane pendant la spermiogenèse ; ce n'est pas une perte de membrane qui les maintient réunies."}]},
-    {"q":"Quel avantage les syncytiums de la lignée spermatogénétique procurent-ils ?","c":16,"options":[{"t":"Une synchronisation du développement des cellules","correct":true,"j":"En permettant aux cellules de communiquer et d'échanger des matériaux, les syncytiums synchronisent leur développement."},{"t":"Un doublement du nombre de gamètes produits","j":"Le nombre de gamètes obtenus dépend du déroulement de la méiose et non du maintien de ponts cytoplasmiques entre les cellules."},{"t":"Une protection des cellules contre les mutations","j":"Aucun rôle de protection du matériel génétique n'est attribué aux syncytiums : leur intérêt est d'ordre communicationnel entre cellules voisines."},{"t":"Un raccourcissement de la deuxième division méiotique","j":"Les syncytiums n'abrègent aucune division : ils persistent au contraire au-delà de la méiose, pendant toute la différenciation des spermatides."}]},
-    {"q":"Que deviennent habituellement les corpuscules polaires issus de l'ovogenèse ?","c":16,"options":[{"t":"Ils subissent l'apoptose vingt-quatre heures après leur formation","correct":true,"j":"Les corpuscules polaires ne sont pas des gamètes utilisables : ils subissent l'apoptose vingt-quatre heures après leur formation."},{"t":"Ils fusionnent avec l'ovule pour lui céder leur cytoplasme","j":"Aucune fusion ne les ramène vers l'ovule : le matériel qu'ils emportent est définitivement soustrait au gamète fonctionnel."},{"t":"Ils demeurent quiescents dans l'ovaire jusqu'au cycle suivant","j":"Les corpuscules polaires ne sont pas mis en réserve dans l'ovaire pour un cycle ultérieur : leur sort est scellé dans les heures qui suivent."},{"t":"Ils se divisent à leur tour pour donner d'autres gamètes","j":"Les corpuscules polaires représentent le matériel écarté au cours de la méiose de l'ovocyte et n'entreprennent aucune nouvelle division."}]},
-    {"q":"Quel effet des taux élevés de LH produisent-ils au moment de l'ovulation ?","c":16,"options":[{"t":"Des contractions musculaires locales dans la paroi de l'ovaire","correct":true,"j":"Des taux élevés de LH provoquent des contractions musculaires localisées dans la paroi de l'ovaire, qui concourent à l'expulsion de l'ovocyte."},{"t":"Un épaississement immédiat de la zone pellucide de l'ovocyte","j":"Une élévation hormonale précédant l'ovulation n'agit pas sur les enveloppes de l'ovocyte : l'effet décrit porte sur la paroi de l'ovaire."},{"t":"Une reprise simultanée de la méiose dans toutes les oogonies","j":"L'ovulation ne mobilise pas l'ensemble des cellules de l'ovaire : elle aboutit à la libération d'un gamète femelle, non à un réveil général."},{"t":"Une accélération du trajet des spermatozoïdes","j":"La LH agit sur l'ovaire au moment de l'ovulation ; le cheminement des spermatozoïdes dans la trompe relève d'un tout autre mécanisme."}]},
-    {"q":"Quel rôle le corps jaune joue-t-il après l'ovulation ?","c":16,"options":[{"t":"Il élève la progestérone et prépare l'utérus à l'implantation","correct":true,"j":"Après l'ovulation, le corps jaune augmente les niveaux de progestérone qui, avec d'autres hormones, préparent l'utérus à l'implantation de l'embryon."},{"t":"Il nourrit l'ovocyte secondaire durant son trajet vers la trompe","j":"Aucun rôle nutritif n'est attribué au corps jaune : son action après l'ovulation est hormonale, par élévation de la progestérone."},{"t":"Il forme la corona radiata autour de la zone pellucide","j":"La corona radiata se met en place lors du détachement de l'ovocyte, et non sous l'effet de la structure qui subsiste dans l'ovaire après l'ovulation."},{"t":"Il déclenche la capacitation des spermatozoïdes","j":"Le corps jaune agit par voie hormonale sur l'utérus ; aucune action sur les spermatozoïdes ne lui est attribuée."}]},
-    {"q":"Combien de spermatozoïdes parviennent approximativement à l'endroit où la fécondation a lieu ?","c":16,"options":[{"t":"Environ deux cents","correct":true,"j":"Environ 200 spermatozoïdes seulement parviennent jusqu'au lieu où la fécondation va se produire, la très grande majorité étant éliminée au cours de la remontée."},{"t":"Environ vingt","j":"Une vingtaine de spermatozoïdes est très en deçà du chiffre retenu : ce sont quelque deux cents gamètes qui atteignent effectivement le site de la fécondation."},{"t":"Environ deux mille","j":"Ce chiffre multiplie par dix le nombre réellement atteint : la remontée du tractus féminin élimine bien davantage de spermatozoïdes que cela."},{"t":"Environ vingt mille","j":"Un tel effectif reviendrait à multiplier par cent le nombre réellement atteint : seule une fraction infime des spermatozoïdes parvient au but."}]},
-    {"q":"Que se produirait-il dans le zygote si la polyspermie n'était pas bloquée ?","c":16,"options":[{"t":"Plusieurs fuseaux mitotiques se formeraient et la distribution des chromosomes en serait affectée","correct":true,"j":"L'entrée de plusieurs spermatozoïdes permettrait la formation de plusieurs fuseaux mitotiques dans le zygote, ce qui perturberait la distribution des chromosomes lors des divisions."},{"t":"La deuxième division méiotique de l'ovocyte resterait définitivement inachevée dans la trompe","j":"L'entrée d'un spermatozoïde supplémentaire n'empêcherait pas l'ovocyte de terminer sa division : l'anomalie attendue concerne les divisions ultérieures de l'embryon."},{"t":"Les mitochondries apportées par le père seraient transmises à l'embryon et à sa descendance","j":"L'hérédité de l'ADN mitochondrial reste exclusivement maternelle quel que soit le nombre de spermatozoïdes entrés ; le danger redouté porte sur les divisions du zygote."},{"t":"La zone pellucide se dissoudrait prématurément, bien avant l'implantation de l'embryon","j":"La zone pellucide est au contraire modifiée au moment de la fécondation, et non dissoute ; sa disparition n'est pas la conséquence redoutée d'une entrée multiple."}]},
-    {"q":"Qu'apporte le spermatozoïde au zygote, en plus de son pronucléus ?","c":16,"options":[{"t":"Un centriole, qui participe à l'organisation du premier fuseau mitotique","correct":true,"j":"Le spermatozoïde fournit au zygote, outre son pronucléus paternel, le centriole qui collabore à l'organisation du premier fuseau mitotique des divisions de l'embryon."},{"t":"Un lot de mitochondries, qui alimente les premières divisions de l'œuf","j":"Aucune mitochondrie paternelle ne parvient dans l'ovule : toutes celles de l'embryon viennent de la mère, et le spermatozoïde n'y contribue pas."},{"t":"Des granules corticaux, qui referment l'enveloppe externe de l'ovule","j":"Les granules corticaux sont des éléments du cytoplasme de l'ovocyte : le gamète mâle n'en apporte aucun au zygote."},{"t":"Un corpuscule polaire supplémentaire, qui disparaît après la fécondation","j":"Les corpuscules polaires sont des produits de la méiose de l'ovocyte et relèvent donc du gamète femelle, jamais du spermatozoïde."}]},
-    {"q":"À quel moment de la vie la spermatogenèse se déroule-t-elle ?","c":16,"options":[{"t":"De la puberté jusqu'à la fin de la vie, en diminuant avec l'âge","correct":true,"j":"La spermatogenèse commence à la puberté et se poursuit ensuite tout au long de la vie, bien qu'elle diminue progressivement avec l'âge."},{"t":"De la vie fœtale jusqu'à la puberté, puis elle s'interrompt","j":"Rien dans la lignée masculine ne débute avant la puberté : c'est au contraire à la puberté que la spermatogenèse prend son départ."},{"t":"De la puberté jusqu'à l'âge adulte, puis elle s'interrompt","j":"Le départ à la puberté est exact, mais la spermatogenèse ne cesse pas ensuite : elle se poursuit, en s'atténuant, tout au long de la vie."},{"t":"De la vie fœtale jusqu'à la fin de la vie, sans interruption","j":"La continuité jusqu'à la fin de la vie est exacte, mais le point de départ est faux : la spermatogenèse ne commence qu'à la puberté."}]},
-    {"q":"Que devient l'ovocyte secondaire lorsqu'il n'est pas fécondé ?","c":16,"options":[{"t":"Il est éliminé avec les menstruations","correct":true,"j":"Faute de fécondation, l'ovocyte secondaire est évacué avec les menstruations, et un nouvel ovocyte sera produit au cycle suivant."},{"t":"Il est réabsorbé par la paroi de l'ovaire","j":"L'ovocyte secondaire a déjà quitté l'ovaire pour la trompe au moment de l'ovulation : il n'y revient pas pour y être résorbé."},{"t":"Il demeure dans la trompe jusqu'au cycle suivant","j":"Chaque cycle menstruel fait entrer en jeu de nouveaux ovocytes secondaires ; celui qui n'a pas été fécondé n'est pas gardé en réserve."},{"t":"Il se transforme en un corpuscule polaire de plus","j":"Les corpuscules polaires naissent du partage inégal du cytoplasme lors des divisions ; un ovocyte secondaire non fécondé n'en devient pas un."}]},
-    {"q":"Combien de corpuscules polaires la méiose d'un ovocyte primaire produit-elle ?","c":16,"options":[{"t":"Deux ou trois","correct":true,"j":"La méiose d'un ovocyte primaire s'accompagne de la formation de deux ou trois corpuscules polaires, qui emportent le matériel écarté au cours des divisions."},{"t":"Un ou deux","j":"Un seul corpuscule polaire ne correspond à aucune des valeurs retenues, et le compte ne s'arrête pas nécessairement à deux : il peut aller jusqu'à trois."},{"t":"Trois ou quatre","j":"Trois est bien la valeur haute, mais quatre ne l'est pas : le compte ne dépasse jamais trois corpuscules polaires."},{"t":"Quatre ou cinq","j":"Un tel nombre dépasse largement ce que produisent les deux divisions méiotiques d'un seul ovocyte primaire."}]},
-    {"q":"Pourquoi les cellules issues de l'ovogenèse n'ont-elles pas toutes la même taille, contrairement à celles de la spermatogenèse ?","c":16,"options":[{"t":"La matière nutritive accumulée n'y est pas répartie uniformément","correct":true,"j":"L'ovogenèse accumule une grande quantité de matière nutritive qui n'est pas uniformément répartie, d'où des cellules de tailles différentes."},{"t":"Les chromosomes y sont répartis inégalement entre les cellules","j":"La répartition du matériel chromosomique reste équitable : chaque cellule issue de la méiose reçoit le même lot de chromosomes."},{"t":"Les corpuscules polaires y gardent deux chromatides par chromosome","j":"Ce n'est pas le nombre de chromatides qui fait la taille d'une cellule : la différence tient au volume de cytoplasme et de réserves qu'elle reçoit."},{"t":"La membrane plasmique de l'ovocyte y est beaucoup plus épaisse","j":"L'épaisseur des enveloppes n'explique pas l'écart de taille observé : celui-ci vient du contenu accumulé à l'intérieur de la cellule."}]},
-    {"q":"Au cours de l'ovogenèse, à quel moment de chaque division méiotique le cytoplasme est-il inégalement réparti ?","c":16,"options":[{"t":"Lors de la cytocinèse","correct":true,"j":"Le partage inégal du cytoplasme a lieu pendant la cytocinèse, l'étape qui divise le cytoplasme à la fin de chacune des deux divisions méiotiques."},{"t":"Lors de la métaphase","j":"La métaphase aligne les chromosomes sur la plaque équatoriale et ne partage pas encore le contenu de la cellule."},{"t":"Lors de l'anaphase","j":"L'anaphase déplace le matériel chromosomique vers les pôles ; la séparation du cytoplasme lui est postérieure."},{"t":"Lors de la prophase","j":"La prophase prépare les chromosomes à la division et ne s'accompagne d'aucun partage du cytoplasme."}]},
-    {"q":"Grâce à quoi les spermatozoïdes remontent-ils l'appareil sexuel féminin ?","c":16,"options":[{"t":"Grâce au mouvement de leur flagelle","correct":true,"j":"Les spermatozoïdes progressent grâce à leur mouvement flagellaire, qui leur permet de remonter activement l'appareil sexuel féminin."},{"t":"Grâce aux battements de cils portés par leur tête","j":"La tête du spermatozoïde ne porte pas de cils : c'est l'appendice postérieur de la cellule qui assure sa propulsion."},{"t":"Grâce à leurs enzymes acrosomiques","j":"Les enzymes acrosomiques servent à franchir l'enveloppe de l'ovule au contact de celui-ci, et non à parcourir le trajet qui y mène."},{"t":"Grâce à l'attraction exercée par la corona radiata","j":"La corona radiata est la couronne de cellules qui entoure l'ovocyte détaché ; aucun rôle de traction à distance ne lui est attribué."}]},
-    {"q":"Comment nomme-t-on les deux noyaux haploïdes dont la fusion achève la fécondation ?","c":16,"options":[{"t":"Les pronoyaux, maternel et paternel","correct":true,"j":"La fécondation culmine avec la fusion des deux pronoyaux haploïdes, maternel et paternel, dont les chromosomes réunis constituent le génome 2n du zygote."},{"t":"Les corpuscules polaires de l'ovocyte","j":"Les corpuscules polaires emportent le matériel que l'ovocyte écarte au cours de ses divisions : ils ne participent pas à la constitution du zygote."},{"t":"Les bivalents de la prophase I","j":"Le bivalent est une structure formée de deux chromosomes homologues appariés à l'intérieur d'une même cellule, bien avant la fécondation."},{"t":"Les gonosomes des deux gamètes","j":"Les gonosomes sont les chromosomes sexuels portés par chaque gamète, et non les noyaux entiers qui fusionnent au terme de la fécondation."}]}
+    {
+      "q": "Qu'est-ce qui oscille dans une onde électromagnétique ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Un champ électrique et un champ magnétique",
+          "correct": true,
+          "j": "Une onde électromagnétique est l'oscillation d'un champ électrique et d'un champ magnétique qui se propage dans l'espace à une certaine vitesse."
+        },
+        {
+          "t": "Les molécules du milieu qu'elle traverse",
+          "j": "Le passage d'une onde dans un milieu met certes les atomes de celui-ci en oscillation, mais c'est un effet induit sur le milieu traversé ; l'onde électromagnétique elle-même est l'oscillation de deux champs, et elle se propage jusque dans le vide."
+        },
+        {
+          "t": "Un champ électrique seul, sans composante magnétique",
+          "j": "Les deux champs sont indissociables dans ce type d'onde : il n'existe pas de rayonnement dont seule la composante électrique oscillerait."
+        },
+        {
+          "t": "La pression du milieu, transmise de proche en proche",
+          "j": "Une oscillation de pression transmise de proche en proche caractérise une onde mécanique, dont la propagation suppose la mise en mouvement de la matière elle-même."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'origine des ondes électromagnétiques ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Des charges électriques en mouvement",
+          "correct": true,
+          "j": "Ce sont les charges électriques en mouvement qui engendrent les ondes électromagnétiques, lesquelles se propagent ensuite dans l'espace à une certaine vitesse."
+        },
+        {
+          "t": "Des charges électriques parfaitement immobiles",
+          "j": "C'est le mouvement des charges, et non leur simple présence, qui est désigné comme l'origine des ondes électromagnétiques : une charge qui ne se déplace pas n'en engendre aucune."
+        },
+        {
+          "t": "L'absorption d'un rayonnement par les atomes d'un milieu",
+          "j": "L'absorption est ce qui arrive à une onde déjà formée lorsqu'elle traverse la matière : son énergie y est convertie en énergie thermique. Ce qui donne naissance aux ondes électromagnétiques est le mouvement de charges électriques."
+        },
+        {
+          "t": "La compression périodique d'un gaz enfermé",
+          "j": "La compression périodique d'un gaz met en jeu la matière du milieu : elle engendre une onde mécanique et non un rayonnement électromagnétique."
+        }
+      ]
+    },
+    {
+      "q": "La vitesse d'une onde électromagnétique est toujours plus faible dans un milieu matériel que dans le vide. Pour quelle raison ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Les atomes du milieu, mis en oscillation, produisent des ondes secondaires qui freinent l'onde initiale",
+          "correct": true,
+          "j": "Le passage de l'onde induit des oscillations dans les atomes du milieu traversé ; ces oscillations produisent des ondes électromagnétiques secondaires qui réduisent la vitesse de l'onde d'origine."
+        },
+        {
+          "t": "La fréquence de l'onde diminue à mesure qu'elle progresse dans le milieu",
+          "j": "La fréquence est déterminée par la source et ne change pas avec le milieu de propagation : elle ne peut pas expliquer le ralentissement."
+        },
+        {
+          "t": "Le milieu absorbe une fraction de l'énergie, ce qui abaisse la vitesse de l'onde",
+          "j": "L'absorption diminue l'énergie que l'onde transporte, donc son intensité, mais ce n'est pas le mécanisme auquel ce ralentissement est attribué."
+        },
+        {
+          "t": "Une partie du rayonnement est renvoyée vers la source, ce qui retient le reste du faisceau",
+          "j": "La part renvoyée vers l'arrière quitte le milieu et cesse d'y progresser : elle n'exerce aucune retenue sur l'onde qui continue."
+        }
+      ]
+    },
+    {
+      "q": "Comment l'indice de réfraction (n) d'une substance est-il défini ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Par le quotient de la vitesse de la lumière dans le vide et de sa vitesse dans cette substance",
+          "correct": true,
+          "j": "L'indice vaut n = c0/c ; comme la lumière va toujours moins vite dans une substance que dans le vide, cet indice est toujours supérieur à 1."
+        },
+        {
+          "t": "Par le quotient de la vitesse de la lumière dans cette substance et de sa vitesse dans le vide",
+          "j": "Pris dans ce sens, le quotient serait toujours inférieur à 1, alors que l'indice de réfraction d'une substance dépasse toujours cette valeur."
+        },
+        {
+          "t": "Par le quotient de la longueur d'onde dans le vide et de la fréquence dans cette substance",
+          "j": "L'indice de réfraction est construit à partir de deux vitesses de la lumière — celle du vide et celle de la substance — et non à partir d'une longueur d'onde et d'une fréquence."
+        },
+        {
+          "t": "Par le quotient de l'intensité transmise au second milieu et de l'intensité incidente sur la surface",
+          "j": "Ce quotient décrit le partage de l'onde à une frontière et dépend donc de deux milieux à la fois, alors que l'indice caractérise une seule substance."
+        }
+      ]
+    },
+    {
+      "q": "Un milieu est dit optiquement plus dense qu'un autre lorsque :",
+      "c": 15,
+      "options": [
+        {
+          "t": "son indice de réfraction est plus élevé",
+          "correct": true,
+          "j": "Un milieu est défini comme d'autant plus dense que son indice de réfraction est élevé."
+        },
+        {
+          "t": "son indice de réfraction est plus faible",
+          "j": "Un indice plus faible caractérise au contraire le moins dense des deux milieux."
+        },
+        {
+          "t": "sa masse volumique est plus élevée",
+          "j": "La densité dont il est question ici est une densité optique, qui se lit sur l'indice et non sur la masse d'un volume donné."
+        },
+        {
+          "t": "sa température est plus élevée",
+          "j": "La température n'entre pas dans cette définition, qui ne repose que sur une propriété optique du milieu."
+        }
+      ]
+    },
+    {
+      "q": "Une lumière de longueur d'onde 600 nm se propageant dans l'air (n = 1) pénètre dans un milieu d'indice de réfraction n = 1,5. Quelle y devient sa longueur d'onde ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "400 nm",
+          "correct": true,
+          "j": "Le rapport des longueurs d'onde est l'inverse du rapport des indices : λ devient λ0/n, soit 600/1,5 = 400 nm."
+        },
+        {
+          "t": "900 nm",
+          "j": "Cette valeur multiplie la longueur d'onde par l'indice au lieu de la diviser ; dans un milieu d'indice supérieur à 1 elle ne peut pas s'allonger."
+        },
+        {
+          "t": "600 nm",
+          "j": "La longueur d'onde ne se conserve pas d'un milieu à l'autre ; c'est la fréquence, imposée par la source, qui reste inchangée."
+        },
+        {
+          "t": "267 nm",
+          "j": "Cette valeur revient à diviser deux fois par l'indice (600/1,5²), alors que celui-ci n'intervient qu'à la puissance un."
+        }
+      ]
+    },
+    {
+      "q": "Une onde atteint la surface d'un second milieu. À quelle condition la part qui y pénètre est-elle qualifiée d'onde réfractée ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Si le second milieu est translucide, l'onde qui continue de s'y propager est dite réfractée",
+          "correct": true,
+          "j": "L'onde transmise est celle qui pénètre dans le second milieu ; lorsque ce milieu est translucide, la part qui y poursuit sa propagation porte le nom d'onde réfractée."
+        },
+        {
+          "t": "Si le second milieu l'absorbe en totalité et la transforme en énergie thermique",
+          "j": "La part absorbée par le nouveau milieu est convertie en énergie thermique : elle cesse précisément de se propager."
+        },
+        {
+          "t": "Si elle revient dans le premier milieu après avoir changé de direction",
+          "j": "L'onde qui repart par le milieu d'où elle venait est l'onde réfléchie, et non l'onde réfractée."
+        },
+        {
+          "t": "Si elle traverse le second milieu sans subir la moindre déviation",
+          "j": "L'onde réfractée subit au contraire une déviation de son chemin en entrant dans le nouveau milieu."
+        }
+      ]
+    },
+    {
+      "q": "On appelle normale la ligne imaginaire perpendiculaire à la surface que frappe une onde. Que dit la loi de la réflexion ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "L'angle d'incidence est égal à l'angle de réflexion",
+          "correct": true,
+          "j": "L'onde réfléchie repart en faisant avec la normale un angle rigoureusement égal à celui du rayon incident."
+        },
+        {
+          "t": "L'angle de réflexion est le complémentaire de l'angle d'incidence",
+          "j": "La loi de la réflexion pose l'égalité des deux angles mesurés par rapport à la normale, et non leur complémentarité : l'onde repart exactement sous l'angle où elle est arrivée."
+        },
+        {
+          "t": "L'angle de réflexion dépend des indices de réfraction des deux milieux",
+          "j": "La direction de l'onde réfléchie est fixée par celle du rayon incident et par la normale, sans que l'indice du second milieu y intervienne."
+        },
+        {
+          "t": "L'angle de réflexion est toujours nul, quelle que soit l'incidence",
+          "j": "Un angle nul signifierait que l'onde repart systématiquement perpendiculairement à la surface, indépendamment de la façon dont elle est arrivée."
+        }
+      ]
+    },
+    {
+      "q": "Un faisceau lumineux venant de l'air (n = 1) frappe une lentille en verre d'indice n = 1,5. Quelle proportion de la lumière incidente est réfléchie à cette surface ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "4 %",
+          "correct": true,
+          "j": "La proportion réfléchie vaut ((n2 − n1)/(n2 + n1))², soit ((1,5 − 1)/(1,5 + 1))² = 0,04 : 4 % de la lumière est réfléchie et 96 % passe dans le verre."
+        },
+        {
+          "t": "20 %",
+          "j": "20 % correspond au rapport (1 − 1,5)/(1 + 1,5) laissé tel quel, alors que ce rapport doit être élevé au carré."
+        },
+        {
+          "t": "25 %",
+          "j": "25 % s'obtient en rapportant l'écart des deux indices au seul indice du premier milieu, alors que le dénominateur est leur somme."
+        },
+        {
+          "t": "50 %",
+          "j": "Un partage par moitié supposerait que la surface renvoie autant de lumière qu'elle en laisse passer, ce que le calcul à partir des deux indices ne donne pas."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qu'un photon ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "La plus petite unité d'énergie du rayonnement électromagnétique",
+          "correct": true,
+          "j": "Le rayonnement électromagnétique est composé de petits paquets, ou quanta, d'énergie : ces quanta sont les photons."
+        },
+        {
+          "t": "Une particule chargée négativement qui gravite autour du noyau",
+          "j": "Cette description est celle de l'électron, constituant de l'atome, et non du grain d'énergie que transporte un rayonnement."
+        },
+        {
+          "t": "La plus petite masse que puisse transporter une onde lumineuse",
+          "j": "Ce qui est découpé en paquets dans un rayonnement électromagnétique est l'énergie qu'il transporte, et non une masse."
+        },
+        {
+          "t": "L'unité de mesure de la fréquence d'une onde lumineuse",
+          "j": "La fréquence se mesure en hertz ; le photon n'est pas une unité de mesure mais un grain bien réel du rayonnement."
+        }
+      ]
+    },
+    {
+      "q": "L'intensité d'un faisceau monochromatique augmente. Qu'est-ce qui a changé dans ce faisceau ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Le nombre de photons qu'il transporte",
+          "correct": true,
+          "j": "L'intensité d'un faisceau monochromatique est déterminée par le nombre de photons : plus ils sont nombreux, plus le faisceau est intense."
+        },
+        {
+          "t": "L'énergie portée par chacun de ses photons",
+          "j": "Dans un faisceau monochromatique, tous les photons sont identiques : ce que chacun transporte reste le même d'un bout à l'autre du faisceau."
+        },
+        {
+          "t": "La vitesse de déplacement de ses photons",
+          "j": "Les quanta de rayonnement électromagnétique se comportent comme des corpuscules qui se déplacent à la vitesse de la lumière : cette vitesse ne se règle pas."
+        },
+        {
+          "t": "La longueur d'onde propre à chacun de ses photons",
+          "j": "Un faisceau monochromatique ne comporte qu'une seule longueur d'onde, fixée par la source ; si elle changeait, ce ne serait plus le même rayonnement."
+        }
+      ]
+    },
+    {
+      "q": "À mesure que la fréquence d'un rayonnement électromagnétique augmente, l'énergie qui lui est associée augmente. Quelle capacité acquiert-il alors ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Celle de pénétrer la matière et d'en extraire des électrons",
+          "correct": true,
+          "j": "C'est ce qu'on appelle la capacité ionisante : le rayonnement pénètre davantage la matière et parvient à en arracher des électrons."
+        },
+        {
+          "t": "Celle de traverser la matière sans lui céder la moindre énergie",
+          "j": "Un rayonnement qui ne céderait aucune énergie à la matière traversée n'y produirait aucun effet, ni utile ni nocif."
+        },
+        {
+          "t": "Celle de se propager dans la matière plus vite que dans le vide",
+          "j": "La vitesse d'une onde électromagnétique dans un milieu matériel reste toujours inférieure à celle qu'elle atteint dans le vide, quelle que soit sa fréquence."
+        },
+        {
+          "t": "Celle d'échauffer les tissus sans produire d'autre effet",
+          "j": "Un effet chauffant est déjà obtenu par des rayonnements de fréquence bien plus basse ; ce que l'élévation de fréquence apporte est d'une autre nature."
+        }
+      ]
+    },
+    {
+      "q": "Un photon cède son énergie à un électron d'un atome, sans que cet électron parvienne à s'en échapper. Que lui arrive-t-il alors ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Il s'élève vers un niveau d'énergie supérieur, puis revient à son état naturel en émettant un nouveau photon",
+          "correct": true,
+          "j": "C'est la transition électronique : l'énergie absorbée fait monter l'électron d'un niveau, et quelques instants plus tard il redescend en émettant un photon."
+        },
+        {
+          "t": "Il s'élève vers un niveau d'énergie supérieur et y demeure définitivement, sans jamais redescendre",
+          "j": "Le séjour au niveau supérieur ne dure que quelques instants ; l'électron ne s'y installe pas de façon permanente."
+        },
+        {
+          "t": "Il transmet aussitôt au noyau de l'atome l'énergie que le photon vient de lui céder",
+          "j": "C'est l'électron lui-même qui absorbe l'énergie apportée par le photon ; le noyau n'est pas en cause dans cette interaction."
+        },
+        {
+          "t": "Il perd une partie de sa charge électrique au profit du photon absorbé",
+          "j": "Ce que l'absorption du photon modifie est le niveau d'énergie de l'électron, qui s'élève puis redescend quelques instants plus tard ; sa charge n'intervient à aucun moment dans cette description."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des énoncés suivants à propos de la thermographie est FAUX ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Elle construit son image en captant le rayonnement ultraviolet émis par les tissus",
+          "correct": true,
+          "j": "C'est l'énoncé faux : la thermographie capte le rayonnement thermique infrarouge, celui qu'un corps émet en raison de son énergie thermique."
+        },
+        {
+          "t": "Elle permet de visualiser des zones du corps dont les températures diffèrent",
+          "j": "Énoncé exact : c'est précisément ce qu'elle apporte en sciences de la santé, en distinguant les régions selon leur température."
+        },
+        {
+          "t": "Elle restitue ces températures sous forme d'échelles de gris ou de couleurs",
+          "j": "Énoncé exact : l'image obtenue traduit les différences de température par des gris ou par des couleurs."
+        },
+        {
+          "t": "Elle est utilisée pour détecter une inflammation, une thrombose veineuse ou une tumeur",
+          "j": "Énoncé exact : ces trois situations figurent parmi ses applications, les zones enflammées présentant une hyperthermie."
+        }
+      ]
+    },
+    {
+      "q": "Le facteur d'émissivité directionnelle d'un corps est le quotient entre deux grandeurs. Lesquelles ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "L'intensité du rayonnement thermique qu'il émet et celle qu'émettrait un corps noir à la même température et à la même longueur d'onde",
+          "correct": true,
+          "j": "L'émissivité confronte l'émission réelle d'un corps à celle d'un corps noir placé à la même température et observé à la même longueur d'onde."
+        },
+        {
+          "t": "L'intensité du rayonnement thermique qu'il émet et celle qu'il reçoit de l'environnement qui l'entoure",
+          "j": "Ce quotient opposerait ce que le corps émet à ce qu'il reçoit : il décrirait son bilan d'échange, et non la qualité de sa propre émission."
+        },
+        {
+          "t": "L'intensité du rayonnement thermique qu'il émet et l'étendue de la surface par laquelle il l'émet",
+          "j": "Rapporter un rayonnement à l'étendue de la surface qui l'émet fournirait une intensité par unité d'aire, et non une comparaison entre deux émissions."
+        },
+        {
+          "t": "L'intensité du rayonnement thermique qu'il émet et celle qu'émettrait une surface parfaitement réfléchissante",
+          "j": "La référence retenue est le corps noir, c'est-à-dire l'émetteur idéal dont l'émissivité vaut 1, et non une surface choisie pour ses propriétés de réflexion."
+        }
+      ]
+    },
+    {
+      "q": "Selon la loi du cosinus de Lambert, quand l'intensité du rayonnement reçue par une surface est-elle maximale ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Quand le faisceau frappe la surface perpendiculairement",
+          "correct": true,
+          "j": "L'intensité maximale est obtenue pour une incidence perpendiculaire ; dès que le faisceau s'incline, l'intensité diminue à cause de la réflexion, selon I = IN cos θ."
+        },
+        {
+          "t": "Quand le faisceau frappe la surface en la rasant",
+          "j": "Une incidence rasante correspond à un angle très ouvert par rapport à la normale, et donc à l'intensité reçue la plus faible."
+        },
+        {
+          "t": "Quand le faisceau fait un angle de 45° avec la normale à la surface",
+          "j": "Une telle inclinaison réduit déjà sensiblement l'intensité reçue par rapport à une incidence droite."
+        },
+        {
+          "t": "Quand la surface irradiée est la plus étendue possible",
+          "j": "Cette loi ne fait intervenir que l'inclinaison du faisceau par rapport à la normale, et non l'étendue de la zone traitée."
+        }
+      ]
+    },
+    {
+      "q": "Sur quel principe repose la loi de Bunsen-Roscoe ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Pour maintenir un même effet biologique, le produit de l'intensité du rayonnement et de la durée d'application doit rester constant",
+          "correct": true,
+          "j": "La loi s'écrit I × t = constante : en réduisant de moitié l'intensité, il faut doubler la durée d'application pour conserver le même effet biologique."
+        },
+        {
+          "t": "Pour maintenir un même effet biologique, le produit de l'intensité du rayonnement et de la distance à la source doit rester constant",
+          "j": "La distance à la source relève d'une autre loi d'application du rayonnement ; celle-ci met en regard l'intensité et le temps d'application."
+        },
+        {
+          "t": "L'effet biologique obtenu ne dépend que de la durée d'application, quelle que soit l'intensité employée",
+          "j": "Une même durée ne produit pas le même effet selon l'intensité choisie : les deux grandeurs se compensent l'une l'autre."
+        },
+        {
+          "t": "L'effet biologique obtenu varie comme le carré de l'intensité du rayonnement appliqué",
+          "j": "Aucun carré n'intervient dans cette loi, qui met en jeu un simple produit entre deux grandeurs."
+        }
+      ]
+    },
+    {
+      "q": "Du point de vue des effets biologiques, quelle part du rayonnement appliqué est efficace ?",
+      "c": 15,
+      "options": [
+        {
+          "t": "Uniquement la part absorbée par le tissu",
+          "correct": true,
+          "j": "Seul le rayonnement absorbé est efficace ; c'est pourquoi le calcul de la dose impose d'éviter la réflexion et la dispersion vers d'autres tissus, et de tenir compte de la pénétrance liée à la longueur d'onde."
+        },
+        {
+          "t": "La totalité du rayonnement émis par l'appareil",
+          "j": "Une partie du rayonnement émis est réfléchie ou dispersée et n'atteint jamais la cible : elle ne contribue à aucun effet."
+        },
+        {
+          "t": "La part réfléchie par la surface cutanée",
+          "j": "Le rayonnement réfléchi repart sans avoir cédé son énergie au tissu ; c'est précisément ce que le calcul de la dose cherche à éviter."
+        },
+        {
+          "t": "La part dispersée vers les tissus voisins",
+          "j": "Cette fraction quitte la zone visée : elle est l'autre perte dont il faut tenir compte au moment de calculer la dose."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui caractérise la reproduction asexuée ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Un seul parent, une progéniture identique à lui",
+          "correct": true,
+          "j": "La reproduction asexuée n'engage qu'un seul parent et sa progéniture lui est identique : ce sont des clones, et aucune variabilité génétique n'apparaît."
+        },
+        {
+          "t": "Deux parents, une progéniture identique à eux",
+          "j": "Faire intervenir deux parents est le propre de la reproduction sexuée, et sa progéniture est justement différente de chacun des deux parents."
+        },
+        {
+          "t": "Un seul parent, une progéniture différente de lui",
+          "j": "Un parent unique ne transmet que son propre matériel génétique : sa progéniture lui est identique, elle n'en diffère pas."
+        },
+        {
+          "t": "Deux parents, une progéniture différente d'eux",
+          "j": "Cette description est celle de la reproduction sexuée, qui réunit deux parents et donne des descendants différents de chacun d'eux."
+        }
+      ]
+    },
+    {
+      "q": "À quoi sert la variabilité génétique engendrée par la reproduction sexuée ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Elle rend possible l'adaptation à l'environnement",
+          "correct": true,
+          "j": "La reproduction sexuée génère de la variabilité génétique, et c'est elle qui permet à l'espèce de s'adapter à son environnement."
+        },
+        {
+          "t": "Elle fixe le nombre de gènes de l'espèce",
+          "j": "Le nombre de gènes n'est pas ce que la variabilité fait varier : ce sont les combinaisons de gènes qui sont renouvelées à chaque génération."
+        },
+        {
+          "t": "Elle assure la conservation des caractères des deux parents",
+          "j": "Conserver les caractères parentaux reviendrait à produire des clones, ce qui est le propre de la reproduction asexuée et non de la reproduction sexuée."
+        },
+        {
+          "t": "Elle accélère la multiplication des cellules germinales",
+          "j": "La multiplication des cellules germinales ne dépend pas de la variabilité : celle-ci porte sur le contenu génétique des gamètes, pas sur leur rythme de production."
+        }
+      ]
+    },
+    {
+      "q": "Combien de sous-stades la prophase I de la méiose comporte-t-elle ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Cinq",
+          "correct": true,
+          "j": "La prophase I se décompose en cinq étapes successives, de la première jusqu'à la dernière avant la métaphase I."
+        },
+        {
+          "t": "Trois",
+          "j": "Ce compte est trop bas de deux unités : la prophase I n'en compte pas trois mais cinq."
+        },
+        {
+          "t": "Quatre",
+          "j": "Quatre est le nombre de phases de chaque division méiotique prise dans son entier (prophase, métaphase, anaphase, télophase), et non celui des sous-stades de la seule prophase I."
+        },
+        {
+          "t": "Six",
+          "j": "Ce compte ajoute une étape de trop : la prophase I s'arrête à cinq sous-stades."
+        }
+      ]
+    },
+    {
+      "q": "Comment nomme-t-on les points par lesquels les chromosomes homologues restent attachés l'un à l'autre à la fin de la prophase I ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Les chiasmas",
+          "correct": true,
+          "j": "À la fin de la prophase I, les chromosomes homologues demeurent réunis l'un à l'autre par les chiasmas, et l'ensemble ainsi formé constitue un bivalent."
+        },
+        {
+          "t": "Les bivalents",
+          "j": "Le bivalent désigne l'ensemble que forment les deux homologues une fois réunis, et non les points d'attache par lesquels ils tiennent ensemble."
+        },
+        {
+          "t": "Les centromères",
+          "j": "Le centromère est une région propre à un même chromosome : il n'attache jamais deux chromosomes homologues l'un à l'autre."
+        },
+        {
+          "t": "Les télomères",
+          "j": "Les télomères sont les extrémités du chromosome et ne solidarisent pas deux chromosomes homologues entre eux au cours de la prophase I."
+        }
+      ]
+    },
+    {
+      "q": "Selon quel mécanisme, rare, des jumeaux semi-identiques peuvent-ils apparaître ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Un corpuscule polaire est fécondé à son tour",
+          "correct": true,
+          "j": "Le corpuscule polaire issu de la méiose de l'ovocyte peut rarement être fécondé et donner alors naissance à des jumeaux semi-identiques, dits sesquizygotes."
+        },
+        {
+          "t": "Deux ovocytes secondaires sont libérés au même cycle",
+          "j": "La libération de deux gamètes femelles au même cycle donne des jumeaux issus de deux ovocytes distincts, aussi différents l'un de l'autre que frère et sœur, et non semi-identiques."
+        },
+        {
+          "t": "Un ovule mature se scinde après la fusion des noyaux",
+          "j": "Une fois les deux noyaux haploïdes fusionnés, il n'existe plus qu'un seul noyau 2n : une scission à ce stade donnerait deux embryons au génome identique, donc de vrais jumeaux."
+        },
+        {
+          "t": "Une oogonie se divise deux fois de suite par mitose",
+          "j": "Les divisions mitotiques des oogonies précèdent l'entrée en méiose et ne font intervenir aucune fécondation ; elles ne produisent pas de jumeaux."
+        }
+      ]
+    },
+    {
+      "q": "Les jumeaux sesquizygotes partagent quelle proportion de leur matériel génétique ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Plus de 50 % mais moins de 100 %",
+          "correct": true,
+          "j": "Les jumeaux semi-identiques, ou sesquizygotes, partagent plus de la moitié de leur matériel génétique sans jamais en partager la totalité."
+        },
+        {
+          "t": "Exactement 50 % de leur matériel génétique",
+          "j": "Une proportion d'exactement la moitié ne rendrait pas compte du caractère semi-identique de ces jumeaux, qui en partagent davantage."
+        },
+        {
+          "t": "Moins de 50 % de leur matériel génétique",
+          "j": "Partager moins de la moitié situerait ces jumeaux en deçà de la ressemblance qui leur est propre : ils en partagent au contraire plus de la moitié."
+        },
+        {
+          "t": "La totalité de leur matériel génétique",
+          "j": "Un partage total les rendrait identiques et non semi-identiques ; le cours borne expressément ce partage en deçà de 100 %."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi les cellules de la lignée spermatogénétique restent-elles réunies en syncytiums pendant leur différenciation ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "La cytokinèse ne s'achève qu'une fois la différenciation complète",
+          "correct": true,
+          "j": "Tant que la différenciation en spermatozoïdes n'est pas terminée, la cytokinèse n'a pas eu lieu : les cellules demeurent réunies en syncytiums."
+        },
+        {
+          "t": "Leurs membranes plasmiques fusionnent au terme de la méiose II",
+          "j": "Il ne s'agit pas d'une fusion de membranes déjà séparées : les cellules n'ont tout simplement pas encore été séparées les unes des autres."
+        },
+        {
+          "t": "Les spermatocytes primaires n'entrent en méiose qu'une fois groupés",
+          "j": "Les spermatocytes primaires entrent en méiose sans avoir à se regrouper au préalable ; le groupement observé résulte de la division elle-même."
+        },
+        {
+          "t": "Les spermatides perdent leur membrane plasmique en se différenciant",
+          "j": "Les spermatides conservent leur membrane pendant la spermiogenèse ; ce n'est pas une perte de membrane qui les maintient réunies."
+        }
+      ]
+    },
+    {
+      "q": "Quel avantage les syncytiums de la lignée spermatogénétique procurent-ils ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Une synchronisation du développement des cellules",
+          "correct": true,
+          "j": "En permettant aux cellules de communiquer et d'échanger des matériaux, les syncytiums synchronisent leur développement."
+        },
+        {
+          "t": "Un doublement du nombre de gamètes produits",
+          "j": "Le nombre de gamètes obtenus dépend du déroulement de la méiose et non du maintien de ponts cytoplasmiques entre les cellules."
+        },
+        {
+          "t": "Une protection des cellules contre les mutations",
+          "j": "Aucun rôle de protection du matériel génétique n'est attribué aux syncytiums : leur intérêt est d'ordre communicationnel entre cellules voisines."
+        },
+        {
+          "t": "Un raccourcissement de la deuxième division méiotique",
+          "j": "Les syncytiums n'abrègent aucune division : ils persistent au contraire au-delà de la méiose, pendant toute la différenciation des spermatides."
+        }
+      ]
+    },
+    {
+      "q": "Que deviennent habituellement les corpuscules polaires issus de l'ovogenèse ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Ils subissent l'apoptose vingt-quatre heures après leur formation",
+          "correct": true,
+          "j": "Les corpuscules polaires ne sont pas des gamètes utilisables : ils subissent l'apoptose vingt-quatre heures après leur formation."
+        },
+        {
+          "t": "Ils fusionnent avec l'ovule pour lui céder leur cytoplasme",
+          "j": "Aucune fusion ne les ramène vers l'ovule : le matériel qu'ils emportent est définitivement soustrait au gamète fonctionnel."
+        },
+        {
+          "t": "Ils demeurent quiescents dans l'ovaire jusqu'au cycle suivant",
+          "j": "Les corpuscules polaires ne sont pas mis en réserve dans l'ovaire pour un cycle ultérieur : leur sort est scellé dans les heures qui suivent."
+        },
+        {
+          "t": "Ils se divisent à leur tour pour donner d'autres gamètes",
+          "j": "Les corpuscules polaires représentent le matériel écarté au cours de la méiose de l'ovocyte et n'entreprennent aucune nouvelle division."
+        }
+      ]
+    },
+    {
+      "q": "Quel effet des taux élevés de LH produisent-ils au moment de l'ovulation ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Des contractions musculaires locales dans la paroi de l'ovaire",
+          "correct": true,
+          "j": "Des taux élevés de LH provoquent des contractions musculaires localisées dans la paroi de l'ovaire, qui concourent à l'expulsion de l'ovocyte."
+        },
+        {
+          "t": "Un épaississement immédiat de la zone pellucide de l'ovocyte",
+          "j": "Une élévation hormonale précédant l'ovulation n'agit pas sur les enveloppes de l'ovocyte : l'effet décrit porte sur la paroi de l'ovaire."
+        },
+        {
+          "t": "Une reprise simultanée de la méiose dans toutes les oogonies",
+          "j": "L'ovulation ne mobilise pas l'ensemble des cellules de l'ovaire : elle aboutit à la libération d'un gamète femelle, non à un réveil général."
+        },
+        {
+          "t": "Une accélération du trajet des spermatozoïdes",
+          "j": "La LH agit sur l'ovaire au moment de l'ovulation ; le cheminement des spermatozoïdes dans la trompe relève d'un tout autre mécanisme."
+        }
+      ]
+    },
+    {
+      "q": "Quel rôle le corps jaune joue-t-il après l'ovulation ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Il élève la progestérone et prépare l'utérus à l'implantation",
+          "correct": true,
+          "j": "Après l'ovulation, le corps jaune augmente les niveaux de progestérone qui, avec d'autres hormones, préparent l'utérus à l'implantation de l'embryon."
+        },
+        {
+          "t": "Il nourrit l'ovocyte secondaire durant son trajet vers la trompe",
+          "j": "Aucun rôle nutritif n'est attribué au corps jaune : son action après l'ovulation est hormonale, par élévation de la progestérone."
+        },
+        {
+          "t": "Il forme la corona radiata autour de la zone pellucide",
+          "j": "La corona radiata se met en place lors du détachement de l'ovocyte, et non sous l'effet de la structure qui subsiste dans l'ovaire après l'ovulation."
+        },
+        {
+          "t": "Il déclenche la capacitation des spermatozoïdes",
+          "j": "Le corps jaune agit par voie hormonale sur l'utérus ; aucune action sur les spermatozoïdes ne lui est attribuée."
+        }
+      ]
+    },
+    {
+      "q": "Combien de spermatozoïdes parviennent approximativement à l'endroit où la fécondation a lieu ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Environ deux cents",
+          "correct": true,
+          "j": "Environ 200 spermatozoïdes seulement parviennent jusqu'au lieu où la fécondation va se produire, la très grande majorité étant éliminée au cours de la remontée."
+        },
+        {
+          "t": "Environ vingt",
+          "j": "Une vingtaine de spermatozoïdes est très en deçà du chiffre retenu : ce sont quelque deux cents gamètes qui atteignent effectivement le site de la fécondation."
+        },
+        {
+          "t": "Environ deux mille",
+          "j": "Ce chiffre multiplie par dix le nombre réellement atteint : la remontée du tractus féminin élimine bien davantage de spermatozoïdes que cela."
+        },
+        {
+          "t": "Environ vingt mille",
+          "j": "Un tel effectif reviendrait à multiplier par cent le nombre réellement atteint : seule une fraction infime des spermatozoïdes parvient au but."
+        }
+      ]
+    },
+    {
+      "q": "Que se produirait-il dans le zygote si la polyspermie n'était pas bloquée ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Plusieurs fuseaux mitotiques se formeraient et la distribution des chromosomes en serait affectée",
+          "correct": true,
+          "j": "L'entrée de plusieurs spermatozoïdes permettrait la formation de plusieurs fuseaux mitotiques dans le zygote, ce qui perturberait la distribution des chromosomes lors des divisions."
+        },
+        {
+          "t": "La deuxième division méiotique de l'ovocyte resterait définitivement inachevée dans la trompe",
+          "j": "L'entrée d'un spermatozoïde supplémentaire n'empêcherait pas l'ovocyte de terminer sa division : l'anomalie attendue concerne les divisions ultérieures de l'embryon."
+        },
+        {
+          "t": "Les mitochondries apportées par le père seraient transmises à l'embryon et à sa descendance",
+          "j": "L'hérédité de l'ADN mitochondrial reste exclusivement maternelle quel que soit le nombre de spermatozoïdes entrés ; le danger redouté porte sur les divisions du zygote."
+        },
+        {
+          "t": "La zone pellucide se dissoudrait prématurément, bien avant l'implantation de l'embryon",
+          "j": "La zone pellucide est au contraire modifiée au moment de la fécondation, et non dissoute ; sa disparition n'est pas la conséquence redoutée d'une entrée multiple."
+        }
+      ]
+    },
+    {
+      "q": "Qu'apporte le spermatozoïde au zygote, en plus de son pronucléus ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Un centriole, qui participe à l'organisation du premier fuseau mitotique",
+          "correct": true,
+          "j": "Le spermatozoïde fournit au zygote, outre son pronucléus paternel, le centriole qui collabore à l'organisation du premier fuseau mitotique des divisions de l'embryon."
+        },
+        {
+          "t": "Un lot de mitochondries, qui alimente les premières divisions de l'œuf",
+          "j": "Aucune mitochondrie paternelle ne parvient dans l'ovule : toutes celles de l'embryon viennent de la mère, et le spermatozoïde n'y contribue pas."
+        },
+        {
+          "t": "Des granules corticaux, qui referment l'enveloppe externe de l'ovule",
+          "j": "Les granules corticaux sont des éléments du cytoplasme de l'ovocyte : le gamète mâle n'en apporte aucun au zygote."
+        },
+        {
+          "t": "Un corpuscule polaire supplémentaire, qui disparaît après la fécondation",
+          "j": "Les corpuscules polaires sont des produits de la méiose de l'ovocyte et relèvent donc du gamète femelle, jamais du spermatozoïde."
+        }
+      ]
+    },
+    {
+      "q": "À quel moment de la vie la spermatogenèse se déroule-t-elle ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "De la puberté jusqu'à la fin de la vie, en diminuant avec l'âge",
+          "correct": true,
+          "j": "La spermatogenèse commence à la puberté et se poursuit ensuite tout au long de la vie, bien qu'elle diminue progressivement avec l'âge."
+        },
+        {
+          "t": "De la vie fœtale jusqu'à la puberté, puis elle s'interrompt",
+          "j": "Rien dans la lignée masculine ne débute avant la puberté : c'est au contraire à la puberté que la spermatogenèse prend son départ."
+        },
+        {
+          "t": "De la puberté jusqu'à l'âge adulte, puis elle s'interrompt",
+          "j": "Le départ à la puberté est exact, mais la spermatogenèse ne cesse pas ensuite : elle se poursuit, en s'atténuant, tout au long de la vie."
+        },
+        {
+          "t": "De la vie fœtale jusqu'à la fin de la vie, sans interruption",
+          "j": "La continuité jusqu'à la fin de la vie est exacte, mais le point de départ est faux : la spermatogenèse ne commence qu'à la puberté."
+        }
+      ]
+    },
+    {
+      "q": "Que devient l'ovocyte secondaire lorsqu'il n'est pas fécondé ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Il est éliminé avec les menstruations",
+          "correct": true,
+          "j": "Faute de fécondation, l'ovocyte secondaire est évacué avec les menstruations, et un nouvel ovocyte sera produit au cycle suivant."
+        },
+        {
+          "t": "Il est réabsorbé par la paroi de l'ovaire",
+          "j": "L'ovocyte secondaire a déjà quitté l'ovaire pour la trompe au moment de l'ovulation : il n'y revient pas pour y être résorbé."
+        },
+        {
+          "t": "Il demeure dans la trompe jusqu'au cycle suivant",
+          "j": "Chaque cycle menstruel fait entrer en jeu de nouveaux ovocytes secondaires ; celui qui n'a pas été fécondé n'est pas gardé en réserve."
+        },
+        {
+          "t": "Il se transforme en un corpuscule polaire de plus",
+          "j": "Les corpuscules polaires naissent du partage inégal du cytoplasme lors des divisions ; un ovocyte secondaire non fécondé n'en devient pas un."
+        }
+      ]
+    },
+    {
+      "q": "Combien de corpuscules polaires la méiose d'un ovocyte primaire produit-elle ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Deux ou trois",
+          "correct": true,
+          "j": "La méiose d'un ovocyte primaire s'accompagne de la formation de deux ou trois corpuscules polaires, qui emportent le matériel écarté au cours des divisions."
+        },
+        {
+          "t": "Un ou deux",
+          "j": "Un seul corpuscule polaire ne correspond à aucune des valeurs retenues, et le compte ne s'arrête pas nécessairement à deux : il peut aller jusqu'à trois."
+        },
+        {
+          "t": "Trois ou quatre",
+          "j": "Trois est bien la valeur haute, mais quatre ne l'est pas : le compte ne dépasse jamais trois corpuscules polaires."
+        },
+        {
+          "t": "Quatre ou cinq",
+          "j": "Un tel nombre dépasse largement ce que produisent les deux divisions méiotiques d'un seul ovocyte primaire."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi les cellules issues de l'ovogenèse n'ont-elles pas toutes la même taille, contrairement à celles de la spermatogenèse ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "La matière nutritive accumulée n'y est pas répartie uniformément",
+          "correct": true,
+          "j": "L'ovogenèse accumule une grande quantité de matière nutritive qui n'est pas uniformément répartie, d'où des cellules de tailles différentes."
+        },
+        {
+          "t": "Les chromosomes y sont répartis inégalement entre les cellules",
+          "j": "La répartition du matériel chromosomique reste équitable : chaque cellule issue de la méiose reçoit le même lot de chromosomes."
+        },
+        {
+          "t": "Les corpuscules polaires y gardent deux chromatides par chromosome",
+          "j": "Ce n'est pas le nombre de chromatides qui fait la taille d'une cellule : la différence tient au volume de cytoplasme et de réserves qu'elle reçoit."
+        },
+        {
+          "t": "La membrane plasmique de l'ovocyte y est beaucoup plus épaisse",
+          "j": "L'épaisseur des enveloppes n'explique pas l'écart de taille observé : celui-ci vient du contenu accumulé à l'intérieur de la cellule."
+        }
+      ]
+    },
+    {
+      "q": "Au cours de l'ovogenèse, à quel moment de chaque division méiotique le cytoplasme est-il inégalement réparti ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Lors de la cytocinèse",
+          "correct": true,
+          "j": "Le partage inégal du cytoplasme a lieu pendant la cytocinèse, l'étape qui divise le cytoplasme à la fin de chacune des deux divisions méiotiques."
+        },
+        {
+          "t": "Lors de la métaphase",
+          "j": "La métaphase aligne les chromosomes sur la plaque équatoriale et ne partage pas encore le contenu de la cellule."
+        },
+        {
+          "t": "Lors de l'anaphase",
+          "j": "L'anaphase déplace le matériel chromosomique vers les pôles ; la séparation du cytoplasme lui est postérieure."
+        },
+        {
+          "t": "Lors de la prophase",
+          "j": "La prophase prépare les chromosomes à la division et ne s'accompagne d'aucun partage du cytoplasme."
+        }
+      ]
+    },
+    {
+      "q": "Grâce à quoi les spermatozoïdes remontent-ils l'appareil sexuel féminin ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Grâce au mouvement de leur flagelle",
+          "correct": true,
+          "j": "Les spermatozoïdes progressent grâce à leur mouvement flagellaire, qui leur permet de remonter activement l'appareil sexuel féminin."
+        },
+        {
+          "t": "Grâce aux battements de cils portés par leur tête",
+          "j": "La tête du spermatozoïde ne porte pas de cils : c'est l'appendice postérieur de la cellule qui assure sa propulsion."
+        },
+        {
+          "t": "Grâce à leurs enzymes acrosomiques",
+          "j": "Les enzymes acrosomiques servent à franchir l'enveloppe de l'ovule au contact de celui-ci, et non à parcourir le trajet qui y mène."
+        },
+        {
+          "t": "Grâce à l'attraction exercée par la corona radiata",
+          "j": "La corona radiata est la couronne de cellules qui entoure l'ovocyte détaché ; aucun rôle de traction à distance ne lui est attribué."
+        }
+      ]
+    },
+    {
+      "q": "Comment nomme-t-on les deux noyaux haploïdes dont la fusion achève la fécondation ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Les pronoyaux, maternel et paternel",
+          "correct": true,
+          "j": "La fécondation culmine avec la fusion des deux pronoyaux haploïdes, maternel et paternel, dont les chromosomes réunis constituent le génome 2n du zygote."
+        },
+        {
+          "t": "Les corpuscules polaires de l'ovocyte",
+          "j": "Les corpuscules polaires emportent le matériel que l'ovocyte écarte au cours de ses divisions : ils ne participent pas à la constitution du zygote."
+        },
+        {
+          "t": "Les bivalents de la prophase I",
+          "j": "Le bivalent est une structure formée de deux chromosomes homologues appariés à l'intérieur d'une même cellule, bien avant la fécondation."
+        },
+        {
+          "t": "Les gonosomes des deux gamètes",
+          "j": "Les gonosomes sont les chromosomes sexuels portés par chaque gamète, et non les noyaux entiers qui fusionnent au terme de la fécondation."
+        }
+      ]
+    }
   ],
   "structure1": [
     {
