@@ -219,6 +219,20 @@ function shuffle(arr) {
   return a;
 }
 
+/* Une proposition qui renvoie à des LETTRES (« A et B sont corrects », « A and B are correct »)
+   vient telle quelle des annales : la réécrire reviendrait à refaire l'examen. Mais les lettres
+   affichées sont attribuées par POSITION d'affichage, et le mélange des propositions les rendait
+   donc arbitraires : l'étudiant·e ne pouvait pas savoir à quoi « A et B » renvoyait — et dans
+   43 cas c'était la BONNE RÉPONSE, la question devenant impossible. Pour ces questions seulement,
+   on conserve l'ordre de l'annale, afin que les lettres affichées soient celles de l'examen.
+   Mesuré le 15/10/2026 : 114 propositions concernées dans 10 banques, surtout le cursus Dentaire. */
+const RENVOI_LETTRE = /^(?:les |the )?(?:r[eé]ponses?|options?|propositions?|answers?)? ?[A-D](?: ?(?:et|and|,|&|\+) ?[A-D])+\b|^[A-D] (?:et|and) [A-D]\b/i;
+function optionOrder(options) {
+  const identite = Array.from({ length: options.length }, (_, i) => i);
+  if (options.some(o => RENVOI_LETTRE.test(String((o && o.t) || "").trim()))) return identite;
+  return shuffle(identite);
+}
+
 function readJSON(key) {
   try { return JSON.parse(localStorage.getItem(key) || "{}"); }
   catch (e) { return {}; }
@@ -481,7 +495,7 @@ function pickQuestions(mode, length) {
   return chosen.map(idx => {
     const src = bank[idx];
     const n = src.options.length;
-    const optOrder = shuffle(Array.from({ length: n }, (_, i) => i));
+    const optOrder = optionOrder(src.options);
     const options = optOrder.map((origIdx, displayIdx) => ({
       ...src.options[origIdx],
       letter: OPTION_LETTERS[displayIdx],
@@ -1111,9 +1125,10 @@ function renderMistake() {
   $("#mistakes-current").textContent = mv.index + 1;
   $("#mistakes-total").textContent = mv.list.length;
 
-  // Build a shuffled display order so the user can't rely on letter position.
+  // Ordre d'affichage mélangé pour que la position d'une lettre ne soit pas un indice — sauf si
+  // une proposition renvoie à des lettres, auquel cas l'ordre de l'annale est conservé.
   const n = q.options.length;
-  const order = shuffle(Array.from({ length: n }, (_, i) => i));
+  const order = optionOrder(q.options);
   mv.currentOrder = order;
   mv.currentQ = q;
   mv.currentMode = m.mode;
