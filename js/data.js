@@ -26083,7 +26083,7 @@ const QUESTIONS = {
         },
         {
           "t": "Réchauffement thermique des tissus profonds",
-          "j": "L'effet thermique en profondeur relève du rayonnement infrarouge, pas des UV-C dont l'action est la destruction de l'ADN microbien."
+          "j": "Le réchauffement des tissus profonds relève du rayonnement micro-ondes, employé en diathermie ; l’infrarouge, lui, chauffe en surface, et les UV-C agissent en détruisant l’ADN microbien."
         }
       ]
     },
@@ -26842,7 +26842,7 @@ const QUESTIONS = {
         },
         {
           "t": "Une translocation déséquilibrée",
-          "j": "Une translocation déséquilibrée explique une minorité de cas familiaux ; la forme typique reste une trisomie 21 libre par non-disjonction."
+          "j": "Une translocation déséquilibrée est un remaniement de STRUCTURE ; le syndrome de Down tient à un chromosome 21 supplémentaire, c’est-à-dire à une anomalie de NOMBRE."
         }
       ]
     },
@@ -33378,22 +33378,581 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Quelle est la quatrième et dernière étape de la communication cellulaire ?","c":6,"options":[{"t":"L'inactivation ou la destruction de la molécule signal","correct":true,"j":"La réponse ne se prolonge pas indéfiniment : elle prend fin lorsque la molécule message est détruite ou rendue inactive."},{"t":"La reconnaissance du stimulus par un récepteur spécifique","j":"La reconnaissance du stimulus par un récepteur de la membrane ou de l'intérieur de la cellule ouvre la séquence : c'est la première étape, pas la dernière."},{"t":"Le transfert du message vers les effecteurs intracellulaires","j":"Le transfert du message vers les effecteurs internes porte le nom de transduction et occupe la deuxième place de la séquence."},{"t":"Les changements d'expression génique et d'activité enzymatique","j":"Ces changements, avec les variations de concentration ionique, constituent la réponse cellulaire proprement dite, troisième étape qui précède l'arrêt du signal."}]},
-    {"q":"Sur quoi repose la signalisation dépendante du contact, également appelée juxtacrine ?","c":6,"options":[{"t":"Sur des protéines transmembranaires reliant deux cellules accolées","correct":true,"j":"Les cellules établissent des connexions directes grâce à des protéines transmembranaires comme les molécules d'adhérence cellulaire, les protéines Notch et les intégrines ; ce mode intervient notamment dans le développement embryonnaire et la réponse immunitaire."},{"t":"Sur des connexons mettant en continuité les cytoplasmes voisins","j":"Les connexons appartiennent aux jonctions gap, qui font communiquer les cytoplasmes eux-mêmes et non les faces externes des deux membranes."},{"t":"Sur des médiateurs chimiques captés par les cellules voisines","j":"Un médiateur libéré dans le milieu extracellulaire franchit un espace entre les deux cellules : aucun contact ne s'établit alors entre leurs membranes plasmiques."},{"t":"Sur des messagers déversés dans le sang vers des cibles éloignées","j":"Le déversement d'un messager dans la circulation caractérise la voie endocrine, dont la portée s'étend à tout l'organisme."}]},
-    {"q":"Dans le muscle cardiaque, quel rôle les jonctions gap assurent-elles ?","c":6,"options":[{"t":"Propager le potentiel d'action d'un myocyte à l'autre","correct":true,"j":"Cette propagation rapide entre myocytes garantit une contraction coordonnée et efficace du cœur ; les anomalies des jonctions gap y exposent aux arythmies."},{"t":"Sceller l'espace entre les myocytes contre tout passage","j":"Un canal qui met deux cytoplasmes en continuité fait exactement l'inverse de sceller l'espace intercellulaire : il l'ouvre au passage des petites molécules."},{"t":"Amarrer les myocytes voisins contre les forces de traction","j":"Résister à la traction demande un point d'ancrage relié au cytosquelette ; un canal rempli d'eau reliant deux cytoplasmes n'oppose aucune résistance mécanique."},{"t":"Exporter vers le myocyte voisin le calcium du réticulum","j":"Le calcium libéré lors de la contraction provient du réticulum sarcoplasmique et agit dans sa propre cellule ; il n'est pas expédié au myocyte voisin."}]},
-    {"q":"Lequel de ces messagers agit sur un récepteur associé à une tyrosine kinase ?","c":6,"options":[{"t":"L'érythropoïétine","correct":true,"j":"L'érythropoïétine et les interférons sont les exemples retenus de messagers dont le récepteur de surface est associé à une activité tyrosine kinase."},{"t":"L'hormone thyroïdienne","j":"L'hormone thyroïdienne relève des récepteurs nucléaires, au même titre que les hormones stéroïdiennes et la vitamine D, et non d'un récepteur enzymatique de surface."},{"t":"La sérotonine","j":"La sérotonine compte, avec le glucagon, parmi les messagers reconnus par les récepteurs couplés aux protéines G."},{"t":"L'acétylcholine","j":"À la jonction neuromusculaire, l'acétylcholine ouvre un récepteur associé à une protéine canal, dépourvu de toute activité enzymatique propre."}]},
-    {"q":"Que déclenche la liaison du ligand sur un récepteur tyrosine kinase ?","c":6,"options":[{"t":"La dimérisation du récepteur, qui active son activité kinase","correct":true,"j":"Une fois dimérisé, le récepteur phosphoryle des résidus tyrosine sur lui-même et sur des substrats intracellulaires, amorçant les cascades qui règlent croissance, différenciation et survie."},{"t":"Le recrutement d'une protéine G trimérique sous le récepteur","j":"Recruter une protéine G trimérique est le fait des récepteurs couplés aux protéines G, famille distincte des récepteurs qui portent eux-mêmes une activité enzymatique."},{"t":"L'ouverture transitoire d'un pore laissant passer des ions","j":"L'ouverture brève d'un pore caractérise les récepteurs ionotropiques, qui engendrent un signal électrique et non une phosphorylation."},{"t":"La libération du récepteur de ses protéines chaperonnes","j":"Les protéines chaperonnes accompagnent certains récepteurs intracellulaires ; un récepteur de surface à activité enzymatique n'en dépend pas."}]},
-    {"q":"Une fois dans le noyau, sur quoi le complexe formé par l'hormone et son récepteur vient-il se fixer ?","c":6,"options":[{"t":"Des séquences d'ADN appelées éléments de réponse aux hormones","correct":true,"j":"La fixation sur ces éléments de réponse recrute des coactivateurs ou des corépresseurs de la transcription, ce qui module l'expression des gènes cibles."},{"t":"Des séquences d'ADN répétées protégeant les extrémités des chromosomes","j":"Ces séquences répétées sont les télomères : elles préservent l'extrémité du chromosome et ne servent pas de point d'ancrage à un récepteur hormonal."},{"t":"Les ARN de transfert présents dans le nucléoplasme","j":"Les ARN de transfert apportent les acides aminés au ribosome pendant la traduction ; ils n'interviennent pas dans la liaison d'un récepteur à l'ADN."},{"t":"Les sous-unités ribosomiques en cours d'assemblage","j":"Une sous-unité ribosomique en cours d'assemblage est une particule ribonucléoprotéique, et non une séquence d'ADN sur laquelle un récepteur pourrait se fixer."}]},
-    {"q":"Dans la cascade des MAP kinases, quel est l'ordre d'activation des protéines ?","c":6,"options":[{"t":"Ras, puis Raf, puis MEK, puis ERK","correct":true,"j":"Un récepteur tyrosine kinase activé met Ras en action ; Ras phosphoryle Raf, qui phosphoryle MEK, qui phosphoryle à son tour ERK."},{"t":"Raf, puis Ras, puis ERK, puis MEK","j":"Raf n'ouvre pas la cascade : il est lui-même phosphorylé par une petite protéine G mise en route en amont par le récepteur."},{"t":"MEK, puis ERK, puis Ras, puis Raf","j":"MEK occupe une position intermédiaire et n'agit qu'une fois phosphorylé ; le placer en tête remonte deux maillons d'un coup."},{"t":"ERK, puis MEK, puis Raf, puis Ras","j":"ERK est le maillon terminal : une fois activée, elle gagne le noyau et phosphoryle divers facteurs de transcription."}]},
-    {"q":"En quoi consiste la mécanotransduction ?","c":6,"options":[{"t":"À convertir des stimuli mécaniques en réponses biochimiques","correct":true,"j":"C'est par cette conversion que les tissus musculosquelettiques répondent et s'adaptent à leur environnement mécanique, et qu'ils en tirent croissance, remodelage et réparation."},{"t":"À propager une force d'une cellule à l'autre sans la modifier","j":"La simple transmission d'une force ne produit aucun signal : il y manque l'étape de conversion qui fait tout l'intérêt du processus."},{"t":"À transformer un message chimique en un déplacement cellulaire","j":"Partir d'un message chimique inverse le sens du phénomène : la mécanotransduction commence par une contrainte physique."},{"t":"À convertir l'énergie d'un potentiel d'action en contraction","j":"Le couplage entre excitation électrique et contraction est un mécanisme musculaire particulier, distinct de la conversion d'une contrainte mécanique en signal chimique."}]},
-    {"q":"Quelle propriété l'élastine confère-t-elle aux tissus conjonctifs ?","c":6,"options":[{"t":"Une élasticité qui leur permet de reprendre leur forme après étirement","correct":true,"j":"Parmi les protéines structurelles de la matrice, l'élastine est celle des tissus conjonctifs : elle les laisse s'étirer, puis revenir à leur forme de départ."},{"t":"Une résistance mécanique qui leur donne leur structure et leur solidité d'ensemble","j":"La résistance et la structure viennent du collagène, principal composant de la matrice extracellulaire."},{"t":"Une adhérence qui maintient les cellules stabilisées dans le tissu","j":"La stabilisation des cellules au sein des tissus est assurée par les laminines, qui interagissent avec les récepteurs cellulaires."},{"t":"Un pouvoir de liaison qui facilite la cicatrisation après une lésion","j":"La liaison des cellules à la matrice et le rôle dans la cicatrisation reviennent à la fibronectine."}]},
-    {"q":"Quel rôle les protéoglycanes jouent-ils dans la matrice extracellulaire ?","c":6,"options":[{"t":"Ils hydratent la matrice et la rendent résistante aux compressions","correct":true,"j":"En retenant l'eau, les protéoglycanes opposent une résistance aux forces de compression et facilitent en outre la signalisation cellulaire."},{"t":"Ils forment les fibres qui donnent sa charpente au tissu conjonctif","j":"Les fibres de charpente du tissu conjonctif sont faites de collagène, protéine structurelle et non molécule hydratante."},{"t":"Ils relient les filaments d'actine aux protéines de la matrice","j":"Ce pontage à travers la membrane est l'affaire des intégrines et de leurs partenaires intracellulaires, non d'un composant de la matrice."},{"t":"Ils stabilisent les cellules au sein des tissus","j":"La stabilisation des cellules au sein des tissus revient aux laminines, qui interagissent pour cela avec les récepteurs cellulaires."}]},
-    {"q":"Qu'est-ce qui assure la contractilité du cytosquelette ?","c":6,"options":[{"t":"Le glissement de la F-actine sur la myosine II","correct":true,"j":"Ce glissement s'opère au sein des fibres de stress, où actine et myosine II sont maintenues ensemble par des protéines de liaison."},{"t":"L'assemblage des filaments intermédiaires en réseau","j":"Les filaments intermédiaires comptent parmi les composants du cytosquelette, mais la force contractile ne prend pas naissance dans leur réseau."},{"t":"L'allongement orienté des microtubules de tubuline","j":"Les microtubules participent à la géométrie et à la polarité du cytosquelette sans engendrer eux-mêmes de force contractile."},{"t":"Le raccourcissement actif des protéines de liaison","j":"Les protéines de liaison tiennent ensemble les filaments des fibres de stress ; elles ne produisent pas le mouvement."}]},
-    {"q":"Qu'entraîne l'application d'une force mécanique sur les intégrines de la membrane cellulaire ?","c":6,"options":[{"t":"Une déformation du noyau dans la direction de la force","correct":true,"j":"La force se propage jusqu'au noyau, qu'elle réorganise et déforme ; elle peut aussi remanier la chromatine et modifier l'expression des gènes mécanosensibles."},{"t":"Une inversion du sens de la migration de la cellule","j":"La force transmise par les intégrines accompagne au contraire la migration directionnelle et la polarisation cellulaire, sans en inverser le sens."},{"t":"Une fragmentation complète de l'enveloppe nucléaire","j":"L'enveloppe nucléaire se rompt lors de la division cellulaire ; une contrainte transmise par les intégrines la déforme sans la fragmenter."},{"t":"Une dépolarisation de la membrane plasmique","j":"La force captée par les intégrines est transmise mécaniquement au cytosquelette puis au noyau ; elle ne met pas en mouvement les ions de part et d'autre de la membrane."}]},
-    {"q":"Que produisent l'activation et le regroupement des intégrines après leur liaison à la matrice extracellulaire ?","c":6,"options":[{"t":"La formation des adhésions focales","correct":true,"j":"Les adhésions focales sont les principaux centres d'interaction entre la cellule et la matrice, et le point de départ de la voie intégrine/FAK."},{"t":"La fermeture des jonctions communicantes","j":"Les jonctions communicantes relient deux cellules entre elles et ne dépendent pas de l'accrochage des intégrines à la matrice."},{"t":"L'endocytose des intégrines liées","j":"Le regroupement renforce les liens moléculaires à l'interface cellule-matrice au lieu de retirer les intégrines de la surface."},{"t":"La rupture des fibres de stress","j":"Les fibres de stress ne se défont pas : elles tirent au contraire sur les adhésions focales pour transmettre la force entre la matrice et la cellule."}]},
-    {"q":"Quelles protéines composent le complexe LINC, qui relie le cytosquelette au nucléosquelette ?","c":6,"options":[{"t":"Les protéines SUN et les nesprines","correct":true,"j":"Les protéines SUN et les nesprines font le pont entre cytosquelette, enveloppe nucléaire et nucléosquelette, et transmettent ainsi la force jusqu'au noyau."},{"t":"Les connexines et les cadhérines membranaires","j":"Les connexines bâtissent les canaux qui unissent deux cytoplasmes, à la membrane plasmique et non à l'enveloppe nucléaire."},{"t":"Les lamines et les histones nucléaires","j":"Ces protéines appartiennent à l'architecture interne du noyau et à l'organisation de l'ADN ; la liaison avec le cytosquelette n'est pas leur rôle."},{"t":"La taline et la vinculine","j":"La taline et la vinculine travaillent avec les intégrines au niveau de la membrane plasmique, et non à l'interface entre le noyau et le cytosquelette."}]},
-    {"q":"Que se passe-t-il lorsqu'une force mécanique ouvre le canal Piezo1 ?","c":6,"options":[{"t":"Du calcium entre dans la cellule","correct":true,"j":"Cette entrée de Ca²⁺ déclenche une cascade intracellulaire : le calcium y joue le rôle de second messager et règle prolifération, migration et différenciation."},{"t":"Le canal libère un messager lipidique","j":"Piezo1 est un canal ionique : il laisse passer des ions sous l'effet de la contrainte, il ne fabrique aucune molécule."},{"t":"Le cytosquelette se dépolymérise","j":"Le cytosquelette se réorganise en aval de la signalisation déclenchée, mais ce n'est pas la conséquence immédiate de l'ouverture du canal."},{"t":"Du potassium sort de la cellule","j":"Piezo1 répond à l'étirement de la membrane, à la pression statique et au cisaillement en laissant entrer le calcium, et non en évacuant du potassium."}]},
-    {"q":"Qu'est-ce qui distingue l'activation du récepteur Notch de celle de la plupart des récepteurs ?","c":6,"options":[{"t":"Elle est irréversible : la protéine ne peut plus resservir","correct":true,"j":"Une fois activée par la liaison de son ligand, la protéine Notch ne peut plus être réutilisée par la cellule."},{"t":"Elle se produit uniquement dans le noyau de la cellule","j":"Notch est une protéine transmembranaire à passage unique activée à la surface ; c'est seulement sa queue cytoplasmique libérée qui gagne ensuite le noyau."},{"t":"Elle n'exige aucun contact avec une autre cellule","j":"Notch est activé par un ligand porté par une cellule voisine : le contact intercellulaire est indispensable à son activation."},{"t":"Elle est annulée dès que le ligand se détache","j":"Le départ du ligand ne restaure pas Notch, dont la queue cytoplasmique a déjà été clivée par une protéase liée à la membrane plasmique."}]}
+    {
+      "q": "Quelle est la quatrième et dernière étape de la communication cellulaire ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "L'inactivation ou la destruction de la molécule signal",
+          "correct": true,
+          "j": "La réponse ne se prolonge pas indéfiniment : elle prend fin lorsque la molécule message est détruite ou rendue inactive."
+        },
+        {
+          "t": "La reconnaissance du stimulus par un récepteur spécifique",
+          "j": "La reconnaissance du stimulus par un récepteur de la membrane ou de l'intérieur de la cellule ouvre la séquence : c'est la première étape, pas la dernière."
+        },
+        {
+          "t": "Le transfert du message vers les effecteurs intracellulaires",
+          "j": "Le transfert du message vers les effecteurs internes porte le nom de transduction et occupe la deuxième place de la séquence."
+        },
+        {
+          "t": "Les changements d'expression génique et d'activité enzymatique",
+          "j": "Ces changements, avec les variations de concentration ionique, constituent la réponse cellulaire proprement dite, troisième étape qui précède l'arrêt du signal."
+        }
+      ]
+    },
+    {
+      "q": "Sur quoi repose la signalisation dépendante du contact, également appelée juxtacrine ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Sur des protéines transmembranaires reliant deux cellules accolées",
+          "correct": true,
+          "j": "Les cellules établissent des connexions directes grâce à des protéines transmembranaires comme les molécules d'adhérence cellulaire, les protéines Notch et les intégrines ; ce mode intervient notamment dans le développement embryonnaire et la réponse immunitaire."
+        },
+        {
+          "t": "Sur des connexons mettant en continuité les cytoplasmes voisins",
+          "j": "Les connexons appartiennent aux jonctions gap, qui font communiquer les cytoplasmes eux-mêmes et non les faces externes des deux membranes."
+        },
+        {
+          "t": "Sur des médiateurs chimiques captés par les cellules voisines",
+          "j": "Un médiateur libéré dans le milieu extracellulaire franchit un espace entre les deux cellules : aucun contact ne s'établit alors entre leurs membranes plasmiques."
+        },
+        {
+          "t": "Sur des messagers déversés dans le sang vers des cibles éloignées",
+          "j": "Le déversement d'un messager dans la circulation caractérise la voie endocrine, dont la portée s'étend à tout l'organisme."
+        }
+      ]
+    },
+    {
+      "q": "Dans le muscle cardiaque, quel rôle les jonctions gap assurent-elles ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Propager le potentiel d'action d'un myocyte à l'autre",
+          "correct": true,
+          "j": "Cette propagation rapide entre myocytes garantit une contraction coordonnée et efficace du cœur ; les anomalies des jonctions gap y exposent aux arythmies."
+        },
+        {
+          "t": "Sceller l'espace entre les myocytes contre tout passage",
+          "j": "Un canal qui met deux cytoplasmes en continuité fait exactement l'inverse de sceller l'espace intercellulaire : il l'ouvre au passage des petites molécules."
+        },
+        {
+          "t": "Amarrer les myocytes voisins contre les forces de traction",
+          "j": "Résister à la traction demande un point d'ancrage relié au cytosquelette ; un canal rempli d'eau reliant deux cytoplasmes n'oppose aucune résistance mécanique."
+        },
+        {
+          "t": "Exporter vers le myocyte voisin le calcium du réticulum",
+          "j": "Le calcium libéré lors de la contraction provient du réticulum sarcoplasmique et agit dans sa propre cellule ; il n'est pas expédié au myocyte voisin."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces messagers agit sur un récepteur associé à une tyrosine kinase ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "L'érythropoïétine",
+          "correct": true,
+          "j": "L'érythropoïétine et les interférons sont les exemples retenus de messagers dont le récepteur de surface est associé à une activité tyrosine kinase."
+        },
+        {
+          "t": "L'hormone thyroïdienne",
+          "j": "L'hormone thyroïdienne relève des récepteurs nucléaires, au même titre que les hormones stéroïdiennes et la vitamine D, et non d'un récepteur enzymatique de surface."
+        },
+        {
+          "t": "La sérotonine",
+          "j": "La sérotonine compte, avec le glucagon, parmi les messagers reconnus par les récepteurs couplés aux protéines G."
+        },
+        {
+          "t": "L'acétylcholine",
+          "j": "À la jonction neuromusculaire, l'acétylcholine ouvre un récepteur associé à une protéine canal, dépourvu de toute activité enzymatique propre."
+        }
+      ]
+    },
+    {
+      "q": "Que déclenche la liaison du ligand sur un récepteur tyrosine kinase ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "La dimérisation du récepteur, qui active son activité kinase",
+          "correct": true,
+          "j": "Une fois dimérisé, le récepteur phosphoryle des résidus tyrosine sur lui-même et sur des substrats intracellulaires, amorçant les cascades qui règlent croissance, différenciation et survie."
+        },
+        {
+          "t": "Le recrutement d'une protéine G trimérique sous le récepteur",
+          "j": "Recruter une protéine G trimérique est le fait des récepteurs couplés aux protéines G, famille distincte des récepteurs qui portent eux-mêmes une activité enzymatique."
+        },
+        {
+          "t": "L'ouverture transitoire d'un pore laissant passer des ions",
+          "j": "L'ouverture brève d'un pore caractérise les récepteurs ionotropiques, qui engendrent un signal électrique et non une phosphorylation."
+        },
+        {
+          "t": "La libération du récepteur de ses protéines chaperonnes",
+          "j": "Les protéines chaperonnes accompagnent certains récepteurs intracellulaires ; un récepteur de surface à activité enzymatique n'en dépend pas."
+        }
+      ]
+    },
+    {
+      "q": "Une fois dans le noyau, sur quoi le complexe formé par l'hormone et son récepteur vient-il se fixer ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Des séquences d'ADN appelées éléments de réponse aux hormones",
+          "correct": true,
+          "j": "La fixation sur ces éléments de réponse recrute des coactivateurs ou des corépresseurs de la transcription, ce qui module l'expression des gènes cibles."
+        },
+        {
+          "t": "Des séquences d'ADN répétées protégeant les extrémités des chromosomes",
+          "j": "Ces séquences répétées sont les télomères : elles préservent l'extrémité du chromosome et ne servent pas de point d'ancrage à un récepteur hormonal."
+        },
+        {
+          "t": "Les ARN de transfert présents dans le nucléoplasme",
+          "j": "Les ARN de transfert apportent les acides aminés au ribosome pendant la traduction ; ils n'interviennent pas dans la liaison d'un récepteur à l'ADN."
+        },
+        {
+          "t": "Les sous-unités ribosomiques en cours d'assemblage",
+          "j": "Une sous-unité ribosomique en cours d'assemblage est une particule ribonucléoprotéique, et non une séquence d'ADN sur laquelle un récepteur pourrait se fixer."
+        }
+      ]
+    },
+    {
+      "q": "Dans la cascade des MAP kinases, quel est l'ordre d'activation des protéines ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Ras, puis Raf, puis MEK, puis ERK",
+          "correct": true,
+          "j": "Un récepteur tyrosine kinase activé met Ras en action ; Ras phosphoryle Raf, qui phosphoryle MEK, qui phosphoryle à son tour ERK."
+        },
+        {
+          "t": "Raf, puis Ras, puis ERK, puis MEK",
+          "j": "Raf n'ouvre pas la cascade : il est lui-même phosphorylé par une petite protéine G mise en route en amont par le récepteur."
+        },
+        {
+          "t": "MEK, puis ERK, puis Ras, puis Raf",
+          "j": "MEK occupe une position intermédiaire et n'agit qu'une fois phosphorylé ; le placer en tête remonte deux maillons d'un coup."
+        },
+        {
+          "t": "ERK, puis MEK, puis Raf, puis Ras",
+          "j": "ERK est le maillon terminal : une fois activée, elle gagne le noyau et phosphoryle divers facteurs de transcription."
+        }
+      ]
+    },
+    {
+      "q": "En quoi consiste la mécanotransduction ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "À convertir des stimuli mécaniques en réponses biochimiques",
+          "correct": true,
+          "j": "C'est par cette conversion que les tissus musculosquelettiques répondent et s'adaptent à leur environnement mécanique, et qu'ils en tirent croissance, remodelage et réparation."
+        },
+        {
+          "t": "À propager une force d'une cellule à l'autre sans la modifier",
+          "j": "La simple transmission d'une force ne produit aucun signal : il y manque l'étape de conversion qui fait tout l'intérêt du processus."
+        },
+        {
+          "t": "À transformer un message chimique en un déplacement cellulaire",
+          "j": "Partir d'un message chimique inverse le sens du phénomène : la mécanotransduction commence par une contrainte physique."
+        },
+        {
+          "t": "À convertir l'énergie d'un potentiel d'action en contraction",
+          "j": "Le couplage entre excitation électrique et contraction est un mécanisme musculaire particulier, distinct de la conversion d'une contrainte mécanique en signal chimique."
+        }
+      ]
+    },
+    {
+      "q": "Quelle propriété l'élastine confère-t-elle aux tissus conjonctifs ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Une élasticité qui leur permet de reprendre leur forme après étirement",
+          "correct": true,
+          "j": "Parmi les protéines structurelles de la matrice, l'élastine est celle des tissus conjonctifs : elle les laisse s'étirer, puis revenir à leur forme de départ."
+        },
+        {
+          "t": "Une résistance mécanique qui leur donne leur structure et leur solidité d'ensemble",
+          "j": "La résistance et la structure viennent du collagène, principal composant de la matrice extracellulaire."
+        },
+        {
+          "t": "Une adhérence qui maintient les cellules stabilisées dans le tissu",
+          "j": "La stabilisation des cellules au sein des tissus est assurée par les laminines, qui interagissent avec les récepteurs cellulaires."
+        },
+        {
+          "t": "Un pouvoir de liaison qui facilite la cicatrisation après une lésion",
+          "j": "La liaison des cellules à la matrice et le rôle dans la cicatrisation reviennent à la fibronectine."
+        }
+      ]
+    },
+    {
+      "q": "Quel rôle les protéoglycanes jouent-ils dans la matrice extracellulaire ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Ils hydratent la matrice et la rendent résistante aux compressions",
+          "correct": true,
+          "j": "En retenant l'eau, les protéoglycanes opposent une résistance aux forces de compression et facilitent en outre la signalisation cellulaire."
+        },
+        {
+          "t": "Ils forment les fibres qui donnent sa charpente au tissu conjonctif",
+          "j": "Les fibres de charpente du tissu conjonctif sont faites de collagène, protéine structurelle et non molécule hydratante."
+        },
+        {
+          "t": "Ils relient les filaments d'actine aux protéines de la matrice",
+          "j": "Ce pontage à travers la membrane est l'affaire des intégrines et de leurs partenaires intracellulaires, non d'un composant de la matrice."
+        },
+        {
+          "t": "Ils stabilisent les cellules au sein des tissus",
+          "j": "La stabilisation des cellules au sein des tissus revient aux laminines, qui interagissent pour cela avec les récepteurs cellulaires."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui assure la contractilité du cytosquelette ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Le glissement de la F-actine sur la myosine II",
+          "correct": true,
+          "j": "Ce glissement s'opère au sein des fibres de stress, où actine et myosine II sont maintenues ensemble par des protéines de liaison."
+        },
+        {
+          "t": "L'assemblage des filaments intermédiaires en réseau",
+          "j": "Les filaments intermédiaires comptent parmi les composants du cytosquelette, mais la force contractile ne prend pas naissance dans leur réseau."
+        },
+        {
+          "t": "L'allongement orienté des microtubules de tubuline",
+          "j": "Les microtubules participent à la géométrie et à la polarité du cytosquelette sans engendrer eux-mêmes de force contractile."
+        },
+        {
+          "t": "Le raccourcissement actif des protéines de liaison",
+          "j": "Les protéines de liaison tiennent ensemble les filaments des fibres de stress ; elles ne produisent pas le mouvement."
+        }
+      ]
+    },
+    {
+      "q": "Qu'entraîne l'application d'une force mécanique sur les intégrines de la membrane cellulaire ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Une déformation du noyau dans la direction de la force",
+          "correct": true,
+          "j": "La force se propage jusqu'au noyau, qu'elle réorganise et déforme ; elle peut aussi remanier la chromatine et modifier l'expression des gènes mécanosensibles."
+        },
+        {
+          "t": "Une inversion du sens de la migration de la cellule",
+          "j": "La force transmise par les intégrines accompagne au contraire la migration directionnelle et la polarisation cellulaire, sans en inverser le sens."
+        },
+        {
+          "t": "Une fragmentation complète de l'enveloppe nucléaire",
+          "j": "L'enveloppe nucléaire se rompt lors de la division cellulaire ; une contrainte transmise par les intégrines la déforme sans la fragmenter."
+        },
+        {
+          "t": "Une dépolarisation de la membrane plasmique",
+          "j": "La force captée par les intégrines est transmise mécaniquement au cytosquelette puis au noyau ; elle ne met pas en mouvement les ions de part et d'autre de la membrane."
+        }
+      ]
+    },
+    {
+      "q": "Que produisent l'activation et le regroupement des intégrines après leur liaison à la matrice extracellulaire ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "La formation des adhésions focales",
+          "correct": true,
+          "j": "Les adhésions focales sont les principaux centres d'interaction entre la cellule et la matrice, et le point de départ de la voie intégrine/FAK."
+        },
+        {
+          "t": "La fermeture des jonctions communicantes",
+          "j": "Les jonctions communicantes relient deux cellules entre elles et ne dépendent pas de l'accrochage des intégrines à la matrice."
+        },
+        {
+          "t": "L'endocytose des intégrines liées",
+          "j": "Le regroupement renforce les liens moléculaires à l'interface cellule-matrice au lieu de retirer les intégrines de la surface."
+        },
+        {
+          "t": "La rupture des fibres de stress",
+          "j": "Les fibres de stress ne se défont pas : elles tirent au contraire sur les adhésions focales pour transmettre la force entre la matrice et la cellule."
+        }
+      ]
+    },
+    {
+      "q": "Quelles protéines composent le complexe LINC, qui relie le cytosquelette au nucléosquelette ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Les protéines SUN et les nesprines",
+          "correct": true,
+          "j": "Les protéines SUN et les nesprines font le pont entre cytosquelette, enveloppe nucléaire et nucléosquelette, et transmettent ainsi la force jusqu'au noyau."
+        },
+        {
+          "t": "Les connexines et les cadhérines membranaires",
+          "j": "Les connexines bâtissent les canaux qui unissent deux cytoplasmes, à la membrane plasmique et non à l'enveloppe nucléaire."
+        },
+        {
+          "t": "Les lamines et les histones nucléaires",
+          "j": "Ces protéines appartiennent à l'architecture interne du noyau et à l'organisation de l'ADN ; la liaison avec le cytosquelette n'est pas leur rôle."
+        },
+        {
+          "t": "La taline et la vinculine",
+          "j": "La taline et la vinculine travaillent avec les intégrines au niveau de la membrane plasmique, et non à l'interface entre le noyau et le cytosquelette."
+        }
+      ]
+    },
+    {
+      "q": "Que se passe-t-il lorsqu'une force mécanique ouvre le canal Piezo1 ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Du calcium entre dans la cellule",
+          "correct": true,
+          "j": "Cette entrée de Ca²⁺ déclenche une cascade intracellulaire : le calcium y joue le rôle de second messager et règle prolifération, migration et différenciation."
+        },
+        {
+          "t": "Le canal libère un messager lipidique",
+          "j": "Piezo1 est un canal ionique : il laisse passer des ions sous l'effet de la contrainte, il ne fabrique aucune molécule."
+        },
+        {
+          "t": "Le cytosquelette se dépolymérise",
+          "j": "Le cytosquelette se réorganise en aval de la signalisation déclenchée, mais ce n'est pas la conséquence immédiate de l'ouverture du canal."
+        },
+        {
+          "t": "Du potassium sort de la cellule",
+          "j": "Piezo1 répond à l'étirement de la membrane, à la pression statique et au cisaillement en laissant entrer le calcium, et non en évacuant du potassium."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui distingue l'activation du récepteur Notch de celle de la plupart des récepteurs ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Elle est irréversible : la protéine ne peut plus resservir",
+          "correct": true,
+          "j": "Une fois activée par la liaison de son ligand, la protéine Notch ne peut plus être réutilisée par la cellule."
+        },
+        {
+          "t": "Elle se produit uniquement dans le noyau de la cellule",
+          "j": "Notch est une protéine transmembranaire à passage unique activée à la surface ; c'est seulement sa queue cytoplasmique libérée qui gagne ensuite le noyau."
+        },
+        {
+          "t": "Elle n'exige aucun contact avec une autre cellule",
+          "j": "Notch est activé par un ligand porté par une cellule voisine : le contact intercellulaire est indispensable à son activation."
+        },
+        {
+          "t": "Elle est annulée dès que le ligand se détache",
+          "j": "Le départ du ligand ne restaure pas Notch, dont la queue cytoplasmique a déjà été clivée par une protéase liée à la membrane plasmique."
+        }
+      ]
+    },
+    {
+      "q": "Quelle substance bloque la dépolymérisation des microfilaments d'actine ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "La phalloïdine",
+          "correct": true,
+          "j": "La phalloïdine fige l'actine F en empêchant sa dépolymérisation : le réseau de microfilaments reste bloqué à l'état assemblé."
+        },
+        {
+          "t": "La cytochalasine B",
+          "j": "La cytochalasine B agit bien sur les microfilaments, mais à l'autre bout du cycle d'assemblage dynamique : elle en bloque la polymérisation."
+        },
+        {
+          "t": "La colchicine",
+          "j": "La colchicine bloque une polymérisation et non une dépolymérisation, et elle vise de surcroît la tubuline des microtubules, pas l'actine."
+        },
+        {
+          "t": "Le taxol",
+          "j": "Le taxol bloque bien une dépolymérisation, mais celle des microtubules ; l'assemblage des microfilaments d'actine n'est pas sa cible."
+        }
+      ]
+    },
+    {
+      "q": "Dans quelles conditions les microtubules se dépolymérisent-ils ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "À basse température ou en forte concentration de calcium",
+          "correct": true,
+          "j": "Le froid comme un excès de calcium désassemblent les microtubules : leur assemblage dynamique est sensible à ces deux conditions."
+        },
+        {
+          "t": "À température élevée ou en forte concentration de calcium",
+          "j": "Une forte concentration de calcium est bien une condition de désassemblage, mais c'est l'abaissement de la température, et non son élévation, qui dépolymérise les microtubules."
+        },
+        {
+          "t": "À basse température ou en forte concentration de potassium",
+          "j": "La basse température est bien une condition de désassemblage, mais l'ion dont l'accumulation dépolymérise les microtubules est le calcium et non le potassium."
+        },
+        {
+          "t": "À température élevée ou en forte concentration de potassium",
+          "j": "Ni l'élévation de température ni l'accumulation de potassium ne désassemblent les microtubules : ce sont le froid et le calcium qui produisent cet effet."
+        }
+      ]
+    },
+    {
+      "q": "Avec quelle structure cellulaire le centrosome partage-t-il la même organisation ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Le corpuscule basal des cils et des flagelles",
+          "correct": true,
+          "j": "Le centrosome, fait de deux centrioles accolés en diplosome près du noyau, possède exactement la même structure que le corpuscule basal situé au pied des cils et des flagelles."
+        },
+        {
+          "t": "La plaque cytoplasmique des desmosomes d'ancrage",
+          "j": "Cette plaque est le socle protéique qui confère au desmosome sa grande résistance à la traction : elle n'a aucune parenté d'organisation avec le centrosome."
+        },
+        {
+          "t": "Le kinétochore des chromosomes en division",
+          "j": "Le kinétochore est une structure protéique assemblée sur le centromère du chromosome en division ; il n'est pas bâti, lui, sur le modèle des deux centrioles du centrosome."
+        },
+        {
+          "t": "L'anneau contractile refermant la cytocinèse",
+          "j": "L'anneau qui étrangle la cellule en fin de division est un dispositif de microfilaments, et non une structure construite sur le modèle du centriole."
+        }
+      ]
+    },
+    {
+      "q": "Comment le battement d'un cil se distingue-t-il de celui d'un flagelle ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Il balaie, perpendiculairement au mouvement du fluide",
+          "correct": true,
+          "j": "Le cil exécute un mouvement de pendule, ou de balayage, qui s'effectue perpendiculairement au déplacement du fluide qu'il met en mouvement."
+        },
+        {
+          "t": "Il ondule, parallèlement au mouvement du fluide",
+          "j": "C'est la description du battement flagellaire : l'ondulation du flagelle se propage parallèlement au déplacement du fluide."
+        },
+        {
+          "t": "Il ondule, perpendiculairement au mouvement du fluide",
+          "j": "L'orientation perpendiculaire est exacte, mais l'ondulation n'est pas le mode de battement du cil, qui bat en pendule."
+        },
+        {
+          "t": "Il balaie, parallèlement au mouvement du fluide",
+          "j": "Le balayage est bien le mouvement du cil, mais il s'exerce en travers du courant et non dans l'axe du déplacement du fluide."
+        }
+      ]
+    },
+    {
+      "q": "Dans la cellule musculaire striée, quel filament intermédiaire ancre les filaments d'actine au niveau du disque Z ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "La desmine",
+          "correct": true,
+          "j": "La desmine est le filament intermédiaire propre aux cellules musculaires : c'est elle qui ancre les filaments d'actine du sarcomère au niveau du disque Z."
+        },
+        {
+          "t": "La vimentine",
+          "j": "La vimentine est le filament intermédiaire des fibroblastes du tissu conjonctif ; elle appartient au même groupe que la desmine mais n'équipe pas la cellule musculaire."
+        },
+        {
+          "t": "La nestine",
+          "j": "La nestine constitue à elle seule un groupe distinct dans la classification des filaments intermédiaires du cours, étranger au tissu musculaire strié."
+        },
+        {
+          "t": "La kératine",
+          "j": "La kératine est le filament intermédiaire des cellules épithéliales, que le cours range dans un autre groupe que la desmine ; elle n'intervient pas dans le sarcomère."
+        }
+      ]
+    },
+    {
+      "q": "Dans une substitution de base unique, qu'est-ce qui définit une transversion ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Le remplacement d'une purine par une pyrimidine",
+          "correct": true,
+          "j": "La transversion fait changer la base de famille chimique : une purine est remplacée par une pyrimidine, ou l'inverse."
+        },
+        {
+          "t": "Le remplacement d'une purine par une autre purine",
+          "j": "Rester à l'intérieur de la famille des purines caractérise la transition, et non la transversion qui franchit la frontière entre les deux familles."
+        },
+        {
+          "t": "Le remplacement d'une pyrimidine par une pyrimidine",
+          "j": "Échanger une pyrimidine contre une autre pyrimidine est l'autre forme de transition : la base conserve ici encore sa famille chimique."
+        },
+        {
+          "t": "Le remplacement d'une base par un nucléotide modifié",
+          "j": "Une substitution de base unique échange une base de l'ADN contre une autre base de l'ADN ; transition et transversion se distinguent par la famille de la base entrante."
+        }
+      ]
+    },
+    {
+      "q": "À quelle condition une mutation par insertion ou délétion modifie-t-elle le cadre de lecture ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Lorsque le nombre de bases ajoutées ou retirées n'est pas un multiple de trois",
+          "correct": true,
+          "j": "Tant que l'insertion ou la suppression ne porte pas sur un multiple de trois bases, tous les triplets situés en aval sont décalés ; ces mutations sont en général graves pour la cellule."
+        },
+        {
+          "t": "Lorsque le nombre de bases ajoutées ou retirées est un multiple de trois",
+          "j": "Un multiple de trois ajoute ou retire des codons entiers : la délétion de trois nucléotides au codon 508, dans la fibrose kystique, n'entraîne pas un changement complet de la séquence d'acides aminés mais la seule perte d'une phénylalanine."
+        },
+        {
+          "t": "Lorsqu'elle porte sur une seule base isolée et non sur une séquence d'ADN plus longue",
+          "j": "Une insertion comme une délétion peut porter sur une seule base aussi bien que sur une séquence d'ADN de taille variable : ce n'est pas sa longueur brute qui décide du décalage."
+        },
+        {
+          "t": "Lorsqu'elle survient dans une séquence régulatrice et non dans la région codante du gène",
+          "j": "Une mutation dans une séquence régulatrice retentit sur l'expression du gène, mais le cadre de lecture ne concerne que l'enchaînement des codons de la région codante."
+        }
+      ]
+    },
+    {
+      "q": "Dans un gène eucaryote, quelles séquences règlent la traduction du produit protéique final ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Les régions non traduites en 5' et en 3' de l'ARNm",
+          "correct": true,
+          "j": "Ces deux régions non traduites bordent l'ARNm et appartiennent à la part non codante du gène : c'est à elles que revient la régulation de la traduction."
+        },
+        {
+          "t": "Les régions promotrices et amplificatrices",
+          "j": "Promoteurs et amplificateurs règlent quand et où le gène est transcrit en pré-ARNm : leur action se situe en amont, sur la transcription et non sur la traduction."
+        },
+        {
+          "t": "Les introns retirés au cours de la maturation de l'ARNm",
+          "j": "Les introns sont des séquences non codantes supprimées pendant la maturation de l'ARNm : ils ne subsistent pas dans la molécule mature pour en régler la traduction."
+        },
+        {
+          "t": "La région codante, qui porte l'information protéique",
+          "j": "La région codante est le texte même qui sera traduit en protéine ; elle fournit l'information à traduire et non le dispositif qui en règle la traduction."
+        }
+      ]
+    },
+    {
+      "q": "Qu'obtient-on à l'issue d'une translocation robertsonienne entre deux chromosomes acrocentriques ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Un grand chromosome métacentrique et un fragment perdu",
+          "correct": true,
+          "j": "Le bras court d'un acrocentrique est échangé contre le bras long d'un autre : il en résulte un gros chromosome métacentrique, et un fragment qui ne se sépare pas lors de la division cellulaire et se trouve donc perdu."
+        },
+        {
+          "t": "Un grand chromosome submétacentrique et un fragment perdu",
+          "j": "Le cours nomme le produit de cette fusion un gros chromosome métacentrique, dont le centromère est central ; le submétacentrique, lui, a son centromère décalé du milieu."
+        },
+        {
+          "t": "Deux chromosomes acrocentriques de taille inchangée",
+          "j": "Une translocation déplace du matériel d'un chromosome vers l'autre : les deux acrocentriques de départ ne peuvent pas en ressortir intacts, puisque leurs bras ont été échangés."
+        },
+        {
+          "t": "Un grand chromosome métacentrique et un chromosome télocentrique",
+          "j": "Le second produit n'est pas un chromosome à part entière mais un simple fragment voué à être perdu ; le caryotype humain ne comporte d'ailleurs aucun chromosome télocentrique."
+        }
+      ]
+    }
   ],
   "structure1": [
     {
