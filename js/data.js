@@ -30135,26 +30135,466 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Laquelle des fonctions suivantes n'est pas propre au cytosquelette ?","c":4,"options":[{"t":"Fournir un soutien mécanique à la cellule","j":"Vraie fonction : le cours présente le cytosquelette comme « la charpente de la cellule » (ch. 4 p. 3), les filaments intermédiaires assurant la rigidité et le soutien (p. 19)."},{"t":"Maintenir les organites à leur place fonctionnelle dans le cytoplasme","j":"Vraie fonction : l'« organisation interne » figure parmi les trois fonctions du cytosquelette (ch. 4 p. 3), qui ancre et déplace les organites dans le cytoplasme (p. 24)."},{"t":"Maintenir les caractéristiques de la forme cellulaire","j":"Vraie fonction : « Forme de la cellule » ouvre la liste des fonctions du cytosquelette (ch. 4 p. 3) ; les microfilaments concentrés dans le cortex en sont responsables (p. 5)."},{"t":"Faire partie des jonctions gap pour assurer leur cohérence","correct":true,"j":"Réponse attendue : la jonction GAP est faite de connexons (complexes de 6 connexines) qui ménagent des pores entre cytoplasmes voisins (ch. 4 p. 41). C'est la seule jonction décrite par le cours qui ne s'ancre à aucun filament du cytosquelette ; la confusion vient de ce que les autres jonctions du complexe d'union, elles, sont bien reliées au cytosquelette (p. 39)."}]},
-    {"q":"Laquelle des associations suivantes est incorrecte ?","c":4,"options":[{"t":"Microtubule : tubuline","j":"Association exacte : le microtubule est bâti de molécules de tubuline, hétérodimères d'α- et de β-tubuline assemblés en 13 protofilaments (ch. 4 p. 22)."},{"t":"Actine : microfilaments","j":"Association exacte : les microfilaments sont des polymères d'actine, l'actine G globulaire s'assemblant en actine F filamenteuse (ch. 4 p. 8)."},{"t":"Filaments intermédiaires : division cellulaire","correct":true,"j":"Association fausse, donc réponse attendue : le cours attribue aux filaments intermédiaires la rigidité et le soutien — desmosomes, cheveux et ongles, axones, disque Z (ch. 4 p. 19-20). La division cellulaire relève du fuseau mitotique, formé par un autre élément du cytosquelette (p. 24 et p. 28)."},{"t":"Microfilaments : contraction musculaire","j":"Association exacte : dans les cellules musculaires, les filaments d'actine font partie du sarcomère et glissent sur la myosine pour produire la contraction (ch. 4 p. 12-13)."}]},
-    {"q":"Laquelle des propriétés du cytosquelette suivantes est fausse ?","c":4,"options":[{"t":"Avec la participation d'autres protéines le cytosquelette participe au transport des vésicules et des organites à travers le cytoplasme","j":"Propriété vraie : le cours écrit que les microtubules « transportent des vésicules et des organites à travers le cytoplasme avec la participation d'autres protéines » (ch. 4 p. 24), ces protéines motrices consommant de l'ATP (p. 25)."},{"t":"L'aspect dynamique du cytosquelette est rendu possible par les procédés d'assemblage et de désassemblage des protéines en polymères","j":"Propriété vraie : le cours qualifie d'« assemblage dynamique » le couple polymérisation-dépolymérisation de l'actine (ch. 4 p. 8) comme de la tubuline (p. 23)."},{"t":"Le mouvement des cils et des flagelles est la conséquence de l'action de protéines qui font se mouvoir entre eux les microtubules","j":"Propriété vraie : le cours consacre une diapositive au mouvement ciliaire et flagellaire produit par le glissement relatif des éléments de la tige (ch. 4 p. 32-33)."},{"t":"Les microvillosités maintiennent leur forme grâce aux filaments intermédiaires disposés au niveau de la surface interne de la membrane plasmique","correct":true,"j":"Propriété fausse, donc réponse attendue : le cours range les microvillosités parmi les fonctions des microfilaments d'actine des cellules non musculaires (ch. 4 p. 9). Les filaments intermédiaires, eux, assurent rigidité et soutien ailleurs dans la cellule (p. 19) : c'est la confusion que l'énoncé tend."}]},
-    {"q":"L'apolarité des filaments intermédiaires est déterminée par :","c":4,"options":[{"t":"La capacité de polymérisation à une extrémité du filament plus rapidement que sur l'autre","j":"C'est au contraire la définition d'un filament polaire : le cours ne marque un pôle + et un pôle - que sur les microfilaments d'actine (ch. 4 p. 8). Une extrémité plus rapide que l'autre suppose justement une polarité."},{"t":"La capacité de dépolymérisation par l'extrémité - du filament","j":"Parler d'une extrémité « - » revient encore à décrire un polymère polaire, dont le cours distingue les deux pôles (ch. 4 p. 8 et p. 24) : cette proposition contredit l'apolarité qu'il s'agit d'expliquer."},{"t":"La similitude dans le comportement des deux extrémités des filaments","correct":true,"j":"Réponse attendue : un filament est dit apolaire quand ses deux extrémités se comportent de la même façon, sans pôle + ni pôle -, à la différence des deux autres éléments du cytosquelette pour lesquels le cours distingue explicitement les deux pôles (ch. 4 p. 8 et p. 24-25). Le cours de PB1 ne consacre pas de diapositive à l'apolarité elle-même : elle se déduit de cette opposition."},{"t":"La liaison des molécules de GTP à l'extrémité + de la polymérisation","j":"Cette description associe un nucléotide et une extrémité « + » : elle renvoie donc à un polymère polaire dont la polymérisation est nucléotide-dépendante (ch. 4 p. 23), et non à l'apolarité demandée."}]},
-    {"q":"Quelles sont les jonctions intercellulaires qui empêchent le passage de substances entre les cellules ?","c":4,"options":[{"t":"Jonctions serrées","correct":true,"j":"Réponse attendue : le cours écrit, sous « 1. JONCTION SERRÉE (étanche à l'air, étanche à l'eau, intime, zonulae occludens) », qu'elle « empêche le passage de substances entre les cellules (scelle les cellules) » et qu'elle ne laisse « aucun espace intercellulaire » (ch. 4 p. 39)."},{"t":"Bandes d'adhérence","j":"Il s'agit de la ceinture d'adhésion (zonula adherens) : elle forme une ceinture qui entoure la cellule près de la surface apicale et sert à la solidariser à ses voisines, sans jamais sceller l'espace intercellulaire (ch. 4 p. 39)."},{"t":"Desmosomes","j":"Le desmosome (macula adherens) est un point d'ancrage ponctuel, doté d'une plaque cytoplasmique qui lui confère une grande résistance à la traction (ch. 4 p. 39) : il soude les cellules mécaniquement mais ne ferme pas le passage entre elles."},{"t":"Les jonctions GAP","j":"La jonction GAP fait exactement l'inverse : ses connexons forment des pores reliant les cytoplasmes voisins et laissent passer les molécules de petite taille (< 1,2 nm), ce qui facilite la transmission des signaux entre cellules (ch. 4 p. 41)."}]},
-    {"q":"L'adhésion des ribosomes au réticulum endoplasmique rugueux est :","c":5,"options":[{"t":"Permanente","j":"Faux : le ribosome n'est pas un constituant fixe de la membrane du RER. Croire l'adhésion permanente revient à prendre l'aspect granuleux observé au microscope pour un attachement définitif."},{"t":"Temporaire","correct":true,"j":"Réponse attendue : parmi les caractéristiques du RER, le cours indique mot pour mot que « l'adhésion des ribosomes à la surface est temporaire » (ch. 5 p. 11)."},{"t":"Dans certains cas, elle est permanente et dans d'autres, temporaire","j":"Faux : le cours ne décrit pas deux régimes d'adhésion, mais un seul et même comportement pour tous les ribosomes qui gagnent la surface du RER (ch. 5 p. 11)."},{"t":"Les ribosomes n'adhèrent pas au réticulum endoplasmique rugueux","j":"Faux : c'est précisément la présence de ribosomes à sa surface qui distingue le RE rugueux du RE lisse, lequel en est dépourvu (ch. 5 p. 10)."}]},
-    {"q":"Pedro Pérez est un étudiant en physiothérapie qui utilise habituellement le tranquillisant Diazepan (Valium). Quel organite aura-t-il spécialement développé ?","c":5,"options":[{"t":"Le réticulum endoplasmique rugueux","j":"Le RER est développé dans les cellules qui exportent beaucoup de protéines : ses fonctions sont la synthèse des protéines, leurs modifications post-traductionnelles et la rétention de protéines spécifiques (ch. 5 p. 11), sans rapport avec un médicament."},{"t":"Le réticulum endoplasmique lisse","correct":true,"j":"Réponse attendue : le cours attribue au REL le métabolisme et la détoxification, « rendre hydrosolubles des substances toxiques pour l'organisme » (ch. 5 p. 15), et précise qu'il « élimine les substances toxiques telles que la nicotine » par oxydation de la drogue liposoluble, ensuite éliminée par l'urine (p. 16). Une prise régulière de médicament fait donc proliférer ce compartiment."},{"t":"L'appareil de Golgi","j":"Le Golgi mûrit et trie les protéines venues du RER (ch. 5 p. 17-19) ; il traite des protéines, pas des molécules liposolubles à rendre éliminables."},{"t":"Les lysosomes","j":"Le lysosome dégrade des macromolécules par ses hydrolases acides (ch. 5 p. 21) ; il n'oxyde pas les substances liposolubles comme un médicament."}]},
-    {"q":"Le réticulum endoplasmique lisse des cellules musculaires est appelé :","c":5,"options":[{"t":"Réticulum sarcoplasmique","correct":true,"j":"Réponse attendue : le cours nomme ainsi le REL de la cellule musculaire — « dans les cellules musculaires, le réticulum sarcoplasmique (REL spécialisé dans le stockage du Ca²⁺) » (ch. 5 p. 16)."},{"t":"Sarcoplasme","j":"Le préfixe est le même mais l'objet diffère : le sarcoplasme désigne le cytoplasme de la fibre musculaire, alors que la question porte sur un organite, le réticulum lui-même (ch. 5 p. 16). Cette distinction n'est pas détaillée dans le cours."},{"t":"Sarcosome","j":"Terme réservé aux mitochondries de la fibre musculaire, qui fournissent l'ATP de la contraction : il ne désigne pas le réticulum, seul organite nommé par le cours dans cette cellule (ch. 5 p. 16). Le cours ne l'emploie pas."},{"t":"Réticulum sarcoplasmique et sarcoplasme sont tous deux corrects","j":"Impossible : un seul de ces deux termes nomme l'organite demandé ; l'autre désigne le cytoplasme de la cellule musculaire, et non son réticulum (ch. 5 p. 16)."}]},
-    {"q":"Dans les citernes du réticulum sarcoplasmique s'accumule :","c":5,"options":[{"t":"Le Ca²⁺","correct":true,"j":"Réponse attendue : le cours décrit le réticulum sarcoplasmique comme le « REL spécialisé dans le stockage du Ca²⁺ », dont la libération couple l'arrivée de l'influx nerveux à la contraction musculaire (ch. 5 p. 16)."},{"t":"L'ATP","j":"L'ATP de la cellule est produit par la mitochondrie, organite de la « synthèse de l'énergie (ATP) » (ch. 5 p. 3) ; il n'est pas mis en réserve dans les citernes du réticulum."},{"t":"Le glycogène","j":"Confusion avec une autre fonction du REL : le cours y situe la dégradation du glycogène en glucose, au titre du métabolisme (ch. 5 p. 16), mais ce n'est pas ce que les citernes accumulent."},{"t":"L'ARN","j":"Les ARN sont synthétisés dans le noyau (ch. 9 p. 5) et utilisés dans le cytoplasme ; aucun compartiment du réticulum ne les stocke."}]},
-    {"q":"À propos des vacuoles hétérophagiques :","c":5,"options":[{"t":"Nous ne pouvons les trouver que dans les macrophages.","j":"Faux par l'exclusivité : le cours signale seulement que les lysosomes sont « très abondants dans les macrophages », cellules immunitaires qui dégradent les micro-organismes (ch. 5 p. 21) — abondants n'est pas exclusifs."},{"t":"Ils sont un type de lysosomes secondaires.","correct":true,"j":"Réponse attendue : dans la classification des lysosomes, le lysosome hétérophagique figure sous la rubrique SECONDAIRE, c'est-à-dire né de la fusion d'un lysosome primaire avec une autre vésicule (ch. 5 p. 22)."},{"t":"C'est le produit de la fusion entre un lysosome primaire et un autophagosome.","j":"Confusion sur l'origine du contenu à digérer : l'autophagosome apporte du matériel issu de la cellule elle-même (mitochondries par exemple), alors que la vacuole hétérophagique se forme avec du matériel capté hors de la cellule, des bactéries par exemple (ch. 5 p. 22)."},{"t":"Toutes les réponses précédentes sont vraies.","j":"Impossible : deux des trois propositions précédentes sont fausses, l'une par l'exclusivité qu'elle affirme, l'autre par l'origine du contenu digéré (ch. 5 p. 21-22)."}]},
-    {"q":"La fonction principale des enzymes lysosomales est :","c":5,"options":[{"t":"Détoxification.","j":"Confusion avec d'autres compartiments : c'est le peroxysome qui oxyde l'éthanol et les acides gras longs (ch. 5 p. 24). Les hydrolases du lysosome, elles, coupent des macromolécules."},{"t":"Digestion intracellulaire.","correct":true,"j":"Réponse attendue : le cours présente le lysosome comme « le système digestif de la cellule » et le dit « responsable de la digestion intracellulaire des macromolécules », grâce aux hydrolases acides qu'il renferme (ch. 5 p. 21)."},{"t":"Hydroxylation des sucres.","j":"Aucune modification chimique des sucres ne figure parmi les fonctions lysosomales du cours (ch. 5 p. 21) : les enzymes du lysosome hydrolysent les macromolécules, elles ne les décorent pas."},{"t":"Photorespiration.","j":"Processus propre aux cellules végétales chlorophylliennes : il n'a aucune place dans la cellule humaine décrite par le cours, dont les organites sont énumérés au ch. 5 p. 3."}]},
-    {"q":"Parmi les types de cellules suivants, lesquels n'ont PAS de réticulum endoplasmique ?","c":5,"options":[{"t":"Hépatocytes (cellules hépatiques)","j":"L'hépatocyte en est au contraire très pourvu : c'est une cellule spécialisée dans le métabolisme des lipides et la détoxification, deux fonctions que le cours attribue au réticulum endoplasmique lisse (ch. 5 p. 15-16)."},{"t":"Neurones","j":"Le neurone possède bien un réticulum : c'est une cellule à forte activité de synthèse, et le cours le cite parmi les cellules dotées de filaments intermédiaires propres, les neurofilaments (ch. 4 p. 17). Le cours ne traite pas son réticulum en particulier."},{"t":"Érythrocytes (globules rouges)","correct":true,"j":"Réponse attendue de l'annale : le globule rouge mature perd ses organites au cours de sa différenciation et ne conserve ni réticulum ni noyau. Attention, le cours de PB1 ne traite nulle part du contenu de l'érythrocyte : cette réponse ne s'appuie sur aucune diapositive et doit être retenue comme un acquis de l'examen."},{"t":"Les hépatocytes et les neurones","j":"Impossible : les deux types cellulaires cités sont au contraire riches en réticulum, l'un pour le métabolisme lipidique, l'autre pour sa synthèse protéique soutenue (ch. 5 p. 15)."}]},
-    {"q":"Le type de protéine que synthétise un ribosome a-t-il quelque chose à voir avec l'endroit où le ribosome fait la synthèse de la protéine ?","c":9,"options":[{"t":"Oui. Selon la destination finale vers laquelle ira la protéine, le ribosome la synthétisera dans le cytoplasme ou dans le RER","correct":true,"j":"Réponse attendue : le cours distingue deux destins possibles des protéines — « vers l'intérieur » ou « vers l'extérieur » — et indique que la synthèse peut se poursuivre dans le cytosol ou dans le RER selon que la séquence signal apparaît ou non (ch. 5 p. 12)."},{"t":"Oui. Si la protéine est petite, elle est fabriquée dans le RER, et si elle est grande, elle est fabriquée dans le cytoplasme","j":"Le critère est inventé : la taille de la protéine n'intervient nulle part dans le schéma du cours, qui fait dépendre le lieu de la séquence signal et du destin de la protéine (ch. 5 p. 12)."},{"t":"Non. Le ribosome fera la protéine au site où il se lie à l'ARNm","j":"La liaison à l'ARNm n'assigne aucun lieu au ribosome : le cours fait dépendre l'endroit où s'achève la synthèse du destin de la protéine traduite (ch. 5 p. 12)."},{"t":"Non. Certains ribosomes sont spécialisés dans la synthèse des protéines dans le RER, et d'autres dans leur synthèse dans le cytoplasme","j":"Le cours ne décrit pas deux populations de ribosomes spécialisés : c'est la protéine en cours de synthèse qui oriente le ribosome, lequel « se rend au RER » quand la séquence signal apparaît (ch. 5 p. 12)."}]},
-    {"q":"Lequel des énoncés suivants concernant la lamina nucléaire est faux ?","c":9,"options":[{"t":"Elle est composée de filaments intermédiaires","j":"Énoncé vrai : le cours définit la lamina nucléaire comme une « couche de protéines des filaments intermédiaires » doublant l'enveloppe (ch. 9 p. 7)."},{"t":"Elle est attachée à la membrane nucléaire interne","j":"Énoncé vrai : la lamina est rangée parmi les constituants de l'enveloppe nucléaire, dont elle tapisse la face tournée vers le noyau (ch. 9 p. 7). Le cours ne précise pas lequel des deux feuillets elle double."},{"t":"Tout comme l'enveloppe nucléaire, elle est présente durant l'interphase et la mitose","correct":true,"j":"Énoncé faux, donc réponse attendue : le cours écrit que le noyau « possède une enveloppe qui disparaît lorsque la cellule se divise » et oppose le noyau interphasique au noyau en division (ch. 9 p. 5) ; l'enveloppe se désintègre d'ailleurs brutalement au cours de la division (ch. 7 p. 17). La lamina, qui la double, ne persiste donc pas davantage."},{"t":"Elle est continue sauf au niveau des pores nucléaires","j":"Énoncé vrai : les complexes de pores percent l'enveloppe pour régler les échanges entre noyau et cytoplasme (ch. 9 p. 7), et la lamina est interrompue en regard de chacun d'eux."}]},
-    {"q":"Indiquer lequel des énoncés suivants concernant la mitose est faux :","c":7,"options":[{"t":"Deux cellules avec un contenu génétique différent sont créées","correct":true,"j":"Énoncé faux, donc réponse attendue : le cours résume la division en une « répartition égale de l'ADN entre deux cellules filles » dont « le contenu est le même » (ch. 7 p. 14)."},{"t":"Au cours de la métaphase les chromosomes sont alignés sur la plaque équatoriale","j":"Énoncé vrai : le cours décrit l'alignement des chromosomes sur la plaque équatoriale, tous les centromères situés dans un même plan (ch. 7 p. 18)."},{"t":"La séparation du matériel génétique se produit grâce aux microtubules","j":"Énoncé vrai : le fuseau mitotique, fait de microtubules dont les kinétochoriens lient les chromosomes aux pôles, « assure la distribution correcte du matériel génétique » (ch. 7 p. 16)."},{"t":"Les chromatides sœurs se séparent","j":"Énoncé vrai : la séparation des chromatides sœurs, tirées vers les pôles opposés du fuseau, est décrite comme un temps de la division (ch. 7 p. 19)."}]},
-    {"q":"Quel composant ne participe pas directement à la traduction ?","c":9,"options":[{"t":"ARNm","j":"Il y participe : la traduction consiste précisément à lire « l'information transcrite en ARN messager » pour former une protéine (ch. 9 p. 16)."},{"t":"ARNt","j":"Il y participe : chaque acide aminé est amené fixé à l'extrémité 3' d'un ARNt, reconnu par l'appariement codon-anticodon (ch. 9 p. 17-18)."},{"t":"Ribosomes","j":"Ils y participent : le cours indique que « les RIBOSOMES sont impliqués » dans la traduction et détaille leurs sites A, P et E (ch. 9 p. 16 et p. 11)."},{"t":"ADN","correct":true,"j":"Réponse attendue : le cours précise que dans la traduction « les trois types d'ARN sont impliqués », aux côtés des ribosomes (ch. 9 p. 16). L'ADN n'intervient qu'en amont, comme matrice de la transcription (p. 13) ; il ne fait pas partie de la machinerie de traduction."}]},
-    {"q":"Combien de nucléotides sont nécessaires dans un ARNm pour synthétiser une protéine de 450 acides aminés, sans compter le codon stop ?","c":9,"options":[{"t":"900","j":"Ce total revient à n'attribuer que deux nucléotides par acide aminé : or le code génétique « fonctionne par triplets » (ch. 9 p. 24)."},{"t":"1350","correct":true,"j":"Réponse attendue : chaque acide aminé est spécifié par un triplet de nucléotides (ch. 9 p. 24), soit 450 × 3 = 1350. L'énoncé écarte expressément le codon de terminaison, qui ajouterait sinon trois nucléotides."},{"t":"450","j":"Ce total revient à compter un seul nucléotide par acide aminé, alors que le code en exige trois : il confond nombre d'acides aminés et nombre de nucléotides (ch. 9 p. 24)."},{"t":"300","j":"Ce total ne suffirait qu'à une protéine bien plus courte que celle demandée : il faut un triplet par acide aminé, pour chacun des 450 (ch. 9 p. 24)."}]},
-    {"q":"Compte tenu des codons d'initiation et de terminaison, combien de nucléotides seront nécessaires pour coder une protéine composée de 100 acides aminés ?","c":9,"options":[{"t":"100","j":"Ce total compte un nucléotide par acide aminé : il ignore que le code fonctionne par triplets (ch. 9 p. 24) et qu'un codon de terminaison doit encore être ajouté."},{"t":"103","j":"Ce total ajoute bien trois nucléotides pour l'arrêt, mais à un décompte resté en acides aminés : il mélange les deux unités au lieu de convertir chaque acide aminé en triplet (ch. 9 p. 24)."},{"t":"300","j":"Ce total correspond aux seuls 100 triplets des acides aminés et laisse de côté le codon de terminaison que l'énoncé demande expressément de prendre en compte (ch. 9 p. 22)."},{"t":"303","correct":true,"j":"Réponse attendue : 100 acides aminés × 3 nucléotides = 300, auxquels s'ajoutent les 3 nucléotides du codon de terminaison UAA, UAG ou UGA (ch. 9 p. 22 et p. 24). Le codon d'initiation AUG code la méthionine initiale, déjà comptée parmi les 100 acides aminés (p. 19)."}]},
-    {"q":"En tenant compte des codons d'initiation et de terminaison, combien de nucléotides seront nécessaires pour coder le peptide formé par la séquence d'acides aminés suivante ?\nMet-Pro-Lys-Pro-Arg-Tre-Gly-Iso-Met-Ser","c":9,"options":[{"t":"32","j":"Ce total ajoute deux nucléotides seulement au-delà des triplets du peptide : le signal d'arrêt est un codon entier, donc trois nucléotides (ch. 9 p. 22)."},{"t":"30","j":"Ce total correspond aux dix triplets du peptide, mais oublie le codon de terminaison que l'énoncé demande de compter (ch. 9 p. 22)."},{"t":"33","correct":true,"j":"Réponse attendue : le peptide compte dix acides aminés, soit 10 × 3 = 30 nucléotides (ch. 9 p. 24), auxquels s'ajoute le codon de terminaison, 3 nucléotides de plus (p. 22) — total 33. La méthionine de tête est portée par le codon d'initiation AUG, déjà comptée (p. 19)."},{"t":"31","j":"Ce total n'ajoute qu'un nucléotide à la série des triplets, comme si l'arrêt de la traduction tenait en une seule base : il est commandé par un codon complet (ch. 9 p. 22)."}]},
-    {"q":"À partir de la séquence suivante d'ADN, quelle protéine est obtenue après transcription puis traduction ?\n5' – TTAGCGTTATTCGCGGGAAGAGCCTAATTTCGGATCCATTTGATCCCG – 3'\n3' – AATCGCAATAAGCGCCCTTCTCGGATTAAAGCCTAGGTAAACTAGGGC – 5'","c":9,"options":[{"t":"5'-Met-Glu-Asn-Gly-Gly-Tyr-Ala-Leu-3'","j":"Deux erreurs : une chaîne polypeptidique se note de l'extrémité N-terminale vers la C-terminale, les polarités 5' et 3' appartenant aux acides nucléiques (ch. 9 p. 20) ; et la suite d'acides aminés ne correspond pas aux codons lus à partir de l'AUG."},{"t":"Nter- Met-Asp-Pro-Lys-Leu-Gly-Ser-Ser-Arg-Glu-Cter","correct":true,"j":"Réponse attendue : la transcription donne, par complémentarité des bases (ch. 9 p. 13), un ARNm 5' CGGGAUCAAAUGGAUCCGAAAUUAGGCUCUUCCCGCGAAUAA 3'. La lecture commence au codon initiateur AUG (p. 19) et, d'après la table du code génétique (p. 18), se poursuit par GAU-CCG-AAA-UUA-GGC-UCU-UCC-CGC-GAA jusqu'au codon stop UAA (p. 22), soit Met-Asp-Pro-Lys-Leu-Gly-Ser-Ser-Arg-Glu."},{"t":"Nter – Met-Ala-Ile-Ser-Ala-Leu-Gly-Leu-Lys-Pro-Arg-Cter","j":"La polarité est bien notée, mais le cadre de lecture est faux : après le codon initiateur, le triplet suivant de l'ARNm est GAU, que la table du code génétique traduit en Asp et non en Ala (ch. 9 p. 13 et p. 18)."},{"t":"Nter- Met- Arg- Tyr- Ser- Arg- Glu- Glu- Pro- Asn- Phe- Gly- Ser- Ile-Cter","j":"Cette chaîne est trop longue pour la séquence donnée : la traduction s'interrompt dès le premier codon stop rencontré dans le cadre de lecture (ch. 9 p. 22)."}]}
+    {
+      "q": "Laquelle des fonctions suivantes n'est pas propre au cytosquelette ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Fournir un soutien mécanique à la cellule",
+          "j": "Vraie fonction : le cours présente le cytosquelette comme « la charpente de la cellule » (ch. 4 p. 3), les filaments intermédiaires assurant la rigidité et le soutien (p. 19)."
+        },
+        {
+          "t": "Maintenir les organites à leur place fonctionnelle dans le cytoplasme",
+          "j": "Vraie fonction : l'« organisation interne » figure parmi les trois fonctions du cytosquelette (ch. 4 p. 3), qui ancre et déplace les organites dans le cytoplasme (p. 24)."
+        },
+        {
+          "t": "Maintenir les caractéristiques de la forme cellulaire",
+          "j": "Vraie fonction : « Forme de la cellule » ouvre la liste des fonctions du cytosquelette (ch. 4 p. 3) ; les microfilaments concentrés dans le cortex en sont responsables (p. 5)."
+        },
+        {
+          "t": "Faire partie des jonctions gap pour assurer leur cohérence",
+          "correct": true,
+          "j": "Réponse attendue : la jonction GAP est faite de connexons (complexes de 6 connexines) qui ménagent des pores entre cytoplasmes voisins (ch. 4 p. 41). C'est la seule jonction décrite par le cours qui ne s'ancre à aucun filament du cytosquelette ; la confusion vient de ce que les autres jonctions du complexe d'union, elles, sont bien reliées au cytosquelette (p. 39)."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle des associations suivantes est incorrecte ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Microtubule : tubuline",
+          "j": "Association exacte : le microtubule est bâti de molécules de tubuline, hétérodimères d'α- et de β-tubuline assemblés en 13 protofilaments (ch. 4 p. 22)."
+        },
+        {
+          "t": "Actine : microfilaments",
+          "j": "Association exacte : les microfilaments sont des polymères d'actine, l'actine G globulaire s'assemblant en actine F filamenteuse (ch. 4 p. 8)."
+        },
+        {
+          "t": "Filaments intermédiaires : division cellulaire",
+          "correct": true,
+          "j": "Association fausse, donc réponse attendue : le cours attribue aux filaments intermédiaires la rigidité et le soutien — desmosomes, cheveux et ongles, axones, disque Z (ch. 4 p. 19-20). La division cellulaire relève du fuseau mitotique, formé par un autre élément du cytosquelette (p. 24 et p. 28)."
+        },
+        {
+          "t": "Microfilaments : contraction musculaire",
+          "j": "Association exacte : dans les cellules musculaires, les filaments d'actine font partie du sarcomère et glissent sur la myosine pour produire la contraction (ch. 4 p. 12-13)."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle des propriétés du cytosquelette suivantes est fausse ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Avec la participation d'autres protéines le cytosquelette participe au transport des vésicules et des organites à travers le cytoplasme",
+          "j": "Propriété vraie : le cours écrit que les microtubules « transportent des vésicules et des organites à travers le cytoplasme avec la participation d'autres protéines » (ch. 4 p. 24), ces protéines motrices consommant de l'ATP (p. 25)."
+        },
+        {
+          "t": "L'aspect dynamique du cytosquelette est rendu possible par les procédés d'assemblage et de désassemblage des protéines en polymères",
+          "j": "Propriété vraie : le cours qualifie d'« assemblage dynamique » le couple polymérisation-dépolymérisation de l'actine (ch. 4 p. 8) comme de la tubuline (p. 23)."
+        },
+        {
+          "t": "Le mouvement des cils et des flagelles est la conséquence de l'action de protéines qui font se mouvoir entre eux les microtubules",
+          "j": "Propriété vraie : le cours consacre une diapositive au mouvement ciliaire et flagellaire produit par le glissement relatif des éléments de la tige (ch. 4 p. 32-33)."
+        },
+        {
+          "t": "Les microvillosités maintiennent leur forme grâce aux filaments intermédiaires disposés au niveau de la surface interne de la membrane plasmique",
+          "correct": true,
+          "j": "Propriété fausse, donc réponse attendue : le cours range les microvillosités parmi les fonctions des microfilaments d'actine des cellules non musculaires (ch. 4 p. 9). Les filaments intermédiaires, eux, assurent rigidité et soutien ailleurs dans la cellule (p. 19) : c'est la confusion que l'énoncé tend."
+        }
+      ]
+    },
+    {
+      "q": "L'apolarité des filaments intermédiaires est déterminée par :",
+      "c": 4,
+      "options": [
+        {
+          "t": "La capacité de polymérisation à une extrémité du filament plus rapidement que sur l'autre",
+          "j": "C'est au contraire la définition d'un filament polaire : le cours ne marque un pôle + et un pôle - que sur les microfilaments d'actine (ch. 4 p. 8). Une extrémité plus rapide que l'autre suppose justement une polarité."
+        },
+        {
+          "t": "La capacité de dépolymérisation par l'extrémité - du filament",
+          "j": "Parler d'une extrémité « - » revient encore à décrire un polymère polaire, dont le cours distingue les deux pôles (ch. 4 p. 8 et p. 24) : cette proposition contredit l'apolarité qu'il s'agit d'expliquer."
+        },
+        {
+          "t": "La similitude dans le comportement des deux extrémités des filaments",
+          "correct": true,
+          "j": "Réponse attendue : un filament est dit apolaire quand ses deux extrémités se comportent de la même façon, sans pôle + ni pôle -, à la différence des deux autres éléments du cytosquelette pour lesquels le cours distingue explicitement les deux pôles (ch. 4 p. 8 et p. 24-25). Le cours de PB1 ne consacre pas de diapositive à l'apolarité elle-même : elle se déduit de cette opposition."
+        },
+        {
+          "t": "La liaison des molécules de GTP à l'extrémité + de la polymérisation",
+          "j": "Cette description associe un nucléotide et une extrémité « + » : elle renvoie donc à un polymère polaire dont la polymérisation est nucléotide-dépendante (ch. 4 p. 23), et non à l'apolarité demandée."
+        }
+      ]
+    },
+    {
+      "q": "Quelles sont les jonctions intercellulaires qui empêchent le passage de substances entre les cellules ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Jonctions serrées",
+          "correct": true,
+          "j": "Réponse attendue : le cours écrit, sous « 1. JONCTION SERRÉE (étanche à l'air, étanche à l'eau, intime, zonulae occludens) », qu'elle « empêche le passage de substances entre les cellules (scelle les cellules) » et qu'elle ne laisse « aucun espace intercellulaire » (ch. 4 p. 39)."
+        },
+        {
+          "t": "Bandes d'adhérence",
+          "j": "Il s'agit de la ceinture d'adhésion (zonula adherens) : elle forme une ceinture qui entoure la cellule près de la surface apicale et sert à la solidariser à ses voisines, sans jamais sceller l'espace intercellulaire (ch. 4 p. 39)."
+        },
+        {
+          "t": "Desmosomes",
+          "j": "Le desmosome (macula adherens) est un point d'ancrage ponctuel, doté d'une plaque cytoplasmique qui lui confère une grande résistance à la traction (ch. 4 p. 39) : il soude les cellules mécaniquement mais ne ferme pas le passage entre elles."
+        },
+        {
+          "t": "Les jonctions GAP",
+          "j": "La jonction GAP fait exactement l'inverse : ses connexons forment des pores reliant les cytoplasmes voisins et laissent passer les molécules de petite taille (< 1,2 nm), ce qui facilite la transmission des signaux entre cellules (ch. 4 p. 41)."
+        }
+      ]
+    },
+    {
+      "q": "L'adhésion des ribosomes au réticulum endoplasmique rugueux est :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Permanente",
+          "j": "Faux : le ribosome n'est pas un constituant fixe de la membrane du RER. Croire l'adhésion permanente revient à prendre l'aspect granuleux observé au microscope pour un attachement définitif."
+        },
+        {
+          "t": "Temporaire",
+          "correct": true,
+          "j": "Réponse attendue : parmi les caractéristiques du RER, le cours indique mot pour mot que « l'adhésion des ribosomes à la surface est temporaire » (ch. 5 p. 11)."
+        },
+        {
+          "t": "Dans certains cas, elle est permanente et dans d'autres, temporaire",
+          "j": "Faux : le cours ne décrit pas deux régimes d'adhésion, mais un seul et même comportement pour tous les ribosomes qui gagnent la surface du RER (ch. 5 p. 11)."
+        },
+        {
+          "t": "Les ribosomes n'adhèrent pas au réticulum endoplasmique rugueux",
+          "j": "Faux : c'est précisément la présence de ribosomes à sa surface qui distingue le RE rugueux du RE lisse, lequel en est dépourvu (ch. 5 p. 10)."
+        }
+      ]
+    },
+    {
+      "q": "Pedro Pérez est un étudiant en physiothérapie qui utilise habituellement le tranquillisant Diazepan (Valium). Quel organite aura-t-il spécialement développé ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le réticulum endoplasmique rugueux",
+          "j": "Le RER est développé dans les cellules qui exportent beaucoup de protéines : ses fonctions sont la synthèse des protéines, leurs modifications post-traductionnelles et la rétention de protéines spécifiques (ch. 5 p. 11), sans rapport avec un médicament."
+        },
+        {
+          "t": "Le réticulum endoplasmique lisse",
+          "correct": true,
+          "j": "Réponse attendue : le cours attribue au REL le métabolisme et la détoxification, « rendre hydrosolubles des substances toxiques pour l'organisme » (ch. 5 p. 15), et précise qu'il « élimine les substances toxiques telles que la nicotine » par oxydation de la drogue liposoluble, ensuite éliminée par l'urine (p. 16). Une prise régulière de médicament fait donc proliférer ce compartiment."
+        },
+        {
+          "t": "L'appareil de Golgi",
+          "j": "Le Golgi mûrit et trie les protéines venues du RER (ch. 5 p. 17-19) ; il traite des protéines, pas des molécules liposolubles à rendre éliminables."
+        },
+        {
+          "t": "Les lysosomes",
+          "j": "Le lysosome dégrade des macromolécules par ses hydrolases acides (ch. 5 p. 21) ; il n'oxyde pas les substances liposolubles comme un médicament."
+        }
+      ]
+    },
+    {
+      "q": "Le réticulum endoplasmique lisse des cellules musculaires est appelé :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Réticulum sarcoplasmique",
+          "correct": true,
+          "j": "Réponse attendue : le cours nomme ainsi le REL de la cellule musculaire — « dans les cellules musculaires, le réticulum sarcoplasmique (REL spécialisé dans le stockage du Ca²⁺) » (ch. 5 p. 16)."
+        },
+        {
+          "t": "Sarcoplasme",
+          "j": "Le préfixe est le même mais l’objet diffère : le cursus réserve le mot sarcoplasme au cytoplasme de la fibre musculaire — « le cytoplasme est appelé SARCOPLASME » — alors que la question porte sur un organite (Tissus musculaires, p. 4)."
+        },
+        {
+          "t": "Sarcosome",
+          "j": "Le même cours nomme ainsi la mitochondrie de la fibre musculaire — « la mitochondrie est appelée SARCOSOME » — qui fournit l’ATP de la contraction, et non le réticulum (Tissus musculaires, p. 4)."
+        },
+        {
+          "t": "Réticulum sarcoplasmique et sarcoplasme sont tous deux corrects",
+          "j": "Impossible : un seul de ces deux termes nomme l'organite demandé ; l'autre désigne le cytoplasme de la cellule musculaire, et non son réticulum (ch. 5 p. 16)."
+        }
+      ]
+    },
+    {
+      "q": "Dans les citernes du réticulum sarcoplasmique s'accumule :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le Ca²⁺",
+          "correct": true,
+          "j": "Réponse attendue : le cours décrit le réticulum sarcoplasmique comme le « REL spécialisé dans le stockage du Ca²⁺ », dont la libération couple l'arrivée de l'influx nerveux à la contraction musculaire (ch. 5 p. 16)."
+        },
+        {
+          "t": "L'ATP",
+          "j": "L'ATP de la cellule est produit par la mitochondrie, organite de la « synthèse de l'énergie (ATP) » (ch. 5 p. 3) ; il n'est pas mis en réserve dans les citernes du réticulum."
+        },
+        {
+          "t": "Le glycogène",
+          "j": "Confusion avec une autre fonction du REL : le cours y situe la dégradation du glycogène en glucose, au titre du métabolisme (ch. 5 p. 16), mais ce n'est pas ce que les citernes accumulent."
+        },
+        {
+          "t": "L'ARN",
+          "j": "Les ARN sont synthétisés dans le noyau (ch. 9 p. 5) et utilisés dans le cytoplasme ; aucun compartiment du réticulum ne les stocke."
+        }
+      ]
+    },
+    {
+      "q": "À propos des vacuoles hétérophagiques :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Nous ne pouvons les trouver que dans les macrophages.",
+          "j": "Faux par l'exclusivité : le cours signale seulement que les lysosomes sont « très abondants dans les macrophages », cellules immunitaires qui dégradent les micro-organismes (ch. 5 p. 21) — abondants n'est pas exclusifs."
+        },
+        {
+          "t": "Ils sont un type de lysosomes secondaires.",
+          "correct": true,
+          "j": "Réponse attendue : dans la classification des lysosomes, le lysosome hétérophagique figure sous la rubrique SECONDAIRE, c'est-à-dire né de la fusion d'un lysosome primaire avec une autre vésicule (ch. 5 p. 22)."
+        },
+        {
+          "t": "C'est le produit de la fusion entre un lysosome primaire et un autophagosome.",
+          "j": "Confusion sur l'origine du contenu à digérer : l'autophagosome apporte du matériel issu de la cellule elle-même (mitochondries par exemple), alors que la vacuole hétérophagique se forme avec du matériel capté hors de la cellule, des bactéries par exemple (ch. 5 p. 22)."
+        },
+        {
+          "t": "Toutes les réponses précédentes sont vraies.",
+          "j": "Impossible : deux des trois propositions précédentes sont fausses, l'une par l'exclusivité qu'elle affirme, l'autre par l'origine du contenu digéré (ch. 5 p. 21-22)."
+        }
+      ]
+    },
+    {
+      "q": "La fonction principale des enzymes lysosomales est :",
+      "c": 5,
+      "options": [
+        {
+          "t": "Détoxification.",
+          "j": "Confusion avec d'autres compartiments : c'est le peroxysome qui oxyde l'éthanol et les acides gras longs (ch. 5 p. 24). Les hydrolases du lysosome, elles, coupent des macromolécules."
+        },
+        {
+          "t": "Digestion intracellulaire.",
+          "correct": true,
+          "j": "Réponse attendue : le cours présente le lysosome comme « le système digestif de la cellule » et le dit « responsable de la digestion intracellulaire des macromolécules », grâce aux hydrolases acides qu'il renferme (ch. 5 p. 21)."
+        },
+        {
+          "t": "Hydroxylation des sucres.",
+          "j": "Aucune modification chimique des sucres ne figure parmi les fonctions lysosomales du cours (ch. 5 p. 21) : les enzymes du lysosome hydrolysent les macromolécules, elles ne les décorent pas."
+        },
+        {
+          "t": "Photorespiration.",
+          "j": "Processus propre aux cellules végétales chlorophylliennes : il n'a aucune place dans la cellule humaine décrite par le cours, dont les organites sont énumérés au ch. 5 p. 3."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les types de cellules suivants, lesquels n'ont PAS de réticulum endoplasmique ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Hépatocytes (cellules hépatiques)",
+          "j": "L'hépatocyte en est au contraire très pourvu : c'est une cellule spécialisée dans le métabolisme des lipides et la détoxification, deux fonctions que le cours attribue au réticulum endoplasmique lisse (ch. 5 p. 15-16)."
+        },
+        {
+          "t": "Neurones",
+          "j": "Le neurone possède bien un réticulum : c'est une cellule à forte activité de synthèse, et le cours le cite parmi les cellules dotées de filaments intermédiaires propres, les neurofilaments (ch. 4 p. 17). Le cours ne traite pas son réticulum en particulier."
+        },
+        {
+          "t": "Érythrocytes (globules rouges)",
+          "correct": true,
+          "j": "Réponse attendue de l'annale : le globule rouge mature perd ses organites au cours de sa différenciation et ne conserve ni réticulum ni noyau. Attention, le cours de PB1 ne traite nulle part du contenu de l'érythrocyte : cette réponse ne s'appuie sur aucune diapositive et doit être retenue comme un acquis de l'examen."
+        },
+        {
+          "t": "Les hépatocytes et les neurones",
+          "j": "Impossible : les deux types cellulaires cités sont au contraire riches en réticulum, l'un pour le métabolisme lipidique, l'autre pour sa synthèse protéique soutenue (ch. 5 p. 15)."
+        }
+      ]
+    },
+    {
+      "q": "Le type de protéine que synthétise un ribosome a-t-il quelque chose à voir avec l'endroit où le ribosome fait la synthèse de la protéine ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Oui. Selon la destination finale vers laquelle ira la protéine, le ribosome la synthétisera dans le cytoplasme ou dans le RER",
+          "correct": true,
+          "j": "Réponse attendue : le cours distingue deux destins possibles des protéines — « vers l'intérieur » ou « vers l'extérieur » — et indique que la synthèse peut se poursuivre dans le cytosol ou dans le RER selon que la séquence signal apparaît ou non (ch. 5 p. 12)."
+        },
+        {
+          "t": "Oui. Si la protéine est petite, elle est fabriquée dans le RER, et si elle est grande, elle est fabriquée dans le cytoplasme",
+          "j": "Le critère est inventé : la taille de la protéine n'intervient nulle part dans le schéma du cours, qui fait dépendre le lieu de la séquence signal et du destin de la protéine (ch. 5 p. 12)."
+        },
+        {
+          "t": "Non. Le ribosome fera la protéine au site où il se lie à l'ARNm",
+          "j": "La liaison à l'ARNm n'assigne aucun lieu au ribosome : le cours fait dépendre l'endroit où s'achève la synthèse du destin de la protéine traduite (ch. 5 p. 12)."
+        },
+        {
+          "t": "Non. Certains ribosomes sont spécialisés dans la synthèse des protéines dans le RER, et d'autres dans leur synthèse dans le cytoplasme",
+          "j": "Le cours ne décrit pas deux populations de ribosomes spécialisés : c'est la protéine en cours de synthèse qui oriente le ribosome, lequel « se rend au RER » quand la séquence signal apparaît (ch. 5 p. 12)."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des énoncés suivants concernant la lamina nucléaire est faux ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Elle est composée de filaments intermédiaires",
+          "j": "Énoncé vrai : le cours définit la lamina nucléaire comme une « couche de protéines des filaments intermédiaires » doublant l'enveloppe (ch. 9 p. 7)."
+        },
+        {
+          "t": "Elle est attachée à la membrane nucléaire interne",
+          "j": "Énoncé vrai : la lamina est rangée parmi les constituants de l'enveloppe nucléaire, dont elle tapisse la face tournée vers le noyau (ch. 9 p. 7). Le cours ne précise pas lequel des deux feuillets elle double."
+        },
+        {
+          "t": "Tout comme l'enveloppe nucléaire, elle est présente durant l'interphase et la mitose",
+          "correct": true,
+          "j": "Énoncé faux, donc réponse attendue : le cours écrit que le noyau « possède une enveloppe qui disparaît lorsque la cellule se divise » et oppose le noyau interphasique au noyau en division (ch. 9 p. 5) ; l'enveloppe se désintègre d'ailleurs brutalement au cours de la division (ch. 7 p. 17). La lamina, qui la double, ne persiste donc pas davantage."
+        },
+        {
+          "t": "Elle est continue sauf au niveau des pores nucléaires",
+          "j": "Énoncé vrai : les complexes de pores percent l'enveloppe pour régler les échanges entre noyau et cytoplasme (ch. 9 p. 7), et la lamina est interrompue en regard de chacun d'eux."
+        }
+      ]
+    },
+    {
+      "q": "Indiquer lequel des énoncés suivants concernant la mitose est faux :",
+      "c": 7,
+      "options": [
+        {
+          "t": "Deux cellules avec un contenu génétique différent sont créées",
+          "correct": true,
+          "j": "Énoncé faux, donc réponse attendue : le cours résume la division en une « répartition égale de l'ADN entre deux cellules filles » dont « le contenu est le même » (ch. 7 p. 14)."
+        },
+        {
+          "t": "Au cours de la métaphase les chromosomes sont alignés sur la plaque équatoriale",
+          "j": "Énoncé vrai : le cours décrit l'alignement des chromosomes sur la plaque équatoriale, tous les centromères situés dans un même plan (ch. 7 p. 18)."
+        },
+        {
+          "t": "La séparation du matériel génétique se produit grâce aux microtubules",
+          "j": "Énoncé vrai : le fuseau mitotique, fait de microtubules dont les kinétochoriens lient les chromosomes aux pôles, « assure la distribution correcte du matériel génétique » (ch. 7 p. 16)."
+        },
+        {
+          "t": "Les chromatides sœurs se séparent",
+          "j": "Énoncé vrai : la séparation des chromatides sœurs, tirées vers les pôles opposés du fuseau, est décrite comme un temps de la division (ch. 7 p. 19)."
+        }
+      ]
+    },
+    {
+      "q": "Quel composant ne participe pas directement à la traduction ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "ARNm",
+          "j": "Il y participe : la traduction consiste précisément à lire « l'information transcrite en ARN messager » pour former une protéine (ch. 9 p. 16)."
+        },
+        {
+          "t": "ARNt",
+          "j": "Il y participe : chaque acide aminé est amené fixé à l'extrémité 3' d'un ARNt, reconnu par l'appariement codon-anticodon (ch. 9 p. 17-18)."
+        },
+        {
+          "t": "Ribosomes",
+          "j": "Ils y participent : le cours indique que « les RIBOSOMES sont impliqués » dans la traduction et détaille leurs sites A, P et E (ch. 9 p. 16 et p. 11)."
+        },
+        {
+          "t": "ADN",
+          "correct": true,
+          "j": "Réponse attendue : le cours précise que dans la traduction « les trois types d'ARN sont impliqués », aux côtés des ribosomes (ch. 9 p. 16). L'ADN n'intervient qu'en amont, comme matrice de la transcription (p. 13) ; il ne fait pas partie de la machinerie de traduction."
+        }
+      ]
+    },
+    {
+      "q": "Combien de nucléotides sont nécessaires dans un ARNm pour synthétiser une protéine de 450 acides aminés, sans compter le codon stop ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "900",
+          "j": "Ce total revient à n'attribuer que deux nucléotides par acide aminé : or le code génétique « fonctionne par triplets » (ch. 9 p. 24)."
+        },
+        {
+          "t": "1350",
+          "correct": true,
+          "j": "Réponse attendue : chaque acide aminé est spécifié par un triplet de nucléotides (ch. 9 p. 24), soit 450 × 3 = 1350. L'énoncé écarte expressément le codon de terminaison, qui ajouterait sinon trois nucléotides."
+        },
+        {
+          "t": "450",
+          "j": "Ce total revient à compter un seul nucléotide par acide aminé, alors que le code en exige trois : il confond nombre d'acides aminés et nombre de nucléotides (ch. 9 p. 24)."
+        },
+        {
+          "t": "300",
+          "j": "Ce total ne suffirait qu'à une protéine bien plus courte que celle demandée : il faut un triplet par acide aminé, pour chacun des 450 (ch. 9 p. 24)."
+        }
+      ]
+    },
+    {
+      "q": "Compte tenu des codons d'initiation et de terminaison, combien de nucléotides seront nécessaires pour coder une protéine composée de 100 acides aminés ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "100",
+          "j": "Ce total compte un nucléotide par acide aminé : il ignore que le code fonctionne par triplets (ch. 9 p. 24) et qu'un codon de terminaison doit encore être ajouté."
+        },
+        {
+          "t": "103",
+          "j": "Ce total ajoute bien trois nucléotides pour l'arrêt, mais à un décompte resté en acides aminés : il mélange les deux unités au lieu de convertir chaque acide aminé en triplet (ch. 9 p. 24)."
+        },
+        {
+          "t": "300",
+          "j": "Ce total correspond aux seuls 100 triplets des acides aminés et laisse de côté le codon de terminaison que l'énoncé demande expressément de prendre en compte (ch. 9 p. 22)."
+        },
+        {
+          "t": "303",
+          "correct": true,
+          "j": "Réponse attendue : 100 acides aminés × 3 nucléotides = 300, auxquels s'ajoutent les 3 nucléotides du codon de terminaison UAA, UAG ou UGA (ch. 9 p. 22 et p. 24). Le codon d'initiation AUG code la méthionine initiale, déjà comptée parmi les 100 acides aminés (p. 19)."
+        }
+      ]
+    },
+    {
+      "q": "En tenant compte des codons d'initiation et de terminaison, combien de nucléotides seront nécessaires pour coder le peptide formé par la séquence d'acides aminés suivante ?\nMet-Pro-Lys-Pro-Arg-Tre-Gly-Iso-Met-Ser",
+      "c": 9,
+      "options": [
+        {
+          "t": "32",
+          "j": "Ce total ajoute deux nucléotides seulement au-delà des triplets du peptide : le signal d'arrêt est un codon entier, donc trois nucléotides (ch. 9 p. 22)."
+        },
+        {
+          "t": "30",
+          "j": "Ce total correspond aux dix triplets du peptide, mais oublie le codon de terminaison que l'énoncé demande de compter (ch. 9 p. 22)."
+        },
+        {
+          "t": "33",
+          "correct": true,
+          "j": "Réponse attendue : le peptide compte dix acides aminés, soit 10 × 3 = 30 nucléotides (ch. 9 p. 24), auxquels s'ajoute le codon de terminaison, 3 nucléotides de plus (p. 22) — total 33. La méthionine de tête est portée par le codon d'initiation AUG, déjà comptée (p. 19)."
+        },
+        {
+          "t": "31",
+          "j": "Ce total n'ajoute qu'un nucléotide à la série des triplets, comme si l'arrêt de la traduction tenait en une seule base : il est commandé par un codon complet (ch. 9 p. 22)."
+        }
+      ]
+    },
+    {
+      "q": "À partir de la séquence suivante d'ADN, quelle protéine est obtenue après transcription puis traduction ?\n5' – TTAGCGTTATTCGCGGGAAGAGCCTAATTTCGGATCCATTTGATCCCG – 3'\n3' – AATCGCAATAAGCGCCCTTCTCGGATTAAAGCCTAGGTAAACTAGGGC – 5'",
+      "c": 9,
+      "options": [
+        {
+          "t": "5'-Met-Glu-Asn-Gly-Gly-Tyr-Ala-Leu-3'",
+          "j": "Deux erreurs : une chaîne polypeptidique se note de l'extrémité N-terminale vers la C-terminale, les polarités 5' et 3' appartenant aux acides nucléiques (ch. 9 p. 20) ; et la suite d'acides aminés ne correspond pas aux codons lus à partir de l'AUG."
+        },
+        {
+          "t": "Nter- Met-Asp-Pro-Lys-Leu-Gly-Ser-Ser-Arg-Glu-Cter",
+          "correct": true,
+          "j": "Réponse attendue : la transcription donne, par complémentarité des bases (ch. 9 p. 13), un ARNm 5' CGGGAUCAAAUGGAUCCGAAAUUAGGCUCUUCCCGCGAAUAA 3'. La lecture commence au codon initiateur AUG (p. 19) et, d'après la table du code génétique (p. 18), se poursuit par GAU-CCG-AAA-UUA-GGC-UCU-UCC-CGC-GAA jusqu'au codon stop UAA (p. 22), soit Met-Asp-Pro-Lys-Leu-Gly-Ser-Ser-Arg-Glu."
+        },
+        {
+          "t": "Nter – Met-Ala-Ile-Ser-Ala-Leu-Gly-Leu-Lys-Pro-Arg-Cter",
+          "j": "La polarité est bien notée, mais le cadre de lecture est faux : après le codon initiateur, le triplet suivant de l'ARNm est GAU, que la table du code génétique traduit en Asp et non en Ala (ch. 9 p. 13 et p. 18)."
+        },
+        {
+          "t": "Nter- Met- Arg- Tyr- Ser- Arg- Glu- Glu- Pro- Asn- Phe- Gly- Ser- Ile-Cter",
+          "j": "Cette chaîne est trop longue pour la séquence donnée : la traduction s'interrompt dès le premier codon stop rencontré dans le cadre de lecture (ch. 9 p. 22)."
+        }
+      ]
+    }
   ],
   "structure1": [
     {
@@ -47226,7 +47666,8 @@ const QUESTIONS = {
           "j": "Cette prolifération est au contraire indispensable : elle forme le tube cellulaire qui guide la repousse de l'axone."
         }
       ]
-    }
+    },
+    {"q":"La fonction de l'os est :","c":14,"options":[{"t":"Fournir un soutien","j":"Le support figure bien en tête des fonctions de l'os énumérées par le cours, mais ce n'est pas la seule de la liste : la retenir seule laisse de côté la protection (Tissu osseux, p. 10)."},{"t":"Fournir une protection","j":"La protection est elle aussi une fonction de l'os selon le cours, aux côtés du support, du mouvement, de l'hématopoïèse et du dépôt minéral : la retenir seule est tout aussi incomplet (Tissu osseux, p. 10)."},{"t":"A et B sont vrais","correct":true,"j":"Le cours liste le support ET la protection parmi les fonctions de l'os : ces deux propositions sont exactes, et seule leur réunion répond complètement à la question (Tissu osseux, p. 10)."},{"t":"Tout ce qui précède est faux","j":"Le support et la protection sont au contraire deux des cinq fonctions de l'os énoncées par le cours : l'énoncé ne peut donc pas être entièrement faux (Tissu osseux, p. 10)."}]}
   ],
   "structure2": [
     {
