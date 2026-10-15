@@ -25081,7 +25081,7 @@ const QUESTIONS = {
       "options": [
         {
           "t": "La protection des extrémités contre la dégradation",
-          "j": "Cette protection est assurée par les télomères et la télomérase."
+          "j": "Cette protection revient aux télomères, qui évitent la perte d’informations codantes et le raccourcissement des extrémités à chaque réplication."
         },
         {
           "t": "L'attachement aux microtubules du fuseau mitotique",
@@ -26301,19 +26301,19 @@ const QUESTIONS = {
         {
           "t": "Chaque molécule fille garde un brin parental et un brin neuf",
           "correct": true,
-          "j": "Modèle Meselson-Stahl : un brin parental conservé apparié à un brin néosynthétisé complémentaire."
+          "j": "Le préfixe « semi- » dit l’essentiel : la molécule fille ne conserve pas tout, mais pas rien non plus — l’un des deux brins vient du parent et a servi de matrice, l’autre est synthétisé en regard."
         },
         {
           "t": "Chaque molécule fille reçoit les deux brins parentaux intacts",
-          "j": "Décrit le modèle conservatif, invalidé : les brins parentaux sont séparés, pas conservés ensemble."
+          "j": "Ce serait une conservation totale, et non « semi- » : les deux brins parentaux sont au contraire séparés pour servir chacun de matrice."
         },
         {
           "t": "Chaque brin fille mêle des fragments anciens et neufs",
-          "j": "Décrit le modèle dispersif, invalidé : aucun brin n'est un mélange de séquences anciennes et neuves."
+          "j": "Un brin n’est jamais une mosaïque d’ancien et de neuf : le brin néosynthétisé est entièrement nouveau, et c’est son appariement à un brin parental qui fait la part conservée."
         },
         {
           "t": "Chaque base parentale est échangée une à une",
-          "j": "Faux mécanisme : la synthèse copie une matrice par appariement, sans remplacement base par base."
+          "j": "La synthèse recopie une matrice par appariement des bases complémentaires : aucune base parentale n’est remplacée une à une."
         }
       ]
     },
@@ -27087,7 +27087,7 @@ const QUESTIONS = {
         },
         {
           "t": "Initier la condensation de la chromatine en début de mitose",
-          "j": "Faux : la condensation dépend des condensines et de la phosphorylation des histones, pas du kinétochore qui ne sert qu'à l'attachement au fuseau."
+          "j": "Faux : le kinétochore ne sert qu’à l’attachement au fuseau ; la condensation de la chromatine est un processus distinct, qui précède la mise en place du fuseau."
         },
         {
           "t": "Organiser les pôles du fuseau au niveau des centrosomes",
@@ -27095,7 +27095,7 @@ const QUESTIONS = {
         },
         {
           "t": "Réunir les deux chromatides sœurs entre elles",
-          "j": "Faux : la cohésion des chromatides sœurs est assurée par les cohésines ; le kinétochore, lui, relie le chromosome au fuseau."
+          "j": "Faux : le kinétochore regarde vers le fuseau, dont il capte les microtubules ; ce n’est pas lui qui maintient les deux chromatides accolées."
         }
       ]
     },
@@ -27757,7 +27757,7 @@ const QUESTIONS = {
         },
         {
           "t": "Télophase",
-          "j": "Les noyaux se reforment en télophase, mais le partage du cytoplasme proprement dit est la cytocinèse."
+          "j": "La télophase reconstitue les noyaux-fils ; la segmentation du cytoplasme, amorcée dès la fin de l’anaphase, se poursuit en parallèle et constitue la cytocinèse."
         },
         {
           "t": "Cytocinèse",
@@ -32550,26 +32550,834 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"La thermologie est la branche de la physique qui étudie…","c":13,"options":[{"t":"La chaleur et la température","correct":true,"j":"La thermologie est définie comme la branche de la physique consacrée à l'étude de la chaleur et de la température, les deux grandeurs autour desquelles s'organise ce chapitre."},{"t":"Les forces et le mouvement des corps","j":"L'étude des forces et du mouvement des corps relève de la mécanique, dont les lois de Newton constituent le socle."},{"t":"Les ondes et leur mode de propagation","j":"La description des ondes et de la manière dont elles se propagent forme une autre branche de la physique, distincte de l'étude de la chaleur."},{"t":"Les échanges de matière entre deux corps","j":"Les échanges de matière ne définissent pas cette branche : ce qu'elle étudie, c'est la chaleur et la grandeur qui en gouverne le sens de circulation."}]},
-    {"q":"Que devient la longueur d'un corps solide lorsque sa température augmente ?","c":13,"options":[{"t":"Elle augmente, car le corps se dilate","correct":true,"j":"La dilatation thermique est l'exemple le plus courant de grandeur qui varie avec la température : lorsque la température d'un corps augmente, sa longueur augmente."},{"t":"Elle diminue : le corps se contracte","j":"La contraction accompagne au contraire le refroidissement : c'est lorsque la température d'un corps diminue que sa longueur diminue."},{"t":"Elle reste constante, la température n'agissant pas sur les dimensions","j":"De nombreuses grandeurs physiques varient avec la température, et les dimensions d'un corps en font précisément partie."},{"t":"Elle varie dans un sens imprévisible, propre à chaque matériau","j":"Le sens de la variation est donné sans réserve : la longueur augmente quand la température augmente et diminue quand elle diminue, quel que soit le corps."}]},
-    {"q":"Sur quelle propriété le fonctionnement d'un thermomètre à mercure repose-t-il ?","c":13,"options":[{"t":"La variation du volume du mercure avec la température","correct":true,"j":"Le thermomètre à mercure exploite la variation du volume du mercure en réponse aux changements de température, l'expansion des liquides se mesurant en volume."},{"t":"La variation de la masse du mercure enfermé","j":"La masse de mercure enfermée dans le tube ne change pas : c'est la place qu'elle occupe qui se modifie quand la température varie."},{"t":"La variation de la conductivité du mercure","j":"Ce que la température fait varier dans le mercure, c'est son volume ; sa conductivité n'est pas la grandeur sur laquelle repose la mesure."},{"t":"La variation de la couleur du mercure","j":"Ce n'est pas l'aspect du mercure qui change quand il s'échauffe, mais le volume qu'il occupe."}]},
-    {"q":"À combien de degrés Fahrenheit correspondent 37 °C ?","c":13,"options":[{"t":"98,6 °F","correct":true,"j":"On passe des degrés Celsius aux degrés Fahrenheit en multipliant par 1,8 puis en ajoutant 32 : 1,8 × 37 + 32 = 98,6 °F."},{"t":"66,6 °F","j":"Ce résultat applique bien le facteur 1,8, mais oublie d'ajouter ensuite les 32 degrés qui décalent l'origine de l'échelle Fahrenheit."},{"t":"69 °F","j":"Ce résultat se contente d'ajouter 32 et néglige le facteur qui rend le degré Fahrenheit plus petit que le degré Celsius."},{"t":"124,2 °F","j":"Ce résultat ajoute 32 avant de multiplier, alors que la multiplication par 1,8 doit précéder l'addition dans cette conversion."}]},
-    {"q":"De combien la température augmente-t-elle entre 0 °C et 37 °C, si l'on exprime cette augmentation en kelvins ?","c":13,"options":[{"t":"37 K","correct":true,"j":"Un degré de l'échelle Kelvin représente exactement le même écart qu'un degré de l'échelle Celsius : une augmentation de 37 °C est donc une augmentation de 37 K."},{"t":"310,15 K","j":"310,15 K est la température absolue qui correspond à 37 °C ; c'est une température, et non l'écart séparant deux températures."},{"t":"273,15 K","j":"273,15 est la constante qui sépare les deux échelles : elle s'élimine dès qu'on soustrait deux températures pour obtenir un écart."},{"t":"37,15 K","j":"Ce résultat ajoute à l'écart une fraction de la constante de conversion, alors que celle-ci disparaît entièrement dans une différence."}]},
-    {"q":"Pourquoi une forte humidité de l'air rend-elle l'évacuation de la chaleur corporelle plus difficile ?","c":13,"options":[{"t":"Parce que la quantité d'eau dont on peut saturer l'air expiré devient plus faible","correct":true,"j":"L'air que nous expirons sort saturé d'eau ; quand l'air ambiant est déjà chargé d'humidité, la quantité d'eau que nous pouvons y ajouter est beaucoup plus faible, et l'évacuation de la chaleur s'en trouve d'autant gênée."},{"t":"Parce que l'air humide conduit la chaleur bien mieux que l'air sec vers la peau","j":"La conductivité de l'air reste de toute façon très faible, et un meilleur passage de la chaleur faciliterait son évacuation au lieu de la gêner."},{"t":"Parce que l'air humide absorbe une part beaucoup plus grande du rayonnement émis","j":"Le rayonnement émis par le corps est gouverné par sa propre température, et l'humidité de l'air n'intervient pas dans ce mécanisme."},{"t":"Parce que l'air humide élève la température de la peau au-delà de 37 °C","j":"L'humidité ne réchauffe pas la peau : elle gêne l'évaporation, et c'est par là qu'elle aggrave la difficulté à éliminer la chaleur."}]},
-    {"q":"Comment la calorie, unité historique de chaleur, est-elle définie ?","c":13,"options":[{"t":"La chaleur nécessaire pour élever un gramme d'eau distillée de 14,5 à 15,5 °C","correct":true,"j":"La calorie correspond à la chaleur qu'il faut fournir pour élever d'un degré, de 14,5 °C à 15,5 °C, la température d'un gramme d'eau distillée ; elle n'appartient pas au Système international."},{"t":"La chaleur nécessaire pour élever un kilogramme d'eau distillée de 14,5 à 15,5 °C","j":"La définition porte sur un gramme d'eau et non sur un kilogramme : rapportée au kilogramme, la quantité de chaleur en jeu serait mille fois plus grande."},{"t":"La chaleur nécessaire pour porter un gramme d'eau distillée jusqu'à l'ébullition","j":"Porter l'eau jusqu'à l'ébullition suppose un échauffement de plusieurs dizaines de degrés, alors que la définition retient un intervalle d'un seul degré."},{"t":"La chaleur nécessaire pour évaporer complètement un gramme d'eau distillée","j":"Faire passer l'eau à l'état de vapeur met en jeu une tout autre énergie que l'échauffement d'un degré sur lequel repose cette définition."}]},
-    {"q":"Comment se comporte une substance dont la chaleur spécifique est élevée lorsqu'on lui apporte de la chaleur ?","c":13,"options":[{"t":"Elle en absorbe beaucoup sans que sa température s'élève beaucoup","correct":true,"j":"Plus la chaleur spécifique d'une substance est élevée, plus elle peut emmagasiner de chaleur pour une faible variation de température : c'est le cas de l'eau, comparée au fer."},{"t":"Elle n'en absorbe qu'un peu avant que sa température ne s'élève fortement","j":"C'est le comportement d'une substance à faible chaleur spécifique, qui s'échauffe vite parce qu'il lui faut peu de chaleur par degré gagné."},{"t":"Elle transmet rapidement à son voisinage la chaleur qu'elle reçoit","j":"La facilité avec laquelle un corps fait circuler la chaleur vers ce qui l'entoure est décrite par une autre propriété que la chaleur spécifique."},{"t":"Elle change d'état avant que sa température ait pu s'élever","j":"Un changement d'état ne dépend pas de la valeur de la chaleur spécifique, qui ne décrit que l'échauffement d'une masse donnée de substance."}]},
-    {"q":"On apporte 5 039,6 kJ de chaleur à un corps de 60 kg dont la chaleur spécifique vaut 4,18 kJ/kg·°C. De combien sa température s'élève-t-elle ?","c":13,"options":[{"t":"D'environ 20 °C","correct":true,"j":"La chaleur apportée est le produit de la masse, de la chaleur spécifique et de l'élévation de température : 5 039,6 divisé par (60 × 4,18) donne environ 20 °C."},{"t":"D'environ 84 °C","j":"Ce résultat divise la chaleur apportée par la seule masse du corps et laisse de côté sa chaleur spécifique."},{"t":"D'environ 1 206 °C","j":"Ce résultat divise la chaleur apportée par la seule chaleur spécifique et oublie la masse qu'il faut échauffer."},{"t":"D'environ 40 °C","j":"Ce résultat suppose une chaleur spécifique deux fois plus faible que celle indiquée, ce qui double l'élévation de température obtenue."}]},
-    {"q":"De quelles grandeurs le flux de chaleur transmis par conduction dépend-il ?","c":13,"options":[{"t":"De la surface de contact, de l'écart de température et de l'épaisseur traversée","correct":true,"j":"Le flux par conduction est proportionnel à la conductivité du matériau, à la surface et à l'écart de température, et inversement proportionnel à l'épaisseur à traverser."},{"t":"De la surface de contact, de l'écart de température et de la durée","j":"La durée ne figure pas dans cette expression : un flux rapporte déjà par lui-même la chaleur transférée à la durée du transfert."},{"t":"De la masse des deux corps, de leur écart de température et de l'épaisseur","j":"La masse des corps n'intervient pas dans ce transfert : ce qui compte est la surface offerte au passage de la chaleur."},{"t":"De la surface de contact, de la température du corps chaud et de l'épaisseur","j":"La température d'un corps pris seul gouverne le rayonnement qu'il émet ; la conduction, elle, met en jeu l'écart entre deux températures."}]},
-    {"q":"Que traduit une conductivité thermique élevée pour un matériau ?","c":13,"options":[{"t":"Il laisse facilement passer la chaleur","correct":true,"j":"La conductivité thermique est d'autant plus élevée que le matériau est permissif au passage de la chaleur : l'argent, à 429 W/m°C, en conduit bien davantage que l'air, à 0,0234 W/m°C."},{"t":"Il s'oppose au passage de la chaleur et isole","j":"C'est une conductivité faible qui traduit une résistance au passage de la chaleur ; un matériau isolant se reconnaît à une valeur basse."},{"t":"Il transporte la chaleur par un déplacement de matière","j":"Le transport de chaleur par déplacement de matière caractérise la convection, qui se produit dans les fluides et non à travers l'épaisseur d'un solide."},{"t":"Il émet beaucoup de chaleur sous forme d'infrarouges","j":"L'aptitude d'un corps à émettre un rayonnement est décrite par son émissivité, une grandeur distincte de la conductivité thermique."}]},
-    {"q":"Un radiateur réchauffe l'air d'une pièce. Pourquoi cet air chaud se met-il en mouvement ?","c":13,"options":[{"t":"Parce que sa densité est plus faible que celle de l'air froid, qui le remplace","correct":true,"j":"Le radiateur cède d'abord sa chaleur à l'air voisin par conduction ; cet air chaud, moins dense que l'air froid, est déplacé et remplacé par celui-ci, et c'est lui qui emporte la chaleur."},{"t":"Parce que sa densité devient plus forte que celle de l'air froid","j":"Un air devenu plus dense que l'air froid descendrait au lieu de s'élever : c'est précisément parce qu'il est plus léger que l'air chaud se déplace."},{"t":"Parce que sa conductivité dépasse alors celle de l'air froid resté en place","j":"La conductivité d'un gaz reste très faible et ne se modifie pas avec son échauffement : elle n'explique pas la mise en mouvement observée."},{"t":"Parce que le rayonnement émis par le radiateur pousse l'air devant lui","j":"Le radiateur commence par céder sa chaleur à l'air voisin par conduction ; c'est ensuite l'écart de densité entre air chaud et air froid, et non le rayonnement, qui met le fluide en mouvement."}]},
-    {"q":"Dans l'expression du flux de chaleur par convection, entre quoi l'écart de température est-il mesuré ?","c":13,"options":[{"t":"Entre le corps solide et le fluide qui l'entoure","correct":true,"j":"L'écart retenu est celui qui sépare le corps solide du fluide plus froid qui l'entoure, la surface considérée dans le calcul étant celle du corps solide."},{"t":"Entre les deux extrémités du corps solide","j":"Un écart mesuré entre deux extrémités d'un même solide est celui qui gouverne la conduction de la chaleur à travers ce solide."},{"t":"Entre le fluide avant et après son passage sur le corps","j":"L'échauffement du fluide est la conséquence du transfert, et non la grandeur qui figure dans le calcul du flux."},{"t":"Entre la surface du corps et son intérieur profond","j":"La différence entre la surface et la profondeur d'un corps concerne le cheminement de la chaleur à l'intérieur de celui-ci, pas son échange avec le fluide."}]},
-    {"q":"Quelles sont les caractéristiques de l'émissivité d'un corps ?","c":13,"options":[{"t":"Elle vaut entre 0 et 1 selon le matériau et n'a pas d'unité","correct":true,"j":"L'émissivité est un nombre sans dimension, compris entre 0 et 1, dont la valeur dépend du matériau dont le corps est fait ; celle de la peau vaut 0,97."},{"t":"Elle vaut entre 0 et 1 selon le matériau et s'exprime en W/m²","j":"L'émissivité ne porte aucune unité ; dans le calcul du rayonnement, ce sont la constante de Stefan-Boltzmann et la surface qui en apportent."},{"t":"Elle est identique pour tous les matériaux et n'a pas d'unité","j":"Si sa valeur était la même partout, elle n'aurait pas à figurer comme caractéristique propre au matériau de chaque corps."},{"t":"Elle peut dépasser 1 selon le matériau et n'a pas d'unité","j":"L'émissivité est bornée : elle varie entre 0 et 1 selon le matériau, et aucune valeur ne peut franchir cette borne supérieure."}]},
-    {"q":"De quoi dépend le flux de chaleur qu'une personne ABSORBE par rayonnement ?","c":13,"options":[{"t":"De la température du milieu qui l'entoure","correct":true,"j":"Le flux absorbé par rayonnement ne dépend que de la température du milieu : on traite l'ensemble des objets entourant la personne comme un seul corps, dont la température est leur moyenne."},{"t":"De la température de sa propre surface cutanée","j":"C'est le flux émis, et non le flux absorbé, qui est gouverné par la température de la personne elle-même."},{"t":"De l'écart entre la température de sa peau et celle du milieu","j":"C'est le flux net, obtenu en retranchant le flux absorbé au flux émis, qui met en jeu les deux températures à la fois."},{"t":"De la vitesse à laquelle l'air circule autour d'elle","j":"La vitesse de l'air modifie les échanges avec le fluide environnant ; le rayonnement, lui, n'a besoin d'aucun support matériel."}]},
-    {"q":"En dessous de quelle température corporelle parle-t-on d'hypothermie ?","c":13,"options":[{"t":"35 °C","correct":true,"j":"On parle d'hypothermie lorsque la température du corps descend en dessous de 35 °C, l'homéostasie ayant pour tâche de maintenir cette fourchette."},{"t":"36 °C","j":"36 °C reste à l'intérieur de la fourchette que l'organisme maintient ; le seuil retenu pour parler d'hypothermie se situe un peu plus bas."},{"t":"37 °C","j":"Une température d'environ 37 °C est au contraire celle considérée comme idéale pour le bon fonctionnement des viscères."},{"t":"37,5 °C","j":"Au-delà de 37,5 °C, c'est d'hyperthermie qu'il s'agit : ce seuil borne la fourchette par le haut et non par le bas."}]},
-    {"q":"Par quel moyen l'organisme règle-t-il l'évacuation de chaleur par conduction et par convection ?","c":13,"options":[{"t":"Par le flux sanguin et la pression artérielle","correct":true,"j":"L'évacuation de la chaleur par conduction et par convection se règle grâce au flux sanguin et à la pression artérielle, tandis que le rayonnement échappe à ce contrôle."},{"t":"Par la quantité de chaleur que produit son métabolisme","j":"La chaleur produite par le métabolisme est ce que l'organisme doit évacuer ; elle n'est pas le levier qui règle cette évacuation."},{"t":"Par l'émissivité de la surface de sa peau","j":"L'émissivité est fixée par le matériau et ne se modifie pas à volonté ; elle concerne d'ailleurs le rayonnement et non ces deux mécanismes."},{"t":"Par la température des objets qui l'entourent","j":"La température du milieu s'impose à l'organisme : il la subit et ne peut pas en faire un moyen de régulation interne."}]},
-    {"q":"Comment l'organisme peut-il moduler l'évacuation de chaleur qui accompagne la respiration ?","c":13,"options":[{"t":"En contrôlant le rythme de sa respiration","correct":true,"j":"L'air froid inspiré ressort chaud et saturé d'eau ; en contrôlant son rythme respiratoire, l'organisme règle la chaleur évacuée par cette évaporation dite insensible."},{"t":"En modifiant le volume de sueur qu'il produit","j":"La production de sueur relève de la transpiration active, un mécanisme distinct de l'évaporation qui accompagne chaque cycle respiratoire."},{"t":"En abaissant la température de l'air qu'il inspire","j":"L'air inspiré est à la température du milieu ambiant : l'organisme la subit et ne dispose d'aucun moyen de l'abaisser."},{"t":"En réduisant la surface de peau qu'il expose","j":"Réduire la surface de peau exposée agit sur les échanges cutanés, et non sur ce qui s'évapore dans les voies aériennes."}]},
-    {"q":"Pourquoi l'évaporation d'un gramme d'eau exige-t-elle autant d'énergie ?","c":13,"options":[{"t":"Parce qu'il faut rompre les liaisons hydrogène entre les molécules d'eau","correct":true,"j":"À l'état liquide, les molécules d'eau sont retenues les unes aux autres par des liaisons hydrogène ; les rompre réclame l'énergie que l'organisme dissipe en évaporant sa sueur."},{"t":"Parce qu'il faut rompre les liaisons covalentes de la molécule d'eau","j":"Les liaisons covalentes qui unissent l'oxygène et l'hydrogène restent intactes : l'eau évaporée reste de l'eau, seule sa cohésion d'ensemble est défaite."},{"t":"Parce qu'il faut porter l'eau jusqu'à sa température d'ébullition","j":"La sueur s'évapore à la température de la peau, bien en dessous de toute ébullition : l'énergie en jeu n'est pas celle d'un échauffement."},{"t":"Parce qu'il faut vaincre la pression de l'air sur la surface libre","j":"La pression atmosphérique ne constitue pas l'obstacle en cause ; ce sont les interactions entre molécules d'eau qui réclament cette énergie."}]},
-    {"q":"Lequel des énoncés suivants à propos des agents thermiques utilisés en clinique est FAUX ?","c":13,"options":[{"t":"Leurs effets portent sur les tissus profonds, au-delà du plan sous-cutané","correct":true,"j":"C'est l'énoncé faux : ces agents produisent des changements de température au niveau de la surface, c'est-à-dire la peau et les tissus sous-cutanés superficiels."},{"t":"Ils transfèrent la chaleur par conduction, convection ou rayonnement","j":"Énoncé exact : les agents thermiques employés en clinique transmettent la chaleur par l'un ou l'autre des trois mécanismes physiques de transfert."},{"t":"La cryothérapie compte parmi eux les bains de contraste et les massages à la glace","j":"Énoncé exact : packs de glace, packs de froid, massages à la glace et bains de contraste sont les agents cités au titre de la cryothérapie."},{"t":"L'emploi de ces techniques suppose une connaissance précise de la thermologie","j":"Énoncé exact : l'utilisation de ces agents est présentée comme exigeant une connaissance spécifique de la thermologie."}]}
+    {
+      "q": "La thermologie est la branche de la physique qui étudie…",
+      "c": 13,
+      "options": [
+        {
+          "t": "La chaleur et la température",
+          "correct": true,
+          "j": "La thermologie est définie comme la branche de la physique consacrée à l'étude de la chaleur et de la température, les deux grandeurs autour desquelles s'organise ce chapitre."
+        },
+        {
+          "t": "Les forces et le mouvement des corps",
+          "j": "L'étude des forces et du mouvement des corps relève de la mécanique, dont les lois de Newton constituent le socle."
+        },
+        {
+          "t": "Les ondes et leur mode de propagation",
+          "j": "La description des ondes et de la manière dont elles se propagent forme une autre branche de la physique, distincte de l'étude de la chaleur."
+        },
+        {
+          "t": "Les échanges de matière entre deux corps",
+          "j": "Les échanges de matière ne définissent pas cette branche : ce qu'elle étudie, c'est la chaleur et la grandeur qui en gouverne le sens de circulation."
+        }
+      ]
+    },
+    {
+      "q": "Que devient la longueur d'un corps solide lorsque sa température augmente ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Elle augmente, car le corps se dilate",
+          "correct": true,
+          "j": "La dilatation thermique est l'exemple le plus courant de grandeur qui varie avec la température : lorsque la température d'un corps augmente, sa longueur augmente."
+        },
+        {
+          "t": "Elle diminue : le corps se contracte",
+          "j": "La contraction accompagne au contraire le refroidissement : c'est lorsque la température d'un corps diminue que sa longueur diminue."
+        },
+        {
+          "t": "Elle reste constante, la température n'agissant pas sur les dimensions",
+          "j": "De nombreuses grandeurs physiques varient avec la température, et les dimensions d'un corps en font précisément partie."
+        },
+        {
+          "t": "Elle varie dans un sens imprévisible, propre à chaque matériau",
+          "j": "Le sens de la variation est donné sans réserve : la longueur augmente quand la température augmente et diminue quand elle diminue, quel que soit le corps."
+        }
+      ]
+    },
+    {
+      "q": "Sur quelle propriété le fonctionnement d'un thermomètre à mercure repose-t-il ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "La variation du volume du mercure avec la température",
+          "correct": true,
+          "j": "Le thermomètre à mercure exploite la variation du volume du mercure en réponse aux changements de température, l'expansion des liquides se mesurant en volume."
+        },
+        {
+          "t": "La variation de la masse du mercure enfermé",
+          "j": "La masse de mercure enfermée dans le tube ne change pas : c'est la place qu'elle occupe qui se modifie quand la température varie."
+        },
+        {
+          "t": "La variation de la conductivité du mercure",
+          "j": "Ce que la température fait varier dans le mercure, c'est son volume ; sa conductivité n'est pas la grandeur sur laquelle repose la mesure."
+        },
+        {
+          "t": "La variation de la couleur du mercure",
+          "j": "Ce n'est pas l'aspect du mercure qui change quand il s'échauffe, mais le volume qu'il occupe."
+        }
+      ]
+    },
+    {
+      "q": "À combien de degrés Fahrenheit correspondent 37 °C ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "98,6 °F",
+          "correct": true,
+          "j": "On passe des degrés Celsius aux degrés Fahrenheit en multipliant par 1,8 puis en ajoutant 32 : 1,8 × 37 + 32 = 98,6 °F."
+        },
+        {
+          "t": "66,6 °F",
+          "j": "Ce résultat applique bien le facteur 1,8, mais oublie d'ajouter ensuite les 32 degrés qui décalent l'origine de l'échelle Fahrenheit."
+        },
+        {
+          "t": "69 °F",
+          "j": "Ce résultat se contente d'ajouter 32 et néglige le facteur qui rend le degré Fahrenheit plus petit que le degré Celsius."
+        },
+        {
+          "t": "124,2 °F",
+          "j": "Ce résultat ajoute 32 avant de multiplier, alors que la multiplication par 1,8 doit précéder l'addition dans cette conversion."
+        }
+      ]
+    },
+    {
+      "q": "De combien la température augmente-t-elle entre 0 °C et 37 °C, si l'on exprime cette augmentation en kelvins ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "37 K",
+          "correct": true,
+          "j": "Un degré de l'échelle Kelvin représente exactement le même écart qu'un degré de l'échelle Celsius : une augmentation de 37 °C est donc une augmentation de 37 K."
+        },
+        {
+          "t": "310,15 K",
+          "j": "310,15 K est la température absolue qui correspond à 37 °C ; c'est une température, et non l'écart séparant deux températures."
+        },
+        {
+          "t": "273,15 K",
+          "j": "273,15 est la constante qui sépare les deux échelles : elle s'élimine dès qu'on soustrait deux températures pour obtenir un écart."
+        },
+        {
+          "t": "37,15 K",
+          "j": "Ce résultat ajoute à l'écart une fraction de la constante de conversion, alors que celle-ci disparaît entièrement dans une différence."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi une forte humidité de l'air rend-elle l'évacuation de la chaleur corporelle plus difficile ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Parce que la quantité d'eau dont on peut saturer l'air expiré devient plus faible",
+          "correct": true,
+          "j": "L'air que nous expirons sort saturé d'eau ; quand l'air ambiant est déjà chargé d'humidité, la quantité d'eau que nous pouvons y ajouter est beaucoup plus faible, et l'évacuation de la chaleur s'en trouve d'autant gênée."
+        },
+        {
+          "t": "Parce que l'air humide conduit la chaleur bien mieux que l'air sec vers la peau",
+          "j": "La conductivité de l'air reste de toute façon très faible, et un meilleur passage de la chaleur faciliterait son évacuation au lieu de la gêner."
+        },
+        {
+          "t": "Parce que l'air humide absorbe une part beaucoup plus grande du rayonnement émis",
+          "j": "Le rayonnement émis par le corps est gouverné par sa propre température, et l'humidité de l'air n'intervient pas dans ce mécanisme."
+        },
+        {
+          "t": "Parce que l'air humide élève la température de la peau au-delà de 37 °C",
+          "j": "L'humidité ne réchauffe pas la peau : elle gêne l'évaporation, et c'est par là qu'elle aggrave la difficulté à éliminer la chaleur."
+        }
+      ]
+    },
+    {
+      "q": "Comment la calorie, unité historique de chaleur, est-elle définie ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "La chaleur nécessaire pour élever un gramme d'eau distillée de 14,5 à 15,5 °C",
+          "correct": true,
+          "j": "La calorie correspond à la chaleur qu'il faut fournir pour élever d'un degré, de 14,5 °C à 15,5 °C, la température d'un gramme d'eau distillée ; elle n'appartient pas au Système international."
+        },
+        {
+          "t": "La chaleur nécessaire pour élever un kilogramme d'eau distillée de 14,5 à 15,5 °C",
+          "j": "La définition porte sur un gramme d'eau et non sur un kilogramme : rapportée au kilogramme, la quantité de chaleur en jeu serait mille fois plus grande."
+        },
+        {
+          "t": "La chaleur nécessaire pour porter un gramme d'eau distillée jusqu'à l'ébullition",
+          "j": "Porter l'eau jusqu'à l'ébullition suppose un échauffement de plusieurs dizaines de degrés, alors que la définition retient un intervalle d'un seul degré."
+        },
+        {
+          "t": "La chaleur nécessaire pour évaporer complètement un gramme d'eau distillée",
+          "j": "Faire passer l'eau à l'état de vapeur met en jeu une tout autre énergie que l'échauffement d'un degré sur lequel repose cette définition."
+        }
+      ]
+    },
+    {
+      "q": "Comment se comporte une substance dont la chaleur spécifique est élevée lorsqu'on lui apporte de la chaleur ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Elle en absorbe beaucoup sans que sa température s'élève beaucoup",
+          "correct": true,
+          "j": "Plus la chaleur spécifique d'une substance est élevée, plus elle peut emmagasiner de chaleur pour une faible variation de température : c'est le cas de l'eau, comparée au fer."
+        },
+        {
+          "t": "Elle n'en absorbe qu'un peu avant que sa température ne s'élève fortement",
+          "j": "C'est le comportement d'une substance à faible chaleur spécifique, qui s'échauffe vite parce qu'il lui faut peu de chaleur par degré gagné."
+        },
+        {
+          "t": "Elle transmet rapidement à son voisinage la chaleur qu'elle reçoit",
+          "j": "La facilité avec laquelle un corps fait circuler la chaleur vers ce qui l'entoure est décrite par une autre propriété que la chaleur spécifique."
+        },
+        {
+          "t": "Elle change d'état avant que sa température ait pu s'élever",
+          "j": "Un changement d'état ne dépend pas de la valeur de la chaleur spécifique, qui ne décrit que l'échauffement d'une masse donnée de substance."
+        }
+      ]
+    },
+    {
+      "q": "On apporte 5 039,6 kJ de chaleur à un corps de 60 kg dont la chaleur spécifique vaut 4,18 kJ/kg·°C. De combien sa température s'élève-t-elle ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "D'environ 20 °C",
+          "correct": true,
+          "j": "La chaleur apportée est le produit de la masse, de la chaleur spécifique et de l'élévation de température : 5 039,6 divisé par (60 × 4,18) donne environ 20 °C."
+        },
+        {
+          "t": "D'environ 84 °C",
+          "j": "Ce résultat divise la chaleur apportée par la seule masse du corps et laisse de côté sa chaleur spécifique."
+        },
+        {
+          "t": "D'environ 1 206 °C",
+          "j": "Ce résultat divise la chaleur apportée par la seule chaleur spécifique et oublie la masse qu'il faut échauffer."
+        },
+        {
+          "t": "D'environ 40 °C",
+          "j": "Ce résultat suppose une chaleur spécifique deux fois plus faible que celle indiquée, ce qui double l'élévation de température obtenue."
+        }
+      ]
+    },
+    {
+      "q": "De quelles grandeurs le flux de chaleur transmis par conduction dépend-il ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "De la surface de contact, de l'écart de température et de l'épaisseur traversée",
+          "correct": true,
+          "j": "Le flux par conduction est proportionnel à la conductivité du matériau, à la surface et à l'écart de température, et inversement proportionnel à l'épaisseur à traverser."
+        },
+        {
+          "t": "De la surface de contact, de l'écart de température et de la durée",
+          "j": "La durée ne figure pas dans cette expression : un flux rapporte déjà par lui-même la chaleur transférée à la durée du transfert."
+        },
+        {
+          "t": "De la masse des deux corps, de leur écart de température et de l'épaisseur",
+          "j": "La masse des corps n'intervient pas dans ce transfert : ce qui compte est la surface offerte au passage de la chaleur."
+        },
+        {
+          "t": "De la surface de contact, de la température du corps chaud et de l'épaisseur",
+          "j": "La température d'un corps pris seul gouverne le rayonnement qu'il émet ; la conduction, elle, met en jeu l'écart entre deux températures."
+        }
+      ]
+    },
+    {
+      "q": "Que traduit une conductivité thermique élevée pour un matériau ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Il laisse facilement passer la chaleur",
+          "correct": true,
+          "j": "La conductivité thermique est d'autant plus élevée que le matériau est permissif au passage de la chaleur : l'argent, à 429 W/m°C, en conduit bien davantage que l'air, à 0,0234 W/m°C."
+        },
+        {
+          "t": "Il s'oppose au passage de la chaleur et isole",
+          "j": "C'est une conductivité faible qui traduit une résistance au passage de la chaleur ; un matériau isolant se reconnaît à une valeur basse."
+        },
+        {
+          "t": "Il transporte la chaleur par un déplacement de matière",
+          "j": "Le transport de chaleur par déplacement de matière caractérise la convection, qui se produit dans les fluides et non à travers l'épaisseur d'un solide."
+        },
+        {
+          "t": "Il émet beaucoup de chaleur sous forme d'infrarouges",
+          "j": "L'aptitude d'un corps à émettre un rayonnement est décrite par son émissivité, une grandeur distincte de la conductivité thermique."
+        }
+      ]
+    },
+    {
+      "q": "Un radiateur réchauffe l'air d'une pièce. Pourquoi cet air chaud se met-il en mouvement ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Parce que sa densité est plus faible que celle de l'air froid, qui le remplace",
+          "correct": true,
+          "j": "Le radiateur cède d'abord sa chaleur à l'air voisin par conduction ; cet air chaud, moins dense que l'air froid, est déplacé et remplacé par celui-ci, et c'est lui qui emporte la chaleur."
+        },
+        {
+          "t": "Parce que sa densité devient plus forte que celle de l'air froid",
+          "j": "Un air devenu plus dense que l'air froid descendrait au lieu de s'élever : c'est précisément parce qu'il est plus léger que l'air chaud se déplace."
+        },
+        {
+          "t": "Parce que sa conductivité dépasse alors celle de l'air froid resté en place",
+          "j": "La conductivité d'un gaz reste très faible et ne se modifie pas avec son échauffement : elle n'explique pas la mise en mouvement observée."
+        },
+        {
+          "t": "Parce que le rayonnement émis par le radiateur pousse l'air devant lui",
+          "j": "Le radiateur commence par céder sa chaleur à l'air voisin par conduction ; c'est ensuite l'écart de densité entre air chaud et air froid, et non le rayonnement, qui met le fluide en mouvement."
+        }
+      ]
+    },
+    {
+      "q": "Dans l'expression du flux de chaleur par convection, entre quoi l'écart de température est-il mesuré ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Entre le corps solide et le fluide qui l'entoure",
+          "correct": true,
+          "j": "L'écart retenu est celui qui sépare le corps solide du fluide plus froid qui l'entoure, la surface considérée dans le calcul étant celle du corps solide."
+        },
+        {
+          "t": "Entre les deux extrémités du corps solide",
+          "j": "Un écart mesuré entre deux extrémités d'un même solide est celui qui gouverne la conduction de la chaleur à travers ce solide."
+        },
+        {
+          "t": "Entre le fluide avant et après son passage sur le corps",
+          "j": "L'échauffement du fluide est la conséquence du transfert, et non la grandeur qui figure dans le calcul du flux."
+        },
+        {
+          "t": "Entre la surface du corps et son intérieur profond",
+          "j": "La différence entre la surface et la profondeur d'un corps concerne le cheminement de la chaleur à l'intérieur de celui-ci, pas son échange avec le fluide."
+        }
+      ]
+    },
+    {
+      "q": "Quelles sont les caractéristiques de l'émissivité d'un corps ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Elle vaut entre 0 et 1 selon le matériau et n'a pas d'unité",
+          "correct": true,
+          "j": "L'émissivité est un nombre sans dimension, compris entre 0 et 1, dont la valeur dépend du matériau dont le corps est fait ; celle de la peau vaut 0,97."
+        },
+        {
+          "t": "Elle vaut entre 0 et 1 selon le matériau et s'exprime en W/m²",
+          "j": "L'émissivité ne porte aucune unité ; dans le calcul du rayonnement, ce sont la constante de Stefan-Boltzmann et la surface qui en apportent."
+        },
+        {
+          "t": "Elle est identique pour tous les matériaux et n'a pas d'unité",
+          "j": "Si sa valeur était la même partout, elle n'aurait pas à figurer comme caractéristique propre au matériau de chaque corps."
+        },
+        {
+          "t": "Elle peut dépasser 1 selon le matériau et n'a pas d'unité",
+          "j": "L'émissivité est bornée : elle varie entre 0 et 1 selon le matériau, et aucune valeur ne peut franchir cette borne supérieure."
+        }
+      ]
+    },
+    {
+      "q": "De quoi dépend le flux de chaleur qu'une personne ABSORBE par rayonnement ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "De la température du milieu qui l'entoure",
+          "correct": true,
+          "j": "Le flux absorbé par rayonnement ne dépend que de la température du milieu : on traite l'ensemble des objets entourant la personne comme un seul corps, dont la température est leur moyenne."
+        },
+        {
+          "t": "De la température de sa propre surface cutanée",
+          "j": "C'est le flux émis, et non le flux absorbé, qui est gouverné par la température de la personne elle-même."
+        },
+        {
+          "t": "De l'écart entre la température de sa peau et celle du milieu",
+          "j": "C'est le flux net, obtenu en retranchant le flux absorbé au flux émis, qui met en jeu les deux températures à la fois."
+        },
+        {
+          "t": "De la vitesse à laquelle l'air circule autour d'elle",
+          "j": "La vitesse de l'air modifie les échanges avec le fluide environnant ; le rayonnement, lui, n'a besoin d'aucun support matériel."
+        }
+      ]
+    },
+    {
+      "q": "En dessous de quelle température corporelle parle-t-on d'hypothermie ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "35 °C",
+          "correct": true,
+          "j": "On parle d'hypothermie lorsque la température du corps descend en dessous de 35 °C, l'homéostasie ayant pour tâche de maintenir cette fourchette."
+        },
+        {
+          "t": "36 °C",
+          "j": "36 °C reste à l'intérieur de la fourchette que l'organisme maintient ; le seuil retenu pour parler d'hypothermie se situe un peu plus bas."
+        },
+        {
+          "t": "37 °C",
+          "j": "Une température d'environ 37 °C est au contraire celle considérée comme idéale pour le bon fonctionnement des viscères."
+        },
+        {
+          "t": "37,5 °C",
+          "j": "Au-delà de 37,5 °C, c'est d'hyperthermie qu'il s'agit : ce seuil borne la fourchette par le haut et non par le bas."
+        }
+      ]
+    },
+    {
+      "q": "Par quel moyen l'organisme règle-t-il l'évacuation de chaleur par conduction et par convection ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Par le flux sanguin et la pression artérielle",
+          "correct": true,
+          "j": "L'évacuation de la chaleur par conduction et par convection se règle grâce au flux sanguin et à la pression artérielle, tandis que le rayonnement échappe à ce contrôle."
+        },
+        {
+          "t": "Par la quantité de chaleur que produit son métabolisme",
+          "j": "La chaleur produite par le métabolisme est ce que l'organisme doit évacuer ; elle n'est pas le levier qui règle cette évacuation."
+        },
+        {
+          "t": "Par l'émissivité de la surface de sa peau",
+          "j": "L'émissivité est fixée par le matériau et ne se modifie pas à volonté ; elle concerne d'ailleurs le rayonnement et non ces deux mécanismes."
+        },
+        {
+          "t": "Par la température des objets qui l'entourent",
+          "j": "La température du milieu s'impose à l'organisme : il la subit et ne peut pas en faire un moyen de régulation interne."
+        }
+      ]
+    },
+    {
+      "q": "Comment l'organisme peut-il moduler l'évacuation de chaleur qui accompagne la respiration ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "En contrôlant le rythme de sa respiration",
+          "correct": true,
+          "j": "L'air froid inspiré ressort chaud et saturé d'eau ; en contrôlant son rythme respiratoire, l'organisme règle la chaleur évacuée par cette évaporation dite insensible."
+        },
+        {
+          "t": "En modifiant le volume de sueur qu'il produit",
+          "j": "La production de sueur relève de la transpiration active, un mécanisme distinct de l'évaporation qui accompagne chaque cycle respiratoire."
+        },
+        {
+          "t": "En abaissant la température de l'air qu'il inspire",
+          "j": "L'air inspiré est à la température du milieu ambiant : l'organisme la subit et ne dispose d'aucun moyen de l'abaisser."
+        },
+        {
+          "t": "En réduisant la surface de peau qu'il expose",
+          "j": "Réduire la surface de peau exposée agit sur les échanges cutanés, et non sur ce qui s'évapore dans les voies aériennes."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi l'évaporation d'un gramme d'eau exige-t-elle autant d'énergie ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Parce qu'il faut rompre les liaisons hydrogène entre les molécules d'eau",
+          "correct": true,
+          "j": "À l'état liquide, les molécules d'eau sont retenues les unes aux autres par des liaisons hydrogène ; les rompre réclame l'énergie que l'organisme dissipe en évaporant sa sueur."
+        },
+        {
+          "t": "Parce qu'il faut rompre les liaisons covalentes de la molécule d'eau",
+          "j": "Les liaisons covalentes qui unissent l'oxygène et l'hydrogène restent intactes : l'eau évaporée reste de l'eau, seule sa cohésion d'ensemble est défaite."
+        },
+        {
+          "t": "Parce qu'il faut porter l'eau jusqu'à sa température d'ébullition",
+          "j": "La sueur s'évapore à la température de la peau, bien en dessous de toute ébullition : l'énergie en jeu n'est pas celle d'un échauffement."
+        },
+        {
+          "t": "Parce qu'il faut vaincre la pression de l'air sur la surface libre",
+          "j": "La pression atmosphérique ne constitue pas l'obstacle en cause ; ce sont les interactions entre molécules d'eau qui réclament cette énergie."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des énoncés suivants à propos des agents thermiques utilisés en clinique est FAUX ?",
+      "c": 13,
+      "options": [
+        {
+          "t": "Leurs effets portent sur les tissus profonds, au-delà du plan sous-cutané",
+          "correct": true,
+          "j": "C'est l'énoncé faux : ces agents produisent des changements de température au niveau de la surface, c'est-à-dire la peau et les tissus sous-cutanés superficiels."
+        },
+        {
+          "t": "Ils transfèrent la chaleur par conduction, convection ou rayonnement",
+          "j": "Énoncé exact : les agents thermiques employés en clinique transmettent la chaleur par l'un ou l'autre des trois mécanismes physiques de transfert."
+        },
+        {
+          "t": "La cryothérapie compte parmi eux les bains de contraste et les massages à la glace",
+          "j": "Énoncé exact : packs de glace, packs de froid, massages à la glace et bains de contraste sont les agents cités au titre de la cryothérapie."
+        },
+        {
+          "t": "L'emploi de ces techniques suppose une connaissance précise de la thermologie",
+          "j": "Énoncé exact : l'utilisation de ces agents est présentée comme exigeant une connaissance spécifique de la thermologie."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi la réplication de l'ADN est-elle qualifiée de processus semi-continu ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Un seul brin est copié sans interruption, l'autre l'étant par fragments d'Okazaki",
+          "correct": true,
+          "j": "La synthèse se faisant toujours dans le sens 5' vers 3', un seul des deux brins peut être allongé d'un trait ; l'autre est produit par courts fragments d'Okazaki."
+        },
+        {
+          "t": "Les deux brins sont copiés sans interruption, à des vitesses inégales",
+          "j": "Ce n'est pas la vitesse qui distingue les deux brins néoformés, mais la continuité de leur synthèse : un seul d'entre eux s'allonge sans s'arrêter."
+        },
+        {
+          "t": "La synthèse s'interrompt à chaque nouveau point d'origine rencontré",
+          "j": "Les points d'origine sont les régions où la réplication démarre, et non des points d'arrêt ; la discontinuité vient du sens imposé à la synthèse."
+        },
+        {
+          "t": "La progression ne se fait que dans un seul sens depuis le point d'origine",
+          "j": "La réplication est au contraire bidirectionnelle à partir du point d'origine, qui engendre une fourche de part et d'autre ; la direction n'est pas en cause ici."
+        }
+      ]
+    },
+    {
+      "q": "Quelle protéine du réplisome rompt les liaisons hydrogène qui unissent les deux brins de la double hélice ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "L'hélicase",
+          "correct": true,
+          "j": "L'hélicase coupe la double hélice en rompant les liaisons hydrogène entre les deux brins, ce qui dégage les matrices simple brin à recopier."
+        },
+        {
+          "t": "La topoisomérase",
+          "j": "La topoisomérase contrôle la tension topologique de la molécule pour empêcher le superenroulement ; elle ne touche pas aux appariements entre les deux brins."
+        },
+        {
+          "t": "La protéine de liaison simple brin",
+          "j": "La SSB n'agit qu'une fois les brins écartés : elle se fixe sur le brin unique pour empêcher les deux brins de se réapparier et stabilise l'ADN déroulé."
+        },
+        {
+          "t": "L'ADN polymérase",
+          "j": "L'ADN polymérase recopie une matrice qui lui est déjà rendue accessible : elle allonge une chaîne de nucléotides au lieu d'écarter les deux brins."
+        }
+      ]
+    },
+    {
+      "q": "À quoi servent les courts segments d'ARN synthétisés par les ADN primases ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "À fournir l'extrémité 3'-OH libre dont les ADN polymérases ont besoin",
+          "correct": true,
+          "j": "Les ADN polymérases sont incapables de démarrer une chaîne seules : l'amorce d'ARN leur offre l'extrémité 3'-OH à partir de laquelle elles peuvent allonger."
+        },
+        {
+          "t": "À maintenir les deux brins parentaux écartés pendant toute la durée de la copie",
+          "j": "Maintenir le brin unique accessible revient aux protéines de liaison simple brin, pas à un segment d'ARN déposé sur la matrice."
+        },
+        {
+          "t": "À signaler les points d'origine où la réplication de l'ADN doit démarrer",
+          "j": "Les points d'origine sont des régions définies de la molécule d'ADN ; l'amorce ne les désigne pas, elle est posée une fois la fourche déjà ouverte."
+        },
+        {
+          "t": "À protéger la chaîne néoformée de l'activité exonucléase des polymérases",
+          "j": "L'activité exonucléase 5'→3' et/ou 3'→5' est une propriété des ADN polymérases elles-mêmes, et rien ne met l'amorce à l'abri : elle est au contraire retirée, puis remplacée par de l'ADN."
+        }
+      ]
+    },
+    {
+      "q": "Les amorces ont été retirées et remplacées par de l'ADN, mais une coupure subsiste dans la chaîne. Quelle enzyme la scelle ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "L'ADN ligase",
+          "correct": true,
+          "j": "La petite empreinte, ou coupure, qui subsiste après le remplacement des amorces est scellée par les ligases, qui rétablissent la continuité de la chaîne."
+        },
+        {
+          "t": "La primase",
+          "j": "La primase intervient au tout début de la synthèse, en posant les amorces ; elle n'a plus de rôle une fois celles-ci retirées."
+        },
+        {
+          "t": "L'ADN polymérase",
+          "j": "La polymérase a bien comblé l'espace laissé par l'amorce en ajoutant des désoxyribonucléotides, mais elle laisse subsister la coupure qu'une autre enzyme doit refermer."
+        },
+        {
+          "t": "La topoisomérase",
+          "j": "La topoisomérase supprime les tensions de torsion de la molécule ; une coupure laissée dans une seule chaîne n'est pas une contrainte topologique."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'action de la télomérase sur les chromosomes d'une cellule eucaryote ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Elle prolonge la chaîne modèle en synthétisant des copies supplémentaires de la séquence répétée",
+          "correct": true,
+          "j": "En allongeant la chaîne modèle par des copies supplémentaires de la séquence répétée, la télomérase empêche le raccourcissement qu'entraîne chaque réplication d'une molécule d'ADN linéaire."
+        },
+        {
+          "t": "Elle retire les répétitions excédentaires pour ramener le chromosome à sa longueur de départ",
+          "j": "Raccourcir le chromosome est précisément ce que la réplication lui fait subir ; l'enzyme corrige cette perte au lieu de l'aggraver."
+        },
+        {
+          "t": "Elle réunit les deux extrémités du chromosome pour le refermer sur lui-même en boucle",
+          "j": "Une fermeture circulaire caractérise d'autres types de molécules d'ADN ; les chromosomes eucaryotes restent linéaires et leurs extrémités sont allongées, non raboutées."
+        },
+        {
+          "t": "Elle transfère des séquences répétées d'un chromosome vers un autre pendant la division",
+          "j": "Aucun échange de matériel entre chromosomes n'intervient ici : l'enzyme agit sur l'extrémité du chromosome qu'elle allonge, et sur elle seule."
+        }
+      ]
+    },
+    {
+      "q": "Quelle proportion de la durée du cycle cellulaire l'interphase occupe-t-elle ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Environ 90 %",
+          "correct": true,
+          "j": "L'interphase occupe à elle seule près de 90 % du cycle : la cellule y grandit, duplique ses chromosomes et commence à répliquer ses organites."
+        },
+        {
+          "t": "Environ 70 %",
+          "j": "Sept dixièmes restent en deçà de la part réelle de l'interphase, qui laisse à la phase de division une fraction bien plus mince du cycle."
+        },
+        {
+          "t": "Environ 50 %",
+          "j": "Partager le cycle en deux moitiés égales reviendrait à donner à la division autant de temps qu'à l'interphase, ce qui surestime largement la première."
+        },
+        {
+          "t": "Environ 25 %",
+          "j": "Un quart du cycle pour l'interphase laisserait les trois quarts à la phase de division, alors que c'est l'interphase qui occupe la quasi-totalité du cycle et la division une fraction bien plus mince."
+        }
+      ]
+    },
+    {
+      "q": "Quel événement se déroule au cours de la phase S du cycle cellulaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "La réplication du centriole, qui duplique le centrosome",
+          "correct": true,
+          "j": "C'est au cours de la phase S que le centriole est répliqué, et le centrosome s'en trouve dupliqué."
+        },
+        {
+          "t": "L'assemblage du fuseau bipolaire autour des deux centrosomes",
+          "j": "L'assemblage du fuseau mitotique appartient à la prophase, donc à la phase de division et non à l'interphase."
+        },
+        {
+          "t": "Le positionnement de chaque paire de centrioles à un pôle opposé",
+          "j": "Chaque paire de centrioles ne gagne un pôle opposé de la cellule qu'au moment d'organiser les microtubules du fuseau, bien après la phase de synthèse."
+        },
+        {
+          "t": "La maturation des kinétochores des chromosomes",
+          "j": "Les kinétochores n'arrivent à maturité au niveau des centromères qu'en prométaphase, une fois la mitose déjà engagée."
+        }
+      ]
+    },
+    {
+      "q": "Quelles protéines la cellule synthétise-t-elle au cours de la phase G2 ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Des protéines qui déstabilisent l'enveloppe nucléaire",
+          "correct": true,
+          "j": "G2 est la phase préparatoire à la mitose : la cellule y fabrique les protéines qui déstabilisent l'enveloppe nucléaire, et c'est une phase plus courte."
+        },
+        {
+          "t": "Des protéines qui condensent la chromatine",
+          "j": "La condensation de la chromatine est un événement de la prophase, et non une synthèse protéique qui précéderait l'entrée en mitose."
+        },
+        {
+          "t": "Les histones destinées à l'ADN nouvellement répliqué",
+          "j": "Les histones sont fabriquées pendant la phase S, en même temps que l'ADN qu'elles doivent emballer, donc avant G2."
+        },
+        {
+          "t": "Les protéines de l'anneau contractile animal",
+          "j": "Le partage du cytoplasme intervient tout à la fin de la division ; G2 prépare l'entrée en mitose, pas sa conclusion."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des énoncés suivants concernant la phase G0 est FAUX ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "La cellule y est métaboliquement inactive",
+          "correct": true,
+          "j": "Énoncé faux, donc réponse attendue : une cellule en G0 ne se divise pas, mais elle reste métaboliquement active et continue d'assurer ses fonctions."
+        },
+        {
+          "t": "C'est une phase de repos, ou quiescence",
+          "j": "Énoncé vrai : G0 est bien décrite comme une phase de repos, hors du déroulement du cycle de division."
+        },
+        {
+          "t": "C'est une phase de différenciation cellulaire",
+          "j": "Énoncé vrai : c'est en G0 que la cellule se spécialise et se différencie, au lieu de poursuivre le cycle."
+        },
+        {
+          "t": "La cellule peut réintégrer le cycle ultérieurement",
+          "j": "Énoncé vrai : la sortie en G0 n'est pas définitive, la cellule pouvant réintégrer le cycle dans certaines conditions."
+        }
+      ]
+    },
+    {
+      "q": "Quel est le devenir du nucléole au cours de la mitose ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Il s'efface progressivement en prophase, puis les nucléoles réapparaissent en télophase",
+          "correct": true,
+          "j": "La disparition du nucléole est progressive et appartient à la prophase ; les nucléoles réapparaissent en télophase, au moment où les chromosomes se décondensent."
+        },
+        {
+          "t": "Il se désagrège brutalement en prométaphase, puis réapparaît en anaphase",
+          "j": "Aucune désagrégation brutale du nucléole n'a lieu : son effacement est progressif et appartient au tout début de la mitose, et il n'y a rien à voir en anaphase, où les chromatides ont déjà commencé à migrer."
+        },
+        {
+          "t": "Il reste intact jusqu'à la métaphase, puis se fragmente au cours de l'anaphase",
+          "j": "Aucune fragmentation du nucléole n'a lieu en anaphase : il a déjà disparu lorsque les chromatides sont tirées vers les pôles opposés."
+        },
+        {
+          "t": "Il se dédouble dès la prophase pour fournir un nucléole à chaque cellule fille",
+          "j": "Le nucléole ne se dédouble pas comme le fait le matériel génétique : il s'efface au début de la mitose, et chaque noyau-fils en reconstitue un."
+        }
+      ]
+    },
+    {
+      "q": "Quels microtubules du fuseau mitotique relient chaque pôle au cortex cellulaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les microtubules de l'aster",
+          "correct": true,
+          "j": "Les microtubules astériens lient chaque pôle du fuseau vers le cortex cellulaire : c'est au pôle que les centrioles organisent les microtubules de façon radiale."
+        },
+        {
+          "t": "Les microtubules polaires",
+          "j": "Les microtubules polaires issus d'un centriole vont se lier à ceux du centriole opposé, au centre du fuseau, et non vers la périphérie de la cellule."
+        },
+        {
+          "t": "Les microtubules kinétochoriens",
+          "j": "Les microtubules kinétochoriens ont pour cible le chromosome, qu'ils relient aux pôles du fuseau, et non le cortex cellulaire."
+        },
+        {
+          "t": "Les microtubules du centromère",
+          "j": "« Microtubules du centromère » n'est pas une des catégories du fuseau : celui-ci se compose de microtubules astériens, polaires et kinétochoriens, et aucun n'est désigné par le centromère."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qui caractérise l'anaphase B par rapport à l'anaphase A ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les microtubules polaires s'allongent et les pôles s'éloignent",
+          "correct": true,
+          "j": "L'anaphase B tient à l'allongement des microtubules polaires, qui permet aux deux pôles du fuseau de s'écarter l'un de l'autre."
+        },
+        {
+          "t": "Les microtubules kinétochoriens se raccourcissent et tirent les chromatides",
+          "j": "Ce raccourcissement des microtubules kinétochoriens définit précisément l'anaphase A ; l'anaphase B met en jeu l'autre catégorie de microtubules."
+        },
+        {
+          "t": "Les microtubules de l'aster se raccourcissent et rapprochent les pôles",
+          "j": "Aucun rapprochement des pôles n'a lieu en anaphase : ils s'éloignent au contraire l'un de l'autre à mesure que le fuseau s'étire."
+        },
+        {
+          "t": "Les kinétochores se séparent et libèrent les chromatides",
+          "j": "La séparation des kinétochores marque le déclenchement brusque de l'anaphase dans son ensemble : elle ne distingue donc pas son second temps du premier."
+        }
+      ]
+    },
+    {
+      "q": "À quel moment la segmentation du cytoplasme commence-t-elle ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Entre la fin de l'anaphase et la télophase",
+          "correct": true,
+          "j": "La segmentation du cytoplasme ne suit pas la mitose, elle la chevauche : elle s'amorce entre la fin de l'anaphase et la télophase."
+        },
+        {
+          "t": "Dès l'entrée dans la prométaphase",
+          "j": "La prométaphase est tout entière consacrée à la capture des chromosomes par le fuseau ; le cytoplasme n'est pas encore engagé dans son partage."
+        },
+        {
+          "t": "Au moment de l'alignement sur la plaque équatoriale",
+          "j": "L'alignement des chromosomes précède encore leur séparation : partager le cytoplasme à ce stade couperait la cellule avant la répartition du matériel génétique."
+        },
+        {
+          "t": "Seulement une fois la télophase complètement achevée",
+          "j": "La segmentation est déjà amorcée lorsque les noyaux-fils se reconstituent : elle n'attend pas la fin de la télophase pour débuter."
+        }
+      ]
+    },
+    {
+      "q": "Que font les kinases dépendantes des cyclines (CDK) une fois activées ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Elles lient des groupes phosphate à d'autres protéines",
+          "correct": true,
+          "j": "Une CDK est une kinase : activée par une cycline, elle lie des groupes phosphate à d'autres protéines, et c'est ainsi qu'elle commande les événements clés du cycle."
+        },
+        {
+          "t": "Elles retirent des groupes phosphate portés par d'autres protéines",
+          "j": "Retirer un phosphate est une déphosphorylation, l'opération exactement inverse de celle qu'accomplit une kinase sur ses protéines cibles."
+        },
+        {
+          "t": "Elles détruisent les protéines devenues inutiles à la cellule",
+          "j": "Une CDK ne détruit pas ses cibles : elle les modifie chimiquement, et cette seule modification suffit à changer leur activité."
+        },
+        {
+          "t": "Elles se fixent sur l'ADN pour commander la lecture des gènes",
+          "j": "Les CDK agissent sur des protéines et non sur l'ADN : aucune fixation directe sur la molécule d'ADN ne leur est attribuée."
+        }
+      ]
+    },
+    {
+      "q": "Quel comportement les cyclines adoptent-elles au cours du cycle cellulaire ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Elles sont synthétisées puis dégradées à différentes étapes",
+          "correct": true,
+          "j": "Les cyclines varient tout au long du cycle : synthétisées puis dégradées selon l'étape, elles se lient aux Cdk et décident lesquelles seront actives à chaque moment."
+        },
+        {
+          "t": "Elles restent à concentration constante d'un bout à l'autre du cycle",
+          "j": "Une concentration fixe les rendrait incapables de marquer les étapes : leur quantité varie au contraire d'une phase du cycle à l'autre."
+        },
+        {
+          "t": "Elles s'accumulent régulièrement sans jamais être éliminées",
+          "j": "Une accumulation définitive ne permettrait plus de refermer une étape : après avoir joué leur rôle, les cyclines sont éliminées."
+        },
+        {
+          "t": "Elles ne sont produites qu'une seule fois, avant l'entrée en G1",
+          "j": "Une production unique en début de cycle ne pourrait pas commander des étapes successives : à chaque étape correspondent des cyclines propres."
+        }
+      ]
+    },
+    {
+      "q": "Un gène dont le produit stimule la division cellulaire subit une mutation. Quelle en est la conséquence attendue ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Il devient hyperactif, et la mutation tend à être dominante",
+          "correct": true,
+          "j": "La mutation d'un gène stimulateur le rend hyperactif ou l'active au mauvais moment, et elle a tendance à être dominante : le gène ainsi muté est un oncogène."
+        },
+        {
+          "t": "Il est inactivé, et la mutation tend à être récessive",
+          "j": "L'inactivation à caractère récessif est ce qui arrive aux gènes qui inhibent la division cellulaire, les gènes suppresseurs de tumeurs."
+        },
+        {
+          "t": "Il est inactivé, et la mutation tend à être dominante",
+          "j": "L'inactivation d'un gène se manifeste plutôt sur le mode récessif, et c'est un gène inhibiteur, non stimulateur, qu'une mutation inactive."
+        },
+        {
+          "t": "Il devient hyperactif, et la mutation tend à être récessive",
+          "j": "Une activité excessive s'impose même lorsque l'allèle normal est présent : une telle mutation tend donc à être dominante, et non récessive."
+        }
+      ]
+    }
   ],
   "structure1": [
     {
