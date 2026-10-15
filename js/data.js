@@ -29514,33 +29514,647 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Les premiers êtres vivants :","c":2,"options":[{"t":"Ils étaient aérobies","j":"Le cours date les cellules aérobies de 2 000 × 10⁶ ans, bien après le progénote : confondre « premier vivant » et « respiration à l'oxygène » inverse la chronologie (ch. 2, p. 15)."},{"t":"Ils étaient hétérotrophes","correct":true,"j":"Le cours décrit les premiers descendants du progénote comme hétérotrophes, dépendants de la soupe prébiotique (ch. 2, p. 15)."},{"t":"Ils ont fait de la photosynthèse","j":"Les organismes photosynthétiques ne sont datés qu'entre 3 100 et 3 400 × 10⁶ ans, après la cellule procaryote anaérobie de 3 500 × 10⁶ ans (ch. 2, p. 15)."},{"t":"Ils étaient eucaryotes","j":"Le cours situe les cellules eucaryotes entre 1 500 et 1 700 × 10⁶ ans : la première cellule est procaryote et anaérobie, pas eucaryote (ch. 2, p. 15)."}]},
-    {"q":"Laquelle de ces affirmations à propos des cellules eucaryotes et procaryotes est FAUSSE ?","c":2,"options":[{"t":"Généralement, les cellules PROCARYOTES sont plus petites que les EUCARYOTES","j":"Le tableau comparatif donne 1-10 µm pour les procaryotes contre 10-100 µm pour les eucaryotes : l'affirmation est donc exacte (ch. 2, p. 17)."},{"t":"Les bactéries sont des cellules PROCARYOTES","j":"Le cours classe explicitement bactéries et cyanobactéries dans la colonne des procaryotes de son tableau d'organisations (ch. 2, p. 17)."},{"t":"Les cellules EUCARYOTES possèdent des organites/organelles spécialisés dans différentes fonctions","j":"Le tableau attribue le système endomembranaire aux seuls eucaryotes, ce qui valide cette proposition (ch. 2, p. 17)."},{"t":"Les cellules PROCARYOTES ont un noyau","correct":true,"j":"Le tableau porte « Noyau cellulaire : NON » pour les procaryotes ; posséder de l'ADN n'est pas posséder un noyau, c'est la confusion visée ici (ch. 2, p. 17)."}]},
-    {"q":"Indiquez la mauvaise réponse. Cellules procaryotes et eucaryotes :","c":2,"options":[{"t":"Ils présentent différents types d'ADN.","j":"Le tableau oppose un ADN circulaire et nu chez les procaryotes à un ADN linéaire associé aux histones chez les eucaryotes : la proposition est donc correcte (ch. 2, p. 17)."},{"t":"Ils diffèrent entre autres par le fait que les procaryotes n'ont pas de cytosquelette et les eucaryotes en ont un.","j":"La ligne « Cytoplasme » du tableau indique « Pas de cytosquelette » pour les procaryotes et « Avec cytosquelette » pour les eucaryotes (ch. 2, p. 17)."},{"t":"Ils ont différents mécanismes de division cellulaire.","j":"Le cours attribue la fission binaire aux procaryotes et la mitose aux eucaryotes : les deux mécanismes sont bien distincts (ch. 2, p. 17)."},{"t":"Ils effectuent des processus de transcription et de traduction dans le même compartiment.","correct":true,"j":"C'est la proposition fausse : chez l'eucaryote, l'enveloppe nucléaire sépare les deux étapes en deux compartiments distincts (ch. 9, p. 13 et 16) ; généraliser aux deux types cellulaires l'organisation sans noyau du procaryote est l'erreur piégée."}]},
-    {"q":"Laquelle des molécules suivantes est un glucide ?","c":1,"options":[{"t":"Phospholipide","j":"Le cours range le phospholipide parmi les lipides d'importance biologique (groupe polaire + 2 acides gras), pas parmi les chaînes de C, H et O des glucides (ch. 1, p. 15)."},{"t":"Lactose","correct":true,"j":"Le cours cite le lactose comme disaccharide, formé de deux molécules (glucose + galactose) dans la section Glucides (ch. 1, p. 11)."},{"t":"Cholestérol","j":"Le cholestérol est présenté comme un lipide sans acide gras, à noyau stéroïde, et non comme un sucre : sa présence dans les membranes ne le rend pas glucidique (ch. 1, p. 15)."},{"t":"ARN","j":"L'ARN est un acide nucléique, chaîne de nucléotides ; il contient certes un sucre, le ribose, mais la molécule elle-même n'est pas classée parmi les glucides (ch. 1, p. 13 et 17)."}]},
-    {"q":"Quelle molécule de base (monomère) forme les PROTÉINES ?","c":1,"options":[{"t":"Nucléotides","j":"Le cours définit le nucléotide comme l'unité répétitive de l'ADN et de l'ARN, c'est-à-dire d'une tout autre famille de biomolécules (ch. 1, p. 17)."},{"t":"Monosaccharides","j":"Le glucose et le fructose sont des sucres simples traités dans la section Glucides du cours ; ils n'entrent pas dans la chaîne polypeptidique (ch. 1, p. 11)."},{"t":"Acides gras","j":"Les acides gras, saturés ou insaturés, appartiennent à la section Lipides ; ils composent les triglycérides et les phospholipides, pas les protéines (ch. 1, p. 14-15)."},{"t":"Acides aminés","correct":true,"j":"Le cours énonce que les protéines sont « composées d'acides aminés (aa) », avec les 20 aa et leur formule générale (ch. 1, p. 20)."}]},
-    {"q":"Quel type de molécule ne fait pas partie de la membrane ?","c":3,"options":[{"t":"Phospholipides","j":"Le cours en fait le premier des trois types de lipides membranaires et la molécule qui forme spontanément la bicouche (ch. 3, p. 10-12)."},{"t":"Cholestérol","j":"Le cholestérol figure comme deuxième type de lipide membranaire, avec son groupe polaire, son anneau stéroïde et sa queue apolaire (ch. 3, p. 10-11)."},{"t":"Acide nucléique","correct":true,"j":"La composition chimique de la membrane ne retient que les hydrates de carbone, les lipides et les protéines ; les acides nucléiques sont au contraire rangés parmi les molécules polaires chargées qui ne franchissent pas la bicouche (ch. 3, p. 6 et 22)."},{"t":"Protéine","j":"Les protéines comptent pour environ 45 % de la membrane du globule rouge et y assurent transport, ancrage et réception (ch. 3, p. 6 et 15)."}]},
-    {"q":"Les membranes biologiques sont composées de :","c":3,"options":[{"t":"50 % de protéines et 50 % de phospholipides","j":"Ce partage exclut les hydrates de carbone, que le cours compte pourtant parmi les composants de toute membrane plasmique (ch. 3, p. 6)."},{"t":"Glucides, protéines et lipides, dans des proportions différentes selon le type de cellule ou de membrane","correct":true,"j":"Le cours énonce que toutes les membranes ont les mêmes composants mais qu'« ils apparaissent dans des proportions différentes selon les membranes », les pourcentages donnés valant pour les globules rouges (ch. 3, p. 6)."},{"t":"50 % de lipides et 50 % de protéines","j":"Figer la composition à deux familles en parts égales revient à prendre pour universels des pourcentages que le cours rattache expressément au globule rouge (ch. 3, p. 6)."},{"t":"Phospholipides seulement","j":"Le phospholipide n'est qu'un des trois types de lipides membranaires, aux côtés du cholestérol et des glycolipides, et les lipides ne sont pas les seuls composants (ch. 3, p. 6 et 10)."}]},
-    {"q":"Quelle est la perméabilité sélective de la membrane cytoplasmique ?","c":3,"options":[{"t":"En ce sens qu'il y a des molécules qui ne peuvent traverser la membrane que si elles le font en transportant des protéines","correct":true,"j":"Le cours pose la bicouche comme semi-perméable et demande comment entrent les nutriments trop volumineux comme le glucose ou les acides aminés : « par des protéines de transport » (ch. 3, p. 21)."},{"t":"Qu'il y a des molécules qui ne peuvent jamais traverser la membrane","j":"Le tableau de la perméabilité ne décrit aucune catégorie définitivement exclue : les ions et les molécules polaires chargées passent par des protéines, non par la bicouche (ch. 3, p. 21-22)."},{"t":"Dans lequel n'importe quel type de molécule peut traverser librement la membrane","j":"Seuls les gaz passent librement d'après le cours ; confondre la sélectivité avec une perméabilité totale vide le terme de son sens (ch. 3, p. 21-22)."},{"t":"La perméabilité de la membrane n'est pas sélective","j":"Le cours écrit littéralement que la bicouche lipidique est semi-perméable, c'est-à-dire douée de perméabilité sélective (ch. 3, p. 21)."}]},
-    {"q":"Lequel de ces types de transport nécessite une DÉPENSE D'ÉNERGIE ?","c":3,"options":[{"t":"Pinocytose","j":"La pinocytose relève du transport des solutés de grande taille par vésicules, branche que l'organigramme du cours ne classe pas dans l'opposition passif/actif des petits solutés (ch. 3, p. 20)."},{"t":"Diffusion simple","j":"L'organigramme la place sous « TRANSPORT PASSIF — sans dépense d'ÉNERGIE », et le cours la définit comme un mouvement spontané (ch. 3, p. 20 et 25)."},{"t":"Transport actif primaire","correct":true,"j":"Le cours le range sous « TRANSPORT ACTIF — avec dépense d'ÉNERGIE » et précise qu'une protéine pompe utilise l'ATP pour transporter contre un gradient (ch. 3, p. 20, 23 et 32)."},{"t":"Diffusion facilitée","j":"Elle est médiée par des protéines de transport mais s'effectue en faveur du gradient et sans dépense d'énergie : la présence d'une protéine ne signifie pas consommation d'ATP (ch. 3, p. 27)."}]},
-    {"q":"Lequel des types de transport suivants est un mécanisme DE SORTIE de la cellule EXCLUSIVEMENT ?","c":3,"options":[{"t":"Transcytose","j":"Le cours la classe dans la catégorie « ENTRÉE et SORTIE » : une endocytose est suivie d'une exocytose, donc la sortie n'y est pas exclusive (ch. 3, p. 20 et 40)."},{"t":"Exocytose","correct":true,"j":"L'organigramme des solutés de grande taille ne place qu'elle sous « SORTIE » : une vésicule interne fusionne avec la membrane plasmique pour libérer son contenu (ch. 3, p. 20 et 39)."},{"t":"Pinocytose","j":"Elle figure dans la colonne « ENTRÉE » de l'organigramme et correspond à l'absorption du liquide extracellulaire (ch. 3, p. 20 et 37)."},{"t":"Endocytose via récepteur","j":"Le cours la range également en « ENTRÉE », comme absorption sélective de macromolécules spécifiques (ch. 3, p. 20 et 37)."}]},
-    {"q":"Lequel des types suivants de transport est un mécanisme d'entrée non spécifique ?","c":3,"options":[{"t":"L'exocytose","j":"Le cours la classe dans la colonne « SORTIE » de l'organigramme, pas dans les mécanismes d'entrée, qu'ils soient spécifiques ou non (ch. 3, p. 20 et 39)."},{"t":"L'endocytose via récepteur","j":"Le tableau du cours la coche « Spécifique » : elle capte sélectivement des macromolécules reconnues par un récepteur (ch. 3, p. 36-37)."},{"t":"La phagocytose","j":"Le tableau la coche également « Spécifique » ; elle vise des cellules endommagées ou des bactéries, ce qui la distingue d'une absorption indifférenciée (ch. 3, p. 36-37)."},{"t":"La pinocytose","correct":true,"j":"Elle est la seule que le tableau coche « Non spécifique » : le cours la définit comme l'absorption non spécifique du liquide extracellulaire (ch. 3, p. 36-37)."}]},
-    {"q":"Les mécanismes de l'endocytose consistent en :","c":3,"options":[{"t":"L'invagination de la membrane pour faire diminuer la taille de la cellule","j":"L'invagination décrite par le cours sert à entourer le matériel à introduire, non à réduire le volume cellulaire : la finalité est l'incorporation, pas le rétrécissement (ch. 3, p. 37)."},{"t":"L'introduction dans la cellule de substances par la formation de vésicules","correct":true,"j":"Le cours range l'endocytose sous « ENTRÉE » des solutés de grande taille et la décrit ainsi : le matériel est entouré d'une membrane, invagination, puis la vésicule se forme (ch. 3, p. 20 et 37)."},{"t":"L'expulsion de substances de la cellule par la formation de vésicules","j":"C'est la définition de l'exocytose, placée dans la colonne « SORTIE » : confondre les deux sens de trafic vésiculaire est l'erreur visée (ch. 3, p. 20 et 39)."},{"t":"Tout ce qui précède est vrai","j":"Cette option supposerait que l'endocytose soit aussi une expulsion, alors que le cours sépare nettement entrée, sortie et transcytose (ch. 3, p. 20)."}]},
-    {"q":"Les végétaux n'ont pas de cholestérol dans leurs membranes. Quel peut être le mécanisme permettant à certains végétaux de garder un haut degré de fluidité de leurs membranes cellulaires à des températures faibles ?","c":3,"options":[{"t":"En augmentant le pourcentage des phospholipides insaturés dans leurs membranes","correct":true,"j":"Le cours pose que l'insaturation des acides gras fournit de la fluidité : plus le degré d'insaturation des chaînes est élevé, plus la fluidité est élevée (ch. 3, p. 13)."},{"t":"En augmentant la proportion de cholestérol dans leurs membranes","j":"L'énoncé exclut lui-même cette voie, puisque les membranes végétales considérées sont dépourvues de cholestérol (ch. 3, p. 13)."},{"t":"En augmentant le pourcentage de protéines hydrophobes dans leurs membranes","j":"Le cours rattache la fluidité à la composition lipidique et à la température, et n'attribue nulle part ce rôle aux protéines membranaires (ch. 3, p. 13 et 15)."},{"t":"A et B sont correctes","j":"Elle reprend une proposition impossible, le cholestérol étant absent de ces membranes par hypothèse de l'énoncé (ch. 3, p. 13)."}]},
-    {"q":"Toutes les fonctions décrites ici sont propres aux protéines intégrales, sauf :","c":3,"options":[{"t":"L'adhesion cellulaire","j":"La liste des fonctions des protéines membranaires comprend le fait de faire partie des structures d'union entre cellules pour former les tissus (ch. 3, p. 15)."},{"t":"La synthèse des protéines","correct":true,"j":"Elle ne figure dans aucune des six fonctions énumérées par le cours pour les protéines membranaires ; la fabrication des protéines revient aux ribosomes (ch. 3, p. 15 ; ch. 9, p. 8)."},{"t":"L'union au cytosquelette","j":"Le cours mentionne explicitement « connecter la membrane avec le cytosquelette » parmi les fonctions des protéines membranaires (ch. 3, p. 15)."},{"t":"Le transport actif","j":"Le transport de molécules ouvre la liste des fonctions, et le transport actif primaire est assuré par une protéine pompe qui utilise l'ATP (ch. 3, p. 15 et 32)."}]},
-    {"q":"Un patient du groupe sanguin A pourrait recevoir du sang d'un patient de :","c":3,"options":[{"t":"Groupe 0","correct":true,"j":"Le cours rattache les groupes ABO aux hydrates de carbone de surface, l'antigène A étant la N-acétylgalactosamine et l'antigène B le galactose ; un receveur A ne tolère aucun galactose antigénique, et seul le groupe 0 n'en porte pas (ch. 3, p. 17)."},{"t":"Groupe B","j":"Le donneur B expose le galactose antigénique, que le receveur A ne possède pas et ne tolère donc pas (ch. 3, p. 17)."},{"t":"Groupe AB","j":"Le donneur AB porte les deux déterminants glucidiques à la fois, dont celui qui est étranger au receveur A (ch. 3, p. 17)."},{"t":"Le groupe 0 et le groupe AB","j":"Elle associe au groupe 0, acceptable, un donneur AB qui ne l'est pas : la compatibilité d'un donneur dépourvu d'antigène ne s'étend pas à un donneur qui les porte tous (ch. 3, p. 17)."}]},
-    {"q":"Si un patient appartient au groupe sanguin B, quel groupe sanguin devrait être le donneur afin qu'il n'y ait pas de problème de transfusion ?","c":3,"options":[{"t":"Groupe 0","j":"Ce donneur convient, mais la proposition est incomplète : elle écarte à tort un second groupe également compatible avec ce receveur (ch. 3, p. 17)."},{"t":"Groupe B","j":"Ce donneur convient lui aussi, puisqu'il expose le même déterminant glucidique que le receveur, mais il n'est pas le seul possible (ch. 3, p. 17)."},{"t":"Groupe AB","j":"Le donneur AB ajoute au galactose du groupe B la N-acétylgalactosamine du groupe A, déterminant étranger à ce receveur (ch. 3, p. 17)."},{"t":"A et B sont corrects","correct":true,"j":"Le cours identifie l'antigène B au galactose : un receveur B accepte à la fois le donneur qui porte ce même déterminant et le donneur qui n'en porte aucun (ch. 3, p. 17)."}]},
-    {"q":"Lequel des composés suivants ne traversera PAS la membrane plasmique par simple diffusion ?","c":3,"options":[{"t":"Éthanol","j":"Le tableau de perméabilité range l'éthanol parmi les petites molécules non chargées, avec l'urée et les stéroïdes, qui franchissent la bicouche (ch. 3, p. 22)."},{"t":"CO2","j":"Le cours indique que les gaz passent librement à travers la membrane et cite nommément le CO2 (ch. 3, p. 21-22)."},{"t":"O2","j":"Comme le CO2, il appartient à la ligne « Gaz » du tableau de perméabilité et n'a besoin d'aucune protéine de transport (ch. 3, p. 21-22)."},{"t":"LDL","correct":true,"j":"Le LDL n'est pas une petite molécule mais une particule que le cours fait entrer par endocytose via récepteur, lors de l'incorporation du cholestérol : son caractère lipidique ne lui ouvre pas la diffusion simple (ch. 3, p. 37)."}]},
-    {"q":"Les récepteurs associés aux protéines G :","c":6,"options":[{"t":"Ils sont des récepteurs de molécules liposolubles","j":"Une molécule message liposoluble traverse la membrane et ne dépend pas d'un récepteur de surface comme l'est un récepteur couplé aux protéines G (ch. 6A, p. 37)."},{"t":"Ils sont des récepteurs de molécules hydrosolubles","correct":true,"j":"Le cours pose que les molécules message hydrosolubles ont des récepteurs seulement au niveau de la membrane de la cellule cible, catégorie à laquelle appartiennent les récepteurs couplés aux protéines G (ch. 6A, p. 37 et 28)."},{"t":"Interactions avec l'ADN directement pour réguler la transcription","j":"La liaison directe à des séquences d'ADN est le propre des récepteurs intracellulaires, non d'un récepteur transmembranaire relayé par une protéine G (ch. 6A, p. 36)."},{"t":"Le récepteur nicotinique de l'acétylcholine est un exemple de ce type de récepteur","j":"Le récepteur nicotinique est un canal ionique activé par un ligand, donc une famille de récepteurs distincte de celle qui recrute une protéine G trimérique (ch. 3, p. 29 ; ch. 6A, p. 25)."}]},
-    {"q":"Qu'est-ce qu'un antagoniste ?","c":6,"options":[{"t":"Un ligand endogène qui active le récepteur en s'y liant","j":"Le schéma du cours appelle cela le « primary ligand », le ligand naturel qui déclenche la réponse, et le distingue de l'antagoniste (ch. 6A, p. 39)."},{"t":"Un ligand exogène qui active le récepteur en s'y liant","j":"C'est la définition que le cours donne de l'agoniste : une substance exogène capable de se lier à un récepteur et de provoquer une réponse dans la cellule (ch. 6A, p. 39)."},{"t":"Un ligand qui, lorsqu'il se lie au récepteur, l'empêche de s'activer","correct":true,"j":"Le schéma « relation messager-récepteur » montre l'antagoniste occupant le récepteur avec la mention « no response », et l'exemple des bêta-bloquants sans agonisme donne un effet physiologique nul (ch. 6A, p. 39 et 41)."},{"t":"Un ligand qui, lorsqu'il est lié à un récepteur, produit une réaction toxique au corps","j":"Le cours définit l'antagonisme par l'absence de réponse du récepteur, non par une toxicité : bloquer un récepteur est d'ailleurs un effet thérapeutique recherché (ch. 6A, p. 39 et 41)."}]},
-    {"q":"Molécules de message solubles dans l'eau :","c":6,"options":[{"t":"Elles sont transportées librement dans le plasma","correct":true,"j":"Le cours écrit, sous « MOLÉCULES MESSAGE HYDROSOLUBLES », qu'elles sont transportées librement dans le plasma (ch. 6A, p. 37)."},{"t":"Elles ont des récepteurs cytoplasmiques","j":"Le cours réserve les récepteurs cytoplasmiques aux molécules message liposolubles, capables de franchir la membrane (ch. 6A, p. 35 et 37)."},{"t":"Elles sont transportées associées à des protéines dans le plasma","j":"Ce mode de transport est celui que le cours attribue aux molécules liposolubles, précisément parce qu'elles sont peu solubles dans le plasma aqueux (ch. 6A, p. 37)."},{"t":"Elles présentent des récepteurs nucléaires dans la cellule cible","j":"Les récepteurs nucléaires sont activés par des ligands lipophiles qui traversent facilement la membrane plasmique, ce qu'une molécule hydrosoluble ne fait pas (ch. 6A, p. 35 et 37)."}]},
-    {"q":"L'insuline est une hormone hydrosoluble qui joue un rôle clé dans le maintien de concentrations adéquates de glucose dans le sang. Comment exerce-t-elle cette fonction ?","c":12,"options":[{"t":"Réguler le nombre de transporteurs de glucose au niveau de la membrane plasmique","correct":true,"j":"Le cours écrit que cette hormone provoque l'augmentation du nombre de transporteurs de glucose sur la membrane plasmique, permettant une meilleure absorption du glucose (ch. 12, p. 34)."},{"t":"Traverser la membrane plasmique et interagir avec l'ADN pour réguler la transcription","j":"Ce mode d'action est celui des messagers liposolubles ; l'énoncé précise que l'insuline est hydrosoluble, donc dotée de récepteurs membranaires seulement (ch. 6A, p. 37)."},{"t":"Permettre le passage du glucose par simple diffusion","j":"Le glucose est une grande molécule polaire que le cours exclut de la diffusion simple : il lui faut une protéine de transport, quelle que soit l'hormone (ch. 3, p. 21-22)."},{"t":"Consommer de l'ATP à travers la protéine C","j":"Le cours ne décrit aucune « protéine C » consommatrice d'ATP dans l'action de l'insuline, qu'il rattache aux canaux GLUT4 de la membrane (ch. 12, p. 34)."}]},
-    {"q":"Quel procédé permet de produire le NADH nécessaire pour lancer la chaîne de transport des électrons au niveau du complexe I mitochondrial ?","c":12,"options":[{"t":"La glycolyse","j":"Elle produit bien du NADH, le cours donnant un rendement net de 2 ATP, 2 NADH et 2 pyruvates par glucose, mais elle n'en est pas la seule source (ch. 12, p. 13)."},{"t":"La β-oxydation","j":"Elle produit elle aussi du NADH, le cours indiquant que les acides gras dégradés dans la mitochondrie forment des acétyl-CoA et des coenzymes réduits NADH et FADH2 (ch. 12, p. 40)."},{"t":"Toutes ces réponses sont vraies","correct":true,"j":"Les trois voies alimentent le pool de NADH qui cède ses électrons au complexe I : glycolyse, cycle de Krebs et β-oxydation (ch. 12, p. 13, 14, 23-24 et 40)."},{"t":"Le cycle de Krebs","j":"Le cours lui attribue la production de coenzymes réduits NADH et FADH2, mais retenir ce seul procédé revient à ignorer les deux autres voies citées (ch. 12, p. 14)."}]},
-    {"q":"Lequel des énoncés suivants sur l'ADN mitochondrial est FAUX ?","c":8,"options":[{"t":"Il y a plusieurs copies par mitochondrie (polyplasmie)","j":"Chaque mitochondrie contient plusieurs exemplaires de son génome : l'affirmation est exacte, ce n'est donc pas elle que l'on coche dans une question qui demande l'énoncé FAUX."},{"t":"Il existe des différences dans le code génétique en comparaison à l'ADN nucléaire","j":"Le cours montre que le génome mitochondrial porte ses propres 22 gènes d'ARNt et 2 gènes d'ARNr, donc une machinerie de traduction autonome du noyau (ch. 8, p. 10)."},{"t":"Il a une fréquence de mutation supérieure à l'ADN nucléaire","j":"Le cours signale des régions hypervariables sur la carte du génome mitochondrial, cohérentes avec un taux de mutation élevé (ch. 8, p. 10)."},{"t":"Il présente des histones","correct":true,"j":"La liste du cours décrit l'ADN mitochondrial comme circulaire, à double chaîne H et L, fermé, hélicoïdal et surenroulé, sans aucune histone : l'association aux histones est réservée à l'ADN nucléaire eucaryote (ch. 8, p. 10 et 13 ; ch. 2, p. 17)."}]},
-    {"q":"En ce qui concerne la structure des mitochondries, il est VRAI que :","c":12,"options":[{"t":"La membrane externe mitochondriale manque de cholestérol et est riche en cardiolipines.","j":"L'énoncé intervertit les deux membranes : ce profil lipidique particulier caractérise la membrane interne, celle que le cours décrit comme spécialisée et plissée en crêtes, non l'enveloppe externe (ch. 12, p. 6-7)."},{"t":"La membrane externe mitochondriale présente une concentration élevée de la protéine ATP synthétase","j":"Le cours titre « Protéines de la membrane interne : ATP synthase » et la décrit orientée vers la matrice : la placer sur la membrane externe est l'erreur piégée (ch. 12, p. 7)."},{"t":"Elles présentent une molécule d'ADN mitochondrial, circulaire, nue, située dans l'espace intermembranaire.","j":"Le schéma de structure situe l'ADN mitochondrial et les ribosomes dans la matrice, pas dans l'espace intermembranaire (ch. 12, p. 6)."},{"t":"Aucune des réponses n'est VRAIE.","correct":true,"j":"Les trois propositions précédentes déplacent chacune vers la membrane externe ou vers l'espace intermembranaire un élément que le cours localise dans la membrane interne ou dans la matrice (ch. 12, p. 6-7)."}]},
-    {"q":"Mitochondrie :","c":12,"options":[{"t":"Ce sont des organites qui participent à l'obtention d'énergie dans les cellules eucaryotes et procaryotes","j":"Les organites sont propres à la cellule eucaryote ; le tableau du cours refuse tout système endomembranaire aux procaryotes (ch. 2, p. 17 ; ch. 5, p. 3)."},{"t":"Elles ont un ADN circulaire hérité sous forme mendélienne des parents aux enfants","j":"L'ADN mitochondrial est bien circulaire, mais sa transmission n'est pas mendélienne : la confusion porte sur le mode d'hérédité, non sur la forme de la molécule (ch. 8, p. 10)."},{"t":"Elles ont des protéines intégrées dans leur membrane interne responsable de la création d'un gradient de protons","correct":true,"j":"Le cours décrit les 4 complexes protéiques de la chaîne de transport des électrons localisés sur la membrane interne, dont la fonction est de créer un gradient électrochimique de protons (ch. 12, p. 19)."},{"t":"Elles participent à la glycolyse pour obtenir par la suite l'acétyl-CoA à utiliser dans le cycle de Krebs","j":"La glycolyse est cytosolique : la mitochondrie reçoit le pyruvate déjà formé, elle ne réalise pas cette première étape (ch. 12, p. 6 et 13)."}]},
-    {"q":"Quelle est l'affirmation FAUSSE à propos des éléments du cytosquelette ?","c":4,"options":[{"t":"Les microtubules sont formés par des tubulines","j":"Le cours les définit comme des cylindres creux faits d'hétérodimères d'α-tubuline et de β-tubuline assemblés en 13 protofilaments (ch. 4, p. 22)."},{"t":"La kératine compose les filaments intermédiaires des cellules épithéliales","j":"La classification des filaments intermédiaires associe les filaments de kératine de base aux cellules épithéliales (ch. 4, p. 17-18)."},{"t":"Les microtubules nécessitent du GTP pour polymériser","j":"Le cours indique, dans la fiche structure des microtubules, que la polymérisation nécessite du GTP (ch. 4, p. 23)."},{"t":"Les filaments d'actine sont les plus épais","correct":true,"j":"Le tableau des composants du cytosquelette attribue aux microfilaments d'actine le plus petit diamètre des trois, 7 nm : loin d'être les plus épais, ils en sont les plus fins (ch. 4, p. 4)."}]},
-    {"q":"Laquelle de ces fonctions est propre aux filaments d'actine ?","c":4,"options":[{"t":"Renforcer les microvillosités","j":"Elle est exacte, le cours citant les microvillosités parmi les fonctions des microfilaments d'actine dans les cellules non musculaires, mais elle n'est pas la seule (ch. 4, p. 9)."},{"t":"Contraction des cellules musculaires","j":"Exacte également : dans les cellules musculaires, les filaments d'actine font partie du sarcomère et glissent sur la myosine (ch. 4, p. 12-13)."},{"t":"Déplacement de la cellule","j":"Exacte aussi : le cours rattache la locomotion cellulaire et la formation des lamellipodes aux microfilaments d'actine (ch. 4, p. 11)."},{"t":"Toutes ces réponses sont correctes","correct":true,"j":"Le cours énumère ces trois rôles pour l'actine, en cellule non musculaire comme en cellule musculaire : retenir une seule fonction amputerait la liste (ch. 4, p. 9, 11 et 12-13)."}]}
+    {
+      "q": "Les premiers êtres vivants :",
+      "c": 2,
+      "options": [
+        {
+          "t": "Ils étaient aérobies",
+          "j": "Le cours date les cellules aérobies de 2 000 × 10⁶ ans, bien après le progénote : confondre « premier vivant » et « respiration à l'oxygène » inverse la chronologie (ch. 2, p. 15)."
+        },
+        {
+          "t": "Ils étaient hétérotrophes",
+          "correct": true,
+          "j": "Le cours décrit les premiers descendants du progénote comme hétérotrophes, dépendants de la soupe prébiotique (ch. 2, p. 15)."
+        },
+        {
+          "t": "Ils ont fait de la photosynthèse",
+          "j": "Les organismes photosynthétiques ne sont datés qu'entre 3 100 et 3 400 × 10⁶ ans, après la cellule procaryote anaérobie de 3 500 × 10⁶ ans (ch. 2, p. 15)."
+        },
+        {
+          "t": "Ils étaient eucaryotes",
+          "j": "Le cours situe les cellules eucaryotes entre 1 500 et 1 700 × 10⁶ ans : la première cellule est procaryote et anaérobie, pas eucaryote (ch. 2, p. 15)."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle de ces affirmations à propos des cellules eucaryotes et procaryotes est FAUSSE ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Généralement, les cellules PROCARYOTES sont plus petites que les EUCARYOTES",
+          "j": "Le tableau comparatif donne 1-10 µm pour les procaryotes contre 10-100 µm pour les eucaryotes : l'affirmation est donc exacte (ch. 2, p. 17)."
+        },
+        {
+          "t": "Les bactéries sont des cellules PROCARYOTES",
+          "j": "Le cours classe explicitement bactéries et cyanobactéries dans la colonne des procaryotes de son tableau d'organisations (ch. 2, p. 17)."
+        },
+        {
+          "t": "Les cellules EUCARYOTES possèdent des organites/organelles spécialisés dans différentes fonctions",
+          "j": "Le tableau attribue le système endomembranaire aux seuls eucaryotes, ce qui valide cette proposition (ch. 2, p. 17)."
+        },
+        {
+          "t": "Les cellules PROCARYOTES ont un noyau",
+          "correct": true,
+          "j": "Le tableau porte « Noyau cellulaire : NON » pour les procaryotes ; posséder de l'ADN n'est pas posséder un noyau, c'est la confusion visée ici (ch. 2, p. 17)."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez la mauvaise réponse. Cellules procaryotes et eucaryotes :",
+      "c": 2,
+      "options": [
+        {
+          "t": "Ils présentent différents types d'ADN.",
+          "j": "Le tableau oppose un ADN circulaire et nu chez les procaryotes à un ADN linéaire associé aux histones chez les eucaryotes : la proposition est donc correcte (ch. 2, p. 17)."
+        },
+        {
+          "t": "Ils diffèrent entre autres par le fait que les procaryotes n'ont pas de cytosquelette et les eucaryotes en ont un.",
+          "j": "La ligne « Cytoplasme » du tableau indique « Pas de cytosquelette » pour les procaryotes et « Avec cytosquelette » pour les eucaryotes (ch. 2, p. 17)."
+        },
+        {
+          "t": "Ils ont différents mécanismes de division cellulaire.",
+          "j": "Le cours attribue la fission binaire aux procaryotes et la mitose aux eucaryotes : les deux mécanismes sont bien distincts (ch. 2, p. 17)."
+        },
+        {
+          "t": "Ils effectuent des processus de transcription et de traduction dans le même compartiment.",
+          "correct": true,
+          "j": "C'est la proposition fausse : chez l'eucaryote, l'enveloppe nucléaire sépare les deux étapes en deux compartiments distincts (ch. 9, p. 13 et 16) ; généraliser aux deux types cellulaires l'organisation sans noyau du procaryote est l'erreur piégée."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle des molécules suivantes est un glucide ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Phospholipide",
+          "j": "Le cours range le phospholipide parmi les lipides d'importance biologique (groupe polaire + 2 acides gras), pas parmi les chaînes de C, H et O des glucides (ch. 1, p. 15)."
+        },
+        {
+          "t": "Lactose",
+          "correct": true,
+          "j": "Le cours cite le lactose comme disaccharide, formé de deux molécules (glucose + galactose) dans la section Glucides (ch. 1, p. 11)."
+        },
+        {
+          "t": "Cholestérol",
+          "j": "Le cholestérol est présenté comme un lipide sans acide gras, à noyau stéroïde, et non comme un sucre : sa présence dans les membranes ne le rend pas glucidique (ch. 1, p. 15)."
+        },
+        {
+          "t": "ARN",
+          "j": "L'ARN est un acide nucléique, chaîne de nucléotides ; il contient certes un sucre, le ribose, mais la molécule elle-même n'est pas classée parmi les glucides (ch. 1, p. 13 et 17)."
+        }
+      ]
+    },
+    {
+      "q": "Quelle molécule de base (monomère) forme les PROTÉINES ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Nucléotides",
+          "j": "Le cours définit le nucléotide comme l'unité répétitive de l'ADN et de l'ARN, c'est-à-dire d'une tout autre famille de biomolécules (ch. 1, p. 17)."
+        },
+        {
+          "t": "Monosaccharides",
+          "j": "Le glucose et le fructose sont des sucres simples traités dans la section Glucides du cours ; ils n'entrent pas dans la chaîne polypeptidique (ch. 1, p. 11)."
+        },
+        {
+          "t": "Acides gras",
+          "j": "Les acides gras, saturés ou insaturés, appartiennent à la section Lipides ; ils composent les triglycérides et les phospholipides, pas les protéines (ch. 1, p. 14-15)."
+        },
+        {
+          "t": "Acides aminés",
+          "correct": true,
+          "j": "Le cours énonce que les protéines sont « composées d'acides aminés (aa) », avec les 20 aa et leur formule générale (ch. 1, p. 20)."
+        }
+      ]
+    },
+    {
+      "q": "Quel type de molécule ne fait pas partie de la membrane ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Phospholipides",
+          "j": "Le cours en fait le premier des trois types de lipides membranaires et la molécule qui forme spontanément la bicouche (ch. 3, p. 10-12)."
+        },
+        {
+          "t": "Cholestérol",
+          "j": "Le cholestérol figure comme deuxième type de lipide membranaire, avec son groupe polaire, son anneau stéroïde et sa queue apolaire (ch. 3, p. 10-11)."
+        },
+        {
+          "t": "Acide nucléique",
+          "correct": true,
+          "j": "La composition chimique de la membrane ne retient que les hydrates de carbone, les lipides et les protéines ; les acides nucléiques sont au contraire rangés parmi les molécules polaires chargées qui ne franchissent pas la bicouche (ch. 3, p. 6 et 22)."
+        },
+        {
+          "t": "Protéine",
+          "j": "Les protéines comptent pour environ 45 % de la membrane du globule rouge et y assurent transport, ancrage et réception (ch. 3, p. 6 et 15)."
+        }
+      ]
+    },
+    {
+      "q": "Les membranes biologiques sont composées de :",
+      "c": 3,
+      "options": [
+        {
+          "t": "50 % de protéines et 50 % de phospholipides",
+          "j": "Ce partage exclut les hydrates de carbone, que le cours compte pourtant parmi les composants de toute membrane plasmique (ch. 3, p. 6)."
+        },
+        {
+          "t": "Glucides, protéines et lipides, dans des proportions différentes selon le type de cellule ou de membrane",
+          "correct": true,
+          "j": "Le cours énonce que toutes les membranes ont les mêmes composants mais qu'« ils apparaissent dans des proportions différentes selon les membranes », les pourcentages donnés valant pour les globules rouges (ch. 3, p. 6)."
+        },
+        {
+          "t": "50 % de lipides et 50 % de protéines",
+          "j": "Figer la composition à deux familles en parts égales revient à prendre pour universels des pourcentages que le cours rattache expressément au globule rouge (ch. 3, p. 6)."
+        },
+        {
+          "t": "Phospholipides seulement",
+          "j": "Le phospholipide n'est qu'un des trois types de lipides membranaires, aux côtés du cholestérol et des glycolipides, et les lipides ne sont pas les seuls composants (ch. 3, p. 6 et 10)."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est la perméabilité sélective de la membrane cytoplasmique ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "En ce sens qu'il y a des molécules qui ne peuvent traverser la membrane que si elles le font en transportant des protéines",
+          "correct": true,
+          "j": "Le cours pose la bicouche comme semi-perméable et demande comment entrent les nutriments trop volumineux comme le glucose ou les acides aminés : « par des protéines de transport » (ch. 3, p. 21)."
+        },
+        {
+          "t": "Qu'il y a des molécules qui ne peuvent jamais traverser la membrane",
+          "j": "Le tableau de la perméabilité ne décrit aucune catégorie définitivement exclue : les ions et les molécules polaires chargées passent par des protéines, non par la bicouche (ch. 3, p. 21-22)."
+        },
+        {
+          "t": "Dans lequel n'importe quel type de molécule peut traverser librement la membrane",
+          "j": "Seuls les gaz passent librement d'après le cours ; confondre la sélectivité avec une perméabilité totale vide le terme de son sens (ch. 3, p. 21-22)."
+        },
+        {
+          "t": "La perméabilité de la membrane n'est pas sélective",
+          "j": "Le cours écrit littéralement que la bicouche lipidique est semi-perméable, c'est-à-dire douée de perméabilité sélective (ch. 3, p. 21)."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces types de transport nécessite une DÉPENSE D'ÉNERGIE ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Pinocytose",
+          "j": "La pinocytose relève du transport des solutés de grande taille par vésicules, branche que l'organigramme du cours ne classe pas dans l'opposition passif/actif des petits solutés (ch. 3, p. 20)."
+        },
+        {
+          "t": "Diffusion simple",
+          "j": "L'organigramme la place sous « TRANSPORT PASSIF — sans dépense d'ÉNERGIE », et le cours la définit comme un mouvement spontané (ch. 3, p. 20 et 25)."
+        },
+        {
+          "t": "Transport actif primaire",
+          "correct": true,
+          "j": "Le cours le range sous « TRANSPORT ACTIF — avec dépense d'ÉNERGIE » et précise qu'une protéine pompe utilise l'ATP pour transporter contre un gradient (ch. 3, p. 20, 23 et 32)."
+        },
+        {
+          "t": "Diffusion facilitée",
+          "j": "Elle est médiée par des protéines de transport mais s'effectue en faveur du gradient et sans dépense d'énergie : la présence d'une protéine ne signifie pas consommation d'ATP (ch. 3, p. 27)."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des types de transport suivants est un mécanisme DE SORTIE de la cellule EXCLUSIVEMENT ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Transcytose",
+          "j": "Le cours la classe dans la catégorie « ENTRÉE et SORTIE » : une endocytose est suivie d'une exocytose, donc la sortie n'y est pas exclusive (ch. 3, p. 20 et 40)."
+        },
+        {
+          "t": "Exocytose",
+          "correct": true,
+          "j": "L'organigramme des solutés de grande taille ne place qu'elle sous « SORTIE » : une vésicule interne fusionne avec la membrane plasmique pour libérer son contenu (ch. 3, p. 20 et 39)."
+        },
+        {
+          "t": "Pinocytose",
+          "j": "Elle figure dans la colonne « ENTRÉE » de l'organigramme et correspond à l'absorption du liquide extracellulaire (ch. 3, p. 20 et 37)."
+        },
+        {
+          "t": "Endocytose via récepteur",
+          "j": "Le cours la range également en « ENTRÉE », comme absorption sélective de macromolécules spécifiques (ch. 3, p. 20 et 37)."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des types suivants de transport est un mécanisme d'entrée non spécifique ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "L'exocytose",
+          "j": "Le cours la classe dans la colonne « SORTIE » de l'organigramme, pas dans les mécanismes d'entrée, qu'ils soient spécifiques ou non (ch. 3, p. 20 et 39)."
+        },
+        {
+          "t": "L'endocytose via récepteur",
+          "j": "Le tableau du cours la coche « Spécifique » : elle capte sélectivement des macromolécules reconnues par un récepteur (ch. 3, p. 36-37)."
+        },
+        {
+          "t": "La phagocytose",
+          "j": "Le tableau la coche également « Spécifique » ; elle vise des cellules endommagées ou des bactéries, ce qui la distingue d'une absorption indifférenciée (ch. 3, p. 36-37)."
+        },
+        {
+          "t": "La pinocytose",
+          "correct": true,
+          "j": "Elle est la seule que le tableau coche « Non spécifique » : le cours la définit comme l'absorption non spécifique du liquide extracellulaire (ch. 3, p. 36-37)."
+        }
+      ]
+    },
+    {
+      "q": "Les mécanismes de l'endocytose consistent en :",
+      "c": 3,
+      "options": [
+        {
+          "t": "L'invagination de la membrane pour faire diminuer la taille de la cellule",
+          "j": "L'invagination décrite par le cours sert à entourer le matériel à introduire, non à réduire le volume cellulaire : la finalité est l'incorporation, pas le rétrécissement (ch. 3, p. 37)."
+        },
+        {
+          "t": "L'introduction dans la cellule de substances par la formation de vésicules",
+          "correct": true,
+          "j": "Le cours range l'endocytose sous « ENTRÉE » des solutés de grande taille et la décrit ainsi : le matériel est entouré d'une membrane, invagination, puis la vésicule se forme (ch. 3, p. 20 et 37)."
+        },
+        {
+          "t": "L'expulsion de substances de la cellule par la formation de vésicules",
+          "j": "C'est la définition de l'exocytose, placée dans la colonne « SORTIE » : confondre les deux sens de trafic vésiculaire est l'erreur visée (ch. 3, p. 20 et 39)."
+        },
+        {
+          "t": "Tout ce qui précède est vrai",
+          "j": "Cette option supposerait que l'endocytose soit aussi une expulsion, alors que le cours sépare nettement entrée, sortie et transcytose (ch. 3, p. 20)."
+        }
+      ]
+    },
+    {
+      "q": "Les végétaux n'ont pas de cholestérol dans leurs membranes. Quel peut être le mécanisme permettant à certains végétaux de garder un haut degré de fluidité de leurs membranes cellulaires à des températures faibles ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "En augmentant le pourcentage des phospholipides insaturés dans leurs membranes",
+          "correct": true,
+          "j": "Le cours pose que l'insaturation des acides gras fournit de la fluidité : plus le degré d'insaturation des chaînes est élevé, plus la fluidité est élevée (ch. 3, p. 13)."
+        },
+        {
+          "t": "En augmentant la proportion de cholestérol dans leurs membranes",
+          "j": "L'énoncé exclut lui-même cette voie, puisque les membranes végétales considérées sont dépourvues de cholestérol (ch. 3, p. 13)."
+        },
+        {
+          "t": "En augmentant le pourcentage de protéines hydrophobes dans leurs membranes",
+          "j": "Le cours rattache la fluidité à la composition lipidique et à la température, et n'attribue nulle part ce rôle aux protéines membranaires (ch. 3, p. 13 et 15)."
+        },
+        {
+          "t": "L’insaturation des phospholipides et l’augmentation du cholestérol, toutes deux",
+          "j": "Elle associe au mécanisme correct une voie impossible : le cholestérol est absent de ces membranes par hypothèse de l’énoncé (ch. 3, p. 13)."
+        }
+      ]
+    },
+    {
+      "q": "Toutes les fonctions décrites ici sont propres aux protéines intégrales, sauf :",
+      "c": 3,
+      "options": [
+        {
+          "t": "L'adhesion cellulaire",
+          "j": "La liste des fonctions des protéines membranaires comprend le fait de faire partie des structures d'union entre cellules pour former les tissus (ch. 3, p. 15)."
+        },
+        {
+          "t": "La synthèse des protéines",
+          "correct": true,
+          "j": "Elle ne figure dans aucune des six fonctions énumérées par le cours pour les protéines membranaires ; la fabrication des protéines revient aux ribosomes (ch. 3, p. 15 ; ch. 9, p. 8)."
+        },
+        {
+          "t": "L'union au cytosquelette",
+          "j": "Le cours mentionne explicitement « connecter la membrane avec le cytosquelette » parmi les fonctions des protéines membranaires (ch. 3, p. 15)."
+        },
+        {
+          "t": "Le transport actif",
+          "j": "Le transport de molécules ouvre la liste des fonctions, et le transport actif primaire est assuré par une protéine pompe qui utilise l'ATP (ch. 3, p. 15 et 32)."
+        }
+      ]
+    },
+    {
+      "q": "Un patient du groupe sanguin A pourrait recevoir du sang d'un patient de :",
+      "c": 3,
+      "options": [
+        {
+          "t": "Groupe 0",
+          "correct": true,
+          "j": "Le cours rattache les groupes ABO aux hydrates de carbone de surface, l'antigène A étant la N-acétylgalactosamine et l'antigène B le galactose ; un receveur A ne tolère aucun galactose antigénique, et seul le groupe 0 n'en porte pas (ch. 3, p. 17)."
+        },
+        {
+          "t": "Groupe B",
+          "j": "Le donneur B expose le galactose antigénique, que le receveur A ne possède pas et ne tolère donc pas (ch. 3, p. 17)."
+        },
+        {
+          "t": "Groupe AB",
+          "j": "Le donneur AB porte les deux déterminants glucidiques à la fois, dont celui qui est étranger au receveur A (ch. 3, p. 17)."
+        },
+        {
+          "t": "Le groupe 0 et le groupe AB",
+          "j": "Elle associe au groupe 0, acceptable, un donneur AB qui ne l'est pas : la compatibilité d'un donneur dépourvu d'antigène ne s'étend pas à un donneur qui les porte tous (ch. 3, p. 17)."
+        }
+      ]
+    },
+    {
+      "q": "Si un patient appartient au groupe sanguin B, quel groupe sanguin devrait être le donneur afin qu'il n'y ait pas de problème de transfusion ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Groupe 0",
+          "j": "Ce donneur convient, mais la proposition est incomplète : elle écarte à tort un second groupe également compatible avec ce receveur (ch. 3, p. 17)."
+        },
+        {
+          "t": "Groupe B",
+          "j": "Ce donneur convient lui aussi, puisqu'il expose le même déterminant glucidique que le receveur, mais il n'est pas le seul possible (ch. 3, p. 17)."
+        },
+        {
+          "t": "Groupe AB",
+          "j": "Le donneur AB ajoute au galactose du groupe B la N-acétylgalactosamine du groupe A, déterminant étranger à ce receveur (ch. 3, p. 17)."
+        },
+        {
+          "t": "Le groupe 0 et le groupe B, tous deux",
+          "correct": true,
+          "j": "Le cours identifie l'antigène B au galactose : un receveur B accepte à la fois le donneur qui porte ce même déterminant et le donneur qui n'en porte aucun (ch. 3, p. 17)."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des composés suivants ne traversera PAS la membrane plasmique par simple diffusion ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Éthanol",
+          "j": "Le tableau de perméabilité range l'éthanol parmi les petites molécules non chargées, avec l'urée et les stéroïdes, qui franchissent la bicouche (ch. 3, p. 22)."
+        },
+        {
+          "t": "CO2",
+          "j": "Le cours indique que les gaz passent librement à travers la membrane et cite nommément le CO2 (ch. 3, p. 21-22)."
+        },
+        {
+          "t": "O2",
+          "j": "Comme le CO2, il appartient à la ligne « Gaz » du tableau de perméabilité et n'a besoin d'aucune protéine de transport (ch. 3, p. 21-22)."
+        },
+        {
+          "t": "LDL",
+          "correct": true,
+          "j": "Le LDL n'est pas une petite molécule mais une particule que le cours fait entrer par endocytose via récepteur, lors de l'incorporation du cholestérol : son caractère lipidique ne lui ouvre pas la diffusion simple (ch. 3, p. 37)."
+        }
+      ]
+    },
+    {
+      "q": "Les récepteurs associés aux protéines G :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Ils sont des récepteurs de molécules liposolubles",
+          "j": "Une molécule message liposoluble traverse la membrane et ne dépend pas d'un récepteur de surface comme l'est un récepteur couplé aux protéines G (ch. 6A, p. 37)."
+        },
+        {
+          "t": "Ils sont des récepteurs de molécules hydrosolubles",
+          "correct": true,
+          "j": "Le cours pose que les molécules message hydrosolubles ont des récepteurs seulement au niveau de la membrane de la cellule cible, catégorie à laquelle appartiennent les récepteurs couplés aux protéines G (ch. 6A, p. 37 et 28)."
+        },
+        {
+          "t": "Interactions avec l'ADN directement pour réguler la transcription",
+          "j": "La liaison directe à des séquences d'ADN est le propre des récepteurs intracellulaires, non d'un récepteur transmembranaire relayé par une protéine G (ch. 6A, p. 36)."
+        },
+        {
+          "t": "Le récepteur nicotinique de l'acétylcholine est un exemple de ce type de récepteur",
+          "j": "Le récepteur nicotinique est un canal ionique activé par un ligand, donc une famille de récepteurs distincte de celle qui recrute une protéine G trimérique (ch. 3, p. 29 ; ch. 6A, p. 25)."
+        }
+      ]
+    },
+    {
+      "q": "Qu'est-ce qu'un antagoniste ?",
+      "c": 6,
+      "options": [
+        {
+          "t": "Un ligand endogène qui active le récepteur en s'y liant",
+          "j": "Le schéma du cours appelle cela le « primary ligand », le ligand naturel qui déclenche la réponse, et le distingue de l'antagoniste (ch. 6A, p. 39)."
+        },
+        {
+          "t": "Un ligand exogène qui active le récepteur en s'y liant",
+          "j": "C'est la définition que le cours donne de l'agoniste : une substance exogène capable de se lier à un récepteur et de provoquer une réponse dans la cellule (ch. 6A, p. 39)."
+        },
+        {
+          "t": "Un ligand qui, lorsqu'il se lie au récepteur, l'empêche de s'activer",
+          "correct": true,
+          "j": "Le schéma « relation messager-récepteur » montre l'antagoniste occupant le récepteur avec la mention « no response », et l'exemple des bêta-bloquants sans agonisme donne un effet physiologique nul (ch. 6A, p. 39 et 41)."
+        },
+        {
+          "t": "Un ligand qui, lorsqu'il est lié à un récepteur, produit une réaction toxique au corps",
+          "j": "Le cours définit l'antagonisme par l'absence de réponse du récepteur, non par une toxicité : bloquer un récepteur est d'ailleurs un effet thérapeutique recherché (ch. 6A, p. 39 et 41)."
+        }
+      ]
+    },
+    {
+      "q": "Molécules de message solubles dans l'eau :",
+      "c": 6,
+      "options": [
+        {
+          "t": "Elles sont transportées librement dans le plasma",
+          "correct": true,
+          "j": "Le cours écrit, sous « MOLÉCULES MESSAGE HYDROSOLUBLES », qu'elles sont transportées librement dans le plasma (ch. 6A, p. 37)."
+        },
+        {
+          "t": "Elles ont des récepteurs cytoplasmiques",
+          "j": "Le cours réserve les récepteurs cytoplasmiques aux molécules message liposolubles, capables de franchir la membrane (ch. 6A, p. 35 et 37)."
+        },
+        {
+          "t": "Elles sont transportées associées à des protéines dans le plasma",
+          "j": "Ce mode de transport est celui que le cours attribue aux molécules liposolubles, précisément parce qu'elles sont peu solubles dans le plasma aqueux (ch. 6A, p. 37)."
+        },
+        {
+          "t": "Elles présentent des récepteurs nucléaires dans la cellule cible",
+          "j": "Les récepteurs nucléaires sont activés par des ligands lipophiles qui traversent facilement la membrane plasmique, ce qu'une molécule hydrosoluble ne fait pas (ch. 6A, p. 35 et 37)."
+        }
+      ]
+    },
+    {
+      "q": "L'insuline est une hormone hydrosoluble qui joue un rôle clé dans le maintien de concentrations adéquates de glucose dans le sang. Comment exerce-t-elle cette fonction ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Réguler le nombre de transporteurs de glucose au niveau de la membrane plasmique",
+          "correct": true,
+          "j": "Le cours écrit que cette hormone provoque l'augmentation du nombre de transporteurs de glucose sur la membrane plasmique, permettant une meilleure absorption du glucose (ch. 12, p. 34)."
+        },
+        {
+          "t": "Traverser la membrane plasmique et interagir avec l'ADN pour réguler la transcription",
+          "j": "Ce mode d'action est celui des messagers liposolubles ; l'énoncé précise que l'insuline est hydrosoluble, donc dotée de récepteurs membranaires seulement (ch. 6A, p. 37)."
+        },
+        {
+          "t": "Permettre le passage du glucose par simple diffusion",
+          "j": "Le glucose est une grande molécule polaire que le cours exclut de la diffusion simple : il lui faut une protéine de transport, quelle que soit l'hormone (ch. 3, p. 21-22)."
+        },
+        {
+          "t": "Consommer de l'ATP à travers la protéine C",
+          "j": "Le cours ne décrit aucune « protéine C » consommatrice d'ATP dans l'action de l'insuline, qu'il rattache aux canaux GLUT4 de la membrane (ch. 12, p. 34)."
+        }
+      ]
+    },
+    {
+      "q": "Quel procédé permet de produire le NADH nécessaire pour lancer la chaîne de transport des électrons au niveau du complexe I mitochondrial ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "La glycolyse",
+          "j": "Elle produit bien du NADH, le cours donnant un rendement net de 2 ATP, 2 NADH et 2 pyruvates par glucose, mais elle n'en est pas la seule source (ch. 12, p. 13)."
+        },
+        {
+          "t": "La β-oxydation",
+          "j": "Elle produit elle aussi du NADH, le cours indiquant que les acides gras dégradés dans la mitochondrie forment des acétyl-CoA et des coenzymes réduits NADH et FADH2 (ch. 12, p. 40)."
+        },
+        {
+          "t": "Toutes ces réponses sont vraies",
+          "correct": true,
+          "j": "Les trois voies alimentent le pool de NADH qui cède ses électrons au complexe I : glycolyse, cycle de Krebs et β-oxydation (ch. 12, p. 13, 14, 23-24 et 40)."
+        },
+        {
+          "t": "Le cycle de Krebs",
+          "j": "Le cours lui attribue la production de coenzymes réduits NADH et FADH2, mais retenir ce seul procédé revient à ignorer les deux autres voies citées (ch. 12, p. 14)."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des énoncés suivants sur l'ADN mitochondrial est FAUX ?",
+      "c": 8,
+      "options": [
+        {
+          "t": "Il y a plusieurs copies par mitochondrie (polyplasmie)",
+          "j": "Chaque mitochondrie contient plusieurs exemplaires de son génome : l'affirmation est exacte, ce n'est donc pas elle que l'on coche dans une question qui demande l'énoncé FAUX."
+        },
+        {
+          "t": "Il existe des différences dans le code génétique en comparaison à l'ADN nucléaire",
+          "j": "Le cours montre que le génome mitochondrial porte ses propres 22 gènes d'ARNt et 2 gènes d'ARNr, donc une machinerie de traduction autonome du noyau (ch. 8, p. 10)."
+        },
+        {
+          "t": "Il a une fréquence de mutation supérieure à l'ADN nucléaire",
+          "j": "Le cours signale des régions hypervariables sur la carte du génome mitochondrial, cohérentes avec un taux de mutation élevé (ch. 8, p. 10)."
+        },
+        {
+          "t": "Il présente des histones",
+          "correct": true,
+          "j": "La liste du cours décrit l'ADN mitochondrial comme circulaire, à double chaîne H et L, fermé, hélicoïdal et surenroulé, sans aucune histone : l'association aux histones est réservée à l'ADN nucléaire eucaryote (ch. 8, p. 10 et 13 ; ch. 2, p. 17)."
+        }
+      ]
+    },
+    {
+      "q": "En ce qui concerne la structure des mitochondries, il est VRAI que :",
+      "c": 12,
+      "options": [
+        {
+          "t": "La membrane externe mitochondriale manque de cholestérol et est riche en cardiolipines.",
+          "j": "L'énoncé intervertit les deux membranes : ce profil lipidique particulier caractérise la membrane interne, celle que le cours décrit comme spécialisée et plissée en crêtes, non l'enveloppe externe (ch. 12, p. 6-7)."
+        },
+        {
+          "t": "La membrane externe mitochondriale présente une concentration élevée de la protéine ATP synthétase",
+          "j": "Le cours titre « Protéines de la membrane interne : ATP synthase » et la décrit orientée vers la matrice : la placer sur la membrane externe est l'erreur piégée (ch. 12, p. 7)."
+        },
+        {
+          "t": "Elles présentent une molécule d'ADN mitochondrial, circulaire, nue, située dans l'espace intermembranaire.",
+          "j": "Le schéma de structure situe l'ADN mitochondrial et les ribosomes dans la matrice, pas dans l'espace intermembranaire (ch. 12, p. 6)."
+        },
+        {
+          "t": "Aucune des réponses n'est VRAIE.",
+          "correct": true,
+          "j": "Les trois propositions précédentes déplacent chacune vers la membrane externe ou vers l'espace intermembranaire un élément que le cours localise dans la membrane interne ou dans la matrice (ch. 12, p. 6-7)."
+        }
+      ]
+    },
+    {
+      "q": "Mitochondrie :",
+      "c": 12,
+      "options": [
+        {
+          "t": "Ce sont des organites qui participent à l'obtention d'énergie dans les cellules eucaryotes et procaryotes",
+          "j": "Les organites sont propres à la cellule eucaryote ; le tableau du cours refuse tout système endomembranaire aux procaryotes (ch. 2, p. 17 ; ch. 5, p. 3)."
+        },
+        {
+          "t": "Elles ont un ADN circulaire hérité sous forme mendélienne des parents aux enfants",
+          "j": "L'ADN mitochondrial est bien circulaire, mais sa transmission n'est pas mendélienne : la confusion porte sur le mode d'hérédité, non sur la forme de la molécule (ch. 8, p. 10)."
+        },
+        {
+          "t": "Elles ont des protéines intégrées dans leur membrane interne responsable de la création d'un gradient de protons",
+          "correct": true,
+          "j": "Le cours décrit les 4 complexes protéiques de la chaîne de transport des électrons localisés sur la membrane interne, dont la fonction est de créer un gradient électrochimique de protons (ch. 12, p. 19)."
+        },
+        {
+          "t": "Elles participent à la glycolyse pour obtenir par la suite l'acétyl-CoA à utiliser dans le cycle de Krebs",
+          "j": "La glycolyse est cytosolique : la mitochondrie reçoit le pyruvate déjà formé, elle ne réalise pas cette première étape (ch. 12, p. 6 et 13)."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est l'affirmation FAUSSE à propos des éléments du cytosquelette ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Les microtubules sont formés par des tubulines",
+          "j": "Le cours les définit comme des cylindres creux faits d'hétérodimères d'α-tubuline et de β-tubuline assemblés en 13 protofilaments (ch. 4, p. 22)."
+        },
+        {
+          "t": "La kératine compose les filaments intermédiaires des cellules épithéliales",
+          "j": "La classification des filaments intermédiaires associe les filaments de kératine de base aux cellules épithéliales (ch. 4, p. 17-18)."
+        },
+        {
+          "t": "Les microtubules nécessitent du GTP pour polymériser",
+          "j": "Le cours indique, dans la fiche structure des microtubules, que la polymérisation nécessite du GTP (ch. 4, p. 23)."
+        },
+        {
+          "t": "Les filaments d'actine sont les plus épais",
+          "correct": true,
+          "j": "Le tableau des composants du cytosquelette attribue aux microfilaments d'actine le plus petit diamètre des trois, 7 nm : loin d'être les plus épais, ils en sont les plus fins (ch. 4, p. 4)."
+        }
+      ]
+    },
+    {
+      "q": "Laquelle de ces fonctions est propre aux filaments d'actine ?",
+      "c": 4,
+      "options": [
+        {
+          "t": "Renforcer les microvillosités",
+          "j": "Elle est exacte, le cours citant les microvillosités parmi les fonctions des microfilaments d'actine dans les cellules non musculaires, mais elle n'est pas la seule (ch. 4, p. 9)."
+        },
+        {
+          "t": "Contraction des cellules musculaires",
+          "j": "Exacte également : dans les cellules musculaires, les filaments d'actine font partie du sarcomère et glissent sur la myosine (ch. 4, p. 12-13)."
+        },
+        {
+          "t": "Déplacement de la cellule",
+          "j": "Exacte aussi : le cours rattache la locomotion cellulaire et la formation des lamellipodes aux microfilaments d'actine (ch. 4, p. 11)."
+        },
+        {
+          "t": "Toutes ces réponses sont correctes",
+          "correct": true,
+          "j": "Le cours énumère ces trois rôles pour l'actine, en cellule non musculaire comme en cellule musculaire : retenir une seule fonction amputerait la liste (ch. 4, p. 9, 11 et 12-13)."
+        }
+      ]
+    },
+    {"q":"Laquelle des fonctions suivantes n'est pas propre au cytosquelette ?","c":4,"options":[{"t":"Fournir un soutien mécanique à la cellule","j":"Vraie fonction : le cours présente le cytosquelette comme « la charpente de la cellule » (ch. 4 p. 3), les filaments intermédiaires assurant la rigidité et le soutien (p. 19)."},{"t":"Maintenir les organites à leur place fonctionnelle dans le cytoplasme","j":"Vraie fonction : l'« organisation interne » figure parmi les trois fonctions du cytosquelette (ch. 4 p. 3), qui ancre et déplace les organites dans le cytoplasme (p. 24)."},{"t":"Maintenir les caractéristiques de la forme cellulaire","j":"Vraie fonction : « Forme de la cellule » ouvre la liste des fonctions du cytosquelette (ch. 4 p. 3) ; les microfilaments concentrés dans le cortex en sont responsables (p. 5)."},{"t":"Faire partie des jonctions gap pour assurer leur cohérence","correct":true,"j":"Réponse attendue : la jonction GAP est faite de connexons (complexes de 6 connexines) qui ménagent des pores entre cytoplasmes voisins (ch. 4 p. 41). C'est la seule jonction décrite par le cours qui ne s'ancre à aucun filament du cytosquelette ; la confusion vient de ce que les autres jonctions du complexe d'union, elles, sont bien reliées au cytosquelette (p. 39)."}]},
+    {"q":"Laquelle des associations suivantes est incorrecte ?","c":4,"options":[{"t":"Microtubule : tubuline","j":"Association exacte : le microtubule est bâti de molécules de tubuline, hétérodimères d'α- et de β-tubuline assemblés en 13 protofilaments (ch. 4 p. 22)."},{"t":"Actine : microfilaments","j":"Association exacte : les microfilaments sont des polymères d'actine, l'actine G globulaire s'assemblant en actine F filamenteuse (ch. 4 p. 8)."},{"t":"Filaments intermédiaires : division cellulaire","correct":true,"j":"Association fausse, donc réponse attendue : le cours attribue aux filaments intermédiaires la rigidité et le soutien — desmosomes, cheveux et ongles, axones, disque Z (ch. 4 p. 19-20). La division cellulaire relève du fuseau mitotique, formé par un autre élément du cytosquelette (p. 24 et p. 28)."},{"t":"Microfilaments : contraction musculaire","j":"Association exacte : dans les cellules musculaires, les filaments d'actine font partie du sarcomère et glissent sur la myosine pour produire la contraction (ch. 4 p. 12-13)."}]},
+    {"q":"Laquelle des propriétés du cytosquelette suivantes est fausse ?","c":4,"options":[{"t":"Avec la participation d'autres protéines le cytosquelette participe au transport des vésicules et des organites à travers le cytoplasme","j":"Propriété vraie : le cours écrit que les microtubules « transportent des vésicules et des organites à travers le cytoplasme avec la participation d'autres protéines » (ch. 4 p. 24), ces protéines motrices consommant de l'ATP (p. 25)."},{"t":"L'aspect dynamique du cytosquelette est rendu possible par les procédés d'assemblage et de désassemblage des protéines en polymères","j":"Propriété vraie : le cours qualifie d'« assemblage dynamique » le couple polymérisation-dépolymérisation de l'actine (ch. 4 p. 8) comme de la tubuline (p. 23)."},{"t":"Le mouvement des cils et des flagelles est la conséquence de l'action de protéines qui font se mouvoir entre eux les microtubules","j":"Propriété vraie : le cours consacre une diapositive au mouvement ciliaire et flagellaire produit par le glissement relatif des éléments de la tige (ch. 4 p. 32-33)."},{"t":"Les microvillosités maintiennent leur forme grâce aux filaments intermédiaires disposés au niveau de la surface interne de la membrane plasmique","correct":true,"j":"Propriété fausse, donc réponse attendue : le cours range les microvillosités parmi les fonctions des microfilaments d'actine des cellules non musculaires (ch. 4 p. 9). Les filaments intermédiaires, eux, assurent rigidité et soutien ailleurs dans la cellule (p. 19) : c'est la confusion que l'énoncé tend."}]},
+    {"q":"L'apolarité des filaments intermédiaires est déterminée par :","c":4,"options":[{"t":"La capacité de polymérisation à une extrémité du filament plus rapidement que sur l'autre","j":"C'est au contraire la définition d'un filament polaire : le cours ne marque un pôle + et un pôle - que sur les microfilaments d'actine (ch. 4 p. 8). Une extrémité plus rapide que l'autre suppose justement une polarité."},{"t":"La capacité de dépolymérisation par l'extrémité - du filament","j":"Parler d'une extrémité « - » revient encore à décrire un polymère polaire, dont le cours distingue les deux pôles (ch. 4 p. 8 et p. 24) : cette proposition contredit l'apolarité qu'il s'agit d'expliquer."},{"t":"La similitude dans le comportement des deux extrémités des filaments","correct":true,"j":"Réponse attendue : un filament est dit apolaire quand ses deux extrémités se comportent de la même façon, sans pôle + ni pôle -, à la différence des deux autres éléments du cytosquelette pour lesquels le cours distingue explicitement les deux pôles (ch. 4 p. 8 et p. 24-25). Le cours de PB1 ne consacre pas de diapositive à l'apolarité elle-même : elle se déduit de cette opposition."},{"t":"La liaison des molécules de GTP à l'extrémité + de la polymérisation","j":"Cette description associe un nucléotide et une extrémité « + » : elle renvoie donc à un polymère polaire dont la polymérisation est nucléotide-dépendante (ch. 4 p. 23), et non à l'apolarité demandée."}]},
+    {"q":"Quelles sont les jonctions intercellulaires qui empêchent le passage de substances entre les cellules ?","c":4,"options":[{"t":"Jonctions serrées","correct":true,"j":"Réponse attendue : le cours écrit, sous « 1. JONCTION SERRÉE (étanche à l'air, étanche à l'eau, intime, zonulae occludens) », qu'elle « empêche le passage de substances entre les cellules (scelle les cellules) » et qu'elle ne laisse « aucun espace intercellulaire » (ch. 4 p. 39)."},{"t":"Bandes d'adhérence","j":"Il s'agit de la ceinture d'adhésion (zonula adherens) : elle forme une ceinture qui entoure la cellule près de la surface apicale et sert à la solidariser à ses voisines, sans jamais sceller l'espace intercellulaire (ch. 4 p. 39)."},{"t":"Desmosomes","j":"Le desmosome (macula adherens) est un point d'ancrage ponctuel, doté d'une plaque cytoplasmique qui lui confère une grande résistance à la traction (ch. 4 p. 39) : il soude les cellules mécaniquement mais ne ferme pas le passage entre elles."},{"t":"Les jonctions GAP","j":"La jonction GAP fait exactement l'inverse : ses connexons forment des pores reliant les cytoplasmes voisins et laissent passer les molécules de petite taille (< 1,2 nm), ce qui facilite la transmission des signaux entre cellules (ch. 4 p. 41)."}]},
+    {"q":"L'adhésion des ribosomes au réticulum endoplasmique rugueux est :","c":5,"options":[{"t":"Permanente","j":"Faux : le ribosome n'est pas un constituant fixe de la membrane du RER. Croire l'adhésion permanente revient à prendre l'aspect granuleux observé au microscope pour un attachement définitif."},{"t":"Temporaire","correct":true,"j":"Réponse attendue : parmi les caractéristiques du RER, le cours indique mot pour mot que « l'adhésion des ribosomes à la surface est temporaire » (ch. 5 p. 11)."},{"t":"Dans certains cas, elle est permanente et dans d'autres, temporaire","j":"Faux : le cours ne décrit pas deux régimes d'adhésion, mais un seul et même comportement pour tous les ribosomes qui gagnent la surface du RER (ch. 5 p. 11)."},{"t":"Les ribosomes n'adhèrent pas au réticulum endoplasmique rugueux","j":"Faux : c'est précisément la présence de ribosomes à sa surface qui distingue le RE rugueux du RE lisse, lequel en est dépourvu (ch. 5 p. 10)."}]},
+    {"q":"Pedro Pérez est un étudiant en physiothérapie qui utilise habituellement le tranquillisant Diazepan (Valium). Quel organite aura-t-il spécialement développé ?","c":5,"options":[{"t":"Le réticulum endoplasmique rugueux","j":"Le RER est développé dans les cellules qui exportent beaucoup de protéines : ses fonctions sont la synthèse des protéines, leurs modifications post-traductionnelles et la rétention de protéines spécifiques (ch. 5 p. 11), sans rapport avec un médicament."},{"t":"Le réticulum endoplasmique lisse","correct":true,"j":"Réponse attendue : le cours attribue au REL le métabolisme et la détoxification, « rendre hydrosolubles des substances toxiques pour l'organisme » (ch. 5 p. 15), et précise qu'il « élimine les substances toxiques telles que la nicotine » par oxydation de la drogue liposoluble, ensuite éliminée par l'urine (p. 16). Une prise régulière de médicament fait donc proliférer ce compartiment."},{"t":"L'appareil de Golgi","j":"Le Golgi mûrit et trie les protéines venues du RER (ch. 5 p. 17-19) ; il traite des protéines, pas des molécules liposolubles à rendre éliminables."},{"t":"Les lysosomes","j":"Le lysosome dégrade des macromolécules par ses hydrolases acides (ch. 5 p. 21) ; il n'oxyde pas les substances liposolubles comme un médicament."}]},
+    {"q":"Le réticulum endoplasmique lisse des cellules musculaires est appelé :","c":5,"options":[{"t":"Réticulum sarcoplasmique","correct":true,"j":"Réponse attendue : le cours nomme ainsi le REL de la cellule musculaire — « dans les cellules musculaires, le réticulum sarcoplasmique (REL spécialisé dans le stockage du Ca²⁺) » (ch. 5 p. 16)."},{"t":"Sarcoplasme","j":"Le préfixe est le même mais l'objet diffère : le sarcoplasme désigne le cytoplasme de la fibre musculaire, alors que la question porte sur un organite, le réticulum lui-même (ch. 5 p. 16). Cette distinction n'est pas détaillée dans le cours."},{"t":"Sarcosome","j":"Terme réservé aux mitochondries de la fibre musculaire, qui fournissent l'ATP de la contraction : il ne désigne pas le réticulum, seul organite nommé par le cours dans cette cellule (ch. 5 p. 16). Le cours ne l'emploie pas."},{"t":"Réticulum sarcoplasmique et sarcoplasme sont tous deux corrects","j":"Impossible : un seul de ces deux termes nomme l'organite demandé ; l'autre désigne le cytoplasme de la cellule musculaire, et non son réticulum (ch. 5 p. 16)."}]},
+    {"q":"Dans les citernes du réticulum sarcoplasmique s'accumule :","c":5,"options":[{"t":"Le Ca²⁺","correct":true,"j":"Réponse attendue : le cours décrit le réticulum sarcoplasmique comme le « REL spécialisé dans le stockage du Ca²⁺ », dont la libération couple l'arrivée de l'influx nerveux à la contraction musculaire (ch. 5 p. 16)."},{"t":"L'ATP","j":"L'ATP de la cellule est produit par la mitochondrie, organite de la « synthèse de l'énergie (ATP) » (ch. 5 p. 3) ; il n'est pas mis en réserve dans les citernes du réticulum."},{"t":"Le glycogène","j":"Confusion avec une autre fonction du REL : le cours y situe la dégradation du glycogène en glucose, au titre du métabolisme (ch. 5 p. 16), mais ce n'est pas ce que les citernes accumulent."},{"t":"L'ARN","j":"Les ARN sont synthétisés dans le noyau (ch. 9 p. 5) et utilisés dans le cytoplasme ; aucun compartiment du réticulum ne les stocke."}]},
+    {"q":"À propos des vacuoles hétérophagiques :","c":5,"options":[{"t":"Nous ne pouvons les trouver que dans les macrophages.","j":"Faux par l'exclusivité : le cours signale seulement que les lysosomes sont « très abondants dans les macrophages », cellules immunitaires qui dégradent les micro-organismes (ch. 5 p. 21) — abondants n'est pas exclusifs."},{"t":"Ils sont un type de lysosomes secondaires.","correct":true,"j":"Réponse attendue : dans la classification des lysosomes, le lysosome hétérophagique figure sous la rubrique SECONDAIRE, c'est-à-dire né de la fusion d'un lysosome primaire avec une autre vésicule (ch. 5 p. 22)."},{"t":"C'est le produit de la fusion entre un lysosome primaire et un autophagosome.","j":"Confusion sur l'origine du contenu à digérer : l'autophagosome apporte du matériel issu de la cellule elle-même (mitochondries par exemple), alors que la vacuole hétérophagique se forme avec du matériel capté hors de la cellule, des bactéries par exemple (ch. 5 p. 22)."},{"t":"Toutes les réponses précédentes sont vraies.","j":"Impossible : deux des trois propositions précédentes sont fausses, l'une par l'exclusivité qu'elle affirme, l'autre par l'origine du contenu digéré (ch. 5 p. 21-22)."}]},
+    {"q":"La fonction principale des enzymes lysosomales est :","c":5,"options":[{"t":"Détoxification.","j":"Confusion avec d'autres compartiments : c'est le peroxysome qui oxyde l'éthanol et les acides gras longs (ch. 5 p. 24). Les hydrolases du lysosome, elles, coupent des macromolécules."},{"t":"Digestion intracellulaire.","correct":true,"j":"Réponse attendue : le cours présente le lysosome comme « le système digestif de la cellule » et le dit « responsable de la digestion intracellulaire des macromolécules », grâce aux hydrolases acides qu'il renferme (ch. 5 p. 21)."},{"t":"Hydroxylation des sucres.","j":"Aucune modification chimique des sucres ne figure parmi les fonctions lysosomales du cours (ch. 5 p. 21) : les enzymes du lysosome hydrolysent les macromolécules, elles ne les décorent pas."},{"t":"Photorespiration.","j":"Processus propre aux cellules végétales chlorophylliennes : il n'a aucune place dans la cellule humaine décrite par le cours, dont les organites sont énumérés au ch. 5 p. 3."}]},
+    {"q":"Parmi les types de cellules suivants, lesquels n'ont PAS de réticulum endoplasmique ?","c":5,"options":[{"t":"Hépatocytes (cellules hépatiques)","j":"L'hépatocyte en est au contraire très pourvu : c'est une cellule spécialisée dans le métabolisme des lipides et la détoxification, deux fonctions que le cours attribue au réticulum endoplasmique lisse (ch. 5 p. 15-16)."},{"t":"Neurones","j":"Le neurone possède bien un réticulum : c'est une cellule à forte activité de synthèse, et le cours le cite parmi les cellules dotées de filaments intermédiaires propres, les neurofilaments (ch. 4 p. 17). Le cours ne traite pas son réticulum en particulier."},{"t":"Érythrocytes (globules rouges)","correct":true,"j":"Réponse attendue de l'annale : le globule rouge mature perd ses organites au cours de sa différenciation et ne conserve ni réticulum ni noyau. Attention, le cours de PB1 ne traite nulle part du contenu de l'érythrocyte : cette réponse ne s'appuie sur aucune diapositive et doit être retenue comme un acquis de l'examen."},{"t":"Les hépatocytes et les neurones","j":"Impossible : les deux types cellulaires cités sont au contraire riches en réticulum, l'un pour le métabolisme lipidique, l'autre pour sa synthèse protéique soutenue (ch. 5 p. 15)."}]},
+    {"q":"Le type de protéine que synthétise un ribosome a-t-il quelque chose à voir avec l'endroit où le ribosome fait la synthèse de la protéine ?","c":9,"options":[{"t":"Oui. Selon la destination finale vers laquelle ira la protéine, le ribosome la synthétisera dans le cytoplasme ou dans le RER","correct":true,"j":"Réponse attendue : le cours distingue deux destins possibles des protéines — « vers l'intérieur » ou « vers l'extérieur » — et indique que la synthèse peut se poursuivre dans le cytosol ou dans le RER selon que la séquence signal apparaît ou non (ch. 5 p. 12)."},{"t":"Oui. Si la protéine est petite, elle est fabriquée dans le RER, et si elle est grande, elle est fabriquée dans le cytoplasme","j":"Le critère est inventé : la taille de la protéine n'intervient nulle part dans le schéma du cours, qui fait dépendre le lieu de la séquence signal et du destin de la protéine (ch. 5 p. 12)."},{"t":"Non. Le ribosome fera la protéine au site où il se lie à l'ARNm","j":"La liaison à l'ARNm n'assigne aucun lieu au ribosome : le cours fait dépendre l'endroit où s'achève la synthèse du destin de la protéine traduite (ch. 5 p. 12)."},{"t":"Non. Certains ribosomes sont spécialisés dans la synthèse des protéines dans le RER, et d'autres dans leur synthèse dans le cytoplasme","j":"Le cours ne décrit pas deux populations de ribosomes spécialisés : c'est la protéine en cours de synthèse qui oriente le ribosome, lequel « se rend au RER » quand la séquence signal apparaît (ch. 5 p. 12)."}]},
+    {"q":"Lequel des énoncés suivants concernant la lamina nucléaire est faux ?","c":9,"options":[{"t":"Elle est composée de filaments intermédiaires","j":"Énoncé vrai : le cours définit la lamina nucléaire comme une « couche de protéines des filaments intermédiaires » doublant l'enveloppe (ch. 9 p. 7)."},{"t":"Elle est attachée à la membrane nucléaire interne","j":"Énoncé vrai : la lamina est rangée parmi les constituants de l'enveloppe nucléaire, dont elle tapisse la face tournée vers le noyau (ch. 9 p. 7). Le cours ne précise pas lequel des deux feuillets elle double."},{"t":"Tout comme l'enveloppe nucléaire, elle est présente durant l'interphase et la mitose","correct":true,"j":"Énoncé faux, donc réponse attendue : le cours écrit que le noyau « possède une enveloppe qui disparaît lorsque la cellule se divise » et oppose le noyau interphasique au noyau en division (ch. 9 p. 5) ; l'enveloppe se désintègre d'ailleurs brutalement au cours de la division (ch. 7 p. 17). La lamina, qui la double, ne persiste donc pas davantage."},{"t":"Elle est continue sauf au niveau des pores nucléaires","j":"Énoncé vrai : les complexes de pores percent l'enveloppe pour régler les échanges entre noyau et cytoplasme (ch. 9 p. 7), et la lamina est interrompue en regard de chacun d'eux."}]},
+    {"q":"Indiquer lequel des énoncés suivants concernant la mitose est faux :","c":7,"options":[{"t":"Deux cellules avec un contenu génétique différent sont créées","correct":true,"j":"Énoncé faux, donc réponse attendue : le cours résume la division en une « répartition égale de l'ADN entre deux cellules filles » dont « le contenu est le même » (ch. 7 p. 14)."},{"t":"Au cours de la métaphase les chromosomes sont alignés sur la plaque équatoriale","j":"Énoncé vrai : le cours décrit l'alignement des chromosomes sur la plaque équatoriale, tous les centromères situés dans un même plan (ch. 7 p. 18)."},{"t":"La séparation du matériel génétique se produit grâce aux microtubules","j":"Énoncé vrai : le fuseau mitotique, fait de microtubules dont les kinétochoriens lient les chromosomes aux pôles, « assure la distribution correcte du matériel génétique » (ch. 7 p. 16)."},{"t":"Les chromatides sœurs se séparent","j":"Énoncé vrai : la séparation des chromatides sœurs, tirées vers les pôles opposés du fuseau, est décrite comme un temps de la division (ch. 7 p. 19)."}]},
+    {"q":"Quel composant ne participe pas directement à la traduction ?","c":9,"options":[{"t":"ARNm","j":"Il y participe : la traduction consiste précisément à lire « l'information transcrite en ARN messager » pour former une protéine (ch. 9 p. 16)."},{"t":"ARNt","j":"Il y participe : chaque acide aminé est amené fixé à l'extrémité 3' d'un ARNt, reconnu par l'appariement codon-anticodon (ch. 9 p. 17-18)."},{"t":"Ribosomes","j":"Ils y participent : le cours indique que « les RIBOSOMES sont impliqués » dans la traduction et détaille leurs sites A, P et E (ch. 9 p. 16 et p. 11)."},{"t":"ADN","correct":true,"j":"Réponse attendue : le cours précise que dans la traduction « les trois types d'ARN sont impliqués », aux côtés des ribosomes (ch. 9 p. 16). L'ADN n'intervient qu'en amont, comme matrice de la transcription (p. 13) ; il ne fait pas partie de la machinerie de traduction."}]},
+    {"q":"Combien de nucléotides sont nécessaires dans un ARNm pour synthétiser une protéine de 450 acides aminés, sans compter le codon stop ?","c":9,"options":[{"t":"900","j":"Ce total revient à n'attribuer que deux nucléotides par acide aminé : or le code génétique « fonctionne par triplets » (ch. 9 p. 24)."},{"t":"1350","correct":true,"j":"Réponse attendue : chaque acide aminé est spécifié par un triplet de nucléotides (ch. 9 p. 24), soit 450 × 3 = 1350. L'énoncé écarte expressément le codon de terminaison, qui ajouterait sinon trois nucléotides."},{"t":"450","j":"Ce total revient à compter un seul nucléotide par acide aminé, alors que le code en exige trois : il confond nombre d'acides aminés et nombre de nucléotides (ch. 9 p. 24)."},{"t":"300","j":"Ce total ne suffirait qu'à une protéine bien plus courte que celle demandée : il faut un triplet par acide aminé, pour chacun des 450 (ch. 9 p. 24)."}]},
+    {"q":"Compte tenu des codons d'initiation et de terminaison, combien de nucléotides seront nécessaires pour coder une protéine composée de 100 acides aminés ?","c":9,"options":[{"t":"100","j":"Ce total compte un nucléotide par acide aminé : il ignore que le code fonctionne par triplets (ch. 9 p. 24) et qu'un codon de terminaison doit encore être ajouté."},{"t":"103","j":"Ce total ajoute bien trois nucléotides pour l'arrêt, mais à un décompte resté en acides aminés : il mélange les deux unités au lieu de convertir chaque acide aminé en triplet (ch. 9 p. 24)."},{"t":"300","j":"Ce total correspond aux seuls 100 triplets des acides aminés et laisse de côté le codon de terminaison que l'énoncé demande expressément de prendre en compte (ch. 9 p. 22)."},{"t":"303","correct":true,"j":"Réponse attendue : 100 acides aminés × 3 nucléotides = 300, auxquels s'ajoutent les 3 nucléotides du codon de terminaison UAA, UAG ou UGA (ch. 9 p. 22 et p. 24). Le codon d'initiation AUG code la méthionine initiale, déjà comptée parmi les 100 acides aminés (p. 19)."}]},
+    {"q":"En tenant compte des codons d'initiation et de terminaison, combien de nucléotides seront nécessaires pour coder le peptide formé par la séquence d'acides aminés suivante ?\nMet-Pro-Lys-Pro-Arg-Tre-Gly-Iso-Met-Ser","c":9,"options":[{"t":"32","j":"Ce total ajoute deux nucléotides seulement au-delà des triplets du peptide : le signal d'arrêt est un codon entier, donc trois nucléotides (ch. 9 p. 22)."},{"t":"30","j":"Ce total correspond aux dix triplets du peptide, mais oublie le codon de terminaison que l'énoncé demande de compter (ch. 9 p. 22)."},{"t":"33","correct":true,"j":"Réponse attendue : le peptide compte dix acides aminés, soit 10 × 3 = 30 nucléotides (ch. 9 p. 24), auxquels s'ajoute le codon de terminaison, 3 nucléotides de plus (p. 22) — total 33. La méthionine de tête est portée par le codon d'initiation AUG, déjà comptée (p. 19)."},{"t":"31","j":"Ce total n'ajoute qu'un nucléotide à la série des triplets, comme si l'arrêt de la traduction tenait en une seule base : il est commandé par un codon complet (ch. 9 p. 22)."}]},
+    {"q":"À partir de la séquence suivante d'ADN, quelle protéine est obtenue après transcription puis traduction ?\n5' – TTAGCGTTATTCGCGGGAAGAGCCTAATTTCGGATCCATTTGATCCCG – 3'\n3' – AATCGCAATAAGCGCCCTTCTCGGATTAAAGCCTAGGTAAACTAGGGC – 5'","c":9,"options":[{"t":"5'-Met-Glu-Asn-Gly-Gly-Tyr-Ala-Leu-3'","j":"Deux erreurs : une chaîne polypeptidique se note de l'extrémité N-terminale vers la C-terminale, les polarités 5' et 3' appartenant aux acides nucléiques (ch. 9 p. 20) ; et la suite d'acides aminés ne correspond pas aux codons lus à partir de l'AUG."},{"t":"Nter- Met-Asp-Pro-Lys-Leu-Gly-Ser-Ser-Arg-Glu-Cter","correct":true,"j":"Réponse attendue : la transcription donne, par complémentarité des bases (ch. 9 p. 13), un ARNm 5' CGGGAUCAAAUGGAUCCGAAAUUAGGCUCUUCCCGCGAAUAA 3'. La lecture commence au codon initiateur AUG (p. 19) et, d'après la table du code génétique (p. 18), se poursuit par GAU-CCG-AAA-UUA-GGC-UCU-UCC-CGC-GAA jusqu'au codon stop UAA (p. 22), soit Met-Asp-Pro-Lys-Leu-Gly-Ser-Ser-Arg-Glu."},{"t":"Nter – Met-Ala-Ile-Ser-Ala-Leu-Gly-Leu-Lys-Pro-Arg-Cter","j":"La polarité est bien notée, mais le cadre de lecture est faux : après le codon initiateur, le triplet suivant de l'ARNm est GAU, que la table du code génétique traduit en Asp et non en Ala (ch. 9 p. 13 et p. 18)."},{"t":"Nter- Met- Arg- Tyr- Ser- Arg- Glu- Glu- Pro- Asn- Phe- Gly- Ser- Ile-Cter","j":"Cette chaîne est trop longue pour la séquence donnée : la traduction s'interrompt dès le premier codon stop rencontré dans le cadre de lecture (ch. 9 p. 22)."}]}
   ],
   "structure1": [
     {
@@ -45539,7 +46153,7 @@ const QUESTIONS = {
         {
           "t": "Cellules caliciformes (à mucus)",
           "correct": true,
-          "j": "Exact : la cellule caliciforme est une glande unicellulaire isolée dans l'épithélium, sécrétant le mucus intestinal."
+          "j": "Exact : le cours définit la glande unicellulaire comme « la glande est une cellule unique » et donne pour exemple la cellule caliciforme sécrétant du mucus (T9,10 p. 36) ; c’est ce même type cellulaire que l’on retrouve isolé dans l’épithélium intestinal."
         },
         {
           "t": "Cellules de Paneth (à granules)",
@@ -45670,47 +46284,949 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Lors de la méiose, quels éléments sont séparés et migrent vers les pôles opposés pendant l'anaphase I ?","c":1,"options":[{"t":"Les bivalents alignés sur la plaque équatoriale","j":"L'alignement des bivalents sur la plaque équatoriale définit la métaphase I et précède leur séparation."},{"t":"Les chromosomes homologues entiers de chaque bivalent","correct":true,"j":"En anaphase I, les chromosomes homologues sont séparés et gagnent des pôles opposés, chacun portant des fragments de son homologue après crossover."},{"t":"Les complexes synaptonémaux des chromosomes appariés","j":"Le complexe synaptonémal sert à apparier les homologues durant la prophase I ; ce n'est pas un élément ségrégé."},{"t":"Les chromatides sœurs de chaque chromosome dupliqué","j":"C'est l'anaphase II qui sépare les chromatides, la deuxième division méiotique étant comparable à une mitose normale."}]},
-    {"q":"Pendant la prophase I de la méiose, quelle structure assure l'appariement des chromosomes homologues en bivalents ?","c":1,"options":[{"t":"Le complexe synaptonémal reliant les homologues","correct":true,"j":"Le cours précise que les chromosomes homologues sont appariés grâce au complexe synaptonémal et restent réunis pour former des bivalents."},{"t":"La plaque équatoriale du plan métaphasique","j":"La plaque équatoriale n'est que le plan d'alignement des bivalents déjà constitués, en métaphase I."},{"t":"Le fuseau achromatique issu des centrosomes","j":"Le fuseau assure la migration des chromosomes vers les pôles lors des anaphases, et non leur appariement."},{"t":"L'enveloppe nucléaire néoformée du noyau","j":"L'enveloppe nucléaire réapparaît en télophase I, une fois les homologues séparés."}]},
-    {"q":"Dans la spermatogenèse, quelle étape correspond à la différenciation des spermatides en spermatozoïdes ?","c":1,"options":[{"t":"La spermiogenèse, qui suit l'achèvement de la méiose","correct":true,"j":"Les quatre spermatides obtenues à la fin de la méiose subissent une différenciation en spermatozoïdes appelée spermiogenèse."},{"t":"La capacitation, acquise dans les voies génitales féminines","j":"La capacitation désigne les modifications du spermatozoïde déjà formé qui le rendent apte à féconder l'ovule."},{"t":"La mitose des spermatogonies issues des cellules germinales","j":"Les spermatogonies se multiplient par mitose avant la méiose, bien avant le stade spermatide."},{"t":"La méiose II, qui sépare les chromatides du spermatocyte","j":"La méiose II aboutit précisément aux spermatides ; la différenciation morphologique vient ensuite."}]},
-    {"q":"Dans quelle portion de la trompe utérine la fécondation se produit-elle habituellement ?","c":1,"options":[{"t":"L'endomètre utérin, au futur site de nidation","j":"L'endomètre est le lieu de l'implantation du blastocyste, environ cinq jours après la fécondation."},{"t":"Le follicule ovarien, au moment de sa rupture","j":"Le follicule ne fait que libérer l'ovocyte secondaire lors de l'ovulation ; la fécondation lui est postérieure."},{"t":"La cavité utérine, avant l'implantation du blastocyste","j":"La cavité utérine n'est atteinte qu'après les premières divisions du zygote, aux stades morula puis blastocyste."},{"t":"L'ampoule, atteinte par l'ovocyte II après l'ovulation","correct":true,"j":"Le cours indique que la fécondation se produit généralement dans l'ampoule de la trompe utérine, où parvient l'ovocyte secondaire."}]},
-    {"q":"Quel mécanisme empêche la fécondation de l'ovocyte par plus d'un spermatozoïde ?","c":1,"options":[{"t":"Les granules corticaux libèrent leurs enzymes et durcissent l’enveloppe vitelline","correct":true,"j":"La libération du contenu enzymatique des granules corticaux modifie la zone pellucide et durcit l'enveloppe vitelline, prévenant la polyspermie."},{"t":"La corona radiata se forme autour de la zone pellucide lors du détachement","j":"La corona radiata se constitue dès le détachement de l'ovocyte dans l'ovaire et n'assure pas le blocage de la polyspermie."},{"t":"L'achèvement de la méiose II expulse le dernier corpuscule polaire de l'ovocyte","j":"L'achèvement de la méiose II est une conséquence de la fécondation, postérieure au blocage de l'entrée d'autres spermatozoïdes."},{"t":"Les enzymes acrosomiques du spermatozoïde digèrent la couverture vitelline de l'ovocyte","j":"Les enzymes acrosomiques permettent au contraire la pénétration du premier spermatozoïde : elles ouvrent l'enveloppe au lieu de la fermer."}]},
-    {"q":"Pourquoi l'ADN mitochondrial d'un individu est-il exclusivement d'origine maternelle ?","c":1,"options":[{"t":"Les mitochondries paternelles sont dégradées par les granules corticaux après la fusion des noyaux","j":"Les granules corticaux agissent sur la zone pellucide pour prévenir la polyspermie, non sur les organites paternels."},{"t":"Les mitochondries paternelles restent bloquées dans la zone pellucide lors de la pénétration","j":"La zone pellucide est franchie par la tête du spermatozoïde ; ce n'est pas elle qui retient les mitochondries."},{"t":"Le spermatozoïde perd son flagelle, qui contenait toutes ses mitochondries, avant d'entrer dans l'ovule","correct":true,"j":"Avant la pénétration, le spermatozoïde perd sa queue et avec elle les mitochondries : l'hérédité mitochondriale est donc exclusivement maternelle."},{"t":"Les mitochondries paternelles sont expulsées avec le dernier corpuscule polaire de l'ovocyte","j":"Le corpuscule polaire ne contient que du matériel maternel éliminé lors de la cytocinèse inégale de la méiose."}]},
-    {"q":"Après la nidation, les cellules du trophoblaste se différencient pour former une structure plus complexe participant aux échanges materno-fœtaux. Laquelle ?","c":2,"options":[{"t":"L'hypoblaste, qui constitue le toit de la cavité du blastocyste","j":"L'hypoblaste dérive de l'embryoblaste et participe au disque germinatif bilaminaire, pas aux échanges materno-fœtaux."},{"t":"L'amnios, qui délimite la cavité amniotique autour du disque germinatif","j":"La cavité amniotique apparaît au sein de l'épiblaste, donc à partir de l'embryoblaste et non du trophoblaste."},{"t":"Le chorion, couche externe qui formera le placenta et le cordon ombilical","correct":true,"j":"Le trophoblaste poursuit son développement et ses cellules forment le chorion, couche la plus externe, à l'origine du placenta et du cordon ombilical."},{"t":"Le sac vitellin, qui se forme en même temps que la cavité amniotique","j":"Le sac vitellin apparaît à la deuxième semaine à partir de l'embryoblaste et n'élabore pas le placenta."}]},
-    {"q":"Au cours de la neurulation, quelle structure est à l'origine du système nerveux périphérique ?","c":2,"options":[{"t":"La plaque neurale, épaississement initial de l'ectoblaste","j":"La plaque neurale n'est qu'un stade intermédiaire : elle se creuse en gouttière neurale avant de se fermer."},{"t":"Le tube neural, issu de la fusion des bords de la gouttière","j":"Le tube neural formera le système nerveux central, c'est-à-dire le cerveau et la moelle épinière."},{"t":"La notochorde, formée par les cellules du mésoblaste","j":"La notochorde induit la plaque neurale puis donnera la colonne vertébrale, pas les nerfs périphériques."},{"t":"Les crêtes neurales, formées lors de la fermeture de la gouttière","correct":true,"j":"Le cours précise que le tube neural donnera le système nerveux central et les crêtes neurales le système nerveux périphérique."}]},
-    {"q":"Quel est l'objectif de l'étape de fixation dans le traitement d'un échantillon histologique ?","c":3,"options":[{"t":"Empêcher la digestion du tissu par ses propres enzymes et les bactéries","correct":true,"j":"La fixation, réalisée par exemple au formaldéhyde ou au glutaraldéhyde, empêche l'autodigestion enzymatique et bactérienne et maintient la structure et la composition moléculaire."},{"t":"Générer des contrastes afin de distinguer les différentes parties du tissu observé","j":"C'est le rôle de la coloration, qui met en valeur différemment les diverses structures tissulaires."},{"t":"Infiltrer l'échantillon dans une matrice afin d'obtenir des coupes assez fines","j":"L'infiltration dans la paraffine correspond à l'inclusion, étape préalable à la coupe au microtome."},{"t":"Augmenter le pouvoir de résolution de l'objectif utilisé pour l'observation","j":"Le pouvoir de résolution dépend du système optique et de la longueur d'onde ; la fixation ne fait que l'influencer indirectement."}]},
-    {"q":"Quelle coloration spécifique met en évidence les glucides et le glycogène des tissus ?","c":3,"options":[{"t":"L'acide périodique-Schiff, utilisé pour l'étude du foie et des reins","correct":true,"j":"La coloration PAS met en évidence les glucides et le glycogène tissulaires et sert notamment au diagnostic des maladies hépatiques et rénales."},{"t":"La coloration DAPI, utilisée dans les études cellulaires et génétiques","j":"Le DAPI est un fluorochrome qui colore l'ADN nucléaire en bleu en se liant aux régions riches en adénine et thymine."},{"t":"La teinture de Giemsa, utilisée pour l'examen des frottis sanguins","j":"Le Giemsa associe bleu de méthylène et éosine : c'est une coloration générale, non spécifique des sucres."},{"t":"Le trichrome de Masson, utilisé pour l'étude de la fibrose et du conjonctif","j":"Le trichrome de Masson différencie le collagène (vert ou bleu) des muscles (rouge), sans révéler les glucides."}]},
-    {"q":"Quelle coloration différentielle identifie les bactéries acido-alcoolo-résistantes telles que Mycobacterium tuberculosis ?","c":3,"options":[{"t":"La coloration PAS, qui révèle les glucides et le glycogène tissulaires","j":"Le PAS est une coloration spécifique des sucres, employée en pathologie hépatique et rénale."},{"t":"La coloration de Gram, qui distingue les bactéries positives des négatives","j":"Le Gram est bien une coloration différentielle, mais il sépare les bactéries en Gram positif (violet) et Gram négatif (rouge)."},{"t":"L'immunofluorescence, qui emploie des anticorps marqués au fluorochrome","j":"L'immunofluorescence détecte des antigènes cellulaires et s'utilise en auto-immunité et en virologie, non pour classer les bactéries."},{"t":"La coloration de Ziehl-Neelsen, qui les colore en rouge sans décoloration","correct":true,"j":"Ziehl-Neelsen identifie les bactéries acido-alcoolo-résistantes : la coloration rouge persiste en présence d'acides mycoliques."}]},
-    {"q":"Parmi les quatre tissus de base, lequel est constitué de cellules juxtaposées reposant sur une matrice extracellulaire très peu abondante ?","c":3,"options":[{"t":"Le tissu épithélial, dont les fonctions sont le revêtement et la sécrétion","correct":true,"j":"Le tissu épithélial associe des cellules juxtaposées et une matrice extracellulaire très réduite, pour des fonctions de revêtement et de sécrétion."},{"t":"Le tissu musculaire, dont la fonction est la production du mouvement","j":"Le tissu musculaire est formé de cellules allongées et contractiles, avec une matrice extracellulaire intermédiaire."},{"t":"Le tissu conjonctif, dont les fonctions sont le soutien et la protection","j":"Le tissu conjonctif se caractérise au contraire par une matrice extracellulaire très abondante et une grande variété cellulaire."},{"t":"Le tissu nerveux, dont la fonction est la transmission des influx","j":"Le tissu nerveux possède peu de matrice, mais ses cellules portent des prolongements et ne sont pas juxtaposées."}]},
-    {"q":"Quel tissu conjonctif non spécialisé compose les ligaments jaunes de la colonne vertébrale, les cordes vocales et le ligament suspenseur du pénis ?","c":5,"options":[{"t":"Le tissu conjonctif élastique, jaunâtre à l'état frais","correct":true,"j":"Le tissu conjonctif élastique, à prédominance de fibres élastiques et de couleur jaunâtre à l'état frais, forme les ligaments jaunes, les cordes vocales et le ligament suspenseur du pénis."},{"t":"Le tissu conjonctif dense régulier, en faisceaux parallèles","j":"Le dense régulier, à faisceaux de collagène parallèles, constitue les tendons et les ligaments proprement dits."},{"t":"Le tissu conjonctif dense irrégulier, en faisceaux entrecroisés","j":"Le dense irrégulier, à faisceaux entrecroisés, se trouve dans le derme, les capsules d'organes et la dure-mère."},{"t":"Le tissu conjonctif réticulaire, en réseaux de fibres fines","j":"Le réticulaire forme des réseaux de fibres réticulaires dans les ganglions lymphatiques et la moelle osseuse."}]},
-    {"q":"Quelle propriété mécanique caractérise le tissu conjonctif dense irrégulier du derme et de la dure-mère ?","c":5,"options":[{"t":"Une faible résistance à la traction compensée par une substance fondamentale abondante","j":"Cette description correspond au tissu conjonctif lâche, flexible et gélatineux, peu résistant à la traction."},{"t":"Une résistance aux tensions dans toutes les directions, le collagène étant désordonné","correct":true,"j":"Les fibres de collagène désordonnées, en faisceaux serrés avec peu de substance fondamentale, confèrent une résistance aux tensions dans toutes les directions."},{"t":"Une grande élasticité permettant le retour à la forme initiale après étirement","j":"L'élasticité caractérise le tissu conjonctif élastique, dont les fibres élastiques prédominent."},{"t":"Une résistance à la traction limitée au sens de l'orientation des faisceaux fibreux","j":"C'est la propriété du dense régulier des tendons et ligaments, dont les fibres parallèles résistent dans un seul axe."}]},
-    {"q":"Quel type de collagène constitue les fibres du tissu conjonctif réticulaire ?","c":5,"options":[{"t":"Le collagène de type I","j":"Le collagène de type I forme les fibres épaisses et empaquetées du tissu conjonctif dense, notamment des tendons."},{"t":"Le collagène de type III","correct":true,"j":"Le tissu réticulaire est riche en fibres réticulaires faites de collagène de type III, organisées en réseaux associés aux fibroblastes et aux macrophages."},{"t":"Le collagène de type IV","j":"Le collagène de type IV est un constituant des lames basales, pas des réseaux réticulaires."},{"t":"Le collagène de type II","j":"Le collagène de type II est celui du tissu cartilagineux et non des fibres réticulaires."}]},
-    {"q":"Un patient présente une tendinopathie chronique du tendon d'Achille. Quelle modification cellulaire caractérise le tendon pathologique ?","c":5,"options":[{"t":"Une hypocellularité avec des ténocytes fusiformes bien alignés","j":"Les ténocytes fusiformes alignés entre les fibres tendineuses correspondent au tendon sain, non au tendon pathologique."},{"t":"Une hypercellularité avec des ténocytes de morphologie arrondie","correct":true,"j":"Les tendons malades présentent une hypercellularité et une modification morphologique des cellules, les ténocytes devenant ronds, avec une présence accrue de cellules immunitaires."},{"t":"Une transformation des ténocytes en myofibroblastes contractiles","j":"La différenciation en myofibroblastes appartient au remodelage des cicatrices cutanées, pas à la tendinopathie."},{"t":"Une disparition des ténocytes remplacés par des adipocytes matures","j":"Une accumulation de lipides est décrite dans les cas chroniques, mais les ténocytes ne sont pas remplacés par des adipocytes."}]},
-    {"q":"Quelle différence structurale distingue le ligament du tendon, tous deux faits de tissu conjonctif dense régulier ?","c":5,"options":[{"t":"Ses fibres de collagène sont entrecroisées et résistent dans toutes les directions","j":"L'entrecroisement des faisceaux définit le tissu conjonctif dense irrégulier, comme le stroma cornéen."},{"t":"Ses fibres élastiques prédominent et lui donnent une teinte jaunâtre","j":"La prédominance des fibres élastiques caractérise le tissu conjonctif élastique, non le ligament."},{"t":"Ses fascicules de collagène sont disposés en hélices et il est plus pauvre en cellules","j":"Cette description est celle du tendon, dont les fascicules sont hélicoïdaux et les ténocytes fusiformes moins nombreux."},{"t":"Ses fascicules de collagène sont droits ou ondulés et il est plus riche en cellules","correct":true,"j":"Dans le ligament, les fascicules de collagène sont droits ou ondulés et les cellules sont plus nombreuses, avec des fibroblastes ovoïdes ou ronds."}]},
-    {"q":"Quelles voies de signalisation sont spécifiquement activées au cours de la régénération tissulaire pour réguler les cellules souches ?","c":7,"options":[{"t":"Les voies Wnt, Notch et Hedgehog, complétées par le FGF et l'IGF","correct":true,"j":"La régénération active les voies Wnt, Notch et Hedgehog pour réguler prolifération et différenciation des cellules souches, le FGF et l'IGF stimulant leur engagement tissulaire."},{"t":"Les voies des métalloprotéases matricielles et de leurs inhibiteurs","j":"Le couple MMP-TIMP contrôle la dégradation de la matrice lors du remodelage, en aval de la prolifération."},{"t":"Les voies du TGF-bêta, du PDGF et du VEGF, mobilisant les fibroblastes","j":"Ces cytokines et facteurs de croissance sont les acteurs moléculaires de la réparation cicatricielle, pas de la régénération."},{"t":"Les voies des prostaglandines et des leucotriènes, attirant les leucocytes","j":"Ces médiateurs inflammatoires initient la réponse inflammatoire et le recrutement immunitaire au site lésé."}]},
-    {"q":"Quelles propriétés font des cellules souches mésenchymateuses de très bons candidats pour la thérapie cellulaire ?","c":9,"options":[{"t":"Totipotentes, capables de former également les tissus extra-embryonnaires","j":"La totipotence concerne le zygote et les premiers blastomères, qui forment aussi le placenta."},{"t":"Multipotentes vers les lignées mésenchymateuses, avec homing et immunomodulation","correct":true,"j":"Les CSM sont multipotentes (chondroblastes, ostéoblastes, adipocytes), capables de migration et de homing, et possèdent des propriétés immunomodulatrices et sécrétoires."},{"t":"Pluripotentes vers les trois feuillets, mais dépourvues de capacité migratoire","j":"La pluripotence vers les trois feuillets caractérise les cellules souches embryonnaires et les iPSC, non les CSM."},{"t":"Unipotentes, restreintes à la seule lignée hématopoïétique médullaire","j":"Les cellules restreintes à une lignée sont les progéniteurs uni ou oligopotents, à potentiel et auto-renouvellement limités."}]},
-    {"q":"Dans la niche des cellules souches adultes, quel élément intègre les signaux provenant de différentes sources ?","c":9,"options":[{"t":"Les fibres nerveuses de la niche","correct":true,"j":"Le cours attribue aux fibres nerveuses l'intégration des signaux provenant de différentes sources et la capacité de mobiliser les cellules souches."},{"t":"La matrice extracellulaire de la niche","j":"La matrice apporte le soutien mécanique et interagit avec les cellules souches via des gradients biochimiques, les intégrines et les cadhérines."},{"t":"Les cellules stromales de soutien","j":"Les cellules stromales agissent de proximité, en sécrétant des facteurs et des molécules d'adhésion."},{"t":"Les vaisseaux sanguins de la niche","j":"Les vaisseaux assurent l'alimentation, la signalisation à longue distance et la circulation cellulaire vers et depuis la niche."}]},
-    {"q":"En quelles cellules les progéniteurs périostés sont-ils capables de se différencier ?","c":9,"options":[{"t":"En adipocytes ou en fibroblastes","j":"Ces lignées relèvent du potentiel multipotent des cellules souches mésenchymateuses, non des progéniteurs périostés."},{"t":"En myoblastes puis en myotubes","j":"Ce sont les cellules satellites musculaires qui donnent des myoblastes fusionnant en myotubes."},{"t":"En ostéoblastes ou en chondroblastes","correct":true,"j":"Le cours cite les progéniteurs périostés parmi les cellules progénitrices, se différenciant en ostéoblastes ou en chondroblastes."},{"t":"En cellules endothéliales vasculaires","j":"Les progéniteurs endothéliaux constituent une population de cellules progénitrices distincte."}]},
-    {"q":"Dans la classification des cellules souches selon leur origine, d'où sont isolées les cellules souches germinales ?","c":9,"options":[{"t":"De la masse cellulaire interne du blastocyste de cinq jours","j":"Cette masse interne fournit les cellules souches embryonnaires, pluripotentes."},{"t":"De la crête germinale du fœtus, qui donne naissance aux gonades","correct":true,"j":"Le cours définit les cellules souches germinales comme isolées des fœtus, à partir de la crête germinale qui donnera les gonades."},{"t":"Du sang de cordon ombilical recueilli à l'accouchement","j":"Le sang de cordon est une source de cellules souches hématopoïétiques, qui appartiennent aux cellules souches adultes."},{"t":"De la moelle osseuse prélevée chez le donneur adulte","j":"Les cellules obtenues chez l'adulte ou après la naissance sont les cellules souches adultes, dites somatiques."}]},
-    {"q":"Quel mode de division permet à une cellule souche de produire une cellule engagée dans la différenciation tout en maintenant le pool de cellules souches ?","c":9,"options":[{"t":"La division symétrique","j":"La division symétrique donne deux cellules filles de même nature et ne permet pas à elle seule de concilier les deux exigences."},{"t":"L'entrée en quiescence","j":"La quiescence est un arrêt du cycle cellulaire dans la niche : elle préserve le pool mais ne produit aucune cellule."},{"t":"La division asymétrique","correct":true,"j":"Les cellules souches se définissent par l'auto-renouvellement et par des divisions symétriques et asymétriques, la division asymétrique donnant une cellule souche et une cellule engagée."},{"t":"La fusion en syncytium","j":"La fusion cellulaire en syncytium est un mécanisme de formation des myotubes, pas un mode de division."}]},
-    {"q":"Quelle structure fournit les cellules qui assurent la régénération de l’épiderme après une plaie ?","c":10,"options":[{"t":"La matrice provisoire de fibrine formée lors de l'hémostase","j":"Cette matrice stabilise le caillot et sert de substrat de migration cellulaire, sans fournir de cellules épidermiques."},{"t":"La couche cornée superficielle, dont les cellules se chargent de kératine","j":"Le stratum corneum est le produit final du processus : ses cellules sont mortes et kératinisées, donc incapables de se diviser."},{"t":"La couche germinative profonde, dont les cellules se divisent par mitose","correct":true,"j":"La régénération part du stratum germinativum : ses cellules souches se divisent par mitose et les cellules filles migrent vers les couches supérieures."},{"t":"Le derme papillaire sous-jacent, par migration de ses fibroblastes","j":"Les fibroblastes dermiques synthétisent la matrice extracellulaire mais ne réépithélialisent pas la plaie."}]},
-    {"q":"Lors de la phase de remodelage d'une cicatrice cutanée, quel couple moléculaire règle la dégradation de la matrice extracellulaire ?","c":10,"options":[{"t":"La fibrine et la fibronectine du caillot provisoire","j":"Fibrine, fibronectine et vitronectine forment la matrice provisoire de l'hémostase, première phase de la cicatrisation."},{"t":"Les cytokines TNF-alpha, IL-1bêta et IL-6 des macrophages","j":"Ces cytokines amplifient la réponse inflammatoire au cours de la deuxième phase de la cicatrisation."},{"t":"Les facteurs de croissance EGF et KGF des kératinocytes","j":"L'EGF et le KGF stimulent la prolifération cellulaire et la synthèse de matrice pendant la phase de prolifération."},{"t":"Les métalloprotéases matricielles et leurs inhibiteurs","correct":true,"j":"La dégradation de la matrice au cours du remodelage est régulée par les MMP et leurs inhibiteurs, les TIMP, le TGF-bêta continuant de contrôler la synthèse de collagène."}]},
-    {"q":"Quelle est la séquence cellulaire de la phase inflammatoire d'une plaie cutanée ?","c":10,"options":[{"t":"Les kératinocytes arrivent d'abord et couvrent la plaie, suivis des cellules endothéliales","j":"Migration des kératinocytes et angiogenèse appartiennent à la phase de prolifération."},{"t":"Les macrophages arrivent d'abord et sécrètent le VEGF, suivis des neutrophiles","j":"L'ordre est inversé : les macrophages succèdent aux neutrophiles, même s'ils sécrètent effectivement du VEGF."},{"t":"Les myofibroblastes arrivent d'abord et contractent la plaie, suivis des fibroblastes","j":"Les myofibroblastes dérivent des fibroblastes et n'interviennent qu'au remodelage, bien après l'inflammation."},{"t":"Les neutrophiles arrivent d'abord et phagocytent les débris, suivis des macrophages","correct":true,"j":"Les neutrophiles arrivent en premier pour phagocyter les débris et prévenir l'infection, puis les macrophages dégradent les tissus lésés et libèrent des cytokines."}]},
-    {"q":"Une plaie aux berges irrégulières et écartées cicatrise en seconde intention. Quelle caractéristique correspond à ce mode de cicatrisation ?","c":10,"options":[{"t":"La guérison se déroule sans myofibroblastes ni contraction de la plaie","j":"Ce sont au contraire les myofibroblastes qui contractent la plaie ouverte en seconde intention."},{"t":"La guérison est directe et aboutit à une cicatrice linéaire nette sans granulation","j":"Cicatrice linéaire nette et tissu de granulation rare définissent la cicatrisation de première intention."},{"t":"La guérison progresse de la base vers les bords et laisse une plaie irrégulière contractée","correct":true,"j":"En seconde intention, la guérison se fait de la base au bord avec un tissu de granulation abondant, pour un résultat irrégulier et contracté."},{"t":"La guérison est courte car les berges chirurgicalement propres sont rapprochées","j":"Des berges propres et rapprochées caractérisent la première intention, dont le temps de guérison est court."}]},
-    {"q":"Sur le plan moléculaire, qu'est-ce qui distingue une chéloïde d'une cicatrice hypertrophique ?","c":10,"options":[{"t":"Des taux de TGF-bêta encore plus élevés et une surproduction d'IL-6 et d'IL-8","correct":true,"j":"Dans les chéloïdes, le TGF-bêta1 et le TGF-bêta2 sont plus élevés que dans les cicatrices hypertrophiques, et les interleukines IL-6 et IL-8 surproduites entretiennent une inflammation persistante."},{"t":"Une élévation isolée du TGF-bêta1 et du TGF-bêta2 sans cytokine surajoutée","j":"Cette surproduction de TGF-bêta est commune aux deux lésions et définit déjà la cicatrice hypertrophique."},{"t":"Une diminution du nombre de fibroblastes avec arrêt précoce de la synthèse","j":"Les fibroblastes des chéloïdes sont plus nombreux et plus actifs, et produisent du collagène bien après la phase de remodelage."},{"t":"Une activité accrue des métalloprotéases accélérant la dégradation du collagène","j":"Dans ces deux cicatrices pathologiques les MMP sont au contraire moins actives, ce qui réduit la dégradation de la matrice."}]},
-    {"q":"Par quel mécanisme les pansements en silicone agissent-ils sur une cicatrice en cours de maturation ?","c":10,"options":[{"t":"Ils dégradent l'excès de collagène en activant les métalloprotéases matricielles","j":"Aucune activation pharmacologique des MMP n'est décrite : le silicone agit sur la tension et l'hydratation."},{"t":"Ils réduisent la tension sur la plaie et maintiennent une hydratation optimale","correct":true,"j":"Le cours attribue aux pansements en silicone la réduction de la tension sur la plaie et le maintien d'une hydratation optimale du tissu cicatriciel."},{"t":"Ils réduisent l'oxygénation et le flux sanguin vers le tissu cicatriciel","j":"C'est le mécanisme de la thérapie par compression, qui diminue le nombre de cellules productrices de collagène."},{"t":"Ils améliorent la circulation locale par une sollicitation mécanique répétée","j":"C'est l'effet recherché par le massage de la cicatrice, qui améliore la circulation sanguine."}]},
-    {"q":"Au cours de l'histogenèse du tissu adipeux uniloculaire, quelle cellule se différencie directement en adipocyte immature capable de synthétiser des triglycérides ?","c":11,"options":[{"t":"L'adipocyte brun multiloculaire mature","j":"Les adipocytes bruns proviennent d'adipoblastes distincts de ceux de la lignée blanche et constituent un stade terminal."},{"t":"Le préadipocyte, issu de l'adipoblaste","correct":true,"j":"Les adipoblastes se différencient en préadipocytes, lesquels deviennent des adipocytes immatures capables de synthétiser des triglycérides, puis des adipocytes blancs matures."},{"t":"L'adipoblaste, issu de la cellule mésenchymateuse","j":"L'adipoblaste, ou lipoblaste, est un stade antérieur : il provient de la cellule mésenchymateuse et donne le préadipocyte."},{"t":"La cellule mésenchymateuse indifférenciée","j":"Elle est à l'origine de toute la lignée adipeuse, mais doit d'abord se différencier en adipoblaste."}]},
-    {"q":"Quelle différence sépare le sérum du plasma sanguin ?","c":12,"options":[{"t":"Le sérum est le plasma dépourvu de ses protéines de la coagulation","correct":true,"j":"Le cours précise que le plasma sanguin privé de ses protéines de la coagulation, dont le fibrinogène, constitue le sérum."},{"t":"Le sérum est le plasma dépourvu de ses éléments cellulaires figurés","j":"Le plasma est par définition déjà séparé des éléments figurés, qui occupent 45 % du volume sanguin."},{"t":"Le sérum est le plasma dépourvu de son eau et de ses électrolytes","j":"L'eau représente 90 % du plasma et les électrolytes y sont dissous : le sérum en contient également."},{"t":"Le sérum est le plasma dépourvu de ses globulines et de ses anticorps","j":"Les globulines, qui correspondent aux anticorps, sont des protéines plasmatiques de l'immunité et demeurent dans le sérum."}]},
-    {"q":"Sur un frottis, on observe de petits fragments cytoplasmiques énucléés intervenant dans la coagulation. De quelle cellule dérivent-ils ?","c":12,"options":[{"t":"Du monocyte circulant du sang périphérique","j":"Le monocyte est un agranulocyte complet à noyau réniforme, qui devient macrophage ou ostéoclaste après extravasation."},{"t":"De l'érythroblaste de la lignée érythroïde","j":"L'érythroblaste est le précurseur médullaire de l'érythrocyte, cellule biconcave énucléée riche en hémoglobine."},{"t":"Du neutrophile à noyau polylobé du sang","j":"Le neutrophile est un granulocyte entier, chargé de la phagocytose des bactéries et des cellules endommagées."},{"t":"Du mégacaryocyte de la moelle osseuse","correct":true,"j":"Les thrombocytes sont de petits fragments cytoplasmiques énucléés liés à la membrane, dérivés des mégacaryocytes, et interviennent dans la coagulation du sang."}]},
-    {"q":"Quel élément cellulaire du sang, une fois activé, se différencie en plasmocyte producteur d'anticorps ?","c":12,"options":[{"t":"Le monocyte","j":"Le monocyte extravasé devient macrophage ou ostéoclaste et relève de l'immunité innée, non de la production d'anticorps."},{"t":"Le lymphocyte T CD4+","j":"Les lymphocytes T helper organisent la réponse immunitaire face aux antigènes étrangers, sans produire d'anticorps."},{"t":"Le lymphocyte B","correct":true,"j":"Les lymphocytes B activés se différencient en plasmocytes, cellules responsables de la production des anticorps."},{"t":"Le lymphocyte NK","j":"Les lymphocytes NK détruisent de façon non spécifique les cellules infectées par des virus et les cellules néoplasiques."}]},
-    {"q":"Où se situe précisément la niche des cellules satellites du muscle strié squelettique ?","c":16,"options":[{"t":"Dans le tissu conjonctif de l'épimysium entourant le muscle entier","j":"L'épimysium est l'enveloppe externe du muscle et ne contient pas les cellules satellites."},{"t":"Dans le sarcoplasme de la fibre, au contact de ses noyaux périphériques","j":"Les cellules satellites restent extérieures au cytoplasme de la fibre, dont elles sont séparées par la membrane plasmique."},{"t":"Entre la lamina externe et la membrane plasmique de la fibre musculaire","correct":true,"j":"La niche des cellules souches musculaires est localisée entre la lamina externe et la membrane plasmique des fibres, dans une matrice riche en collagène, laminine, fibronectine et protéoglycanes."},{"t":"Entre les faisceaux de fibres, dans le tissu conjonctif du périmysium","j":"Le périmysium entoure les faisceaux de fibres : c'est une enveloppe conjonctive de soutien, pas la niche des cellules satellites."}]},
-    {"q":"Quelles cellules gliales tapissent les ventricules cérébraux et le canal central de la moelle, séparant le tissu nerveux du liquide céphalo-rachidien ?","c":17,"options":[{"t":"Les oligodendrocytes","j":"Les oligodendrocytes forment la gaine de myéline des axones de la substance blanche du système nerveux central."},{"t":"Les astrocytes","j":"Les astrocytes, surtout présents dans la substance grise, régulent l'espace extracellulaire, participent à la barrière hémato-encéphalique et au métabolisme énergétique."},{"t":"Les cellules épendymaires","correct":true,"j":"Les épendymocytes forment un épithélium cylindrique court ou cubique qui tapisse les cavités du SNC et sépare le tissu nerveux du LCR, certaines étant ciliées et d'autres modifiées en plexus choroïdes."},{"t":"Les cellules satellites des ganglions","j":"Les cellules satellites entourent les somas neuronaux des ganglions périphériques, auxquels elles apportent soutien et nutriments."}]},
-    {"q":"Quelle caractéristique distingue les fibres nerveuses périphériques amyélinisées des fibres myélinisées ?","c":17,"options":[{"t":"Une cellule de Schwann entoure un seul axone par un enroulement spiralé de plusieurs couches","j":"C'est la description de la fibre myélinisée, où l'enroulement de la membrane délimite les segments internodaux."},{"t":"Elles sont entourées d'oligodendrocytes et non de cellules de Schwann","j":"Les oligodendrocytes myélinisent les axones du système nerveux central ; dans le nerf périphérique ce sont les cellules de Schwann."},{"t":"Elles sont dépourvues de cellule enveloppante comme de lame basale","j":"Les fibres amyélinisées restent entourées de cellules de Schwann, dont la membrane est recouverte d'une lamina basale."},{"t":"Une cellule de Schwann entoure plusieurs axones, sans spirale ni nœuds de Ranvier","correct":true,"j":"Dans les fibres amyélinisées, une cellule de Schwann peut entourer plusieurs axones d'une seule couche de membrane et de cytoplasme, sans spirale ni nœuds de Ranvier, les cellules formant une gaine continue."}]},
-    {"q":"Dans la classification de Sunderland des lésions du nerf périphérique, quelle structure est atteinte dans une lésion de grade 1 ?","c":18,"options":[{"t":"Toutes les enveloppes jusqu'à l'épinèvre, avec hémorragie et fibrose","j":"Cette lésion la plus grave, avec perte complète de continuité, correspond à la neurotmèse complète de grade 5."},{"t":"La myéline des cellules de Schwann, sans perte de continuité nerveuse","correct":true,"j":"La neurapraxie est une lésion légère sans perte de continuité du nerf, dont la seule structure atteinte est la myéline des cellules de Schwann."},{"t":"L'axone et sa myéline, avec conservation de l'endonèvre","j":"Cette atteinte axonale respectant l'endonèvre définit l'axonotmèse, de grade 2."},{"t":"L'axone, la myéline et l'endonèvre, le nerf étant interrompu","j":"Cette interruption complète, qui touche aussi le périnèvre et l'épinèvre, caractérise la neurotmèse de grade 3."}]},
-    {"q":"Quelle lésion nerveuse associe une interruption des fascicules nerveux à un épinèvre intact, empêchant la repousse d'atteindre les cibles distales ?","c":18,"options":[{"t":"La neurotmèse complète du nerf (grade 5)","j":"Le grade 5 interrompt la continuité du nerf dans son ensemble, épinèvre compris, souvent avec hémorragie et fibrose."},{"t":"L'axonotmèse du nerf périphérique (grade 2)","j":"Le grade 2 interrompt l'axone et sa myéline mais conserve l'endonèvre, ce qui autorise une repousse guidée."},{"t":"La neurotmèse avec névrome en continuité (grade 4)","correct":true,"j":"Le grade 4 atteint axones, myéline, endonèvre et périnèvre en laissant l'épinèvre intact ; les fascicules interrompus empêchent la régénération d'atteindre les cibles distales."},{"t":"La neurapraxie du nerf périphérique (grade 1)","j":"Le grade 1 ne touche que la myéline, sans aucune perte de continuité nerveuse."}]},
-    {"q":"Après une lésion du système nerveux central, quel est le rôle de la microglie ?","c":18,"options":[{"t":"Phagocyter les parties endommagées du tissu nerveux","correct":true,"j":"Dans le SNC lésé, la microglie assure la phagocytose des parties endommagées : c'est la fonction macrophagique des cellules gliales."},{"t":"Former de nouvelles gaines de myéline sur les axones","j":"La myélinisation centrale revient aux oligodendrocytes, dont la présence ne favorise pas la repousse axonale."},{"t":"Combler les zones lésées par un tissu de remplissage","j":"Ce sont les astrocytes qui remplissent rapidement les zones endommagées, ce qui limite la régénération axonale."},{"t":"Constituer un tube cellulaire guidant la repousse axonale","j":"Ce tube de guidage résulte de la prolifération des cellules de Schwann, absentes du système nerveux central."}]},
-    {"q":"Dans la recherche sur la régénération nerveuse, pourquoi utilise-t-on les cellules souches mésenchymateuses de moelle osseuse ?","c":18,"options":[{"t":"Pour leur capacité à se différencier en cellules de type Schwann","correct":true,"j":"Les BMSC sont employées pour leur capacité à se différencier en cellules de type Schwann, en complément de leurs effets paracrines et de leur rôle de support structurel."},{"t":"Pour leur aptitude à dissoudre la cicatrice astrocytaire centrale","j":"Les mécanismes décrits sont paracrines, de différenciation et de soutien matriciel, non la lyse de la cicatrice gliale."},{"t":"Pour leur haut potentiel de survie et leur faible immunogénicité","j":"Ces deux atouts sont ceux des cellules souches mésenchymateuses adipeuses (ADSC), l'autre population étudiée."},{"t":"Pour leur capacité à remplacer directement les axones sectionnés","j":"Aucune cellule souche ne remplace un axone : la repousse part du segment proximal resté relié au soma."}]},
-    {"q":"Quelle situation rend la régénération axonale périphérique infructueuse malgré un soma neuronal intact ?","c":18,"options":[{"t":"Une phagocytose des débris du segment distal par les macrophages","j":"Le nettoyage des débris par les macrophages fait partie du processus normal de dégénérescence précédant la repousse."},{"t":"Une augmentation du volume du soma avec déplacement du noyau","j":"Ces changements rétrogrades sont une étape normale de la réaction axonale et traduisent l'activation métabolique du neurone."},{"t":"Une distance trop grande entre les extrémités proximale et distale","correct":true,"j":"La régénération échoue lorsque la distance entre les extrémités proximale et distale est trop grande, ou en l'absence d'extrémité distale comme après une amputation."},{"t":"Une prolifération abondante des cellules de Schwann distales","j":"Cette prolifération est au contraire indispensable : elle forme le tube cellulaire qui guide la repousse de l'axone."}]}
+    {
+      "q": "Lors de la méiose, quels éléments sont séparés et migrent vers les pôles opposés pendant l'anaphase I ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Les bivalents alignés sur la plaque équatoriale",
+          "j": "L'alignement des bivalents sur la plaque équatoriale définit la métaphase I et précède leur séparation."
+        },
+        {
+          "t": "Les chromosomes homologues entiers de chaque bivalent",
+          "correct": true,
+          "j": "En anaphase I, les chromosomes homologues sont séparés et gagnent des pôles opposés, chacun portant des fragments de son homologue après crossover."
+        },
+        {
+          "t": "Les complexes synaptonémaux des chromosomes appariés",
+          "j": "Le complexe synaptonémal sert à apparier les homologues durant la prophase I ; ce n'est pas un élément ségrégé."
+        },
+        {
+          "t": "Les chromatides sœurs de chaque chromosome dupliqué",
+          "j": "C'est l'anaphase II qui sépare les chromatides, la deuxième division méiotique étant comparable à une mitose normale."
+        }
+      ]
+    },
+    {
+      "q": "Pendant la prophase I de la méiose, quelle structure assure l'appariement des chromosomes homologues en bivalents ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Le complexe synaptonémal reliant les homologues",
+          "correct": true,
+          "j": "Le cours précise que les chromosomes homologues sont appariés grâce au complexe synaptonémal et restent réunis pour former des bivalents."
+        },
+        {
+          "t": "La plaque équatoriale du plan métaphasique",
+          "j": "La plaque équatoriale n'est que le plan d'alignement des bivalents déjà constitués, en métaphase I."
+        },
+        {
+          "t": "Le fuseau achromatique issu des centrosomes",
+          "j": "Le fuseau assure la migration des chromosomes vers les pôles lors des anaphases, et non leur appariement."
+        },
+        {
+          "t": "L'enveloppe nucléaire néoformée du noyau",
+          "j": "L'enveloppe nucléaire réapparaît en télophase I, une fois les homologues séparés."
+        }
+      ]
+    },
+    {
+      "q": "Dans la spermatogenèse, quelle étape correspond à la différenciation des spermatides en spermatozoïdes ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "La spermiogenèse, qui suit l'achèvement de la méiose",
+          "correct": true,
+          "j": "Les quatre spermatides obtenues à la fin de la méiose subissent une différenciation en spermatozoïdes appelée spermiogenèse."
+        },
+        {
+          "t": "La capacitation, acquise dans les voies génitales féminines",
+          "j": "La capacitation désigne les modifications du spermatozoïde déjà formé qui le rendent apte à féconder l'ovule."
+        },
+        {
+          "t": "La mitose des spermatogonies issues des cellules germinales",
+          "j": "Les spermatogonies se multiplient par mitose avant la méiose, bien avant le stade spermatide."
+        },
+        {
+          "t": "La méiose II, qui sépare les chromatides du spermatocyte",
+          "j": "La méiose II aboutit précisément aux spermatides ; la différenciation morphologique vient ensuite."
+        }
+      ]
+    },
+    {
+      "q": "Dans quelle portion de la trompe utérine la fécondation se produit-elle habituellement ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "L'endomètre utérin, au futur site de nidation",
+          "j": "L'endomètre est le lieu de l'implantation du blastocyste, environ cinq jours après la fécondation."
+        },
+        {
+          "t": "Le follicule ovarien, au moment de sa rupture",
+          "j": "Le follicule ne fait que libérer l'ovocyte secondaire lors de l'ovulation ; la fécondation lui est postérieure."
+        },
+        {
+          "t": "La cavité utérine, avant l'implantation du blastocyste",
+          "j": "La cavité utérine n'est atteinte qu'après les premières divisions du zygote, aux stades morula puis blastocyste."
+        },
+        {
+          "t": "L'ampoule, atteinte par l'ovocyte II après l'ovulation",
+          "correct": true,
+          "j": "Le cours indique que la fécondation se produit généralement dans l'ampoule de la trompe utérine, où parvient l'ovocyte secondaire."
+        }
+      ]
+    },
+    {
+      "q": "Quel mécanisme empêche la fécondation de l'ovocyte par plus d'un spermatozoïde ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Les granules corticaux libèrent leurs enzymes et durcissent l’enveloppe vitelline",
+          "correct": true,
+          "j": "La libération du contenu enzymatique des granules corticaux modifie la zone pellucide et durcit l'enveloppe vitelline, prévenant la polyspermie."
+        },
+        {
+          "t": "La corona radiata se forme autour de la zone pellucide lors du détachement",
+          "j": "La corona radiata se constitue dès le détachement de l'ovocyte dans l'ovaire et n'assure pas le blocage de la polyspermie."
+        },
+        {
+          "t": "L'achèvement de la méiose II expulse le dernier corpuscule polaire de l'ovocyte",
+          "j": "L'achèvement de la méiose II est une conséquence de la fécondation, postérieure au blocage de l'entrée d'autres spermatozoïdes."
+        },
+        {
+          "t": "Les enzymes acrosomiques du spermatozoïde digèrent la couverture vitelline de l'ovocyte",
+          "j": "Les enzymes acrosomiques permettent au contraire la pénétration du premier spermatozoïde : elles ouvrent l'enveloppe au lieu de la fermer."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi l'ADN mitochondrial d'un individu est-il exclusivement d'origine maternelle ?",
+      "c": 1,
+      "options": [
+        {
+          "t": "Les mitochondries paternelles sont dégradées par les granules corticaux après la fusion des noyaux",
+          "j": "Les granules corticaux agissent sur la zone pellucide pour prévenir la polyspermie, non sur les organites paternels."
+        },
+        {
+          "t": "Les mitochondries paternelles restent bloquées dans la zone pellucide lors de la pénétration",
+          "j": "La zone pellucide est franchie par la tête du spermatozoïde ; ce n'est pas elle qui retient les mitochondries."
+        },
+        {
+          "t": "Le spermatozoïde perd son flagelle, qui contenait toutes ses mitochondries, avant d'entrer dans l'ovule",
+          "correct": true,
+          "j": "Avant la pénétration, le spermatozoïde perd sa queue et avec elle les mitochondries : l'hérédité mitochondriale est donc exclusivement maternelle."
+        },
+        {
+          "t": "Les mitochondries paternelles sont expulsées avec le dernier corpuscule polaire de l'ovocyte",
+          "j": "Le corpuscule polaire ne contient que du matériel maternel éliminé lors de la cytocinèse inégale de la méiose."
+        }
+      ]
+    },
+    {
+      "q": "Après la nidation, les cellules du trophoblaste se différencient pour former une structure plus complexe participant aux échanges materno-fœtaux. Laquelle ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "L'hypoblaste, qui constitue le toit de la cavité du blastocyste",
+          "j": "L'hypoblaste dérive de l'embryoblaste et participe au disque germinatif bilaminaire, pas aux échanges materno-fœtaux."
+        },
+        {
+          "t": "L'amnios, qui délimite la cavité amniotique autour du disque germinatif",
+          "j": "La cavité amniotique apparaît au sein de l'épiblaste, donc à partir de l'embryoblaste et non du trophoblaste."
+        },
+        {
+          "t": "Le chorion, couche externe qui formera le placenta et le cordon ombilical",
+          "correct": true,
+          "j": "Le trophoblaste poursuit son développement et ses cellules forment le chorion, couche la plus externe, à l'origine du placenta et du cordon ombilical."
+        },
+        {
+          "t": "Le sac vitellin, qui se forme en même temps que la cavité amniotique",
+          "j": "Le sac vitellin apparaît à la deuxième semaine à partir de l'embryoblaste et n'élabore pas le placenta."
+        }
+      ]
+    },
+    {
+      "q": "Au cours de la neurulation, quelle structure est à l'origine du système nerveux périphérique ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La plaque neurale, épaississement initial de l'ectoblaste",
+          "j": "La plaque neurale n'est qu'un stade intermédiaire : elle se creuse en gouttière neurale avant de se fermer."
+        },
+        {
+          "t": "Le tube neural, issu de la fusion des bords de la gouttière",
+          "j": "Le tube neural formera le système nerveux central, c'est-à-dire le cerveau et la moelle épinière."
+        },
+        {
+          "t": "La notochorde, formée par les cellules du mésoblaste",
+          "j": "La notochorde induit la plaque neurale puis donnera la colonne vertébrale, pas les nerfs périphériques."
+        },
+        {
+          "t": "Les crêtes neurales, formées lors de la fermeture de la gouttière",
+          "correct": true,
+          "j": "Le cours précise que le tube neural donnera le système nerveux central et les crêtes neurales le système nerveux périphérique."
+        }
+      ]
+    },
+    {
+      "q": "Quel est l'objectif de l'étape de fixation dans le traitement d'un échantillon histologique ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Empêcher la digestion du tissu par ses propres enzymes et les bactéries",
+          "correct": true,
+          "j": "La fixation, réalisée par exemple au formaldéhyde ou au glutaraldéhyde, empêche l'autodigestion enzymatique et bactérienne et maintient la structure et la composition moléculaire."
+        },
+        {
+          "t": "Générer des contrastes afin de distinguer les différentes parties du tissu observé",
+          "j": "C'est le rôle de la coloration, qui met en valeur différemment les diverses structures tissulaires."
+        },
+        {
+          "t": "Infiltrer l'échantillon dans une matrice afin d'obtenir des coupes assez fines",
+          "j": "L'infiltration dans la paraffine correspond à l'inclusion, étape préalable à la coupe au microtome."
+        },
+        {
+          "t": "Augmenter le pouvoir de résolution de l'objectif utilisé pour l'observation",
+          "j": "Le pouvoir de résolution dépend du système optique et de la longueur d'onde ; la fixation ne fait que l'influencer indirectement."
+        }
+      ]
+    },
+    {
+      "q": "Quelle coloration spécifique met en évidence les glucides et le glycogène des tissus ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "L'acide périodique-Schiff, utilisé pour l'étude du foie et des reins",
+          "correct": true,
+          "j": "La coloration PAS met en évidence les glucides et le glycogène tissulaires et sert notamment au diagnostic des maladies hépatiques et rénales."
+        },
+        {
+          "t": "La coloration DAPI, utilisée dans les études cellulaires et génétiques",
+          "j": "Le DAPI est un fluorochrome qui colore l'ADN nucléaire en bleu en se liant aux régions riches en adénine et thymine."
+        },
+        {
+          "t": "La teinture de Giemsa, utilisée pour l'examen des frottis sanguins",
+          "j": "Le Giemsa associe bleu de méthylène et éosine : c'est une coloration générale, non spécifique des sucres."
+        },
+        {
+          "t": "Le trichrome de Masson, utilisé pour l'étude de la fibrose et du conjonctif",
+          "j": "Le trichrome de Masson différencie le collagène (vert ou bleu) des muscles (rouge), sans révéler les glucides."
+        }
+      ]
+    },
+    {
+      "q": "Quelle coloration différentielle identifie les bactéries acido-alcoolo-résistantes telles que Mycobacterium tuberculosis ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "La coloration PAS, qui révèle les glucides et le glycogène tissulaires",
+          "j": "Le PAS est une coloration spécifique des sucres, employée en pathologie hépatique et rénale."
+        },
+        {
+          "t": "La coloration de Gram, qui distingue les bactéries positives des négatives",
+          "j": "Le Gram est bien une coloration différentielle, mais il sépare les bactéries en Gram positif (violet) et Gram négatif (rouge)."
+        },
+        {
+          "t": "L'immunofluorescence, qui emploie des anticorps marqués au fluorochrome",
+          "j": "L'immunofluorescence détecte des antigènes cellulaires et s'utilise en auto-immunité et en virologie, non pour classer les bactéries."
+        },
+        {
+          "t": "La coloration de Ziehl-Neelsen, qui les colore en rouge sans décoloration",
+          "correct": true,
+          "j": "Ziehl-Neelsen identifie les bactéries acido-alcoolo-résistantes : la coloration rouge persiste en présence d'acides mycoliques."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les quatre tissus de base, lequel est constitué de cellules juxtaposées reposant sur une matrice extracellulaire très peu abondante ?",
+      "c": 3,
+      "options": [
+        {
+          "t": "Le tissu épithélial, dont les fonctions sont le revêtement et la sécrétion",
+          "correct": true,
+          "j": "Le tissu épithélial associe des cellules juxtaposées et une matrice extracellulaire très réduite, pour des fonctions de revêtement et de sécrétion."
+        },
+        {
+          "t": "Le tissu musculaire, dont la fonction est la production du mouvement",
+          "j": "Le tissu musculaire est formé de cellules allongées et contractiles, avec une matrice extracellulaire intermédiaire."
+        },
+        {
+          "t": "Le tissu conjonctif, dont les fonctions sont le soutien et la protection",
+          "j": "Le tissu conjonctif se caractérise au contraire par une matrice extracellulaire très abondante et une grande variété cellulaire."
+        },
+        {
+          "t": "Le tissu nerveux, dont la fonction est la transmission des influx",
+          "j": "Le tissu nerveux possède peu de matrice, mais ses cellules portent des prolongements et ne sont pas juxtaposées."
+        }
+      ]
+    },
+    {
+      "q": "Quel tissu conjonctif non spécialisé compose les ligaments jaunes de la colonne vertébrale, les cordes vocales et le ligament suspenseur du pénis ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le tissu conjonctif élastique, jaunâtre à l'état frais",
+          "correct": true,
+          "j": "Le tissu conjonctif élastique, à prédominance de fibres élastiques et de couleur jaunâtre à l'état frais, forme les ligaments jaunes, les cordes vocales et le ligament suspenseur du pénis."
+        },
+        {
+          "t": "Le tissu conjonctif dense régulier, en faisceaux parallèles",
+          "j": "Le dense régulier, à faisceaux de collagène parallèles, constitue les tendons et les ligaments proprement dits."
+        },
+        {
+          "t": "Le tissu conjonctif dense irrégulier, en faisceaux entrecroisés",
+          "j": "Le dense irrégulier, à faisceaux entrecroisés, se trouve dans le derme, les capsules d'organes et la dure-mère."
+        },
+        {
+          "t": "Le tissu conjonctif réticulaire, en réseaux de fibres fines",
+          "j": "Le réticulaire forme des réseaux de fibres réticulaires dans les ganglions lymphatiques et la moelle osseuse."
+        }
+      ]
+    },
+    {
+      "q": "Quelle propriété mécanique caractérise le tissu conjonctif dense irrégulier du derme et de la dure-mère ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Une faible résistance à la traction compensée par une substance fondamentale abondante",
+          "j": "Cette description correspond au tissu conjonctif lâche, flexible et gélatineux, peu résistant à la traction."
+        },
+        {
+          "t": "Une résistance aux tensions dans toutes les directions, le collagène étant désordonné",
+          "correct": true,
+          "j": "Les fibres de collagène désordonnées, en faisceaux serrés avec peu de substance fondamentale, confèrent une résistance aux tensions dans toutes les directions."
+        },
+        {
+          "t": "Une grande élasticité permettant le retour à la forme initiale après étirement",
+          "j": "L'élasticité caractérise le tissu conjonctif élastique, dont les fibres élastiques prédominent."
+        },
+        {
+          "t": "Une résistance à la traction limitée au sens de l'orientation des faisceaux fibreux",
+          "j": "C'est la propriété du dense régulier des tendons et ligaments, dont les fibres parallèles résistent dans un seul axe."
+        }
+      ]
+    },
+    {
+      "q": "Quel type de collagène constitue les fibres du tissu conjonctif réticulaire ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Le collagène de type I",
+          "j": "Le collagène de type I forme les fibres épaisses et empaquetées du tissu conjonctif dense, notamment des tendons."
+        },
+        {
+          "t": "Le collagène de type III",
+          "correct": true,
+          "j": "Le tissu réticulaire est riche en fibres réticulaires faites de collagène de type III, organisées en réseaux associés aux fibroblastes et aux macrophages."
+        },
+        {
+          "t": "Le collagène de type IV",
+          "j": "Le collagène de type IV est un constituant des lames basales, pas des réseaux réticulaires."
+        },
+        {
+          "t": "Le collagène de type II",
+          "j": "Le collagène de type II est celui du tissu cartilagineux et non des fibres réticulaires."
+        }
+      ]
+    },
+    {
+      "q": "Un patient présente une tendinopathie chronique du tendon d'Achille. Quelle modification cellulaire caractérise le tendon pathologique ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Une hypocellularité avec des ténocytes fusiformes bien alignés",
+          "j": "Les ténocytes fusiformes alignés entre les fibres tendineuses correspondent au tendon sain, non au tendon pathologique."
+        },
+        {
+          "t": "Une hypercellularité avec des ténocytes de morphologie arrondie",
+          "correct": true,
+          "j": "Les tendons malades présentent une hypercellularité et une modification morphologique des cellules, les ténocytes devenant ronds, avec une présence accrue de cellules immunitaires."
+        },
+        {
+          "t": "Une transformation des ténocytes en myofibroblastes contractiles",
+          "j": "La différenciation en myofibroblastes appartient au remodelage des cicatrices cutanées, pas à la tendinopathie."
+        },
+        {
+          "t": "Une disparition des ténocytes remplacés par des adipocytes matures",
+          "j": "Une accumulation de lipides est décrite dans les cas chroniques, mais les ténocytes ne sont pas remplacés par des adipocytes."
+        }
+      ]
+    },
+    {
+      "q": "Quelle différence structurale distingue le ligament du tendon, tous deux faits de tissu conjonctif dense régulier ?",
+      "c": 5,
+      "options": [
+        {
+          "t": "Ses fibres de collagène sont entrecroisées et résistent dans toutes les directions",
+          "j": "L'entrecroisement des faisceaux définit le tissu conjonctif dense irrégulier, comme le stroma cornéen."
+        },
+        {
+          "t": "Ses fibres élastiques prédominent et lui donnent une teinte jaunâtre",
+          "j": "La prédominance des fibres élastiques caractérise le tissu conjonctif élastique, non le ligament."
+        },
+        {
+          "t": "Ses fascicules de collagène sont disposés en hélices et il est plus pauvre en cellules",
+          "j": "Cette description est celle du tendon, dont les fascicules sont hélicoïdaux et les ténocytes fusiformes moins nombreux."
+        },
+        {
+          "t": "Ses fascicules de collagène sont droits ou ondulés et il est plus riche en cellules",
+          "correct": true,
+          "j": "Dans le ligament, les fascicules de collagène sont droits ou ondulés et les cellules sont plus nombreuses, avec des fibroblastes ovoïdes ou ronds."
+        }
+      ]
+    },
+    {
+      "q": "Quelles voies de signalisation sont spécifiquement activées au cours de la régénération tissulaire pour réguler les cellules souches ?",
+      "c": 7,
+      "options": [
+        {
+          "t": "Les voies Wnt, Notch et Hedgehog, complétées par le FGF et l'IGF",
+          "correct": true,
+          "j": "La régénération active les voies Wnt, Notch et Hedgehog pour réguler prolifération et différenciation des cellules souches, le FGF et l'IGF stimulant leur engagement tissulaire."
+        },
+        {
+          "t": "Les voies des métalloprotéases matricielles et de leurs inhibiteurs",
+          "j": "Le couple MMP-TIMP contrôle la dégradation de la matrice lors du remodelage, en aval de la prolifération."
+        },
+        {
+          "t": "Les voies du TGF-bêta, du PDGF et du VEGF, mobilisant les fibroblastes",
+          "j": "Ces cytokines et facteurs de croissance sont les acteurs moléculaires de la réparation cicatricielle, pas de la régénération."
+        },
+        {
+          "t": "Les voies des prostaglandines et des leucotriènes, attirant les leucocytes",
+          "j": "Ces médiateurs inflammatoires initient la réponse inflammatoire et le recrutement immunitaire au site lésé."
+        }
+      ]
+    },
+    {
+      "q": "Quelles propriétés font des cellules souches mésenchymateuses de très bons candidats pour la thérapie cellulaire ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Totipotentes, capables de former également les tissus extra-embryonnaires",
+          "j": "La totipotence concerne le zygote et les premiers blastomères, qui forment aussi le placenta."
+        },
+        {
+          "t": "Multipotentes vers les lignées mésenchymateuses, avec homing et immunomodulation",
+          "correct": true,
+          "j": "Les CSM sont multipotentes (chondroblastes, ostéoblastes, adipocytes), capables de migration et de homing, et possèdent des propriétés immunomodulatrices et sécrétoires."
+        },
+        {
+          "t": "Pluripotentes vers les trois feuillets, mais dépourvues de capacité migratoire",
+          "j": "La pluripotence vers les trois feuillets caractérise les cellules souches embryonnaires et les iPSC, non les CSM."
+        },
+        {
+          "t": "Unipotentes, restreintes à la seule lignée hématopoïétique médullaire",
+          "j": "Les cellules restreintes à une lignée sont les progéniteurs uni ou oligopotents, à potentiel et auto-renouvellement limités."
+        }
+      ]
+    },
+    {
+      "q": "Dans la niche des cellules souches adultes, quel élément intègre les signaux provenant de différentes sources ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "Les fibres nerveuses de la niche",
+          "correct": true,
+          "j": "Le cours attribue aux fibres nerveuses l'intégration des signaux provenant de différentes sources et la capacité de mobiliser les cellules souches."
+        },
+        {
+          "t": "La matrice extracellulaire de la niche",
+          "j": "La matrice apporte le soutien mécanique et interagit avec les cellules souches via des gradients biochimiques, les intégrines et les cadhérines."
+        },
+        {
+          "t": "Les cellules stromales de soutien",
+          "j": "Les cellules stromales agissent de proximité, en sécrétant des facteurs et des molécules d'adhésion."
+        },
+        {
+          "t": "Les vaisseaux sanguins de la niche",
+          "j": "Les vaisseaux assurent l'alimentation, la signalisation à longue distance et la circulation cellulaire vers et depuis la niche."
+        }
+      ]
+    },
+    {
+      "q": "En quelles cellules les progéniteurs périostés sont-ils capables de se différencier ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "En adipocytes ou en fibroblastes",
+          "j": "Ces lignées relèvent du potentiel multipotent des cellules souches mésenchymateuses, non des progéniteurs périostés."
+        },
+        {
+          "t": "En myoblastes puis en myotubes",
+          "j": "Ce sont les cellules satellites musculaires qui donnent des myoblastes fusionnant en myotubes."
+        },
+        {
+          "t": "En ostéoblastes ou en chondroblastes",
+          "correct": true,
+          "j": "Le cours cite les progéniteurs périostés parmi les cellules progénitrices, se différenciant en ostéoblastes ou en chondroblastes."
+        },
+        {
+          "t": "En cellules endothéliales vasculaires",
+          "j": "Les progéniteurs endothéliaux constituent une population de cellules progénitrices distincte."
+        }
+      ]
+    },
+    {
+      "q": "Dans la classification des cellules souches selon leur origine, d'où sont isolées les cellules souches germinales ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "De la masse cellulaire interne du blastocyste de cinq jours",
+          "j": "Cette masse interne fournit les cellules souches embryonnaires, pluripotentes."
+        },
+        {
+          "t": "De la crête germinale du fœtus, qui donne naissance aux gonades",
+          "correct": true,
+          "j": "Le cours définit les cellules souches germinales comme isolées des fœtus, à partir de la crête germinale qui donnera les gonades."
+        },
+        {
+          "t": "Du sang de cordon ombilical recueilli à l'accouchement",
+          "j": "Le sang de cordon est une source de cellules souches hématopoïétiques, qui appartiennent aux cellules souches adultes."
+        },
+        {
+          "t": "De la moelle osseuse prélevée chez le donneur adulte",
+          "j": "Les cellules obtenues chez l'adulte ou après la naissance sont les cellules souches adultes, dites somatiques."
+        }
+      ]
+    },
+    {
+      "q": "Quel mode de division permet à une cellule souche de produire une cellule engagée dans la différenciation tout en maintenant le pool de cellules souches ?",
+      "c": 9,
+      "options": [
+        {
+          "t": "La division symétrique",
+          "j": "La division symétrique donne deux cellules filles de même nature et ne permet pas à elle seule de concilier les deux exigences."
+        },
+        {
+          "t": "L'entrée en quiescence",
+          "j": "La quiescence est un arrêt du cycle cellulaire dans la niche : elle préserve le pool mais ne produit aucune cellule."
+        },
+        {
+          "t": "La division asymétrique",
+          "correct": true,
+          "j": "Les cellules souches se définissent par l'auto-renouvellement et par des divisions symétriques et asymétriques, la division asymétrique donnant une cellule souche et une cellule engagée."
+        },
+        {
+          "t": "La fusion en syncytium",
+          "j": "La fusion cellulaire en syncytium est un mécanisme de formation des myotubes, pas un mode de division."
+        }
+      ]
+    },
+    {
+      "q": "Quelle structure fournit les cellules qui assurent la régénération de l’épiderme après une plaie ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "La matrice provisoire de fibrine formée lors de l'hémostase",
+          "j": "Cette matrice stabilise le caillot et sert de substrat de migration cellulaire, sans fournir de cellules épidermiques."
+        },
+        {
+          "t": "La couche cornée superficielle, dont les cellules se chargent de kératine",
+          "j": "Le stratum corneum est le produit final du processus : ses cellules sont mortes et kératinisées, donc incapables de se diviser."
+        },
+        {
+          "t": "La couche germinative profonde, dont les cellules se divisent par mitose",
+          "correct": true,
+          "j": "La régénération part du stratum germinativum : ses cellules souches se divisent par mitose et les cellules filles migrent vers les couches supérieures."
+        },
+        {
+          "t": "Le derme papillaire sous-jacent, par migration de ses fibroblastes",
+          "j": "Les fibroblastes dermiques synthétisent la matrice extracellulaire mais ne réépithélialisent pas la plaie."
+        }
+      ]
+    },
+    {
+      "q": "Lors de la phase de remodelage d'une cicatrice cutanée, quel couple moléculaire règle la dégradation de la matrice extracellulaire ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "La fibrine et la fibronectine du caillot provisoire",
+          "j": "Fibrine, fibronectine et vitronectine forment la matrice provisoire de l'hémostase, première phase de la cicatrisation."
+        },
+        {
+          "t": "Les cytokines TNF-alpha, IL-1bêta et IL-6 des macrophages",
+          "j": "Ces cytokines amplifient la réponse inflammatoire au cours de la deuxième phase de la cicatrisation."
+        },
+        {
+          "t": "Les facteurs de croissance EGF et KGF des kératinocytes",
+          "j": "L'EGF et le KGF stimulent la prolifération cellulaire et la synthèse de matrice pendant la phase de prolifération."
+        },
+        {
+          "t": "Les métalloprotéases matricielles et leurs inhibiteurs",
+          "correct": true,
+          "j": "La dégradation de la matrice au cours du remodelage est régulée par les MMP et leurs inhibiteurs, les TIMP, le TGF-bêta continuant de contrôler la synthèse de collagène."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est la séquence cellulaire de la phase inflammatoire d'une plaie cutanée ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Les kératinocytes arrivent d'abord et couvrent la plaie, suivis des cellules endothéliales",
+          "j": "Migration des kératinocytes et angiogenèse appartiennent à la phase de prolifération."
+        },
+        {
+          "t": "Les macrophages arrivent d'abord et sécrètent le VEGF, suivis des neutrophiles",
+          "j": "L'ordre est inversé : les macrophages succèdent aux neutrophiles, même s'ils sécrètent effectivement du VEGF."
+        },
+        {
+          "t": "Les myofibroblastes arrivent d'abord et contractent la plaie, suivis des fibroblastes",
+          "j": "Les myofibroblastes dérivent des fibroblastes et n'interviennent qu'au remodelage, bien après l'inflammation."
+        },
+        {
+          "t": "Les neutrophiles arrivent d'abord et phagocytent les débris, suivis des macrophages",
+          "correct": true,
+          "j": "Les neutrophiles arrivent en premier pour phagocyter les débris et prévenir l'infection, puis les macrophages dégradent les tissus lésés et libèrent des cytokines."
+        }
+      ]
+    },
+    {
+      "q": "Une plaie aux berges irrégulières et écartées cicatrise en seconde intention. Quelle caractéristique correspond à ce mode de cicatrisation ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "La guérison se déroule sans myofibroblastes ni contraction de la plaie",
+          "j": "Ce sont au contraire les myofibroblastes qui contractent la plaie ouverte en seconde intention."
+        },
+        {
+          "t": "La guérison est directe et aboutit à une cicatrice linéaire nette sans granulation",
+          "j": "Cicatrice linéaire nette et tissu de granulation rare définissent la cicatrisation de première intention."
+        },
+        {
+          "t": "La guérison progresse de la base vers les bords et laisse une plaie irrégulière contractée",
+          "correct": true,
+          "j": "En seconde intention, la guérison se fait de la base au bord avec un tissu de granulation abondant, pour un résultat irrégulier et contracté."
+        },
+        {
+          "t": "La guérison est courte car les berges chirurgicalement propres sont rapprochées",
+          "j": "Des berges propres et rapprochées caractérisent la première intention, dont le temps de guérison est court."
+        }
+      ]
+    },
+    {
+      "q": "Sur le plan moléculaire, qu'est-ce qui distingue une chéloïde d'une cicatrice hypertrophique ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Des taux de TGF-bêta encore plus élevés et une surproduction d'IL-6 et d'IL-8",
+          "correct": true,
+          "j": "Dans les chéloïdes, le TGF-bêta1 et le TGF-bêta2 sont plus élevés que dans les cicatrices hypertrophiques, et les interleukines IL-6 et IL-8 surproduites entretiennent une inflammation persistante."
+        },
+        {
+          "t": "Une élévation isolée du TGF-bêta1 et du TGF-bêta2 sans cytokine surajoutée",
+          "j": "Cette surproduction de TGF-bêta est commune aux deux lésions et définit déjà la cicatrice hypertrophique."
+        },
+        {
+          "t": "Une diminution du nombre de fibroblastes avec arrêt précoce de la synthèse",
+          "j": "Les fibroblastes des chéloïdes sont plus nombreux et plus actifs, et produisent du collagène bien après la phase de remodelage."
+        },
+        {
+          "t": "Une activité accrue des métalloprotéases accélérant la dégradation du collagène",
+          "j": "Dans ces deux cicatrices pathologiques les MMP sont au contraire moins actives, ce qui réduit la dégradation de la matrice."
+        }
+      ]
+    },
+    {
+      "q": "Par quel mécanisme les pansements en silicone agissent-ils sur une cicatrice en cours de maturation ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Ils dégradent l'excès de collagène en activant les métalloprotéases matricielles",
+          "j": "Aucune activation pharmacologique des MMP n'est décrite : le silicone agit sur la tension et l'hydratation."
+        },
+        {
+          "t": "Ils réduisent la tension sur la plaie et maintiennent une hydratation optimale",
+          "correct": true,
+          "j": "Le cours attribue aux pansements en silicone la réduction de la tension sur la plaie et le maintien d'une hydratation optimale du tissu cicatriciel."
+        },
+        {
+          "t": "Ils réduisent l'oxygénation et le flux sanguin vers le tissu cicatriciel",
+          "j": "C'est le mécanisme de la thérapie par compression, qui diminue le nombre de cellules productrices de collagène."
+        },
+        {
+          "t": "Ils améliorent la circulation locale par une sollicitation mécanique répétée",
+          "j": "C'est l'effet recherché par le massage de la cicatrice, qui améliore la circulation sanguine."
+        }
+      ]
+    },
+    {
+      "q": "Au cours de l'histogenèse du tissu adipeux uniloculaire, quelle cellule se différencie directement en adipocyte immature capable de synthétiser des triglycérides ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "L'adipocyte brun multiloculaire mature",
+          "j": "Les adipocytes bruns proviennent d'adipoblastes distincts de ceux de la lignée blanche et constituent un stade terminal."
+        },
+        {
+          "t": "Le préadipocyte, issu de l'adipoblaste",
+          "correct": true,
+          "j": "Les adipoblastes se différencient en préadipocytes, lesquels deviennent des adipocytes immatures capables de synthétiser des triglycérides, puis des adipocytes blancs matures."
+        },
+        {
+          "t": "L'adipoblaste, issu de la cellule mésenchymateuse",
+          "j": "L'adipoblaste, ou lipoblaste, est un stade antérieur : il provient de la cellule mésenchymateuse et donne le préadipocyte."
+        },
+        {
+          "t": "La cellule mésenchymateuse indifférenciée",
+          "j": "Elle est à l'origine de toute la lignée adipeuse, mais doit d'abord se différencier en adipoblaste."
+        }
+      ]
+    },
+    {
+      "q": "Quelle différence sépare le sérum du plasma sanguin ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Le sérum est le plasma dépourvu de ses protéines de la coagulation",
+          "correct": true,
+          "j": "Le cours précise que le plasma sanguin privé de ses protéines de la coagulation, dont le fibrinogène, constitue le sérum."
+        },
+        {
+          "t": "Le sérum est le plasma dépourvu de ses éléments cellulaires figurés",
+          "j": "Le plasma est par définition déjà séparé des éléments figurés, qui occupent 45 % du volume sanguin."
+        },
+        {
+          "t": "Le sérum est le plasma dépourvu de son eau et de ses électrolytes",
+          "j": "L'eau représente 90 % du plasma et les électrolytes y sont dissous : le sérum en contient également."
+        },
+        {
+          "t": "Le sérum est le plasma dépourvu de ses globulines et de ses anticorps",
+          "j": "Les globulines, qui correspondent aux anticorps, sont des protéines plasmatiques de l'immunité et demeurent dans le sérum."
+        }
+      ]
+    },
+    {
+      "q": "Sur un frottis, on observe de petits fragments cytoplasmiques énucléés intervenant dans la coagulation. De quelle cellule dérivent-ils ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Du monocyte circulant du sang périphérique",
+          "j": "Le monocyte est un agranulocyte complet à noyau réniforme, qui devient macrophage ou ostéoclaste après extravasation."
+        },
+        {
+          "t": "De l'érythroblaste de la lignée érythroïde",
+          "j": "L'érythroblaste est le précurseur médullaire de l'érythrocyte, cellule biconcave énucléée riche en hémoglobine."
+        },
+        {
+          "t": "Du neutrophile à noyau polylobé du sang",
+          "j": "Le neutrophile est un granulocyte entier, chargé de la phagocytose des bactéries et des cellules endommagées."
+        },
+        {
+          "t": "Du mégacaryocyte de la moelle osseuse",
+          "correct": true,
+          "j": "Les thrombocytes sont de petits fragments cytoplasmiques énucléés liés à la membrane, dérivés des mégacaryocytes, et interviennent dans la coagulation du sang."
+        }
+      ]
+    },
+    {
+      "q": "Quel élément cellulaire du sang, une fois activé, se différencie en plasmocyte producteur d'anticorps ?",
+      "c": 12,
+      "options": [
+        {
+          "t": "Le monocyte",
+          "j": "Le monocyte extravasé devient macrophage ou ostéoclaste et relève de l'immunité innée, non de la production d'anticorps."
+        },
+        {
+          "t": "Le lymphocyte T CD4+",
+          "j": "Les lymphocytes T helper organisent la réponse immunitaire face aux antigènes étrangers, sans produire d'anticorps."
+        },
+        {
+          "t": "Le lymphocyte B",
+          "correct": true,
+          "j": "Les lymphocytes B activés se différencient en plasmocytes, cellules responsables de la production des anticorps."
+        },
+        {
+          "t": "Le lymphocyte NK",
+          "j": "Les lymphocytes NK détruisent de façon non spécifique les cellules infectées par des virus et les cellules néoplasiques."
+        }
+      ]
+    },
+    {
+      "q": "Où se situe précisément la niche des cellules satellites du muscle strié squelettique ?",
+      "c": 16,
+      "options": [
+        {
+          "t": "Dans le tissu conjonctif de l'épimysium entourant le muscle entier",
+          "j": "L'épimysium est l'enveloppe externe du muscle et ne contient pas les cellules satellites."
+        },
+        {
+          "t": "Dans le sarcoplasme de la fibre, au contact de ses noyaux périphériques",
+          "j": "Les cellules satellites restent extérieures au cytoplasme de la fibre, dont elles sont séparées par la membrane plasmique."
+        },
+        {
+          "t": "Entre la lamina externe et la membrane plasmique de la fibre musculaire",
+          "correct": true,
+          "j": "La niche des cellules souches musculaires est localisée entre la lamina externe et la membrane plasmique des fibres, dans une matrice riche en collagène, laminine, fibronectine et protéoglycanes."
+        },
+        {
+          "t": "Entre les faisceaux de fibres, dans le tissu conjonctif du périmysium",
+          "j": "Le périmysium entoure les faisceaux de fibres : c'est une enveloppe conjonctive de soutien, pas la niche des cellules satellites."
+        }
+      ]
+    },
+    {
+      "q": "Quelles cellules gliales tapissent les ventricules cérébraux et le canal central de la moelle, séparant le tissu nerveux du liquide céphalo-rachidien ?",
+      "c": 17,
+      "options": [
+        {
+          "t": "Les oligodendrocytes",
+          "j": "Les oligodendrocytes forment la gaine de myéline des axones de la substance blanche du système nerveux central."
+        },
+        {
+          "t": "Les astrocytes",
+          "j": "Les astrocytes, surtout présents dans la substance grise, régulent l'espace extracellulaire, participent à la barrière hémato-encéphalique et au métabolisme énergétique."
+        },
+        {
+          "t": "Les cellules épendymaires",
+          "correct": true,
+          "j": "Les épendymocytes forment un épithélium cylindrique court ou cubique qui tapisse les cavités du SNC et sépare le tissu nerveux du LCR, certaines étant ciliées et d'autres modifiées en plexus choroïdes."
+        },
+        {
+          "t": "Les cellules satellites des ganglions",
+          "j": "Les cellules satellites entourent les somas neuronaux des ganglions périphériques, auxquels elles apportent soutien et nutriments."
+        }
+      ]
+    },
+    {
+      "q": "Quelle caractéristique distingue les fibres nerveuses périphériques amyélinisées des fibres myélinisées ?",
+      "c": 17,
+      "options": [
+        {
+          "t": "Une cellule de Schwann entoure un seul axone par un enroulement spiralé de plusieurs couches",
+          "j": "C'est la description de la fibre myélinisée, où l'enroulement de la membrane délimite les segments internodaux."
+        },
+        {
+          "t": "Elles sont entourées d'oligodendrocytes et non de cellules de Schwann",
+          "j": "Les oligodendrocytes myélinisent les axones du système nerveux central ; dans le nerf périphérique ce sont les cellules de Schwann."
+        },
+        {
+          "t": "Elles sont dépourvues de cellule enveloppante comme de lame basale",
+          "j": "Les fibres amyélinisées restent entourées de cellules de Schwann, dont la membrane est recouverte d'une lamina basale."
+        },
+        {
+          "t": "Une cellule de Schwann entoure plusieurs axones, sans spirale ni nœuds de Ranvier",
+          "correct": true,
+          "j": "Dans les fibres amyélinisées, une cellule de Schwann peut entourer plusieurs axones d'une seule couche de membrane et de cytoplasme, sans spirale ni nœuds de Ranvier, les cellules formant une gaine continue."
+        }
+      ]
+    },
+    {
+      "q": "Dans la classification de Sunderland des lésions du nerf périphérique, quelle structure est atteinte dans une lésion de grade 1 ?",
+      "c": 18,
+      "options": [
+        {
+          "t": "Toutes les enveloppes jusqu'à l'épinèvre, avec hémorragie et fibrose",
+          "j": "Cette lésion la plus grave, avec perte complète de continuité, correspond à la neurotmèse complète de grade 5."
+        },
+        {
+          "t": "La myéline des cellules de Schwann, sans perte de continuité nerveuse",
+          "correct": true,
+          "j": "La neurapraxie est une lésion légère sans perte de continuité du nerf, dont la seule structure atteinte est la myéline des cellules de Schwann."
+        },
+        {
+          "t": "L'axone et sa myéline, avec conservation de l'endonèvre",
+          "j": "Cette atteinte axonale respectant l'endonèvre définit l'axonotmèse, de grade 2."
+        },
+        {
+          "t": "L'axone, la myéline et l'endonèvre, le nerf étant interrompu",
+          "j": "Cette interruption complète, qui touche aussi le périnèvre et l'épinèvre, caractérise la neurotmèse de grade 3."
+        }
+      ]
+    },
+    {
+      "q": "Quelle lésion nerveuse associe une interruption des fascicules nerveux à un épinèvre intact, empêchant la repousse d'atteindre les cibles distales ?",
+      "c": 18,
+      "options": [
+        {
+          "t": "La neurotmèse complète du nerf (grade 5)",
+          "j": "Le grade 5 interrompt la continuité du nerf dans son ensemble, épinèvre compris, souvent avec hémorragie et fibrose."
+        },
+        {
+          "t": "L'axonotmèse du nerf périphérique (grade 2)",
+          "j": "Le grade 2 interrompt l'axone et sa myéline mais conserve l'endonèvre, ce qui autorise une repousse guidée."
+        },
+        {
+          "t": "La neurotmèse avec névrome en continuité (grade 4)",
+          "correct": true,
+          "j": "Le grade 4 atteint axones, myéline, endonèvre et périnèvre en laissant l'épinèvre intact ; les fascicules interrompus empêchent la régénération d'atteindre les cibles distales."
+        },
+        {
+          "t": "La neurapraxie du nerf périphérique (grade 1)",
+          "j": "Le grade 1 ne touche que la myéline, sans aucune perte de continuité nerveuse."
+        }
+      ]
+    },
+    {
+      "q": "Après une lésion du système nerveux central, quel est le rôle de la microglie ?",
+      "c": 18,
+      "options": [
+        {
+          "t": "Phagocyter les parties endommagées du tissu nerveux",
+          "correct": true,
+          "j": "Dans le SNC lésé, la microglie assure la phagocytose des parties endommagées : c'est la fonction macrophagique des cellules gliales."
+        },
+        {
+          "t": "Former de nouvelles gaines de myéline sur les axones",
+          "j": "La myélinisation centrale revient aux oligodendrocytes, dont la présence ne favorise pas la repousse axonale."
+        },
+        {
+          "t": "Combler les zones lésées par un tissu de remplissage",
+          "j": "Ce sont les astrocytes qui remplissent rapidement les zones endommagées, ce qui limite la régénération axonale."
+        },
+        {
+          "t": "Constituer un tube cellulaire guidant la repousse axonale",
+          "j": "Ce tube de guidage résulte de la prolifération des cellules de Schwann, absentes du système nerveux central."
+        }
+      ]
+    },
+    {
+      "q": "Dans la recherche sur la régénération nerveuse, pourquoi utilise-t-on les cellules souches mésenchymateuses de moelle osseuse ?",
+      "c": 18,
+      "options": [
+        {
+          "t": "Pour leur capacité à se différencier en cellules de type Schwann",
+          "correct": true,
+          "j": "Les BMSC sont employées pour leur capacité à se différencier en cellules de type Schwann, en complément de leurs effets paracrines et de leur rôle de support structurel."
+        },
+        {
+          "t": "Pour leur aptitude à dissoudre la cicatrice astrocytaire centrale",
+          "j": "Les mécanismes décrits sont paracrines, de différenciation et de soutien matriciel, non la lyse de la cicatrice gliale."
+        },
+        {
+          "t": "Pour leur haut potentiel de survie et leur faible immunogénicité",
+          "j": "Ces deux atouts sont ceux des cellules souches mésenchymateuses adipeuses (ADSC), l'autre population étudiée."
+        },
+        {
+          "t": "Pour leur capacité à remplacer directement les axones sectionnés",
+          "j": "Aucune cellule souche ne remplace un axone : la repousse part du segment proximal resté relié au soma."
+        }
+      ]
+    },
+    {
+      "q": "Quelle situation rend la régénération axonale périphérique infructueuse malgré un soma neuronal intact ?",
+      "c": 18,
+      "options": [
+        {
+          "t": "Une phagocytose des débris du segment distal par les macrophages",
+          "j": "Le nettoyage des débris par les macrophages fait partie du processus normal de dégénérescence précédant la repousse."
+        },
+        {
+          "t": "Une augmentation du volume du soma avec déplacement du noyau",
+          "j": "Ces changements rétrogrades sont une étape normale de la réaction axonale et traduisent l'activation métabolique du neurone."
+        },
+        {
+          "t": "Une distance trop grande entre les extrémités proximale et distale",
+          "correct": true,
+          "j": "La régénération échoue lorsque la distance entre les extrémités proximale et distale est trop grande, ou en l'absence d'extrémité distale comme après une amputation."
+        },
+        {
+          "t": "Une prolifération abondante des cellules de Schwann distales",
+          "j": "Cette prolifération est au contraire indispensable : elle forme le tube cellulaire qui guide la repousse de l'axone."
+        }
+      ]
+    }
   ],
   "structure2": [
     {
