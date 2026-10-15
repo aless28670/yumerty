@@ -23526,7 +23526,7 @@ const QUESTIONS = {
         },
         {
           "t": "L'oxygène (O)",
-          "j": "L'oxygène est très répandu mais absent de certains hydrocarbures/lipides simples et présent dans des molécules inorganiques : non spécifique de l'organique."
+          "j": "L’oxygène est très répandu, mais il est aussi présent dans des molécules inorganiques comme l’eau ou le dioxyde de carbone : il ne définit pas le caractère organique, qui tient à la chaîne carbonée."
         },
         {
           "t": "L'azote (N)",
@@ -30595,73 +30595,1565 @@ const QUESTIONS = {
         }
       ]
     },
-    {"q":"Le TRAVAIL (W) effectué par une force sur un corps est défini comme…","c":10,"options":[{"t":"Le produit de la force appliquée par le déplacement produit","correct":true,"j":"Le cours définit le travail comme le produit de la force appliquée par le déplacement obtenu, lorsque la force et le déplacement ont le même sens et la même direction."},{"t":"Le produit de la force appliquée par la durée de son application","j":"Multiplier une force par une durée ne donne pas un travail : le travail ne dépend pas du temps mis à déplacer le corps, mais de la distance sur laquelle il est déplacé."},{"t":"Le quotient de la force appliquée par le déplacement produit","j":"Placer le déplacement au dénominateur inverse la relation : le travail augmente avec le déplacement, il ne diminue pas quand celui-ci s'allonge."},{"t":"Le quotient du déplacement produit par la force appliquée","j":"Cette écriture place la force au dénominateur, alors que le travail accompli croît lorsque la force appliquée augmente."}]},
-    {"q":"Pour creuser un même trou, on peut utiliser une pelle ou une excavatrice. Que peut-on affirmer ?","c":10,"options":[{"t":"Le travail est le même, mais l'excavatrice le réalise en moins de temps","correct":true,"j":"Le travail dépend de la quantité de terre déplacée, identique dans les deux cas ; l'excavatrice étant plus puissante, elle accomplit ce même travail plus rapidement."},{"t":"Le travail de l'excavatrice est plus grand, et il est accompli plus vite","j":"Le volume de terre à déplacer ne change pas selon l'engin utilisé : le travail reste identique, seule la durée nécessaire diffère."},{"t":"Le travail est le même, et la durée nécessaire est elle aussi identique","j":"Le travail est bien identique, mais l'engin le plus puissant met moins de temps à le réaliser : les durées ne se valent pas."},{"t":"Le travail de la pelle est plus grand, car il s'étale sur une durée plus longue","j":"Une durée plus longue n'augmente pas le travail accompli : elle traduit au contraire une puissance plus faible pour un travail identique."}]},
-    {"q":"Pourquoi est-il souvent plus commode de raisonner en termes d'énergies que d'appliquer directement les lois de Newton à un système ?","c":10,"options":[{"t":"Parce qu'il est difficile de connaître toutes les forces agissant sur le système","correct":true,"j":"Le cours souligne qu'inventorier l'ensemble des forces qui s'exercent sur un système est souvent impraticable ; le raisonnement énergétique permet de contourner cette difficulté."},{"t":"Parce que les lois de Newton cessent d'être valables pour les systèmes macroscopiques","j":"Le cours affirme au contraire que les lois de Newton s'appliquent à un très grand nombre de systèmes macroscopiques."},{"t":"Parce qu'une énergie, contrairement à une force, échappe au principe de conservation","j":"Toute forme d'énergie obéit au principe de conservation : c'est précisément l'une des exigences auxquelles chacune d'elles répond."},{"t":"Parce que les énergies se mesurent dans une unité plus commode que celle du travail","j":"L'énergie et le travail se mesurent dans la même unité du Système International, le joule : l'argument de commodité ne tient pas."}]},
-    {"q":"L'ÉNERGIE est la grandeur physique qui mesure…","c":10,"options":[{"t":"La capacité d'un corps ou d'un système à effectuer un travail","correct":true,"j":"Le cours définit l'énergie comme la capacité d'un corps ou d'un système à effectuer un travail, et donc à modifier sa position ou son état ; elle se mesure en joules."},{"t":"La quantité de matière qui compose un corps ou un système","j":"La quantité de matière qui compose un objet est sa masse, mesurée en kilogrammes, et non une énergie."},{"t":"La force avec laquelle la gravité attire un corps vers le sol","j":"L'attraction exercée par la gravité sur un corps définit son poids, qui est une force et se mesure en newtons."},{"t":"La résistance qu'un corps oppose au déplacement qu'on lui impose","j":"L'énergie n'exprime pas une résistance au mouvement, mais au contraire la capacité à produire ce mouvement ou à modifier un état."}]},
-    {"q":"Un corps immobile est maintenu à une certaine hauteur au-dessus du sol. De quelle énergie dispose-t-il et de quelles grandeurs dépend-elle ?","c":10,"options":[{"t":"D'une énergie potentielle, qui dépend de sa masse et de sa hauteur","correct":true,"j":"L'énergie qu'un corps possède en raison de sa position est son énergie potentielle ; un corps immobile placé en hauteur en possède, même en l'absence de tout mouvement."},{"t":"D'une énergie cinétique, qui dépend de sa masse et de sa vitesse","j":"L'énergie cinétique est bien celle qui dépend de la masse et de la vitesse, mais un corps immobile n'en possède aucune."},{"t":"D'une énergie potentielle, qui dépend de sa masse et de sa vitesse","j":"La vitesse n'intervient pas dans l'énergie liée à la position : celle-ci existe même lorsque le corps ne bouge pas."},{"t":"D'une énergie cinétique, qui dépend de sa masse et de sa hauteur","j":"La hauteur n'intervient pas dans l'énergie liée au mouvement, et un corps immobile n'a de toute façon aucune vitesse."}]},
-    {"q":"La vitesse d'un corps en mouvement est multipliée par deux, sa masse restant inchangée. Son énergie cinétique est alors…","c":10,"options":[{"t":"Multipliée par quatre","correct":true,"j":"Dans l'expression de l'énergie cinétique, la vitesse est élevée au carré : la doubler multiplie donc cette énergie par quatre."},{"t":"Multipliée par deux","j":"Un simple doublement supposerait que la vitesse intervienne à la puissance un, alors qu'elle figure au carré dans l'expression."},{"t":"Multipliée par huit","j":"Un facteur huit supposerait une vitesse élevée au cube, ce qui ne correspond pas à la forme de l'énergie cinétique."},{"t":"Inchangée","j":"L'énergie cinétique est précisément celle que le corps possède en raison de son mouvement : modifier sa vitesse la modifie nécessairement."}]},
-    {"q":"Un corps de 2 kg est maintenu à 5 mètres au-dessus du sol, la constante de gravité valant 9,8 m/s². Quelle est son énergie potentielle ?","c":10,"options":[{"t":"98 J","correct":true,"j":"L'énergie potentielle est le produit de la masse, de la gravité et de la hauteur, soit 2 × 9,8 × 5 = 98 joules."},{"t":"10 J","j":"Ce résultat ne retient que la masse et la hauteur et laisse de côté la gravité, pourtant présente dans l'expression."},{"t":"19,6 J","j":"Ce produit de la masse par la gravité donne le poids du corps en newtons, pas l'énergie qu'il possède à cette hauteur."},{"t":"49 J","j":"Ce résultat divise par deux le produit obtenu ; le facteur un demi appartient à l'énergie liée au mouvement, pas à celle liée à la position."}]},
-    {"q":"Aucune force n'est exercée sur un corps en mouvement. Que devient la somme de son énergie cinétique et de son énergie potentielle ?","c":10,"options":[{"t":"Elle reste constante tout au long du mouvement","correct":true,"j":"Le cours impose alors l'égalité entre la somme des énergies initiales et la somme des énergies finales : l'une se convertit en l'autre sans que leur total change."},{"t":"Elle augmente à mesure que le corps descend","j":"En descendant, le corps convertit l'énergie liée à sa position en énergie liée à son mouvement, sans que le total s'en trouve augmenté."},{"t":"Elle diminue à mesure que le corps accélère","j":"Toute accélération s'accompagne d'une perte équivalente de l'autre forme d'énergie mécanique : le total ne diminue pas pour autant."},{"t":"Elle varie uniquement si la masse du corps change","j":"La masse d'un corps ne varie pas au cours de son déplacement, et ce n'est pas elle qui gouverne la conservation de ce total."}]},
-    {"q":"L'ÉNERGIE CHIMIQUE est la forme d'énergie stockée…","c":10,"options":[{"t":"Dans les liaisons chimiques entre les atomes qui composent la matière","correct":true,"j":"Le cours définit l'énergie chimique comme l'énergie stockée dans les liaisons chimiques qui unissent les atomes composant la matière."},{"t":"Dans le mouvement d'agitation des atomes qui composent la matière","j":"L'agitation des particules relève des phénomènes thermiques ; l'énergie chimique, elle, réside dans les liaisons établies entre les atomes."},{"t":"Dans la position occupée par la matière par rapport au sol","j":"La position d'un corps par rapport au sol relève de la mécanique classique et ne dépend en rien de la nature chimique de la matière."},{"t":"Dans les charges électriques portées par les atomes isolés","j":"Des charges portées par des atomes isolés ne constituent pas une réserve d'énergie chimique : c'est la liaison établie entre eux qui en contient."}]},
-    {"q":"Pourquoi la molécule d'ATP contient-elle une liaison dite « à haute énergie » ?","c":10,"options":[{"t":"Parce que rassembler autant de charges négatives sur les phosphates exige beaucoup d'énergie","correct":true,"j":"Réunir autant de charges négatives voisines sur les groupes phosphate réclame beaucoup d'énergie : c'est cette accumulation de charges qui fait la richesse énergétique de l'ATP, et non la nature chimique de la liaison."},{"t":"Parce que la nature chimique de cette liaison la rend plus solide que toutes les autres","j":"Le cours écarte explicitement cet argument : la nature chimique des liaisons de la molécule n'est pas ce qui explique sa richesse énergétique."},{"t":"Parce que la base azotée du nucléotide concentre à elle seule l'énergie de la molécule","j":"La base azotée participe à l'identité du nucléotide, mais la réserve d'énergie tient aux groupes phosphate et non à elle."},{"t":"Parce que le sucre du nucléotide impose une tension qui fragilise tout l'assemblage","j":"Le sucre sert de support à l'assemblage du nucléotide ; aucune tension de ce type n'est invoquée pour expliquer la richesse énergétique de l'ATP."}]},
-    {"q":"Quel schéma correspond à une réaction EXOTHERMIQUE ?","c":10,"options":[{"t":"Réactifs → Produits + Énergie","correct":true,"j":"Une réaction exothermique, aussi dite exergonique, libère de l'énergie : celle-ci apparaît donc du côté des produits."},{"t":"Réactifs + Énergie → Produits","j":"Ce schéma décrit une réaction qui absorbe de l'énergie pour se dérouler, c'est-à-dire une réaction endothermique ou endergonique."},{"t":"Produits + Énergie → Réactifs","j":"Ce schéma part des produits et leur ajoute de l'énergie : il décrit une transformation inverse et consommatrice d'énergie."},{"t":"Produits → Réactifs + Énergie","j":"Ce schéma remonte des produits vers les réactifs : il n'illustre pas le sens direct d'une réaction qui libère de l'énergie."}]},
-    {"q":"Quel est l'effet de la valeur de l'énergie d'activation sur le déroulement d'une réaction chimique ?","c":10,"options":[{"t":"Plus elle est élevée, plus la réaction est lente","correct":true,"j":"Le cours relie l'énergie d'activation à la cinétique : une réaction dont cette énergie est élevée est lente comparée à une réaction dont elle est faible."},{"t":"Plus elle est élevée, plus la réaction est rapide","j":"C'est l'inverse : une exigence énergétique initiale plus grande freine la réaction au lieu de l'accélérer."},{"t":"Elle fixe la quantité d'énergie libérée, non la vitesse","j":"Cette grandeur gouverne la rapidité avec laquelle la réaction se déroule, et non la quantité d'énergie que la réaction met en jeu."},{"t":"Elle n'influence la vitesse qu'en présence d'un catalyseur","j":"Elle gouverne la cinétique même sans aucune intervention extérieure ; un catalyseur ne fait qu'en modifier la valeur."}]},
-    {"q":"Lequel des énoncés suivants concernant les catalyseurs est FAUX ?","c":10,"options":[{"t":"Ils sont consommés au fur et à mesure du déroulement de la réaction","correct":true,"j":"C'est l'énoncé faux : le cours définit le catalyseur comme une substance qui n'intervient pas dans la réaction, c'est-à-dire qui ne réagit pas avec les composés présents et n'est donc pas consommée."},{"t":"Ils augmentent la vitesse de la réaction sur laquelle ils agissent","j":"Énoncé exact : l'augmentation de la vitesse de réaction est l'effet recherché de tout catalyseur, selon la définition du cours."},{"t":"Ils abaissent l'énergie d'activation de la réaction qu'ils catalysent","j":"Énoncé exact : cet abaissement est le mécanisme même par lequel un catalyseur agit sur la réaction."},{"t":"Les enzymes en sont la forme biologique, de nature protéique","j":"Énoncé exact : le cours présente les enzymes comme les catalyseurs biologiques, c'est-à-dire des protéines agissant à l'intérieur de la cellule."}]},
-    {"q":"Comment la calorimétrie permet-elle de déterminer l'énergie chimique contenue dans un aliment ?","c":10,"options":[{"t":"On brûle l'aliment dans un calorimètre et on mesure l'énergie libérée","correct":true,"j":"Le cours décrit le calorimètre comme un récipient isolé, de type thermos, dans lequel on réalise la combustion de l'aliment afin de mesurer la quantité d'énergie libérée."},{"t":"On pèse l'aliment avant puis après son passage dans le tube digestif","j":"La variation de masse observée au cours de la digestion ne renseigne pas sur l'énergie contenue dans les liaisons chimiques de l'aliment."},{"t":"On mesure le volume de gaz carbonique que l'aliment dégage à froid","j":"Un aliment laissé à froid ne se consume pas spontanément : sans combustion provoquée, aucune mesure d'énergie n'est possible."},{"t":"On mesure l'élévation de température du sujet qui vient de l'ingérer","j":"Cette technique de laboratoire porte sur l'aliment lui-même placé dans l'appareil, et non sur la personne qui le consomme."}]},
-    {"q":"Le CONTENU ÉNERGÉTIQUE d'un aliment (Ce) correspond à…","c":10,"options":[{"t":"L'énergie que l'aliment libère lors de sa dégradation, par unité de masse","correct":true,"j":"Le cours définit le contenu énergétique comme la quantité d'énergie qu'un aliment libère, lors de sa dégradation, par unité de masse de ce nutriment."},{"t":"L'énergie qu'il faut fournir à l'aliment pour le dégrader, par unité de masse","j":"Un aliment libère de l'énergie en se dégradant au lieu d'en réclamer : cette grandeur mesure ce qui est libéré, et non ce qu'il faudrait apporter."},{"t":"L'énergie que l'aliment libère lors de sa dégradation, par unité de temps","j":"Rapporter une énergie à une durée définit une puissance ; le contenu énergétique rapporte l'énergie à la masse d'aliment consommée."},{"t":"La masse d'aliment nécessaire pour libérer un joule d'énergie","j":"Cette formulation inverse le rapport : on divise l'énergie obtenue par la masse consommée, et non la masse par l'énergie."}]},
-    {"q":"Quelle est la teneur énergétique des PROTÉINES ?","c":10,"options":[{"t":"17,6 kJ/g","correct":true,"j":"Le cours attribue 17,6 kJ/g aux protéines, une valeur très proche de celle des glucides mais légèrement supérieure."},{"t":"17,2 kJ/g","j":"Cette valeur est celle attribuée aux glucides, que les protéines dépassent de peu parmi les teneurs établies."},{"t":"38,9 kJ/g","j":"Cette valeur, de loin la plus élevée des trois teneurs établies, revient aux graisses et non aux protéines."},{"t":"20,2 kJ/g","j":"Ce chiffre n'est pas un contenu énergétique par gramme d'aliment, mais l'énergie disponible par litre d'oxygène consommé."}]},
-    {"q":"Une personne ingère 200 g d'un aliment dont le contenu énergétique est de 17,2 kJ/g. Quelle quantité d'énergie ingère-t-elle ?","c":10,"options":[{"t":"3 440 kJ","correct":true,"j":"L'énergie ingérée est le produit de la masse consommée par le contenu énergétique de l'aliment : 200 g × 17,2 kJ/g = 3 440 kJ."},{"t":"1 720 kJ","j":"Ce résultat correspondrait à 100 g d'aliment seulement, alors que la masse consommée est deux fois plus grande."},{"t":"344 kJ","j":"Ce résultat déplace la virgule d'un rang : le produit de 200 par 17,2 vaut 3 440 et non 344."},{"t":"11,6 kJ","j":"Ce résultat divise la masse par le contenu énergétique, alors que ces deux grandeurs doivent être multipliées l'une par l'autre."}]},
-    {"q":"Une personne hydrolyse 0,5 mole d'ATP. À combien de molécules cela correspond-il, sachant qu'une mole contient 6,022 × 10²³ unités ?","c":10,"options":[{"t":"Environ 3,0 × 10²³ molécules","correct":true,"j":"Le nombre de molécules s'obtient en multipliant le nombre de moles par le nombre d'Avogadro : 0,5 × 6,022 × 10²³ donne environ 3,0 × 10²³."},{"t":"Environ 6,0 × 10²³ molécules","j":"Cette valeur est celle d'une mole entière, alors que la quantité hydrolysée n'en représente que la moitié."},{"t":"Environ 1,2 × 10²⁴ molécules","j":"Cette valeur correspond à deux moles : elle multiplie le nombre d'Avogadro par deux au lieu de le diviser par deux."},{"t":"Environ 3,0 × 10²² molécules","j":"L'exposant est ici trop petit d'un rang : la moitié de 6,022 × 10²³ reste de l'ordre de 10²³."}]},
-    {"q":"Dans l'hypothèse d'Oparin et Haldane sur la Terre primitive, quelle caractéristique de l'atmosphère permettait aux composés organiques apparus spontanément de ne pas disparaître aussitôt ?","c":2,"options":[{"t":"Elle était très réductrice, à l'opposé d'une atmosphère oxydante","correct":true,"j":"Le cours écrit que l'atmosphère était très réductrice, à l'opposé d'oxydante, ce qui permettait aux composés apparus spontanément de ne pas se dégrader rapidement."},{"t":"Elle était déjà riche en dioxygène d'origine volcanique","j":"C'est transposer à la Terre primitive l'atmosphère actuelle : l'O2 libre manquait encore, et un milieu oxydant aurait attaqué les molécules organiques naissantes au lieu de les laisser s'accumuler."},{"t":"Elle était saturée de vapeur d'eau, ce qui interdisait l'hydrolyse","j":"L'eau figure au contraire parmi les ingrédients des réactions reproduites en laboratoire ; aucune protection contre l'hydrolyse n'est invoquée."},{"t":"Elle était dépourvue d'azote, d'où des composés purement carbonés","j":"L'azote était bien présent, sous forme d'ammoniac, parmi les molécules inorganiques de départ : il entre dans la composition des acides aminés obtenus."}]},
-    {"q":"Par quel mécanisme des agrégats moléculaires de la soupe primordiale ont-ils pu devenir de véritables protobiontes ?","c":2,"options":[{"t":"Une sélection chimique retenant les assemblages devenus autonomes","correct":true,"j":"Le cours décrit un processus évolutif de sélection chimique : sont conservés les assemblages qui possèdent les molécules nécessaires pour être autonomes."},{"t":"Une mutation ponctuelle du matériel génétique des premiers agrégats","j":"La mutation suppose un matériel génétique déjà constitué et transmis ; le tri décrit ici porte sur la composition chimique des agrégats eux-mêmes."},{"t":"Une fusion entre micelles de compositions chimiques complémentaires","j":"Aucune fusion deux à deux n'est décrite : les gouttelettes sont triées d'après ce qu'elles contiennent, elles ne s'additionnent pas."},{"t":"Un échange permanent de molécules entre les gouttelettes voisines","j":"Les échanges entre compartiments supposent une vie cellulaire déjà organisée ; le cours ne les fait pas intervenir à ce stade."}]},
-    {"q":"Quelle fonction devaient remplir les catalyseurs que possédait un protobionte ?","c":2,"options":[{"t":"Métaboliser les nutriments à des fins synthétiques ou énergétiques","correct":true,"j":"Le cours exige du protobionte des catalyseurs capables de métaboliser les nutriments, soit pour fabriquer ses constituants, soit pour en tirer de l'énergie."},{"t":"Dupliquer fidèlement l'information transmise à la descendance","j":"La duplication de l'information relève du matériel génétique du protobionte, et non de ses catalyseurs."},{"t":"Maintenir l'étanchéité de la limite entourant la gouttelette","j":"La limite de la gouttelette est assurée par sa membrane elle-même, sans qu'une activité catalytique soit nécessaire."},{"t":"Transporter les nutriments du milieu extérieur vers l'intérieur","j":"Le transport n'est pas la fonction retenue : les catalyseurs agissent sur les nutriments une fois ceux-ci disponibles, en les transformant."}]},
-    {"q":"Quelle molécule a pu, dans les premières protocellules, conserver l'information et catalyser des réactions ?","c":2,"options":[{"t":"L'ARN","correct":true,"j":"Le cours propose l'ARN : l'existence des ribozymes, ARN doués d'activité catalytique, et celle des ribonucléoprotéines en font le candidat à ce double rôle."},{"t":"L'ADN","j":"L'ADN conserve l'information mais n'exerce aucune activité catalytique : il ne peut donc pas remplir seul les deux fonctions exigées."},{"t":"Les protéines","j":"Les protéines catalysent remarquablement les réactions, mais ne portent pas l'information nécessaire à leur propre reproduction."},{"t":"Les phospholipides","j":"Les phospholipides sont des constituants structuraux : ils ne portent aucune information séquentielle et n'ont pas d'activité catalytique."}]},
-    {"q":"Quel bénéfice la recherche évolutive d'une plus grande taille cellulaire a-t-elle apporté ?","c":2,"options":[{"t":"Une indépendance accrue vis-à-vis du milieu environnant","correct":true,"j":"Le cours fait de la recherche d'une taille cellulaire plus grande le moteur de cette étape, précisément parce qu'elle procure une plus grande indépendance par rapport à l'environnement (rapport surface/volume)."},{"t":"Une surface d'échange proportionnellement plus étendue","j":"Grandir diminue au contraire la surface rapportée au volume : c'est ce rapport décroissant qui a imposé de nouvelles solutions à la cellule."},{"t":"Une vitesse de division supérieure à celle des procaryotes","j":"Les grandes cellules ne se divisent pas plus vite, et le cours ne fait pas de la rapidité de division un gain lié à la taille."},{"t":"Une résistance mécanique obtenue par épaississement pariétal","j":"La solidité pariétale n'est pas en jeu ici : l'avantage décrit est physiologique, lié aux dimensions de la cellule."}]},
-    {"q":"Quels avantages l'apparition d'un système de membranes internes a-t-elle procurés à la cellule ?","c":2,"options":[{"t":"Compartimenter l'espace interne et protéger le matériel génétique","correct":true,"j":"Le cours attribue deux rôles à ce système : compartimenter l'espace cellulaire, ce qui améliore la physiologie, et mettre le matériel génétique à l'abri d'une enveloppe."},{"t":"Accroître le rendement énergétique en abritant la respiration","j":"Le gain de rendement énergétique est rapporté par le cours à l'acquisition d'organites énergétiques, événement présenté séparément de la compartimentation."},{"t":"Renforcer la membrane externe et rigidifier la forme cellulaire","j":"Le maintien de la forme relève du cytosquelette, et non du repliement de membranes à l'intérieur de la cellule."},{"t":"Accélérer les échanges de matière avec le milieu extérieur","j":"Les échanges avec l'extérieur passent par la membrane plasmique ; les membranes internes organisent au contraire le volume intracellulaire."}]},
-    {"q":"Quelle conséquence l'apparition des organismes photosynthétiques a-t-elle eue sur l'atmosphère terrestre ?","c":2,"options":[{"t":"La libération d'oxygène, à l'origine de l'ozone atmosphérique","correct":true,"j":"Le cours associe aux organismes photosynthétiques la libération d'O2, qui a conduit à la formation de l'ozone (O3) de l'atmosphère."},{"t":"L'accumulation du dioxyde de carbone issu de leur respiration","j":"La photosynthèse consomme le dioxyde de carbone pour fabriquer de la matière organique : elle n'en accumule pas dans l'atmosphère."},{"t":"L'enrichissement en méthane consommé par les cellules voisines","j":"Le méthane compte parmi les gaz de l'atmosphère initiale, antérieure à ces organismes, et le cours ne le relie pas à leur activité."},{"t":"La disparition de la vapeur d'eau fixée dans les biomolécules","j":"L'eau est utilisée par la photosynthèse mais reste abondante ; aucune disparition de la vapeur d'eau n'est décrite."}]},
-    {"q":"Sur quelle comparaison moléculaire repose l'arbre phylogénétique des êtres vivants ?","c":2,"options":[{"t":"La comparaison de l'ARN ribosomal des différentes espèces","correct":true,"j":"Le cours précise que son arbre phylogénétique est construit à partir de la comparaison de l'ARN ribosomal des différentes espèces."},{"t":"La comparaison des protéines de la membrane plasmique","j":"Les protéines membranaires varient trop d'un type cellulaire à l'autre pour servir de référence universelle de parenté."},{"t":"La comparaison du nombre de chromosomes de chaque espèce","j":"Le décompte des chromosomes n'a pas de sens chez les procaryotes, dont l'ADN n'est pas réparti en plusieurs chromosomes."},{"t":"La comparaison des enzymes du métabolisme énergétique","j":"Les enzymes du métabolisme dépendent du mode de vie de l'organisme ; elles ne sont pas utilisées ici pour établir la parenté."}]},
-    {"q":"Quel type de métabolisme la cellule procaryote peut-elle mettre en œuvre ?","c":2,"options":[{"t":"Un métabolisme aérobie comme anaérobie, selon les espèces","correct":true,"j":"Le cours attribue aux procaryotes à la fois l'aérobiose et l'anaérobiose : la bactérie n'est liée ni à l'un ni à l'autre des deux régimes."},{"t":"Un métabolisme strictement anaérobie, l'oxygène lui étant toxique","j":"L'anaérobiose stricte ne concerne qu'une partie des bactéries ; la généraliser revient à prendre un cas particulier pour le groupe entier."},{"t":"Un métabolisme strictement aérobie, dépendant de l'oxygène","j":"L'aérobiose stricte exclurait les bactéries anaérobies, que le cours reconnaît au même titre que les aérobies."},{"t":"Un métabolisme exclusivement fermentaire, sans respiration","j":"La fermentation n'est qu'une des voies anaérobies ; en faire le seul métabolisme procaryote oublie la respiration, également attribuée aux procaryotes."}]},
-    {"q":"De quoi est constituée la paroi des cellules procaryotes ?","c":2,"options":[{"t":"De peptidoglycane, encore appelé muréine","correct":true,"j":"Le tableau du cours porte, pour la paroi des procaryotes : « OUI (glucane peptidique et muréine) » — c'est le peptidoglycane de la bactérie."},{"t":"De cellulose, comme la paroi des végétaux","j":"La cellulose constitue la paroi des cellules végétales, les seules cellules eucaryotes auxquelles le cours reconnaisse une paroi."},{"t":"D'une double couche de phospholipides","j":"La double couche de phospholipides forme la membrane plasmique, située en dedans de la paroi et distincte d'elle."},{"t":"De glycoprotéines en revêtement externe","j":"Un revêtement de glycoprotéines correspond au glycocalyx de surface, souple, et non à la paroi rigide d'un procaryote."}]},
-    {"q":"Quelle est la molécule d'énergie commune à toutes les cellules ?","c":2,"options":[{"t":"L'ATP","correct":true,"j":"Parmi les caractères communs à toutes les cellules, le cours retient une même molécule d'énergie, l'ATP, utilisée aussi bien par les procaryotes que par les eucaryotes."},{"t":"Le NADH","j":"Le NADH est un transporteur d'électrons : il convoie le pouvoir réducteur vers les voies productrices d'énergie, sans servir lui-même de monnaie d'échange."},{"t":"Le glucose","j":"Le glucose est un combustible que la cellule doit d'abord dégrader ; l'énergie qu'il libère est ensuite conservée sous une autre forme."},{"t":"Le GTP","j":"Le GTP intervient ponctuellement dans certaines réactions, mais ce n'est pas la molécule d'énergie universelle citée par le cours."}]},
-    {"q":"Quelle propriété liée à l'expression du matériel génétique les cellules procaryotes et eucaryotes ont-elles en commun ?","c":2,"options":[{"t":"Elles utilisent toutes le même code génétique","correct":true,"j":"Le cours range parmi les caractères communs à toutes les cellules un même type de matériel génétique et un même fonctionnement : le code génétique est universel."},{"t":"Elles possèdent toutes le même nombre de gènes","j":"Le nombre de gènes varie considérablement d'une espèce à l'autre : ce n'est pas un caractère partagé par toutes les cellules."},{"t":"Elles portent toutes leur information génétique sur un même nombre de molécules d'ADN","j":"Le nombre de molécules d'ADN varie d'une cellule à l'autre ; ce n'est pas un caractère partagé, à la différence du code de lecture."},{"t":"Elles répliquent toutes leur ADN depuis une origine unique","j":"Le nombre de points de départ de la réplication varie selon les cellules, et le cours ne le cite pas parmi les propriétés universelles."}]},
-    {"q":"Lequel de ces énoncés correspond à l'un des principes de la théorie cellulaire ?","c":2,"options":[{"t":"Les fonctions vitales d'un organisme se déroulent dans ses cellules","correct":true,"j":"Le cours énonce que toutes les fonctions vitales d'un organisme — respiration, reproduction, mouvement — s'accomplissent à l'intérieur de ses cellules."},{"t":"Toutes les cellules d'un organisme assurent les mêmes fonctions vitales","j":"Les cellules d'un même organisme sont spécialisées : le principe porte sur le lieu où s'exercent les fonctions vitales, non sur leur uniformité."},{"t":"Les fonctions vitales naissent de l'association des cellules entre elles","j":"L'association des cellules construit l'organisme, mais les fonctions vitales s'exercent déjà à l'échelle de chaque cellule, y compris chez les unicellulaires."},{"t":"Chaque fonction vitale est assurée par un organe et non par la cellule","j":"L'organe n'est qu'un assemblage de cellules : il n'est pas le siège élémentaire des fonctions vitales, qui s'accomplissent dans les cellules elles-mêmes."}]},
-    {"q":"Lors de sa propagation, une onde transporte :","c":14,"options":[{"t":"de l'énergie et une quantité de mouvement, sans transport net de matière","correct":true,"j":"Le cours définit l'onde comme une perturbation qui se propage en transportant de l'énergie et une quantité de mouvement : les particules du milieu vibrent autour de leur position d'équilibre et y reviennent."},{"t":"de la matière et de l'énergie, qui se déplacent toutes deux avec la perturbation","j":"Si la matière suivait l'onde, un son déplacerait l'air d'un bout à l'autre de la pièce au lieu de le faire simplement vibrer sur place."},{"t":"une quantité de mouvement seule, sans transfert d'énergie d'un point à l'autre","j":"Le transport d'énergie est justement ce qui permet à une onde de produire un effet à distance ; une onde qui n'en transporterait pas n'agirait sur rien à l'arrivée."},{"t":"de la matière seule, l'énergie restant localisée au niveau de la source","j":"C'est l'inverse de ce qui se produit : l'énergie quitte la source avec la perturbation, tandis que la matière du milieu reste en place."}]},
-    {"q":"Dans une onde périodique, l'amplitude correspond :","c":14,"options":[{"t":"à la valeur maximale de l'allongement atteint par un point du milieu","correct":true,"j":"L'amplitude est la valeur la plus grande que peut atteindre le déplacement d'un point sous l'effet du passage de l'onde ; elle se mesure en unités de longueur."},{"t":"au déplacement d'un point du milieu à un instant quelconque du passage de l'onde","j":"C'est la définition de l'allongement, qui change à chaque instant ; l'amplitude n'en retient que la valeur extrême."},{"t":"au temps nécessaire pour qu'un point du milieu revienne à sa position de départ","j":"Cette durée est la période de l'onde, exprimée en secondes ; l'amplitude est un déplacement, elle ne se mesure pas en unités de temps."},{"t":"à l'énergie que l'onde cède aux particules du milieu à chaque oscillation","j":"Une énergie se mesure en joules et n'est pas un déplacement ; elle ne décrit pas l'écart maximal atteint par un point autour de sa position d'équilibre."}]},
-    {"q":"La longueur d'onde d'une onde périodique correspond :","c":14,"options":[{"t":"à la distance parcourue par l'onde pendant un cycle complet","correct":true,"j":"C'est la distance qui sépare deux maxima (ou deux minima) consécutifs, autrement dit le chemin parcouru au cours d'un cycle entier ; elle se mesure en m, cm ou mm."},{"t":"à la durée que met l'onde pour accomplir un cycle complet","j":"Cette durée est la période de l'onde ; elle s'exprime en secondes, alors que la longueur d'onde est une distance."},{"t":"au nombre de cycles que l'onde accomplit en une seconde","j":"Ce décompte définit la fréquence, exprimée en hertz ; il ne mesure aucune distance."},{"t":"à la distance que l'onde parcourt pendant une seconde","j":"Une distance rapportée à une seconde est la vitesse de propagation, en m/s ; la longueur d'onde se mesure en mètres, sans référence au temps."}]},
-    {"q":"L'intensité transportée par une onde est définie comme :","c":14,"options":[{"t":"la puissance transportée par l'onde par unité de surface, en W/m²","correct":true,"j":"L'intensité rapporte la puissance de l'onde à la surface qu'elle traverse ; dans le système international elle s'exprime donc en watts par mètre carré."},{"t":"l'énergie transportée par l'onde par unité de temps, en watts","j":"Cette grandeur est la puissance de l'onde : elle ne tient aucun compte de la surface sur laquelle l'énergie se répartit."},{"t":"l'énergie transportée par l'onde au cours d'un cycle complet, en joules","j":"Une énergie par cycle ne fait intervenir ni la durée ni la surface ; elle ne permet pas de comparer ce que reçoit une surface donnée."},{"t":"la puissance transportée par l'onde par unité de longueur, en W/m","j":"Une onde se répartit dans l'espace sur une surface et non sur une ligne ; c'est bien à une aire que l'on rapporte la puissance."}]},
-    {"q":"La vitesse d'une onde sonore est donnée par la racine carrée du rapport entre la variation de pression et la variation de densité qu'elle produit dans le milieu. Qu'est-ce qui explique alors que le son soit plus lent dans un gaz que dans un solide ?","c":14,"options":[{"t":"la variation de densité y est grande, car un gaz se comprime très facilement","correct":true,"j":"Les particules d'un gaz ont une grande capacité de compression : la variation de densité, placée au dénominateur, y est plus grande que dans un liquide, et plus grande encore que dans un solide — d'où une vitesse du son d'autant plus faible."},{"t":"la variation de pression y est grande, car les particules d'un gaz sont mobiles","j":"La variation de pression produite par une onde sonore reste faible quel que soit le milieu ; ce n'est pas elle qui sépare le gaz du solide."},{"t":"la variation de densité y est faible, car les particules d'un gaz sont éloignées","j":"C'est exactement l'inverse : l'espacement des particules rend le gaz facilement compressible, donc sa densité varie beaucoup au passage de l'onde."},{"t":"la variation de pression y est faible, car un gaz résiste peu au passage de l'onde","j":"Le cours ne retient pas ce facteur : il attribue expressément l'écart entre gaz, liquide et solide à la variation de densité, « plus grande dans un gaz que dans un liquide, que dans un solide », et ne dit de la variation de pression que sa valeur est faible, sans jamais la faire varier d'un milieu à l'autre."}]},
-    {"q":"Une onde sonore produit dans un milieu une variation de pression deux fois plus grande qu'une autre. Toutes choses égales par ailleurs, son intensité est :","c":14,"options":[{"t":"quatre fois plus grande","correct":true,"j":"L'intensité d'une onde sonore varie comme le carré de la variation de pression qu'elle produit : doubler cette variation multiplie l'intensité par 2², soit 4."},{"t":"deux fois plus grande","j":"Ce serait le cas si l'intensité était simplement proportionnelle à la variation de pression ; or celle-ci intervient au carré."},{"t":"huit fois plus grande","j":"Un facteur 8 supposerait une relation cubique ; le lien entre intensité et variation de pression est quadratique."},{"t":"rigoureusement inchangée","j":"L'intensité dépend directement de l'amplitude de l'onde, c'est-à-dire de la variation de pression produite : elle ne peut pas rester identique."}]},
-    {"q":"Pour qu'un son soit effectivement perçu par l'oreille humaine, il faut :","c":14,"options":[{"t":"que sa fréquence soit audible et que son intensité reste entre le seuil d'audition et le seuil de douleur","correct":true,"j":"Les deux conditions doivent être réunies : une fréquence située dans la gamme audible, et une intensité comprise dans la plage délimitée par le seuil d'audition et le seuil de la douleur."},{"t":"que sa fréquence soit audible, quelle que soit l'intensité, même très faible, avec laquelle il parvient à l'oreille","j":"La fréquence ne suffit pas : un son de fréquence audible mais d'intensité inférieure au seuil d'audition n'est pas entendu."},{"t":"que son intensité dépasse le seuil de la douleur, quelle que soit sa fréquence propre","j":"Le seuil de la douleur est la limite haute de la plage utile : le franchir ne rend pas le son perceptible, cela le rend douloureux."},{"t":"que son intensité dépasse le seuil d'audition, la fréquence n'intervenant pas dans sa perception","j":"L'intensité ne suffit pas non plus : une onde sonore très intense reste inaudible si sa fréquence se situe hors de la gamme que l'oreille détecte."}]},
-    {"q":"On appelle infrason une onde sonore dont la fréquence est :","c":14,"options":[{"t":"inférieure à 16 Hz","correct":true,"j":"Le cours place la limite basse de l'audition humaine à 16 Hz : en dessous, l'onde sonore existe toujours mais n'est plus entendue."},{"t":"inférieure à 160 Hz","j":"160 Hz est une fréquence parfaitement audible, qui correspond aux sons graves de la voix et de la musique."},{"t":"supérieure à 16 000 Hz","j":"Une fréquence supérieure à la limite audible définit au contraire les ultrasons ; l'infrason se situe sous la limite basse de l'audition, pas au-dessus de la limite haute."},{"t":"comprise entre 16 et 160 Hz","j":"Cette plage est tout entière contenue dans la gamme audible ; l'infrason commence sous la limite basse de l'audition."}]},
-    {"q":"Parmi les usages suivants, lequel constitue un apport majeur de l'échographie en pratique ?","c":14,"options":[{"t":"le guidage des gestes de ponction, d'aspiration ou d'infiltration","correct":true,"j":"L'échographie est indispensable à ces gestes : technique d'imagerie en temps réel, elle montre la progression de l'aiguille jusqu'à la cible visée."},{"t":"le contrôle de la dose d'ultrasons reçue pendant une séance","j":"Le réglage de ce que reçoit le patient relève de l'appareil de thérapie par ultrasons ; l'échographe, lui, est un outil d'imagerie."},{"t":"la mesure de la vitesse du son dans chaque tissu traversé","j":"La vitesse du son dans les tissus est une donnée déjà connue, que l'appareil utilise pour construire l'image au lieu de la déterminer."},{"t":"la stimulation de la cicatrisation des lésions des tissus mous","j":"Cet effet biologique relève des applications thérapeutiques des ultrasons, alors que l'échographie reste une technique d'exploration."}]},
-    {"q":"Dans un échographe, comment l'écho renvoyé par les tissus devient-il une image ?","c":14,"options":[{"t":"il fait vibrer les cristaux de la sonde, ce qui engendre un courant électrique","correct":true,"j":"Les faisceaux réfléchis reviennent au transducteur et mettent ses cristaux en vibration ; le courant électrique ainsi produit est traduit en image par l'appareil."},{"t":"il échauffe les cristaux de la sonde, dont la résistance électrique varie","j":"Un échauffement serait bien trop lent et trop imprécis pour restituer une image en temps réel ; c'est la mise en vibration des cristaux qui engendre le signal."},{"t":"il est converti en signal lumineux par un cristal fluorescent de la sonde","j":"Aucune étape lumineuse n'intervient dans la sonde : le signal passe directement de la vibration mécanique au courant électrique."},{"t":"il est capté par le gel de couplage, qui transmet un signal à l'appareil","j":"Le gel n'est pas un capteur : il est interposé entre la sonde et la peau et ne transmet aucun signal à l'échographe."}]},
-    {"q":"À l'échographie, deux milieux dont les impédances acoustiques sont très voisines donnent :","c":14,"options":[{"t":"un écho faible, rendu par des tons gris","correct":true,"j":"Plus les impédances des deux milieux sont proches, plus la fraction de l'onde renvoyée est petite : l'écho est faible et l'interface se traduit par des tons gris."},{"t":"un écho intense, rendu par des tons blancs","j":"Les tons blancs traduisent au contraire une différence d'impédance importante, qui renvoie vers la sonde une grande partie de l'onde incidente."},{"t":"aucun écho, toute l'onde étant transmise","j":"Des impédances voisines n'annulent pas l'écho : une fraction de l'onde est toujours réfléchie à l'interface, et elle suffit à former l'image."},{"t":"un écho plus intense si l'interface est profonde","j":"La profondeur modifie l'atténuation du faisceau le long de son trajet, mais l'intensité de l'écho à une interface dépend de l'écart d'impédance entre les deux milieux."}]},
-    {"q":"À quelle intensité l'utilisation des ultrasons est-elle limitée, en raison de leur effet destructeur possible sur les tissus ?","c":14,"options":[{"t":"3 W/cm²","correct":true,"j":"C'est la limite d'utilisation fixée : au-delà, la chaleur formée devient excessive et les membranes cellulaires peuvent être rompues."},{"t":"3 W/m²","j":"Rapportée au centimètre carré, cette valeur est dix mille fois plus faible que la limite retenue et serait sans effet sur les tissus."},{"t":"30 W/cm²","j":"Dix fois la limite admise : une telle intensité garantirait l'échauffement excessif et la rupture des membranes que la limite vise justement à éviter."},{"t":"0,3 W/cm²","j":"Cette valeur reste très en deçà du plafond fixé par le cours, qui tolère une intensité dix fois supérieure avant de parler d'effet destructeur."}]},
-    {"q":"L'absorption des ultrasons par un tissu est d'autant plus importante que ce tissu :","c":14,"options":[{"t":"est riche en protéines","correct":true,"j":"Le cours relie l'absorption à la teneur en protéines du tissu : l'énergie de l'onde y est transférée aux molécules, dont la vibration augmente, d'où une élévation de température."},{"t":"est riche en graisses","j":"La teneur en lipides n'est pas le critère retenu par le cours pour prévoir l'intensité de l'absorption dans un tissu."},{"t":"est riche en eau","j":"Le cours ne retient pas la teneur en eau : c'est la richesse en protéines du tissu qui commande l'intensité de l'absorption."},{"t":"est pauvre en cellules","j":"La densité cellulaire n'intervient pas : c'est la composition moléculaire du tissu qui détermine la fraction d'onde absorbée."}]},
-    {"q":"Indiquez l'énoncé FAUX à propos de l'atténuation des ultrasons dans les tissus :","c":14,"options":[{"t":"L'intensité s'annule dès que l'épaisseur de demi-réduction est franchie","correct":true,"j":"Faux : l'atténuation est exponentielle, l'intensité est de nouveau divisée par deux à chaque épaisseur de demi-réduction supplémentaire et ne s'annule jamais brutalement."},{"t":"L'intensité décroît exponentiellement quand l'épaisseur traversée augmente","j":"Exact : le cours décrit la décroissance de l'intensité des ultrasons comme exponentielle à mesure que l'épaisseur de milieu traversé augmente."},{"t":"L'épaisseur de demi-réduction réduit de moitié l'intensité du faisceau","j":"Exact : c'est précisément la définition donnée par le cours à cette épaisseur caractéristique."},{"t":"L'épaisseur de demi-réduction varie selon les caractéristiques du tissu traversé","j":"Exact : à fréquence donnée, cette épaisseur n'est pas la même d'un tissu à l'autre, car elle dépend aussi des propriétés du milieu."}]},
-    {"q":"En thérapie par ultrasons, la cavitation désigne :","c":14,"options":[{"t":"la formation de microbulles sous l'effet des variations de pression","correct":true,"j":"Les compressions et décompressions successives de l'onde sonore font apparaître des microbulles dans les tissus : c'est un effet non thermique des ultrasons."},{"t":"l'augmentation de la circulation des fluides près des membranes","j":"Ce mouvement accru des fluides près des membranes cellulaires est l'autre effet non thermique décrit par le cours, la transmission acoustique."},{"t":"l'élévation de température due à l'absorption de l'énergie sonore","j":"L'échauffement des tissus est l'effet thermique des ultrasons ; la cavitation, elle, est rangée parmi leurs effets non thermiques."},{"t":"la rupture des cristaux de la sonde sous une intensité excessive","j":"Le phénomène se produit dans les tissus traversés, pas dans l'appareil : les cristaux de la sonde ne sont pas en cause."}]},
-    {"q":"La zone de rayonnement efficace (ERA) d'une sonde à ultrasons correspond :","c":14,"options":[{"t":"à la part de la tête de la sonde qui émet réellement des ultrasons","correct":true,"j":"La tête n'émet pas sur toute sa surface : l'ERA, exprimée en pourcentage, désigne la portion réellement émettrice et sert à calculer la puissance effectivement délivrée."},{"t":"à la surface de tissu que le traitement doit couvrir chez le patient","j":"Cette surface est une donnée propre à la lésion traitée, alors que l'ERA caractérise la sonde elle-même."},{"t":"à la profondeur de tissu que le faisceau d'ultrasons parvient à atteindre","j":"L'ERA est une surface d'émission exprimée en pourcentage de la tête ; elle ne renseigne en rien sur le trajet de l'onde dans les tissus."},{"t":"à la fraction de la puissance émise qui est absorbée par les tissus","j":"L'ERA concerne l'émission à la sortie de la sonde, et non le devenir de l'énergie une fois celle-ci entrée dans l'organisme."}]},
-    {"q":"En thérapie par ultrasons, la dose de traitement correspond :","c":14,"options":[{"t":"à l'énergie délivrée rapportée à la surface de tissu traitée","correct":true,"j":"La dose rapporte l'énergie reçue par le patient à l'étendue de tissu traitée ; elle s'exprime donc en joules par centimètre carré et permet de comparer des lésions d'étendues différentes."},{"t":"à l'énergie délivrée rapportée à la surface de la sonde","j":"La surface de la tête de la sonde sert à calculer l'intensité émise par l'appareil, pas la dose reçue : le cours rapporte expressément la dose à la surface de tissu traitée."},{"t":"à l'énergie totale émise par l'appareil durant la séance","j":"Une énergie totale ne dit rien de sa répartition : appliquée sur une surface deux fois plus grande, elle délivre une dose deux fois plus faible."},{"t":"à la durée d'application rapportée à la surface traitée","j":"Un temps rapporté à une surface ne constitue pas une dose : c'est l'énergie délivrée qui est en jeu, la durée n'en étant qu'un des facteurs."}]},
-    {"q":"Comment définit-on un système thermodynamique ?","c":11,"options":[{"t":"Une partie de l'univers que l'on isole afin de l'étudier","correct":true,"j":"Un système thermodynamique est la portion de l'univers que l'on délimite et met à part pour en étudier le comportement."},{"t":"La surface qui sépare un corps du milieu qui l'entoure","j":"La surface qui sépare un système du milieu environnant porte le nom de paroi, ou enceinte : elle limite le système mais ne le définit pas."},{"t":"Le passage d'un corps d'un état initial à un état final","j":"Le passage d'un état initial à un état final est une transformation, c'est-à-dire ce que subit un système, et non le système lui-même."},{"t":"L'ensemble des échanges de chaleur entre deux corps","j":"Les échanges de chaleur sont des transferts d'énergie entre un système et son milieu ; ils décrivent ses relations, pas sa nature."}]},
-    {"q":"Sur quel critère les différents types de systèmes thermodynamiques sont-ils distingués ?","c":11,"options":[{"t":"Sur les échanges de matière et d'énergie avec le milieu","correct":true,"j":"La classification des systèmes thermodynamiques repose sur ce qu'ils échangent avec le milieu qui les entoure : de la matière, de l'énergie, ou ni l'une ni l'autre."},{"t":"Sur le caractère rigide ou mobile de leur enceinte","j":"Le caractère rigide ou mobile d'une paroi décrit seulement la variation de volume qu'elle autorise ; ce n'est pas ce qui sépare les types de systèmes."},{"t":"Sur leur pression et leur volume de départ","j":"La pression et le volume décrivent l'état du système à un instant donné ; ce sont des grandeurs mesurées, non un critère de classement."},{"t":"Sur le sens dans lequel leur transformation se déroule","j":"Le sens dans lequel une transformation se déroule ne dit rien de ce que le système échange avec son milieu, qui est le seul critère retenu."}]},
-    {"q":"Un cylindre rempli de gaz est fermé par un piston qui se déplace quand le gaz se dilate ; il échange de la chaleur avec l'extérieur mais ne laisse passer aucune matière. Comment qualifie-t-on ses parois ?","c":11,"options":[{"t":"Mobiles, diathermiques et imperméables","correct":true,"j":"Le piston qui se déplace rend les parois mobiles, l'échange de chaleur les rend diathermiques, et l'absence de passage de matière les rend imperméables."},{"t":"Rigides, diathermiques et imperméables","j":"Une paroi rigide interdirait tout changement de volume, alors que le gaz décrit ici se dilate en repoussant le piston."},{"t":"Mobiles, adiabatiques et imperméables","j":"Une paroi adiabatique empêcherait tout échange thermique, alors que ce cylindre échange bien de la chaleur avec l'extérieur."},{"t":"Mobiles, diathermiques et perméables","j":"Une paroi perméable laisserait passer de la matière, alors que le gaz reste entièrement enfermé dans le cylindre."}]},
-    {"q":"Dans un gaz parfait, les molécules n'exercent aucune interaction les unes sur les autres. À quoi se réduit alors l'énergie interne du gaz ?","c":11,"options":[{"t":"À l'énergie cinétique de ses molécules","correct":true,"j":"Faute d'interaction entre les particules, la seule énergie que possèdent les molécules d'un gaz parfait est celle de leur mouvement."},{"t":"À l'énergie potentielle de ses molécules","j":"Une énergie potentielle suppose une interaction ou une position dans un champ ; or les molécules d'un gaz parfait n'interagissent pas."},{"t":"À l'énergie des liaisons entre ses molécules","j":"Des liaisons entre molécules impliqueraient précisément les interactions que la définition du gaz parfait exclut."},{"t":"À la chaleur que le gaz reçoit du milieu","j":"La chaleur reçue est échangée avec le milieu : elle fait varier l'énergie interne du gaz sans se confondre avec elle."}]},
-    {"q":"Lors d'une transformation thermodynamique, comment la variation d'énergie interne d'un système est-elle définie ?","c":11,"options":[{"t":"Par la différence entre l'énergie interne de l'état final et celle de l'état initial","correct":true,"j":"La variation s'obtient en retranchant la valeur initiale de la valeur finale : ΔU = U2 − U1."},{"t":"Par la différence entre l'énergie interne de l'état initial et celle de l'état final","j":"Cette soustraction est faite à l'envers : elle donne l'opposé de la variation réelle et en inverse donc le signe."},{"t":"Par la somme des énergies internes de l'état initial et de l'état final réunis","j":"Additionner les deux valeurs donnerait un cumul dépourvu de sens physique : une variation mesure un écart entre deux états."},{"t":"Par le rapport entre l'énergie interne de l'état final et celle de l'état initial","j":"Une variation s'exprime par une différence et non par un quotient, qui ne conserverait même pas l'unité d'énergie."}]},
-    {"q":"Un système passe d'un état initial à un état final au cours d'une transformation. Quelles grandeurs caractérisent ces deux états ?","c":11,"options":[{"t":"La pression, la température et le volume","correct":true,"j":"L'état initial est décrit par P1, T1 et V1 et l'état final par P2, T2 et V2 : ce sont ces trois grandeurs qui définissent l'état d'un système."},{"t":"La chaleur, le travail et la puissance","j":"La chaleur et le travail ne décrivent aucun état : ce sont des grandeurs échangées au cours du passage d'un état à l'autre."},{"t":"La pression, la chaleur et le volume","j":"La pression et le volume décrivent bien l'état du système, mais la chaleur est une grandeur d'échange et n'en fait pas partie."},{"t":"La température, le travail et le volume","j":"La température et le volume décrivent bien l'état du système, tandis que le travail est échangé pendant la transformation."}]},
-    {"q":"De quelle loi générale le premier principe de la thermodynamique constitue-t-il une autre formulation ?","c":11,"options":[{"t":"La loi de conservation de l'énergie","correct":true,"j":"En reliant la variation d'énergie interne à la chaleur et au travail échangés, le premier principe énonce sous une autre forme que l'énergie totale se conserve."},{"t":"La loi de conservation de la masse","j":"La conservation de la masse gouverne les bilans de matière d'une réaction chimique, alors que le premier principe porte sur les échanges d'énergie."},{"t":"La loi de conservation de la charge","j":"La conservation de la charge électrique régit les bilans d'électricité ; le premier principe relie pour sa part chaleur, travail et énergie interne."},{"t":"La loi de conservation du mouvement","j":"La conservation de la quantité de mouvement appartient à la mécanique du choc et n'intervient pas dans le bilan chaleur-travail d'un système."}]},
-    {"q":"Quel intérêt pratique le premier principe de la thermodynamique présente-t-il ?","c":11,"options":[{"t":"Il permet de calculer le travail que l'on peut extraire d'un système","correct":true,"j":"Au-delà de son énoncé, le premier principe est utile parce qu'il donne accès à la quantité de travail qu'un système peut fournir."},{"t":"Il permet de déterminer la température finale atteinte par le système","j":"Le premier principe relie la chaleur et le travail échangés à la variation d'énergie interne : il porte sur ces échanges, et non sur l'état thermique que le système atteint."},{"t":"Il permet de connaître la vitesse à laquelle le processus se déroule","j":"La rapidité d'une transformation relève de la cinétique ; le premier principe pose un bilan d'énergie, indépendant de la durée."},{"t":"Il permet d'évaluer la masse de matière échangée pendant le processus","j":"Le premier principe met en jeu la chaleur et le travail, deux formes d'énergie ; il ne quantifie aucun échange de matière."}]},
-    {"q":"Dans la convention ΔU = Q − W, à quelle situation un travail W positif correspond-il ?","c":11,"options":[{"t":"Le gaz se dilate et repousse le piston","correct":true,"j":"Le travail est compté positivement quand le système en effectue, ce qui est le cas lorsque le gaz se dilate et repousse le piston."},{"t":"Le gaz est comprimé par le piston enfoncé","j":"Lorsqu'on enfonce le piston, le travail est effectué sur le système et non par lui : il est alors compté négativement."},{"t":"Le gaz reçoit de la chaleur, à volume fixe","j":"Un apport de chaleur à volume constant modifie Q et non W : sans déplacement du piston, aucun travail n'est échangé."},{"t":"Le gaz cède de la chaleur, à volume fixe","j":"Une perte de chaleur à volume constant modifie Q et non W : le travail n'entre en jeu que si le volume du gaz varie."}]},
-    {"q":"Qu'établit le deuxième principe de la thermodynamique, que le premier ne dit pas ?","c":11,"options":[{"t":"Quels processus sont possibles et lesquels ne le sont pas","correct":true,"j":"Le premier principe pose le bilan des échanges de chaleur et de travail ; le deuxième tranche la question de savoir quelles transformations peuvent réellement avoir lieu."},{"t":"Quelle quantité d'énergie est échangée au cours du processus","j":"Le calcul des quantités d'énergie échangées relève du bilan posé par le premier principe, et non du deuxième."},{"t":"Quelle durée un processus thermodynamique met à se dérouler","j":"Aucun des deux principes ne renseigne sur la durée d'une transformation : ils décrivent des états et des échanges, non des vitesses."},{"t":"Quelle quantité de matière le système échange avec le milieu","j":"Les échanges de matière dépendent du type de système et de ses parois, non de ce qu'énonce le deuxième principe."}]},
-    {"q":"Un système reçoit 500 J de chaleur de son milieu et effectue un travail de 200 J. Quelle est la variation de son énergie interne ?","c":11,"options":[{"t":"+ 300 J","correct":true,"j":"Le premier principe donne ΔU = Q − W, soit 500 − 200 : l'énergie interne du système augmente de 300 joules."},{"t":"+ 700 J","j":"Ce résultat additionne la chaleur et le travail, alors que le travail fourni par le système doit être retranché de la chaleur reçue."},{"t":"− 300 J","j":"Ce résultat intervertit les deux termes et retranche la chaleur reçue du travail fourni, alors que c'est l'inverse qu'il faut faire."},{"t":"− 700 J","j":"Ce résultat cumule deux erreurs : il additionne les deux grandeurs, puis attribue au total obtenu un signe négatif."}]},
-    {"q":"Une personne tire 10 000 kJ de ses aliments, effectue un travail de 2 000 kJ et dissipe 7 000 kJ de chaleur. Que vaut la variation de son énergie interne ?","c":11,"options":[{"t":"+ 1 000 kJ","correct":true,"j":"Les pertes totalisent 2 000 kJ de travail et 7 000 kJ de chaleur, soit 9 000 kJ ; retranchées des 10 000 kJ apportés, elles laissent un gain de 1 000 kJ."},{"t":"+ 8 000 kJ","j":"Ce résultat ne retranche que le travail fourni et laisse de côté la chaleur dissipée, qui compte pourtant parmi les pertes du bilan."},{"t":"+ 15 000 kJ","j":"Ce résultat ajoute la chaleur dissipée aux apports alimentaires, alors que cette chaleur quitte l'organisme et figure du côté des pertes."},{"t":"− 1 000 kJ","j":"Ce résultat intervertit apports et pertes : les 10 000 kJ apportés dépassent les 9 000 kJ dépensés, le bilan est donc positif."}]},
-    {"q":"Parmi les formes de travail effectuées par l'organisme, à quoi correspond le travail chimique ?","c":11,"options":[{"t":"À la synthèse des biomolécules qui composent l'organisme","correct":true,"j":"Parmi les travaux dits biologiques figure le travail chimique, qui consiste à fabriquer les biomolécules dont l'organisme est constitué."},{"t":"Au déplacement de substances d'un compartiment à l'autre","j":"Faire passer des substances d'un compartiment à l'autre correspond au travail de transport, qui est compté à part."},{"t":"À la production des mouvements par l'appareil locomoteur","j":"Produire un mouvement relève du travail mécanique, qui constitue une autre des formes de travail biologique."},{"t":"À la conduction des signaux le long des fibres nerveuses","j":"Conduire un signal le long d'une fibre ne fabrique aucune molécule : cette dépense relève d'une autre des formes de travail énumérées, le travail électrique."}]},
-    {"q":"Le travail mécanique effectué par l'organisme s'applique à quels mouvements ?","c":11,"options":[{"t":"Aux mouvements microscopiques comme aux mouvements macroscopiques","correct":true,"j":"Le travail mécanique du corps recouvre le mouvement aussi bien à l'échelle microscopique qu'à l'échelle macroscopique."},{"t":"Aux seuls mouvements macroscopiques, visibles de l'extérieur du corps","j":"Limiter le travail mécanique aux mouvements visibles laisse de côté les mouvements de l'échelle microscopique, qui en relèvent aussi."},{"t":"Aux seuls mouvements microscopiques internes à la cellule","j":"Les mouvements internes à la cellule relèvent bien du travail mécanique, mais celui-ci ne s'y réduit pas."},{"t":"Aux mouvements macroscopiques et au passage des substances dissoutes","j":"Le déplacement de substances d'un compartiment à l'autre est rangé à part, parmi les travaux de transport."}]},
-    {"q":"Un système reçoit 750 J de chaleur à la température constante de 300 K. Quelle est sa variation d'entropie ?","c":11,"options":[{"t":"2,5 J/K","correct":true,"j":"La variation d'entropie est le quotient de la chaleur par la température absolue : 750 J divisés par 300 K donnent 2,5 joules par kelvin."},{"t":"0,4 J/K","j":"Ce résultat divise la température par la chaleur : le quotient est inversé et ne donne donc pas une entropie."},{"t":"450 J/K","j":"Ce résultat soustrait la température de la chaleur, alors que ces deux grandeurs doivent être divisées l'une par l'autre."},{"t":"1 050 J/K","j":"Ce résultat additionne la chaleur et la température, deux grandeurs qui ne s'additionnent pas puisque leurs unités diffèrent."}]},
-    {"q":"Lequel des énoncés suivants à propos d'une assiette qui tombe et se brise est FAUX ?","c":11,"options":[{"t":"Les morceaux peuvent se rassembler d'eux-mêmes en une assiette","correct":true,"j":"C'est l'énoncé faux : le deuxième principe exclut ce retour spontané, et les morceaux ne se réorganisent pas d'eux-mêmes en assiette intacte."},{"t":"L'entropie du système a augmenté au cours de la rupture","j":"Énoncé exact : l'assiette qui se casse voit son entropie croître, et c'est l'exemple même donné pour illustrer ce principe."},{"t":"L'assiette brisée est moins organisée que l'assiette intacte","j":"Énoncé exact : passer d'une pièce unique à un tas de morceaux fait perdre au système une partie de son organisation."},{"t":"La rupture suit le sens d'évolution décrit par le deuxième principe","j":"Énoncé exact : les processus naturels tendent vers un état de plus grand désordre, ce que cette rupture illustre fidèlement."}]},
-    {"q":"Pourquoi les systèmes évoluent-ils d'une configuration ordonnée vers une configuration désordonnée ?","c":11,"options":[{"t":"Parce que la configuration désordonnée est statistiquement plus probable","correct":true,"j":"Cette évolution se justifie par la statistique : le système se dirige vers la configuration désordonnée parce qu'elle est, en partie, la plus probable."},{"t":"Parce que la configuration désordonnée contient moins d'énergie interne","j":"Le degré de désordre d'une configuration ne dit rien de l'énergie interne qu'elle contient : ce sont deux grandeurs distinctes."},{"t":"Parce que l'ordre initial est interdit par le premier principe","j":"Le premier principe établit un bilan des énergies échangées et n'interdit aucune configuration particulière du système."},{"t":"Parce que la configuration désordonnée se refroidit beaucoup plus vite","j":"La vitesse à laquelle un système perd de la chaleur ne détermine pas le sens dans lequel son organisation évolue."}]},
-    {"q":"Un système peut-il revenir à une configuration plus ordonnée ?","c":11,"options":[{"t":"Oui, à condition qu'on lui fournisse de l'énergie","correct":true,"j":"La tendance au désordre n'interdit pas le retour à un état plus ordonné : ce retour reste possible, mais il exige un apport d'énergie."},{"t":"Oui, dès lors qu'il cesse d'échanger avec le milieu","j":"Interrompre les échanges ne réorganise rien : privé d'apport extérieur, le système ne retrouve pas une configuration plus ordonnée."},{"t":"Non, le deuxième principe l'interdit de façon absolue","j":"Le deuxième principe énonce une tendance et non une interdiction : le retour à l'ordre demeure possible sous certaines conditions."},{"t":"Non, sauf s'il constitue un système parfaitement isolé","j":"Un système qui n'échange ni matière ni énergie est justement celui qui ne peut recevoir ce qu'il lui faudrait pour se réorganiser."}]},
-    {"q":"Que devient la chaleur dissipée par l'organisme lorsqu'il effectue un travail ?","c":11,"options":[{"t":"Une petite part entretient la température du corps, le reste est éliminé","correct":true,"j":"Une petite partie seulement de cette chaleur sert à maintenir la température corporelle ; la grande majorité doit être évacuée par l'organisme."},{"t":"Elle est intégralement réutilisée pour maintenir la température du corps","j":"Seule une petite part de cette chaleur entretient la température corporelle ; en faire le seul débouché supprimerait la nécessité d'en éliminer l'essentiel."},{"t":"Elle est entièrement éliminée, sans jouer aucun rôle pour l'organisme","j":"L'élimination porte sur la grande majorité de cette chaleur, mais pas sur sa totalité : une fraction sert bien à maintenir la température du corps."},{"t":"Elle est reconvertie en travail par les tissus qui la reçoivent ensuite","j":"Une chaleur dissipée ne redevient pas du travail : c'est précisément cette part perdue qui empêche l'efficacité du processus d'atteindre 100 %."}]}
+    {
+      "q": "Le TRAVAIL (W) effectué par une force sur un corps est défini comme…",
+      "c": 10,
+      "options": [
+        {
+          "t": "Le produit de la force appliquée par le déplacement produit",
+          "correct": true,
+          "j": "Le cours définit le travail comme le produit de la force appliquée par le déplacement obtenu, lorsque la force et le déplacement ont le même sens et la même direction."
+        },
+        {
+          "t": "Le produit de la force appliquée par la durée de son application",
+          "j": "Multiplier une force par une durée ne donne pas un travail : le travail ne dépend pas du temps mis à déplacer le corps, mais de la distance sur laquelle il est déplacé."
+        },
+        {
+          "t": "Le quotient de la force appliquée par le déplacement produit",
+          "j": "Placer le déplacement au dénominateur inverse la relation : le travail augmente avec le déplacement, il ne diminue pas quand celui-ci s'allonge."
+        },
+        {
+          "t": "Le quotient du déplacement produit par la force appliquée",
+          "j": "Cette écriture place la force au dénominateur, alors que le travail accompli croît lorsque la force appliquée augmente."
+        }
+      ]
+    },
+    {
+      "q": "Pour creuser un même trou, on peut utiliser une pelle ou une excavatrice. Que peut-on affirmer ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Le travail est le même, mais l'excavatrice le réalise en moins de temps",
+          "correct": true,
+          "j": "Le travail dépend de la quantité de terre déplacée, identique dans les deux cas ; l'excavatrice étant plus puissante, elle accomplit ce même travail plus rapidement."
+        },
+        {
+          "t": "Le travail de l'excavatrice est plus grand, et il est accompli plus vite",
+          "j": "Le volume de terre à déplacer ne change pas selon l'engin utilisé : le travail reste identique, seule la durée nécessaire diffère."
+        },
+        {
+          "t": "Le travail est le même, et la durée nécessaire est elle aussi identique",
+          "j": "Le travail est bien identique, mais l'engin le plus puissant met moins de temps à le réaliser : les durées ne se valent pas."
+        },
+        {
+          "t": "Le travail de la pelle est plus grand, car il s'étale sur une durée plus longue",
+          "j": "Une durée plus longue n'augmente pas le travail accompli : elle traduit au contraire une puissance plus faible pour un travail identique."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi est-il souvent plus commode de raisonner en termes d'énergies que d'appliquer directement les lois de Newton à un système ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Parce qu'il est difficile de connaître toutes les forces agissant sur le système",
+          "correct": true,
+          "j": "Le cours souligne qu'inventorier l'ensemble des forces qui s'exercent sur un système est souvent impraticable ; le raisonnement énergétique permet de contourner cette difficulté."
+        },
+        {
+          "t": "Parce que les lois de Newton cessent d'être valables pour les systèmes macroscopiques",
+          "j": "Le cours affirme au contraire que les lois de Newton s'appliquent à un très grand nombre de systèmes macroscopiques."
+        },
+        {
+          "t": "Parce qu'une énergie, contrairement à une force, échappe au principe de conservation",
+          "j": "Toute forme d'énergie obéit au principe de conservation : c'est précisément l'une des exigences auxquelles chacune d'elles répond."
+        },
+        {
+          "t": "Parce que les énergies se mesurent dans une unité plus commode que celle du travail",
+          "j": "L'énergie et le travail se mesurent dans la même unité du Système International, le joule : l'argument de commodité ne tient pas."
+        }
+      ]
+    },
+    {
+      "q": "L'ÉNERGIE est la grandeur physique qui mesure…",
+      "c": 10,
+      "options": [
+        {
+          "t": "La capacité d'un corps ou d'un système à effectuer un travail",
+          "correct": true,
+          "j": "Le cours définit l'énergie comme la capacité d'un corps ou d'un système à effectuer un travail, et donc à modifier sa position ou son état ; elle se mesure en joules."
+        },
+        {
+          "t": "La quantité de matière qui compose un corps ou un système",
+          "j": "La quantité de matière qui compose un objet est sa masse, mesurée en kilogrammes, et non une énergie."
+        },
+        {
+          "t": "La force avec laquelle la gravité attire un corps vers le sol",
+          "j": "L'attraction exercée par la gravité sur un corps définit son poids, qui est une force et se mesure en newtons."
+        },
+        {
+          "t": "La résistance qu'un corps oppose au déplacement qu'on lui impose",
+          "j": "L'énergie n'exprime pas une résistance au mouvement, mais au contraire la capacité à produire ce mouvement ou à modifier un état."
+        }
+      ]
+    },
+    {
+      "q": "Un corps immobile est maintenu à une certaine hauteur au-dessus du sol. De quelle énergie dispose-t-il et de quelles grandeurs dépend-elle ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "D'une énergie potentielle, qui dépend de sa masse et de sa hauteur",
+          "correct": true,
+          "j": "L'énergie qu'un corps possède en raison de sa position est son énergie potentielle ; un corps immobile placé en hauteur en possède, même en l'absence de tout mouvement."
+        },
+        {
+          "t": "D'une énergie cinétique, qui dépend de sa masse et de sa vitesse",
+          "j": "L'énergie cinétique est bien celle qui dépend de la masse et de la vitesse, mais un corps immobile n'en possède aucune."
+        },
+        {
+          "t": "D'une énergie potentielle, qui dépend de sa masse et de sa vitesse",
+          "j": "La vitesse n'intervient pas dans l'énergie liée à la position : celle-ci existe même lorsque le corps ne bouge pas."
+        },
+        {
+          "t": "D'une énergie cinétique, qui dépend de sa masse et de sa hauteur",
+          "j": "La hauteur n'intervient pas dans l'énergie liée au mouvement, et un corps immobile n'a de toute façon aucune vitesse."
+        }
+      ]
+    },
+    {
+      "q": "La vitesse d'un corps en mouvement est multipliée par deux, sa masse restant inchangée. Son énergie cinétique est alors…",
+      "c": 10,
+      "options": [
+        {
+          "t": "Multipliée par quatre",
+          "correct": true,
+          "j": "Dans l'expression de l'énergie cinétique, la vitesse est élevée au carré : la doubler multiplie donc cette énergie par quatre."
+        },
+        {
+          "t": "Multipliée par deux",
+          "j": "Un simple doublement supposerait que la vitesse intervienne à la puissance un, alors qu'elle figure au carré dans l'expression."
+        },
+        {
+          "t": "Multipliée par huit",
+          "j": "Un facteur huit supposerait une vitesse élevée au cube, ce qui ne correspond pas à la forme de l'énergie cinétique."
+        },
+        {
+          "t": "Inchangée",
+          "j": "L'énergie cinétique est précisément celle que le corps possède en raison de son mouvement : modifier sa vitesse la modifie nécessairement."
+        }
+      ]
+    },
+    {
+      "q": "Un corps de 2 kg est maintenu à 5 mètres au-dessus du sol, la constante de gravité valant 9,8 m/s². Quelle est son énergie potentielle ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "98 J",
+          "correct": true,
+          "j": "L'énergie potentielle est le produit de la masse, de la gravité et de la hauteur, soit 2 × 9,8 × 5 = 98 joules."
+        },
+        {
+          "t": "10 J",
+          "j": "Ce résultat ne retient que la masse et la hauteur et laisse de côté la gravité, pourtant présente dans l'expression."
+        },
+        {
+          "t": "19,6 J",
+          "j": "Ce produit de la masse par la gravité donne le poids du corps en newtons, pas l'énergie qu'il possède à cette hauteur."
+        },
+        {
+          "t": "49 J",
+          "j": "Ce résultat divise par deux le produit obtenu ; le facteur un demi appartient à l'énergie liée au mouvement, pas à celle liée à la position."
+        }
+      ]
+    },
+    {
+      "q": "Aucune force n'est exercée sur un corps en mouvement. Que devient la somme de son énergie cinétique et de son énergie potentielle ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Elle reste constante tout au long du mouvement",
+          "correct": true,
+          "j": "Le cours impose alors l'égalité entre la somme des énergies initiales et la somme des énergies finales : l'une se convertit en l'autre sans que leur total change."
+        },
+        {
+          "t": "Elle augmente à mesure que le corps descend",
+          "j": "En descendant, le corps convertit l'énergie liée à sa position en énergie liée à son mouvement, sans que le total s'en trouve augmenté."
+        },
+        {
+          "t": "Elle diminue à mesure que le corps accélère",
+          "j": "Toute accélération s'accompagne d'une perte équivalente de l'autre forme d'énergie mécanique : le total ne diminue pas pour autant."
+        },
+        {
+          "t": "Elle varie uniquement si la masse du corps change",
+          "j": "La masse d'un corps ne varie pas au cours de son déplacement, et ce n'est pas elle qui gouverne la conservation de ce total."
+        }
+      ]
+    },
+    {
+      "q": "L'ÉNERGIE CHIMIQUE est la forme d'énergie stockée…",
+      "c": 10,
+      "options": [
+        {
+          "t": "Dans les liaisons chimiques entre les atomes qui composent la matière",
+          "correct": true,
+          "j": "Le cours définit l'énergie chimique comme l'énergie stockée dans les liaisons chimiques qui unissent les atomes composant la matière."
+        },
+        {
+          "t": "Dans le mouvement d'agitation des atomes qui composent la matière",
+          "j": "L'agitation des particules relève des phénomènes thermiques ; l'énergie chimique, elle, réside dans les liaisons établies entre les atomes."
+        },
+        {
+          "t": "Dans la position occupée par la matière par rapport au sol",
+          "j": "La position d'un corps par rapport au sol relève de la mécanique classique et ne dépend en rien de la nature chimique de la matière."
+        },
+        {
+          "t": "Dans les charges électriques portées par les atomes isolés",
+          "j": "Des charges portées par des atomes isolés ne constituent pas une réserve d'énergie chimique : c'est la liaison établie entre eux qui en contient."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi la molécule d'ATP contient-elle une liaison dite « à haute énergie » ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Parce que rassembler autant de charges négatives sur les phosphates exige beaucoup d'énergie",
+          "correct": true,
+          "j": "Réunir autant de charges négatives voisines sur les groupes phosphate réclame beaucoup d'énergie : c'est cette accumulation de charges qui fait la richesse énergétique de l'ATP, et non la nature chimique de la liaison."
+        },
+        {
+          "t": "Parce que la nature chimique de cette liaison la rend plus solide que toutes les autres",
+          "j": "Le cours écarte explicitement cet argument : la nature chimique des liaisons de la molécule n'est pas ce qui explique sa richesse énergétique."
+        },
+        {
+          "t": "Parce que la base azotée du nucléotide concentre à elle seule l'énergie de la molécule",
+          "j": "La base azotée participe à l'identité du nucléotide, mais la réserve d'énergie tient aux groupes phosphate et non à elle."
+        },
+        {
+          "t": "Parce que le sucre du nucléotide impose une tension qui fragilise tout l'assemblage",
+          "j": "Le sucre sert de support à l'assemblage du nucléotide ; aucune tension de ce type n'est invoquée pour expliquer la richesse énergétique de l'ATP."
+        }
+      ]
+    },
+    {
+      "q": "Quel schéma correspond à une réaction EXOTHERMIQUE ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Réactifs → Produits + Énergie",
+          "correct": true,
+          "j": "Une réaction exothermique, aussi dite exergonique, libère de l'énergie : celle-ci apparaît donc du côté des produits."
+        },
+        {
+          "t": "Réactifs + Énergie → Produits",
+          "j": "Ce schéma décrit une réaction qui absorbe de l'énergie pour se dérouler, c'est-à-dire une réaction endothermique ou endergonique."
+        },
+        {
+          "t": "Produits + Énergie → Réactifs",
+          "j": "Ce schéma part des produits et leur ajoute de l'énergie : il décrit une transformation inverse et consommatrice d'énergie."
+        },
+        {
+          "t": "Produits → Réactifs + Énergie",
+          "j": "Ce schéma remonte des produits vers les réactifs : il n'illustre pas le sens direct d'une réaction qui libère de l'énergie."
+        }
+      ]
+    },
+    {
+      "q": "Quel est l'effet de la valeur de l'énergie d'activation sur le déroulement d'une réaction chimique ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Plus elle est élevée, plus la réaction est lente",
+          "correct": true,
+          "j": "Le cours relie l'énergie d'activation à la cinétique : une réaction dont cette énergie est élevée est lente comparée à une réaction dont elle est faible."
+        },
+        {
+          "t": "Plus elle est élevée, plus la réaction est rapide",
+          "j": "C'est l'inverse : une exigence énergétique initiale plus grande freine la réaction au lieu de l'accélérer."
+        },
+        {
+          "t": "Elle fixe la quantité d'énergie libérée, non la vitesse",
+          "j": "Cette grandeur gouverne la rapidité avec laquelle la réaction se déroule, et non la quantité d'énergie que la réaction met en jeu."
+        },
+        {
+          "t": "Elle n'influence la vitesse qu'en présence d'un catalyseur",
+          "j": "Elle gouverne la cinétique même sans aucune intervention extérieure ; un catalyseur ne fait qu'en modifier la valeur."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des énoncés suivants concernant les catalyseurs est FAUX ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Ils sont consommés au fur et à mesure du déroulement de la réaction",
+          "correct": true,
+          "j": "C'est l'énoncé faux : le cours définit le catalyseur comme une substance qui n'intervient pas dans la réaction, c'est-à-dire qui ne réagit pas avec les composés présents et n'est donc pas consommée."
+        },
+        {
+          "t": "Ils augmentent la vitesse de la réaction sur laquelle ils agissent",
+          "j": "Énoncé exact : l'augmentation de la vitesse de réaction est l'effet recherché de tout catalyseur, selon la définition du cours."
+        },
+        {
+          "t": "Ils abaissent l'énergie d'activation de la réaction qu'ils catalysent",
+          "j": "Énoncé exact : cet abaissement est le mécanisme même par lequel un catalyseur agit sur la réaction."
+        },
+        {
+          "t": "Les enzymes en sont la forme biologique, de nature protéique",
+          "j": "Énoncé exact : le cours présente les enzymes comme les catalyseurs biologiques, c'est-à-dire des protéines agissant à l'intérieur de la cellule."
+        }
+      ]
+    },
+    {
+      "q": "Comment la calorimétrie permet-elle de déterminer l'énergie chimique contenue dans un aliment ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "On brûle l'aliment dans un calorimètre et on mesure l'énergie libérée",
+          "correct": true,
+          "j": "Le cours décrit le calorimètre comme un récipient isolé, de type thermos, dans lequel on réalise la combustion de l'aliment afin de mesurer la quantité d'énergie libérée."
+        },
+        {
+          "t": "On pèse l'aliment avant puis après son passage dans le tube digestif",
+          "j": "La variation de masse observée au cours de la digestion ne renseigne pas sur l'énergie contenue dans les liaisons chimiques de l'aliment."
+        },
+        {
+          "t": "On mesure le volume de gaz carbonique que l'aliment dégage à froid",
+          "j": "Un aliment laissé à froid ne se consume pas spontanément : sans combustion provoquée, aucune mesure d'énergie n'est possible."
+        },
+        {
+          "t": "On mesure l'élévation de température du sujet qui vient de l'ingérer",
+          "j": "Cette technique de laboratoire porte sur l'aliment lui-même placé dans l'appareil, et non sur la personne qui le consomme."
+        }
+      ]
+    },
+    {
+      "q": "Le CONTENU ÉNERGÉTIQUE d'un aliment (Ce) correspond à…",
+      "c": 10,
+      "options": [
+        {
+          "t": "L'énergie que l'aliment libère lors de sa dégradation, par unité de masse",
+          "correct": true,
+          "j": "Le cours définit le contenu énergétique comme la quantité d'énergie qu'un aliment libère, lors de sa dégradation, par unité de masse de ce nutriment."
+        },
+        {
+          "t": "L'énergie qu'il faut fournir à l'aliment pour le dégrader, par unité de masse",
+          "j": "Un aliment libère de l'énergie en se dégradant au lieu d'en réclamer : cette grandeur mesure ce qui est libéré, et non ce qu'il faudrait apporter."
+        },
+        {
+          "t": "L'énergie que l'aliment libère lors de sa dégradation, par unité de temps",
+          "j": "Rapporter une énergie à une durée définit une puissance ; le contenu énergétique rapporte l'énergie à la masse d'aliment consommée."
+        },
+        {
+          "t": "La masse d'aliment nécessaire pour libérer un joule d'énergie",
+          "j": "Cette formulation inverse le rapport : on divise l'énergie obtenue par la masse consommée, et non la masse par l'énergie."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est la teneur énergétique des PROTÉINES ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "17,6 kJ/g",
+          "correct": true,
+          "j": "Le cours attribue 17,6 kJ/g aux protéines, une valeur très proche de celle des glucides mais légèrement supérieure."
+        },
+        {
+          "t": "17,2 kJ/g",
+          "j": "Cette valeur est celle attribuée aux glucides, que les protéines dépassent de peu parmi les teneurs établies."
+        },
+        {
+          "t": "38,9 kJ/g",
+          "j": "Cette valeur, de loin la plus élevée des trois teneurs établies, revient aux graisses et non aux protéines."
+        },
+        {
+          "t": "20,2 kJ/g",
+          "j": "Ce chiffre n'est pas un contenu énergétique par gramme d'aliment, mais l'énergie disponible par litre d'oxygène consommé."
+        }
+      ]
+    },
+    {
+      "q": "Une personne ingère 200 g d'un aliment dont le contenu énergétique est de 17,2 kJ/g. Quelle quantité d'énergie ingère-t-elle ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "3 440 kJ",
+          "correct": true,
+          "j": "L'énergie ingérée est le produit de la masse consommée par le contenu énergétique de l'aliment : 200 g × 17,2 kJ/g = 3 440 kJ."
+        },
+        {
+          "t": "1 720 kJ",
+          "j": "Ce résultat correspondrait à 100 g d'aliment seulement, alors que la masse consommée est deux fois plus grande."
+        },
+        {
+          "t": "344 kJ",
+          "j": "Ce résultat déplace la virgule d'un rang : le produit de 200 par 17,2 vaut 3 440 et non 344."
+        },
+        {
+          "t": "11,6 kJ",
+          "j": "Ce résultat divise la masse par le contenu énergétique, alors que ces deux grandeurs doivent être multipliées l'une par l'autre."
+        }
+      ]
+    },
+    {
+      "q": "Une personne hydrolyse 0,5 mole d'ATP. À combien de molécules cela correspond-il, sachant qu'une mole contient 6,022 × 10²³ unités ?",
+      "c": 10,
+      "options": [
+        {
+          "t": "Environ 3,0 × 10²³ molécules",
+          "correct": true,
+          "j": "Le nombre de molécules s'obtient en multipliant le nombre de moles par le nombre d'Avogadro : 0,5 × 6,022 × 10²³ donne environ 3,0 × 10²³."
+        },
+        {
+          "t": "Environ 6,0 × 10²³ molécules",
+          "j": "Cette valeur est celle d'une mole entière, alors que la quantité hydrolysée n'en représente que la moitié."
+        },
+        {
+          "t": "Environ 1,2 × 10²⁴ molécules",
+          "j": "Cette valeur correspond à deux moles : elle multiplie le nombre d'Avogadro par deux au lieu de le diviser par deux."
+        },
+        {
+          "t": "Environ 3,0 × 10²² molécules",
+          "j": "L'exposant est ici trop petit d'un rang : la moitié de 6,022 × 10²³ reste de l'ordre de 10²³."
+        }
+      ]
+    },
+    {
+      "q": "Dans l'hypothèse d'Oparin et Haldane sur la Terre primitive, quelle caractéristique de l'atmosphère permettait aux composés organiques apparus spontanément de ne pas disparaître aussitôt ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Elle était très réductrice, à l'opposé d'une atmosphère oxydante",
+          "correct": true,
+          "j": "Le cours écrit que l'atmosphère était très réductrice, à l'opposé d'oxydante, ce qui permettait aux composés apparus spontanément de ne pas se dégrader rapidement."
+        },
+        {
+          "t": "Elle était déjà riche en dioxygène d'origine volcanique",
+          "j": "C'est transposer à la Terre primitive l'atmosphère actuelle : l'O2 libre manquait encore, et un milieu oxydant aurait attaqué les molécules organiques naissantes au lieu de les laisser s'accumuler."
+        },
+        {
+          "t": "Elle était saturée de vapeur d'eau, ce qui interdisait l'hydrolyse",
+          "j": "L'eau figure au contraire parmi les ingrédients des réactions reproduites en laboratoire ; aucune protection contre l'hydrolyse n'est invoquée."
+        },
+        {
+          "t": "Elle était dépourvue d'azote, d'où des composés purement carbonés",
+          "j": "L'azote était bien présent, sous forme d'ammoniac, parmi les molécules inorganiques de départ : il entre dans la composition des acides aminés obtenus."
+        }
+      ]
+    },
+    {
+      "q": "Par quel mécanisme des agrégats moléculaires de la soupe primordiale ont-ils pu devenir de véritables protobiontes ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Une sélection chimique retenant les assemblages devenus autonomes",
+          "correct": true,
+          "j": "Le cours décrit un processus évolutif de sélection chimique : sont conservés les assemblages qui possèdent les molécules nécessaires pour être autonomes."
+        },
+        {
+          "t": "Une mutation ponctuelle du matériel génétique des premiers agrégats",
+          "j": "La mutation suppose un matériel génétique déjà constitué et transmis ; le tri décrit ici porte sur la composition chimique des agrégats eux-mêmes."
+        },
+        {
+          "t": "Une fusion entre micelles de compositions chimiques complémentaires",
+          "j": "Aucune fusion deux à deux n'est décrite : les gouttelettes sont triées d'après ce qu'elles contiennent, elles ne s'additionnent pas."
+        },
+        {
+          "t": "Un échange permanent de molécules entre les gouttelettes voisines",
+          "j": "Les échanges entre compartiments supposent une vie cellulaire déjà organisée ; le cours ne les fait pas intervenir à ce stade."
+        }
+      ]
+    },
+    {
+      "q": "Quelle fonction devaient remplir les catalyseurs que possédait un protobionte ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Métaboliser les nutriments à des fins synthétiques ou énergétiques",
+          "correct": true,
+          "j": "Le cours exige du protobionte des catalyseurs capables de métaboliser les nutriments, soit pour fabriquer ses constituants, soit pour en tirer de l'énergie."
+        },
+        {
+          "t": "Dupliquer fidèlement l'information transmise à la descendance",
+          "j": "La duplication de l'information relève du matériel génétique du protobionte, et non de ses catalyseurs."
+        },
+        {
+          "t": "Maintenir l'étanchéité de la limite entourant la gouttelette",
+          "j": "La limite de la gouttelette est assurée par sa membrane elle-même, sans qu'une activité catalytique soit nécessaire."
+        },
+        {
+          "t": "Transporter les nutriments du milieu extérieur vers l'intérieur",
+          "j": "Le transport n'est pas la fonction retenue : les catalyseurs agissent sur les nutriments une fois ceux-ci disponibles, en les transformant."
+        }
+      ]
+    },
+    {
+      "q": "Quelle molécule a pu, dans les premières protocellules, conserver l'information et catalyser des réactions ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "L'ARN",
+          "correct": true,
+          "j": "Le cours propose l'ARN : l'existence des ribozymes, ARN doués d'activité catalytique, et celle des ribonucléoprotéines en font le candidat à ce double rôle."
+        },
+        {
+          "t": "L'ADN",
+          "j": "L'ADN conserve l'information mais n'exerce aucune activité catalytique : il ne peut donc pas remplir seul les deux fonctions exigées."
+        },
+        {
+          "t": "Les protéines",
+          "j": "Les protéines catalysent remarquablement les réactions, mais ne portent pas l'information nécessaire à leur propre reproduction."
+        },
+        {
+          "t": "Les phospholipides",
+          "j": "Les phospholipides sont des constituants structuraux : ils ne portent aucune information séquentielle et n'ont pas d'activité catalytique."
+        }
+      ]
+    },
+    {
+      "q": "Quel bénéfice la recherche évolutive d'une plus grande taille cellulaire a-t-elle apporté ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Une indépendance accrue vis-à-vis du milieu environnant",
+          "correct": true,
+          "j": "Le cours fait de la recherche d'une taille cellulaire plus grande le moteur de cette étape, précisément parce qu'elle procure une plus grande indépendance par rapport à l'environnement (rapport surface/volume)."
+        },
+        {
+          "t": "Une surface d'échange proportionnellement plus étendue",
+          "j": "Grandir diminue au contraire la surface rapportée au volume : c'est ce rapport décroissant qui a imposé de nouvelles solutions à la cellule."
+        },
+        {
+          "t": "Une vitesse de division supérieure à celle des procaryotes",
+          "j": "Les grandes cellules ne se divisent pas plus vite, et le cours ne fait pas de la rapidité de division un gain lié à la taille."
+        },
+        {
+          "t": "Une résistance mécanique obtenue par épaississement pariétal",
+          "j": "La solidité pariétale n'est pas en jeu ici : l'avantage décrit est physiologique, lié aux dimensions de la cellule."
+        }
+      ]
+    },
+    {
+      "q": "Quels avantages l'apparition d'un système de membranes internes a-t-elle procurés à la cellule ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Compartimenter l'espace interne et protéger le matériel génétique",
+          "correct": true,
+          "j": "Le cours attribue deux rôles à ce système : compartimenter l'espace cellulaire, ce qui améliore la physiologie, et mettre le matériel génétique à l'abri d'une enveloppe."
+        },
+        {
+          "t": "Accroître le rendement énergétique en abritant la respiration",
+          "j": "Le gain de rendement énergétique est rapporté par le cours à l'acquisition d'organites énergétiques, événement présenté séparément de la compartimentation."
+        },
+        {
+          "t": "Renforcer la membrane externe et rigidifier la forme cellulaire",
+          "j": "Le maintien de la forme relève du cytosquelette, et non du repliement de membranes à l'intérieur de la cellule."
+        },
+        {
+          "t": "Accélérer les échanges de matière avec le milieu extérieur",
+          "j": "Les échanges avec l'extérieur passent par la membrane plasmique ; les membranes internes organisent au contraire le volume intracellulaire."
+        }
+      ]
+    },
+    {
+      "q": "Quelle conséquence l'apparition des organismes photosynthétiques a-t-elle eue sur l'atmosphère terrestre ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La libération d'oxygène, à l'origine de l'ozone atmosphérique",
+          "correct": true,
+          "j": "Le cours associe aux organismes photosynthétiques la libération d'O2, qui a conduit à la formation de l'ozone (O3) de l'atmosphère."
+        },
+        {
+          "t": "L'accumulation du dioxyde de carbone issu de leur respiration",
+          "j": "La photosynthèse consomme le dioxyde de carbone pour fabriquer de la matière organique : elle n'en accumule pas dans l'atmosphère."
+        },
+        {
+          "t": "L'enrichissement en méthane consommé par les cellules voisines",
+          "j": "Le méthane compte parmi les gaz de l'atmosphère initiale, antérieure à ces organismes, et le cours ne le relie pas à leur activité."
+        },
+        {
+          "t": "La disparition de la vapeur d'eau fixée dans les biomolécules",
+          "j": "L'eau est utilisée par la photosynthèse mais reste abondante ; aucune disparition de la vapeur d'eau n'est décrite."
+        }
+      ]
+    },
+    {
+      "q": "Sur quelle comparaison moléculaire repose l'arbre phylogénétique des êtres vivants ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "La comparaison de l'ARN ribosomal des différentes espèces",
+          "correct": true,
+          "j": "Le cours précise que son arbre phylogénétique est construit à partir de la comparaison de l'ARN ribosomal des différentes espèces."
+        },
+        {
+          "t": "La comparaison des protéines de la membrane plasmique",
+          "j": "Les protéines membranaires varient trop d'un type cellulaire à l'autre pour servir de référence universelle de parenté."
+        },
+        {
+          "t": "La comparaison du nombre de chromosomes de chaque espèce",
+          "j": "Le décompte des chromosomes n'a pas de sens chez les procaryotes, dont l'ADN n'est pas réparti en plusieurs chromosomes."
+        },
+        {
+          "t": "La comparaison des enzymes du métabolisme énergétique",
+          "j": "Les enzymes du métabolisme dépendent du mode de vie de l'organisme ; elles ne sont pas utilisées ici pour établir la parenté."
+        }
+      ]
+    },
+    {
+      "q": "Quel type de métabolisme la cellule procaryote peut-elle mettre en œuvre ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Un métabolisme aérobie comme anaérobie, selon les espèces",
+          "correct": true,
+          "j": "Le cours attribue aux procaryotes à la fois l'aérobiose et l'anaérobiose : la bactérie n'est liée ni à l'un ni à l'autre des deux régimes."
+        },
+        {
+          "t": "Un métabolisme strictement anaérobie, l'oxygène lui étant toxique",
+          "j": "L'anaérobiose stricte ne concerne qu'une partie des bactéries ; la généraliser revient à prendre un cas particulier pour le groupe entier."
+        },
+        {
+          "t": "Un métabolisme strictement aérobie, dépendant de l'oxygène",
+          "j": "L'aérobiose stricte exclurait les bactéries anaérobies, que le cours reconnaît au même titre que les aérobies."
+        },
+        {
+          "t": "Un métabolisme exclusivement fermentaire, sans respiration",
+          "j": "La fermentation n'est qu'une des voies anaérobies ; en faire le seul métabolisme procaryote oublie la respiration, également attribuée aux procaryotes."
+        }
+      ]
+    },
+    {
+      "q": "De quoi est constituée la paroi des cellules procaryotes ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "De peptidoglycane, encore appelé muréine",
+          "correct": true,
+          "j": "Le tableau du cours porte, pour la paroi des procaryotes : « OUI (glucane peptidique et muréine) » — c'est le peptidoglycane de la bactérie."
+        },
+        {
+          "t": "De cellulose, comme la paroi des végétaux",
+          "j": "La cellulose constitue la paroi des cellules végétales, les seules cellules eucaryotes auxquelles le cours reconnaisse une paroi."
+        },
+        {
+          "t": "D'une double couche de phospholipides",
+          "j": "La double couche de phospholipides forme la membrane plasmique, située en dedans de la paroi et distincte d'elle."
+        },
+        {
+          "t": "De glycoprotéines en revêtement externe",
+          "j": "Un revêtement de glycoprotéines correspond au glycocalyx de surface, souple, et non à la paroi rigide d'un procaryote."
+        }
+      ]
+    },
+    {
+      "q": "Quelle est la molécule d'énergie commune à toutes les cellules ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "L'ATP",
+          "correct": true,
+          "j": "Parmi les caractères communs à toutes les cellules, le cours retient une même molécule d'énergie, l'ATP, utilisée aussi bien par les procaryotes que par les eucaryotes."
+        },
+        {
+          "t": "Le NADH",
+          "j": "Le NADH est un transporteur d'électrons : il convoie le pouvoir réducteur vers les voies productrices d'énergie, sans servir lui-même de monnaie d'échange."
+        },
+        {
+          "t": "Le glucose",
+          "j": "Le glucose est un combustible que la cellule doit d'abord dégrader ; l'énergie qu'il libère est ensuite conservée sous une autre forme."
+        },
+        {
+          "t": "Le GTP",
+          "j": "Le GTP intervient ponctuellement dans certaines réactions, mais ce n'est pas la molécule d'énergie universelle citée par le cours."
+        }
+      ]
+    },
+    {
+      "q": "Quelle propriété liée à l'expression du matériel génétique les cellules procaryotes et eucaryotes ont-elles en commun ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Elles utilisent toutes le même code génétique",
+          "correct": true,
+          "j": "Le cours range parmi les caractères communs à toutes les cellules un même type de matériel génétique et un même fonctionnement : le code génétique est universel."
+        },
+        {
+          "t": "Elles possèdent toutes le même nombre de gènes",
+          "j": "Le nombre de gènes varie considérablement d'une espèce à l'autre : ce n'est pas un caractère partagé par toutes les cellules."
+        },
+        {
+          "t": "Elles portent toutes leur information génétique sur un même nombre de molécules d'ADN",
+          "j": "Le nombre de molécules d'ADN varie d'une cellule à l'autre ; ce n'est pas un caractère partagé, à la différence du code de lecture."
+        },
+        {
+          "t": "Elles répliquent toutes leur ADN depuis une origine unique",
+          "j": "Le nombre de points de départ de la réplication varie selon les cellules, et le cours ne le cite pas parmi les propriétés universelles."
+        }
+      ]
+    },
+    {
+      "q": "Lequel de ces énoncés correspond à l'un des principes de la théorie cellulaire ?",
+      "c": 2,
+      "options": [
+        {
+          "t": "Les fonctions vitales d'un organisme se déroulent dans ses cellules",
+          "correct": true,
+          "j": "Le cours énonce que toutes les fonctions vitales d'un organisme — respiration, reproduction, mouvement — s'accomplissent à l'intérieur de ses cellules."
+        },
+        {
+          "t": "Toutes les cellules d'un organisme assurent les mêmes fonctions vitales",
+          "j": "Les cellules d'un même organisme sont spécialisées : le principe porte sur le lieu où s'exercent les fonctions vitales, non sur leur uniformité."
+        },
+        {
+          "t": "Les fonctions vitales naissent de l'association des cellules entre elles",
+          "j": "L'association des cellules construit l'organisme, mais les fonctions vitales s'exercent déjà à l'échelle de chaque cellule, y compris chez les unicellulaires."
+        },
+        {
+          "t": "Chaque fonction vitale est assurée par un organe et non par la cellule",
+          "j": "L'organe n'est qu'un assemblage de cellules : il n'est pas le siège élémentaire des fonctions vitales, qui s'accomplissent dans les cellules elles-mêmes."
+        }
+      ]
+    },
+    {
+      "q": "Lors de sa propagation, une onde transporte :",
+      "c": 14,
+      "options": [
+        {
+          "t": "de l'énergie et une quantité de mouvement, sans transport net de matière",
+          "correct": true,
+          "j": "Le cours définit l'onde comme une perturbation qui se propage en transportant de l'énergie et une quantité de mouvement : les particules du milieu vibrent autour de leur position d'équilibre et y reviennent."
+        },
+        {
+          "t": "de la matière et de l'énergie, qui se déplacent toutes deux avec la perturbation",
+          "j": "Si la matière suivait l'onde, un son déplacerait l'air d'un bout à l'autre de la pièce au lieu de le faire simplement vibrer sur place."
+        },
+        {
+          "t": "une quantité de mouvement seule, sans transfert d'énergie d'un point à l'autre",
+          "j": "Le transport d'énergie est justement ce qui permet à une onde de produire un effet à distance ; une onde qui n'en transporterait pas n'agirait sur rien à l'arrivée."
+        },
+        {
+          "t": "de la matière seule, l'énergie restant localisée au niveau de la source",
+          "j": "C'est l'inverse de ce qui se produit : l'énergie quitte la source avec la perturbation, tandis que la matière du milieu reste en place."
+        }
+      ]
+    },
+    {
+      "q": "Dans une onde périodique, l'amplitude correspond :",
+      "c": 14,
+      "options": [
+        {
+          "t": "à la valeur maximale de l'allongement atteint par un point du milieu",
+          "correct": true,
+          "j": "L'amplitude est la valeur la plus grande que peut atteindre le déplacement d'un point sous l'effet du passage de l'onde ; elle se mesure en unités de longueur."
+        },
+        {
+          "t": "au déplacement d'un point du milieu à un instant quelconque du passage de l'onde",
+          "j": "C'est la définition de l'allongement, qui change à chaque instant ; l'amplitude n'en retient que la valeur extrême."
+        },
+        {
+          "t": "au temps nécessaire pour qu'un point du milieu revienne à sa position de départ",
+          "j": "Cette durée est la période de l'onde, exprimée en secondes ; l'amplitude est un déplacement, elle ne se mesure pas en unités de temps."
+        },
+        {
+          "t": "à l'énergie que l'onde cède aux particules du milieu à chaque oscillation",
+          "j": "Une énergie se mesure en joules et n'est pas un déplacement ; elle ne décrit pas l'écart maximal atteint par un point autour de sa position d'équilibre."
+        }
+      ]
+    },
+    {
+      "q": "La longueur d'onde d'une onde périodique correspond :",
+      "c": 14,
+      "options": [
+        {
+          "t": "à la distance parcourue par l'onde pendant un cycle complet",
+          "correct": true,
+          "j": "C'est la distance qui sépare deux maxima (ou deux minima) consécutifs, autrement dit le chemin parcouru au cours d'un cycle entier ; elle se mesure en m, cm ou mm."
+        },
+        {
+          "t": "à la durée que met l'onde pour accomplir un cycle complet",
+          "j": "Cette durée est la période de l'onde ; elle s'exprime en secondes, alors que la longueur d'onde est une distance."
+        },
+        {
+          "t": "au nombre de cycles que l'onde accomplit en une seconde",
+          "j": "Ce décompte définit la fréquence, exprimée en hertz ; il ne mesure aucune distance."
+        },
+        {
+          "t": "à la distance que l'onde parcourt pendant une seconde",
+          "j": "Une distance rapportée à une seconde est la vitesse de propagation, en m/s ; la longueur d'onde se mesure en mètres, sans référence au temps."
+        }
+      ]
+    },
+    {
+      "q": "L'intensité transportée par une onde est définie comme :",
+      "c": 14,
+      "options": [
+        {
+          "t": "la puissance transportée par l'onde par unité de surface, en W/m²",
+          "correct": true,
+          "j": "L'intensité rapporte la puissance de l'onde à la surface qu'elle traverse ; dans le système international elle s'exprime donc en watts par mètre carré."
+        },
+        {
+          "t": "l'énergie transportée par l'onde par unité de temps, en watts",
+          "j": "Cette grandeur est la puissance de l'onde : elle ne tient aucun compte de la surface sur laquelle l'énergie se répartit."
+        },
+        {
+          "t": "l'énergie transportée par l'onde au cours d'un cycle complet, en joules",
+          "j": "Une énergie par cycle ne fait intervenir ni la durée ni la surface ; elle ne permet pas de comparer ce que reçoit une surface donnée."
+        },
+        {
+          "t": "la puissance transportée par l'onde par unité de longueur, en W/m",
+          "j": "Une onde se répartit dans l'espace sur une surface et non sur une ligne ; c'est bien à une aire que l'on rapporte la puissance."
+        }
+      ]
+    },
+    {
+      "q": "La vitesse d'une onde sonore est donnée par la racine carrée du rapport entre la variation de pression et la variation de densité qu'elle produit dans le milieu. Qu'est-ce qui explique alors que le son soit plus lent dans un gaz que dans un solide ?",
+      "c": 14,
+      "options": [
+        {
+          "t": "la variation de densité y est grande, car un gaz se comprime très facilement",
+          "correct": true,
+          "j": "Les particules d'un gaz ont une grande capacité de compression : la variation de densité, placée au dénominateur, y est plus grande que dans un liquide, et plus grande encore que dans un solide — d'où une vitesse du son d'autant plus faible."
+        },
+        {
+          "t": "la variation de pression y est grande, car les particules d'un gaz sont mobiles",
+          "j": "La variation de pression produite par une onde sonore reste faible quel que soit le milieu ; ce n'est pas elle qui sépare le gaz du solide."
+        },
+        {
+          "t": "la variation de densité y est faible, car les particules d'un gaz sont éloignées",
+          "j": "C'est exactement l'inverse : l'espacement des particules rend le gaz facilement compressible, donc sa densité varie beaucoup au passage de l'onde."
+        },
+        {
+          "t": "la variation de pression y est faible, car un gaz résiste peu au passage de l'onde",
+          "j": "Le cours ne retient pas ce facteur : il attribue expressément l'écart entre gaz, liquide et solide à la variation de densité, « plus grande dans un gaz que dans un liquide, que dans un solide », et ne dit de la variation de pression que sa valeur est faible, sans jamais la faire varier d'un milieu à l'autre."
+        }
+      ]
+    },
+    {
+      "q": "Une onde sonore produit dans un milieu une variation de pression deux fois plus grande qu'une autre. Toutes choses égales par ailleurs, son intensité est :",
+      "c": 14,
+      "options": [
+        {
+          "t": "quatre fois plus grande",
+          "correct": true,
+          "j": "L'intensité d'une onde sonore varie comme le carré de la variation de pression qu'elle produit : doubler cette variation multiplie l'intensité par 2², soit 4."
+        },
+        {
+          "t": "deux fois plus grande",
+          "j": "Ce serait le cas si l'intensité était simplement proportionnelle à la variation de pression ; or celle-ci intervient au carré."
+        },
+        {
+          "t": "huit fois plus grande",
+          "j": "Un facteur 8 supposerait une relation cubique ; le lien entre intensité et variation de pression est quadratique."
+        },
+        {
+          "t": "rigoureusement inchangée",
+          "j": "L'intensité dépend directement de l'amplitude de l'onde, c'est-à-dire de la variation de pression produite : elle ne peut pas rester identique."
+        }
+      ]
+    },
+    {
+      "q": "Pour qu'un son soit effectivement perçu par l'oreille humaine, il faut :",
+      "c": 14,
+      "options": [
+        {
+          "t": "que sa fréquence soit audible et que son intensité reste entre le seuil d'audition et le seuil de douleur",
+          "correct": true,
+          "j": "Les deux conditions doivent être réunies : une fréquence située dans la gamme audible, et une intensité comprise dans la plage délimitée par le seuil d'audition et le seuil de la douleur."
+        },
+        {
+          "t": "que sa fréquence soit audible, quelle que soit l'intensité, même très faible, avec laquelle il parvient à l'oreille",
+          "j": "La fréquence ne suffit pas : un son de fréquence audible mais d'intensité inférieure au seuil d'audition n'est pas entendu."
+        },
+        {
+          "t": "que son intensité dépasse le seuil de la douleur, quelle que soit sa fréquence propre",
+          "j": "Le seuil de la douleur est la limite haute de la plage utile : le franchir ne rend pas le son perceptible, cela le rend douloureux."
+        },
+        {
+          "t": "que son intensité dépasse le seuil d'audition, la fréquence n'intervenant pas dans sa perception",
+          "j": "L'intensité ne suffit pas non plus : une onde sonore très intense reste inaudible si sa fréquence se situe hors de la gamme que l'oreille détecte."
+        }
+      ]
+    },
+    {
+      "q": "On appelle infrason une onde sonore dont la fréquence est :",
+      "c": 14,
+      "options": [
+        {
+          "t": "inférieure à 16 Hz",
+          "correct": true,
+          "j": "Le cours place la limite basse de l'audition humaine à 16 Hz : en dessous, l'onde sonore existe toujours mais n'est plus entendue."
+        },
+        {
+          "t": "inférieure à 160 Hz",
+          "j": "160 Hz est une fréquence parfaitement audible, qui correspond aux sons graves de la voix et de la musique."
+        },
+        {
+          "t": "supérieure à 16 000 Hz",
+          "j": "Une fréquence supérieure à la limite audible définit au contraire les ultrasons ; l'infrason se situe sous la limite basse de l'audition, pas au-dessus de la limite haute."
+        },
+        {
+          "t": "comprise entre 16 et 160 Hz",
+          "j": "Cette plage est tout entière contenue dans la gamme audible ; l'infrason commence sous la limite basse de l'audition."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les usages suivants, lequel constitue un apport majeur de l'échographie en pratique ?",
+      "c": 14,
+      "options": [
+        {
+          "t": "le guidage des gestes de ponction, d'aspiration ou d'infiltration",
+          "correct": true,
+          "j": "L'échographie est indispensable à ces gestes : technique d'imagerie en temps réel, elle montre la progression de l'aiguille jusqu'à la cible visée."
+        },
+        {
+          "t": "le contrôle de la dose d'ultrasons reçue pendant une séance",
+          "j": "Le réglage de ce que reçoit le patient relève de l'appareil de thérapie par ultrasons ; l'échographe, lui, est un outil d'imagerie."
+        },
+        {
+          "t": "la mesure de la vitesse du son dans chaque tissu traversé",
+          "j": "La vitesse du son dans les tissus est une donnée déjà connue, que l'appareil utilise pour construire l'image au lieu de la déterminer."
+        },
+        {
+          "t": "la stimulation de la cicatrisation des lésions des tissus mous",
+          "j": "Cet effet biologique relève des applications thérapeutiques des ultrasons, alors que l'échographie reste une technique d'exploration."
+        }
+      ]
+    },
+    {
+      "q": "Dans un échographe, comment l'écho renvoyé par les tissus devient-il une image ?",
+      "c": 14,
+      "options": [
+        {
+          "t": "il fait vibrer les cristaux de la sonde, ce qui engendre un courant électrique",
+          "correct": true,
+          "j": "Les faisceaux réfléchis reviennent au transducteur et mettent ses cristaux en vibration ; le courant électrique ainsi produit est traduit en image par l'appareil."
+        },
+        {
+          "t": "il échauffe les cristaux de la sonde, dont la résistance électrique varie",
+          "j": "Un échauffement serait bien trop lent et trop imprécis pour restituer une image en temps réel ; c'est la mise en vibration des cristaux qui engendre le signal."
+        },
+        {
+          "t": "il est converti en signal lumineux par un cristal fluorescent de la sonde",
+          "j": "Aucune étape lumineuse n'intervient dans la sonde : le signal passe directement de la vibration mécanique au courant électrique."
+        },
+        {
+          "t": "il est capté par le gel de couplage, qui transmet un signal à l'appareil",
+          "j": "Le gel n'est pas un capteur : il est interposé entre la sonde et la peau et ne transmet aucun signal à l'échographe."
+        }
+      ]
+    },
+    {
+      "q": "À l'échographie, deux milieux dont les impédances acoustiques sont très voisines donnent :",
+      "c": 14,
+      "options": [
+        {
+          "t": "un écho faible, rendu par des tons gris",
+          "correct": true,
+          "j": "Plus les impédances des deux milieux sont proches, plus la fraction de l'onde renvoyée est petite : l'écho est faible et l'interface se traduit par des tons gris."
+        },
+        {
+          "t": "un écho intense, rendu par des tons blancs",
+          "j": "Les tons blancs traduisent au contraire une différence d'impédance importante, qui renvoie vers la sonde une grande partie de l'onde incidente."
+        },
+        {
+          "t": "aucun écho, toute l'onde étant transmise",
+          "j": "Des impédances voisines n'annulent pas l'écho : une fraction de l'onde est toujours réfléchie à l'interface, et elle suffit à former l'image."
+        },
+        {
+          "t": "un écho plus intense si l'interface est profonde",
+          "j": "La profondeur modifie l'atténuation du faisceau le long de son trajet, mais l'intensité de l'écho à une interface dépend de l'écart d'impédance entre les deux milieux."
+        }
+      ]
+    },
+    {
+      "q": "À quelle intensité l'utilisation des ultrasons est-elle limitée, en raison de leur effet destructeur possible sur les tissus ?",
+      "c": 14,
+      "options": [
+        {
+          "t": "3 W/cm²",
+          "correct": true,
+          "j": "C'est la limite d'utilisation fixée : au-delà, la chaleur formée devient excessive et les membranes cellulaires peuvent être rompues."
+        },
+        {
+          "t": "3 W/m²",
+          "j": "Rapportée au centimètre carré, cette valeur est dix mille fois plus faible que la limite retenue et serait sans effet sur les tissus."
+        },
+        {
+          "t": "30 W/cm²",
+          "j": "Dix fois la limite admise : une telle intensité garantirait l'échauffement excessif et la rupture des membranes que la limite vise justement à éviter."
+        },
+        {
+          "t": "0,3 W/cm²",
+          "j": "Cette valeur reste très en deçà du plafond fixé par le cours, qui tolère une intensité dix fois supérieure avant de parler d'effet destructeur."
+        }
+      ]
+    },
+    {
+      "q": "L'absorption des ultrasons par un tissu est d'autant plus importante que ce tissu :",
+      "c": 14,
+      "options": [
+        {
+          "t": "est riche en protéines",
+          "correct": true,
+          "j": "Le cours relie l'absorption à la teneur en protéines du tissu : l'énergie de l'onde y est transférée aux molécules, dont la vibration augmente, d'où une élévation de température."
+        },
+        {
+          "t": "est riche en graisses",
+          "j": "La teneur en lipides n'est pas le critère retenu par le cours pour prévoir l'intensité de l'absorption dans un tissu."
+        },
+        {
+          "t": "est riche en eau",
+          "j": "Le cours ne retient pas la teneur en eau : c'est la richesse en protéines du tissu qui commande l'intensité de l'absorption."
+        },
+        {
+          "t": "est pauvre en cellules",
+          "j": "La densité cellulaire n'intervient pas : c'est la composition moléculaire du tissu qui détermine la fraction d'onde absorbée."
+        }
+      ]
+    },
+    {
+      "q": "Indiquez l'énoncé FAUX à propos de l'atténuation des ultrasons dans les tissus :",
+      "c": 14,
+      "options": [
+        {
+          "t": "L'intensité s'annule dès que l'épaisseur de demi-réduction est franchie",
+          "correct": true,
+          "j": "Faux : l'atténuation est exponentielle, l'intensité est de nouveau divisée par deux à chaque épaisseur de demi-réduction supplémentaire et ne s'annule jamais brutalement."
+        },
+        {
+          "t": "L'intensité décroît exponentiellement quand l'épaisseur traversée augmente",
+          "j": "Exact : le cours décrit la décroissance de l'intensité des ultrasons comme exponentielle à mesure que l'épaisseur de milieu traversé augmente."
+        },
+        {
+          "t": "L'épaisseur de demi-réduction réduit de moitié l'intensité du faisceau",
+          "j": "Exact : c'est précisément la définition donnée par le cours à cette épaisseur caractéristique."
+        },
+        {
+          "t": "L'épaisseur de demi-réduction varie selon les caractéristiques du tissu traversé",
+          "j": "Exact : à fréquence donnée, cette épaisseur n'est pas la même d'un tissu à l'autre, car elle dépend aussi des propriétés du milieu."
+        }
+      ]
+    },
+    {
+      "q": "En thérapie par ultrasons, la cavitation désigne :",
+      "c": 14,
+      "options": [
+        {
+          "t": "la formation de microbulles sous l'effet des variations de pression",
+          "correct": true,
+          "j": "Les compressions et décompressions successives de l'onde sonore font apparaître des microbulles dans les tissus : c'est un effet non thermique des ultrasons."
+        },
+        {
+          "t": "l'augmentation de la circulation des fluides près des membranes",
+          "j": "Ce mouvement accru des fluides près des membranes cellulaires est l'autre effet non thermique décrit par le cours, la transmission acoustique."
+        },
+        {
+          "t": "l'élévation de température due à l'absorption de l'énergie sonore",
+          "j": "L'échauffement des tissus est l'effet thermique des ultrasons ; la cavitation, elle, est rangée parmi leurs effets non thermiques."
+        },
+        {
+          "t": "la rupture des cristaux de la sonde sous une intensité excessive",
+          "j": "Le phénomène se produit dans les tissus traversés, pas dans l'appareil : les cristaux de la sonde ne sont pas en cause."
+        }
+      ]
+    },
+    {
+      "q": "La zone de rayonnement efficace (ERA) d'une sonde à ultrasons correspond :",
+      "c": 14,
+      "options": [
+        {
+          "t": "à la part de la tête de la sonde qui émet réellement des ultrasons",
+          "correct": true,
+          "j": "La tête n'émet pas sur toute sa surface : l'ERA, exprimée en pourcentage, désigne la portion réellement émettrice et sert à calculer la puissance effectivement délivrée."
+        },
+        {
+          "t": "à la surface de tissu que le traitement doit couvrir chez le patient",
+          "j": "Cette surface est une donnée propre à la lésion traitée, alors que l'ERA caractérise la sonde elle-même."
+        },
+        {
+          "t": "à la profondeur de tissu que le faisceau d'ultrasons parvient à atteindre",
+          "j": "L'ERA est une surface d'émission exprimée en pourcentage de la tête ; elle ne renseigne en rien sur le trajet de l'onde dans les tissus."
+        },
+        {
+          "t": "à la fraction de la puissance émise qui est absorbée par les tissus",
+          "j": "L'ERA concerne l'émission à la sortie de la sonde, et non le devenir de l'énergie une fois celle-ci entrée dans l'organisme."
+        }
+      ]
+    },
+    {
+      "q": "En thérapie par ultrasons, la dose de traitement correspond :",
+      "c": 14,
+      "options": [
+        {
+          "t": "à l'énergie délivrée rapportée à la surface de tissu traitée",
+          "correct": true,
+          "j": "La dose rapporte l'énergie reçue par le patient à l'étendue de tissu traitée ; elle s'exprime donc en joules par centimètre carré et permet de comparer des lésions d'étendues différentes."
+        },
+        {
+          "t": "à l'énergie délivrée rapportée à la surface de la sonde",
+          "j": "La surface de la tête de la sonde sert à calculer l'intensité émise par l'appareil, pas la dose reçue : le cours rapporte expressément la dose à la surface de tissu traitée."
+        },
+        {
+          "t": "à l'énergie totale émise par l'appareil durant la séance",
+          "j": "Une énergie totale ne dit rien de sa répartition : appliquée sur une surface deux fois plus grande, elle délivre une dose deux fois plus faible."
+        },
+        {
+          "t": "à la durée d'application rapportée à la surface traitée",
+          "j": "Un temps rapporté à une surface ne constitue pas une dose : c'est l'énergie délivrée qui est en jeu, la durée n'en étant qu'un des facteurs."
+        }
+      ]
+    },
+    {
+      "q": "Comment définit-on un système thermodynamique ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Une partie de l'univers que l'on isole afin de l'étudier",
+          "correct": true,
+          "j": "Un système thermodynamique est la portion de l'univers que l'on délimite et met à part pour en étudier le comportement."
+        },
+        {
+          "t": "La surface qui sépare un corps du milieu qui l'entoure",
+          "j": "La surface qui sépare un système du milieu environnant porte le nom de paroi, ou enceinte : elle limite le système mais ne le définit pas."
+        },
+        {
+          "t": "Le passage d'un corps d'un état initial à un état final",
+          "j": "Le passage d'un état initial à un état final est une transformation, c'est-à-dire ce que subit un système, et non le système lui-même."
+        },
+        {
+          "t": "L'ensemble des échanges de chaleur entre deux corps",
+          "j": "Les échanges de chaleur sont des transferts d'énergie entre un système et son milieu ; ils décrivent ses relations, pas sa nature."
+        }
+      ]
+    },
+    {
+      "q": "Sur quel critère les différents types de systèmes thermodynamiques sont-ils distingués ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Sur les échanges de matière et d'énergie avec le milieu",
+          "correct": true,
+          "j": "La classification des systèmes thermodynamiques repose sur ce qu'ils échangent avec le milieu qui les entoure : de la matière, de l'énergie, ou ni l'une ni l'autre."
+        },
+        {
+          "t": "Sur le caractère rigide ou mobile de leur enceinte",
+          "j": "Le caractère rigide ou mobile d'une paroi décrit seulement la variation de volume qu'elle autorise ; ce n'est pas ce qui sépare les types de systèmes."
+        },
+        {
+          "t": "Sur leur pression et leur volume de départ",
+          "j": "La pression et le volume décrivent l'état du système à un instant donné ; ce sont des grandeurs mesurées, non un critère de classement."
+        },
+        {
+          "t": "Sur le sens dans lequel leur transformation se déroule",
+          "j": "Le sens dans lequel une transformation se déroule ne dit rien de ce que le système échange avec son milieu, qui est le seul critère retenu."
+        }
+      ]
+    },
+    {
+      "q": "Un cylindre rempli de gaz est fermé par un piston qui se déplace quand le gaz se dilate ; il échange de la chaleur avec l'extérieur mais ne laisse passer aucune matière. Comment qualifie-t-on ses parois ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Mobiles, diathermiques et imperméables",
+          "correct": true,
+          "j": "Le piston qui se déplace rend les parois mobiles, l'échange de chaleur les rend diathermiques, et l'absence de passage de matière les rend imperméables."
+        },
+        {
+          "t": "Rigides, diathermiques et imperméables",
+          "j": "Une paroi rigide interdirait tout changement de volume, alors que le gaz décrit ici se dilate en repoussant le piston."
+        },
+        {
+          "t": "Mobiles, adiabatiques et imperméables",
+          "j": "Une paroi adiabatique empêcherait tout échange thermique, alors que ce cylindre échange bien de la chaleur avec l'extérieur."
+        },
+        {
+          "t": "Mobiles, diathermiques et perméables",
+          "j": "Une paroi perméable laisserait passer de la matière, alors que le gaz reste entièrement enfermé dans le cylindre."
+        }
+      ]
+    },
+    {
+      "q": "Dans un gaz parfait, les molécules n'exercent aucune interaction les unes sur les autres. À quoi se réduit alors l'énergie interne du gaz ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "À l'énergie cinétique de ses molécules",
+          "correct": true,
+          "j": "Faute d'interaction entre les particules, la seule énergie que possèdent les molécules d'un gaz parfait est celle de leur mouvement."
+        },
+        {
+          "t": "À l'énergie potentielle de ses molécules",
+          "j": "Une énergie potentielle suppose une interaction ou une position dans un champ ; or les molécules d'un gaz parfait n'interagissent pas."
+        },
+        {
+          "t": "À l'énergie des liaisons entre ses molécules",
+          "j": "Des liaisons entre molécules impliqueraient précisément les interactions que la définition du gaz parfait exclut."
+        },
+        {
+          "t": "À la chaleur que le gaz reçoit du milieu",
+          "j": "La chaleur reçue est échangée avec le milieu : elle fait varier l'énergie interne du gaz sans se confondre avec elle."
+        }
+      ]
+    },
+    {
+      "q": "Lors d'une transformation thermodynamique, comment la variation d'énergie interne d'un système est-elle définie ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Par la différence entre l'énergie interne de l'état final et celle de l'état initial",
+          "correct": true,
+          "j": "La variation s'obtient en retranchant la valeur initiale de la valeur finale : ΔU = U2 − U1."
+        },
+        {
+          "t": "Par la différence entre l'énergie interne de l'état initial et celle de l'état final",
+          "j": "Cette soustraction est faite à l'envers : elle donne l'opposé de la variation réelle et en inverse donc le signe."
+        },
+        {
+          "t": "Par la somme des énergies internes de l'état initial et de l'état final réunis",
+          "j": "Additionner les deux valeurs donnerait un cumul dépourvu de sens physique : une variation mesure un écart entre deux états."
+        },
+        {
+          "t": "Par le rapport entre l'énergie interne de l'état final et celle de l'état initial",
+          "j": "Une variation s'exprime par une différence et non par un quotient, qui ne conserverait même pas l'unité d'énergie."
+        }
+      ]
+    },
+    {
+      "q": "Un système passe d'un état initial à un état final au cours d'une transformation. Quelles grandeurs caractérisent ces deux états ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "La pression, la température et le volume",
+          "correct": true,
+          "j": "L'état initial est décrit par P1, T1 et V1 et l'état final par P2, T2 et V2 : ce sont ces trois grandeurs qui définissent l'état d'un système."
+        },
+        {
+          "t": "La chaleur, le travail et la puissance",
+          "j": "La chaleur et le travail ne décrivent aucun état : ce sont des grandeurs échangées au cours du passage d'un état à l'autre."
+        },
+        {
+          "t": "La pression, la chaleur et le volume",
+          "j": "La pression et le volume décrivent bien l'état du système, mais la chaleur est une grandeur d'échange et n'en fait pas partie."
+        },
+        {
+          "t": "La température, le travail et le volume",
+          "j": "La température et le volume décrivent bien l'état du système, tandis que le travail est échangé pendant la transformation."
+        }
+      ]
+    },
+    {
+      "q": "De quelle loi générale le premier principe de la thermodynamique constitue-t-il une autre formulation ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "La loi de conservation de l'énergie",
+          "correct": true,
+          "j": "En reliant la variation d'énergie interne à la chaleur et au travail échangés, le premier principe énonce sous une autre forme que l'énergie totale se conserve."
+        },
+        {
+          "t": "La loi de conservation de la masse",
+          "j": "La conservation de la masse gouverne les bilans de matière d'une réaction chimique, alors que le premier principe porte sur les échanges d'énergie."
+        },
+        {
+          "t": "La loi de conservation de la charge",
+          "j": "La conservation de la charge électrique régit les bilans d'électricité ; le premier principe relie pour sa part chaleur, travail et énergie interne."
+        },
+        {
+          "t": "La loi de conservation du mouvement",
+          "j": "La conservation de la quantité de mouvement appartient à la mécanique du choc et n'intervient pas dans le bilan chaleur-travail d'un système."
+        }
+      ]
+    },
+    {
+      "q": "Quel intérêt pratique le premier principe de la thermodynamique présente-t-il ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Il permet de calculer le travail que l'on peut extraire d'un système",
+          "correct": true,
+          "j": "Au-delà de son énoncé, le premier principe est utile parce qu'il donne accès à la quantité de travail qu'un système peut fournir."
+        },
+        {
+          "t": "Il permet de déterminer la température finale atteinte par le système",
+          "j": "Le premier principe relie la chaleur et le travail échangés à la variation d'énergie interne : il porte sur ces échanges, et non sur l'état thermique que le système atteint."
+        },
+        {
+          "t": "Il permet de connaître la vitesse à laquelle le processus se déroule",
+          "j": "La rapidité d'une transformation relève de la cinétique ; le premier principe pose un bilan d'énergie, indépendant de la durée."
+        },
+        {
+          "t": "Il permet d'évaluer la masse de matière échangée pendant le processus",
+          "j": "Le premier principe met en jeu la chaleur et le travail, deux formes d'énergie ; il ne quantifie aucun échange de matière."
+        }
+      ]
+    },
+    {
+      "q": "Dans la convention ΔU = Q − W, à quelle situation un travail W positif correspond-il ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Le gaz se dilate et repousse le piston",
+          "correct": true,
+          "j": "Le travail est compté positivement quand le système en effectue, ce qui est le cas lorsque le gaz se dilate et repousse le piston."
+        },
+        {
+          "t": "Le gaz est comprimé par le piston enfoncé",
+          "j": "Lorsqu'on enfonce le piston, le travail est effectué sur le système et non par lui : il est alors compté négativement."
+        },
+        {
+          "t": "Le gaz reçoit de la chaleur, à volume fixe",
+          "j": "Un apport de chaleur à volume constant modifie Q et non W : sans déplacement du piston, aucun travail n'est échangé."
+        },
+        {
+          "t": "Le gaz cède de la chaleur, à volume fixe",
+          "j": "Une perte de chaleur à volume constant modifie Q et non W : le travail n'entre en jeu que si le volume du gaz varie."
+        }
+      ]
+    },
+    {
+      "q": "Qu'établit le deuxième principe de la thermodynamique, que le premier ne dit pas ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Quels processus sont possibles et lesquels ne le sont pas",
+          "correct": true,
+          "j": "Le premier principe pose le bilan des échanges de chaleur et de travail ; le deuxième tranche la question de savoir quelles transformations peuvent réellement avoir lieu."
+        },
+        {
+          "t": "Quelle quantité d'énergie est échangée au cours du processus",
+          "j": "Le calcul des quantités d'énergie échangées relève du bilan posé par le premier principe, et non du deuxième."
+        },
+        {
+          "t": "Quelle durée un processus thermodynamique met à se dérouler",
+          "j": "Aucun des deux principes ne renseigne sur la durée d'une transformation : ils décrivent des états et des échanges, non des vitesses."
+        },
+        {
+          "t": "Quelle quantité de matière le système échange avec le milieu",
+          "j": "Les échanges de matière dépendent du type de système et de ses parois, non de ce qu'énonce le deuxième principe."
+        }
+      ]
+    },
+    {
+      "q": "Un système reçoit 500 J de chaleur de son milieu et effectue un travail de 200 J. Quelle est la variation de son énergie interne ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "+ 300 J",
+          "correct": true,
+          "j": "Le premier principe donne ΔU = Q − W, soit 500 − 200 : l'énergie interne du système augmente de 300 joules."
+        },
+        {
+          "t": "+ 700 J",
+          "j": "Ce résultat additionne la chaleur et le travail, alors que le travail fourni par le système doit être retranché de la chaleur reçue."
+        },
+        {
+          "t": "− 300 J",
+          "j": "Ce résultat intervertit les deux termes et retranche la chaleur reçue du travail fourni, alors que c'est l'inverse qu'il faut faire."
+        },
+        {
+          "t": "− 700 J",
+          "j": "Ce résultat cumule deux erreurs : il additionne les deux grandeurs, puis attribue au total obtenu un signe négatif."
+        }
+      ]
+    },
+    {
+      "q": "Une personne tire 10 000 kJ de ses aliments, effectue un travail de 2 000 kJ et dissipe 7 000 kJ de chaleur. Que vaut la variation de son énergie interne ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "+ 1 000 kJ",
+          "correct": true,
+          "j": "Les pertes totalisent 2 000 kJ de travail et 7 000 kJ de chaleur, soit 9 000 kJ ; retranchées des 10 000 kJ apportés, elles laissent un gain de 1 000 kJ."
+        },
+        {
+          "t": "+ 8 000 kJ",
+          "j": "Ce résultat ne retranche que le travail fourni et laisse de côté la chaleur dissipée, qui compte pourtant parmi les pertes du bilan."
+        },
+        {
+          "t": "+ 15 000 kJ",
+          "j": "Ce résultat ajoute la chaleur dissipée aux apports alimentaires, alors que cette chaleur quitte l'organisme et figure du côté des pertes."
+        },
+        {
+          "t": "− 1 000 kJ",
+          "j": "Ce résultat intervertit apports et pertes : les 10 000 kJ apportés dépassent les 9 000 kJ dépensés, le bilan est donc positif."
+        }
+      ]
+    },
+    {
+      "q": "Parmi les formes de travail effectuées par l'organisme, à quoi correspond le travail chimique ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "À la synthèse des biomolécules qui composent l'organisme",
+          "correct": true,
+          "j": "Parmi les travaux dits biologiques figure le travail chimique, qui consiste à fabriquer les biomolécules dont l'organisme est constitué."
+        },
+        {
+          "t": "Au déplacement de substances d'un compartiment à l'autre",
+          "j": "Faire passer des substances d'un compartiment à l'autre correspond au travail de transport, qui est compté à part."
+        },
+        {
+          "t": "À la production des mouvements par l'appareil locomoteur",
+          "j": "Produire un mouvement relève du travail mécanique, qui constitue une autre des formes de travail biologique."
+        },
+        {
+          "t": "À la conduction des signaux le long des fibres nerveuses",
+          "j": "Conduire un signal le long d'une fibre ne fabrique aucune molécule : cette dépense relève d'une autre des formes de travail énumérées, le travail électrique."
+        }
+      ]
+    },
+    {
+      "q": "Le travail mécanique effectué par l'organisme s'applique à quels mouvements ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Aux mouvements microscopiques comme aux mouvements macroscopiques",
+          "correct": true,
+          "j": "Le travail mécanique du corps recouvre le mouvement aussi bien à l'échelle microscopique qu'à l'échelle macroscopique."
+        },
+        {
+          "t": "Aux seuls mouvements macroscopiques, visibles de l'extérieur du corps",
+          "j": "Limiter le travail mécanique aux mouvements visibles laisse de côté les mouvements de l'échelle microscopique, qui en relèvent aussi."
+        },
+        {
+          "t": "Aux seuls mouvements microscopiques internes à la cellule",
+          "j": "Les mouvements internes à la cellule relèvent bien du travail mécanique, mais celui-ci ne s'y réduit pas."
+        },
+        {
+          "t": "Aux mouvements macroscopiques et au passage des substances dissoutes",
+          "j": "Le déplacement de substances d'un compartiment à l'autre est rangé à part, parmi les travaux de transport."
+        }
+      ]
+    },
+    {
+      "q": "Un système reçoit 750 J de chaleur à la température constante de 300 K. Quelle est sa variation d'entropie ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "2,5 J/K",
+          "correct": true,
+          "j": "La variation d'entropie est le quotient de la chaleur par la température absolue : 750 J divisés par 300 K donnent 2,5 joules par kelvin."
+        },
+        {
+          "t": "0,4 J/K",
+          "j": "Ce résultat divise la température par la chaleur : le quotient est inversé et ne donne donc pas une entropie."
+        },
+        {
+          "t": "450 J/K",
+          "j": "Ce résultat soustrait la température de la chaleur, alors que ces deux grandeurs doivent être divisées l'une par l'autre."
+        },
+        {
+          "t": "1 050 J/K",
+          "j": "Ce résultat additionne la chaleur et la température, deux grandeurs qui ne s'additionnent pas puisque leurs unités diffèrent."
+        }
+      ]
+    },
+    {
+      "q": "Lequel des énoncés suivants à propos d'une assiette qui tombe et se brise est FAUX ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Les morceaux peuvent se rassembler d'eux-mêmes en une assiette",
+          "correct": true,
+          "j": "C'est l'énoncé faux : le deuxième principe exclut ce retour spontané, et les morceaux ne se réorganisent pas d'eux-mêmes en assiette intacte."
+        },
+        {
+          "t": "L'entropie du système a augmenté au cours de la rupture",
+          "j": "Énoncé exact : l'assiette qui se casse voit son entropie croître, et c'est l'exemple même donné pour illustrer ce principe."
+        },
+        {
+          "t": "L'assiette brisée est moins organisée que l'assiette intacte",
+          "j": "Énoncé exact : passer d'une pièce unique à un tas de morceaux fait perdre au système une partie de son organisation."
+        },
+        {
+          "t": "La rupture suit le sens d'évolution décrit par le deuxième principe",
+          "j": "Énoncé exact : les processus naturels tendent vers un état de plus grand désordre, ce que cette rupture illustre fidèlement."
+        }
+      ]
+    },
+    {
+      "q": "Pourquoi les systèmes évoluent-ils d'une configuration ordonnée vers une configuration désordonnée ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Parce que la configuration désordonnée est statistiquement plus probable",
+          "correct": true,
+          "j": "Cette évolution se justifie par la statistique : le système se dirige vers la configuration désordonnée parce qu'elle est, en partie, la plus probable."
+        },
+        {
+          "t": "Parce que la configuration désordonnée contient moins d'énergie interne",
+          "j": "Le degré de désordre d'une configuration ne dit rien de l'énergie interne qu'elle contient : ce sont deux grandeurs distinctes."
+        },
+        {
+          "t": "Parce que l'ordre initial est interdit par le premier principe",
+          "j": "Le premier principe établit un bilan des énergies échangées et n'interdit aucune configuration particulière du système."
+        },
+        {
+          "t": "Parce que la configuration désordonnée se refroidit beaucoup plus vite",
+          "j": "La vitesse à laquelle un système perd de la chaleur ne détermine pas le sens dans lequel son organisation évolue."
+        }
+      ]
+    },
+    {
+      "q": "Un système peut-il revenir à une configuration plus ordonnée ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Oui, à condition qu'on lui fournisse de l'énergie",
+          "correct": true,
+          "j": "La tendance au désordre n'interdit pas le retour à un état plus ordonné : ce retour reste possible, mais il exige un apport d'énergie."
+        },
+        {
+          "t": "Oui, dès lors qu'il cesse d'échanger avec le milieu",
+          "j": "Interrompre les échanges ne réorganise rien : privé d'apport extérieur, le système ne retrouve pas une configuration plus ordonnée."
+        },
+        {
+          "t": "Non, le deuxième principe l'interdit de façon absolue",
+          "j": "Le deuxième principe énonce une tendance et non une interdiction : le retour à l'ordre demeure possible sous certaines conditions."
+        },
+        {
+          "t": "Non, sauf s'il constitue un système parfaitement isolé",
+          "j": "Un système qui n'échange ni matière ni énergie est justement celui qui ne peut recevoir ce qu'il lui faudrait pour se réorganiser."
+        }
+      ]
+    },
+    {
+      "q": "Que devient la chaleur dissipée par l'organisme lorsqu'il effectue un travail ?",
+      "c": 11,
+      "options": [
+        {
+          "t": "Une petite part entretient la température du corps, le reste est éliminé",
+          "correct": true,
+          "j": "Une petite partie seulement de cette chaleur sert à maintenir la température corporelle ; la grande majorité doit être évacuée par l'organisme."
+        },
+        {
+          "t": "Elle est intégralement réutilisée pour maintenir la température du corps",
+          "j": "Seule une petite part de cette chaleur entretient la température corporelle ; en faire le seul débouché supprimerait la nécessité d'en éliminer l'essentiel."
+        },
+        {
+          "t": "Elle est entièrement éliminée, sans jouer aucun rôle pour l'organisme",
+          "j": "L'élimination porte sur la grande majorité de cette chaleur, mais pas sur sa totalité : une fraction sert bien à maintenir la température du corps."
+        },
+        {
+          "t": "Elle est reconvertie en travail par les tissus qui la reçoivent ensuite",
+          "j": "Une chaleur dissipée ne redevient pas du travail : c'est précisément cette part perdue qui empêche l'efficacité du processus d'atteindre 100 %."
+        }
+      ]
+    },
+    {"q":"Quels quatre éléments chimiques constituent à eux seuls 96 % du nombre total d'atomes présents dans le corps humain ?","c":1,"options":[{"t":"Le carbone, l'hydrogène, l'oxygène et l'azote","correct":true,"j":"Ces quatre éléments sont ceux que le cours désigne comme constituant 96 % du nombre total d'atomes présents dans le corps humain ; les sept éléments suivants n'en représentent ensemble qu'environ 3,6 %."},{"t":"Le carbone, l'hydrogène, l'oxygène et le phosphore","j":"Le phosphore est bien un bioélément, mais il appartient au groupe des sept éléments qui ne pèsent ensemble qu'environ 3,6 % des atomes du corps."},{"t":"Le carbone, l'hydrogène, l'azote et le soufre","j":"Le soufre figure lui aussi parmi les sept éléments minoritaires du cours : il ne peut pas remplacer l'oxygène dans ce quatuor majoritaire."},{"t":"Le carbone, l'oxygène, l'azote et le calcium","j":"Le calcium est indispensable à l'organisme sans compter parmi les quatre éléments majoritaires : il relève du groupe des 3,6 %."}]},
+    {"q":"Pourquoi les éléments d'une même colonne verticale du tableau périodique se comportent-ils de façon similaire dans la formation des liaisons et des ions ?","c":1,"options":[{"t":"Parce qu'ils gagnent ou perdent le même nombre d'électrons pour remplir leur couche externe","correct":true,"j":"Le cours explique que les atomes d'une même colonne doivent gagner ou perdre le même nombre d'électrons pour atteindre une couche externe remplie, d'où un comportement chimique semblable."},{"t":"Parce qu'ils possèdent le même numéro atomique, qui détermine leur position dans la classification","j":"Le numéro atomique est propre à chaque élément : c'est précisément lui qui permet de les classer et de les distinguer les uns des autres."},{"t":"Parce qu'ils comptent tous le même nombre de couches électroniques autour du noyau","j":"Le nombre de couches électroniques n'est pas le critère retenu : le cours rattache le comportement semblable des éléments d'une même colonne au nombre d'électrons qu'ils doivent gagner ou perdre pour atteindre une couche externe remplie."},{"t":"Parce que leur masse atomique est presque identique d'un élément à l'autre","j":"Les masses atomiques d'une même colonne diffèrent beaucoup ; la ressemblance de comportement tient aux électrons de la couche externe, pas à la masse."}]},
+    {"q":"L'eau (H2O) et le dioxyde de carbone (CO2) appartiennent à quelle catégorie de molécules ?","c":1,"options":[{"t":"Les biomolécules inorganiques, présentes dans les êtres vivants","correct":true,"j":"Le cours range H2O et CO2 parmi les biomolécules inorganiques : elles sont présentes dans les êtres vivants sans être synthétisées par eux."},{"t":"Les biomolécules organiques, synthétisées par les organismes vivants","j":"Les biomolécules organiques sont fabriquées par les organismes vivants et bâties sur des chaînes de carbone portant des groupes fonctionnels, ce qui n'est le cas ni de l'eau ni du CO2."},{"t":"Les bioéléments, éléments chimiques présents dans les êtres vivants","j":"Un bioélément est un élément chimique simple, comme C, O, H, N, P ou S ; l'eau et le dioxyde de carbone sont déjà des assemblages de plusieurs éléments."},{"t":"Les sels minéraux, reliés entre eux par une liaison ionique","j":"Les sels minéraux forment une catégorie distincte, unie par une liaison ionique, alors que l'eau et le dioxyde de carbone résultent de liaisons covalentes entre atomes de bioéléments."}]},
+    {"q":"Au pH des fluides corporels, quelle charge porte la plupart des groupes aminés ?","c":1,"options":[{"t":"Une charge de 1+","correct":true,"j":"Le cours précise qu'au pH des fluides corporels la plupart des groupes aminés sont chargés et portent une charge de 1+."},{"t":"Une charge négative","j":"Le groupe aminé ne fixe pas de charge négative à ce pH : il capte au contraire un proton supplémentaire du milieu."},{"t":"Aucune charge nette","j":"Rester neutre serait l'exception : le cours décrit la plupart de ces groupes comme chargés aux valeurs de pH de l'organisme."},{"t":"Une double charge de 2+","j":"La charge décrite par le cours est unitaire ; aucun doublement de charge n'est évoqué pour ce groupe fonctionnel."}]},
+    {"q":"Au pH des cellules du corps, quelle forme du groupe acide carboxylique prédomine ?","c":1,"options":[{"t":"Sa forme chargée négativement, qui est hydrophile","correct":true,"j":"Le cours indique que la forme chargée négativement prédomine au pH des cellules du corps et qu'elle est hydrophile."},{"t":"Sa forme chargée positivement, hydrophile","j":"Ce groupe cède un proton au lieu d'en capter un : il ne peut pas devenir positif, même si sa forme ionisée attire bien l'eau."},{"t":"Sa forme neutre, qui reste hydrophile","j":"L'affinité pour l'eau est exacte, mais la forme non ionisée n'est pas celle qui prédomine au pH des cellules."},{"t":"Sa forme neutre, qui est hydrophobe","j":"Le groupe acide carboxylique ne fuit pas l'eau : sa forme dominante est ionisée et, à ce titre, hydrophile."}]},
+    {"q":"Quels deux types de composés le groupe carbonyle regroupe-t-il ?","c":1,"options":[{"t":"Les cétones et les aldéhydes","correct":true,"j":"Le cours subdivise le groupe carbonyle en deux sous-types : les cétones et les aldéhydes."},{"t":"Les alcools et les thiols","j":"Alcools et thiols sont deux groupes fonctionnels distincts dans la liste du cours, et non deux sous-types du carbonyle."},{"t":"Les esters et les groupes phosphate","j":"L'ester et le phosphate figurent eux aussi comme deux groupes fonctionnels à part entière, au même rang que le carbonyle."},{"t":"Les acides carboxyliques et les esters","j":"L'acide carboxylique et l'ester contiennent bien un atome de carbone doublement lié à un oxygène, mais le cours les liste comme deux groupes fonctionnels à part entière : seuls les cétones et les aldéhydes sont donnés comme les deux sous-types du carbonyle."}]},
+    {"q":"Laquelle de ces biomolécules n'est PAS exclusive à la matière vivante ?","c":1,"options":[{"t":"L'eau","correct":true,"j":"L'eau est une biomolécule inorganique : elle est présente dans les êtres vivants sans y être exclusive, et se range du côté non exclusif de la matière vivante, avec les sels minéraux."},{"t":"Les glucides","j":"Les glucides comptent parmi les quatre familles de biomolécules organiques, synthétisées par les organismes vivants et donc exclusives à la matière vivante."},{"t":"Les protéines","j":"Les protéines sont des biomolécules organiques faites de chaînes de carbone et de groupes fonctionnels : elles n'existent que dans la matière vivante."},{"t":"Les acides nucléiques, chaînes de nucléotides","j":"Les acides nucléiques sont synthétisés par les organismes vivants et figurent, avec les glucides, les lipides et les protéines, parmi les molécules exclusives au vivant."}]},
+    {"q":"Quels bioéléments entrent dans la structure des lipides ?","c":1,"options":[{"t":"C, H et O, auxquels s'ajoutent parfois N, P et S","correct":true,"j":"Le cours décrit les lipides comme des chaînes de C, H et O, comportant parfois aussi de l'azote, du phosphore ou du soufre."},{"t":"C, H et O uniquement, sans aucun autre bioélément","j":"Cette composition refuse aux lipides les trois éléments que le cours ajoute pour certains d'entre eux."},{"t":"C et H uniquement, d'où leur caractère gras","j":"L'oxygène fait partie intégrante de la structure décrite par le cours ; l'omettre réduirait le lipide à un simple hydrocarbure."},{"t":"C, H, O et P, présents dans la totalité des lipides","j":"Le phosphore n'a rien de constant : le cours ne le mentionne que parmi les éléments présents « parfois » dans les lipides."}]},
+    {"q":"À quelle fonction des lipides les vitamines et les hormones stéroïdes se rattachent-elles ?","c":1,"options":[{"t":"À la fonction de biocatalyseur","correct":true,"j":"Le cours classe les vitamines et les hormones stéroïdes sous la fonction de biocatalyseur des lipides."},{"t":"À la fonction de stockage de l'énergie","j":"Le stockage de l'énergie revient aux triglycérides des cellules adipeuses, et non aux vitamines ni aux hormones."},{"t":"À la fonction de composant structurel des cellules","j":"La fonction structurelle est tenue par les phospholipides et le cholestérol, constituants des cellules."},{"t":"À la fonction de transport d'autres lipides","j":"Le transport d'autres lipides est bien une fonction lipidique citée par le cours, mais il ne concerne ni les vitamines ni les hormones."}]},
+    {"q":"À partir de quelle molécule les hormones stéroïdes sont-elles synthétisées ?","c":1,"options":[{"t":"Le cholestérol","correct":true,"j":"Le cours précise que les hormones stéroïdes sont synthétisées à partir du cholestérol."},{"t":"Les triglycérides","j":"Le triglycéride associe un glycérol à trois acides gras et sert de réserve ; il n'est pas présenté comme un précurseur hormonal."},{"t":"Les phospholipides","j":"Le phospholipide est un constituant des membranes cellulaires et non un précurseur d'hormones."},{"t":"Les acides gras saturés","j":"Les acides gras saturés entrent dans la composition d'autres lipides, mais le cours n'en fait pas l'origine des hormones stéroïdes."}]},
+    {"q":"Dans la formule générale d'un acide aminé, quelle partie diffère d'un acide aminé à l'autre ?","c":1,"options":[{"t":"La chaîne latérale","correct":true,"j":"Le cours bâtit les 20 acides aminés sur un même plan et note que la chaîne latérale est différente dans chacun d'eux."},{"t":"Le groupe aminé","j":"Le groupe aminé appartient au plan commun : on le retrouve identique dans les 20 acides aminés."},{"t":"Le groupe carboxyle","j":"Le groupe carboxyle fait lui aussi partie de la formule générale et se répète tel quel d'un acide aminé à l'autre."},{"t":"Le carbone central","j":"Le carbone qui porte les deux groupes et la chaîne latérale est commun à tous les acides aminés."}]},
+    {"q":"Les protéines contiennent toutes du carbone, de l'hydrogène, de l'oxygène et de l'azote. Quel bioélément supplémentaire n'est présent que dans quelques-unes d'entre elles ?","c":1,"options":[{"t":"Le soufre","correct":true,"j":"Le cours indique que toutes les protéines contiennent C, H, O et N, et que quelques-unes seulement contiennent du soufre."},{"t":"L'azote","j":"L'azote entre dans la composition de toutes les protéines sans exception, aux côtés du carbone, de l'hydrogène et de l'oxygène."},{"t":"Le phosphore","j":"Le phosphore compte parmi les bioéléments, mais le cours ne le fait pas entrer dans la composition des protéines."},{"t":"L'oxygène","j":"L'oxygène appartient à la composition commune à toutes les protéines, et non à une minorité d'entre elles."}]},
+    {"q":"Comment les deux chaînes de nucléotides de l'ADN sont-elles orientées l'une par rapport à l'autre ?","c":1,"options":[{"t":"Elles sont antiparallèles, donc de sens opposés","correct":true,"j":"Le cours décrit l'organisation tridimensionnelle de l'ADN comme deux chaînes de nucléotides antiparallèles et complémentaires."},{"t":"Elles sont parallèles, décalées d'un demi-tour","j":"Un décalage d'un demi-tour décrirait l'enroulement de l'hélice et non l'orientation des deux chaînes, que le cours qualifie d'antiparallèles."},{"t":"Elles sont antiparallèles par endroits","j":"Le cours ne décrit aucune alternance de ce genre : l'orientation opposée vaut sur toute la longueur de la molécule."},{"t":"Elles sont parallèles et de même sens","j":"Le cours décrit les deux chaînes de nucléotides comme antiparallèles, c'est-à-dire de sens opposés, et non orientées dans le même sens."}]},
+    {"q":"La physique est la branche des sciences qui étudie :","c":1,"options":[{"t":"la matière, l'énergie et leurs interactions","correct":true,"j":"Le cours définit ainsi la physique et lui rattache des domaines comme la mécanique, la chaleur ou l'électricité."},{"t":"la structure et les interactions de la matière","j":"C'est la définition que le cours donne de la chimie, qui laisse l'énergie hors de son objet."},{"t":"la composition chimique des êtres vivants","j":"La composition chimique des êtres vivants est l'objet de la biochimie ; la physique s'applique aussi aux corps sans vie."},{"t":"l'énergie et ses seules transformations thermiques","j":"La chaleur n'est qu'un domaine de la physique, à côté de la mécanique et de l'électricité : la restreindre ampute la définition."}]},
+    {"q":"Étymologiquement, la physiothérapie est la science du traitement au moyen :","c":1,"options":[{"t":"d'agents physiques, c'est-à-dire d'éléments naturels","correct":true,"j":"Le mot associe le grec physis, « nature », et therapéia, « traitement » : soigner au moyen d'agents physiques, les éléments naturels."},{"t":"d'agents pharmacologiques prescrits par le médecin traitant","j":"Le médicament ne figure pas dans l'étymologie du mot, qui renvoie à la nature et non à la pharmacologie."},{"t":"d'agents chimiques de synthèse administrés au patient","j":"Un produit de synthèse s'oppose précisément aux éléments naturels auxquels renvoie la racine physis."},{"t":"d'agents chirurgicaux appliqués aux tissus lésés","j":"L'acte chirurgical n'entre pas dans cette définition : le traitement y est obtenu par des agents naturels."}]},
+    {"q":"Quelle grandeur physique fondamentale a pour unité de base la candela ?","c":1,"options":[{"t":"L'intensité lumineuse","correct":true,"j":"La candela est l'unité de base de l'intensité lumineuse parmi les sept unités fondamentales du Système international."},{"t":"L'intensité du courant électrique","j":"L'intensité du courant électrique a pour unité de base l'ampère, et non la candela."},{"t":"La température thermodynamique","j":"La température figure bien parmi les sept grandeurs fondamentales, mais son unité de base est le kelvin."},{"t":"La quantité de substance","j":"La quantité de substance figure elle aussi parmi les sept grandeurs fondamentales, mais son unité de base est la mole et non la candela."}]},
+    {"q":"Quelle grandeur physique l'unité dérivée « pascal » mesure-t-elle ?","c":1,"options":[{"t":"La pression, rapport d'une force à une surface","correct":true,"j":"Le pascal est l'unité dérivée de la pression ; dans le Système international il équivaut à un newton par mètre carré."},{"t":"Le potentiel électrique entre deux points","j":"Le potentiel électrique se mesure en volts, soit des joules par coulomb."},{"t":"La charge électrique d'un courant continu","j":"La charge électrique se mesure en coulombs, qui valent un ampère-seconde."},{"t":"La résistance opposée par un conducteur","j":"La résistance électrique se mesure en ohms, soit des volts par ampère."}]},
+    {"q":"Quel préfixe du Système international correspond au facteur 10⁻⁶ ?","c":1,"options":[{"t":"Micro","correct":true,"j":"Le préfixe micro désigne le facteur 10⁻⁶, soit un millionième de l'unité de départ."},{"t":"Milli","j":"Le préfixe milli correspond au facteur 10⁻³, soit un millième de l'unité, mille fois plus grand."},{"t":"Nano","j":"Le préfixe nano correspond au facteur 10⁻⁹, soit mille fois plus petit que celui demandé."},{"t":"Pico","j":"Le préfixe pico correspond au facteur 10⁻¹², le plus petit des sous-multiples cités par le cours."}]}
   ],
   "structure1": [
     {
