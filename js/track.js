@@ -31,14 +31,29 @@
      bloquée pourrait occuper une des connexions que le navigateur réserve par domaine, et
      ralentir l'affichage. En démarrant après `load`, il n'y a plus rien à ralentir : la page
      est déjà utilisable, et le compteur travaille dans son coin. */
-  function demarrerPlusTard() {
-    try { setTimeout(function () { try { demarrerMouchard(); } catch (err) {} }, 1200); }
-    catch (err) {}
+  /* ⚠️ NE JAMAIS FAIRE DÉPENDRE LE DÉMARRAGE DU SEUL ÉVÉNEMENT `load`.
+     C'est le défaut introduit le 17/10/2026 et constaté le 18/10 : des visiteurs utilisaient
+     le site sans apparaître dans la console. `load` n'est émis qu'une fois TOUTES les
+     ressources arrivées, Google Fonts comprises ; sur un réseau où l'une d'elles traîne ou
+     est bloquée, `load` peut tarder très longtemps, et le compteur ne démarrait jamais.
+     On démarre donc au PREMIER des trois signaux qui survient — `load`, `DOMContentLoaded`,
+     ou un simple délai — et une seule fois. Le délai est le garde-fou : il garantit le
+     démarrage même si aucun événement n'arrive jamais. L'intention d'origine est préservée,
+     puisqu'on laisse toujours passer un court moment avant le premier envoi. */
+  var demarre = false;
+  function demarrerUneFois() {
+    if (demarre) return;
+    demarre = true;
+    try { demarrerMouchard(); } catch (err) {}
   }
   try {
-    if (document.readyState === "complete") demarrerPlusTard();
-    else window.addEventListener("load", demarrerPlusTard);
-  } catch (err) {}
+    setTimeout(demarrerUneFois, 2500);                       // garde-fou : toujours exécuté
+    if (document.readyState === "complete") setTimeout(demarrerUneFois, 300);
+    else {
+      window.addEventListener("load", function () { setTimeout(demarrerUneFois, 300); });
+      document.addEventListener("DOMContentLoaded", function () { setTimeout(demarrerUneFois, 1200); });
+    }
+  } catch (err) { demarrerUneFois(); }
 
   function demarrerMouchard() {
   /* DEUX adresses pour le même Worker, essayées dans l'ordre, et ce n'est pas de la ceinture
