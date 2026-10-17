@@ -34,151 +34,365 @@
      inversement. Seule la fonction de chargement diffère : ici elle est en CORS avec jeton
      porteur et retombe sur l'instantané ; là-bas elle lit l'API en local avec un cookie.
      ==================================================================== -->
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive">
-<meta name="referrer" content="no-referrer"><title>Yumerty · Console admin</title>
+<meta name="referrer" content="no-referrer">
+<title>Yumerty · Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#1c1814;--mut:#8a8072;--soft:#b3aa9a;--line:rgba(40,35,28,.09);--card:#fffdf8;--accent:#b9763f;--accent2:#d8a36a;--green:#4c9a5e}
-*{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif}
-body{margin:0;background:linear-gradient(165deg,#f4eee2 0%,#e9dfcd 100%);background-attachment:fixed;color:var(--ink);padding:26px 20px 60px}
-.wrap{max-width:1180px;margin:0 auto}
-.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:10px}
-.top h1{font-size:21px;margin:0;font-weight:800;letter-spacing:-.02em;display:flex;align-items:center;gap:9px}
-.top .r{display:flex;align-items:center;gap:16px}
-.top a{color:var(--accent);text-decoration:none;font-size:13px;font-weight:700;padding:7px 14px;border:1px solid rgba(185,118,63,.28);border-radius:9px}
-.top a:hover{background:rgba(185,118,63,.08)}
-.sub{color:var(--mut);font-size:13px;margin:0 0 26px}
-.sec{margin:0 0 12px;display:flex;align-items:center;gap:9px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
-.sec::before{content:"";width:4px;height:15px;border-radius:3px;background:linear-gradient(180deg,var(--accent),var(--accent2))}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:13px;margin-bottom:26px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:16px 18px;box-shadow:0 10px 28px -22px rgba(90,70,40,.5)}
-.card .n{font-size:29px;font-weight:800;letter-spacing:-.03em;line-height:1.05}
-.card .l{font-size:11.5px;color:var(--mut);margin-top:4px;font-weight:500}
-.card.live{background:linear-gradient(135deg,#e9f6ed,#fffdf8);border-color:rgba(76,154,94,.3)}
-.card.live .n{color:var(--green);display:flex;align-items:center;gap:9px}
-.card.live .n::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(76,154,94,.5);animation:pulse 1.8s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(76,154,94,.45)}70%{box-shadow:0 0 0 8px rgba(76,154,94,0)}100%{box-shadow:0 0 0 0 rgba(76,154,94,0)}}
-.grid2{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}@media(max-width:1100px){.grid2{grid-template-columns:1fr 1fr}}@media(max-width:780px){.grid2{grid-template-columns:1fr}}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin-bottom:16px;box-shadow:0 12px 34px -26px rgba(90,70,40,.5)}
-.panel.scroll{overflow-x:auto}
-.panel h2{font-size:14.5px;margin:0 0 4px;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
-.panel .hint{font-size:12px;color:var(--soft);margin:0 0 16px}
-.minicards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:11px;margin:6px 0 20px}
-.mc{background:#fbf5ea;border:1px solid var(--line);border-radius:13px;padding:13px 15px}
-.mc .n{font-size:24px;font-weight:800;letter-spacing:-.02em}.mc .l{font-size:11px;color:var(--mut);margin-top:2px}
-.bars{display:flex;align-items:flex-end;gap:4px;height:158px;padding:20px 0 0}
-.bar{flex:1;background:linear-gradient(180deg,var(--accent),var(--accent2));border-radius:5px 5px 0 0;min-height:3px;position:relative;transition:filter .12s}
-.bar:hover{filter:brightness(1.08)}
-.bar span{position:absolute;top:-16px;left:-4px;right:-4px;text-align:center;font-size:10px;color:var(--mut);font-weight:700}
-.bar em{position:absolute;bottom:-18px;left:-6px;right:-6px;text-align:center;font-size:9.5px;color:var(--soft);font-style:normal}
-.rowbar{display:flex;align-items:center;gap:11px;margin:8px 0;font-size:13px}
-.rowbar .lab{width:118px;flex:none;font-weight:500}.rowbar .tr{flex:1;background:#efe6d7;border-radius:7px;height:15px;overflow:hidden}
-.rowbar .fl{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:7px}.rowbar .v{width:44px;text-align:right;color:var(--mut);font-weight:700;font-variant-numeric:tabular-nums}
+/* ===========================================================================
+   Yumerty · Console — direction artistique refaite le 18/10/2026.
+
+   POURQUOI UNE REFONTE. La version précédente reprenait le tableau de bord de l'ancien
+   Worker, auquel j'avais ajouté des cartes au fil des demandes. Résultat : onze cartes de
+   natures incomparables (un compteur temps réel, deux compteurs quotidiens, cinq mesures sur
+   7 jours, un total) jetées dans une seule grille `auto-fit`, donc sans hiérarchie et avec
+   une dernière ligne orpheline ; un accent orange (#b9763f) étranger à la palette du site ;
+   et un graphique de 60 barres dont les valeurs inscrites à l'intérieur débordaient dès que
+   les barres passaient sous ~30 px.
+
+   PRINCIPES DE CETTE VERSION
+   1. Même langage visuel que le site : tokens de styles.css (beige chaud, encre #1c1814),
+      Archivo pour les chiffres et les titres, Hanken Grotesk pour le texte.
+   2. Une section = une question. On ne mélange plus des mesures de périodes différentes dans
+      une même grille : « maintenant », « audience », « engagement », « historique »,
+      « répartition », « détail ».
+   3. Comparabilité : dans une grille, toutes les cartes portent la MÊME mesure sur des
+      périodes différentes, ou la même période sur des mesures voisines. C'est ce qui rend la
+      lecture proportionnée.
+   4. Nombre de colonnes EXPLICITE à chaque palier, jamais d'`auto-fit` : c'est l'auto-fit qui
+      produisait des lignes bancales selon la largeur.
+   5. Échelle typographique et espacements pris dans une suite fixe, pas ajustés au cas par cas.
+   =========================================================================== */
+
+:root{
+  /* Palette reprise de styles.css, pour que la console et le site se ressemblent. */
+  --fond-0:#e9e4db; --fond-1:#f2eee6; --carte:#fbf9f4;
+  --encre:#1c1814; --encre-douce:#6f6960; --encre-pale:#a8a399;
+  --trait:rgba(40,35,28,.10); --trait-fort:rgba(40,35,28,.18);
+  --voile:rgba(40,35,28,.035);
+  --bien:#5a8a4e; --bien-voile:rgba(90,138,78,.12);
+  --mal:#c0533a; --mal-voile:rgba(192,83,58,.10);
+  /* Échelle d'espacement : 4 / 8 / 12 / 16 / 24 / 32 / 48 */
+  --e1:4px; --e2:8px; --e3:12px; --e4:16px; --e5:24px; --e6:32px; --e7:48px;
+  --rayon:14px; --rayon-s:10px;
+  --ombre:0 1px 2px rgba(40,35,28,.04), 0 8px 24px -16px rgba(40,35,28,.18);
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; padding:0 var(--e4) var(--e7);
+  background:linear-gradient(170deg,var(--fond-0) 0%,var(--fond-1) 60%,var(--carte) 100%);
+  background-attachment:fixed;
+  color:var(--encre);
+  font:400 15px/1.55 'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.enveloppe{max-width:1120px;margin:0 auto}
+
+/* ---------- En-tête ---------- */
+.entete{
+  display:flex;align-items:baseline;justify-content:space-between;gap:var(--e4);
+  flex-wrap:wrap;padding:var(--e5) 0 var(--e4);
+  border-bottom:1px solid var(--trait);margin-bottom:var(--e5);
+}
+.entete h1{
+  font:800 24px/1.1 'Archivo','Hanken Grotesk',sans-serif;
+  letter-spacing:-.025em;margin:0;
+}
+.entete h1 span{color:var(--encre-pale);font-weight:500}
+.entete .droite{display:flex;align-items:center;gap:var(--e4);font-size:13px;color:var(--encre-douce)}
+.entete a{
+  color:var(--encre);text-decoration:none;font-weight:600;font-size:13px;
+  padding:7px 13px;border:1px solid var(--trait-fort);border-radius:var(--rayon-s);
+}
+.entete a:hover{background:var(--voile)}
+
+/* ---------- Titres de section ---------- */
+.sec{
+  display:flex;align-items:baseline;gap:var(--e3);
+  margin:var(--e6) 0 var(--e3);
+}
+.sec h2{
+  font:800 13px/1 'Archivo',sans-serif;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--encre);margin:0;
+}
+.sec p{margin:0;font-size:13px;color:var(--encre-pale)}
+.sec:first-of-type{margin-top:0}
+
+/* ---------- Cartes de mesure ----------
+   Colonnes explicites : 3 ou 4 selon la section, jamais d'auto-fit. */
+.grille{display:grid;gap:var(--e3)}
+.grille.trois{grid-template-columns:repeat(3,1fr)}
+.grille.quatre{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.grille.trois,.grille.quatre{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grille.trois,.grille.quatre{grid-template-columns:1fr}}
+
+.carte{
+  background:var(--carte);border:1px solid var(--trait);border-radius:var(--rayon);
+  padding:var(--e4);box-shadow:var(--ombre);min-width:0;
+}
+.carte .mesure{
+  font:800 30px/1.05 'Archivo',sans-serif;letter-spacing:-.03em;
+  display:flex;align-items:baseline;gap:var(--e2);overflow-wrap:anywhere;
+}
+.carte .mesure small{font:600 14px/1 'Archivo',sans-serif;color:var(--encre-pale)}
+.carte .nom{font-size:12.5px;color:var(--encre-douce);margin-top:var(--e1);font-weight:500}
+.carte .var{font-size:11.5px;font-weight:700;margin-top:var(--e2);min-height:16px}
+
+/* La carte « en ligne » est la seule à porter une couleur : c'est le repère vivant. */
+.carte.vivant{background:linear-gradient(145deg,var(--bien-voile),var(--carte));border-color:rgba(90,138,78,.28)}
+.carte.vivant .mesure{color:var(--bien)}
+.pastille{
+  width:7px;height:7px;border-radius:50%;background:var(--bien);display:inline-block;
+  box-shadow:0 0 0 4px var(--bien-voile);animation:battre 2.4s ease-in-out infinite;
+}
+@keyframes battre{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.pastille{animation:none}}
+
+.var.up{color:var(--bien)}
+.var.down{color:var(--mal)}
+.var.flat{color:var(--encre-pale)}
+
+/* ---------- Panneaux ---------- */
+.panneau{
+  background:var(--carte);border:1px solid var(--trait);border-radius:var(--rayon);
+  padding:var(--e5);box-shadow:var(--ombre);margin-bottom:var(--e3);min-width:0;
+}
+.panneau > h3{
+  font:800 15px/1.2 'Archivo',sans-serif;letter-spacing:-.01em;margin:0 0 var(--e1);
+  display:flex;align-items:center;gap:var(--e2);
+}
+.hint{font-size:12.5px;color:var(--encre-pale);margin:0 0 var(--e4);line-height:1.5}
+.badge{
+  font:700 11px/1 'Archivo',sans-serif;color:var(--encre-douce);background:var(--voile);
+  border:1px solid var(--trait);border-radius:999px;padding:4px 9px;white-space:nowrap;
+}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--e3)}
+@media(max-width:900px){.trio{grid-template-columns:1fr}}
+
+/* ---------- Bandeau d'alerte ---------- */
+.bandeau{
+  background:var(--mal-voile);border:1px solid rgba(192,83,58,.28);color:#8d3d2a;
+  font-size:13px;line-height:1.5;padding:var(--e3) var(--e4);border-radius:var(--rayon-s);
+  margin-bottom:var(--e4);
+}
+
+/* ---------- Onglets ---------- */
+.onglets{display:inline-flex;gap:var(--e1);background:var(--voile);border:1px solid var(--trait);
+  border-radius:var(--rayon-s);padding:3px;margin:0 0 var(--e4);flex-wrap:wrap}
+.onglets button{
+  font:700 13px/1 'Hanken Grotesk',sans-serif;color:var(--encre-douce);
+  background:transparent;border:0;border-radius:7px;padding:8px 15px;cursor:pointer;
+}
+.onglets button:hover{color:var(--encre)}
+.onglets button.on{color:var(--carte);background:var(--encre)}
+
+/* ---------- Mini-mesures d'un panneau ---------- */
+.minis{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--e3);margin:0 0 var(--e5)}
+@media(max-width:760px){.minis{grid-template-columns:repeat(2,1fr)}}
+.mini{border-left:2px solid var(--trait);padding-left:var(--e3);min-width:0}
+.mini .n{font:800 21px/1.1 'Archivo',sans-serif;letter-spacing:-.02em;overflow-wrap:anywhere}
+.mini .l{font-size:12px;color:var(--encre-douce);margin-top:2px}
+.mini .var{font-size:11px;font-weight:700;margin-top:var(--e1);min-height:15px}
+
+/* ---------- Graphique en barres ----------
+   Les valeurs ne sont PLUS inscrites dans les barres : c'est ce qui débordait dès que la
+   barre passait sous 30 px de large. Elles sont dans l'infobulle, et l'axe ne porte que
+   quelques repères. Les barres ont une largeur minimale et le graphique défile si besoin. */
+.cadre-graphe{overflow-x:auto;overflow-y:hidden;padding-bottom:var(--e2);margin-bottom:var(--e4)}
+.bars{display:flex;align-items:flex-end;gap:3px;height:150px;min-width:100%;padding-top:var(--e4)}
+.bar{
+  flex:1 0 auto;min-width:9px;background:var(--encre);opacity:.78;
+  border-radius:3px 3px 0 0;min-height:2px;position:relative;
+}
+.bar:hover{opacity:1}
+.bar.creux{background:repeating-linear-gradient(135deg,var(--trait) 0 3px,transparent 3px 6px);opacity:1}
+.bar em{
+  position:absolute;top:100%;left:50%;transform:translateX(-50%);
+  margin-top:6px;font:600 10px/1 'Hanken Grotesk',sans-serif;color:var(--encre-pale);
+  font-style:normal;white-space:nowrap;
+}
+
+/* ---------- Barres de répartition ---------- */
+.rowbar{display:grid;grid-template-columns:minmax(74px,auto) 1fr auto;align-items:center;
+  gap:var(--e3);padding:7px 0}
+.rowbar + .rowbar{border-top:1px solid var(--trait)}
+.lab{font-size:13px;color:var(--encre);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tr{height:6px;background:var(--voile);border-radius:999px;overflow:hidden}
+.fl{height:100%;background:var(--encre);opacity:.72;border-radius:999px}
+.v{font:700 13px/1 'Archivo',sans-serif;color:var(--encre);text-align:right;min-width:32px}
+
+/* ---------- Tableaux ---------- */
+.defile{overflow:auto;max-height:420px;border:1px solid var(--trait);border-radius:var(--rayon-s)}
 table{width:100%;border-collapse:collapse;font-size:13px}
-th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);white-space:nowrap}
-tr:last-child td{border-bottom:none}
-th{color:var(--soft);font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em}
-tbody tr:hover{background:#faf4e9}
-.mut{color:var(--soft)}.mono{font-variant-numeric:tabular-nums;color:var(--mut)}
-.note{font-size:12px;color:var(--soft);margin-top:14px;line-height:1.5}
-.badge{display:inline-block;font-size:10.5px;font-weight:700;color:var(--green);background:rgba(76,154,94,.12);padding:2px 8px;border-radius:20px;vertical-align:middle}
+th{
+  position:sticky;top:0;background:var(--carte);text-align:left;
+  font:700 11px/1 'Archivo',sans-serif;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--encre-douce);padding:10px var(--e3);border-bottom:1px solid var(--trait);
+  white-space:nowrap;z-index:1;
+}
+td{padding:9px var(--e3);border-bottom:1px solid var(--trait);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--voile)}
+.mono{font:600 12.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--encre-douce)}
+.mut{color:var(--encre-pale)}
 
-/* Écran de connexion + bandeau d'état, ajoutés par rapport au tableau de bord du Worker. */
-.box{max-width:340px;margin:16vh auto;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 26px;box-shadow:0 18px 44px -28px rgba(90,70,40,.55);text-align:center}
-.box h1{font-size:20px;margin:0 0 4px;font-weight:800;letter-spacing:-.02em}
-.box p{color:var(--mut);font-size:13px;margin:0 0 20px}
-.box input{width:100%;padding:12px 14px;font-size:15px;border:1px solid var(--line);border-radius:11px;background:#fff;color:var(--ink);margin-bottom:11px}
-.box input:focus{outline:none;border-color:var(--accent)}
-.box button{width:100%;padding:12px;font-size:15px;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;border-radius:11px;cursor:pointer}
-.box button[disabled]{opacity:.55;cursor:default}
-.err{background:rgba(185,63,63,.1);border:1px solid rgba(185,63,63,.3);color:#9d3b3b;font-size:13px;padding:9px 12px;border-radius:9px;margin-bottom:14px}
-.bandeau{background:rgba(216,163,106,.16);border:1px solid rgba(185,118,63,.32);color:#8a5a2b;font-size:13px;padding:10px 14px;border-radius:11px;margin:0 0 16px;line-height:1.45}
-#ecranAdmin[hidden],#ecranConnexion[hidden]{display:none}
-
-/* Onglets de granularité et pastilles de variation, ajoutés avec l'historique d'activité. */
-.onglets{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}
-.onglets button{font:inherit;font-size:13px;font-weight:700;color:var(--mut);background:transparent;border:1px solid var(--line);border-radius:9px;padding:7px 14px;cursor:pointer}
-.onglets button:hover{background:rgba(185,118,63,.06)}
-.onglets button.on{color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent}
-.var{font-size:11.5px;font-weight:700;margin-top:3px;min-height:15px}
-.var.up{color:var(--green)}
-.var.down{color:#9d3b3b}
-.var.flat{color:var(--soft)}
-</style></head><body>
-<div class="box" id="ecranConnexion">
-  <h1>Yumerty · Console</h1>
-  <p>Accès réservé</p>
+/* ---------- Écran de connexion ---------- */
+.boite{
+  max-width:330px;margin:14vh auto;background:var(--carte);
+  border:1px solid var(--trait);border-radius:18px;padding:var(--e6) var(--e5);
+  box-shadow:0 2px 4px rgba(40,35,28,.04),0 24px 60px -34px rgba(40,35,28,.4);text-align:center;
+}
+.boite h1{font:800 20px/1.2 'Archivo',sans-serif;letter-spacing:-.02em;margin:0 0 var(--e1)}
+.boite p{color:var(--encre-douce);font-size:13px;margin:0 0 var(--e5)}
+.boite input{
+  width:100%;padding:12px 14px;font:400 15px/1 'Hanken Grotesk',sans-serif;
+  border:1px solid var(--trait-fort);border-radius:var(--rayon-s);
+  background:#fff;color:var(--encre);margin-bottom:var(--e2);
+}
+.boite input:focus{outline:none;border-color:var(--encre)}
+.boite button{
+  width:100%;padding:12px;font:700 15px/1 'Hanken Grotesk',sans-serif;
+  color:var(--carte);background:var(--encre);border:0;border-radius:var(--rayon-s);cursor:pointer;
+}
+.boite button:hover{opacity:.88}
+.boite button[disabled]{opacity:.5;cursor:default}
+.err{
+  background:var(--mal-voile);border:1px solid rgba(192,83,58,.28);color:#8d3d2a;
+  font-size:13px;padding:9px var(--e3);border-radius:var(--rayon-s);margin-bottom:var(--e4);
+  text-align:left;line-height:1.45;
+}
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+<div class="boite" id="ecranConnexion">
+  <h1>Yumerty</h1>
+  <p>Console de statistiques — accès réservé</p>
   <div class="err" id="erreur" hidden></div>
   <form id="formConnexion">
     <input type="password" id="motdepasse" placeholder="Mot de passe" autofocus autocomplete="current-password">
     <button type="submit" id="bouton">Entrer</button>
   </form>
 </div>
+
 <div id="ecranAdmin" hidden>
-<div class="wrap">
- <div class="top"><h1>📊 Yumerty <span class="mut" style="font-weight:600">· Console admin</span></h1>
-  <div class="r"><span id="upd" class="mut" style="font-size:12px"></span><a href="#" id="sortir">Déconnexion</a></div></div>
- <div id="bandeau" class="bandeau" hidden></div>
+<div class="enveloppe">
+
+  <div class="entete">
+    <h1>Yumerty <span>· statistiques</span></h1>
+    <div class="droite"><span id="upd"></span><a href="#" id="sortir">Déconnexion</a></div>
+  </div>
+
+  <div id="bandeau" class="bandeau" hidden></div>
   <p id="quota" class="hint" hidden></p>
-  <p class="sub">Statistiques réelles du site — robots et scanners exclus, IP jamais stockée en clair. Le temps réel est recalculé à chaque rafraîchissement ; l'historique une fois par heure.</p>
 
- <div class="sec">⚡ En temps réel &amp; 7 derniers jours</div>
- <div class="cards">
-  <div class="card live"><div class="n" id="c_online">–</div><div class="l">En ligne maintenant</div></div>
-  <div class="card"><div class="n" id="c_today">–</div><div class="l">Visiteurs aujourd'hui</div></div>
-  <div class="card"><div class="n" id="c_hier">–</div><div class="l">Visiteurs hier</div></div>
-  <div class="card"><div class="n" id="c_week">–</div><div class="l">Visiteurs uniques (7 j)</div></div>
-  <div class="card"><div class="n" id="c_wvis">–</div><div class="l">Visites (7 j)</div></div>
-  <div class="card"><div class="n" id="c_wtime">–</div><div class="l">Temps passé (7 j)</div></div>
-  <div class="card"><div class="n" id="c_wmoy">–</div><div class="l">Temps moyen par visiteur (7 j)</div></div>
-  <div class="card"><div class="n" id="c_wpages">–</div><div class="l">Pages par visiteur (7 j)</div></div>
-  <div class="card"><div class="n" id="c_wquiz">–</div><div class="l">Quiz lancés (7 j)</div></div>
-  <div class="card"><div class="n" id="c_mois">–</div><div class="l">Visiteurs uniques (30 j)</div></div>
-  <div class="card"><div class="n" id="c_total">–</div><div class="l">Visiteurs uniques (total)</div></div>
- </div>
+  <!-- 1. MAINTENANT — la seule section qui réclame un coup d'œil immédiat. -->
+  <div class="sec"><h2>Maintenant</h2><p>robots et scanners exclus</p></div>
+  <div class="grille trois">
+    <div class="carte vivant">
+      <div class="mesure"><span class="pastille"></span><span id="c_online">–</span></div>
+      <div class="nom">Personnes actives (6 dernières minutes)</div>
+    </div>
+    <div class="carte">
+      <div class="mesure" id="c_today">–</div>
+      <div class="nom">Visiteurs aujourd'hui</div>
+      <div class="var" id="v_today"></div>
+    </div>
+    <div class="carte">
+      <div class="mesure" id="c_hier">–</div>
+      <div class="nom">Visiteurs hier</div>
+    </div>
+  </div>
 
- <div class="sec">📈 Activité du site</div>
- <div class="panel">
-  <h2>Historique <span class="badge" id="h_portee">—</span></h2>
-  <p class="hint" id="h_note"></p>
-  <div class="onglets">
-   <button type="button" data-g="jour" class="on">Par jour</button>
-   <button type="button" data-g="semaine">Par semaine</button>
-   <button type="button" data-g="mois">Par mois</button>
+  <!-- 2. AUDIENCE — la MÊME mesure sur trois périodes : directement comparable. -->
+  <div class="sec"><h2>Audience</h2><p>personnes distinctes, par période</p></div>
+  <div class="grille trois">
+    <div class="carte"><div class="mesure" id="c_week">–</div><div class="nom">7 derniers jours</div></div>
+    <div class="carte"><div class="mesure" id="c_mois">–</div><div class="nom">30 derniers jours</div></div>
+    <div class="carte"><div class="mesure" id="c_total">–</div><div class="nom">Depuis l'ouverture du site</div></div>
   </div>
-  <div class="minicards">
-   <div class="mc"><div class="n" id="h_u">–</div><div class="l" id="h_ul">Visiteurs</div><div class="var" id="h_uv"></div></div>
-   <div class="mc"><div class="n" id="h_v">–</div><div class="l">Pages vues</div><div class="var" id="h_vv"></div></div>
-   <div class="mc"><div class="n" id="h_q">–</div><div class="l">Quiz lancés</div><div class="var" id="h_qv"></div></div>
-   <div class="mc"><div class="n" id="h_t">–</div><div class="l">Temps passé</div><div class="var" id="h_tv"></div></div>
-  </div>
-  <div class="bars" id="h_bars"></div><div style="height:22px"></div>
-  <div class="scroll" style="max-height:260px"><table id="h_table"><thead><tr><th>Période</th><th>Visiteurs</th><th>Pages vues</th><th>Quiz</th><th>Temps</th></tr></thead><tbody id="h_corps"></tbody></table></div>
-  <div style="border-top:1px solid var(--line);padding-top:16px;margin-top:18px">
-   <div class="sec" style="margin-bottom:12px">🧮 Depuis l'ouverture du site</div>
-   <div class="minicards">
-    <div class="mc"><div class="n" id="g_u">–</div><div class="l">Jours-visiteurs cumulés</div></div>
-    <div class="mc"><div class="n" id="g_v">–</div><div class="l">Pages vues</div></div>
-    <div class="mc"><div class="n" id="g_q">–</div><div class="l">Quiz lancés</div></div>
-    <div class="mc"><div class="n" id="g_t">–</div><div class="l">Temps passé</div></div>
-   </div>
-   <p class="hint" id="g_note"></p>
-  </div>
- </div>
- <div class="grid2">
-  <div class="panel scroll"><h2>🌍 Pays des visiteurs</h2><p class="hint">Visiteurs uniques réels suivis (par IP, un robot = 1 personne), 7 derniers jours</p><div id="p_countries"></div></div>
-  <div class="panel scroll"><h2>📱 Appareils</h2><p class="hint">Visiteurs uniques réels suivis, 7 derniers jours</p><div id="p_devices"></div></div>
-  <div class="panel scroll"><h2>🧭 Navigateurs</h2><p class="hint">Visiteurs uniques réels suivis, 7 derniers jours</p><div id="p_navigateurs"></div></div>
- </div>
 
- <div class="sec">🟢 Activité détaillée</div>
- <div class="panel scroll"><h2>En ligne actuellement</h2>
-  <table><thead><tr><th>ID</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Vu il y a</th></tr></thead><tbody id="t_online"></tbody></table></div>
- <div class="panel scroll"><h2>👥 Utilisateurs — 7 derniers jours</h2>
-  <p class="hint">Qui · combien de fois · combien de temps · où — chaque ligne = un visiteur unique (anonymisé)</p>
-  <table><thead><tr><th>ID</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Visites</th><th>Quiz</th><th>Temps</th><th>Jours</th><th>1re</th><th>Dernière</th></tr></thead><tbody id="t_users"></tbody></table></div>
+  <!-- 3. ENGAGEMENT — quatre mesures sur la MÊME période de 7 jours. -->
+  <div class="sec"><h2>Engagement</h2><p>sur les 7 derniers jours</p></div>
+  <div class="grille quatre">
+    <div class="carte"><div class="mesure" id="c_wmoy">–</div><div class="nom">Temps moyen par visiteur</div></div>
+    <div class="carte"><div class="mesure" id="c_wpages">–</div><div class="nom">Pages par visiteur</div></div>
+    <div class="carte"><div class="mesure" id="c_wvis">–</div><div class="nom">Pages vues</div></div>
+    <div class="carte"><div class="mesure" id="c_wquiz">–</div><div class="nom">Quiz lancés</div></div>
+  </div>
+
+  <!-- 4. HISTORIQUE -->
+  <div class="sec"><h2>Historique</h2><p id="h_portee"></p></div>
+  <div class="panneau">
+    <div class="onglets">
+      <button type="button" data-g="jour" class="on">Par jour</button>
+      <button type="button" data-g="semaine">Par semaine</button>
+      <button type="button" data-g="mois">Par mois</button>
+    </div>
+    <div class="minis">
+      <div class="mini"><div class="n" id="h_u">–</div><div class="l" id="h_ul">Visiteurs</div><div class="var" id="h_uv"></div></div>
+      <div class="mini"><div class="n" id="h_v">–</div><div class="l">Pages vues</div><div class="var" id="h_vv"></div></div>
+      <div class="mini"><div class="n" id="h_q">–</div><div class="l">Quiz lancés</div><div class="var" id="h_qv"></div></div>
+      <div class="mini"><div class="n" id="h_t">–</div><div class="l">Temps passé</div><div class="var" id="h_tv"></div></div>
+    </div>
+    <div class="cadre-graphe"><div class="bars" id="h_bars"></div></div>
+    <p class="hint" id="h_note"></p>
+    <div class="defile">
+      <table><thead><tr><th>Période</th><th>Visiteurs</th><th>Pages vues</th><th>Quiz</th><th>Temps</th></tr></thead>
+      <tbody id="h_corps"></tbody></table>
+    </div>
+  </div>
+
+  <div class="panneau">
+    <h3>Depuis l'ouverture du site</h3>
+    <p class="hint" id="g_note"></p>
+    <div class="minis" style="margin-bottom:0">
+      <div class="mini"><div class="n" id="g_u">–</div><div class="l">Jours-visiteurs cumulés</div></div>
+      <div class="mini"><div class="n" id="g_v">–</div><div class="l">Pages vues</div></div>
+      <div class="mini"><div class="n" id="g_q">–</div><div class="l">Quiz lancés</div></div>
+      <div class="mini"><div class="n" id="g_t">–</div><div class="l">Temps passé</div></div>
+    </div>
+  </div>
+
+  <!-- 5. RÉPARTITION -->
+  <div class="sec"><h2>D'où viennent-ils</h2><p>personnes distinctes, 7 derniers jours</p></div>
+  <div class="trio">
+    <div class="panneau"><h3>Pays</h3><div id="p_countries"></div></div>
+    <div class="panneau"><h3>Appareils</h3><div id="p_devices"></div></div>
+    <div class="panneau"><h3>Navigateurs</h3><div id="p_navigateurs"></div></div>
+  </div>
+
+  <!-- 6. DÉTAIL -->
+  <div class="sec"><h2>Détail</h2><p>un identifiant anonyme par connexion, l'adresse IP n'est jamais conservée</p></div>
+  <div class="panneau">
+    <h3>Actives en ce moment</h3>
+    <p class="hint">Personnes dont la dernière action a moins de six minutes.</p>
+    <div class="defile" style="max-height:260px">
+      <table><thead><tr><th>Identifiant</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Vu</th></tr></thead>
+      <tbody id="t_online"></tbody></table>
+    </div>
+  </div>
+  <div class="panneau">
+    <h3>Visiteurs des 7 derniers jours</h3>
+    <p class="hint">Une ligne par personne, cumulée sur la période.</p>
+    <div class="defile">
+      <table><thead><tr><th>Identifiant</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Pages</th><th>Quiz</th><th>Temps</th><th>Jours</th><th>Première</th><th>Dernière</th></tr></thead>
+      <tbody id="t_users"></tbody></table>
+    </div>
+  </div>
+
 </div>
 </div>
+
 <script>
 const F=t=>new Date(t).toLocaleString('fr-FR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
 const ago=(t,now)=>{const s=Math.max(0,Math.round((now-t)/1000));if(s<60)return s+' s';const m=Math.round(s/60);if(m<60)return m+' min';return Math.round(m/60)+' h';};
@@ -301,7 +515,7 @@ var dernieres = null;
 function serieDe(s) {
   return granularite === "semaine" ? (s.parSemaine || [])
        : granularite === "mois"    ? (s.parMois || [])
-       :                             (s.parJour || []);
+       :                             (s.parJour || []).slice(-30);
 }
 function mesuree(e) {
   // activité connue ? (jour : champ `complet` ; semaine/mois : au moins un jour mesuré)
@@ -328,7 +542,7 @@ function peindreHistoire(s) {
   dernieres = s;
   var serie = serieDe(s);
   var nom = granularite === "jour" ? "jour" : granularite === "semaine" ? "semaine" : "mois";
-  h_portee.textContent = serie.length + " " + (granularite === "mois" ? "mois" : nom + (serie.length > 1 ? "s" : ""));
+  h_portee.textContent = serie.length + " " + (granularite === "mois" ? "derniers mois" : (nom + (serie.length > 1 ? "s" : "")) + " les plus récents");
   h_ul.textContent = granularite === "jour" ? "Visiteurs" : "Jours-visiteurs";
 
   if (!serie.length) {
@@ -356,12 +570,19 @@ function peindreHistoire(s) {
     + (manquants ? " " + manquants + " " + nom + (manquants > 1 ? "s" : "") + " d'avant octobre 2026 n'ont que le nombre de visiteurs : l'activité détaillée n'était pas encore conservée, elle est donc marquée « — » et non zéro." : "");
 
   var mx = Math.max(1, ...serie.map(function (e) { return e.u; }));
-  var pas = Math.max(1, Math.ceil(serie.length / 10));
+  /* Un repère d'axe tous les N, N choisi pour en avoir au plus 8 : au-delà les étiquettes se
+     chevauchent. Et le dernier point porte toujours son étiquette, c'est celui qu'on lit. */
+  var pas = Math.max(1, Math.ceil(serie.length / 8));
   h_bars.innerHTML = serie.map(function (e, i) {
-    var t = etiquette(e.cle) + " : " + e.u + (granularite === "jour" ? " visiteur(s)" : " jours-visiteurs")
-      + (mesuree(e) ? ", " + e.v + " pages vues, " + e.q + " quiz" : ", activité non conservée");
-    return '<div class=bar style="height:' + Math.round(e.u / mx * 100) + '%" title="' + esc(t) + '">'
-      + '<span>' + (e.u || '') + '</span>' + (i % pas === 0 ? '<em>' + esc(etiquette(e.cle)) + '</em>' : '') + '</div>';
+    var quoi = granularite === "jour" ? " visiteur(s)" : " jours-visiteurs";
+    var t = etiquette(e.cle) + " : " + e.u + quoi
+      + (mesuree(e) ? ", " + e.v + " pages vues, " + e.q + " quiz, " + dur(e.t)
+                    : " — activité détaillée non conservée pour cette période");
+    var repere = (i % pas === 0 || i === serie.length - 1);
+    return '<div class="bar' + (mesuree(e) ? '' : ' creux') + '"'
+      + ' style="height:' + Math.max(2, Math.round(e.u / mx * 100)) + '%"'
+      + ' title="' + esc(t) + '">'
+      + (repere ? '<em>' + esc(etiquette(e.cle)) + '</em>' : '') + '</div>';
   }).join("");
 
   h_corps.innerHTML = serie.slice().reverse().map(function (e) {
@@ -401,6 +622,8 @@ function bandeau(txt) {
 function peindre(s) {
   c_mois.textContent=s.moisUnique;c_online.textContent=s.onlineCount;
   c_hier.textContent=s.hier?s.hier.u:'–';
+  // Comparaison du jour en cours avec hier : le repère le plus parlant pour juger une journée.
+  pastille(v_today, s.todayCount, s.hier?s.hier.u:null, !!s.hier);
   c_wmoy.textContent=s.tempsMoyenWeek?dur(s.tempsMoyenWeek):'–';
   c_wpages.textContent=s.pagesMoyenWeek||'–';
   /* Surveillance du quota d'écritures : au-delà de 1 000 par jour sur le plan gratuit de
@@ -412,7 +635,7 @@ function peindre(s) {
       +(pc>=80?' ⚠️ Proche de la limite : au-delà, les visites de la journée ne seront plus enregistrées. Il faudra passer au plan payant (5 $/mois) ou migrer le stockage.':'');
     quota.className=pc>=80?'bandeau':'hint';
     quota.hidden=false;
-  }c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wtime.textContent=dur(s.weekTimeMs);c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
+  }c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
   t_online.innerHTML=s.online.map(o=>'<tr><td class=mono>'+sid(o.id)+'</td><td>'+FLAG(o.country)+' '+esc(o.country)+'</td><td>'+esc(o.city)+'</td><td>'+dev(o)+'</td><td>'+esc(o.br)+'</td><td class=mut>'+ago(o.t,s.now)+'</td></tr>').join('')||'<tr><td colspan=6 class=mut>Personne en ligne pour le moment</td></tr>';
   t_users.innerHTML=s.users7d.map(u=>'<tr><td class=mono>'+sid(u.id)+'</td><td>'+FLAG(u.country)+' '+esc(u.country)+'</td><td>'+esc(u.city)+'</td><td>'+dev(u)+'</td><td>'+esc(u.br)+'</td><td class=mono>'+u.visits+'</td><td class=mono>'+u.quiz+'</td><td class=mono>'+dur(u.timeMs)+'</td><td class=mono>'+u.days+'</td><td class=mut>'+F(u.first)+'</td><td class=mut>'+F(u.last)+'</td></tr>').join('')||'<tr><td colspan=11 class=mut>Les visiteurs apparaîtront ici dès la première visite.</td></tr>';
   peindreHistoire(s);
@@ -495,4 +718,6 @@ document.getElementById("sortir").addEventListener("click", function (ev) {
 // Jeton encore valable (rechargement de page) : on entre directement. L'instantané ne sera
 // alors pas déchiffrable faute de mot de passe en mémoire — le direct, lui, fonctionne.
 if (jeton()) entrer();
-</script></body></html>
+</script>
+</body>
+</html>
