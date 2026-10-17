@@ -25,6 +25,14 @@
      LE MOT DE PASSE ne quitte jamais ce navigateur. Il sert à (a) obtenir un jeton signé
      auprès du Worker, (b) dériver la clé de déchiffrement de l'instantané. Il n'est pas
      stocké ; seul le jeton, valable 7 jours, est gardé en sessionStorage.
+
+     DEUX COPIES DE CE TABLEAU DE BORD EXISTENT — garde-les cohérentes.
+     Le markup, le CSS et les utilitaires d'affichage de cette page sont repris de
+     dashboardPage() dans src/index.js, qui sert encore la console de secours à
+     https://stats.yumerty.com/admin (utile si GitHub Pages est en panne, ou pour déboguer le
+     Worker sans passer par le site). Si tu retouches l'apparence ici, reporte-la là-bas, et
+     inversement. Seule la fonction de chargement diffère : ici elle est en CORS avec jeton
+     porteur et retombe sur l'instantané ; là-bas elle lit l'API en local avec un cookie.
      ==================================================================== -->
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yumerty · Console admin</title>
 <style>
