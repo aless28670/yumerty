@@ -34,7 +34,9 @@
      inversement. Seule la fonction de chargement diffère : ici elle est en CORS avec jeton
      porteur et retombe sur l'instantané ; là-bas elle lit l'API en local avec un cookie.
      ==================================================================== -->
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yumerty · Console admin</title>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer"><title>Yumerty · Console admin</title>
 <style>
 :root{--ink:#1c1814;--mut:#8a8072;--soft:#b3aa9a;--line:rgba(40,35,28,.09);--card:#fffdf8;--accent:#b9763f;--accent2:#d8a36a;--green:#4c9a5e}
 *{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif}
@@ -193,6 +195,8 @@ var INSTANTANE = "https://raw.githubusercontent.com/aless28670/yumerty/stats/sta
 var CLE_JETON = "ym_jeton";
 var motdepasse = "";      // gardé en mémoire seulement, pour déchiffrer l'instantané
 var minuteur = null;
+var restants = null;        // essais restants avant blocage, renvoyés par le serveur
+var dernierBlocage = 0;     // secondes restantes de blocage
 
 function jeton() { try { return sessionStorage.getItem(CLE_JETON) || ""; } catch (e) { return ""; } }
 function poseJeton(t) { try { t ? sessionStorage.setItem(CLE_JETON, t) : sessionStorage.removeItem(CLE_JETON); } catch (e) {} }
@@ -209,7 +213,16 @@ async function obtenirJeton(pw) {
       body: JSON.stringify({ password: pw }), cache: "no-store",
     });
   } catch (e) { return "injoignable"; }
-  if (r.status === 401) return "refuse";
+  if (r.status === 429) {                        // trop d'essais : adresse temporairement bloquée
+    var reste = 0;
+    try { reste = (await r.json()).reste || 0; } catch (e) { reste = 0; }
+    dernierBlocage = reste;
+    return "bloque";
+  }
+  if (r.status === 401) {
+    try { restants = (await r.json()).restants; } catch (e) { restants = null; }
+    return "refuse";
+  }
   if (!r.ok) return "injoignable";
   try { poseJeton((await r.json()).token); return "ok"; } catch (e) { return "injoignable"; }
 }
@@ -407,8 +420,19 @@ document.getElementById("formConnexion").addEventListener("submit", async functi
   if (!pw) return;
   bouton.disabled = true; bouton.textContent = "Vérification…"; err.hidden = true;
   var etat = await obtenirJeton(pw);
+  if (etat === "bloque") {
+    var min = Math.ceil(dernierBlocage / 60);
+    err.hidden = false;
+    err.textContent = "Trop d'essais infructueux depuis ce réseau. Nouvelle tentative possible dans "
+      + (min > 1 ? min + " minutes" : "une minute") + ".";
+    bouton.disabled = false; bouton.textContent = "Entrer"; champ.value = "";
+    return;
+  }
   if (etat === "refuse") {
-    err.hidden = false; err.textContent = "Mot de passe incorrect";
+    err.hidden = false;
+    err.textContent = "Mot de passe incorrect"
+      + (typeof restants === "number" && restants > 0 && restants <= 2
+         ? " — encore " + restants + " essai" + (restants > 1 ? "s" : "") + " avant blocage temporaire." : ".");
     bouton.disabled = false; bouton.textContent = "Entrer"; champ.value = ""; champ.focus();
     return;
   }
