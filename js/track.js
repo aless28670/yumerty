@@ -22,6 +22,11 @@
    ========================================================= */
 (function () {
   "use strict";
+  // Le mouchard est accessoire : quoi qu'il arrive, il ne doit jamais faire remonter d'erreur
+  // (localStorage refusé en navigation privée, Promise absent, fetch bloqué par une extension…).
+  try { demarrerMouchard(); } catch (err) {}
+
+  function demarrerMouchard() {
   var ENDPOINT = "https://stats.yumerty.com/_ping";
   var FILE = "ym_file";      // clé localStorage de la file d'attente
   var FILE_MAX = 200;        // au-delà, on jette les plus anciens (bornage du stockage)
@@ -39,14 +44,33 @@
   }
 
   /* Un seul envoi. Résout vrai si le serveur a bien reçu, faux sinon (réseau bloqué, hors
-     ligne, erreur serveur) — c'est ce booléen qui décide de la mise en file. */
+     ligne, erreur serveur) — c'est ce booléen qui décide de la mise en file.
+
+     Pas d'en-tête personnalisé ni de corps : la requête reste « simple » au sens CORS, donc
+     le navigateur n'a pas besoin d'un préflight à chaque battement.
+
+     Repli en XMLHttpRequest : la cible de ce site descend jusqu'à ES2018 (voir la note de
+     compatibilité du projet : ni `?.` ni `??`, sous peine de planter de vieux iOS/Chrome).
+     fetch() y est normalement présent, mais s'il manque, un appel direct lèverait une
+     TypeError au chargement. XHR couvre ce cas sans rien changer au protocole. */
   function envoyer(e, t) {
     var url = ENDPOINT + "?e=" + encodeURIComponent(e) + (t ? "&t=" + t : "");
-    // Pas d'en-tête personnalisé ni de corps : la requête reste « simple » au sens CORS,
-    // donc le navigateur n'a pas besoin d'un préflight à chaque battement.
-    return fetch(url, { method: "POST", mode: "cors", credentials: "omit", keepalive: true })
-      .then(function (r) { return r.ok || r.status === 204; })
-      .catch(function () { return false; });
+    if (typeof fetch === "function") {
+      return fetch(url, { method: "POST", mode: "cors", credentials: "omit", keepalive: true })
+        .then(function (r) { return r.ok || r.status === 204; })
+        .catch(function () { return false; });
+    }
+    return new Promise(function (resolve) {
+      try {
+        var x = new XMLHttpRequest();
+        x.open("POST", url, true);
+        x.onload = function () { resolve(x.status === 204 || (x.status >= 200 && x.status < 300)); };
+        x.onerror = function () { resolve(false); };
+        x.ontimeout = function () { resolve(false); };
+        x.timeout = 10000;
+        x.send();
+      } catch (err) { resolve(false); }
+    });
   }
 
   /* Rejoue la file. On s'arrête au premier échec : si le réseau est encore bloqué, inutile
@@ -104,4 +128,5 @@
     if (document.visibilityState === "visible") { battre(); demarrer(); } else arreter();
   });
   if (document.visibilityState === "visible") demarrer();
+  }
 })();
