@@ -56,7 +56,12 @@
   var CLE_EP = "ym_adresse";
   var FILE = "ym_file";      // clé localStorage de la file d'attente
   var FILE_MAX = 200;        // au-delà, on jette les plus anciens (bornage du stockage)
-  var BATTEMENT = 60000;     // 60 s, sous la fenêtre « en ligne » de 90 s du serveur
+  /* Battement porté de 60 s à 4 min le 17/10/2026. Chaque battement coûte une écriture KV, et
+     le plan gratuit de Cloudflare en autorise 1 000 par jour : à 60 s, une session de dix
+     minutes en consommait dix, et quelques dizaines de visiteurs suffisaient à épuiser le
+     quota — après quoi les écritures échouent en silence et la journée est perdue.
+     La fenêtre « en ligne » du serveur a été portée à 6 min en conséquence. */
+  var BATTEMENT = 4 * 60000;
 
   function lire() {
     try { var v = JSON.parse(localStorage.getItem(FILE) || "[]"); return Array.isArray(v) ? v : []; }
