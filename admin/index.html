@@ -1,0 +1,304 @@
+<!-- ====================================================================
+     Yumerty — console de statistiques, servie par GitHub Pages.
+
+     POURQUOI CETTE PAGE EST ICI ET PAS SUR CLOUDFLARE
+     La console vivait dans le Worker Cloudflare, à https://yumerty.com/admin. Le site a été
+     déplacé sur GitHub Pages le 16/09/2026 parce que les IP partagées de Cloudflare sont
+     bloquées par intermittence par les FAI espagnols (blocage LaLiga pendant les matchs), et
+     la console est tombée avec lui. La remettre sur Cloudflare l'aurait rendue illisible
+     pendant ces fenêtres-là — précisément quand on est en Espagne.
+
+     Elle est donc servie par GitHub Pages, qui n'est jamais bloqué, et lit ses données de
+     DEUX sources, dans cet ordre :
+
+       1. EN DIRECT — https://stats.yumerty.com/admin/api/stats (le Worker, en CORS).
+          Temps réel, rafraîchi toutes les 8 s. Utilisé dès que Cloudflare est joignable.
+       2. INSTANTANÉ — raw.githubusercontent.com, branche `stats` du dépôt, réécrite toutes
+          les 30 min par .github/workflows/stats-snapshot.yml. Chiffré en AES-GCM avec une clé
+          dérivée du mot de passe (PBKDF2), parce que le dépôt est public : sans le mot de
+          passe le fichier est illisible. Utilisé quand le direct échoue, avec un bandeau
+          indiquant l'heure de l'instantané.
+
+     Conséquence : tu lis tes statistiques depuis n'importe où, blocage ou pas. Pendant un
+     blocage, elles ont au plus 30 minutes de retard au lieu d'être inaccessibles.
+
+     LE MOT DE PASSE ne quitte jamais ce navigateur. Il sert à (a) obtenir un jeton signé
+     auprès du Worker, (b) dériver la clé de déchiffrement de l'instantané. Il n'est pas
+     stocké ; seul le jeton, valable 7 jours, est gardé en sessionStorage.
+     ==================================================================== -->
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yumerty · Console admin</title>
+<style>
+:root{--ink:#1c1814;--mut:#8a8072;--soft:#b3aa9a;--line:rgba(40,35,28,.09);--card:#fffdf8;--accent:#b9763f;--accent2:#d8a36a;--green:#4c9a5e}
+*{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif}
+body{margin:0;background:linear-gradient(165deg,#f4eee2 0%,#e9dfcd 100%);background-attachment:fixed;color:var(--ink);padding:26px 20px 60px}
+.wrap{max-width:1180px;margin:0 auto}
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:10px}
+.top h1{font-size:21px;margin:0;font-weight:800;letter-spacing:-.02em;display:flex;align-items:center;gap:9px}
+.top .r{display:flex;align-items:center;gap:16px}
+.top a{color:var(--accent);text-decoration:none;font-size:13px;font-weight:700;padding:7px 14px;border:1px solid rgba(185,118,63,.28);border-radius:9px}
+.top a:hover{background:rgba(185,118,63,.08)}
+.sub{color:var(--mut);font-size:13px;margin:0 0 26px}
+.sec{margin:0 0 12px;display:flex;align-items:center;gap:9px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
+.sec::before{content:"";width:4px;height:15px;border-radius:3px;background:linear-gradient(180deg,var(--accent),var(--accent2))}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:13px;margin-bottom:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:16px 18px;box-shadow:0 10px 28px -22px rgba(90,70,40,.5)}
+.card .n{font-size:29px;font-weight:800;letter-spacing:-.03em;line-height:1.05}
+.card .l{font-size:11.5px;color:var(--mut);margin-top:4px;font-weight:500}
+.card.live{background:linear-gradient(135deg,#e9f6ed,#fffdf8);border-color:rgba(76,154,94,.3)}
+.card.live .n{color:var(--green);display:flex;align-items:center;gap:9px}
+.card.live .n::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(76,154,94,.5);animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(76,154,94,.45)}70%{box-shadow:0 0 0 8px rgba(76,154,94,0)}100%{box-shadow:0 0 0 0 rgba(76,154,94,0)}}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:780px){.grid2{grid-template-columns:1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin-bottom:16px;box-shadow:0 12px 34px -26px rgba(90,70,40,.5)}
+.panel.scroll{overflow-x:auto}
+.panel h2{font-size:14.5px;margin:0 0 4px;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
+.panel .hint{font-size:12px;color:var(--soft);margin:0 0 16px}
+.minicards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:11px;margin:6px 0 20px}
+.mc{background:#fbf5ea;border:1px solid var(--line);border-radius:13px;padding:13px 15px}
+.mc .n{font-size:24px;font-weight:800;letter-spacing:-.02em}.mc .l{font-size:11px;color:var(--mut);margin-top:2px}
+.bars{display:flex;align-items:flex-end;gap:4px;height:158px;padding:20px 0 0}
+.bar{flex:1;background:linear-gradient(180deg,var(--accent),var(--accent2));border-radius:5px 5px 0 0;min-height:3px;position:relative;transition:filter .12s}
+.bar:hover{filter:brightness(1.08)}
+.bar span{position:absolute;top:-16px;left:-4px;right:-4px;text-align:center;font-size:10px;color:var(--mut);font-weight:700}
+.bar em{position:absolute;bottom:-18px;left:-6px;right:-6px;text-align:center;font-size:9.5px;color:var(--soft);font-style:normal}
+.rowbar{display:flex;align-items:center;gap:11px;margin:8px 0;font-size:13px}
+.rowbar .lab{width:118px;flex:none;font-weight:500}.rowbar .tr{flex:1;background:#efe6d7;border-radius:7px;height:15px;overflow:hidden}
+.rowbar .fl{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:7px}.rowbar .v{width:44px;text-align:right;color:var(--mut);font-weight:700;font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+th{color:var(--soft);font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em}
+tbody tr:hover{background:#faf4e9}
+.mut{color:var(--soft)}.mono{font-variant-numeric:tabular-nums;color:var(--mut)}
+.note{font-size:12px;color:var(--soft);margin-top:14px;line-height:1.5}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;color:var(--green);background:rgba(76,154,94,.12);padding:2px 8px;border-radius:20px;vertical-align:middle}
+
+/* Écran de connexion + bandeau d'état, ajoutés par rapport au tableau de bord du Worker. */
+.box{max-width:340px;margin:16vh auto;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 26px;box-shadow:0 18px 44px -28px rgba(90,70,40,.55);text-align:center}
+.box h1{font-size:20px;margin:0 0 4px;font-weight:800;letter-spacing:-.02em}
+.box p{color:var(--mut);font-size:13px;margin:0 0 20px}
+.box input{width:100%;padding:12px 14px;font-size:15px;border:1px solid var(--line);border-radius:11px;background:#fff;color:var(--ink);margin-bottom:11px}
+.box input:focus{outline:none;border-color:var(--accent)}
+.box button{width:100%;padding:12px;font-size:15px;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;border-radius:11px;cursor:pointer}
+.box button[disabled]{opacity:.55;cursor:default}
+.err{background:rgba(185,63,63,.1);border:1px solid rgba(185,63,63,.3);color:#9d3b3b;font-size:13px;padding:9px 12px;border-radius:9px;margin-bottom:14px}
+.bandeau{background:rgba(216,163,106,.16);border:1px solid rgba(185,118,63,.32);color:#8a5a2b;font-size:13px;padding:10px 14px;border-radius:11px;margin:0 0 16px;line-height:1.45}
+#ecranAdmin[hidden],#ecranConnexion[hidden]{display:none}
+</style></head><body>
+<div class="box" id="ecranConnexion">
+  <h1>Yumerty · Console</h1>
+  <p>Accès réservé</p>
+  <div class="err" id="erreur" hidden></div>
+  <form id="formConnexion">
+    <input type="password" id="motdepasse" placeholder="Mot de passe" autofocus autocomplete="current-password">
+    <button type="submit" id="bouton">Entrer</button>
+  </form>
+</div>
+<div id="ecranAdmin" hidden>
+<div class="wrap">
+ <div class="top"><h1>📊 Yumerty <span class="mut" style="font-weight:600">· Console admin</span></h1>
+  <div class="r"><span id="upd" class="mut" style="font-size:12px"></span><a href="#" id="sortir">Déconnexion</a></div></div>
+ <div id="bandeau" class="bandeau" hidden></div>
+  <p class="sub">Statistiques réelles du site — robots &amp; scanners exclus.</p>
+
+ <div class="sec">⚡ En temps réel &amp; 7 derniers jours</div>
+ <div class="cards">
+  <div class="card live"><div class="n" id="c_online">–</div><div class="l">En ligne maintenant</div></div>
+  <div class="card"><div class="n" id="c_today">–</div><div class="l">Visiteurs aujourd'hui</div></div>
+  <div class="card"><div class="n" id="c_week">–</div><div class="l">Visiteurs uniques (7 j)</div></div>
+  <div class="card"><div class="n" id="c_wvis">–</div><div class="l">Visites (7 j)</div></div>
+  <div class="card"><div class="n" id="c_wtime">–</div><div class="l">Temps passé (7 j)</div></div>
+  <div class="card"><div class="n" id="c_wquiz">–</div><div class="l">Quiz lancés (7 j)</div></div>
+  <div class="card"><div class="n" id="c_total">–</div><div class="l">Visiteurs uniques (total)</div></div>
+ </div>
+
+ <div class="sec">📈 Historique du site — vrais visiteurs</div>
+ <div class="panel">
+  <h2>Pages vues par de vrais humains <span class="badge">robots exclus</span></h2>
+  <p class="hint">Données Cloudflare, filtrées aux vrais navigateurs (Chrome, Safari, Firefox…). Rétention <span id="cf_days">34</span> jours — le passé plus ancien n'est pas conservé par Cloudflare.</p>
+  <div class="minicards">
+   <div class="mc"><div class="n" id="cf_hum">–</div><div class="l">Pages humaines (période)</div></div>
+   <div class="mc"><div class="n" id="cf_avg">–</div><div class="l">Moyenne / jour</div></div>
+   <div class="mc"><div class="n" id="cf_bot">–</div><div class="l">Pages robots écartées</div></div>
+  </div>
+  <div class="bars" id="cf_bars"></div><div style="height:22px"></div>
+  <div style="border-top:1px solid var(--line);padding-top:16px"><div class="sec" style="margin-bottom:12px">🧭 Navigateurs des vrais visiteurs</div><div id="cf_browsers"></div></div>
+ </div>
+ <div class="grid2">
+  <div class="panel scroll"><h2>🌍 Pays des visiteurs</h2><p class="hint">Visiteurs uniques réels suivis (par IP, un robot = 1 personne), 7 derniers jours</p><div id="p_countries"></div></div>
+  <div class="panel scroll"><h2>📱 Appareils</h2><p class="hint">Visiteurs uniques réels suivis, 7 derniers jours</p><div id="p_devices"></div></div>
+ </div>
+
+ <div class="sec">🟢 Activité détaillée</div>
+ <div class="panel scroll"><h2>En ligne actuellement</h2>
+  <table><thead><tr><th>ID</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Vu il y a</th></tr></thead><tbody id="t_online"></tbody></table></div>
+ <div class="panel scroll"><h2>👥 Utilisateurs — 7 derniers jours</h2>
+  <p class="hint">Qui · combien de fois · combien de temps · où — chaque ligne = un visiteur unique (anonymisé)</p>
+  <table><thead><tr><th>ID</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Visites</th><th>Quiz</th><th>Temps</th><th>Jours</th><th>1re</th><th>Dernière</th></tr></thead><tbody id="t_users"></tbody></table></div>
+</div>
+</div>
+<script>
+const F=t=>new Date(t).toLocaleString('fr-FR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+const ago=(t,now)=>{const s=Math.max(0,Math.round((now-t)/1000));if(s<60)return s+' s';const m=Math.round(s/60);if(m<60)return m+' min';return Math.round(m/60)+' h';};
+const dur=ms=>{const s=Math.round(ms/1000);if(s<60)return s+' s';const m=Math.floor(s/60);if(m<60)return m+' min';const h=Math.floor(m/60);return h+' h'+(m%60?(' '+(m%60)+' m'):'');};
+const nb=n=>Number(n||0).toLocaleString('fr-FR');
+const dev=o=>(o.mobile?'📱 ':'💻 ')+(o.os||'');
+const esc=s=>String(s==null?'':s).replace(/[<>&]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[c]));
+const sid=id=>esc(String(id).slice(0,8));
+const FLAG=c=>{if(!c||c.length!==2||c==='??')return '🌐';return String.fromCodePoint(...[...c.toUpperCase()].map(x=>127397+x.charCodeAt()));};
+const rows=(arr,lab)=>{const mx=Math.max(1,...arr.map(a=>a[1]));return arr.map(a=>'<div class=rowbar><div class=lab>'+lab(a[0])+'</div><div class=tr><div class=fl style="width:'+(a[1]/mx*100)+'%"></div></div><div class=v>'+nb(a[1])+'</div></div>').join('')||'<div class=mut style="font-size:13px">—</div>';};
+
+/* ---------- Source des données : direct, puis instantané chiffré ---------- */
+var API = "https://stats.yumerty.com";
+// Branche `stats` du dépôt, réécrite toutes les 30 min par .github/workflows/stats-snapshot.yml.
+// raw.githubusercontent.com renvoie Access-Control-Allow-Origin: * et tourne sur les IP GitHub,
+// qui ne sont pas concernées par le blocage espagnol : c'est ce qui rend ce secours fiable.
+var INSTANTANE = "https://raw.githubusercontent.com/aless28670/yumerty/stats/stats.enc.json";
+var CLE_JETON = "ym_jeton";
+var motdepasse = "";      // gardé en mémoire seulement, pour déchiffrer l'instantané
+var minuteur = null;
+
+function jeton() { try { return sessionStorage.getItem(CLE_JETON) || ""; } catch (e) { return ""; } }
+function poseJeton(t) { try { t ? sessionStorage.setItem(CLE_JETON, t) : sessionStorage.removeItem(CLE_JETON); } catch (e) {} }
+
+/* Échange le mot de passe contre un jeton signé par le Worker.
+   Renvoie "ok", "refuse" (mot de passe faux) ou "injoignable" (réseau bloqué) — il est
+   essentiel de distinguer les deux derniers : un réseau bloqué ne doit pas faire croire
+   à un mauvais mot de passe, sinon on cherche le problème au mauvais endroit. */
+async function obtenirJeton(pw) {
+  var r;
+  try {
+    r = await fetch(API + "/admin/token", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: pw }), cache: "no-store",
+    });
+  } catch (e) { return "injoignable"; }
+  if (r.status === 401) return "refuse";
+  if (!r.ok) return "injoignable";
+  try { poseJeton((await r.json()).token); return "ok"; } catch (e) { return "injoignable"; }
+}
+
+async function statsEnDirect() {
+  var t = jeton();
+  if (!t) return null;
+  var r;
+  try { r = await fetch(API + "/admin/api/stats", { headers: { Authorization: "Bearer " + t }, cache: "no-store" }); }
+  catch (e) { return null; }                       // réseau bloqué → on tentera l'instantané
+  if (r.status === 401) { poseJeton(""); return null; }
+  if (!r.ok) return null;
+  try { return await r.json(); } catch (e) { return null; }
+}
+
+/* ---------- Déchiffrement de l'instantané (AES-GCM, clé dérivée par PBKDF2) ----------
+   Doit rester le MIROIR EXACT du chiffrement fait par .github/workflows/stats-snapshot.yml :
+   même sel, même nombre d'itérations, même algorithme. Si tu touches à l'un, touche à l'autre. */
+function b64vers(b64) {
+  var bin = atob(b64), out = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+async function dechiffrer(paquet, pw) {
+  var sel = b64vers(paquet.sel), iv = b64vers(paquet.iv), corps = b64vers(paquet.corps);
+  var base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+  var cle = await crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt: sel, iterations: paquet.iterations, hash: "SHA-256" },
+    base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+  var clair = await crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, cle, corps);
+  return JSON.parse(new TextDecoder().decode(clair));
+}
+async function statsInstantane(pw) {
+  var r;
+  try { r = await fetch(INSTANTANE + "?t=" + Date.now(), { cache: "no-store" }); } catch (e) { return null; }
+  if (!r.ok) return null;                          // l'Action n'a pas encore publié
+  try { var paquet = await r.json(); var s = await dechiffrer(paquet, pw); s.__instantane = paquet.date; return s; }
+  catch (e) { return null; }                       // mot de passe différent de celui de l'Action
+}
+
+/* ---------- Affichage ---------- */
+function bandeau(txt) {
+  var b = document.getElementById("bandeau");
+  if (!txt) { b.hidden = true; return; }
+  b.hidden = false; b.textContent = txt;
+}
+function peindre(s) {
+  c_online.textContent=s.onlineCount;c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wtime.textContent=dur(s.weekTimeMs);c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
+  t_online.innerHTML=s.online.map(o=>'<tr><td class=mono>'+sid(o.id)+'</td><td>'+FLAG(o.country)+' '+esc(o.country)+'</td><td>'+esc(o.city)+'</td><td>'+dev(o)+'</td><td>'+esc(o.br)+'</td><td class=mut>'+ago(o.t,s.now)+'</td></tr>').join('')||'<tr><td colspan=6 class=mut>Personne en ligne pour le moment</td></tr>';
+  t_users.innerHTML=s.users7d.map(u=>'<tr><td class=mono>'+sid(u.id)+'</td><td>'+FLAG(u.country)+' '+esc(u.country)+'</td><td>'+esc(u.city)+'</td><td>'+dev(u)+'</td><td>'+esc(u.br)+'</td><td class=mono>'+u.visits+'</td><td class=mono>'+u.quiz+'</td><td class=mono>'+dur(u.timeMs)+'</td><td class=mono>'+u.days+'</td><td class=mut>'+F(u.first)+'</td><td class=mut>'+F(u.last)+'</td></tr>').join('')||'<tr><td colspan=11 class=mut>Les visiteurs apparaîtront ici dès la première visite.</td></tr>';
+  if(s.cf){
+    cf_days.textContent=s.cf.days;cf_hum.textContent=nb(s.cf.humanTotal);cf_avg.textContent=nb(s.cf.avgDay);cf_bot.textContent=nb(s.cf.botTotal);
+    const cd=s.cf.perDay,cm=Math.max(1,...cd.map(x=>x.human));
+    cf_bars.innerHTML=cd.map((x,i)=>'<div class=bar style="height:'+Math.round(x.human/cm*100)+'%" title="'+x.date+' : '+x.human+' pages humaines"><span>'+(x.human||'')+'</span>'+(i%4===0?'<em>'+x.date.slice(5)+'</em>':'')+'</div>').join('');
+    cf_browsers.innerHTML=rows(s.cf.browsers,b=>esc(b));
+  }else{
+    cf_days.textContent=cf_hum.textContent=cf_avg.textContent=cf_bot.textContent='—';
+    cf_bars.innerHTML='';
+    cf_browsers.innerHTML='<div class=mut style="font-size:13px">Historique de zone indisponible : yumerty.com n\'est plus derrière le proxy Cloudflare.</div>';
+  }
+  p_countries.innerHTML=rows(s.topCountries||[],c=>FLAG(c)+' '+esc(c));
+  const dv=s.devices||{mobile:0,desktop:0};p_devices.innerHTML=rows([['📱 Mobile',dv.mobile],['💻 Ordinateur',dv.desktop]],x=>x);
+  upd.textContent='maj '+new Date().toLocaleTimeString('fr-FR');
+}
+
+async function charger() {
+  var s = await statsEnDirect();
+  if (s) { bandeau(""); peindre(s); return; }
+  // Direct indisponible : on retombe sur l'instantané publié par GitHub.
+  var i = await statsInstantane(motdepasse);
+  if (i) {
+    var age = Math.round((Date.now() - new Date(i.__instantane).getTime()) / 60000);
+    bandeau("Cloudflare est injoignable depuis ton réseau — c'est le blocage espagnol des IP Cloudflare. "
+      + "Affichage de l'instantané publié par GitHub le " + F(new Date(i.__instantane).getTime())
+      + " (il y a " + age + " min). Les visites de cette période ne sont pas perdues : elles sont "
+      + "mises en file sur l'appareil des visiteurs et renvoyées dès que le blocage se lève.");
+    peindre(i);
+    return;
+  }
+  bandeau("Données momentanément indisponibles : ni le direct, ni l'instantané GitHub n'ont répondu. "
+    + "Si cela persiste, vérifie que le Worker est déployé et que la GitHub Action a bien publié stats.enc.json.");
+}
+
+function entrer() {
+  document.getElementById("ecranConnexion").hidden = true;
+  document.getElementById("ecranAdmin").hidden = false;
+  charger();
+  if (!minuteur) minuteur = setInterval(charger, 8000);
+}
+
+document.getElementById("formConnexion").addEventListener("submit", async function (ev) {
+  ev.preventDefault();
+  var champ = document.getElementById("motdepasse"), bouton = document.getElementById("bouton"), err = document.getElementById("erreur");
+  var pw = champ.value;
+  if (!pw) return;
+  bouton.disabled = true; bouton.textContent = "Vérification…"; err.hidden = true;
+  var etat = await obtenirJeton(pw);
+  if (etat === "refuse") {
+    err.hidden = false; err.textContent = "Mot de passe incorrect";
+    bouton.disabled = false; bouton.textContent = "Entrer"; champ.value = ""; champ.focus();
+    return;
+  }
+  motdepasse = pw;
+  if (etat === "injoignable") {
+    // On ne peut pas vérifier le mot de passe sans le Worker : s'il déchiffre l'instantané,
+    // c'est qu'il est bon. Sinon on le refuse, sans distinguer les deux causes.
+    var i = await statsInstantane(pw);
+    if (!i) {
+      err.hidden = false; err.textContent = "Mot de passe incorrect, ou aucune donnée accessible hors ligne";
+      bouton.disabled = false; bouton.textContent = "Entrer"; champ.value = ""; champ.focus();
+      motdepasse = ""; return;
+    }
+  }
+  champ.value = "";
+  entrer();
+});
+
+document.getElementById("sortir").addEventListener("click", function (ev) {
+  ev.preventDefault();
+  poseJeton(""); motdepasse = "";
+  if (minuteur) { clearInterval(minuteur); minuteur = null; }
+  location.reload();
+});
+
+// Jeton encore valable (rechargement de page) : on entre directement. L'instantané ne sera
+// alors pas déchiffrable faute de mot de passe en mémoire — le direct, lui, fonctionne.
+if (jeton()) entrer();
+</script></body></html>

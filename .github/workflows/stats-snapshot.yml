@@ -1,0 +1,112 @@
+# Publie un instantané CHIFFRÉ des statistiques de Yumerty, pour que la console reste lisible
+# quand Cloudflare est injoignable.
+#
+# POURQUOI : le site est sur GitHub Pages parce que les IP partagées de Cloudflare sont
+# bloquées par intermittence par les FAI espagnols (blocage LaLiga). La collecte, elle, a
+# besoin d'un serveur et vit donc sur un Worker Cloudflare (stats.yumerty.com). Pendant une
+# fenêtre de blocage, la console — servie par GitHub, donc accessible — ne pourrait plus lire
+# ses données. Cette Action les recopie régulièrement sur GitHub, chiffrées.
+#
+# OÙ : sur la branche `stats`, RÉÉCRITE À CHAQUE FOIS en un seul commit orphelin, et lue par
+# la console via https://raw.githubusercontent.com/<dépôt>/stats/stats.enc.json
+# (qui renvoie Access-Control-Allow-Origin: *, et tourne sur les IP GitHub, non bloquées).
+# Ce choix est important : le sel de chiffrement change à chaque exécution, donc le fichier
+# diffère TOUJOURS. Commiter sur `main` créerait un commit toutes les 30 minutes — des
+# centaines de mégaoctets par an et une reconstruction de Pages à chaque fois. La branche
+# orpheline force-poussée garde un historique d'exactement un commit, et ne touche pas `main`.
+#
+# CHIFFREMENT : AES-GCM 256, clé dérivée du mot de passe admin par PBKDF2-SHA256.
+# Le dépôt est PUBLIC : sans le mot de passe, stats.enc.json n'est qu'un bloc aléatoire.
+# Le déchiffrement est fait par admin.html dans le navigateur. Les deux moitiés doivent rester
+# strictement symétriques : mêmes itérations, même algorithme, sel et IV transmis à côté.
+#
+# SECRET À CRÉER dans ce dépôt (Settings → Secrets and variables → Actions) :
+#   YM_ADMIN_PASSWORD  = le même mot de passe que le secret ADMIN_PASSWORD du Worker.
+
+name: Instantané des statistiques
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instantane-stats
+  cancel-in-progress: false
+
+jobs:
+  instantane:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer et chiffrer les statistiques
+        env:
+          MDP: ${{ secrets.YM_ADMIN_PASSWORD }}
+        run: |
+          set -euo pipefail
+          if [ -z "${MDP:-}" ]; then
+            echo "::error::le secret YM_ADMIN_PASSWORD n'est pas défini dans ce dépôt"
+            exit 1
+          fi
+          node --input-type=module > /dev/null <<'JS'
+          import { writeFileSync } from "node:fs";
+          const API = "https://stats.yumerty.com";
+          const mdp = process.env.MDP;
+
+          // 1. Mot de passe -> jeton, puis lecture des statistiques.
+          //    Le Worker contrôle l'origine (CORS) : on se présente comme le site.
+          const ORIGINE = { Origin: "https://yumerty.com" };
+          const rt = await fetch(API + "/admin/token", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", ...ORIGINE },
+            body: JSON.stringify({ password: mdp }),
+          });
+          if (rt.status === 401) { console.error("::error::mot de passe refusé par le Worker — YM_ADMIN_PASSWORD et ADMIN_PASSWORD diffèrent"); process.exit(1); }
+          if (!rt.ok) { console.error("::error::/admin/token a répondu " + rt.status); process.exit(1); }
+          const { token } = await rt.json();
+
+          const rs = await fetch(API + "/admin/api/stats", { headers: { Authorization: "Bearer " + token, ...ORIGINE } });
+          if (!rs.ok) { console.error("::error::/admin/api/stats a répondu " + rs.status); process.exit(1); }
+          const clair = JSON.stringify(await rs.json());
+
+          // 2. Chiffrement. Le sel et l'IV sont tirés au hasard et publiés en clair à côté :
+          //    c'est leur rôle, ils ne sont pas secrets. Seul le mot de passe l'est.
+          const ITERATIONS = 310000;
+          const sel = crypto.getRandomValues(new Uint8Array(16));
+          const iv = crypto.getRandomValues(new Uint8Array(12));
+          const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(mdp), "PBKDF2", false, ["deriveKey"]);
+          const cle = await crypto.subtle.deriveKey(
+            { name: "PBKDF2", salt: sel, iterations: ITERATIONS, hash: "SHA-256" },
+            base, { name: "AES-GCM", length: 256 }, false, ["encrypt"]);
+          const corps = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, cle, new TextEncoder().encode(clair));
+
+          const b64 = (u) => Buffer.from(u).toString("base64");
+          writeFileSync("stats.enc.json", JSON.stringify({
+            _lisezmoi: "Instantané chiffré des statistiques de Yumerty, déchiffré par admin.html avec le mot de passe admin. Sans lui, ce fichier n'est qu'un bloc aléatoire.",
+            date: new Date().toISOString(),
+            algo: "AES-GCM-256 / PBKDF2-SHA256",
+            iterations: ITERATIONS,
+            sel: b64(sel), iv: b64(iv), corps: b64(new Uint8Array(corps)),
+          }));
+          console.error("instantané chiffré : " + clair.length + " octets en clair");
+          JS
+          test -s stats.enc.json
+
+      - name: Publier sur la branche `stats` (un seul commit, réécrit)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # Dépôt neuf : garantit un historique d'exactement un commit, sans rien hériter.
+          tmp="$(mktemp -d)"
+          mv stats.enc.json "$tmp/"
+          cd "$tmp"
+          git init -q -b stats
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.enc.json
+          git commit -qm "Instantané des statistiques $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" stats
+          echo "publié sur la branche stats"
