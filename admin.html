@@ -56,7 +56,7 @@ body{margin:0;background:linear-gradient(165deg,#f4eee2 0%,#e9dfcd 100%);backgro
 .card.live .n{color:var(--green);display:flex;align-items:center;gap:9px}
 .card.live .n::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(76,154,94,.5);animation:pulse 1.8s infinite}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(76,154,94,.45)}70%{box-shadow:0 0 0 8px rgba(76,154,94,0)}100%{box-shadow:0 0 0 0 rgba(76,154,94,0)}}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:780px){.grid2{grid-template-columns:1fr}}
+.grid2{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}@media(max-width:1100px){.grid2{grid-template-columns:1fr 1fr}}@media(max-width:780px){.grid2{grid-template-columns:1fr}}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin-bottom:16px;box-shadow:0 12px 34px -26px rgba(90,70,40,.5)}
 .panel.scroll{overflow-x:auto}
 .panel h2{font-size:14.5px;margin:0 0 4px;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
@@ -92,6 +92,16 @@ tbody tr:hover{background:#faf4e9}
 .err{background:rgba(185,63,63,.1);border:1px solid rgba(185,63,63,.3);color:#9d3b3b;font-size:13px;padding:9px 12px;border-radius:9px;margin-bottom:14px}
 .bandeau{background:rgba(216,163,106,.16);border:1px solid rgba(185,118,63,.32);color:#8a5a2b;font-size:13px;padding:10px 14px;border-radius:11px;margin:0 0 16px;line-height:1.45}
 #ecranAdmin[hidden],#ecranConnexion[hidden]{display:none}
+
+/* Onglets de granularité et pastilles de variation, ajoutés avec l'historique d'activité. */
+.onglets{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}
+.onglets button{font:inherit;font-size:13px;font-weight:700;color:var(--mut);background:transparent;border:1px solid var(--line);border-radius:9px;padding:7px 14px;cursor:pointer}
+.onglets button:hover{background:rgba(185,118,63,.06)}
+.onglets button.on{color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent}
+.var{font-size:11.5px;font-weight:700;margin-top:3px;min-height:15px}
+.var.up{color:var(--green)}
+.var.down{color:#9d3b3b}
+.var.flat{color:var(--soft)}
 </style></head><body>
 <div class="box" id="ecranConnexion">
   <h1>Yumerty · Console</h1>
@@ -107,7 +117,7 @@ tbody tr:hover{background:#faf4e9}
  <div class="top"><h1>📊 Yumerty <span class="mut" style="font-weight:600">· Console admin</span></h1>
   <div class="r"><span id="upd" class="mut" style="font-size:12px"></span><a href="#" id="sortir">Déconnexion</a></div></div>
  <div id="bandeau" class="bandeau" hidden></div>
-  <p class="sub">Statistiques réelles du site — robots &amp; scanners exclus.</p>
+  <p class="sub">Statistiques réelles du site — robots et scanners exclus, IP jamais stockée en clair. Le temps réel est recalculé à chaque rafraîchissement ; l'historique une fois par heure.</p>
 
  <div class="sec">⚡ En temps réel &amp; 7 derniers jours</div>
  <div class="cards">
@@ -117,24 +127,42 @@ tbody tr:hover{background:#faf4e9}
   <div class="card"><div class="n" id="c_wvis">–</div><div class="l">Visites (7 j)</div></div>
   <div class="card"><div class="n" id="c_wtime">–</div><div class="l">Temps passé (7 j)</div></div>
   <div class="card"><div class="n" id="c_wquiz">–</div><div class="l">Quiz lancés (7 j)</div></div>
+  <div class="card"><div class="n" id="c_mois">–</div><div class="l">Visiteurs uniques (30 j)</div></div>
   <div class="card"><div class="n" id="c_total">–</div><div class="l">Visiteurs uniques (total)</div></div>
  </div>
 
- <div class="sec">📈 Historique du site — vrais visiteurs</div>
+ <div class="sec">📈 Activité du site</div>
  <div class="panel">
-  <h2>Pages vues par de vrais humains <span class="badge">robots exclus</span></h2>
-  <p class="hint">Données Cloudflare, filtrées aux vrais navigateurs (Chrome, Safari, Firefox…). Rétention <span id="cf_days">34</span> jours — le passé plus ancien n'est pas conservé par Cloudflare.</p>
-  <div class="minicards">
-   <div class="mc"><div class="n" id="cf_hum">–</div><div class="l">Pages humaines (période)</div></div>
-   <div class="mc"><div class="n" id="cf_avg">–</div><div class="l">Moyenne / jour</div></div>
-   <div class="mc"><div class="n" id="cf_bot">–</div><div class="l">Pages robots écartées</div></div>
+  <h2>Historique <span class="badge" id="h_portee">—</span></h2>
+  <p class="hint" id="h_note"></p>
+  <div class="onglets">
+   <button type="button" data-g="jour" class="on">Par jour</button>
+   <button type="button" data-g="semaine">Par semaine</button>
+   <button type="button" data-g="mois">Par mois</button>
   </div>
-  <div class="bars" id="cf_bars"></div><div style="height:22px"></div>
-  <div style="border-top:1px solid var(--line);padding-top:16px"><div class="sec" style="margin-bottom:12px">🧭 Navigateurs des vrais visiteurs</div><div id="cf_browsers"></div></div>
+  <div class="minicards">
+   <div class="mc"><div class="n" id="h_u">–</div><div class="l" id="h_ul">Visiteurs</div><div class="var" id="h_uv"></div></div>
+   <div class="mc"><div class="n" id="h_v">–</div><div class="l">Pages vues</div><div class="var" id="h_vv"></div></div>
+   <div class="mc"><div class="n" id="h_q">–</div><div class="l">Quiz lancés</div><div class="var" id="h_qv"></div></div>
+   <div class="mc"><div class="n" id="h_t">–</div><div class="l">Temps passé</div><div class="var" id="h_tv"></div></div>
+  </div>
+  <div class="bars" id="h_bars"></div><div style="height:22px"></div>
+  <div class="scroll" style="max-height:260px"><table id="h_table"><thead><tr><th>Période</th><th>Visiteurs</th><th>Pages vues</th><th>Quiz</th><th>Temps</th></tr></thead><tbody id="h_corps"></tbody></table></div>
+  <div style="border-top:1px solid var(--line);padding-top:16px;margin-top:18px">
+   <div class="sec" style="margin-bottom:12px">🧮 Depuis l'ouverture du site</div>
+   <div class="minicards">
+    <div class="mc"><div class="n" id="g_u">–</div><div class="l">Jours-visiteurs cumulés</div></div>
+    <div class="mc"><div class="n" id="g_v">–</div><div class="l">Pages vues</div></div>
+    <div class="mc"><div class="n" id="g_q">–</div><div class="l">Quiz lancés</div></div>
+    <div class="mc"><div class="n" id="g_t">–</div><div class="l">Temps passé</div></div>
+   </div>
+   <p class="hint" id="g_note"></p>
+  </div>
  </div>
  <div class="grid2">
   <div class="panel scroll"><h2>🌍 Pays des visiteurs</h2><p class="hint">Visiteurs uniques réels suivis (par IP, un robot = 1 personne), 7 derniers jours</p><div id="p_countries"></div></div>
   <div class="panel scroll"><h2>📱 Appareils</h2><p class="hint">Visiteurs uniques réels suivis, 7 derniers jours</p><div id="p_devices"></div></div>
+  <div class="panel scroll"><h2>🧭 Navigateurs</h2><p class="hint">Visiteurs uniques réels suivis, 7 derniers jours</p><div id="p_navigateurs"></div></div>
  </div>
 
  <div class="sec">🟢 Activité détaillée</div>
@@ -222,6 +250,114 @@ async function statsInstantane(pw) {
   catch (e) { return null; }                       // mot de passe différent de celui de l'Action
 }
 
+
+/* ---------- Historique d'activité : jour / semaine / mois ----------
+   NOMMAGE HONNÊTE DES CHIFFRES, à ne pas « simplifier » :
+   - par JOUR, « Visiteurs » est un vrai nombre de personnes distinctes ce jour-là.
+   - par SEMAINE et par MOIS, c'est la somme des actifs quotidiens : quelqu'un qui vient
+     cinq jours compte cinq fois. Le libellé devient donc « Jours-visiteurs », et non
+     « Visiteurs », parce que ce n'est pas un nombre de personnes. Les vrais uniques sur une
+     période sont donnés à part, dans les cartes du haut (7 j, 30 j, total).
+   - les jours antérieurs au 17/10/2026 n'ont que le nombre d'uniques : l'activité (pages
+     vues, quiz, temps) y est INCONNUE, pas nulle. On affiche « — » et on le dit, au lieu de
+     zéros qui feraient croire à un site désert. */
+var granularite = "jour";
+var dernieres = null;
+
+function serieDe(s) {
+  return granularite === "semaine" ? (s.parSemaine || [])
+       : granularite === "mois"    ? (s.parMois || [])
+       :                             (s.parJour || []);
+}
+function mesuree(e) {
+  // activité connue ? (jour : champ `complet` ; semaine/mois : au moins un jour mesuré)
+  return granularite === "jour" ? !!e.complet : (e.nMesures || 0) > 0;
+}
+function etiquette(cle) {
+  if (granularite === "mois") {
+    var m = cle.split("-");
+    return new Date(Date.UTC(+m[0], +m[1] - 1, 1)).toLocaleDateString("fr-FR", { month: "short", year: "numeric", timeZone: "UTC" });
+  }
+  var p = cle.split("-"), d = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2]));
+  var court = d.toLocaleDateString("fr-FR", { day: "2-digit", month: "2-digit", timeZone: "UTC" });
+  return granularite === "semaine" ? "sem. " + court : court;
+}
+function pastille(el, actuel, precedent, connu) {
+  if (!connu || precedent === null || precedent === undefined) { el.textContent = ""; el.className = "var"; return; }
+  if (!precedent) { el.textContent = actuel ? "nouveau" : ""; el.className = "var up"; return; }
+  var pc = Math.round(((actuel - precedent) / precedent) * 100);
+  el.textContent = (pc > 0 ? "▲ +" : pc < 0 ? "▼ " : "= ") + pc + " %";
+  el.className = "var " + (pc > 0 ? "up" : pc < 0 ? "down" : "flat");
+}
+
+function peindreHistoire(s) {
+  dernieres = s;
+  var serie = serieDe(s);
+  var nom = granularite === "jour" ? "jour" : granularite === "semaine" ? "semaine" : "mois";
+  h_portee.textContent = serie.length + " " + (granularite === "mois" ? "mois" : nom + (serie.length > 1 ? "s" : ""));
+  h_ul.textContent = granularite === "jour" ? "Visiteurs" : "Jours-visiteurs";
+
+  if (!serie.length) {
+    h_note.textContent = "Aucune donnée pour l'instant : la collecte commence au premier visiteur.";
+    h_bars.innerHTML = ""; h_corps.innerHTML = "";
+    ["h_u","h_v","h_q","h_t"].forEach(function (k) { document.getElementById(k).textContent = "–"; });
+    ["h_uv","h_vv","h_qv","h_tv"].forEach(function (k) { document.getElementById(k).textContent = ""; });
+    return;
+  }
+
+  var a = serie[serie.length - 1], b = serie.length > 1 ? serie[serie.length - 2] : null;
+  var connu = mesuree(a), connuB = b && mesuree(b);
+  h_u.textContent = nb(a.u);
+  h_v.textContent = connu ? nb(a.v) : "—";
+  h_q.textContent = connu ? nb(a.q) : "—";
+  h_t.textContent = connu ? dur(a.t) : "—";
+  pastille(h_uv, a.u, b ? b.u : null, true);
+  pastille(h_vv, a.v, b ? b.v : null, connu && connuB);
+  pastille(h_qv, a.q, b ? b.q : null, connu && connuB);
+  pastille(h_tv, a.t, b ? b.t : null, connu && connuB);
+
+  var manquants = serie.filter(function (e) { return !mesuree(e); }).length;
+  h_note.textContent = "Le " + nom + " en cours (" + etiquette(a.cle) + ") comparé au précédent."
+    + (granularite === "jour" ? "" : " « Jours-visiteurs » compte une personne une fois par jour de visite : pour un nombre de personnes distinctes, voir les cartes 7 j, 30 j et total.")
+    + (manquants ? " " + manquants + " " + nom + (manquants > 1 ? "s" : "") + " d'avant octobre 2026 n'ont que le nombre de visiteurs : l'activité détaillée n'était pas encore conservée, elle est donc marquée « — » et non zéro." : "");
+
+  var mx = Math.max(1, ...serie.map(function (e) { return e.u; }));
+  var pas = Math.max(1, Math.ceil(serie.length / 10));
+  h_bars.innerHTML = serie.map(function (e, i) {
+    var t = etiquette(e.cle) + " : " + e.u + (granularite === "jour" ? " visiteur(s)" : " jours-visiteurs")
+      + (mesuree(e) ? ", " + e.v + " pages vues, " + e.q + " quiz" : ", activité non conservée");
+    return '<div class=bar style="height:' + Math.round(e.u / mx * 100) + '%" title="' + esc(t) + '">'
+      + '<span>' + (e.u || '') + '</span>' + (i % pas === 0 ? '<em>' + esc(etiquette(e.cle)) + '</em>' : '') + '</div>';
+  }).join("");
+
+  h_corps.innerHTML = serie.slice().reverse().map(function (e) {
+    var c = mesuree(e);
+    return '<tr><td>' + esc(etiquette(e.cle)) + '</td><td class=mono>' + nb(e.u) + '</td>'
+      + '<td class=mono>' + (c ? nb(e.v) : '<span class=mut>—</span>') + '</td>'
+      + '<td class=mono>' + (c ? nb(e.q) : '<span class=mut>—</span>') + '</td>'
+      + '<td class=mono>' + (c ? dur(e.t) : '<span class=mut>—</span>') + '</td></tr>';
+  }).join("");
+
+  var g = s.depuisOrigine || {};
+  g_u.textContent = nb(g.u); g_v.textContent = nb(g.v); g_q.textContent = nb(g.q); g_t.textContent = dur(g.t || 0);
+  g_note.textContent = g.premierJour
+    ? "Mesuré sur " + g.nJours + " jour" + (g.nJours > 1 ? "s" : "") + " depuis le " + etiquetteJour(g.premierJour)
+      + (g.nMesures < g.nJours ? ", dont " + g.nMesures + " avec l'activité détaillée (pages vues, quiz, temps) — avant cela, seuls les visiteurs étaient conservés." : ".")
+    : "La collecte commencera au premier visiteur.";
+}
+function etiquetteJour(cle) {
+  var p = cle.split("-");
+  return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])).toLocaleDateString("fr-FR", { day: "2-digit", month: "long", year: "numeric", timeZone: "UTC" });
+}
+
+Array.prototype.forEach.call(document.querySelectorAll(".onglets button"), function (bt) {
+  bt.addEventListener("click", function () {
+    granularite = bt.getAttribute("data-g");
+    Array.prototype.forEach.call(document.querySelectorAll(".onglets button"), function (o) { o.className = o === bt ? "on" : ""; });
+    if (dernieres) peindreHistoire(dernieres);
+  });
+});
+
 /* ---------- Affichage ---------- */
 function bandeau(txt) {
   var b = document.getElementById("bandeau");
@@ -229,21 +365,13 @@ function bandeau(txt) {
   b.hidden = false; b.textContent = txt;
 }
 function peindre(s) {
-  c_online.textContent=s.onlineCount;c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wtime.textContent=dur(s.weekTimeMs);c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
+  c_mois.textContent=s.moisUnique;c_online.textContent=s.onlineCount;c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wtime.textContent=dur(s.weekTimeMs);c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
   t_online.innerHTML=s.online.map(o=>'<tr><td class=mono>'+sid(o.id)+'</td><td>'+FLAG(o.country)+' '+esc(o.country)+'</td><td>'+esc(o.city)+'</td><td>'+dev(o)+'</td><td>'+esc(o.br)+'</td><td class=mut>'+ago(o.t,s.now)+'</td></tr>').join('')||'<tr><td colspan=6 class=mut>Personne en ligne pour le moment</td></tr>';
   t_users.innerHTML=s.users7d.map(u=>'<tr><td class=mono>'+sid(u.id)+'</td><td>'+FLAG(u.country)+' '+esc(u.country)+'</td><td>'+esc(u.city)+'</td><td>'+dev(u)+'</td><td>'+esc(u.br)+'</td><td class=mono>'+u.visits+'</td><td class=mono>'+u.quiz+'</td><td class=mono>'+dur(u.timeMs)+'</td><td class=mono>'+u.days+'</td><td class=mut>'+F(u.first)+'</td><td class=mut>'+F(u.last)+'</td></tr>').join('')||'<tr><td colspan=11 class=mut>Les visiteurs apparaîtront ici dès la première visite.</td></tr>';
-  if(s.cf){
-    cf_days.textContent=s.cf.days;cf_hum.textContent=nb(s.cf.humanTotal);cf_avg.textContent=nb(s.cf.avgDay);cf_bot.textContent=nb(s.cf.botTotal);
-    const cd=s.cf.perDay,cm=Math.max(1,...cd.map(x=>x.human));
-    cf_bars.innerHTML=cd.map((x,i)=>'<div class=bar style="height:'+Math.round(x.human/cm*100)+'%" title="'+x.date+' : '+x.human+' pages humaines"><span>'+(x.human||'')+'</span>'+(i%4===0?'<em>'+x.date.slice(5)+'</em>':'')+'</div>').join('');
-    cf_browsers.innerHTML=rows(s.cf.browsers,b=>esc(b));
-  }else{
-    cf_days.textContent=cf_hum.textContent=cf_avg.textContent=cf_bot.textContent='—';
-    cf_bars.innerHTML='';
-    cf_browsers.innerHTML='<div class=mut style="font-size:13px">Historique de zone indisponible : yumerty.com n\'est plus derrière le proxy Cloudflare.</div>';
-  }
+  peindreHistoire(s);
   p_countries.innerHTML=rows(s.topCountries||[],c=>FLAG(c)+' '+esc(c));
   const dv=s.devices||{mobile:0,desktop:0};p_devices.innerHTML=rows([['📱 Mobile',dv.mobile],['💻 Ordinateur',dv.desktop]],x=>x);
+  p_navigateurs.innerHTML=rows(s.topBrowsers||[],b=>esc(b));
   upd.textContent='maj '+new Date().toLocaleTimeString('fr-FR');
 }
 
