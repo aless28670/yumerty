@@ -1,0 +1,107 @@
+/* =========================================================
+   Yumerty — mouchard client (anonyme) vers le backend de statistiques.
+
+   Pourquoi ce fichier existe : jusqu'au 16/09/2026 le site était servi par un Worker
+   Cloudflare qui comptait les visites CÔTÉ SERVEUR et injectait lui-même window.__ymTrack.
+   Le site est depuis sur GitHub Pages — qui ne sert que des fichiers statiques — donc plus
+   aucun comptage n'avait lieu, et js/app.js appelait un window.__ymTrack qui n'existait plus.
+   Ce fichier le rétablit, en parlant au Worker déployé seul sur stats.yumerty.com.
+
+   Deux choses à savoir si tu modifies ceci :
+
+   1. Les IP de Cloudflare sont bloquées PAR INTERMITTENCE par les FAI espagnols (blocage
+      LaLiga pendant les matchs). stats.yumerty.com est donc parfois injoignable, alors que
+      le site lui-même (GitHub Pages) reste accessible. Un mouchard naïf perdrait toutes les
+      visites de ces fenêtres-là. D'où la FILE D'ATTENTE : un envoi qui échoue est rangé dans
+      localStorage avec son horodatage, et rejoué au prochain chargement réussi. Le serveur
+      range l'événement dans son jour d'origine grâce au paramètre `t`.
+
+   2. Aucune donnée personnelle ne part d'ici : ni identifiant, ni contenu, ni réponse de
+      quiz. Le serveur dérive un identifiant anonyme par HMAC de l'IP, qu'il ne stocke jamais
+      en clair. Ce fichier n'envoie qu'un nom d'événement et un horodatage.
+   ========================================================= */
+(function () {
+  "use strict";
+  var ENDPOINT = "https://stats.yumerty.com/_ping";
+  var FILE = "ym_file";      // clé localStorage de la file d'attente
+  var FILE_MAX = 200;        // au-delà, on jette les plus anciens (bornage du stockage)
+  var BATTEMENT = 60000;     // 60 s, sous la fenêtre « en ligne » de 90 s du serveur
+
+  function lire() {
+    try { var v = JSON.parse(localStorage.getItem(FILE) || "[]"); return Array.isArray(v) ? v : []; }
+    catch (e) { return []; }
+  }
+  function ecrire(f) {
+    try { localStorage.setItem(FILE, JSON.stringify(f.slice(-FILE_MAX))); } catch (e) {}
+  }
+  function enfiler(e, t) {
+    var f = lire(); f.push({ e: e, t: t }); ecrire(f);
+  }
+
+  /* Un seul envoi. Résout vrai si le serveur a bien reçu, faux sinon (réseau bloqué, hors
+     ligne, erreur serveur) — c'est ce booléen qui décide de la mise en file. */
+  function envoyer(e, t) {
+    var url = ENDPOINT + "?e=" + encodeURIComponent(e) + (t ? "&t=" + t : "");
+    // Pas d'en-tête personnalisé ni de corps : la requête reste « simple » au sens CORS,
+    // donc le navigateur n'a pas besoin d'un préflight à chaque battement.
+    return fetch(url, { method: "POST", mode: "cors", credentials: "omit", keepalive: true })
+      .then(function (r) { return r.ok || r.status === 204; })
+      .catch(function () { return false; });
+  }
+
+  /* Rejoue la file. On s'arrête au premier échec : si le réseau est encore bloqué, inutile
+     de brûler les 200 entrées une par une, elles restent pour la prochaine fois.
+
+     VERROU OBLIGATOIRE. Deux vidages simultanés enverraient chaque événement deux fois et
+     gonfleraient les statistiques — c'est arrivé : au chargement, vider() et pister("view")
+     partent ensemble, et pister() rappelle vider() dès que son envoi réussit. Un test a
+     mesuré 6 envois pour 3 événements en attente. Ne retire pas ce verrou.
+
+     La file est aussi RELUE à chaque étape plutôt que travaillée sur une copie : un
+     battement peut s'ajouter pendant le vidage, et une copie figée l'aurait écrasé. */
+  var videEnCours = null;
+  function vider() {
+    if (videEnCours) return videEnCours;
+    function fini() { videEnCours = null; }
+    videEnCours = (function suite() {
+      var f = lire();
+      if (!f.length) return Promise.resolve();
+      var item = f[0];
+      return envoyer(item.e, item.t).then(function (ok) {
+        if (!ok) return;                      // réseau encore bloqué : on garde tout
+        var g = lire();                       // relecture : la file a pu bouger entre-temps
+        if (g.length && g[0].e === item.e && g[0].t === item.t) { g.shift(); ecrire(g); }
+        return suite();
+      });
+    })().then(fini, fini);
+    return videEnCours;
+  }
+
+  function pister(e) {
+    var t = Date.now();
+    return envoyer(e, 0).then(function (ok) {
+      if (!ok) enfiler(e, t);
+      else vider();                           // un envoi réussi = le réseau est revenu
+      return ok;
+    });
+  }
+
+  // js/app.js appelle window.__ymTrack("quiz") au lancement d'un quiz : on le lui rend.
+  window.__ymTrack = pister;
+
+  vider();
+  pister("view");
+
+  var minuteur = null;
+  function battre() { if (document.visibilityState === "visible") pister("beat"); }
+  function demarrer() {
+    if (minuteur) return;
+    minuteur = setInterval(battre, BATTEMENT);
+  }
+  function arreter() { if (minuteur) { clearInterval(minuteur); minuteur = null; } }
+
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible") { battre(); demarrer(); } else arreter();
+  });
+  if (document.visibilityState === "visible") demarrer();
+})();
