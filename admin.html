@@ -187,7 +187,15 @@ const FLAG=c=>{if(!c||c.length!==2||c==='??')return '🌐';return String.fromCod
 const rows=(arr,lab)=>{const mx=Math.max(1,...arr.map(a=>a[1]));return arr.map(a=>'<div class=rowbar><div class=lab>'+lab(a[0])+'</div><div class=tr><div class=fl style="width:'+(a[1]/mx*100)+'%"></div></div><div class=v>'+nb(a[1])+'</div></div>').join('')||'<div class=mut style="font-size:13px">—</div>';};
 
 /* ---------- Source des données : direct, puis instantané chiffré ---------- */
-var API = "https://stats.yumerty.com";
+/* Deux adresses pour le même Worker, essayées dans l'ordre. Le domaine personnalisé
+   stats.yumerty.com est tombé sur les IP 188.114.96/97.x, bloquées par les FAI espagnols
+   (vérifié en TCP brut le 17/10/2026) ; l'adresse workers.dev répond depuis 104.21.x.
+   Si les deux échouent, on retombe sur l'instantané chiffré publié par GitHub. */
+var APIS = [
+  "https://yumerty.alessandrodimeopro.workers.dev",
+  "https://stats.yumerty.com"
+];
+var apiPreferee = 0;
 // Branche `stats` du dépôt, réécrite toutes les 30 min par .github/workflows/stats-snapshot.yml.
 // raw.githubusercontent.com renvoie Access-Control-Allow-Origin: * et tourne sur les IP GitHub,
 // qui ne sont pas concernées par le blocage espagnol : c'est ce qui rend ce secours fiable.
@@ -206,13 +214,18 @@ function poseJeton(t) { try { t ? sessionStorage.setItem(CLE_JETON, t) : session
    essentiel de distinguer les deux derniers : un réseau bloqué ne doit pas faire croire
    à un mauvais mot de passe, sinon on cherche le problème au mauvais endroit. */
 async function obtenirJeton(pw) {
-  var r;
-  try {
-    r = await fetch(API + "/admin/token", {
-      method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ password: pw }), cache: "no-store",
-    });
-  } catch (e) { return "injoignable"; }
+  var r = null;
+  for (var i = 0; i < APIS.length; i++) {
+    try {
+      r = await fetch(APIS[i] + "/admin/token", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password: pw }), cache: "no-store",
+      });
+      apiPreferee = i;                           // cette adresse répond : on la garde
+      break;
+    } catch (e) { r = null; }                    // adresse injoignable : on tente la suivante
+  }
+  if (!r) return "injoignable";
   if (r.status === 429) {                        // trop d'essais : adresse temporairement bloquée
     var reste = 0;
     try { reste = (await r.json()).reste || 0; } catch (e) { reste = 0; }
@@ -230,9 +243,13 @@ async function obtenirJeton(pw) {
 async function statsEnDirect() {
   var t = jeton();
   if (!t) return null;
-  var r;
-  try { r = await fetch(API + "/admin/api/stats", { headers: { Authorization: "Bearer " + t }, cache: "no-store" }); }
-  catch (e) { return null; }                       // réseau bloqué → on tentera l'instantané
+  var r = null;
+  for (var i = 0; i < APIS.length; i++) {
+    var k = (apiPreferee + i) % APIS.length;
+    try { r = await fetch(APIS[k] + "/admin/api/stats", { headers: { Authorization: "Bearer " + t }, cache: "no-store" }); apiPreferee = k; break; }
+    catch (e) { r = null; }
+  }
+  if (!r) return null;                             // les deux bloquées → on tentera l'instantané
   if (r.status === 401) { poseJeton(""); return null; }
   if (!r.ok) return null;
   try { return await r.json(); } catch (e) { return null; }

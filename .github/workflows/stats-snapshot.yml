@@ -52,17 +52,27 @@ jobs:
           fi
           node --input-type=module > /dev/null <<'JS'
           import { writeFileSync } from "node:fs";
-          const API = "https://stats.yumerty.com";
+          // Deux adresses pour le même Worker : le domaine personnalisé est tombé sur une plage
+          // bloquée en Espagne. Les runners GitHub sont aux États-Unis et joignent les deux,
+          // mais on essaie quand même dans l'ordre, au cas où l'une serait retirée un jour.
+          const APIS = ["https://yumerty.alessandrodimeopro.workers.dev", "https://stats.yumerty.com"];
           const mdp = process.env.MDP;
 
           // 1. Mot de passe -> jeton, puis lecture des statistiques.
           //    Le Worker contrôle l'origine (CORS) : on se présente comme le site.
           const ORIGINE = { Origin: "https://yumerty.com" };
-          const rt = await fetch(API + "/admin/token", {
-            method: "POST",
-            headers: { "Content-Type": "application/json", ...ORIGINE },
-            body: JSON.stringify({ password: mdp }),
-          });
+          let API = null, rt = null;
+          for (const base of APIS) {
+            try {
+              rt = await fetch(base + "/admin/token", {
+                method: "POST",
+                headers: { "Content-Type": "application/json", ...ORIGINE },
+                body: JSON.stringify({ password: mdp }),
+              });
+              API = base; break;
+            } catch (e) { console.error("adresse injoignable : " + base); }
+          }
+          if (!rt) { console.error("::error::aucune adresse du Worker n'a répondu"); process.exit(1); }
           if (rt.status === 401) { console.error("::error::mot de passe refusé par le Worker — YM_ADMIN_PASSWORD et ADMIN_PASSWORD diffèrent"); process.exit(1); }
           if (!rt.ok) { console.error("::error::/admin/token a répondu " + rt.status); process.exit(1); }
           const { token } = await rt.json();

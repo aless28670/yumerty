@@ -27,7 +27,19 @@
   try { demarrerMouchard(); } catch (err) {}
 
   function demarrerMouchard() {
-  var ENDPOINT = "https://stats.yumerty.com/_ping";
+  /* DEUX adresses pour le même Worker, essayées dans l'ordre, et ce n'est pas de la ceinture
+     et des bretelles : le 17/10/2026, Cloudflare a attribué au domaine personnalisé
+     stats.yumerty.com les IP 188.114.97.2 et 188.114.96.2, c'est-à-dire exactement la plage
+     que les FAI espagnols bloquent. Vérifié en TCP brut depuis Madrid : port 443 injoignable.
+     L'adresse workers.dev, elle, est servie depuis 104.21.x et répond.
+     Comme la quasi-totalité des visiteurs de ce site sont en Espagne, mettre le domaine
+     personnalisé en premier reviendrait à ne rien compter du tout.
+     L'adresse qui a fonctionné est mémorisée, pour ne pas repayer l'échec à chaque envoi. */
+  var ENDPOINTS = [
+    "https://yumerty.alessandrodimeopro.workers.dev",
+    "https://stats.yumerty.com"
+  ];
+  var CLE_EP = "ym_adresse";
   var FILE = "ym_file";      // clé localStorage de la file d'attente
   var FILE_MAX = 200;        // au-delà, on jette les plus anciens (bornage du stockage)
   var BATTEMENT = 60000;     // 60 s, sous la fenêtre « en ligne » de 90 s du serveur
@@ -53,8 +65,31 @@
      compatibilité du projet : ni `?.` ni `??`, sous peine de planter de vieux iOS/Chrome).
      fetch() y est normalement présent, mais s'il manque, un appel direct lèverait une
      TypeError au chargement. XHR couvre ce cas sans rien changer au protocole. */
+  /* Ordre d'essai : l'adresse qui a marché la dernière fois d'abord, puis les autres. */
+  function ordreAdresses() {
+    var pref = 0;
+    try { var v = parseInt(localStorage.getItem(CLE_EP), 10); if (v >= 0 && v < ENDPOINTS.length) pref = v; } catch (err) {}
+    var l = [pref];
+    for (var i = 0; i < ENDPOINTS.length; i++) if (i !== pref) l.push(i);
+    return l;
+  }
+  function memoriser(i) { try { localStorage.setItem(CLE_EP, String(i)); } catch (err) {} }
+
+  /* Essaie chaque adresse jusqu'à ce que l'une réponde. */
   function envoyer(e, t) {
-    var url = ENDPOINT + "?e=" + encodeURIComponent(e) + (t ? "&t=" + t : "");
+    var ordre = ordreAdresses();
+    function tente(k) {
+      if (k >= ordre.length) return Promise.resolve(false);
+      return envoyerVers(ordre[k], e, t).then(function (ok) {
+        if (ok) { memoriser(ordre[k]); return true; }
+        return tente(k + 1);
+      });
+    }
+    return tente(0);
+  }
+
+  function envoyerVers(i, e, t) {
+    var url = ENDPOINTS[i] + "/_ping?e=" + encodeURIComponent(e) + (t ? "&t=" + t : "");
     if (typeof fetch === "function") {
       return fetch(url, { method: "POST", mode: "cors", credentials: "omit", keepalive: true })
         .then(function (r) { return r.ok || r.status === 204; })
