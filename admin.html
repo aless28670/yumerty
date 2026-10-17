@@ -119,15 +119,19 @@ tbody tr:hover{background:#faf4e9}
  <div class="top"><h1>📊 Yumerty <span class="mut" style="font-weight:600">· Console admin</span></h1>
   <div class="r"><span id="upd" class="mut" style="font-size:12px"></span><a href="#" id="sortir">Déconnexion</a></div></div>
  <div id="bandeau" class="bandeau" hidden></div>
+  <p id="quota" class="hint" hidden></p>
   <p class="sub">Statistiques réelles du site — robots et scanners exclus, IP jamais stockée en clair. Le temps réel est recalculé à chaque rafraîchissement ; l'historique une fois par heure.</p>
 
  <div class="sec">⚡ En temps réel &amp; 7 derniers jours</div>
  <div class="cards">
   <div class="card live"><div class="n" id="c_online">–</div><div class="l">En ligne maintenant</div></div>
   <div class="card"><div class="n" id="c_today">–</div><div class="l">Visiteurs aujourd'hui</div></div>
+  <div class="card"><div class="n" id="c_hier">–</div><div class="l">Visiteurs hier</div></div>
   <div class="card"><div class="n" id="c_week">–</div><div class="l">Visiteurs uniques (7 j)</div></div>
   <div class="card"><div class="n" id="c_wvis">–</div><div class="l">Visites (7 j)</div></div>
   <div class="card"><div class="n" id="c_wtime">–</div><div class="l">Temps passé (7 j)</div></div>
+  <div class="card"><div class="n" id="c_wmoy">–</div><div class="l">Temps moyen par visiteur (7 j)</div></div>
+  <div class="card"><div class="n" id="c_wpages">–</div><div class="l">Pages par visiteur (7 j)</div></div>
   <div class="card"><div class="n" id="c_wquiz">–</div><div class="l">Quiz lancés (7 j)</div></div>
   <div class="card"><div class="n" id="c_mois">–</div><div class="l">Visiteurs uniques (30 j)</div></div>
   <div class="card"><div class="n" id="c_total">–</div><div class="l">Visiteurs uniques (total)</div></div>
@@ -395,7 +399,20 @@ function bandeau(txt) {
   b.hidden = false; b.textContent = txt;
 }
 function peindre(s) {
-  c_mois.textContent=s.moisUnique;c_online.textContent=s.onlineCount;c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wtime.textContent=dur(s.weekTimeMs);c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
+  c_mois.textContent=s.moisUnique;c_online.textContent=s.onlineCount;
+  c_hier.textContent=s.hier?s.hier.u:'–';
+  c_wmoy.textContent=s.tempsMoyenWeek?dur(s.tempsMoyenWeek):'–';
+  c_wpages.textContent=s.pagesMoyenWeek||'–';
+  /* Surveillance du quota d'écritures : au-delà de 1 000 par jour sur le plan gratuit de
+     Cloudflare, les écritures échouent SANS ERREUR et la journée est perdue. On le dit avant. */
+  if(s.quota){
+    var pc=Math.round(s.quota.ecritures/s.quota.plafond*100);
+    quota.textContent='Enregistrements du jour : '+nb(s.quota.ecritures)+' / '+nb(s.quota.plafond)
+      +' ('+pc+' %) du quota gratuit Cloudflare.'
+      +(pc>=80?' ⚠️ Proche de la limite : au-delà, les visites de la journée ne seront plus enregistrées. Il faudra passer au plan payant (5 $/mois) ou migrer le stockage.':'');
+    quota.className=pc>=80?'bandeau':'hint';
+    quota.hidden=false;
+  }c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wtime.textContent=dur(s.weekTimeMs);c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
   t_online.innerHTML=s.online.map(o=>'<tr><td class=mono>'+sid(o.id)+'</td><td>'+FLAG(o.country)+' '+esc(o.country)+'</td><td>'+esc(o.city)+'</td><td>'+dev(o)+'</td><td>'+esc(o.br)+'</td><td class=mut>'+ago(o.t,s.now)+'</td></tr>').join('')||'<tr><td colspan=6 class=mut>Personne en ligne pour le moment</td></tr>';
   t_users.innerHTML=s.users7d.map(u=>'<tr><td class=mono>'+sid(u.id)+'</td><td>'+FLAG(u.country)+' '+esc(u.country)+'</td><td>'+esc(u.city)+'</td><td>'+dev(u)+'</td><td>'+esc(u.br)+'</td><td class=mono>'+u.visits+'</td><td class=mono>'+u.quiz+'</td><td class=mono>'+dur(u.timeMs)+'</td><td class=mono>'+u.days+'</td><td class=mut>'+F(u.first)+'</td><td class=mut>'+F(u.last)+'</td></tr>').join('')||'<tr><td colspan=11 class=mut>Les visiteurs apparaîtront ici dès la première visite.</td></tr>';
   peindreHistoire(s);
