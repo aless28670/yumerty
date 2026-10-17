@@ -24,7 +24,21 @@
   "use strict";
   // Le mouchard est accessoire : quoi qu'il arrive, il ne doit jamais faire remonter d'erreur
   // (localStorage refusé en navigation privée, Promise absent, fetch bloqué par une extension…).
-  try { demarrerMouchard(); } catch (err) {}
+  /* Le mouchard ne démarre qu'une fois la page ENTIÈREMENT chargée, et même un peu après.
+     Raison : il ne doit jamais entrer en concurrence avec les ressources du site lui-même.
+     Le site est servi par GitHub Pages, le mouchard parle à Cloudflare — dont certaines IP
+     sont bloquées par les FAI espagnols. Si cet appel partait pendant le chargement, une IP
+     bloquée pourrait occuper une des connexions que le navigateur réserve par domaine, et
+     ralentir l'affichage. En démarrant après `load`, il n'y a plus rien à ralentir : la page
+     est déjà utilisable, et le compteur travaille dans son coin. */
+  function demarrerPlusTard() {
+    try { setTimeout(function () { try { demarrerMouchard(); } catch (err) {} }, 1200); }
+    catch (err) {}
+  }
+  try {
+    if (document.readyState === "complete") demarrerPlusTard();
+    else window.addEventListener("load", demarrerPlusTard);
+  } catch (err) {}
 
   function demarrerMouchard() {
   /* DEUX adresses pour le même Worker, essayées dans l'ordre, et ce n'est pas de la ceinture
@@ -91,9 +105,22 @@
   function envoyerVers(i, e, t) {
     var url = ENDPOINTS[i] + "/_ping?e=" + encodeURIComponent(e) + (t ? "&t=" + t : "");
     if (typeof fetch === "function") {
-      return fetch(url, { method: "POST", mode: "cors", credentials: "omit", keepalive: true })
-        .then(function (r) { return r.ok || r.status === 204; })
-        .catch(function () { return false; });
+      /* Délai dur de 5 s. Une IP bloquée ne refuse pas la connexion : elle ne répond pas du
+         tout, et la requête resterait pendante une minute ou plus, occupant une connexion du
+         navigateur. On l'abandonne vite — l'événement part en file et sera rejoué plus tard. */
+      var stop = null, sig = null;
+      try {
+        if (typeof AbortController === "function") {
+          var ac = new AbortController();
+          sig = ac.signal;
+          stop = setTimeout(function () { try { ac.abort(); } catch (err) {} }, 5000);
+        }
+      } catch (err) { stop = null; sig = null; }
+      var opt = { method: "POST", mode: "cors", credentials: "omit", keepalive: true };
+      if (sig) opt.signal = sig;
+      return fetch(url, opt)
+        .then(function (r) { if (stop) clearTimeout(stop); return r.ok || r.status === 204; })
+        .catch(function () { if (stop) clearTimeout(stop); return false; });
     }
     return new Promise(function (resolve) {
       try {
