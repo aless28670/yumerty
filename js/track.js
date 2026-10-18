@@ -69,6 +69,7 @@
     "https://stats.yumerty.com"
   ];
   var CLE_EP = "ym_adresse";
+  var CLE_VID = "ym_vid";    // identifiant anonyme propre à ce navigateur
   var FILE = "ym_file";      // clé localStorage de la file d'attente
   var FILE_MAX = 200;        // au-delà, on jette les plus anciens (bornage du stockage)
   /* Battement porté de 60 s à 4 min le 17/10/2026. Chaque battement coûte une écriture KV, et
@@ -77,6 +78,35 @@
      quota — après quoi les écritures échouent en silence et la journée est perdue.
      La fenêtre « en ligne » du serveur a été portée à 6 min en conséquence. */
   var BATTEMENT = 4 * 60000;
+
+  /* ⭐ IDENTIFIANT PAR NAVIGATEUR — correction du défaut majeur constaté le 18/10/2026.
+     Jusque-là le serveur identifiait un visiteur par l'empreinte de son ADRESSE IP. Or toutes
+     les personnes derrière un même wifi — une salle de cours, une bibliothèque, un partage de
+     connexion — sortent avec la MÊME IP publique : elles comptaient pour une seule personne.
+     Alessandro voyait des dizaines d'étudiants utiliser le site devant lui et la console
+     n'affichait qu'un visiteur. C'était la bonne mesure d'une mauvaise chose.
+
+     On tire donc ici un identifiant aléatoire, propre au navigateur, conservé dans
+     localStorage, et on l'envoie au serveur qui le hache avec son sel. Conséquences :
+     - deux personnes sur le même wifi comptent pour deux ;
+     - la même personne qui revient est reconnue, même si son IP a changé (4G → wifi) ;
+     - aucune donnée personnelle : c'est un nombre au hasard, sans rapport avec l'appareil.
+     Limites assumées : la même personne sur téléphone et sur ordinateur compte pour deux, et
+     un vidage du stockage du navigateur crée un nouvel identifiant. En navigation privée, le
+     stockage est refusé : le serveur retombe alors sur l'empreinte de l'IP. */
+  function identifiant() {
+    try {
+      var v = localStorage.getItem(CLE_VID);
+      if (v && /^[0-9a-f]{24,}$/.test(v)) return v;
+      var o = new Uint8Array(16);
+      if (typeof crypto !== "undefined" && crypto.getRandomValues) crypto.getRandomValues(o);
+      else for (var i = 0; i < 16; i++) o[i] = Math.floor(Math.random() * 256);
+      var h = "";
+      for (var j = 0; j < o.length; j++) h += (o[j] + 0x100).toString(16).slice(1);
+      localStorage.setItem(CLE_VID, h);
+      return h;
+    } catch (err) { return ""; }                 // navigation privée : le serveur utilisera l'IP
+  }
 
   function lire() {
     try { var v = JSON.parse(localStorage.getItem(FILE) || "[]"); return Array.isArray(v) ? v : []; }
@@ -123,7 +153,9 @@
   }
 
   function envoyerVers(i, e, t) {
-    var url = ENDPOINTS[i] + "/_ping?e=" + encodeURIComponent(e) + (t ? "&t=" + t : "");
+    var vid = identifiant();
+    var url = ENDPOINTS[i] + "/_ping?e=" + encodeURIComponent(e)
+      + (t ? "&t=" + t : "") + (vid ? "&v=" + vid : "");
     if (typeof fetch === "function") {
       /* Délai dur de 5 s. Une IP bloquée ne refuse pas la connexion : elle ne répond pas du
          tout, et la requête resterait pendante une minute ou plus, occupant une connexion du
