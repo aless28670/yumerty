@@ -143479,25 +143479,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans une étude sur les différences entre la thérapie manuelle lombaire spécifique et la thérapie manuelle globale lombaire, quelle affirmation est correcte ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "Je ne peux qu'aveugler l'analyste",
-     "correct": true,
-     "j": "En kinésithérapie l'aveuglement du patient et du thérapeute est très difficile à mettre en place ; seul l'évaluateur/analyste peut être mis en aveugle (cours 3.7)."
-    },
-    {
-     "t": "Je peux aveugler les trois niveaux : patient, chercheur et analyste",
-     "j": "Faux : le cours souligne une limite claire à l'aveugle en kinésithérapie, le patient sachant souvent quel traitement il reçoit (cours 3.7)."
-    },
-    {
-     "t": "Je peux aveugler l'analyste et le patient",
-     "j": "Faux : le patient en thérapie manuelle sait généralement quel traitement il reçoit, on ne peut pas l'aveugler (cours 3.7)."
-    }
-   ]
-  },
+  {"q":"Dans une étude sur les différences entre la thérapie manuelle lombaire spécifique et la thérapie manuelle globale lombaire, quelle affirmation est correcte ?","c":18,"options":[{"t":"Je ne peux qu'aveugler l'analyste","correct":true,"j":"En kinésithérapie l'aveuglement du patient et du thérapeute est très difficile à mettre en place ; seul l'évaluateur/analyste peut être mis en aveugle (cours 3.7)."},{"t":"Je peux aveugler les trois niveaux : patient, chercheur et analyste","j":"Faux : le cours souligne une limite claire à l'aveugle en kinésithérapie, le patient sachant souvent quel traitement il reçoit (cours 3.7)."},{"t":"Je peux aveugler l'analyste et le patient","j":"Faux : le patient en thérapie manuelle sait généralement quel traitement il reçoit, on ne peut pas l'aveugler (cours 3.7)."}]},
   {
    "q": "Lequel des éléments suivants considéreriez-vous comme un élément du canal formel de communication ?",
    "c": 12,
@@ -143574,25 +143556,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Compte tenu des limites actuelles des études en physiothérapie, telles que la difficulté d'établir des traitements placebo, quelle approche méthodologique pourrait potentiellement surmonter ce défi et comment ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "La conception d'études pragmatiques qui mettent l'accent sur l'application de traitements dans des conditions réelles peut faciliter l'évaluation de l'efficacité sans avoir strictement besoin d'un placebo.",
-     "correct": true,
-     "j": "Cours 2.1 : les études évaluent l'effet des interventions ; une approche en conditions réelles permet d'estimer l'efficacité quand un placebo est difficile à mettre en place."
-    },
-    {
-     "t": "Augmenter le nombre d'études descriptives pour mieux comprendre les interventions sans comparaison avec le placebo.",
-     "j": "Cours 2.1 : les études descriptives ne cherchent pas à établir l'efficacité (analytique) ; elles servent à générer des hypothèses, pas à comparer des interventions."
-    },
-    {
-     "t": "Concentrer la recherche sur des études de cas uniques pour éviter toute comparaison directe avec d'autres traitements.",
-     "j": "Cours 2.1 : les rapports de cas uniques ont le niveau de preuve le plus faible et ne permettent pas d'évaluer l'efficacité d'une intervention."
-    }
-   ]
-  },
+  {"q":"Compte tenu des limites actuelles des études en physiothérapie, telles que la difficulté d'établir des traitements placebo, quelle approche méthodologique pourrait potentiellement surmonter ce défi et comment ?","c":18,"options":[{"t":"La conception d'études pragmatiques qui mettent l'accent sur l'application de traitements dans des conditions réelles peut faciliter l'évaluation de l'efficacité sans avoir strictement besoin d'un placebo.","correct":true,"j":"Cours 2.1 : les études évaluent l'effet des interventions ; une approche en conditions réelles permet d'estimer l'efficacité quand un placebo est difficile à mettre en place."},{"t":"Augmenter le nombre d'études descriptives pour mieux comprendre les interventions sans comparaison avec le placebo.","j":"Cours 2.1 : les études descriptives ne cherchent pas à établir l'efficacité (analytique) ; elles servent à générer des hypothèses, pas à comparer des interventions."},{"t":"Concentrer la recherche sur des études de cas uniques pour éviter toute comparaison directe avec d'autres traitements.","j":"Cours 2.1 : les rapports de cas uniques ont le niveau de preuve le plus faible et ne permettent pas d'évaluer l'efficacité d'une intervention."}]},
   {
    "q": "Dans l'évaluation de l'impact d'un programme de réadaptation en physiothérapie pour les patients souffrant de lombalgie chronique, si la fréquence d'utilisation d'analgésiques avant et après le traitement est mesurée, comment cette variable devrait-elle être catégorisée et analysée ?",
    "c": 8,
@@ -143688,25 +143652,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Si la valeur p est supérieure à 0,05",
-   "c": 1,
-   "options": [
-    {
-     "t": "Nous acceptons l'hypothèse nulle",
-     "correct": true,
-     "j": "Cours 2.5 : le niveau de confiance (ex. 95 %) fixe le seuil d'erreur ; une p > 0,05 ne permet pas de rejeter l'hypothèse nulle."
-    },
-    {
-     "t": "Nous acceptons l'hypothèse alternative",
-     "j": "Cours 2.5 : l'hypothèse alternative n'est retenue que si le résultat est significatif (p ≤ seuil), ce qui n'est pas le cas ici."
-    },
-    {
-     "t": "Nous acceptons l'hypothèse conceptuelle",
-     "j": "Cours 2.2 : l'hypothèse conceptuelle est la réponse proposée à la question ; ce n'est pas la décision statistique liée à la valeur p."
-    }
-   ]
-  },
+  {"q":"Si la valeur p est supérieure à 0,05","c":9,"options":[{"t":"Nous acceptons l'hypothèse nulle","correct":true,"j":"Cours 2.5 : avec un niveau de confiance de 95 %, une p supérieure à 0,05 ne franchit pas le seuil de signification ; faute de pouvoir la rejeter, on conserve l'hypothèse nulle."},{"t":"Nous acceptons l'hypothèse alternative","j":"Cours 2.5 : l'hypothèse alternative n'est retenue que si le résultat est significatif (p ≤ seuil), ce qui n'est pas le cas ici."},{"t":"Nous acceptons l'hypothèse conceptuelle","j":"Cours 2.2 : l'hypothèse conceptuelle est la réponse proposée à la question ; ce n'est pas la décision statistique liée à la valeur p."}]},
   {
    "q": "Lequel des éléments suivants est un gestionnaire bibliographique ?",
    "c": 16,
@@ -143859,25 +143805,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lequel des niveaux de preuve suivants présente la plus grande rigueur méthodologique ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Revue systématique",
-     "correct": true,
-     "j": "La revue systématique est au sommet de la hiérarchie des preuves."
-    },
-    {
-     "t": "Avis d'expert",
-     "j": "L'avis d'expert est le niveau de preuve le plus bas."
-    },
-    {
-     "t": "ECR",
-     "j": "L'ECR est un haut niveau, mais la revue systématique qui les synthétise le dépasse."
-    }
-   ]
-  },
+  {"q":"Lequel des niveaux de preuve suivants présente la plus grande rigueur méthodologique ?","c":5,"options":[{"t":"Revue systématique","correct":true,"j":"La revue systématique est au sommet de la hiérarchie des preuves."},{"t":"Avis d'expert","j":"L'avis d'expert est le niveau de preuve le plus bas."},{"t":"ECR","j":"L'ECR est un haut niveau, mais la revue systématique qui les synthétise le dépasse."}]},
   {
    "q": "Laquelle des variables suivantes est une variable dépendante dans une étude sur l'efficacité de l'électrothérapie chez les patients atteints de tendinite ?",
    "c": 7,
@@ -143973,25 +143901,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Parmi les types d'études suivants, lequel présente le niveau de preuve scientifique le plus élevé lorsqu'il s'agit d'évaluer l'efficacité d'un traitement de kinésithérapie pour soulager la douleur chez les patients souffrant de lombalgie chronique ?",
-   "c": 20,
-   "options": [
-    {
-     "t": "Revue systématique d'études observationnelles",
-     "j": "Elle synthétise des études observationnelles (niveau plus bas) ; pour l'efficacité, l'ECR prime."
-    },
-    {
-     "t": "Étude de cohorte prospective",
-     "j": "La cohorte est observationnelle, moins probante que l'ECR pour l'efficacité."
-    },
-    {
-     "t": "ECR",
-     "correct": true,
-     "j": "Pour évaluer l'efficacité d'un traitement, l'essai contrôlé randomisé (ECR) offre le plus haut niveau de preuve parmi ces options."
-    }
-   ]
-  },
+  {"q":"Parmi les types d'études suivants, lequel présente le niveau de preuve scientifique le plus élevé lorsqu'il s'agit d'évaluer l'efficacité d'un traitement de kinésithérapie pour soulager la douleur chez les patients souffrant de lombalgie chronique ?","c":[5,20],"options":[{"t":"Revue systématique d'études observationnelles","j":"Elle synthétise des études observationnelles (niveau plus bas) ; pour l'efficacité, l'ECR prime."},{"t":"Étude de cohorte prospective","j":"La cohorte est observationnelle, moins probante que l'ECR pour l'efficacité."},{"t":"ECR","correct":true,"j":"Pour évaluer l'efficacité d'un traitement, l'essai contrôlé randomisé (ECR) offre le plus haut niveau de preuve parmi ces options."}]},
   {
    "q": "Lequel des éléments suivants constitue un objectif valable pour une étude scientifique ?",
    "c": 6,
@@ -144999,25 +144909,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Un dynamomètre fournit des valeurs très regroupées lors de mesures répétées, mais toutes supérieures de cinq kilogrammes à la valeur réelle. Comment qualifier cet instrument ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Précis mais inexact",
-     "correct": true,
-     "j": "La précision est la faible dispersion des mesures répétées, l'exactitude la proximité de la valeur réelle : ici la dispersion est faible mais l'écart constant."
-    },
-    {
-     "t": "Exact mais imprécis",
-     "j": "Ce serait le cas d'un appareil dont les valeurs se dispersent largement tout en se répartissant autour de la valeur réelle, ce qui n'est pas la situation décrite."
-    },
-    {
-     "t": "Ni précis ni exact",
-     "j": "Les mesures très regroupées témoignent au contraire d'une bonne précision ; seule l'exactitude fait défaut à cet appareil."
-    }
-   ]
-  },
+  {"q":"Un dynamomètre fournit des valeurs très regroupées lors de mesures répétées, mais toutes supérieures de cinq kilogrammes à la valeur réelle. Comment qualifier cet instrument ?","c":[2,3],"options":[{"t":"Précis mais inexact","correct":true,"j":"La précision est la faible dispersion des mesures répétées, l'exactitude la proximité de la valeur réelle : ici la dispersion est faible mais l'écart constant."},{"t":"Exact mais imprécis","j":"Ce serait le cas d'un appareil dont les valeurs se dispersent largement tout en se répartissant autour de la valeur réelle, ce qui n'est pas la situation décrite."},{"t":"Ni précis ni exact","j":"Les mesures très regroupées témoignent au contraire d'une bonne précision ; seule l'exactitude fait défaut à cet appareil."}]},
   {
    "q": "Selon le cours, que mesure la fiabilité d'une méthode de mesure ?",
    "c": 3,
@@ -145778,25 +145670,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Qu'est-ce qui manque dans cette question : « Chez des adultes atteints de spondylarthrite ankylosante, le renforcement excentrique diminue-t-il la raideur matinale ? »",
-   "c": 6,
-   "options": [
-    {
-     "t": "La comparaison",
-     "correct": true,
-     "j": "Le C manque : rien n'indique à quoi l'hydrothérapie est comparée, alors que la question comporte bien une population, une intervention et un outcome."
-    },
-    {
-     "t": "L'outcome mesuré",
-     "j": "L'outcome est présent sous la forme de l'amplitude articulaire, variable dépendante que l'étude analysera."
-    },
-    {
-     "t": "La population",
-     "j": "La population est bien définie : les patients opérés d'une prothèse de genou constituent le P de la question."
-    }
-   ]
-  },
+  {"q":"Qu'est-ce qui manque dans cette question : « Chez des adultes atteints de spondylarthrite ankylosante, le renforcement excentrique diminue-t-il la raideur matinale ? »","c":6,"options":[{"t":"La comparaison","correct":true,"j":"Le C manque : rien n'indique à quoi le renforcement excentrique est comparé, alors que la question comporte bien une population, une intervention et un outcome (cours 2.2)."},{"t":"L'outcome mesuré","j":"L'outcome est présent sous la forme de la raideur matinale, variable dépendante que l'étude analysera."},{"t":"La population","j":"La population est bien définie : les adultes atteints de spondylarthrite ankylosante constituent le P de la question."}]},
   {
    "q": "Comment l'hypothèse conceptuelle doit-elle être formulée ?",
    "c": 6,
@@ -145873,25 +145747,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon la déclaration d'Helsinki, qu'est-ce qui doit être placé au-dessus des objectifs de la recherche ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Le bien-être du sujet qui participe",
-     "correct": true,
-     "j": "La déclaration d'Helsinki place le bien-être du sujet au-dessus des objectifs de la recherche, avec le respect de l'individu et son autonomie."
-    },
-    {
-     "t": "La validité scientifique du protocole",
-     "j": "La rigueur méthodologique est une exigence éthique de la recherche, mais elle ne prime pas sur la personne qui y participe."
-    },
-    {
-     "t": "La diffusion rapide des résultats",
-     "j": "La communication des résultats doit être ponctuelle et précise, sans jamais passer avant le bien-être des participants."
-    }
-   ]
-  },
+  {"q":"Selon la déclaration d'Helsinki, qu'est-ce qui doit être placé au-dessus des objectifs de la recherche ?","c":[4,6],"options":[{"t":"Le bien-être du sujet qui participe","correct":true,"j":"La déclaration d'Helsinki place le bien-être du sujet au-dessus des objectifs de la recherche, avec le respect de l'individu et son autonomie."},{"t":"La validité scientifique du protocole","j":"La rigueur méthodologique est une exigence éthique de la recherche, mais elle ne prime pas sur la personne qui y participe."},{"t":"La diffusion rapide des résultats","j":"La communication des résultats doit être ponctuelle et précise, sans jamais passer avant le bien-être des participants."}]},
   {
    "q": "Une balance affiche 72,4 kg pour un poids dont la valeur réelle est 73,0 kg. Comment nomme-t-on cet écart ?",
    "c": 7,
@@ -146082,44 +145938,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Une équipe souhaite étudier la « motivation profonde » des patients mais ne dispose d'aucun moyen de la mesurer, mais ne dispose ni d'instrument validé ni d'aucune mesure approchée de ce construit. Quelle conclusion le cours impose-t-il ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Sans possibilité de mesure, ce n'est pas une variable de l'étude",
-     "correct": true,
-     "j": "La faisabilité fait partie de la définition : une qualité que l'on ne peut pas mesurer ne constitue pas une variable utilisable dans la recherche."
-    },
-    {
-     "t": "Il faut la recueillir en texte libre dans la section commentaires",
-     "j": "La section commentaires du cahier d'observation sert à consigner des remarques, non à introduire une variable dépourvue de protocole de mesure."
-    },
-    {
-     "t": "Il faut la mesurer à partir d'une définition propre à l'étude",
-     "j": "Le cours exige des définitions standard déjà employées par d'autres chercheurs ; inventer une définition ne rend pas la variable mesurable."
-    }
-   ]
-  },
-  {
-   "q": "Ne pouvant mesurer directement l'inflammation articulaire, une équipe relève la circonférence de l'articulation. À quel procédé recourt-elle ?",
-   "c": 8,
-   "options": [
-    {
-     "t": "À une mesure approximative liée à la variable",
-     "correct": true,
-     "j": "Le cours autorise une mesure approximative ou liée quand la variable spécifique est inaccessible, en précisant que l'erreur de mesure augmente alors."
-    },
-    {
-     "t": "À la décomposition d'un phénomène complexe",
-     "j": "La décomposition consiste à scinder un phénomène en plusieurs phénomènes plus simples, comme pour l'électrocardiogramme, et non à changer de variable."
-    },
-    {
-     "t": "À la transformation de l'échelle de la variable",
-     "j": "La transformation fait changer une variable de type d'échelle, par exemple de continue à ordinale ; ici c'est la variable elle-même qui est remplacée."
-    }
-   ]
-  },
+  {"q":"Une équipe souhaite étudier la « motivation profonde » des patients mais ne dispose ni d'instrument validé ni d'aucune mesure approchée de ce construit. Quelle conclusion le cours impose-t-il ?","c":7,"options":[{"t":"Sans possibilité de mesure, ce n'est pas une variable de l'étude","correct":true,"j":"La faisabilité fait partie de la définition : une qualité que l'on ne peut pas mesurer ne constitue pas une variable utilisable dans la recherche."},{"t":"Il faut la recueillir en texte libre dans la section commentaires","j":"La section commentaires du cahier d'observation sert à consigner des remarques, non à introduire une variable dépourvue de protocole de mesure."},{"t":"Il faut la mesurer à partir d'une définition propre à l'étude","j":"Le cours exige des définitions standard déjà employées par d'autres chercheurs ; inventer une définition ne rend pas la variable mesurable."}]},
+  {"q":"Ne pouvant mesurer directement l'inflammation articulaire, une équipe relève la circonférence de l'articulation. À quel procédé recourt-elle ?","c":[7,8],"options":[{"t":"À une mesure approximative liée à la variable","correct":true,"j":"Le cours autorise une mesure approximative ou liée quand la variable spécifique est inaccessible, en précisant que l'erreur de mesure augmente alors."},{"t":"À la décomposition d'un phénomène complexe","j":"La décomposition consiste à scinder un phénomène en plusieurs phénomènes plus simples, comme pour l'électrocardiogramme, et non à changer de variable."},{"t":"À la transformation de l'échelle de la variable","j":"La transformation fait changer une variable de type d'échelle, par exemple de continue à ordinale ; ici c'est la variable elle-même qui est remplacée."}]},
   {
    "q": "Pour mesurer la fonctionnalité du membre supérieur, quel critère doit guider en priorité le choix de l'instrument ?",
    "c": 7,
