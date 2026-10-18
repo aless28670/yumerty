@@ -23,29 +23,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Laquelle des affirmations suivantes est FAUSSE par rapport à la prévention",
-   "c": 7,
-   "options": [
-    {
-     "t": "La vaccination est une mesure de prévention primaire",
-     "j": "Vrai : la vaccination est citée comme mesure de prévention primaire (population saine, avant la maladie)."
-    },
-    {
-     "t": "La prévention tertiaire a pour but de réhabilité le malade",
-     "j": "Vrai : la prévention tertiaire vise réhabilitation/réinsertion du malade symptomatique."
-    },
-    {
-     "t": "La prévention primaire vise à réduire la prévalence de la maladie",
-     "correct": true,
-     "j": "FAUSSE : la prévention primaire réduit l'INCIDENCE ; c'est la prévention secondaire qui agit sur la prévalence."
-    },
-    {
-     "t": "La prévention secondaire c'est celle dirigée vers les malades à l'étape pré-clinique",
-     "j": "Vrai : la prévention secondaire cible les malades asymptomatiques en phase préclinique (dépistage)."
-    }
-   ]
-  },
+  {"q":"Laquelle des affirmations suivantes est FAUSSE par rapport à la prévention","c":4,"options":[{"t":"La vaccination est une mesure de prévention primaire","j":"Vrai : la vaccination est citée comme mesure de prévention primaire (population saine, avant la maladie)."},{"t":"La prévention tertiaire a pour but de réhabilité le malade","j":"Vrai : la prévention tertiaire vise réhabilitation/réinsertion du malade symptomatique."},{"t":"La prévention primaire vise à réduire la prévalence de la maladie","correct":true,"j":"FAUSSE : la prévention primaire réduit l'INCIDENCE ; c'est la prévention secondaire qui agit sur la prévalence."},{"t":"La prévention secondaire c'est celle dirigée vers les malades à l'étape pré-clinique","j":"Vrai : la prévention secondaire cible les malades asymptomatiques en phase préclinique (dépistage)."}]},
   {
    "q": "Choisissez la réponse CORRECTE. Quelle est la principale voie de transmission du VIH en France ?",
    "c": 8,
@@ -1587,29 +1565,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Choisissez la réponse CORRECTE. Lequel des suivants microorganismes cause des infections nosocomiales et présente fréquemment résistance aux antibiotiques ? :",
-   "c": 8,
-   "options": [
-    {
-     "t": "Trypanosoma cruzi",
-     "j": "Trypanosoma cruzi : protozoaire vectoriel (Chagas), pas nosocomial."
-    },
-    {
-     "t": "Pseudomonas aeruginosa",
-     "correct": true,
-     "j": "CORRECT : Pseudomonas aeruginosa = pathogène nosocomial classique, souvent multirésistant aux antibiotiques."
-    },
-    {
-     "t": "Clostridium botilinum",
-     "j": "Clostridium botulinum : intoxication alimentaire (botulisme), pas nosocomial résistant."
-    },
-    {
-     "t": "Treponema pallidum",
-     "j": "Treponema pallidum : agent de la syphilis (IST), sensible à la pénicilline."
-    }
-   ]
-  },
+  {"q":"Choisissez la réponse CORRECTE. Lequel des suivants microorganismes cause des infections nosocomiales et présente fréquemment résistance aux antibiotiques ? :","c":11,"options":[{"t":"Trypanosoma cruzi","j":"Trypanosoma cruzi : protozoaire vectoriel (Chagas), pas nosocomial."},{"t":"Pseudomonas aeruginosa","correct":true,"j":"CORRECT : Pseudomonas aeruginosa = pathogène nosocomial classique, souvent multirésistant aux antibiotiques."},{"t":"Clostridium botilinum","j":"Clostridium botulinum : intoxication alimentaire (botulisme), pas nosocomial résistant."},{"t":"Treponema pallidum","j":"Treponema pallidum : agent de la syphilis (IST), sensible à la pénicilline."}]},
   {
    "q": "Choisissez la réponse FAUSSE par rapport aux maladies cardio-vasculaires",
    "c": 16,
@@ -2346,52 +2302,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel élément est commun à toutes les définitions de la santé publique ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "L'accent mis sur la prévention et la promotion de la santé.",
-     "correct": true,
-     "j": "La prévention et la promotion figurent parmi les trois éléments communs à toutes les définitions."
-    },
-    {
-     "t": "La priorité donnée au traitement curatif des cas individuels.",
-     "j": "À l'inverse : la santé publique privilégie l'approche collective et la prévention, non le curatif individuel."
-    },
-    {
-     "t": "La centralisation des soins au sein des établissements hospitaliers.",
-     "j": "La santé publique agit à l'échelle des populations, non par centralisation hospitalière."
-    },
-    {
-     "t": "La spécialisation des interventions selon la pathologie ciblée.",
-     "j": "La santé publique adopte une approche collective des populations, non une spécialisation par pathologie."
-    }
-   ]
-  },
-  {
-   "q": "En santé publique, à qui incombe l'organisation des interventions améliorant la santé de la population, et quel en est le caractère ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Aux services de santé, qui organisent seuls les interventions ; elle est monodisciplinaire et mono-institutionnelle.",
-     "j": "Les services de santé ne mènent que certaines activités (prévention, rétablissement), sans porter seuls cette responsabilité."
-    },
-    {
-     "t": "Aux gouvernements, à qui revient d'organiser les interventions ; elle est multidisciplinaire et multi-institutionnelle.",
-     "correct": true,
-     "j": "Le cours attribue la santé publique aux gouvernements et la qualifie de multidisciplinaire et multi-institutionnelle."
-    },
-    {
-     "t": "Aux professionnels libéraux, qui organisent les interventions ; elle est pluriprofessionnelle mais mono-institutionnelle.",
-     "j": "La responsabilité incombe aux gouvernements, non aux libéraux, et le caractère est multi-institutionnel."
-    },
-    {
-     "t": "Aux collectivités locales, qui organisent les interventions ; elle est multidisciplinaire mais mono-institutionnelle.",
-     "j": "La responsabilité relève des gouvernements et le caractère est multi-institutionnel, non mono-institutionnel."
-    }
-   ]
-  },
+  {"q":"Quel élément est commun à toutes les définitions de la santé publique ?","c":2,"options":[{"t":"L'accent mis sur la prévention et la promotion de la santé.","correct":true,"j":"La prévention et la promotion figurent parmi les trois éléments communs à toutes les définitions."},{"t":"La priorité donnée au traitement curatif des cas individuels.","j":"À l'inverse : la santé publique privilégie l'approche collective et la prévention, non le curatif individuel."},{"t":"La centralisation des soins au sein des établissements hospitaliers.","j":"La santé publique agit à l'échelle des populations, non par centralisation hospitalière."},{"t":"La spécialisation des interventions selon la pathologie ciblée.","j":"La santé publique adopte une approche collective des populations, non une spécialisation par pathologie."}]},
+  {"q":"En santé publique, à qui incombe l'organisation des interventions améliorant la santé de la population, et quel en est le caractère ?","c":2,"options":[{"t":"Aux services de santé, qui organisent seuls les interventions ; elle est monodisciplinaire et mono-institutionnelle.","j":"Les services de santé ne mènent que certaines activités (prévention, rétablissement), sans porter seuls cette responsabilité."},{"t":"Aux gouvernements, à qui revient d'organiser les interventions ; elle est multidisciplinaire et multi-institutionnelle.","correct":true,"j":"Le cours attribue la santé publique aux gouvernements et la qualifie de multidisciplinaire et multi-institutionnelle."},{"t":"Aux professionnels libéraux, qui organisent les interventions ; elle est pluriprofessionnelle mais mono-institutionnelle.","j":"La responsabilité incombe aux gouvernements, non aux libéraux, et le caractère est multi-institutionnel."},{"t":"Aux collectivités locales, qui organisent les interventions ; elle est multidisciplinaire mais mono-institutionnelle.","j":"La responsabilité relève des gouvernements et le caractère est multi-institutionnel, non mono-institutionnel."}]},
   {
    "q": "Dans quel ordre s'enchaînent les étapes du cycle de la santé publique ?",
    "c": 3,
@@ -2415,167 +2327,13 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Que recouvre la surveillance en santé publique ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Collecter, stocker, facturer et archiver des informations sur l'état de santé et ses facteurs.",
-     "j": "La surveillance interprète et diffuse l'information ; elle ne se limite pas à la stocker et l'archiver."
-    },
-    {
-     "t": "Prescrire, analyser, interpréter et diffuser des informations sur l'état de santé et ses facteurs.",
-     "j": "La surveillance collecte l'information au départ ; elle ne la « prescrit » pas."
-    },
-    {
-     "t": "Collecter, analyser, interpréter et diffuser des informations sur l'état de santé et ses facteurs.",
-     "correct": true,
-     "j": "Ce sont les quatre activités de la définition, au service des actions de santé publique."
-    },
-    {
-     "t": "Collecter, analyser, interpréter et dissimuler des informations sur l'état de santé et ses facteurs.",
-     "j": "La finalité est de diffuser l'information pour soutenir l'action, non de la dissimuler."
-    }
-   ]
-  },
-  {
-   "q": "À quoi correspondent les trois axes de Santé publique France ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Anticiper (prévention et promotion), comprendre (veille et surveillance), agir (connaissance de l'état de santé).",
-     "j": "La veille et la surveillance relèvent d'anticiper, non de comprendre."
-    },
-    {
-     "t": "Anticiper (veille et surveillance), comprendre (connaissance de l'état de santé), agir (prévention, promotion et crises).",
-     "correct": true,
-     "j": "C'est l'appariement des trois axes tel que défini par l'agence."
-    },
-    {
-     "t": "Anticiper (réponse aux crises), comprendre (prévention et promotion), agir (veille et surveillance).",
-     "j": "La réponse aux crises relève d'agir, et la veille et la surveillance d'anticiper."
-    },
-    {
-     "t": "Anticiper (connaissance de l'état de santé), comprendre (réponse aux crises), agir (veille et surveillance).",
-     "j": "La connaissance de l'état de santé relève de comprendre, non d'anticiper."
-    }
-   ]
-  },
-  {
-   "q": "Quel est le rôle de l'Union européenne en matière de santé ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Remplacer les politiques nationales, l'organisation des soins devenant de la responsabilité de l'UE.",
-     "j": "L'UE ne remplace pas les politiques nationales et l'organisation des soins reste aux États."
-    },
-    {
-     "t": "Harmoniser les politiques nationales, l'organisation des soins devenant une compétence partagée UE-États.",
-     "j": "Le rôle est de compléter, non d'harmoniser, et les soins relèvent des seuls États membres."
-    },
-    {
-     "t": "Compléter les politiques nationales, l'organisation des soins devenant de la responsabilité de l'UE.",
-     "j": "Le premier terme est exact, mais l'organisation des soins reste des États, non de l'UE."
-    },
-    {
-     "t": "Compléter les politiques nationales, l'organisation des soins restant de la responsabilité des États membres.",
-     "correct": true,
-     "j": "L'UE complète les politiques nationales, l'organisation des soins demeurant aux États membres."
-    }
-   ]
-  },
-  {
-   "q": "Quel rôle l'OMS occupe-t-elle dans le système des Nations Unies ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "L'autorité de gestion et de coordination de l'action de santé au sein du système des Nations Unies.",
-     "correct": true,
-     "j": "C'est exactement le rôle attribué à l'OMS dans le système onusien."
-    },
-    {
-     "t": "L'autorité de gestion et de coordination de l'aide alimentaire au sein du système des Nations Unies.",
-     "j": "L'OMS coordonne l'action de santé, non l'aide alimentaire."
-    },
-    {
-     "t": "L'autorité de financement et de facturation de l'action de santé au sein du système des Nations Unies.",
-     "j": "Son rôle est la gestion et la coordination, non le financement et la facturation."
-    },
-    {
-     "t": "L'autorité de contrôle et de sanction de l'action de santé au sein du système des Nations Unies.",
-     "j": "L'OMS gère et coordonne l'action de santé, elle ne « sanctionne » pas."
-    }
-   ]
-  },
-  {
-   "q": "Quelle est la nature et l'objectif du Règlement Sanitaire International (RSI) ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Instrument juridique facultatif visant à éviter la propagation internationale des maladies sans entrave inutile au commerce.",
-     "j": "Le RSI est un instrument obligatoire, non facultatif."
-    },
-    {
-     "t": "Recommandation non contraignante visant à limiter les maladies en priorisant la fermeture du trafic et du commerce.",
-     "j": "Le RSI est contraignant et cherche au contraire à éviter les entraves inutiles au commerce."
-    },
-    {
-     "t": "Instrument juridique obligatoire visant à éviter la propagation internationale des maladies sans entrave inutile au commerce.",
-     "correct": true,
-     "j": "Le RSI est obligatoire et vise à contenir les maladies sans entraver inutilement le trafic et le commerce."
-    },
-    {
-     "t": "Instrument juridique obligatoire visant à suspendre systématiquement le trafic et le commerce en cas de maladie transfrontalière.",
-     "j": "Le RSI cherche précisément à éviter les entraves inutiles, non à suspendre systématiquement les échanges."
-    }
-   ]
-  },
-  {
-   "q": "Comment se définit une Urgence de Santé Publique de Portée Internationale (USPPI) ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Un événement habituel et localisé, sans implication transfrontalière, relevant d'une action strictement nationale.",
-     "j": "Une USPPI est au contraire extraordinaire et dépasse les frontières de l'État affecté."
-    },
-    {
-     "t": "Un événement extraordinaire et grave, avec des implications transfrontalières, pouvant requérir une action internationale coordonnée.",
-     "correct": true,
-     "j": "C'est la définition retenue : événement extraordinaire, transfrontalier, appelant une réponse coordonnée."
-    },
-    {
-     "t": "Un événement extraordinaire et grave, sans implication transfrontalière, relevant d'une action strictement nationale.",
-     "j": "L'USPPI implique un risque de propagation dépassant les frontières nationales."
-    },
-    {
-     "t": "Un événement habituel et attendu, avec des implications transfrontalières, pouvant requérir une action internationale coordonnée.",
-     "j": "Une USPPI est extraordinaire, soudaine ou inattendue, non un événement habituel et attendu."
-    }
-   ]
-  },
-  {
-   "q": "Au titre du Règlement sanitaire international (RSI), qui déclare en dernier ressort une urgence de santé publique de portée internationale (USPPI) ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Le Directeur général de l'OMS, sur avis du Comité d'urgence du RSI.",
-     "correct": true,
-     "j": "C'est bien le Directeur général de l'OMS qui déclare en dernier ressort l'USPPI, le Comité d'urgence ne rendant qu'un avis technique."
-    },
-    {
-     "t": "Le Comité d'urgence du RSI, sur proposition du Directeur général de l'OMS.",
-     "j": "Le Comité d'urgence rend seulement un avis technique ; il ne déclare pas lui-même l'USPPI."
-    },
-    {
-     "t": "L'Assemblée mondiale de la Santé, sur avis du Directeur général de l'OMS.",
-     "j": "L'Assemblée mondiale de la Santé n'intervient pas dans cette déclaration, qui revient au Directeur général."
-    },
-    {
-     "t": "L'État affecté, après notification au Directeur général de l'OMS.",
-     "j": "L'État affecté notifie l'événement mais ne déclare pas l'USPPI ; cette responsabilité incombe au Directeur général."
-    }
-   ]
-  },
+  {"q":"Que recouvre la surveillance en santé publique ?","c":2,"options":[{"t":"Collecter, stocker, facturer et archiver des informations sur l'état de santé et ses facteurs.","j":"La surveillance interprète et diffuse l'information ; elle ne se limite pas à la stocker et l'archiver."},{"t":"Prescrire, analyser, interpréter et diffuser des informations sur l'état de santé et ses facteurs.","j":"La surveillance collecte l'information au départ ; elle ne la « prescrit » pas."},{"t":"Collecter, analyser, interpréter et diffuser des informations sur l'état de santé et ses facteurs.","correct":true,"j":"Ce sont les quatre activités de la définition, au service des actions de santé publique."},{"t":"Collecter, analyser, interpréter et dissimuler des informations sur l'état de santé et ses facteurs.","j":"La finalité est de diffuser l'information pour soutenir l'action, non de la dissimuler."}]},
+  {"q":"À quoi correspondent les trois axes de Santé publique France ?","c":2,"options":[{"t":"Anticiper (prévention et promotion), comprendre (veille et surveillance), agir (connaissance de l'état de santé).","j":"La veille et la surveillance relèvent d'anticiper, non de comprendre."},{"t":"Anticiper (veille et surveillance), comprendre (connaissance de l'état de santé), agir (prévention, promotion et crises).","correct":true,"j":"C'est l'appariement des trois axes tel que défini par l'agence."},{"t":"Anticiper (réponse aux crises), comprendre (prévention et promotion), agir (veille et surveillance).","j":"La réponse aux crises relève d'agir, et la veille et la surveillance d'anticiper."},{"t":"Anticiper (connaissance de l'état de santé), comprendre (réponse aux crises), agir (veille et surveillance).","j":"La connaissance de l'état de santé relève de comprendre, non d'anticiper."}]},
+  {"q":"Quel est le rôle de l'Union européenne en matière de santé ?","c":2,"options":[{"t":"Remplacer les politiques nationales, l'organisation des soins devenant de la responsabilité de l'UE.","j":"L'UE ne remplace pas les politiques nationales et l'organisation des soins reste aux États."},{"t":"Harmoniser les politiques nationales, l'organisation des soins devenant une compétence partagée UE-États.","j":"Le rôle est de compléter, non d'harmoniser, et les soins relèvent des seuls États membres."},{"t":"Compléter les politiques nationales, l'organisation des soins devenant de la responsabilité de l'UE.","j":"Le premier terme est exact, mais l'organisation des soins reste des États, non de l'UE."},{"t":"Compléter les politiques nationales, l'organisation des soins restant de la responsabilité des États membres.","correct":true,"j":"L'UE complète les politiques nationales, l'organisation des soins demeurant aux États membres."}]},
+  {"q":"Quel rôle l'OMS occupe-t-elle dans le système des Nations Unies ?","c":2,"options":[{"t":"L'autorité de gestion et de coordination de l'action de santé au sein du système des Nations Unies.","correct":true,"j":"C'est exactement le rôle attribué à l'OMS dans le système onusien."},{"t":"L'autorité de gestion et de coordination de l'aide alimentaire au sein du système des Nations Unies.","j":"L'OMS coordonne l'action de santé, non l'aide alimentaire."},{"t":"L'autorité de financement et de facturation de l'action de santé au sein du système des Nations Unies.","j":"Son rôle est la gestion et la coordination, non le financement et la facturation."},{"t":"L'autorité de contrôle et de sanction de l'action de santé au sein du système des Nations Unies.","j":"L'OMS gère et coordonne l'action de santé, elle ne « sanctionne » pas."}]},
+  {"q":"Quelle est la nature et l'objectif du Règlement Sanitaire International (RSI) ?","c":2,"options":[{"t":"Instrument juridique facultatif visant à éviter la propagation internationale des maladies sans entrave inutile au commerce.","j":"Le RSI est un instrument obligatoire, non facultatif."},{"t":"Recommandation non contraignante visant à limiter les maladies en priorisant la fermeture du trafic et du commerce.","j":"Le RSI est contraignant et cherche au contraire à éviter les entraves inutiles au commerce."},{"t":"Instrument juridique obligatoire visant à éviter la propagation internationale des maladies sans entrave inutile au commerce.","correct":true,"j":"Le RSI est obligatoire et vise à contenir les maladies sans entraver inutilement le trafic et le commerce."},{"t":"Instrument juridique obligatoire visant à suspendre systématiquement le trafic et le commerce en cas de maladie transfrontalière.","j":"Le RSI cherche précisément à éviter les entraves inutiles, non à suspendre systématiquement les échanges."}]},
+  {"q":"Comment se définit une Urgence de Santé Publique de Portée Internationale (USPPI) ?","c":2,"options":[{"t":"Un événement habituel et localisé, sans implication transfrontalière, relevant d'une action strictement nationale.","j":"Une USPPI est au contraire extraordinaire et dépasse les frontières de l'État affecté."},{"t":"Un événement extraordinaire et grave, avec des implications transfrontalières, pouvant requérir une action internationale coordonnée.","correct":true,"j":"C'est la définition retenue : événement extraordinaire, transfrontalier, appelant une réponse coordonnée."},{"t":"Un événement extraordinaire et grave, sans implication transfrontalière, relevant d'une action strictement nationale.","j":"L'USPPI implique un risque de propagation dépassant les frontières nationales."},{"t":"Un événement habituel et attendu, avec des implications transfrontalières, pouvant requérir une action internationale coordonnée.","j":"Une USPPI est extraordinaire, soudaine ou inattendue, non un événement habituel et attendu."}]},
+  {"q":"Au titre du Règlement sanitaire international (RSI), qui déclare en dernier ressort une urgence de santé publique de portée internationale (USPPI) ?","c":2,"options":[{"t":"Le Directeur général de l'OMS, sur avis du Comité d'urgence du RSI.","correct":true,"j":"C'est bien le Directeur général de l'OMS qui déclare en dernier ressort l'USPPI, le Comité d'urgence ne rendant qu'un avis technique."},{"t":"Le Comité d'urgence du RSI, sur proposition du Directeur général de l'OMS.","j":"Le Comité d'urgence rend seulement un avis technique ; il ne déclare pas lui-même l'USPPI."},{"t":"L'Assemblée mondiale de la Santé, sur avis du Directeur général de l'OMS.","j":"L'Assemblée mondiale de la Santé n'intervient pas dans cette déclaration, qui revient au Directeur général."},{"t":"L'État affecté, après notification au Directeur général de l'OMS.","j":"L'État affecté notifie l'événement mais ne déclare pas l'USPPI ; cette responsabilité incombe au Directeur général."}]},
   {
    "q": "Parmi les propositions suivantes, laquelle correspond à la définition de la démographie ?",
    "c": 3,
@@ -3427,29 +3185,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle affirmation caractérise la prévention primaire ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Elle réduit l'incidence et s'adresse à la population en bonne santé.",
-     "correct": true,
-     "j": "La prévention primaire agit avant la maladie, sur la population en bonne santé, pour diminuer l'incidence."
-    },
-    {
-     "t": "Elle réduit la prévalence et s'adresse aux malades asymptomatiques.",
-     "j": "Réduire la prévalence chez les malades asymptomatiques définit la prévention secondaire."
-    },
-    {
-     "t": "Elle réduit les séquelles et s'adresse aux malades symptomatiques.",
-     "j": "Agir sur les séquelles chez les malades symptomatiques définit la prévention tertiaire."
-    },
-    {
-     "t": "Elle réduit l'incidence et s'adresse aux malades symptomatiques.",
-     "j": "La prévention primaire s'adresse aux sujets en bonne santé, non aux malades symptomatiques."
-    }
-   ]
-  },
+  {"q":"Quelle affirmation caractérise la prévention primaire ?","c":4,"options":[{"t":"Elle réduit l'incidence et s'adresse à la population en bonne santé.","correct":true,"j":"La prévention primaire agit avant la maladie, sur la population en bonne santé, pour diminuer l'incidence."},{"t":"Elle réduit la prévalence et s'adresse aux malades asymptomatiques.","j":"Réduire la prévalence chez les malades asymptomatiques définit la prévention secondaire."},{"t":"Elle réduit les séquelles et s'adresse aux malades symptomatiques.","j":"Agir sur les séquelles chez les malades symptomatiques définit la prévention tertiaire."},{"t":"Elle réduit l'incidence et s'adresse aux malades symptomatiques.","j":"La prévention primaire s'adresse aux sujets en bonne santé, non aux malades symptomatiques."}]},
   {
    "q": "Quel est l'objectif de la prévention primordiale ?",
    "c": 4,
@@ -3542,29 +3278,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Comment estime-t-on le nombre de cas attribuables à une exposition dans une population ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "En multipliant l'excès de risque par le nombre de sujets exposés.",
-     "correct": true,
-     "j": "Le nombre de cas attribuables s'obtient en multipliant l'excès de risque (risque attribuable) par l'effectif exposé."
-    },
-    {
-     "t": "En multipliant le risque relatif par le nombre de sujets exposés.",
-     "j": "Le risque relatif est un rapport sans dimension ; multiplié par l'effectif, il ne donne pas un nombre de cas attribuables."
-    },
-    {
-     "t": "En divisant l'excès de risque par le nombre de sujets exposés.",
-     "j": "Diviser l'excès de risque par l'effectif exposé ne fournit pas un nombre de cas mais un ratio dépourvu de sens ici."
-    },
-    {
-     "t": "En additionnant l'excès de risque au nombre de sujets exposés.",
-     "j": "On ne peut additionner un risque et un effectif : l'opération correcte est une multiplication."
-    }
-   ]
-  },
+  {"q":"Comment estime-t-on le nombre de cas attribuables à une exposition dans une population ?","c":4,"options":[{"t":"En multipliant l'excès de risque par le nombre de sujets exposés.","correct":true,"j":"Le nombre de cas attribuables s'obtient en multipliant l'excès de risque (risque attribuable) par l'effectif exposé."},{"t":"En multipliant le risque relatif par le nombre de sujets exposés.","j":"Le risque relatif est un rapport sans dimension ; multiplié par l'effectif, il ne donne pas un nombre de cas attribuables."},{"t":"En divisant l'excès de risque par le nombre de sujets exposés.","j":"Diviser l'excès de risque par l'effectif exposé ne fournit pas un nombre de cas mais un ratio dépourvu de sens ici."},{"t":"En additionnant l'excès de risque au nombre de sujets exposés.","j":"On ne peut additionner un risque et un effectif : l'opération correcte est une multiplication."}]},
   {
    "q": "Quelle conséquence est directement attribuable à un résultat faussement négatif d'un test de dépistage ?",
    "c": 4,
@@ -3726,29 +3440,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel ensemble correspond aux cancers pour lesquels un programme de dépistage organisé est recommandé ?",
-   "c": 17,
-   "options": [
-    {
-     "t": "Cancer du sein, cancer du col de l'utérus et cancer du côlon.",
-     "correct": true,
-     "j": "Le cours recommande les programmes de dépistage des cancers du sein, du col de l'utérus et du côlon."
-    },
-    {
-     "t": "Cancer du sein, cancer de la prostate et cancer du côlon.",
-     "j": "Le cancer de la prostate ne fait pas partie de ce trio recommandé."
-    },
-    {
-     "t": "Cancer du poumon, cancer du col de l'utérus et cancer du côlon.",
-     "j": "Le cancer du poumon ne fait pas partie de ce trio recommandé."
-    },
-    {
-     "t": "Cancer du sein, cancer du col de l'utérus et cancer de l'estomac.",
-     "j": "Le cancer de l'estomac ne fait pas partie de ce trio recommandé."
-    }
-   ]
-  },
+  {"q":"Quel ensemble correspond aux cancers pour lesquels un programme de dépistage organisé est recommandé ?","c":4,"options":[{"t":"Cancer du sein, cancer du col de l'utérus et cancer du côlon.","correct":true,"j":"Le cours recommande les programmes de dépistage des cancers du sein, du col de l'utérus et du côlon."},{"t":"Cancer du sein, cancer de la prostate et cancer du côlon.","j":"Le cancer de la prostate ne fait pas partie de ce trio recommandé."},{"t":"Cancer du poumon, cancer du col de l'utérus et cancer du côlon.","j":"Le cancer du poumon ne fait pas partie de ce trio recommandé."},{"t":"Cancer du sein, cancer du col de l'utérus et cancer de l'estomac.","j":"Le cancer de l'estomac ne fait pas partie de ce trio recommandé."}]},
   {
    "q": "Comment définit-on la sécurité des patients ?",
    "c": 4,
@@ -3864,29 +3556,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Comment se définit la promotion de la santé ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Un ensemble d'interventions sociales et environnementales visant à favoriser la santé et à contrôler les déterminants de la santé",
-     "correct": true,
-     "j": "Correct : la promotion de la santé agit sur les déterminants par des interventions sociales et environnementales."
-    },
-    {
-     "t": "Un ensemble d'interventions cliniques et pharmacologiques visant à traiter les maladies et à corriger leurs complications",
-     "j": "Décrit le soin curatif, non la promotion de la santé qui agit sur les déterminants."
-    },
-    {
-     "t": "Un ensemble d'interventions de dépistage et de diagnostic visant à repérer précocement les maladies dans la population",
-     "j": "Décrit le dépistage/prévention secondaire, pas la promotion de la santé."
-    },
-    {
-     "t": "Un ensemble d'interventions de rééducation et de réadaptation visant à restaurer les capacités fonctionnelles des patients",
-     "j": "Décrit la réadaptation, distincte de la promotion de la santé et de ses déterminants."
-    }
-   ]
-  },
+  {"q":"Comment se définit la promotion de la santé ?","c":5,"options":[{"t":"Un ensemble d'interventions sociales et environnementales visant à favoriser la santé et à contrôler les déterminants de la santé","correct":true,"j":"Correct : la promotion de la santé agit sur les déterminants par des interventions sociales et environnementales."},{"t":"Un ensemble d'interventions cliniques et pharmacologiques visant à traiter les maladies et à corriger leurs complications","j":"Décrit le soin curatif, non la promotion de la santé qui agit sur les déterminants."},{"t":"Un ensemble d'interventions de dépistage et de diagnostic visant à repérer précocement les maladies dans la population","j":"Décrit le dépistage/prévention secondaire, pas la promotion de la santé."},{"t":"Un ensemble d'interventions de rééducation et de réadaptation visant à restaurer les capacités fonctionnelles des patients","j":"Décrit la réadaptation, distincte de la promotion de la santé et de ses déterminants."}]},
   {
    "q": "Concernant les acteurs impliqués dans la promotion de la santé, quelle affirmation est exacte ?",
    "c": 5,
@@ -3979,52 +3649,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Comment se définit l'éducation thérapeutique ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Des activités éducatives destinées à la prise en charge des maladies chroniques, menées par des professionnels formés",
-     "correct": true,
-     "j": "Correct : l'éducation thérapeutique cible la gestion des maladies chroniques par des professionnels formés."
-    },
-    {
-     "t": "Des activités de dépistage destinées au repérage des maladies chroniques, menées par des professionnels formés",
-     "j": "Le dépistage n'est pas l'objet de l'éducation thérapeutique, qui vise la prise en charge."
-    },
-    {
-     "t": "Des activités de rééducation destinées à la récupération fonctionnelle après une maladie aiguë, menées par des professionnels formés",
-     "j": "La rééducation d'une pathologie aiguë ne correspond pas à l'éducation thérapeutique des maladies chroniques."
-    },
-    {
-     "t": "Des activités de recherche destinées à l'évaluation des traitements des maladies chroniques, menées par des professionnels formés",
-     "j": "La recherche évaluative n'est pas la finalité éducative de l'éducation thérapeutique."
-    }
-   ]
-  },
-  {
-   "q": "Parmi les propositions suivantes, laquelle correspond à un objectif de l'éducation thérapeutique ?",
-   "c": 11,
-   "options": [
-    {
-     "t": "Réduire le recours aux urgences et le nombre d'hospitalisations",
-     "correct": true,
-     "j": "Correct : réduire urgences et hospitalisations fait partie des objectifs de l'éducation thérapeutique."
-    },
-    {
-     "t": "Réduire le nombre de professionnels impliqués dans le suivi",
-     "j": "L'éducation thérapeutique mobilise des professionnels formés et ne vise pas à en réduire le nombre."
-    },
-    {
-     "t": "Réduire la durée des consultations médicales de suivi",
-     "j": "Raccourcir les consultations ne fait pas partie des objectifs de l'éducation thérapeutique."
-    },
-    {
-     "t": "Réduire le coût des traitements de la maladie chronique",
-     "j": "La baisse du coût des traitements n'est pas l'objectif énoncé de l'éducation thérapeutique."
-    }
-   ]
-  },
+  {"q":"Comment se définit l'éducation thérapeutique ?","c":5,"options":[{"t":"Des activités éducatives destinées à la prise en charge des maladies chroniques, menées par des professionnels formés","correct":true,"j":"Correct : l'éducation thérapeutique cible la gestion des maladies chroniques par des professionnels formés."},{"t":"Des activités de dépistage destinées au repérage des maladies chroniques, menées par des professionnels formés","j":"Le dépistage n'est pas l'objet de l'éducation thérapeutique, qui vise la prise en charge."},{"t":"Des activités de rééducation destinées à la récupération fonctionnelle après une maladie aiguë, menées par des professionnels formés","j":"La rééducation d'une pathologie aiguë ne correspond pas à l'éducation thérapeutique des maladies chroniques."},{"t":"Des activités de recherche destinées à l'évaluation des traitements des maladies chroniques, menées par des professionnels formés","j":"La recherche évaluative n'est pas la finalité éducative de l'éducation thérapeutique."}]},
+  {"q":"Parmi les propositions suivantes, laquelle correspond à un objectif de l'éducation thérapeutique ?","c":5,"options":[{"t":"Réduire le recours aux urgences et le nombre d'hospitalisations","correct":true,"j":"Correct : réduire urgences et hospitalisations fait partie des objectifs de l'éducation thérapeutique."},{"t":"Réduire le nombre de professionnels impliqués dans le suivi","j":"L'éducation thérapeutique mobilise des professionnels formés et ne vise pas à en réduire le nombre."},{"t":"Réduire la durée des consultations médicales de suivi","j":"Raccourcir les consultations ne fait pas partie des objectifs de l'éducation thérapeutique."},{"t":"Réduire le coût des traitements de la maladie chronique","j":"La baisse du coût des traitements n'est pas l'objectif énoncé de l'éducation thérapeutique."}]},
   {
    "q": "Dans le cadre de l'éducation pour la santé, qu'est-ce qui caractérise le patient expert (ou compétent) ?",
    "c": 5,
@@ -6233,29 +5859,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Parmi les propositions suivantes concernant les flores impliquées dans les infections associées aux soins, laquelle est exacte ?",
-   "c": 9,
-   "options": [
-    {
-     "t": "La flore exogène, dite croisée, provient d'autres patients ou du personnel soignant.",
-     "correct": true,
-     "j": "La flore exogène (ou croisée) désigne bien les germes venus d'autres patients ou du personnel."
-    },
-    {
-     "t": "La flore exogène, dite croisée, correspond à la flore commensale propre au patient.",
-     "j": "La flore propre au patient est la flore endogène, pas la flore exogène."
-    },
-    {
-     "t": "La flore endogène, dite croisée, provient d'autres patients hospitalisés du service.",
-     "j": "L'endogène n'est pas croisée ; ce qui provient d'autrui est la flore exogène."
-    },
-    {
-     "t": "La flore endogène désigne les germes transmis par les mains du personnel soignant.",
-     "j": "Une transmission par le personnel relève de la flore exogène/croisée, non endogène."
-    }
-   ]
-  },
+  {"q":"Parmi les propositions suivantes concernant les flores impliquées dans les infections associées aux soins, laquelle est exacte ?","c":11,"options":[{"t":"La flore exogène, dite croisée, provient d'autres patients ou du personnel soignant.","correct":true,"j":"La flore exogène (ou croisée) désigne bien les germes venus d'autres patients ou du personnel."},{"t":"La flore exogène, dite croisée, correspond à la flore commensale propre au patient.","j":"La flore propre au patient est la flore endogène, pas la flore exogène."},{"t":"La flore endogène, dite croisée, provient d'autres patients hospitalisés du service.","j":"L'endogène n'est pas croisée ; ce qui provient d'autrui est la flore exogène."},{"t":"La flore endogène désigne les germes transmis par les mains du personnel soignant.","j":"Une transmission par le personnel relève de la flore exogène/croisée, non endogène."}]},
   {
    "q": "Parmi ces localisations, laquelle figure parmi les infections associées aux soins les plus fréquentes ?",
    "c": 11,
@@ -6601,259 +6205,17 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Les maladies non transmissibles (MNT), ou maladies chroniques, se définissent comme des affections :",
-   "c": 14,
-   "options": [
-    {
-     "t": "de longue durée, à progression lente, résultant d'une association de facteurs",
-     "correct": true,
-     "j": "Définition du cours : affections de longue durée, à progression lente, dues à une association de facteurs génétiques, physiologiques, environnementaux et comportementaux."
-    },
-    {
-     "t": "de courte durée, à progression rapide, résultant d'un agent causal unique",
-     "j": "Faux sur les trois points : les MNT sont de longue durée, à progression lente et multifactorielles."
-    },
-    {
-     "t": "de longue durée, à progression rapide, résultant d'un agent transmissible",
-     "j": "La durée est exacte, mais les MNT progressent lentement et ne résultent pas d'un agent transmissible."
-    },
-    {
-     "t": "de courte durée, à progression lente, résultant d'un unique facteur héréditaire",
-     "j": "Les MNT sont de longue durée et multifactorielles, non liées à un unique facteur héréditaire."
-    }
-   ]
-  },
-  {
-   "q": "À l'échelle mondiale, les maladies non transmissibles sont responsables chaque année d'environ quelle part de l'ensemble des décès ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Environ 70 % des décès dans le monde",
-     "correct": true,
-     "j": "Le cours indique que les MNT tuent plus de 40 millions de personnes par an, soit environ 70 % des décès mondiaux."
-    },
-    {
-     "t": "Environ 50 % des décès dans le monde",
-     "j": "Sous-estime : la part retenue par le cours est d'environ 70 %."
-    },
-    {
-     "t": "Environ 30 % des décès dans le monde",
-     "j": "Nettement trop bas : les MNT représentent environ 70 % des décès mondiaux."
-    },
-    {
-     "t": "Environ 90 % des décès dans le monde",
-     "j": "Surestime : la valeur mondiale est d'environ 70 %, et non 90 %."
-    }
-   ]
-  },
-  {
-   "q": "Parmi les caractéristiques des maladies chroniques décrites dans le cours, laquelle est exacte ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Un début insidieux, une longue période présymptomatique et une multi-causalité",
-     "correct": true,
-     "j": "Le cours décrit un début insidieux, une longue période présymptomatique et une multi-causalité (multiples facteurs de risque associés)."
-    },
-    {
-     "t": "Un début brutal, une courte période présymptomatique et une cause unique",
-     "j": "Faux : les MNT ont un début insidieux, une longue phase présymptomatique et sont multifactorielles."
-    },
-    {
-     "t": "Un début insidieux, une absence de période présymptomatique et une cause unique",
-     "j": "Le début insidieux est exact, mais il existe une longue période présymptomatique et la causalité est multiple."
-    },
-    {
-     "t": "Un début brutal, une longue période présymptomatique et une multi-causalité",
-     "j": "La longue phase présymptomatique et la multi-causalité sont exactes, mais le début est insidieux, non brutal."
-    }
-   ]
-  },
-  {
-   "q": "Les MNT à l'origine de la majorité des décès prématurés se classent, par ordre décroissant, de la façon suivante :",
-   "c": 14,
-   "options": [
-    {
-     "t": "Maladies cardiovasculaires, cancer, maladies respiratoires, diabète",
-     "correct": true,
-     "j": "Ordre retenu par le cours : maladies cardiovasculaires, cancer, maladies respiratoires, puis diabète."
-    },
-    {
-     "t": "Cancer, maladies cardiovasculaires, diabète, maladies respiratoires",
-     "j": "Ordre inversé en tête : les maladies cardiovasculaires précèdent le cancer."
-    },
-    {
-     "t": "Maladies respiratoires, maladies cardiovasculaires, cancer, diabète",
-     "j": "Les maladies respiratoires viennent en 3e position, après cardiovasculaires et cancer."
-    },
-    {
-     "t": "Maladies cardiovasculaires, diabète, cancer, maladies respiratoires",
-     "j": "Le diabète occupe le dernier rang, après le cancer et les maladies respiratoires."
-    }
-   ]
-  },
-  {
-   "q": "Selon le cours, la première cause de décès dans le monde correspond à :",
-   "c": 14,
-   "options": [
-    {
-     "t": "La cardiopathie ischémique",
-     "correct": true,
-     "j": "Le cours désigne la cardiopathie ischémique comme la première cause de décès dans le monde."
-    },
-    {
-     "t": "L'accident vasculaire cérébral",
-     "j": "L'AVC figure parmi les grandes causes de décès mais n'occupe pas la première place."
-    },
-    {
-     "t": "La bronchopneumopathie chronique obstructive",
-     "j": "Maladie respiratoire chronique fréquente, mais elle n'est pas la première cause de décès."
-    },
-    {
-     "t": "Le cancer bronchopulmonaire",
-     "j": "Cancer très meurtrier, mais la première cause de décès reste la cardiopathie ischémique."
-    }
-   ]
-  },
-  {
-   "q": "Concernant la répartition des principales causes de décès selon le niveau de revenu des pays, quelle affirmation est exacte ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Faible revenu : majorité de maladies transmissibles ; revenu élevé : majorité de MNT",
-     "correct": true,
-     "j": "Le cours indique que les principales causes de décès sont surtout transmissibles dans les pays à faible revenu et surtout des MNT dans les pays à revenu élevé."
-    },
-    {
-     "t": "Faible revenu : majorité de MNT ; revenu élevé : majorité de maladies transmissibles",
-     "j": "Répartition inversée : les MNT dominent dans les pays à revenu élevé, pas à faible revenu."
-    },
-    {
-     "t": "Faible revenu et revenu élevé : majorité de maladies transmissibles",
-     "j": "Vrai pour les pays à faible revenu seulement ; à revenu élevé dominent les MNT."
-    },
-    {
-     "t": "Faible revenu et revenu élevé : majorité de maladies non transmissibles",
-     "j": "Vrai pour les pays à revenu élevé seulement ; à faible revenu dominent les maladies transmissibles."
-    }
-   ]
-  },
-  {
-   "q": "La théorie de la transition épidémiologique postule le passage :",
-   "c": 14,
-   "options": [
-    {
-     "t": "d'un modèle dominé par les maladies infectieuses à un modèle dominé par les maladies dégénératives",
-     "correct": true,
-     "j": "Définition du cours : passage d'un modèle de causes de décès dominé par les maladies infectieuses à un modèle dominé par les maladies dégénératives."
-    },
-    {
-     "t": "d'un modèle dominé par les maladies dégénératives à un modèle dominé par les maladies infectieuses",
-     "j": "Sens inversé : on évolue des maladies infectieuses vers les maladies dégénératives, et non l'inverse."
-    },
-    {
-     "t": "d'un modèle dominé par les maladies infectieuses à un modèle dominé par les maladies transmissibles",
-     "j": "Le point de départ est exact, mais l'aboutissement est dominé par les maladies dégénératives, non transmissibles."
-    },
-    {
-     "t": "d'un modèle dominé par les maladies dégénératives à un modèle dominé par les carences nutritionnelles",
-     "j": "Ni le point de départ (infectieuses) ni l'aboutissement (dégénératives) ne correspondent à ce schéma."
-    }
-   ]
-  },
-  {
-   "q": "La transition épidémiologique correspond à plusieurs déplacements. Lequel décrit correctement l'un de ces déplacements ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Un déplacement de la prévalence des maladies transmissibles vers les maladies non transmissibles",
-     "correct": true,
-     "j": "Exact : la transition fait passer d'un profil dominé par les maladies infectieuses à un profil dominé par les maladies non transmissibles."
-    },
-    {
-     "t": "Un déplacement de la prévalence des maladies non transmissibles vers les maladies transmissibles",
-     "j": "Faux : le sens est inversé, la transition va des maladies transmissibles vers les non transmissibles."
-    },
-    {
-     "t": "Un déplacement de la morbidité des personnes âgées vers les groupes de jeunes",
-     "j": "Faux : la morbidité et la mortalité se déplacent au contraire des jeunes vers les personnes âgées."
-    },
-    {
-     "t": "Un déplacement de la mortalité des maladies dégénératives vers les maladies infectieuses",
-     "j": "Faux : la transition évolue vers une prédominance des maladies dégénératives, pas l'inverse."
-    }
-   ]
-  },
-  {
-   "q": "En santé publique, comment définit-on la morbidité ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Le nombre de personnes affectées par une maladie donnée dans une population sur une période",
-     "correct": true,
-     "j": "Exact : la morbidité mesure le nombre de personnes atteintes par une maladie sur une période donnée."
-    },
-    {
-     "t": "Le nombre de décès attribuables à une maladie donnée dans une population sur une période",
-     "j": "Faux : cette définition correspond à la mortalité, non à la morbidité."
-    },
-    {
-     "t": "Le nombre de nouveaux cas d'une maladie apparaissant dans une population sur une période",
-     "j": "Faux : ceci décrit l'incidence, l'une des mesures de la morbidité, pas sa définition."
-    },
-    {
-     "t": "Le nombre de maladies présentes simultanément chez une même personne sur une période",
-     "j": "Faux : la présence simultanée de plusieurs maladies chez une personne correspond à la comorbidité."
-    }
-   ]
-  },
-  {
-   "q": "Qu'est-ce qui caractérise la morbidité ressentie (auto-déclarée) par rapport à la morbidité diagnostiquée ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Elle est déclarée par la personne selon sa perception et recueillie par des enquêtes de santé",
-     "correct": true,
-     "j": "Exact : la morbidité ressentie repose sur la perception de l'individu et s'évalue par des enquêtes de santé."
-    },
-    {
-     "t": "Elle est enregistrée par les professionnels au cours du parcours de soins du patient",
-     "j": "Faux : c'est la définition de la morbidité diagnostiquée (enregistrée), non ressentie."
-    },
-    {
-     "t": "Elle repose sur les diagnostics posés lors des consultations et des hospitalisations médicales",
-     "j": "Faux : les diagnostics posés dans le parcours de soins relèvent de la morbidité diagnostiquée."
-    },
-    {
-     "t": "Elle correspond aux affections confirmées par des examens complémentaires spécialisés",
-     "j": "Faux : une confirmation par examens relève de la morbidité diagnostiquée, pas de la morbidité ressentie."
-    }
-   ]
-  },
-  {
-   "q": "Parmi ces affirmations sur la comorbidité, laquelle est exacte ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Elle désigne la présence de plusieurs maladies simultanées chez une personne et augmente avec l'âge",
-     "correct": true,
-     "j": "Exact : la comorbidité est la présence simultanée de plusieurs maladies, fréquente et croissante avec l'âge."
-    },
-    {
-     "t": "Elle désigne la présence de plusieurs maladies simultanées chez une personne et diminue avec l'âge",
-     "j": "Faux : la comorbidité augmente avec l'âge, elle ne diminue pas."
-    },
-    {
-     "t": "Elle désigne la présence d'une seule maladie primaire isolée chez une personne et augmente avec l'âge",
-     "j": "Faux : la comorbidité implique plusieurs maladies coexistantes, pas une maladie isolée."
-    },
-    {
-     "t": "Elle désigne la succession de maladies au cours de la vie d'une personne et reste stable avec l'âge",
-     "j": "Faux : il s'agit d'une coexistence simultanée de maladies qui augmente avec l'âge, non d'une succession stable."
-    }
-   ]
-  },
+  {"q":"Les maladies non transmissibles (MNT), ou maladies chroniques, se définissent comme des affections :","c":13,"options":[{"t":"de longue durée, à progression lente, résultant d'une association de facteurs","correct":true,"j":"Définition du cours : affections de longue durée, à progression lente, dues à une association de facteurs génétiques, physiologiques, environnementaux et comportementaux."},{"t":"de courte durée, à progression rapide, résultant d'un agent causal unique","j":"Faux sur les trois points : les MNT sont de longue durée, à progression lente et multifactorielles."},{"t":"de longue durée, à progression rapide, résultant d'un agent transmissible","j":"La durée est exacte, mais les MNT progressent lentement et ne résultent pas d'un agent transmissible."},{"t":"de courte durée, à progression lente, résultant d'un unique facteur héréditaire","j":"Les MNT sont de longue durée et multifactorielles, non liées à un unique facteur héréditaire."}]},
+  {"q":"À l'échelle mondiale, les maladies non transmissibles sont responsables chaque année d'environ quelle part de l'ensemble des décès ?","c":13,"options":[{"t":"Environ 70 % des décès dans le monde","correct":true,"j":"Le cours indique que les MNT tuent plus de 40 millions de personnes par an, soit environ 70 % des décès mondiaux."},{"t":"Environ 50 % des décès dans le monde","j":"Sous-estime : la part retenue par le cours est d'environ 70 %."},{"t":"Environ 30 % des décès dans le monde","j":"Nettement trop bas : les MNT représentent environ 70 % des décès mondiaux."},{"t":"Environ 90 % des décès dans le monde","j":"Surestime : la valeur mondiale est d'environ 70 %, et non 90 %."}]},
+  {"q":"Parmi les caractéristiques des maladies chroniques décrites dans le cours, laquelle est exacte ?","c":13,"options":[{"t":"Un début insidieux, une longue période présymptomatique et une multi-causalité","correct":true,"j":"Le cours décrit un début insidieux, une longue période présymptomatique et une multi-causalité (multiples facteurs de risque associés)."},{"t":"Un début brutal, une courte période présymptomatique et une cause unique","j":"Faux : les MNT ont un début insidieux, une longue phase présymptomatique et sont multifactorielles."},{"t":"Un début insidieux, une absence de période présymptomatique et une cause unique","j":"Le début insidieux est exact, mais il existe une longue période présymptomatique et la causalité est multiple."},{"t":"Un début brutal, une longue période présymptomatique et une multi-causalité","j":"La longue phase présymptomatique et la multi-causalité sont exactes, mais le début est insidieux, non brutal."}]},
+  {"q":"Les MNT à l'origine de la majorité des décès prématurés se classent, par ordre décroissant, de la façon suivante :","c":13,"options":[{"t":"Maladies cardiovasculaires, cancer, maladies respiratoires, diabète","correct":true,"j":"Ordre retenu par le cours : maladies cardiovasculaires, cancer, maladies respiratoires, puis diabète."},{"t":"Cancer, maladies cardiovasculaires, diabète, maladies respiratoires","j":"Ordre inversé en tête : les maladies cardiovasculaires précèdent le cancer."},{"t":"Maladies respiratoires, maladies cardiovasculaires, cancer, diabète","j":"Les maladies respiratoires viennent en 3e position, après cardiovasculaires et cancer."},{"t":"Maladies cardiovasculaires, diabète, cancer, maladies respiratoires","j":"Le diabète occupe le dernier rang, après le cancer et les maladies respiratoires."}]},
+  {"q":"Selon le cours, la première cause de décès dans le monde correspond à :","c":13,"options":[{"t":"La cardiopathie ischémique","correct":true,"j":"Le cours désigne la cardiopathie ischémique comme la première cause de décès dans le monde."},{"t":"L'accident vasculaire cérébral","j":"L'AVC figure parmi les grandes causes de décès mais n'occupe pas la première place."},{"t":"La bronchopneumopathie chronique obstructive","j":"Maladie respiratoire chronique fréquente, mais elle n'est pas la première cause de décès."},{"t":"Le cancer bronchopulmonaire","j":"Cancer très meurtrier, mais la première cause de décès reste la cardiopathie ischémique."}]},
+  {"q":"Concernant la répartition des principales causes de décès selon le niveau de revenu des pays, quelle affirmation est exacte ?","c":13,"options":[{"t":"Faible revenu : majorité de maladies transmissibles ; revenu élevé : majorité de MNT","correct":true,"j":"Le cours indique que les principales causes de décès sont surtout transmissibles dans les pays à faible revenu et surtout des MNT dans les pays à revenu élevé."},{"t":"Faible revenu : majorité de MNT ; revenu élevé : majorité de maladies transmissibles","j":"Répartition inversée : les MNT dominent dans les pays à revenu élevé, pas à faible revenu."},{"t":"Faible revenu et revenu élevé : majorité de maladies transmissibles","j":"Vrai pour les pays à faible revenu seulement ; à revenu élevé dominent les MNT."},{"t":"Faible revenu et revenu élevé : majorité de maladies non transmissibles","j":"Vrai pour les pays à revenu élevé seulement ; à faible revenu dominent les maladies transmissibles."}]},
+  {"q":"La théorie de la transition épidémiologique postule le passage :","c":13,"options":[{"t":"d'un modèle dominé par les maladies infectieuses à un modèle dominé par les maladies dégénératives","correct":true,"j":"Définition du cours : passage d'un modèle de causes de décès dominé par les maladies infectieuses à un modèle dominé par les maladies dégénératives."},{"t":"d'un modèle dominé par les maladies dégénératives à un modèle dominé par les maladies infectieuses","j":"Sens inversé : on évolue des maladies infectieuses vers les maladies dégénératives, et non l'inverse."},{"t":"d'un modèle dominé par les maladies infectieuses à un modèle dominé par les maladies transmissibles","j":"Le point de départ est exact, mais l'aboutissement est dominé par les maladies dégénératives, non transmissibles."},{"t":"d'un modèle dominé par les maladies dégénératives à un modèle dominé par les carences nutritionnelles","j":"Ni le point de départ (infectieuses) ni l'aboutissement (dégénératives) ne correspondent à ce schéma."}]},
+  {"q":"La transition épidémiologique correspond à plusieurs déplacements. Lequel décrit correctement l'un de ces déplacements ?","c":13,"options":[{"t":"Un déplacement de la prévalence des maladies transmissibles vers les maladies non transmissibles","correct":true,"j":"Exact : la transition fait passer d'un profil dominé par les maladies infectieuses à un profil dominé par les maladies non transmissibles."},{"t":"Un déplacement de la prévalence des maladies non transmissibles vers les maladies transmissibles","j":"Faux : le sens est inversé, la transition va des maladies transmissibles vers les non transmissibles."},{"t":"Un déplacement de la morbidité des personnes âgées vers les groupes de jeunes","j":"Faux : la morbidité et la mortalité se déplacent au contraire des jeunes vers les personnes âgées."},{"t":"Un déplacement de la mortalité des maladies dégénératives vers les maladies infectieuses","j":"Faux : la transition évolue vers une prédominance des maladies dégénératives, pas l'inverse."}]},
+  {"q":"En santé publique, comment définit-on la morbidité ?","c":13,"options":[{"t":"Le nombre de personnes affectées par une maladie donnée dans une population sur une période","correct":true,"j":"Exact : la morbidité mesure le nombre de personnes atteintes par une maladie sur une période donnée."},{"t":"Le nombre de décès attribuables à une maladie donnée dans une population sur une période","j":"Faux : cette définition correspond à la mortalité, non à la morbidité."},{"t":"Le nombre de nouveaux cas d'une maladie apparaissant dans une population sur une période","j":"Faux : ceci décrit l'incidence, l'une des mesures de la morbidité, pas sa définition."},{"t":"Le nombre de maladies présentes simultanément chez une même personne sur une période","j":"Faux : la présence simultanée de plusieurs maladies chez une personne correspond à la comorbidité."}]},
+  {"q":"Qu'est-ce qui caractérise la morbidité ressentie (auto-déclarée) par rapport à la morbidité diagnostiquée ?","c":13,"options":[{"t":"Elle est déclarée par la personne selon sa perception et recueillie par des enquêtes de santé","correct":true,"j":"Exact : la morbidité ressentie repose sur la perception de l'individu et s'évalue par des enquêtes de santé."},{"t":"Elle est enregistrée par les professionnels au cours du parcours de soins du patient","j":"Faux : c'est la définition de la morbidité diagnostiquée (enregistrée), non ressentie."},{"t":"Elle repose sur les diagnostics posés lors des consultations et des hospitalisations médicales","j":"Faux : les diagnostics posés dans le parcours de soins relèvent de la morbidité diagnostiquée."},{"t":"Elle correspond aux affections confirmées par des examens complémentaires spécialisés","j":"Faux : une confirmation par examens relève de la morbidité diagnostiquée, pas de la morbidité ressentie."}]},
+  {"q":"Parmi ces affirmations sur la comorbidité, laquelle est exacte ?","c":13,"options":[{"t":"Elle désigne la présence de plusieurs maladies simultanées chez une personne et augmente avec l'âge","correct":true,"j":"Exact : la comorbidité est la présence simultanée de plusieurs maladies, fréquente et croissante avec l'âge."},{"t":"Elle désigne la présence de plusieurs maladies simultanées chez une personne et diminue avec l'âge","j":"Faux : la comorbidité augmente avec l'âge, elle ne diminue pas."},{"t":"Elle désigne la présence d'une seule maladie primaire isolée chez une personne et augmente avec l'âge","j":"Faux : la comorbidité implique plusieurs maladies coexistantes, pas une maladie isolée."},{"t":"Elle désigne la succession de maladies au cours de la vie d'une personne et reste stable avec l'âge","j":"Faux : il s'agit d'une coexistence simultanée de maladies qui augmente avec l'âge, non d'une succession stable."}]},
   {
    "q": "Parmi ces facteurs de risque des maladies non transmissibles, lequel est un facteur comportemental modifiable ?",
    "c": 14,
@@ -7866,52 +7228,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Parmi les éléments suivants, lequel constitue un facteur de risque du diabète de type 2 ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "La sédentarité",
-     "correct": true,
-     "j": "Le manque d'activité physique fait partie des facteurs de risque reconnus."
-    },
-    {
-     "t": "L'activité physique régulière",
-     "j": "L'exercice régulier est protecteur et diminue le risque, il ne l'augmente pas."
-    },
-    {
-     "t": "Un IMC inférieur à la normale",
-     "j": "C'est le surpoids ou l'obésité (IMC élevé) qui constitue un facteur de risque."
-    },
-    {
-     "t": "Un âge inférieur à 45 ans",
-     "j": "Le risque augmente au-delà de 45 ans, pas en dessous de cet âge."
-    }
-   ]
-  },
-  {
-   "q": "Quelle est la complication aiguë du diabète, susceptible d'engager le pronostic vital en quelques heures ?",
-   "c": 16,
-   "options": [
-    {
-     "t": "L'hypoglycémie",
-     "correct": true,
-     "j": "C'est la complication aiguë : elle peut mettre en jeu la vie en quelques heures."
-    },
-    {
-     "t": "La rétinopathie",
-     "j": "Atteinte oculaire d'évolution lente, c'est une complication chronique et non aiguë."
-    },
-    {
-     "t": "La néphropathie",
-     "j": "Atteinte rénale progressive, elle relève des complications chroniques."
-    },
-    {
-     "t": "La neuropathie",
-     "j": "Atteinte nerveuse d'installation lente, c'est une complication chronique."
-    }
-   ]
-  },
+  {"q":"Parmi les éléments suivants, lequel constitue un facteur de risque du diabète de type 2 ?","c":15,"options":[{"t":"La sédentarité","correct":true,"j":"Le manque d'activité physique fait partie des facteurs de risque reconnus."},{"t":"L'activité physique régulière","j":"L'exercice régulier est protecteur et diminue le risque, il ne l'augmente pas."},{"t":"Un IMC inférieur à la normale","j":"C'est le surpoids ou l'obésité (IMC élevé) qui constitue un facteur de risque."},{"t":"Un âge inférieur à 45 ans","j":"Le risque augmente au-delà de 45 ans, pas en dessous de cet âge."}]},
+  {"q":"Quelle est la complication aiguë du diabète, susceptible d'engager le pronostic vital en quelques heures ?","c":15,"options":[{"t":"L'hypoglycémie","correct":true,"j":"C'est la complication aiguë : elle peut mettre en jeu la vie en quelques heures."},{"t":"La rétinopathie","j":"Atteinte oculaire d'évolution lente, c'est une complication chronique et non aiguë."},{"t":"La néphropathie","j":"Atteinte rénale progressive, elle relève des complications chroniques."},{"t":"La neuropathie","j":"Atteinte nerveuse d'installation lente, c'est une complication chronique."}]},
   {
    "q": "Parmi ces complications chroniques du diabète, laquelle peut conduire à la cécité ?",
    "c": 15,
@@ -7981,29 +7299,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Sur quels examens repose le dépistage secondaire (ciblé) du diabète ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "L'hémoglobine glyquée et la glycémie à jeun",
-     "correct": true,
-     "j": "Le dépistage ciblé repose sur l'hémoglobine glyquée et la glycémie à jeun."
-    },
-    {
-     "t": "La mesure de la pression artérielle et l'IMC",
-     "j": "Ces mesures évaluent le risque, mais n'objectivent pas la glycémie."
-    },
-    {
-     "t": "Le dosage du cholestérol et des triglycérides",
-     "j": "Le bilan lipidique ne met pas en évidence une hyperglycémie."
-    },
-    {
-     "t": "L'échographie rénale et le fond d'œil",
-     "j": "Ces examens explorent des complications, non le diagnostic glycémique."
-    }
-   ]
-  },
+  {"q":"Sur quels examens repose le dépistage secondaire (ciblé) du diabète ?","c":15,"options":[{"t":"L'hémoglobine glyquée et la glycémie à jeun","correct":true,"j":"Le dépistage ciblé repose sur l'hémoglobine glyquée et la glycémie à jeun."},{"t":"La mesure de la pression artérielle et l'IMC","j":"Ces mesures évaluent le risque, mais n'objectivent pas la glycémie."},{"t":"Le dosage du cholestérol et des triglycérides","j":"Le bilan lipidique ne met pas en évidence une hyperglycémie."},{"t":"L'échographie rénale et le fond d'œil","j":"Ces examens explorent des complications, non le diagnostic glycémique."}]},
   {
    "q": "À quoi correspondent respectivement la PAS et la PAD ?",
    "c": 16,
@@ -8096,29 +7392,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Pourquoi l'HTA est-elle qualifiée de « tueur silencieux » ?",
-   "c": 8,
-   "options": [
-    {
-     "t": "Parce qu'elle est le plus souvent asymptomatique.",
-     "correct": true,
-     "j": "Exact : elle évolue longtemps sans symptôme, d'où le terme."
-    },
-    {
-     "t": "Parce qu'elle provoque toujours des céphalées intenses.",
-     "j": "Faux : elle est justement souvent sans aucun symptôme."
-    },
-    {
-     "t": "Parce qu'elle se manifeste par des crises bruyantes répétées.",
-     "j": "Faux : le terme souligne au contraire son caractère silencieux."
-    },
-    {
-     "t": "Parce qu'elle entraîne systématiquement une douleur thoracique.",
-     "j": "Faux : elle est le plus souvent asymptomatique."
-    }
-   ]
-  },
+  {"q":"Pourquoi l'HTA est-elle qualifiée de « tueur silencieux » ?","c":16,"options":[{"t":"Parce qu'elle est le plus souvent asymptomatique.","correct":true,"j":"Exact : elle évolue longtemps sans symptôme, d'où le terme."},{"t":"Parce qu'elle provoque toujours des céphalées intenses.","j":"Faux : elle est justement souvent sans aucun symptôme."},{"t":"Parce qu'elle se manifeste par des crises bruyantes répétées.","j":"Faux : le terme souligne au contraire son caractère silencieux."},{"t":"Parce qu'elle entraîne systématiquement une douleur thoracique.","j":"Faux : elle est le plus souvent asymptomatique."}]},
   {
    "q": "Quelle est la place de l'HTA parmi les causes d'insuffisance rénale chronique ?",
    "c": 16,
@@ -8142,29 +7416,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelles sont les modalités recommandées de dépistage de l'HTA selon l'âge ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Tous les 5 ans entre 18 et 40 ans, puis une fois par an après 40 ans.",
-     "correct": true,
-     "j": "Exact : dépistage espacé jusqu'à 40 ans, puis annuel ensuite."
-    },
-    {
-     "t": "Une fois par an entre 18 et 40 ans, puis tous les 5 ans après 40 ans.",
-     "j": "Faux : le rythme s'accélère après 40 ans, il ne se relâche pas."
-    },
-    {
-     "t": "Tous les 5 ans entre 18 et 40 ans, puis tous les 2 ans après 40 ans.",
-     "j": "Faux : après 40 ans le dépistage devient annuel."
-    },
-    {
-     "t": "Tous les 10 ans entre 18 et 40 ans, puis une fois par an après 40 ans.",
-     "j": "Faux : avant 40 ans l'intervalle recommandé est de 5 ans."
-    }
-   ]
-  },
+  {"q":"Quelles sont les modalités recommandées de dépistage de l'HTA selon l'âge ?","c":16,"options":[{"t":"Tous les 5 ans entre 18 et 40 ans, puis une fois par an après 40 ans.","correct":true,"j":"Exact : dépistage espacé jusqu'à 40 ans, puis annuel ensuite."},{"t":"Une fois par an entre 18 et 40 ans, puis tous les 5 ans après 40 ans.","j":"Faux : le rythme s'accélère après 40 ans, il ne se relâche pas."},{"t":"Tous les 5 ans entre 18 et 40 ans, puis tous les 2 ans après 40 ans.","j":"Faux : après 40 ans le dépistage devient annuel."},{"t":"Tous les 10 ans entre 18 et 40 ans, puis une fois par an après 40 ans.","j":"Faux : avant 40 ans l'intervalle recommandé est de 5 ans."}]},
   {
    "q": "Parmi les mesures hygiéno-diététiques recommandées dans l'HTA, quelle association est correcte ?",
    "c": 16,
@@ -8188,29 +7440,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "De combien le régime DASH permet-il de réduire la pression artérielle ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "De 8 à 14 mmHg.",
-     "correct": true,
-     "j": "Exact : la baisse attendue est de l'ordre de 8 à 14 mmHg."
-    },
-    {
-     "t": "De 2 à 4 mmHg.",
-     "j": "Faux : la réduction attendue est nettement plus importante."
-    },
-    {
-     "t": "De 20 à 30 mmHg.",
-     "j": "Faux : cette baisse est surestimée par rapport à l'effet du DASH."
-    },
-    {
-     "t": "De 15 à 20 mmHg.",
-     "j": "Faux : l'effet reste inférieur à cette fourchette."
-    }
-   ]
-  },
+  {"q":"De combien le régime DASH permet-il de réduire la pression artérielle ?","c":16,"options":[{"t":"De 8 à 14 mmHg.","correct":true,"j":"Exact : la baisse attendue est de l'ordre de 8 à 14 mmHg."},{"t":"De 2 à 4 mmHg.","j":"Faux : la réduction attendue est nettement plus importante."},{"t":"De 20 à 30 mmHg.","j":"Faux : cette baisse est surestimée par rapport à l'effet du DASH."},{"t":"De 15 à 20 mmHg.","j":"Faux : l'effet reste inférieur à cette fourchette."}]},
   {
    "q": "Les maladies cardiovasculaires résultent, dans la grande majorité des cas, de quel processus pathologique?",
    "c": 16,
@@ -8234,29 +7464,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Sur le plan de la mortalité mondiale, quel rang occupent les maladies cardiovasculaires?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Première cause de décès dans le monde",
-     "correct": true,
-     "j": "Les MCV constituent la cause de mortalité la plus fréquente à l'échelle mondiale."
-    },
-    {
-     "t": "Deuxième cause de décès dans le monde",
-     "j": "Elles devancent en réalité toutes les autres causes de mortalité."
-    },
-    {
-     "t": "Troisième cause de décès dans le monde",
-     "j": "Ce rang sous-estime leur poids : elles sont au premier rang mondial."
-    },
-    {
-     "t": "Quatrième cause de décès dans le monde",
-     "j": "Rang trop bas : les MCV occupent la première place mondiale."
-    }
-   ]
-  },
+  {"q":"Sur le plan de la mortalité mondiale, quel rang occupent les maladies cardiovasculaires?","c":16,"options":[{"t":"Première cause de décès dans le monde","correct":true,"j":"Les MCV constituent la cause de mortalité la plus fréquente à l'échelle mondiale."},{"t":"Deuxième cause de décès dans le monde","j":"Elles devancent en réalité toutes les autres causes de mortalité."},{"t":"Troisième cause de décès dans le monde","j":"Ce rang sous-estime leur poids : elles sont au premier rang mondial."},{"t":"Quatrième cause de décès dans le monde","j":"Rang trop bas : les MCV occupent la première place mondiale."}]},
   {
    "q": "Grâce au contrôle des facteurs de risque, quelle part des décès cardiovasculaires prématurés pourrait être évitée?",
    "c": 16,
@@ -8510,52 +7718,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel est le rang du cancer parmi les causes de décès dans le monde ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Deuxième cause de décès.",
-     "correct": true,
-     "j": "Le cours indique que le cancer est la deuxième cause de décès à l'échelle mondiale."
-    },
-    {
-     "t": "Première cause de décès.",
-     "j": "Au niveau mondial, la première cause est les maladies cardiovasculaires ; le cancer n'est premier qu'en France et en Espagne."
-    },
-    {
-     "t": "Troisième cause de décès.",
-     "j": "Le cancer occupe le deuxième rang mondial, pas le troisième."
-    },
-    {
-     "t": "Quatrième cause de décès.",
-     "j": "Le cancer occupe le deuxième rang mondial, pas le quatrième."
-    }
-   ]
-  },
-  {
-   "q": "Quel cancer est responsable du plus grand nombre de décès par cancer dans le monde ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Le cancer du poumon.",
-     "correct": true,
-     "j": "Le cours le désigne comme responsable du plus grand nombre de décès par cancer dans le monde."
-    },
-    {
-     "t": "Le cancer du sein.",
-     "j": "C'est le cancer le plus fréquemment diagnostiqué (première position), mais pas la première cause de décès par cancer."
-    },
-    {
-     "t": "Le cancer colorectal.",
-     "j": "Fréquent, il n'occupe pas le premier rang de la mortalité par cancer dans le monde."
-    },
-    {
-     "t": "Le cancer de la prostate.",
-     "j": "Fréquent chez l'homme, il n'est pas la première cause de décès par cancer à l'échelle mondiale."
-    }
-   ]
-  },
+  {"q":"Quel est le rang du cancer parmi les causes de décès dans le monde ?","c":17,"options":[{"t":"Deuxième cause de décès.","correct":true,"j":"Le cours indique que le cancer est la deuxième cause de décès à l'échelle mondiale."},{"t":"Première cause de décès.","j":"Au niveau mondial, la première cause est les maladies cardiovasculaires ; le cancer n'est premier qu'en France et en Espagne."},{"t":"Troisième cause de décès.","j":"Le cancer occupe le deuxième rang mondial, pas le troisième."},{"t":"Quatrième cause de décès.","j":"Le cancer occupe le deuxième rang mondial, pas le quatrième."}]},
+  {"q":"Quel cancer est responsable du plus grand nombre de décès par cancer dans le monde ?","c":17,"options":[{"t":"Le cancer du poumon.","correct":true,"j":"Le cours le désigne comme responsable du plus grand nombre de décès par cancer dans le monde."},{"t":"Le cancer du sein.","j":"C'est le cancer le plus fréquemment diagnostiqué (première position), mais pas la première cause de décès par cancer."},{"t":"Le cancer colorectal.","j":"Fréquent, il n'occupe pas le premier rang de la mortalité par cancer dans le monde."},{"t":"Le cancer de la prostate.","j":"Fréquent chez l'homme, il n'est pas la première cause de décès par cancer à l'échelle mondiale."}]},
   {
    "q": "Concernant l'origine du cancer, quelle affirmation est exacte ?",
    "c": 17,
@@ -8579,52 +7743,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle proportion des cancers relève d'une prédisposition génétique héréditaire ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "5 à 10 % des cancers",
-     "correct": true,
-     "j": "Fourchette admise : l'hérédité ne concerne qu'une minorité des cancers."
-    },
-    {
-     "t": "20 à 25 % des cancers",
-     "j": "Surestime la part héréditaire, qui reste minoritaire (5-10 %)."
-    },
-    {
-     "t": "30 à 35 % des cancers",
-     "j": "Correspond plutôt à la part liée aux facteurs évitables, pas à l'hérédité."
-    },
-    {
-     "t": "40 à 50 % des cancers",
-     "j": "Très au-dessus de la réalité : l'hérédité n'explique que 5-10 %."
-    }
-   ]
-  },
-  {
-   "q": "Quelle proportion des décès par cancer est attribuable à cinq facteurs de risque évitables (tabac, infections, alcool, sédentarité, régime inadéquat) ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Environ un tiers des décès",
-     "correct": true,
-     "j": "Environ un tiers des décès par cancer sont liés à ces cinq facteurs évitables."
-    },
-    {
-     "t": "Environ un quart des décès",
-     "j": "Sous-estime la part évitable, qui avoisine un tiers."
-    },
-    {
-     "t": "Environ la moitié des décès",
-     "j": "Surestime la part attribuable à ces cinq facteurs."
-    },
-    {
-     "t": "Environ deux tiers des décès",
-     "j": "Très au-dessus de la proportion évitable estimée (un tiers)."
-    }
-   ]
-  },
+  {"q":"Quelle proportion des cancers relève d'une prédisposition génétique héréditaire ?","c":17,"options":[{"t":"5 à 10 % des cancers","correct":true,"j":"Fourchette admise : l'hérédité ne concerne qu'une minorité des cancers."},{"t":"20 à 25 % des cancers","j":"Surestime la part héréditaire, qui reste minoritaire (5-10 %)."},{"t":"30 à 35 % des cancers","j":"Correspond plutôt à la part liée aux facteurs évitables, pas à l'hérédité."},{"t":"40 à 50 % des cancers","j":"Très au-dessus de la réalité : l'hérédité n'explique que 5-10 %."}]},
+  {"q":"Quelle proportion des décès par cancer est attribuable à cinq facteurs de risque évitables (tabac, infections, alcool, sédentarité, régime inadéquat) ?","c":17,"options":[{"t":"Environ un tiers des décès","correct":true,"j":"Environ un tiers des décès par cancer sont liés à ces cinq facteurs évitables."},{"t":"Environ un quart des décès","j":"Sous-estime la part évitable, qui avoisine un tiers."},{"t":"Environ la moitié des décès","j":"Surestime la part attribuable à ces cinq facteurs."},{"t":"Environ deux tiers des décès","j":"Très au-dessus de la proportion évitable estimée (un tiers)."}]},
   {
    "q": "Environ 13 % des cancers sont attribuables à des agents infectieux. Quelles localisations sont typiquement concernées ?",
    "c": 17,
@@ -8671,29 +7791,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "En France comme en Espagne, quel rang occupent les maladies respiratoires chroniques parmi les causes de mortalité ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "La 3e cause de mortalité",
-     "correct": true,
-     "j": "Elles constituent la troisième cause de mortalité dans les deux pays."
-    },
-    {
-     "t": "La 1re cause de mortalité",
-     "j": "Le premier rang revient à d'autres groupes de maladies."
-    },
-    {
-     "t": "La 2e cause de mortalité",
-     "j": "Elles occupent le troisième rang, pas le deuxième."
-    },
-    {
-     "t": "La 4e cause de mortalité",
-     "j": "Elles se situent au troisième rang, un cran au-dessus."
-    }
-   ]
-  },
+  {"q":"En France comme en Espagne, quel rang occupent les maladies respiratoires chroniques parmi les causes de mortalité ?","c":18,"options":[{"t":"La 3e cause de mortalité","correct":true,"j":"Elles constituent la troisième cause de mortalité dans les deux pays."},{"t":"La 1re cause de mortalité","j":"Le premier rang revient à d'autres groupes de maladies."},{"t":"La 2e cause de mortalité","j":"Elles occupent le troisième rang, pas le deuxième."},{"t":"La 4e cause de mortalité","j":"Elles se situent au troisième rang, un cran au-dessus."}]},
   {
    "q": "Parmi les maladies respiratoires chroniques, quelle est la principale chez l'enfant et quelle est la principale chez l'adulte ?",
    "c": 18,
@@ -8901,29 +7999,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la prise en charge individuelle de la BPCO, quelle affirmation est exacte ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Même sans arrêt du tabac, les mesures individuelles restent pleinement efficaces.",
-     "j": "Faux : sans sevrage tabagique, ces mesures sont inefficaces."
-    },
-    {
-     "t": "L'arrêt du tabac n'influence pas l'efficacité des mesures individuelles.",
-     "j": "Faux : il en est justement la condition déterminante."
-    },
-    {
-     "t": "Les mesures individuelles ne deviennent efficaces qu'après aggravation, malgré le tabac.",
-     "j": "Faux : c'est l'arrêt du tabac, non l'aggravation, qui les rend efficaces."
-    },
-    {
-     "t": "Sans arrêt du tabac, toute mesure individuelle contre la BPCO reste inefficace.",
-     "correct": true,
-     "j": "Exact : l'arrêt du tabac conditionne l'efficacité des mesures individuelles."
-    }
-   ]
-  },
+  {"q":"Concernant la prise en charge individuelle de la BPCO, quelle affirmation est exacte ?","c":18,"options":[{"t":"Même sans arrêt du tabac, les mesures individuelles restent pleinement efficaces.","j":"Faux : sans sevrage tabagique, ces mesures sont inefficaces."},{"t":"L'arrêt du tabac n'influence pas l'efficacité des mesures individuelles.","j":"Faux : il en est justement la condition déterminante."},{"t":"Les mesures individuelles ne deviennent efficaces qu'après aggravation, malgré le tabac.","j":"Faux : c'est l'arrêt du tabac, non l'aggravation, qui les rend efficaces."},{"t":"Sans arrêt du tabac, toute mesure individuelle contre la BPCO reste inefficace.","correct":true,"j":"Exact : l'arrêt du tabac conditionne l'efficacité des mesures individuelles."}]},
   {
    "q": "Dans la BPCO grave, quelle durée quotidienne d'oxygénothérapie est nécessaire ?",
    "c": 18,
@@ -9568,29 +8644,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel principe résume la démarche de prévention de la maladie d'Alzheimer ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "« Ce qui est bon pour le cœur est bon pour le cerveau ».",
-     "correct": true,
-     "j": "Exact : la prévention s'appuie sur ce lien entre santé cardiovasculaire et cérébrale."
-    },
-    {
-     "t": "« Ce qui est bon pour les muscles est bon pour le cerveau ».",
-     "j": "Faux : la formule retenue met en avant le cœur, non les muscles."
-    },
-    {
-     "t": "« Ce qui est bon pour le foie est bon pour le cerveau ».",
-     "j": "Faux : le principe cité concerne le cœur et non le foie."
-    },
-    {
-     "t": "« Ce qui est bon pour les poumons est bon pour le cerveau ».",
-     "j": "Faux : la formule de prévention vise le cœur, pas les poumons."
-    }
-   ]
-  },
+  {"q":"Quel principe résume la démarche de prévention de la maladie d'Alzheimer ?","c":20,"options":[{"t":"« Ce qui est bon pour le cœur est bon pour le cerveau ».","correct":true,"j":"Exact : la prévention s'appuie sur ce lien entre santé cardiovasculaire et cérébrale."},{"t":"« Ce qui est bon pour les muscles est bon pour le cerveau ».","j":"Faux : la formule retenue met en avant le cœur, non les muscles."},{"t":"« Ce qui est bon pour le foie est bon pour le cerveau ».","j":"Faux : le principe cité concerne le cœur et non le foie."},{"t":"« Ce qui est bon pour les poumons est bon pour le cerveau ».","j":"Faux : la formule de prévention vise le cœur, pas les poumons."}]},
   {
    "q": "Concernant le mécanisme de la maladie de Parkinson, quelle proposition est exacte ?",
    "c": 20,
@@ -9637,29 +8691,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la répartition de la maladie de Parkinson selon le sexe, quelle proposition est exacte ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Elle est environ deux fois plus fréquente chez les hommes que chez les femmes.",
-     "correct": true,
-     "j": "Exact : la maladie touche environ deux fois plus les hommes que les femmes."
-    },
-    {
-     "t": "Elle est environ deux fois plus fréquente chez les femmes que chez les hommes.",
-     "j": "Faux : la prédominance est masculine, et non féminine."
-    },
-    {
-     "t": "Elle touche de façon strictement identique les hommes et les femmes.",
-     "j": "Faux : il existe une prédominance masculine d'un facteur deux environ."
-    },
-    {
-     "t": "Elle est environ dix fois plus fréquente chez les hommes que chez les femmes.",
-     "j": "Faux : le rapport est d'environ deux, non de dix."
-    }
-   ]
-  },
+  {"q":"Concernant la répartition de la maladie de Parkinson selon le sexe, quelle proposition est exacte ?","c":20,"options":[{"t":"Elle est environ deux fois plus fréquente chez les hommes que chez les femmes.","correct":true,"j":"Exact : la maladie touche environ deux fois plus les hommes que les femmes."},{"t":"Elle est environ deux fois plus fréquente chez les femmes que chez les hommes.","j":"Faux : la prédominance est masculine, et non féminine."},{"t":"Elle touche de façon strictement identique les hommes et les femmes.","j":"Faux : il existe une prédominance masculine d'un facteur deux environ."},{"t":"Elle est environ dix fois plus fréquente chez les hommes que chez les femmes.","j":"Faux : le rapport est d'environ deux, non de dix."}]},
   {
    "q": "Selon le cours, quelle manifestation de la maladie de Parkinson fait partie des symptômes MOTEURS ?",
    "c": 20,
@@ -9729,29 +8761,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, à quel âge débutent les troubles de santé mentale ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "50 % commencent avant 14 ans et 75 % avant 18 ans",
-     "correct": true,
-     "j": "Ce sont les proportions exactes indiquées par le cours."
-    },
-    {
-     "t": "25 % commencent avant 14 ans et 50 % avant 18 ans",
-     "j": "Ces proportions sous-estiment les données du cours."
-    },
-    {
-     "t": "50 % commencent avant 18 ans et 75 % avant 25 ans",
-     "j": "Les seuils d'âge sont décalés par rapport au cours."
-    },
-    {
-     "t": "75 % commencent avant 14 ans et 90 % avant 18 ans",
-     "j": "Ces proportions surestiment le début avant 14 ans selon le cours."
-    }
-   ]
-  },
+  {"q":"Selon le cours, à quel âge débutent les troubles de santé mentale ?","c":21,"options":[{"t":"50 % commencent avant 14 ans et 75 % avant 18 ans","correct":true,"j":"Ce sont les proportions exactes indiquées par le cours."},{"t":"25 % commencent avant 14 ans et 50 % avant 18 ans","j":"Ces proportions sous-estiment les données du cours."},{"t":"50 % commencent avant 18 ans et 75 % avant 25 ans","j":"Les seuils d'âge sont décalés par rapport au cours."},{"t":"75 % commencent avant 14 ans et 90 % avant 18 ans","j":"Ces proportions surestiment le début avant 14 ans selon le cours."}]},
   {
    "q": "Selon le cours, quelle proportion de la population mondiale souffrira d'un trouble mental ou neurologique au cours de sa vie ?",
    "c": 21,
@@ -10327,29 +9337,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, un service de santé de qualité doit réunir en premier lieu trois caractéristiques. Lesquelles ?",
-   "c": 29,
-   "options": [
-    {
-     "t": "Efficace, sûr et centré sur les personnes.",
-     "correct": true,
-     "j": "Exact : un service de qualité doit être efficace, sûr et centré sur les personnes."
-    },
-    {
-     "t": "Efficace, rentable et centré sur les personnes.",
-     "j": "Faux : la rentabilité renvoie à l'efficience ; la caractéristique attendue ici est la sécurité (sûr)."
-    },
-    {
-     "t": "Efficace, sûr et centré sur les technologies.",
-     "j": "Faux : le service doit être centré sur les personnes (préférences et valeurs), non sur les technologies."
-    },
-    {
-     "t": "Accessible, sûr et centré sur les personnes.",
-     "j": "Faux : le trio attendu commence par la caractéristique 'efficace' ; l'accessibilité n'en fait pas partie."
-    }
-   ]
-  },
+  {"q":"Selon le cours, un service de santé de qualité doit réunir en premier lieu trois caractéristiques. Lesquelles ?","c":25,"options":[{"t":"Efficace, sûr et centré sur les personnes.","correct":true,"j":"Exact : un service de qualité doit être efficace, sûr et centré sur les personnes."},{"t":"Efficace, rentable et centré sur les personnes.","j":"Faux : la rentabilité renvoie à l'efficience ; la caractéristique attendue ici est la sécurité (sûr)."},{"t":"Efficace, sûr et centré sur les technologies.","j":"Faux : le service doit être centré sur les personnes (préférences et valeurs), non sur les technologies."},{"t":"Accessible, sûr et centré sur les personnes.","j":"Faux : le trio attendu commence par la caractéristique 'efficace' ; l'accessibilité n'en fait pas partie."}]},
   {
    "q": "Parmi les autres principes de qualité des soins retenus dans le cours, on trouve notamment le fait d'être :",
    "c": 25,
@@ -10626,29 +9614,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Que vise principalement l'étude de marché ?",
-   "c": 29,
-   "options": [
-    {
-     "t": "Connaître la réponse des clients potentiels et de la concurrence face à un service.",
-     "correct": true,
-     "j": "L'étude de marché analyse la réponse des clients potentiels et de la concurrence."
-    },
-    {
-     "t": "Connaître la réponse des clients potentiels, sans étudier la concurrence.",
-     "j": "La concurrence fait aussi partie des objectifs de l'étude de marché."
-    },
-    {
-     "t": "Connaître la réponse de la concurrence, sans étudier les clients potentiels.",
-     "j": "Le client potentiel est également un objectif central de l'étude."
-    },
-    {
-     "t": "Connaître le budget interne de l'entreprise, sans étudier le marché.",
-     "j": "L'étude de marché porte sur le marché externe, non sur le budget interne."
-    }
-   ]
-  },
+  {"q":"Que vise principalement l'étude de marché ?","c":22,"options":[{"t":"Connaître la réponse des clients potentiels et de la concurrence face à un service.","correct":true,"j":"L'étude de marché analyse la réponse des clients potentiels et de la concurrence."},{"t":"Connaître la réponse des clients potentiels, sans étudier la concurrence.","j":"La concurrence fait aussi partie des objectifs de l'étude de marché."},{"t":"Connaître la réponse de la concurrence, sans étudier les clients potentiels.","j":"Le client potentiel est également un objectif central de l'étude."},{"t":"Connaître le budget interne de l'entreprise, sans étudier le marché.","j":"L'étude de marché porte sur le marché externe, non sur le budget interne."}]},
   {
    "q": "Comment le cours définit-il respectivement la cible (target) et la niche de marché ?",
    "c": 22,
@@ -218405,29 +217371,7 @@ const QUESTIONS = {
   }
  ],
  "pathoChir1": [
-  {
-   "q": "Un homme de 58 ans doit subir une cholécystectomie. L'anesthésiste évalue son risque chirurgical avant l'intervention. Quelle est l'échelle utilisée pour cette évaluation préopératoire ?",
-   "c": 31,
-   "options": [
-    {
-     "t": "Échelle ASA (1 à 5)",
-     "correct": true,
-     "j": "L'ASA est l'échelle anesthésiologique de référence en préopératoire, gradant de 1 (sain) à 5 (moribond)."
-    },
-    {
-     "t": "Échelle de Glasgow (3 à 15)",
-     "j": "Le Glasgow évalue le niveau de conscience d'un traumatisé crânien, pas le risque anesthésique préopératoire."
-    },
-    {
-     "t": "Échelle de Wallace (règle des 9)",
-     "j": "La règle de Wallace estime la surface brûlée chez l'adulte, sans rapport avec le risque anesthésique."
-    },
-    {
-     "t": "Échelle EVA (0 à 10)",
-     "j": "L'EVA est une mesure subjective de la douleur, pas une évaluation préopératoire du risque."
-    }
-   ]
-  },
+  {"q":"Un homme de 58 ans doit subir une cholécystectomie. L'anesthésiste évalue son risque chirurgical avant l'intervention. Quelle est l'échelle utilisée pour cette évaluation préopératoire ?","c":1,"options":[{"t":"Échelle ASA (1 à 5)","correct":true,"j":"L'ASA est l'échelle anesthésiologique de référence en préopératoire, gradant de 1 (sain) à 5 (moribond)."},{"t":"Échelle de Glasgow (3 à 15)","j":"Le Glasgow évalue le niveau de conscience d'un traumatisé crânien, pas le risque anesthésique préopératoire."},{"t":"Échelle de Wallace (règle des 9)","j":"La règle de Wallace estime la surface brûlée chez l'adulte, sans rapport avec le risque anesthésique."},{"t":"Échelle EVA (0 à 10)","j":"L'EVA est une mesure subjective de la douleur, pas une évaluation préopératoire du risque."}]},
   {
    "q": "Pour une chirurgie programmée, à quel moment doit débuter le jeûne strict pour les solides selon le protocole préopératoire enseigné ?",
    "c": 1,
@@ -218520,29 +217464,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lors d'un bilan articulaire passif du genou, quel paramètre mesure-t-on exactement chez un patient en post-opératoire de LCA ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "Le balance articulaire en degrés",
-     "correct": true,
-     "j": "La mobilité passive correspond au balance articulaire, mesuré en degrés par l'examinateur."
-    },
-    {
-     "t": "La force musculaire en kilos",
-     "j": "La force est évaluée par la mobilité résistée (balance musculaire), pas par la mobilité passive."
-    },
-    {
-     "t": "Le bâillement ligamentaire",
-     "j": "Le bâillement explore la mobilité forcée (intégrité ligamentaire), pas la mobilité passive normale."
-    },
-    {
-     "t": "Le réflexe ostéo-tendineux",
-     "j": "Les réflexes appartiennent à l'examen neurologique, pas au bilan articulaire passif."
-    }
-   ]
-  },
+  {"q":"Lors d'un bilan articulaire passif du genou, quel paramètre mesure-t-on exactement chez un patient en post-opératoire de LCA ?","c":1,"options":[{"t":"Le balance articulaire en degrés","correct":true,"j":"La mobilité passive correspond au balance articulaire, mesuré en degrés par l'examinateur."},{"t":"La force musculaire en kilos","j":"La force est évaluée par la mobilité résistée (balance musculaire), pas par la mobilité passive."},{"t":"Le bâillement ligamentaire","j":"Le bâillement explore la mobilité forcée (intégrité ligamentaire), pas la mobilité passive normale."},{"t":"Le réflexe ostéo-tendineux","j":"Les réflexes appartiennent à l'examen neurologique, pas au bilan articulaire passif."}]},
   {
    "q": "Un patient de 42 ans présente une douleur cancéreuse osseuse cotée 8/10. Selon l'échelle analgésique de l'OMS, quel niveau correspond à des opioïdes forts comme la morphine ?",
    "c": 2,
@@ -218635,98 +217557,10 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon les quatre signes cardinaux de Celse décrivant l'inflammation aiguë, lequel correspond à la « tumeur » ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "L'œdème par augmentation du liquide interstitiel",
-     "correct": true,
-     "j": "« Tumor » désigne le gonflement tissulaire dû à l'œdème par extravasation liquidienne."
-    },
-    {
-     "t": "La rougeur par vasodilatation",
-     "j": "La rougeur correspond au « rubor », pas à la tumeur (tuméfaction)."
-    },
-    {
-     "t": "La chaleur par hyperémie locale",
-     "j": "La chaleur correspond au « calor », signe distinct de la tumeur dans la tétrade."
-    },
-    {
-     "t": "La douleur par activation des nocicepteurs",
-     "j": "La douleur correspond au « dolor », signe distinct de la tumeur dans les signes cardinaux."
-    }
-   ]
-  },
-  {
-   "q": "Quelle famille enzymatique est inhibée par les AINS classiques pour réduire la synthèse des prostaglandines pro-inflammatoires ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Cyclo-oxygénases (COX)",
-     "correct": true,
-     "j": "Les AINS inhibent les COX-1 et COX-2, bloquant la transformation de l'acide arachidonique en prostaglandines."
-    },
-    {
-     "t": "Lipo-oxygénases",
-     "j": "Faux : les lipo-oxygénases produisent les leucotriènes, voie parallèle non ciblée par les AINS classiques."
-    },
-    {
-     "t": "Phospholipase A2",
-     "j": "Faux : la phospholipase A2 est inhibée par les corticoïdes en amont de la cascade, non par les AINS."
-    },
-    {
-     "t": "Thromboxane synthases",
-     "j": "Faux : les thromboxane synthases agissent en aval de la COX et ne sont pas la cible directe des AINS."
-    }
-   ]
-  },
-  {
-   "q": "Lors d'une inflammation aiguë, quelle phase précède immédiatement la phase cellulaire avec marginalisation des polynucléaires ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Phase vasculaire avec vasodilatation et fuite plasmatique",
-     "correct": true,
-     "j": "La phase vasculaire (vasodilatation puis hyperperméabilité capillaire avec fuite plasmatique) précède directement l'arrivée des cellules : c'est elle qui ralentit le flux et prépare la marginalisation des polynucléaires."
-    },
-    {
-     "t": "Phase de diapédèse avec passage transendothélial des leucocytes",
-     "j": "Faux : la diapédèse est une étape de la phase cellulaire elle-même, postérieure à la marginalisation et au roulement, et non la phase qui la précède."
-    },
-    {
-     "t": "Phase de détersion avec phagocytose des débris nécrotiques",
-     "j": "Faux : la détersion par phagocytose suit l'afflux cellulaire complet ; elle nettoie le foyer après la phase cellulaire, elle ne la précède pas."
-    },
-    {
-     "t": "Phase de chimiotactisme avec migration orientée des phagocytes",
-     "j": "Faux : le chimiotactisme oriente les leucocytes déjà sortis du vaisseau ; il fait suite à la marginalisation et à la diapédèse, donc en aval de la phase cellulaire débutante."
-    }
-   ]
-  },
-  {
-   "q": "Quel neurotransmetteur libère le nerf vague pour désactiver les macrophages dans le réflexe anti-inflammatoire parasympathique ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Acétylcholine agissant sur le récepteur nicotinique alpha-7",
-     "correct": true,
-     "j": "Le vague libère de l'acétylcholine qui, via le récepteur nicotinique alpha-7 des macrophages, inhibe la production de TNF : c'est le pivot du réflexe cholinergique anti-inflammatoire."
-    },
-    {
-     "t": "Acétylcholine agissant sur le récepteur muscarinique M2 cardiaque",
-     "j": "Faux : si le médiateur est bien l'acétylcholine, c'est le récepteur nicotinique alpha-7 macrophagique qui éteint l'inflammation ; le M2 ralentit le cœur sans effet anti-inflammatoire macrophagique."
-    },
-    {
-     "t": "VIP co-libéré par les fibres vagales sur les cellules immunitaires",
-     "j": "Faux : le VIP est un neuropeptide immunomodulateur, mais le médiateur clé du réflexe vagal décrit reste l'acétylcholine sur le récepteur nicotinique alpha-7."
-    },
-    {
-     "t": "Adrénaline issue de la voie vago-surrénalienne réflexe",
-     "j": "Faux : l'adrénaline relève de la voie sympatho-surrénalienne, pas du bras parasympathique vagal cholinergique du réflexe anti-inflammatoire."
-    }
-   ]
-  },
+  {"q":"Selon les quatre signes cardinaux de Celse décrivant l'inflammation aiguë, lequel correspond à la « tumeur » ?","c":3,"options":[{"t":"L'œdème par augmentation du liquide interstitiel","correct":true,"j":"« Tumor » désigne le gonflement tissulaire dû à l'œdème par extravasation liquidienne."},{"t":"La rougeur par vasodilatation","j":"La rougeur correspond au « rubor », pas à la tumeur (tuméfaction)."},{"t":"La chaleur par hyperémie locale","j":"La chaleur correspond au « calor », signe distinct de la tumeur dans la tétrade."},{"t":"La douleur par activation des nocicepteurs","j":"La douleur correspond au « dolor », signe distinct de la tumeur dans les signes cardinaux."}]},
+  {"q":"Quelle famille enzymatique est inhibée par les AINS classiques pour réduire la synthèse des prostaglandines pro-inflammatoires ?","c":3,"options":[{"t":"Cyclo-oxygénases (COX)","correct":true,"j":"Les AINS inhibent les COX-1 et COX-2, bloquant la transformation de l'acide arachidonique en prostaglandines."},{"t":"Lipo-oxygénases","j":"Faux : les lipo-oxygénases produisent les leucotriènes, voie parallèle non ciblée par les AINS classiques."},{"t":"Phospholipase A2","j":"Faux : la phospholipase A2 est inhibée par les corticoïdes en amont de la cascade, non par les AINS."},{"t":"Thromboxane synthases","j":"Faux : les thromboxane synthases agissent en aval de la COX et ne sont pas la cible directe des AINS."}]},
+  {"q":"Lors d'une inflammation aiguë, quelle phase précède immédiatement la phase cellulaire avec marginalisation des polynucléaires ?","c":3,"options":[{"t":"Phase vasculaire avec vasodilatation et fuite plasmatique","correct":true,"j":"La phase vasculaire (vasodilatation puis hyperperméabilité capillaire avec fuite plasmatique) précède directement l'arrivée des cellules : c'est elle qui ralentit le flux et prépare la marginalisation des polynucléaires."},{"t":"Phase de diapédèse avec passage transendothélial des leucocytes","j":"Faux : la diapédèse est une étape de la phase cellulaire elle-même, postérieure à la marginalisation et au roulement, et non la phase qui la précède."},{"t":"Phase de détersion avec phagocytose des débris nécrotiques","j":"Faux : la détersion par phagocytose suit l'afflux cellulaire complet ; elle nettoie le foyer après la phase cellulaire, elle ne la précède pas."},{"t":"Phase de chimiotactisme avec migration orientée des phagocytes","j":"Faux : le chimiotactisme oriente les leucocytes déjà sortis du vaisseau ; il fait suite à la marginalisation et à la diapédèse, donc en aval de la phase cellulaire débutante."}]},
+  {"q":"Quel neurotransmetteur libère le nerf vague pour désactiver les macrophages dans le réflexe anti-inflammatoire parasympathique ?","c":3,"options":[{"t":"Acétylcholine agissant sur le récepteur nicotinique alpha-7","correct":true,"j":"Le vague libère de l'acétylcholine qui, via le récepteur nicotinique alpha-7 des macrophages, inhibe la production de TNF : c'est le pivot du réflexe cholinergique anti-inflammatoire."},{"t":"Acétylcholine agissant sur le récepteur muscarinique M2 cardiaque","j":"Faux : si le médiateur est bien l'acétylcholine, c'est le récepteur nicotinique alpha-7 macrophagique qui éteint l'inflammation ; le M2 ralentit le cœur sans effet anti-inflammatoire macrophagique."},{"t":"VIP co-libéré par les fibres vagales sur les cellules immunitaires","j":"Faux : le VIP est un neuropeptide immunomodulateur, mais le médiateur clé du réflexe vagal décrit reste l'acétylcholine sur le récepteur nicotinique alpha-7."},{"t":"Adrénaline issue de la voie vago-surrénalienne réflexe","j":"Faux : l'adrénaline relève de la voie sympatho-surrénalienne, pas du bras parasympathique vagal cholinergique du réflexe anti-inflammatoire."}]},
   {
    "q": "Un agriculteur de 60 ans subit une laparotomie urgente pour péritonite stercorale. Selon la classification chirurgicale, à quelle classe de plaie appartient ce cas ?",
    "c": 4,
@@ -218888,52 +217722,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lors d'une hémorragie massive externe chez un polytraumatisé, quelle est la mesure de contrôle de première intention enseignée ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Compression directe manuelle du foyer hémorragique",
-     "correct": true,
-     "j": "La compression directe manuelle est la mesure de première intention recommandée, le garrot étant réservé à l'échec ou à l'amputation traumatique."
-    },
-    {
-     "t": "Pose immédiate d'un garrot artériel proximal",
-     "j": "Le garrot proximal n'est pas la première option : il est gardé en seconde intention si la compression directe échoue."
-    },
-    {
-     "t": "Pansement compressif hémostatique sans compression manuelle préalable",
-     "j": "Le pansement compressif vient en relais, mais ne dispense pas de la compression directe manuelle initiale comme premier geste."
-    },
-    {
-     "t": "Surélévation isolée du membre au-dessus du plan cardiaque",
-     "j": "La surélévation est un appoint accessoire et ne contrôle pas à elle seule une hémorragie massive : la compression directe reste le geste princeps."
-    }
-   ]
-  },
-  {
-   "q": "Comment se définit précisément une infection localisée avec accumulation de pus limitée par du tissu de granulation ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Abcès",
-     "correct": true,
-     "j": "L'abcès est une nécrose localisée avec accumulation de pus délimitée par du tissu de granulation."
-    },
-    {
-     "t": "Phlegmon",
-     "j": "Le phlegmon est diffus, sans limitation nette, avec prédominance de nécrose sur la suppuration."
-    },
-    {
-     "t": "Cellulite",
-     "j": "La cellulite est une inflammation diffuse sans formation de pus organisée ni limitation précise."
-    },
-    {
-     "t": "Septicémie",
-     "j": "La septicémie est une infection généralisée hématogène, pas une collection localisée."
-    }
-   ]
-  },
+  {"q":"Lors d'une hémorragie massive externe chez un polytraumatisé, quelle est la mesure de contrôle de première intention enseignée ?","c":5,"options":[{"t":"Compression directe manuelle du foyer hémorragique","correct":true,"j":"La compression directe manuelle est la mesure de première intention recommandée, le garrot étant réservé à l'échec ou à l'amputation traumatique."},{"t":"Pose immédiate d'un garrot artériel proximal","j":"Le garrot proximal n'est pas la première option : il est gardé en seconde intention si la compression directe échoue."},{"t":"Pansement compressif hémostatique sans compression manuelle préalable","j":"Le pansement compressif vient en relais, mais ne dispense pas de la compression directe manuelle initiale comme premier geste."},{"t":"Surélévation isolée du membre au-dessus du plan cardiaque","j":"La surélévation est un appoint accessoire et ne contrôle pas à elle seule une hémorragie massive : la compression directe reste le geste princeps."}]},
+  {"q":"Comment se définit précisément une infection localisée avec accumulation de pus limitée par du tissu de granulation ?","c":6,"options":[{"t":"Abcès","correct":true,"j":"L'abcès est une nécrose localisée avec accumulation de pus délimitée par du tissu de granulation."},{"t":"Phlegmon","j":"Le phlegmon est diffus, sans limitation nette, avec prédominance de nécrose sur la suppuration."},{"t":"Cellulite","j":"La cellulite est une inflammation diffuse sans formation de pus organisée ni limitation précise."},{"t":"Septicémie","j":"La septicémie est une infection généralisée hématogène, pas une collection localisée."}]},
   {
    "q": "Un enfant de 7 ans présente fièvre à 39°C, douleur intense de la hanche en flexion-abduction-rotation externe, refus d'appui. Quel diagnostic doit être évoqué en première intention ?",
    "c": 7,
@@ -220153,52 +218943,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle modification du cartilage est SPÉCIFIQUE de l'arthrose (et pas du simple vieillissement) ?",
-   "c": 19,
-   "options": [
-    {
-     "t": "Hyperhydratation (œdème) du cartilage",
-     "correct": true,
-     "j": "Vrai : l'arthrose s'accompagne d'un œdème (hyperhydratation) du cartilage, alors que le vieillissement simple le déshydrate."
-    },
-    {
-     "t": "Déshydratation du cartilage",
-     "j": "Faux : la déshydratation caractérise le vieillissement, pas l'arthrose qui œdématie le cartilage."
-    },
-    {
-     "t": "Augmentation des protéoglycanes",
-     "j": "Faux : les protéoglycanes diminuent dans l'arthrose comme dans le vieillissement, ils n'augmentent pas."
-    },
-    {
-     "t": "Vascularisation du cartilage",
-     "j": "Faux : le cartilage reste avasculaire à l'état normal comme arthrosique : ce n'est pas un critère distinctif."
-    }
-   ]
-  },
-  {
-   "q": "Quel signe radiologique caractéristique de l'arthrose résulte de l'hyperpression sur l'os sous-chondral ?",
-   "c": 19,
-   "options": [
-    {
-     "t": "Ostéosclérose sous-chondrale",
-     "correct": true,
-     "j": "L'os sous-chondral se condense (ostéosclérose) sous les zones de surcharge, signe cardinal de l'arthrose."
-    },
-    {
-     "t": "Lacunes lytiques métaphysaires diffuses",
-     "j": "Les lacunes lytiques diffuses évoquent une pathologie tumorale ou inflammatoire, pas l'arthrose."
-    },
-    {
-     "t": "Élargissement de l'interligne articulaire",
-     "j": "L'arthrose pince l'interligne, elle ne l'élargit pas."
-    },
-    {
-     "t": "Érosions marginales typiques",
-     "j": "Les érosions marginales évoquent une arthrite inflammatoire (PR), pas l'arthrose."
-    }
-   ]
-  },
+  {"q":"Quelle modification du cartilage est SPÉCIFIQUE de l'arthrose (et pas du simple vieillissement) ?","c":18,"options":[{"t":"Hyperhydratation (œdème) du cartilage","correct":true,"j":"Vrai : l'arthrose s'accompagne d'un œdème (hyperhydratation) du cartilage, alors que le vieillissement simple le déshydrate."},{"t":"Déshydratation du cartilage","j":"Faux : la déshydratation caractérise le vieillissement, pas l'arthrose qui œdématie le cartilage."},{"t":"Augmentation des protéoglycanes","j":"Faux : les protéoglycanes diminuent dans l'arthrose comme dans le vieillissement, ils n'augmentent pas."},{"t":"Vascularisation du cartilage","j":"Faux : le cartilage reste avasculaire à l'état normal comme arthrosique : ce n'est pas un critère distinctif."}]},
+  {"q":"Quel signe radiologique caractéristique de l'arthrose résulte de l'hyperpression sur l'os sous-chondral ?","c":18,"options":[{"t":"Ostéosclérose sous-chondrale","correct":true,"j":"L'os sous-chondral se condense (ostéosclérose) sous les zones de surcharge, signe cardinal de l'arthrose."},{"t":"Lacunes lytiques métaphysaires diffuses","j":"Les lacunes lytiques diffuses évoquent une pathologie tumorale ou inflammatoire, pas l'arthrose."},{"t":"Élargissement de l'interligne articulaire","j":"L'arthrose pince l'interligne, elle ne l'élargit pas."},{"t":"Érosions marginales typiques","j":"Les érosions marginales évoquent une arthrite inflammatoire (PR), pas l'arthrose."}]},
   {
    "q": "Quelle arthropathie est une maladie inflammatoire chronique avec hyperplasie synoviale, formation de pannus et destruction articulaire symétrique ?",
    "c": 19,
@@ -220291,121 +219037,11 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel type de fibre musculaire est lent, riche en myoglobine, résistant à la fatigue et destiné aux contractions soutenues ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "Fibre de type I (lente, rouge)",
-     "correct": true,
-     "j": "Les fibres I (lentes/rouges) sont riches en myoglobine et adaptées à l'endurance, typiques des coureurs de fond."
-    },
-    {
-     "t": "Fibre IIb (rapide, blanche)",
-     "j": "Les IIb sont rapides, riches en glycogène mais fatigables, typiques des sprinters."
-    },
-    {
-     "t": "Fibre IIa (intermédiaire)",
-     "j": "Les IIa sont rapides mais plus résistantes que IIb ; pas le profil le plus typiquement lent."
-    },
-    {
-     "t": "Fibre IIc (immature)",
-     "j": "Les IIc sont immatures et transitionnelles, sans rôle dominant dans l'endurance soutenue."
-    }
-   ]
-  },
-  {
-   "q": "Un sprinter ressent une douleur brutale en pleine accélération, décrit le « coup de fouet », avec ecchymose modérée. Quel diagnostic clinique privilégier ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "Rupture fibrillaire musculaire",
-     "correct": true,
-     "j": "Coup de fouet sur contraction brutale avec ecchymose locale : tableau typique de la rupture fibrillaire."
-    },
-    {
-     "t": "Élongation musculaire simple",
-     "j": "Faux : l'élongation est un étirement sans rupture, douleur moins vive et sans ecchymose ni coup de fouet."
-    },
-    {
-     "t": "Contusion musculaire directe",
-     "j": "Faux : la contusion suppose un choc direct externe, pas une contraction brutale en accélération."
-    },
-    {
-     "t": "Crampe musculaire d'effort",
-     "j": "Faux : la crampe est une contraction involontaire douloureuse et transitoire, cédant à l'étirement, sans ecchymose."
-    }
-   ]
-  },
-  {
-   "q": "Quel traitement antalgique est DÉCONSEILLÉ lors de la phase aiguë d'une lésion musculaire indirecte ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "AINS systémiques",
-     "correct": true,
-     "j": "Les AINS sont déconseillés car ils peuvent altérer la réparation musculaire ; on privilégie antalgiques simples et glace."
-    },
-    {
-     "t": "Cryothérapie locale",
-     "j": "La cryothérapie limite l'œdème et la douleur, c'est une mesure indiquée en phase aiguë."
-    },
-    {
-     "t": "Bandage compressif",
-     "j": "Le bandage compressif est recommandé pour limiter l'hématome, ce n'est pas une contre-indication."
-    },
-    {
-     "t": "Repos relatif initial",
-     "j": "Le repos relatif fait partie du protocole de phase aiguë, il n'est pas déconseillé."
-    }
-   ]
-  },
-  {
-   "q": "Quelle est la localisation la plus fréquente d'une hernie musculaire post-traumatique ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "Tibial antérieur à la jambe",
-     "correct": true,
-     "j": "Le tibial antérieur, en loge antérieure de jambe, est le siège le plus classique de hernie musculaire par déhiscence aponévrotique sous l'effet de contraintes répétées."
-    },
-    {
-     "t": "Gastrocnémien médial au mollet",
-     "j": "Faux : le gastrocnémien est un site fréquent de désinsertion (tennis leg) mais non de hernie musculaire à travers une déhiscence aponévrotique."
-    },
-    {
-     "t": "Soléaire en loge postérieure profonde",
-     "j": "Faux : profondément situé sous le triceps sural, le soléaire n'est pas exposé à la déhiscence fasciale superficielle nécessaire à une hernie."
-    },
-    {
-     "t": "Long fibulaire en loge latérale",
-     "j": "Faux : la loge latérale est moins exposée que la loge antérieure, et le long fibulaire n'est pas un site préférentiel décrit de hernie musculaire."
-    }
-   ]
-  },
-  {
-   "q": "Une infirmière présente un torticolis congénital du nouveau-né avec olive palpable. Quel est le pilier du traitement initial ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "Mobilisation passive et physiothérapie",
-     "correct": true,
-     "j": "Chez le nouveau-né, on insiste sur la mobilité complète et la physiothérapie pour éviter une déformation osseuse secondaire."
-    },
-    {
-     "t": "Section chirurgicale immédiate du sterno-cléido-mastoïdien",
-     "j": "La chirurgie est réservée à l'enfant plus âgé en cas d'échec du traitement conservateur."
-    },
-    {
-     "t": "Immobilisation rigide en collier cervical prolongé",
-     "j": "L'immobilisation rigide aggrave la rétraction et est contre-indiquée à ce stade."
-    },
-    {
-     "t": "Infiltrations de corticoïdes locales",
-     "j": "Les corticoïdes ne font pas partie du traitement du torticolis congénital."
-    }
-   ]
-  },
+  {"q":"Quel type de fibre musculaire est lent, riche en myoglobine, résistant à la fatigue et destiné aux contractions soutenues ?","c":20,"options":[{"t":"Fibre de type I (lente, rouge)","correct":true,"j":"Les fibres I (lentes/rouges) sont riches en myoglobine et adaptées à l'endurance, typiques des coureurs de fond."},{"t":"Fibre IIb (rapide, blanche)","j":"Les IIb sont rapides, riches en glycogène mais fatigables, typiques des sprinters."},{"t":"Fibre IIa (intermédiaire)","j":"Les IIa sont rapides mais plus résistantes que IIb ; pas le profil le plus typiquement lent."},{"t":"Fibre IIc (immature)","j":"Les IIc sont immatures et transitionnelles, sans rôle dominant dans l'endurance soutenue."}]},
+  {"q":"Un sprinter ressent une douleur brutale en pleine accélération, décrit le « coup de fouet », avec ecchymose modérée. Quel diagnostic clinique privilégier ?","c":20,"options":[{"t":"Rupture fibrillaire musculaire","correct":true,"j":"Coup de fouet sur contraction brutale avec ecchymose locale : tableau typique de la rupture fibrillaire."},{"t":"Élongation musculaire simple","j":"Faux : l'élongation est un étirement sans rupture, douleur moins vive et sans ecchymose ni coup de fouet."},{"t":"Contusion musculaire directe","j":"Faux : la contusion suppose un choc direct externe, pas une contraction brutale en accélération."},{"t":"Crampe musculaire d'effort","j":"Faux : la crampe est une contraction involontaire douloureuse et transitoire, cédant à l'étirement, sans ecchymose."}]},
+  {"q":"Quel traitement antalgique est DÉCONSEILLÉ lors de la phase aiguë d'une lésion musculaire indirecte ?","c":20,"options":[{"t":"AINS systémiques","correct":true,"j":"Les AINS sont déconseillés car ils peuvent altérer la réparation musculaire ; on privilégie antalgiques simples et glace."},{"t":"Cryothérapie locale","j":"La cryothérapie limite l'œdème et la douleur, c'est une mesure indiquée en phase aiguë."},{"t":"Bandage compressif","j":"Le bandage compressif est recommandé pour limiter l'hématome, ce n'est pas une contre-indication."},{"t":"Repos relatif initial","j":"Le repos relatif fait partie du protocole de phase aiguë, il n'est pas déconseillé."}]},
+  {"q":"Quelle est la localisation la plus fréquente d'une hernie musculaire post-traumatique ?","c":20,"options":[{"t":"Tibial antérieur à la jambe","correct":true,"j":"Le tibial antérieur, en loge antérieure de jambe, est le siège le plus classique de hernie musculaire par déhiscence aponévrotique sous l'effet de contraintes répétées."},{"t":"Gastrocnémien médial au mollet","j":"Faux : le gastrocnémien est un site fréquent de désinsertion (tennis leg) mais non de hernie musculaire à travers une déhiscence aponévrotique."},{"t":"Soléaire en loge postérieure profonde","j":"Faux : profondément situé sous le triceps sural, le soléaire n'est pas exposé à la déhiscence fasciale superficielle nécessaire à une hernie."},{"t":"Long fibulaire en loge latérale","j":"Faux : la loge latérale est moins exposée que la loge antérieure, et le long fibulaire n'est pas un site préférentiel décrit de hernie musculaire."}]},
+  {"q":"Une infirmière présente un torticolis congénital du nouveau-né avec olive palpable. Quel est le pilier du traitement initial ?","c":20,"options":[{"t":"Mobilisation passive et physiothérapie","correct":true,"j":"Chez le nouveau-né, on insiste sur la mobilité complète et la physiothérapie pour éviter une déformation osseuse secondaire."},{"t":"Section chirurgicale immédiate du sterno-cléido-mastoïdien","j":"La chirurgie est réservée à l'enfant plus âgé en cas d'échec du traitement conservateur."},{"t":"Immobilisation rigide en collier cervical prolongé","j":"L'immobilisation rigide aggrave la rétraction et est contre-indiquée à ce stade."},{"t":"Infiltrations de corticoïdes locales","j":"Les corticoïdes ne font pas partie du traitement du torticolis congénital."}]},
   {
    "q": "Quel collagène domine la composition matricielle du tendon ?",
    "c": 21,
@@ -220797,29 +219433,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la subluxation rotatoire atloaxoïdienne, quel signe clinique cardinal doit faire évoquer le diagnostic chez un enfant ?",
-   "c": 27,
-   "options": [
-    {
-     "t": "Un torticolis non réductible",
-     "correct": true,
-     "j": "Vrai : la subluxation rotatoire C1-C2 se traduit par un torticolis fixe non réductible, souvent post-infectieux ou post-traumatique."
-    },
-    {
-     "t": "Un signe de Lhermitte déclenché par la flexion",
-     "j": "Faux : le signe de Lhermitte oriente plutôt vers une myélopathie cervicale (sclérose en plaques, spondylose)."
-    },
-    {
-     "t": "Une dysphagie progressive",
-     "j": "Faux : la dysphagie évoque plutôt une compression antérieure par ostéophytes (spondylose cervicale)."
-    },
-    {
-     "t": "Un syndrome pyramidal des membres inférieurs",
-     "j": "Faux : un syndrome pyramidal évoque une myélopathie établie, pas une subluxation rotatoire isolée."
-    }
-   ]
-  },
+  {"q":"Concernant la subluxation rotatoire atloaxoïdienne, quel signe clinique cardinal doit faire évoquer le diagnostic chez un enfant ?","c":25,"options":[{"t":"Un torticolis non réductible","correct":true,"j":"Vrai : la subluxation rotatoire C1-C2 se traduit par un torticolis fixe non réductible, souvent post-infectieux ou post-traumatique."},{"t":"Un signe de Lhermitte déclenché par la flexion","j":"Faux : le signe de Lhermitte oriente plutôt vers une myélopathie cervicale (sclérose en plaques, spondylose)."},{"t":"Une dysphagie progressive","j":"Faux : la dysphagie évoque plutôt une compression antérieure par ostéophytes (spondylose cervicale)."},{"t":"Un syndrome pyramidal des membres inférieurs","j":"Faux : un syndrome pyramidal évoque une myélopathie établie, pas une subluxation rotatoire isolée."}]},
   {
    "q": "Une luxation occipito-atloidienne est suspectee aux urgences. Quelle est la mesure thérapeutique CONTRE-INDIQUEE dans cette lesion ?",
    "c": 25,
@@ -221119,52 +219733,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant l'anatomie de la moelle épinière thoraco-lombaire, où siègent les corps neuronaux des MOTONEURONES alpha ?",
-   "c": 29,
-   "options": [
-    {
-     "t": "Dans la corne antérieure de la moelle épinière",
-     "correct": true,
-     "j": "Vrai : la corne antérieure (corne ventrale) contient les motoneurones somatiques alpha qui innervent les fibres musculaires extrafusales."
-    },
-    {
-     "t": "Dans la corne latérale de la moelle épinière",
-     "j": "Faux : la corne latérale, présente surtout aux étages thoraco-lombaires, contient les neurones préganglionnaires du système sympathique, pas les motoneurones alpha."
-    },
-    {
-     "t": "Dans la corne postérieure de la moelle épinière",
-     "j": "Faux : la corne postérieure reçoit et relaie les afférences sensitives ; elle ne contient pas les corps des motoneurones alpha."
-    },
-    {
-     "t": "Dans le ganglion spinal de la racine dorsale",
-     "j": "Faux : le ganglion spinal contient les corps des neurones sensitifs en T ; les motoneurones alpha siègent dans la corne antérieure."
-    }
-   ]
-  },
-  {
-   "q": "La théorie des 3 colonnes de Denis, fondamentale dans la classification des fractures thoraco-lombaires, definit la colonne MOYENNE comme comprenant :",
-   "c": 29,
-   "options": [
-    {
-     "t": "La moitie posterieure du corps vertebral, la moitie posterieure du disque et le ligament longitudinal posterieur",
-     "correct": true,
-     "j": "Vrai : la colonne moyenne de Denis comprend la moitie posterieure du corps, du disque et le ligament longitudinal posterieur."
-    },
-    {
-     "t": "L'ensemble de l'arc posterieur, lames et ligaments posterieurs",
-     "j": "Faux : il s'agit de la colonne posterieure dans la classification de Denis."
-    },
-    {
-     "t": "La moitie anterieure du corps vertebral et le ligament longitudinal anterieur",
-     "j": "Faux : ces elements appartiennent a la colonne anterieure."
-    },
-    {
-     "t": "Les facettes articulaires et le ligament jaune uniquement",
-     "j": "Faux : ces structures font partie de la colonne posterieure."
-    }
-   ]
-  },
+  {"q":"Concernant l'anatomie de la moelle épinière thoraco-lombaire, où siègent les corps neuronaux des MOTONEURONES alpha ?","c":28,"options":[{"t":"Dans la corne antérieure de la moelle épinière","correct":true,"j":"Vrai : la corne antérieure (corne ventrale) contient les motoneurones somatiques alpha qui innervent les fibres musculaires extrafusales."},{"t":"Dans la corne latérale de la moelle épinière","j":"Faux : la corne latérale, présente surtout aux étages thoraco-lombaires, contient les neurones préganglionnaires du système sympathique, pas les motoneurones alpha."},{"t":"Dans la corne postérieure de la moelle épinière","j":"Faux : la corne postérieure reçoit et relaie les afférences sensitives ; elle ne contient pas les corps des motoneurones alpha."},{"t":"Dans le ganglion spinal de la racine dorsale","j":"Faux : le ganglion spinal contient les corps des neurones sensitifs en T ; les motoneurones alpha siègent dans la corne antérieure."}]},
+  {"q":"La théorie des 3 colonnes de Denis, fondamentale dans la classification des fractures thoraco-lombaires, definit la colonne MOYENNE comme comprenant :","c":28,"options":[{"t":"La moitie posterieure du corps vertebral, la moitie posterieure du disque et le ligament longitudinal posterieur","correct":true,"j":"Vrai : la colonne moyenne de Denis comprend la moitie posterieure du corps, du disque et le ligament longitudinal posterieur."},{"t":"L'ensemble de l'arc posterieur, lames et ligaments posterieurs","j":"Faux : il s'agit de la colonne posterieure dans la classification de Denis."},{"t":"La moitie anterieure du corps vertebral et le ligament longitudinal anterieur","j":"Faux : ces elements appartiennent a la colonne anterieure."},{"t":"Les facettes articulaires et le ligament jaune uniquement","j":"Faux : ces structures font partie de la colonne posterieure."}]},
   {
    "q": "Un manutentionnaire de 35 ans présente après une chute de 4 mètres une fracture de L1 par éclatement avec recul du mur postérieur dans le canal. Quel critère d'INSTABILITÉ mécanique est présent d'emblée dans cette fracture ?",
    "c": 29,
@@ -221418,121 +219988,11 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Une douleur lombaire commune (lombalgie non spécifique) doit faire rechercher activement un SIGNE D'ALARME (red flag). Lequel parmi les suivants doit alerter ?",
-   "c": 31,
-   "options": [
-    {
-     "t": "Une douleur nocturne permanente avec amaigrissement et fièvre",
-     "correct": true,
-     "j": "Vrai : douleur nocturne permanente, altération de l'état général et fièvre orientent vers une cause secondaire (spondylodiscite, néoplasie), red flag majeur."
-    },
-    {
-     "t": "Une douleur d'horaire mécanique majorée à l'effort et calmée au repos",
-     "j": "Faux : l'horaire mécanique calmé par le repos est le profil typique de la lombalgie commune bénigne."
-    },
-    {
-     "t": "Une douleur lombaire basse irradiant jusqu'au genou à la fatigue",
-     "j": "Faux : une irradiation tronquée non systématisée majorée par la fatigue reste dans le cadre d'une lombalgie commune sans gravité."
-    },
-    {
-     "t": "Une raideur lombaire matinale régressant en moins de trente minutes",
-     "j": "Faux : un dérouillage matinal bref (moins de 30 minutes) est banal et non inflammatoire, sans valeur d'alarme."
-    }
-   ]
-  },
-  {
-   "q": "Concernant l'innervation radiculaire au niveau lombaire, le réflexe ACHILLÉEN est sous la dépendance de la racine :",
-   "c": 31,
-   "options": [
-    {
-     "t": "S1",
-     "correct": true,
-     "j": "Vrai : le réflexe achilléen est sous la dépendance de S1, ainsi que la flexion plantaire (triceps sural)."
-    },
-    {
-     "t": "L4",
-     "j": "Faux : L4 donne le réflexe rotulien et innerve le quadriceps."
-    },
-    {
-     "t": "L5",
-     "j": "Faux : L5 contrôle l'extension du gros orteil mais ne possède pas de réflexe ostéotendineux propre."
-    },
-    {
-     "t": "L3",
-     "j": "Faux : L3 participe au réflexe rotulien et au quadriceps, pas à l'achilléen."
-    }
-   ]
-  },
-  {
-   "q": "Un jardinier de 45 ans présente une lombo-cruralgie avec déficit du quadriceps, abolition du réflexe rotulien et hypoesthésie de la face antérieure de la cuisse. Quelle racine est touchée ?",
-   "c": 31,
-   "options": [
-    {
-     "t": "L4",
-     "correct": true,
-     "j": "Vrai : L4 innerve le quadriceps, donne le réflexe rotulien et son territoire sensitif est antéro-médial du membre inférieur."
-    },
-    {
-     "t": "L5",
-     "j": "Faux : L5 contrôle les extenseurs des orteils et un territoire latéro-dorsal du pied."
-    },
-    {
-     "t": "S1",
-     "j": "Faux : S1 donne une atteinte du triceps sural et un territoire au talon et 5e orteil."
-    },
-    {
-     "t": "L2",
-     "j": "Faux : L2 innerve plutôt la flexion de la hanche et la face antérieure supérieure de la cuisse."
-    }
-   ]
-  },
-  {
-   "q": "Le test de Lasègue est positif lorsqu'il déclenche une douleur RADICULAIRE par tension sur les racines lombo-sacrées lors de la élévation passive du membre inférieur tendu. Quel seuil de flexion de hanche signe la positivité ?",
-   "c": 31,
-   "options": [
-    {
-     "t": "En dessous de 45 degrés de flexion de hanche",
-     "correct": true,
-     "j": "Vrai : un Lasègue positif est défini par une douleur radiculaire reproduite à moins de 45 degrés de flexion de hanche."
-    },
-    {
-     "t": "Au-delà de 90 degrés de flexion de hanche",
-     "j": "Faux : au-delà de 90 degrés on atteint la limite physiologique et le test perd toute spécificité."
-    },
-    {
-     "t": "Aux alentours de 70 degrés de flexion de hanche",
-     "j": "Faux : entre 45 et 70 degrés le test est moins spécifique et n'est pas la définition de la positivité."
-    },
-    {
-     "t": "À partir de 30 degrés de flexion de hanche",
-     "j": "Faux : le seuil retenu est 45 degrés ; 30 degrés correspond à une atteinte plus sévère mais n'est pas la définition classique."
-    }
-   ]
-  },
-  {
-   "q": "Concernant le signe de Bragard, comment est-il réalisé ?",
-   "c": 31,
-   "options": [
-    {
-     "t": "En position de Lasègue, on ajoute une dorsiflexion passive du pied",
-     "correct": true,
-     "j": "Vrai : le signe de Bragard ajoute une dorsiflexion du pied lors du Lasègue pour majorer la tension sur le nerf sciatique et reproduire la douleur radiculaire."
-    },
-    {
-     "t": "En décubitus ventral, on fléchit passivement le genou",
-     "j": "Faux : c'est le test de Wassermann (cruralgie L3-L4), pas le signe de Bragard."
-    },
-    {
-     "t": "En position de Lasègue, on ajoute une rotation interne de hanche",
-     "j": "Faux : la sensibilisation du Lasègue se fait par dorsiflexion du pied, pas par rotation interne de hanche."
-    },
-    {
-     "t": "En décubitus dorsal, on percute le tendon rotulien",
-     "j": "Faux : c'est la recherche du réflexe rotulien (L4), sans rapport avec le signe de Bragard."
-    }
-   ]
-  },
+  {"q":"Une douleur lombaire commune (lombalgie non spécifique) doit faire rechercher activement un SIGNE D'ALARME (red flag). Lequel parmi les suivants doit alerter ?","c":[29,30],"options":[{"t":"Une douleur nocturne permanente avec amaigrissement et fièvre","correct":true,"j":"Vrai : douleur nocturne permanente, altération de l'état général et fièvre orientent vers une cause secondaire (spondylodiscite, néoplasie), red flag majeur."},{"t":"Une douleur d'horaire mécanique majorée à l'effort et calmée au repos","j":"Faux : l'horaire mécanique calmé par le repos est le profil typique de la lombalgie commune bénigne."},{"t":"Une douleur lombaire basse irradiant jusqu'au genou à la fatigue","j":"Faux : une irradiation tronquée non systématisée majorée par la fatigue reste dans le cadre d'une lombalgie commune sans gravité."},{"t":"Une raideur lombaire matinale régressant en moins de trente minutes","j":"Faux : un dérouillage matinal bref (moins de 30 minutes) est banal et non inflammatoire, sans valeur d'alarme."}]},
+  {"q":"Concernant l'innervation radiculaire au niveau lombaire, le réflexe ACHILLÉEN est sous la dépendance de la racine :","c":30,"options":[{"t":"S1","correct":true,"j":"Vrai : le réflexe achilléen est sous la dépendance de S1, ainsi que la flexion plantaire (triceps sural)."},{"t":"L4","j":"Faux : L4 donne le réflexe rotulien et innerve le quadriceps."},{"t":"L5","j":"Faux : L5 contrôle l'extension du gros orteil mais ne possède pas de réflexe ostéotendineux propre."},{"t":"L3","j":"Faux : L3 participe au réflexe rotulien et au quadriceps, pas à l'achilléen."}]},
+  {"q":"Un jardinier de 45 ans présente une lombo-cruralgie avec déficit du quadriceps, abolition du réflexe rotulien et hypoesthésie de la face antérieure de la cuisse. Quelle racine est touchée ?","c":30,"options":[{"t":"L4","correct":true,"j":"Vrai : L4 innerve le quadriceps, donne le réflexe rotulien et son territoire sensitif est antéro-médial du membre inférieur."},{"t":"L5","j":"Faux : L5 contrôle les extenseurs des orteils et un territoire latéro-dorsal du pied."},{"t":"S1","j":"Faux : S1 donne une atteinte du triceps sural et un territoire au talon et 5e orteil."},{"t":"L2","j":"Faux : L2 innerve plutôt la flexion de la hanche et la face antérieure supérieure de la cuisse."}]},
+  {"q":"Le test de Lasègue est positif lorsqu'il déclenche une douleur RADICULAIRE par tension sur les racines lombo-sacrées lors de la élévation passive du membre inférieur tendu. Quel seuil de flexion de hanche signe la positivité ?","c":30,"options":[{"t":"En dessous de 45 degrés de flexion de hanche","correct":true,"j":"Vrai : un Lasègue positif est défini par une douleur radiculaire reproduite à moins de 45 degrés de flexion de hanche."},{"t":"Au-delà de 90 degrés de flexion de hanche","j":"Faux : au-delà de 90 degrés on atteint la limite physiologique et le test perd toute spécificité."},{"t":"Aux alentours de 70 degrés de flexion de hanche","j":"Faux : entre 45 et 70 degrés le test est moins spécifique et n'est pas la définition de la positivité."},{"t":"À partir de 30 degrés de flexion de hanche","j":"Faux : le seuil retenu est 45 degrés ; 30 degrés correspond à une atteinte plus sévère mais n'est pas la définition classique."}]},
+  {"q":"Concernant le signe de Bragard, comment est-il réalisé ?","c":30,"options":[{"t":"En position de Lasègue, on ajoute une dorsiflexion passive du pied","correct":true,"j":"Vrai : le signe de Bragard ajoute une dorsiflexion du pied lors du Lasègue pour majorer la tension sur le nerf sciatique et reproduire la douleur radiculaire."},{"t":"En décubitus ventral, on fléchit passivement le genou","j":"Faux : c'est le test de Wassermann (cruralgie L3-L4), pas le signe de Bragard."},{"t":"En position de Lasègue, on ajoute une rotation interne de hanche","j":"Faux : la sensibilisation du Lasègue se fait par dorsiflexion du pied, pas par rotation interne de hanche."},{"t":"En décubitus dorsal, on percute le tendon rotulien","j":"Faux : c'est la recherche du réflexe rotulien (L4), sans rapport avec le signe de Bragard."}]},
   {
    "q": "Un patient de 55 ans présente une lombalgie chronique avec lourdeur des deux jambes et claudication soulagée par la flexion en avant (signe du caddie). Quel diagnostic suspecter en premier ?",
    "c": 31,
@@ -221556,29 +220016,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant les hernies discales lombaires, quelle technique de KINÉSITHÉRAPIE est spécifiquement recommandée dans le cours ?",
-   "c": 31,
-   "options": [
-    {
-     "t": "Les exercices de McKenzie et la stabilisation lombaire dynamique",
-     "correct": true,
-     "j": "Vrai : les exercices de McKenzie en extension associés au renforcement stabilisateur dynamique du tronc sont la technique recommandée dans la hernie discale lombaire."
-    },
-    {
-     "t": "Les tractions vertébrales lombaires de forte intensité prolongées",
-     "j": "Faux : les tractions lourdes prolongées n'ont pas démontré d'efficacité et peuvent majorer la souffrance radiculaire."
-    },
-    {
-     "t": "Le renforcement isolé des fléchisseurs en flexion répétée du tronc",
-     "j": "Faux : la flexion répétée tend à majorer la migration discale postérieure ; on privilégie au contraire les postures en extension."
-    },
-    {
-     "t": "Le repos strict au lit suivi d'une reprise d'activité différée",
-     "j": "Faux : l'alitement prolongé est délétère ; la reprise précoce et progressive de l'activité est recommandée."
-    }
-   ]
-  },
+  {"q":"Concernant les hernies discales lombaires, quelle technique de KINÉSITHÉRAPIE est spécifiquement recommandée dans le cours ?","c":30,"options":[{"t":"Les exercices de McKenzie et la stabilisation lombaire dynamique","correct":true,"j":"Vrai : les exercices de McKenzie en extension associés au renforcement stabilisateur dynamique du tronc sont la technique recommandée dans la hernie discale lombaire."},{"t":"Les tractions vertébrales lombaires de forte intensité prolongées","j":"Faux : les tractions lourdes prolongées n'ont pas démontré d'efficacité et peuvent majorer la souffrance radiculaire."},{"t":"Le renforcement isolé des fléchisseurs en flexion répétée du tronc","j":"Faux : la flexion répétée tend à majorer la migration discale postérieure ; on privilégie au contraire les postures en extension."},{"t":"Le repos strict au lit suivi d'une reprise d'activité différée","j":"Faux : l'alitement prolongé est délétère ; la reprise précoce et progressive de l'activité est recommandée."}]},
   {
    "q": "Concernant la spondylolyse, quel aspect du « petit chien de Lachapelle » la caractérise classiquement en incidence oblique lombaire ?",
    "c": 31,
@@ -221786,75 +220224,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant le radiographie cervicale dynamique (cliches en flexion/extension), elle permet principalement d'evaluer :",
-   "c": 31,
-   "options": [
-    {
-     "t": "L'instabilité vertébrale segmentaire",
-     "correct": true,
-     "j": "Vrai : les clichés dynamiques en flexion/extension recherchent une instabilité intersegmentaire passée inaperçue en statique."
-    },
-    {
-     "t": "Le degré d'arthrose facettaire postérieure",
-     "j": "Faux : l'arthrose facettaire s'apprécie sur les clichés statiques ou la TDM, non par la mobilité dynamique."
-    },
-    {
-     "t": "L'angle de cyphose cervicale globale",
-     "j": "Faux : l'angle de cyphose se mesure sur un cliché de profil statique, pas par l'épreuve dynamique."
-    },
-    {
-     "t": "Le diamètre du canal rachidien cervical",
-     "j": "Faux : le diamètre canalaire est mieux apprécié par l'IRM ou la TDM que par la radio dynamique."
-    }
-   ]
-  },
-  {
-   "q": "Lors de l'évaluation d'une cervicalgie aiguë post-traumatique, quel examen complémentaire est INDIQUÉ en cas de suspicion de lésion neurologique ou lésion des tissus mous ?",
-   "c": 10,
-   "options": [
-    {
-     "t": "L'IRM cervicale",
-     "correct": true,
-     "j": "Vrai : l'IRM est l'examen de choix pour explorer la moelle, les disques et les ligaments en cas de suspicion neurologique ou ligamentaire."
-    },
-    {
-     "t": "La radiographie standard seule",
-     "j": "Faux : la radio simple ne permet pas d'analyser la moelle ou les tissus mous, insuffisante seule."
-    },
-    {
-     "t": "L'échographie cervicale",
-     "j": "Faux : l'échographie est inadaptée à l'exploration de la moelle et du rachis osseux."
-    },
-    {
-     "t": "La scintigraphie osseuse",
-     "j": "Faux : la scintigraphie est utile pour les pathologies osseuses subaiguës mais pas pour le bilan traumatique aigu médullaire."
-    }
-   ]
-  },
-  {
-   "q": "Concernant les voies sensitives ascendantes, le faisceau spino-thalamique véhicule :",
-   "c": 29,
-   "options": [
-    {
-     "t": "La douleur et la température, avec décussation précoce",
-     "correct": true,
-     "j": "Vrai : le faisceau spino-thalamique antéro-latéral véhicule douleur et température (et pression grossière), avec décussation dans la moelle peu après l'entrée."
-    },
-    {
-     "t": "La proprioception consciente et le tact épicritique",
-     "j": "Faux : la proprioception consciente et le tact fin empruntent les cordons postérieurs (Goll et Burdach), pas le spino-thalamique."
-    },
-    {
-     "t": "La motricité volontaire et le tonus",
-     "j": "Faux : la motricité volontaire emprunte le faisceau cortico-spinal (pyramidal), qui est une voie descendante, pas le spino-thalamique."
-    },
-    {
-     "t": "La proprioception inconsciente cérébelleuse",
-     "j": "Faux : la proprioception inconsciente destinée au cervelet passe par les faisceaux spino-cérébelleux, pas par le spino-thalamique."
-    }
-   ]
-  },
+  {"q":"Concernant le radiographie cervicale dynamique (cliches en flexion/extension), elle permet principalement d'evaluer :","c":[24,27],"options":[{"t":"L'instabilité vertébrale segmentaire","correct":true,"j":"Vrai : les clichés dynamiques en flexion/extension recherchent une instabilité intersegmentaire passée inaperçue en statique."},{"t":"Le degré d'arthrose facettaire postérieure","j":"Faux : l'arthrose facettaire s'apprécie sur les clichés statiques ou la TDM, non par la mobilité dynamique."},{"t":"L'angle de cyphose cervicale globale","j":"Faux : l'angle de cyphose se mesure sur un cliché de profil statique, pas par l'épreuve dynamique."},{"t":"Le diamètre du canal rachidien cervical","j":"Faux : le diamètre canalaire est mieux apprécié par l'IRM ou la TDM que par la radio dynamique."}]},
+  {"q":"Lors de l'évaluation d'une cervicalgie aiguë post-traumatique, quel examen complémentaire est INDIQUÉ en cas de suspicion de lésion neurologique ou lésion des tissus mous ?","c":25,"options":[{"t":"L'IRM cervicale","correct":true,"j":"Vrai : l'IRM est l'examen de choix pour explorer la moelle, les disques et les ligaments en cas de suspicion neurologique ou ligamentaire."},{"t":"La radiographie standard seule","j":"Faux : la radio simple ne permet pas d'analyser la moelle ou les tissus mous, insuffisante seule."},{"t":"L'échographie cervicale","j":"Faux : l'échographie est inadaptée à l'exploration de la moelle et du rachis osseux."},{"t":"La scintigraphie osseuse","j":"Faux : la scintigraphie est utile pour les pathologies osseuses subaiguës mais pas pour le bilan traumatique aigu médullaire."}]},
+  {"q":"Concernant les voies sensitives ascendantes, le faisceau spino-thalamique véhicule :","c":28,"options":[{"t":"La douleur et la température, avec décussation précoce","correct":true,"j":"Vrai : le faisceau spino-thalamique antéro-latéral véhicule douleur et température (et pression grossière), avec décussation dans la moelle peu après l'entrée."},{"t":"La proprioception consciente et le tact épicritique","j":"Faux : la proprioception consciente et le tact fin empruntent les cordons postérieurs (Goll et Burdach), pas le spino-thalamique."},{"t":"La motricité volontaire et le tonus","j":"Faux : la motricité volontaire emprunte le faisceau cortico-spinal (pyramidal), qui est une voie descendante, pas le spino-thalamique."},{"t":"La proprioception inconsciente cérébelleuse","j":"Faux : la proprioception inconsciente destinée au cervelet passe par les faisceaux spino-cérébelleux, pas par le spino-thalamique."}]},
   {
    "q": "Concernant la classification radiologique d'une fracture cervicale de Jefferson, quel signe AP transoral est évocateur ?",
    "c": 25,
@@ -221993,29 +220365,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Laquelle des affirmations suivantes est FAUSSE en ce qui concerne les différences entre la tomodensitométrie (TDM) et la radiographie conventionnelle ?",
-   "c": 9,
-   "options": [
-    {
-     "t": "La tomodensitométrie fournit des images en coupe détaillées, tandis que la radiographie conventionnelle produit des images bidimensionnelles plates.",
-     "j": "VRAIE. La TDM acquiert des coupes axiales reconstructibles en 2D/3D et supprime la superposition des structures, alors que la radiographie standard projette tout le volume traversé sur un plan unique, donnant une image 2D avec superposition des plans."
-    },
-    {
-     "t": "La radiographie conventionnelle utilise des rayonnements ionisants, tout comme la TDM, mais la TDM émet beaucoup moins de rayonnements.",
-     "correct": true,
-     "j": "FAUSSE. Les deux examens utilisent bien des rayons X ionisants, mais c'est l'inverse pour la dose : la TDM irradie BEAUCOUP PLUS qu'une radiographie standard (typiquement plusieurs dizaines à plusieurs centaines de fois la dose, selon la région explorée), car elle multiplie les acquisitions sur 360°. C'est l'affirmation fausse recherchée."
-    },
-    {
-     "t": "La tomodensitométrie est plus sensible pour détecter les lésions des tissus mous telles que les saignements, tandis que les rayons X sont plus efficaces pour évaluer les structures osseuses.",
-     "j": "VRAIE. Grâce à sa résolution en contraste très supérieure, la TDM différencie bien les tissus mous et détecte les hémorragies (ex. hématome, hémorragie intracrânienne), que la radiographie ne voit pas. La radiographie reste un examen rapide et performant de première intention pour l'analyse osseuse (fractures, alignement)."
-    },
-    {
-     "t": "La radiographie conventionnelle est généralement plus rapide et moins chère que la tomodensitométrie, mais offre une résolution plus faible dans les détails internes.",
-     "j": "VRAIE. La radiographie est plus rapide, plus accessible, moins coûteuse et moins irradiante, mais sa résolution en contraste est limitée et la superposition des structures masque les détails internes, là où la TDM offre une analyse fine en coupes."
-    }
-   ]
-  },
+  {"q":"Laquelle des affirmations suivantes est FAUSSE en ce qui concerne les différences entre la tomodensitométrie (TDM) et la radiographie conventionnelle ?","c":10,"options":[{"t":"La tomodensitométrie fournit des images en coupe détaillées, tandis que la radiographie conventionnelle produit des images bidimensionnelles plates.","j":"VRAIE. La TDM acquiert des coupes axiales reconstructibles en 2D/3D et supprime la superposition des structures, alors que la radiographie standard projette tout le volume traversé sur un plan unique, donnant une image 2D avec superposition des plans."},{"t":"La radiographie conventionnelle utilise des rayonnements ionisants, tout comme la TDM, mais la TDM émet beaucoup moins de rayonnements.","correct":true,"j":"FAUSSE. Les deux examens utilisent bien des rayons X ionisants, mais c'est l'inverse pour la dose : la TDM irradie BEAUCOUP PLUS qu'une radiographie standard (typiquement plusieurs dizaines à plusieurs centaines de fois la dose, selon la région explorée), car elle multiplie les acquisitions sur 360°. C'est l'affirmation fausse recherchée."},{"t":"La tomodensitométrie est plus sensible pour détecter les lésions des tissus mous telles que les saignements, tandis que les rayons X sont plus efficaces pour évaluer les structures osseuses.","j":"VRAIE. Grâce à sa résolution en contraste très supérieure, la TDM différencie bien les tissus mous et détecte les hémorragies (ex. hématome, hémorragie intracrânienne), que la radiographie ne voit pas. La radiographie reste un examen rapide et performant de première intention pour l'analyse osseuse (fractures, alignement)."},{"t":"La radiographie conventionnelle est généralement plus rapide et moins chère que la tomodensitométrie, mais offre une résolution plus faible dans les détails internes.","j":"VRAIE. La radiographie est plus rapide, plus accessible, moins coûteuse et moins irradiante, mais sa résolution en contraste est limitée et la superposition des structures masque les détails internes, là où la TDM offre une analyse fine en coupes."}]},
   {
    "q": "Dans l'approche chirurgicale, laquelle des approches suivantes n'utilise PAS une approche fermée avec vue caméra:",
    "c": 1,
@@ -222246,29 +220596,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'un des résultats radiologiques suivants n'est PAS typique chez le patient atteint d'arthrose, cochez-le:",
-   "c": 19,
-   "options": [
-    {
-     "t": "Ostéosclérose sous-chondrale et ostéophytes marginaux.",
-     "j": "Signes typiques: l'ostéosclérose sous-chondrale (condensation de l'os exposé par l'hyperpression) et les ostéophytes (néo-formation osseuse aux marges articulaires) figurent parmi les signes radiologiques cardinaux de l'arthrose."
-    },
-    {
-     "t": "Élargissement de l'interligne lié à la perte de cartilage.",
-     "correct": true,
-     "j": "FAUX et donc à cocher: la destruction du cartilage entraîne au contraire un PINCEMENT (diminution) de l'interligne articulaire. L'espace ne s'élargit jamais dans l'arthrose, il se réduit."
-    },
-    {
-     "t": "Géodes et kystes osseux sous-chondraux.",
-     "j": "Signe typique: les géodes/kystes sous-chondraux se forment dans les zones de plus forte pression, entourés de tissu fibreux et d'os néoformé; ils apparaissent dès la phase d'état."
-    },
-    {
-     "t": "Incongruité articulaire aux stades avancés.",
-     "j": "Signe typique: en phase de séquelles, on observe une déstructuration et une incongruité articulaire (perte de l'emboîtement normal), avec instabilités et tous les signes de l'arthrose réunis."
-    }
-   ]
-  },
+  {"q":"L'un des résultats radiologiques suivants n'est PAS typique chez le patient atteint d'arthrose, cochez-le:","c":18,"options":[{"t":"Ostéosclérose sous-chondrale et ostéophytes marginaux.","j":"Signes typiques: l'ostéosclérose sous-chondrale (condensation de l'os exposé par l'hyperpression) et les ostéophytes (néo-formation osseuse aux marges articulaires) figurent parmi les signes radiologiques cardinaux de l'arthrose."},{"t":"Élargissement de l'interligne lié à la perte de cartilage.","correct":true,"j":"FAUX et donc à cocher: la destruction du cartilage entraîne au contraire un PINCEMENT (diminution) de l'interligne articulaire. L'espace ne s'élargit jamais dans l'arthrose, il se réduit."},{"t":"Géodes et kystes osseux sous-chondraux.","j":"Signe typique: les géodes/kystes sous-chondraux se forment dans les zones de plus forte pression, entourés de tissu fibreux et d'os néoformé; ils apparaissent dès la phase d'état."},{"t":"Incongruité articulaire aux stades avancés.","j":"Signe typique: en phase de séquelles, on observe une déstructuration et une incongruité articulaire (perte de l'emboîtement normal), avec instabilités et tous les signes de l'arthrose réunis."}]},
   {
    "q": "Laquelle des affirmations suivantes est INCORRECTE concernant le cal de fracture?",
    "c": 14,
@@ -222292,29 +220620,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans une lésion musculaire due à un traumatisme indirect, il est important:",
-   "c": 21,
-   "options": [
-    {
-     "t": "Éviter l'échauffement et les étirements avant l'effort.",
-     "j": "Faux. La prévention des lésions musculaires par mécanisme indirect repose justement sur un bon échauffement ET des étirements avant l'effort. On ne cherche pas à les éviter, mais au contraire à bien les réaliser pour préparer le muscle."
-    },
-    {
-     "t": "Privilégier une immobilisation prolongée de plus de 14 jours.",
-     "j": "Faux. Pour le traitement général de la lésion par traumatisme indirect, l'immobilisation est courte (1 à 14 jours). Une immobilisation prolongée n'est réservée qu'aux ruptures partielles ou complètes et favorise l'atrophie de non-utilisation."
-    },
-    {
-     "t": "Reprendre l'activité sportive le plus tôt possible.",
-     "j": "Faux. La reprise du sport est progressive et conditionnée: on ne reprend l'activité qu'une fois récupéré environ 80 % de la force normale, et non dès que possible, sous peine de récidive."
-    },
-    {
-     "t": "Débuter précocement la physiothérapie de rééducation.",
-     "correct": true,
-     "j": "Vrai. Le traitement général associe une immobilisation courte (1-14 j) à une initiation précoce de la physiothérapie, qui guide la cicatrisation, limite l'atrophie et prépare la reprise progressive (sport à ≈ 80 % de la force)."
-    }
-   ]
-  },
+  {"q":"Dans une lésion musculaire due à un traumatisme indirect, il est important:","c":20,"options":[{"t":"Éviter l'échauffement et les étirements avant l'effort.","j":"Faux. La prévention des lésions musculaires par mécanisme indirect repose justement sur un bon échauffement ET des étirements avant l'effort. On ne cherche pas à les éviter, mais au contraire à bien les réaliser pour préparer le muscle."},{"t":"Privilégier une immobilisation prolongée de plus de 14 jours.","j":"Faux. Pour le traitement général de la lésion par traumatisme indirect, l'immobilisation est courte (1 à 14 jours). Une immobilisation prolongée n'est réservée qu'aux ruptures partielles ou complètes et favorise l'atrophie de non-utilisation."},{"t":"Reprendre l'activité sportive le plus tôt possible.","j":"Faux. La reprise du sport est progressive et conditionnée: on ne reprend l'activité qu'une fois récupéré environ 80 % de la force normale, et non dès que possible, sous peine de récidive."},{"t":"Débuter précocement la physiothérapie de rééducation.","correct":true,"j":"Vrai. Le traitement général associe une immobilisation courte (1-14 j) à une initiation précoce de la physiothérapie, qui guide la cicatrisation, limite l'atrophie et prépare la reprise progressive (sport à ≈ 80 % de la force)."}]},
   {
    "q": "Dans un syndrome des loges chronique, est INCORRECT:",
    "c": 23,
@@ -222453,29 +220759,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Laquelle des affirmations suivantes est vraie sur les différences entre les signes et les symptômes ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "Le symptôme est subjectif et rapporté par le patient, le signe est objectif et constaté par le clinicien.",
-     "correct": true,
-     "j": "Définition exacte. Le symptôme est subjectif : ressenti et rapporté par le patient (douleur, sensation d'instabilité). Le signe est objectif : constaté à l'examen ou mesuré par le clinicien (tuméfaction, déformation, limitation d'amplitude, craquement)."
-    },
-    {
-     "t": "Le signe est l'expérience subjective décrite par le patient, le symptôme est la donnée objective relevée par le clinicien.",
-     "j": "Faux : définitions inversées. Le subjectif rapporté par le patient correspond aux symptômes et l'objectif observé par le clinicien aux signes. Cette proposition intervertit exactement les deux termes."
-    },
-    {
-     "t": "Le syndrome est un signe isolé, tandis que le symptôme désigne un ensemble de plaintes regroupées.",
-     "j": "Faux : c'est l'inverse de la définition du syndrome. Le syndrome est un regroupement cohérent de signes ET de symptômes, et non un signe isolé ; le symptôme reste une plainte subjective unitaire rapportée par le patient."
-    },
-    {
-     "t": "Le signe fonctionnel et le signe physique désignent tous deux des données objectives mesurées par le clinicien.",
-     "j": "Faux : le signe fonctionnel correspond en réalité à un trouble ressenti et exprimé par le patient (donc subjectif, proche du symptôme), alors que seul le signe physique est objectif et relevé par le clinicien. Les ranger tous deux comme objectifs est inexact."
-    }
-   ]
-  },
+  {"q":"Laquelle des affirmations suivantes est vraie sur les différences entre les signes et les symptômes ?","c":1,"options":[{"t":"Le symptôme est subjectif et rapporté par le patient, le signe est objectif et constaté par le clinicien.","correct":true,"j":"Définition exacte. Le symptôme est subjectif : ressenti et rapporté par le patient (douleur, sensation d'instabilité). Le signe est objectif : constaté à l'examen ou mesuré par le clinicien (tuméfaction, déformation, limitation d'amplitude, craquement)."},{"t":"Le signe est l'expérience subjective décrite par le patient, le symptôme est la donnée objective relevée par le clinicien.","j":"Faux : définitions inversées. Le subjectif rapporté par le patient correspond aux symptômes et l'objectif observé par le clinicien aux signes. Cette proposition intervertit exactement les deux termes."},{"t":"Le syndrome est un signe isolé, tandis que le symptôme désigne un ensemble de plaintes regroupées.","j":"Faux : c'est l'inverse de la définition du syndrome. Le syndrome est un regroupement cohérent de signes ET de symptômes, et non un signe isolé ; le symptôme reste une plainte subjective unitaire rapportée par le patient."},{"t":"Le signe fonctionnel et le signe physique désignent tous deux des données objectives mesurées par le clinicien.","j":"Faux : le signe fonctionnel correspond en réalité à un trouble ressenti et exprimé par le patient (donc subjectif, proche du symptôme), alors que seul le signe physique est objectif et relevé par le clinicien. Les ranger tous deux comme objectifs est inexact."}]},
   {
    "q": "Laquelle des affirmations suivantes sur les cicatrices hypertrophiques et les chéloïdes est FAUSSE ?",
    "c": 4,
@@ -222683,29 +220967,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lequel des éléments suivants n'est PAS un symptôme typique de la septicémie ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Fièvre ou hypothermie",
-     "j": "Symptôme typique : la dérégulation thermique (fièvre > 38 °C OU hypothermie < 36 °C) est un critère classique du SIRS et un signe cardinal de la réponse infectieuse systémique."
-    },
-    {
-     "t": "Fréquence cardiaque élevée",
-     "j": "Symptôme typique : la tachycardie (> 90/min) est un critère du SIRS ; elle compense la chute de pression et l'hypoperfusion tissulaire liées à la vasodilatation septique."
-    },
-    {
-     "t": "Hypertension artérielle persistante",
-     "correct": true,
-     "j": "N'est PAS un symptôme du sepsis : la libération de médiateurs inflammatoires provoque vasodilatation et fuite capillaire, donc une HYPOtension (PAS < 90 mmHg), voire un choc septique réfractaire. L'inverse de ce que propose l'item."
-    },
-    {
-     "t": "Confusion ou altération de l'état mental",
-     "j": "Symptôme typique : l'altération de la vigilance (Glasgow < 15) est un critère du qSOFA, témoignant de l'hypoperfusion cérébrale et de la défaillance d'organe."
-    }
-   ]
-  },
+  {"q":"Lequel des éléments suivants n'est PAS un symptôme typique de la septicémie ?","c":6,"options":[{"t":"Fièvre ou hypothermie","j":"Symptôme typique : la dérégulation thermique (fièvre > 38 °C OU hypothermie < 36 °C) est un critère classique du SIRS et un signe cardinal de la réponse infectieuse systémique."},{"t":"Fréquence cardiaque élevée","j":"Symptôme typique : la tachycardie (> 90/min) est un critère du SIRS ; elle compense la chute de pression et l'hypoperfusion tissulaire liées à la vasodilatation septique."},{"t":"Hypertension artérielle persistante","correct":true,"j":"N'est PAS un symptôme du sepsis : la libération de médiateurs inflammatoires provoque vasodilatation et fuite capillaire, donc une HYPOtension (PAS < 90 mmHg), voire un choc septique réfractaire. L'inverse de ce que propose l'item."},{"t":"Confusion ou altération de l'état mental","j":"Symptôme typique : l'altération de la vigilance (Glasgow < 15) est un critère du qSOFA, témoignant de l'hypoperfusion cérébrale et de la défaillance d'organe."}]},
   {
    "q": "Laquelle des affirmations suivantes sur les types de résection dans les tumeurs osseuses est VRAIE ?",
    "c": 8,
@@ -229345,25 +227607,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'enfant complète la reconnaissance de son schéma corporel par une coordination main-pied-bouche, un élément que l'on peut observer à l'âge de :",
-   "c": 3,
-   "options": [
-    {
-     "t": "8 mois",
-     "correct": true,
-     "j": "La coordination main-pied-bouche, qui complète la reconnaissance du schéma corporel, s'observe vers 8 mois, une fois acquise la coordination œil-main-bouche-pied du 7e mois."
-    },
-    {
-     "t": "5 mois",
-     "j": "À 5 mois l'enfant attrape son pied (griffe sur le pied) mais n'a pas encore complété la coordination main-pied-bouche du schéma corporel."
-    },
-    {
-     "t": "11 mois",
-     "j": "À 11 mois l'enfant marche déjà latéralement : la reconnaissance du schéma corporel par main-pied-bouche est acquise bien avant."
-    }
-   ]
-  },
+  {"q":"L'enfant complète la reconnaissance de son schéma corporel par une coordination main-pied-bouche, un élément que l'on peut observer à l'âge de :","c":3,"options":[{"t":"8 mois","correct":true,"j":"T3 p.40 : « SEPTIÈME MOIS — ROQUING, REPTATION EN PHOQUE, COORDINATION ŒIL-MAIN-BOUCHE-PIED ». Le cours situe donc cette coordination au 7e mois ; parmi 5, 8 et 11 mois, c'est 8 mois qui en est le plus proche."},{"t":"5 mois","j":"À 5 mois l'enfant attrape son pied (griffe sur le pied) mais n'a pas encore complété la coordination main-pied-bouche du schéma corporel."},{"t":"11 mois","j":"À 11 mois l'enfant marche déjà latéralement : la reconnaissance du schéma corporel par main-pied-bouche est acquise bien avant."}]},
   {
    "q": "Comment différencier le schéma de l'escrimeur du réflexe tonique cervical asymétrique (RTCA) ?",
    "c": 4,
@@ -230013,25 +228257,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans le développement moteur idéal, quand l'enfant commence à s'orienter au niveau visuel, nous pouvons observer un changement de la posture corporel global, cette posture est nommée :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Reflexe cervical tonique asymétrique",
-     "correct": true,
-     "j": "Lors des premières orientations optiques, la posture globale prend la forme du réflexe tonique cervical asymétrique (schéma de l'escrimeur physiologique)."
-    },
-    {
-     "t": "Reflexe cervical tonique symétrique",
-     "j": "Le réflexe tonique symétrique du cou n'est pas la posture liée à l'orientation visuelle initiale du nourrisson."
-    },
-    {
-     "t": "Patron de l'escrimeur",
-     "j": "Le « patron de l'escrimeur » décrit l'aspect mais le terme attendu pour la posture est le réflexe cervical tonique asymétrique."
-    }
-   ]
-  },
+  {"q":"Dans le développement moteur idéal, quand l'enfant commence à s'orienter au niveau visuel, nous pouvons observer un changement de la posture corporel global, cette posture est nommée :","c":3,"options":[{"t":"Reflexe cervical tonique asymétrique","j":"T4 p.49 : le RTCA « n'appartient pas aux réflexes primitifs néonataux » et n'a pas été observé chez les nourrissons sains, mais chez ceux présentant des lésions neurologiques. Ce n'est donc pas la posture du développement idéal."},{"t":"Reflexe cervical tonique symétrique","j":"T4 p.50 : le réflexe tonique symétrique du cou répond à la flexion ou à l'extension passive de la tête, pas à une orientation visuelle latérale — et il est lui aussi pathologique."},{"t":"Patron de l'escrimeur","correct":true,"j":"T4 p.52 : les réflexes toniques « ne sont jamais observés chez le nouveau-né », et p.53 demande explicitement de distinguer le schéma de l'escrimeur du RTCA. La posture asymétrique du nourrisson sain qui s'oriente visuellement est donc le patron de l'escrimeur."}]},
   {
    "q": "A quel âge se produit pour la première fois l'appui symétrique du coude :",
    "c": 3,
@@ -230951,25 +229177,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel réflexe correspond à une posture induite par l'orientation visuelle chez le nouveau-né ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "RTCA",
-     "correct": true,
-     "j": "L'orientation visuelle entraîne une rotation de la tête qui structure une posture asymétrique du type réflexe tonique cervical asymétrique (membres en extension côté facial, flexion côté nucal)."
-    },
-    {
-     "t": "RTCS",
-     "j": "Le réflexe tonique cervical symétrique répond à la flexion/extension de la tête, pas à l'orientation visuelle latérale."
-    },
-    {
-     "t": "Escrimeur",
-     "j": "La position de l'escrimeur est l'expression physiologique liée au RTCA, mais le mécanisme réflexe sollicité par l'orientation est le RTCA."
-    }
-   ]
-  },
+  {"q":"Quelle posture globale observe-t-on chez le nouveau-né sain lorsqu'il s'oriente visuellement ?","c":4,"options":[{"t":"RTCA","j":"T4 p.49 et p.51 : le RTCA est décrit comme un automatisme pathologique, « jamais observé chez le nouveau-né » sain, et s'obtient par rotation PASSIVE de la tête."},{"t":"RTCS","j":"T4 p.50 : le réflexe tonique symétrique du cou répond à la flexion ou l'extension de la tête, pas à l'orientation visuelle latérale."},{"t":"Escrimeur","correct":true,"j":"T4 p.52-53 : les réflexes toniques ne sont jamais observés chez le nouveau-né, et le cours demande de distinguer le schéma de l'escrimeur du RTCA. C'est donc l'escrimeur qu'on observe quand le nourrisson sain tourne la tête pour s'orienter."}]},
   {
    "q": "À quel âge apparaît l'appui symétrique sur les coudes ?",
    "c": 3,
@@ -231180,7 +229388,7 @@ const QUESTIONS = {
     {"q":"Une luxation antérieure du genou survient lors d'une hyperextension forcée. Selon la gradation enseignée, à environ 50° d'hyperextension, quelle structure est lésée ?","c":7,"options":[{"t":"Artère poplitée (urgence vasculaire, risque d'amputation)","correct":true,"j":"Gradation : 10° → LCA ; 30° → LCP ; 50° → artère poplitée. Ischémie > 6 h = amputation. Réduction immédiate (même sans radio) et réparation vasculaire urgente."},{"t":"Ligament croisé postérieur isolé","j":"Le LCP est lésé à 30° d'hyperextension. À 50°, l'atteinte est plus grave (vasculaire), le LCP est déjà compromis."},{"t":"Ligament croisé antérieur isolé","j":"Le LCA est lésé dès 10° d'hyperextension. À 50°, la cible spécifique additionnelle est l'artère poplitée."},{"t":"Nerf fibulaire commun par étirement","j":"Le fibulaire commun est lésé dans les luxations postéro-latérales, pas dans la gradation classique par hyperextension simple."}]},
     {"q":"Un homme de 65 ans, après chute de sa hauteur, présente une fracture supra-condylienne du fémur déplacée. Sur la radio de profil, le fragment distal apparaît basculé. Quelle action musculaire explique ce déplacement ?","c":7,"options":[{"t":"Les gastrocnémiens tirent le fragment vers l'arrière en flexion","correct":true,"j":"Gastrocnémiens : tractent le fragment distal vers l'arrière et le bas (flexion). Quadriceps + ischios : tractent le fragment proximal vers le haut (raccourcissement)."},{"t":"Le quadriceps tire le fragment distal vers l'avant en hyperextension","j":"Le quadriceps tire le fragment PROXIMAL vers le haut, et n'agit pas en avant sur le fragment distal."},{"t":"Le tendon rotulien stabilise le fragment distal en extension pure","j":"Pas de stabilisation : au contraire, les gastrocnémiens flexionnent le fragment vers l'arrière."},{"t":"Aucun déplacement musculaire car la fracture est extra-articulaire","j":"Le déplacement musculaire est typique, indépendamment du caractère extra ou intra-articulaire."}]},
     {"q":"Un patient de 55 ans présente après chute une rupture du tendon QUADRICIPITAL. Comment va se déplacer la rotule à la radio ?","c":8,"options":[{"t":"Vers distal (la rotule descend par traction du tendon rotulien)","correct":true,"j":"Rupture du tendon quadricipital : plus rien ne tire la rotule vers le haut → tendon rotulien la tire vers le bas. Patella baja sur la radio."},{"t":"Vers proximal (la rotule monte par traction du quadriceps)","j":"Décrit la rupture du tendon ROTULIEN (et non quadricipital) : le quadriceps tire la rotule vers le haut (patella alta)."},{"t":"Latéralement (subluxation/luxation patellaire externe)","j":"Déplacement latéral = luxation fémoro-patellaire (instabilité), pas une rupture tendineuse pure."},{"t":"Aucun déplacement (la rotule reste centrée dans la trochlée)","j":"Faux : la rupture d'un des tendons (quadricipital ou rotulien) entraîne TOUJOURS un déplacement caractéristique de la rotule."}]},
-    {"q":"L'angle Q est typiquement augmenté chez la femme par rapport à l'homme. Quelle conséquence biomécanique en découle ?","c":8,"options":[{"t":"Traction latérale accrue sur la rotule, favorisant la luxation latérale","correct":true,"j":"Angle Q ≈ 17° chez la femme vs 15° chez l'homme. Plus l'angle est grand, plus la traction est latérale, et plus le risque de luxation fémoro-patellaire latérale augmente."},{"t":"Traction médiale accrue sur la rotule, favorisant la luxation médiale","j":"Inverse : l'angle Q tire vers le latéral, pas vers le médial. La luxation médiale est de plus très rare."},{"t":"Pas de conséquence biomécanique notable","j":"Faux : l'angle Q a une conséquence directe sur la trajectoire patellaire et l'instabilité."},{"t":"Amélioration de la course de la rotule dans la trochlée","j":"Au contraire : un angle Q élevé est un facteur de mauvaise course patellaire."}]},
+    {"q":"L'angle Q est typiquement augmenté chez la femme par rapport à l'homme. Quelle conséquence biomécanique en découle ?","c":8,"options":[{"t":"Traction latérale accrue sur la rotule, favorisant la luxation latérale","correct":true,"j":"PQRII 08 p.33 : l'angle Q vaut 15° ± 3° chez l'homme et 16° chez la femme. Plus l'angle est grand, plus la traction est latérale, et plus le risque de luxation fémoro-patellaire latérale augmente."},{"t":"Traction médiale accrue sur la rotule, favorisant la luxation médiale","j":"Inverse : l'angle Q tire vers le latéral, pas vers le médial. La luxation médiale est de plus très rare."},{"t":"Pas de conséquence biomécanique notable","j":"Faux : l'angle Q a une conséquence directe sur la trajectoire patellaire et l'instabilité."},{"t":"Amélioration de la course de la rotule dans la trochlée","j":"Au contraire : un angle Q élevé est un facteur de mauvaise course patellaire."}]},
     {"q":"Un motard de 24 ans, opéré pour fracture diaphysaire du tibia, présente 8 h après douleur intense disproportionnée et tension de la loge antérieure. À propos du syndrome des loges, cochez la FAUSSE :","c":9,"options":[{"t":"Une pression intra-musculaire < 20 mmHg confirme le diagnostic","correct":true,"j":"FAUSSE : le seuil enseigné est > 30 mmHg pour évoquer un syndrome des loges. Traitement urgent : fasciotomie des 4 compartiments."},{"t":"Urgence chirurgicale absolue par fasciotomie des 4 compartiments","j":"Vrai : fasciotomie en urgence pour éviter la nécrose musculaire et la rétraction de Volkmann séquellaire."},{"t":"Un retard > 6 h en cas d'ischémie peut conduire à l'amputation","j":"Vrai : ischémie > 6 h = amputation possible, identique à la luxation de genou avec atteinte poplitée."},{"t":"Peut s'accompagner d'une atteinte du nerf péronier commun adjacent","j":"Vrai : le nerf péronier commun (fibulaire) est vulnérable autour du col du péroné."}]},
     {"q":"Un patient présente une fracture diaphysaire fermée du tibia. Après réduction, quels critères de position acceptable autorisent un traitement conservateur par plâtre ?","c":9,"options":[{"t":"Raccourcissement < 1 cm, rotation < 5°, angulation sagittale < 10°","correct":true,"j":"Limites enseignées de tolérance : < 1 cm raccourcissement, < 5° rotation, < 5° valgus, < 10° angulation sagittale. Au-delà : indication chirurgicale (clou centro-médullaire)."},{"t":"Raccourcissement < 2 cm, rotation < 10°, angulation < 15°","j":"Trop large : ces seuils dépassent les limites enseignées et entraîneraient une consolidation vicieuse symptomatique."},{"t":"Raccourcissement < 5 mm, rotation 0°, angulation < 5°","j":"Trop strict : les seuils enseignés permettent une certaine tolérance (< 1 cm de raccourcissement, < 5° de rotation)."},{"t":"Critères différents : chirurgie systématique chez l'adulte sportif","j":"Faux : si la position est acceptable selon les seuils enseignés, le conservateur reste possible, même chez le sportif."}]},
     {"q":"Vous suspectez une rupture du LCA chez une joueuse de hand de 18 ans après pivot en charge. Quelle position pour réaliser le test de Lachman ?","c":10,"options":[{"t":"Genou à 30° de flexion, translation antérieure du tibia","correct":true,"j":"Lachman à 30° : le LCA est le principal stabilisateur de la translation antérieure du tibia à cette position. À 90°, la tension des ischios crée des faux négatifs."},{"t":"Genou à 90° de flexion, translation antérieure du tibia (tiroir)","j":"C'est le tiroir antérieur classique. Moins fiable que Lachman car les ischio-jambiers en tension à 90° créent des faux négatifs."},{"t":"Genou en extension complète, translation antérieure du tibia","j":"En extension, le tiroir antérieur teste plusieurs structures (capsule postérieure, LCA, ligaments collatéraux). Moins spécifique du LCA."},{"t":"Genou à 30° de flexion, valgus forcé en rotation interne","j":"Ce mouvement reproduit le mécanisme du pivot shift, pas le Lachman (qui est une translation pure antérieure)."}]},
@@ -231188,8 +229396,8 @@ const QUESTIONS = {
     {"q":"Un footballeur reçoit un tacle latéral genou en valgus + rotation externe, pied bloqué. Vous évoquez la triade d'O'Donoghue. Quelles trois lésions sont associées ?","c":10,"options":[{"t":"LCA + LCM + ménisque médial","correct":true,"j":"Triade d'O'Donoghue : LCA + LCM + ménisque médial. Mécanisme typique : valgus + rotation externe du tibia, pied bloqué (classique au football)."},{"t":"LCA + LCM + ménisque latéral","j":"Le ménisque latéral peut être lésé mais la triade classique d'O'Donoghue implique le ménisque MÉDIAL (du côté du LCM)."},{"t":"LCA + LCL + ménisque latéral","j":"Combinaison du côté LATÉRAL : possible dans d'autres mécanismes (varus) mais O'Donoghue est du côté MÉDIAL."},{"t":"LCP + LCM + ménisque médial","j":"La triade implique le LCA (pas LCP) : c'est la rotation externe + valgus qui rompt préférentiellement le LCA et le LCM."}]},
     {"q":"Un skieur de 30 ans présente une rupture isolée du LCP grade 2 par syndrome du tableau de bord. Concernant la cicatrisation comparée LCA/LCP, quelle proposition est correcte ?","c":10,"options":[{"t":"Le LCP cicatrise mieux que le LCA, immobilisation possible","correct":true,"j":"LCP : meilleur potentiel de cicatrisation que le LCA → conservateur possible en grade 1-2 avec attelle en extension. LCA : cicatrisation quasi-nulle, l'immobilisation est inutile."},{"t":"Le LCA cicatrise mieux car mieux vascularisé que le LCP","j":"Inverse : le LCA est intra-articulaire et peu vascularisé, cicatrisation très mauvaise (5-10 % vs > 50 % pour le LCP)."},{"t":"Les deux ligaments cicatrisent identiquement sans différence","j":"Faux : différence importante de potentiel cicatriciel (LCP > LCA), qui conditionne directement la prise en charge thérapeutique."},{"t":"Aucun des deux ne cicatrise, chirurgie systématique","j":"Faux pour le LCP en grade 1-2 (traitement conservateur efficace). La chirurgie est réservée aux grades 3 ou aux ruptures associées."}]},
     {"q":"Un jeune sportif de 22 ans présente une lésion méniscale traumatique. L'arthroscopie montre la zone exacte de la déchirure. Où la suture méniscale a-t-elle le meilleur pronostic ?","c":11,"options":[{"t":"Zone rouge-rouge (périphérie capsulaire, 0-3 mm du bord)","correct":true,"j":"Zone vascularisée par les vaisseaux capsulaires → cicatrisation excellente, suture privilégiée. Particulièrement chez le jeune sportif pour préserver le ménisque."},{"t":"Zone rouge-blanche (transition vasculaire, 3-5 mm du bord)","j":"Vascularisation partielle, cicatrisation incertaine. Suture possible mais résultats moins fiables qu'en zone rouge-rouge."},{"t":"Zone blanc-blanc (centrale avasculaire, > 5 mm du bord)","j":"Zone CENTRALE avasculaire, ne cicatrise pas → méniscectomie partielle est préférée à la suture (qui échouerait)."},{"t":"Zone de la corne postérieure du ménisque latéral","j":"Description anatomique régionale, pas une zone vasculaire. La classification rouge/blanc dépend de la DISTANCE au bord périphérique."}]},
-    {"q":"Vous réalisez un test de McMurray sur un patient suspect de lésion méniscale. Quelle correspondance rotation ↔ ménisque testé est correcte ?","c":11,"options":[{"t":"Rotation externe du pied → ménisque interne (médial)","correct":true,"j":"Astuce mnémonique : « le talon pointe le ménisque sain ». Rotation externe du pied → ménisque MÉDIAL testé. Rotation interne → ménisque LATÉRAL testé."},{"t":"Rotation externe du pied → ménisque externe (latéral)","j":"Inverse : la rotation externe du pied teste le ménisque MÉDIAL (le talon « pointe » le ménisque sain, le côté opposé est sollicité)."},{"t":"Rotation interne du pied → ménisque interne (médial)","j":"Inverse : la rotation interne du pied teste le ménisque LATÉRAL, pas le médial."},{"t":"La rotation du pied n'a aucune influence sur la sensibilité du test","j":"Faux : c'est précisément la rotation qui discrimine le ménisque testé. Sans rotation, le test perd sa spécificité."}]},
-    {"q":"Un homme de 55 ans consulte pour une tuméfaction du creux poplité, indolore, présente depuis 6 mois. Concernant ce kyste de Baker de l'adulte, quelle proposition est correcte ?","c":12,"options":[{"t":"Toujours secondaire à une lésion intra-articulaire associée","correct":true,"j":"Adulte : kyste de Baker SECONDAIRE à une augmentation de pression intra-articulaire (lésion méniscale, LCA, arthrose). Traitement : la cause sous-jacente. Ponction isolée → récidive."},{"t":"Idiopathique sans lésion sous-jacente, disparition en 1 an","j":"C'est la présentation typique chez l'ENFANT. Chez l'adulte, le kyste est SECONDAIRE à une pathologie intra-articulaire."},{"t":"Plus visible en flexion qu'en extension du genou en charge","j":"Inverse : l'EXTENSION augmente la pression intra-articulaire et rend le kyste plus apparent. La flexion le réduit (effet valve)."},{"t":"Localisation typique sur la face antérieure médiale du genou","j":"Faux : localisation POSTÉRIEURE classique, bourse entre gastrocnémien médial et semi-membraneux dans le creux poplité."}]},
+    {"q":"Vous réalisez un test de McMurray sur un patient suspect de lésion méniscale. Quelle correspondance rotation ↔ ménisque testé est correcte ?","c":11,"options":[{"t":"Rotation externe du pied → ménisque interne (médial)","correct":true,"j":"PQRII 11 p.8-11 : « douleur médiale avec rotation externe, douleur latérale avec rotation interne ». La rotation externe du pied met donc en contrainte le ménisque MÉDIAL, la rotation interne le ménisque LATÉRAL."},{"t":"Rotation externe du pied → ménisque externe (latéral)","j":"Inverse : d'après PQRII 11 p.8-11, la rotation externe du pied teste le ménisque MÉDIAL (« douleur médiale avec rotation externe »)."},{"t":"Rotation interne du pied → ménisque interne (médial)","j":"Inverse : la rotation interne du pied teste le ménisque LATÉRAL, pas le médial."},{"t":"La rotation du pied n'a aucune influence sur la sensibilité du test","j":"Faux : c'est précisément la rotation qui discrimine le ménisque testé. Sans rotation, le test perd sa spécificité."}]},
+    {"q":"Un homme de 55 ans consulte pour une tuméfaction du creux poplité, indolore, présente depuis 6 mois. Concernant ce kyste de Baker de l'adulte, quelle proposition est correcte ?","c":12,"options":[{"t":"Le plus souvent secondaire à une lésion intra-articulaire associée","correct":true,"j":"PQRII 12 p.7 : « Elle peut avoir une origine secondaire à des microtraumatismes articulaires (déchirure méniscale, gonarthrose…) ou pas ». Chez l'adulte la forme secondaire domine, et le traitement vise la cause : une ponction isolée récidive."},{"t":"Idiopathique sans lésion sous-jacente, disparition en 1 an","j":"C'est la présentation typique chez l'ENFANT. Chez l'adulte, le kyste est SECONDAIRE à une pathologie intra-articulaire."},{"t":"Plus visible en flexion qu'en extension du genou en charge","j":"Inverse : l'EXTENSION augmente la pression intra-articulaire et rend le kyste plus apparent. La flexion le réduit (effet valve)."},{"t":"Localisation typique sur la face antérieure médiale du genou","j":"Faux : localisation POSTÉRIEURE classique, bourse entre gastrocnémien médial et semi-membraneux dans le creux poplité."}]},
     {"q":"Un adolescent sportif de 14 ans présente des douleurs mécaniques du genou et des blocages intermittents. L'IRM révèle une lésion ostéochondrale. Concernant la localisation typique d'une ostéochondrite disséquante, quelle proposition est correcte ?","c":12,"options":[{"t":"Face latérale du condyle fémoral MÉDIAL (zone de Koenig)","correct":true,"j":"Localisation typique (~70 %) : zone de Koenig sur la face latérale du condyle MÉDIAL (zone de charge maximale). Ischémie de l'os sous-chondral, risque de fragment libre."},{"t":"Face médiale du condyle fémoral LATÉRAL","j":"Localisation minoritaire (~10 %). Le condyle MÉDIAL (face latérale) reste la zone la plus fréquente (zone de Koenig)."},{"t":"Plateau tibial postéro-médial","j":"Pas la localisation classique de l'ostéochondrite ; le plateau tibial est rarement atteint contrairement aux condyles fémoraux."},{"t":"Face postérieure de la rotule (cartilage rotulien)","j":"Pas la zone typique. L'ostéochondrite touche principalement l'os sous-chondral du condyle fémoral médial."}]},
     {"q":"Un coureur de fond de 35 ans consulte pour douleur latérale du genou à 5 km. Vous évoquez un syndrome de la bandelette ilio-tibiale. Quel facteur favorisant biomécanique est principal ?","c":12,"options":[{"t":"Faiblesse du moyen fessier avec valgus dynamique du genou","correct":true,"j":"Moyen fessier faible → adduction de hanche en charge → valgus dynamique du genou → mise en tension de la bandelette IT → conflit avec le condyle fémoral latéral."},{"t":"Genou varum statique constitutionnel sans atteinte musculaire","j":"Le valgus DYNAMIQUE (lors de la course) secondaire à la faiblesse fessière est le facteur principal, pas un varus statique constitutionnel."},{"t":"Supination excessive du pied lors de la phase d'appui","j":"Inverse : c'est la PRONATION excessive du pied qui favorise la mise en tension de la chaîne latérale, pas la supination."},{"t":"Hypertonie du tenseur du fascia lata sans déficit fessier","j":"La cause typique reste la FAIBLESSE du moyen fessier (avec compensation par le TFL). L'hypertonie isolée du TFL est moins fréquente comme cause primaire."}]},
     {"q":"Un footballeur de 13 ans consulte pour douleur antérieure de genou pendant le sport. Quelle correspondance pathologie ↔ localisation est correcte ?","c":13,"options":[{"t":"Osgood-Schlatter → tubérosité tibiale antérieure (TTA)","correct":true,"j":"Osgood-Schlatter : apophysite par traction du quadriceps sur la TUBÉROSITÉ TIBIALE. Sinding-Larsen-Johansson : apophysite par traction sur le PÔLE INFÉRIEUR de la rotule."},{"t":"Osgood-Schlatter → pôle inférieur de la rotule","j":"Localisation du Sinding-Larsen-Johansson (apophysite rotulienne inférieure), pas d'Osgood-Schlatter (TTA)."},{"t":"Sinding-Larsen-Johansson → tubérosité tibiale antérieure","j":"Localisation d'Osgood-Schlatter (TTA). Sinding-Larsen-Johansson est sur le pôle inférieur de la rotule."},{"t":"Osgood-Schlatter → pôle supérieur de la rotule par traction quadricipitale","j":"Localisation atypique : Osgood-Schlatter concerne l'insertion DISTALE du tendon rotulien sur la TTA, pas le pôle supérieur."}]},
@@ -231207,7 +229415,7 @@ const QUESTIONS = {
     {"q":"Un coureur de 38 ans consulte pour douleurs achilléennes basses, à 1 cm du calcanéum, aggravées par la course en montée. L'échographie confirme une tendinopathie d'insertion. Quelle est l'attitude correcte concernant le travail excentrique ?","c":18,"options":[{"t":"Tendinopathie d'insertion (à l'enthèse, proche du calcanéum)","correct":true,"j":"À l'insertion, l'excentrique comprime le tendon sur l'os : éviter la dorsiflexion forcée, surélever le talon, réduire les impacts."},{"t":"Tendinopathie corporéale (2 à 6 cm au-dessus de l'insertion)","j":"À ce niveau, le travail excentrique est au contraire la base du traitement (zone hypovasculaire dégénérée)."},{"t":"Toutes les tendinopathies achilléennes","j":"L'excentrique reste indiqué pour les formes corporéales ; il est contre-indiqué uniquement à l'enthèse."},{"t":"Aucune, l'excentrique est toujours utile","j":"Faux : la localisation conditionne l'indication de l'excentrique."}]},
     {"q":"Un cycliste de 22 ans chute sur l'épaule lors d'une course. La radio met en évidence un trait de fracture claviculaire avec ascension du fragment médial et abaissement du fragment latéral. Quel est le site lésionnel le plus probable et son explication ?","c":20,"options":[{"t":"Tiers moyen (80 %) — zone libre, sans renfort musculo-ligamentaire","correct":true,"j":"80 % des fractures sont au tiers moyen, à l'inflexion de la clavicule en S, zone non renforcée. Le fragment médial monte (SCOM), le latéral descend (poids de l'épaule)."},{"t":"Tiers latéral (60 %) — associé à une luxation acromio-claviculaire","j":"Le tiers latéral représente seulement environ 15 % des fractures."},{"t":"Tiers médial — proximité du sternum","j":"Localisation rare ; le tiers moyen est très majoritaire."},{"t":"Toutes les zones de la clavicule ont une fréquence équivalente","j":"Faux : la répartition est très inégale, avec une nette prédominance du tiers moyen."}]},
     {"q":"Une femme de 72 ans chute de sa hauteur et présente une fracture de l'humérus proximal. Vous appliquez la classification de Neer pour qualifier un fragment comme « déplacé ». Quels sont les critères exacts ?","c":20,"options":[{"t":"Plus de 1 cm de déplacement ou plus de 45° d'angulation","correct":true,"j":"Critères de Neer : > 1 cm de déplacement OU > 45° d'angulation. Le nombre de fragments déplacés détermine le sous-type de fracture (2, 3 ou 4 fragments)."},{"t":"Tous les fragments osseux comptent, qu'ils soient déplacés ou non","j":"Faux : seuls les fragments DÉPLACÉS (> 1 cm ou > 45°) comptent dans la classification de Neer."},{"t":"La classification de Neer ne prend pas en compte l'angulation","j":"Faux : l'angulation > 45° est précisément un critère explicite de la classification."},{"t":"Elle s'applique uniquement aux fractures de la diaphyse humérale","j":"Faux : la classification de Neer concerne l'humérus PROXIMAL, pas la diaphyse."}]},
-    {"q":"Une patiente de 72 ans présente après chute une fracture de l'humérus proximal. À J3, vous notez un hématome décrit comme « signe de Hennequin ». Où le localise-t-on ?","c":20,"options":[{"t":"Sur la face médiale du bras et de l'avant-bras","correct":true,"j":"Hématome de Hennequin : diffusion du sang du foyer de fracture humérale proximale le long des plans aponévrotiques jusqu'à la face médiale du bras et de l'avant-bras."},{"t":"Sur la face latérale du moignon de l'épaule","j":"Pas la localisation classique de Hennequin : la diffusion se fait par les plans aponévrotiques vers le médial."},{"t":"Strictement limité au creux axillaire seul","j":"L'hématome peut traverser l'aisselle mais s'étend surtout sur la face MÉDIALE du bras (signature de Hennequin)."},{"t":"Sur la face postérieure du bras, en regard du triceps","j":"Pas la localisation enseignée : Hennequin est antéro-médial, descendant le long des plans aponévrotiques médiaux."}]},
+    {"q":"Une patiente de 72 ans présente après chute une fracture de l'humérus proximal. À J3, vous notez un hématome décrit comme « signe de Hennequin ». Où le localise-t-on ?","c":20,"options":[{"t":"Sur la face médiale du bras et le côté du thorax","correct":true,"j":"PQRII 20 p.18 : « Hématome de Hennequin : côté médial du bras et côté du thorax ». Le sang du foyer de fracture diffuse le long des plans aponévrotiques médiaux."},{"t":"Sur la face latérale du moignon de l'épaule","j":"Pas la localisation classique de Hennequin : la diffusion se fait par les plans aponévrotiques vers le médial."},{"t":"Strictement limité au creux axillaire seul","j":"L'hématome dépasse le creux axillaire : PQRII 20 p.18 le décrit sur le côté médial du bras ET le côté du thorax."},{"t":"Sur la face postérieure du bras, en regard du triceps","j":"Pas la localisation enseignée : PQRII 20 p.18 décrit une diffusion médiale, vers le bras et le thorax."}]},
     {"q":"Un rugbyman de 26 ans présente une troisième luxation antérieure de l'épaule en 1 an. L'arthro-IRM met en évidence une lésion labrale antéro-inférieure. Concernant les lésions associées aux luxations gléno-humérales, quelle correspondance est correcte ?","c":21,"options":[{"t":"Bankart = lésion antéro-inférieure du labrum (3h-6h), très instable et récidivante","correct":true,"j":"Bankart : labrum antéro-inférieur, lésion typique des luxations antérieures, instabilité chronique et récidive fréquente."},{"t":"SLAP = lésion antéro-inférieure du labrum, équivalent du Bankart","j":"SLAP = Superior Labrum Anterior to Posterior, lésion supérieure du labrum (10h à 2h), souvent associée au tendon du long biceps."},{"t":"Hill-Sachs = lésion antéro-médiale de la tête humérale","j":"Hill-Sachs = empreinte POSTÉRO-LATÉRALE de la tête humérale (après luxation antérieure, choc contre la glène)."},{"t":"Toutes ces lésions surviennent uniquement lors des luxations postérieures","j":"Faux : la luxation antérieure est la plus fréquente et donne Bankart et Hill-Sachs typiquement."}]},
     {"q":"Aux urgences, un homme de 30 ans chute sur la main en abduction-rotation externe. Vous suspectez une luxation gléno-humérale. Quelle est la direction la plus fréquente et son mécanisme typique ?","c":21,"options":[{"t":"Antérieure ; FOOSH avec abduction + rotation externe","correct":true,"j":"La luxation antérieure est de loin la plus fréquente. Mécanisme : chute bras tendu (FOOSH) en abduction + rotation externe."},{"t":"Postérieure ; chute en adduction + rotation interne","j":"La luxation postérieure existe (notamment après crise d'épilepsie) mais elle est beaucoup moins fréquente. Pas de déformation évidente."},{"t":"Inférieure ; bras en abduction maximale","j":"Rare. La luxation inférieure (« luxatio erecta ») est exceptionnelle."},{"t":"Supérieure ; charge axiale","j":"Direction rare en pratique ; l'antérieure reste la première."}]},
     {"q":"Un jeune sportif de 23 ans subit une luxation antérieure d'épaule après chute en abduction-rotation externe. Sur la radio post-réduction, on cherche une lésion osseuse caractéristique. Cochez la bonne réponse :","c":21,"options":[{"t":"Empreinte postéro-latérale de la tête humérale (Hill-Sachs)","correct":true,"j":"Hill-Sachs : impaction de la zone postéro-latérale de la tête humérale contre le rebord antérieur de la glène lors de la luxation antérieure. Lésion radiographique caractéristique."},{"t":"Empreinte antéro-médiale de la tête humérale par contact glénoïdien","j":"Localisation incorrecte : c'est la zone POSTÉRO-LATÉRALE de la tête qui s'impacte contre la glène antérieure (Hill-Sachs)."},{"t":"Fracture du rebord postéro-supérieur de la glène (Bankart osseux)","j":"Bankart osseux concerne le rebord ANTÉRO-INFÉRIEUR de la glène, pas le postéro-supérieur."},{"t":"Fracture parcellaire du tubercule mineur par traction du sous-scapulaire","j":"Le mineur est moins fréquemment fracturé. C'est le tubercule majeur qui peut s'arracher, mais Hill-Sachs reste la lésion caractéristique."}]},
@@ -231228,7 +229436,7 @@ const QUESTIONS = {
     {"q":"Une femme de 65 ans chute sur la main en extension (FOOSH) et présente une fracture isolée du radius distal sans atteinte ulnaire. Quelle proportion des contraintes carpe → avant-bras est transmise physiologiquement par le radius distal ?","c":28,"options":[{"t":"Environ 80 %","correct":true,"j":"Radius distal = 80 % des contraintes. L'ulna participe à 20 % via le TFCC. Cela explique la fragilité particulière du radius distal en cas de FOOSH."},{"t":"Environ 50 %","j":"Sous-estime nettement la part du radius ; c'est ~80 %."},{"t":"Environ 20 %","j":"C'est la part de l'ulna via le TFCC, pas du radius."},{"t":"100 %, l'ulna n'intervient pas","j":"Faux : l'ulna participe environ à 20 % via le TFCC."}]},
     {"q":"Aux urgences, vous voyez une dame de 70 ans qui présente après une chute une déformation typique en « dos de fourchette » du poignet. Concernant les fractures du radius distal, quelle correspondance type ↔ mécanisme est correcte ?","c":29,"options":[{"t":"Colles : chute main en EXTENSION, fragment vers le dos (dos de fourchette)","correct":true,"j":"Colles = la plus fréquente, FOOSH main en extension, déplacement dorsal du fragment, déformation typique en dos de fourchette."},{"t":"Smith : chute main en EXTENSION","j":"Smith = chute main en FLEXION (et non extension), déplacement palmaire (ventre de fourchette)."},{"t":"Barton : fracture extra-articulaire sans subluxation du carpe","j":"Barton = fracture INTRA-articulaire avec subluxation du carpe (palmaire ou dorsale)."},{"t":"Colles : déplacement palmaire avec déformation en ventre de fourchette","j":"Inversé : Colles → déplacement DORSAL, Smith → déplacement PALMAIRE."}]},
     {"q":"Une femme de 60 ans présente une fracture de Pouteau-Colles. Après réduction au déchocage, quels critères radiologiques permettent un traitement conservateur par plâtre ?","c":29,"options":[{"t":"Angulation dorsale < 20°, raccourcissement radial < 1 cm","correct":true,"j":"Critères de stabilité enseignés : angulation dorsale < 20°, raccourcissement radial < 1 cm, pas de fragmentation dorsale importante. Au-delà : ORIF nécessaire."},{"t":"Angulation dorsale < 5°, raccourcissement < 1 mm strictement","j":"Trop strict : ces seuils sont quasi-anatomiques. Le conservateur tolère une certaine déformation résiduelle (< 20° et < 1 cm)."},{"t":"Angulation dorsale < 45°, raccourcissement < 3 cm tolérés","j":"Trop large : entraîne une consolidation vicieuse symptomatique (déformation en dos de fourchette résiduelle, perte de fonction)."},{"t":"Aucun critère, indication chirurgicale d'emblée pour Pouteau-Colles","j":"Faux : la stabilité après réduction guide précisément le choix entre plâtre conservateur et ORIF."}]},
-    {"q":"Un jeune homme de 24 ans chute en avant sur la main, douleur à la tabatière anatomique. Pourquoi une fracture du pôle proximal du scaphoïde est-elle particulièrement à risque de nécrose ?","c":30,"options":[{"t":"Vascularisation rétrograde, le pôle proximal est dévascularisé","correct":true,"j":"Scaphoïde : vascularisation rétrograde (distal → proximal). Une fracture haute dévascularise le pôle proximal → nécrose et pseudarthrose. Pseudarthrose en 5-10 %."},{"t":"Vascularisation rétrograde, le pôle distal est dévascularisé","j":"Inverse : la vascularisation venant du pôle distal, c'est le pôle PROXIMAL qui est dévascularisé en cas de fracture."},{"t":"Vascularisation antérograde fragile, facilement compromise","j":"La vascularisation est RÉTROGRADE (vient du distal), pas antérograde. C'est précisément cette particularité qui le fragilise."},{"t":"Vascularisation centrale par l'artère scapho-lunaire unique","j":"Cette artère n'existe pas comme décrite. La vascularisation scaphoïdienne vient principalement de l'artère radiale via le pôle distal."}]},
+    {"q":"Un jeune homme de 24 ans chute en avant sur la main, douleur à la tabatière anatomique. Pourquoi une fracture du pôle proximal du scaphoïde est-elle particulièrement à risque de nécrose ?","c":30,"options":[{"t":"Vascularisation rétrograde, le pôle proximal est dévascularisé","correct":true,"j":"Scaphoïde : vascularisation rétrograde (distal → proximal). Une fracture haute dévascularise le pôle proximal → nécrose et pseudarthrose. PQRII 30 : pseudarthrose dans 13 % des fractures non traitées."},{"t":"Vascularisation rétrograde, le pôle distal est dévascularisé","j":"Inverse : la vascularisation venant du pôle distal, c'est le pôle PROXIMAL qui est dévascularisé en cas de fracture."},{"t":"Vascularisation antérograde fragile, facilement compromise","j":"La vascularisation est RÉTROGRADE (vient du distal), pas antérograde. C'est précisément cette particularité qui le fragilise."},{"t":"Vascularisation centrale par l'artère scapho-lunaire unique","j":"Cette artère n'existe pas comme décrite. La vascularisation scaphoïdienne vient principalement de l'artère radiale via le pôle distal."}]},
     {"q":"Un homme de 32 ans consulte 1 mois après une chute pour douleur radiale du poignet. La radio de face montre un écartement anormal entre deux os du carpe. Concernant les dissociations carpiennes, laquelle est la plus fréquente et avec quel signe radiologique ?","c":30,"options":[{"t":"Scapho-lunaire ; signe de Terry-Thomas (écartement des os)","correct":true,"j":"Dissociation scapho-lunaire = la plus fréquente. DISI (Dorsal Intercalated Segment Instability) : scaphoïde antérieur, lunatum postérieur. Radiologie : Terry-Thomas."},{"t":"Luno-triquétrale ; signe de Terry-Thomas","j":"Luno-triquétrale = VISI (Volar Intercalated Segment Instability), pas Terry-Thomas."},{"t":"Scapho-trapézienne ; pas de signe radiologique","j":"Pas la dissociation classique enseignée."},{"t":"Triquetro-hamatum ; toujours stable","j":"Pas la dissociation principale ; et toute dissociation est synonyme d'instabilité."}]},
     {"q":"Un volleyeur de 22 ans reçoit le ballon en bout de doigt. Il présente une impossibilité d'étendre l'IPD du 4e doigt, qui reste fléchie au repos. Marquez la description correcte du mallet finger :","c":31,"options":[{"t":"Avulsion du tendon extenseur distal sur P3, IPD en flexion fixée","correct":true,"j":"Mallet finger : avulsion de l'extenseur distal sur P3 par hyperflexion forcée (ballon sur doigt tendu). IPD en flexion fixe, extension active impossible. Attelle de Stack 6 semaines en extension."},{"t":"Avulsion du tendon extenseur central sur P2, IPP en flexion fixée","j":"Description évoquant la rupture de la bandelette centrale (déformation en boutonnière : IPP fléchie + IPD étendue), pas le mallet finger qui touche la P3."},{"t":"Avulsion du tendon extenseur sur P3 par traction du fléchisseur profond","j":"Mécanisme inversé : le mallet finger résulte d'une HYPERFLEXION forcée (ballon), pas d'une traction du fléchisseur."},{"t":"Lésion de la plaque palmaire de l'IPD par hyperextension forcée","j":"La plaque palmaire se lèse en HYPEREXTENSION et donne une instabilité en extension, pas une IPD fléchie en permanence."}]},
     {"q":"Un skieur de 35 ans chute, bâton accroché dans la neige, avec déviation radiale forcée du pouce. Douleur et laxité à la MCP du pouce. Quelle complication redoutée doit-on rechercher ?","c":31,"options":[{"t":"Lésion de Stener avec interposition de l'aponévrose de l'adducteur","correct":true,"j":"Stener : l'extrémité du ligament collatéral ulnaire rompu passe au-dessus de l'aponévrose de l'adducteur du pouce, empêchant la cicatrisation. Indication chirurgicale impérative."},{"t":"Avulsion osseuse de la phalange proximale par traction ligamentaire","j":"Possible (5-20 % des cas) mais ce n'est pas la complication SPÉCIFIQUE redoutée ; l'avulsion sans déplacement cicatrise au plâtre."},{"t":"Rupture associée du collatéral radial avec instabilité bipolaire","j":"Très rare car le mécanisme est en déviation RADIALE, qui tend le collatéral ULNAIRE (et non le radial). Pas la complication classique."},{"t":"Subluxation de la métacarpo-phalangienne avec luxation chronique","j":"Peut survenir mais c'est plutôt une conséquence d'une lésion de Stener négligée, pas la complication primaire à rechercher."}]},
@@ -231251,7 +229459,7 @@ const QUESTIONS = {
     {"q":"Aux urgences, vous évaluez la stabilité d'une fracture pelvienne par un test de compression-distraction. Que cherchez-vous précisément ?","c":2,"options":[{"t":"Une instabilité mécanique de l'anneau pelvien","correct":true,"j":"Compression latérale et distraction des iliaques (geste prudent) : recherche d'une mobilité anormale ou d'une douleur évoquant une rupture de l'anneau. Stabilité = type A."},{"t":"Une atteinte sensitive du dermatome S1 par compression nerveuse","j":"L'atteinte neurologique S1 s'évalue par les réflexes et la sensibilité plantaire, pas par mobilisation des iliaques."},{"t":"Une rupture vésicale par mobilisation hémorragique","j":"La rupture vésicale s'évalue par cystographie rétrograde, pas par mobilisation pelvienne (qui aggraverait la situation)."},{"t":"Une fracture sacrée occulte invisible à la radiographie","j":"Une fracture sacrée se diagnostique au scanner, pas par mobilisation clinique (test peu sensible et risqué)."}]},
     {"q":"Un homme de 32 ans, passager d'un véhicule percuté à l'avant, présente une luxation postérieure de hanche associée à une fracture. Vous utilisez la classification Thompson-Epstein. Cochez la MAUVAISE proposition :","c":2,"options":[{"t":"Le type 1 correspond à une luxation avec fracture de la tête fémorale","correct":true,"j":"FAUSSE : le type 1 = luxation SANS fracture associée (la plus simple). Le type 5 = luxation + fracture de la tête fémorale (la plus grave, risque maximal de nécrose)."},{"t":"Les types 2 à 4 associent une fracture acétabulaire de gravité croissante","j":"Vrai : gravité croissante de l'atteinte acétabulaire entre les types 2, 3 et 4."},{"t":"Le type 5 inclut une fracture de la tête fémorale, forme la plus grave","j":"Vrai : forme la plus grave (Pipkin-like) avec risque maximal de nécrose avasculaire post-réduction."},{"t":"La réduction est une urgence à réaliser avant 6 heures","j":"Vrai : réduction sous 6 h pour limiter le risque de nécrose avasculaire de la tête fémorale."}]},
     {"q":"Aux urgences, un homme de 40 ans présente une luxation postérieure de hanche après AVP. Vous évoquez le risque neurologique et le délai de réduction. Cochez la MAUVAISE réponse :","c":2,"options":[{"t":"Elle est beaucoup plus fréquente que la luxation antérieure","correct":false,"j":"Vrai : luxation postérieure ~90 % des cas (mécanisme tableau de bord). L'antérieure est plus rare."},{"t":"Le membre est typiquement raccourci, en adduction et rotation interne","j":"Vrai : position du « baigneur surpris » (adduction + RI + raccourcissement + flexion)."},{"t":"Elle est associée à un risque d'atteinte du nerf sciatique adjacent","j":"Vrai : le nerf sciatique est juste en arrière de l'articulation et peut être étiré ou comprimé."},{"t":"La réduction n'est pas urgente et peut être différée à 48 h","correct":true,"j":"FAUSSE : c'est une URGENCE. Réduction sous 6 h pour limiter le risque de nécrose avasculaire de la tête fémorale."}]},
-    {"q":"Trois ans après une luxation postérieure de hanche traumatique, un patient de 38 ans consulte pour douleur inguinale progressive. Quelle complication évoquez-vous en priorité ?","c":2,"options":[{"t":"Coxarthrose post-traumatique (~1/3 des patients à 5 ans)","correct":true,"j":"Coxarthrose : complication à long terme classique (environ 1/3 des cas). Autres complications : nécrose avasculaire (précoce, jusqu'à 20 %), ossifications hétérotopiques."},{"t":"Conflit fémoro-acétabulaire post-traumatique de type CAM","j":"Cause possible de douleur inguinale du sportif jeune, mais peu probable comme séquelle de luxation traumatique (où la coxarthrose domine)."},{"t":"Dysplasie de hanche secondaire à la luxation initiale","j":"La dysplasie est congénitale ou de l'enfance, pas une séquelle acquise post-traumatique chez l'adulte."},{"t":"Maladie de Perthes adulte sur antécédent traumatique","j":"Perthes est une pathologie pédiatrique idiopathique (3-7 ans). N'existe pas comme entité post-traumatique adulte."}]},
+    {"q":"Trois ans après une luxation postérieure de hanche traumatique, un patient de 38 ans consulte pour douleur inguinale progressive. Quelle complication évoquez-vous en priorité ?","c":2,"options":[{"t":"Coxarthrose post-traumatique (~1/3 des patients à 5 ans)","correct":true,"j":"Coxarthrose : complication à long terme classique (environ 1/3 des cas). Autres complications selon PQRII 02 p.31 : nécrose avasculaire 10-40 %, ossifications hétérotopiques."},{"t":"Conflit fémoro-acétabulaire post-traumatique de type CAM","j":"Cause possible de douleur inguinale du sportif jeune, mais peu probable comme séquelle de luxation traumatique (où la coxarthrose domine)."},{"t":"Dysplasie de hanche secondaire à la luxation initiale","j":"La dysplasie est congénitale ou de l'enfance, pas une séquelle acquise post-traumatique chez l'adulte."},{"t":"Maladie de Perthes adulte sur antécédent traumatique","j":"Perthes est une pathologie pédiatrique idiopathique (3-7 ans). N'existe pas comme entité post-traumatique adulte."}]},
     {"q":"Un patient de 35 ans est opéré d'une fracture acétabulaire par ostéosynthèse. À quel délai post-opératoire autorisez-vous l'appui complet ?","c":2,"options":[{"t":"Vers la 12e semaine (3 mois), après appui partiel entre 6 et 12 semaines","correct":true,"j":"Protocole : 0-6 semaines décharge totale, 6-12 semaines appui partiel avec béquilles, > 12 semaines (3 mois) appui total selon consolidation radiographique."},{"t":"Dès la 2e semaine post-opératoire avec une canne unilatérale","j":"Trop précoce : la consolidation osseuse articulaire n'est pas atteinte, risque de déplacement secondaire majeur."},{"t":"À la 6e semaine en appui complet sans aide technique","j":"À 6 semaines on autorise un appui PARTIEL (béquilles), pas un appui complet. Charge progressive à partir de cette date."},{"t":"Pas avant 6 mois pour garantir une consolidation osseuse parfaite","j":"Trop tardif : l'appui total est autorisé vers 3 mois si la consolidation est satisfaisante (radio de contrôle)."}]},
     {"q":"Une femme de 84 ans présente une fracture du col fémoral après chute. Concernant la mortalité à 1 an, quelle estimation est enseignée ?","c":3,"options":[{"t":"Environ 50 % de mortalité dans l'année qui suit","correct":true,"j":"Donnée enseignée : ~50 % à 1 an. Événement de décompensation globale (TVP, EP, pneumonie, escarres, perte d'autonomie). Pronostic vital engagé."},{"t":"Environ 20 % de mortalité dans l'année qui suit","j":"Sous-estimé. Bien que le chiffre exact varie selon les études et la prise en charge, les données enseignées retiennent ~50 %."},{"t":"Mortalité inférieure à 5 % grâce à la chirurgie moderne","j":"Largement sous-estimé. La chirurgie réduit la mortalité par rapport au conservateur mais le terrain reste fragile (~50 %)."},{"t":"Mortalité quasi nulle après prise en charge ortho-gériatrique","j":"Faux : même avec une prise en charge optimale (filière fast-track), la mortalité reste très élevée chez le sujet > 80 ans."}]},
     {"q":"Une dame de 82 ans ostéoporotique présente une fracture de l'extrémité proximale du fémur. Quel mécanisme est typiquement en cause ?","c":3,"options":[{"t":"Chute simple de sa hauteur avec impact sur le grand trochanter","correct":true,"j":"Chez la personne âgée ostéoporotique, chute de sa hauteur (basse énergie) avec impact direct sur le grand trochanter. Parfois fracture sans chute évidente (insuffisance osseuse pure)."},{"t":"Chute sur la main, bras tendu (FOOSH)","j":"FOOSH = mécanisme typique des fractures du RADIUS DISTAL (Pouteau-Colles) et du scaphoïde, pas du fémur proximal."},{"t":"Traumatisme à très haute énergie (accident de la voie publique)","j":"Typique chez le sujet JEUNE. Chez la personne âgée ostéoporotique, une chute de hauteur simple suffit."},{"t":"Avulsion par contraction violente du psoas-iliaque","j":"Mécanisme d'avulsion du petit trochanter chez l'adolescent sportif, pas une fracture du col chez la personne âgée."}]},
@@ -231305,8 +229513,8 @@ const QUESTIONS = {
     {"q":"Un patient de 30 ans présente une rupture isolée du LCP grade 2 par syndrome du tableau de bord, traitée orthopédiquement. À J10, quel groupe musculaire ne doit PAS être renforcé en phase précoce ?","c":10,"options":[{"t":"Les ischio-jambiers, qui tirent le tibia vers l'arrière","correct":true,"j":"Le LCP empêche la translation postérieure du tibia. Les ischios la favorisent → à éviter en aigu. À l'inverse, on renforce le quadriceps qui tire le tibia vers l'avant."},{"t":"Le quadriceps, qui aggrave la translation postérieure du tibia","j":"Inverse : le quadriceps tire le tibia vers l'AVANT, donc il protège le LCP (à renforcer)."},{"t":"Le triceps sural, sollicité lors de la flexion plantaire","j":"Pas spécifiquement contre-indiqué : son rôle sur le LCP est mineur."},{"t":"Le moyen fessier, par son contrôle du valgus dynamique","j":"Sans rapport direct avec la translation postérieure du tibia ; à renforcer si déficitaire."}]},
     {"q":"Aux urgences, vous examinez un patient de 25 ans qui présente un genou gonflé 2 h après pivot en charge. Quel signe clinique met en évidence un épanchement articulaire important du genou ?","c":10,"options":[{"t":"Signe du flot rotulien avec choc rotulien à la palpation","correct":true,"j":"Flot/choc rotulien : décubitus dorsal, on ramène le liquide vers le genou et on appuie la rotule. Si elle tape contre le fémur puis se redécolle → positif."},{"t":"Signe d'Apley en compression et rotation décubitus ventral","j":"Test méniscal (compression + rotation, patient sur le ventre), pas un test d'épanchement."},{"t":"Signe de Thompson par compression du mollet en pronation","j":"Évalue la rupture du tendon d'Achille, sans rapport avec un épanchement de genou."},{"t":"Signe de Lasègue par élévation passive du membre tendu","j":"Évalue une radiculopathie L5-S1, sans rapport avec un épanchement articulaire de genou."}]},
     {"q":"Un footballeur reçoit un choc sur la face antéro-médiale du genou, jambe en extension. Vous suspectez une lésion de l'angle postéro-latéral. Quel mécanisme est typique ?","c":10,"options":[{"t":"Extension + valgus + rotation externe du tibia","correct":true,"j":"Mécanisme classique de l'angle postéro-latéral. L'angle PL stabilise contre varus, rotation externe tibiale et tiroir postéro-latéral. Souvent associé au LCP."},{"t":"Extension + varus + rotation interne du tibia","j":"Mécanisme moins typique : le varus testerait plutôt l'angle postéro-latéral en charge mais le mécanisme déclenchant inclut le VALGUS."},{"t":"Flexion + valgus + rotation externe du tibia","j":"Mécanisme évoquant la triade d'O'Donoghue (LCA + LCM + ménisque médial), pas spécifiquement l'angle postéro-latéral."},{"t":"Flexion + adduction + rotation interne (tableau de bord)","j":"Mécanisme évoquant le LCP (choc antéro-postérieur sur tibia, genou fléchi), pas l'angle postéro-latéral."}]},
-    {"q":"Un footballeur de 22 ans présente après un tacle direct une instabilité en valgus grade 3 du genou avec laxité à 30° de flexion. L'IRM confirme une rupture complète du LCM isolée. Quelle est la prise en charge de référence ?","c":10,"options":[{"t":"Orthèse articulée 6 semaines, appui progressif, mobilisation précoce","correct":true,"j":"Le LCM a une bonne capacité de cicatrisation : traitement conservateur même en grade 3, avec orthèse articulée et mobilisation précoce. À l'inverse du LCL grade 3 (chirurgical)."},{"t":"Reconstruction chirurgicale par greffe tendineuse systématique","j":"Faux pour le LCM (cicatrisation conservatrice excellente). Vrai pour le LCL grade 3 souvent chirurgical."},{"t":"Immobilisation stricte plâtrée pendant 3 mois sans appui","j":"Trop long et trop strict : risque de raideur et d'amyotrophie majeur."},{"t":"Reprise immédiate des activités sportives sans aucune protection","j":"Insuffisant en grade 3 : sans orthèse, le risque de récidive et d'instabilité chronique est élevé."}]},
-    {"q":"Un patient de 45 ans présente une méniscectomie totale. Vous lui expliquez l'impact biomécanique sur la transmission des charges. Quel pourcentage des charges en EXTENSION du genou passe physiologiquement par les ménisques ?","c":11,"options":[{"t":"Environ 50 %","correct":true,"j":"Extension : 50 % via les ménisques, 50 % directement fémur-plateau tibial. Flexion : 90 % via les ménisques (sollicitation maximale en flexion)."},{"t":"Environ 10 %","j":"Sous-estime largement le rôle méniscal en extension."},{"t":"Environ 90 %","j":"C'est la répartition en FLEXION, pas en extension."},{"t":"0 %, le contact est direct sans charge méniscale","j":"Faux : les ménisques participent toujours à la transmission des charges."}]},
+    {"q":"Un footballeur de 22 ans présente après un tacle direct une instabilité en valgus grade 3 du genou avec laxité à 30° de flexion. L'IRM confirme une rupture complète du LCM isolée. Quelle est la prise en charge de référence ?","c":10,"options":[{"t":"Orthèse articulée 3-4 mois, appui progressif, mobilisation précoce","correct":true,"j":"PQRII 10 p.17 : « Catégorie III → Orthèse articulée (3-4 mois) + Chargement progressif + exercices ROM précoces ». Le LCM cicatrise bien : conservateur même en grade 3, à l'inverse du LCL grade 3 souvent chirurgical."},{"t":"Reconstruction chirurgicale par greffe tendineuse systématique","j":"Faux pour le LCM (cicatrisation conservatrice excellente). Vrai pour le LCL grade 3 souvent chirurgical."},{"t":"Immobilisation stricte plâtrée pendant 3 mois sans appui","j":"Trop strict : le cours prescrit une orthèse ARTICULÉE avec appui progressif et mobilisation précoce, pas un plâtre sans appui — risque de raideur et d'amyotrophie."},{"t":"Reprise immédiate des activités sportives sans aucune protection","j":"Insuffisant en grade 3 : sans orthèse, le risque de récidive et d'instabilité chronique est élevé."}]},
+    {"q":"Un patient de 45 ans présente une méniscectomie totale. Vous lui expliquez l'impact biomécanique sur la transmission des charges. Quel pourcentage des charges en EXTENSION du genou passe physiologiquement par les ménisques ?","c":11,"options":[{"t":"Environ 50 %","correct":true,"j":"PQRII 11 p.4 : « 50 % en extension, 85 % en 90° de flexion ». En extension la moitié de la charge passe par les ménisques, l'autre moitié directement fémur-plateau tibial."},{"t":"Environ 10 %","j":"Sous-estime largement le rôle méniscal en extension."},{"t":"Environ 90 %","j":"Proche de la valeur en FLEXION, mais le cours donne 85 % à 90° de flexion, pas 90 %, et la question porte sur l'extension."},{"t":"0 %, le contact est direct sans charge méniscale","j":"Faux : les ménisques participent toujours à la transmission des charges."}]},
     {"q":"Un patient de 40 ans consulte pour douleurs mécaniques de l'interligne médial avec blocages. Vous suspectez une lésion méniscale médiale. Quel test clinique est considéré comme le PLUS FIABLE en pratique ?","c":11,"options":[{"t":"Test de Thessaly","correct":true,"j":"Thessaly : patient debout, genou fléchi à 20° en appui monopodal, rotation du tronc. Sensation de blocage et douleur à l'interligne. Le plus fiable enseigné."},{"t":"Test de McMurray","j":"Utile mais moins fiable que Thessaly en pratique."},{"t":"Test d'Apley","j":"Utile (compression + rotation) mais moins fiable que Thessaly."},{"t":"Test de Lachman","j":"Lachman est un test du LCA, pas méniscal."}]},
     {"q":"Un patient consulte pour lésion méniscale chronique et vous interroge sur les facteurs de risque modifiables. À propos des facteurs de risque de lésion méniscale, marquez la FAUSSE :","c":11,"options":[{"t":"Un IMC bas (< 20) est un facteur de risque majeur","correct":true,"j":"FAUSSE : c'est un IMC ÉLEVÉ qui augmente le risque (charge accrue sur les ménisques). Autres facteurs : laxité du genou, sport avec pivot, ménisque discoïde."},{"t":"Le sport avec pivots (foot, ski) est un facteur de risque","j":"Vrai : pivot en charge sur pied fixé = mécanisme principal."},{"t":"Le ménisque discoïde est plus fragile","j":"Vrai : ménisque large, épais, peu mobile, donc plus exposé."},{"t":"L'association à une rupture du LCA concerne 1 cas sur 3","j":"Vrai : association LCA + ménisque dans 1/3 des cas."}]},
     {"q":"Un patient de 38 ans est adressé à J3 d'une méniscectomie partielle arthroscopique du ménisque médial. Concernant la rééducation et le protocole d'appui, quelle proposition est correcte ?","c":11,"options":[{"t":"Appui selon tolérance dès la 1re semaine, complet en 2-4 semaines","correct":true,"j":"Méniscectomie partielle : appui précoce selon tolérance, ROM complet et appui complet en 2-4 semaines, retour au sport 4-8 semaines."},{"t":"Décharge complète pendant 3 mois avec orthèse limitant la flexion","j":"Protocole de suture méniscale (zone vasculaire), pas de méniscectomie partielle qui autorise l'appui précoce."},{"t":"Plâtre cruro-pédieux 6 semaines puis appui progressif lent","j":"Inadapté : la méniscectomie partielle vise une mobilisation précoce, pas une immobilisation plâtrée."},{"t":"Décharge stricte 4 semaines puis charge progressive sur 3 mois","j":"Plutôt protocole de suture méniscale protégée ; trop long pour une simple méniscectomie partielle."}]},
@@ -231321,7 +229529,7 @@ const QUESTIONS = {
     {"q":"Une coureuse de 28 ans consulte pour douleurs latérales du genou récidivantes lors de la course en descente. Vous identifiez un valgus dynamique au saut monopodal. Quel facteur de risque NEUROMUSCULAIRE est typiquement associé au syndrome de la bandelette ilio-tibiale ?","c":12,"options":[{"t":"Faiblesse du moyen fessier","correct":true,"j":"Moyen fessier faible → adduction excessive de hanche → valgus dynamique → mise en tension de la bandelette IT contre le condyle fémoral latéral."},{"t":"Hypertonie du quadriceps","j":"Pas le mécanisme habituel ; c'est la faiblesse fessière qui prime."},{"t":"Atteinte du nerf péronier","j":"Sans rapport avec le syndrome IT."},{"t":"Faiblesse isolée des ischio-jambiers","j":"Pas le facteur enseigné comme principal."}]},
     {"q":"Un homme de 60 ans, sous corticothérapie au long cours, consulte pour douleur médiale aiguë du genou. L'IRM révèle une nécrose avasculaire. Quelle localisation est typique chez l'adulte ?","c":12,"options":[{"t":"Condyle fémoral médial","correct":true,"j":"Localisation typique : condyle fémoral médial (zone de charge). Forme spontanée du sujet > 50 ans, ou secondaire (alcool, corticoïdes)."},{"t":"Plateau tibial latéral","j":"Pas la localisation classique de la nécrose avasculaire du genou de l'adulte."},{"t":"Tubérosité tibiale antérieure","j":"Siège d'Osgood-Schlatter chez l'enfant, pas de nécrose avasculaire de l'adulte."},{"t":"Rotule","j":"Rare ; la localisation typique est le condyle fémoral médial."}]},
     {"q":"Pourquoi l'enfant fait-il plutôt des fractures-décollements que des entorses ligamentaires ?","c":13,"options":[{"t":"Le cartilage de croissance (physis) est plus fragile que les ligaments","correct":true,"j":"Chez l'enfant, le cartilage de croissance est moins résistant que les ligaments → fracture-décollement (Salter-Harris). À l'inverse de l'adulte (entorse)."},{"t":"Les ligaments de l'enfant sont plus fragiles que ceux de l'adulte","j":"Inverse : les ligaments sont relativement plus résistants que la physis chez l'enfant."},{"t":"Aucune différence biomécanique avec le squelette adulte adulte","j":"Faux : la fragilité de la physis change la nature des lésions chez l'enfant."},{"t":"L'os de l'enfant est totalement résistant grâce à sa flexibilité","j":"Faux : c'est précisément la PHYSIS (cartilage de croissance) qui est le point de fragilité."}]},
-    {"q":"Quel signe radiologique typique évoque une AVULSION TIBIALE du LCA chez l'enfant (plutôt qu'une rupture ligamentaire) ?","c":13,"options":[{"t":"Fragment osseux détaché de l'épine tibiale antérieure","correct":true,"j":"Chez l'enfant, le LCA est plus résistant que l'os : on observe plutôt une avulsion d'un fragment osseux à l'insertion tibiale du LCA, pas une rupture ligamentaire."},{"t":"Rupture franche en plein corps du LCA","j":"C'est la lésion typique de l'adulte, pas de l'enfant."},{"t":"Aucun signe radiologique visible","j":"Faux : l'avulsion osseuse est visible en radiographie."},{"t":"Fracture distale du fémur associée","j":"Possible mais pas le signe spécifique de l'avulsion tibiale du LCA."}]},
+    {"q":"Quel signe radiologique typique évoque une AVULSION TIBIALE du LCA chez l'enfant (plutôt qu'une rupture ligamentaire) ?","c":13,"options":[{"t":"Fragment osseux détaché de l'épine tibiale antérieure","correct":true,"j":"Une avulsion se reconnaît au fragment osseux arraché à l'insertion tibiale du LCA, visible en radiographie. À noter : PQRII 13 p.17 enseigne que chez l'enfant les lésions du LCA sont le plus souvent des « ruptures intrasubstances », l'avulsion étant la forme minoritaire."},{"t":"Rupture franche en plein corps du LCA","j":"La rupture en pleine substance existe chez l'adulte mais aussi chez l'enfant (PQRII 13 p.17) ; elle ne donne simplement aucun fragment osseux visible en radiographie."},{"t":"Aucun signe radiologique visible","j":"Faux : l'avulsion osseuse est visible en radiographie."},{"t":"Fracture distale du fémur associée","j":"Possible mais pas le signe spécifique de l'avulsion tibiale du LCA."}]},
     {"q":"Un adolescent de 14 ans présente une découverte fortuite en radio d'un fragment osseux supéro-latéral de la rotule, ne touchant pas l'autre côté. Cochez la bonne réponse :","c":13,"options":[{"t":"Rotule bipartite : variante anatomique de noyaux d'ossification non fusionnés","correct":true,"j":"Rotule bipartite : variante anatomique avec fragment accessoire (supéro-latéral le plus souvent). Découverte fortuite, indolore. Chirurgie seulement si symptomatique."},{"t":"Fracture aiguë non déplacée de la rotule chez l'adolescent sportif","j":"Faux : la rotule bipartite est une variante anatomique constitutionnelle, pas une fracture traumatique."},{"t":"Maladie d'Osgood-Schlatter chronique avec ossification accessoire","j":"Osgood-Schlatter touche la tubérosité tibiale antérieure, pas la rotule."},{"t":"Évolution constante vers l'arthrose fémoro-patellaire précoce","j":"Pas une évolution caractéristique : la majorité reste asymptomatique sans arthrose."}]},
     {"q":"Le kyste de Baker chez l'ENFANT diffère de celui de l'adulte par :","c":13,"options":[{"t":"Origine idiopathique sans lésion intra-articulaire associée","correct":true,"j":"Enfant : kyste idiopathique, pas de cause identifiable, disparaît en ~1 an sans traitement. Adulte : secondaire à une lésion intra-articulaire (méniscale, LCA, arthrose)."},{"t":"Présence constante d'une lésion méniscale interne associée","j":"Situation typique de l'ADULTE. Chez l'enfant, le kyste est idiopathique sans lésion intra-articulaire."},{"t":"Indication systématique de ponction-aspiration sous échoguidage","j":"Faux : chez l'enfant on observe simplement, le kyste disparaît spontanément."},{"t":"Volume plus important et symptômes plus marqués que chez l'adulte","j":"Faux : chez l'enfant le kyste est souvent asymptomatique et de découverte fortuite."}]},
     {"q":"Quel est l'intérêt de la technique « endobouton » pour le LCA chez l'enfant ?","c":13,"options":[{"t":"Limiter la traversée du cartilage de croissance et préserver la physe","correct":true,"j":"Chez l'enfant, on cherche à éviter d'abîmer la physe lors de la fixation. L'endobouton et les techniques adaptées préservent le cartilage de croissance."},{"t":"Permettre une fixation rigide sans mobilité interfragmentaire","j":"Pas la finalité spécifique en pédiatrie : l'enjeu majeur est la préservation de la croissance osseuse."},{"t":"Remplacer totalement le LCA par une prothèse synthétique tissée","j":"L'endobouton est un système de FIXATION du greffon biologique, pas un remplacement synthétique."},{"t":"Faciliter la consolidation osseuse autour du tunnel tibial seul","j":"Pas le rôle principal de l'endobouton, qui est avant tout une fixation préservant la physe."}]},
@@ -231350,10 +229558,10 @@ const QUESTIONS = {
     {"q":"Quel test reproduit spécifiquement la douleur d'une fasciite plantaire ?","c":18,"options":[{"t":"Windlass : dorsiflexion passive de l'Hallux","correct":true,"j":"Windlass : la dorsiflexion de l'Hallux met en tension spécifiquement le fascia plantaire. Reproduit la douleur d'insertion médiale au talon."},{"t":"Thompson : compression du mollet en décubitus ventral","j":"Thompson teste l'intégrité du tendon d'Achille, pas le fascia plantaire."},{"t":"Silfverskjöld : dorsiflexion genou tendu puis fléchi","j":"Évalue la rétraction du triceps sural (soléaire vs gastrocnémien), pas la fasciite plantaire."},{"t":"Tinel : percussion du nerf en arrière de la malléole médiale","j":"Test neurologique (canal tarsien), pas un test du fascia plantaire."}]},
     {"q":"À propos de l'épine calcanéenne, marquez la réponse correcte :","c":18,"options":[{"t":"C'est une conséquence de la fasciite plantaire, pas la cause","correct":true,"j":"Épine calcanéenne = excroissance osseuse SECONDAIRE à la traction chronique du fascia. Sa résection chirurgicale donne des résultats médiocres (ce n'est pas la cause)."},{"t":"C'est la cause directe et primaire de la fasciite plantaire","j":"Inverse : l'épine est une conséquence, pas la cause. Sa résection isolée est donc peu efficace sur la douleur."},{"t":"Sa résection chirurgicale est très efficace en première intention","j":"Faux : résultats médiocres car la résection isolée n'élimine pas la fasciite plantaire sous-jacente."},{"t":"Elle est toujours symptomatique sur les radiographies standards","j":"Faux : de nombreuses épines calcanéennes sont asymptomatiques et de découverte fortuite à la radio."}]},
     {"q":"La maladie de Sever correspond à :","c":18,"options":[{"t":"Une apophysite calcanéenne par traction chez l'enfant sportif","correct":true,"j":"Sever : apophysite postérieure du calcanéum, traction répétée du tendon d'Achille sur le cartilage de croissance. Enfant 7-10 ans, sportif. Traitement : repos, talonnette."},{"t":"Une rupture aiguë du tendon d'Achille chez le jeune adolescent","j":"Sans rapport : Sever est une apophysite chronique, pas une rupture tendineuse aiguë."},{"t":"Une fracture de fatigue du calcanéum chez le coureur de fond","j":"Entité distincte (fracture de fatigue corticale) ; Sever concerne le cartilage de croissance."},{"t":"Une ostéochondrite du dôme du talus chez l'enfant sportif","j":"Pathologie différente, sur le talus et non sur le calcanéum."}]},
-    {"q":"Une femme de 55 ans consulte pour déformation du gros orteil. Vous mesurez l'angle entre la phalange et le 1er métatarsien. À partir de quelle valeur parle-t-on d'Hallux valgus pathologique ?","c":18,"options":[{"t":"Angle hallux valgus > 15° (déviation latérale du gros orteil)","correct":true,"j":"Seuil enseigné : > 15°. Causes : chaussures non physiologiques + génétique. Léger 15-20°, modéré 20-40°, sévère > 40°. Chirurgie : ostéotomie du 1er métatarsien."},{"t":"Angle hallux valgus > 5°, dès la moindre asymétrie visible","j":"Trop strict : des déviations modérées (< 15°) sont physiologiques et asymptomatiques, ne nécessitent pas le label « pathologique »."},{"t":"Angle hallux valgus > 25° comme seuil de diagnostic clinique","j":"Le seuil ENSEIGNÉ pour parler d'hallux valgus pathologique est 15°, pas 25°. 25° serait déjà un valgus modéré."},{"t":"Angle hallux valgus > 45°, stade chirurgical exclusif","j":"Trop large : à 45°, la déformation est sévère et déjà compliquée. Le seuil pathologique enseigné débute à 15°."}]},
+    {"q":"Une femme de 55 ans consulte pour déformation du gros orteil. Vous mesurez l'angle entre le 1er et le 2e métatarsien. À partir de quelle valeur parle-t-on d'Hallux valgus pathologique ?","c":18,"options":[{"t":"Angle intermétatarsien > 15° (entre le 1er et le 2e métatarsien)","correct":true,"j":"PQRII 18 p.24 : « Déviation latérale de l'hallux par rapport à l'axe du 1er MTT ; augmentation de l'angle intermétatarsien > 15° ». Causes : chaussures non physiologiques et prédisposition familiale."},{"t":"Angle intermétatarsien > 5°, dès la moindre asymétrie visible","j":"Trop strict : PQRII 18 p.24 fixe le seuil à 15° d'angle intermétatarsien."},{"t":"Angle intermétatarsien > 25° comme seuil de diagnostic clinique","j":"Le seuil enseigné par PQRII 18 p.24 est 15°, pas 25°."},{"t":"Angle intermétatarsien > 45°, stade chirurgical exclusif","j":"Très au-delà du seuil : PQRII 18 p.24 fixe le diagnostic à partir de 15° d'angle intermétatarsien."}]},
     {"q":"Quel test évoque un névrome de Morton à l'examen clinique ?","c":18,"options":[{"t":"Compression latérale des têtes métatarsiennes reproduisant la douleur","correct":true,"j":"Test de Mulder : compression latérale (transverse) du pied au niveau des têtes métatarsiennes. Reproduction de la douleur et des paresthésies dans le 3e espace inter-métatarsien."},{"t":"Dorsiflexion forcée de l'Hallux mettant en tension le fascia plantaire","j":"C'est le test de Windlass (fasciite plantaire), pas le névrome de Morton."},{"t":"Compression du mollet en décubitus ventral, pied pendant","j":"C'est le test de Thompson (rupture du tendon d'Achille), sans rapport avec le névrome de Morton."},{"t":"Translation antérieure du tibia à 30° de flexion du genou","j":"C'est le test de Lachman (LCA au genou), sans rapport avec le pied."}]},
     {"q":"Concernant l'Hallux rigidus, marquez la réponse correcte :","c":18,"options":[{"t":"Arthrose de la 1re MTP avec raideur et ostéophytes circonférentiels","correct":true,"j":"Hallux rigidus : arthrose de la 1re métatarso-phalangienne. Raideur, douleur, ostéophytes. Traitement : chaussure rigide à barre rétro-capitale ; chirurgie en dernier recours."},{"t":"Déviation latérale de l'Hallux supérieure à 30° par rapport au métatarsien","j":"Description de l'Hallux VALGUS (déviation latérale), pas rigidus (raideur articulaire)."},{"t":"Pathologie purement neurologique du nerf interdigital du 1er espace","j":"Faux : c'est une arthrose mécanique de la 1re MTP, pas une atteinte nerveuse."},{"t":"Déformation transitoire disparaissant spontanément avec la marche","j":"Faux : c'est une arthrose chronique et évolutive, sans résolution spontanée."}]},
-    {"q":"Le rôle de l'articulation acromio-claviculaire devient prédominant à partir de quelle amplitude d'élévation du bras ?","c":19,"options":[{"t":"Au-delà de 60-90°","correct":true,"j":"L'AC et la sterno-claviculaire deviennent importantes au-delà de 60-90°. En dessous, c'est la gléno-humérale qui prime."},{"t":"Dès 0°","j":"À 0-30°, c'est essentiellement la gléno-humérale qui travaille."},{"t":"Uniquement au-delà de 150°","j":"Le rôle de l'AC est continu au-delà de 60-90°, pas seulement en fin d'amplitude."},{"t":"Jamais","j":"Faux : l'AC est essentielle à l'élévation complète du bras."}]},
+    {"q":"Le rôle de l'articulation acromio-claviculaire devient prédominant à partir de quelle amplitude d'élévation du bras ?","c":19,"options":[{"t":"Au-delà de 90°","correct":true,"j":"PQRII 19 p.12 (tableau des amplitudes) : la gléno-humérale assure le mouvement « jusqu'à 90° », au-delà ce sont l'acromio-claviculaire et la sterno-claviculaire, avec la scapulo-thoracique, qui prennent le relais."},{"t":"Dès 0°","j":"À 0-30°, c'est essentiellement la gléno-humérale qui travaille."},{"t":"Uniquement au-delà de 150°","j":"Le relais acromio-claviculaire commence dès 90° d'après PQRII 19 p.12, pas seulement en fin d'amplitude."},{"t":"Jamais","j":"Faux : PQRII 19 p.12 montre que l'élévation au-delà de 90° dépend de l'acromio-claviculaire et de la sterno-claviculaire."}]},
     {"q":"Concernant l'entorse acromio-claviculaire de stade 3, marquez la réponse correcte :","c":21,"options":[{"t":"Rupture complète des ligaments coraco-claviculaires (trapézoïde, conoïde)","correct":true,"j":"Stade 3 : rupture des ligaments coraco-claviculaires (trapézoïde latéral + conoïde médial). « Touche de piano » : la scapula descend, la clavicule devient saillante."},{"t":"Simple entorse acromio-claviculaire sans rupture ligamentaire associée","j":"Description du stade 1 (ligaments intacts) ou stade 2 (rupture AC seule), pas du stade 3."},{"t":"Fracture de la coracoïde avec ligaments coraco-claviculaires intacts","j":"Pas la définition du stade 3 : il s'agit de RUPTURES ligamentaires, pas de fracture osseuse."},{"t":"Aucune anomalie clinique visible malgré la douleur localisée","j":"Faux : la « touche de piano » et la saillie claviculaire sont typiques du stade 3."}]},
     {"q":"Un patient de 38 ans présente une douleur localisée au sommet de l'épaule droite, déclenchée quand il croise les bras. Quel test reproduira la douleur ?","c":22,"options":[{"t":"Cross body test : adduction horizontale forcée du bras","correct":true,"j":"Cross arm / cross body : adduction horizontale comprime l'AC. Douleur localisée au sommet de l'épaule (très ciblée). Différencie l'AC de la coiffe (douleur plus diffuse)."},{"t":"Test de Neer : flexion passive forcée du bras en rotation interne","j":"Neer évalue le conflit sous-acromial (compression du supra-épineux contre l'acromion), pas spécifiquement l'AC."},{"t":"Test de Hawkins : rotation interne forcée à 90° de flexion","j":"Hawkins est un test de conflit sous-acromial global, pas spécifique de l'articulation acromio-claviculaire."},{"t":"Speed test : flexion résistée du coude paume en supination","j":"Speed teste la pathologie du long biceps (sillon bicipital), pas l'articulation acromio-claviculaire."}]},
     {"q":"Pourquoi la fracture de l'omoplate est-elle relativement rare ?","c":20,"options":[{"t":"Elle est protégée par sa mobilité et la masse musculaire qui l'enveloppe","correct":true,"j":"Omoplate mobile et entourée d'une musculature dense → rare. Sa fracture nécessite un traumatisme à haute énergie, souvent associé à des lésions costales, pneumothorax, plexus."},{"t":"Sa structure osseuse est intrinsèquement trop dense pour fracturer","j":"Pas l'explication anatomique correcte : c'est la MOBILITÉ et la protection musculaire qui priment."},{"t":"Elle est trop superficielle et donc visible avant impact direct","j":"Inverse : l'omoplate est profondément placée sous la musculature postérieure de l'épaule."},{"t":"Sa double ossification adulte la rend particulièrement résistante","j":"Sans rapport : tous les os adultes sont totalement ossifiés, ce n'est pas une particularité scapulaire."}]},
@@ -231438,7 +229646,7 @@ const QUESTIONS = {
     {"q":"Quelle orthèse pour traiter une déformation en BOUTONNIÈRE du doigt ?","c":32,"options":[{"t":"Orthèse en 3 points de pression pendant 6 semaines","correct":true,"j":"Boutonnière : orthèse en 3 points (1 force corrective + 2 forces opposées), 6 semaines. Repositionne les bandelettes latérales et permet la cicatrisation de la centrale."},{"t":"Plâtre cruro-pédieux maintenu pendant 6 à 8 semaines","j":"Sans rapport : le cruro-pédieux concerne le membre INFÉRIEUR (fémur/tibia), pas la main."},{"t":"Immobilisation libre sans orthèse, en simple bandage compressif","j":"Insuffisant pour une boutonnière établie : la déformation requiert une orthèse spécifique."},{"t":"Reprise chirurgicale par réinsertion de la bandelette centrale","j":"Faux : conservateur en première intention ; chirurgie réservée aux déformations fixées."}]},
     {"q":"Quel facteur favorise typiquement l'apparition d'une maladie de DUPUYTREN ?","c":32,"options":[{"t":"Alcool, tabac, diabète et VIH chez l'homme de plus de 50 ans","correct":true,"j":"Facteurs de risque : alcool, tabac, diabète, VIH, fibrose familiale. Touche essentiellement les hommes de 50 ans, souvent bilatéral, évolution lente."},{"t":"Activité physique intense et travail manuel répétitif quotidien","j":"Pas un facteur favorisant établi : la maladie est plutôt liée au terrain métabolique et génétique."},{"t":"Carence vitaminique isolée en vitamine D chronique","j":"Pas un facteur de risque enseigné dans la maladie de Dupuytren."},{"t":"Stress émotionnel chronique et anxiété généralisée prolongée","j":"Pas un facteur de risque établi de Dupuytren ; la pathologie n'est pas psychosomatique."}]},
     {"q":"Quel nerf est issu des racines C8-T1 du plexus brachial ?","c":33,"options":[{"t":"Nerf ulnaire","correct":true,"j":"Ulnaire = C8-T1 (parfois T1 isolé). Médian = C6-T1. Radial = C5-T1. Musculocutané = C5-C7. Axillaire = C5-C6."},{"t":"Nerf musculocutané","j":"C5-C7, pas C8-T1."},{"t":"Nerf axillaire","j":"C5-C6, pas C8-T1."},{"t":"Nerf dorsal de la scapula","j":"C5 isolément, pas C8-T1."}]},
-    {"q":"À propos du SYNDROME DE HORNER associé à une atteinte du plexus brachial, quels sont les signes typiques ?","c":33,"options":[{"t":"Myosis, ptosis, anhydrose hémifaciale","correct":true,"j":"Horner = atteinte du système sympathique cervico-thoracique : myosis (pupille rétrécie), ptosis (paupière tombée), anhydrose (absence de sudation). Évoque une lésion préganglionnaire du plexus."},{"t":"Mydriase, exophtalmie, hypersudation","j":"Signes inverses ; pas Horner."},{"t":"Diplopie verticale isolée","j":"Sans rapport avec Horner."},{"t":"Acouphènes pulsatiles","j":"Sans rapport."}]},
+    {"q":"À propos du SYNDROME DE HORNER associé à une atteinte du plexus brachial, quels sont les signes typiques ?","c":33,"options":[{"t":"Myosis, ptosis, énophtalmie","correct":true,"j":"PQRII 33 p.18 : « Syndrome de Horner : myosis (pupille rétrécie), ptose (paupière tombante), énophtalmie (globe oculaire plus profond dans l'orbite) ». Il signe une atteinte préganglionnaire du plexus (T1). L'anhidrose hémifaciale fait aussi partie du syndrome classique."},{"t":"Mydriase, exophtalmie, hypersudation","j":"Signes inverses ; pas Horner."},{"t":"Diplopie verticale isolée","j":"Sans rapport avec Horner."},{"t":"Acouphènes pulsatiles","j":"Sans rapport."}]},
     {"q":"Concernant les transferts NERVEUX, quel est le principe chirurgical ?","c":33,"options":[{"t":"Rediriger un nerf fonctionnel vers un muscle paralysé","correct":true,"j":"Transfert nerveux : un nerf donneur fonctionnel (rôle moins critique) est rebranché vers la branche motrice d'un muscle paralysé. Récupération possible quand la réparation directe est impossible."},{"t":"Greffer un muscle prélevé ailleurs pour restaurer la fonction","j":"C'est un transfert MUSCULAIRE ou tendineux, distinct du transfert nerveux qui utilise un nerf donneur."},{"t":"Implanter un nerf artificiel synthétique entre les deux extrémités","j":"Pas la technique standard : les transferts nerveux utilisent un nerf donneur biologique vivant."},{"t":"Réaliser une rééducation prolongée sans aucune chirurgie","j":"Faux : le transfert nerveux est par définition une intervention chirurgicale précise."}]},
     {"q":"À propos de la vitesse de régénération nerveuse après réparation, marquez la valeur enseignée :","c":33,"options":[{"t":"Environ 1 mm par jour","correct":true,"j":"Vitesse moyenne de régénération de l'axone : ~1 mm/jour. Plus la rupture est proximale, plus la récupération est longue (et incertaine). EMG à distance pour évaluer la repousse."},{"t":"1 cm par jour","j":"Trop rapide ; la régénération nerveuse est lente (1 mm/jour)."},{"t":"1 mètre par jour","j":"Largement trop ; impossible biologiquement."},{"t":"Aucune régénération possible","j":"Faux : la régénération est possible mais lente."}]},
     {"q":"Le test d'ADSON évalue :","c":33,"options":[{"t":"Une compression du plexus brachial entre les scalènes","correct":true,"j":"Adson : palpation du pouls radial, inspiration profonde + rotation/extension cervicale. Positif si diminution du pouls (compression entre scalène antérieur et moyen)."},{"t":"Une compression du nerf médian au canal carpien","j":"Évaluée par Phalen, Tinel ou Durkan, pas par Adson qui cible le défilé thoracique."},{"t":"Une rupture du LCA par instabilité antéro-latérale","j":"Évaluée par Lachman et pivot shift au genou, sans rapport avec Adson."},{"t":"Une rupture du tendon d'Achille par compression du mollet","j":"Évaluée par le test de Thompson, sans rapport avec Adson."}]},
@@ -231495,7 +229703,7 @@ const QUESTIONS = {
     {"q":"Un homme de 34 ans, sportif amateur, présente une rupture chronique isolée du LCA. Il ne se sent pas instable au sport pivot et compense par ses ischio-jambiers. Vous discutez le traitement. Selon la classification COPERS / NON-COPERS, dans quelle catégorie le classez-vous, et quelle est l'attitude ?","c":10,"options":[{"t":"COPERS — peut éviter la chirurgie, traitement conservateur en première intention","correct":true,"j":"COPERS : compensation efficace par les ischios et le contrôle proximal, stabilité fonctionnelle préservée. Indication conservatrice si pas d'instabilité, pas d'exigence pivot intense. NON-COPERS : instabilité persistante malgré la rééducation → chirurgie."},{"t":"NON-COPERS — chirurgie systématique en urgence","j":"Inverse : ce patient compense bien, c'est un COPERS. Et la chirurgie en aigu est rare, réservée aux athlètes professionnels."},{"t":"Cas indéterminé — chirurgie de principe pour éviter l'arthrose","j":"Faux : la chirurgie n'évite pas l'arthrose long terme (résultats équivalents conservateur/chirurgie en termes d'arthrose). L'indication chirurgicale repose sur l'instabilité fonctionnelle."},{"t":"COPERS — indication de ligamentoplastie en urgence par allogreffe","j":"Contradictoire : un COPERS n'a justement pas besoin de ligamentoplastie. La chirurgie est réservée aux NON-COPERS."}]},
     {"q":"Un patient de 26 ans est à J20 d'une ligamentoplastie du LCA avec greffon DT4 (semi-tendineux + gracile). Il vous demande quand il pourra recommencer la course en ligne droite et quand il pourra reprendre le foot avec pivot. Quelle est la chronologie correcte ?","c":10,"options":[{"t":"Course en ligne droite à 3-4 mois ; retour au sport pivot à 6-9 mois","correct":true,"j":"Calendrier enseigné : 0-30 j extension complète obligatoire ; 30-45 j contrôle neuromusculaire ; 45-90 j renforcement en chaîne fermée ; 3-4 mois course en ligne droite ; 6-9 mois sport pivot. Lié à la ligamentisation du greffon (3 phases : fragile, revascularisation, propriétés proches du ligament)."},{"t":"Course à 6 semaines ; sport pivot à 3 mois","j":"Beaucoup trop précoce : le greffon est encore fragile (phase de revascularisation entre 6 sem et 3 mois). Risque majeur de re-rupture."},{"t":"Course à 12 mois ; sport pivot à 24 mois","j":"Beaucoup trop tardif : à 12 mois le greffon a déjà des propriétés proches du ligament natif. Calendrier excessif."},{"t":"Course immédiate ; sport pivot dès 3 mois","j":"Dangereux : la course est interdite tant que l'extension complète et le contrôle musculaire ne sont pas restaurés (typiquement 3-4 mois)."}]},
     {"q":"Un sportif de 26 ans présente après pivot en charge un blocage du genou en flexion avec impossibilité d'extension complète. Hémarthrose modérée. À l'arthroscopie, on identifie un fragment méniscal mobile basculant dans l'échancrure inter-condylienne. Quelle est cette lésion ?","c":11,"options":[{"t":"Anse de seau méniscale (rupture longitudinale verticale)","correct":true,"j":"Anse de seau : rupture longitudinale verticale du ménisque, le fragment central bascule en intercondylien et bloque l'extension (blocage en flexion). Souvent en zone rouge → suture méniscale possible chez le jeune."},{"t":"Lésion en bec de perroquet (fragment triangulaire mobile)","j":"Petit fragment triangulaire mobile, mais SANS basculement en intercondylien ni blocage typique. Donne plutôt accrochages et claquements."},{"t":"Fissure radiaire complète traversant le corps du ménisque","j":"Donne une perte de la fonction d'amortissement mais pas de fragment basculant ni de blocage en flexion typique de l'anse de seau."},{"t":"Désinsertion postérieure (lésion ramp)","j":"Lésion ménisco-capsulaire postérieure souvent associée au LCA, mais ne donne pas un blocage en flexion par fragment intercondylien."}]},
-    {"q":"Vous réalisez un test de McMurray sur un patient suspect de lésion méniscale. L'orientation du talon (rotation tibiale) indique le ménisque testé. Quelle correspondance est correcte ?","c":11,"options":[{"t":"Rotation externe (talon en dehors) → teste le ménisque MÉDIAL","correct":true,"j":"Règle enseignée : l'orientation du talon dans la rotation tibiale teste le ménisque OPPOSÉ. Rotation externe → met en contrainte la corne postérieure du ménisque médial. Rotation interne → teste le ménisque latéral. Mnémo : « le talon désigne le ménisque opposé »."},{"t":"Rotation interne (talon en dedans) → teste le ménisque MÉDIAL","j":"Inverse : la rotation interne teste le ménisque latéral, pas le médial."},{"t":"Rotation externe → teste le ménisque latéral","j":"Inverse : la rotation externe teste le ménisque MÉDIAL (opposé au talon)."},{"t":"Les deux rotations testent indifféremment les deux ménisques","j":"Faux : la spécificité du test McMurray repose précisément sur la rotation, qui contraint sélectivement un ménisque."}]},
+    {"q":"Vous réalisez un test de McMurray sur un patient suspect de lésion méniscale. L'orientation du talon (rotation tibiale) indique le ménisque testé. Quelle correspondance est correcte ?","c":11,"options":[{"t":"Rotation externe (talon en dehors) → teste le ménisque MÉDIAL","correct":true,"j":"PQRII 11 p.8-11 : « douleur médiale avec rotation externe ». La rotation externe met en contrainte la corne postérieure du ménisque médial, la rotation interne celle du ménisque latéral."},{"t":"Rotation interne (talon en dedans) → teste le ménisque MÉDIAL","j":"Inverse : la rotation interne teste le ménisque latéral, pas le médial."},{"t":"Rotation externe → teste le ménisque latéral","j":"Inverse : d'après PQRII 11 p.8-11, la rotation externe teste le ménisque MÉDIAL."},{"t":"Les deux rotations testent indifféremment les deux ménisques","j":"Faux : la spécificité du test McMurray repose précisément sur la rotation, qui contraint sélectivement un ménisque."}]},
     {"q":"Un patient de 35 ans présente une fissure méniscale longitudinale en zone périphérique (à 2 mm de la jonction ménisco-capsulaire). Vous discutez l'option chirurgicale. Quel geste est privilégié ?","c":11,"options":[{"t":"Suture méniscale (zone rouge-rouge, vascularisée)","correct":true,"j":"Zone rouge-rouge (0-3 mm de la périphérie) : vascularisation correcte, suture méniscale recommandée chez le patient jeune. Privilégier la conservation, car la méniscectomie expose à l'arthrose précoce."},{"t":"Méniscectomie partielle systématique","j":"Réservée à la zone blanc-blanc (avasculaire, > 5 mm de la périphérie). En zone rouge-rouge, la suture est préférée."},{"t":"Méniscectomie totale pour éviter les récidives","j":"Évitée car expose à l'arthrose précoce (~50 % à 10 ans). Pas indiquée pour une lésion suturable."},{"t":"Greffe méniscale d'emblée","j":"Réservée aux méniscectomies totales antérieures non fonctionnelles, ou à des pertes méniscales étendues. Pas en première intention."}]},
     {"q":"Un patient adulte est en rééducation à J3 d'une méniscectomie partielle isolée (zone blanche). Quel protocole d'appui appliquez-vous ?","c":11,"options":[{"t":"Appui selon la tolérance dès la 1re semaine, ROM complet et appui complet en 2-4 semaines","correct":true,"j":"Méniscectomie partielle : protocole rapide, appui précoce selon tolérance, ROM complet et appui complet en 2-4 semaines, retour au sport en 4-8 semaines selon la douleur."},{"t":"Décharge complète 3 mois avec orthèse limitant la flexion","j":"Protocole d'une SUTURE méniscale protégée (pour laisser cicatriser), pas d'une méniscectomie partielle qui autorise un appui précoce."},{"t":"Plâtre cruro-pédieux 6 semaines puis appui progressif","j":"Inadapté : la méniscectomie partielle vise la mobilisation et l'appui précoce, surtout pas l'immobilisation plâtrée."},{"t":"Décharge stricte 4 semaines puis charge sur 3 mois","j":"Trop long pour une simple méniscectomie partielle. Correspondrait plutôt à une suture protégée."}]},
     {"q":"Un enfant de 11 ans présente des ressauts douloureux du genou avec sensation de blocage intermittent à la marche. L'IRM montre un ménisque latéral hypermobile sans attache postérieure normale. Quel diagnostic et quelle conduite ?","c":11,"options":[{"t":"Ménisque discoïde latéral de type 3 (de Wrisberg) — saucerisation + stabilisation périphérique si symptomatique","correct":true,"j":"Type 3 de Wrisberg : forme parfois proche de la normale mais sans attache postérieure → hypermobile. Très symptomatique (ressauts, accrochages). Chirurgie : saucerisation (remodelage en croissant) + stabilisation périphérique de l'attache."},{"t":"Ménisque discoïde type 1 (complet) — toujours asymptomatique, surveillance","j":"Le type 1 (complet, large) est souvent asymptomatique chez l'enfant. Le type 3 (Wrisberg) est typiquement symptomatique par hypermobilité."},{"t":"Rupture méniscale en anse de seau — méniscectomie partielle","j":"L'anse de seau donne un blocage en flexion fixe, pas des ressauts récurrents. Et n'est pas associée à une anomalie d'attache postérieure congénitale."},{"t":"Maladie d'Osgood-Schlatter — adaptation au sport","j":"Apophysite de la TTA, donne une douleur antérieure du genou à l'effort, pas des ressauts intra-articulaires. Tableau totalement différent."}]},
@@ -231685,29 +229893,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Le système extrapyramidal est :",
-   "c": 8,
-   "options": [
-    {
-     "t": "Polysynaptique et indirect ; rigidité de type plastique",
-     "correct": true,
-     "j": "Le système extrapyramidal est polysynaptique/indirect ; sa lésion donne une rigidité plastique (roue dentée)."
-    },
-    {
-     "t": "Polysynaptique et direct ; rigidité de type plastique",
-     "j": "Faux : la voie extrapyramidale est INDIRECTE, non directe."
-    },
-    {
-     "t": "Monosynaptique et indirect ; rigidité de type plastique",
-     "j": "Faux : elle est POLYsynaptique, pas monosynaptique."
-    },
-    {
-     "t": "Monosynaptique et direct ; rigidité de type spastique",
-     "j": "Faux : monosynaptique/direct avec spasticité décrit la voie pyramidale, pas l'extrapyramidal."
-    }
-   ]
-  },
+  {"q":"Le système extrapyramidal est :","c":[1,4],"options":[{"t":"Polysynaptique et indirect ; rigidité de type plastique","correct":true,"j":"Le système extrapyramidal est polysynaptique/indirect ; sa lésion donne une rigidité plastique (roue dentée)."},{"t":"Polysynaptique et direct ; rigidité de type plastique","j":"Faux : la voie extrapyramidale est INDIRECTE, non directe."},{"t":"Monosynaptique et indirect ; rigidité de type plastique","j":"Faux : elle est POLYsynaptique, pas monosynaptique."},{"t":"Monosynaptique et direct ; rigidité de type spastique","j":"Faux : monosynaptique/direct avec spasticité décrit la voie pyramidale, pas l'extrapyramidal."}]},
   {
    "q": "Les syndromes hyperkinétiques sont :",
    "c": 6,
@@ -232421,29 +230607,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Chez les patients présentant des troubles cognitifs, quelle stratégie est la MOINS appropriée ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Augmenter les stimuli environnementaux",
-     "correct": true,
-     "j": "INADAPTÉ : multiplier les stimuli surcharge l'attention et désoriente ; on cherche au contraire à simplifier l'environnement."
-    },
-    {
-     "t": "Donner des consignes simples et répétées",
-     "j": "Stratégie appropriée : des consignes simples et répétées facilitent la compréhension."
-    },
-    {
-     "t": "Mettre en place des routines prévisibles",
-     "j": "Stratégie appropriée : la prévisibilité rassure et soutient la mémoire procédurale."
-    },
-    {
-     "t": "Fractionner les tâches en étapes courtes",
-     "j": "Stratégie appropriée : le fractionnement réduit la charge cognitive."
-    }
-   ]
-  },
+  {"q":"Chez les patients présentant des troubles cognitifs, quelle stratégie est la MOINS appropriée ?","c":14,"options":[{"t":"Augmenter les stimuli environnementaux","correct":true,"j":"INADAPTÉ : multiplier les stimuli surcharge l'attention et désoriente ; on cherche au contraire à simplifier l'environnement."},{"t":"Donner des consignes simples et répétées","j":"Stratégie appropriée : des consignes simples et répétées facilitent la compréhension."},{"t":"Mettre en place des routines prévisibles","j":"Stratégie appropriée : la prévisibilité rassure et soutient la mémoire procédurale."},{"t":"Fractionner les tâches en étapes courtes","j":"Stratégie appropriée : le fractionnement réduit la charge cognitive."}]},
   {
    "q": "Un homme de 58 ans consulte pour un tremblement de la main droite présent au repos, qui disparaît lorsqu'il saisit un objet. Vous notez une écriture devenue petite, un visage peu expressif et une marche à petits pas. Quel diagnostic évoquez-vous en premier ?",
    "c": 6,
@@ -239139,29 +237303,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Parmi les DMARD utilisés en rhumatologie, le méthotrexate expose notamment à :",
-   "c": 9,
-   "options": [
-    {
-     "t": "Une toxicité médullaire et une pneumopathie interstitielle",
-     "correct": true,
-     "j": "Effets indésirables classiques du méthotrexate : cytopénie médullaire et atteinte pulmonaire interstitielle, d'où la supplémentation en acide folique et la surveillance de l'hémogramme."
-    },
-    {
-     "t": "Une néphrotoxicité et une hypertension artérielle",
-     "j": "Faux : ce profil correspond aux anticalcineurines (ciclosporine, tacrolimus), pas au méthotrexate qui n'est pas néphrotoxique aux doses rhumatologiques."
-    },
-    {
-     "t": "Une rétinopathie et une atteinte cornéenne",
-     "j": "Faux : la toxicité oculaire (rétinienne) est celle de l'hydroxychloroquine ; le méthotrexate ne donne pas de rétinopathie."
-    },
-    {
-     "t": "Une cystite hémorragique et une azoospermie",
-     "j": "Faux : ces effets sont propres au cyclophosphamide ; le méthotrexate n'expose pas à la cystite hémorragique."
-    }
-   ]
-  },
+  {"q":"Parmi les DMARD utilisés en rhumatologie, le méthotrexate expose notamment à :","c":8,"options":[{"t":"Une toxicité médullaire et une pneumopathie interstitielle","correct":true,"j":"Effets indésirables classiques du méthotrexate : cytopénie médullaire et atteinte pulmonaire interstitielle, d'où la supplémentation en acide folique et la surveillance de l'hémogramme."},{"t":"Une néphrotoxicité et une hypertension artérielle","j":"Faux : ce profil correspond aux anticalcineurines (ciclosporine, tacrolimus), pas au méthotrexate qui n'est pas néphrotoxique aux doses rhumatologiques."},{"t":"Une rétinopathie et une atteinte cornéenne","j":"Faux : la toxicité oculaire (rétinienne) est celle de l'hydroxychloroquine ; le méthotrexate ne donne pas de rétinopathie."},{"t":"Une cystite hémorragique et une azoospermie","j":"Faux : ces effets sont propres au cyclophosphamide ; le méthotrexate n'expose pas à la cystite hémorragique."}]},
   {
    "q": "Quel aspect du liquide synovial obtenu par arthrocentèse évoque une arthrite septique ?",
    "c": 9,
@@ -239553,75 +237695,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'arthrose est définie comme :",
-   "c": 9,
-   "options": [
-    {
-     "t": "Une arthropathie dégénérative non inflammatoire détruisant le cartilage hyalin",
-     "correct": true,
-     "j": "L'arthrose est une maladie dégénérative non inflammatoire, avec déséquilibre entre synthèse et destruction du cartilage et atteinte de toute l'articulation."
-    },
-    {
-     "t": "Une arthropathie inflammatoire auto-immune avec pannus synovial",
-     "j": "Faux : la formation d'un pannus synovial auto-immun décrit la polyarthrite rhumatoïde, pas l'arthrose."
-    },
-    {
-     "t": "Une arthropathie microcristalline par dépôt d'urate monosodique",
-     "j": "Faux : le dépôt d'urate monosodique correspond à la goutte, pas à l'arthrose."
-    },
-    {
-     "t": "Une arthropathie secondaire à des hémarthroses récidivantes",
-     "j": "Faux : la destruction par hémarthroses répétées correspond à l'arthropathie hémophilique."
-    }
-   ]
-  },
-  {
-   "q": "La douleur de l'arthrose est typiquement :",
-   "c": 16,
-   "options": [
-    {
-     "t": "Mécanique : déclenchée par l'effort et calmée par le repos",
-     "correct": true,
-     "j": "La douleur arthrosique est mécanique, soulagée au repos, sans raideur matinale prolongée."
-    },
-    {
-     "t": "Inflammatoire : maximale la nuit et au réveil, avec une longue raideur matinale",
-     "j": "Ce profil inflammatoire évoque une arthrite (PR, spondylarthrite), pas l'arthrose."
-    },
-    {
-     "t": "Permanente et totalement indépendante de l'activité",
-     "j": "Au début, la douleur arthrosique dépend nettement de la mise en charge et cède au repos."
-    },
-    {
-     "t": "Localisée exclusivement aux enthèses",
-     "j": "L'enthésite oriente vers une spondylarthrite, pas vers l'arthrose."
-    }
-   ]
-  },
-  {
-   "q": "Concernant la teneur en eau du cartilage, quelle différence distingue l'arthrose du simple vieillissement ?",
-   "c": 16,
-   "options": [
-    {
-     "t": "Vieillissement : l'eau diminue ; arthrose : l'eau augmente (œdème matriciel)",
-     "correct": true,
-     "j": "Le vieillissement déshydrate la matrice cartilagineuse, alors que l'arthrose s'accompagne d'une hyperhydratation avec œdème : les deux évolutions sont opposées."
-    },
-    {
-     "t": "Vieillissement : l'eau augmente ; arthrose : l'eau diminue (déshydratation)",
-     "j": "C'est l'inverse : le vieillissement déshydrate le cartilage et l'arthrose l'hyperhydrate (œdème). Direction inversée pour chaque situation."
-    },
-    {
-     "t": "Vieillissement : l'eau diminue ; arthrose : l'eau diminue aussi",
-     "j": "Faux : seul le vieillissement déshydrate ; l'arthrose s'accompagne d'une hausse de la teneur en eau (œdème matriciel), donc d'une évolution inverse."
-    },
-    {
-     "t": "Vieillissement : eau stable ; arthrose : eau stable également",
-     "j": "Faux : la teneur en eau varie dans les deux cas, en sens opposé (baisse au vieillissement, hausse dans l'arthrose), et non de façon stable."
-    }
-   ]
-  },
+  {"q":"L'arthrose est définie comme :","c":10,"options":[{"t":"Une arthropathie dégénérative non inflammatoire détruisant le cartilage hyalin","correct":true,"j":"L'arthrose est une maladie dégénérative non inflammatoire, avec déséquilibre entre synthèse et destruction du cartilage et atteinte de toute l'articulation."},{"t":"Une arthropathie inflammatoire auto-immune avec pannus synovial","j":"Faux : la formation d'un pannus synovial auto-immun décrit la polyarthrite rhumatoïde, pas l'arthrose."},{"t":"Une arthropathie microcristalline par dépôt d'urate monosodique","j":"Faux : le dépôt d'urate monosodique correspond à la goutte, pas à l'arthrose."},{"t":"Une arthropathie secondaire à des hémarthroses récidivantes","j":"Faux : la destruction par hémarthroses répétées correspond à l'arthropathie hémophilique."}]},
+  {"q":"La douleur de l'arthrose est typiquement :","c":10,"options":[{"t":"Mécanique : déclenchée par l'effort et calmée par le repos","correct":true,"j":"La douleur arthrosique est mécanique, soulagée au repos, sans raideur matinale prolongée."},{"t":"Inflammatoire : maximale la nuit et au réveil, avec une longue raideur matinale","j":"Ce profil inflammatoire évoque une arthrite (PR, spondylarthrite), pas l'arthrose."},{"t":"Permanente et totalement indépendante de l'activité","j":"Au début, la douleur arthrosique dépend nettement de la mise en charge et cède au repos."},{"t":"Localisée exclusivement aux enthèses","j":"L'enthésite oriente vers une spondylarthrite, pas vers l'arthrose."}]},
+  {"q":"Concernant la teneur en eau du cartilage, quelle différence distingue l'arthrose du simple vieillissement ?","c":10,"options":[{"t":"Vieillissement : l'eau diminue ; arthrose : l'eau augmente (œdème matriciel)","correct":true,"j":"Le vieillissement déshydrate la matrice cartilagineuse, alors que l'arthrose s'accompagne d'une hyperhydratation avec œdème : les deux évolutions sont opposées."},{"t":"Vieillissement : l'eau augmente ; arthrose : l'eau diminue (déshydratation)","j":"C'est l'inverse : le vieillissement déshydrate le cartilage et l'arthrose l'hyperhydrate (œdème). Direction inversée pour chaque situation."},{"t":"Vieillissement : l'eau diminue ; arthrose : l'eau diminue aussi","j":"Faux : seul le vieillissement déshydrate ; l'arthrose s'accompagne d'une hausse de la teneur en eau (œdème matriciel), donc d'une évolution inverse."},{"t":"Vieillissement : eau stable ; arthrose : eau stable également","j":"Faux : la teneur en eau varie dans les deux cas, en sens opposé (baisse au vieillissement, hausse dans l'arthrose), et non de façon stable."}]},
   {
    "q": "Dans l'arthrose, les chondrocytes :",
    "c": 10,
@@ -239668,29 +237744,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Les ostéophytes de l'arthrose correspondent à :",
-   "c": 8,
-   "options": [
-    {
-     "t": "Une néoformation osseuse marginale de l'articulation",
-     "correct": true,
-     "j": "L'ostéophyte est du nouvel os formé aux marges articulaires, sous l'effet des tractions capsulo-ligamentaires répétées."
-    },
-    {
-     "t": "Une résorption osseuse marginale par les ostéoclastes",
-     "j": "Faux : l'ostéophyte est une construction osseuse marginale, et non une résorption ostéoclastique de l'os."
-    },
-    {
-     "t": "Un dépôt marginal de cristaux d'urate de sodium",
-     "j": "Faux : les dépôts d'urate forment les tophi de la goutte ; l'ostéophyte est une néoformation osseuse, non cristalline."
-    },
-    {
-     "t": "Une fracture de fatigue de l'os sous-chondral",
-     "j": "Faux : l'ostéophyte marginal est un os néoformé, sans rapport avec une fracture de fatigue de l'os sous-chondral."
-    }
-   ]
-  },
+  {"q":"Les ostéophytes de l'arthrose correspondent à :","c":10,"options":[{"t":"Une néoformation osseuse marginale de l'articulation","correct":true,"j":"L'ostéophyte est du nouvel os formé aux marges articulaires, sous l'effet des tractions capsulo-ligamentaires répétées."},{"t":"Une résorption osseuse marginale par les ostéoclastes","j":"Faux : l'ostéophyte est une construction osseuse marginale, et non une résorption ostéoclastique de l'os."},{"t":"Un dépôt marginal de cristaux d'urate de sodium","j":"Faux : les dépôts d'urate forment les tophi de la goutte ; l'ostéophyte est une néoformation osseuse, non cristalline."},{"t":"Une fracture de fatigue de l'os sous-chondral","j":"Faux : l'ostéophyte marginal est un os néoformé, sans rapport avec une fracture de fatigue de l'os sous-chondral."}]},
   {
    "q": "L'ostéosclérose (condensation) sous-chondrale observée dans l'arthrose résulte :",
    "c": 10,
@@ -239760,52 +237814,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'arthrose secondaire (mécanique) se définit comme :",
-   "c": 9,
-   "options": [
-    {
-     "t": "Une charge anormale s'exerçant sur un cartilage initialement normal",
-     "correct": true,
-     "j": "L'arthrose secondaire résulte d'une surcharge anormale (trouble d'axe, méniscectomie, instabilité…) sur un cartilage au départ sain."
-    },
-    {
-     "t": "Une charge normale s'exerçant sur un cartilage déjà altéré",
-     "j": "C'est la définition de l'arthrose primaire (structurelle)."
-    },
-    {
-     "t": "Une inflammation auto-immune de la membrane synoviale",
-     "j": "Mécanisme d'une arthrite inflammatoire, pas d'une arthrose secondaire."
-    },
-    {
-     "t": "Un dépôt de microcristaux dans l'articulation",
-     "j": "C'est le mécanisme des arthrites microcristallines."
-    }
-   ]
-  },
-  {
-   "q": "Concernant l'épidémiologie de l'arthrose, quelle proposition est correcte ?",
-   "c": 16,
-   "options": [
-    {
-     "t": "Sa prévalence prédomine chez la femme et croît avec l'âge",
-     "correct": true,
-     "j": "L'arthrose prédomine chez la femme et sa fréquence croît avec l'âge ; l'obésité est un facteur de risque local majeur."
-    },
-    {
-     "t": "Sa prévalence prédomine chez l'homme jeune HLA-B27 positif",
-     "j": "Ce profil est celui de la spondylarthrite ankylosante, non de l'arthrose."
-    },
-    {
-     "t": "Sa prévalence reste exceptionnelle avant l'âge de 80 ans",
-     "j": "L'arthrose devient fréquente dès la quarantaine puis augmente avec l'âge."
-    },
-    {
-     "t": "Sa prévalence est indépendante du poids et de la surcharge",
-     "j": "L'obésité est au contraire un facteur de risque mécanique majeur, notamment au genou."
-    }
-   ]
-  },
+  {"q":"L'arthrose secondaire (mécanique) se définit comme :","c":10,"options":[{"t":"Une charge anormale s'exerçant sur un cartilage initialement normal","correct":true,"j":"L'arthrose secondaire résulte d'une surcharge anormale (trouble d'axe, méniscectomie, instabilité…) sur un cartilage au départ sain."},{"t":"Une charge normale s'exerçant sur un cartilage déjà altéré","j":"C'est la définition de l'arthrose primaire (structurelle)."},{"t":"Une inflammation auto-immune de la membrane synoviale","j":"Mécanisme d'une arthrite inflammatoire, pas d'une arthrose secondaire."},{"t":"Un dépôt de microcristaux dans l'articulation","j":"C'est le mécanisme des arthrites microcristallines."}]},
+  {"q":"Concernant l'épidémiologie de l'arthrose, quelle proposition est correcte ?","c":10,"options":[{"t":"Sa prévalence prédomine chez la femme et croît avec l'âge","correct":true,"j":"L'arthrose prédomine chez la femme et sa fréquence croît avec l'âge ; l'obésité est un facteur de risque local majeur."},{"t":"Sa prévalence prédomine chez l'homme jeune HLA-B27 positif","j":"Ce profil est celui de la spondylarthrite ankylosante, non de l'arthrose."},{"t":"Sa prévalence reste exceptionnelle avant l'âge de 80 ans","j":"L'arthrose devient fréquente dès la quarantaine puis augmente avec l'âge."},{"t":"Sa prévalence est indépendante du poids et de la surcharge","j":"L'obésité est au contraire un facteur de risque mécanique majeur, notamment au genou."}]},
   {
    "q": "Parmi les traitements à visée chondroprotectrice de l'arthrose, on trouve :",
    "c": 10,
@@ -239852,52 +237862,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle proposition distingue le mieux l'arthrose de la polyarthrite rhumatoïde ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Arthrose : atteinte cartilagineuse dégénérative ; PR : synovite auto-immune",
-     "correct": true,
-     "j": "La cible initiale diffère : cartilage pour l'arthrose, membrane synoviale pour la PR. C'est la distinction anatomopathologique essentielle."
-    },
-    {
-     "t": "Arthrose : atteinte synoviale auto-immune ; PR : atteinte cartilagineuse dégénérative",
-     "j": "C'est exactement l'inverse : l'arthrose est dégénérative (cartilage), la PR est auto-immune (synoviale)."
-    },
-    {
-     "t": "Arthrose : raideur matinale prolongée ; PR : douleur de rythme mécanique",
-     "j": "Inversé : la raideur matinale prolongée caractérise la PR, la douleur mécanique caractérise l'arthrose."
-    },
-    {
-     "t": "Arthrose : touche surtout l'homme jeune ; PR : touche surtout le sujet âgé",
-     "j": "Faux : l'arthrose augmente avec l'âge et la PR peut survenir à tout âge ; cette opposition d'âge est inexacte."
-    }
-   ]
-  },
-  {
-   "q": "Lequel des éléments suivants constitue un facteur de risque LOCAL d'arthrose ?",
-   "c": 16,
-   "options": [
-    {
-     "t": "Une instabilité ligamentaire chronique du genou",
-     "correct": true,
-     "j": "L'instabilité ligamentaire altère localement la mécanique articulaire ; comme la méniscectomie, le trouble d'axe ou la dysplasie, c'est un facteur LOCAL."
-    },
-    {
-     "t": "Le sexe féminin après la ménopause",
-     "j": "Le sexe est un facteur de risque systémique (général), non local."
-    },
-    {
-     "t": "Une carence en vitamine D installée",
-     "j": "Un facteur nutritionnel/métabolique est systémique, non local."
-    },
-    {
-     "t": "Une prédisposition génétique familiale",
-     "j": "La génétique est un facteur de risque systémique, non local."
-    }
-   ]
-  },
+  {"q":"Quelle proposition distingue le mieux l'arthrose de la polyarthrite rhumatoïde ?","c":10,"options":[{"t":"Arthrose : atteinte cartilagineuse dégénérative ; PR : synovite auto-immune","correct":true,"j":"La cible initiale diffère : cartilage pour l'arthrose, membrane synoviale pour la PR. C'est la distinction anatomopathologique essentielle."},{"t":"Arthrose : atteinte synoviale auto-immune ; PR : atteinte cartilagineuse dégénérative","j":"C'est exactement l'inverse : l'arthrose est dégénérative (cartilage), la PR est auto-immune (synoviale)."},{"t":"Arthrose : raideur matinale prolongée ; PR : douleur de rythme mécanique","j":"Inversé : la raideur matinale prolongée caractérise la PR, la douleur mécanique caractérise l'arthrose."},{"t":"Arthrose : touche surtout l'homme jeune ; PR : touche surtout le sujet âgé","j":"Faux : l'arthrose augmente avec l'âge et la PR peut survenir à tout âge ; cette opposition d'âge est inexacte."}]},
+  {"q":"Lequel des éléments suivants constitue un facteur de risque LOCAL d'arthrose ?","c":10,"options":[{"t":"Une instabilité ligamentaire chronique du genou","correct":true,"j":"L'instabilité ligamentaire altère localement la mécanique articulaire ; comme la méniscectomie, le trouble d'axe ou la dysplasie, c'est un facteur LOCAL."},{"t":"Le sexe féminin après la ménopause","j":"Le sexe est un facteur de risque systémique (général), non local."},{"t":"Une carence en vitamine D installée","j":"Un facteur nutritionnel/métabolique est systémique, non local."},{"t":"Une prédisposition génétique familiale","j":"La génétique est un facteur de risque systémique, non local."}]},
   {
    "q": "L'arthrodèse consiste à :",
    "c": 11,
@@ -240657,29 +238623,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Sur le plan physiopathologique, l'épicondylalgie latérale correspond :",
-   "c": 16,
-   "options": [
-    {
-     "t": "À une dégénérescence chronique du tendon (tendinose), plus qu'à une inflammation aiguë",
-     "correct": true,
-     "j": "Il s'agit d'une tendinopathie dégénérative (désorganisation du collagène, néovascularisation), non d'une véritable tendinite inflammatoire."
-    },
-    {
-     "t": "À une inflammation aiguë purement synoviale de l'articulation du coude",
-     "j": "Faux : la lésion siège sur l'enthèse tendineuse, pas dans la synoviale articulaire, et elle est dégénérative plutôt qu'inflammatoire."
-    },
-    {
-     "t": "À une ostéonécrose du capitulum huméral (condyle huméral)",
-     "j": "L'ostéonécrose du capitulum (type ostéochondrite) est une atteinte osseuse du condyle huméral, distincte de la tendinose des extenseurs sur l'épicondyle latéral."
-    },
-    {
-     "t": "À une compression du nerf radial dans l'arcade de Fröhse",
-     "j": "C'est le syndrome du nerf interosseux postérieur, atteinte neurologique parfois confondue, mais distincte de la tendinopathie d'insertion."
-    }
-   ]
-  },
+  {"q":"Sur le plan physiopathologique, l'épicondylalgie latérale correspond :","c":13,"options":[{"t":"À une dégénérescence chronique du tendon (tendinose), plus qu'à une inflammation aiguë","correct":true,"j":"Il s'agit d'une tendinopathie dégénérative (désorganisation du collagène, néovascularisation), non d'une véritable tendinite inflammatoire."},{"t":"À une inflammation aiguë purement synoviale de l'articulation du coude","j":"Faux : la lésion siège sur l'enthèse tendineuse, pas dans la synoviale articulaire, et elle est dégénérative plutôt qu'inflammatoire."},{"t":"À une ostéonécrose du capitulum huméral (condyle huméral)","j":"L'ostéonécrose du capitulum (type ostéochondrite) est une atteinte osseuse du condyle huméral, distincte de la tendinose des extenseurs sur l'épicondyle latéral."},{"t":"À une compression du nerf radial dans l'arcade de Fröhse","j":"C'est le syndrome du nerf interosseux postérieur, atteinte neurologique parfois confondue, mais distincte de la tendinopathie d'insertion."}]},
   {
    "q": "La douleur de l'épicondylalgie latérale est typiquement reproduite par :",
    "c": 13,
@@ -240795,98 +238739,10 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La tendinopathie (ou rupture) du tendon distal du biceps se traduit par une douleur aggravée par :",
-   "c": 6,
-   "options": [
-    {
-     "t": "La flexion du coude et la supination de l'avant-bras contre résistance",
-     "correct": true,
-     "j": "Le biceps brachial est fléchisseur du coude et supinateur ; la résistance à la flexion-supination réveille la douleur."
-    },
-    {
-     "t": "L'extension du coude contre résistance",
-     "j": "L'extension résistée sollicite le triceps."
-    },
-    {
-     "t": "L'extension du poignet contre résistance",
-     "j": "Cela teste les extenseurs (épicondyle latéral), pas le biceps distal."
-    },
-    {
-     "t": "La pronation pure du poignet",
-     "j": "La pronation isolée ne met pas le biceps en tension comme le fait la supination résistée."
-    }
-   ]
-  },
-  {
-   "q": "En cas de rupture complète du tendon distal du biceps, on observe typiquement :",
-   "c": 6,
-   "options": [
-    {
-     "t": "Une rétraction du corps musculaire formant une masse à la face antérieure du bras",
-     "correct": true,
-     "j": "Le ventre musculaire se rétracte vers le haut, formant une masse antérieure du bras (« signe de Popeye » distal) avec ecchymose du pli du coude."
-    },
-    {
-     "t": "Une rétraction tendineuse formant une masse postérieure au-dessus de l'olécrane",
-     "j": "Faux : une masse postérieure du coude évoque une rupture du triceps ou une bursite olécranienne, pas une rupture du biceps distal (masse antérieure)."
-    },
-    {
-     "t": "Une masse à la face antérieure de l'épaule par migration du chef long du biceps",
-     "j": "Faux : la migration distale du moignon décrit la rupture du tendon proximal (long biceps), au niveau de l'épaule, non du tendon distal au coude."
-    },
-    {
-     "t": "Une rétraction de l'avant-bras avec masse au bord ulnaire du poignet",
-     "j": "Faux : le biceps distal s'insère sur la tubérosité radiale ; sa rétraction se fait vers le haut du bras, pas vers le poignet."
-    }
-   ]
-  },
-  {
-   "q": "La bursite olécranienne se caractérise par :",
-   "c": 16,
-   "options": [
-    {
-     "t": "Une tuméfaction postérieure du coude, l'extension active restant possible",
-     "correct": true,
-     "j": "La bourse rétro-olécranienne gonfle (traumatisme, goutte, infection) en laissant la mobilité conservée, ce qui la distingue d'une atteinte intra-articulaire."
-    },
-    {
-     "t": "Une tuméfaction postérieure du coude avec blocage complet de l'extension",
-     "j": "Faux : dans la bursite, l'extension reste possible ; un blocage articulaire oriente vers une atteinte intra-articulaire (épanchement, corps étranger)."
-    },
-    {
-     "t": "Une tuméfaction antérieure du coude limitant la flexion",
-     "j": "Faux : la bourse atteinte est postérieure (rétro-olécranienne) ; il n'y a pas de tuméfaction antérieure limitant la flexion."
-    },
-    {
-     "t": "Une tuméfaction postérieure du coude avec épanchement intra-articulaire associé",
-     "j": "Faux : la bursite est une atteinte des parties molles extra-articulaires ; elle ne communique pas avec l'articulation et ne donne pas d'épanchement intra-articulaire."
-    }
-   ]
-  },
-  {
-   "q": "La tendinite du triceps brachial provoque une douleur :",
-   "c": 6,
-   "options": [
-    {
-     "t": "Postérieure du coude, majorée par l'extension résistée",
-     "correct": true,
-     "j": "Le triceps est extenseur du coude ; sa contraction résistée réveille la douleur postérieure de l'insertion olécranienne."
-    },
-    {
-     "t": "Médiale du coude, majorée par la pronation résistée",
-     "j": "Cela évoque une épicondylalgie médiale (épitrochléite) des fléchisseurs-pronateurs, non le triceps."
-    },
-    {
-     "t": "Latérale du coude, majorée par la supination résistée",
-     "j": "Cela évoque une épicondylalgie latérale des extenseurs-supinateurs, non le triceps."
-    },
-    {
-     "t": "Antérieure du coude, majorée par la flexion résistée",
-     "j": "Cela oriente vers une atteinte du biceps distal (fléchisseur-supinateur), non le triceps."
-    }
-   ]
-  },
+  {"q":"La tendinopathie (ou rupture) du tendon distal du biceps se traduit par une douleur aggravée par :","c":13,"options":[{"t":"La flexion du coude et la supination de l'avant-bras contre résistance","correct":true,"j":"Le biceps brachial est fléchisseur du coude et supinateur ; la résistance à la flexion-supination réveille la douleur."},{"t":"L'extension du coude contre résistance","j":"L'extension résistée sollicite le triceps."},{"t":"L'extension du poignet contre résistance","j":"Cela teste les extenseurs (épicondyle latéral), pas le biceps distal."},{"t":"La pronation pure du poignet","j":"La pronation isolée ne met pas le biceps en tension comme le fait la supination résistée."}]},
+  {"q":"En cas de rupture complète du tendon distal du biceps, on observe typiquement :","c":13,"options":[{"t":"Une rétraction du corps musculaire formant une masse à la face antérieure du bras","correct":true,"j":"Le ventre musculaire se rétracte vers le haut, formant une masse antérieure du bras (« signe de Popeye » distal) avec ecchymose du pli du coude."},{"t":"Une rétraction tendineuse formant une masse postérieure au-dessus de l'olécrane","j":"Faux : une masse postérieure du coude évoque une rupture du triceps ou une bursite olécranienne, pas une rupture du biceps distal (masse antérieure)."},{"t":"Une masse à la face antérieure de l'épaule par migration du chef long du biceps","j":"Faux : la migration distale du moignon décrit la rupture du tendon proximal (long biceps), au niveau de l'épaule, non du tendon distal au coude."},{"t":"Une rétraction de l'avant-bras avec masse au bord ulnaire du poignet","j":"Faux : le biceps distal s'insère sur la tubérosité radiale ; sa rétraction se fait vers le haut du bras, pas vers le poignet."}]},
+  {"q":"La bursite olécranienne se caractérise par :","c":13,"options":[{"t":"Une tuméfaction postérieure du coude, l'extension active restant possible","correct":true,"j":"La bourse rétro-olécranienne gonfle (traumatisme, goutte, infection) en laissant la mobilité conservée, ce qui la distingue d'une atteinte intra-articulaire."},{"t":"Une tuméfaction postérieure du coude avec blocage complet de l'extension","j":"Faux : dans la bursite, l'extension reste possible ; un blocage articulaire oriente vers une atteinte intra-articulaire (épanchement, corps étranger)."},{"t":"Une tuméfaction antérieure du coude limitant la flexion","j":"Faux : la bourse atteinte est postérieure (rétro-olécranienne) ; il n'y a pas de tuméfaction antérieure limitant la flexion."},{"t":"Une tuméfaction postérieure du coude avec épanchement intra-articulaire associé","j":"Faux : la bursite est une atteinte des parties molles extra-articulaires ; elle ne communique pas avec l'articulation et ne donne pas d'épanchement intra-articulaire."}]},
+  {"q":"La tendinite du triceps brachial provoque une douleur :","c":13,"options":[{"t":"Postérieure du coude, majorée par l'extension résistée","correct":true,"j":"Le triceps est extenseur du coude ; sa contraction résistée réveille la douleur postérieure de l'insertion olécranienne."},{"t":"Médiale du coude, majorée par la pronation résistée","j":"Cela évoque une épicondylalgie médiale (épitrochléite) des fléchisseurs-pronateurs, non le triceps."},{"t":"Latérale du coude, majorée par la supination résistée","j":"Cela évoque une épicondylalgie latérale des extenseurs-supinateurs, non le triceps."},{"t":"Antérieure du coude, majorée par la flexion résistée","j":"Cela oriente vers une atteinte du biceps distal (fléchisseur-supinateur), non le triceps."}]},
   {
    "q": "Une douleur du coude diffuse, irradiante, sans signes locaux clairs, doit faire évoquer :",
    "c": 13,
@@ -240910,52 +238766,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'arthrose du coude :",
-   "c": 14,
-   "options": [
-    {
-     "t": "Est le plus souvent secondaire (post-traumatique ou nécrose avasculaire)",
-     "correct": true,
-     "j": "Au coude, l'arthrose primaire est rare ; elle est surtout secondaire à un traumatisme ancien ou à une nécrose avasculaire."
-    },
-    {
-     "t": "Est le plus souvent primaire et idiopathique de l'adulte âgé",
-     "j": "Faux : au coude, contrairement au genou ou à la hanche, la forme secondaire prédomine largement."
-    },
-    {
-     "t": "Touche surtout la radio-ulnaire distale et le carpe",
-     "j": "Faux : il s'agit de l'arthrose du coude, atteignant l'articulation huméro-ulnaire et huméro-radiale."
-    },
-    {
-     "t": "Est plus fréquente chez la femme jeune sportive",
-     "j": "Faux : la forme secondaire du coude prédomine chez l'homme après surmenage ou traumatisme, non la femme jeune."
-    }
-   ]
-  },
-  {
-   "q": "Une douleur du coude reproduite par la contraction résistée et la palpation de l'insertion tendineuse, sans limitation des mouvements passifs, oriente vers :",
-   "c": 6,
-   "options": [
-    {
-     "t": "Une origine tendineuse (enthésopathie)",
-     "correct": true,
-     "j": "La douleur au testing résisté et à la palpation d'insertion, avec passif normal, signe une atteinte tendineuse."
-    },
-    {
-     "t": "Une origine articulaire (arthrose ou synovite)",
-     "j": "Une atteinte articulaire limiterait et rendrait douloureux les mouvements passifs, alors qu'ils sont ici normaux."
-    },
-    {
-     "t": "Une bursite rétro-olécranienne",
-     "j": "La bursite donne une tuméfaction fluctuante postérieure palpable, et la douleur n'est pas spécifiquement reproduite par la contraction résistée de l'insertion tendineuse."
-    },
-    {
-     "t": "Une compression tronculaire nerveuse",
-     "j": "Une atteinte nerveuse donnerait des paresthésies systématisées et des signes neurologiques distaux, non une douleur d'insertion reproduite au testing résisté."
-    }
-   ]
-  },
+  {"q":"L'arthrose du coude :","c":13,"options":[{"t":"Est le plus souvent secondaire (post-traumatique ou nécrose avasculaire)","correct":true,"j":"Au coude, l'arthrose primaire est rare ; elle est surtout secondaire à un traumatisme ancien ou à une nécrose avasculaire."},{"t":"Est le plus souvent primaire et idiopathique de l'adulte âgé","j":"Faux : au coude, contrairement au genou ou à la hanche, la forme secondaire prédomine largement."},{"t":"Touche surtout la radio-ulnaire distale et le carpe","j":"Faux : il s'agit de l'arthrose du coude, atteignant l'articulation huméro-ulnaire et huméro-radiale."},{"t":"Est plus fréquente chez la femme jeune sportive","j":"Faux : la forme secondaire du coude prédomine chez l'homme après surmenage ou traumatisme, non la femme jeune."}]},
+  {"q":"Une douleur du coude reproduite par la contraction résistée et la palpation de l'insertion tendineuse, sans limitation des mouvements passifs, oriente vers :","c":13,"options":[{"t":"Une origine tendineuse (enthésopathie)","correct":true,"j":"La douleur au testing résisté et à la palpation d'insertion, avec passif normal, signe une atteinte tendineuse."},{"t":"Une origine articulaire (arthrose ou synovite)","j":"Une atteinte articulaire limiterait et rendrait douloureux les mouvements passifs, alors qu'ils sont ici normaux."},{"t":"Une bursite rétro-olécranienne","j":"La bursite donne une tuméfaction fluctuante postérieure palpable, et la douleur n'est pas spécifiquement reproduite par la contraction résistée de l'insertion tendineuse."},{"t":"Une compression tronculaire nerveuse","j":"Une atteinte nerveuse donnerait des paresthésies systématisées et des signes neurologiques distaux, non une douleur d'insertion reproduite au testing résisté."}]},
   {
    "q": "La ténosynovite de De Quervain affecte les tendons :",
    "c": 14,
@@ -242888,29 +240700,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lors du screening du coude, quel signe N'est PAS considéré comme propre à une pathologie du coude ?",
-   "c": 6,
-   "options": [
-    {
-     "t": "a. Lésions cutanées de type eczéma au-dessus de l'olécrane.",
-     "correct": true,
-     "j": "Les lésions cutanées d'eczéma sus-olécrânien relèvent d'une pathologie dermatologique (drapeau cutané), non d'une pathologie musculo-squelettique propre au coude."
-    },
-    {
-     "t": "b. Blocages articulaires pendant le mouvement.",
-     "j": "Les blocages articulaires (corps étranger intra-articulaire, souris articulaire) sont un signe propre à une pathologie du coude."
-    },
-    {
-     "t": "c. Lourdeur ou engourdissement de l'avant-bras.",
-     "j": "La lourdeur ou l'engourdissement de l'avant-bras peut traduire une atteinte neurologique liée au coude (compression nerveuse), signe à explorer dans le screening du coude."
-    },
-    {
-     "t": "d. Craquements pendant le mouvement.",
-     "j": "Les craquements articulaires lors du mouvement sont un signe mécanique propre à une pathologie du coude."
-    }
-   ]
-  },
+  {"q":"Lors du screening du coude, quel signe N'est PAS considéré comme propre à une pathologie du coude ?","c":13,"options":[{"t":"a. Lésions cutanées de type eczéma au-dessus de l'olécrane.","correct":true,"j":"Les lésions cutanées d'eczéma sus-olécrânien relèvent d'une pathologie dermatologique (drapeau cutané), non d'une pathologie musculo-squelettique propre au coude."},{"t":"b. Blocages articulaires pendant le mouvement.","j":"Les blocages articulaires (corps étranger intra-articulaire, souris articulaire) sont un signe propre à une pathologie du coude."},{"t":"c. Lourdeur ou engourdissement de l'avant-bras.","j":"La lourdeur ou l'engourdissement de l'avant-bras peut traduire une atteinte neurologique liée au coude (compression nerveuse), signe à explorer dans le screening du coude."},{"t":"d. Craquements pendant le mouvement.","j":"Les craquements articulaires lors du mouvement sont un signe mécanique propre à une pathologie du coude."}]},
   {
    "q": "Une douleur à la styloïde radiale qui augmente avec la préhension et les mouvements du pouce suggère :",
    "c": 14,
@@ -243049,29 +240839,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans laquelle des maladies suivantes les corticoïdes ne sont-ils pas utilisés comme traitement ?",
-   "c": 9,
-   "options": [
-    {
-     "t": "Polymyosite.",
-     "j": "Le traitement de la myosite auto-immune repose en première ligne sur les corticoïdes oraux à forte dose, éventuellement associés aux immunosuppresseurs."
-    },
-    {
-     "t": "Lupus érythémateux.",
-     "j": "Dans les formes graves de lupus, notamment la néphrite lupique, le cours associe corticoïdes à forte dose, immunosuppresseurs et cytotoxiques."
-    },
-    {
-     "t": "Ostéoporose.",
-     "correct": true,
-     "j": "Le traitement de l'ostéoporose associe calcium, vitamine D, anti-résorbeurs et ostéoformateurs ; les corticoïdes en sont au contraire une cause (ostéoporose secondaire dès 3 à 6 mois de traitement)."
-    },
-    {
-     "t": "Polyarthrite rhumatoïde.",
-     "j": "Le traitement médical de la polyarthrite rhumatoïde comprend les AINS et les corticoïdes, avant ou avec le méthotrexate et les biothérapies."
-    }
-   ]
-  },
+  {"q":"Dans laquelle des maladies suivantes les corticoïdes ne sont-ils pas utilisés comme traitement ?","c":[8,9],"options":[{"t":"Polymyosite.","j":"Le traitement de la myosite auto-immune repose en première ligne sur les corticoïdes oraux à forte dose, éventuellement associés aux immunosuppresseurs."},{"t":"Lupus érythémateux.","j":"Dans les formes graves de lupus, notamment la néphrite lupique, le cours associe corticoïdes à forte dose, immunosuppresseurs et cytotoxiques."},{"t":"Ostéoporose.","correct":true,"j":"Le traitement de l'ostéoporose associe calcium, vitamine D, anti-résorbeurs et ostéoformateurs ; les corticoïdes en sont au contraire une cause (ostéoporose secondaire dès 3 à 6 mois de traitement)."},{"t":"Polyarthrite rhumatoïde.","j":"Le traitement médical de la polyarthrite rhumatoïde comprend les AINS et les corticoïdes, avant ou avec le méthotrexate et les biothérapies."}]},
   {
    "q": "Concernant les données cliniques les plus fréquentes des processus inflammatoires articulaires, une association n'est pas correcte :",
    "c": 9,
@@ -243325,29 +241093,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lequel des éléments suivants n'est PAS un facteur de risque de développement de l'arthrose ?",
-   "c": 16,
-   "options": [
-    {
-     "t": "Prise occasionnelle d'alcool",
-     "correct": true,
-     "j": "L'alcool ne figure dans aucune des deux listes de facteurs de risque d'arthrose du cours ; il n'intervient, et seulement en consommation excessive, que dans la nécrose avasculaire de l'os."
-    },
-    {
-     "t": "Vieillissement articulaire",
-     "j": "L'âge est le premier facteur de risque systémique d'arthrose, 80 % des patients ayant plus de 80 ans."
-    },
-    {
-     "t": "Obésité",
-     "j": "L'obésité est citée parmi les facteurs locaux : elle augmente la charge appliquée à un cartilage normal, mécanisme de l'arthrose secondaire."
-    },
-    {
-     "t": "Fractures intra-articulaires",
-     "j": "Une fracture articulaire altère l'alignement et la congruence de l'articulation et conduit à une arthrose secondaire mécanique."
-    }
-   ]
-  }
+  {"q":"Lequel des éléments suivants n'est PAS un facteur de risque de développement de l'arthrose ?","c":10,"options":[{"t":"Prise occasionnelle d'alcool","correct":true,"j":"L'alcool ne figure dans aucune des deux listes de facteurs de risque d'arthrose du cours ; il n'intervient, et seulement en consommation excessive, que dans la nécrose avasculaire de l'os."},{"t":"Vieillissement articulaire","j":"L'âge est le premier facteur de risque systémique d'arthrose, 80 % des patients ayant plus de 80 ans."},{"t":"Obésité","j":"L'obésité est citée parmi les facteurs locaux : elle augmente la charge appliquée à un cartilage normal, mécanisme de l'arthrose secondaire."},{"t":"Fractures intra-articulaires","j":"Une fracture articulaire altère l'alignement et la congruence de l'articulation et conduit à une arthrose secondaire mécanique."}]}
  ],
  "osteo1": [
   {
@@ -248368,25 +246114,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant le tableau clinique de la hernie discale, indiquez la réponse CORRECTE :",
-   "c": 5,
-   "options": [
-    {
-     "t": "La radiographie révèle une augmentation de la hauteur du disque.",
-     "j": "Faux : dans la pathologie discale, la radiographie montre plutôt un pincement (diminution) de la hauteur du disque, non une augmentation."
-    },
-    {
-     "t": "À l'examen clinique, l'extension est généralement moins limitée que la flexion.",
-     "correct": true,
-     "j": "Exact : dans la hernie discale, la flexion antérieure aggrave la douleur et est plus limitée, tandis que l'extension est mieux tolérée et donc moins limitée."
-    },
-    {
-     "t": "On peut observer des douleurs cervicales, des douleurs au bras et des signes vestibulaires.",
-     "j": "Les signes vestibulaires (vertiges) ne font pas partie du tableau d'une hernie discale ; cervicalgie et brachialgie peuvent exister mais l'association aux signes vestibulaires rend l'affirmation incorrecte."
-    }
-   ]
-  },
+  {"q":"Concernant le tableau clinique de la hernie discale, indiquez la réponse CORRECTE :","c":5,"options":[{"t":"La radiographie révèle une augmentation de la hauteur du disque.","j":"Faux : Nueva CERVICALES p.17 — « la radiographie simple montre une réduction de la hauteur du disque », donc un pincement et non une augmentation."},{"t":"À l'examen clinique, l'extension est généralement moins limitée que la flexion.","j":"Inverse : Nueva CERVICALES p.17 décrit la limitation d'amplitude comme « extension > flexion » — c'est l'extension qui est la PLUS limitée, pas la moins."},{"t":"On peut observer des douleurs cervicales, des douleurs au bras et des signes vestibulaires.","correct":true,"j":"Nueva CERVICALES p.17, SIGNES CLINIQUES de la pathologie discale cervicale : « douleurs cervicales axiales, douleur à l'épaule, douleur du bras non radiculaire, résultats vestibulaires ». Les signes vestibulaires font donc bien partie du tableau enseigné."}]},
   {
    "q": "Lors du mouvement de rotation postérieure de l'iliaque, on observe :",
    "c": 6,
@@ -248482,25 +246210,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans une lésion du sacrum en TDA, on trouve à l'examen :",
-   "c": 6,
-   "options": [
-    {
-     "t": "Base droite du sacrum en antérieur.",
-     "correct": true,
-     "j": "Vrai : une torsion droite sur axe oblique droit (TDA) signifie que le sacrum a tourné de telle sorte que la base droite se porte en avant (base droite antérieure), avec l'AIL gauche postérieur et inférieur."
-    },
-    {
-     "t": "Base droite du sacrum en postérieur.",
-     "j": "Faux : une base droite postérieure correspondrait à une torsion gauche sur axe oblique droit (torsion antéversée type \"backward\"), et non à une TDA (torsion droite/axe droit) où la base droite est antérieure."
-    },
-    {
-     "t": "Angle inféro-latéral gauche du sacrum en postérieur et ascensionnel.",
-     "j": "Faux : dans une TDA, l'AIL gauche est postérieur mais inférieur (descendu), pas ascensionnel ; cette combinaison \"postérieur et ascensionnel\" ne correspond pas au schéma de la torsion droite sur axe droit."
-    }
-   ]
-  },
+  {"q":"Dans une lésion du sacrum en TII (torsion antérieure gauche sur axe gauche), on trouve à l'examen :","c":6,"options":[{"t":"Base droite du sacrum en antérieur.","correct":true,"j":"PELVIS Y SACRO diapo 55, signes cliniques de la TII : « Base droite antérieure, sulcus droit profond, AIL postérieur gauche, jambe droite longue, axe gauche ». La base droite part donc bien en avant."},{"t":"Base droite du sacrum en postérieur.","j":"Une base droite POSTÉRIEURE signe une torsion postérieure (diapo 57, exemple TDI : « base arrière droite, sulcus droit supprimé, AIL antérieur gauche, jambe droite courte »), pas une TII."},{"t":"Angle inféro-latéral gauche du sacrum en postérieur et ascensionnel.","j":"La diapo 55 place bien l'AIL gauche en postérieur dans la TII, mais sans l'ascension décrite ici ; cette combinaison ne figure dans aucun tableau du cours."}]},
   {
    "q": "Indique la réponse correcte concernant le sacrum :",
    "c": 6,
@@ -248710,25 +246420,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Pivot de la chaîne AM :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Genoux",
-     "j": "Le genou n'est pas le pivot caractéristique de la chaîne AM ; cette chaîne de flexion s'organise autour du pli de hanche."
-    },
-    {
-     "t": "Chevilles",
-     "j": "La cheville n'est pas le pivot de la chaîne AM (antéro-médiane), qui est centrée sur la flexion de hanche."
-    },
-    {
-     "t": "Hanches",
-     "correct": true,
-     "j": "La chaîne AM (antéro-médiane, chaîne de la flexion et de l'enroulement) a pour pivot la hanche : c'est l'articulation autour de laquelle s'organise l'enroulement/flexion du tronc et des membres inférieurs (rôle majeur du psoas)."
-    }
-   ]
-  },
+  {"q":"Pivot de la chaîne AM :","c":3,"options":[{"t":"Genoux","correct":true,"j":"GDS p.34, tableau des pivots primaires : « Chaîne AM — Pivot GENOUX ». La diapositive 8 le confirme : « la chaîne antérieure (AM) freine le déséquilibre postérieur déclenché par la flexion du genou »."},{"t":"Chevilles","j":"La cheville est le pivot de la chaîne PM (GDS p.34 : « PM — ANKLE »), pas de la chaîne AM."},{"t":"Hanches","j":"La hanche est le pivot des chaînes PL et AL (GDS p.34 : « PL coxo-fémoral, AL coxo-fémoral »), pas celui de la chaîne AM."}]},
   {
    "q": "Que désigne le domaine d'une chaîne ?",
    "c": 3,
@@ -248767,196 +246459,16 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans la pratique clinique RPG, chez un patient de type antérieur avec hypercyphose dorsale et douleurs antérieures de hanche, la famille de postures la plus cohérente pour commencer le traitement est :",
-   "c": 4,
-   "options": [
-    {
-     "t": "Un programme d'exercices analytiques destiné à renforcer les fléchisseurs de hanche.",
-     "j": "La RPG (Souchard) proscrit le travail analytique en raccourcissement : renforcer les fléchisseurs de hanche aggraverait la fermeture antérieure de hanche déjà en cause. La RPG privilégie l'étirement global des chaînes raccourcies."
-    },
-    {
-     "t": "Une posture de danseuse (fermeture de hanche en charge) pour renforcer la chaîne postérieure.",
-     "j": "La fermeture de hanche en charge renforce justement le pattern antérieur pathologique ; ce n'est pas cohérent chez un patient de type antérieur avec douleurs antérieures de hanche."
-    },
-    {
-     "t": "Une posture d'ouverture de hanche avec bras fermés, comme la grenouille au sol ou debout contre le mur.",
-     "correct": true,
-     "j": "Chez un type antérieur (chaîne antérieure/fléchisseurs raccourcis, hypercyphose, fermeture antérieure de hanche), la RPG débute par une posture en ouverture de hanche (ouverture de l'angle coxo-fémoral) avec bras fermés — type grenouille au mur — pour étirer globalement la chaîne antérieure raccourcie et ré-ouvrir le bloc antérieur."
-    }
-   ]
-  },
-  {
-   "q": "Lors du test de raccourcissement de la chaîne postérieure en bipédestation, vous répétez la flexion globale du tronc cette fois-ci avec les genoux fléchis. Le patient ne parvient pas à maintenir un angle tibiotarsien de 90° et doit ouvrir l'angle de cheville pour ne pas tomber en arrière. Cette situation suggère un raccourcissement prioritaire des :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Ischio-jambiers.",
-     "j": "Le genou étant fléchi, les ischio-jambiers (bi-articulaires) sont détendus à la cuisse : la persistance de la rétraction malgré la flexion du genou élimine les ischio-jambiers comme responsables prioritaires."
-    },
-    {
-     "t": "Gastrocnémiens.",
-     "j": "Les gastrocnémiens sont bi-articulaires (genou + cheville) : avec le genou fléchi, ils sont mis en détente et ne maintiennent plus la cheville en flexion plantaire. Ce ne sont donc pas eux qui limitent ici."
-    },
-    {
-     "t": "Soléaires.",
-     "correct": true,
-     "j": "Le soléaire est mono-articulaire (n'agit que sur la cheville). En flexion de genou, gastrocnémiens et ischio-jambiers sont détendus ; si le déficit de flexion dorsale de cheville (impossibilité de tenir 90°, ouverture de l'angle) persiste, il signe un raccourcissement prioritaire du soléaire."
-    }
-   ]
-  },
-  {
-   "q": "Vous travaillez en posture debout contre le mur avec un patient présentant un blocage inspiratoire costal haut et une respiration thoracique haute dominante; la stratégie respiratoire la plus indiquée est de :",
-   "c": 6,
-   "options": [
-    {
-     "t": "Utiliser la respiration paradoxale en « soupirant en gonflant le ventre » afin de rectifier la rigidité costale haute.",
-     "correct": true,
-     "j": "En RPG/SGA, face à un blocage inspiratoire costal haut, on cherche l'expiration et l'abaissement des côtes : la respiration paradoxale (inspirer en rentrant le ventre / souffler en gonflant le ventre) relâche le diaphragme inspiratoire et la chaîne inspiratoire costale haute, c'est la stratégie correcte."
-    },
-    {
-     "t": "Favoriser une inspiration thoracique profonde pour mobiliser les premières côtes.",
-     "j": "Faux : majorer l'inspiration thoracique haute renforce le blocage costal haut et l'hypertonie de la chaîne inspiratoire au lieu de la relâcher."
-    },
-    {
-     "t": "Bloquer la respiration pour stabiliser la colonne pendant la progression posturale.",
-     "j": "Faux : l'apnée fige les compensations et empêche le relâchement progressif recherché ; la respiration doit rester libre et dirigée vers l'expiration."
-    }
-   ]
-  },
-  {
-   "q": "Pendant l'exécution d'une posture de SGA, vous observez une augmentation progressive de la tension dans la zone lombaire centrale alors que le patient poursuit la progression vers les extrémités ; la correction prioritaire consiste à :",
-   "c": 4,
-   "options": [
-    {
-     "t": "Interrompre la séance et passer immédiatement à des étirements passifs segmentaires.",
-     "j": "Faux : la RPG/SGA proscrit les étirements passifs analytiques ; on ne suspend pas brutalement la posture globale active pour un travail segmentaire passif."
-    },
-    {
-     "t": "Demander au patient d'augmenter encore la force de traction des mains et des pieds.",
-     "j": "Faux : augmenter la traction périphérique aggrave la mise en tension centrale et favorise les compensations lombaires au lieu de les corriger."
-    },
-    {
-     "t": "Réduire légèrement l'amplitude périphérique et restaurer le relâchement central dans la zone diaphragmatique et lombaire.",
-     "correct": true,
-     "j": "Correct : le principe de progression centripète impose de toujours préserver le relâchement du centre (diaphragme/lombaires) ; on diminue l'amplitude aux extrémités pour rétablir l'allongement central sans compensation."
-    }
-   ]
-  },
-  {
-   "q": "En s'appuyant sur l'équation de fluence (fluage), pour limiter le risque de blessure lors de l'allongement d'une chaîne très raide, la meilleure adaptation pratique est de :",
-   "c": 4,
-   "options": [
-    {
-     "t": "Considérer que l'allongement est indépendant du temps si la force est constante.",
-     "j": "Faux : le fluage est par définition une déformation viscoélastique dépendante du temps sous charge constante ; l'allongement n'est donc pas indépendant du temps."
-    },
-    {
-     "t": "Diminuer la force appliquée et prolonger le temps de traction dans la posture.",
-     "correct": true,
-     "j": "Correct : le fluage permet un allongement progressif sous faible charge maintenue dans la durée ; une force modérée prolongée respecte le tissu et limite le risque de blessure, conformément à l'approche posturale lente de Souchard."
-    },
-    {
-     "t": "Augmenter fortement la force de traction et réduire le temps de maintien.",
-     "j": "Faux : une force élevée appliquée brièvement sollicite la composante élastique brutale et augmente le risque lésionnel, à l'opposé du fluage."
-    }
-   ]
-  },
-  {
-   "q": "Un patient arrive en phase aiguë, très douloureux, avec difficulté à se tenir debout : selon les recommandations RPG, la manière la plus adaptée de commencer le traitement est de :",
-   "c": 4,
-   "options": [
-    {
-     "t": "Travailler sans gravité, en décubitus, en choisissant des postures en ouverture ou fermeture de hanche adaptées à sa morphologie.",
-     "correct": true,
-     "j": "Correct : en phase aiguë douloureuse, on débute sans charge ni gravité (décubitus) avec des postures d'ouverture ou de fermeture de hanche choisies selon la morphologie, pour traiter sans aggraver la douleur."
-    },
-    {
-     "t": "Travailler la morphologie en charge, en position debout, pour faciliter les ajustements posturaux.",
-     "j": "Faux : le travail en charge debout est réservé à un patient stabilisé ; il est inadapté et mal toléré en phase aiguë très douloureuse."
-    },
-    {
-     "t": "Proposer uniquement des exercices analytiques de renforcement musculaire segmentaire.",
-     "j": "Faux : la RPG est une approche globale et active ; le renforcement analytique segmentaire isolé est contraire à la méthode et inadapté à la phase aiguë."
-    }
-   ]
-  },
-  {
-   "q": "En posture de « danseuse » (fermeture de hanche en charge), vous observez une rotation interne des genoux et une cambrure lombaire excessive : la conduite recommandée est de :",
-   "c": 4,
-   "options": [
-    {
-     "t": "Passer directement à une posture d'ouverture de hanche sans corriger les compensations.",
-     "j": "Faux : changer de posture sans corriger laisse persister les compensations ; la correction des déviations est prioritaire avant tout changement."
-    },
-    {
-     "t": "Continuer la progression pour augmenter l'étirement, en espérant que la compensation disparaisse spontanément.",
-     "j": "Faux : poursuivre la mise en tension malgré une compensation l'aggrave et fixe le déséquilibre ; une compensation ne se résout pas spontanément en forçant."
-    },
-    {
-     "t": "Interrompre la progression, corriger la rotation des genoux et la cambrure lombaire, puis reprendre seulement si la posture reste dans l'axe.",
-     "correct": true,
-     "j": "Correct : la règle en RPG/SGA est d'arrêter la progression dès qu'apparaît une compensation, de la corriger (axer les genoux, effacer la cambrure) et de ne reprendre que si l'alignement est maintenu."
-    }
-   ]
-  },
-  {
-   "q": "Vous souhaitez cibler la chaîne postérieure chez un patient présentant douleurs lombaires et tension des ischio-jambiers : parmi les propositions suivantes, la combinaison posture-famille la plus pertinente est :",
-   "c": 6,
-   "options": [
-    {
-     "t": "Debout contre le mur (ouverture de hanche, bras adductés) pour travailler la chaîne inspiratoire et la chaîne maîtresse antérieure.",
-     "j": "Faux : cette posture cible la chaîne maîtresse antérieure et inspiratoire, pas la chaîne postérieure ni les ischio-jambiers visés ici."
-    },
-    {
-     "t": "Grenouille au sol bras joints (ouverture de hanche, bras adductés) pour travailler la chaîne antérieure.",
-     "j": "Faux : la grenouille au sol en ouverture travaille la chaîne antérieure, alors que l'objectif est la chaîne postérieure et les ischio-jambiers."
-    },
-    {
-     "t": "Grenouille en l'air bras joints (fermeture de hanche, bras adductés) pour travailler la chaîne maîtresse postérieure et la chaîne latérale de la jambe.",
-     "correct": true,
-     "j": "Correct : la grenouille en l'air en fermeture de hanche met en tension la chaîne maîtresse postérieure (et la chaîne latérale de la jambe), ce qui cible précisément les ischio-jambiers et la composante lombaire postérieure."
-    }
-   ]
-  },
-  {
-   "q": "Selon les principes énoncés par Souchard, le principe de « globalité » s'oppose principalement à :",
-   "c": 3,
-   "options": [
-    {
-     "t": "L'idée que les muscles statiques sont organisés en chaînes fonctionnelles interconnectées.",
-     "j": "Faux : c'est au contraire le fondement même de la globalité de Souchard (muscles statiques organisés en chaînes) ; elle ne s'y oppose pas."
-    },
-    {
-     "t": "L'utilisation de postures actives et progressives pour traiter les déséquilibres posturaux.",
-     "j": "Faux : les postures actives et progressives sont précisément l'outil thérapeutique de la RPG ; la globalité ne s'oppose pas à elles."
-    },
-    {
-     "t": "La tendance à travailler de manière analytique ou locale sur un segment isolé.",
-     "correct": true,
-     "j": "Correct : le principe de globalité s'oppose au travail analytique/local sur un segment isolé, puisque corriger un seul point déplace la tension ailleurs dans la chaîne ; il faut traiter l'ensemble de la chaîne musculaire."
-    }
-   ]
-  },
-  {
-   "q": "Les hégémonies sont définies comme des fonctions vitales sans lesquelles la vie est en danger, que le corps cherchera à préserver à tout prix. Chez un patient dont l'activité professionnelle exige de manipuler finement des objets (par exemple, un chirurgien ou un musicien), quelle hégémonie est prioritairement en jeu pour assurer cette fonctionnalité supérieure des membres supérieurs ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "La respiration.",
-     "j": "La respiration est bien une hégémonie fondamentale dans la méthode GDS, mais elle relève de la fonction vitale axiale et n'est pas la fonction spécifiquement mobilisée pour la manipulation fine des objets par les membres supérieurs."
-    },
-    {
-     "t": "Les mains libres.",
-     "correct": true,
-     "j": "Dans la méthode GDS (Godelieve Denys-Struyf), l'hégémonie des « mains libres » correspond à la fonction supérieure des membres supérieurs : libérées de la locomotion par la verticalisation, les mains assurent la préhension et la manipulation fine, fonction prioritairement sollicitée chez le chirurgien ou le musicien."
-    },
-    {
-     "t": "La locomotion.",
-     "j": "La locomotion (verticalité/déplacement) est une hégémonie, mais elle concerne les membres inférieurs et le déplacement du corps ; c'est précisément sa prise en charge par les jambes qui libère les mains pour leur fonctionnalité supérieure, qui est donc l'hégémonie réellement en jeu ici."
-    }
-   ]
-  },
+  {"q":"Dans la pratique clinique RPG, chez un patient de type antérieur avec hypercyphose dorsale et douleurs antérieures de hanche, la famille de postures la plus cohérente pour commencer le traitement est :","c":7,"options":[{"t":"Un programme d'exercices analytiques destiné à renforcer les fléchisseurs de hanche.","j":"La RPG (Souchard) proscrit le travail analytique en raccourcissement : renforcer les fléchisseurs de hanche aggraverait la fermeture antérieure de hanche déjà en cause. La RPG privilégie l'étirement global des chaînes raccourcies."},{"t":"Une posture de danseuse (fermeture de hanche en charge) pour renforcer la chaîne postérieure.","j":"La fermeture de hanche en charge renforce justement le pattern antérieur pathologique ; ce n'est pas cohérent chez un patient de type antérieur avec douleurs antérieures de hanche."},{"t":"Une posture d'ouverture de hanche avec bras fermés, comme la grenouille au sol ou debout contre le mur.","correct":true,"j":"Chez un type antérieur (chaîne antérieure/fléchisseurs raccourcis, hypercyphose, fermeture antérieure de hanche), la RPG débute par une posture en ouverture de hanche (ouverture de l'angle coxo-fémoral) avec bras fermés — type grenouille au mur — pour étirer globalement la chaîne antérieure raccourcie et ré-ouvrir le bloc antérieur."}]},
+  {"q":"Lors du test de raccourcissement de la chaîne postérieure en bipédestation, vous répétez la flexion globale du tronc cette fois-ci avec les genoux fléchis. Le patient ne parvient pas à maintenir un angle tibiotarsien de 90° et doit ouvrir l'angle de cheville pour ne pas tomber en arrière. Cette situation suggère un raccourcissement prioritaire des :","c":7,"options":[{"t":"Ischio-jambiers.","j":"Le genou étant fléchi, les ischio-jambiers (bi-articulaires) sont détendus à la cuisse : la persistance de la rétraction malgré la flexion du genou élimine les ischio-jambiers comme responsables prioritaires."},{"t":"Gastrocnémiens.","j":"Les gastrocnémiens sont bi-articulaires (genou + cheville) : avec le genou fléchi, ils sont mis en détente et ne maintiennent plus la cheville en flexion plantaire. Ce ne sont donc pas eux qui limitent ici."},{"t":"Soléaires.","correct":true,"j":"Le soléaire est mono-articulaire (n'agit que sur la cheville). En flexion de genou, gastrocnémiens et ischio-jambiers sont détendus ; si le déficit de flexion dorsale de cheville (impossibilité de tenir 90°, ouverture de l'angle) persiste, il signe un raccourcissement prioritaire du soléaire."}]},
+  {"q":"Vous travaillez en posture debout contre le mur avec un patient présentant un blocage inspiratoire costal haut et une respiration thoracique haute dominante; la stratégie respiratoire la plus indiquée est de :","c":7,"options":[{"t":"Utiliser la respiration paradoxale en « soupirant en gonflant le ventre » afin de rectifier la rigidité costale haute.","correct":true,"j":"En RPG/SGA, face à un blocage inspiratoire costal haut, on cherche l'expiration et l'abaissement des côtes : la respiration paradoxale (inspirer en rentrant le ventre / souffler en gonflant le ventre) relâche le diaphragme inspiratoire et la chaîne inspiratoire costale haute, c'est la stratégie correcte."},{"t":"Favoriser une inspiration thoracique profonde pour mobiliser les premières côtes.","j":"Faux : majorer l'inspiration thoracique haute renforce le blocage costal haut et l'hypertonie de la chaîne inspiratoire au lieu de la relâcher."},{"t":"Bloquer la respiration pour stabiliser la colonne pendant la progression posturale.","j":"Faux : l'apnée fige les compensations et empêche le relâchement progressif recherché ; la respiration doit rester libre et dirigée vers l'expiration."}]},
+  {"q":"Pendant l'exécution d'une posture de SGA, vous observez une augmentation progressive de la tension dans la zone lombaire centrale alors que le patient poursuit la progression vers les extrémités ; la correction prioritaire consiste à :","c":7,"options":[{"t":"Interrompre la séance et passer immédiatement à des étirements passifs segmentaires.","j":"Faux : la RPG/SGA proscrit les étirements passifs analytiques ; on ne suspend pas brutalement la posture globale active pour un travail segmentaire passif."},{"t":"Demander au patient d'augmenter encore la force de traction des mains et des pieds.","j":"Faux : augmenter la traction périphérique aggrave la mise en tension centrale et favorise les compensations lombaires au lieu de les corriger."},{"t":"Réduire légèrement l'amplitude périphérique et restaurer le relâchement central dans la zone diaphragmatique et lombaire.","correct":true,"j":"Correct : le principe de progression centripète impose de toujours préserver le relâchement du centre (diaphragme/lombaires) ; on diminue l'amplitude aux extrémités pour rétablir l'allongement central sans compensation."}]},
+  {"q":"En s'appuyant sur l'équation de fluence (fluage), pour limiter le risque de blessure lors de l'allongement d'une chaîne très raide, la meilleure adaptation pratique est de :","c":7,"options":[{"t":"Considérer que l'allongement est indépendant du temps si la force est constante.","j":"Faux : le fluage est par définition une déformation viscoélastique dépendante du temps sous charge constante ; l'allongement n'est donc pas indépendant du temps."},{"t":"Diminuer la force appliquée et prolonger le temps de traction dans la posture.","correct":true,"j":"Correct : le fluage permet un allongement progressif sous faible charge maintenue dans la durée ; une force modérée prolongée respecte le tissu et limite le risque de blessure, conformément à l'approche posturale lente de Souchard."},{"t":"Augmenter fortement la force de traction et réduire le temps de maintien.","j":"Faux : une force élevée appliquée brièvement sollicite la composante élastique brutale et augmente le risque lésionnel, à l'opposé du fluage."}]},
+  {"q":"Un patient arrive en phase aiguë, très douloureux, avec difficulté à se tenir debout : selon les recommandations RPG, la manière la plus adaptée de commencer le traitement est de :","c":7,"options":[{"t":"Travailler sans gravité, en décubitus, en choisissant des postures en ouverture ou fermeture de hanche adaptées à sa morphologie.","correct":true,"j":"Correct : en phase aiguë douloureuse, on débute sans charge ni gravité (décubitus) avec des postures d'ouverture ou de fermeture de hanche choisies selon la morphologie, pour traiter sans aggraver la douleur."},{"t":"Travailler la morphologie en charge, en position debout, pour faciliter les ajustements posturaux.","j":"Faux : le travail en charge debout est réservé à un patient stabilisé ; il est inadapté et mal toléré en phase aiguë très douloureuse."},{"t":"Proposer uniquement des exercices analytiques de renforcement musculaire segmentaire.","j":"Faux : la RPG est une approche globale et active ; le renforcement analytique segmentaire isolé est contraire à la méthode et inadapté à la phase aiguë."}]},
+  {"q":"En posture de « danseuse » (fermeture de hanche en charge), vous observez une rotation interne des genoux et une cambrure lombaire excessive : la conduite recommandée est de :","c":7,"options":[{"t":"Passer directement à une posture d'ouverture de hanche sans corriger les compensations.","j":"Faux : changer de posture sans corriger laisse persister les compensations ; la correction des déviations est prioritaire avant tout changement."},{"t":"Continuer la progression pour augmenter l'étirement, en espérant que la compensation disparaisse spontanément.","j":"Faux : poursuivre la mise en tension malgré une compensation l'aggrave et fixe le déséquilibre ; une compensation ne se résout pas spontanément en forçant."},{"t":"Interrompre la progression, corriger la rotation des genoux et la cambrure lombaire, puis reprendre seulement si la posture reste dans l'axe.","correct":true,"j":"Correct : la règle en RPG/SGA est d'arrêter la progression dès qu'apparaît une compensation, de la corriger (axer les genoux, effacer la cambrure) et de ne reprendre que si l'alignement est maintenu."}]},
+  {"q":"Vous souhaitez cibler la chaîne postérieure chez un patient présentant douleurs lombaires et tension des ischio-jambiers : parmi les propositions suivantes, la combinaison posture-famille la plus pertinente est :","c":7,"options":[{"t":"Debout contre le mur (ouverture de hanche, bras adductés) pour travailler la chaîne inspiratoire et la chaîne maîtresse antérieure.","j":"Faux : cette posture cible la chaîne maîtresse antérieure et inspiratoire, pas la chaîne postérieure ni les ischio-jambiers visés ici."},{"t":"Grenouille au sol bras joints (ouverture de hanche, bras adductés) pour travailler la chaîne antérieure.","j":"Faux : la grenouille au sol en ouverture travaille la chaîne antérieure, alors que l'objectif est la chaîne postérieure et les ischio-jambiers."},{"t":"Grenouille en l'air bras joints (fermeture de hanche, bras adductés) pour travailler la chaîne maîtresse postérieure et la chaîne latérale de la jambe.","correct":true,"j":"Correct : la grenouille en l'air en fermeture de hanche met en tension la chaîne maîtresse postérieure (et la chaîne latérale de la jambe), ce qui cible précisément les ischio-jambiers et la composante lombaire postérieure."}]},
+  {"q":"Selon les principes énoncés par Souchard, le principe de « globalité » s'oppose principalement à :","c":7,"options":[{"t":"L'idée que les muscles statiques sont organisés en chaînes fonctionnelles interconnectées.","j":"Faux : c'est au contraire le fondement même de la globalité de Souchard (muscles statiques organisés en chaînes) ; elle ne s'y oppose pas."},{"t":"L'utilisation de postures actives et progressives pour traiter les déséquilibres posturaux.","j":"Faux : les postures actives et progressives sont précisément l'outil thérapeutique de la RPG ; la globalité ne s'oppose pas à elles."},{"t":"La tendance à travailler de manière analytique ou locale sur un segment isolé.","correct":true,"j":"Correct : le principe de globalité s'oppose au travail analytique/local sur un segment isolé, puisque corriger un seul point déplace la tension ailleurs dans la chaîne ; il faut traiter l'ensemble de la chaîne musculaire."}]},
+  {"q":"Les hégémonies sont définies comme des fonctions vitales sans lesquelles la vie est en danger, que le corps cherchera à préserver à tout prix. Chez un patient dont l'activité professionnelle exige de manipuler finement des objets (par exemple, un chirurgien ou un musicien), quelle hégémonie est prioritairement en jeu pour assurer cette fonctionnalité supérieure des membres supérieurs ?","c":7,"options":[{"t":"La respiration.","j":"La respiration est bien une hégémonie fondamentale dans la méthode GDS, mais elle relève de la fonction vitale axiale et n'est pas la fonction spécifiquement mobilisée pour la manipulation fine des objets par les membres supérieurs."},{"t":"Les mains libres.","correct":true,"j":"Dans la méthode GDS (Godelieve Denys-Struyf), l'hégémonie des « mains libres » correspond à la fonction supérieure des membres supérieurs : libérées de la locomotion par la verticalisation, les mains assurent la préhension et la manipulation fine, fonction prioritairement sollicitée chez le chirurgien ou le musicien."},{"t":"La locomotion.","j":"La locomotion (verticalité/déplacement) est une hégémonie, mais elle concerne les membres inférieurs et le déplacement du corps ; c'est précisément sa prise en charge par les jambes qui libère les mains pour leur fonctionnalité supérieure, qui est donc l'hégémonie réellement en jeu ici."}]},
   {
    "q": "Lors de l'évaluation de l'instabilité du rachis cervical supérieur, quelle structure le test de cisaillement antérieur (anterior shear test) vise-t-il spécifiquement à évaluer ?",
    "c": 1,
@@ -251047,25 +248559,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours RPG-SGA, lors de l'examen morphologique du cou, quelle est la courbe correcte par rapport à l'axe du rachis ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "Environ 2,5 doigts",
-     "correct": true,
-     "j": "Le cours RPG-SGA fixe la courbe cervicale correcte par rapport à l'axe CV à 2,5 doigts."
-    },
-    {
-     "t": "Environ 2 à 3 doigts au sommet de la courbe",
-     "j": "Faux : la valeur de 2-3 coups de doigt au sommet de la courbe concerne la région lombaire dans le cours, non le cou (fixé à 2,5 doigts)."
-    },
-    {
-     "t": "Environ 4 doigts",
-     "j": "Faux : le cours retient 2,5 doigts pour la courbe cervicale, non 4 doigts."
-    }
-   ]
-  },
+  {"q":"Selon le cours RPG-SGA, lors de l'examen morphologique du cou, quelle est la courbe correcte par rapport à l'axe du rachis ?","c":7,"options":[{"t":"Environ 2,5 doigts","correct":true,"j":"Le cours RPG-SGA fixe la courbe cervicale correcte par rapport à l'axe CV à 2,5 doigts."},{"t":"Environ 2 à 3 doigts au sommet de la courbe","j":"Faux : la valeur de 2-3 coups de doigt au sommet de la courbe concerne la région lombaire dans le cours, non le cou (fixé à 2,5 doigts)."},{"t":"Environ 4 doigts","j":"Faux : le cours retient 2,5 doigts pour la courbe cervicale, non 4 doigts."}]},
   {
    "q": "Selon le cours RPG-SGA, une antéversion du bassin relève de quelles responsabilités musculaires ?",
    "c": 7,
@@ -251484,25 +248978,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours RPG-SGA, lors de l'examen morphologique de la courbe cervicale, quelle est la courbe correcte de référence par rapport à l'axe vertébral ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "Environ 2,5 doigts",
-     "correct": true,
-     "j": "Exact : au cou, la courbe correcte par rapport à l'axe CV doit être de 2,5 doigts ; au-delà on parle d'hyperlordose, en deçà de rectification."
-    },
-    {
-     "t": "Environ 2 à 3 doigts au sommet de la courbe",
-     "j": "Faux : la valeur de 2-3 coups de doigts au sommet de la courbe est celle des LOMBAIRES, non du cou (référence cervicale = 2,5 doigts)."
-    },
-    {
-     "t": "Environ 4 doigts",
-     "j": "Faux : la référence cervicale du cours est de 2,5 doigts, non 4 doigts."
-    }
-   ]
-  },
+  {"q":"Selon le cours RPG-SGA, lors de l'examen morphologique de la courbe cervicale, quelle est la courbe correcte de référence par rapport à l'axe vertébral ?","c":7,"options":[{"t":"Environ 2,5 doigts","correct":true,"j":"Exact : au cou, la courbe correcte par rapport à l'axe CV doit être de 2,5 doigts ; au-delà on parle d'hyperlordose, en deçà de rectification."},{"t":"Environ 2 à 3 doigts au sommet de la courbe","j":"Faux : la valeur de 2-3 coups de doigts au sommet de la courbe est celle des LOMBAIRES, non du cou (référence cervicale = 2,5 doigts)."},{"t":"Environ 4 doigts","j":"Faux : la référence cervicale du cours est de 2,5 doigts, non 4 doigts."}]},
   {
    "q": "Selon le cours RPG-SGA, une antéversion du bassin engage quelle responsabilité musculaire ?",
    "c": 7,
@@ -251959,25 +249435,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours de RPG-SGA, lors de l'examen morphologique du cou, quelle est la courbe correcte par rapport à l'axe du rachis ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "Environ 2,5 doigts",
-     "correct": true,
-     "j": "Exact : le cours indique que la courbe cervicale correcte par rapport à l'axe CV doit être d'environ 2,5 doigts."
-    },
-    {
-     "t": "Environ 2 à 3 coups de doigts (référence lombaire)",
-     "j": "Faux : 2 à 3 coups de doigts au sommet de la courbe est la valeur de référence des LOMBAIRES, pas du cou qui est à 2,5 doigts."
-    },
-    {
-     "t": "Environ 1,5 doigt",
-     "j": "Faux : la valeur de référence cervicale est de 2,5 doigts ; 1,5 doigt témoignerait d'une rectification de la courbe cervicale, non de la courbe correcte."
-    }
-   ]
-  },
+  {"q":"Selon le cours de RPG-SGA, lors de l'examen morphologique du cou, quelle est la courbe correcte par rapport à l'axe du rachis ?","c":7,"options":[{"t":"Environ 2,5 doigts","correct":true,"j":"Exact : le cours indique que la courbe cervicale correcte par rapport à l'axe CV doit être d'environ 2,5 doigts."},{"t":"Environ 2 à 3 coups de doigts (référence lombaire)","j":"Faux : 2 à 3 coups de doigts au sommet de la courbe est la valeur de référence des LOMBAIRES, pas du cou qui est à 2,5 doigts."},{"t":"Environ 1,5 doigt","j":"Faux : la valeur de référence cervicale est de 2,5 doigts ; 1,5 doigt témoignerait d'une rectification de la courbe cervicale, non de la courbe correcte."}]},
   {
    "q": "Selon le cours de RPG-SGA, à l'examen morphologique, une rectification de la courbe lombaire implique quel coupable ?",
    "c": 7,
@@ -252244,25 +249702,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, dans l'examen morphologique RPG-SGA, quelle est la valeur de référence d'une courbe cervicale correcte par rapport à l'axe ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "2,5 doigts",
-     "correct": true,
-     "j": "Exact : le cours precise pour le cou que la courbe correcte par rapport a l'axe doit etre de 2,5 doigts."
-    },
-    {
-     "t": "2 a 3 doigts au sommet de la courbe",
-     "j": "Faux : 2 a 3 coups de doigt au sommet de la courbe est la valeur de reference des lombaires, pas du cou ou la reference est de 2,5 doigts."
-    },
-    {
-     "t": "1,5 doigt au creux de la courbe",
-     "j": "Faux : la reference cervicale du cours est de 2,5 doigts ; aucune valeur de 1,5 doigt n'est mentionnee pour le cou."
-    }
-   ]
-  },
+  {"q":"Selon le cours, dans l'examen morphologique RPG-SGA, quelle est la valeur de référence d'une courbe cervicale correcte par rapport à l'axe ?","c":7,"options":[{"t":"2,5 doigts","correct":true,"j":"Exact : le cours precise pour le cou que la courbe correcte par rapport a l'axe doit etre de 2,5 doigts."},{"t":"2 a 3 doigts au sommet de la courbe","j":"Faux : 2 a 3 coups de doigt au sommet de la courbe est la valeur de reference des lombaires, pas du cou ou la reference est de 2,5 doigts."},{"t":"1,5 doigt au creux de la courbe","j":"Faux : la reference cervicale du cours est de 2,5 doigts ; aucune valeur de 1,5 doigt n'est mentionnee pour le cou."}]},
   {
    "q": "Selon l'examen morphologique RPG-SGA, une rectification de la courbe lombaire fait porter la responsabilité sur quelle région ?",
    "c": 7,
