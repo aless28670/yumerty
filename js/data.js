@@ -143329,7 +143329,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une clinique de kinésithérapie, ils veulent réaliser une étude avec un nouveau type d'orthèse qui n'a pas encore le marquage CE. Y a-t-il des exigences ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Oui, l'approbation par un comité d'éthique",
@@ -143899,7 +143899,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le domaine des tests de dépistage en kinésithérapie, que signifie le fait qu'un test présente une sensibilité élevée ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Il identifie correctement la plupart des patients en bonne santé",
@@ -144070,7 +144070,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un essai, le chercheur constitue son échantillon en écartant systématiquement les patients d'origine étrangère et ceux de faible niveau socio-économique. Quel principe éthique de base n'est pas respecté ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Le principe de justice",
@@ -144089,7 +144089,7 @@ const QUESTIONS = {
   },
   {
    "q": "La note d'information remise au patient précise que son refus de participer n'entraînera aucune perte des bénéfices auxquels il a droit. Quel principe éthique cette clause protège-t-elle ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Le principe de justice",
@@ -144146,7 +144146,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les tests méniscaux du genou ont une spécificité élevée mais une sensibilité faible. Quelle conclusion peut-on en tirer ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Le test produit très peu de faux négatifs",
@@ -144165,7 +144165,7 @@ const QUESTIONS = {
   },
   {
    "q": "Deux kinésithérapeutes mesurent chacun de leur côté l’amplitude de flexion du même patient avec le même goniomètre, et l’on calcule le coefficient de corrélation intraclasse. Quelle propriété est évaluée ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "La cohérence interne",
@@ -144754,7 +144754,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une cohorte de patients atteints d'une infection pour laquelle un traitement efficace existait a été suivie durant des années sans qu'aucun traitement ne leur soit proposé. Quel principe éthique de base a été bafoué ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "La non-malfaisance",
@@ -144773,7 +144773,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le protocole soumis au comité prévoit un nombre de sujets manifestement insuffisant pour répondre à la question posée, ce qui rendra les résultats inexploitables. Quel principe éthique de base est méconnu ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Le principe de bienfaisance",
@@ -144792,7 +144792,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces mesures inscrites dans un protocole, laquelle relève du principe éthique de justice ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "La souscription d'une assurance compensant les risques encourus",
@@ -144811,7 +144811,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément doit figurer dans le document d'information et le consentement éclairé remis au participant ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Les autres alternatives thérapeutiques existantes",
@@ -144830,7 +144830,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le consentement éclairé est un document signé par :",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Le sujet, ou son représentant légal, et le chercheur responsable",
@@ -144849,7 +144849,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment la confidentialité des données des participants est-elle assurée dans un projet de recherche ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Un code remplace les nom et prénom du sujet dans les bases de données",
@@ -144868,7 +144868,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quel cas le cours admet-il une exception au recueil du consentement pour l'utilisation des données et des échantillons ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Quand le consentement est impossible ou exigerait un effort déraisonnable",
@@ -144887,7 +144887,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la mission du comité de protection des personnes ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Émettre un avis préalable sur toute recherche impliquant la personne humaine",
@@ -144906,7 +144906,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une équipe diffuse les résultats de son essai en omettant les critères de jugement dont les résultats étaient défavorables. Quelle exigence éthique de la recherche n'est pas respectée ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "La communication ponctuelle et précise des résultats",
@@ -145001,7 +145001,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un dynamomètre fournit des valeurs très regroupées lors de mesures répétées, mais toutes supérieures de cinq kilogrammes à la valeur réelle. Comment qualifier cet instrument ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Précis mais inexact",
@@ -145020,7 +145020,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, que mesure la fiabilité d'une méthode de mesure ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Le degré auquel la mesure serait répétée sans variation à différentes occasions",
@@ -145153,7 +145153,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces mesures, laquelle le cours propose-t-il pour accroître la fiabilité et la validité des mesures d'une étude ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Répéter la mesure plusieurs fois et en calculer la moyenne",
@@ -145172,7 +145172,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le même sujet est mesuré à deux moments différents, à quinze jours d'intervalle, afin d'apprécier la stabilité de la mesure dans le temps. Quelle forme de fiabilité est évaluée ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "La fiabilité test-retest",
@@ -145191,7 +145191,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel coefficient évalue l'homogénéité des items d'un questionnaire mesurant une même dimension ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Le coefficient alpha de Cronbach",
@@ -145210,7 +145210,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un test orthopédique de l'épaule est négatif chez un patient qui présente réellement une tendinopathie du supra-épineux. Comment qualifier ce résultat ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Un faux négatif",
@@ -145229,7 +145229,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se calcule la sensibilité d'un test diagnostique ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Vrais positifs divisés par la somme des vrais positifs et des faux négatifs",
@@ -145267,7 +145267,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une population où la prévalence de la pathologie recherchée est faible, à quoi s'attend-on concernant les valeurs prédictives du test ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Une valeur prédictive négative élevée et une valeur prédictive positive faible",
@@ -145286,7 +145286,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle affirmation concernant la relation entre sensibilité et spécificité d'un test est correcte ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "Augmenter la sensibilité se fait au détriment de la spécificité",
@@ -145875,7 +145875,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la déclaration d'Helsinki, qu'est-ce qui doit être placé au-dessus des objectifs de la recherche ?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Le bien-être du sujet qui participe",
@@ -154083,40 +154083,652 @@ const QUESTIONS = {
     }
    ]
   },
-  {"q":"Dans le système de catégorisation des hypothèses, comment considère-t-on l'inflammation qui suit une fracture ?","c":6,"options":[{"t":"Comme un mécanisme de guérison, et non comme une pathologie","correct":true,"j":"L'inflammation qui succède à une fracture est rangée parmi les mécanismes de guérison : elle accompagne la réparation du tissu et n'est pas tenue pour la pathologie elle-même."},{"t":"Comme un facteur contributif qui entretient la plainte du patient","j":"Cette catégorie-là rassemble des éléments extérieurs à la lésion qui prolongent la plainte, alors qu'il s'agit ici d'un processus tissulaire déclenché par la lésion même."},{"t":"Comme une limitation fonctionnelle à quantifier lors du bilan initial","j":"Une limitation fonctionnelle décrit ce que le patient ne parvient plus à accomplir ; l'inflammation est un phénomène tissulaire et non une restriction d'activité."}]},
-  {"q":"Les hypothèses d'altérations physiques et psychologiques d'origine associée portent sur quel ensemble de données ?","c":6,"options":[{"t":"Tout ce que le patient présentait déjà avant le motif qui l'amène à consulter","correct":true,"j":"Cette catégorie recouvre tout ce que le patient a avant la raison pour laquelle il vient en consultation, et qui peut peser sur le traitement."},{"t":"Les symptômes apparus depuis le premier jour de la prise en charge","j":"Ce qui survient une fois le traitement commencé relève du suivi et de la réévaluation, non de ce que le patient portait déjà en arrivant."},{"t":"Les signes mis en évidence par les tests pratiqués au cours de l'examen physique","j":"Les signes produits par les tests appartiennent à l'exploration objective ; cette catégorie-ci porte sur l'état du patient avant même la consultation."}]},
-  {"q":"Un patient ne fournit aucune donnée sur sa santé générale. Que lui demander au titre des altérations d'origine associée ?","c":6,"options":[{"t":"Les maladies ou états cliniques qu'il présente et les médicaments qu'il prend","correct":true,"j":"On lui demande s'il souffre d'une maladie ou d'un état clinique qu'il estime utile de signaler, et quels médicaments il prend, puis on se demande si cela influence ou non la prise en charge."},{"t":"Les gestes professionnels et sportifs qu'il répète au fil de la semaine","j":"Ce que le patient répète dans son travail ou ses loisirs relève d'une autre catégorie d'hypothèses, celle des éléments qui entretiennent la plainte."},{"t":"Les positions et les mouvements qui soulagent ou aggravent sa plainte","j":"Ce qui soulage et ce qui aggrave décrit le comportement des symptômes ; cela ne renseigne pas sur les affections associées que le patient porte par ailleurs."}]},
-  {"q":"À quel type d'intervention un trouble de la coagulation fait-il obstacle ?","c":6,"options":[{"t":"Aux approches invasives","correct":true,"j":"Un patient présentant des problèmes de coagulation ne doit pas bénéficier d'approches invasives, car l'effraction des tissus l'expose à un saignement."},{"t":"Aux mobilisations passives","j":"Mobiliser passivement une articulation ne franchit pas la barrière cutanée et ne relève donc pas de cette contre-indication."},{"t":"Aux tests de provocation","j":"Reproduire les symptômes par un test ne comporte aucun risque hémorragique : ce n'est pas ce que cette contre-indication écarte."}]},
-  {"q":"Quelle modalité d'exercice la grossesse écarte-t-elle à partir du deuxième trimestre ?","c":6,"options":[{"t":"Les abdominaux réalisés en mode concentrique","correct":true,"j":"À partir du deuxième trimestre, le travail abdominal en mode concentrique est écarté : c'est une contre-indication liée à l'état de la patiente, et non à la technique elle-même."},{"t":"Les exercices abdominaux réalisés en mode excentrique","j":"C'est le mode concentrique qui est nommé dans cette contre-indication ; confondre les deux régimes de contraction conduit à écarter un travail qui n'est pas visé."},{"t":"Les exercices de renforcement des membres inférieurs","j":"Le renforcement des membres inférieurs n'apparaît pas parmi les exemples de contre-indications liées à la grossesse."}]},
-  {"q":"Quelle règle l'intervention de physiothérapie doit-elle respecter autant que possible ?","c":6,"options":[{"t":"La règle de l'absence de douleur","correct":true,"j":"L'intervention respecte autant que possible la règle de l'absence de douleur : on ne cherche pas à provoquer de la douleur pour obtenir un effet thérapeutique."},{"t":"La règle du repos strict entre deux séances","j":"Aucune mise au repos systématique n'est exigée entre les séances, et l'immobilité va à l'encontre de l'implication demandée au patient."},{"t":"La règle de l'augmentation quotidienne de la charge","j":"Augmenter la charge chaque jour imposerait un rythme fixé d'avance, sans égard pour ce que le patient tolère d'une séance à l'autre."}]},
-  {"q":"Une fois le modèle de traitement expliqué, qu'attend-on du patient et, si nécessaire, de son entourage ?","c":6,"options":[{"t":"Leur acceptation et leur compréhension du modèle proposé","correct":true,"j":"L'explication du modèle de traitement vise à obtenir qu'il soit accepté et compris, par le patient et par son entourage lorsque c'est nécessaire."},{"t":"Leur choix entre plusieurs techniques présentées à égalité","j":"Le choix des techniques demeure une décision professionnelle ; ce qui est attendu du patient porte sur l'adhésion au modèle qui lui est exposé."},{"t":"Leur renoncement aux prises en charge conduites en parallèle","j":"Aucun renoncement de ce type n'est demandé : ce que l'on attend porte sur l'adhésion au modèle exposé, non sur l'abandon d'autres soins."}]},
-  {"q":"Quels aspects entourant la personne l'intervention de physiothérapie doit-elle prendre en compte ?","c":6,"options":[{"t":"Son environnement social, professionnel, sportif et économique","correct":true,"j":"L'intervention tient compte de tous les aspects qui entourent la personne : son environnement, mais aussi les dimensions sociale, professionnelle, sportive et économique de sa vie."},{"t":"Les appareils, les équipements et le mobilier dont dispose le lieu de soins","j":"Les ressources matérielles conditionnent ce que le thérapeute peut proposer, mais elles décrivent le cadre de travail et non l'entourage du patient."},{"t":"Son niveau d'instruction et sa maîtrise de la langue employée en consultation","j":"Ces éléments pèsent sur la collaboration et la compréhension mutuelle ; ils ne recouvrent pas l'ensemble des aspects qui entourent la vie de la personne."}]},
-  {"q":"Comment la réévaluation doit-elle être conduite d'une fois à l'autre ?","c":6,"options":[{"t":"En reprenant la même séquence à chaque fois","correct":true,"j":"La réévaluation reprend la même séquence d'une fois à l'autre : c'est cette constance qui rend comparables les mesures prises à des moments différents."},{"t":"En variant les tests pour éviter l'accoutumance","j":"Changer de tests d'une fois sur l'autre rendrait les mesures incomparables et ôterait à la réévaluation sa valeur de suivi."},{"t":"En réduisant progressivement le nombre de tests","j":"Alléger peu à peu le contrôle priverait le thérapeute des repères dont il a besoin pour situer l'évolution du patient."}]},
-  {"q":"Par quels moyens la réévaluation du patient peut-elle être réalisée ?","c":6,"options":[{"t":"Par des tests fonctionnels, des mouvements, des photos ou des vidéos","correct":true,"j":"La réévaluation peut passer par des tests fonctionnels, par des mouvements, mais aussi par des photographies ou des vidéos qui fixent l'état du patient à un instant donné."},{"t":"Par des examens d'imagerie demandés entre deux séances successives","j":"Faire réaliser des clichés d'une séance à l'autre n'est pas le moyen retenu : la réévaluation s'appuie sur ce que le thérapeute peut observer lui-même."},{"t":"Par le relevé des antalgiques consommés depuis la dernière séance","j":"La consommation de médicaments renseigne indirectement sur la plainte, mais ne fournit aucune mesure du mouvement ni de la fonction que le thérapeute puisse comparer d'une fois à l'autre."}]},
-  {"q":"Quel intérêt la réévaluation présente-t-elle pour le patient lui-même ?","c":6,"options":[{"t":"Elle lui donne un retour d'information en lui faisant observer les changements obtenus","correct":true,"j":"La réévaluation constitue un bon retour d'information pour le patient : elle lui permet de constater par lui-même les changements acquis depuis le début de la prise en charge."},{"t":"Elle lui permet de désigner la technique qui sera appliquée à la séance suivante","j":"Le choix de la technique reste une décision professionnelle ; ce que le patient gagne à la réévaluation, c'est de voir où il en est."},{"t":"Elle le dispense d'avoir à décrire une nouvelle fois ses symptômes au cours des séances suivantes","j":"La description des symptômes par le patient reste nécessaire : la réévaluation ne vient pas la remplacer mais la compléter par des repères observables."}]},
-  {"q":"Que permet de décider l'information recueillie lors de la réévaluation ?","c":6,"options":[{"t":"De poursuivre la même ligne de traitement ou d'en modifier le déroulement","correct":true,"j":"L'information objective recueillie permet soit de maintenir la ligne de traitement engagée, soit d'envisager des modifications de la procédure."},{"t":"De confirmer le diagnostic médical établi avant le début de la prise en charge","j":"La réévaluation mesure l'effet de ce qui a été fait ; elle n'a pas pour objet de valider ou d'invalider un diagnostic posé en amont."},{"t":"De déterminer le mécanisme pathobiologique responsable des symptômes du patient","j":"L'identification des mécanismes en cause relève des hypothèses formulées lors de l'évaluation, et non du contrôle de l'évolution en cours de traitement."}]},
-  {"q":"Que vise le raisonnement clinique lorsqu'il procède par formation d'hypothèses ?","c":6,"options":[{"t":"Organiser la pensée, sans ranger les patients dans des cases préétablies","correct":true,"j":"La formation d'hypothèses est un moyen d'organiser la pensée, et non une méthode rigide consistant à placer les patients et les informations dans des boîtes."},{"t":"Attribuer à chaque patient la catégorie hypothétique qui lui correspond le mieux","j":"Faire entrer le patient dans une case est exactement ce que cette démarche cherche à éviter : les catégories servent à structurer la réflexion, pas à étiqueter les personnes."},{"t":"Réduire le nombre d'hypothèses dès les premières minutes de l'entretien","j":"Resserrer trop tôt l'éventail des hypothèses revient à se fermer à ce que le patient dira ensuite, ce qui appauvrit le raisonnement."}]},
-  {"q":"À quel rythme le raisonnement clinique se modifie-t-il au cours de la prise en charge ?","c":6,"options":[{"t":"Toutes les quelques minutes, à mesure que de nouvelles informations sont recueillies","correct":true,"j":"C'est un processus en constante évolution : il se modifie toutes les quelques minutes au fur et à mesure que de nouvelles informations parviennent au thérapeute."},{"t":"Une seule fois, lorsque l'examen subjectif a été entièrement mené à son terme","j":"Attendre la fin de l'entretien pour figer le raisonnement reviendrait à ignorer tout ce que la suite de la rencontre apporte encore."},{"t":"Au début de chaque séance, puis plus du tout jusqu'à la séance suivante","j":"Un point fixe en début de séance ne suffit pas : le raisonnement se remanie en permanence, y compris pendant que le thérapeute travaille."}]},
-  {"q":"Quel est l'essentiel de la démarche face à la douleur d'un patient ?","c":6,"options":[{"t":"Interpréter son expérience propre, la conseiller au mieux et limiter le risque de rechute","correct":true,"j":"L'essentiel est d'essayer d'interpréter l'expérience unique de la douleur de chaque patient, de lui offrir les meilleurs conseils pour gérer son problème actuel et de réduire le risque d'une éventuelle rechute."},{"t":"Rapporter l'intensité de sa douleur à la lésion tissulaire que l'imagerie a permis d'objectiver","j":"Faire dépendre la douleur du seul résultat d'imagerie écarte ce que le patient éprouve, qui est justement ce qu'il s'agit de comprendre."},{"t":"Comparer son intensité à celle d'autres patients porteurs de la même pathologie","j":"La comparaison entre patients efface le caractère propre de chaque expérience douloureuse, dont l'interprétation est au cœur de la démarche."}]},
-  {"q":"Entre quels éléments le raisonnement clinique doit-il maintenir un équilibre ?","c":6,"options":[{"t":"Entre la pathologie et le handicap, le patient restant conçu comme une personne","correct":true,"j":"Un équilibre est exigé entre la pathologie et le handicap, avec une conception constante du patient en tant que personne et de son problème : le raisonnement diagnostique et le raisonnement narratif avancent ensemble."},{"t":"Entre les attentes exprimées par le patient et les contraintes de l'organisation des soins","j":"Les contraintes d'organisation pèsent sur l'exercice, mais l'équilibre recherché porte sur la manière de concevoir le problème du patient."},{"t":"Entre les techniques passives et les techniques actives mises en œuvre","j":"Le dosage entre passif et actif relève du contenu du traitement, pas de la tension entre la maladie et ses répercussions sur la vie du patient."}]},
-  {"q":"Quelle précaution s'impose quant à l'amplitude lors de la mobilisation et des tests ?","c":6,"options":[{"t":"Ne pas dépasser les degrés que le patient apporte, ni commencer un test au-delà","correct":true,"j":"Tant que les données manquent, on ne mobilise pas au-delà des degrés de mobilité que le patient apporte lui-même, et on ne démarre pas un test à une amplitude supérieure."},{"t":"Conduire chaque mobilisation jusqu'au terme de l'amplitude physiologique attendue","j":"Se régler sur l'amplitude théorique de l'articulation ignore ce que le patient tolère réellement et expose à aggraver le tableau."},{"t":"Débuter les tests à l'amplitude maximale, puis revenir progressivement en arrière","j":"Commencer au-delà de ce que le patient donne est précisément ce qu'il faut éviter : le point de départ du test suit la mobilité disponible."}]},
-  {"q":"Comment conduire l'activité physique d'un patient sportif dont le sport reproduit la douleur ?","c":6,"options":[{"t":"Lui prescrire d'autres exercices épargnant la région douloureuse plutôt que tout arrêter","correct":true,"j":"Il faut éviter de dire à la personne d'arrêter l'exercice ou l'activité physique : on lui prescrit une autre série d'exercices, par exemple le vélo ou la marche lorsque la plainte siège à l'épaule."},{"t":"Lui demander d'interrompre toute activité physique jusqu'à disparition de la douleur","j":"Prononcer un arrêt complet est justement ce qu'il faut éviter : le patient doit pouvoir rester actif par d'autres voies."},{"t":"Lui faire maintenir son programme habituel en réduisant le nombre de séances","j":"Diminuer la fréquence laisse en place les gestes qui reproduisent la plainte ; c'est la nature des exercices qu'il faut changer."}]},
-  {"q":"Chez un sportif qui sollicite la même région plusieurs jours d'affilée, quel mécanisme la deuxième catégorie d'hypothèses retient-elle ?","c":6,"options":[{"t":"Une inflammation entretenue par des mouvements répétitifs sans récupération","correct":true,"j":"Le tableau correspond à une inflammation provoquée par des mouvements répétitifs, chez une personne qui sollicite la région de nombreux jours sans laisser de temps de récupération."},{"t":"Une atteinte neuropathique née d'une compression nerveuse prolongée","j":"Une compression nerveuse donnerait un tableau d'un autre ordre, sans rapport avec la charge répétée imposée aux tissus."},{"t":"Une réaction douloureuse consécutive à un traumatisme direct bien identifié","j":"Un choc unique est à écarter lorsque la plainte s'installe progressivement au fil de séances d'entraînement répétées."}]},
-  {"q":"Dans le diagramme du corps, le premier groupe réunit les structures osseuses situées sous la douleur. Que comprend-il en outre ?","c":6,"options":[{"t":"Les structures périarticulaires, c'est-à-dire la capsule et les ligaments","correct":true,"j":"Ce premier groupe va de l'extérieur vers l'intérieur et englobe, avec les pièces osseuses, les structures périarticulaires que sont la capsule et les ligaments."},{"t":"L'ensemble des muscles et des tendons qui recouvrent la zone où siège la douleur","j":"Muscles et tendons forment un groupe à part entière, envisagé après les structures osseuses et périarticulaires."},{"t":"Les viscères profonds dont la douleur est susceptible de se projeter sur cette région","j":"Les viscères n'interviennent que bien plus loin dans la démarche, parmi les éventualités les moins probables."}]},
-  {"q":"Lorsqu'il formule son pronostic, sur quoi le physiothérapeute doit-il se prononcer auprès du patient ?","c":6,"options":[{"t":"Sur le caractère bon ou mauvais du pronostic, sur le nombre de séances ou de semaines, et sur des objectifs chiffrés","correct":true,"j":"Le pronostic annoncé porte sur son caractère favorable ou défavorable, sur le nombre de séances ou de semaines à prévoir, et sur des objectifs chiffrés, par exemple un nombre de points de réduction de la douleur sur l'échelle visuelle analogique."},{"t":"Sur le nombre exact de séances nécessaires, arrêté dès la première consultation","j":"Un chiffre arrêté d'emblée ne laisse aucune place à l'évolution : ce qui est annoncé est un ordre de grandeur en séances ou en semaines, assorti d'objectifs à atteindre."},{"t":"Sur le mécanisme pathobiologique qui explique la plainte actuelle du patient","j":"L'identification du mécanisme en cause appartient à une autre catégorie d'hypothèses ; le pronostic porte sur l'évolution attendue et sur le temps nécessaire."}]},
-  {"q":"Comment le diagramme du corps qualifie-t-il l'ensemble réunissant hernie, tumeur, atteinte viscérale et fracture ?","c":6,"options":[{"t":"Des drapeaux rouges, à prendre en considération ou à exclure","correct":true,"j":"Ce dernier ensemble rassemble les autres structures à prendre en considération ou à exclure, désignées comme des drapeaux rouges."},{"t":"Des facteurs contributifs, à corriger au fil du traitement","j":"Les facteurs contributifs se modifient dans la vie quotidienne du patient ; une tumeur ou une fracture ne se traitent pas de cette façon."},{"t":"Des précautions, à vérifier avant chaque mobilisation","j":"Les précautions encadrent la manière de conduire l'examen et le traitement ; elles ne désignent pas des affections qu'il faut écarter."}]},
-  {"q":"En quoi consiste la pensée critique ?","c":6,"options":[{"t":"Analyser et évaluer l'information disponible pour en établir la véracité, à l'écart des préjugés extérieurs","correct":true,"j":"La pensée critique est la capacité d'analyser et d'évaluer les informations existantes sur un sujet donné, en cherchant à clarifier leur véracité et à s'en faire une idée justifiée, en ignorant les préjugés extérieurs."},{"t":"Retenir l'avis le mieux établi parmi ceux des spécialistes reconnus du domaine concerné","j":"S'en remettre à l'avis dominant revient à accepter ce que les autres affirment, ce que la pensée critique invite précisément à ne pas faire."},{"t":"Confronter chaque information reçue à son expérience clinique personnelle avant de décider de l'admettre","j":"L'expérience personnelle est elle-même porteuse de préjugés : elle ne constitue pas le critère par lequel on établit la véracité d'une information."}]},
-  {"q":"Quelle attitude la pensée critique recommande-t-elle face aux dogmes et aux axiomes absolus qui nous entourent ?","c":6,"options":[{"t":"En douter jusqu'à pouvoir soi-même leur attribuer ou leur refuser une véracité","correct":true,"j":"Il s'agit de douter des informations, des dogmes et des axiomes absolus jusqu'à pouvoir nous-mêmes leur donner une véracité ou, à l'inverse, les ignorer, afin de ne pas accepter aveuglément ce que les autres nous disent."},{"t":"Les tenir pour acquis tant qu'aucune donnée contraire n'a encore été publiée","j":"Attendre une réfutation venue de l'extérieur revient à accepter l'énoncé sans l'avoir soi-même examiné."},{"t":"Les écarter d'emblée, aucun énoncé général ne pouvant être tenu pour vrai","j":"Le doute n'est pas un rejet de principe : il s'exerce jusqu'au moment où l'on peut, par soi-même, reconnaître ou refuser la véracité de l'énoncé."}]},
-  {"q":"Comment les compétences qui composent la pensée critique s'acquièrent-elles ?","c":6,"options":[{"t":"Pas par un cours : ce sont des compétences analytiques et interpersonnelles à développer","correct":true,"j":"La pensée critique suppose de développer une attitude ouverte et flexible ; elle réunit des compétences analytiques et interpersonnelles qui ne s'acquièrent pas dans le cadre d'une formation ou d'un cours."},{"t":"Par le suivi d'une formation spécifique, sanctionnée par une évaluation en fin de cursus universitaire","j":"Aucun enseignement validé ne délivre ces compétences : elles se construisent par une attitude entretenue, et non par un programme suivi."},{"t":"Par la lecture régulière des publications scientifiques du domaine","j":"Se tenir informé nourrit la réflexion, mais la pensée critique ne se réduit pas à l'absorption de contenus nouveaux."}]},
-  {"q":"Quelle compétence de la pensée critique consiste à croiser des données venues de plusieurs sources d'information pour aboutir aux meilleures conclusions ?","c":6,"options":[{"t":"La réflexion analytique","correct":true,"j":"La réflexion analytique consiste à analyser des données provenant de différentes sources d'information pour parvenir aux meilleures réponses ou conclusions, en évitant les préjugés."},{"t":"L'autorégulation","j":"L'autorégulation porte sur le fait de remettre en question les décisions que l'on privilégie, et non sur le croisement de données venues de plusieurs sources."},{"t":"L'ouverture d'esprit","j":"L'ouverture d'esprit consiste à écarter ses préjugés personnels pour pouvoir traiter toute l'information, sans viser en elle-même la confrontation de sources."}]},
-  {"q":"Quelle compétence de la pensée critique consiste à déterminer et à sélectionner ce qui est le plus pertinent dans chaque situation ?","c":6,"options":[{"t":"L'interprétation","correct":true,"j":"Collecter l'information est important, mais l'interprétation consiste à déterminer et à sélectionner, parmi tout ce qui a été réuni, ce qui est le plus pertinent pour la situation en cours."},{"t":"La résolution de problèmes","j":"La résolution de problèmes aboutit à une conclusion appropriée à partir de l'ensemble des informations disponibles, au lieu d'en détacher les plus pertinentes."},{"t":"L'évaluation","j":"L'évaluation prépare une décision importante en s'appuyant sur des données objectives ; elle n'a pas pour objet le choix de ce qui mérite attention."}]},
-  {"q":"Quelle compétence de la pensée critique consiste à voir au-delà de l'évidence pour repérer les problèmes potentiels ?","c":6,"options":[{"t":"L'observation","correct":true,"j":"L'observation consiste à voir au-delà de l'évidence : elle suppose d'adopter différents points de vue pour identifier les problèmes qui pourraient survenir."},{"t":"L'autorégulation","j":"L'autorégulation s'exerce sur ses propres décisions et sur ce que l'on tient pour acquis, non sur ce que l'on perçoit de la situation."},{"t":"L'évaluation","j":"L'évaluation sert à fonder une décision importante sur des données objectives, et non à détecter ce qui n'est pas immédiatement visible."}]},
-  {"q":"Lorsqu'elle est correctement employée, à quels problèmes la pensée critique aide-t-elle à faire face ?","c":6,"options":[{"t":"À n'importe quel problème, qu'il soit professionnel ou issu de la vie quotidienne","correct":true,"j":"Correctement utilisée, la pensée critique aide à résoudre n'importe quel problème, qu'il s'agisse de défis professionnels ou de difficultés rencontrées dans la vie de tous les jours."},{"t":"Aux seuls problèmes cliniques relevant strictement du champ professionnel","j":"Restreindre son emploi au cabinet méconnaît sa portée : la même démarche s'applique aux difficultés ordinaires de l'existence."},{"t":"Aux problèmes ayant déjà fait l'objet d'une description dans la littérature","j":"Un problème inédit se prête tout autant à cette démarche, qui ne suppose pas qu'une solution ait déjà été décrite ailleurs."}]},
-  {"q":"Sur quels plans la remise en question permanente et la formation continue améliorent-elles la pratique du physiothérapeute ?","c":6,"options":[{"t":"Sur les plans clinique, de l'enseignement et de la recherche, au bénéfice des patients","correct":true,"j":"L'auto-évaluation, la formation continue et la remise en question permanente améliorent la pratique sur le plan clinique, sur celui de l'enseignement et sur celui de la recherche, et profitent aussi aux patients eux-mêmes."},{"t":"Sur le seul plan clinique, les autres relevant d'une activité strictement universitaire","j":"Le bénéfice ne s'arrête pas au soin : il atteint aussi la manière d'enseigner et de conduire des travaux de recherche."},{"t":"Sur le plan des relations entretenues avec les autres professionnels de santé","j":"La qualité des échanges entre professionnels compte par ailleurs, mais elle ne résume pas les plans sur lesquels la pratique se trouve améliorée."}]},
-  {"q":"Quelle ampleur mondiale les maladies neurologiques atteignent-elles en nombre de personnes concernées ?","c":12,"options":[{"t":"Plus de trois milliards de personnes","correct":true,"j":"L'estimation rapportée dépasse les trois milliards de personnes vivant avec une maladie neurologique."},{"t":"Un peu moins de trois cents millions","j":"Cet ordre de grandeur est dix fois trop faible au regard de l'estimation rapportée."},{"t":"Environ trente millions de personnes","j":"Quelques dizaines de millions ne rendraient pas compte de l'ampleur décrite, qui se compte en milliards."}]},
-  {"q":"Laquelle de ces affections figure parmi les dix principales affections neurologiques contribuant à la perte de santé ?","c":12,"options":[{"t":"La neuropathie diabétique","correct":true,"j":"Cette atteinte des nerfs liée au diabète est citée dans l'énumération des dix affections qui pèsent le plus lourd."},{"t":"La sclérose latérale amyotrophique","j":"Sa gravité individuelle est grande, mais sa rareté la tient hors de cette énumération."},{"t":"La maladie de Charcot-Marie-Tooth","j":"Cette neuropathie héréditaire est trop rare pour peser dans une telle énumération."}]},
-  {"q":"Les dix principales affections neurologiques en matière de perte de santé comprennent deux atteintes de l'enfant. Lesquelles ?","c":12,"options":[{"t":"L'encéphalopathie néonatale et les complications de la prématurité","correct":true,"j":"Deux entrées de l'énumération se rapportent à la période de la naissance : la lésion cérébrale du nouveau-né et les suites d'une naissance avant terme."},{"t":"L'ictère nucléaire et les traumatismes obstétricaux du plexus","j":"Ces deux situations existent en pratique, mais aucune des deux n'est retenue dans l'énumération des dix affections les plus lourdes."},{"t":"Les malformations du tube neural et les fœtopathies infectieuses","j":"Ces atteintes se constituent avant la naissance et ne sont pas nommées dans cette énumération."}]},
-  {"q":"Au-delà des personnes atteintes et de leurs familles, sur quoi les maladies neurologiques pèsent-elles ?","c":12,"options":[{"t":"Sur le capital humain des communautés et des économies","correct":true,"j":"Le constat rapporté associe la souffrance des familles à une ponction sur les ressources humaines des collectivités."},{"t":"Sur la démographie médicale des pays riches","j":"Aucune conséquence sur la répartition des professionnels de santé n'est avancée dans ce constat."},{"t":"Sur la seule trésorerie des assurances privées de santé","j":"La charge décrite ne se réduit pas à un poste comptable d'assureur : ce qui est épuisé, ce sont les ressources humaines dont vivent les collectivités."}]}
+  {
+   "q": "Dans le système de catégorisation des hypothèses, comment considère-t-on l'inflammation qui suit une fracture ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Comme un mécanisme de guérison, et non comme une pathologie",
+     "correct": true,
+     "j": "L'inflammation qui succède à une fracture est rangée parmi les mécanismes de guérison : elle accompagne la réparation du tissu et n'est pas tenue pour la pathologie elle-même."
+    },
+    {
+     "t": "Comme un facteur contributif qui entretient la plainte du patient",
+     "j": "Cette catégorie-là rassemble des éléments extérieurs à la lésion qui prolongent la plainte, alors qu'il s'agit ici d'un processus tissulaire déclenché par la lésion même."
+    },
+    {
+     "t": "Comme une limitation fonctionnelle à quantifier lors du bilan initial",
+     "j": "Une limitation fonctionnelle décrit ce que le patient ne parvient plus à accomplir ; l'inflammation est un phénomène tissulaire et non une restriction d'activité."
+    }
+   ]
+  },
+  {
+   "q": "Les hypothèses d'altérations physiques et psychologiques d'origine associée portent sur quel ensemble de données ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Tout ce que le patient présentait déjà avant le motif qui l'amène à consulter",
+     "correct": true,
+     "j": "Cette catégorie recouvre tout ce que le patient a avant la raison pour laquelle il vient en consultation, et qui peut peser sur le traitement."
+    },
+    {
+     "t": "Les symptômes apparus depuis le premier jour de la prise en charge",
+     "j": "Ce qui survient une fois le traitement commencé relève du suivi et de la réévaluation, non de ce que le patient portait déjà en arrivant."
+    },
+    {
+     "t": "Les signes mis en évidence par les tests pratiqués au cours de l'examen physique",
+     "j": "Les signes produits par les tests appartiennent à l'exploration objective ; cette catégorie-ci porte sur l'état du patient avant même la consultation."
+    }
+   ]
+  },
+  {
+   "q": "Un patient ne fournit aucune donnée sur sa santé générale. Que lui demander au titre des altérations d'origine associée ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Les maladies ou états cliniques qu'il présente et les médicaments qu'il prend",
+     "correct": true,
+     "j": "On lui demande s'il souffre d'une maladie ou d'un état clinique qu'il estime utile de signaler, et quels médicaments il prend, puis on se demande si cela influence ou non la prise en charge."
+    },
+    {
+     "t": "Les gestes professionnels et sportifs qu'il répète au fil de la semaine",
+     "j": "Ce que le patient répète dans son travail ou ses loisirs relève d'une autre catégorie d'hypothèses, celle des éléments qui entretiennent la plainte."
+    },
+    {
+     "t": "Les positions et les mouvements qui soulagent ou aggravent sa plainte",
+     "j": "Ce qui soulage et ce qui aggrave décrit le comportement des symptômes ; cela ne renseigne pas sur les affections associées que le patient porte par ailleurs."
+    }
+   ]
+  },
+  {
+   "q": "À quel type d'intervention un trouble de la coagulation fait-il obstacle ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Aux approches invasives",
+     "correct": true,
+     "j": "Un patient présentant des problèmes de coagulation ne doit pas bénéficier d'approches invasives, car l'effraction des tissus l'expose à un saignement."
+    },
+    {
+     "t": "Aux mobilisations passives",
+     "j": "Mobiliser passivement une articulation ne franchit pas la barrière cutanée et ne relève donc pas de cette contre-indication."
+    },
+    {
+     "t": "Aux tests de provocation",
+     "j": "Reproduire les symptômes par un test ne comporte aucun risque hémorragique : ce n'est pas ce que cette contre-indication écarte."
+    }
+   ]
+  },
+  {
+   "q": "Quelle modalité d'exercice la grossesse écarte-t-elle à partir du deuxième trimestre ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Les abdominaux réalisés en mode concentrique",
+     "correct": true,
+     "j": "À partir du deuxième trimestre, le travail abdominal en mode concentrique est écarté : c'est une contre-indication liée à l'état de la patiente, et non à la technique elle-même."
+    },
+    {
+     "t": "Les exercices abdominaux réalisés en mode excentrique",
+     "j": "C'est le mode concentrique qui est nommé dans cette contre-indication ; confondre les deux régimes de contraction conduit à écarter un travail qui n'est pas visé."
+    },
+    {
+     "t": "Les exercices de renforcement des membres inférieurs",
+     "j": "Le renforcement des membres inférieurs n'apparaît pas parmi les exemples de contre-indications liées à la grossesse."
+    }
+   ]
+  },
+  {
+   "q": "Quelle règle l'intervention de physiothérapie doit-elle respecter autant que possible ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "La règle de l'absence de douleur",
+     "correct": true,
+     "j": "L'intervention respecte autant que possible la règle de l'absence de douleur : on ne cherche pas à provoquer de la douleur pour obtenir un effet thérapeutique."
+    },
+    {
+     "t": "La règle du repos strict entre deux séances",
+     "j": "Aucune mise au repos systématique n'est exigée entre les séances, et l'immobilité va à l'encontre de l'implication demandée au patient."
+    },
+    {
+     "t": "La règle de l'augmentation quotidienne de la charge",
+     "j": "Augmenter la charge chaque jour imposerait un rythme fixé d'avance, sans égard pour ce que le patient tolère d'une séance à l'autre."
+    }
+   ]
+  },
+  {
+   "q": "Une fois le modèle de traitement expliqué, qu'attend-on du patient et, si nécessaire, de son entourage ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Leur acceptation et leur compréhension du modèle proposé",
+     "correct": true,
+     "j": "L'explication du modèle de traitement vise à obtenir qu'il soit accepté et compris, par le patient et par son entourage lorsque c'est nécessaire."
+    },
+    {
+     "t": "Leur choix entre plusieurs techniques présentées à égalité",
+     "j": "Le choix des techniques demeure une décision professionnelle ; ce qui est attendu du patient porte sur l'adhésion au modèle qui lui est exposé."
+    },
+    {
+     "t": "Leur renoncement aux prises en charge conduites en parallèle",
+     "j": "Aucun renoncement de ce type n'est demandé : ce que l'on attend porte sur l'adhésion au modèle exposé, non sur l'abandon d'autres soins."
+    }
+   ]
+  },
+  {
+   "q": "Quels aspects entourant la personne l'intervention de physiothérapie doit-elle prendre en compte ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Son environnement social, professionnel, sportif et économique",
+     "correct": true,
+     "j": "L'intervention tient compte de tous les aspects qui entourent la personne : son environnement, mais aussi les dimensions sociale, professionnelle, sportive et économique de sa vie."
+    },
+    {
+     "t": "Les appareils, les équipements et le mobilier dont dispose le lieu de soins",
+     "j": "Les ressources matérielles conditionnent ce que le thérapeute peut proposer, mais elles décrivent le cadre de travail et non l'entourage du patient."
+    },
+    {
+     "t": "Son niveau d'instruction et sa maîtrise de la langue employée en consultation",
+     "j": "Ces éléments pèsent sur la collaboration et la compréhension mutuelle ; ils ne recouvrent pas l'ensemble des aspects qui entourent la vie de la personne."
+    }
+   ]
+  },
+  {
+   "q": "Comment la réévaluation doit-elle être conduite d'une fois à l'autre ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "En reprenant la même séquence à chaque fois",
+     "correct": true,
+     "j": "La réévaluation reprend la même séquence d'une fois à l'autre : c'est cette constance qui rend comparables les mesures prises à des moments différents."
+    },
+    {
+     "t": "En variant les tests pour éviter l'accoutumance",
+     "j": "Changer de tests d'une fois sur l'autre rendrait les mesures incomparables et ôterait à la réévaluation sa valeur de suivi."
+    },
+    {
+     "t": "En réduisant progressivement le nombre de tests",
+     "j": "Alléger peu à peu le contrôle priverait le thérapeute des repères dont il a besoin pour situer l'évolution du patient."
+    }
+   ]
+  },
+  {
+   "q": "Par quels moyens la réévaluation du patient peut-elle être réalisée ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Par des tests fonctionnels, des mouvements, des photos ou des vidéos",
+     "correct": true,
+     "j": "La réévaluation peut passer par des tests fonctionnels, par des mouvements, mais aussi par des photographies ou des vidéos qui fixent l'état du patient à un instant donné."
+    },
+    {
+     "t": "Par des examens d'imagerie demandés entre deux séances successives",
+     "j": "Faire réaliser des clichés d'une séance à l'autre n'est pas le moyen retenu : la réévaluation s'appuie sur ce que le thérapeute peut observer lui-même."
+    },
+    {
+     "t": "Par le relevé des antalgiques consommés depuis la dernière séance",
+     "j": "La consommation de médicaments renseigne indirectement sur la plainte, mais ne fournit aucune mesure du mouvement ni de la fonction que le thérapeute puisse comparer d'une fois à l'autre."
+    }
+   ]
+  },
+  {
+   "q": "Quel intérêt la réévaluation présente-t-elle pour le patient lui-même ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Elle lui donne un retour d'information en lui faisant observer les changements obtenus",
+     "correct": true,
+     "j": "La réévaluation constitue un bon retour d'information pour le patient : elle lui permet de constater par lui-même les changements acquis depuis le début de la prise en charge."
+    },
+    {
+     "t": "Elle lui permet de désigner la technique qui sera appliquée à la séance suivante",
+     "j": "Le choix de la technique reste une décision professionnelle ; ce que le patient gagne à la réévaluation, c'est de voir où il en est."
+    },
+    {
+     "t": "Elle le dispense d'avoir à décrire une nouvelle fois ses symptômes au cours des séances suivantes",
+     "j": "La description des symptômes par le patient reste nécessaire : la réévaluation ne vient pas la remplacer mais la compléter par des repères observables."
+    }
+   ]
+  },
+  {
+   "q": "Que permet de décider l'information recueillie lors de la réévaluation ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "De poursuivre la même ligne de traitement ou d'en modifier le déroulement",
+     "correct": true,
+     "j": "L'information objective recueillie permet soit de maintenir la ligne de traitement engagée, soit d'envisager des modifications de la procédure."
+    },
+    {
+     "t": "De confirmer le diagnostic médical établi avant le début de la prise en charge",
+     "j": "La réévaluation mesure l'effet de ce qui a été fait ; elle n'a pas pour objet de valider ou d'invalider un diagnostic posé en amont."
+    },
+    {
+     "t": "De déterminer le mécanisme pathobiologique responsable des symptômes du patient",
+     "j": "L'identification des mécanismes en cause relève des hypothèses formulées lors de l'évaluation, et non du contrôle de l'évolution en cours de traitement."
+    }
+   ]
+  },
+  {
+   "q": "Que vise le raisonnement clinique lorsqu'il procède par formation d'hypothèses ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Organiser la pensée, sans ranger les patients dans des cases préétablies",
+     "correct": true,
+     "j": "La formation d'hypothèses est un moyen d'organiser la pensée, et non une méthode rigide consistant à placer les patients et les informations dans des boîtes."
+    },
+    {
+     "t": "Attribuer à chaque patient la catégorie hypothétique qui lui correspond le mieux",
+     "j": "Faire entrer le patient dans une case est exactement ce que cette démarche cherche à éviter : les catégories servent à structurer la réflexion, pas à étiqueter les personnes."
+    },
+    {
+     "t": "Réduire le nombre d'hypothèses dès les premières minutes de l'entretien",
+     "j": "Resserrer trop tôt l'éventail des hypothèses revient à se fermer à ce que le patient dira ensuite, ce qui appauvrit le raisonnement."
+    }
+   ]
+  },
+  {
+   "q": "À quel rythme le raisonnement clinique se modifie-t-il au cours de la prise en charge ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Toutes les quelques minutes, à mesure que de nouvelles informations sont recueillies",
+     "correct": true,
+     "j": "C'est un processus en constante évolution : il se modifie toutes les quelques minutes au fur et à mesure que de nouvelles informations parviennent au thérapeute."
+    },
+    {
+     "t": "Une seule fois, lorsque l'examen subjectif a été entièrement mené à son terme",
+     "j": "Attendre la fin de l'entretien pour figer le raisonnement reviendrait à ignorer tout ce que la suite de la rencontre apporte encore."
+    },
+    {
+     "t": "Au début de chaque séance, puis plus du tout jusqu'à la séance suivante",
+     "j": "Un point fixe en début de séance ne suffit pas : le raisonnement se remanie en permanence, y compris pendant que le thérapeute travaille."
+    }
+   ]
+  },
+  {
+   "q": "Quel est l'essentiel de la démarche face à la douleur d'un patient ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Interpréter son expérience propre, la conseiller au mieux et limiter le risque de rechute",
+     "correct": true,
+     "j": "L'essentiel est d'essayer d'interpréter l'expérience unique de la douleur de chaque patient, de lui offrir les meilleurs conseils pour gérer son problème actuel et de réduire le risque d'une éventuelle rechute."
+    },
+    {
+     "t": "Rapporter l'intensité de sa douleur à la lésion tissulaire que l'imagerie a permis d'objectiver",
+     "j": "Faire dépendre la douleur du seul résultat d'imagerie écarte ce que le patient éprouve, qui est justement ce qu'il s'agit de comprendre."
+    },
+    {
+     "t": "Comparer son intensité à celle d'autres patients porteurs de la même pathologie",
+     "j": "La comparaison entre patients efface le caractère propre de chaque expérience douloureuse, dont l'interprétation est au cœur de la démarche."
+    }
+   ]
+  },
+  {
+   "q": "Entre quels éléments le raisonnement clinique doit-il maintenir un équilibre ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Entre la pathologie et le handicap, le patient restant conçu comme une personne",
+     "correct": true,
+     "j": "Un équilibre est exigé entre la pathologie et le handicap, avec une conception constante du patient en tant que personne et de son problème : le raisonnement diagnostique et le raisonnement narratif avancent ensemble."
+    },
+    {
+     "t": "Entre les attentes exprimées par le patient et les contraintes de l'organisation des soins",
+     "j": "Les contraintes d'organisation pèsent sur l'exercice, mais l'équilibre recherché porte sur la manière de concevoir le problème du patient."
+    },
+    {
+     "t": "Entre les techniques passives et les techniques actives mises en œuvre",
+     "j": "Le dosage entre passif et actif relève du contenu du traitement, pas de la tension entre la maladie et ses répercussions sur la vie du patient."
+    }
+   ]
+  },
+  {
+   "q": "Quelle précaution s'impose quant à l'amplitude lors de la mobilisation et des tests ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Ne pas dépasser les degrés que le patient apporte, ni commencer un test au-delà",
+     "correct": true,
+     "j": "Tant que les données manquent, on ne mobilise pas au-delà des degrés de mobilité que le patient apporte lui-même, et on ne démarre pas un test à une amplitude supérieure."
+    },
+    {
+     "t": "Conduire chaque mobilisation jusqu'au terme de l'amplitude physiologique attendue",
+     "j": "Se régler sur l'amplitude théorique de l'articulation ignore ce que le patient tolère réellement et expose à aggraver le tableau."
+    },
+    {
+     "t": "Débuter les tests à l'amplitude maximale, puis revenir progressivement en arrière",
+     "j": "Commencer au-delà de ce que le patient donne est précisément ce qu'il faut éviter : le point de départ du test suit la mobilité disponible."
+    }
+   ]
+  },
+  {
+   "q": "Comment conduire l'activité physique d'un patient sportif dont le sport reproduit la douleur ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Lui prescrire d'autres exercices épargnant la région douloureuse plutôt que tout arrêter",
+     "correct": true,
+     "j": "Il faut éviter de dire à la personne d'arrêter l'exercice ou l'activité physique : on lui prescrit une autre série d'exercices, par exemple le vélo ou la marche lorsque la plainte siège à l'épaule."
+    },
+    {
+     "t": "Lui demander d'interrompre toute activité physique jusqu'à disparition de la douleur",
+     "j": "Prononcer un arrêt complet est justement ce qu'il faut éviter : le patient doit pouvoir rester actif par d'autres voies."
+    },
+    {
+     "t": "Lui faire maintenir son programme habituel en réduisant le nombre de séances",
+     "j": "Diminuer la fréquence laisse en place les gestes qui reproduisent la plainte ; c'est la nature des exercices qu'il faut changer."
+    }
+   ]
+  },
+  {
+   "q": "Chez un sportif qui sollicite la même région plusieurs jours d'affilée, quel mécanisme la deuxième catégorie d'hypothèses retient-elle ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Une inflammation entretenue par des mouvements répétitifs sans récupération",
+     "correct": true,
+     "j": "Le tableau correspond à une inflammation provoquée par des mouvements répétitifs, chez une personne qui sollicite la région de nombreux jours sans laisser de temps de récupération."
+    },
+    {
+     "t": "Une atteinte neuropathique née d'une compression nerveuse prolongée",
+     "j": "Une compression nerveuse donnerait un tableau d'un autre ordre, sans rapport avec la charge répétée imposée aux tissus."
+    },
+    {
+     "t": "Une réaction douloureuse consécutive à un traumatisme direct bien identifié",
+     "j": "Un choc unique est à écarter lorsque la plainte s'installe progressivement au fil de séances d'entraînement répétées."
+    }
+   ]
+  },
+  {
+   "q": "Dans le diagramme du corps, le premier groupe réunit les structures osseuses situées sous la douleur. Que comprend-il en outre ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Les structures périarticulaires, c'est-à-dire la capsule et les ligaments",
+     "correct": true,
+     "j": "Ce premier groupe va de l'extérieur vers l'intérieur et englobe, avec les pièces osseuses, les structures périarticulaires que sont la capsule et les ligaments."
+    },
+    {
+     "t": "L'ensemble des muscles et des tendons qui recouvrent la zone où siège la douleur",
+     "j": "Muscles et tendons forment un groupe à part entière, envisagé après les structures osseuses et périarticulaires."
+    },
+    {
+     "t": "Les viscères profonds dont la douleur est susceptible de se projeter sur cette région",
+     "j": "Les viscères n'interviennent que bien plus loin dans la démarche, parmi les éventualités les moins probables."
+    }
+   ]
+  },
+  {
+   "q": "Lorsqu'il formule son pronostic, sur quoi le physiothérapeute doit-il se prononcer auprès du patient ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Sur le caractère bon ou mauvais du pronostic, sur le nombre de séances ou de semaines, et sur des objectifs chiffrés",
+     "correct": true,
+     "j": "Le pronostic annoncé porte sur son caractère favorable ou défavorable, sur le nombre de séances ou de semaines à prévoir, et sur des objectifs chiffrés, par exemple un nombre de points de réduction de la douleur sur l'échelle visuelle analogique."
+    },
+    {
+     "t": "Sur le nombre exact de séances nécessaires, arrêté dès la première consultation",
+     "j": "Un chiffre arrêté d'emblée ne laisse aucune place à l'évolution : ce qui est annoncé est un ordre de grandeur en séances ou en semaines, assorti d'objectifs à atteindre."
+    },
+    {
+     "t": "Sur le mécanisme pathobiologique qui explique la plainte actuelle du patient",
+     "j": "L'identification du mécanisme en cause appartient à une autre catégorie d'hypothèses ; le pronostic porte sur l'évolution attendue et sur le temps nécessaire."
+    }
+   ]
+  },
+  {
+   "q": "Comment le diagramme du corps qualifie-t-il l'ensemble réunissant hernie, tumeur, atteinte viscérale et fracture ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Des drapeaux rouges, à prendre en considération ou à exclure",
+     "correct": true,
+     "j": "Ce dernier ensemble rassemble les autres structures à prendre en considération ou à exclure, désignées comme des drapeaux rouges."
+    },
+    {
+     "t": "Des facteurs contributifs, à corriger au fil du traitement",
+     "j": "Les facteurs contributifs se modifient dans la vie quotidienne du patient ; une tumeur ou une fracture ne se traitent pas de cette façon."
+    },
+    {
+     "t": "Des précautions, à vérifier avant chaque mobilisation",
+     "j": "Les précautions encadrent la manière de conduire l'examen et le traitement ; elles ne désignent pas des affections qu'il faut écarter."
+    }
+   ]
+  },
+  {
+   "q": "En quoi consiste la pensée critique ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Analyser et évaluer l'information disponible pour en établir la véracité, à l'écart des préjugés extérieurs",
+     "correct": true,
+     "j": "La pensée critique est la capacité d'analyser et d'évaluer les informations existantes sur un sujet donné, en cherchant à clarifier leur véracité et à s'en faire une idée justifiée, en ignorant les préjugés extérieurs."
+    },
+    {
+     "t": "Retenir l'avis le mieux établi parmi ceux des spécialistes reconnus du domaine concerné",
+     "j": "S'en remettre à l'avis dominant revient à accepter ce que les autres affirment, ce que la pensée critique invite précisément à ne pas faire."
+    },
+    {
+     "t": "Confronter chaque information reçue à son expérience clinique personnelle avant de décider de l'admettre",
+     "j": "L'expérience personnelle est elle-même porteuse de préjugés : elle ne constitue pas le critère par lequel on établit la véracité d'une information."
+    }
+   ]
+  },
+  {
+   "q": "Quelle attitude la pensée critique recommande-t-elle face aux dogmes et aux axiomes absolus qui nous entourent ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "En douter jusqu'à pouvoir soi-même leur attribuer ou leur refuser une véracité",
+     "correct": true,
+     "j": "Il s'agit de douter des informations, des dogmes et des axiomes absolus jusqu'à pouvoir nous-mêmes leur donner une véracité ou, à l'inverse, les ignorer, afin de ne pas accepter aveuglément ce que les autres nous disent."
+    },
+    {
+     "t": "Les tenir pour acquis tant qu'aucune donnée contraire n'a encore été publiée",
+     "j": "Attendre une réfutation venue de l'extérieur revient à accepter l'énoncé sans l'avoir soi-même examiné."
+    },
+    {
+     "t": "Les écarter d'emblée, aucun énoncé général ne pouvant être tenu pour vrai",
+     "j": "Le doute n'est pas un rejet de principe : il s'exerce jusqu'au moment où l'on peut, par soi-même, reconnaître ou refuser la véracité de l'énoncé."
+    }
+   ]
+  },
+  {
+   "q": "Comment les compétences qui composent la pensée critique s'acquièrent-elles ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Pas par un cours : ce sont des compétences analytiques et interpersonnelles à développer",
+     "correct": true,
+     "j": "La pensée critique suppose de développer une attitude ouverte et flexible ; elle réunit des compétences analytiques et interpersonnelles qui ne s'acquièrent pas dans le cadre d'une formation ou d'un cours."
+    },
+    {
+     "t": "Par le suivi d'une formation spécifique, sanctionnée par une évaluation en fin de cursus universitaire",
+     "j": "Aucun enseignement validé ne délivre ces compétences : elles se construisent par une attitude entretenue, et non par un programme suivi."
+    },
+    {
+     "t": "Par la lecture régulière des publications scientifiques du domaine",
+     "j": "Se tenir informé nourrit la réflexion, mais la pensée critique ne se réduit pas à l'absorption de contenus nouveaux."
+    }
+   ]
+  },
+  {
+   "q": "Quelle compétence de la pensée critique consiste à croiser des données venues de plusieurs sources d'information pour aboutir aux meilleures conclusions ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "La réflexion analytique",
+     "correct": true,
+     "j": "La réflexion analytique consiste à analyser des données provenant de différentes sources d'information pour parvenir aux meilleures réponses ou conclusions, en évitant les préjugés."
+    },
+    {
+     "t": "L'autorégulation",
+     "j": "L'autorégulation porte sur le fait de remettre en question les décisions que l'on privilégie, et non sur le croisement de données venues de plusieurs sources."
+    },
+    {
+     "t": "L'ouverture d'esprit",
+     "j": "L'ouverture d'esprit consiste à écarter ses préjugés personnels pour pouvoir traiter toute l'information, sans viser en elle-même la confrontation de sources."
+    }
+   ]
+  },
+  {
+   "q": "Quelle compétence de la pensée critique consiste à déterminer et à sélectionner ce qui est le plus pertinent dans chaque situation ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "L'interprétation",
+     "correct": true,
+     "j": "Collecter l'information est important, mais l'interprétation consiste à déterminer et à sélectionner, parmi tout ce qui a été réuni, ce qui est le plus pertinent pour la situation en cours."
+    },
+    {
+     "t": "La résolution de problèmes",
+     "j": "La résolution de problèmes aboutit à une conclusion appropriée à partir de l'ensemble des informations disponibles, au lieu d'en détacher les plus pertinentes."
+    },
+    {
+     "t": "L'évaluation",
+     "j": "L'évaluation prépare une décision importante en s'appuyant sur des données objectives ; elle n'a pas pour objet le choix de ce qui mérite attention."
+    }
+   ]
+  },
+  {
+   "q": "Quelle compétence de la pensée critique consiste à voir au-delà de l'évidence pour repérer les problèmes potentiels ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "L'observation",
+     "correct": true,
+     "j": "L'observation consiste à voir au-delà de l'évidence : elle suppose d'adopter différents points de vue pour identifier les problèmes qui pourraient survenir."
+    },
+    {
+     "t": "L'autorégulation",
+     "j": "L'autorégulation s'exerce sur ses propres décisions et sur ce que l'on tient pour acquis, non sur ce que l'on perçoit de la situation."
+    },
+    {
+     "t": "L'évaluation",
+     "j": "L'évaluation sert à fonder une décision importante sur des données objectives, et non à détecter ce qui n'est pas immédiatement visible."
+    }
+   ]
+  },
+  {
+   "q": "Lorsqu'elle est correctement employée, à quels problèmes la pensée critique aide-t-elle à faire face ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "À n'importe quel problème, qu'il soit professionnel ou issu de la vie quotidienne",
+     "correct": true,
+     "j": "Correctement utilisée, la pensée critique aide à résoudre n'importe quel problème, qu'il s'agisse de défis professionnels ou de difficultés rencontrées dans la vie de tous les jours."
+    },
+    {
+     "t": "Aux seuls problèmes cliniques relevant strictement du champ professionnel",
+     "j": "Restreindre son emploi au cabinet méconnaît sa portée : la même démarche s'applique aux difficultés ordinaires de l'existence."
+    },
+    {
+     "t": "Aux problèmes ayant déjà fait l'objet d'une description dans la littérature",
+     "j": "Un problème inédit se prête tout autant à cette démarche, qui ne suppose pas qu'une solution ait déjà été décrite ailleurs."
+    }
+   ]
+  },
+  {
+   "q": "Sur quels plans la remise en question permanente et la formation continue améliorent-elles la pratique du physiothérapeute ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Sur les plans clinique, de l'enseignement et de la recherche, au bénéfice des patients",
+     "correct": true,
+     "j": "L'auto-évaluation, la formation continue et la remise en question permanente améliorent la pratique sur le plan clinique, sur celui de l'enseignement et sur celui de la recherche, et profitent aussi aux patients eux-mêmes."
+    },
+    {
+     "t": "Sur le seul plan clinique, les autres relevant d'une activité strictement universitaire",
+     "j": "Le bénéfice ne s'arrête pas au soin : il atteint aussi la manière d'enseigner et de conduire des travaux de recherche."
+    },
+    {
+     "t": "Sur le plan des relations entretenues avec les autres professionnels de santé",
+     "j": "La qualité des échanges entre professionnels compte par ailleurs, mais elle ne résume pas les plans sur lesquels la pratique se trouve améliorée."
+    }
+   ]
+  },
+  {
+   "q": "Quelle ampleur mondiale les maladies neurologiques atteignent-elles en nombre de personnes concernées ?",
+   "c": 12,
+   "options": [
+    {
+     "t": "Plus de trois milliards de personnes",
+     "correct": true,
+     "j": "L'estimation rapportée dépasse les trois milliards de personnes vivant avec une maladie neurologique."
+    },
+    {
+     "t": "Un peu moins de trois cents millions",
+     "j": "Cet ordre de grandeur est dix fois trop faible au regard de l'estimation rapportée."
+    },
+    {
+     "t": "Environ trente millions de personnes",
+     "j": "Quelques dizaines de millions ne rendraient pas compte de l'ampleur décrite, qui se compte en milliards."
+    }
+   ]
+  },
+  {
+   "q": "Laquelle de ces affections figure parmi les dix principales affections neurologiques contribuant à la perte de santé ?",
+   "c": 12,
+   "options": [
+    {
+     "t": "La neuropathie diabétique",
+     "correct": true,
+     "j": "Cette atteinte des nerfs liée au diabète est citée dans l'énumération des dix affections qui pèsent le plus lourd."
+    },
+    {
+     "t": "La sclérose latérale amyotrophique",
+     "j": "Sa gravité individuelle est grande, mais sa rareté la tient hors de cette énumération."
+    },
+    {
+     "t": "La maladie de Charcot-Marie-Tooth",
+     "j": "Cette neuropathie héréditaire est trop rare pour peser dans une telle énumération."
+    }
+   ]
+  },
+  {
+   "q": "Les dix principales affections neurologiques en matière de perte de santé comprennent deux atteintes de l'enfant. Lesquelles ?",
+   "c": 12,
+   "options": [
+    {
+     "t": "L'encéphalopathie néonatale et les complications de la prématurité",
+     "correct": true,
+     "j": "Deux entrées de l'énumération se rapportent à la période de la naissance : la lésion cérébrale du nouveau-né et les suites d'une naissance avant terme."
+    },
+    {
+     "t": "L'ictère nucléaire et les traumatismes obstétricaux du plexus",
+     "j": "Ces deux situations existent en pratique, mais aucune des deux n'est retenue dans l'énumération des dix affections les plus lourdes."
+    },
+    {
+     "t": "Les malformations du tube neural et les fœtopathies infectieuses",
+     "j": "Ces atteintes se constituent avant la naissance et ne sont pas nommées dans cette énumération."
+    }
+   ]
+  },
+  {
+   "q": "Au-delà des personnes atteintes et de leurs familles, sur quoi les maladies neurologiques pèsent-elles ?",
+   "c": 12,
+   "options": [
+    {
+     "t": "Sur le capital humain des communautés et des économies",
+     "correct": true,
+     "j": "Le constat rapporté associe la souffrance des familles à une ponction sur les ressources humaines des collectivités."
+    },
+    {
+     "t": "Sur la démographie médicale des pays riches",
+     "j": "Aucune conséquence sur la répartition des professionnels de santé n'est avancée dans ce constat."
+    },
+    {
+     "t": "Sur la seule trésorerie des assurances privées de santé",
+     "j": "La charge décrite ne se réduit pas à un poste comptable d'assureur : ce qui est épuisé, ce sont les ressources humaines dont vivent les collectivités."
+    }
+   ]
+  }
  ],
  "anat1": [
   {
@@ -176339,42 +176951,834 @@ const QUESTIONS = {
     }
    ]
   },
-  {"q":"Pourquoi la matrice extracellulaire occupe-t-elle une place indispensable dans la mécanotransduction ?","c":7,"options":[{"t":"C'est à travers elle que les forces mécaniques parviennent jusqu'aux cellules","correct":true,"j":"La matrice est le milieu par lequel les contraintes appliquées au tissu sont acheminées jusqu'aux cellules, qui ne les recevraient pas autrement."},{"t":"C'est elle qui produit les messagers chimiques ouvrant les récepteurs de surface","j":"La matrice n'émet pas de ligand pour activer un récepteur : son apport est l'acheminement d'une contrainte physique, et non une sécrétion chimique."},{"t":"C'est elle qui met les cellules à l'abri des contraintes subies par le tissu","j":"Mettre les cellules à l'abri supprimerait toute réponse mécanique ; la matrice les expose au contraire aux contraintes qui traversent le tissu."},{"t":"C'est elle qui fournit l'énergie consommée par la réponse des cellules","j":"Une réponse cellulaire puise son énergie dans le métabolisme de la cellule elle-même ; la matrice n'est pas un réservoir énergétique."}]},
-  {"q":"Au-delà du support physique qu'elle apporte, quelles capacités la matrice extracellulaire confère-t-elle aux cellules d'un tissu ?","c":7,"options":[{"t":"S'attacher, se déplacer et se différencier","correct":true,"j":"Ces trois capacités permettent aux cellules de se mettre en place les unes par rapport aux autres : c'est ainsi que la matrice rend possible l'organisation correcte du tissu."},{"t":"Se diviser, se polariser et fusionner entre elles","j":"La fusion ne concerne que quelques lignées particulières et la division obéit au cycle cellulaire : ce trio ne décrit pas ce que la matrice rend possible."},{"t":"Respirer, se nourrir et éliminer leurs déchets","j":"Ces échanges dépendent de la membrane plasmique et de la circulation sanguine, non des propriétés d'adhérence et de mobilité apportées par la matrice."},{"t":"Se contracter, se dépolariser et conduire un influx","j":"Ces propriétés appartiennent aux cellules excitables ou contractiles ; ce ne sont pas des capacités générales conférées à toute cellule par sa matrice."}]},
-  {"q":"Comment une cellule réagit-elle lorsque la composition et les propriétés mécaniques de la matrice qui l'entoure se modifient ?","c":7,"options":[{"t":"Elle ajuste son état mécanique interne et conserve ainsi une homéostasie tensionnelle","correct":true,"j":"En réaccordant sa tension interne aux nouvelles propriétés de son environnement, la cellule maintient l'équilibre tensionnel sur lequel repose son fonctionnement."},{"t":"Elle relâche entièrement sa tension interne jusqu'au retour de la matrice d'origine","j":"Un relâchement complet priverait la cellule de toute tension de référence ; la réaction consiste à réajuster cet état, non à l'abolir en attendant."},{"t":"Elle expulse par exocytose ciblée toutes les protéines matricielles qui ont été modifiées","j":"La cellule ne trie pas les protéines de la matrice pour les rejeter une à une ; elle adapte son propre état mécanique à ce nouvel environnement."},{"t":"Elle maintient sa tension interne inchangée, fixée une fois pour toutes","j":"Une tension interne figée rendrait la cellule aveugle aux changements de son environnement, alors que c'est précisément à eux qu'elle s'ajuste."}]},
-  {"q":"À quelles situations pathologiques les altérations de la composition et de la mécanique de la matrice extracellulaire sont-elles associées ?","c":7,"options":[{"t":"Aux maladies dégénératives et aux cancers","correct":true,"j":"Une matrice dont la composition ou les propriétés mécaniques se dégradent altère la fonction des cellules et des tissus, ce que l'on retrouve dans les maladies dégénératives et les cancers."},{"t":"Aux maladies infectieuses aiguës et aux septicémies","j":"Ces tableaux dépendent d'un agent pathogène et de la réponse immunitaire, et non d'une modification des propriétés mécaniques du tissu."},{"t":"Aux maladies carentielles et aux troubles du métabolisme des glucides","j":"Ces désordres relèvent des apports alimentaires et des voies métaboliques, non des caractéristiques mécaniques du milieu entourant les cellules."},{"t":"Aux maladies auto-immunes et aux réactions allergiques","j":"Ces affections traduisent une réponse immunitaire mal dirigée ; ce n'est pas l'état mécanique de la matrice qui les engendre."}]},
-  {"q":"Deux cellules voisines soumises à la même compression n'y répondent pas de la même manière. De quoi dépend cette différence ?","c":7,"options":[{"t":"De leurs propriétés mécaniques propres et de leur interaction avec la matrice extracellulaire","correct":true,"j":"Un même stimulus n'a pas le même effet sur deux cellules : tout dépend de leurs propriétés mécaniques et de la façon dont chacune dialogue avec la matrice qui l'entoure."},{"t":"De la durée pendant laquelle chacune d'elles a déjà été soumise à une contrainte","j":"La durée de sollicitation antérieure ne départage pas deux cellules voisines : ce sont les caractéristiques mécaniques de chacune et son lien avec la matrice qui déterminent sa réponse."},{"t":"De la quantité d'ATP que chacune d'elles avait mise en réserve avant que la force ne soit appliquée","j":"La réserve énergétique conditionne l'activité générale de la cellule, mais pas la manière dont un stimulus mécanique particulier l'affecte."},{"t":"De la distance qui sépare chacune d'elles du vaisseau sanguin le plus proche","j":"La proximité d'un vaisseau règle l'apport en oxygène et en nutriments, et non la sensibilité propre de la cellule à une contrainte."}]},
-  {"q":"Un échafaudage synthétique est implanté dans un tissu musculosquelettique, puis soumis à des interventions mécaniques. Quel bénéfice est recherché ?","c":7,"options":[{"t":"Favoriser son intégration, la guérison et la capacité de restauration des cellules et tissus implantés","correct":true,"j":"Les interventions mécaniques activent des réponses biologiques ciblées dans le tissu musculosquelettique, ce qui soutient l'intégration de l'implant et la restauration des cellules et tissus en place."},{"t":"Accélérer sa dégradation de façon à libérer rapidement l'espace qu'il occupe","j":"On ne cherche pas à faire disparaître l'échafaudage : il sert de support aux cellules pendant que le tissu se reconstruit autour de lui."},{"t":"Supprimer complètement la réponse immunitaire que l'organisme dirige contre le matériau étranger implanté","j":"Une contrainte mécanique n'éteint pas la réaction immunitaire au matériau ; le bénéfice visé est d'ordre régénératif."},{"t":"Durcir sa structure pour qu'elle résiste mieux aux compressions subies","j":"Modifier la rigidité du matériau lui-même n'est pas l'objectif : les forces sont appliquées pour agir sur les cellules et les tissus."}]},
-  {"q":"Longtemps comprise comme l'utilisation de moyens mécaniques pour la guérison des maladies, la mécanothérapie a reçu une définition plus précise. Laquelle ?","c":7,"options":[{"t":"L'utilisation de la mécanotransduction pour stimuler et remodeler le tissu cellulaire","correct":true,"j":"Cette redéfinition fait de la mécanothérapie l'application clinique de la mécanotransduction : la force n'agit pas par elle-même, elle déclenche une réponse biologique qui remodèle le tissu."},{"t":"L'utilisation d'appareils de traction pour corriger les déformations du squelette","j":"La correction orthopédique d'une déformation par traction reste un effet purement mécanique, sans référence à la réponse cellulaire déclenchée."},{"t":"L'utilisation de vibrations calibrées pour soulager les douleurs chroniques","j":"Soulager une douleur par la vibration est une visée antalgique ; la définition retenue met en avant la stimulation et le remodelage du tissu."},{"t":"L'utilisation de contraintes mécaniques pour mesurer la résistance d'un tissu","j":"Éprouver la résistance d'un tissu est une démarche d'évaluation : la mécanothérapie, elle, vise à agir sur le tissu et à le transformer."}]},
-  {"q":"En réorganisant son cytosquelette, une cellule modifie son environnement micromécanique. Quelle conséquence cela entraîne-t-il pour elle ?","c":7,"options":[{"t":"Sa sensibilité aux forces qui lui parviennent s'en trouve modifiée","correct":true,"j":"En remaniant son cytosquelette, la cellule change son environnement micromécanique et, du même coup, la façon dont elle percevra les forces entrantes."},{"t":"Son noyau cesse de recevoir la moindre contrainte mécanique","j":"Le remaniement du cytosquelette ne coupe pas le noyau des contraintes : il modifie la manière dont la cellule les ressent."},{"t":"Elle perd définitivement la faculté de percevoir une contrainte","j":"Aucune perte définitive n'est en jeu : la réorganisation est un ajustement réversible de la sensibilité de la cellule."},{"t":"Ses récepteurs de surface sont internalisés puis dégradés","j":"Le retrait puis la destruction des récepteurs relèvent du trafic membranaire, et non de la façon dont la cellule perçoit les forces qui lui parviennent."}]},
-  {"q":"Lorsque les forces exercées sur une cellule deviennent suffisantes, celle-ci engage une réponse moléculaire. Sur quoi cette réponse agit-elle ?","c":7,"options":[{"t":"Sur la synthèse ou la dégradation de la matrice, donc sur les propriétés mécaniques du tissu","correct":true,"j":"En produisant davantage de matrice ou en la dégradant, la cellule change la raideur et la résistance du tissu entier : la contrainte reçue finit par remodeler le milieu lui-même."},{"t":"Sur la perméabilité de la membrane plasmique aux molécules de grande taille","j":"Le passage des grosses molécules dépend des mécanismes de transport vésiculaire, et non de la réponse déclenchée par une contrainte suffisante."},{"t":"Sur le nombre de jonctions communicantes qui relient entre elles les cellules voisines du tissu","j":"La mise en communication des cytoplasmes voisins est un autre registre : cette réponse-là porte sur le milieu qui entoure la cellule."},{"t":"Sur la vitesse de renouvellement des organites contenus dans le cytoplasme","j":"Le renouvellement des organites relève de l'entretien interne de la cellule et ne modifie pas les propriétés mécaniques du tissu."}]},
-  {"q":"Parmi les voies de mécanotransduction, laquelle achemine les signaux mécaniques de la matrice extracellulaire jusqu'au noyau en empruntant le cytosquelette ?","c":7,"options":[{"t":"La voie intégrine/adhésion focale","correct":true,"j":"Cette voie part du point d'accrochage à la matrice et se prolonge par le réseau de filaments de la cellule jusqu'au noyau, où le signal mécanique devient une modification de l'expression des gènes."},{"t":"La voie des canaux ioniques mécanosensibles Piezo1","j":"Piezo1 assure une conversion directe du stimulus au niveau même de la membrane, sans emprunter le cytosquelette pour gagner le noyau."},{"t":"La voie Notch des contacts intercellulaires","j":"Notch entre en jeu lorsque deux cellules adjacentes se touchent, et non pour conduire une contrainte venue de la matrice le long des filaments."},{"t":"La voie du complexe LINC de l'enveloppe nucléaire","j":"Le complexe LINC est un maillon situé à l'arrivée, sur l'enveloppe du noyau ; il ne constitue pas à lui seul l'une des grandes voies de mécanotransduction."}]},
-  {"q":"Qu'est-ce qui propage dans la cellule aussi bien les forces venues de l'extérieur que celles qu'elle engendre elle-même ?","c":7,"options":[{"t":"La tension du cytosquelette","correct":true,"j":"Le réseau de filaments, maintenu sous tension, est le support par lequel se diffusent les forces extracellulaires comme celles produites par la cellule."},{"t":"La pression osmotique du cytosol","j":"La pression osmotique répartit l'eau de part et d'autre des membranes ; elle ne véhicule pas de force orientée à l'intérieur de la cellule."},{"t":"Le flux des vésicules de transport","j":"Les vésicules déplacent du contenu d'un compartiment à l'autre : elles transportent de la matière, pas une contrainte mécanique."},{"t":"Le gradient ionique de la membrane","j":"Un gradient d'ions constitue une réserve d'énergie électrochimique et n'assure pas la propagation mécanique d'une force."}]},
-  {"q":"De quoi dépendent les propriétés mécaniques du cytosquelette ?","c":7,"options":[{"t":"De la dynamique, de la géométrie et de la polarité de ses composants","correct":true,"j":"Ce ne sont pas seulement les filaments présents qui comptent, mais la façon dont ils se renouvellent, s'orientent dans l'espace et s'organisent de manière polarisée."},{"t":"De la température et du pH qui règnent dans le cytosol de la cellule","j":"Ces paramètres physico-chimiques conditionnent l'activité enzymatique générale, non les caractéristiques mécaniques propres au réseau de filaments."},{"t":"Du nombre de ribosomes fixés tout le long de ses filaments","j":"Les ribosomes assurent la traduction des protéines ; ils ne s'alignent pas sur les filaments pour en régler la raideur."},{"t":"De la quantité de calcium stockée dans le réticulum de la cellule","j":"Une réserve ionique intracellulaire n'est pas ce qui fixe les propriétés mécaniques du réseau de filaments et de ses protéines de liaison."}]},
-  {"q":"Sur quels critères distingue-t-on les différents sous-types de fibres de stress ?","c":7,"options":[{"t":"Leur organisation structurelle et leur connectivité aux adhésions focales","correct":true,"j":"C'est l'agencement interne de chaque faisceau et sa connectivité aux points d'ancrage qui définissent les sous-types, lesquels participent à la propagation des forces et à la stabilité des structures de la cellule."},{"t":"Leur longueur totale et leur vitesse de renouvellement dans la cellule","j":"Ni la taille ni la durée de vie d'un faisceau ne servent à le classer : ce qui le distingue, c'est sa construction interne et ses attaches."},{"t":"Leur teneur en filaments intermédiaires et en microtubules","j":"Ces deux familles de filaments appartiennent au cytosquelette, mais ce n'est pas leur proportion qui permet de différencier les faisceaux."},{"t":"Leur position par rapport à l'enveloppe du noyau de la cellule","j":"La distance au noyau ne définit aucun sous-type : la classification s'appuie sur la structure du faisceau et sur sa connectivité."}]},
-  {"q":"Que subit une intégrine aussitôt après s'être liée à la matrice extracellulaire, sous l'effet d'un stimulus mécanique ?","c":7,"options":[{"t":"Une modification de sa conformation","correct":true,"j":"Le stimulus mécanique fait changer de forme l'intégrine déjà accrochée à la matrice : ce changement conformationnel est le point de départ de la suite de la voie."},{"t":"Un clivage de son domaine extracellulaire","j":"L'intégrine n'est pas coupée en deux pour fonctionner ; elle reste entière et c'est sa forme qui se réarrange."},{"t":"Une phosphorylation de son domaine intracellulaire","j":"Ce n'est pas l'ajout d'un groupement phosphate qui suit immédiatement l'accrochage à la matrice : c'est un changement de forme de la protéine elle-même."},{"t":"Une internalisation par endocytose rapide","j":"Une intégrine qui vient de s'accrocher à la matrice reste en place : elle ne quitte pas la surface aussitôt après s'y être liée."}]},
-  {"q":"Dans la voie intégrine/FAK, comment les rôles se répartissent-ils entre les deux partenaires ?","c":7,"options":[{"t":"L'intégrine sert de récepteur au stimulus mécanique, FAK assure la transduction intracellulaire","correct":true,"j":"La contrainte est captée à la surface par l'intégrine, puis convertie à l'intérieur de la cellule par FAK : c'est cette répartition qui rend la voie efficace pour les signaux mécaniques comme biochimiques."},{"t":"FAK capte le stimulus mécanique à la surface, l'intégrine le relaie dans le cytoplasme","j":"Les deux rôles sont ici intervertis : FAK n'est pas un récepteur de surface et l'intégrine ne travaille pas à l'intérieur de la cellule."},{"t":"L'intégrine et FAK captent toutes deux le stimulus, chacune sur une face de la membrane","j":"Un seul des deux partenaires joue le rôle de récepteur ; l'autre intervient en aval et n'est pas exposé à la contrainte extérieure."},{"t":"FAK ancre la cellule à la matrice, l'intégrine phosphoryle ses cibles cytoplasmiques","j":"Attribuer l'ancrage à FAK et une activité kinase à l'intégrine inverse la nature même des deux protéines."}]},
-  {"q":"À quoi servent les interactions qui unissent la taline, la vinculine et les intégrines ?","c":7,"options":[{"t":"Elles stabilisent les adhésions focales et relaient les signaux mécaniques et biochimiques","correct":true,"j":"Ce trio consolide les points d'ancrage de la cellule et leur permet en même temps de transmettre vers l'intérieur l'information mécanique et biochimique reçue."},{"t":"Elles ouvrent un canal qui laisse passer librement les ions entre le cytoplasme et la matrice","j":"Aucune de ces protéines ne forme de pore : leur action est structurale et informative, non un passage d'ions."},{"t":"Elles découpent les protéines matricielles usées avant leur remplacement","j":"Le renouvellement des constituants de la matrice fait appel à des enzymes de dégradation, et non à ces protéines d'accrochage."},{"t":"Elles arriment l'enveloppe nucléaire au réseau de filaments intermédiaires","j":"Ce trio travaille au niveau de la membrane plasmique ; l'arrimage du noyau est assuré par d'autres protéines."}]},
-  {"q":"Que forment les composants du complexe LINC lorsqu'ils se regroupent au pôle apical du noyau ?","c":7,"options":[{"t":"La ligne nucléaire associée à l'actine transmembranaire, comparable à une adhésion focale","correct":true,"j":"Ce regroupement constitue la ligne TAN, structure bâtie sur le même principe qu'un point d'ancrage à la matrice, mais appliquée à la surface du noyau."},{"t":"Un pore nucléaire supplémentaire réservé au passage des facteurs de transcription","j":"Le regroupement ne crée pas de nouveau passage à travers l'enveloppe : il bâtit une structure d'ancrage à sa surface."},{"t":"Une jonction d'ancrage reliant entre eux deux noyaux d'une même cellule","j":"Cette structure ne relie pas deux noyaux l'un à l'autre ; elle s'établit à la surface d'un seul noyau."},{"t":"Un manchon de filaments isolant le noyau des contraintes du cytoplasme","j":"Il ne s'agit pas d'un écran protecteur : la structure formée sert au contraire à transmettre la contrainte jusqu'au noyau."}]},
-  {"q":"Dans la régénération tissulaire, quels processus les canaux Piezo1 facilitent-ils ?","c":7,"options":[{"t":"La différenciation des cellules souches et la formation osseuse","correct":true,"j":"En traduisant les contraintes reçues, Piezo1 oriente les cellules souches vers leur destin et soutient la construction du tissu osseux après une lésion."},{"t":"La contraction des fibres musculaires lisses et la vasoconstriction","j":"La réponse contractile des vaisseaux relève de mécanismes nerveux et hormonaux, non du rôle régénératif attribué à ce canal."},{"t":"La production d'anticorps et le recrutement des lymphocytes","j":"La réponse immunitaire spécifique met en jeu des cellules et des médiateurs qui n'appartiennent pas à cette voie mécanosensible."},{"t":"La résorption de la matrice et l'élimination des débris cellulaires","j":"Le nettoyage du site lésé précède la reconstruction : ce canal agit dans la phase de reconstruction et non dans l'élimination des débris."}]},
-  {"q":"Dans quelle cellule du tissu osseux le canal Piezo1 est-il fortement exprimé et régulable par un étirement ?","c":7,"options":[{"t":"L'ostéocyte","correct":true,"j":"C'est dans l'ostéocyte, emmuré dans la matrice osseuse, que ce canal est le plus abondant, et un étirement de la cellule suffit à en régler l'activité."},{"t":"L'ostéoclaste","j":"L'ostéoclaste est la cellule qui résorbe le tissu osseux ; ce n'est pas elle qui exprime fortement ce canal mécanosensible."},{"t":"L'ostéoblaste","j":"L'ostéoblaste fabrique la matrice osseuse ; ce n'est pas lui, mais la cellule une fois emmurée dans cette matrice, qui exprime fortement ce canal."},{"t":"La cellule bordante","j":"La cellule bordante tapisse les surfaces osseuses au repos ; ce n'est pas elle qui exprime fortement ce canal mécanosensible."}]},
-  {"q":"Comment les canaux Piezo1 participent-ils à la régénération du système nerveux périphérique ?","c":7,"options":[{"t":"En favorisant la croissance axonale et la réparation des nerfs endommagés","correct":true,"j":"Dans le système nerveux périphérique, ces canaux soutiennent la repousse des axones et la remise en état des nerfs qui ont été lésés."},{"t":"En accélérant la myélinisation assurée par les cellules de Schwann","j":"La reconstitution de la gaine de myéline est l'œuvre des cellules de Schwann elles-mêmes, et non celle de l'ouverture d'un canal mécanosensible."},{"t":"En déclenchant la dégénérescence du segment nerveux situé en aval de la lésion","j":"La destruction du segment distal est une conséquence de la lésion ; ce canal est au contraire associé à la réparation."},{"t":"En recrutant les macrophages chargés de nettoyer le site lésé","j":"Le recrutement des cellules de nettoyage dépend de médiateurs de l'inflammation, non de l'ouverture d'un canal mécanosensible."}]},
-  {"q":"Combien d'étapes de clivage protéolytique le récepteur Notch subit-il, et lesquelles dépendent de la liaison de son ligand ?","c":7,"options":[{"t":"Trois clivages successifs, dont seuls les deux derniers dépendent du ligand","correct":true,"j":"Le premier clivage se produit indépendamment du ligand ; seuls les deux suivants exigent que Notch soit engagé par son ligand pour s'accomplir."},{"t":"Trois clivages successifs, dont seul le tout premier dépend du ligand","j":"C'est l'inverse : le premier clivage a lieu sans ligand, et ce sont les suivants qui en dépendent."},{"t":"Deux clivages successifs, l'un et l'autre dépendants du ligand","j":"Le compte est incomplet : la maturation et l'activation du récepteur en exigent un de plus."},{"t":"Un clivage unique, strictement dépendant de la liaison du ligand","j":"Un seul coup de ciseaux ne suffit pas : l'activation du récepteur résulte d'une succession de clivages."}]},
-  {"q":"Comment qualifier la protéine Notch avant son activation, et quelle place sa voie occupe-t-elle parmi les voies de signalisation ?","c":7,"options":[{"t":"Un régulateur de transcription latent, au bout de la voie la plus simple et la plus directe allant d'un récepteur de surface au noyau","correct":true,"j":"Notch porte déjà en lui la capacité d'agir sur la transcription, en attente d'être libérée : aucune voie connue ne relie plus directement la surface de la cellule à son noyau."},{"t":"Une enzyme cytoplasmique dormante, au bout de la cascade la plus longue connue depuis la membrane","j":"Notch n'est pas une enzyme du cytoplasme, et sa voie se distingue justement par sa brièveté et non par sa longueur."},{"t":"Un facteur de croissance mis en réserve dans la matrice extracellulaire, qui n'est libéré vers le noyau qu'au terme d'une longue cascade enzymatique","j":"Notch est une protéine portée par la membrane de la cellule, et non un messager stocké dans le milieu extracellulaire."},{"t":"Un canal ionique silencieux, relié au noyau par une longue suite de seconds messagers","j":"Notch ne laisse passer aucun ion et n'a pas besoin d'une file de relais chimiques pour atteindre le noyau."}]},
-  {"q":"La mécanotransduction intervient dans la croissance, le remodelage et la réparation d'un tissu. Quels caractères de ce tissu s'en trouvent influencés ?","c":7,"options":[{"t":"Sa masse, sa structure et sa qualité","correct":true,"j":"C'est par ces trois caractères que se mesure l'adaptation d'un tissu à son environnement mécanique : la quantité de tissu, son agencement et sa valeur fonctionnelle."},{"t":"Sa température, son pH et son osmolarité","j":"Ces grandeurs appartiennent au milieu intérieur et sont réglées par l'organisme entier, non par l'adaptation mécanique du tissu."},{"t":"Sa vascularisation, son innervation et son drainage","j":"Ces apports conditionnent la vie du tissu, mais ce ne sont pas les caractères que l'adaptation aux contraintes fait varier."},{"t":"Sa teneur en eau, en sodium et en potassium","j":"Ces compositions ioniques relèvent des équilibres hydroélectrolytiques et non de la réponse d'un tissu à sa sollicitation mécanique."}]},
-  {"q":"Comment un stimulus mécanique perçu par les intégrines ou par les canaux Piezo1 met-il en route la signalisation Notch ?","c":7,"options":[{"t":"Il induit l'expression des ligands de Notch dans les cellules émettrices","correct":true,"j":"Le stimulus agit d'abord sur la cellule émettrice, qui se met à exprimer les ligands : ces ligands activent ensuite les récepteurs portés par les cellules réceptrices."},{"t":"Il ouvre directement le récepteur Notch porté par les cellules réceptrices","j":"La contrainte n'agit pas en force sur le récepteur lui-même : elle passe par la cellule d'en face et par ce qu'elle exprime."},{"t":"Il libère la queue cytoplasmique de Notch sans l'intervention d'un ligand","j":"La libération de la queue suppose que le récepteur ait été engagé par un ligand ; une contrainte seule n'y suffit pas."},{"t":"Il déplace le récepteur Notch vers la face interne de la membrane","j":"Un récepteur transmembranaire ne bascule pas d'une face à l'autre de la membrane sous l'effet d'une contrainte."}]},
-  {"q":"Une fois activée, par quel moyen la voie Notch influence-t-elle la prolifération cellulaire ?","c":7,"options":[{"t":"En réglant l'expression de gènes liés au cycle cellulaire","correct":true,"j":"La voie agit au niveau de la transcription : en modulant ces gènes, elle commande le rythme auquel les cellules se multiplient, ce qui compte beaucoup après une lésion."},{"t":"En augmentant l'apport de nutriments acheminés vers la cellule","j":"L'approvisionnement de la cellule dépend de la circulation et des transporteurs membranaires, et non d'une voie de signalisation intercellulaire."},{"t":"En raccourcissant la durée de la cytokinèse de chaque division","j":"Accélérer la séparation finale des deux cellules filles ne change pas le nombre de cellules engagées dans la division."},{"t":"En dupliquant les centrosomes avant l'entrée en mitose","j":"La duplication des centrosomes est un événement du cycle lui-même, pas le moyen par lequel une voie de signalisation agit."}]},
-  {"q":"Dans le tissu musculosquelettique, et selon les signaux mécaniques et environnementaux reçus, vers quelles lignées la voie Notch peut-elle orienter des cellules souches ?","c":7,"options":[{"t":"Vers les ostéoblastes ou vers les adipocytes","correct":true,"j":"La voie pèse sur la détermination du destin cellulaire : la même cellule souche prendra l'une ou l'autre direction selon les signaux qu'elle reçoit de son environnement."},{"t":"Vers les ostéoclastes ou vers les macrophages","j":"Ces deux cellules descendent des précurseurs sanguins de la moelle, et non du précurseur mésenchymateux dont le destin se joue ici."},{"t":"Vers les kératinocytes ou vers les mélanocytes","j":"Ces deux lignées peuplent l'épiderme et ne descendent pas du précurseur mésenchymateux dont le destin se joue ici."},{"t":"Vers les érythrocytes ou vers les plaquettes","j":"Ces éléments figurés du sang naissent à partir de la lignée hématopoïétique, étrangère au précurseur mésenchymateux considéré."}]},
-  {"q":"Quel signal entraîne la croissance des myotubes et des myofibres déjà existants, et produit ainsi une hypertrophie ?","c":7,"options":[{"t":"La signalisation Wnt7a","correct":true,"j":"Wnt7a n'agit pas sur la formation de nouvelles fibres mais sur celles qui existent déjà, en les faisant grossir : c'est le mécanisme de l'hypertrophie."},{"t":"La signalisation Wnt canonique","j":"La signalisation Wnt canonique s'élève au moment où les cellules satellites sortent de leur repos, en amont de la croissance des fibres."},{"t":"La signalisation Notch","j":"Notch agit sur l'état des cellules satellites et sur leur destin, non sur l'augmentation de volume d'une fibre déjà constituée."},{"t":"Le canal Piezo1","j":"Piezo1 est un capteur de contrainte situé sur la membrane : il ouvre un passage aux ions, il ne fait pas grossir les fibres déjà formées."}]},
-  {"q":"Un neurotransmetteur et une hormone atteignent chacun leur cellule cible. Que peut-on dire des concentrations auxquelles ils agissent ?","c":6,"options":[{"t":"Le neurotransmetteur atteint localement une concentration élevée, alors que l'hormone parvient très diluée à sa cible","correct":true,"j":"Exact : l'acétylcholine peut approcher 5 x 10⁻⁴ M dans l'espace minuscule de la fente, tandis qu'une hormone, diluée par la circulation, agit typiquement en dessous de 10⁻⁸ M."},{"t":"L'hormone atteint une concentration élevée dans le sang, alors que le neurotransmetteur reste très dilué dans la fente","j":"Le rapport est inversé : le sang dilue fortement l'hormone, alors que la fente, très étroite, concentre le neurotransmetteur libéré juste en face du récepteur."},{"t":"Les deux messagers agissent sur leur récepteur à des concentrations du même ordre de grandeur","j":"Plusieurs ordres de grandeur les séparent : la dilution dans le volume sanguin n'a aucun équivalent dans l'espace confiné d'une synapse."},{"t":"Les deux messagers sont très dilués, et seule l'affinité du récepteur permet leur action","j":"La faible concentration compensée par une forte affinité vaut pour l'hormone, mais pas pour le neurotransmetteur, qui est déversé en forte concentration au contact même de sa cible."}]},
-  {"q":"Comment le signal électrique engendré par un récepteur lié à un canal ionique se propage-t-il à la surface de la cellule ?","c":6,"options":[{"t":"Par l'ouverture successive des canaux voisins sensibles à la tension","correct":true,"j":"Exact : l'ouverture initiale modifie le potentiel de membrane, ce qui ouvre de proche en proche les canaux adjacents sensibles à la tension et fait courir le signal bien plus vite qu'un messager chimique."},{"t":"Par la diffusion d'un second messager sous la face interne de la membrane","j":"La diffusion d'un second messager relaie les signaux des récepteurs qui activent des enzymes ; elle est bien plus lente et ne rend pas compte de la rapidité d'un signal électrique."},{"t":"Par le déplacement latéral du récepteur-canal dans la bicouche","j":"Le récepteur ne se déplace pas pour transmettre le signal : c'est le mouvement des ions à travers des canaux successifs qui propage la variation de potentiel."},{"t":"Par le maintien prolongé du canal initial en position ouverte","j":"L'ouverture d'un canal ionique est au contraire un événement transitoire de quelques millisecondes, après lequel le canal se referme et passe à l'état de repos."}]},
-  {"q":"Quelle voie de signalisation est essentielle à la croissance musculaire en réponse à l'exercice de résistance ?","c":6,"options":[{"t":"La voie PI3K/Akt/mTOR","correct":true,"j":"Exact : c'est la voie de signalisation que l'exercice de résistance met en route dans le muscle, et dont la modulation oriente directement la construction des programmes de renforcement en kinésithérapie."},{"t":"La cascade des MAP kinases","j":"Cette cascade de phosphorylations, mise en route par un récepteur à activité kinase, règle la croissance, la différenciation et la survie des cellules en général, sans commander la prise de masse en réponse au travail de force."},{"t":"La voie de l'AMP cyclique","j":"Ce second messager relaie les signaux des récepteurs couplés aux protéines G et déclenche des réponses rapides et transitoires, sans rapport avec la construction durable de masse musculaire."},{"t":"La voie du TGF-bêta","j":"Le TGF-bêta intervient dans la réparation des tissus conjonctifs après une lésion ; sur le muscle, cette famille de facteurs freine la prise de masse au lieu de la soutenir."}]},
-  {"q":"L'adrénaline atteint la paroi d'un vaisseau sanguin. Quelle réponse obtient-on selon le récepteur auquel elle se lie ?","c":6,"options":[{"t":"Le récepteur alpha commande la constriction du vaisseau, le récepteur bêta sa dilatation","correct":true,"j":"Exact : sur le vaisseau, la liaison au récepteur alpha resserre la lumière alors que la liaison au récepteur bêta l'élargit."},{"t":"Le récepteur alpha commande la dilatation du vaisseau, le récepteur bêta sa constriction","j":"Les deux réponses sont interverties : c'est le récepteur alpha qui resserre la lumière du vaisseau et le récepteur bêta qui l'élargit."},{"t":"Les deux récepteurs commandent une constriction, d'intensité seulement différente","j":"Les deux réponses ne diffèrent pas par leur intensité mais par leur sens même, l'une resserrant et l'autre élargissant le vaisseau."},{"t":"Les deux récepteurs commandent une dilatation, de durée seulement différente","j":"La durée n'est pas en cause : les deux récepteurs conduisent à des calibres vasculaires opposés, et non à une même dilatation plus ou moins longue."}]},
-  {"q":"Qu'est-ce qui confine l'action d'un médiateur local aux cellules immédiatement voisines de celle qui le sécrète ?","c":6,"options":[{"t":"Il est capté, détruit par les enzymes extracellulaires ou immobilisé par la matrice","correct":true,"j":"Exact : ces trois mécanismes le retirent du milieu avant qu'il n'ait pu diffuser loin, ce qui garantit une action strictement locale."},{"t":"Il est produit en très faible quantité, libéré par à-coups et dégradé lentement","j":"La portée d'un médiateur local ne tient ni à la quantité produite ni au rythme de sa libération ; une dégradation lente l'autoriserait au contraire à diffuser plus loin."},{"t":"Il reste attaché en permanence à la membrane de la cellule qui le sécrète","j":"Un messager retenu sur la membrane relèverait de la signalisation dépendante du contact ; le médiateur local est bel et bien libéré dans l'espace extracellulaire."},{"t":"Il rejoint la circulation sanguine mais n'agit qu'à son point de libération","j":"Rejoindre le sang définirait un messager endocrine, destiné à des cibles éloignées ; le médiateur local ne quitte pas l'espace extracellulaire du tissu."}]},
-  {"q":"Des mutations activatrices touchent les récepteurs tyrosine kinases d'une cellule. À quel type de pathologie cette anomalie est-elle le plus souvent associée ?","c":6,"options":[{"t":"Aux cancers, par emballement de la prolifération","correct":true,"j":"Exact : ces récepteurs commandent la croissance, la différenciation et la survie ; rendus actifs en permanence par une mutation, ils entretiennent une prolifération incontrôlée, d'où leur association fréquente aux cancers."},{"t":"Aux maladies métaboliques et neurologiques","j":"Les maladies métaboliques et neurologiques relèvent plutôt des anomalies des récepteurs couplés aux protéines G, famille distincte de celle qui porte une activité enzymatique propre."},{"t":"Aux maladies auto-immunes systémiques","j":"Une rupture de la tolérance immunitaire met en cause la reconnaissance du soi par les lymphocytes, et non un récepteur de surface dont le dérèglement porte sur la division cellulaire."},{"t":"Aux myopathies dégénératives héréditaires","j":"Les atteintes musculaires héréditaires tiennent à des anomalies des protéines structurales ou contractiles de la fibre, et non à des récepteurs qui règlent la prolifération."}]},
-  {"q":"Combien d'ATP la phosphorylation oxydative tire-t-elle respectivement des deux électrons d'un NADH et de ceux d'un FADH2 ?","c":13,"options":[{"t":"2,5 ATP pour le NADH, 1,5 pour le FADH2","correct":true,"j":"Exact : les électrons d'un NADH entrent dans la chaîne au premier complexe et traversent trois sites de pompage, ceux d'un FADH2 n'en traversent que deux ; les rendements retenus sont donc de 2,5 et de 1,5 ATP."},{"t":"1,5 ATP pour le NADH et 2,5 ATP pour le FADH2","j":"Les rendements sont intervertis : le NADH, dont les électrons entrent plus tôt dans la chaîne, alimente davantage de sites de pompage que le FADH2."},{"t":"3 ATP pour le NADH et 2 ATP pour le FADH2","j":"Ces valeurs entières, longtemps enseignées, ont été remplacées par des rendements fractionnaires, déduits du nombre de protons que chaque coenzyme réduite fait réellement pomper."},{"t":"Le même rendement de 2,5 ATP pour l'un comme pour l'autre","j":"Les deux coenzymes réduites n'ont pas le même rendement, puisqu'elles ne cèdent pas leurs électrons au même endroit de la chaîne et ne font pas pomper autant de protons."}]},
-  {"q":"Quel rôle la navette du glycérol-3-phosphate remplit-elle ?","c":13,"options":[{"t":"Régénérer le NAD+ du cytosol en cédant les électrons du NADH à une ubiquinone","correct":true,"j":"Exact : la navette cède à une ubiquinone les deux électrons à haut potentiel du NADH formé dans le cytosol par la glycolyse, et restitue ainsi un NAD+ utilisable par cette voie."},{"t":"Faire entrer dans la matrice le pyruvate produit par la glycolyse","j":"Le pyruvate gagne bien la mitochondrie après la glycolyse, mais par son propre transport, sans rapport avec le recyclage d'une coenzyme réduite."},{"t":"Transporter les acides gras du cytosol vers la matrice mitochondriale","j":"Le passage des acides gras activés vers la matrice relève d'un système de transport distinct ; la navette interrogée ici ne déplace que des électrons."},{"t":"Ramener vers le cytosol les protons accumulés dans l'espace intermembranaire","j":"Le gradient de protons s'établit de part et d'autre de la membrane interne, entre espace intermembranaire et matrice ; cette navette ne déplace aucun proton."}]},
-  {"q":"Quelle place les récepteurs couplés aux protéines G occupent-ils parmi les cibles des médicaments disponibles ?","c":6,"options":[{"t":"Près de la moitié des médicaments disponibles les visent","correct":true,"j":"Exact : antihistaminiques, bêta-bloquants et analgésiques comptent parmi les molécules qui agissent sur cette famille, dont la place centrale dans la signalisation en fait une cible de choix."},{"t":"Moins d'un médicament sur cinquante parvient à les viser","j":"Une part aussi marginale sous-estime très largement l'importance pharmacologique d'une famille que vise une fraction considérable des molécules commercialisées."},{"t":"Aucun médicament ne les vise, leur cascade étant trop ramifiée","j":"La ramification de la cascade n'interdit pas l'action d'un médicament : elle explique au contraire l'ampleur des effets obtenus en agissant sur ces récepteurs."},{"t":"La quasi-totalité des médicaments commercialisés les visent","j":"Une proportion aussi écrasante laisserait sans cible les enzymes, les canaux ioniques et les transporteurs, que de nombreuses molécules visent également."}]}
+  {
+   "q": "Pourquoi la matrice extracellulaire occupe-t-elle une place indispensable dans la mécanotransduction ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "C'est à travers elle que les forces mécaniques parviennent jusqu'aux cellules",
+     "correct": true,
+     "j": "La matrice est le milieu par lequel les contraintes appliquées au tissu sont acheminées jusqu'aux cellules, qui ne les recevraient pas autrement."
+    },
+    {
+     "t": "C'est elle qui produit les messagers chimiques ouvrant les récepteurs de surface",
+     "j": "La matrice n'émet pas de ligand pour activer un récepteur : son apport est l'acheminement d'une contrainte physique, et non une sécrétion chimique."
+    },
+    {
+     "t": "C'est elle qui met les cellules à l'abri des contraintes subies par le tissu",
+     "j": "Mettre les cellules à l'abri supprimerait toute réponse mécanique ; la matrice les expose au contraire aux contraintes qui traversent le tissu."
+    },
+    {
+     "t": "C'est elle qui fournit l'énergie consommée par la réponse des cellules",
+     "j": "Une réponse cellulaire puise son énergie dans le métabolisme de la cellule elle-même ; la matrice n'est pas un réservoir énergétique."
+    }
+   ]
+  },
+  {
+   "q": "Au-delà du support physique qu'elle apporte, quelles capacités la matrice extracellulaire confère-t-elle aux cellules d'un tissu ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "S'attacher, se déplacer et se différencier",
+     "correct": true,
+     "j": "Ces trois capacités permettent aux cellules de se mettre en place les unes par rapport aux autres : c'est ainsi que la matrice rend possible l'organisation correcte du tissu."
+    },
+    {
+     "t": "Se diviser, se polariser et fusionner entre elles",
+     "j": "La fusion ne concerne que quelques lignées particulières et la division obéit au cycle cellulaire : ce trio ne décrit pas ce que la matrice rend possible."
+    },
+    {
+     "t": "Respirer, se nourrir et éliminer leurs déchets",
+     "j": "Ces échanges dépendent de la membrane plasmique et de la circulation sanguine, non des propriétés d'adhérence et de mobilité apportées par la matrice."
+    },
+    {
+     "t": "Se contracter, se dépolariser et conduire un influx",
+     "j": "Ces propriétés appartiennent aux cellules excitables ou contractiles ; ce ne sont pas des capacités générales conférées à toute cellule par sa matrice."
+    }
+   ]
+  },
+  {
+   "q": "Comment une cellule réagit-elle lorsque la composition et les propriétés mécaniques de la matrice qui l'entoure se modifient ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Elle ajuste son état mécanique interne et conserve ainsi une homéostasie tensionnelle",
+     "correct": true,
+     "j": "En réaccordant sa tension interne aux nouvelles propriétés de son environnement, la cellule maintient l'équilibre tensionnel sur lequel repose son fonctionnement."
+    },
+    {
+     "t": "Elle relâche entièrement sa tension interne jusqu'au retour de la matrice d'origine",
+     "j": "Un relâchement complet priverait la cellule de toute tension de référence ; la réaction consiste à réajuster cet état, non à l'abolir en attendant."
+    },
+    {
+     "t": "Elle expulse par exocytose ciblée toutes les protéines matricielles qui ont été modifiées",
+     "j": "La cellule ne trie pas les protéines de la matrice pour les rejeter une à une ; elle adapte son propre état mécanique à ce nouvel environnement."
+    },
+    {
+     "t": "Elle maintient sa tension interne inchangée, fixée une fois pour toutes",
+     "j": "Une tension interne figée rendrait la cellule aveugle aux changements de son environnement, alors que c'est précisément à eux qu'elle s'ajuste."
+    }
+   ]
+  },
+  {
+   "q": "À quelles situations pathologiques les altérations de la composition et de la mécanique de la matrice extracellulaire sont-elles associées ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Aux maladies dégénératives et aux cancers",
+     "correct": true,
+     "j": "Une matrice dont la composition ou les propriétés mécaniques se dégradent altère la fonction des cellules et des tissus, ce que l'on retrouve dans les maladies dégénératives et les cancers."
+    },
+    {
+     "t": "Aux maladies infectieuses aiguës et aux septicémies",
+     "j": "Ces tableaux dépendent d'un agent pathogène et de la réponse immunitaire, et non d'une modification des propriétés mécaniques du tissu."
+    },
+    {
+     "t": "Aux maladies carentielles et aux troubles du métabolisme des glucides",
+     "j": "Ces désordres relèvent des apports alimentaires et des voies métaboliques, non des caractéristiques mécaniques du milieu entourant les cellules."
+    },
+    {
+     "t": "Aux maladies auto-immunes et aux réactions allergiques",
+     "j": "Ces affections traduisent une réponse immunitaire mal dirigée ; ce n'est pas l'état mécanique de la matrice qui les engendre."
+    }
+   ]
+  },
+  {
+   "q": "Deux cellules voisines soumises à la même compression n'y répondent pas de la même manière. De quoi dépend cette différence ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "De leurs propriétés mécaniques propres et de leur interaction avec la matrice extracellulaire",
+     "correct": true,
+     "j": "Un même stimulus n'a pas le même effet sur deux cellules : tout dépend de leurs propriétés mécaniques et de la façon dont chacune dialogue avec la matrice qui l'entoure."
+    },
+    {
+     "t": "De la durée pendant laquelle chacune d'elles a déjà été soumise à une contrainte",
+     "j": "La durée de sollicitation antérieure ne départage pas deux cellules voisines : ce sont les caractéristiques mécaniques de chacune et son lien avec la matrice qui déterminent sa réponse."
+    },
+    {
+     "t": "De la quantité d'ATP que chacune d'elles avait mise en réserve avant que la force ne soit appliquée",
+     "j": "La réserve énergétique conditionne l'activité générale de la cellule, mais pas la manière dont un stimulus mécanique particulier l'affecte."
+    },
+    {
+     "t": "De la distance qui sépare chacune d'elles du vaisseau sanguin le plus proche",
+     "j": "La proximité d'un vaisseau règle l'apport en oxygène et en nutriments, et non la sensibilité propre de la cellule à une contrainte."
+    }
+   ]
+  },
+  {
+   "q": "Un échafaudage synthétique est implanté dans un tissu musculosquelettique, puis soumis à des interventions mécaniques. Quel bénéfice est recherché ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Favoriser son intégration, la guérison et la capacité de restauration des cellules et tissus implantés",
+     "correct": true,
+     "j": "Les interventions mécaniques activent des réponses biologiques ciblées dans le tissu musculosquelettique, ce qui soutient l'intégration de l'implant et la restauration des cellules et tissus en place."
+    },
+    {
+     "t": "Accélérer sa dégradation de façon à libérer rapidement l'espace qu'il occupe",
+     "j": "On ne cherche pas à faire disparaître l'échafaudage : il sert de support aux cellules pendant que le tissu se reconstruit autour de lui."
+    },
+    {
+     "t": "Supprimer complètement la réponse immunitaire que l'organisme dirige contre le matériau étranger implanté",
+     "j": "Une contrainte mécanique n'éteint pas la réaction immunitaire au matériau ; le bénéfice visé est d'ordre régénératif."
+    },
+    {
+     "t": "Durcir sa structure pour qu'elle résiste mieux aux compressions subies",
+     "j": "Modifier la rigidité du matériau lui-même n'est pas l'objectif : les forces sont appliquées pour agir sur les cellules et les tissus."
+    }
+   ]
+  },
+  {
+   "q": "Longtemps comprise comme l'utilisation de moyens mécaniques pour la guérison des maladies, la mécanothérapie a reçu une définition plus précise. Laquelle ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "L'utilisation de la mécanotransduction pour stimuler et remodeler le tissu cellulaire",
+     "correct": true,
+     "j": "Cette redéfinition fait de la mécanothérapie l'application clinique de la mécanotransduction : la force n'agit pas par elle-même, elle déclenche une réponse biologique qui remodèle le tissu."
+    },
+    {
+     "t": "L'utilisation d'appareils de traction pour corriger les déformations du squelette",
+     "j": "La correction orthopédique d'une déformation par traction reste un effet purement mécanique, sans référence à la réponse cellulaire déclenchée."
+    },
+    {
+     "t": "L'utilisation de vibrations calibrées pour soulager les douleurs chroniques",
+     "j": "Soulager une douleur par la vibration est une visée antalgique ; la définition retenue met en avant la stimulation et le remodelage du tissu."
+    },
+    {
+     "t": "L'utilisation de contraintes mécaniques pour mesurer la résistance d'un tissu",
+     "j": "Éprouver la résistance d'un tissu est une démarche d'évaluation : la mécanothérapie, elle, vise à agir sur le tissu et à le transformer."
+    }
+   ]
+  },
+  {
+   "q": "En réorganisant son cytosquelette, une cellule modifie son environnement micromécanique. Quelle conséquence cela entraîne-t-il pour elle ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Sa sensibilité aux forces qui lui parviennent s'en trouve modifiée",
+     "correct": true,
+     "j": "En remaniant son cytosquelette, la cellule change son environnement micromécanique et, du même coup, la façon dont elle percevra les forces entrantes."
+    },
+    {
+     "t": "Son noyau cesse de recevoir la moindre contrainte mécanique",
+     "j": "Le remaniement du cytosquelette ne coupe pas le noyau des contraintes : il modifie la manière dont la cellule les ressent."
+    },
+    {
+     "t": "Elle perd définitivement la faculté de percevoir une contrainte",
+     "j": "Aucune perte définitive n'est en jeu : la réorganisation est un ajustement réversible de la sensibilité de la cellule."
+    },
+    {
+     "t": "Ses récepteurs de surface sont internalisés puis dégradés",
+     "j": "Le retrait puis la destruction des récepteurs relèvent du trafic membranaire, et non de la façon dont la cellule perçoit les forces qui lui parviennent."
+    }
+   ]
+  },
+  {
+   "q": "Lorsque les forces exercées sur une cellule deviennent suffisantes, celle-ci engage une réponse moléculaire. Sur quoi cette réponse agit-elle ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Sur la synthèse ou la dégradation de la matrice, donc sur les propriétés mécaniques du tissu",
+     "correct": true,
+     "j": "En produisant davantage de matrice ou en la dégradant, la cellule change la raideur et la résistance du tissu entier : la contrainte reçue finit par remodeler le milieu lui-même."
+    },
+    {
+     "t": "Sur la perméabilité de la membrane plasmique aux molécules de grande taille",
+     "j": "Le passage des grosses molécules dépend des mécanismes de transport vésiculaire, et non de la réponse déclenchée par une contrainte suffisante."
+    },
+    {
+     "t": "Sur le nombre de jonctions communicantes qui relient entre elles les cellules voisines du tissu",
+     "j": "La mise en communication des cytoplasmes voisins est un autre registre : cette réponse-là porte sur le milieu qui entoure la cellule."
+    },
+    {
+     "t": "Sur la vitesse de renouvellement des organites contenus dans le cytoplasme",
+     "j": "Le renouvellement des organites relève de l'entretien interne de la cellule et ne modifie pas les propriétés mécaniques du tissu."
+    }
+   ]
+  },
+  {
+   "q": "Parmi les voies de mécanotransduction, laquelle achemine les signaux mécaniques de la matrice extracellulaire jusqu'au noyau en empruntant le cytosquelette ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "La voie intégrine/adhésion focale",
+     "correct": true,
+     "j": "Cette voie part du point d'accrochage à la matrice et se prolonge par le réseau de filaments de la cellule jusqu'au noyau, où le signal mécanique devient une modification de l'expression des gènes."
+    },
+    {
+     "t": "La voie des canaux ioniques mécanosensibles Piezo1",
+     "j": "Piezo1 assure une conversion directe du stimulus au niveau même de la membrane, sans emprunter le cytosquelette pour gagner le noyau."
+    },
+    {
+     "t": "La voie Notch des contacts intercellulaires",
+     "j": "Notch entre en jeu lorsque deux cellules adjacentes se touchent, et non pour conduire une contrainte venue de la matrice le long des filaments."
+    },
+    {
+     "t": "La voie du complexe LINC de l'enveloppe nucléaire",
+     "j": "Le complexe LINC est un maillon situé à l'arrivée, sur l'enveloppe du noyau ; il ne constitue pas à lui seul l'une des grandes voies de mécanotransduction."
+    }
+   ]
+  },
+  {
+   "q": "Qu'est-ce qui propage dans la cellule aussi bien les forces venues de l'extérieur que celles qu'elle engendre elle-même ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "La tension du cytosquelette",
+     "correct": true,
+     "j": "Le réseau de filaments, maintenu sous tension, est le support par lequel se diffusent les forces extracellulaires comme celles produites par la cellule."
+    },
+    {
+     "t": "La pression osmotique du cytosol",
+     "j": "La pression osmotique répartit l'eau de part et d'autre des membranes ; elle ne véhicule pas de force orientée à l'intérieur de la cellule."
+    },
+    {
+     "t": "Le flux des vésicules de transport",
+     "j": "Les vésicules déplacent du contenu d'un compartiment à l'autre : elles transportent de la matière, pas une contrainte mécanique."
+    },
+    {
+     "t": "Le gradient ionique de la membrane",
+     "j": "Un gradient d'ions constitue une réserve d'énergie électrochimique et n'assure pas la propagation mécanique d'une force."
+    }
+   ]
+  },
+  {
+   "q": "De quoi dépendent les propriétés mécaniques du cytosquelette ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "De la dynamique, de la géométrie et de la polarité de ses composants",
+     "correct": true,
+     "j": "Ce ne sont pas seulement les filaments présents qui comptent, mais la façon dont ils se renouvellent, s'orientent dans l'espace et s'organisent de manière polarisée."
+    },
+    {
+     "t": "De la température et du pH qui règnent dans le cytosol de la cellule",
+     "j": "Ces paramètres physico-chimiques conditionnent l'activité enzymatique générale, non les caractéristiques mécaniques propres au réseau de filaments."
+    },
+    {
+     "t": "Du nombre de ribosomes fixés tout le long de ses filaments",
+     "j": "Les ribosomes assurent la traduction des protéines ; ils ne s'alignent pas sur les filaments pour en régler la raideur."
+    },
+    {
+     "t": "De la quantité de calcium stockée dans le réticulum de la cellule",
+     "j": "Une réserve ionique intracellulaire n'est pas ce qui fixe les propriétés mécaniques du réseau de filaments et de ses protéines de liaison."
+    }
+   ]
+  },
+  {
+   "q": "Sur quels critères distingue-t-on les différents sous-types de fibres de stress ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Leur organisation structurelle et leur connectivité aux adhésions focales",
+     "correct": true,
+     "j": "C'est l'agencement interne de chaque faisceau et sa connectivité aux points d'ancrage qui définissent les sous-types, lesquels participent à la propagation des forces et à la stabilité des structures de la cellule."
+    },
+    {
+     "t": "Leur longueur totale et leur vitesse de renouvellement dans la cellule",
+     "j": "Ni la taille ni la durée de vie d'un faisceau ne servent à le classer : ce qui le distingue, c'est sa construction interne et ses attaches."
+    },
+    {
+     "t": "Leur teneur en filaments intermédiaires et en microtubules",
+     "j": "Ces deux familles de filaments appartiennent au cytosquelette, mais ce n'est pas leur proportion qui permet de différencier les faisceaux."
+    },
+    {
+     "t": "Leur position par rapport à l'enveloppe du noyau de la cellule",
+     "j": "La distance au noyau ne définit aucun sous-type : la classification s'appuie sur la structure du faisceau et sur sa connectivité."
+    }
+   ]
+  },
+  {
+   "q": "Que subit une intégrine aussitôt après s'être liée à la matrice extracellulaire, sous l'effet d'un stimulus mécanique ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Une modification de sa conformation",
+     "correct": true,
+     "j": "Le stimulus mécanique fait changer de forme l'intégrine déjà accrochée à la matrice : ce changement conformationnel est le point de départ de la suite de la voie."
+    },
+    {
+     "t": "Un clivage de son domaine extracellulaire",
+     "j": "L'intégrine n'est pas coupée en deux pour fonctionner ; elle reste entière et c'est sa forme qui se réarrange."
+    },
+    {
+     "t": "Une phosphorylation de son domaine intracellulaire",
+     "j": "Ce n'est pas l'ajout d'un groupement phosphate qui suit immédiatement l'accrochage à la matrice : c'est un changement de forme de la protéine elle-même."
+    },
+    {
+     "t": "Une internalisation par endocytose rapide",
+     "j": "Une intégrine qui vient de s'accrocher à la matrice reste en place : elle ne quitte pas la surface aussitôt après s'y être liée."
+    }
+   ]
+  },
+  {
+   "q": "Dans la voie intégrine/FAK, comment les rôles se répartissent-ils entre les deux partenaires ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "L'intégrine sert de récepteur au stimulus mécanique, FAK assure la transduction intracellulaire",
+     "correct": true,
+     "j": "La contrainte est captée à la surface par l'intégrine, puis convertie à l'intérieur de la cellule par FAK : c'est cette répartition qui rend la voie efficace pour les signaux mécaniques comme biochimiques."
+    },
+    {
+     "t": "FAK capte le stimulus mécanique à la surface, l'intégrine le relaie dans le cytoplasme",
+     "j": "Les deux rôles sont ici intervertis : FAK n'est pas un récepteur de surface et l'intégrine ne travaille pas à l'intérieur de la cellule."
+    },
+    {
+     "t": "L'intégrine et FAK captent toutes deux le stimulus, chacune sur une face de la membrane",
+     "j": "Un seul des deux partenaires joue le rôle de récepteur ; l'autre intervient en aval et n'est pas exposé à la contrainte extérieure."
+    },
+    {
+     "t": "FAK ancre la cellule à la matrice, l'intégrine phosphoryle ses cibles cytoplasmiques",
+     "j": "Attribuer l'ancrage à FAK et une activité kinase à l'intégrine inverse la nature même des deux protéines."
+    }
+   ]
+  },
+  {
+   "q": "À quoi servent les interactions qui unissent la taline, la vinculine et les intégrines ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Elles stabilisent les adhésions focales et relaient les signaux mécaniques et biochimiques",
+     "correct": true,
+     "j": "Ce trio consolide les points d'ancrage de la cellule et leur permet en même temps de transmettre vers l'intérieur l'information mécanique et biochimique reçue."
+    },
+    {
+     "t": "Elles ouvrent un canal qui laisse passer librement les ions entre le cytoplasme et la matrice",
+     "j": "Aucune de ces protéines ne forme de pore : leur action est structurale et informative, non un passage d'ions."
+    },
+    {
+     "t": "Elles découpent les protéines matricielles usées avant leur remplacement",
+     "j": "Le renouvellement des constituants de la matrice fait appel à des enzymes de dégradation, et non à ces protéines d'accrochage."
+    },
+    {
+     "t": "Elles arriment l'enveloppe nucléaire au réseau de filaments intermédiaires",
+     "j": "Ce trio travaille au niveau de la membrane plasmique ; l'arrimage du noyau est assuré par d'autres protéines."
+    }
+   ]
+  },
+  {
+   "q": "Que forment les composants du complexe LINC lorsqu'ils se regroupent au pôle apical du noyau ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "La ligne nucléaire associée à l'actine transmembranaire, comparable à une adhésion focale",
+     "correct": true,
+     "j": "Ce regroupement constitue la ligne TAN, structure bâtie sur le même principe qu'un point d'ancrage à la matrice, mais appliquée à la surface du noyau."
+    },
+    {
+     "t": "Un pore nucléaire supplémentaire réservé au passage des facteurs de transcription",
+     "j": "Le regroupement ne crée pas de nouveau passage à travers l'enveloppe : il bâtit une structure d'ancrage à sa surface."
+    },
+    {
+     "t": "Une jonction d'ancrage reliant entre eux deux noyaux d'une même cellule",
+     "j": "Cette structure ne relie pas deux noyaux l'un à l'autre ; elle s'établit à la surface d'un seul noyau."
+    },
+    {
+     "t": "Un manchon de filaments isolant le noyau des contraintes du cytoplasme",
+     "j": "Il ne s'agit pas d'un écran protecteur : la structure formée sert au contraire à transmettre la contrainte jusqu'au noyau."
+    }
+   ]
+  },
+  {
+   "q": "Dans la régénération tissulaire, quels processus les canaux Piezo1 facilitent-ils ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "La différenciation des cellules souches et la formation osseuse",
+     "correct": true,
+     "j": "En traduisant les contraintes reçues, Piezo1 oriente les cellules souches vers leur destin et soutient la construction du tissu osseux après une lésion."
+    },
+    {
+     "t": "La contraction des fibres musculaires lisses et la vasoconstriction",
+     "j": "La réponse contractile des vaisseaux relève de mécanismes nerveux et hormonaux, non du rôle régénératif attribué à ce canal."
+    },
+    {
+     "t": "La production d'anticorps et le recrutement des lymphocytes",
+     "j": "La réponse immunitaire spécifique met en jeu des cellules et des médiateurs qui n'appartiennent pas à cette voie mécanosensible."
+    },
+    {
+     "t": "La résorption de la matrice et l'élimination des débris cellulaires",
+     "j": "Le nettoyage du site lésé précède la reconstruction : ce canal agit dans la phase de reconstruction et non dans l'élimination des débris."
+    }
+   ]
+  },
+  {
+   "q": "Dans quelle cellule du tissu osseux le canal Piezo1 est-il fortement exprimé et régulable par un étirement ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "L'ostéocyte",
+     "correct": true,
+     "j": "C'est dans l'ostéocyte, emmuré dans la matrice osseuse, que ce canal est le plus abondant, et un étirement de la cellule suffit à en régler l'activité."
+    },
+    {
+     "t": "L'ostéoclaste",
+     "j": "L'ostéoclaste est la cellule qui résorbe le tissu osseux ; ce n'est pas elle qui exprime fortement ce canal mécanosensible."
+    },
+    {
+     "t": "L'ostéoblaste",
+     "j": "L'ostéoblaste fabrique la matrice osseuse ; ce n'est pas lui, mais la cellule une fois emmurée dans cette matrice, qui exprime fortement ce canal."
+    },
+    {
+     "t": "La cellule bordante",
+     "j": "La cellule bordante tapisse les surfaces osseuses au repos ; ce n'est pas elle qui exprime fortement ce canal mécanosensible."
+    }
+   ]
+  },
+  {
+   "q": "Comment les canaux Piezo1 participent-ils à la régénération du système nerveux périphérique ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "En favorisant la croissance axonale et la réparation des nerfs endommagés",
+     "correct": true,
+     "j": "Dans le système nerveux périphérique, ces canaux soutiennent la repousse des axones et la remise en état des nerfs qui ont été lésés."
+    },
+    {
+     "t": "En accélérant la myélinisation assurée par les cellules de Schwann",
+     "j": "La reconstitution de la gaine de myéline est l'œuvre des cellules de Schwann elles-mêmes, et non celle de l'ouverture d'un canal mécanosensible."
+    },
+    {
+     "t": "En déclenchant la dégénérescence du segment nerveux situé en aval de la lésion",
+     "j": "La destruction du segment distal est une conséquence de la lésion ; ce canal est au contraire associé à la réparation."
+    },
+    {
+     "t": "En recrutant les macrophages chargés de nettoyer le site lésé",
+     "j": "Le recrutement des cellules de nettoyage dépend de médiateurs de l'inflammation, non de l'ouverture d'un canal mécanosensible."
+    }
+   ]
+  },
+  {
+   "q": "Combien d'étapes de clivage protéolytique le récepteur Notch subit-il, et lesquelles dépendent de la liaison de son ligand ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Trois clivages successifs, dont seuls les deux derniers dépendent du ligand",
+     "correct": true,
+     "j": "Le premier clivage se produit indépendamment du ligand ; seuls les deux suivants exigent que Notch soit engagé par son ligand pour s'accomplir."
+    },
+    {
+     "t": "Trois clivages successifs, dont seul le tout premier dépend du ligand",
+     "j": "C'est l'inverse : le premier clivage a lieu sans ligand, et ce sont les suivants qui en dépendent."
+    },
+    {
+     "t": "Deux clivages successifs, l'un et l'autre dépendants du ligand",
+     "j": "Le compte est incomplet : la maturation et l'activation du récepteur en exigent un de plus."
+    },
+    {
+     "t": "Un clivage unique, strictement dépendant de la liaison du ligand",
+     "j": "Un seul coup de ciseaux ne suffit pas : l'activation du récepteur résulte d'une succession de clivages."
+    }
+   ]
+  },
+  {
+   "q": "Comment qualifier la protéine Notch avant son activation, et quelle place sa voie occupe-t-elle parmi les voies de signalisation ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Un régulateur de transcription latent, au bout de la voie la plus simple et la plus directe allant d'un récepteur de surface au noyau",
+     "correct": true,
+     "j": "Notch porte déjà en lui la capacité d'agir sur la transcription, en attente d'être libérée : aucune voie connue ne relie plus directement la surface de la cellule à son noyau."
+    },
+    {
+     "t": "Une enzyme cytoplasmique dormante, au bout de la cascade la plus longue connue depuis la membrane",
+     "j": "Notch n'est pas une enzyme du cytoplasme, et sa voie se distingue justement par sa brièveté et non par sa longueur."
+    },
+    {
+     "t": "Un facteur de croissance mis en réserve dans la matrice extracellulaire, qui n'est libéré vers le noyau qu'au terme d'une longue cascade enzymatique",
+     "j": "Notch est une protéine portée par la membrane de la cellule, et non un messager stocké dans le milieu extracellulaire."
+    },
+    {
+     "t": "Un canal ionique silencieux, relié au noyau par une longue suite de seconds messagers",
+     "j": "Notch ne laisse passer aucun ion et n'a pas besoin d'une file de relais chimiques pour atteindre le noyau."
+    }
+   ]
+  },
+  {
+   "q": "La mécanotransduction intervient dans la croissance, le remodelage et la réparation d'un tissu. Quels caractères de ce tissu s'en trouvent influencés ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Sa masse, sa structure et sa qualité",
+     "correct": true,
+     "j": "C'est par ces trois caractères que se mesure l'adaptation d'un tissu à son environnement mécanique : la quantité de tissu, son agencement et sa valeur fonctionnelle."
+    },
+    {
+     "t": "Sa température, son pH et son osmolarité",
+     "j": "Ces grandeurs appartiennent au milieu intérieur et sont réglées par l'organisme entier, non par l'adaptation mécanique du tissu."
+    },
+    {
+     "t": "Sa vascularisation, son innervation et son drainage",
+     "j": "Ces apports conditionnent la vie du tissu, mais ce ne sont pas les caractères que l'adaptation aux contraintes fait varier."
+    },
+    {
+     "t": "Sa teneur en eau, en sodium et en potassium",
+     "j": "Ces compositions ioniques relèvent des équilibres hydroélectrolytiques et non de la réponse d'un tissu à sa sollicitation mécanique."
+    }
+   ]
+  },
+  {
+   "q": "Comment un stimulus mécanique perçu par les intégrines ou par les canaux Piezo1 met-il en route la signalisation Notch ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Il induit l'expression des ligands de Notch dans les cellules émettrices",
+     "correct": true,
+     "j": "Le stimulus agit d'abord sur la cellule émettrice, qui se met à exprimer les ligands : ces ligands activent ensuite les récepteurs portés par les cellules réceptrices."
+    },
+    {
+     "t": "Il ouvre directement le récepteur Notch porté par les cellules réceptrices",
+     "j": "La contrainte n'agit pas en force sur le récepteur lui-même : elle passe par la cellule d'en face et par ce qu'elle exprime."
+    },
+    {
+     "t": "Il libère la queue cytoplasmique de Notch sans l'intervention d'un ligand",
+     "j": "La libération de la queue suppose que le récepteur ait été engagé par un ligand ; une contrainte seule n'y suffit pas."
+    },
+    {
+     "t": "Il déplace le récepteur Notch vers la face interne de la membrane",
+     "j": "Un récepteur transmembranaire ne bascule pas d'une face à l'autre de la membrane sous l'effet d'une contrainte."
+    }
+   ]
+  },
+  {
+   "q": "Une fois activée, par quel moyen la voie Notch influence-t-elle la prolifération cellulaire ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "En réglant l'expression de gènes liés au cycle cellulaire",
+     "correct": true,
+     "j": "La voie agit au niveau de la transcription : en modulant ces gènes, elle commande le rythme auquel les cellules se multiplient, ce qui compte beaucoup après une lésion."
+    },
+    {
+     "t": "En augmentant l'apport de nutriments acheminés vers la cellule",
+     "j": "L'approvisionnement de la cellule dépend de la circulation et des transporteurs membranaires, et non d'une voie de signalisation intercellulaire."
+    },
+    {
+     "t": "En raccourcissant la durée de la cytokinèse de chaque division",
+     "j": "Accélérer la séparation finale des deux cellules filles ne change pas le nombre de cellules engagées dans la division."
+    },
+    {
+     "t": "En dupliquant les centrosomes avant l'entrée en mitose",
+     "j": "La duplication des centrosomes est un événement du cycle lui-même, pas le moyen par lequel une voie de signalisation agit."
+    }
+   ]
+  },
+  {
+   "q": "Dans le tissu musculosquelettique, et selon les signaux mécaniques et environnementaux reçus, vers quelles lignées la voie Notch peut-elle orienter des cellules souches ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "Vers les ostéoblastes ou vers les adipocytes",
+     "correct": true,
+     "j": "La voie pèse sur la détermination du destin cellulaire : la même cellule souche prendra l'une ou l'autre direction selon les signaux qu'elle reçoit de son environnement."
+    },
+    {
+     "t": "Vers les ostéoclastes ou vers les macrophages",
+     "j": "Ces deux cellules descendent des précurseurs sanguins de la moelle, et non du précurseur mésenchymateux dont le destin se joue ici."
+    },
+    {
+     "t": "Vers les kératinocytes ou vers les mélanocytes",
+     "j": "Ces deux lignées peuplent l'épiderme et ne descendent pas du précurseur mésenchymateux dont le destin se joue ici."
+    },
+    {
+     "t": "Vers les érythrocytes ou vers les plaquettes",
+     "j": "Ces éléments figurés du sang naissent à partir de la lignée hématopoïétique, étrangère au précurseur mésenchymateux considéré."
+    }
+   ]
+  },
+  {
+   "q": "Quel signal entraîne la croissance des myotubes et des myofibres déjà existants, et produit ainsi une hypertrophie ?",
+   "c": 7,
+   "options": [
+    {
+     "t": "La signalisation Wnt7a",
+     "correct": true,
+     "j": "Wnt7a n'agit pas sur la formation de nouvelles fibres mais sur celles qui existent déjà, en les faisant grossir : c'est le mécanisme de l'hypertrophie."
+    },
+    {
+     "t": "La signalisation Wnt canonique",
+     "j": "La signalisation Wnt canonique s'élève au moment où les cellules satellites sortent de leur repos, en amont de la croissance des fibres."
+    },
+    {
+     "t": "La signalisation Notch",
+     "j": "Notch agit sur l'état des cellules satellites et sur leur destin, non sur l'augmentation de volume d'une fibre déjà constituée."
+    },
+    {
+     "t": "Le canal Piezo1",
+     "j": "Piezo1 est un capteur de contrainte situé sur la membrane : il ouvre un passage aux ions, il ne fait pas grossir les fibres déjà formées."
+    }
+   ]
+  },
+  {
+   "q": "Un neurotransmetteur et une hormone atteignent chacun leur cellule cible. Que peut-on dire des concentrations auxquelles ils agissent ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Le neurotransmetteur atteint localement une concentration élevée, alors que l'hormone parvient très diluée à sa cible",
+     "correct": true,
+     "j": "Exact : l'acétylcholine peut approcher 5 x 10⁻⁴ M dans l'espace minuscule de la fente, tandis qu'une hormone, diluée par la circulation, agit typiquement en dessous de 10⁻⁸ M."
+    },
+    {
+     "t": "L'hormone atteint une concentration élevée dans le sang, alors que le neurotransmetteur reste très dilué dans la fente",
+     "j": "Le rapport est inversé : le sang dilue fortement l'hormone, alors que la fente, très étroite, concentre le neurotransmetteur libéré juste en face du récepteur."
+    },
+    {
+     "t": "Les deux messagers agissent sur leur récepteur à des concentrations du même ordre de grandeur",
+     "j": "Plusieurs ordres de grandeur les séparent : la dilution dans le volume sanguin n'a aucun équivalent dans l'espace confiné d'une synapse."
+    },
+    {
+     "t": "Les deux messagers sont très dilués, et seule l'affinité du récepteur permet leur action",
+     "j": "La faible concentration compensée par une forte affinité vaut pour l'hormone, mais pas pour le neurotransmetteur, qui est déversé en forte concentration au contact même de sa cible."
+    }
+   ]
+  },
+  {
+   "q": "Comment le signal électrique engendré par un récepteur lié à un canal ionique se propage-t-il à la surface de la cellule ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Par l'ouverture successive des canaux voisins sensibles à la tension",
+     "correct": true,
+     "j": "Exact : l'ouverture initiale modifie le potentiel de membrane, ce qui ouvre de proche en proche les canaux adjacents sensibles à la tension et fait courir le signal bien plus vite qu'un messager chimique."
+    },
+    {
+     "t": "Par la diffusion d'un second messager sous la face interne de la membrane",
+     "j": "La diffusion d'un second messager relaie les signaux des récepteurs qui activent des enzymes ; elle est bien plus lente et ne rend pas compte de la rapidité d'un signal électrique."
+    },
+    {
+     "t": "Par le déplacement latéral du récepteur-canal dans la bicouche",
+     "j": "Le récepteur ne se déplace pas pour transmettre le signal : c'est le mouvement des ions à travers des canaux successifs qui propage la variation de potentiel."
+    },
+    {
+     "t": "Par le maintien prolongé du canal initial en position ouverte",
+     "j": "L'ouverture d'un canal ionique est au contraire un événement transitoire de quelques millisecondes, après lequel le canal se referme et passe à l'état de repos."
+    }
+   ]
+  },
+  {
+   "q": "Quelle voie de signalisation est essentielle à la croissance musculaire en réponse à l'exercice de résistance ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "La voie PI3K/Akt/mTOR",
+     "correct": true,
+     "j": "Exact : c'est la voie de signalisation que l'exercice de résistance met en route dans le muscle, et dont la modulation oriente directement la construction des programmes de renforcement en kinésithérapie."
+    },
+    {
+     "t": "La cascade des MAP kinases",
+     "j": "Cette cascade de phosphorylations, mise en route par un récepteur à activité kinase, règle la croissance, la différenciation et la survie des cellules en général, sans commander la prise de masse en réponse au travail de force."
+    },
+    {
+     "t": "La voie de l'AMP cyclique",
+     "j": "Ce second messager relaie les signaux des récepteurs couplés aux protéines G et déclenche des réponses rapides et transitoires, sans rapport avec la construction durable de masse musculaire."
+    },
+    {
+     "t": "La voie du TGF-bêta",
+     "j": "Le TGF-bêta intervient dans la réparation des tissus conjonctifs après une lésion ; sur le muscle, cette famille de facteurs freine la prise de masse au lieu de la soutenir."
+    }
+   ]
+  },
+  {
+   "q": "L'adrénaline atteint la paroi d'un vaisseau sanguin. Quelle réponse obtient-on selon le récepteur auquel elle se lie ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Le récepteur alpha commande la constriction du vaisseau, le récepteur bêta sa dilatation",
+     "correct": true,
+     "j": "Exact : sur le vaisseau, la liaison au récepteur alpha resserre la lumière alors que la liaison au récepteur bêta l'élargit."
+    },
+    {
+     "t": "Le récepteur alpha commande la dilatation du vaisseau, le récepteur bêta sa constriction",
+     "j": "Les deux réponses sont interverties : c'est le récepteur alpha qui resserre la lumière du vaisseau et le récepteur bêta qui l'élargit."
+    },
+    {
+     "t": "Les deux récepteurs commandent une constriction, d'intensité seulement différente",
+     "j": "Les deux réponses ne diffèrent pas par leur intensité mais par leur sens même, l'une resserrant et l'autre élargissant le vaisseau."
+    },
+    {
+     "t": "Les deux récepteurs commandent une dilatation, de durée seulement différente",
+     "j": "La durée n'est pas en cause : les deux récepteurs conduisent à des calibres vasculaires opposés, et non à une même dilatation plus ou moins longue."
+    }
+   ]
+  },
+  {
+   "q": "Qu'est-ce qui confine l'action d'un médiateur local aux cellules immédiatement voisines de celle qui le sécrète ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Il est capté, détruit par les enzymes extracellulaires ou immobilisé par la matrice",
+     "correct": true,
+     "j": "Exact : ces trois mécanismes le retirent du milieu avant qu'il n'ait pu diffuser loin, ce qui garantit une action strictement locale."
+    },
+    {
+     "t": "Il est produit en très faible quantité, libéré par à-coups et dégradé lentement",
+     "j": "La portée d'un médiateur local ne tient ni à la quantité produite ni au rythme de sa libération ; une dégradation lente l'autoriserait au contraire à diffuser plus loin."
+    },
+    {
+     "t": "Il reste attaché en permanence à la membrane de la cellule qui le sécrète",
+     "j": "Un messager retenu sur la membrane relèverait de la signalisation dépendante du contact ; le médiateur local est bel et bien libéré dans l'espace extracellulaire."
+    },
+    {
+     "t": "Il rejoint la circulation sanguine mais n'agit qu'à son point de libération",
+     "j": "Rejoindre le sang définirait un messager endocrine, destiné à des cibles éloignées ; le médiateur local ne quitte pas l'espace extracellulaire du tissu."
+    }
+   ]
+  },
+  {
+   "q": "Des mutations activatrices touchent les récepteurs tyrosine kinases d'une cellule. À quel type de pathologie cette anomalie est-elle le plus souvent associée ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Aux cancers, par emballement de la prolifération",
+     "correct": true,
+     "j": "Exact : ces récepteurs commandent la croissance, la différenciation et la survie ; rendus actifs en permanence par une mutation, ils entretiennent une prolifération incontrôlée, d'où leur association fréquente aux cancers."
+    },
+    {
+     "t": "Aux maladies métaboliques et neurologiques",
+     "j": "Les maladies métaboliques et neurologiques relèvent plutôt des anomalies des récepteurs couplés aux protéines G, famille distincte de celle qui porte une activité enzymatique propre."
+    },
+    {
+     "t": "Aux maladies auto-immunes systémiques",
+     "j": "Une rupture de la tolérance immunitaire met en cause la reconnaissance du soi par les lymphocytes, et non un récepteur de surface dont le dérèglement porte sur la division cellulaire."
+    },
+    {
+     "t": "Aux myopathies dégénératives héréditaires",
+     "j": "Les atteintes musculaires héréditaires tiennent à des anomalies des protéines structurales ou contractiles de la fibre, et non à des récepteurs qui règlent la prolifération."
+    }
+   ]
+  },
+  {
+   "q": "Combien d'ATP la phosphorylation oxydative tire-t-elle respectivement des deux électrons d'un NADH et de ceux d'un FADH2 ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "2,5 ATP pour le NADH, 1,5 pour le FADH2",
+     "correct": true,
+     "j": "Exact : les électrons d'un NADH entrent dans la chaîne au premier complexe et traversent trois sites de pompage, ceux d'un FADH2 n'en traversent que deux ; les rendements retenus sont donc de 2,5 et de 1,5 ATP."
+    },
+    {
+     "t": "1,5 ATP pour le NADH et 2,5 ATP pour le FADH2",
+     "j": "Les rendements sont intervertis : le NADH, dont les électrons entrent plus tôt dans la chaîne, alimente davantage de sites de pompage que le FADH2."
+    },
+    {
+     "t": "3 ATP pour le NADH et 2 ATP pour le FADH2",
+     "j": "Ces valeurs entières, longtemps enseignées, ont été remplacées par des rendements fractionnaires, déduits du nombre de protons que chaque coenzyme réduite fait réellement pomper."
+    },
+    {
+     "t": "Le même rendement de 2,5 ATP pour l'un comme pour l'autre",
+     "j": "Les deux coenzymes réduites n'ont pas le même rendement, puisqu'elles ne cèdent pas leurs électrons au même endroit de la chaîne et ne font pas pomper autant de protons."
+    }
+   ]
+  },
+  {
+   "q": "Quel rôle la navette du glycérol-3-phosphate remplit-elle ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Régénérer le NAD+ du cytosol en cédant les électrons du NADH à une ubiquinone",
+     "correct": true,
+     "j": "Exact : la navette cède à une ubiquinone les deux électrons à haut potentiel du NADH formé dans le cytosol par la glycolyse, et restitue ainsi un NAD+ utilisable par cette voie."
+    },
+    {
+     "t": "Faire entrer dans la matrice le pyruvate produit par la glycolyse",
+     "j": "Le pyruvate gagne bien la mitochondrie après la glycolyse, mais par son propre transport, sans rapport avec le recyclage d'une coenzyme réduite."
+    },
+    {
+     "t": "Transporter les acides gras du cytosol vers la matrice mitochondriale",
+     "j": "Le passage des acides gras activés vers la matrice relève d'un système de transport distinct ; la navette interrogée ici ne déplace que des électrons."
+    },
+    {
+     "t": "Ramener vers le cytosol les protons accumulés dans l'espace intermembranaire",
+     "j": "Le gradient de protons s'établit de part et d'autre de la membrane interne, entre espace intermembranaire et matrice ; cette navette ne déplace aucun proton."
+    }
+   ]
+  },
+  {
+   "q": "Quelle place les récepteurs couplés aux protéines G occupent-ils parmi les cibles des médicaments disponibles ?",
+   "c": 6,
+   "options": [
+    {
+     "t": "Près de la moitié des médicaments disponibles les visent",
+     "correct": true,
+     "j": "Exact : antihistaminiques, bêta-bloquants et analgésiques comptent parmi les molécules qui agissent sur cette famille, dont la place centrale dans la signalisation en fait une cible de choix."
+    },
+    {
+     "t": "Moins d'un médicament sur cinquante parvient à les viser",
+     "j": "Une part aussi marginale sous-estime très largement l'importance pharmacologique d'une famille que vise une fraction considérable des molécules commercialisées."
+    },
+    {
+     "t": "Aucun médicament ne les vise, leur cascade étant trop ramifiée",
+     "j": "La ramification de la cascade n'interdit pas l'action d'un médicament : elle explique au contraire l'ampleur des effets obtenus en agissant sur ces récepteurs."
+    },
+    {
+     "t": "La quasi-totalité des médicaments commercialisés les visent",
+     "j": "Une proportion aussi écrasante laisserait sans cible les enzymes, les canaux ioniques et les transporteurs, que de nombreuses molécules visent également."
+    }
+   ]
+  }
  ],
  "structure1": [
   {
@@ -183369,30 +184773,558 @@ const QUESTIONS = {
     }
    ]
   },
-  {"q":"Quelle proportion de l'ensemble des informations sensitives est acheminée par la voie spinocérébelleuse ?","c":5,"options":[{"t":"90 %","correct":true,"j":"La voie spinocérébelleuse draine la très grande majorité du flux sensitif, soit 90 % des informations, ce qui fait du cervelet le premier destinataire des entrées sensorielles."},{"t":"10 %","j":"Cette fraction minoritaire inverse le rapport réel : loin d'être accessoire, ce trajet concentre l'essentiel des informations sensitives."},{"t":"50 %","j":"Un partage par moitié sous-estime nettement ce trajet, qui ne laisse qu'une faible part des informations sensitives aux autres voies."},{"t":"25 %","j":"Un quart seulement ferait du cervelet un destinataire secondaire, alors qu'il reçoit au contraire la part dominante du flux sensitif."}]},
-  {"q":"Parmi les fonctions de la formation réticulaire figure une fonction sensitive. En quoi consiste-t-elle ?","c":5,"options":[{"t":"Moduler l'information sensorielle qui parvient au cortex","correct":true,"j":"Elle s'interpose sur le trajet des informations sensorielles ascendantes et en module le flux avant qu'il n'atteigne le cortex."},{"t":"Conduire la sensibilité thermo-algique au thalamus","j":"Le transport de la douleur et de la température vers le thalamus revient à une voie ascendante dédiée, pas à un ensemble de noyaux modulateurs du tronc cérébral."},{"t":"Assurer la perception consciente de la position des segments","j":"La perception consciente de la position du corps se construit dans le cortex à partir d'une voie ascendante spécifique, et non dans le tronc cérébral."},{"t":"Transformer l'information visuelle en commande oculomotrice","j":"Cette conversion de la vision en mouvement du regard est une commande motrice descendante, et non une action exercée sur un message sensitif ascendant."}]},
-  {"q":"À quoi correspond la tension développée par un muscle entier lorsqu'il se contracte ?","c":5,"options":[{"t":"À la somme des tensions produites par chacune de ses fibres","correct":true,"j":"Le muscle n'est pas un bloc homogène : la tension qu'il exerce sur ses insertions est l'addition des tensions développées fibre par fibre."},{"t":"À la tension produite par son unité motrice la plus puissante","j":"La plus grosse unité motrice ne fournit qu'une partie de la tension totale ; les autres unités recrutées y contribuent tout autant."},{"t":"À la moyenne des tensions produites par ses différents faisceaux","j":"Une moyenne effacerait la contribution des faisceaux les plus actifs, alors que leurs tensions s'additionnent au lieu de se compenser."},{"t":"À la tension de la fibre la plus étirée au moment du départ","j":"Le degré d'étirement initial influence la force produite, mais la tension du muscle entier ne se réduit jamais à celle d'une fibre isolée."}]},
-  {"q":"Dans quelles conditions une fibre musculaire squelettique produit-elle un potentiel d'action ?","c":5,"options":[{"t":"Uniquement si elle est stimulée par les motoneurones qui l'innervent","correct":true,"j":"La fibre squelettique est strictement dépendante de sa commande nerveuse : sans stimulation par ses motoneurones, elle ne déclenche aucun potentiel d'action."},{"t":"Spontanément, de façon rythmique, comme le fait le muscle cardiaque","j":"L'automatisme rythmique appartient au muscle cardiaque ; la fibre squelettique, elle, reste muette tant qu'elle n'est pas commandée."},{"t":"Dès qu'un étirement passif déforme suffisamment son sarcolemme","j":"L'étirement est détecté par des récepteurs sensitifs qui empruntent une boucle réflexe ; il ne dépolarise pas directement le sarcolemme."},{"t":"Dès que la concentration de calcium s'élève dans son sarcoplasme","j":"La montée du calcium sarcoplasmique est une conséquence du potentiel d'action, et non sa cause : elle survient après l'excitation."}]},
-  {"q":"La rigidité cadavérique s'installe plusieurs heures après la mort. Qu'est-ce qui finit par y mettre un terme ?","c":5,"options":[{"t":"La destruction des protéines par autolyse enzymatique","correct":true,"j":"Les muscles restent figés jusqu'à ce que les enzymes libérées par les cellules détruisent les protéines contractiles : c'est l'autolyse qui lève la rigidité."},{"t":"La reprise de la production d'ATP par les mitochondries du myocyte","j":"Le métabolisme cellulaire est définitivement arrêté : aucune synthèse ne redémarre dans un myocyte mort, et ce n'est donc pas par là que les muscles se relâchent."},{"t":"Le repompage progressif du calcium sarcoplasmique vers le réticulum","j":"Ce retour du calcium vers le réticulum repose sur une pompe active que le myocyte mort ne peut plus faire fonctionner ; ce n'est donc pas lui qui lève la rigidité."},{"t":"La dégradation de l'acétylcholine accumulée dans la fente synaptique","j":"La rigidité s'installe et se défait à l'intérieur de la fibre elle-même, sans aucun signal venu de la terminaison nerveuse : ce qui se passe dans la fente synaptique n'y change rien."}]},
-  {"q":"Parmi les mécanismes neurophysiologiques dont dépend le contrôle postural, lequel est mis en jeu avant un mouvement volontaire ?","c":5,"options":[{"t":"La stabilisation de certains segments pour permettre le mouvement des autres","correct":true,"j":"Le contrôle postural produit des ajustements qui anticipent le geste voulu : il fige certaines parties du corps afin d'en libérer d'autres pour le mouvement."},{"t":"La réaction proportionnée à un déséquilibre survenu de façon inattendue","j":"Cette réponse est par définition postérieure à la perturbation : elle corrige un déséquilibre déjà survenu au lieu de préparer un geste."},{"t":"Le maintien d'une position corporelle stable contre l'attraction gravitaire","j":"Cette exigence est permanente et ne se rapporte pas particulièrement à la préparation d'un mouvement volontaire à venir."},{"t":"Le réajustement du tonus une fois le mouvement volontaire terminé","j":"Un réajustement déclenché par l'achèvement du geste ne fait partie d'aucune des exigences du contrôle postural : tenir la station, anticiper le mouvement, répondre aux déséquilibres imprévus."}]},
-  {"q":"Le noyau rouge, le tectum, la formation réticulaire et les noyaux vestibulaires sont à l'origine des voies motrices inconscientes. Quelle particularité partagent-ils tous ?","c":5,"options":[{"t":"Ils possèdent des connexions directes avec le cervelet","correct":true,"j":"Ces quatre noyaux moteurs du tronc cérébral sont tous reliés directement au cervelet, ce qui permet d'ajuster en continu les commandes inconscientes."},{"t":"Ils reçoivent leurs afférences exclusivement du thalamus","j":"Ces noyaux du tronc cérébral reçoivent des afférences de plusieurs origines, corticales comme cérébelleuses : aucune structure unique ne les alimente à elle seule."},{"t":"Ils croisent tous la ligne médiane au niveau des pyramides bulbaires","j":"La décussation pyramidale est le trait d'une voie motrice consciente d'origine corticale, et non de ces noyaux du tronc cérébral."},{"t":"Ils reçoivent tous une commande directe du cortex préfrontal","j":"Le cortex préfrontal n'envoie pas de commande directe à ces noyaux du tronc cérébral : les afférences corticales qui les atteignent empruntent d'autres relais."}]},
-  {"q":"Quelles structures de l'appareil vestibulaire envoient leurs afférences au système vestibulospinal ?","c":5,"options":[{"t":"Les canaux semi-circulaires, le saccule et l'utricule","correct":true,"j":"Ces trois formations composent l'appareil vestibulaire proprement dit et constituent la source d'afférences propre à ce système descendant."},{"t":"La cochlée, l'organe de Corti et la membrane tectoriale","j":"Ces structures de l'oreille interne sont dédiées à l'audition et n'envoient rien au système vestibulospinal."},{"t":"Les fuseaux neuromusculaires et les organes tendineux de Golgi","j":"Ces propriocepteurs alimentent bien ce système, mais au titre des afférences extra-vestibulaires et non de l'appareil vestibulaire."},{"t":"Les récepteurs cervicaux et les mécanorécepteurs de pression plantaires","j":"Ces récepteurs participent eux aussi à l'information du système, mais ils relèvent des entrées extra-vestibulaires, pas de l'appareil vestibulaire."}]},
-  {"q":"La voie vestibulospinale médiale agit sur quels muscles, et dans quel but ?","c":5,"options":[{"t":"Sur les muscles du cou, pour maintenir la position de la tête dans l'espace","correct":true,"j":"Support des réflexes vestibulaires du cou, elle assure la stabilité céphalique et situe la tête par rapport au regard et à l'espace."},{"t":"Sur les extenseurs des membres inférieurs, pour lutter contre la gravité","j":"Ces groupes relèvent du contingent latéral de ce système, et non du contingent médial, qui ne descend que jusqu'aux muscles du cou."},{"t":"Sur les muscles intrinsèques de la main, pour affiner la préhension","j":"La commande fine de la main n'est pas vestibulaire : elle appartient aux voies descendantes latérales issues du cortex."},{"t":"Sur les muscles abdominaux, pour verrouiller le tronc pendant l'effort","j":"Le verrouillage du tronc avant le geste n'est pas une fonction vestibulaire : il relève d'un autre système descendant, qui ne passe pas par les muscles du cou."}]},
-  {"q":"Au-delà du contrôle moteur, quelle fonction la formation réticulaire assure-t-elle, dont l'atteinte peut faire basculer le patient dans le coma ?","c":5,"options":[{"t":"Le maintien de l'état de conscience et du cycle veille-sommeil","correct":true,"j":"Elle constitue le système d'alerte de l'organisme : elle nous maintient éveillés et attentifs, et une lésion à ce niveau est très grave puisqu'elle conduit au coma."},{"t":"La coordination fine et indépendante des mouvements des doigts","j":"Cette motricité distale précise dépend de la grande voie descendante latérale d'origine corticale, et non du tronc cérébral."},{"t":"La mémorisation des séquences de mouvements déjà appris","j":"La conservation et la reprogrammation des gestes déjà acquis ne sont pas assurées par ce réseau du tronc cérébral, mais par une autre structure modulatrice."},{"t":"La détection permanente de la tension développée par les muscles","j":"Cette surveillance s'exerce en périphérie, au contact même du muscle, par des récepteurs spécialisés ; elle n'est pas le fait d'un ensemble de noyaux du tronc cérébral."}]},
-  {"q":"Quel système descendant latéral règle le fond de tonus postural de la ceinture scapulaire et se comporte principalement comme un système fléchisseur ?","c":5,"options":[{"t":"Le système cortico-rubrospinal","correct":true,"j":"Issu du noyau rouge, il entretient le tonus de fond de la ceinture scapulaire, donc de la moitié supérieure du corps, avec une dominante fléchisseuse."},{"t":"Le système vestibulospinal","j":"Ce système médian se comporte en extenseur et non en fléchisseur, et il n'entretient pas le tonus de fond d'une ceinture en particulier."},{"t":"Le système réticulospinal","j":"Également médian, il excite surtout la musculature axiale du tronc et du bassin, et non le tonus de fond de la ceinture scapulaire."},{"t":"Le système corticospinal ventral","j":"D'origine corticale, il sert la commande volontaire de la posture et n'entretient pas un tonus de fond régional."}]},
-  {"q":"Que sont les motoneurones supérieurs de la voie pyramidale ?","c":5,"options":[{"t":"Les neurones pyramidaux du cortex moteur et des noyaux moteurs sous-corticaux","correct":true,"j":"Ils forment le premier des deux neurones consécutifs de la voie, et font synapse plus bas avec les motoneurones inférieurs."},{"t":"Les neurones de la corne ventrale dont les axones forment les nerfs spinaux","j":"Cette description est celle du motoneurone inférieur, second maillon de la voie, qui rejoint directement le muscle squelettique."},{"t":"Les interneurones médullaires interposés entre la voie descendante et le muscle","j":"Les interneurones sont des relais locaux de la moelle : ils ne constituent aucun des deux neurones qui composent la voie pyramidale."},{"t":"Les neurones des ganglions spinaux qui conduisent l'information vers la moelle","j":"Ces neurones appartiennent à la voie afférente qui renseigne le système nerveux central ; ils n'occupent aucun des deux étages de la chaîne de commande motrice."}]},
-  {"q":"Dans le faisceau corticospinal latéral, quelle est l'origine corticale des fibres ?","c":5,"options":[{"t":"60 à 65 % viennent des aires motrices et 35 à 40 % des aires sensorielles","correct":true,"j":"Le faisceau n'est pas purement moteur : plus du tiers de ses fibres est issu des aires sensorielles, ce qui souligne le lien entre motricité et sensorialité."},{"t":"La totalité des fibres provient exclusivement du cortex moteur primaire","j":"Une origine purement motrice est inexacte : une part importante du contingent descend des aires sensorielles du cortex."},{"t":"35 à 40 % viennent des aires motrices et 60 à 65 % des aires sensorielles","j":"Les deux fractions sont ici permutées : ce sont les aires motrices qui fournissent la majorité des fibres, et non les aires sensorielles."},{"t":"75 % viennent des aires motrices et 25 % des aires associatives","j":"La part motrice est surestimée et la seconde source mal identifiée : la contribution non motrice vient des aires sensorielles."}]},
-  {"q":"Pourquoi la voie corticospinale ventrale ne permet-elle qu'une posture momentanée ?","c":5,"options":[{"t":"Parce que son accès aux muscles toniques est limité","correct":true,"j":"Faute d'atteindre largement la musculature tonique, elle ne produit qu'une pose passagère et ne peut pas entretenir une posture dans la durée."},{"t":"Parce qu'elle n'atteint que la musculature distale des mains et des pieds","j":"Les extrémités relèvent du faisceau latéral ; le faisceau ventral agit au contraire sur le squelette axial et les articulations proximales."},{"t":"Parce qu'elle est entièrement inconsciente et échappe à la volonté","j":"La voie pyramidale est consciente et volontaire dans ses deux contingents ; ce sont les systèmes du tronc cérébral qui sont inconscients."},{"t":"Parce qu'elle ne rejoint aucun interneurone de la moelle épinière","j":"Tous les systèmes descendants se terminent sur les interneurones et les motoneurones médullaires : ce n'est pas là que réside sa limite."}]},
-  {"q":"Le faisceau corticobulbaire rejoint les motoneurones des noyaux du tronc cérébral. De quelles fonctions motrices est-il responsable ?","c":5,"options":[{"t":"De la mastication et de la vocalisation, et du contrôle du squelette axial","correct":true,"j":"Formant les nerfs crâniens, il commande volontairement les yeux, la langue et le cou, et porte la mastication comme la vocalisation."},{"t":"De la motricité fine et indépendante des doigts de la main","j":"Le fractionnement du mouvement des doigts appartient au faisceau corticospinal latéral, qui descend jusqu'à la moelle et non vers les noyaux crâniens."},{"t":"Du réglage du tonus antigravitaire des membres inférieurs","j":"Le tonus antigravitaire des membres inférieurs est entretenu par des systèmes descendants inconscients du tronc cérébral, et non par cette voie volontaire."},{"t":"De la coordination des mouvements rythmiques du tronc pendant la marche","j":"Les automatismes rythmiques de la marche sont pris en charge par les systèmes descendants médians du tronc cérébral, en dehors de cette voie volontaire."}]},
-  {"q":"Quel rôle le cortex prémoteur joue-t-il dans le contrôle du mouvement volontaire ?","c":5,"options":[{"t":"Il organise et séquence le mouvement et choisit les stratégies","correct":true,"j":"Placé entre l'intention et l'exécution, il met le geste en ordre et arrête la stratégie motrice qui sera employée."},{"t":"Il exécute le geste en adressant les ordres au tronc et à la moelle","j":"Adresser les ordres au tronc cérébral et à la moelle relève de l'étage d'exécution, en aval de l'organisation du geste dont il est ici question."},{"t":"Il prend la décision de bouger et définit l'intention du geste","j":"La décision et l'intention se forment plus en avant, au stade où le geste n'est pas encore organisé : ce n'est pas le rôle d'une aire qui met le mouvement en ordre."},{"t":"Il identifie les objectifs à atteindre à partir des entrées sensitives","j":"L'identification des objectifs à atteindre revient à l'étage sensitif du système, qui renseigne la commande motrice sans mettre lui-même le geste en ordre."}]},
-  {"q":"Comment le cortex moteur primaire commande-t-il la musculature ?","c":5,"options":[{"t":"En activant des séquences de mouvement de groupes musculaires","correct":true,"j":"La commande ne porte jamais sur un muscle isolé : elle déclenche des séquences complètes mobilisant ensemble tous les groupes musculaires concernés."},{"t":"En réglant individuellement la tension de chacun des muscles concernés","j":"Un pilotage muscle par muscle est précisément ce que le cortex moteur primaire ne fait pas, car il raisonne en séquences de mouvement."},{"t":"En fixant la fréquence de décharge de chaque fibre musculaire isolée","j":"Aucune commande corticale ne s'adresse à une fibre isolée : la fibre est l'échelon terminal, atteint par le seul motoneurone qui l'innerve."},{"t":"En sélectionnant une à une les unités motrices les mieux adaptées","j":"Le choix des unités motrices mises en jeu s'opère à l'étage médullaire selon des règles de recrutement, et non par une désignation corticale."}]},
-  {"q":"Que sait-on de l'activité du striatum pendant l'exécution d'un mouvement volontaire ?","c":5,"options":[{"t":"Elle est simultanée au mouvement et se maintient pendant toute son exécution","correct":true,"j":"Son activation accompagne l'activité musculaire du début à la fin du geste, pendant lequel il module la commande en modifiant l'activité du cortex moteur primaire."},{"t":"Elle précède brièvement le mouvement puis s'éteint dès son démarrage","j":"Une bouffée purement préparatoire ne rendrait pas compte de son rôle pendant le geste, où son activité se poursuit sans interruption."},{"t":"Elle n'apparaît qu'à la toute fin du mouvement, pour en marquer l'arrêt","j":"Une activité uniquement terminale est contredite par son activation dès le début du geste, parallèlement à la contraction musculaire."},{"t":"Elle alterne avec celle du cervelet tout au long du mouvement","j":"Aucune alternance de ce type n'organise le contrôle moteur : les deux systèmes modulateurs travaillent en parallèle, non à tour de rôle."}]},
-  {"q":"Indiquez la réponse correcte à propos des voies directe et indirecte des noyaux de la base :","c":5,"options":[{"t":"Toutes deux dopaminergiques, elles participent au contrôle moteur de façon antagonique","correct":true,"j":"Les deux voies utilisent la dopamine et s'opposent dans leurs effets : la directe permet le début du mouvement, l'indirecte module la désinhibition de la première."},{"t":"Toutes deux cholinergiques, elles agissent de façon strictement synergique","j":"Le neurotransmetteur est mal identifié et leur relation l'est aussi : elles s'opposent au lieu de s'additionner."},{"t":"La directe est dopaminergique et l'indirecte cholinergique, toutes deux inhibitrices","j":"Les deux voies partagent le même neurotransmetteur, et les présenter comme uniformément inhibitrices efface leur opposition fonctionnelle."},{"t":"La directe est dopaminergique et l'indirecte glutamatergique, toutes deux excitatrices","j":"Attribuer deux neurotransmetteurs différents et un effet commun excitateur revient à supprimer l'antagonisme qui fonde ce circuit."}]},
-  {"q":"Chez un patient atteint d'ataxie cérébelleuse, quel est le plus souvent le premier signe ?","c":5,"options":[{"t":"Une perte de l'équilibre lors des déplacements","correct":true,"j":"L'ataxie débute habituellement par une perte de l'équilibre, qui évolue ensuite vers une incoordination de la marche, de la posture, de la parole et du regard."},{"t":"Une faiblesse musculaire des membres inférieurs","j":"Le syndrome cérébelleux désorganise la coordination des mouvements volontaires sans entraîner de perte de force musculaire."},{"t":"Un tremblement des mains survenant au repos","j":"Un tremblement présent au repos oriente vers une atteinte des noyaux de la base ; ce n'est pas le mode d'entrée d'une ataxie."},{"t":"Une raideur progressive de la marche","j":"La marche est bien atteinte, mais sur un mode incoordonné et instable, et non par une raideur qui s'installerait progressivement."}]},
-  {"q":"Quel mode d'apprentissage faut-il privilégier dans la rééducation d'un patient atteint de syndrome cérébelleux ?","c":5,"options":[{"t":"L'apprentissage procédural, en répétant le geste divisé en petites parties","correct":true,"j":"C'est le mode de travail le mieux adapté au cervelet : on fractionne le geste à réaliser et on le répète, ce qui réduit les symptômes et améliore le contrôle postural."},{"t":"L'apprentissage déclaratif, en expliquant verbalement la consigne du geste","j":"Une consigne verbale ne suffit pas : le patient sait ce qu'il doit faire, c'est l'exécution coordonnée qui lui échappe."},{"t":"L'apprentissage par essai unique, en évitant toute répétition fatigante","j":"Supprimer la répétition prive le patient du mécanisme même par lequel le cervelet corrige et consolide un geste."},{"t":"L'apprentissage par imitation d'un geste complet réalisé à vive allure","j":"Un modèle rapide et global dépasse les capacités de correction du patient, alors que le fractionnement du geste les respecte."}]},
-  {"q":"Les réflexes spinaux se déroulent sans l'intervention du cortex cérébral. Quel rapport entretiennent-ils néanmoins avec lui ?","c":5,"options":[{"t":"Une communication constante est maintenue avec le cortex cérébral","correct":true,"j":"La moelle intègre seule la réponse, mais l'échange d'informations avec le cortex ne s'interrompt jamais pour autant."},{"t":"Le cortex n'en est informé qu'en cas de stimulus franchement douloureux","j":"Restreindre l'information corticale à la seule nociception est trop étroit : la liaison est permanente, quel que soit le stimulus."},{"t":"Aucun échange n'a lieu tant que le réflexe n'est pas inhibé volontairement","j":"Supposer un silence total hors inhibition volontaire est inexact : l'échange avec le cortex est continu et ne se déclenche pas à la demande."},{"t":"Le cortex ne reçoit l'information qu'une fois la réponse motrice exécutée","j":"Décrire une information purement rétrospective méconnaît la permanence du dialogue entre la moelle et le cortex."}]},
-  {"q":"Lors d'un réflexe de flexion déclenché par un stimulus douloureux, comment les muscles antagonistes du membre atteint sont-ils relâchés ?","c":5,"options":[{"t":"Des interneurones excitateurs activent des interneurones inhibiteurs","correct":true,"j":"Le nocicepteur active de nombreux interneurones excitateurs médullaires ; certains d'entre eux recrutent des interneurones inhibiteurs qui font céder les antagonistes."},{"t":"Les motoneurones qui les commandent cessent spontanément de décharger","j":"Un arrêt spontané de décharge n'existe pas ici : le relâchement est obtenu par une inhibition active, exercée à l'étage médullaire."},{"t":"Les nocicepteurs inhibent directement les motoneurones de ces muscles","j":"Le nocicepteur n'inhibe rien par lui-même : son action sur la moelle est excitatrice et passe obligatoirement par des interneurones."},{"t":"Le cortex moteur lève la commande volontaire exercée sur ces muscles","j":"Le réflexe se déroule sans participation corticale : la réponse est involontaire et entièrement organisée dans la moelle."}]},
-  {"q":"Le système vestibulospinal est décrit comme antigravitationnel. De quoi est-il responsable à lui seul ?","c":5,"options":[{"t":"De l'extension globale du corps, du sol jusqu'au tronc","correct":true,"j":"Son action propre est un patron d'extension qui prend le corps dans son ensemble, depuis l'appui au sol jusqu'au tronc."},{"t":"De l'équilibre, dont il constitue à lui seul le support","j":"L'équilibre ne se ramène à aucun système isolé : il naît de la mise en commun de plusieurs sources d'information sensorielle."},{"t":"De la flexion globale du corps, du tronc vers les extrémités","j":"Le sens du patron est inversé et son point de départ aussi : ce système pousse le corps en extension, et non en flexion depuis le tronc."},{"t":"De l'extension des seuls muscles du tronc","j":"Restreindre son action au tronc en méconnaît l'étendue : le patron d'extension qu'il produit engage le corps entier."}]}
+  {
+   "q": "Quelle proportion de l'ensemble des informations sensitives est acheminée par la voie spinocérébelleuse ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "90 %",
+     "correct": true,
+     "j": "La voie spinocérébelleuse draine la très grande majorité du flux sensitif, soit 90 % des informations, ce qui fait du cervelet le premier destinataire des entrées sensorielles."
+    },
+    {
+     "t": "10 %",
+     "j": "Cette fraction minoritaire inverse le rapport réel : loin d'être accessoire, ce trajet concentre l'essentiel des informations sensitives."
+    },
+    {
+     "t": "50 %",
+     "j": "Un partage par moitié sous-estime nettement ce trajet, qui ne laisse qu'une faible part des informations sensitives aux autres voies."
+    },
+    {
+     "t": "25 %",
+     "j": "Un quart seulement ferait du cervelet un destinataire secondaire, alors qu'il reçoit au contraire la part dominante du flux sensitif."
+    }
+   ]
+  },
+  {
+   "q": "Parmi les fonctions de la formation réticulaire figure une fonction sensitive. En quoi consiste-t-elle ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Moduler l'information sensorielle qui parvient au cortex",
+     "correct": true,
+     "j": "Elle s'interpose sur le trajet des informations sensorielles ascendantes et en module le flux avant qu'il n'atteigne le cortex."
+    },
+    {
+     "t": "Conduire la sensibilité thermo-algique au thalamus",
+     "j": "Le transport de la douleur et de la température vers le thalamus revient à une voie ascendante dédiée, pas à un ensemble de noyaux modulateurs du tronc cérébral."
+    },
+    {
+     "t": "Assurer la perception consciente de la position des segments",
+     "j": "La perception consciente de la position du corps se construit dans le cortex à partir d'une voie ascendante spécifique, et non dans le tronc cérébral."
+    },
+    {
+     "t": "Transformer l'information visuelle en commande oculomotrice",
+     "j": "Cette conversion de la vision en mouvement du regard est une commande motrice descendante, et non une action exercée sur un message sensitif ascendant."
+    }
+   ]
+  },
+  {
+   "q": "À quoi correspond la tension développée par un muscle entier lorsqu'il se contracte ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "À la somme des tensions produites par chacune de ses fibres",
+     "correct": true,
+     "j": "Le muscle n'est pas un bloc homogène : la tension qu'il exerce sur ses insertions est l'addition des tensions développées fibre par fibre."
+    },
+    {
+     "t": "À la tension produite par son unité motrice la plus puissante",
+     "j": "La plus grosse unité motrice ne fournit qu'une partie de la tension totale ; les autres unités recrutées y contribuent tout autant."
+    },
+    {
+     "t": "À la moyenne des tensions produites par ses différents faisceaux",
+     "j": "Une moyenne effacerait la contribution des faisceaux les plus actifs, alors que leurs tensions s'additionnent au lieu de se compenser."
+    },
+    {
+     "t": "À la tension de la fibre la plus étirée au moment du départ",
+     "j": "Le degré d'étirement initial influence la force produite, mais la tension du muscle entier ne se réduit jamais à celle d'une fibre isolée."
+    }
+   ]
+  },
+  {
+   "q": "Dans quelles conditions une fibre musculaire squelettique produit-elle un potentiel d'action ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Uniquement si elle est stimulée par les motoneurones qui l'innervent",
+     "correct": true,
+     "j": "La fibre squelettique est strictement dépendante de sa commande nerveuse : sans stimulation par ses motoneurones, elle ne déclenche aucun potentiel d'action."
+    },
+    {
+     "t": "Spontanément, de façon rythmique, comme le fait le muscle cardiaque",
+     "j": "L'automatisme rythmique appartient au muscle cardiaque ; la fibre squelettique, elle, reste muette tant qu'elle n'est pas commandée."
+    },
+    {
+     "t": "Dès qu'un étirement passif déforme suffisamment son sarcolemme",
+     "j": "L'étirement est détecté par des récepteurs sensitifs qui empruntent une boucle réflexe ; il ne dépolarise pas directement le sarcolemme."
+    },
+    {
+     "t": "Dès que la concentration de calcium s'élève dans son sarcoplasme",
+     "j": "La montée du calcium sarcoplasmique est une conséquence du potentiel d'action, et non sa cause : elle survient après l'excitation."
+    }
+   ]
+  },
+  {
+   "q": "La rigidité cadavérique s'installe plusieurs heures après la mort. Qu'est-ce qui finit par y mettre un terme ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "La destruction des protéines par autolyse enzymatique",
+     "correct": true,
+     "j": "Les muscles restent figés jusqu'à ce que les enzymes libérées par les cellules détruisent les protéines contractiles : c'est l'autolyse qui lève la rigidité."
+    },
+    {
+     "t": "La reprise de la production d'ATP par les mitochondries du myocyte",
+     "j": "Le métabolisme cellulaire est définitivement arrêté : aucune synthèse ne redémarre dans un myocyte mort, et ce n'est donc pas par là que les muscles se relâchent."
+    },
+    {
+     "t": "Le repompage progressif du calcium sarcoplasmique vers le réticulum",
+     "j": "Ce retour du calcium vers le réticulum repose sur une pompe active que le myocyte mort ne peut plus faire fonctionner ; ce n'est donc pas lui qui lève la rigidité."
+    },
+    {
+     "t": "La dégradation de l'acétylcholine accumulée dans la fente synaptique",
+     "j": "La rigidité s'installe et se défait à l'intérieur de la fibre elle-même, sans aucun signal venu de la terminaison nerveuse : ce qui se passe dans la fente synaptique n'y change rien."
+    }
+   ]
+  },
+  {
+   "q": "Parmi les mécanismes neurophysiologiques dont dépend le contrôle postural, lequel est mis en jeu avant un mouvement volontaire ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "La stabilisation de certains segments pour permettre le mouvement des autres",
+     "correct": true,
+     "j": "Le contrôle postural produit des ajustements qui anticipent le geste voulu : il fige certaines parties du corps afin d'en libérer d'autres pour le mouvement."
+    },
+    {
+     "t": "La réaction proportionnée à un déséquilibre survenu de façon inattendue",
+     "j": "Cette réponse est par définition postérieure à la perturbation : elle corrige un déséquilibre déjà survenu au lieu de préparer un geste."
+    },
+    {
+     "t": "Le maintien d'une position corporelle stable contre l'attraction gravitaire",
+     "j": "Cette exigence est permanente et ne se rapporte pas particulièrement à la préparation d'un mouvement volontaire à venir."
+    },
+    {
+     "t": "Le réajustement du tonus une fois le mouvement volontaire terminé",
+     "j": "Un réajustement déclenché par l'achèvement du geste ne fait partie d'aucune des exigences du contrôle postural : tenir la station, anticiper le mouvement, répondre aux déséquilibres imprévus."
+    }
+   ]
+  },
+  {
+   "q": "Le noyau rouge, le tectum, la formation réticulaire et les noyaux vestibulaires sont à l'origine des voies motrices inconscientes. Quelle particularité partagent-ils tous ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Ils possèdent des connexions directes avec le cervelet",
+     "correct": true,
+     "j": "Ces quatre noyaux moteurs du tronc cérébral sont tous reliés directement au cervelet, ce qui permet d'ajuster en continu les commandes inconscientes."
+    },
+    {
+     "t": "Ils reçoivent leurs afférences exclusivement du thalamus",
+     "j": "Ces noyaux du tronc cérébral reçoivent des afférences de plusieurs origines, corticales comme cérébelleuses : aucune structure unique ne les alimente à elle seule."
+    },
+    {
+     "t": "Ils croisent tous la ligne médiane au niveau des pyramides bulbaires",
+     "j": "La décussation pyramidale est le trait d'une voie motrice consciente d'origine corticale, et non de ces noyaux du tronc cérébral."
+    },
+    {
+     "t": "Ils reçoivent tous une commande directe du cortex préfrontal",
+     "j": "Le cortex préfrontal n'envoie pas de commande directe à ces noyaux du tronc cérébral : les afférences corticales qui les atteignent empruntent d'autres relais."
+    }
+   ]
+  },
+  {
+   "q": "Quelles structures de l'appareil vestibulaire envoient leurs afférences au système vestibulospinal ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Les canaux semi-circulaires, le saccule et l'utricule",
+     "correct": true,
+     "j": "Ces trois formations composent l'appareil vestibulaire proprement dit et constituent la source d'afférences propre à ce système descendant."
+    },
+    {
+     "t": "La cochlée, l'organe de Corti et la membrane tectoriale",
+     "j": "Ces structures de l'oreille interne sont dédiées à l'audition et n'envoient rien au système vestibulospinal."
+    },
+    {
+     "t": "Les fuseaux neuromusculaires et les organes tendineux de Golgi",
+     "j": "Ces propriocepteurs alimentent bien ce système, mais au titre des afférences extra-vestibulaires et non de l'appareil vestibulaire."
+    },
+    {
+     "t": "Les récepteurs cervicaux et les mécanorécepteurs de pression plantaires",
+     "j": "Ces récepteurs participent eux aussi à l'information du système, mais ils relèvent des entrées extra-vestibulaires, pas de l'appareil vestibulaire."
+    }
+   ]
+  },
+  {
+   "q": "La voie vestibulospinale médiale agit sur quels muscles, et dans quel but ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Sur les muscles du cou, pour maintenir la position de la tête dans l'espace",
+     "correct": true,
+     "j": "Support des réflexes vestibulaires du cou, elle assure la stabilité céphalique et situe la tête par rapport au regard et à l'espace."
+    },
+    {
+     "t": "Sur les extenseurs des membres inférieurs, pour lutter contre la gravité",
+     "j": "Ces groupes relèvent du contingent latéral de ce système, et non du contingent médial, qui ne descend que jusqu'aux muscles du cou."
+    },
+    {
+     "t": "Sur les muscles intrinsèques de la main, pour affiner la préhension",
+     "j": "La commande fine de la main n'est pas vestibulaire : elle appartient aux voies descendantes latérales issues du cortex."
+    },
+    {
+     "t": "Sur les muscles abdominaux, pour verrouiller le tronc pendant l'effort",
+     "j": "Le verrouillage du tronc avant le geste n'est pas une fonction vestibulaire : il relève d'un autre système descendant, qui ne passe pas par les muscles du cou."
+    }
+   ]
+  },
+  {
+   "q": "Au-delà du contrôle moteur, quelle fonction la formation réticulaire assure-t-elle, dont l'atteinte peut faire basculer le patient dans le coma ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Le maintien de l'état de conscience et du cycle veille-sommeil",
+     "correct": true,
+     "j": "Elle constitue le système d'alerte de l'organisme : elle nous maintient éveillés et attentifs, et une lésion à ce niveau est très grave puisqu'elle conduit au coma."
+    },
+    {
+     "t": "La coordination fine et indépendante des mouvements des doigts",
+     "j": "Cette motricité distale précise dépend de la grande voie descendante latérale d'origine corticale, et non du tronc cérébral."
+    },
+    {
+     "t": "La mémorisation des séquences de mouvements déjà appris",
+     "j": "La conservation et la reprogrammation des gestes déjà acquis ne sont pas assurées par ce réseau du tronc cérébral, mais par une autre structure modulatrice."
+    },
+    {
+     "t": "La détection permanente de la tension développée par les muscles",
+     "j": "Cette surveillance s'exerce en périphérie, au contact même du muscle, par des récepteurs spécialisés ; elle n'est pas le fait d'un ensemble de noyaux du tronc cérébral."
+    }
+   ]
+  },
+  {
+   "q": "Quel système descendant latéral règle le fond de tonus postural de la ceinture scapulaire et se comporte principalement comme un système fléchisseur ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Le système cortico-rubrospinal",
+     "correct": true,
+     "j": "Issu du noyau rouge, il entretient le tonus de fond de la ceinture scapulaire, donc de la moitié supérieure du corps, avec une dominante fléchisseuse."
+    },
+    {
+     "t": "Le système vestibulospinal",
+     "j": "Ce système médian se comporte en extenseur et non en fléchisseur, et il n'entretient pas le tonus de fond d'une ceinture en particulier."
+    },
+    {
+     "t": "Le système réticulospinal",
+     "j": "Également médian, il excite surtout la musculature axiale du tronc et du bassin, et non le tonus de fond de la ceinture scapulaire."
+    },
+    {
+     "t": "Le système corticospinal ventral",
+     "j": "D'origine corticale, il sert la commande volontaire de la posture et n'entretient pas un tonus de fond régional."
+    }
+   ]
+  },
+  {
+   "q": "Que sont les motoneurones supérieurs de la voie pyramidale ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Les neurones pyramidaux du cortex moteur et des noyaux moteurs sous-corticaux",
+     "correct": true,
+     "j": "Ils forment le premier des deux neurones consécutifs de la voie, et font synapse plus bas avec les motoneurones inférieurs."
+    },
+    {
+     "t": "Les neurones de la corne ventrale dont les axones forment les nerfs spinaux",
+     "j": "Cette description est celle du motoneurone inférieur, second maillon de la voie, qui rejoint directement le muscle squelettique."
+    },
+    {
+     "t": "Les interneurones médullaires interposés entre la voie descendante et le muscle",
+     "j": "Les interneurones sont des relais locaux de la moelle : ils ne constituent aucun des deux neurones qui composent la voie pyramidale."
+    },
+    {
+     "t": "Les neurones des ganglions spinaux qui conduisent l'information vers la moelle",
+     "j": "Ces neurones appartiennent à la voie afférente qui renseigne le système nerveux central ; ils n'occupent aucun des deux étages de la chaîne de commande motrice."
+    }
+   ]
+  },
+  {
+   "q": "Dans le faisceau corticospinal latéral, quelle est l'origine corticale des fibres ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "60 à 65 % viennent des aires motrices et 35 à 40 % des aires sensorielles",
+     "correct": true,
+     "j": "Le faisceau n'est pas purement moteur : plus du tiers de ses fibres est issu des aires sensorielles, ce qui souligne le lien entre motricité et sensorialité."
+    },
+    {
+     "t": "La totalité des fibres provient exclusivement du cortex moteur primaire",
+     "j": "Une origine purement motrice est inexacte : une part importante du contingent descend des aires sensorielles du cortex."
+    },
+    {
+     "t": "35 à 40 % viennent des aires motrices et 60 à 65 % des aires sensorielles",
+     "j": "Les deux fractions sont ici permutées : ce sont les aires motrices qui fournissent la majorité des fibres, et non les aires sensorielles."
+    },
+    {
+     "t": "75 % viennent des aires motrices et 25 % des aires associatives",
+     "j": "La part motrice est surestimée et la seconde source mal identifiée : la contribution non motrice vient des aires sensorielles."
+    }
+   ]
+  },
+  {
+   "q": "Pourquoi la voie corticospinale ventrale ne permet-elle qu'une posture momentanée ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Parce que son accès aux muscles toniques est limité",
+     "correct": true,
+     "j": "Faute d'atteindre largement la musculature tonique, elle ne produit qu'une pose passagère et ne peut pas entretenir une posture dans la durée."
+    },
+    {
+     "t": "Parce qu'elle n'atteint que la musculature distale des mains et des pieds",
+     "j": "Les extrémités relèvent du faisceau latéral ; le faisceau ventral agit au contraire sur le squelette axial et les articulations proximales."
+    },
+    {
+     "t": "Parce qu'elle est entièrement inconsciente et échappe à la volonté",
+     "j": "La voie pyramidale est consciente et volontaire dans ses deux contingents ; ce sont les systèmes du tronc cérébral qui sont inconscients."
+    },
+    {
+     "t": "Parce qu'elle ne rejoint aucun interneurone de la moelle épinière",
+     "j": "Tous les systèmes descendants se terminent sur les interneurones et les motoneurones médullaires : ce n'est pas là que réside sa limite."
+    }
+   ]
+  },
+  {
+   "q": "Le faisceau corticobulbaire rejoint les motoneurones des noyaux du tronc cérébral. De quelles fonctions motrices est-il responsable ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "De la mastication et de la vocalisation, et du contrôle du squelette axial",
+     "correct": true,
+     "j": "Formant les nerfs crâniens, il commande volontairement les yeux, la langue et le cou, et porte la mastication comme la vocalisation."
+    },
+    {
+     "t": "De la motricité fine et indépendante des doigts de la main",
+     "j": "Le fractionnement du mouvement des doigts appartient au faisceau corticospinal latéral, qui descend jusqu'à la moelle et non vers les noyaux crâniens."
+    },
+    {
+     "t": "Du réglage du tonus antigravitaire des membres inférieurs",
+     "j": "Le tonus antigravitaire des membres inférieurs est entretenu par des systèmes descendants inconscients du tronc cérébral, et non par cette voie volontaire."
+    },
+    {
+     "t": "De la coordination des mouvements rythmiques du tronc pendant la marche",
+     "j": "Les automatismes rythmiques de la marche sont pris en charge par les systèmes descendants médians du tronc cérébral, en dehors de cette voie volontaire."
+    }
+   ]
+  },
+  {
+   "q": "Quel rôle le cortex prémoteur joue-t-il dans le contrôle du mouvement volontaire ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Il organise et séquence le mouvement et choisit les stratégies",
+     "correct": true,
+     "j": "Placé entre l'intention et l'exécution, il met le geste en ordre et arrête la stratégie motrice qui sera employée."
+    },
+    {
+     "t": "Il exécute le geste en adressant les ordres au tronc et à la moelle",
+     "j": "Adresser les ordres au tronc cérébral et à la moelle relève de l'étage d'exécution, en aval de l'organisation du geste dont il est ici question."
+    },
+    {
+     "t": "Il prend la décision de bouger et définit l'intention du geste",
+     "j": "La décision et l'intention se forment plus en avant, au stade où le geste n'est pas encore organisé : ce n'est pas le rôle d'une aire qui met le mouvement en ordre."
+    },
+    {
+     "t": "Il identifie les objectifs à atteindre à partir des entrées sensitives",
+     "j": "L'identification des objectifs à atteindre revient à l'étage sensitif du système, qui renseigne la commande motrice sans mettre lui-même le geste en ordre."
+    }
+   ]
+  },
+  {
+   "q": "Comment le cortex moteur primaire commande-t-il la musculature ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "En activant des séquences de mouvement de groupes musculaires",
+     "correct": true,
+     "j": "La commande ne porte jamais sur un muscle isolé : elle déclenche des séquences complètes mobilisant ensemble tous les groupes musculaires concernés."
+    },
+    {
+     "t": "En réglant individuellement la tension de chacun des muscles concernés",
+     "j": "Un pilotage muscle par muscle est précisément ce que le cortex moteur primaire ne fait pas, car il raisonne en séquences de mouvement."
+    },
+    {
+     "t": "En fixant la fréquence de décharge de chaque fibre musculaire isolée",
+     "j": "Aucune commande corticale ne s'adresse à une fibre isolée : la fibre est l'échelon terminal, atteint par le seul motoneurone qui l'innerve."
+    },
+    {
+     "t": "En sélectionnant une à une les unités motrices les mieux adaptées",
+     "j": "Le choix des unités motrices mises en jeu s'opère à l'étage médullaire selon des règles de recrutement, et non par une désignation corticale."
+    }
+   ]
+  },
+  {
+   "q": "Que sait-on de l'activité du striatum pendant l'exécution d'un mouvement volontaire ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Elle est simultanée au mouvement et se maintient pendant toute son exécution",
+     "correct": true,
+     "j": "Son activation accompagne l'activité musculaire du début à la fin du geste, pendant lequel il module la commande en modifiant l'activité du cortex moteur primaire."
+    },
+    {
+     "t": "Elle précède brièvement le mouvement puis s'éteint dès son démarrage",
+     "j": "Une bouffée purement préparatoire ne rendrait pas compte de son rôle pendant le geste, où son activité se poursuit sans interruption."
+    },
+    {
+     "t": "Elle n'apparaît qu'à la toute fin du mouvement, pour en marquer l'arrêt",
+     "j": "Une activité uniquement terminale est contredite par son activation dès le début du geste, parallèlement à la contraction musculaire."
+    },
+    {
+     "t": "Elle alterne avec celle du cervelet tout au long du mouvement",
+     "j": "Aucune alternance de ce type n'organise le contrôle moteur : les deux systèmes modulateurs travaillent en parallèle, non à tour de rôle."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez la réponse correcte à propos des voies directe et indirecte des noyaux de la base :",
+   "c": 5,
+   "options": [
+    {
+     "t": "Toutes deux dopaminergiques, elles participent au contrôle moteur de façon antagonique",
+     "correct": true,
+     "j": "Les deux voies utilisent la dopamine et s'opposent dans leurs effets : la directe permet le début du mouvement, l'indirecte module la désinhibition de la première."
+    },
+    {
+     "t": "Toutes deux cholinergiques, elles agissent de façon strictement synergique",
+     "j": "Le neurotransmetteur est mal identifié et leur relation l'est aussi : elles s'opposent au lieu de s'additionner."
+    },
+    {
+     "t": "La directe est dopaminergique et l'indirecte cholinergique, toutes deux inhibitrices",
+     "j": "Les deux voies partagent le même neurotransmetteur, et les présenter comme uniformément inhibitrices efface leur opposition fonctionnelle."
+    },
+    {
+     "t": "La directe est dopaminergique et l'indirecte glutamatergique, toutes deux excitatrices",
+     "j": "Attribuer deux neurotransmetteurs différents et un effet commun excitateur revient à supprimer l'antagonisme qui fonde ce circuit."
+    }
+   ]
+  },
+  {
+   "q": "Chez un patient atteint d'ataxie cérébelleuse, quel est le plus souvent le premier signe ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Une perte de l'équilibre lors des déplacements",
+     "correct": true,
+     "j": "L'ataxie débute habituellement par une perte de l'équilibre, qui évolue ensuite vers une incoordination de la marche, de la posture, de la parole et du regard."
+    },
+    {
+     "t": "Une faiblesse musculaire des membres inférieurs",
+     "j": "Le syndrome cérébelleux désorganise la coordination des mouvements volontaires sans entraîner de perte de force musculaire."
+    },
+    {
+     "t": "Un tremblement des mains survenant au repos",
+     "j": "Un tremblement présent au repos oriente vers une atteinte des noyaux de la base ; ce n'est pas le mode d'entrée d'une ataxie."
+    },
+    {
+     "t": "Une raideur progressive de la marche",
+     "j": "La marche est bien atteinte, mais sur un mode incoordonné et instable, et non par une raideur qui s'installerait progressivement."
+    }
+   ]
+  },
+  {
+   "q": "Quel mode d'apprentissage faut-il privilégier dans la rééducation d'un patient atteint de syndrome cérébelleux ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "L'apprentissage procédural, en répétant le geste divisé en petites parties",
+     "correct": true,
+     "j": "C'est le mode de travail le mieux adapté au cervelet : on fractionne le geste à réaliser et on le répète, ce qui réduit les symptômes et améliore le contrôle postural."
+    },
+    {
+     "t": "L'apprentissage déclaratif, en expliquant verbalement la consigne du geste",
+     "j": "Une consigne verbale ne suffit pas : le patient sait ce qu'il doit faire, c'est l'exécution coordonnée qui lui échappe."
+    },
+    {
+     "t": "L'apprentissage par essai unique, en évitant toute répétition fatigante",
+     "j": "Supprimer la répétition prive le patient du mécanisme même par lequel le cervelet corrige et consolide un geste."
+    },
+    {
+     "t": "L'apprentissage par imitation d'un geste complet réalisé à vive allure",
+     "j": "Un modèle rapide et global dépasse les capacités de correction du patient, alors que le fractionnement du geste les respecte."
+    }
+   ]
+  },
+  {
+   "q": "Les réflexes spinaux se déroulent sans l'intervention du cortex cérébral. Quel rapport entretiennent-ils néanmoins avec lui ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Une communication constante est maintenue avec le cortex cérébral",
+     "correct": true,
+     "j": "La moelle intègre seule la réponse, mais l'échange d'informations avec le cortex ne s'interrompt jamais pour autant."
+    },
+    {
+     "t": "Le cortex n'en est informé qu'en cas de stimulus franchement douloureux",
+     "j": "Restreindre l'information corticale à la seule nociception est trop étroit : la liaison est permanente, quel que soit le stimulus."
+    },
+    {
+     "t": "Aucun échange n'a lieu tant que le réflexe n'est pas inhibé volontairement",
+     "j": "Supposer un silence total hors inhibition volontaire est inexact : l'échange avec le cortex est continu et ne se déclenche pas à la demande."
+    },
+    {
+     "t": "Le cortex ne reçoit l'information qu'une fois la réponse motrice exécutée",
+     "j": "Décrire une information purement rétrospective méconnaît la permanence du dialogue entre la moelle et le cortex."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'un réflexe de flexion déclenché par un stimulus douloureux, comment les muscles antagonistes du membre atteint sont-ils relâchés ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "Des interneurones excitateurs activent des interneurones inhibiteurs",
+     "correct": true,
+     "j": "Le nocicepteur active de nombreux interneurones excitateurs médullaires ; certains d'entre eux recrutent des interneurones inhibiteurs qui font céder les antagonistes."
+    },
+    {
+     "t": "Les motoneurones qui les commandent cessent spontanément de décharger",
+     "j": "Un arrêt spontané de décharge n'existe pas ici : le relâchement est obtenu par une inhibition active, exercée à l'étage médullaire."
+    },
+    {
+     "t": "Les nocicepteurs inhibent directement les motoneurones de ces muscles",
+     "j": "Le nocicepteur n'inhibe rien par lui-même : son action sur la moelle est excitatrice et passe obligatoirement par des interneurones."
+    },
+    {
+     "t": "Le cortex moteur lève la commande volontaire exercée sur ces muscles",
+     "j": "Le réflexe se déroule sans participation corticale : la réponse est involontaire et entièrement organisée dans la moelle."
+    }
+   ]
+  },
+  {
+   "q": "Le système vestibulospinal est décrit comme antigravitationnel. De quoi est-il responsable à lui seul ?",
+   "c": 5,
+   "options": [
+    {
+     "t": "De l'extension globale du corps, du sol jusqu'au tronc",
+     "correct": true,
+     "j": "Son action propre est un patron d'extension qui prend le corps dans son ensemble, depuis l'appui au sol jusqu'au tronc."
+    },
+    {
+     "t": "De l'équilibre, dont il constitue à lui seul le support",
+     "j": "L'équilibre ne se ramène à aucun système isolé : il naît de la mise en commun de plusieurs sources d'information sensorielle."
+    },
+    {
+     "t": "De la flexion globale du corps, du tronc vers les extrémités",
+     "j": "Le sens du patron est inversé et son point de départ aussi : ce système pousse le corps en extension, et non en flexion depuis le tronc."
+    },
+    {
+     "t": "De l'extension des seuls muscles du tronc",
+     "j": "Restreindre son action au tronc en méconnaît l'étendue : le patron d'extension qu'il produit engage le corps entier."
+    }
+   ]
+  }
  ],
  "anat2": [
   {
