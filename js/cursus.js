@@ -377,6 +377,19 @@ const CURSUS = {
                     "accent": "#4a8a86"
                   }
                 ]
+              },
+              "orthese": {
+                "label": "Orthèses et prothèses",
+                "accent": "#7a6ba8",
+                "modules": [
+                  {
+                    "id": "ortheseExam1",
+                    "label": "Examen 1 — 3 propositions",
+                    "bankKey": "ortheseExam1",
+                    "optionCount": 3,
+                    "accent": "#7a6ba8"
+                  }
+                ]
               }
             }
           },
