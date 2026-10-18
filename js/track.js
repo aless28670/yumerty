@@ -238,9 +238,58 @@
   }
   function arreter() { if (minuteur) { clearInterval(minuteur); minuteur = null; } }
 
+  /* ---------- Mise à jour automatique des onglets déjà ouverts ----------
+     POURQUOI. Le 18/10/2026, des étudiants travaillaient sur Yumerty avec la page ouverte
+     depuis des heures, sur une version du site antérieure au compteur. Impossible de leur
+     demander de recharger : Alessandro n'a aucun moyen de les joindre, et une page statique
+     n'offre aucun canal vers les navigateurs qui l'ont déjà chargée. Les corrections futures
+     resteraient donc invisibles à ceux qui n'ouvrent pas une nouvelle page.
+
+     COMMENT. On relève l'empreinte de version au chargement (`version.txt`, réécrite à chaque
+     déploiement par deploy.sh), puis on la revérifie toutes les cinq minutes. Si elle a
+     changé, un déploiement a eu lieu et cet onglet est périmé : on le recharge.
+     Le fichier est servi par GitHub Pages, jamais par Cloudflare : aucun risque de blocage,
+     aucune écriture, un coût négligeable.
+
+     QUAND, ET SURTOUT QUAND PAS. On ne recharge JAMAIS pendant un quiz : perdre sa place au
+     milieu d'une série serait bien pire que de rester une heure sur l'ancienne version.
+     On attend donc que l'écran de quiz ne soit plus affiché, ou que l'onglet passe en arrière-
+     plan — un rechargement y est invisible. L'application sauvegarde par ailleurs la session
+     en cours dans localStorage, donc même un rechargement pendant un quiz serait reprenable ;
+     on reste prudent quand même. On ne recharge qu'une fois. */
+  var versionInitiale = null;
+  var perime = false;
+
+  function lireVersion() {
+    return fetch("version.txt?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.text() : null; })
+      .then(function (t) { return t ? t.trim() : null; })
+      .catch(function () { return null; });
+  }
+  function quizEnCours() {
+    try { return !!document.querySelector("#screen-quiz.active"); } catch (err) { return false; }
+  }
+  function rechargerSiPossible() {
+    if (!perime) return;
+    if (quizEnCours() && document.visibilityState === "visible") return;   // on laisse finir
+    try { location.reload(); } catch (err) {}
+  }
+  function surveillerVersion() {
+    lireVersion().then(function (v) {
+      versionInitiale = v;
+      if (!v) return;                            // pas de fichier de version : on n'insiste pas
+      setInterval(function () {
+        lireVersion().then(function (v2) {
+          if (v2 && versionInitiale && v2 !== versionInitiale) { perime = true; rechargerSiPossible(); }
+        });
+      }, 5 * 60000);
+    });
+  }
+
   document.addEventListener("visibilitychange", function () {
-    if (document.visibilityState === "visible") { battre(); demarrer(); } else arreter();
+    if (document.visibilityState === "visible") { battre(); demarrer(); } else { arreter(); rechargerSiPossible(); }
   });
   if (document.visibilityState === "visible") demarrer();
+  surveillerVersion();
   }
 })();
