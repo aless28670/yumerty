@@ -183303,7 +183303,7 @@ const QUESTIONS = {
  "anat2": [
   {
    "q": "Une violoniste de 28 ans consulte pour douleur antérieure d'épaule. À l'examen, vous testez la flexion résistée du bras et palpez un muscle qui s'insère sur la diaphyse humérale et naît du processus coracoïde. Quel muscle suspectez-vous ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Coraco-brachial",
@@ -183717,7 +183717,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un mécanicien de 38 ans présente une douleur sur la face latérale de l'humérus avec déficit d'abduction. Quelle innervation est probablement compromise ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Nerf axillaire",
@@ -183878,7 +183878,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel nerf assure l'innervation du dentelé antérieur, et quelles racines fournit-il ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Nerf thoracique long, C5-C6-C7",
@@ -183901,7 +183901,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une faiblesse du triceps brachial après un traumatisme. Quel nerf est probablement atteint ?",
-   "c": 4,
+   "c": 8,
    "options": [
     {
      "t": "Nerf radial",
@@ -183947,7 +183947,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient consulte pour faiblesse de la flexion du coude en position de pronation maximale. Quel muscle est principalement testé ?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Brachial antérieur",
@@ -183993,7 +183993,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient avec une lésion du nerf radial conserve néanmoins une supination active. Quel muscle suppléé cette fonction ?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Biceps brachial",
@@ -184131,7 +184131,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une faiblesse d'extension du coude et une chute du poignet (\"main tombante\"). Quel nerf est lésé ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Nerf radial",
@@ -184154,7 +184154,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une main en griffe ulnaire après section au coude. Quel territoire moteur est atteint ?",
-   "c": 7,
+   "c": 8,
    "options": [
     {
      "t": "Interosseux, lombricaux médiaux et adducteur du pouce",
@@ -184315,7 +184315,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel muscle possède une tête longue née du tubercule infraglénoïdien de la scapula, une tête latérale et une tête médiale nées de la face postérieure de l'humérus, et se termine sur l'olécrane ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Triceps brachial",
@@ -184361,7 +184361,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous examinez un patient avec une suspicion de tendinopathie du chef long du biceps. Où naît ce tendon ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Tubercule supra-glénoïdien de la scapula",
@@ -184384,7 +184384,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un athlète de 26 ans présente une rupture distale du biceps brachial. Sur quelle structure se termine ce tendon distal ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Tubérosité bicipitale du radius",
@@ -184430,7 +184430,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient sportif présente une lésion isolée du nerf musculo-cutané. Quel déficit moteur attendez-vous ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Faiblesse de la flexion du coude et de la supination",
@@ -184637,7 +184637,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient avec section du nerf médian au poignet présente une faiblesse marquée de l'opposition du pouce. Quelle innervation correspond aux muscles thénariens principalement touchés ?",
-   "c": 7,
+   "c": 8,
    "options": [
     {
      "t": "Court abducteur, opposant et chef superficiel du court fléchisseur du pouce",
@@ -184683,7 +184683,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une chute provoque une fracture du processus coronoïde de l'ulna. Quel muscle s'y insère et risque d'être affecté ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Brachial antérieur",
@@ -184775,7 +184775,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une chute du poignet. Quel groupe musculaire est paralysé ?",
-   "c": 6,
+   "c": 8,
    "options": [
     {
      "t": "Extenseurs du carpe (radiaux et ulnaire)",
@@ -184890,7 +184890,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient avec une lésion C5-C6 (Erb-Duchenne) présente une attitude de \"pourboire\". Quels muscles sont principalement paralysés ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Deltoïde, biceps, brachial antérieur",
@@ -184959,7 +184959,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un médecin examine un patient avec un déficit du long fléchisseur du pouce. Quelle est l'innervation de ce muscle ?",
-   "c": 4,
+   "c": 8,
    "options": [
     {
      "t": "Nerf médian",
@@ -184982,7 +184982,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une lésion du nerf médian au coude, quel muscle de l'avant-bras antérieur conserve son innervation ?",
-   "c": 6,
+   "c": 8,
    "options": [
     {
      "t": "Fléchisseur ulnaire du carpe",
@@ -185189,7 +185189,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un radiologue identifie une fracture du col chirurgical de l'humérus. Quel nerf est statistiquement le plus à risque dans cette zone ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Nerf axillaire",
@@ -185258,7 +185258,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel nerf moteur naît directement des racines C5 du plexus brachial et innerve les rhomboïdes et l'élévateur de la scapula ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Nerf dorsal de la scapula",
@@ -185396,7 +185396,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente un déficit de flexion et adduction de l'épaule. Quel muscle de petit calibre, naissant de la coracoïde, peut être impliqué ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Coraco-brachial",
@@ -185649,7 +185649,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle association d'actions caractérise le biceps brachial ?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Flexion de l'avant-bras et supination de l'avant-bras",
@@ -185695,7 +185695,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une déficit moteur après section de la branche profonde du nerf radial. Quel muscle reste indemne ?",
-   "c": 6,
+   "c": 8,
    "options": [
     {
      "t": "Brachio-radial",
@@ -185718,7 +185718,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un cours mentionne le nerf interosseux antérieur (branche du médian). Quel muscle n'est PAS innervé par ce nerf ?",
-   "c": 6,
+   "c": 8,
    "options": [
     {
      "t": "Rond pronateur",
@@ -185810,7 +185810,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une fracture de l'olécrane avec déplacement. Quel muscle est responsable du déplacement proximal du fragment ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Triceps brachial",
@@ -185971,7 +185971,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces muscles a pour origine le processus coracoïde et s'insère sur l'humérus ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le coraco-brachial",
@@ -186247,7 +186247,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les muscles suivants, lequel est innervé par le nerf radial ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Triceps brachial",
@@ -186270,7 +186270,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces muscles est innervé par le nerf ulnaire ?",
-   "c": 7,
+   "c": 8,
    "options": [
     {
      "t": "Court abducteur du pouce",
@@ -186362,7 +186362,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel nerf innerve le muscle dentelé antérieur ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Thoracique long",
@@ -186569,7 +186569,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces muscles peut participer à la flexion du coude ?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Anconé",
@@ -186592,7 +186592,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez l'association CORRECTE entre muscle et action :",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Coraco-brachial → flexion du coude",
@@ -186730,7 +186730,7 @@ const QUESTIONS = {
   },
   {
    "q": "À propos du muscle biceps brachial, indiquez la bonne réponse :",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Sur l'avant-bras, il est flechisseur du coude et supinateur",
@@ -187535,7 +187535,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quels muscles le coraco-brachial répond-il en arrière ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Dentelé antérieur, sous-clavier et trapèze",
@@ -187558,7 +187558,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le rôle des fibres les plus profondes du muscle brachial ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Elles se prolongent sur la membrane interosseuse",
@@ -187581,7 +187581,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces muscles n'appartient PAS au groupe antérieur du bras ?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Le muscle brachial",
@@ -188110,7 +188110,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quel ordre s'organise le plexus brachial depuis les racines ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Racines, divisions, troncs, faisceaux, branches terminales",
@@ -188133,7 +188133,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quelles racines médullaires naît le plexus brachial ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "C3 à C7",
@@ -188156,7 +188156,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par rapport à quelle structure les faisceaux du plexus brachial sont-ils nommés latéral, médial et postérieur ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Le petit pectoral",
@@ -188179,7 +188179,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quel faisceau du plexus brachial naît le nerf musculo-cutané ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Le faisceau latéral",
@@ -188202,7 +188202,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles branches terminales naissent du faisceau postérieur du plexus brachial ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Le nerf musculo-cutané et le nerf médian",
@@ -188225,7 +188225,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos du nerf médian :",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Il donne plusieurs branches musculaires dans le bras",
@@ -188248,7 +188248,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles racines médullaires forment le nerf ulnaire ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "C5 et C6",
@@ -188271,7 +188271,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par où passe le nerf ulnaire au niveau du coude ?",
-   "c": 6,
+   "c": 8,
    "options": [
     {
      "t": "En avant du pli du coude, puis entre les chefs du rond pronateur",
@@ -188294,7 +188294,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel endroit la branche profonde du nerf radial peut-elle être comprimée à l'avant-bras ?",
-   "c": 2,
+   "c": 8,
    "options": [
     {
      "t": "Sous le ligament annulaire autour de la tête radiale",
@@ -188317,7 +188317,7 @@ const QUESTIONS = {
   },
   {
    "q": "Entre quels muscles le plexus brachial émerge-t-il à la base du cou ?",
-   "c": 3,
+   "c": 8,
    "options": [
     {
      "t": "Entre le petit pectoral et la paroi thoracique",
@@ -188340,7 +188340,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels nerfs innervent le groupe antérieur des muscles de l'avant-bras ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Le nerf médian et le nerf radial",
@@ -189285,7 +189285,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle caractéristique principale distingue le tissu épithélial du tissu conjonctif ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Cellules juxtaposées reposant sur une membrane basale avec très peu de MEC",
@@ -189308,7 +189308,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel épithélium tapisse l'intérieur des vaisseaux sanguins (endothélium) et les alvéoles pulmonaires ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Pavimenteux simple",
@@ -189331,7 +189331,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient avec hématurie. Quel type d'épithélium tapisse normalement la vessie urinaire et change de forme selon le remplissage ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Cylindrique pseudostratifié cilié",
@@ -189354,7 +189354,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous étudiez les glandes amphicrines. Lequel des organes suivants en est un exemple typique avec deux types cellulaires distincts ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Glande sublinguale",
@@ -189676,7 +189676,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient de 45 ans est hospitalisé pour leucémie myéloïde aiguë et bénéficie d'une greffe allogénique de moelle osseuse. Quelles cellules sont effectivement greffées ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "Des progéniteurs hématopoïétiques exprimant le marqueur CD34",
@@ -189699,7 +189699,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une équipe de recherche cultive des cellules issues de la masse cellulaire interne d'un blastocyste de 5 jours. Quel est leur potentiel de différenciation ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "Pluripotent : capables de générer tous les tissus des trois feuillets embryonnaires",
@@ -189722,7 +189722,7 @@ const QUESTIONS = {
   },
   {
    "q": "En 2006, Yamanaka a révolutionné la recherche en reprogrammant des cellules adultes en cellules souches pluripotentes induites (iPSC). Quel est le principal AVANTAGE des iPSC par rapport aux cellules souches embryonnaires ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "Elles évitent les questions éthiques et réduisent le risque immunogène (autologue)",
@@ -189745,7 +189745,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une chercheuse étudie les cellules satellites du muscle squelettique. Comment doit-elle les classer dans la hiérarchie des cellules souches ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "Progéniteurs adultes oligo/unipotents de la lignée musculaire",
@@ -189768,7 +189768,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cadre des thérapies cellulaires approuvées en Europe, ChondroCelect a été utilisé pour traiter quelles lésions ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "Lésions cartilagineuses symptomatiques du condyle fémoral du genou de l'adulte",
@@ -189791,7 +189791,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante observe au microscope un épithélium tapissant l'intérieur d'un vaisseau sanguin. Quel terme spécifique désigne ce type d'épithélium ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Endothélium : épithélium pavimenteux simple tapissant la lumière vasculaire",
@@ -189814,7 +189814,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un histologiste examine l'épithélium de la trachée et observe une seule couche cellulaire dont les noyaux sont situés à des hauteurs différentes, toutes les cellules touchant la lame basale. Comment qualifier cet épithélium ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Pseudostratifié cylindrique cilié, typique des voies respiratoires",
@@ -189837,7 +189837,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un dermatologue explique à une patiente phototype I que la mélanine est produite dans la couche germinative de l'épiderme. Quelle est la cellule responsable de sa synthèse ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Le mélanocyte qui transfère le pigment aux kératinocytes adjacents",
@@ -189860,7 +189860,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une miction, l'épithélium tapissant la vessie change d'aspect : les cellules s'aplatissent quand l'organe est plein. Comment se nomme ce type d'épithélium ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Épithélium transitionnel ou uroépithélium",
@@ -189883,7 +189883,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante étudie le pancréas en histologie et constate qu'il libère des enzymes digestives dans le duodénum et de l'insuline dans le sang. Comment qualifier cette glande ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Glande amphicrine à différents types de cellules pour différentes fonctions",
@@ -189906,7 +189906,7 @@ const QUESTIONS = {
   },
   {
    "q": "En histologie, un étudiant observe une glande exocrine où le produit de sécrétion est libéré par rupture complète de la cellule. De quel mode de sécrétion s'agit-il ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Holocrine, comme dans les glandes sébacées de la peau",
@@ -190343,7 +190343,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante en histologie observe qu'un épithélium simple recouvre la cavité péricardique. Comment qualifier précisément cet épithélium ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Mésothélium pavimenteux simple tapissant les cavités séreuses",
@@ -190389,7 +190389,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un histologiste observe une membrane basale entre un épithélium intestinal et le tissu conjonctif sous-jacent. Quelle est sa fonction principale ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Adhésion de l'épithélium au conjonctif et filtration sélective entre les deux tissus",
@@ -191493,7 +191493,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un endothélium est :",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Un épithélium cubique simple qui couvre les vaisseaux de grand diamètre",
@@ -191539,7 +191539,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où peut-on trouver un épithélium pseudostratifié cilié ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Dans la trachée",
@@ -191723,7 +191723,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel épithélium présente la plus grande résistance à la friction ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Épithélium pavimenteux stratifié",
@@ -191746,7 +191746,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le tissu épithélial :",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Repose sur une membrane basale et reste avasculaire",
@@ -191769,7 +191769,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la caractéristique du tissu épithélial de la peau ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Il constitue une couche continue de cellules étroitement jointives",
@@ -191792,7 +191792,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel épithélium tapisse l'intérieur de la cavité buccale ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Épithélium pavimenteux stratifié non kératinisé",
@@ -191815,7 +191815,7 @@ const QUESTIONS = {
   },
   {
    "q": "La membrane basale :",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Est synthétisée à la fois par l'épithélium et le conjonctif sous-jacent",
@@ -192252,7 +192252,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le nom de la glande dont le produit est libéré par exocytose (sans perte cellulaire) ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Glande mérocrine",
@@ -192275,7 +192275,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le nom de la glande qui libère sa sécrétion en perdant une partie de son cytoplasme apical ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Glande mérocrine",
@@ -192298,7 +192298,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles glandes unicellulaires trouve-t-on associées à l'épithélium intestinal ?",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Cellules caliciformes (à mucus)",
@@ -192321,7 +192321,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les glandes endocrines sont caractérisées par :",
-   "c": 9,
+   "c": 8,
    "options": [
     {
      "t": "Le déversement de leur sécrétion directement dans le sang via une riche vascularisation",
@@ -192850,7 +192850,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles propriétés font des cellules souches mésenchymateuses de très bons candidats pour la thérapie cellulaire ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "Totipotentes, capables de former également les tissus extra-embryonnaires",
@@ -192873,7 +192873,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la niche des cellules souches adultes, quel élément intègre les signaux provenant de différentes sources ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "Les fibres nerveuses de la niche",
@@ -192896,7 +192896,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quelles cellules les progéniteurs périostés sont-ils capables de se différencier ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "En adipocytes ou en fibroblastes",
@@ -192919,7 +192919,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la classification des cellules souches selon leur origine, d'où sont isolées les cellules souches germinales ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "De la masse cellulaire interne du blastocyste de cinq jours",
@@ -192942,7 +192942,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mode de division permet à une cellule souche de produire une cellule engagée dans la différenciation tout en maintenant le pool de cellules souches ?",
-   "c": 8,
+   "c": 9,
    "options": [
     {
      "t": "La division symétrique",
@@ -196325,7 +196325,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un athlète de 28 ans présente une fréquence cardiaque de 48 bpm au repos. Quelle modification du tissu nodal explique cette bradycardie d'entraînement ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Augmentation du tonus parasympathique au repos",
@@ -196808,7 +196808,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un coureur démarre une course de 10 km. Quelle réponse cardiovasculaire à l'exercice est attendue dès les premières minutes ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Augmentation du débit cardiaque par hausse conjointe du VES et de la FC",
@@ -196831,7 +196831,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le réflexe de Bainbridge contribue à la réponse cardiaque à l'effort. Par quel mécanisme s'active-t-il ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Étirement des oreillettes par l'augmentation du retour veineux",
@@ -196854,7 +196854,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un exercice progressif jusqu'au maximum, comment évoluent FC et VES au-delà de 70% de l'intensité maximale ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "FC et VES augmentent tous deux jusqu'à l'épuisement",
@@ -196877,7 +196877,7 @@ const QUESTIONS = {
   },
   {
    "q": "La consommation maximale d'oxygène (VO2max) est définie par l'équation de Fick. Quelle est cette équation ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "VO2 = Q × différence artérioveineuse en O2",
@@ -196900,7 +196900,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient de 50 ans veut estimer sa fréquence cardiaque maximale pour calibrer son entraînement. Quelle est la formule classique utilisée ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "FCmax = 220 - âge",
@@ -196923,7 +196923,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un effort intense, la ventilation augmente précocement. Quel mécanisme initie cette hyperventilation avant même le début effectif de l'exercice ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Commande centrale anticipatrice issue du cortex moteur",
@@ -196946,7 +196946,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant un exercice d'endurance soutenu, comment évolue typiquement la pression artérielle systolique ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Elle augmente proportionnellement à l'intensité de l'exercice",
@@ -196969,7 +196969,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un kinésithérapeute évalue les adaptations cardiaques d'un cycliste élite. Quelle modification structurelle est typique du cœur d'athlète entraîné en endurance ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Dilatation des cavités ventriculaires avec épaississement modéré et proportionné du myocarde",
@@ -196992,7 +196992,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante de 20 ans expérimente des courbatures 48 h après un entraînement excentrique inhabituel. Quel mécanisme principal explique ces DOMS ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Accumulation de cristaux d'acide lactique dans les fibres",
@@ -197015,7 +197015,7 @@ const QUESTIONS = {
   },
   {
    "q": "Léa, étudiante de 20 ans, avale une bouchée de pain. Quelle est la seule étape volontaire du réflexe de déglutition ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Étape orale : la langue pousse le bol contre le palais mou",
@@ -197038,7 +197038,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la digestion intestinale, quel type de contraction de l'intestin grêle assure principalement la digestion mécanique sans faire avancer le chyme ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Segmentation : mélange du chyme sur place sans propulsion",
@@ -197061,7 +197061,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément du tube digestif présente une troisième couche musculaire en plus des couches circulaire interne et longitudinale externe ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Estomac : ajout d'une couche musculaire oblique",
@@ -197084,7 +197084,7 @@ const QUESTIONS = {
   },
   {
    "q": "Marc, 35 ans, consomme un repas riche en lipides. Sous quelle forme principale les lipides quittent-ils l'entérocyte pour rejoindre la circulation ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Chylomicrons captés par les capillaires lymphatiques",
@@ -197107,7 +197107,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure de l'intestin grêle augmente la surface d'absorption par des saillies de la membrane apicale des entérocytes ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Microvillosités : saillies cytoplasmiques de la membrane apicale",
@@ -197130,7 +197130,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la régulation de la motilité du tube digestif, quelle affirmation est CORRECTE ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Le parasympathique stimule la motilité via l'acétylcholine",
@@ -197153,7 +197153,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sophie, 25 ans, jeûne depuis 12 heures. Quel mécanisme hormonal explique sa sensation de faim ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Sécrétion accrue de ghréline par l'estomac vide",
@@ -197176,7 +197176,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez une personne obèse, quelle anomalie hormonale est typiquement observée pour la leptine ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Leptine élevée avec résistance fonctionnelle au récepteur",
@@ -197199,7 +197199,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel apport énergétique en kcal correspond à 1 gramme de lipides ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "9 kcal par gramme",
@@ -197222,7 +197222,7 @@ const QUESTIONS = {
   },
   {
    "q": "Romain, 22 ans, sprinte 6 secondes au départ d'un 100 m. Quel système énergétique domine pendant cet effort explosif initial ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Métabolisme anaérobie alactique : ATP-phosphocréatine",
@@ -197245,7 +197245,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle enzyme catalyse la resynthèse rapide d'ATP à partir de la phosphocréatine dans le muscle ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Créatine kinase : transfère le phosphate de la PCr à l'ADP",
@@ -197268,7 +197268,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un exercice intense, le lactate produit dans le muscle peut emprunter le cycle de Cori. Où ce cycle réalise-t-il la néoglucogenèse ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Dans le foie, organe néoglucogénique principal",
@@ -197291,7 +197291,7 @@ const QUESTIONS = {
   },
   {
    "q": "À propos du lactate produit pendant l'exercice anaérobie, quelle affirmation est CORRECTE ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Réoxydé en pyruvate, il resert de substrat à la voie aérobie",
@@ -197314,7 +197314,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel rendement énergétique en ATP est obtenu par mole de glucose oxydée complètement par voie aérobie ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Environ 39 ATP par mole de glucose",
@@ -197337,7 +197337,7 @@ const QUESTIONS = {
   },
   {
    "q": "Antoine, 30 ans, court 2 heures à faible intensité. Quel substrat énergétique va prédominer ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Métabolisme aérobie des lipides (β-oxydation des AG)",
@@ -197360,7 +197360,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle enzyme permet la libération des acides gras stockés dans le tissu adipeux pendant l'exercice ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Lipase hormono-sensible, activée par les catécholamines",
@@ -197383,7 +197383,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel rôle joue la lipoprotéine lipase (LPL) dans le métabolisme lipidique ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Hydrolyser les TG des lipoprotéines circulantes pour libérer les AG",
@@ -197406,7 +197406,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la β-oxydation, quelle affirmation est CORRECTE ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Elle dégrade les acyl-CoA en acétyl-CoA dans la mitochondrie",
@@ -197429,7 +197429,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel danger métabolique apparaît lors d'une utilisation quasi exclusive des graisses comme substrat énergétique ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Acidose métabolique par accumulation de corps cétoniques",
@@ -197452,7 +197452,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du métabolisme des acides aminés à l'effort, le foie convertit l'ammonium toxique en quelle molécule éliminée dans les urines ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Urée issue de la désamination des acides aminés",
@@ -197475,7 +197475,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le seuil lactique de premier niveau (SL1) lors d'un test d'effort progressif, quelle définition est CORRECTE ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Intensité où le lactate augmente de plus de 0,5 mmol/L entre deux prélèvements",
@@ -197498,7 +197498,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle de Skinner & McLellan (1980), quelle est la phase recommandée pour les patients diabétiques ou présentant des pathologies cardiaques ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Phase I : repos au seuil aérobie (<65% VO2max)",
@@ -197521,7 +197521,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle formule simple permet d'estimer la FC maximale théorique d'un patient lors d'un test d'effort ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "FCmax = 220 - âge",
@@ -197544,7 +197544,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle adaptation musculaire à l'entraînement d'endurance est observée chez un sportif chronique ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Augmentation des mitochondries et des enzymes du cycle de Krebs",
@@ -197567,7 +197567,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les sphincters de la défécation, quelle affirmation est CORRECTE ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Le sphincter externe est sous contrôle volontaire à partir de 18 mois",
@@ -197590,7 +197590,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la principale réserve de glucose dans l'organisme et où la trouve-t-on stockée ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Glycogène, stocké dans le foie et les muscles",
@@ -197613,7 +197613,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi le glycogène musculaire ne peut-il pas servir à maintenir la glycémie ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Le muscle manque de glucose-6-phosphatase pour libérer le glucose",
@@ -197636,7 +197636,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel pourcentage de la dépense énergétique totale représente le métabolisme de repos chez un adulte ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "60-75 % de la dépense énergétique totale",
@@ -197659,7 +197659,7 @@ const QUESTIONS = {
   },
   {
    "q": "Karim, 28 ans, prend un repas riche. Quelle hormone duodénale anorexigène est libérée en réponse à l'arrivée du chyme ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Cholécystokinine (CCK) sécrétée par le duodénum",
@@ -197682,7 +197682,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les théories de régulation des prises alimentaires, quelle correspondance est CORRECTE ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Théorie glucostatique : régulation à court terme par la glycémie",
@@ -197705,7 +197705,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels neurotransmetteurs sont impliqués dans le circuit de la récompense activé par la consommation de sucre ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Dopamine via les voies dopaminergiques du striatum et du cortex préfrontal",
@@ -197728,7 +197728,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la voie d'absorption principale du fer, des acides aminés et des glucides après digestion ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Veine porte hépatique via la circulation entéro-hépatique",
@@ -197751,7 +197751,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le pancréas exocrine sécrète ses enzymes digestives sous quelle forme pour protéger ses propres tissus ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Sous forme de zymogènes inactifs, activés dans le duodénum",
@@ -197774,7 +197774,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle enzyme intestinale active les zymogènes pancréatiques dans la lumière du duodénum ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Entéropeptidase (entérokinase) de la bordure en brosse",
@@ -197797,7 +197797,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure du tube digestif est responsable du brassage final du contenu colique en mouvements de masse ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Côlon : mouvements de masse propulsant le contenu",
@@ -197820,7 +197820,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le microbiote du gros intestin, quelle affirmation est CORRECTE ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Il produit des vitamines K et B absorbées par le côlon",
@@ -197843,7 +197843,7 @@ const QUESTIONS = {
   },
   {
    "q": "À intensité d'exercice supérieure à 50% du VO2max, quel substrat énergétique devient prédominant ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Le glycogène musculaire (glucose) via la glycolyse",
@@ -197866,7 +197866,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'effet de l'entraînement aérobie sur le métabolisme musculaire, quelle conséquence est CORRECTE ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Diminution de la production de lactate à intensité donnée",
@@ -197889,7 +197889,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle lipoprotéine plasmatique est la plus riche en triglycérides après absorption d'un repas gras ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Chylomicrons (environ 85% de triglycérides)",
@@ -197912,7 +197912,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le seuil ventilatoire SV2 lors d'un test d'effort progressif, quelle affirmation est CORRECTE ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Il correspond à la deuxième rupture de linéarité de la courbe VE-VO2",
@@ -197935,7 +197935,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels éléments cellulaires forment les ponts d'union dans la fibre musculaire ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Actine et troponine",
@@ -197958,7 +197958,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte à propos du rôle du Ca2+ dans la contraction musculaire :",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Le Ca2+ sort de la cellule lorsque le potentiel d'action musculaire traverse les tubules T.",
@@ -197981,7 +197981,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le mouvement isométrique :",
-   "c": 1,
+   "c": 6,
    "options": [
     {
      "t": "Le muscle ne change pas de taille mais modifie sa tension.",
@@ -198119,7 +198119,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quel facteur dépend la force produite par un muscle ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Le nombre d'unités motrices recrutées.",
@@ -198142,7 +198142,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cervelet :",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Est une structure clé de la mémoire procédurale (ou motrice) et de l'apprentissage moteur.",
@@ -198165,7 +198165,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle région du tube digestif ont lieu les quatre processus caractéristiques du système digestif (motilité, sécrétion, digestion et absorption) ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Côlon",
@@ -198188,7 +198188,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel, parmi les éléments suivants, fait partie de la salive, des sécrétions gastriques et pancréatiques ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Bicarbonate",
@@ -198211,7 +198211,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle situation les enzymes responsables de l'activation de la glycolyse augmentent leur activité dans le muscle squelettique ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Lorsque la concentration d'ATP musculaire augmente",
@@ -198510,7 +198510,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel, parmi les stimuli suivants, est responsable de l'augmentation de la ventilation pendant l'exercice physique :",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "L'élévation de la PCO2 artérielle, principal moteur de l'hyperventilation d'effort",
@@ -198832,7 +198832,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE par rapport au réflexe de Frank-Starling pendant l'exercice :",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Le volume d'éjection augmente en réponse à un retour veineux accru",
@@ -198855,7 +198855,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez l'ordre correct concernant le chemin des aliments dans le tube digestif :",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Œsophage / estomac / pylore / jéjunum / valve iléo-caecale / côlon sigmoïde / rectum",
@@ -198878,7 +198878,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément du péritoine relie l'intestin grêle à la paroi postérieure ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Mésentère",
@@ -198901,7 +198901,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la relation CORRECTE :",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Estomac - fundus",
@@ -198924,7 +198924,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse INCORRECTE par rapport au processus de déglutition.",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Permet la progression du bol alimentaire de la cavité buccale à l'estomac",
@@ -198947,7 +198947,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le réflexe d'évacuation :",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Il est déclenché par la distension des parois du rectum.",
@@ -198970,7 +198970,7 @@ const QUESTIONS = {
   },
   {
    "q": "Des nutriments sont-ils absorbés dans le gros intestin ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Oui, de l'eau, des électrolytes et des vitamines d'origine bactérienne.",
@@ -198993,7 +198993,7 @@ const QUESTIONS = {
   },
   {
    "q": "Théoriquement, chez une personne en surpoids avec de grandes réserves de graisse :",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Les niveaux de leptine sont bas, donc elle se sent rassasiée.",
@@ -199016,7 +199016,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle hormone, sécrétée par l'estomac, a une fonction orexigène ?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Neuropeptide Y",
@@ -199039,7 +199039,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel métabolisme prédomine après deux heures d'activité physique de faible intensité ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Métabolisme aérobie des lipides",
@@ -199062,7 +199062,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'interaction des métabolismes lors de l'activité physique :",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Les trois sont activés SIMULTANÉMENT, leur contribution variant selon l'intensité et la durée.",
@@ -199085,7 +199085,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse INCORRECTE par rapport au métabolisme anaérobie alactique :",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Il est prédominant lorsque l'activité physique est très courte et explosive",
@@ -199108,7 +199108,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez l'option dans laquelle les structures que l'urine parcourt sont correctement ordonnées :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Tubule collecteur - Pelvis rénal - Calice mineur - Calice majeur - Papille rénale - Uretère",
@@ -199131,7 +199131,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle zone du néphron est sensible à l'action de l'aldostérone ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Le tubule contourné proximal",
@@ -199154,7 +199154,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément ne fait PAS partie de la barrière de filtration ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "La couche viscérale de la capsule de Bowman",
@@ -199177,7 +199177,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quels vaisseaux sanguins ont lieu les échanges de gaz dans le rein ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Dans les capillaires péritubulaires",
@@ -199200,7 +199200,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel parmi les éléments suivants n'EST PAS une caractéristique du processus de filtration glomérulaire ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Transport facilité par les transporteurs",
@@ -199223,7 +199223,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle substance est sécrétée dans le tubule contourné distal par l'action de l'aldostérone ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "H +",
@@ -199246,7 +199246,7 @@ const QUESTIONS = {
   },
   {
    "q": "Si la pression artérielle systolique passe de 110 mmHg à 135 mmHg pendant une activité physique de faible intensité :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "La réponse myogénique dilate l'artériole afférente pour stabiliser le débit de filtration glomérulaire",
@@ -199269,7 +199269,7 @@ const QUESTIONS = {
   },
   {
    "q": "Face à une augmentation du volume sanguin, quel mécanisme sera activé ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "La sécrétion d'ADH pour augmenter la perméabilité à l'eau du néphron.",
@@ -199292,7 +199292,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos des néphrons juxtamédullaires :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Leur anse de Henlé longue descend profondément dans la médulla et est irriguée par les vasa recta.",
@@ -199315,7 +199315,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où et dans quelle proportion le glucose filtré est-il normalement réabsorbé ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Pour moitié dans le tubule contourné distal, sous le contrôle de l'aldostérone.",
@@ -199338,7 +199338,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la particularité de la branche ascendante large de l'anse de Henlé ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Elle réabsorbe le glucose et les acides aminés grâce à une bordure en brosse développée.",
@@ -199361,7 +199361,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la branche descendante de l'anse de Henlé, l'osmolarité du liquide tubulaire augmente parce que :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "l'eau y est retenue alors que le sodium y est massivement réabsorbé avec le chlore.",
@@ -199384,7 +199384,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par quel mécanisme l'hormone antidiurétique (ADH) augmente-t-elle la réabsorption d'eau ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "En relâchant les cellules mésangiales, ce qui élève le débit de filtration glomérulaire.",
@@ -199407,7 +199407,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle situation stimule la sécrétion de rénine par les cellules juxtaglomérulaires ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Une hausse de l'osmolarité plasmatique détectée par les osmorécepteurs hypothalamiques.",
@@ -199430,7 +199430,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos des effets rénaux de l'angiotensine II :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Elle agit seulement sur le tube collecteur, où elle insère des aquaporines dans les cellules principales.",
@@ -199453,7 +199453,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles structures composent l'appareil juxtaglomérulaire ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Les cellules mésangiales du glomérule et l'épithélium du tubule contourné proximal.",
@@ -199476,7 +199476,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les forces en jeu dans le corpuscule rénal, laquelle FAVORISE la filtration glomérulaire ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "La pression oncotique des protéines du plasma glomérulaire.",
@@ -199499,7 +199499,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'effet d'une vasoconstriction isolée de l'artériole efférente sur la fonction glomérulaire ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Elle élève la pression dans le capillaire glomérulaire et augmente le débit de filtration.",
@@ -199522,7 +199522,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quoi est dû le gradient osmotique croissant entre le cortex et la médulla rénale ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "À la filtration glomérulaire, qui livre un filtrat déjà hypertonique au tubule proximal.",
@@ -199545,7 +199545,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où les protons sont-ils sécrétés le long du néphron pour ajuster le pH sanguin ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Dans la branche ascendante large de l’anse de Henlé, en échange du sodium réabsorbé.",
@@ -199568,7 +199568,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle propriété du tissu musculaire correspond à la capacité de retrouver sa longueur d'origine après avoir été étiré ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "La contractilité du muscle",
@@ -199591,7 +199591,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle protéine du sarcomère aide à maintenir l'alignement des filaments d'actine ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "La nébuline",
@@ -199614,7 +199614,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie de la contraction par glissement des filaments, que deviennent l'actine et la myosine lors du raccourcissement du sarcomère ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Les deux types de filaments se raccourcissent proportionnellement au sarcomère entier.",
@@ -199637,7 +199637,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au repos, qu'est-ce qui empêche la liaison entre l'actine et la myosine dans la fibre musculaire ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "L'absence de toute molécule d'ATP fixée sur les têtes de myosine.",
@@ -199660,7 +199660,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se comparent les durées du potentiel d'action musculaire et de la secousse musculaire qu'il déclenche ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Le potentiel d'action dure 20 à 200 ms et la secousse musculaire 1 à 2 ms.",
@@ -199683,7 +199683,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que signifie le principe du tout ou rien appliqué à la fibre musculaire squelettique ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Stimulée, elle se contracte avec toute la force que permettent les conditions, sinon pas du tout.",
@@ -199706,7 +199706,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quel ordre les unités motrices sont-elles recrutées lorsque la force demandée augmente progressivement ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Type IIa, puis type I, puis type IIx, selon leur résistance croissante à la fatigue.",
@@ -199729,7 +199729,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos des fibres qui composent une même unité motrice :",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Elles sont de types variés et seules les plus grosses répondent aux stimulus faibles.",
@@ -199752,7 +199752,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles contiennent habituellement la plus forte proportion de fibres de type I ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Les muscles oculomoteurs, dont les unités motrices comptent très peu de fibres.",
@@ -199775,7 +199775,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours classe-t-il les contractions musculaires selon le mouvement produit ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "En une contraction dynamique, dite isométrique, et des contractions statiques, isotoniques ou isocinétiques.",
@@ -199798,7 +199798,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE concernant la force maximale développée selon le type de contraction :",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Elle est plus élevée en concentrique qu'en excentrique, car le muscle se raccourcit activement.",
@@ -199821,7 +199821,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle qualité de force correspond à la capacité de développer une grande énergie dans le temps le plus court possible ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "La force explosive",
@@ -199844,7 +199844,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel récepteur proprioceptif renseigne sur le degré de tension du muscle plutôt que sur sa longueur ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Le mécanorécepteur articulaire",
@@ -199867,7 +199867,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le tonus de repos du muscle squelettique est-il entretenu ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Les fuseaux neurotendineux détectent l’étirement de repos et commandent la contraction.",
@@ -199890,7 +199890,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos de la classification des réflexes :",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Un réflexe somatique a pour effecteur un muscle squelettique, via les motoneurones de la corne antérieure.",
@@ -199913,7 +199913,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE sur la distinction entre réponse et adaptation à l'exercice physique :",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "La réponse est ponctuelle et commune à tous, l'adaptation est chronique et propre aux entraînés",
@@ -199936,7 +199936,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la réponse normale du pancréas pendant une activité physique ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "Il freine la sécrétion d'insuline, le muscle captant le glucose par ses GLUT activés par le Ca2+",
@@ -199959,7 +199959,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le débit ventilatoire augmente-t-il au cours d'un exercice d'intensité croissante ?",
-   "c": 5,
+   "c": 3,
    "options": [
     {
      "t": "D'abord par l'augmentation du volume courant, puis par celle de la fréquence respiratoire",
@@ -199982,7 +199982,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos de l'organisation interne du rein :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "La médulla est faite de pyramides dont la base regarde le cortex et l'apex le hile rénal",
@@ -200005,7 +200005,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos de la paroi de la vessie et des sphincters de l'urètre :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Le détrusor et le sphincter interne sont lisses, le sphincter externe est strié et volontaire",
@@ -200028,7 +200028,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles substances à action hormonale sont produites par le rein ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "L'érythropoïétine, la rénine et la forme active de la vitamine D",
@@ -200051,7 +200051,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel segment du néphron réabsorbe la plus grande part de l'eau et du sodium filtrés ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Le tubule contourné proximal",
@@ -200074,7 +200074,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi du glucose apparaît-il dans l'urine lorsque la glycémie est très élevée ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Parce que les transporteurs du tubule proximal atteignent leur transport maximum",
@@ -200097,7 +200097,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le rôle des vasa recta dans la médulla rénale ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Nourrir les tubules médullaires par un échange à contre-courant qui épargne le gradient",
@@ -200120,7 +200120,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que provoque la macula densa lorsqu'elle détecte une concentration élevée de NaCl dans le liquide tubulaire ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Une vasoconstriction de l'artériole afférente, qui abaisse le débit de filtration",
@@ -200143,7 +200143,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle situation déclenche la libération d'hormone antidiurétique ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Une élévation de l'osmolarité plasmatique détectée par l'hypothalamus",
@@ -200166,7 +200166,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment l'angiotensine II se forme-t-elle à partir de l'angiotensinogène ?",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "La rénine libère l'angiotensine I, convertie ensuite par l'enzyme de conversion",
@@ -200189,7 +200189,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos de la composition du filtrat glomérulaire :",
-   "c": 2,
+   "c": 5,
    "options": [
     {
      "t": "Eau, glucose, acides aminés, ions et déchets azotés, mais presque pas de protéines",
@@ -200212,7 +200212,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle voie descendante coordonne les mouvements des yeux avec ceux de la tête et du cou ?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "La voie tectospinale",
@@ -200235,7 +200235,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quels filaments correspond la bande sombre, ou bande A, du sarcomère ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Aux filaments épais de myosine",
@@ -200258,7 +200258,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quoi la tension développée par un muscle est-elle directement proportionnelle ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Au nombre de ponts d'union formés entre l'actine et la myosine",
@@ -200281,7 +200281,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel type de motoneurone commande les unités motrices de type I ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Un motoneurone tonique, à vitesse de conduction lente",
@@ -200304,7 +200304,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on la contraction de toutes les fibres d'une unité motrice en réponse à un seul potentiel d'action de son motoneurone ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "Une secousse musculaire",
@@ -200327,7 +200327,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se subdivisent les contractions dynamiques d'après le développement du mouvement ?",
-   "c": 4,
+   "c": 6,
    "options": [
     {
      "t": "En contractions isotoniques et isocinétiques",
@@ -200350,7 +200350,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos des trois catégories de mouvements décrites par le cours :",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Les mouvements réflexes sont rapides, stéréotypés et involontaires",
@@ -200373,7 +200373,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos des deux grands types de systèmes moteurs descendants :",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Les systèmes posturaux naissent du tronc cérébral et descendent médialement vers les muscles axiaux",
@@ -200396,7 +200396,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui caractérise les systèmes de modulation du contrôle moteur, comme le cervelet et les ganglions de la base ?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Ils n'ont pas de connexion directe avec les motoneurones et ne produisent pas le mouvement",
@@ -200419,7 +200419,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui définit un arc réflexe monosynaptique ?",
-   "c": 2,
+   "c": 6,
    "options": [
     {
      "t": "Le neurone sensitif fait directement synapse avec le motoneurone dans la moelle",
@@ -212249,7 +212249,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mme Bertrand verse de l'eau dans un verre debout sur un sol stable. À quel type de tâche cela correspond-il ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Tâche fermée à exigence de stabilité et de dextérité",
@@ -212268,7 +212268,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'analyse de la posture et du mouvement, quel critère biomécanique conditionne l'efficacité d'une articulation ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "L'alignement entre les pièces articulaires",
@@ -212287,7 +212287,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle définition correspond au tonus musculaire ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "L'état basal de contraction du muscle mesuré par la résistance à l'étirement passif",
@@ -212363,7 +212363,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mme Vergne présente une hémiparésie droite. Quelle synergie est typiquement observée au membre supérieur spastique ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Synergie des fléchisseurs",
@@ -212382,7 +212382,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au membre inférieur d'un patient spastique post-AVC, quelle synergie domine typiquement ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Synergie des extenseurs",
@@ -212401,7 +212401,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel concept décrit l'information sensorielle reçue PENDANT l'exécution du mouvement ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Le feed-back",
@@ -212420,7 +212420,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le feed-forward résulte de quel processus ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "De l'intégration répétée des informations feed-back antérieures",
@@ -212781,7 +212781,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon Horak 2006, quel pourcentage du contrôle postural d'un individu sain provient du système somatosensoriel ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Environ 70%",
@@ -212800,7 +212800,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon Horak 2006, quelle est la part approximative du système vestibulaire dans le contrôle postural d'un sujet sain ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Environ 20%",
@@ -212895,7 +212895,7 @@ const QUESTIONS = {
   },
   {
    "q": "Combien de modèles internes du corps existent-ils selon Ito 2008 et Manto 2012 ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Deux : un pariétal conscient et un cérébelleux non conscient",
@@ -212952,7 +212952,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que se passe-t-il si le schéma corporel d'un patient est altéré ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Les APA seront affectés car ils dépendent du schéma corporel",
@@ -213047,7 +213047,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une double tâche, que peut-il arriver à un patient au CP fragile ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Il peut être mis en échec par partage des ressources attentionnelles",
@@ -213275,7 +213275,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mme Dubois, en station debout, déplace son poids latéralement. Que doit faire le SNC grâce à l'innervation réciproque ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Stabiliser une jambe pour permettre le mouvement de l'autre",
@@ -213541,7 +213541,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la phrase de Magnus 1924 reprise dans le cours pour souligner l'intégration sensorimotrice ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Le SNC reflète fidèlement et à tout moment l'état de la musculature du corps",
@@ -213636,7 +213636,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la composante neuronale spinale de la spasticité comprend :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Une perte des mécanismes d'inhibition présynaptique et réciproque",
@@ -213655,7 +213655,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au repos, le patient hémiparétique présente moins de spasticité aux fléchisseurs du coude que debout. Ce phénomène illustre :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La coordination entre les membres dans la spasticité (modulation contextuelle)",
@@ -213674,7 +213674,7 @@ const QUESTIONS = {
   },
   {
    "q": "À propos du composant cognitif du contrôle postural, quel symptôme neuropsychologique peut altérer l'orientation posturale ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "L'anosognosie",
@@ -213807,7 +213807,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'analyse posturale d'un patient ayant peur de tomber, quel facteur modifie le tonus postural ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Les facteurs psychologiques comme la douleur, la peur et l'attitude",
@@ -213826,7 +213826,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le contrôle postural se base sur deux objectifs principaux selon Shumway-Cook et Woollacott :",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "L'orientation posturale et la stabilité posturale",
@@ -213864,7 +213864,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour qu'un segment soit utilisable dans le contrôle postural, il doit :",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Faire partie du schema corporel du patient",
@@ -213921,7 +213921,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une altération dans l'intégration sensorielle peut entraîner :",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Une altération du modèle interne de son propre corps et de la capacité à anticiper le déséquilibre.",
@@ -213959,7 +213959,7 @@ const QUESTIONS = {
   },
   {
    "q": "A propos du contrôle postural :",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "L'orientation et l'équilibre sont les deux objectifs fonctionnels principaux.",
@@ -213978,7 +213978,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse INCORRECTE, en ce qui concerne les contributions sensorielles au contrôle postural (CP) :",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Les troubles de la visions difficultent le contrôle postural.",
@@ -214054,7 +214054,7 @@ const QUESTIONS = {
   },
   {
    "q": "En relation avec le tonus postural, signaler la réponse correcte :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "C'est une activité globale mettant en jeu des schémas d'activation de plusieurs muscles.",
@@ -214073,7 +214073,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquer la réponse INCORRECTE concernant le système somato-sensoriel et le CP :",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Son dysfonctionnement est généralement compensé par le système vestibulaire.",
@@ -214111,7 +214111,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquer l'affirmation INCORRECTE concernant le feed-back sensoriel :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "L'alignement articulaire conditionne l'efficacité musculaire.",
@@ -214187,7 +214187,7 @@ const QUESTIONS = {
   },
   {
    "q": "Contrôle postural et cognition, signaler la réponse INCORRECTE :",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "La double tâche peut mettre en échec le patient du au manque de ressources attentionnelles.",
@@ -214320,7 +214320,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez l'affirmation correcte concernant le feedback sensoriel",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "l'alignement articulaire conditionne l'efficacité musculaire",
@@ -214339,7 +214339,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse incorrecte concernant le système somatosensoriel et le contrôle postural",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "c'est le système qui fournit le + d'infos aux processus de control postural",
@@ -214909,7 +214909,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle pondération des canaux sensoriels pour le contrôle postural chez l'individu sain est correcte ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Somatosensoriel 70 %, vestibulaire 20 %, vision 10 %",
@@ -215270,7 +215270,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la pondération relative des trois canaux sensoriels pour l'orientation posturale chez l'individu sain ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Somatosensoriel 70 %, vestibulaire 20 %, vision 10 %",
@@ -215688,7 +215688,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel des deux modèles internes du schéma corporel est qualifié de non conscient ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Le modèle cérébelleux",
@@ -215707,7 +215707,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la répartition pondérée des canaux sensoriels pour le contrôle postural chez l'individu sain en station debout sur surface stable ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Somatosensoriel 70 %, vestibulaire 20 %, vision 10 %",
@@ -216030,7 +216030,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, indiquez la proposition exacte concernant les deux modèles internes du schéma corporel.",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Il existe un modèle pariétal conscient et un modèle cérébelleux non conscient",
@@ -216087,7 +216087,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, indiquez la proposition correcte concernant la composante musculaire de base des ajustements posturaux anticipés (core stability).",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "C'est la stabilité du tronc, par co-activation des muscles posturaux profonds du tronc inférieur",
@@ -216106,7 +216106,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se répartit la pondération des canaux sensoriels du contrôle postural chez l'individu sain ?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Somatosensoriel 70 %, vestibulaire 20 %, vision 10 %",
@@ -216334,7 +216334,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, où se produit le contrôle postural anticipé et comment se déclenche-t-il ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Dans la formation réticulaire, toujours lié aux mouvements volontaires",
@@ -216429,7 +216429,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit le « schéma corporel » par rapport au cervelet et au cortex pariétal ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Il existe deux modèles internes : l'un pariétal ou conscient, l'autre cérébelleux dit non conscient",
@@ -250886,7 +250886,7 @@ const QUESTIONS = {
  "osteo1": [
   {
    "q": "Choisissez la réponse correcte concernant l'application des techniques de manipulation de type thrust:",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Si le patient présente une douleur aiguë en L5 en l'absence d'hypomobilité, il est conseillé de manipuler la vertèbre.",
@@ -250905,7 +250905,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les objectifs du traitement d'une dysfonction en ERS sur le rachis dorsal:",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Mobiliser globalement et de façon non spécifique l'ensemble du groupe vertébral dorsal.",
@@ -250924,7 +250924,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez quelle structure limite l'extension vertébrale dorsale:",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Ligament vertébral commun antérieur.",
@@ -250943,7 +250943,7 @@ const QUESTIONS = {
   },
   {
    "q": "Délimitez le défilé thoracique:",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Bord interne de la première côte.",
@@ -250962,7 +250962,7 @@ const QUESTIONS = {
   },
   {
    "q": "Manifestations typiques liées à l'altération de la fonction du diaphragme:",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Amélioration du retour veineux et lymphatique abdominal.",
@@ -250981,7 +250981,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle est lié à la douleur dans la zone supérieure des épaules?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le diaphragme.",
@@ -251000,7 +251000,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que décrit le modèle de tenségrité appliqué à l'ostéopathie?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Une structure prête à répondre de manière dynamique aux exigences de n'importe quelle orientation.",
@@ -251019,7 +251019,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui définit la barrière anatomique?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le point où le mouvement passif prend fin.",
@@ -251038,7 +251038,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que représente le diagnostic ostéopathique dans la méthode clinique?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le processus de choix d'une technique de traitement.",
@@ -251057,7 +251057,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la caractéristique de la douleur ligamentaire?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Elle apparaît lorsque l'on maintient une position prolongée et donne une sensation de brûlure.",
@@ -251076,7 +251076,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui définit l'hyperalgésie primaire dans le modèle nociceptif?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "L'abaissement du seuil de réponse des nocicepteurs au niveau même de la zone lésée.",
@@ -251095,7 +251095,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle composante comprend l'observation statique?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les asymétries posturales, les reliefs osseux et la texture cutanée au repos.",
@@ -251114,7 +251114,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le critère cardinal qui n'appartient pas au mnémonique TART?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La température cutanée.",
@@ -251133,7 +251133,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel type de douleur est décrit comme sourde, diffuse et constante?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Douleur discale.",
@@ -251152,7 +251152,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment l'OMS définit-elle l'ostéopathie?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Comme un système basé sur des interventions pharmacologiques.",
@@ -251171,7 +251171,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle des phrases suivantes est un principe fondamental de l'ostéopathie?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La structure gouverne la dysfonctionnement.",
@@ -251190,7 +251190,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les conséquences du non-respect de la « loi de l'artère » ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Un déficit de trophisme tissulaire compromettant les capacités d'auto-guérison.",
@@ -251209,7 +251209,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que signifie « l'unité du corps » en ostéopathie ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les fonctions des différents systèmes du corps sont interdépendantes.",
@@ -251228,7 +251228,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quand la maladie apparaît-elle ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "En présence de virus et de bactéries dans notre organisme.",
@@ -251247,7 +251247,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que se passe-t-il au niveau du disque intervertébral pendant le processus de rotation vertébrale ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Il se produit une dilatation de celui-ci.",
@@ -251304,7 +251304,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant les lésions en NSR au niveau lombaire:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "La rotation de la vertèbre se produit vers la convexité.",
@@ -251323,7 +251323,7 @@ const QUESTIONS = {
   },
   {
    "q": "Si en D7 nous trouvons une postériorité gauche qui disparaît en amenant en patient en position du Sphinx et qui demeure en position assise sur les talons:",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "C'est une FRSd.",
@@ -251342,7 +251342,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la TEM pour la première côte antéro-inférieure droite:",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le physiothérapeute introduit l'inclinaison de la tête vers le côté droit.",
@@ -251361,7 +251361,7 @@ const QUESTIONS = {
   },
   {
    "q": "Jusqu'où caudalement s'étend l'insertion du pilier droit du diaphragme?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "L2.",
@@ -251380,7 +251380,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test de Gillet pour la première côte postéro-supérieure:",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le physiothérapeute introduit l'inclinaison homolatérale.",
@@ -251399,7 +251399,7 @@ const QUESTIONS = {
   },
   {
    "q": "Test de Mitchell dans la région dorsale haute:",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Il est analytique et passif.",
@@ -251418,7 +251418,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la technique d'inhibition du centre phrénique:",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le patient part de la position des genoux fléchis.",
@@ -251437,7 +251437,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sélectionnez la bonne réponse concernant le test de Mitchell en D2 :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Sí, pendant la position du sphinx, la postériorité droite disparaît, on peut en déduire qu'il s'agit d'un ERSd.",
@@ -251456,7 +251456,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel signe peut-on trouver face à un raccourcissement du muscle piriforme?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "En bipédie ou en décubitus dorsal, on trouvera une rotation interne de la hanche accentuée, en comparaison avec le côté non affecté.",
@@ -251475,7 +251475,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'utilité du Slump Test?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "C'est un test neurodynamique qui met en tension exclusivement le nerf sciatique et ses racines L4-S1, sans solliciter le reste du système nerveux.",
@@ -251494,7 +251494,7 @@ const QUESTIONS = {
   },
   {
    "q": "Face à une dysfonction en ERSd de L2:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Le thérapeute demandera une contraction concentrique, de la part du patient, vers la rotation ou l'inclinaison droite.",
@@ -251513,7 +251513,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant les TEM (Techniques d'Énergie Musculaire):",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le but du thérapeute est de gagner une amplitude de mouvement dans l'articulation à traiter, dans le sens de la barrière de restriction.",
@@ -251532,7 +251532,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant la technique de lumbar-roll:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Nous la réalisons avec l'installation d'un levier supérieur avec la participation active du patient.",
@@ -251551,7 +251551,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces dysfonctions somatiques de groupe se trouve dans le rachis dorsal?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Neutres: NSR.",
@@ -251570,7 +251570,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la Dog Tecnic dorsale:",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Nous recherchons une libération globale du groupe en dysfonction ERS.",
@@ -251589,7 +251589,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le nom de l'espace anatomique indiqué (par la flèche dans l'image)?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Hiatus œsophagien, situé au niveau de T10 dans le pilier droit du diaphragme.",
@@ -251608,7 +251608,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle traitons-nous directement avec la technique de glissement longitudinal?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Longissimus.",
@@ -251627,7 +251627,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que se passe-t-il pendant le processus de flexion vertébrale?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Désimbrication des facettes articulaires, le noyau se déplace vers l'avant et son mouvement est limité par la L.V.C.A.",
@@ -251646,7 +251646,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les conséquences d'un dysfonctionnement somatique?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Augmentation du seuil d'excitabilité au niveau des neurones affectés, avec une augmentation de leur activité.",
@@ -251665,7 +251665,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs suivants, lesquels sont nécessaires pour détecter un dysfonctionnement somatique?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Hypomobilité vertébrale, douleur à la palpation et inflammation au niveau métamérique.",
@@ -251684,7 +251684,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une dysfonction somatique au niveau de L4 affecte :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Spécifiquement sa mobilité.",
@@ -251703,7 +251703,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lorsqu'une dysfonction somatique affecte un viscère ou un organe, cela est dû au fait que :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Elle perturbe l'innervation autonome (sympathique ou parasympathique) du segment correspondant.",
@@ -251722,7 +251722,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment s'appelle, en ostéopathie, le système permettant de détecter une dysfonction somatique?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "TART.",
@@ -251741,7 +251741,7 @@ const QUESTIONS = {
   },
   {
    "q": "En ce qui concerne la question précédente, combien de critères de ce système faut-il au minimum pour détecter une dysfonction somatique?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "3.",
@@ -251760,7 +251760,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les effets de la manipulation structurelle vertébrale?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "En séparant les facettes articulaires, le fuseau neuromusculaire est étiré, ce qui stimule les récepteurs de Golgi et inhibe les motoneurones alpha et gamma.",
@@ -251779,7 +251779,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le sommet commun des triangles supérieur et inférieur dans les polygones de force ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "D4.",
@@ -251798,7 +251798,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon Littlejohn, les pivots ostéopathiques sont :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Des structures qui facilitent les mouvements autour d'elles et régissent l'équilibre segmentaire.",
@@ -251817,7 +251817,7 @@ const QUESTIONS = {
   },
   {
    "q": "En ce qui concerne la ligne PA :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Son origine se trouve dans la partie antérieure du foramen magnum et son insertion dans le coccyx.",
@@ -251836,7 +251836,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une dysfonction somatique en L4 affecte:",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Exclusivement la racine nerveuse de L4, produisant un pincement et une symptomatologie locale.",
@@ -251855,7 +251855,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lesquels des muscles suivants contrôlent excentriquement la flexion de la colonne?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Grand et petit fessier, le carré des lombes, les multifides et le droit de l'abdomen.",
@@ -251893,7 +251893,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle des pathologies suivantes est un drapeau rouge (red flag) et nécessite de procéder avec beaucoup de prudence au moment d'aborder le traitement du patient au niveau lombaire?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Anévrisme de l'aorte abdominale (atteinte vasculaire).",
@@ -251912,7 +251912,7 @@ const QUESTIONS = {
   },
   {
    "q": "Répondez à l'affirmation correcte concernant le Test de Mitchell au niveau lombaire:",
-   "c": 1,
+   "c": 3,
    "options": [
     {
      "t": "Face à une ERSd de L2, la postériorité se trouvera dans la position du Mahométan du côté droit.",
@@ -251931,7 +251931,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le raccourcissement du carré des lombes:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "On trouve une augmentation de la lordose lombaire.",
@@ -251950,7 +251950,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel principe de base aux techniques ostéopathiques structurelles suivent-elles ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Engager la barrière motrice et agir dans le sens contraire à la restriction de mobilité.",
@@ -251969,7 +251969,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'objectif principal des techniques de stretching rythmique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Étirer et assouplir les tissus mous : ligaments, fascias, muscles et tendons.",
@@ -251988,7 +251988,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la technique articulaire, la force est focalisée par :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La contraction isométrique du patient.",
@@ -252007,7 +252007,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel effet neurophysiologique immédiat provoque le thrust ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Une inhibition réflexe des motoneurones alpha et gamma via la bouffée afférente proprioceptive.",
@@ -252026,7 +252026,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la fonction principale de la ligne antéropostérieure décrite par Littlejohn ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Coordonner la tension cervicale avec le tronc.",
@@ -252045,7 +252045,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qui a créé l'ostéopathie et quand ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Irvin Koor, au XXe siècle.",
@@ -252064,7 +252064,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les effets de l'intervention thérapeutique sur un dysfonctionnement somatique :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Remise en place de la vertèbre.",
@@ -252083,7 +252083,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant la phrase qui résume le principe fondamental de l'ostéopathie selon Andrew Taylor Still.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "« La structure gouverne la fonction »",
@@ -252102,7 +252102,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les quatre grands principes de la médecine ostéopathique selon A. Still.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Structure-fonction, unité du corps, auto-guérison et loi de l'artère",
@@ -252121,7 +252121,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le diagnostic de dysfonction somatique selon les quatre signes cardinaux (TART).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Au moins deux des quatre signes (sensibilité, asymétrie, restriction de mouvement, modification de texture) doivent être présents",
@@ -252140,7 +252140,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'acronyme TART désignant les quatre signes cardinaux de la dysfonction somatique correspond à :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Tenderness (sensibilité), Asymétrie, Restriction de mouvement, Texture tissulaire modifiée",
@@ -252159,7 +252159,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le mécanisme du « segment facilité » dans la dysfonction somatique.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le seuil d'excitation des motoneurones de la corne antérieure est abaissé, si bien que des stimulus mécaniques de faible intensité suffisent à déclencher une réponse motrice",
@@ -252178,7 +252178,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le modèle proprioceptif de la dysfonction somatique d'Irvin Korr.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Il met l'accent sur les éléments proprioceptifs musculaires (fuseaux neuromusculaires, organes tendineux de Golgi)",
@@ -252197,7 +252197,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le mécanisme central propre au modèle nociceptif de la dysfonction somatique.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les nocicepteurs périphériques abaissent leur seuil d'excitation (hyperalgésie primaire) et sensibilisent la transmission synaptique médullaire (sensibilisation centrale)",
@@ -252216,7 +252216,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant les contre-indications d'une manipulation structurelle avec impulsion (thrust / HVLA).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les tumeurs osseuses, les fractures récentes et les troubles de la coagulation",
@@ -252235,7 +252235,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la définition de la barrière de restriction.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Empêchement ou obstacle au mouvement, dans les limites physiologiques, qui réduit la mobilité active",
@@ -252254,7 +252254,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant la barrière anatomique.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "C'est le contour osseux et/ou des tissus mous servant de limite finale à la mobilité, au-delà de laquelle survient une lésion tissulaire",
@@ -252273,7 +252273,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le mouvement de flexion vertébrale selon la biomécanique du cours.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les processus épineux s'écartent, la vertèbre supérieure glisse vers l'avant et les facettes se désimbriquent",
@@ -252292,7 +252292,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le comportement du noyau pulpeux lors de l'extension vertébrale.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le noyau avance et sollicite les fibres antérieures de l'anneau fibreux",
@@ -252311,7 +252311,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les structures qui limitent le mouvement de latéro-flexion vertébrale.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le ligament inter-transverse, le ligament jaune et la capsule inter-apophysaire, tous du côté de la convexité",
@@ -252330,7 +252330,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant la division de la colonne en piliers (pilier antérieur et pilier postérieur).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La colonne antérieure (corps vertébraux) assure le soutien et la statique ; la colonne postérieure (processus articulaires) assure la mobilité",
@@ -252349,7 +252349,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le sommet commun des triangles (polygones de force) supérieur et inférieur de Littlejohn.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "D4, point autour duquel les deux triangles s'équilibrent (contact D3-D4)",
@@ -252368,7 +252368,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le déroulement de la technique d'énergie musculaire (TEM).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le patient réalise une contraction isométrique contre la résistance du thérapeute, puis revient passivement et lentement à la position de départ après relâchement",
@@ -252387,7 +252387,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le principe des techniques fonctionnelles (indirectes).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Elles vont dans le sens de la lésion, c'est-à-dire à l'opposé de la barrière de mouvement",
@@ -252406,7 +252406,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant la technique de Strain–Counterstrain de Jones.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "On localise le point de déclenchement puis on maintient une position de confort indolore pendant 90 secondes avant un retour passif",
@@ -252425,7 +252425,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant l'innervation du diaphragme selon le cours.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Une double innervation : les nerfs phréniques et les six derniers nerfs intercostaux",
@@ -252444,7 +252444,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant l'insertion lombaire des piliers du diaphragme.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le pilier droit s'insère sur L2-L3 et le pilier gauche sur L1-L2",
@@ -252463,7 +252463,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la douleur référée à l'épaule lors d'une irritation diaphragmatique.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Elle s'explique par l'innervation phrénique issue des segments C3-C5, dont la peau correspondante recouvre l'épaule",
@@ -252482,7 +252482,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant l'insertion costale du diaphragme et les ligaments arqués qu'elle forme.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le ligament arqué latéral enjambe le carré des lombes et le ligament arqué médian le psoas, ce dernier s'insérant sur le transverse de L1.",
@@ -252501,7 +252501,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant l'origine de l'automatisme respiratoire et la contraction du diaphragme.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le générateur central du rythme respiratoire siège dans le bulbe et la protubérance, et la contraction est transmise par le nerf phrénique.",
@@ -252520,7 +252520,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les hiatus du diaphragme et les structures qui les traversent.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le hiatus œsophagien livre passage à l'œsophage, le hiatus aortique à l'aorte et le hiatus de la veine cave à la veine cave.",
@@ -252634,7 +252634,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les amplitudes de mobilité de la colonne lombaire.",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Flexion 40°, extension 30°, inclinaison latérale 25°, rotation 10°.",
@@ -252691,7 +252691,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant la dysfonction ostéopathique en ERS du rachis dorsal.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "C'est une lésion en imbrication ; la postériorité augmente en flexion et disparaît en extension.",
@@ -252710,7 +252710,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la dysfonction en NSR du rachis dorsal.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "C'est une lésion de groupe où les vertèbres tournent automatiquement vers la convexité, généralement adaptative.",
@@ -252729,7 +252729,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le muscle qui fixe une dysfonction ERS ou FRS vertébrale.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le transverse épineux homolatéral à la transverse hypomobile.",
@@ -252748,7 +252748,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la classification des dysfonctions somatiques du rachis dorsal.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "On distingue les dysfonctions de groupe (neutres NSR ou non neutres en flexion/extension) et les dysfonctions individuelles non neutres ERS et FRS.",
@@ -252767,7 +252767,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant les quatre grands principes de Still en ostéopathie.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La structure gouverne la fonction et inversement, l'unité du corps, l'auto-guérison et la loi de l'artère.",
@@ -252786,7 +252786,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la division biomécanique de la colonne vertébrale.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le pilier antérieur (corps vertébraux) assure le soutien et la statique ; le pilier postérieur (processus articulaires) assure la mobilité et la dynamique.",
@@ -252805,7 +252805,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant les signes cardinaux du dysfonctionnement somatique (acronyme TART).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Sensibilité (Tenderness), Asymétrie, Restriction du mouvement et changement de Texture tissulaire.",
@@ -252824,7 +252824,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la barrière de restriction selon le cours.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "C'est un empêchement ou obstacle au mouvement, à l'intérieur des limites physiologiques de l'articulation, réduisant la mobilité active.",
@@ -252843,7 +252843,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la réalisation pratique d'une technique d'énergie musculaire (TEM).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "On amène le segment jusqu'à la barrière motrice, on demande une contraction isométrique de quelques secondes contre résistance, puis après relâchement on gagne la nouvelle barrière.",
@@ -252862,7 +252862,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la phrase qui résume le principe fondamental énoncé par Andrew Taylor Still.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La structure gouverne la fonction",
@@ -252881,7 +252881,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la « loi de l'artère » selon A. Still.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le sang transporte les éléments de l'immunité naturelle et sa perturbation entraîne un apport nutritionnel médiocre et un déficit d'élimination des déchets",
@@ -252900,7 +252900,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le mouvement de flexion vertébrale en biomécanique.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les processus épineux se séparent, la vertèbre supérieure glisse en avant et le noyau recule",
@@ -252919,7 +252919,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les facettes articulaires lors de l'extension vertébrale.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Elles se chevauchent ou s'imbriquent, avec rapprochement et choc possible des processus épineux",
@@ -252938,7 +252938,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les lignes de force étudiées par John Martin Littlejohn.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Ce sont des lignes de gravité imaginaires traversant le corps et dépendant de l'action de la gravité et du maintien de l'équilibre corporel",
@@ -252957,7 +252957,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant les polygones de force (triangle supérieur et triangle inférieur) de Littlejohn.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Ils ont D4 comme sommet commun et tournent autour de la ligne de gravité à leur point de contact D3-D4, avec compensation d'un triangle par l'autre",
@@ -252976,7 +252976,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le nombre de signes TART requis pour poser le diagnostic de dysfonctionnement somatique.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Au moins deux des quatre signes (sensibilité, asymétrie, rang de mouvement modifié, texture tissulaire modifiée) doivent être présents",
@@ -252995,7 +252995,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le mécanisme neurophysiologique du thrust structurel (HVLA) sur le spasme musculaire.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La séparation des facettes étire la capsule et le fuseau neuromusculaire, dont les afférences inhibent les motoneurones alpha et gamma, ce qui lève le spasme musculaire",
@@ -253014,7 +253014,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la direction d'application des techniques structurelles (directes).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Elles se font dans le sens de la barrière de mouvement, contre la restriction",
@@ -253033,7 +253033,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le principe des techniques fonctionnelles (indirectes).",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Elles vont dans le sens de la blessure, à l'opposé de la barrière de mouvement, avec un retour lent et contrôlé",
@@ -253052,7 +253052,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la technique de Strain-Counterstrain de Jones.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "On trouve le point de déclenchement, on place l'articulation dans une position de silence neurologique qui ne fait pas mal, et on maintient la pression environ 90 secondes",
@@ -253071,7 +253071,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le mouvement de latéro-flexion (inclinaison latérale) vertébrale.",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le processus articulaire s'imbrique du côté de l'inclinaison et se désimbrique du côté opposé, et le noyau se déplace du côté opposé à l'inclinaison",
@@ -253090,7 +253090,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant le diaphragme.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "C'est un muscle impair à double innervation : les nerfs phréniques et les six derniers nerfs intercostaux",
@@ -253109,7 +253109,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les piliers du diaphragme.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le pilier droit s'insère sur L2 et L3, le pilier gauche sur L1 et L2",
@@ -253128,7 +253128,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choisissez la réponse correcte concernant la douleur référée du diaphragme aux épaules.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Elle est due à l'irritation de la plèvre ou du péritoine diaphragmatique, la peau innervée par les segments C3-C5 étant la même que celle des branches antérieures des nerfs phréniques",
@@ -253147,7 +253147,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le générateur central du rythme respiratoire (fonction structurelle du diaphragme).",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Il prend son origine dans les centres bulbaire et de la protubérance et fonctionne automatiquement grâce à une double excitation nerveuse et chimique",
@@ -253166,7 +253166,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les définitions des barrières, laquelle correspond à la « barrière élastique » ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La résistance ressentie à la fin de la gamme de mobilité passive",
@@ -253185,7 +253185,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur le « segment facilité » de la facilitation médullaire, quelle anomalie neurophysiologique caractérise un segment vertébral en dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Un abaissement du seuil d'excitation des neurones, qui répondent à des stimulus plus faibles que dans un segment sain",
@@ -253204,7 +253204,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel mécanisme caractérise le modèle nociceptif de la dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Un abaissement du seuil d'excitation des nocicepteurs primaires (hyperalgésie primaire) couplé à une sensibilisation de la transmission synaptique médullaire (sensibilisation centrale)",
@@ -253223,7 +253223,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, sur quels récepteurs repose le modèle proprioceptif expliquant l'apparition et le maintien de la dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les fuseaux neuromusculaires et les organes tendineux de Golgi",
@@ -253242,7 +253242,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le diagnostic palpatoire de la dysfonction somatique repose sur quatre signes cliniques cardinaux (mnémotechnique anglaise TART). Selon le cours, à quoi correspond la lettre « T » de TART ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Tenderness (sensibilité) et Texture (changements de texture du tissu)",
@@ -253261,7 +253261,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, combien de signes cardinaux du TART doivent au minimum être présents pour poser le diagnostic de dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Au moins deux des quatre signes",
@@ -253280,7 +253280,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les modifications de la cage thoracique en FLEXION, laquelle est correcte ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Ouverture des espaces intercostaux postérieurs, fermeture des espaces antérieurs et ouverture des angles costovertébral, sternocostal et chondrocostal",
@@ -253299,7 +253299,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel de ces énoncés concernant les amplitudes de mouvement du rachis dorsal est correct (valeurs Louis / K) ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Flexion : 30° Louis et 45° K ; extension : 20° Louis et 25° K",
@@ -253318,7 +253318,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur la biomécanique du rachis dorsal, quelle vertèbre est physiologiquement hypomobile en raison de l'insertion des ligaments péricardiques ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "D1, qui suit les mouvements de la colonne cervicale",
@@ -253337,7 +253337,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans la dysfonction de groupe NSR du rachis, quelle est la combinaison correcte des paramètres ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Vertèbres en position neutre, inclinaison latérale et rotation HOMOlatérale (du même côté)",
@@ -253356,7 +253356,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la dysfonction ostéopathique en ERS du rachis selon le cours.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Lésion par désimbrication du côté opposé à la rotation, avec mouvements limités en extension",
@@ -253375,7 +253375,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment évolue la postériorité d'une vertèbre en FRS lors des mouvements de flexion et d'extension ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La postériorité augmente en extension et disparaît en flexion",
@@ -253413,7 +253413,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles sont les amplitudes des mouvements de la colonne lombaire ?",
-   "c": 1,
+   "c": 3,
    "options": [
     {
      "t": "Flexion 40°, extension 30°, inclinaison latérale 25°, rotation 10°",
@@ -253489,7 +253489,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quelle structure correspond l'insertion costale du diaphragme formant le ligament arqué latéral ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Au psoas, via le transverse de L1",
@@ -253508,7 +253508,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la douleur référée du diaphragme à l'épaule s'explique par le fait que la zone cutanée innervée par les segments médullaires concernés correspond à celle qui fournit les branches antérieures du nerf phrénique. De quels segments s'agit-il ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "C3-C5",
@@ -253527,7 +253527,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le défilé thoracique (entrée thoracique) est délimité par plusieurs structures. Laquelle ne fait PAS partie de sa délimitation ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le corps de la vertèbre D1",
@@ -253546,7 +253546,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le diaphragme possède une double innervation. Laquelle de ces formulations est correcte ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Les nerfs phréniques et les 6 derniers nerfs intercostaux",
@@ -253565,7 +253565,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les 9 pivots ligamentaires de Littlejohn, lequel est fonctionnellement désigné comme « le pivot de la marche » ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "D4",
@@ -253584,7 +253584,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles sont les limites du défilé thoracique (entrée thoracique) ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Corps de D1, bord interne de la première côte, face postérieure du manubrium sternal et extrémité médiale des deux clavicules",
@@ -253603,7 +253603,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle structure nerveuse passe juste au-dessus de la première côte et peut être affectée par une altération de la cage thoracique ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le plexus brachial",
@@ -253622,7 +253622,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle vertèbre dorsale présente une apophyse unciforme supérieure et s'articule avec C7 pour former la charnière cervico-dorsale ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "D1",
@@ -253641,7 +253641,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, pour quelle raison D3-D4 est-elle décrite comme physiologiquement hypomobile ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "En raison de l'insertion des ligaments péricardiques",
@@ -253660,7 +253660,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les particularités de D12, laquelle est exacte concernant ses facettes articulaires inférieures ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Elles ont une orientation lombaire typique, vers l'extérieur et vers l'avant",
@@ -253679,7 +253679,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la particularité costale de la vertèbre D10 ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Il n'y a qu'une demi-côte supérieure pour la 10e côte",
@@ -253698,7 +253698,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une dysfonction dorsale en ERS, quel mouvement de la postériorité est observé ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La postériorité disparaît en extension et augmente en flexion",
@@ -253717,7 +253717,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit la dysfonction dorsale en FRS au niveau de la facette ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Lésion de désimbrication du côté opposé à la face postérieure, le disque faisant saillie en postéro-latéral et bloquant la facette en position ouverte",
@@ -253736,7 +253736,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans la dysfonction dorsale en NSR, de quel côté se fait la rotation des vertèbres ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Les vertèbres tournent automatiquement en convexité",
@@ -253755,7 +253755,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le muscle qui fixe une dysfonction dorsale en ERS ou FRS est :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le transverse épineux homolatéral à la transverse hypomobile",
@@ -253774,7 +253774,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels mouvements sont limités dans une dysfonction dorsale en ERS ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Flexion, rotation et latéroflexion controlatérales",
@@ -253793,7 +253793,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la dysfonction de groupe dorsale en extension est qualifiée de « très pathogène ». Pour quelle raison principale ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Par l'hypomobilité compensée par une hypermobilité sus- ou sous-jacente, l'irritation des ganglions sympathiques et la tension de la dure-mère",
@@ -253812,7 +253812,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans la dysfonction de groupe dorsale en flexion, où la raideur apparaît-elle ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La flexion est libre et la raideur apparaît en extension",
@@ -253831,7 +253831,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les caractéristiques biomécaniques de la cage thoracique, quelle est l'amplitude de la flexion selon Kapandji (K) ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "45°",
@@ -253850,7 +253850,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lors de la flexion de la cage thoracique, quelle modification des espaces intercostaux est observée ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Ouverture des espaces intercostaux postérieurs et fermeture des espaces antérieurs",
@@ -253869,7 +253869,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'amplitude de la rotation vertébrale au niveau dorsal est environ de quel ordre par rapport au niveau lombaire ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Environ trois fois plus grande qu'au niveau lombaire",
@@ -253888,7 +253888,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une subluxation costale postéro-supérieure, comment se comportent les espaces intercostaux ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Espace intercostal inférieur augmenté et espace intercostal supérieur diminué",
@@ -253907,7 +253907,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la subluxation costale antéro-inférieure est explorée par quelle palpation dynamique ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Une barrière perçue lors d'une poussée antéro-postérieure, le mouvement limité étant le glissement vers l'arrière et la montée",
@@ -253926,7 +253926,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur le diaphragme, les arcs de Senac correspondent à quelles insertions costales ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "À la face médiale des 7e à 11e côtes, à travers lesquels passent les nerfs intercostaux",
@@ -253945,7 +253945,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles sont les insertions vertébrales du pilier droit du diaphragme ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "L2 et L3",
@@ -253964,7 +253964,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, par quoi est assurée la double innervation du diaphragme ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Par les nerfs phréniques et les 6 derniers nerfs intercostaux",
@@ -253983,7 +253983,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la douleur diaphragmatique référée à l'épaule s'explique par l'innervation commune de quels segments médullaires ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "C3-C5",
@@ -254002,7 +254002,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le point de contact des deux triangles ostéopathiques (supérieur et inférieur) autour duquel ils tournent se situe au niveau de :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "D3-D4",
@@ -254021,7 +254021,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'anatomie du diaphragme, indiquez la réponse correcte concernant l'insertion des piliers diaphragmatiques.",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le pilier droit s'insère sur L2 et L3, le pilier gauche sur L1 et L2.",
@@ -254040,7 +254040,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les insertions costales du diaphragme, quelle structure est formée à hauteur de la 12ème côte ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le ligament arqué latéral, recouvrant le carré des lombes.",
@@ -254059,7 +254059,7 @@ const QUESTIONS = {
   },
   {
    "q": "La douleur diaphragmatique référée à l'épaule s'explique par une innervation cutanée commune impliquant quels segments médullaires ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Les segments C3-C5, qui fournissent les branches antérieures des nerfs phréniques.",
@@ -254078,7 +254078,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'irritation des régions périphériques du diaphragme, contrairement à l'irritation centrale, donne une douleur :",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Plus localisée, concernant la peau des arcs costaux de la paroi abdominale antéro-latérale (intercostaux inférieurs).",
@@ -254097,7 +254097,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le défilé thoracique (entrée thoracique), indiquez la délimitation correcte selon le cours.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Corps de D1, bord interne de la 1ère côte, face postérieure du manubrium sternal et extrémité médiale des clavicules.",
@@ -254116,7 +254116,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles structures nerveuses sont particulièrement affectées par une altération de la cage thoracique au-dessus de la première côte ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Les nerfs intercostaux et le plexus brachial.",
@@ -254135,7 +254135,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez l'amplitude correcte du mouvement de flexion de la colonne lombaire selon le cours.",
-   "c": 1,
+   "c": 3,
    "options": [
     {
      "t": "40°.",
@@ -254154,7 +254154,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est l'amplitude du mouvement de rotation de la colonne lombaire ?",
-   "c": 1,
+   "c": 3,
    "options": [
     {
      "t": "10°.",
@@ -254249,7 +254249,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une dysfonction lombaire en NSR, quel groupe musculaire fixe la dysfonction ?",
-   "c": 1,
+   "c": 3,
    "options": [
     {
      "t": "Les paravertébraux de la concavité de la courbe.",
@@ -254287,7 +254287,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une dysfonction ostéopathique en ERS lombaire, indiquez la proposition exacte concernant la rotation et la lésion.",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Lésion en imbrication, la rotation se faisant dans la concavité.",
@@ -254306,7 +254306,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à propos de l'amplitude de la rotation au niveau dorsal comparée au niveau lombaire :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "L'amplitude dorsale est environ trois fois supérieure à celle de la région lombaire, par rotation-torsion.",
@@ -254325,7 +254325,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles vertèbres dorsales sont physiologiquement hypomobiles en raison de l'insertion des ligaments péricardiques ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "D3-D4.",
@@ -254344,7 +254344,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après la règle de palpation des processus transverses dorsaux enseignée, où se situent les transverses de D7-D8-D9 par rapport à leurs épineuses ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "À un espace et demi au-dessus de leurs épineuses.",
@@ -254363,7 +254363,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les références osseuses du cours, l'angle inférieur de la scapula correspond au niveau vertébral :",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "T7-T8.",
@@ -254382,7 +254382,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les particularités de la vertèbre D1 selon le cours, indiquez la proposition exacte.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Elle présente une facette articulaire supérieure complète pour la 1ère côte et une semi-facette inférieure pour la 2ème côte.",
@@ -254401,7 +254401,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit physiologiquement le « segment facilité » (facilitation médullaire) ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Un segment médullaire hyperexcitable dont le seuil d'excitation est abaissé, répondant à des stimulus de faible intensité.",
@@ -254420,7 +254420,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'apporte le modèle nociceptif par rapport au modèle proprioceptif de la dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Il explique l'abaissement du seuil des nocicepteurs périphériques (hyperalgésie primaire) et la sensibilisation centrale, y compris pour des entrées purement viscérales.",
@@ -254439,7 +254439,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à propos de la mobilité costale lors de l'inspiration, indiquez la réponse correcte.",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "L'augmentation du diamètre antéro-postérieur prédomine dans la partie supérieure du thorax.",
@@ -254458,7 +254458,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le principe ostéopathique reliant structure et fonction, comment se développe la maladie ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le désordre de la structure produit l'origine de la maladie, qui ne peut se développer si la structure reste en harmonie",
@@ -254477,7 +254477,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel ne fait PAS partie des quatre grands principes fondateurs de la médecine ostéopathique selon le cours ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La loi de la barrière de restriction",
@@ -254496,7 +254496,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quoi correspond précisément l'acronyme TART utilisé pour diagnostiquer la dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Sensibilité (Tenderness), Asymétrie, Restriction du mouvement (Range of motion), Texture tissulaire modifiée",
@@ -254515,7 +254515,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, combien de ces signes cardinaux (TART) doivent au minimum être présents pour poser le diagnostic de dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Au moins deux des quatre signes",
@@ -254534,7 +254534,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui caractérise neurophysiologiquement le « segment facilité » de Korr ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Un abaissement du seuil d'excitation lié à une augmentation des capacités de transmission dans la moelle, rendant le segment hyperexcitable à des stimulus doux",
@@ -254553,7 +254553,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle proprioceptif de Korr, par quel mécanisme une dysfonction somatique entraîne-t-elle des effets à distance sur des structures associées (muscles, viscères, vaisseaux) ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "L'hyperexcitabilité se propage à tous les tissus du même métamère en raison de la distribution métamérique de l'innervation",
@@ -254572,7 +254572,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle hypothèse Korr a-t-il formulée pour expliquer les changements trophiques palpables des tissus entourant la zone de dysfonction somatique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Une altération autonome par augmentation du tonus sympathique entraînant des modifications vasomotrices et de la perméabilité capillaire",
@@ -254591,7 +254591,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle nociceptif de la dysfonction somatique exposé dans le cours, quelle observation a montré les limites du modèle purement proprioceptif ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La dysfonction peut provenir d'entrées purement viscérales, dépourvues de fuseaux neuromusculaires, la réponse sympathique exigeant la stimulation de terminaisons nerveuses libres",
@@ -254610,7 +254610,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'apporte le modèle articulaire de la dysfonction somatique par rapport au modèle nociceptif ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Il ajoute la nécessité d'une altération de la composante articulaire au niveau vertébral comme base originelle d'apparition de la dysfonction",
@@ -254629,7 +254629,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la base neurophysiologique de la douleur référée d'origine viscérale ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le chevauchement des nocicepteurs somatiques et viscéraux faisant synapse sur les mêmes interneurones à large gamme dynamique (WDR)",
@@ -254648,7 +254648,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit la « barrière physiologique » dans les concepts de barrière ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "L'accumulation de tension des tissus mous qui limite la mobilité volontaire, un mouvement passif restant possible jusqu'à la barrière anatomique",
@@ -254667,7 +254667,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel correspond à la définition de la barrière anatomique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le contour des os et des tissus mous, surtout des ligaments, servant de limite finale au-delà de laquelle survient une lésion tissulaire",
@@ -254686,7 +254686,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les dysfonctions ostéopathiques dorsales, laquelle caractérise une dysfonction en ERS ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Lésion en imbrication à la face postérieure : la postériorité augmente en flexion et disparaît en extension",
@@ -254705,7 +254705,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une dysfonction de type FRS dorsale, comment évolue la postériorité avec les mouvements ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La postériorité augmente en extension et disparaît en flexion",
@@ -254724,7 +254724,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une dysfonction ERS, quel muscle fixe la dysfonction ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le transverse-épineux homolatéral à la transverse hypomobile",
@@ -254743,7 +254743,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, pour une dysfonction notée NSiRd (neutre, side-bending gauche, rotation droite), quels mouvements sont limités ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La latéroflexion droite et la rotation gauche",
@@ -254762,7 +254762,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur la biomécanique dorsale, quelle vertèbre est physiologiquement hypomobile en raison de l'insertion des ligaments péricardiques ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "D3-D4",
@@ -254781,7 +254781,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles structures délimitent l'entrée (défilé) thoracique ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le corps de D1, le bord interne de la 1ère côte droite et gauche, la face postérieure du manubrium sternal et l'extrémité médiale des deux clavicules",
@@ -254800,7 +254800,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, sur quelles vertèbres s'insèrent respectivement les piliers droit et gauche du diaphragme ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Pilier droit sur L2-L3 et pilier gauche sur L1-L2",
@@ -254819,7 +254819,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la double innervation du diaphragme ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Les nerfs phréniques et les 6 derniers nerfs intercostaux",
@@ -254838,7 +254838,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'irritation de la plèvre ou du péritoine diaphragmatique provoque une douleur référée à l'épaule car le diaphragme central est innervé par des segments médullaires communs avec la peau de l'épaule. Quels sont ces segments ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "C3-C5",
@@ -254857,7 +254857,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans la technique structurelle de stretching, l'étirement appliqué perpendiculairement aux fibres musculaires agit principalement sur quel récepteur ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les fuseaux neuromusculaires",
@@ -254876,7 +254876,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la durée de maintien de la pression dans la technique de Strain-Counterstrain de Jones ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "90 secondes",
@@ -254895,7 +254895,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les techniques d'énergie musculaire (TEM), quel est le protocole de répétition recommandé ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "3 à 5 fois avec des contractions de 3 à 7 secondes, ou 3 cycles de 3 contractions de 3 secondes",
@@ -254914,7 +254914,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel récepteur sensoriel est stimulé par l'étirement de la capsule articulaire lors de la séparation des facettes pendant un thrust ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les corpuscules de Pacini",
@@ -254933,7 +254933,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se répartissent les bras de levier lors d'une manipulation avec thrust au niveau du rachis ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Levier primaire = neutre, flexion ou extension pour localiser l'espace ; levier secondaire = latéro-flexion et contre-rotation pour mener la tension sur la facette",
@@ -254990,7 +254990,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur la biomécanique dorsale, quelle est la particularité de la rotation au niveau dorsal par rapport à la région lombaire ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Il y a rotation-torsion et non cisaillement, ce qui donne une amplitude environ trois fois plus grande qu'en lombaire",
@@ -255009,7 +255009,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles vertèbres correspondent à l'insertion du pilier droit du diaphragme ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "L2 et L3",
@@ -255028,7 +255028,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quel niveau s'insère la partie costale du diaphragme formant le ligament arqué médian (en relation avec le psoas) ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Transverse de L1",
@@ -255047,7 +255047,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, les arcs de Senac du diaphragme correspondent à l'insertion costale sur quelles côtes ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Les 7ème à 11ème côtes",
@@ -255066,7 +255066,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'irritation de la plèvre diaphragmatique provoque une douleur référée aux épaules en raison de l'innervation commune de quels segments médullaires ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "C3-C5",
@@ -255085,7 +255085,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle structure passe par le triangle sterno-costal du diaphragme ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Les artères thoraciques internes (devenant épigastriques supérieures)",
@@ -255104,7 +255104,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une dysfonction en FRS, quel est le comportement de la postériorité en flexion et en extension ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La postériorité augmente en extension et disparaît en flexion",
@@ -255123,7 +255123,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une dysfonction de groupe NSR, quelle est la position relative de la rotation et de l'inclinaison latérale des vertèbres ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Inclinaison latérale et rotation controlatérales (rotation en convexité)",
@@ -255142,7 +255142,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel muscle fixe la dysfonction dans une lésion individuelle non neutre (ERS ou FRS) dorsale ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le transverse épineux homolatéral à la transverse hypomobile",
@@ -255161,7 +255161,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, par quel élément la lésion de désimbrication (FRS) est-elle fixée ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le disque intervertébral",
@@ -255180,7 +255180,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lors d'une extension du rachis dorsal, que deviennent les espaces intercostaux postérieurs et antérieurs ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Fermeture des espaces intercostaux postérieurs et ouverture des espaces antérieurs",
@@ -255199,7 +255199,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle vertèbre dorsale est physiologiquement hypomobile en raison de l'insertion des ligaments péricardiques ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "D3-D4",
@@ -255218,7 +255218,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, par quoi est délimité le défilé thoracique (entrée thoracique) ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Le corps de D1, le bord interne des 1ères côtes, la face postérieure du manubrium et l'extrémité médiale des clavicules",
@@ -255237,7 +255237,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quel niveau les transverses se palpent-elles à un demi-espace au-dessus de leurs épineuses ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "D1, D2, D3",
@@ -255256,7 +255256,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quel niveau vertébral correspond l'angle inférieur de la scapula comme référence osseuse ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "T7-T8",
@@ -255275,7 +255275,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la particularité des facettes costales des vertèbres D11-D12 ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Une seule facette costale complète et absence de facette costale sur l'apophyse transverse",
@@ -255294,7 +255294,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans une subluxation costale antéro-inférieure, comment se comportent les espaces intercostaux à la palpation statique ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "Espace intercostal inférieur augmenté et espace supérieur diminué",
@@ -255313,7 +255313,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, les piliers du diaphragme se caractérisent comme étant :",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Des insertions fibrotendineuses solides et inextensibles s'amarrant sur les corps de L1 à L3",
@@ -255332,7 +255332,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur l'équilibre des diaphragmes, lequel des éléments suivants constitue le diaphragme cervical ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "La 1ère côte, les ligaments apicaux, les scalènes et le fascia cervical antérieur",
@@ -255351,7 +255351,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans la dysfonction de groupe dorsale en EXTENSION, quel mouvement est principalement limité ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "La flexion (ainsi que les deux latéroflexions et rotations)",
@@ -255370,7 +255370,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, par quelle technique HVLA corrige-t-on une dysfonction ostéopathique dorsale en ERS ?",
-   "c": 1,
+   "c": 2,
    "options": [
     {
      "t": "HVLA en flexion, pour décoapter et désimbriquer",
@@ -255389,7 +255389,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'automatisme respiratoire du diaphragme trouve son origine centrale dans quelles structures ?",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "Le bulbe rachidien et la protubérance (pons)",
@@ -260200,7 +260200,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les sécrétions intrathoraciques proximales sont associées à :",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "a) Trouble ventilatoire obstructif de type I",
@@ -260257,7 +260257,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les crépitants de haute fréquence traduisent une atteinte de :",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "a) Voies aériennes proximales",
@@ -260295,7 +260295,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un trouble ventilatoire obstructif de type I, on privilégie :",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "a) Les techniques expiratoires lentes",
@@ -260352,7 +260352,7 @@ const QUESTIONS = {
   },
   {
    "q": "La toux est considérée comme inefficace lorsque le débit de pointe de toux est :",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "a) <460 L/min",
@@ -260371,7 +260371,7 @@ const QUESTIONS = {
   },
   {
    "q": "La pression expiratoire maximale évalue principalement :",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "a) Le diaphragme",
@@ -260428,7 +260428,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle des situations suivantes n'est PAS une contre-indication absolue en kinésithérapie respiratoire ?",
-   "c": 2,
+   "c": 3,
    "options": [
     {
      "t": "a) Hémoptysie active",
@@ -260447,7 +260447,7 @@ const QUESTIONS = {
   },
   {
    "q": "La bronchiolite du nourrisson est :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "a) Une infection des voies aériennes supérieures, prédominant en saison estivale",
@@ -260504,7 +260504,7 @@ const QUESTIONS = {
   },
   {
    "q": "Homme de 68 ans atteint de BPCO GOLD III, stable, présentant une dyspnée mMRC 3 et des signes d'hyperinflation dynamique. Quel est l'objectif kinésithérapique prioritaire ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "a) Améliorer l'efficacité diaphragmatique par un contrôle ventilatoire à expiration prolongée",
@@ -260656,7 +260656,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les sibilances sont principalement dues à :",
-   "c": 2,
+   "c": 4,
    "options": [
     {
      "t": "a) La présence de sécrétions liquides",

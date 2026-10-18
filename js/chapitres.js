@@ -70,35 +70,35 @@ const CHAPITRES = {
   "anat2": [
     {
       "id": 1,
-      "nom": "1. L'OSTÉOARTHROLOGIE DE LA CEINTURE SCAPULAIRE DU MEMBRE SUPÉRIEUR"
+      "nom": "Ostéoarthrologie de la ceinture scapulaire"
     },
     {
       "id": 2,
-      "nom": "2. L'OSTÉOARTHROLOGIE DU COUDE"
+      "nom": "Ostéoarthrologie du coude"
     },
     {
       "id": 3,
-      "nom": "3. MYOLOGIE DE L'EPAULE"
+      "nom": "Myologie de l'épaule"
     },
     {
       "id": 4,
-      "nom": "4. MYOLOGIE DU BRAS"
+      "nom": "Myologie du bras"
     },
     {
       "id": 5,
-      "nom": "5. OSTEOARTHROLOGIE DU POIGNET ET MAIN"
+      "nom": "Ostéoarthrologie du poignet et de la main"
     },
     {
       "id": 6,
-      "nom": "6. MYOLOGIE DE L'AVANT-BRAS"
+      "nom": "Myologie de l'avant-bras"
     },
     {
       "id": 7,
-      "nom": "7. MYOLOGIE DE LA MAIN"
+      "nom": "Myologie de la main"
     },
     {
       "id": 8,
-      "nom": "8. NEUROANATOMIE DU MEMBRE SUPÉRIEUR"
+      "nom": "Neuroanatomie du membre supérieur"
     }
   ],
   "dentBiomaterial": [
@@ -1100,59 +1100,59 @@ const CHAPITRES = {
   "neuro1": [
     {
       "id": 1,
-      "nom": "1. Neuroplasticité"
+      "nom": "Neuroplasticité"
     },
     {
       "id": 2,
-      "nom": "2. Raissonaiment Clinique"
+      "nom": "Raisonnement clinique"
     },
     {
       "id": 3,
-      "nom": "3. Neurosciences"
+      "nom": "Neurosciences"
     },
     {
       "id": 4,
-      "nom": "4. Côntrole Postural"
+      "nom": "Contrôle postural"
     }
   ],
   "neuro2": [
     {
       "id": 1,
-      "nom": "1. Intro A Kine Pediatrique"
+      "nom": "Introduction à la kinésithérapie pédiatrique"
     },
     {
       "id": 2,
-      "nom": "2. Neurosciences"
+      "nom": "Neurosciences"
     },
     {
       "id": 3,
-      "nom": "3. Développement Sensorimoteur"
+      "nom": "Développement sensorimoteur"
     },
     {
       "id": 4,
-      "nom": "4. Évaluation. Signes D'alarme"
+      "nom": "Évaluation et signes d'alarme"
     },
     {
       "id": 5,
-      "nom": "5. Physiopathologie"
+      "nom": "Physiopathologie"
     }
   ],
   "osteo1": [
     {
       "id": 1,
-      "nom": "C. Dorsal"
+      "nom": "Introduction à l'ostéopathie"
     },
     {
       "id": 2,
-      "nom": "Diafragma"
+      "nom": "Rachis dorsal"
     },
     {
       "id": 3,
-      "nom": "C.Lumbar"
+      "nom": "Rachis lombaire"
     },
     {
       "id": 4,
-      "nom": "INTRO OSTEO I"
+      "nom": "Diaphragme"
     }
   ],
   "osteo2": [
@@ -1520,31 +1520,31 @@ const CHAPITRES = {
   "procesos1": [
     {
       "id": 1,
-      "nom": "1. Introduction kiné respiratoire"
+      "nom": "Introduction à la kinésithérapie respiratoire"
     },
     {
       "id": 2,
-      "nom": "2. Généralités du systeme respiratoire"
+      "nom": "Généralités du système respiratoire"
     },
     {
       "id": 3,
-      "nom": "3. Évaluation patient respiratoire"
+      "nom": "Évaluation du patient respiratoire"
     },
     {
       "id": 4,
-      "nom": "4. Auscultation"
+      "nom": "Auscultation"
     },
     {
       "id": 5,
-      "nom": "5. Spirométrie"
+      "nom": "Spirométrie"
     },
     {
       "id": 6,
-      "nom": "6. Tecniques KR"
+      "nom": "Techniques de kinésithérapie respiratoire"
     },
     {
       "id": 7,
-      "nom": "7. Pharmacologie ET VM Français"
+      "nom": "Pharmacologie et ventilation mécanique"
     }
   ],
   "procesos2": [
@@ -1690,101 +1690,101 @@ const CHAPITRES = {
   "processusBio2": [
     {
       "id": 1,
-      "nom": "1. Méiose et gamétogenèse humaine"
+      "nom": "Méiose et gamétogenèse"
     },
     {
       "id": 2,
-      "nom": "2. Développement embryonnaire"
+      "nom": "Développement embryonnaire"
     },
     {
       "id": 3,
-      "nom": "3. Introduction à l'histologie"
+      "nom": "Introduction à l'histologie"
     },
     {
       "id": 4,
-      "nom": "4. Caractéristiques des tissus conjonctifs"
+      "nom": "Tissu conjonctif — matrice et cellules"
     },
     {
       "id": 5,
-      "nom": "5. Types de tissus conjonctifs non spécialisés"
+      "nom": "Types de tissus conjonctifs"
     },
     {
       "id": 6,
-      "nom": "6. Le processus d'inflammation"
+      "nom": "Inflammation"
     },
     {
       "id": 7,
-      "nom": "7. Réparation et Régénération tissulaire des tissus conjonctifs"
+      "nom": "Réparation et régénération des tissus conjonctifs"
     },
     {
       "id": 8,
-      "nom": "08. Cellules souches et médecine régénérative"
+      "nom": "Tissu épithélial et glandes"
     },
     {
       "id": 9,
-      "nom": "9.10. Tissu épithélial"
+      "nom": "Cellules souches et médecine régénérative"
     },
     {
       "id": 10,
-      "nom": "11. Régénération et réparation du tissu épithélial Cicatrices"
+      "nom": "Régénération épithéliale et cicatrices"
     },
     {
       "id": 11,
-      "nom": "12. Tissu adipeux"
+      "nom": "Tissu adipeux"
     },
     {
       "id": 12,
-      "nom": "13. Tissu Sanguin"
+      "nom": "Tissu sanguin"
     },
     {
       "id": 13,
-      "nom": "14. Tissu cartilagineux"
+      "nom": "Tissu cartilagineux"
     },
     {
       "id": 14,
-      "nom": "15. Tissu Osseux"
+      "nom": "Tissu osseux"
     },
     {
       "id": 15,
-      "nom": "16. Tissus musculaires"
+      "nom": "Tissus musculaires"
     },
     {
       "id": 16,
-      "nom": "17. Réparation et régénération des tissus musculaires"
+      "nom": "Réparation et régénération musculaires"
     },
     {
       "id": 17,
-      "nom": "18. Tissu nerveux"
+      "nom": "Tissu nerveux"
     },
     {
       "id": 18,
-      "nom": "19. Régénération du tissu nerveux"
+      "nom": "Régénération du tissu nerveux"
     }
   ],
   "psycho": [
     {
       "id": 1,
-      "nom": "1. Psychologie de la Santé"
+      "nom": "Psychologie de la santé"
     },
     {
       "id": 2,
-      "nom": "2. Comportements Santé Maladie"
+      "nom": "Comportements, santé et maladie"
     },
     {
       "id": 3,
-      "nom": "3. Conditionnement, émotions et stress"
+      "nom": "Conditionnement, émotions et stress"
     },
     {
       "id": 4,
-      "nom": "4. Douleur"
+      "nom": "Douleur"
     },
     {
       "id": 5,
-      "nom": "5. Adhérence au traitment Psychologie de la santé"
+      "nom": "Adhérence au traitement"
     },
     {
       "id": 6,
-      "nom": "6. Relation et Communication"
+      "nom": "Relation et communication"
     }
   ],
   "santePublique": [
@@ -1954,23 +1954,27 @@ const CHAPITRES = {
   "structure2": [
     {
       "id": 1,
-      "nom": "1. Le Système Respiratoire"
+      "nom": "Système respiratoire"
     },
     {
       "id": 2,
-      "nom": "2. Le Système Cardiovasculaire"
+      "nom": "Système cardiovasculaire"
     },
     {
       "id": 3,
-      "nom": "Diapositive 67 corrigée chapitre 2"
+      "nom": "Physiologie de l'exercice"
     },
     {
       "id": 4,
-      "nom": "3. Introduction Physiologie de l'exercice"
+      "nom": "Appareil digestif et métabolisme énergétique"
     },
     {
       "id": 5,
-      "nom": "4. L'appareil digestif et métabolisme énergétique"
+      "nom": "Appareil urinaire"
+    },
+    {
+      "id": 6,
+      "nom": "Système musculaire (rappels)"
     }
   ],
   "valoColonne": [
