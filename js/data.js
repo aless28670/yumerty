@@ -277,29 +277,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "choisissez la réponse correcte point quelle est la principale voie de transmission du VIH en France ?",
-   "c": 8,
-   "options": [
-    {
-     "t": "Rapport sexuel hétérosexuel",
-     "j": "Rapport hétérosexuel = mode dominant au niveau mondial, pas en France — faux"
-    },
-    {
-     "t": "utilisateur de drogue injectable",
-     "j": "Usage de drogue injectable = voie sanguine, minoritaire — faux"
-    },
-    {
-     "t": "Les relations sexuelles entre hommes",
-     "correct": true,
-     "j": "Relations sexuelles entre hommes (HSH) = voie principale en Occident/France — CORRECT"
-    },
-    {
-     "t": "Voie verticale",
-     "j": "Voie verticale réduite à ~0% en Occident — faux"
-    }
-   ]
-  },
+  {"q":"Choisissez la réponse correcte. Quelle est la principale voie de transmission du VIH en France ?","c":8,"options":[{"t":"Rapport sexuel hétérosexuel","j":"Rapport hétérosexuel = mode dominant au niveau mondial, pas en France — faux"},{"t":"utilisateur de drogue injectable","j":"Usage de drogue injectable = voie sanguine, minoritaire — faux"},{"t":"Les relations sexuelles entre hommes","correct":true,"j":"Relations sexuelles entre hommes (HSH) = voie principale en Occident/France — CORRECT"},{"t":"Voie verticale","j":"Voie verticale réduite à ~0% en Occident — faux"}]},
   {
    "q": "choisissez la réponse fausse point on parle de transmission directe quand la transmission est:",
    "c": 6,
@@ -2304,29 +2282,7 @@ const QUESTIONS = {
   },
   {"q":"Quel élément est commun à toutes les définitions de la santé publique ?","c":2,"options":[{"t":"L'accent mis sur la prévention et la promotion de la santé.","correct":true,"j":"La prévention et la promotion figurent parmi les trois éléments communs à toutes les définitions."},{"t":"La priorité donnée au traitement curatif des cas individuels.","j":"À l'inverse : la santé publique privilégie l'approche collective et la prévention, non le curatif individuel."},{"t":"La centralisation des soins au sein des établissements hospitaliers.","j":"La santé publique agit à l'échelle des populations, non par centralisation hospitalière."},{"t":"La spécialisation des interventions selon la pathologie ciblée.","j":"La santé publique adopte une approche collective des populations, non une spécialisation par pathologie."}]},
   {"q":"En santé publique, à qui incombe l'organisation des interventions améliorant la santé de la population, et quel en est le caractère ?","c":2,"options":[{"t":"Aux services de santé, qui organisent seuls les interventions ; elle est monodisciplinaire et mono-institutionnelle.","j":"Les services de santé ne mènent que certaines activités (prévention, rétablissement), sans porter seuls cette responsabilité."},{"t":"Aux gouvernements, à qui revient d'organiser les interventions ; elle est multidisciplinaire et multi-institutionnelle.","correct":true,"j":"Le cours attribue la santé publique aux gouvernements et la qualifie de multidisciplinaire et multi-institutionnelle."},{"t":"Aux professionnels libéraux, qui organisent les interventions ; elle est pluriprofessionnelle mais mono-institutionnelle.","j":"La responsabilité incombe aux gouvernements, non aux libéraux, et le caractère est multi-institutionnel."},{"t":"Aux collectivités locales, qui organisent les interventions ; elle est multidisciplinaire mais mono-institutionnelle.","j":"La responsabilité relève des gouvernements et le caractère est multi-institutionnel, non mono-institutionnel."}]},
-  {
-   "q": "Dans quel ordre s'enchaînent les étapes du cycle de la santé publique ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Identifier un problème → connaître l'état de santé → analyser les déterminants → intervenir → analyser l'impact.",
-     "correct": true,
-     "j": "C'est l'enchaînement décrit, du repérage du problème à l'évaluation de l'impact de l'intervention."
-    },
-    {
-     "t": "Connaître l'état de santé → identifier un problème → intervenir → analyser les déterminants → analyser l'impact.",
-     "j": "L'analyse des déterminants précède l'intervention et ne la suit pas."
-    },
-    {
-     "t": "Analyser les déterminants → identifier un problème → connaître l'état de santé → intervenir → analyser l'impact.",
-     "j": "Le cycle débute par l'identification du problème, non par l'analyse des déterminants."
-    },
-    {
-     "t": "Identifier un problème → analyser les déterminants → connaître l'état de santé → analyser l'impact → intervenir.",
-     "j": "La connaissance de l'état de santé précède l'analyse des déterminants, et l'intervention précède l'analyse de son impact."
-    }
-   ]
-  },
+  {"q":"Dans quel ordre s'enchaînent les étapes du cycle de la santé publique ?","c":3,"options":[{"t":"Connaître l'état de santé → identifier un problème → analyser les déterminants → intervenir → analyser l'impact.","correct":true,"j":"Thème 1.2 p.9, repris à l'identique au thème 1.3 p.16 : « Connaître l'état de santé de la population → Identifier un problème de santé → Analyser les déterminants du problème → Réaliser une intervention → Analyser l'impact de l'intervention ». On part donc de l'état de santé, pas du problème."},{"t":"Connaître l'état de santé → identifier un problème → intervenir → analyser les déterminants → analyser l'impact.","j":"Le départ est juste, mais l'intervention vient APRÈS l'analyse des déterminants (thème 1.2 p.9) : on ne peut pas agir avant d'avoir identifié sur quoi agir."},{"t":"Analyser les déterminants → identifier un problème → connaître l'état de santé → intervenir → analyser l'impact.","j":"Ordre impossible : les déterminants s'analysent une fois le problème identifié, lui-même repéré à partir de l'état de santé de la population (thème 1.2 p.9)."},{"t":"Identifier un problème → analyser les déterminants → connaître l'état de santé → analyser l'impact → intervenir.","j":"Deux erreurs : la connaissance de l'état de santé vient en premier, et l'analyse de l'impact clôt le cycle, après l'intervention (thème 1.2 p.9)."}]},
   {"q":"Que recouvre la surveillance en santé publique ?","c":2,"options":[{"t":"Collecter, stocker, facturer et archiver des informations sur l'état de santé et ses facteurs.","j":"La surveillance interprète et diffuse l'information ; elle ne se limite pas à la stocker et l'archiver."},{"t":"Prescrire, analyser, interpréter et diffuser des informations sur l'état de santé et ses facteurs.","j":"La surveillance collecte l'information au départ ; elle ne la « prescrit » pas."},{"t":"Collecter, analyser, interpréter et diffuser des informations sur l'état de santé et ses facteurs.","correct":true,"j":"Ce sont les quatre activités de la définition, au service des actions de santé publique."},{"t":"Collecter, analyser, interpréter et dissimuler des informations sur l'état de santé et ses facteurs.","j":"La finalité est de diffuser l'information pour soutenir l'action, non de la dissimuler."}]},
   {"q":"À quoi correspondent les trois axes de Santé publique France ?","c":2,"options":[{"t":"Anticiper (prévention et promotion), comprendre (veille et surveillance), agir (connaissance de l'état de santé).","j":"La veille et la surveillance relèvent d'anticiper, non de comprendre."},{"t":"Anticiper (veille et surveillance), comprendre (connaissance de l'état de santé), agir (prévention, promotion et crises).","correct":true,"j":"C'est l'appariement des trois axes tel que défini par l'agence."},{"t":"Anticiper (réponse aux crises), comprendre (prévention et promotion), agir (veille et surveillance).","j":"La réponse aux crises relève d'agir, et la veille et la surveillance d'anticiper."},{"t":"Anticiper (connaissance de l'état de santé), comprendre (réponse aux crises), agir (veille et surveillance).","j":"La connaissance de l'état de santé relève de comprendre, non d'anticiper."}]},
   {"q":"Quel est le rôle de l'Union européenne en matière de santé ?","c":2,"options":[{"t":"Remplacer les politiques nationales, l'organisation des soins devenant de la responsabilité de l'UE.","j":"L'UE ne remplace pas les politiques nationales et l'organisation des soins reste aux États."},{"t":"Harmoniser les politiques nationales, l'organisation des soins devenant une compétence partagée UE-États.","j":"Le rôle est de compléter, non d'harmoniser, et les soins relèvent des seuls États membres."},{"t":"Compléter les politiques nationales, l'organisation des soins devenant de la responsabilité de l'UE.","j":"Le premier terme est exact, mais l'organisation des soins reste des États, non de l'UE."},{"t":"Compléter les politiques nationales, l'organisation des soins restant de la responsabilité des États membres.","correct":true,"j":"L'UE complète les politiques nationales, l'organisation des soins demeurant aux États membres."}]},
@@ -218874,29 +218830,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Un ménisque interne présente une déchirure périphérique radiaire chez un patient de 22 ans. Pourquoi cette zone se prête-t-elle à une suture méniscale ?",
-   "c": 17,
-   "options": [
-    {
-     "t": "Parce que la zone périphérique est vascularisée (zone rouge-rouge)",
-     "correct": true,
-     "j": "Vrai : seule la périphérie vascularisée (zone rouge-rouge / rouge-blanc) cicatrise, donc une suture y est viable."
-    },
-    {
-     "t": "Parce que la portion centrale est la mieux vascularisée du ménisque",
-     "j": "Faux : c'est la périphérie qui est vascularisée ; le centre est avasculaire (zone blanc-blanc) et ne cicatrise pas."
-    },
-    {
-     "t": "Parce que la portion centrale est riche en chondrocytes actifs",
-     "j": "Faux : les cellules réparatrices sont plus nombreuses en périphérie, et c'est la vascularisation, non la cellularité centrale, qui autorise la suture."
-    },
-    {
-     "t": "Parce que la cicatrisation méniscale est indépendante du flux vasculaire",
-     "j": "Faux : la cicatrisation dépend de la vascularisation, d'où la suture réservée à la zone périphérique."
-    }
-   ]
-  },
+  {"q":"Un ménisque interne présente une déchirure périphérique longitudinale chez un patient de 22 ans. Pourquoi cette zone se prête-t-elle à une suture méniscale ?","c":17,"options":[{"t":"Parce que la zone périphérique est vascularisée (zone rouge-rouge)","correct":true,"j":"17F p.32 : « Réparation du ménisque — dans la mesure du possible (ruptures longitudinales périphériques) ; dans les cas avec une certaine possibilité (zone rouge-blanc) ». Seule la périphérie vascularisée cicatrise, donc la suture n'y est viable que là."},{"t":"Parce que la portion centrale est la mieux vascularisée du ménisque","j":"Faux : c'est la périphérie qui est vascularisée ; le centre est avasculaire (zone blanc-blanc) et ne cicatrise pas."},{"t":"Parce que la portion centrale est riche en chondrocytes actifs","j":"Faux : les cellules réparatrices sont plus nombreuses en périphérie, et c'est la vascularisation, non la cellularité centrale, qui autorise la suture."},{"t":"Parce que la cicatrisation méniscale est indépendante du flux vasculaire","j":"Faux : la cicatrisation dépend de la vascularisation, d'où la suture réservée à la zone périphérique."}]},
   {
    "q": "Quelle part de la charge fémoro-tibiale est transmise par les ménisques en EXTENSION du genou ?",
    "c": 17,
@@ -219040,7 +218974,7 @@ const QUESTIONS = {
   {"q":"Quel type de fibre musculaire est lent, riche en myoglobine, résistant à la fatigue et destiné aux contractions soutenues ?","c":20,"options":[{"t":"Fibre de type I (lente, rouge)","correct":true,"j":"Les fibres I (lentes/rouges) sont riches en myoglobine et adaptées à l'endurance, typiques des coureurs de fond."},{"t":"Fibre IIb (rapide, blanche)","j":"Les IIb sont rapides, riches en glycogène mais fatigables, typiques des sprinters."},{"t":"Fibre IIa (intermédiaire)","j":"Les IIa sont rapides mais plus résistantes que IIb ; pas le profil le plus typiquement lent."},{"t":"Fibre IIc (immature)","j":"Les IIc sont immatures et transitionnelles, sans rôle dominant dans l'endurance soutenue."}]},
   {"q":"Un sprinter ressent une douleur brutale en pleine accélération, décrit le « coup de fouet », avec ecchymose modérée. Quel diagnostic clinique privilégier ?","c":20,"options":[{"t":"Rupture fibrillaire musculaire","correct":true,"j":"Coup de fouet sur contraction brutale avec ecchymose locale : tableau typique de la rupture fibrillaire."},{"t":"Élongation musculaire simple","j":"Faux : l'élongation est un étirement sans rupture, douleur moins vive et sans ecchymose ni coup de fouet."},{"t":"Contusion musculaire directe","j":"Faux : la contusion suppose un choc direct externe, pas une contraction brutale en accélération."},{"t":"Crampe musculaire d'effort","j":"Faux : la crampe est une contraction involontaire douloureuse et transitoire, cédant à l'étirement, sans ecchymose."}]},
   {"q":"Quel traitement antalgique est DÉCONSEILLÉ lors de la phase aiguë d'une lésion musculaire indirecte ?","c":20,"options":[{"t":"AINS systémiques","correct":true,"j":"Les AINS sont déconseillés car ils peuvent altérer la réparation musculaire ; on privilégie antalgiques simples et glace."},{"t":"Cryothérapie locale","j":"La cryothérapie limite l'œdème et la douleur, c'est une mesure indiquée en phase aiguë."},{"t":"Bandage compressif","j":"Le bandage compressif est recommandé pour limiter l'hématome, ce n'est pas une contre-indication."},{"t":"Repos relatif initial","j":"Le repos relatif fait partie du protocole de phase aiguë, il n'est pas déconseillé."}]},
-  {"q":"Quelle est la localisation la plus fréquente d'une hernie musculaire post-traumatique ?","c":20,"options":[{"t":"Tibial antérieur à la jambe","correct":true,"j":"Le tibial antérieur, en loge antérieure de jambe, est le siège le plus classique de hernie musculaire par déhiscence aponévrotique sous l'effet de contraintes répétées."},{"t":"Gastrocnémien médial au mollet","j":"Faux : le gastrocnémien est un site fréquent de désinsertion (tennis leg) mais non de hernie musculaire à travers une déhiscence aponévrotique."},{"t":"Soléaire en loge postérieure profonde","j":"Faux : profondément situé sous le triceps sural, le soléaire n'est pas exposé à la déhiscence fasciale superficielle nécessaire à une hernie."},{"t":"Long fibulaire en loge latérale","j":"Faux : la loge latérale est moins exposée que la loge antérieure, et le long fibulaire n'est pas un site préférentiel décrit de hernie musculaire."}]},
+  {"q":"Quelle est la localisation la plus fréquente d'une hernie musculaire post-traumatique ?","c":20,"options":[{"t":"Tibial antérieur à la jambe","correct":true,"j":"20F p.18 : « Localisation la plus fréquente : biceps brachial et tibial antérieur. Aussi quadriceps et adducteurs. » Le tibial antérieur, en loge antérieure de jambe, est le seul de ces sites proposé ici."},{"t":"Gastrocnémien médial au mollet","j":"Faux : le gastrocnémien est un site fréquent de désinsertion (tennis leg) mais non de hernie musculaire à travers une déhiscence aponévrotique."},{"t":"Soléaire en loge postérieure profonde","j":"Faux : profondément situé sous le triceps sural, le soléaire n'est pas exposé à la déhiscence fasciale superficielle nécessaire à une hernie."},{"t":"Long fibulaire en loge latérale","j":"Faux : la loge latérale est moins exposée que la loge antérieure, et le long fibulaire n'est pas un site préférentiel décrit de hernie musculaire."}]},
   {"q":"Une infirmière présente un torticolis congénital du nouveau-né avec olive palpable. Quel est le pilier du traitement initial ?","c":20,"options":[{"t":"Mobilisation passive et physiothérapie","correct":true,"j":"Chez le nouveau-né, on insiste sur la mobilité complète et la physiothérapie pour éviter une déformation osseuse secondaire."},{"t":"Section chirurgicale immédiate du sterno-cléido-mastoïdien","j":"La chirurgie est réservée à l'enfant plus âgé en cas d'échec du traitement conservateur."},{"t":"Immobilisation rigide en collier cervical prolongé","j":"L'immobilisation rigide aggrave la rétraction et est contre-indiquée à ce stade."},{"t":"Infiltrations de corticoïdes locales","j":"Les corticoïdes ne font pas partie du traitement du torticolis congénital."}]},
   {
    "q": "Quel collagène domine la composition matricielle du tendon ?",
@@ -219272,29 +219206,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle est la définition exacte d'une LUXATION articulaire ?",
-   "c": 21,
-   "options": [
-    {
-     "t": "Perte complète et permanente du contact entre les surfaces articulaires",
-     "correct": true,
-     "j": "Vrai : la luxation est une perte TOTALE et durable du contact articulaire, le plus souvent avec lésion capsulo-ligamentaire associée."
-    },
-    {
-     "t": "Perte partielle et transitoire du contact entre les surfaces articulaires",
-     "j": "Faux : cette description correspond à une subluxation, pas à une luxation complète."
-    },
-    {
-     "t": "Étirement capsulo-ligamentaire sans perte de contact articulaire",
-     "j": "Faux : cette définition correspond à une entorse, pas à une luxation."
-    },
-    {
-     "t": "Fracture épiphysaire avec déplacement intra-capsulaire des fragments",
-     "j": "Faux : il s'agit alors d'une fracture articulaire de l'os ; la luxation est une perte de contact, pas une fracture."
-    }
-   ]
-  },
+  {"q":"Quelle est la définition exacte d'une LUXATION articulaire ?","c":21,"options":[{"t":"Perte complète du contact entre les surfaces articulaires","correct":true,"j":"21F p.38 : « Perte de contact des articulations ; qui peuvent ou non revenir à leur position initiale lorsque le traumatisme a cessé d'agir. » Ce qui définit la luxation est donc le caractère COMPLET de la perte de contact, pas sa durée."},{"t":"Perte partielle et transitoire du contact entre les surfaces articulaires","j":"Faux : une perte PARTIELLE du contact définit la subluxation. Le caractère transitoire, lui, n'exclut rien — 21F p.38 précise que les surfaces « peuvent ou non revenir à leur position initiale »."},{"t":"Étirement capsulo-ligamentaire sans perte de contact articulaire","j":"Faux : cette définition correspond à une entorse, pas à une luxation."},{"t":"Fracture épiphysaire avec déplacement intra-capsulaire des fragments","j":"Faux : il s'agit alors d'une fracture articulaire de l'os ; la luxation est une perte de contact, pas une fracture."}]},
   {
    "q": "Devant une luxation traumatique de l'épaule, quelle est la conduite à tenir AVANT toute manœuvre de réduction ?",
    "c": 21,
@@ -220227,29 +220139,7 @@ const QUESTIONS = {
   {"q":"Concernant le radiographie cervicale dynamique (cliches en flexion/extension), elle permet principalement d'evaluer :","c":[24,27],"options":[{"t":"L'instabilité vertébrale segmentaire","correct":true,"j":"Vrai : les clichés dynamiques en flexion/extension recherchent une instabilité intersegmentaire passée inaperçue en statique."},{"t":"Le degré d'arthrose facettaire postérieure","j":"Faux : l'arthrose facettaire s'apprécie sur les clichés statiques ou la TDM, non par la mobilité dynamique."},{"t":"L'angle de cyphose cervicale globale","j":"Faux : l'angle de cyphose se mesure sur un cliché de profil statique, pas par l'épreuve dynamique."},{"t":"Le diamètre du canal rachidien cervical","j":"Faux : le diamètre canalaire est mieux apprécié par l'IRM ou la TDM que par la radio dynamique."}]},
   {"q":"Lors de l'évaluation d'une cervicalgie aiguë post-traumatique, quel examen complémentaire est INDIQUÉ en cas de suspicion de lésion neurologique ou lésion des tissus mous ?","c":25,"options":[{"t":"L'IRM cervicale","correct":true,"j":"Vrai : l'IRM est l'examen de choix pour explorer la moelle, les disques et les ligaments en cas de suspicion neurologique ou ligamentaire."},{"t":"La radiographie standard seule","j":"Faux : la radio simple ne permet pas d'analyser la moelle ou les tissus mous, insuffisante seule."},{"t":"L'échographie cervicale","j":"Faux : l'échographie est inadaptée à l'exploration de la moelle et du rachis osseux."},{"t":"La scintigraphie osseuse","j":"Faux : la scintigraphie est utile pour les pathologies osseuses subaiguës mais pas pour le bilan traumatique aigu médullaire."}]},
   {"q":"Concernant les voies sensitives ascendantes, le faisceau spino-thalamique véhicule :","c":28,"options":[{"t":"La douleur et la température, avec décussation précoce","correct":true,"j":"Vrai : le faisceau spino-thalamique antéro-latéral véhicule douleur et température (et pression grossière), avec décussation dans la moelle peu après l'entrée."},{"t":"La proprioception consciente et le tact épicritique","j":"Faux : la proprioception consciente et le tact fin empruntent les cordons postérieurs (Goll et Burdach), pas le spino-thalamique."},{"t":"La motricité volontaire et le tonus","j":"Faux : la motricité volontaire emprunte le faisceau cortico-spinal (pyramidal), qui est une voie descendante, pas le spino-thalamique."},{"t":"La proprioception inconsciente cérébelleuse","j":"Faux : la proprioception inconsciente destinée au cervelet passe par les faisceaux spino-cérébelleux, pas par le spino-thalamique."}]},
-  {
-   "q": "Concernant la classification radiologique d'une fracture cervicale de Jefferson, quel signe AP transoral est évocateur ?",
-   "c": 25,
-   "options": [
-    {
-     "t": "Un débord latéral combiné des masses latérales de C1 sur celles de C2",
-     "correct": true,
-     "j": "Vrai : sur le cliché AP transoral, le débord latéral combiné des masses latérales de C1 par rapport à C2 (signe de Spence) traduit l'écartement de l'anneau et signe la fracture de Jefferson."
-    },
-    {
-     "t": "Une augmentation de l'intervalle atloïdo-odontoïdien antérieur (ADI)",
-     "j": "Faux : un ADI élargi traduit une atteinte du ligament transverse et une instabilité atloaxoïdienne, mesurée de profil et non sur le transoral ; ce n'est pas le signe de Jefferson."
-    },
-    {
-     "t": "Une asymétrie des espaces entre l'odontoïde et les masses latérales",
-     "j": "Faux : cette asymétrie oriente vers une subluxation rotatoire atloaxoïdienne (C1-C2), pas vers la rupture circonférentielle de l'anneau de C1."
-    },
-    {
-     "t": "Une bascule latérale de l'odontoïde au sein de l'anneau de C1",
-     "j": "Faux : la bascule (tilt) latérale de l'odontoïde évoque un déplacement rotatoire ou une fracture de l'odontoïde, et non une fracture de Jefferson."
-    }
-   ]
-  },
+  {"q":"Concernant la classification radiologique d'une fracture cervicale de Jefferson, quel signe AP transoral est évocateur ?","c":25,"options":[{"t":"Un débord latéral combiné des masses latérales de C1 sur celles de C2","correct":true,"j":"Vrai : sur le cliché AP transoral, le débord latéral combiné des masses latérales de C1 par rapport à celles de C2 traduit l'écartement de l'anneau et signe la fracture de Jefferson, qui est une rupture circonférentielle de C1."},{"t":"Une augmentation de l'intervalle atloïdo-odontoïdien antérieur (ADI)","j":"Faux : un ADI élargi traduit une atteinte du ligament transverse et une instabilité atloaxoïdienne, mesurée de profil et non sur le transoral ; ce n'est pas le signe de Jefferson."},{"t":"Une asymétrie des espaces entre l'odontoïde et les masses latérales","j":"Faux : cette asymétrie oriente vers une subluxation rotatoire atloaxoïdienne (C1-C2), pas vers la rupture circonférentielle de l'anneau de C1."},{"t":"Une bascule latérale de l'odontoïde au sein de l'anneau de C1","j":"Faux : la bascule (tilt) latérale de l'odontoïde évoque un déplacement rotatoire ou une fracture de l'odontoïde, et non une fracture de Jefferson."}]},
   {
    "q": "Laquelle des affirmations suivantes est fausse en ce qui concerne le principe physique de l'échographie ?",
    "c": 10,
@@ -229917,29 +229807,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la démyélinisation médullaire, signalez l'option INCORRECTE :",
-   "c": 7,
-   "options": [
-    {
-     "t": "Hypoalgésie et altération de la sensibilité thermique ipsilatérale à la lésion",
-     "correct": true,
-     "j": "INCORRECT : la perte de sensibilité thermo-algique est CONTROLATÉRALE (faisceau spinothalamique croisé), pas ipsilatérale."
-    },
-    {
-     "t": "Une faiblesse pyramidale ipsilatérale à la lésion et en dessous",
-     "j": "Vrai : déficit moteur pyramidal homolatéral sous la lésion (Brown-Séquard)."
-    },
-    {
-     "t": "Sensibilité vibratoire et positionnelle ipsilatérale à la lésion",
-     "j": "Vrai : atteinte cordonale postérieure homolatérale."
-    },
-    {
-     "t": "Hypoalgésie et altération de la sensibilité thermique controlatérale à la lésion",
-     "j": "Vrai : la sensibilité thermo-algique est perdue du côté opposé."
-    }
-   ]
-  },
+  {"q":"Concernant le syndrome de Brown-Séquard (hémisection médullaire), signalez l'option INCORRECTE :","c":7,"options":[{"t":"Hypoalgésie et altération de la sensibilité thermique ipsilatérale à la lésion","correct":true,"j":"INCORRECT : chapitre 7 p.13, dans l'hémisection médullaire la perte thermo-algique est CONTROLATÉRALE à la lésion (faisceau spinothalamique croisé), jamais ipsilatérale."},{"t":"Une faiblesse pyramidale ipsilatérale à la lésion et en dessous","j":"Vrai : déficit moteur pyramidal homolatéral sous la lésion (Brown-Séquard)."},{"t":"Sensibilité vibratoire et positionnelle ipsilatérale à la lésion","j":"Vrai : atteinte cordonale postérieure homolatérale."},{"t":"Hypoalgésie et altération de la sensibilité thermique controlatérale à la lésion","j":"Vrai : la sensibilité thermo-algique est perdue du côté opposé."}]},
   {
    "q": "La lésion médullaire antérieure se caractérise par :",
    "c": 7,
@@ -230193,29 +230061,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Durant quelle période du développement cérébral a principalement lieu la migration neuronale ?",
-   "c": 15,
-   "options": [
-    {
-     "t": "Semaines 8 à 15",
-     "correct": true,
-     "j": "La migration neuronale se déroule majoritairement vers les semaines 8 à 15 de gestation."
-    },
-    {
-     "t": "Semaines 1 à 7",
-     "j": "Cette période correspond surtout à la formation du tube neural et à la prolifération initiale."
-    },
-    {
-     "t": "Semaines 27 à 40",
-     "j": "Cette période tardive correspond davantage à la synaptogenèse et à la myélinisation."
-    },
-    {
-     "t": "Semaines 16 à 26",
-     "j": "La migration est déjà largement achevée ; débute l'organisation/synaptogenèse."
-    }
-   ]
-  },
+  {"q":"Durant quelle période du développement cérébral a principalement lieu la migration neuronale ?","c":15,"options":[{"t":"Semaines 12 à 24","correct":true,"j":"Chapitre 15 p.12 : « La migration neuronale se produit principalement entre la 12e et la 24e semaine de gestation », et p.18 reprend cette fenêtre dans la frise du développement."},{"t":"Semaines 1 à 7","j":"Chapitre 15 p.18 : avant la 5e semaine c'est la formation du tube neural ; la neurogenèse puis la migration viennent ensuite."},{"t":"Semaines 27 à 40","j":"Chapitre 15 p.18 : « Fin de la gestation-Enfance : différenciation et synaptogenèse (dès la 20e semaine) ». La migration est alors terminée."},{"t":"Semaines 5 à 11","j":"Chapitre 15 p.18 : la 5e-20e semaine est celle de la NEUROGENÈSE, la formation des neurones à partir des cellules souches — la migration ne commence qu'à la 12e."}]},
   {
    "q": "Que signifie la neuroplasticité maladaptative dans le contexte de la neurorééducation ?",
    "c": 15,
@@ -232080,29 +231926,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans la prise en charge d'un AVC ischémique, que signifie le principe « time is brain » ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "La revascularisation n'est utile que dans une fenêtre de temps limitée",
-     "correct": true,
-     "j": "Chaque minute compte : la fibrinolyse n'est bénéfique que dans les premières heures (≈ < 4,5 h), d'où l'activation immédiate de la filière d'urgence."
-    },
-    {
-     "t": "La fibrinolyse reste efficace quel que soit le délai écoulé",
-     "j": "Faux : au-delà de la fenêtre thérapeutique, le bénéfice disparaît et le risque hémorragique l'emporte."
-    },
-    {
-     "t": "L'aire de pénombre est définitivement perdue dès l'occlusion",
-     "j": "Faux : la pénombre est encore sauvable un temps limité, ce qui justifie justement l'urgence de revasculariser."
-    },
-    {
-     "t": "La prise en charge tensionnelle prime sur la reperfusion",
-     "j": "Faux : c'est la reperfusion précoce qui est l'enjeu central, la gestion tensionnelle n'étant qu'une mesure associée."
-    }
-   ]
-  },
+  {"q":"Dans la prise en charge d'un AVC ischémique, que signifie le principe « time is brain » ?","c":2,"options":[{"t":"La revascularisation n'est utile que dans une fenêtre de temps limitée","correct":true,"j":"Chapitre 2 p.33 : « utile après un certain temps : < 6 heures pour la fibrinolyse intraveineuse, < 12 heures pour la revascularisation ». Au-delà, le risque hémorragique l'emporte sur le bénéfice."},{"t":"La fibrinolyse reste efficace quel que soit le délai écoulé","j":"Faux : au-delà de la fenêtre thérapeutique, le bénéfice disparaît et le risque hémorragique l'emporte."},{"t":"L'aire de pénombre est définitivement perdue dès l'occlusion","j":"Faux : la pénombre est encore sauvable un temps limité, ce qui justifie justement l'urgence de revasculariser."},{"t":"La prise en charge tensionnelle prime sur la reperfusion","j":"Faux : c'est la reperfusion précoce qui est l'enjeu central, la gestion tensionnelle n'étant qu'une mesure associée."}]},
   {
    "q": "En prévention secondaire d'un AVC ischémique, quel traitement correspond à chaque mécanisme ?",
    "c": 2,
@@ -234541,29 +234365,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Un patient qui présente une marche en steppage nous fera penser à :",
-   "c": 8,
-   "options": [
-    {
-     "t": "Une pathologie extrapyramidale",
-     "j": "Faux : l'atteinte extrapyramidale donne une marche à petits pas, freinée et sans ballant des bras, et non un relèvement exagéré du pied."
-    },
-    {
-     "t": "Une pathologie du premier motoneurone",
-     "j": "Faux : la lésion pyramidale donne une marche spastique en fauchant, avec hypertonie, clonus et Babinski positif."
-    },
-    {
-     "t": "Une pathologie de la coordination",
-     "j": "Faux : l'atteinte cérébelleuse donne une marche ébrieuse à base élargie, peu modifiée par la fermeture des yeux."
-    },
-    {
-     "t": "Une pathologie des cordons postérieurs",
-     "correct": true,
-     "j": "Vrai : le cours décrit, en cas d'atteinte des cordons postérieurs, une marche où le sujet lève la jambe plus haut que la normale et retombe brutalement sur le talon (démarche talonnante)."
-    }
-   ]
-  },
+  {"q":"Un patient qui présente une marche talonnante nous fera penser à :","c":8,"options":[{"t":"Une pathologie extrapyramidale","j":"Faux : l'atteinte extrapyramidale donne une marche à petits pas, freinée et sans ballant des bras, et non un relèvement exagéré du pied."},{"t":"Une pathologie du premier motoneurone","j":"Faux : la lésion pyramidale donne une marche spastique en fauchant, avec hypertonie, clonus et Babinski positif."},{"t":"Une pathologie de la coordination","j":"Faux : l'atteinte cérébelleuse donne une marche ébrieuse à base élargie, peu modifiée par la fermeture des yeux."},{"t":"Une pathologie des cordons postérieurs","correct":true,"j":"Chapitre 8 p.54 : « en marchant, le sujet lève la jambe plus haut que la normale et tombe soudainement sur le talon (= démarche talonnante) ; ceci s'observe principalement en cas d'atteinte des cordons postérieurs et du thalamus »."}]},
   {
    "q": "Une personne qui présente à l'examen une marche en étoile nous fera penser en première intention à une lésion :",
    "c": 8,
@@ -238439,29 +238241,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'arc douloureux du conflit sous-acromial se situe typiquement, lors de l'abduction, entre :",
-   "c": 12,
-   "options": [
-    {
-     "t": "60° et 120°",
-     "correct": true,
-     "j": "C'est dans cette zone que la coiffe vient au contact de la voûte acromio-coracoïdienne, reproduisant la douleur."
-    },
-    {
-     "t": "0° et 30°",
-     "j": "À ce stade précoce de l'abduction, la coiffe n'est pas encore au contact de la voûte : pas de conflit."
-    },
-    {
-     "t": "30° et 60°",
-     "j": "Le conflit débute plus haut : la douleur n'apparaît qu'à partir de 60° environ."
-    },
-    {
-     "t": "150° et 180°",
-     "j": "En fin d'élévation, la douleur oriente plutôt vers l'articulation acromio-claviculaire ; celle du conflit s'atténue au-delà de 120°."
-    }
-   ]
-  },
+  {"q":"L'arc douloureux du conflit sous-acromial se situe typiquement, lors de l'abduction, entre :","c":12,"options":[{"t":"60° et 120°","correct":true,"j":"T12 p.29 : le conflit sous-acromial se traduit par une douleur antéro-latérale « augmentant avec l'élévation de l'épaule lors de l'impact avec la voûte acromio-coracoïdienne », décrite comme « arc douloureux ». Le cours ne chiffre pas la plage ; la description classique de cet arc va de 60° à 120° d'abduction."},{"t":"0° et 30°","j":"À ce stade précoce de l'abduction, la coiffe n'est pas encore au contact de la voûte : pas de conflit."},{"t":"30° et 60°","j":"Le conflit débute plus haut : la douleur n'apparaît qu'à partir de 60° environ."},{"t":"150° et 180°","j":"En fin d'élévation, la douleur oriente plutôt vers l'articulation acromio-claviculaire ; celle du conflit s'atténue au-delà de 120°."}]},
   {
    "q": "Dans la classification du syndrome sous-acromial, le stade III correspond à :",
    "c": 12,
@@ -240909,29 +240689,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle est l'articulation la plus fréquemment atteinte dans une arthrite septique aiguë ?",
-   "c": 9,
-   "options": [
-    {
-     "t": "Le genou et les autres grosses articulations",
-     "correct": true,
-     "j": "Le genou est la localisation la plus fréquente de l'arthrite septique de l'adulte, et le cours range l'arthrite septique parmi les causes de genou douloureux à éliminer en urgence."
-    },
-    {
-     "t": "Les petites articulations périphériques en cas de morsure ou de choc",
-     "j": "Ces localisations ne se voient qu'en cas d'inoculation directe, situation beaucoup moins fréquente que l'atteinte hématogène des grosses articulations."
-    },
-    {
-     "t": "Les articulations axiales",
-     "j": "Les articulations axiales, sacro-iliaques et disques intervertébraux, sont rarement en cause dans une arthrite septique aiguë périphérique."
-    },
-    {
-     "t": "Les deux premières propositions",
-     "j": "Deux localisations différentes ne peuvent pas être simultanément la plus fréquente : la question porte sur la fréquence, à laquelle seule la première proposition répond."
-    }
-   ]
-  },
+  {"q":"Quelle est l'articulation la plus fréquemment atteinte dans une arthrite septique aiguë ?","c":9,"options":[{"t":"Le genou et les autres grosses articulations","correct":true,"j":"Le genou est la localisation classique de l'arthrite septique de l'adulte. Le cours ne donne pas de fréquences : T16 range l'arthrite septique parmi les causes de genou douloureux à éliminer en urgence."},{"t":"Les petites articulations périphériques en cas de morsure ou de choc","j":"Ces localisations ne se voient qu'en cas d'inoculation directe, situation beaucoup moins fréquente que l'atteinte hématogène des grosses articulations."},{"t":"Les articulations axiales","j":"Les articulations axiales, sacro-iliaques et disques intervertébraux, sont rarement en cause dans une arthrite septique aiguë périphérique."},{"t":"Les deux premières propositions","j":"Deux localisations différentes ne peuvent pas être simultanément la plus fréquente : la question porte sur la fréquence, à laquelle seule la première proposition répond."}]},
   {
    "q": "Laquelle des propositions suivantes est FAUSSE concernant la vitamine D ?",
    "c": 8,
@@ -241047,29 +240805,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel est l'agent étiologique le plus fréquent de l'arthrite septique chez le sujet âgé ?",
-   "c": 9,
-   "options": [
-    {
-     "t": "Staphylococcus pyogenes",
-     "j": "Cette dénomination n'existe pas : le streptocoque pyogène du groupe A peut donner des arthrites, mais beaucoup plus rarement que le staphylocoque doré."
-    },
-    {
-     "t": "Neisseria gonorrhoeae",
-     "j": "L'arthrite gonococcique concerne l'adulte jeune sexuellement actif et non le sujet âgé."
-    },
-    {
-     "t": "Haemophilus influenzae",
-     "j": "Haemophilus influenzae est un germe d'arthrite du jeune enfant non vacciné, devenu exceptionnel."
-    },
-    {
-     "t": "Staphylococcus aureus",
-     "correct": true,
-     "j": "Staphylococcus aureus est le germe le plus souvent responsable de l'arthrite septique de l'adulte et du sujet âgé, par voie hématogène ou par inoculation directe, et explique le caractère d'urgence de toute monoarthrite aiguë."
-    }
-   ]
-  },
+  {"q":"Quel est l'agent étiologique le plus fréquent de l'arthrite septique chez le sujet âgé ?","c":9,"options":[{"t":"Staphylococcus pyogenes","j":"Cette dénomination n'existe pas : le streptocoque pyogène du groupe A peut donner des arthrites, mais beaucoup plus rarement que le staphylocoque doré."},{"t":"Neisseria gonorrhoeae","j":"L'arthrite gonococcique concerne l'adulte jeune sexuellement actif et non le sujet âgé."},{"t":"Haemophilus influenzae","j":"Haemophilus influenzae est un germe d'arthrite du jeune enfant non vacciné, devenu exceptionnel."},{"t":"Staphylococcus aureus","correct":true,"j":"Staphylococcus aureus est l'agent habituel de l'arthrite septique de l'adulte et du sujet âgé. Le cours ne nomme aucun germe : T9 p.4 et p.7-9 prescrivent une culture, précisément pour l'identifier avant de traiter."}]},
   {
    "q": "Dans la chondrocalcinose, quel est le cristal le plus souvent impliqué ?",
    "c": 9,
@@ -253621,25 +253357,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Un patient suit un programme de physiothérapie LSVT BIG. Quel est l'objectif principal de cette méthode ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "A) Augmenter l'amplitude des mouvements",
-     "correct": true,
-     "j": "Le LSVT BIG est une rééducation pour la maladie de Parkinson centrée sur l'amplification du mouvement (grands mouvements de grande amplitude) pour recalibrer la perception de l'effort moteur."
-    },
-    {
-     "t": "B) Améliorer la stabilité posturale par un travail spécifique d'équilibre",
-     "j": "Le LSVT BIG n'est pas un protocole d'équilibre ciblé : il agit sur l'amplitude du geste, l'amélioration de l'équilibre n'étant qu'un bénéfice secondaire de la recalibration sensorimotrice."
-    },
-    {
-     "t": "C) Réduire la vitesse d'exécution pour sécuriser le mouvement",
-     "j": "Le LSVT BIG ne cherche pas à ralentir le mouvement mais à l'amplifier ; ralentir entretiendrait au contraire l'hypokinésie parkinsonienne."
-    }
-   ]
-  },
+  {"q":"Un patient suit un programme de physiothérapie LSVT BIG. Quel est l'objectif principal de cette méthode ?","c":7,"options":[{"t":"A) Augmenter l'amplitude des mouvements","correct":true,"j":"Le LSVT BIG est une rééducation du Parkinson centrée sur l'amplification du mouvement, pour recalibrer la perception de l'effort moteur. La diapositive « Traitement Physio » du cours (THEME 08 p.12) ne comporte pas de texte exploitable : la méthode n'y est pas détaillée."},{"t":"B) Améliorer la stabilité posturale par un travail spécifique d'équilibre","j":"Le LSVT BIG n'est pas un protocole d'équilibre ciblé : il agit sur l'amplitude du geste, l'amélioration de l'équilibre n'étant qu'un bénéfice secondaire de la recalibration sensorimotrice."},{"t":"C) Réduire la vitesse d'exécution pour sécuriser le mouvement","j":"Le LSVT BIG ne cherche pas à ralentir le mouvement mais à l'amplifier ; ralentir entretiendrait au contraire l'hypokinésie parkinsonienne."}]},
   {
    "q": "Un homme de 30 ans consulte pour une faiblesse musculaire progressive débutant aux membres inférieurs et remontant vers le tronc. Les symptômes sont apparus une semaine après une infection gastro-intestinale. À l'examen neurologique, on observe :",
    "c": 4,
@@ -253659,25 +253377,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Une femme de 55 ans atteinte d'arthrite rhumatoïde évolutive consulte en physiothérapie pour des douleurs cervicales et une raideur matinale prolongée. L'examen révèle une suspicion d'instabilité atlanto-axoïdienne (C1-C2) liée à la destruction inflammatoire des structures ligamentaires. Quelle est la conduite la plus appropriée pour le physiothérapeute ?",
-   "c": 13,
-   "options": [
-    {
-     "t": "A) Réaliser des manipulations cervicales à haute vélocité pour améliorer la mobilité",
-     "j": "Les manipulations à haute vélocité sont formellement contre-indiquées en cas d'instabilité C1-C2 (risque de compression médullaire/atteinte bulbaire vitale)."
-    },
-    {
-     "t": "B) Être prudent et s'abstenir de réaliser un traitement cervical",
-     "correct": true,
-     "j": "L'instabilité atlanto-axoïdienne de la polyarthrite rhumatoïde est un drapeau rouge : il faut s'abstenir de tout traitement cervical et référer le patient en raison du risque neurologique majeur."
-    },
-    {
-     "t": "C) Effectuer des mobilisations forcées en fin d'amplitude",
-     "j": "Les mobilisations forcées en fin d'amplitude sont dangereuses sur une charnière C1-C2 instable et aggraveraient le risque de luxation/lésion médullaire."
-    }
-   ]
-  },
+  {"q":"Une femme de 55 ans atteinte d'arthrite rhumatoïde évolutive consulte en physiothérapie pour des douleurs cervicales et une raideur matinale prolongée. L'examen révèle une suspicion d'instabilité atlanto-axoïdienne (C1-C2) liée à la destruction inflammatoire des structures ligamentaires. Quelle est la conduite la plus appropriée pour le physiothérapeute ?","c":13,"options":[{"t":"A) Réaliser des manipulations cervicales à haute vélocité pour améliorer la mobilité","j":"Les manipulations à haute vélocité sont formellement contre-indiquées en cas d'instabilité C1-C2 (risque de compression médullaire/atteinte bulbaire vitale)."},{"t":"B) Être prudent et s'abstenir de réaliser un traitement cervical","correct":true,"j":"Une polyarthrite rhumatoïde évolutive avec cervicalgie impose la prudence : le risque d'instabilité atlanto-axoïdienne contre-indique le traitement cervical. Le cours THEME 11- Rhumatologie p.3-5 décrit l'atteinte articulaire de la PR sans aborder spécifiquement le rachis cervical."},{"t":"C) Effectuer des mobilisations forcées en fin d'amplitude","j":"Les mobilisations forcées en fin d'amplitude sont dangereuses sur une charnière C1-C2 instable et aggraveraient le risque de luxation/lésion médullaire."}]},
   {
    "q": "Une femme de 28 ans présente une lésion ligamentaire récente. Quelle modalité de traitement est la plus appropriée à ce stade ?\n• légère limitation de l'amplitude articulaire\n• début de cicatrisation du tissu musculaire\n• absence d'œdème important.\nQuelle est l'intervention la plus appropriée à ce stade ?",
    "c": 2,
@@ -253754,25 +253454,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Les corps de Lewy sont principalement constitués de:",
-   "c": 7,
-   "options": [
-    {
-     "t": "A) Protéine tau",
-     "j": "La protéine tau forme les dégénérescences neurofibrillaires (tauopathies, Alzheimer), pas les corps de Lewy."
-    },
-    {
-     "t": "B) Bêta-amyloïde",
-     "j": "La bêta-amyloïde constitue les plaques séniles extracellulaires de la maladie d'Alzheimer, pas les corps de Lewy."
-    },
-    {
-     "t": "C) Alpha-synucléine",
-     "correct": true,
-     "j": "Les corps de Lewy sont des inclusions intracytoplasmiques composées principalement d'alpha-synucléine agrégée (maladie de Parkinson, démence à corps de Lewy)."
-    }
-   ]
-  },
+  {"q":"Les corps de Lewy sont principalement constitués de:","c":7,"options":[{"t":"A) Protéine tau","j":"La protéine tau forme les dégénérescences neurofibrillaires (tauopathies, Alzheimer), pas les corps de Lewy."},{"t":"B) Bêta-amyloïde","j":"La bêta-amyloïde constitue les plaques séniles extracellulaires de la maladie d'Alzheimer, pas les corps de Lewy."},{"t":"C) Alpha-synucléine","correct":true,"j":"Les corps de Lewy sont des inclusions intracytoplasmiques faites d'alpha-synucléine agrégée. À noter : le cours THEME 08 sur les maladies neurodégénératives traite le Parkinson cliniquement et ne nomme ni les corps de Lewy ni l'alpha-synucléine."}]},
   {
    "q": "Les plaques extracellulaires dans la maladie d'Alzheimer sont formées de :",
    "c": 7,
@@ -253811,25 +253493,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "En cas d'ostéoporose, il faut principalement faire:",
-   "c": 13,
-   "options": [
-    {
-     "t": "A) Le travail de l'équilibre",
-     "j": "Le travail de l'équilibre est utile pour prévenir les chutes mais n'est pas l'objectif principal du renforcement osseux dans l'ostéoporose."
-    },
-    {
-     "t": "B) La charge axiale progressive",
-     "correct": true,
-     "j": "La charge axiale progressive (exercices en mise en charge et renforcement) stimule l'ostéogenèse selon la loi de Wolff et constitue la base de la prise en charge de l'ostéoporose."
-    },
-    {
-     "t": "C) La flexion répétée du tronc en cas de fractures vertébrales",
-     "j": "La flexion répétée du tronc augmente les contraintes en compression antérieure des vertèbres et le risque de fracture-tassement; elle est contre-indiquée en cas de fractures vertébrales."
-    }
-   ]
-  },
+  {"q":"En cas d'ostéoporose, il faut principalement faire:","c":13,"options":[{"t":"A) Le travail de l'équilibre","j":"Le travail de l'équilibre est utile pour prévenir les chutes mais n'est pas l'objectif principal du renforcement osseux dans l'ostéoporose."},{"t":"B) La charge axiale progressive","correct":true,"j":"THEME 11- Rhumatologie p.28, traitement de l'ostéoporose : « mesures générales — alimentation, pas de tabac, pas d'alcool, l'exercice quotidien, prévenir les chutes ; suppléments — calcium, vitamine D ; médicaments — antirésorbants ». La mise en charge progressive est la traduction pratique de cet exercice quotidien."},{"t":"C) La flexion répétée du tronc en cas de fractures vertébrales","j":"La flexion répétée du tronc augmente les contraintes en compression antérieure des vertèbres et le risque de fracture-tassement; elle est contre-indiquée en cas de fractures vertébrales."}]},
   {
    "q": "Le signe clinique typique dans la CMT est :",
    "c": 4,
@@ -253909,25 +253573,7 @@ const QUESTIONS = {
    ]
   },
   {"q":"Le syndrome post-réanimation (post-ICU) ou d'immobilisation inclut :","c":17,"options":[{"t":"A) Séquelles physiques, cognitives et psychologiques","correct":true,"j":"Le syndrome post-réanimation (PICS) associe des séquelles physiques (faiblesse, déconditionnement), cognitives (troubles mnésiques, exécutifs) et psychologiques (anxiété, dépression, état de stress post-traumatique)."},{"t":"B) Neuromyopathie de réanimation et déconditionnement, sans atteinte cognitive ni psychologique","j":"La neuromyopathie et le déconditionnement font partie du tableau, mais le PICS comporte aussi un volet cognitif et psychologique; le restreindre à la sphère physique est incomplet."},{"t":"C) Troubles cognitifs et psychologiques sans retentissement musculaire durable","j":"Les troubles cognitifs et psychologiques existent, mais le PICS comprend une composante physique majeure (faiblesse acquise, amyotrophie) durable; l'écarter est inexact."}]},
-  {
-   "q": "Dans la compression du nerf cubital au coude, le traitement conservateur inclut :",
-   "c": 4,
-   "options": [
-    {
-     "t": "A) Flexion prolongée du coude",
-     "j": "La flexion du coude augmente la pression et l'étirement du nerf ulnaire dans la gouttière épitrochléo-olécranienne ; elle aggrave la compression et doit être évitée."
-    },
-    {
-     "t": "B) Attelle nocturne en légère extension",
-     "correct": true,
-     "j": "Le traitement conservateur du syndrome du tunnel cubital repose sur l'évitement de la flexion et une attelle nocturne maintenant le coude en légère extension pour décomprimer le nerf ulnaire."
-    },
-    {
-     "t": "C) Renforcement répété en flexion-supination contre résistance",
-     "j": "Le travail répété en flexion sollicite la gouttière épitrochléo-olécranienne et majore la traction sur le nerf ulnaire; il entretient l'irritation au lieu de la soulager."
-    }
-   ]
-  },
+  {"q":"Dans la compression du nerf cubital au coude, le traitement conservateur inclut :","c":4,"options":[{"t":"A) Flexion prolongée du coude","j":"La flexion du coude augmente la pression et l'étirement du nerf ulnaire dans la gouttière épitrochléo-olécranienne ; elle aggrave la compression et doit être évitée."},{"t":"B) Attelle nocturne en légère extension","correct":true,"j":"L'évitement de la flexion prolongée du coude et une attelle nocturne en légère extension constituent le traitement conservateur du tunnel cubital. Le cours Theme 06 p.39 se limite à opposer « Conservateur » et « Chirurgical » sans détailler le premier."},{"t":"C) Renforcement répété en flexion-supination contre résistance","j":"Le travail répété en flexion sollicite la gouttière épitrochléo-olécranienne et majore la traction sur le nerf ulnaire; il entretient l'irritation au lieu de la soulager."}]},
   {"q":"L'alignement postural normal en position anatomique comprend :","c":17,"options":[{"t":"A) Occiput – D4/D5 – L4","j":"D4/D5 situe la référence trop haut sur le rachis dorsal et L4 dévie le repère en avant : la ligne de gravité ne passe pas par ces niveaux."},{"t":"B) Occiput – D7/D8 – S2","correct":true,"j":"La ligne de gravité (fil à plomb postural) passe par l'occiput, la région dorsale moyenne (D7/D8) et le sacrum (S2), repères classiques de l'alignement postural de profil."},{"t":"C) Occiput – D10/D11 – S4","j":"D10/D11 place le repère dorsal trop bas et S4 trop caudal sur le sacrum : ce trio ne correspond pas à l'axe gravitaire postural de référence."}]},
   {"q":"La lordose cervicale normale correspond approximativement à :","c":[11,17],"options":[{"t":"A) 1 TD à hauteur de C7","j":"La lordose cervicale physiologique n'est pas limitée à un seul travers de doigt en C7 ; cette valeur sous-estime largement la courbure cervicale normale."},{"t":"B) 3 TD à hauteur de C4","correct":true,"j":"La lordose cervicale physiologique correspond approximativement à environ 3 travers de doigt mesurés à hauteur de C4, sommet de la courbure cervicale."},{"t":"C) 5 TD à hauteur de T1","j":"5 TD est excessif et T1 est à la jonction cervico-thoracique, hors du sommet de la lordose cervicale ; cette mesure ne correspond pas à la lordose cervicale normale."}]},
   {"q":"Lors du Sitting Knee Extension Test, le test est arrêté si :","c":17,"options":[{"t":"A) Le bassin bascule en antéversion et la lordose lombaire s'accentue","j":"L'antéversion du bassin avec accentuation de la lordose n'est pas le critère retenu : c'est au contraire la perte de la lordose (rétroversion compensatoire) qui signe la limite et impose l'arrêt."},{"t":"B) La lordose lombaire est perdue ou douleur apparaît","correct":true,"j":"Le test est arrêté dès que le patient perd la lordose lombaire (mécanisme compensatoire indiquant une tension neuroméningée/ischio-jambiers) ou qu'une douleur apparaît, signant la limite à évaluer."},{"t":"C) Le pied se met en flexion plantaire spontanée","j":"La position du pied n'est pas un critère d'arrêt de ce test : on surveille la compensation lombaire et la reproduction des symptômes, pas la posture distale du pied."}]},
@@ -254143,7 +253789,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {"q":"En utilisation standard des béquilles :","c":9,"options":[{"t":"a. La poignée doit être réglée pour laisser environ 30° de flexion du coude lors de la prise en main.","correct":true,"j":"Vrai : le réglage correct implique une flexion du coude d'environ 15 à 30° (souvent cité à 30°) lorsque la main repose sur la poignée, permettant une poussée efficace."},{"t":"b. La poignée doit être réglée pour laisser le coude en extension complète lors de la prise en main.","j":"Faux : un coude en extension complète empêche l'amortissement et la poussée efficace ; il faut conserver environ 15 à 30° de flexion."},{"t":"c. La hauteur de l'appui axillaire doit être réglée pour reposer directement dans le creux de l'aisselle.","j":"Faux : l'appui axillaire doit rester 2 à 3 cm sous le creux de l'aisselle pour éviter la compression du paquet vasculo-nerveux (paralysie radiale axillaire)."}]},
+  {"q":"En utilisation standard des béquilles :","c":9,"options":[{"t":"a. La poignée doit être réglée pour laisser environ 30° de flexion du coude lors de la prise en main.","correct":true,"j":"THEME 09-MMII Partie 2 p.43 est le seul endroit du dossier qui donne un réglage angulaire pour une aide à la marche : « marche avec déambulateur — coudes à 30° ». C'est ce même réglage que l'on applique à la poignée des béquilles."},{"t":"b. La poignée doit être réglée pour laisser le coude en extension complète lors de la prise en main.","j":"Faux : un coude en extension complète empêche l'amortissement et la poussée efficace ; il faut conserver environ 15 à 30° de flexion."},{"t":"c. La hauteur de l'appui axillaire doit être réglée pour reposer directement dans le creux de l'aisselle.","j":"Faux : l'appui axillaire doit rester 2 à 3 cm sous le creux de l'aisselle pour éviter la compression du paquet vasculo-nerveux (paralysie radiale axillaire)."}]},
   {
    "q": "Quel test est considéré comme la référence clinique principale pour évaluer une instabilité antérieure du genou liée à une atteinte du LCA ?",
    "c": 16,
@@ -254374,25 +254020,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel mouvement est le plus susceptible de réduire l'espace sous-acromial et favoriser un conflit mécanique ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "a. Abduction active en rotation externe au-delà de 90°.",
-     "j": "La rotation externe dégage la grosse tubérosité de dessous l'acromion ; même en abduction elle tend à ouvrir l'espace sous-acromial plutôt qu'à le fermer."
-    },
-    {
-     "t": "b. Flexion/abduction associée à rotation interne de l'épaule.",
-     "correct": true,
-     "j": "L'élévation (flexion/abduction) en rotation interne amène le trochiter sous l'acromion et reproduit le conflit (test de Hawkins), réduisant l'espace sous-acromial."
-    },
-    {
-     "t": "c. Rotation externe coude au corps en résistance.",
-     "j": "Ce mouvement teste surtout l'infra-épineux en course interne, sans amener le trochiter sous l'acromion ; il ne ferme pas l'espace sous-acromial."
-    }
-   ]
-  },
+  {"q":"Quel mouvement est le plus susceptible de réduire l'espace sous-acromial et favoriser un conflit mécanique ?","c":14,"options":[{"t":"a. Abduction active en rotation externe au-delà de 90°.","j":"La rotation externe dégage la grosse tubérosité de dessous l'acromion ; même en abduction elle tend à ouvrir l'espace sous-acromial plutôt qu'à le fermer."},{"t":"b. Flexion/abduction associée à rotation interne de l'épaule.","correct":true,"j":"THEME 11-MMSS p.30 et THEME 08 Anexo p.6 : le test du conflit sous-acromial est le TEST DE NEER, réalisé épaule en rotation interne puis élévation passive. C'est bien l'élévation en rotation interne qui amène le trochiter sous l'acromion et réduit l'espace sous-acromial."},{"t":"c. Rotation externe coude au corps en résistance.","j":"Ce mouvement teste surtout l'infra-épineux en course interne, sans amener le trochiter sous l'acromion ; il ne ferme pas l'espace sous-acromial."}]},
   {
    "q": "Pourquoi une posture avec épaules projetées vers l'avant favorise-t-elle l'impingement sous-acromial ?",
    "c": 14,
