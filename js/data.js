@@ -9892,7 +9892,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la définition de l'OMS, qu'est-ce qu'un système de santé ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "L'ensemble des organisations, institutions et ressources visant à améliorer la santé",
@@ -9915,7 +9915,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment distingue-t-on les soins formels des soins informels ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Les soins formels sont assurés par des professionnels, les informels par la famille ou des bénévoles",
@@ -9938,7 +9938,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi les soins informels soulèvent-ils des questions d'équité ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Parce que la charge pèse inégalement selon le sexe et varie selon l'éducation et le statut",
@@ -9961,7 +9961,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles propriétés font partie des caractéristiques essentielles d'un système de santé ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Il doit être universel, équitable et participatif",
@@ -9984,7 +9984,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que désigne la couverture sanitaire universelle ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "L'accès de tous aux services de santé sans difficulté financière",
@@ -10007,7 +10007,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel rôle jouent les soins primaires dans le système de santé ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Ils constituent le point d'accès aux soins intégrés et le cœur du système",
@@ -10030,7 +10030,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle Bismarck (modèle d'assurance sociale), sur quoi repose principalement le financement du système de santé ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Des cotisations obligatoires versées par les employeurs et les travailleurs à des fonds",
@@ -10053,7 +10053,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles caractéristiques définissent le modèle Beveridge (service national de santé) ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Un financement par l'impôt, un accès universel et un contrôle gouvernemental du système",
@@ -10076,7 +10076,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle de libre marché, comment la santé est-elle considérée ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Un bien marchand dépendant d'assurances privées et source d'importantes inégalités",
@@ -10099,7 +10099,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se définit le copaiement dans le financement des services de santé ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "Un financement complémentaire où l'utilisateur paie une partie du coût du service",
@@ -10122,7 +10122,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, une assistance primaire correctement organisée devrait résoudre à elle seule quelle proportion des problèmes de soins quotidiens ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "70 à 80 % des problèmes de soins quotidiens",
@@ -10145,7 +10145,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quels critères repose la classification des hôpitaux présentée dans le cours ?",
-   "c": 22,
+   "c": 23,
    "options": [
     {
      "t": "La fonction, le séjour, le niveau de soins, la dépendance patrimoniale et la démarcation territoriale",
@@ -10168,7 +10168,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les formes de gestion publique de la santé, comment se distinguent la gestion directe et la gestion indirecte ?",
-   "c": 23,
+   "c": 24,
    "options": [
     {
      "t": "La gestion directe est assurée par l'administration publique, l'indirecte par le privé via des accords",
@@ -10191,7 +10191,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est une caractéristique d'une fondation dans la gestion de la santé ?",
-   "c": 23,
+   "c": 24,
    "options": [
     {
      "t": "Elle a la personnalité juridique, est sans but lucratif et consacre au moins 70 % de ses revenus à ses objectifs",
@@ -10214,7 +10214,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un kinésithérapeute exerce seul, en son nom propre, sous le statut d'entrepreneur individuel (autonome). Concernant sa responsabilité et son imposition, quelle affirmation est correcte ?",
-   "c": 23,
+   "c": 24,
    "options": [
     {
      "t": "Sa responsabilité est illimitée et ses revenus sont imposés au titre de l'IRPF.",
@@ -10237,7 +10237,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la société à responsabilité limitée (SARL) comme forme juridique d'un centre de physiothérapie, quelle proposition est exacte ?",
-   "c": 23,
+   "c": 24,
    "options": [
     {
      "t": "La responsabilité est limitée au capital apporté et la société est imposée à l'IS.",
@@ -10260,7 +10260,7 @@ const QUESTIONS = {
   },
   {
    "q": "À propos de la communauté de biens comme forme d'association entre travailleurs indépendants, quelle affirmation correspond au cours ?",
-   "c": 23,
+   "c": 24,
    "options": [
     {
      "t": "Elle réunit au minimum 2 associés et engage une responsabilité illimitée, solidaire et subsidiaire.",
@@ -10283,7 +10283,7 @@ const QUESTIONS = {
   },
   {
    "q": "En comparant le travailleur indépendant et le salarié, quelle affirmation est correcte concernant le risque entrepreneurial et la protection chômage ?",
-   "c": 23,
+   "c": 24,
    "options": [
     {
      "t": "L'indépendant assume l'intégralité du risque et sa protection chômage est restrictive.",
@@ -10306,7 +10306,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la définition de l'OMS retenue dans le cours, comment se définit la qualité des soins ?",
-   "c": 24,
+   "c": 25,
    "options": [
     {
      "t": "Le degré auquel les services de santé augmentent la probabilité d'obtenir les résultats souhaités en matière de santé.",
@@ -10329,7 +10329,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, un service de santé de qualité doit réunir en premier lieu trois caractéristiques. Lesquelles ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "Efficace, sûr et centré sur les personnes.",
@@ -10352,7 +10352,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les autres principes de qualité des soins retenus dans le cours, on trouve notamment le fait d'être :",
-   "c": 24,
+   "c": 25,
    "options": [
     {
      "t": "Opportun, équitable, intégré et efficient.",
@@ -10375,7 +10375,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours distingue l'efficacité et l'efficience parmi les principes de qualité. Quelle proposition rend correctement cette distinction ?",
-   "c": 24,
+   "c": 25,
    "options": [
     {
      "t": "L'efficacité vise le meilleur résultat dans les conditions les plus favorables, l'efficience la santé obtenue dans les conditions habituelles de pratique.",
@@ -10398,7 +10398,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'accréditation d'un établissement de soins, quelle proposition est exacte ?",
-   "c": 24,
+   "c": 25,
    "options": [
     {
      "t": "Elle correspond à une auto-évaluation que l'établissement mène selon ses propres critères internes.",
@@ -10421,7 +10421,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se définit le mieux un plan stratégique ?",
-   "c": 25,
+   "c": 26,
    "options": [
     {
      "t": "Un document opérationnel détaillant les tâches quotidiennes et les horaires de chaque service.",
@@ -10444,7 +10444,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les erreurs de planification stratégique, laquelle est présentée comme la plus fréquente ?",
-   "c": 25,
+   "c": 26,
    "options": [
     {
      "t": "Consacrer tous ses efforts à la planification sans jamais mettre le plan à exécution.",
@@ -10467,7 +10467,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un plan stratégique, à quoi correspond la mission de l'organisation ?",
-   "c": 25,
+   "c": 26,
    "options": [
     {
      "t": "À l'image souhaitée de l'organisation dans le futur, une fois sa transformation accomplie.",
@@ -10490,7 +10490,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le critère SMART, que doivent être les objectifs d'un plan stratégique ?",
-   "c": 25,
+   "c": 26,
    "options": [
     {
      "t": "Spécifiques, mesurables, atteignables, pertinents et limités dans le temps.",
@@ -10513,7 +10513,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que diagnostique une analyse SWOT/DAFO ?",
-   "c": 25,
+   "c": 26,
    "options": [
     {
      "t": "Les forces, les faiblesses, les opportunités et les menaces de l'organisation.",
@@ -10536,7 +10536,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une analyse SWOT/DAFO, à quoi correspond l'analyse interne ?",
-   "c": 25,
+   "c": 26,
    "options": [
     {
      "t": "À l'identification des menaces et des opportunités de l'organisation.",
@@ -10559,7 +10559,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une analyse SWOT/DAFO, comment se définit une menace ?",
-   "c": 26,
+   "c": 27,
    "options": [
     {
      "t": "Un facteur environnemental ayant une influence négative sur l'organisation.",
@@ -10582,7 +10582,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la matrice CAME, à quelle action correspond le traitement des faiblesses issues du SWOT ?",
-   "c": 26,
+   "c": 27,
    "options": [
     {
      "t": "Corriger",
@@ -10605,7 +10605,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours distingue-t-il le rôle de la matrice SWOT de celui de la matrice CAME ?",
-   "c": 26,
+   "c": 27,
    "options": [
     {
      "t": "La SWOT indique où l'on se situe, tandis que la CAME indique les stratégies à adopter.",
@@ -10628,7 +10628,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que vise principalement l'étude de marché ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "Connaître la réponse des clients potentiels et de la concurrence face à un service.",
@@ -10651,7 +10651,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours définit-il respectivement la cible (target) et la niche de marché ?",
-   "c": 30,
+   "c": 22,
    "options": [
     {
      "t": "La cible est le client cible (la demande) ; la niche est un groupe de clients aux caractéristiques communes.",
@@ -10674,7 +10674,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle affirmation décrit correctement le choix de l'emplacement de l'entreprise ?",
-   "c": 30,
+   "c": 22,
    "options": [
     {
      "t": "C'est une décision stratégique pour laquelle il n'existe pas de formule mathématique donnant l'emplacement idéal.",
@@ -10697,7 +10697,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un emplacement à fort flux de circulation constitue-t-il en soi un avantage ?",
-   "c": 30,
+   "c": 22,
    "options": [
     {
      "t": "Non : cela dépend du fait que ce trafic consomme ou non le produit proposé.",
@@ -10720,7 +10720,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi consiste la segmentation de la clientèle ?",
-   "c": 27,
+   "c": 28,
    "options": [
     {
      "t": "Classer les clients en groupes homogènes selon leurs besoins et les problèmes à résoudre.",
@@ -10743,7 +10743,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ensemble de variables permet de définir la cible (le client cible) ?",
-   "c": 27,
+   "c": 28,
    "options": [
     {
      "t": "Démographiques, géographiques, psychographiques et comportementales.",
@@ -10766,7 +10766,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel est le principal défaut de l'étude de marché lors de l'estimation de la cible, et sa conséquence directe ?",
-   "c": 27,
+   "c": 28,
    "options": [
     {
      "t": "La sur-segmentation, qui fragmente la cible et fait grimper les coûts de communication.",
@@ -10789,7 +10789,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit le positionnement de marque que l'entreprise cherche à atteindre ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "La place occupée par la marque dans les points de vente par rapport à ceux des concurrents.",
@@ -10812,7 +10812,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles sont les quatre composantes fondamentales du marketing mix (les 4 P) ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "Produit, prix, promotion et distribution.",
@@ -10835,7 +10835,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels éléments s'ajoutent aux 4 P pour former les 7 P du marketing des services ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "La preuve physique, les partenaires et les processus.",
@@ -10858,7 +10858,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles sont les quatre variables des 4 C, plus orientées vers le consommateur ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "Client, coût, communication et concurrence.",
@@ -10881,7 +10881,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la succession correcte des cinq étapes du processus de décision d'achat ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "Reconnaissance du problème, recherche d'informations, évaluation des critères, décision, comportement post-achat.",
@@ -10904,7 +10904,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la personne qui détermine objectivement ce qu'il convient d'acheter, généralement un expert de confiance qui conseille l'utilisateur, correspond au rôle de :",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "Influenceur.",
@@ -10927,7 +10927,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui distingue principalement le client du consommateur ?",
-   "c": 28,
+   "c": 29,
    "options": [
     {
      "t": "Le volume d'achat : le client achète en plus grande quantité que le consommateur ponctuel.",
@@ -10950,7 +10950,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment définit-on les ressources humaines d'une organisation ?",
-   "c": 29,
+   "c": 30,
    "options": [
     {
      "t": "L'ensemble des personnes appartenant à l'organisation, quel que soit leur niveau hiérarchique.",
@@ -10973,7 +10973,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les deux niveaux des ressources humaines, quelle association est correcte ?",
-   "c": 29,
+   "c": 30,
    "options": [
     {
      "t": "La direction assure la fonction stratégique et la gestion assure la fonction opérationnelle.",
@@ -10996,7 +10996,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'objet de la planification stratégique des ressources humaines ?",
-   "c": 29,
+   "c": 30,
    "options": [
     {
      "t": "Aligner la gestion du personnel sur les objectifs de l'organisation et anticiper ses besoins en talents.",
@@ -11019,7 +11019,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les trois grands défis de la gestion des ressources humaines au XXIe siècle ?",
-   "c": 29,
+   "c": 30,
    "options": [
     {
      "t": "La gestion des talents, la gestion de la diversité et la conciliation vie professionnelle et privée.",
@@ -11042,7 +11042,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que traduit la notion de synergie au sein d'une équipe de travail ?",
-   "c": 29,
+   "c": 30,
    "options": [
     {
      "t": "Le résultat de l'équipe dépasse la somme des contributions individuelles de ses membres.",
@@ -11065,7 +11065,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie de Belbin, comment se répartissent les rôles au sein d'une équipe ?",
-   "c": 29,
+   "c": 30,
    "options": [
     {
      "t": "En trois catégories : les rôles cérébraux, les rôles d'action et les rôles de cohésion (sociaux).",
@@ -71690,7 +71690,7 @@ const QUESTIONS = {
  "dentPatho2Mid": [
   {
    "q": "A patient with a recent episode of deep vein thrombosis suddenly develops dyspnea. What is the most likely diagnosis?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "The patient is having an asthma attack",
@@ -71897,7 +71897,7 @@ const QUESTIONS = {
   },
   {
    "q": "Swelling of the ankles known as PITTING EDEMA is characteristic of:",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Right heart failure",
@@ -72196,7 +72196,7 @@ const QUESTIONS = {
   },
   {
    "q": "A male patient needs to rest after knee surgery. What is his highest risk?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Myocardial infarction",
@@ -72242,7 +72242,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a clinical criterion of left-sided heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Hepatomegaly",
@@ -72265,7 +72265,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient has superficial varicose veins in the legs. Which statement is UNTRUE?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Compression stockings help",
@@ -72564,7 +72564,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the clinical meaning of intermittent claudication?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Acute arterial ischemia",
@@ -72771,7 +72771,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which NYHA stage corresponds to a patient with heart failure who reports dyspnea with ordinary activity but not at rest?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Class I",
@@ -72840,7 +72840,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient with hypertension and hypercholesterolemia reports intense leg pain when walking up the stairs that disappears with rest. What is most likely?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Deep vein thrombosis",
@@ -73047,7 +73047,7 @@ const QUESTIONS = {
   },
   {
    "q": "A 75-year-old woman on the tenth postoperative day after abdominal surgery has sudden dyspnea, chest pain, and jugular vein distension. What is most likely?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "It is probably a pulmonary embolism resulting from an atherosclerotic aneurysm of the abdominal aorta",
@@ -73070,7 +73070,7 @@ const QUESTIONS = {
   },
   {
    "q": "An 82-year-old woman with atrial fibrillation has an acute episode of right leg pain. The leg is cold, pale, and pulseless.",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "It is probably an aortic aneurysm",
@@ -73093,7 +73093,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name for a reversible focal neurological deficit?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Lacunar infarct",
@@ -73254,7 +73254,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is not a cause of systolic heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Pericardial effusion",
@@ -73553,7 +73553,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following may be a cause of heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Alterations in myocardial contractility",
@@ -73668,7 +73668,7 @@ const QUESTIONS = {
   },
   {
    "q": "Atrial fibrillation is characterized by:",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Activity of multiple atrial foci that give rise to a rapid, arrhythmic rate",
@@ -73967,7 +73967,7 @@ const QUESTIONS = {
   },
   {
    "q": "The arrhythmia that most often results in sudden death is:",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Ventricular fibrillation",
@@ -73990,7 +73990,7 @@ const QUESTIONS = {
   },
   {
    "q": "In heart failure, left-sided anterograde (forward) failure results in:",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Systemic arterial hypertension",
@@ -74059,7 +74059,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient who presents with pitting edema and jugular engorgement probably has:",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Left-sided anterograde heart failure",
@@ -74082,7 +74082,7 @@ const QUESTIONS = {
   },
   {
    "q": "\"Intermittent claudication\" refers to:",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Chronic arterial ischemia",
@@ -74335,7 +74335,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is FALSE regarding the drugs used to treat heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "ACE inhibitors are useful for their vasodilator effect",
@@ -74381,7 +74381,7 @@ const QUESTIONS = {
   },
   {
    "q": "If your mother is going to have KNEE SURGERY and will be at REST for a few weeks, she would be at risk of suffering:",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Acute myocardial infarction",
@@ -74818,7 +74818,7 @@ const QUESTIONS = {
   },
   {
    "q": "Because of its simplicity and the amount of information it provides, which test should be performed in a patient with a first episode of heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Coronary angiography",
@@ -74956,7 +74956,7 @@ const QUESTIONS = {
   },
   {
    "q": "Edema in the legs is typical of:",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Left heart failure",
@@ -77003,7 +77003,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement best defines heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "A clinical syndrome in which the coronary arteries fail to deliver enough oxygen to the myocardium at rest",
@@ -77026,7 +77026,7 @@ const QUESTIONS = {
   },
   {
    "q": "In ventricular remodeling, which association is correct?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Ventricular hypertrophy produces diastolic dysfunction with impaired ventricular filling",
@@ -77049,7 +77049,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is most likely to precipitate decompensation in a patient with stable chronic heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Starting a low-dose ACE inhibitor for blood pressure control",
@@ -77072,7 +77072,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the ACC/AHA classification of heart failure, which description matches stage B?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "The patient is at high risk for heart failure but has no structural heart disease",
@@ -77095,7 +77095,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which complication is characteristically associated with heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Atrial fibrillation, which predisposes to cerebral and peripheral embolism",
@@ -77118,7 +77118,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which recommendation is appropriate for a patient with congestive heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Encourage a high-sodium diet to help maintain blood volume",
@@ -77141,7 +77141,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which is a therapeutic option for refractory end-stage heart failure?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Bilateral carotid endarterectomy to improve cerebral perfusion",
@@ -77187,7 +77187,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient has survived an episode of sustained pulseless ventricular tachycardia (aborted sudden cardiac death). What is the recommended first-line long-term treatment?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Implantation of a cardioverter-defibrillator (ICD)",
@@ -77210,7 +77210,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which combination of findings defines cardiogenic shock?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Systolic blood pressure below 90 mmHg with low cardiac output and oliguria",
@@ -77233,7 +77233,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient in the dental chair develops acute pulmonary edema. Which is the appropriate immediate office response?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Stop, seat the patient with the legs hanging down, give oxygen and sublingual nitroglycerin",
@@ -77256,7 +77256,7 @@ const QUESTIONS = {
   },
   {
    "q": "How is an aortic aneurysm best defined?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "A permanent dilation of the aorta to more than 1.5 times its normal diameter",
@@ -77279,7 +77279,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which triad suggests a ruptured abdominal aortic aneurysm?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Abdominal or back pain, a pulsatile supraumbilical mass and hypotension",
@@ -77302,7 +77302,7 @@ const QUESTIONS = {
   },
   {
    "q": "When is elective repair of an aortic aneurysm indicated?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "When it is rapidly expanding or has reached a diameter of 5 cm or more",
@@ -77325,7 +77325,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement best describes the mechanism of aortic dissection?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "An intimal tear lets blood track between the wall layers, forming a false lumen",
@@ -77348,7 +77348,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient with an aortic dissection involving the ascending aorta typically presents with:",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Sudden severe stabbing anterior chest pain, classified as Stanford A (proximal)",
@@ -77371,7 +77371,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient with long-standing peripheral artery disease now describes leg pain at rest that wakes him at night, together with hair loss over the shin and a small foot ulcer. Which statement about this advanced stage is correct?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Ischemic rest pain typically worsens at night and eases with the limb dependent.",
@@ -77394,7 +77394,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which combination of factors constitutes the classic triad that underlies the development of deep vein thrombosis?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Venous stasis, endothelial injury, and hypercoagulability.",
@@ -77417,7 +77417,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which clinical picture of a lower limb is most consistent with an acute deep vein thrombosis?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "A warm, swollen, reddened leg with a preserved arterial pulse.",
@@ -77440,7 +77440,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which combination of limb and skin changes best characterizes chronic venous insufficiency?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Edema evolving to fibrosis, stasis dermatitis, and hemosiderin pigmentation.",
@@ -77463,7 +77463,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which description and management plan best fit a venous leg ulcer?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "A shallow, tender ulcer at the inner ankle treated with compression.",
@@ -78017,7 +78017,7 @@ const QUESTIONS = {
  "dentOcclusion": [
   {
    "q": "In which of the following cases is it necessary to provide the patient with a balanced occlusion scheme?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Single implant-supported prostheses.",
@@ -78040,7 +78040,7 @@ const QUESTIONS = {
   },
   {
    "q": "During an occlusal analysis, we find that a patient with an Angle Class I has interferences between the buccal cusps of tooth 16 and the lingual cusps of tooth 46 during right lateral movements. These interferences cause instability and a TMD. Where can we perform selective grinding?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The active cusps of teeth 16 and 46 are ground, since they are the ones causing the prematurities.",
@@ -78063,7 +78063,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate the true statement about disc displacement:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "There is thinning of the posterior border of the disc.",
@@ -78086,7 +78086,7 @@ const QUESTIONS = {
   },
   {
    "q": "When mounting on the articulator: if the face bow is not used, even when the centric relation record is correct, what happens?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The hinge axis of the patient and the hinge axis of the articulator will not coincide.",
@@ -78109,7 +78109,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient has canine guidance on both the right and left sides. An implant is placed on tooth 44, and an impression will be taken and sent to the laboratory to fabricate a crown (fixed prosthesis). State which occlusal scheme should be used and in which articulator it is advisable to send the case to the laboratory.",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Group function and a semi-adjustable articulator whose upper model was mounted with a kinematic arc.",
@@ -78132,7 +78132,7 @@ const QUESTIONS = {
   },
   {
    "q": "During an occlusal analysis, we observe that a patient making a left lateral movement has contacts between teeth 23 and 33, teeth 24 and 34, and also contacts on teeth 14 and 44. What does this patient present?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Group function on the right side and canine guidance on the left side.",
@@ -78155,7 +78155,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate the correct option regarding a THIOP patient:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "They never present prematurities, but may have interferences.",
@@ -78178,7 +78178,7 @@ const QUESTIONS = {
   },
   {
    "q": "The statement \"Its main objective is to eliminate prematurities and interferences\" corresponds to:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Simplified selective grinding technique.",
@@ -78224,7 +78224,7 @@ const QUESTIONS = {
   },
   {
    "q": "During a TMJ examination, when we ask the patient to open their mouth we find a block, but when we ask them to protrude we see that the block is eliminated. Which of the following pathologies would you diagnose?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Bruxism.",
@@ -78247,7 +78247,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following contacts correspond to a group function occlusal scheme?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Contacts between the buccal cusps of the upper arch against the buccal cusps of the lower arch on the non-working side.",
@@ -78270,7 +78270,7 @@ const QUESTIONS = {
   },
   {
    "q": "The inclination of the posterior wall of the articular eminence forms an angle with the Frankfurt plane; this is called:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Protrusive condylar path inclination (PCPI).",
@@ -78293,7 +78293,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement is true? In the sagittal plane, it is possible to distinguish:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "MIOP.",
@@ -78316,7 +78316,7 @@ const QUESTIONS = {
   },
   {
    "q": "How is palpation of the inferior lateral pterygoid muscle performed?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "We turn the patient's head to the opposite side and slightly downward; it can be easily palpated along its entire length.",
@@ -78339,7 +78339,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which ligament limits mandibular retrusion?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Temporomandibular ligament.",
@@ -78362,7 +78362,7 @@ const QUESTIONS = {
   },
   {
    "q": "If we observe that a patient making a right lateral movement has contacts between teeth 14–44 and 15–45 and on the palatal cusp of tooth 16, what does this patient present?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Group function.",
@@ -78385,7 +78385,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement is true? The ARTEX and KAVO semi-adjustable articulators can reproduce immediate lateral translation and progressive lateral translation only if:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The lower model is mounted in maximum intercuspation.",
@@ -78408,7 +78408,7 @@ const QUESTIONS = {
   },
   {
    "q": "A bruxism patient whose teeth have worn down has:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Decreased free interocclusal (freeway) space.",
@@ -78431,7 +78431,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate the true statement regarding the postural rest position:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The condyles are positioned anteriorly during the second arc of opening.",
@@ -78454,7 +78454,7 @@ const QUESTIONS = {
   },
   {
    "q": "A bruxism patient has worn down more than one third of all their upper and lower teeth, and we propose placing fixed prostheses (crowns) on all their teeth. What occlusal scheme should we provide for this complete fixed prosthetic rehabilitation?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Mutually protected occlusion.",
@@ -78477,7 +78477,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient is missing all four upper incisors and all four lower incisors. They have an Angle Class I molar relationship and are THIOP. When performing protrusive and lateral movements, what is most likely to occur?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Interferences on the working side.",
@@ -78500,7 +78500,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient with a left LIOP:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The mandible shifts to the left and the right TMJ is affected.",
@@ -78523,7 +78523,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the main difference between disc displacement and disc luxation (with or without reduction)?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "In disc displacement, the collateral discal ligaments are affected and the posterior border of the disc is thinned.",
@@ -78546,7 +78546,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding idiopathic orofacial pain:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It is located in the face, mouth, or jaw, but shares neurovascular or autonomic characteristics with headaches such as migraine or cluster headache.",
@@ -78569,7 +78569,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement would you consider correct?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Arcon-type articulators have lower accuracy due to an 8-10° error in PCPI.",
@@ -78592,7 +78592,7 @@ const QUESTIONS = {
   },
   {
    "q": "Neuropathic pain:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Is due to changes in the way the nervous system processes pain signals, without any direct tissue or nerve damage.",
@@ -78615,7 +78615,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding digital (virtual) articulators:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Digital articulators are virtual replicas of the mandible that simulate mandibular movements. An impression and a physical model are always required, which must then be scanned.",
@@ -78638,7 +78638,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate the correct statement about the concept defined as axiography:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It is the remote reproduction of a given movement, allowing mandibular movements to be recorded in the three planes of space, at both the maxillary and the incisal level.",
@@ -78661,7 +78661,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate which statement is correct:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "When mounting the lower cast in MI, wax may or may not be used, leaving the anterior teeth uncovered.",
@@ -78684,7 +78684,7 @@ const QUESTIONS = {
   },
   {
    "q": "When observing the path that the mesiopalatal cusp of tooth 2.6 traces over tooth 3.6, we see that it describes a horizontal movement; therefore, we know that the mandible is performing:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "A right lateral movement, this being the non-working side.",
@@ -78707,7 +78707,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements defines balanced occlusion?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Group function in all eccentric movements.",
@@ -78730,7 +78730,7 @@ const QUESTIONS = {
   },
   {
    "q": "What condylar movement occurs during protrusion?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Advancement and descent (forward and downward translation).",
@@ -78753,7 +78753,7 @@ const QUESTIONS = {
   },
   {
    "q": "The temporalis muscle:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Elevates, protrudes, and retrudes the mandible.",
@@ -78776,7 +78776,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following planes would you use as a reference to reestablish the anterior occlusal plane (incisal plane) in a restorative treatment?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The Frankfurt plane.",
@@ -78799,7 +78799,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the false statement:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "An overbite of one third between the upper and lower incisors is considered ideal.",
@@ -78845,7 +78845,7 @@ const QUESTIONS = {
   },
   {
    "q": "When studying the Bennett angle, which condyle performs the movement?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The non-working condyle, when performing protrusion only.",
@@ -78868,7 +78868,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which facebows can be used with a semi-adjustable articulator?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Kinematic facebow",
@@ -78891,7 +78891,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the type of articulator that can be used with a facebow:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Arbitrary-value articulators (some of them)",
@@ -78914,7 +78914,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the usual shape of the path that the condyle follows during a protrusive movement, as seen in the sagittal plane.",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Concave with the concavity facing upwards",
@@ -78960,7 +78960,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding occlusal interferences:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "They are undesirable occlusal contacts during eccentric movements",
@@ -78983,7 +78983,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding occlusal prematurities:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "It is any occlusal contact that occurs at CR, even if the patient has THIOP",
@@ -79006,7 +79006,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding Posselt's diagram:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It shows the movements of the condyles in the sagittal plane",
@@ -79029,7 +79029,7 @@ const QUESTIONS = {
   },
   {
    "q": "What position would you use to mount the lower cast of a fully edentulous patient who does not have temporomandibular disorders (TMDs)?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Centric relation (CR), with the final denture teeth set at MI (thereby ultimately achieving a THIOP).",
@@ -79052,7 +79052,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the wrong answer:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "CR is a position defined only by the temporomandibular joints (TMJs)",
@@ -79075,7 +79075,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding facebows:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Kinematic facebows should always be used for every prosthetic treatment",
@@ -79098,7 +79098,7 @@ const QUESTIONS = {
   },
   {
    "q": "The TMJs are capable of the following movement(s):",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Rotation",
@@ -79121,7 +79121,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the portion of the lateral pterygoid muscle that contracts during a left lateral movement:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Superior portion of the left lateral pterygoid muscle",
@@ -79167,7 +79167,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the anatomical structure responsible for moving the TMJ disc backwards when the condyle returns to CR after a protrusion:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Superior retrodiscal lamina",
@@ -79190,7 +79190,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the amplitude and angle of the first arc of opening in the posterior border movement of the mandible:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "45 mm and 15-18°",
@@ -79213,7 +79213,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the direction towards which the non-working-side (NWS) condyle moves during a lateral movement of the mandible:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Downwards, forwards and laterally",
@@ -79236,7 +79236,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the right answer regarding lateral mandibular movements:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The Bennett angle is measured at the NWS condyle",
@@ -79259,7 +79259,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the plane in which the Bennett angle is measured:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Frontal plane",
@@ -79282,7 +79282,7 @@ const QUESTIONS = {
   },
   {
    "q": "Angle's Class I occurs when, from a lateral view:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The distobuccal cusp of the maxillary first molar occludes with the buccal groove of the mandibular first molar",
@@ -79305,7 +79305,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the right answer regarding what happens after a tooth loss:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "There will be mesialization of the tooth that is distal to the missing one",
@@ -79328,7 +79328,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the movement of the NWS condyle during a lateral movement called?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Protrusion",
@@ -79351,7 +79351,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the right answer regarding the Arcon articulator:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The condyles (condylar balls) are located on the lower member and the glenoid fossae (condylar tracks) on the upper member of the articulator",
@@ -79374,7 +79374,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding the interocclusal rest space:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "At the mandibular rest position the elevator and depressor muscles have no muscular tone at all.",
@@ -79397,7 +79397,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the muscle that takes part in protrusive movements:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The inferior portion of the lateral pterygoid and the masseter.",
@@ -79420,7 +79420,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the statement that is NOT true for CR:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It is the most physiological position for the TMJs.",
@@ -79443,7 +79443,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding Gysi's gothic arch tracing:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It is a projection in the frontal plane.",
@@ -79466,7 +79466,7 @@ const QUESTIONS = {
   },
   {
    "q": "For a patient with THIOP, what happens when he/she moves the mandible from MI to maximum mouth opening (MMO) during a habitual mouth-opening movement (mark the correct answer)?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Both condyles will be at CR when at MMO.",
@@ -79489,7 +79489,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding functional cusps:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "They contact the antagonist teeth on functional fossae or marginal ridges.",
@@ -79512,7 +79512,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding the immediate mandibular lateral translation movement:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It means that the NWS condyle moves essentially straight and medially during a lateral movement.",
@@ -79535,7 +79535,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the feature that corresponds to the Bennett angle:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The standard value used on articulators is usually 15°.",
@@ -79558,7 +79558,7 @@ const QUESTIONS = {
   },
   {
    "q": "What would you call the situation in which, with the teeth at MI, both condyles are at CR?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "MIOP",
@@ -79581,7 +79581,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding the protrusive condylar path:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It is the pathway of the lower incisors as they move downward and forward along the palatal surface of the upper incisors during protrusion.",
@@ -79604,7 +79604,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark which of these points is used as a reference point for the Frankfurt plane:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Infraorbital foramen.",
@@ -79627,7 +79627,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer regarding isotonic muscle contraction:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "It is worse for the muscle than isometric contraction.",
@@ -79650,7 +79650,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the function of anterior guidance and canine guidance?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Producing disclusion of the anterior teeth during opening-closing movements.",
@@ -79673,7 +79673,7 @@ const QUESTIONS = {
   },
   {
    "q": "The value of the Bennett angle on one side of the articulator is relevant when:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "A lateral movement is made toward the same side",
@@ -79696,7 +79696,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the purpose of the interocclusal record?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Mounting both casts on the articulator",
@@ -79719,7 +79719,7 @@ const QUESTIONS = {
   },
   {
    "q": "Reserve question 1. Mark the correct answer:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The curve of Spee can be observed in the sagittal plane",
@@ -79742,7 +79742,7 @@ const QUESTIONS = {
   },
   {
    "q": "Reserve question 2. The main purpose of a facebow is:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Mounting the upper cast on the articulator",
@@ -79765,7 +79765,7 @@ const QUESTIONS = {
   },
   {
    "q": "Reserve question 3. If you find an occlusal contact on teeth 44 and 45 during a right lateral movement, what would you call it?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Group function",
@@ -79788,7 +79788,7 @@ const QUESTIONS = {
   },
   {
    "q": "Clinical case 2. What occlusal scheme does the patient have?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Mutually protected occlusion during protrusion",
@@ -79811,7 +79811,7 @@ const QUESTIONS = {
   },
   {
    "q": "Clinical case 3. If we perform a lateral movement toward the right side and observe contacts between the inner inclines of the buccal cusp of tooth 16 and the outer inclines of the buccal cusp of tooth 46, we would consider them:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interferences on the working side",
@@ -79834,7 +79834,7 @@ const QUESTIONS = {
   },
   {
    "q": "Clinical case 4. If we perform a lateral movement toward the left side and observe contacts on the right side between non-homonymous cusps, it would be considered:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interferences on the working side",
@@ -79857,7 +79857,7 @@ const QUESTIONS = {
   },
   {
    "q": "Clinical case 5. What would be the ideal overbite and overjet for this patient?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Overbite 0 mm, overjet 3 mm",
@@ -79880,7 +79880,7 @@ const QUESTIONS = {
   },
   {
    "q": "Clinical case 7. A 0 mm overjet and a 0 (zero-thirds) overbite of the lower incisors indicate:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Normal overjet and overbite relationship.",
@@ -79903,7 +79903,7 @@ const QUESTIONS = {
   },
   {
    "q": "Clinical case 8. When performing a protrusive movement, we see that there are contacts on all the posterior teeth. This means:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Interferences on the working side",
@@ -79926,7 +79926,7 @@ const QUESTIONS = {
   },
   {
    "q": "When mounting the cast on the articulator in centric relation, on closing we find contacts on teeth 26 and 36 that deviate the mandible to the left to reach maximum intercuspation. The patient presents:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "LIOP.",
@@ -79949,7 +79949,7 @@ const QUESTIONS = {
   },
   {
    "q": "When we study the Fisher angle, which condyle performs the movement?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The non-working condyle, when performing protrusion only.",
@@ -79972,7 +79972,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which diagram can we tell whether there is THIOP or not?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Sagittal Posselt diagram.",
@@ -79995,7 +79995,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which planes of the Posselt diagram can we see the difference between MI and CR (the slide/décalage)?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Sagittal plane.",
@@ -80018,7 +80018,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is the definition of the \"Bennett movement\"?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It is the angle formed between the PCPI and the LCPI.",
@@ -80041,7 +80041,7 @@ const QUESTIONS = {
   },
   {
    "q": "If a patient has contacts between the cusps of teeth 2.6 and 3.6 during a right lateral mandibular movement, the patient is considered to have:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interferences on the working side.",
@@ -80064,7 +80064,7 @@ const QUESTIONS = {
   },
   {
    "q": "If during a right mandibular movement we find multiple contacts between antagonist teeth on the working side, including the canines, we say the patient has:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interferences on the working side.",
@@ -80087,7 +80087,7 @@ const QUESTIONS = {
   },
   {
    "q": "The PCPI depends on:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The anatomical features of the temporal bone.",
@@ -80110,7 +80110,7 @@ const QUESTIONS = {
   },
   {
    "q": "The IGA depends on:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The anatomical characteristics of the temporal bone.",
@@ -80133,7 +80133,7 @@ const QUESTIONS = {
   },
   {
    "q": "State the correct statement regarding \"progressive\" lateral translational condylar movement:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The non-working condyle moves primarily forward and only slightly medially and inward.",
@@ -80156,7 +80156,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the correct option regarding Bennett's movement:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Both condyles move.",
@@ -80179,7 +80179,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding Fisher's angle:",
-   "c": 6,
+   "c": 5,
    "options": [
     {
      "t": "It is formed between the ITCP and the ITCL and is viewed in the frontal plane.",
@@ -80225,7 +80225,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the active (supporting) cusps:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "They are the lower buccal and upper palatal cusps, and they contact the functional fossae during the grinding phase of mastication.",
@@ -80248,7 +80248,7 @@ const QUESTIONS = {
   },
   {
    "q": "If we observe that, over the central fossa of tooth 3.6, the antagonist supporting cusp traces a distolingual path, we know that the mandible is performing:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Right laterality, with this being the non-working side.",
@@ -80294,7 +80294,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient who has an overjet of 0 mm and an overbite of 0 mm will present, during protrusion:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Anterior group function.",
@@ -80317,7 +80317,7 @@ const QUESTIONS = {
   },
   {
    "q": "When we place a porcelain-fused-to-metal crown on tooth 3.6 and the rest of the patient's teeth have canine guidance (between 23 and 33, and between 13 and 43), which occlusal scheme should this patient have?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Maintain the group function scheme.",
@@ -80340,7 +80340,7 @@ const QUESTIONS = {
   },
   {
    "q": "What happens in disc dislocation without reduction?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Mandibular locking.",
@@ -80363,7 +80363,7 @@ const QUESTIONS = {
   },
   {
    "q": "The condyles are in centric relation:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "In centric occlusion.",
@@ -80386,7 +80386,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding LIOP, indicate the correct option:",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Right LIOP: the right condyle is in centric relation, the left condyle is advanced, the mandible deviates to the right, the left lateral pterygoid is hyperactive and painful, and there is clicking on the left side.",
@@ -80409,7 +80409,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following planes would you use as a reference to restore the posterior occlusal plane in a complete-denture prosthodontic treatment?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The Frankfurt plane.",
@@ -80432,7 +80432,7 @@ const QUESTIONS = {
   },
   {
    "q": "Where are the interproximal contacts of the upper molars located?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "In the gingival third",
@@ -80455,7 +80455,7 @@ const QUESTIONS = {
   },
   {
    "q": "When a patient moves the mandible to the left, choose the FALSE option:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The right condyle is the non-working condyle.",
@@ -80478,7 +80478,7 @@ const QUESTIONS = {
   },
   {
    "q": "If, during mandibular manipulation techniques used to guide the patient into the centric relation position, a patient presents a first occlusal contact between the occlusal surfaces of tooth 3.4 or 4.4 and their antagonists, we say that the patient has:",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Interferences.",
@@ -80501,7 +80501,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct option regarding a THIOP patient:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The patient does not present prematurities.",
@@ -80524,7 +80524,7 @@ const QUESTIONS = {
   },
   {
    "q": "The Kavo and Artex facebows are:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Class I.",
@@ -80547,7 +80547,7 @@ const QUESTIONS = {
   },
   {
    "q": "The Frankfort plane is defined between the points:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Porion - Nasion",
@@ -80570,7 +80570,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which monosynaptic muscle reflex maintains muscle tone in reaction to gravitational force?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Nociceptive reflex.",
@@ -80593,7 +80593,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following ligaments keeps the disc positioned over the condyle, allowing passive disc motion and anteroposterior rotation?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The collateral (discal) ligaments of the disc.",
@@ -80616,7 +80616,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following muscles has the capacity to elevate the mandible?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Masseter.",
@@ -80639,7 +80639,7 @@ const QUESTIONS = {
   },
   {
    "q": "If we measure the upper arch and it is 60 mm wide while the lower arch is 70 mm wide, we would be in the presence of:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Open bite",
@@ -80662,7 +80662,7 @@ const QUESTIONS = {
   },
   {
    "q": "Theory (version A) — 36. When LIOP is present, the most frequent finding is:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The prematurities occur simultaneously (or very close together) and contact the upper mesial and lower distal slopes.",
@@ -80685,7 +80685,7 @@ const QUESTIONS = {
   },
   {
    "q": "Theory (version A) — 37. Which of the following statements defines a mutually protected occlusion?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interferences in all eccentric movements.",
@@ -80708,7 +80708,7 @@ const QUESTIONS = {
   },
   {
    "q": "Theory (version A) — 38. Which of the following devices should be used to locate the true hinge axis (EBT) of a patient?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Semi-adjustable articulator.",
@@ -80731,7 +80731,7 @@ const QUESTIONS = {
   },
   {
    "q": "Theory (version A) — 40. Mark the correct statement about the optimal biomechanics of the temporomandibular joint.",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "In the postural rest position, the space between the temporal bone and the condyle is occupied by the medial portion of the articular disc.",
@@ -80754,7 +80754,7 @@ const QUESTIONS = {
   },
   {
    "q": "Theory (version A) — BACKUP 41. What type of occlusal scheme should a totally edentulous patient wearing a removable mucosa-supported complete denture maintain?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Canine guidance.",
@@ -80777,7 +80777,7 @@ const QUESTIONS = {
   },
   {
    "q": "Theory (version A) — BACKUP 42. Choose the correct option regarding the temporalis muscle.",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The superficial head elevates the mandible.",
@@ -80800,7 +80800,7 @@ const QUESTIONS = {
   },
   {
    "q": "During mandibular closure in a patient in centric relation, the initial occlusal contacts registered are between teeth 1.6 and 4.6. What type of contact is this?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interference.",
@@ -80823,7 +80823,7 @@ const QUESTIONS = {
   },
   {
    "q": "An edentulous patient requests a complete removable prosthesis. Which occlusal scheme would you give to these prostheses (upper and lower)?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Group function occlusion.",
@@ -80846,7 +80846,7 @@ const QUESTIONS = {
   },
   {
    "q": "Disc displacement and disc dislocation (with or without reduction) are disorders classified by Okeson as:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Temporomandibular joint disorders — inflammatory disorders.",
@@ -80869,7 +80869,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which movement does the non-working condyle describe when seen in the horizontal plane?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Inward, downward and forward.",
@@ -80892,7 +80892,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the false statement regarding a patient with THIOP:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The patient has a prematurity.",
@@ -80915,7 +80915,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is true regarding Posselt's diagram?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Occlusal interferences can be diagnosed.",
@@ -80938,7 +80938,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the angle formed by the protrusive condylar path inclination (PCPI) and the Bennett angle (B.A.)?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Fisher angle",
@@ -80961,7 +80961,7 @@ const QUESTIONS = {
   },
   {
    "q": "When a patient moves the mandible to the right, choose the false option:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The right condyle is the working condyle (WC).",
@@ -80984,7 +80984,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following devices should be used to locate the true (real) hinge axis of a patient?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Semiadjustable articulator.",
@@ -81007,7 +81007,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the plane formed by the following points: left porion, right porion (Po) and anterior nasal spine (A.N.S.)?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Posselt's plane.",
@@ -81030,7 +81030,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements defines a mutually protected occlusion?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interferences in all eccentric movements.",
@@ -81053,7 +81053,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following ligaments maintains the union between the disc and the condyle, allowing passive movement of the disc and anteroposterior rotation?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Collateral discal ligaments.",
@@ -81076,7 +81076,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following muscles is an elevator muscle?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Masseter",
@@ -81099,7 +81099,7 @@ const QUESTIONS = {
   },
   {
    "q": "What do you call the situation when a patient has the left condyle in centric relation and the right condyle out of centric when closing in maximum intercuspation?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Left M.I.O.P.",
@@ -81122,7 +81122,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the curve that joins the buccal cusps and the incisal edges in a sagittal view and is often concave on the lower arch?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Spee",
@@ -81145,7 +81145,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the mean average value of the PCPI?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "16 mm",
@@ -81168,7 +81168,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is the average value for Fischer's angle?",
-   "c": 6,
+   "c": 5,
    "options": [
     {
      "t": "45 degrees.",
@@ -81214,7 +81214,7 @@ const QUESTIONS = {
   },
   {
    "q": "If a patient performs a mandibular movement to the right, indicate the correct answer:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The working grooves would be seen on tooth 26 toward the buccal and on tooth 36 toward the lingual.",
@@ -81237,7 +81237,7 @@ const QUESTIONS = {
   },
   {
    "q": "What do you need to do to simulate mandibular protrusion on your articulator?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Move the upper member of the articulator forward.",
@@ -81260,7 +81260,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following mandibular positions cannot be seen on the sagittal Posselt diagram?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Edge-to-edge position.",
@@ -81283,7 +81283,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the situation in which the patient closes with the greatest number of contacts between both arches while the left condyle is in the centric relation position and the right condyle is out of centric relation?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Left MIOP.",
@@ -81306,7 +81306,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is known as Christensen's phenomenon?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Balanced occlusion.",
@@ -81329,7 +81329,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is incorrect?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "When performing an occlusal analysis in centric relation using a Kavo or Artex articulator, the incisal pin should be kept at 0 mm.",
@@ -81352,7 +81352,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is true regarding the registration of the cranio-maxillary relationship?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It could be recorded in maximum intercuspation or centric relation.",
@@ -81375,7 +81375,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a mandibular movement to the right, on which teeth would we see the non-working grooves?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "26 and 36.",
@@ -81398,7 +81398,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which of the following situations is it least likely to have interferences during protrusion?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Overbite 1/3, overjet 4 mm.",
@@ -81421,7 +81421,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which monosynaptic muscular reflex maintains muscle tone in reaction to the gravitational force that pulls the mandible downward?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Nociceptive reflex.",
@@ -81444,7 +81444,7 @@ const QUESTIONS = {
   },
   {
    "q": "If you found an occlusal contact between 24 and 34 during a right lateral movement, what would you call it?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Group function.",
@@ -81467,7 +81467,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following signs or symptoms does NOT correspond to \"disc dislocation without reduction\"?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Pain.",
@@ -81490,7 +81490,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the angle described in the horizontal plane by the lateral condylar path of the non-working condyle with respect to a sagittal plane?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Bennett angle.",
@@ -81513,7 +81513,7 @@ const QUESTIONS = {
   },
   {
    "q": "When performing an occlusal analysis whose objective is to diagnose whether the patient has a THIOP, how would you mount the lower arch in the articulator if you used a wax record 2 mm thick?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "In maximum intercuspation, with the incisal pin at 0 mm.",
@@ -81536,7 +81536,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the curve that joins the cusps of the upper first molars in a frontal view and is often convex on the upper arch?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Curve of Spee.",
@@ -81559,7 +81559,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the mandibular movement produced by the bilateral contraction of the anterior and middle portions of the temporal muscle?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Opening.",
@@ -81582,7 +81582,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate the cephalometric points of the Frankfurt plane:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Porion - Nasion.",
@@ -81605,7 +81605,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the mean average value of Bennett's angle in a dentate patient?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "45 degrees.",
@@ -81628,7 +81628,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which movement does the non-working condyle describe when seen from a frontal plane?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Inward, downward and forward.",
@@ -81651,7 +81651,7 @@ const QUESTIONS = {
   },
   {
    "q": "When a patient moves the jaw to the right, choose the false statement:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The right condyle is the working condyle (WC).",
@@ -81674,7 +81674,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct option regarding the Artex and Kavo articulators:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Both articulators are of the non-arcon type.",
@@ -81697,7 +81697,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct option regarding fully adjustable articulators:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "They are exclusively of the non-arcon type.",
@@ -81720,7 +81720,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which occlusal scheme would you choose for a patient who has had root canal treatment on tooth 23?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Canine guidance on the right side and group function on the left side.",
@@ -81743,7 +81743,7 @@ const QUESTIONS = {
   },
   {
    "q": "On which of the following occlusal factors does the Bennett angle have its main influence?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The incisal guide angle.",
@@ -81766,7 +81766,7 @@ const QUESTIONS = {
   },
   {
    "q": "If you wish to obtain a balanced occlusion, which of the following statements is correct?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "We prefer narrower grooves.",
@@ -81789,7 +81789,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is true regarding a non-adjustable articulator?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "They do not allow any mandibular movements.",
@@ -81812,7 +81812,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is true regarding the PCPI?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "All of us have a PCPI of 45 degrees.",
@@ -81835,7 +81835,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements corresponds to a movement in which the condyles are in centric relation?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Opening and closing — in the first arc.",
@@ -81858,7 +81858,7 @@ const QUESTIONS = {
   },
   {
    "q": "The contraction of a muscle during mastication is called:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Isotonic contraction.",
@@ -81881,7 +81881,7 @@ const QUESTIONS = {
   },
   {
    "q": "If you wish to measure a patient's right Bennett angle, which of the following is correct?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "We need to record the patient's movement to the left.",
@@ -81904,7 +81904,7 @@ const QUESTIONS = {
   },
   {
    "q": "When using the Artex or Kavo facebow, you are locating:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The true hinge axis.",
@@ -81927,7 +81927,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the term for the discrepancy from centric relation to maximum intercuspation?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The position of the prematurity.",
@@ -81950,7 +81950,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is true regarding the cause in a patient who has an MIOP?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "It is due to an interference on the right side.",
@@ -81973,7 +81973,7 @@ const QUESTIONS = {
   },
   {
    "q": "When a patient moves the jaw to the left, choose the false statement:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The right condyle is the non-working condyle.",
@@ -81996,7 +81996,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding Fischer's angle, choose the correct answer:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It is the angle formed by the non-working condyle in a lateral movement with respect to a parasagittal plane.",
@@ -82019,7 +82019,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate the correct answer regarding the Kavo and Artex articulators:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "They are semi-adjustable, arcon-type articulators with non-self-centering facebows.",
@@ -82042,7 +82042,7 @@ const QUESTIONS = {
   },
   {
    "q": "If a patient performs a mandibular movement to the left, point out the correct answer:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The working grooves would be seen on 26 toward the buccal and on 36 toward the lingual.",
@@ -82065,7 +82065,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the occlusal schemes, point out the false statement:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "In balanced occlusion we want higher cusps and narrow non-working grooves.",
@@ -82088,7 +82088,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate which of the following statements is correct:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The Artex and Kavo facebows are both arcon type.",
@@ -82111,7 +82111,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is correct:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The loss of a proximal contact causes extrusion of the antagonist tooth.",
@@ -82134,7 +82134,7 @@ const QUESTIONS = {
   },
   {
    "q": "When a THIOP patient opens the mandible up to 24 mm, point out the correct answer:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Both condyles are in the centric relation position.",
@@ -82157,7 +82157,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the correct answer regarding a patient who has a THIOP:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "A patient with a THIOP has no interferences or prematurities.",
@@ -82180,7 +82180,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct option regarding the temporalis muscle.",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The superficial head elevates the mandible.",
@@ -82203,7 +82203,7 @@ const QUESTIONS = {
   },
   {
    "q": "When we are in the postural rest position, which of the following statements is correct:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "There is no muscular tone.",
@@ -82226,7 +82226,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct option regarding the Maximal Intercuspal Position.",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It determines the occlusal vertical dimension.",
@@ -82249,7 +82249,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the incorrect answer regarding Posselt's diagram:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "In Posselt's diagram it is possible to distinguish whether or not the patient has centric occlusion.",
@@ -82272,7 +82272,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is correct regarding the concepts of overjet and overbite:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The overbite is the amount of the lower central incisor that is covered on its buccal face by the upper central incisor.",
@@ -82295,7 +82295,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the anterior teeth:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Negative overjet values may lead to an anterior crossbite.",
@@ -82318,7 +82318,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the false statement regarding the biomechanics of the temporomandibular joint:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "In the postural rest position, the space between the temporal bone and the condyle is occupied by the middle portion of the articular disc.",
@@ -82341,7 +82341,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the correct answer regarding mounting in the articulator:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "If we want to study whether a patient has prematurities, it is necessary to mount the upper cast in centric relation.",
@@ -82364,7 +82364,7 @@ const QUESTIONS = {
   },
   {
    "q": "In an edentulous patient, which reference do we use to restore the anterior incisal plane?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Camper's plane",
@@ -82387,7 +82387,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding Posselt's diagram, point out the correct answer:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Posselt's diagram describes the path of the condyles in different mandibular movements seen from a sagittal view.",
@@ -82410,7 +82410,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the meaning of the concept known as \"Christensen's phenomenon\"?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Disclusion of the posterior teeth during protrusion.",
@@ -82433,7 +82433,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding an edge-to-edge occlusion, which of the following statements is correct?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "In an edge-to-edge occlusion there is no maximum intercuspation.",
@@ -82456,7 +82456,7 @@ const QUESTIONS = {
   },
   {
    "q": "The diagram that describes the movement of the condyles from a horizontal point of view is called:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Posselt's diagram.",
@@ -82479,7 +82479,7 @@ const QUESTIONS = {
   },
   {
    "q": "If during the examination of a patient you observe wear facets on the cusp inclines and the incisal edges, which of the following would be the most suitable cause?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Eccentric bruxism.",
@@ -82502,7 +82502,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is false?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "If we use the kinematic facebow we must mount the lower cast in centric relation.",
@@ -82525,7 +82525,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which view can we see Bennett's angle and Fisher's angle?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Bennett's in a sagittal view and Fisher's in a horizontal view.",
@@ -82548,7 +82548,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the true statement:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Developmental grooves provide the path of escape for opposing cusps during lateral movements.",
@@ -82571,7 +82571,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which muscle is contracted when the mandible moves backwards?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Inferior head of the external (lateral) pterygoid.",
@@ -82594,7 +82594,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the function of an anatomical groove on the occlusal surface of the posterior teeth?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "To allow the crushing of food during mastication.",
@@ -82617,7 +82617,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the incorrect statement regarding the temporalis muscle:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "All fibers of the temporalis muscle insert on the coronoid process.",
@@ -82640,7 +82640,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct option:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Simple hinge articulators are highly accurate.",
@@ -82663,7 +82663,7 @@ const QUESTIONS = {
   },
   {
    "q": "In the following Posselt's diagram, at which point (a, b, c or d) is the lower central incisor in the edge-to-edge position?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "A",
@@ -82686,7 +82686,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the temporomandibular joint (TMJ), which of the following statements is correct?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "It is known as a ginglymoarthrodial joint because it can be reproduced in the articulator.",
@@ -82709,7 +82709,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the correct answer regarding a mandibular movement to the left:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The upper portion of the right external pterygoid muscle contracts.",
@@ -82732,7 +82732,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the vertical dimension, which of the following statements is incorrect?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The rest vertical dimension does not change throughout life.",
@@ -82755,7 +82755,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is not correct?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The arbitrary facebow locates the exact hinge axis of the condyle.",
@@ -82778,7 +82778,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the facebow, point out the correct answer:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The facebow allows us to mount the lower cast in centric relation.",
@@ -82801,7 +82801,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the movement of the working-side condyle called during an immediate lateral movement?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Laterotrusion.",
@@ -82824,7 +82824,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the right answer regarding non-arcon articulators:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The condyles are located on the lower member and the glenoid fossae on the upper member.",
@@ -82847,7 +82847,7 @@ const QUESTIONS = {
   },
   {
    "q": "Related to facebows and articulators: which of the following statements is not correct?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The arbitrary facebow is more exact than using a kinematic facebow.",
@@ -82870,7 +82870,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is correct regarding the articulator?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "A fully adjustable facebow is the one that locates the exact position of the hinge axis.",
@@ -82893,7 +82893,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is false about the articulators we use at our university?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Both Kavo and Artex are arcon type.",
@@ -82916,7 +82916,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is meant by an \"arcon\" articulator?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "An articulator that uses a facebow.",
@@ -82939,7 +82939,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the true statement:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The facebow is used to connect the lower model to the upper mounting plate of the articulator.",
@@ -82962,7 +82962,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following options is correct with respect to a Kavo/Artex facebow?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "They are not adjustable.",
@@ -82985,7 +82985,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is false regarding facebows?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Both Kavo and Artex are arcon type.",
@@ -83008,7 +83008,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which posterior reference do the Kavo and Artex facebows use for the cranio-maxillary relation?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Gnathion",
@@ -83031,7 +83031,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is incorrect regarding Posselt's diagram?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It describes the movement of the lower incisors seen from a sagittal view.",
@@ -83054,7 +83054,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient with a THIOP:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Will never present prematurities or interferences",
@@ -83077,7 +83077,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which of the following TMJ disorders will you detect two clicks when the patient performs an opening and closing movement:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Disc dislocation without reduction",
@@ -83123,7 +83123,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a disc dislocation without reduction affecting only the right side of the TMJ:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "On opening, the mandible will always reproduce a mandibular opening movement deviated to the left",
@@ -83146,7 +83146,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is true regarding the mandibular rest position:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "At rest, the teeth are in maximum intercuspation",
@@ -83192,7 +83192,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following contacts are desired for a right group function:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Contacts between the inner inclines of the upper buccal cusps against the outer inclines of the lower buccal cusps on the right side",
@@ -83215,7 +83215,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient with atypical deglutition is most likely to present:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Anterior cross bite",
@@ -83238,7 +83238,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which of the following cases would you mount the lower cast in centric relation:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Complete dentures",
@@ -83261,7 +83261,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements defines Bennett's angle:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It is the angle formed between the PCPI and the LCPI",
@@ -83284,7 +83284,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following patients is more likely to have interferences during a protrusive movement?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "A patient with an MIOP",
@@ -83307,7 +83307,7 @@ const QUESTIONS = {
   },
   {
    "q": "Having a high PCPI angle implies which of the following?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "A more inclined articular eminence",
@@ -83330,7 +83330,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following ligaments restricts the rotational movements of the condyle?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Collateral ligaments",
@@ -83353,7 +83353,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which occlusal scheme would you choose for a fully dentate patient who has lost tooth 13, which you have replaced with a crown screwed onto a single implant?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Bilateral group function occlusion",
@@ -83376,7 +83376,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following temporomandibular joint disorders is more harmful?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Disc displacement",
@@ -83399,7 +83399,7 @@ const QUESTIONS = {
   },
   {
    "q": "If you want to measure a patient's right Bennett angle, which of the following statements is correct?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "We need the patient to reproduce a protrusive movement",
@@ -83422,7 +83422,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which of the following cases will a patient have more separation between the posterior teeth during a protrusive movement?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "With a higher PCPI",
@@ -83445,7 +83445,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is not true regarding the ligaments of the TMJ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "They work actively in the biomechanics of the TMJ, as they are able to stretch.",
@@ -83468,7 +83468,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a group function occlusion, which of the following posterior contacts are desired?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Contacts between homonymous cusps on the non-working side.",
@@ -83491,7 +83491,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is true regarding Hildebrand's diagram?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It describes the path of the condyles in different mandibular movements, seen from a horizontal plane.",
@@ -83514,7 +83514,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following can cause an anterior open bite?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Having a large overjet",
@@ -83537,7 +83537,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the origin of the masseter muscle?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The angle of the mandible",
@@ -83560,7 +83560,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following anatomical structures determines the PCPI?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The head of the condyle",
@@ -83583,7 +83583,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is true in a patient with an Angle Class I?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "When performing a lateral movement to the right, tooth 46 escapes through the working groove of 16 toward the distal",
@@ -83606,7 +83606,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the main function of the ligaments in the TMJ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "To protect the articulation by limiting movements",
@@ -83629,7 +83629,7 @@ const QUESTIONS = {
   },
   {
    "q": "If a patient presents a PCPI of 55 degrees, what is the patient's LCPI?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "45 degrees",
@@ -83652,7 +83652,7 @@ const QUESTIONS = {
   },
   {
    "q": "If you find that a patient presents a contact between posterior molars when guiding the patient into the centric relation position, we say the patient has:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Interferences",
@@ -83675,7 +83675,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is correct regarding the postural rest position?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It can be seen on the sagittal Posselt diagram.",
@@ -83698,7 +83698,7 @@ const QUESTIONS = {
   },
   {
    "q": "If the patient presents right canine guidance, the ideal contacts are found in:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Contacts between the external slopes of the upper buccal cusps and the internal slopes of the lingual cusps on the working side.",
@@ -83721,7 +83721,7 @@ const QUESTIONS = {
   },
   {
    "q": "If we want to determine whether the patient has a THIOP or not, how would you mount the lower arch in the articulator using a 2.5 mm wax record?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "In maximum intercuspation, with the incisal pin at 0 mm.",
@@ -83744,7 +83744,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following temporomandibular joint disorders is the most harmful?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Disc displacement.",
@@ -83767,7 +83767,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct statement regarding Fisher's angle:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Fisher's angle is defined as the difference between the protrusive condylar path and the non-working condylar path.",
@@ -83790,7 +83790,7 @@ const QUESTIONS = {
   },
   {
    "q": "During protrusion:",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "The palatal cusps move along the working groove of the lower teeth.",
@@ -83813,7 +83813,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient has a maxillary arch width of 60 mm and a mandibular arch width of 70 mm. Which type of bite is most likely?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Posterior crossbite.",
@@ -83836,7 +83836,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the condylar guidance angle (CGA), what are the average values and relative to which plane is it measured?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "40–45° relative to the Frankfurt plane.",
@@ -83859,7 +83859,7 @@ const QUESTIONS = {
   },
   {
    "q": "The following definition — \"formed by the horizontal lateral condylar path of the non-working condyle and a parasagittal plane\" — corresponds to:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Bennett angle",
@@ -83882,7 +83882,7 @@ const QUESTIONS = {
   },
   {
    "q": "If a patient presents a protrusive condylar inclination (PCI) of 55 degrees, what is the lateral condylar inclination (LCI)?",
-   "c": 6,
+   "c": 5,
    "options": [
     {
      "t": "45 degrees.",
@@ -83905,7 +83905,7 @@ const QUESTIONS = {
   },
   {
    "q": "The ligament that limits retrusive movement of the mandibular condyle is:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Distal capsular ligament",
@@ -83928,7 +83928,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct statement regarding the temporomandibular joint:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The outer oblique portion of the temporomandibular ligament restricts pure rotational movement of the condyle.",
@@ -83951,7 +83951,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following situations may cause an anterior open bite?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Excessive overbite.",
@@ -83974,7 +83974,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a patient missing upper posterior teeth, which reference is used to rehabilitate the occlusal plane?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Axio-orbital plane.",
@@ -83997,7 +83997,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is true regarding ligaments?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "They are non-elastic structures that limit joint movements.",
@@ -84020,7 +84020,7 @@ const QUESTIONS = {
   },
   {
    "q": "In Gysi's tracing or the horizontal Posselt diagram, it is possible to observe:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Condylar movements outward and upward.",
@@ -84043,7 +84043,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which of the following cases would a patient present greater separation between the posterior teeth, and therefore more Christensen phenomenon during protrusion?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Greater incisal guidance angle (IGA).",
@@ -84066,7 +84066,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which position is the Christensen phenomenon observed?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Protrusive occlusal position.",
@@ -84089,7 +84089,7 @@ const QUESTIONS = {
   },
   {
    "q": "The Bennett movement consists of:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Bodily (en bloc) displacement of the mandible toward one side (the working side) during a lateral movement.",
@@ -84112,7 +84112,7 @@ const QUESTIONS = {
   },
   {
    "q": "The temporalis muscle is responsible for:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Mandibular opening and closing.",
@@ -84135,7 +84135,7 @@ const QUESTIONS = {
   },
   {
    "q": "Disc displacement without reduction is characterized by:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Mandibular locking on opening and deflection of the mandible toward the affected side.",
@@ -84158,7 +84158,7 @@ const QUESTIONS = {
   },
   {
    "q": "During a left lateral movement, on which teeth would non-working grooves be marked?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "16 and 46",
@@ -84181,7 +84181,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the situation in which a patient is in occlusion with the maximum number of teeth in contact, with the left condyle in centric relation and the right condyle outside centric relation?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Left MIOP",
@@ -84204,7 +84204,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the highest point of the external auditory canal?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Pogonion",
@@ -84227,7 +84227,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following anatomical structures has the ability to stretch?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Capsular ligament",
@@ -84250,7 +84250,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient with a left-side LIOP:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The mandible is lateralized to the left.",
@@ -84273,7 +84273,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct statement:",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Christensen's phenomenon is observed during distal movements.",
@@ -84296,7 +84296,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct statement regarding the temporalis muscle:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Its superficial head elevates the mandible.",
@@ -84319,7 +84319,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is true about a patient with MIOP?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "When all teeth are in maximum intercuspation, the condyles are in centric relation.",
@@ -84342,7 +84342,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following ligaments restricts the rotational movement of the condyle?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Collateral ligaments.",
@@ -84365,7 +84365,7 @@ const QUESTIONS = {
   },
   {
    "q": "During examination of the TMJ, a \"pop\" sound is heard when the patient opens their mouth. Which of the following would you diagnose?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Bruxism.",
@@ -84388,7 +84388,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the false statement about a patient with a premature contact:",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "The patient has contacts between the molars during protrusive movement.",
@@ -84411,7 +84411,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following ligaments limits excessive protrusive movement?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Temporomandibular ligament.",
@@ -84434,7 +84434,7 @@ const QUESTIONS = {
   },
   {
    "q": "Select the true statement about disc displacement:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Pain is frequent in almost all cases.",
@@ -84457,7 +84457,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which occlusal scheme should be provided to a young patient with an implant at tooth 23?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Canine guidance on the right side.",
@@ -84480,7 +84480,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which of the following cases would you prefer to provide the patient with a balanced occlusion scheme?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Implants.",
@@ -84503,7 +84503,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the ITCP of a patient with an ITCL of 55 degrees?",
-   "c": 6,
+   "c": 5,
    "options": [
     {
      "t": "50 degrees.",
@@ -84526,7 +84526,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the false statement about disc displacement without reduction:",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Pain is a frequent symptom.",
@@ -84549,7 +84549,7 @@ const QUESTIONS = {
   },
   {
    "q": "The posterior occlusal plane should be parallel to:",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The bipupillary plane.",
@@ -84572,7 +84572,7 @@ const QUESTIONS = {
   },
   {
    "q": "What do you understand by a ginglymoarthrodial articulation?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "An articulation with an interposed disc.",
@@ -84595,7 +84595,7 @@ const QUESTIONS = {
   },
   {
    "q": "How would you mount the upper model on the articulator if your objective is to diagnose whether the patient has a THIOP or not?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "In maximum intercuspation, with the incisal pin at 0 mm.",
@@ -84618,7 +84618,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is meant by Fischer's angle?",
-   "c": 6,
+   "c": 5,
    "options": [
     {
      "t": "The angle formed between the Frankfurt plane and Camper's plane.",
@@ -84641,7 +84641,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following would you use to measure the inclination of the articular eminence?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The ITCP.",
@@ -84664,7 +84664,7 @@ const QUESTIONS = {
   },
   {
    "q": "How would you define the term \"occlusal interference\"?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Unwanted interocclusal contacts during mandibular closure in Centric Relation with Centric Occlusion.",
@@ -84687,7 +84687,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following contacts correspond to a group function scheme on the left side?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Contacts between the buccal cusps of the upper arch and the buccal cusps of the lower arch.",
@@ -84710,7 +84710,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is false regarding the articulators we use at our university?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "Both the Kavo and the Artex are Arcon-type articulators.",
@@ -84733,7 +84733,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following anatomical structures determines the ITCP?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The condylar neck.",
@@ -84756,7 +84756,7 @@ const QUESTIONS = {
   },
   {
    "q": "What movement does the non-working condyle describe in the horizontal plane?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Medially, downwards and forwards.",
@@ -84779,7 +84779,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the occlusal curve of the lower arch that appears concave in a sagittal view?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Spee.",
@@ -84802,7 +84802,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which movements are recorded by the Posselt diagram or the Gysi Gothic arch tracing?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Condylar movements outward and upward.",
@@ -84825,7 +84825,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the name of the posterior interocclusal contacts that occur on the side opposite to the mandibular displacement and prevent proper canine guidance?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Occlusal interferences on the working side.",
@@ -85170,7 +85170,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is one of the five recognized functions of the stomatognathic system?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Taste, that is, the gustatory perception of the food during oral function.",
@@ -85193,7 +85193,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following correctly corresponds to the components that constitute the stomatognathic system?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Teeth and their support, bones, temporomandibular joints and ligaments, muscles, and the associated nervous and vascular systems.",
@@ -85216,7 +85216,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the morphology of the mandibular condyle, which of the following descriptions is correct?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "It is oval, with an oblique axis, and measures 18–23 mm in the mediolateral (frontal) plane.",
@@ -85239,7 +85239,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following sets corresponds to the temporal bone landmarks that are relevant to the temporomandibular joint?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The articular eminence, the mandibular (glenoid) fossa and the squamotympanic fissure.",
@@ -85262,7 +85262,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements best describes the articular disc of the temporomandibular joint?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "A biconcave structure of dense fibrous connective tissue interposed between the temporal squamous portion and the condyle.",
@@ -85285,7 +85285,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the vascularization and innervation of the temporomandibular articular disc, which statement is correct?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The central part is avascular and aneural, whereas the periphery, which bears minimal load, is vascularized and innervated.",
@@ -85308,7 +85308,7 @@ const QUESTIONS = {
   },
   {
    "q": "The articular disc divides the temporomandibular joint into two cavities. Which statement correctly relates each cavity to its movement?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "The superior cavity (fossa plus upper disc surface) allows translation, and the inferior cavity (condyle plus lower disc surface) allows rotation.",
@@ -85331,7 +85331,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement correctly describes the lubrication mechanisms provided by the synovial fluid of the temporomandibular joint?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Boundary lubrication avoids friction in the moving joint, whereas weeping lubrication avoids friction in the compressed but non-moving joint.",
@@ -85354,7 +85354,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements about the capsular ligament of the temporomandibular joint is correct?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "It completely surrounds the joint, retains the synovial fluid and provides proprioception of position and movement.",
@@ -85377,7 +85377,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements about the medial (internal) pterygoid muscle is correct?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "It elevates the mandible, participates in protrusion, and its unilateral contraction produces a mediotrusive movement.",
@@ -85400,7 +85400,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the relationship between the Frankfurt plane and the Camper plane, which statement is correct?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "They diverge posteriorly and form an angle of approximately 10° between them.",
@@ -85423,7 +85423,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the classification of cranio-mandibular relations into static positions and dynamic movements, which of the following is a STATIC mandibular position?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The maximum mouth-opening position.",
@@ -85446,7 +85446,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lauritzen defined centric relation as being equivalent to which of the following mandibular relations?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "The terminal hinge (terminal hinge axis) relation.",
@@ -85469,7 +85469,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a patient with craniomandibular dysfunction (CMD), which statement about recording centric relation is correct?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It cannot be recorded accurately until a relaxation splint has pacified the neuromuscular system.",
@@ -85492,7 +85492,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the different authors' concepts of centric relation, which of the following pairings is correct?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Dawson: uppermost and medialmost condylar position, not rearmost or foremost.",
@@ -85515,7 +85515,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the muscular engram concept, under which principles does the neuromuscular system drive the mandible from centric relation to maximal intercuspation?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "The principle of minimum effort and the principle of no self-destruction.",
@@ -85538,7 +85538,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the techniques used to determine and record centric relation, which of the following is correct?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "The two-hand technique corresponds to Dawson and the one-hand technique to Ramfjord and Lauritzen.",
@@ -85561,7 +85561,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comparing the one-hand and two-hand techniques for recording centric relation, which statement is correct?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "Both are reliable, differ about 0.2 mm on average, and the two-hand technique is slightly more antero-superior.",
@@ -85584,7 +85584,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the one-hand technique for recording centric relation, which statement is correct?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "With the patient semi-sitting, slight pressure on the chin guides the mandible so it rotates around the hinge axis, which requires patient cooperation.",
@@ -85607,7 +85607,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement about anterior deprogramming devices used before recording centric relation is correct?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "The Lucia Jig, Long's leaf gauge and the Michigan splint deprogram by increasing the vertical dimension and creating an inclined plane.",
@@ -85630,7 +85630,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the material and technique for taking a centric relation record, which statement is correct?",
-   "c": 5,
+   "c": 4,
    "options": [
     {
      "t": "It is usually taken in wax at about 3 mm with the canines waxed backwards, and missing posterior support is created with record bases and wax rims.",
@@ -85653,7 +85653,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to which set of criteria are mandibular movements classified?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "By the type of movement, its direction, its range, and the presence or absence of dental contact.",
@@ -85676,7 +85676,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement about maximum mouth opening is correct?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Normal opening is about 45 ± 5 mm; below 40 mm suggests craniomandibular dysfunction and above 50 mm suggests dislocation or subluxation.",
@@ -85699,7 +85699,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a normal temporomandibular joint, which statement about the protrusive movement is correct?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Protrusion is ≥ 7 mm at tooth level and may reach 15 mm at maximum, and it is not usually reached during the masticatory cycle.",
@@ -85722,7 +85722,7 @@ const QUESTIONS = {
   },
   {
    "q": "During which of the following situations do protrusive mandibular movements occur?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "When chewing with the incisors or when pronouncing the 'S' sound.",
@@ -85768,7 +85768,7 @@ const QUESTIONS = {
   },
   {
    "q": "During a protrusive movement starting from maximum intercuspation, what path do the lower incisors follow?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "They slide downward and forward along the palatal concavities of the upper incisors until they reach an edge-to-edge position of about 5 mm.",
@@ -85791,7 +85791,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement correctly describes the sagittal inclination of the protrusive incisal trajectory (incisal guide angle)?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "It averages 50–55° to the Frankfurt plane and should be about 5° greater than the protrusive sagittal condylar path so that the anterior guidance disoccludes the posterior teeth.",
@@ -85814,7 +85814,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the outward movement of the working condyle (laterotrusion), which directional combination is the most frequent?",
-   "c": 4,
+   "c": 3,
    "options": [
     {
      "t": "Outward, backward and upward (laterosurretrusion).",
@@ -85837,7 +85837,7 @@ const QUESTIONS = {
   },
   {
    "q": "In an articulator, which description correctly matches the elements of the condylar mechanism?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "The condylar ball acts as the condyle and the condylar fossa acts as the cavity in which it moves.",
@@ -85860,7 +85860,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which clinical situation is the use of a non-adjustable articulator most appropriate?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "A fixed prosthesis of one or two posterior crowns in a patient who has good anterior guidance.",
@@ -85883,7 +85883,7 @@ const QUESTIONS = {
   },
   {
    "q": "Using the Beyron technique with an arbitrary (Snow-type) facebow such as the Dentatus, where is the arbitrary hinge axis located?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "On the tragus–canthus line, 12 mm from the posterior edge of the tragus.",
@@ -85906,7 +85906,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement correctly characterizes pantography?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It reproduces a movement remotely, recording mandibular movements in the three planes of space at both the condylar and the incisal levels.",
@@ -85929,7 +85929,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement correctly describes an advantage of the virtual articulator over the physical one?",
-   "c": 7,
+   "c": 6,
    "options": [
     {
      "t": "It eliminates the errors of plaster expansion and wax deformation, providing digital precision to the mounting.",
@@ -85952,7 +85952,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a functionally optimal occlusion, when the canine discludes the posterior teeth during a lateral (eccentric) movement, a uniform separation appears in the posterior quadrants. What are the approximate amounts of this separation on the working and non-working sides?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "About 0.5 mm on the working side and about 1 mm on the non-working side.",
@@ -85975,7 +85975,7 @@ const QUESTIONS = {
   },
   {
    "q": "An untreated prematurity produces a characteristic set of clinical consequences. Which of the following combinations is correct?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "Wear facets, vertical bone resorption on the side opposite the contacting incline, and lateral pterygoid tenderness that is generally bilateral in MIOP.",
@@ -85998,7 +85998,7 @@ const QUESTIONS = {
   },
   {
    "q": "Establishing a THIOP (coincidence of centric relation and maximum intercuspation) is not always the aim of occlusal therapy. In which of the following situations is achieving a THIOP indicated as the therapeutic goal?",
-   "c": 2,
+   "c": 7,
    "options": [
     {
      "t": "A bruxism patient undergoing a full-mouth reconstruction that increases the occlusal vertical dimension.",
@@ -118068,7 +118068,7 @@ const QUESTIONS = {
   },
   {
    "q": "After a car accident, I suspect the patient has the upper first molar impacted into the maxillary sinus. Which radiographic examination is most appropriate to confirm the diagnosis?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Cone beam computed tomography",
@@ -118091,7 +118091,7 @@ const QUESTIONS = {
   },
   {
    "q": "An anatomical radiolucent area located between the upper central incisors is:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Anterior nasal spine",
@@ -118114,7 +118114,7 @@ const QUESTIONS = {
   },
   {
    "q": "A radiolucent area in the upper maxilla could be:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Cranial fossa",
@@ -118160,7 +118160,7 @@ const QUESTIONS = {
   },
   {
    "q": "The susceptibility of cells, tissues, organs and organisms to the damaging effects of radiation is known as:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Radiodiagnosis",
@@ -118183,7 +118183,7 @@ const QUESTIONS = {
   },
   {
    "q": "What does LD 50/30 mean?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Latent dose after an acute exposure of 50 grays in 30 days",
@@ -118206,7 +118206,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a radiolucent landmark visible in the mandible on a panoramic x-ray?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Genial tubercle",
@@ -118252,7 +118252,7 @@ const QUESTIONS = {
   },
   {
    "q": "An orthopantomography (panoramic radiograph):",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "It replaces intraoral radiographs for diagnosis",
@@ -118275,7 +118275,7 @@ const QUESTIONS = {
   },
   {
    "q": "What factors may affect the radiographic appearance of caries?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "The mesiodistal width of the molars",
@@ -118321,7 +118321,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the radiographic set-up in periodontal disease:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "The use of positioners is mandatory",
@@ -118344,7 +118344,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding bone loss patterns:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Vertical loss is associated with generalized disease",
@@ -118367,7 +118367,7 @@ const QUESTIONS = {
   },
   {
    "q": "The burnout effect:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Is caused by over-developing",
@@ -118482,7 +118482,7 @@ const QUESTIONS = {
   },
   {
    "q": "In the lab where the practical sessions are carried out, the symbol on the door indicates that it is a:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Supervised area",
@@ -118505,7 +118505,7 @@ const QUESTIONS = {
   },
   {
    "q": "Periapical lesions:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Are located in the coronal area",
@@ -118528,7 +118528,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the cellular response, select the correct answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bone marrow is radiosensitive",
@@ -118551,7 +118551,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the interaction of radiation with matter, choose the correct answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The action is always harmful",
@@ -118574,7 +118574,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding radiosensitivity, choose the correct answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It is equal for all tissues",
@@ -118597,7 +118597,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct answer:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "The image quality of extraoral radiographs is higher than that of intraoral radiographs",
@@ -118620,7 +118620,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding a panoramic X-ray, choose the correct answer:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Teeth located closer to the focal trough appear smaller and out of focus",
@@ -118712,7 +118712,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a typical radiation injury?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Skin burn",
@@ -118735,7 +118735,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following cannot be visualized in the posterior maxilla?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Medial nasal concha",
@@ -118758,7 +118758,7 @@ const QUESTIONS = {
   },
   {
    "q": "We speak of direct cellular harm when radiation:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Acts on the cell's medium (water hydrolysis)",
@@ -118781,7 +118781,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the most radiosensitive organs or structures, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bone marrow is very radiosensitive",
@@ -118804,7 +118804,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the systemic response to radiation, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Atrophy, fibrosis, ulceration and necrosis are examples of late damage",
@@ -118827,7 +118827,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the response to radiation, choose TRUE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Dose and post-irradiation time have no influence",
@@ -118850,7 +118850,7 @@ const QUESTIONS = {
   },
   {
    "q": "As protection measures for personnel and patients, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Correct film processing",
@@ -118873,7 +118873,7 @@ const QUESTIONS = {
   },
   {
    "q": "As protocols to control the correct use of radiation, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The number of exposed individuals should be as high as possible",
@@ -118896,7 +118896,7 @@ const QUESTIONS = {
   },
   {
    "q": "Bone marrow syndrome, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Immunodeficiency and haemorrhages occur",
@@ -118919,7 +118919,7 @@ const QUESTIONS = {
   },
   {
    "q": "Central nervous system syndrome, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The minimum dose is 10 Gy",
@@ -118942,7 +118942,7 @@ const QUESTIONS = {
   },
   {
    "q": "Radiation sickness has the following symptoms; choose TRUE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Headache",
@@ -118965,7 +118965,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the effects of radiation on a pregnant woman, choose TRUE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "There may be abnormalities at birth",
@@ -118988,7 +118988,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding action mechanisms, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The dose-response relationship affects the complex chromosomal aberrations",
@@ -119011,7 +119011,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding acute radiation syndrome (ARS), choose TRUE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Stage 1 or prodromal: vomiting, nausea and diarrhoea occur",
@@ -119034,7 +119034,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding gastrointestinal (GI) syndrome, choose TRUE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Low mortality risk",
@@ -119057,7 +119057,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding radiosensitivity, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Cell involvement depends on the cell-cycle stage and its repair capacity",
@@ -119080,7 +119080,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the late effects of radiation, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Somatic effects: they affect the health of the exposed individual",
@@ -119103,7 +119103,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding work-zone codes, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "In the surveillance (guarded) area, one is most likely to receive 1/10 of the dose limit and not 3/10",
@@ -119126,7 +119126,7 @@ const QUESTIONS = {
   },
   {
    "q": "Stochastic and deterministic effects, choose FALSE:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The probabilistic effect, also called stochastic, increases the probability of occurrence depending on the absorbed dose",
@@ -119149,7 +119149,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding dose limits, choose the TRUE statement:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The public should not exceed an effective dose of 5 mSv/year, which should be reduced to 1 mSv/year",
@@ -119172,7 +119172,7 @@ const QUESTIONS = {
   },
   {
    "q": "The Spanish bodies and legislation intended to enforce radiation regulation are — choose the FALSE one:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The central State administration",
@@ -119195,7 +119195,7 @@ const QUESTIONS = {
   },
   {
    "q": "We must limit the dose for exposed personnel — choose the FALSE statement:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Women should not exceed 13 mSv per trimester",
@@ -119218,7 +119218,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is radiobiology? Choose the FALSE statement:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It studies probabilistic phenomena",
@@ -119287,7 +119287,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct answer regarding stochastic effects:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "They are not probabilistic",
@@ -119333,7 +119333,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the incorrect statement regarding the radiographic appearance of caries:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "At least 50% demineralization is needed to show tooth decay",
@@ -119356,7 +119356,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is a cervical burn-out?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Tooth decay in the neck (cervical) area",
@@ -119379,7 +119379,7 @@ const QUESTIONS = {
   },
   {
    "q": "On an orthopantomogram, if the patient's teeth are located in front of the focal trough, they will appear:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "With a decreased mesiodistal diameter",
@@ -119402,7 +119402,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is not an advantage of the CBCT technique?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Greater comfort for the patient",
@@ -119425,7 +119425,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct answer regarding radiographic images in periodontal disease:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Bone resorption is always horizontal",
@@ -119448,7 +119448,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the mechanism of action of radiation, choose the correct answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Direct action occurs when a photon interacts with a biological molecule, transferring its energy to DNA, RNA, enzymes, etc.",
@@ -119494,7 +119494,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following syndromes has the worst prognosis for the patient?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bone marrow syndrome",
@@ -119563,7 +119563,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding errors in radiographs, choose the correct answer:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "A problem with the angulation of the cone produces \"cone cutting\"",
@@ -119701,7 +119701,7 @@ const QUESTIONS = {
   },
   {
    "q": "A normal radiolucent area located between the upper central incisors is:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Anterior nasal spine",
@@ -119770,7 +119770,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the deterministic effect, choose the incorrect answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It is also known as non-stochastic",
@@ -119816,7 +119816,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is not a basic principle of radiological protection?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Justification",
@@ -119862,7 +119862,7 @@ const QUESTIONS = {
   },
   {
    "q": "The radiation dose absorbed after 4 bitewings with conventional (D-speed) films is:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "0.001 mSv",
@@ -119885,7 +119885,7 @@ const QUESTIONS = {
   },
   {
    "q": "The dose required to produce a gastrointestinal syndrome is:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "More than 2 Gy",
@@ -119977,7 +119977,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following protective measures is used in radiology?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Distance",
@@ -120023,7 +120023,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is not a basic protection measure?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Distance",
@@ -120253,7 +120253,7 @@ const QUESTIONS = {
   },
   {
    "q": "What does ALARA stand for?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "As long as reasonably achievable",
@@ -120437,7 +120437,7 @@ const QUESTIONS = {
   },
   {
    "q": "Stochastic effects are:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The damaging effects that always result from a certain high dose of radiation.",
@@ -120460,7 +120460,7 @@ const QUESTIONS = {
   },
   {
    "q": "An example of a stochastic effect is:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Leukemia",
@@ -120598,7 +120598,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the incorrect answer regarding the radiographic appearance of cavities:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "We need at least 50% demineralization to detect tooth decay",
@@ -120621,7 +120621,7 @@ const QUESTIONS = {
   },
   {
    "q": "On an orthopantomography (panoramic radiograph), if the patient's teeth are located in front of (anterior to) the focal trough, they will appear:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "With a decreased mesio-distal diameter",
@@ -120644,7 +120644,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct answer regarding radiological images in periodontal disease:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Bone resorption is always horizontal",
@@ -120667,7 +120667,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding errors in radiography, choose the correct answer:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "A problem with the angulation of the cone produces \"cone cutting\"",
@@ -120713,7 +120713,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the cellular response to radiation, choose the CORRECT answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bone marrow is very radiosensitive.",
@@ -120759,7 +120759,7 @@ const QUESTIONS = {
   },
   {
    "q": "About radiosensitivity:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It is equal for all tissues.",
@@ -120828,7 +120828,7 @@ const QUESTIONS = {
   },
   {
    "q": "About radiographic caries, choose the TRUE statement:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "The degree of penetration of a carious lesion is deeper clinically than radiographically.",
@@ -120851,7 +120851,7 @@ const QUESTIONS = {
   },
   {
    "q": "Radiation should be limited to:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The greatest possible number of persons.",
@@ -120897,7 +120897,7 @@ const QUESTIONS = {
   },
   {
    "q": "A normal radiolucent area between the upper central incisors can be described as:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Anterior nasal spine.",
@@ -120920,7 +120920,7 @@ const QUESTIONS = {
   },
   {
    "q": "Among the following anatomical landmarks, which appears as a radiolucent image in the upper maxilla? Choose the CORRECT answer:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Maxillary sinus.",
@@ -120943,7 +120943,7 @@ const QUESTIONS = {
   },
   {
    "q": "The susceptibility of cells, tissues, organs or organisms to the harmful effect of radiation is called:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Radiodiagnosis.",
@@ -120966,7 +120966,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out which of the following statements is FALSE:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "We consider an \"inverted smile\" when the patient is positioned with the Frankfort plane facing upwards.",
@@ -120989,7 +120989,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a TRUE radiolucent image in the lower jaw (mandible)?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Inferior dental nerve (mandibular canal).",
@@ -121012,7 +121012,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is considered a stochastic effect?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Cancer.",
@@ -121035,7 +121035,7 @@ const QUESTIONS = {
   },
   {
    "q": "About the cervical burnout effect:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "It is produced when the film is exposed to the developer for a long time.",
@@ -121150,7 +121150,7 @@ const QUESTIONS = {
   },
   {
    "q": "The object-shift technique, or Clark's technique, is used to locate all of the following structures except:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Salivary stones.",
@@ -121173,7 +121173,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the interpretation protocol for periapical x-rays, choose the FALSE answer:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "You must locate the dental structures.",
@@ -121196,7 +121196,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding protection measures, choose the FALSE answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Classify the worker.",
@@ -121242,7 +121242,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the non-stochastic (deterministic) effect, choose the FALSE answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It does not need a threshold dose.",
@@ -121265,7 +121265,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the cone-cutting phenomenon, choose the CORRECT answer:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "It only happens when taking periapical radiographs.",
@@ -121334,7 +121334,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the orthopantomogram (also called panoramic X-ray), choose the FALSE statement:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "It is the complementary radiological test of choice for a general diagnosis of the patient.",
@@ -121495,7 +121495,7 @@ const QUESTIONS = {
   },
   {
    "q": "Choose the correct answer regarding the following syndromes and the amount of radiation needed to produce them:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bone marrow syndrome — 10 Gy.",
@@ -121518,7 +121518,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the International System (SI) unit used to measure absorbed dose?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Rem.",
@@ -121564,7 +121564,7 @@ const QUESTIONS = {
   },
   {
    "q": "The supervised area is marked with which color?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Grey.",
@@ -121587,7 +121587,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the cellular response, choose the TRUE statement:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bone marrow is radiosensitive.",
@@ -121610,7 +121610,7 @@ const QUESTIONS = {
   },
   {
    "q": "An orthopantomogram (panoramic radiograph):",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "It replaces intraoral radiographs for diagnosis.",
@@ -121633,7 +121633,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which factors may affect the radiographic appearance of caries?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "The molar's mesiodistal width.",
@@ -121656,7 +121656,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the radiographic series (assembly) in periodontal disease:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "The use of positioners is mandatory.",
@@ -121748,7 +121748,7 @@ const QUESTIONS = {
   },
   {
    "q": "In the laboratory where the practical sessions are held, a symbol on the door indicates that it is an area classified as:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Supervised area.",
@@ -121771,7 +121771,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which structure cannot be visualized in the posterior maxilla?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Middle nasal concha.",
@@ -121794,7 +121794,7 @@ const QUESTIONS = {
   },
   {
    "q": "We refer to direct damage to the cell when:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It acts on the cell's medium (hydrolysis of water).",
@@ -121817,7 +121817,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which anatomical structure appears as a radiolucent zone in the mandible?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Maxillary sinus",
@@ -121932,7 +121932,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the 'petit mal' form of radiation sickness (acute radiation syndrome), indicate the correct statement:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It can be seen in patients who are not fitted with a lead apron.",
@@ -121955,7 +121955,7 @@ const QUESTIONS = {
   },
   {
    "q": "The supervised (surveillance) area is marked with a coloured trefoil (clover symbol):",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Yellow",
@@ -121978,7 +121978,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "A threshold dose is necessary to produce stochastic effects such as skin cancer.",
@@ -122024,7 +122024,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the bitewing technique, mark the incorrect statement:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "It is used for interproximal radiographs.",
@@ -122116,7 +122116,7 @@ const QUESTIONS = {
   },
   {
    "q": "A normal radiopaque line between the upper central incisors may correspond to:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Anterior nasal spine.",
@@ -122139,7 +122139,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following anatomical structures is seen as a radiolucent image in the maxilla?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Maxillary sinus floor.",
@@ -122162,7 +122162,7 @@ const QUESTIONS = {
   },
   {
    "q": "A periapical radiograph shows an overexposure error. What should have been done to avoid this mistake?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Increase the kilovoltage.",
@@ -122185,7 +122185,7 @@ const QUESTIONS = {
   },
   {
    "q": "On a panoramic radiograph, the teeth appear out of focus because (mark the correct one):",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "The Frankfort plane had a downward inclination.",
@@ -122392,7 +122392,7 @@ const QUESTIONS = {
   },
   {
    "q": "Bitewing radiographs are used to:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Evaluate periapical cysts",
@@ -122415,7 +122415,7 @@ const QUESTIONS = {
   },
   {
    "q": "A patient comes to the dental clinic with severe pain in the upper right molar area. After the clinical examination reveals nothing abnormal, you decide to take a radiograph. Which would be the most appropriate?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Panoramic radiograph to view both arches.",
@@ -122438,7 +122438,7 @@ const QUESTIONS = {
   },
   {
    "q": "A conventional radiograph can appear very light due to:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "A short exposure time",
@@ -122461,7 +122461,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate the correct statement regarding the following syndromes and the doses needed to produce them:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bone marrow syndrome, 10 Gy",
@@ -122484,7 +122484,7 @@ const QUESTIONS = {
   },
   {
    "q": "Royal Decree 2519/1982 states that:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The number of people exposed to radiation must be kept to a minimum.",
@@ -122553,7 +122553,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the correct statement regarding the radiographic appearance of dental caries.",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Incorrect beam angulation can hide recurrent caries.",
@@ -122622,7 +122622,7 @@ const QUESTIONS = {
   },
   {
    "q": "A rounded radiolucent image located in the apical region of the mandibular premolars can be seen on periapical intraoral X-rays. Which anatomical landmark does it correspond to?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Mandibular foramen",
@@ -122645,7 +122645,7 @@ const QUESTIONS = {
   },
   {
    "q": "On a panoramic X-ray, the right ramus of the mandible appears larger than the left. What could be the cause?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "The patient was positioned with the Frankfort plane tilted downward.",
@@ -122714,7 +122714,7 @@ const QUESTIONS = {
   },
   {
    "q": "After taking a periapical X-ray of tooth 3.5, a radiolucent image is observed in the cervical area. This image disappears when a second X-ray is taken. What is it?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Cyst",
@@ -122737,7 +122737,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a characteristic radiation injury?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Skin burn",
@@ -122806,7 +122806,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indicate which of the following systems or organs is the most radioresistant:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Skin",
@@ -122852,7 +122852,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the effective annual dose limit for the public?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "13 mSv",
@@ -122875,7 +122875,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the biological response to radiation, point out the correct answer:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The lesions are characteristic.",
@@ -122898,7 +122898,7 @@ const QUESTIONS = {
   },
   {
    "q": "When a panoramic x-ray is taken, the teeth appear out of focus and small. What mistake can this be due to?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "The Frankfort plane is tilted",
@@ -122944,7 +122944,7 @@ const QUESTIONS = {
   },
   {
    "q": "After taking a periapical X-ray of the upper central incisors, you notice that it is very dark and you have to repeat it. Which parameter can be modified?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Milliamperage (mA)",
@@ -122990,7 +122990,7 @@ const QUESTIONS = {
   },
   {
    "q": "The radiological term used to describe a radiolucent image surrounding the apex of a tooth is:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Periapical image",
@@ -123013,7 +123013,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following factors affect the radiographic appearance of caries?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "All of the answers are correct",
@@ -123036,7 +123036,7 @@ const QUESTIONS = {
   },
   {
    "q": "Point out the correct statement.",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "In a CBCT, the X-ray dose received by the patient is higher than with a conventional CT scan.",
@@ -123059,7 +123059,7 @@ const QUESTIONS = {
   },
   {
    "q": "After taking a periapical x-ray, it is noticed that the central incisors appear elongated. How can this error be corrected?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Decreasing the vertical angulation of the beam",
@@ -123128,7 +123128,7 @@ const QUESTIONS = {
   },
   {
    "q": "If a dental office has an intraoral X-ray unit, which warning sign (blue-gray) should be placed on the door?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Limited-stay area",
@@ -123151,7 +123151,7 @@ const QUESTIONS = {
   },
   {
    "q": "When the vertical angulation is increased in an intraoral x-ray, what error will occur?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Tooth shortening (foreshortening)",
@@ -123197,7 +123197,7 @@ const QUESTIONS = {
   },
   {
    "q": "What are the equivalent dose limits for a member of the public in a monitored area?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Crystalline lens: 15 mSv/year - Skin: 50 mSv/year.",
@@ -123220,7 +123220,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct statement:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Regeneration is the process by which damaged cells are replaced by cells of a different type.",
@@ -123266,7 +123266,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a panoramic x-ray, one side of the mandibular ramus may appear larger than the other because:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "The patient has facial asymmetry.",
@@ -123289,7 +123289,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the main pathology that can be produced by the stochastic effects of ionizing radiation?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Blindness",
@@ -123358,7 +123358,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the bitewing technique, point out the incorrect answer:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "It is used to take interproximal radiographs.",
@@ -123473,7 +123473,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following normal anatomical landmarks corresponds to a slightly radiolucent area between the upper central incisors?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "A periapical resorption",
@@ -123542,7 +123542,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following techniques is essential to locate an object on an intraoral X-ray?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "LeMaster technique",
@@ -123565,7 +123565,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements is true regarding X-ray exposure?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "An overexposed radiograph is darker than usual",
@@ -123588,7 +123588,7 @@ const QUESTIONS = {
   },
   {
    "q": "Cervical burnout is:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "A radiopaque area at the neck of the tooth",
@@ -123657,7 +123657,7 @@ const QUESTIONS = {
   },
   {
    "q": "A cell is more radiosensitive:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "the lower its mitotic activity.",
@@ -123680,7 +123680,7 @@ const QUESTIONS = {
   },
   {
    "q": "Deterministic effects are related to:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "cell lethality",
@@ -123703,7 +123703,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the American Dental Association guidelines, which radiographs should be taken in primary dentition patients with closed proximal contacts?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "CBCT",
@@ -123726,7 +123726,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the American Dental Association guidelines, if an adult patient at a first visit has evidence of generalized oral disease or a history of extensive dental treatment, what should be done?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "CBCT",
@@ -123772,7 +123772,7 @@ const QUESTIONS = {
   },
   {
    "q": "How often is dose control performed in a monitored area?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Once a year",
@@ -123818,7 +123818,7 @@ const QUESTIONS = {
   },
   {
    "q": "Radiation damage to the cell is direct when:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Its action is on the medium (hydrolysis of water)",
@@ -123956,7 +123956,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the radiographic distance between the cemento-enamel junction and the alveolar crest, which of these is normal?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "4 to 4.5 mm",
@@ -123979,7 +123979,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the deterministic effect:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Ionizing radiation produces a definite effect above a threshold dose.",
@@ -124002,7 +124002,7 @@ const QUESTIONS = {
   },
   {
    "q": "After a car accident, we suspect that a patient has an avulsed tooth. Which radiographic examination would be performed to confirm the diagnosis?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Cone beam computed tomography (CBCT).",
@@ -124025,7 +124025,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding cephalometry:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "It emits 10 times more radiation to the patient than a periapical radiograph.",
@@ -124048,7 +124048,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following radiological examinations is best for assessing the soft-tissue profile of the face?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "CBCT.",
@@ -124094,7 +124094,7 @@ const QUESTIONS = {
   },
   {
    "q": "Positioning the Frankfort plane upwards on a panoramic radiograph:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Produces elongation of the lateral incisors.",
@@ -124117,7 +124117,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following anatomical structures appears as a radiolucent image on an orthopantomogram?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Mandibular canal.",
@@ -124140,7 +124140,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the SI unit used to measure the absorbed dose?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Rem",
@@ -124163,7 +124163,7 @@ const QUESTIONS = {
   },
   {
    "q": "Radiation damage to the cell is direct when it:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Acts on the medium (hydrolysis of water).",
@@ -124186,7 +124186,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the extent of a cavity (caries):",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "It is not always necessary to perform a periapical radiograph.",
@@ -124255,7 +124255,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the response to radiation:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The bone marrow is very radiosensitive.",
@@ -124324,7 +124324,7 @@ const QUESTIONS = {
   },
   {
    "q": "Tooth overlapping is caused by:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Using the parallelizer.",
@@ -124347,7 +124347,7 @@ const QUESTIONS = {
   },
   {
    "q": "What technology is used in CBCT (Cone Beam Computed Tomography)?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Benzene gamma rays.",
@@ -124370,7 +124370,7 @@ const QUESTIONS = {
   },
   {
    "q": "How is the object-shift (Clark) technique performed?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "By fixing the spatial location of an object.",
@@ -124393,7 +124393,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the annual dose limit for the skin of the general public?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "50 mSv.",
@@ -124416,7 +124416,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is the most radiosensitive?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Lymphocyte.",
@@ -124508,7 +124508,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following are objectives of the periapical radiograph reading protocol?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "To identify the radiographed tooth.",
@@ -124531,7 +124531,7 @@ const QUESTIONS = {
   },
   {
    "q": "What diagnostic problems can the burn-out effect cause?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Failing to see the roots of a wisdom tooth correctly, complicating the extraction.",
@@ -124554,7 +124554,7 @@ const QUESTIONS = {
   },
   {
    "q": "With which colour trefoil (clover) is the surveillance area marked?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bluish-grey.",
@@ -124577,7 +124577,7 @@ const QUESTIONS = {
   },
   {
    "q": "What affects the radiographic appearance of caries?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Bucco-lingual width.",
@@ -124600,7 +124600,7 @@ const QUESTIONS = {
   },
   {
    "q": "The silicon chip from which the images are obtained in CBCT is divided into portions called:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Voxels.",
@@ -124807,7 +124807,7 @@ const QUESTIONS = {
   },
   {
    "q": "In the X-ray room located inside the University's practice laboratory there is a triangular sign. Which type of area does it indicate?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Surveillance Area.",
@@ -124830,7 +124830,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which basic principle of radiation protection involves using radiation as low as possible?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Justification.",
@@ -124922,7 +124922,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the annual dose limit for the crystalline lens in exposed workers?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "50 mSv.",
@@ -124945,7 +124945,7 @@ const QUESTIONS = {
   },
   {
    "q": "What are the early forms of radiation damage during the healing stage?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Inflammation, edema, and hemorrhage.",
@@ -124968,7 +124968,7 @@ const QUESTIONS = {
   },
   {
    "q": "The definition \"use radiation as low as possible (ALARA = as low as reasonably achievable)\" corresponds to which principle of radiation protection?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Limitation.",
@@ -125014,7 +125014,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the position of the film when taking a bitewing radiograph, mark the correct answer.",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "The film is placed at the level of tooth 6.",
@@ -125083,7 +125083,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which anatomical landmark is not visible on an upper occlusal radiograph?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Hard palate.",
@@ -125106,7 +125106,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding errors on a radiograph, mark the correct answer.",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "A cone alignment problem produces a radiolucent image called a \"cone cut\".",
@@ -125175,7 +125175,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding radiosensitivity:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It is the same for all tissues",
@@ -125198,7 +125198,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the panoramic x-ray, mark the correct answer:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Teeth in front of the focal trough appear out of focus and small",
@@ -125267,7 +125267,7 @@ const QUESTIONS = {
   },
   {
    "q": "On a panoramic x-ray, the mandibular ramus on one side may appear larger than the ramus on the other side because of:",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "The patient has tilted the head downwards (with respect to the axial plane)",
@@ -125290,7 +125290,7 @@ const QUESTIONS = {
   },
   {
    "q": "A radiopaque image of bone density on a panoramic x-ray, located below the mandibular ridge on both sides or at the mandibular symphysis, may be:",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Lingual foramen",
@@ -125382,7 +125382,7 @@ const QUESTIONS = {
   },
   {
    "q": "The supervised area is marked with a trefoil of which colour?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Bluish-gray.",
@@ -125405,7 +125405,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the radiographic appearance of caries, choose the INCORRECT statement.",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "At least 50% demineralization is needed to detect the carious lesion on a radiograph.",
@@ -125451,7 +125451,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is not a characteristic of the medical record?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "The healthcare personnel must be identifiable (each clinical act must identify the person who performs it).",
@@ -125474,7 +125474,7 @@ const QUESTIONS = {
   },
   {
    "q": "What should the dentist do on a patient's first visit? (Choose the INCORRECT one)",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Review the health questionnaire with the patient.",
@@ -125497,7 +125497,7 @@ const QUESTIONS = {
   },
   {
    "q": "An adult patient presents with clinical evidence of generalized oral disease or a history of treatment. Which radiological examination should be performed?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Panoramic radiography.",
@@ -125520,7 +125520,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which radiological examination should we perform in a teenager at high risk of caries when a check-up is carried out?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Annual CBCT.",
@@ -125543,7 +125543,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mark the correct option regarding the dose limits for the public:",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Effective dose 50 mSv.",
@@ -125566,7 +125566,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is incorrect?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "An 'inverted smile' occurs when the patient has been positioned with the Frankfort plane tilted upward.",
@@ -125819,7 +125819,7 @@ const QUESTIONS = {
   },
   {
    "q": "In which clinical situation is a hand (carpal) radiograph mainly indicated?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "In orthodontics and forensic dentistry, to assess age and skeletal growth.",
@@ -125957,7 +125957,7 @@ const QUESTIONS = {
   },
   {
    "q": "What is the aim of the ICRP dose limitation system?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "To avoid deterministic effects and limit the probability of stochastic effects.",
@@ -125980,7 +125980,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement correctly describes the individual dose?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "It is the dose received by a specific person, measured with a personal dosimeter and expressed as Hp(d).",
@@ -126003,7 +126003,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the function of the different dose limits, which statement is correct?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Effective dose limits reduce the long-term stochastic risk, while equivalent dose limits prevent deterministic damage.",
@@ -126095,7 +126095,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which description of a dental trauma type is correct?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Intrusion is the displacement of the tooth into the alveolar bone, deeper into the socket.",
@@ -126118,7 +126118,7 @@ const QUESTIONS = {
   },
   {
    "q": "In mixed dentition (after eruption of the permanent teeth), which radiographic combination is indicated to assess dental development and craniofacial trauma?",
-   "c": 6,
+   "c": 4,
    "options": [
     {
      "t": "Bitewing radiographs combined with a panoramic radiograph.",
@@ -126141,7 +126141,7 @@ const QUESTIONS = {
   },
   {
    "q": "OPG (panoramic) errors are classified into five groups. Which of the following is one of those groups?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Errors due to patient motion during the exposure.",
@@ -126164,7 +126164,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a recognized artifact on a panoramic radiograph (OPG)?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Ghost image produced by a metallic earring worn by the patient.",
@@ -126187,7 +126187,7 @@ const QUESTIONS = {
   },
   {
    "q": "When taking a lateral cephalometric radiograph, how should the patient be positioned?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "In the cephalostat with the Frankfort plane parallel to the floor and the sagittal plane perpendicular to the beam, in maximum intercuspation.",
@@ -126210,7 +126210,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement about computed tomography (CT) is correct?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "The source and detectors rotate 360 degrees around the patient, producing a density map used for TMJ evaluation and implant planning.",
@@ -126233,7 +126233,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which approximate CT radiation dose is correctly matched to its anatomical region?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Mandible: approximately 0.36-1.2 mSv.",
@@ -126256,7 +126256,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the consequences of the direct action of ionizing radiation on DNA, which lesion is the most serious because it is difficult to repair and is frequently lethal to the cell?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "The double-strand break, affecting both strands of the DNA molecule",
@@ -126279,7 +126279,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following deterministic effects is correctly paired with its approximate threshold dose?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Cataract of the eye lens — about 2 Gy",
@@ -126302,7 +126302,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the ICRP, what is the annual effective dose limit established for students aged 16 to 18 years?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "6 mSv per year",
@@ -126325,7 +126325,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the classification of occupationally exposed workers in radiology, which statement is correct?",
-   "c": 5,
+   "c": 6,
    "options": [
     {
      "t": "Dentists are Category B workers, very unlikely to exceed 6 mSv per year",
@@ -136702,7 +136702,7 @@ const QUESTIONS = {
   },
   {
    "q": "Alloy which presents poor malleability:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Stainless steel.",
@@ -136725,7 +136725,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dental implants used in the dental clinic:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Are difficult to clean even if the patient is well informed by the dentist.",
@@ -136748,7 +136748,7 @@ const QUESTIONS = {
   },
   {
    "q": "In dentistry, steel is NOT used for:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Clinical instruments.",
@@ -136817,7 +136817,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding dental biomaterials, which is TRUE:",
-   "c": 15,
+   "c": 2,
    "options": [
     {
      "t": "The materials used in the dental laboratory are not considered biomaterials.",
@@ -136840,7 +136840,7 @@ const QUESTIONS = {
   },
   {
    "q": "To use a biomaterial adequately, we must:",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Consider only the chemical and biological properties.",
@@ -136863,7 +136863,7 @@ const QUESTIONS = {
   },
   {
    "q": "An example of a hydrocolloid material is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Alginate.",
@@ -136909,7 +136909,7 @@ const QUESTIONS = {
   },
   {
    "q": "An advantage of the sintering process is:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "An increase in weight.",
@@ -136955,7 +136955,7 @@ const QUESTIONS = {
   },
   {
    "q": "The hybrid layer is composed of:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Adhesive and composite resin.",
@@ -136978,7 +136978,7 @@ const QUESTIONS = {
   },
   {
    "q": "Biological adhesion takes place between:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "An implant and bone tissue.",
@@ -137001,7 +137001,7 @@ const QUESTIONS = {
   },
   {
    "q": "The creation of microretentions in the tooth enamel to obtain chemical adhesion is done with:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Orthophosphoric acid.",
@@ -137024,7 +137024,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the intermediate tests performed on a material, which is CORRECT:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "They are performed on animals.",
@@ -137047,7 +137047,7 @@ const QUESTIONS = {
   },
   {
    "q": "One of the polymerization phases of polymeric materials is:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Conduction.",
@@ -137093,7 +137093,7 @@ const QUESTIONS = {
   },
   {
    "q": "The substance used to hermetically close the interface between material and material, or between tooth and material, is:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Sealant.",
@@ -137116,7 +137116,7 @@ const QUESTIONS = {
   },
   {
    "q": "Metallic materials are:",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Soluble in water.",
@@ -137139,7 +137139,7 @@ const QUESTIONS = {
   },
   {
    "q": "Hydrargyrism is intoxication by:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Lead.",
@@ -137162,7 +137162,7 @@ const QUESTIONS = {
   },
   {
    "q": "Completely insoluble metallic alloys are:",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Of a single phase.",
@@ -137185,7 +137185,7 @@ const QUESTIONS = {
   },
   {
    "q": "When mixing alginate hydrocolloid:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "The dosage must be estimated roughly according to the quantity the patient requires.",
@@ -137208,7 +137208,7 @@ const QUESTIONS = {
   },
   {
    "q": "The impression material whose heavy body cannot be mixed while wearing latex gloves is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Polyether.",
@@ -137231,7 +137231,7 @@ const QUESTIONS = {
   },
   {
    "q": "Polysulfides:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Undergo an endothermic reaction.",
@@ -137254,7 +137254,7 @@ const QUESTIONS = {
   },
   {
    "q": "A characteristic of a good impression is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "It is centred.",
@@ -137300,7 +137300,7 @@ const QUESTIONS = {
   },
   {
    "q": "Noble metals used in dentistry are:",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Gold, silver, and palladium.",
@@ -137323,7 +137323,7 @@ const QUESTIONS = {
   },
   {
    "q": "The mixed silver amalgam is placed into the tooth cavity by means of:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "A plastic instrument.",
@@ -137438,7 +137438,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding adhesives, which is the CORRECT answer:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "They are very dense substances.",
@@ -137461,7 +137461,7 @@ const QUESTIONS = {
   },
   {
    "q": "When mixing alginate hydrocolloid, we must:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "First add the powder and then the water.",
@@ -137484,7 +137484,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding chrome-nickel alloys, which is the CORRECT answer:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "It is an alloy that presents great malleability.",
@@ -137507,7 +137507,7 @@ const QUESTIONS = {
   },
   {
    "q": "The primary-level or initial tests in the evaluation of materials are done on:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Humans.",
@@ -137530,7 +137530,7 @@ const QUESTIONS = {
   },
   {
    "q": "In crystallization systems, dislocations are:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Interstitial defects.",
@@ -137553,7 +137553,7 @@ const QUESTIONS = {
   },
   {
    "q": "A hydrogel consists of:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Water that tends toward a gel state.",
@@ -137576,7 +137576,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which is the CORRECT answer regarding the wettability (humectancy) of a solid:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "The greater the contact angle, the greater the wettability.",
@@ -137622,7 +137622,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the hardness of a material, which is FALSE:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "An example of a durometer is the Gillmore.",
@@ -137645,7 +137645,7 @@ const QUESTIONS = {
   },
   {
    "q": "Material which undergoes thermal hysteresis:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Impression compound (godiva).",
@@ -137668,7 +137668,7 @@ const QUESTIONS = {
   },
   {
    "q": "The maximum stress to which a material can be subjected without losing the proportionality between stress and deformation is:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Tenacity.",
@@ -137737,7 +137737,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding titanium, which is the CORRECT answer:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "It oxidises and corrodes very easily.",
@@ -137783,7 +137783,7 @@ const QUESTIONS = {
   },
   {
    "q": "Stainless steel is composed of:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Iron and copper.",
@@ -137806,7 +137806,7 @@ const QUESTIONS = {
   },
   {
    "q": "A biological property of biomaterials is:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Toxicity.",
@@ -137898,7 +137898,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which impression material has an unpleasant smell and taste:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Alginate hydrocolloid.",
@@ -137967,7 +137967,7 @@ const QUESTIONS = {
   },
   {
    "q": "Ductility is the plastic deformation of a material produced by:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Tangential forces.",
@@ -137990,7 +137990,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dyschromatopsia is:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "The observer cannot distinguish red from green.",
@@ -138013,7 +138013,7 @@ const QUESTIONS = {
   },
   {
    "q": "When percolation takes place, we say that:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "The enamel-dentine junction is intact and filled with fluorapatite.",
@@ -138036,7 +138036,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the Type II etching pattern that occurs in enamel, we find:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Demineralization of the centre of the prism with the periphery left intact.",
@@ -138059,7 +138059,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the biomaterials used in dentistry, which is the CORRECT answer:",
-   "c": 15,
+   "c": 2,
    "options": [
     {
      "t": "They are used in every dental treatment, in both direct (clinical) and indirect (laboratory) practice.",
@@ -138082,7 +138082,7 @@ const QUESTIONS = {
   },
   {
    "q": "The clinical trials performed in the specific tests for the evaluation of materials must be:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Performed only on sick patients.",
@@ -138105,7 +138105,7 @@ const QUESTIONS = {
   },
   {
    "q": "An advantage of polymeric materials is:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Their slow aging.",
@@ -138128,7 +138128,7 @@ const QUESTIONS = {
   },
   {
    "q": "Acid used for the chemical etching of dental tissues when performing a composite resin filling:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Maleic acid.",
@@ -138151,7 +138151,7 @@ const QUESTIONS = {
   },
   {
    "q": "Ceramic materials:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Are the most stable.",
@@ -138174,7 +138174,7 @@ const QUESTIONS = {
   },
   {
    "q": "Hydrargyrism is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Intoxication by nickel.",
@@ -138220,7 +138220,7 @@ const QUESTIONS = {
   },
   {
    "q": "Completely soluble (solid solution) metallic alloys are characterized by:",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Atoms being unable to mix within the grain.",
@@ -138289,7 +138289,7 @@ const QUESTIONS = {
   },
   {
    "q": "One use of stainless steel in dentistry is:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "As a material for bone grafts.",
@@ -138312,7 +138312,7 @@ const QUESTIONS = {
   },
   {
    "q": "What happens when a silver amalgam contains a lower amount of mercury in its composition:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "\"Creep\" occurs faster.",
@@ -138358,7 +138358,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which impression material requires special equipment with three compartments:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Addition silicone.",
@@ -138404,7 +138404,7 @@ const QUESTIONS = {
   },
   {
    "q": "In dentistry, which unit is used to measure pressure/stress:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Kelvin (K).",
@@ -138427,7 +138427,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the classification of materials by their nature, gutta-percha is classified as:",
-   "c": 15,
+   "c": 2,
    "options": [
     {
      "t": "Organic and natural",
@@ -138450,7 +138450,7 @@ const QUESTIONS = {
   },
   {
    "q": "In the classification of materials by their origin, a biologic material is one of:",
-   "c": 15,
+   "c": 2,
    "options": [
     {
      "t": "Animal origin",
@@ -138473,7 +138473,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to the classification of materials by composition, a 'combined' material is one formed by:",
-   "c": 15,
+   "c": 2,
    "options": [
     {
      "t": "Two mixed materials",
@@ -138496,7 +138496,7 @@ const QUESTIONS = {
   },
   {
    "q": "Malleability is the plastic deformation of a material produced by:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Compressive forces",
@@ -138519,7 +138519,7 @@ const QUESTIONS = {
   },
   {
    "q": "Resilience of a material is defined as the:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Energy accumulated during elastic deformation",
@@ -138542,7 +138542,7 @@ const QUESTIONS = {
   },
   {
    "q": "The diametric compression test (Brazilian test) is used to measure a material's resistance to:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Indirect traction",
@@ -138565,7 +138565,7 @@ const QUESTIONS = {
   },
   {
    "q": "During a flexion (bending) test, the material is subjected simultaneously to:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Compression and traction",
@@ -138588,7 +138588,7 @@ const QUESTIONS = {
   },
   {
    "q": "A single, specific temperature at which a material passes from solid to liquid (fusion point) is characteristic of:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Pure metals",
@@ -138611,7 +138611,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which material has a low density (0-1 g/cm3), so that it floats on water?",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Wax",
@@ -138634,7 +138634,7 @@ const QUESTIONS = {
   },
   {
    "q": "The colour parameter that indicates the quantity of grey pigment is:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Value",
@@ -138657,7 +138657,7 @@ const QUESTIONS = {
   },
   {
    "q": "The coefficient of linear thermal expansion (CELT) of a material indicates:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "How much it expands after being heated",
@@ -138680,7 +138680,7 @@ const QUESTIONS = {
   },
   {
    "q": "The galvanic (stack) effect in the oral cavity is produced when:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Two metals contact each other in the presence of saliva (electrolyte)",
@@ -138703,7 +138703,7 @@ const QUESTIONS = {
   },
   {
    "q": "The property opposite to tenacity (toughness), describing a material that fractures easily, is:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Fragility.",
@@ -138726,7 +138726,7 @@ const QUESTIONS = {
   },
   {
    "q": "Compared with larger particles, the use of nanoparticles in a dental material provides:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Better polish and greater aesthetics.",
@@ -138749,7 +138749,7 @@ const QUESTIONS = {
   },
   {
    "q": "The temperature at which certain polymers change from ductile to hard and brittle, without passing through a liquid state, is the:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Glass (vitreous) transition temperature.",
@@ -138772,7 +138772,7 @@ const QUESTIONS = {
   },
   {
    "q": "The most frequent type of reflection, occurring on surfaces that are not 100% polished and giving a diffused, less aesthetic appearance, is:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Disseminated reflection.",
@@ -138795,7 +138795,7 @@ const QUESTIONS = {
   },
   {
    "q": "The application of electrolysis known as descaling consists of:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Removing the oxide layer from a metal.",
@@ -138818,7 +138818,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following materials has an amorphous (non-crystalline) internal structure?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Porcelain.",
@@ -138841,7 +138841,7 @@ const QUESTIONS = {
   },
   {
    "q": "The working time of a material is defined as:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "The interval, after mixing, to place the mix in the mouth or container.",
@@ -138864,7 +138864,7 @@ const QUESTIONS = {
   },
   {
    "q": "An example of an organic material of natural origin used in dentistry is:",
-   "c": 15,
+   "c": 2,
    "options": [
     {
      "t": "Gutta-percha",
@@ -138887,7 +138887,7 @@ const QUESTIONS = {
   },
   {
    "q": "Although it is a metal, which of the following has a comparatively low density of about 4.5 g/cm3?",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Titanium",
@@ -138910,7 +138910,7 @@ const QUESTIONS = {
   },
   {
    "q": "The single temperature at which a material passes from solid to liquid, characteristic of pure metals, is the:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Fusion (melting) point",
@@ -138933,7 +138933,7 @@ const QUESTIONS = {
   },
   {
    "q": "The atom that behaves as tetravalent in atomic bonding is:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Carbon",
@@ -138956,7 +138956,7 @@ const QUESTIONS = {
   },
   {
    "q": "The atomic bond formed by a network of positive metal ions immersed in a cloud of free electrons is the:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Metallic bond",
@@ -138979,7 +138979,7 @@ const QUESTIONS = {
   },
   {
    "q": "The positive biological effect by which a material stimulates the formation of new secondary dentine is termed:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Dentinogenetic",
@@ -139002,7 +139002,7 @@ const QUESTIONS = {
   },
   {
    "q": "During its setting, the non-aqueous elastomeric impression material that releases volatile by-products (such as alcohols) is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Condensation silicones",
@@ -139025,7 +139025,7 @@ const QUESTIONS = {
   },
   {
    "q": "The catalyst used in addition silicones (vinylpolysiloxane) is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "A platinum salt",
@@ -139048,7 +139048,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to its setting and elasticity, zinc oxide eugenol impression material is classified as:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "An irreversible, non-elastic material",
@@ -139232,7 +139232,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a POSITIVE biological effect of a biomaterial on the tissues?",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Anticariogenic action",
@@ -139255,7 +139255,7 @@ const QUESTIONS = {
   },
   {
    "q": "In relation to bone tissue, the favourable response of a biomaterial is:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Osseointegration",
@@ -139278,7 +139278,7 @@ const QUESTIONS = {
   },
   {
    "q": "The two types of polymerization reactions of polymeric materials are:",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Addition and condensation",
@@ -139324,7 +139324,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a DISADVANTAGE of polymeric materials?",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Polymerization shrinkage",
@@ -139347,7 +139347,7 @@ const QUESTIONS = {
   },
   {
    "q": "In an ionic bond between two atoms:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "One atom gives up an electron to the other",
@@ -139370,7 +139370,7 @@ const QUESTIONS = {
   },
   {
    "q": "An emulsion is defined as:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "A uniform dispersion of liquid drops in another liquid",
@@ -139393,7 +139393,7 @@ const QUESTIONS = {
   },
   {
    "q": "The three types of corrosion that act together on metals in the oral cavity are:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Chemical, electrolytic and biologic",
@@ -139416,7 +139416,7 @@ const QUESTIONS = {
   },
   {
    "q": "Among ceramic materials, which one is placed in contact with bone?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Hydroxyapatite",
@@ -139462,7 +139462,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is an initiation system used for the polymerization of polymers?",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "Photopolymerizable (light-curing)",
@@ -139485,7 +139485,7 @@ const QUESTIONS = {
   },
   {
    "q": "A dental impression is defined as:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "A negative reproduction of the oral structures and surrounding tissues",
@@ -139508,7 +139508,7 @@ const QUESTIONS = {
   },
   {
    "q": "An impression taken with two materials of different consistency inserted at the same time is a:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Double impression in one step",
@@ -139554,7 +139554,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding their chemical properties, ceramic materials are:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "The most stable and longest-lasting",
@@ -139600,7 +139600,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which metal is an exception among metals because it is liquid at room temperature?",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Mercury",
@@ -139646,7 +139646,7 @@ const QUESTIONS = {
   },
   {
    "q": "Among the metals, which one is an exception that behaves as a gaseous element?",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Hydrogen",
@@ -139669,7 +139669,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which metal is associated with the appearance of bronchopulmonary and prostate carcinoma?",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Cadmium",
@@ -139692,7 +139692,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a partially insoluble metallic alloy, the solubility of the components:",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Depends on the concentration of the metals",
@@ -139807,7 +139807,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding their biological classification, non-noble metals used in dentistry are characterised by being:",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Passivated",
@@ -139830,7 +139830,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to their composition, metallic materials are classified as:",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Pure, alloys or amalgamated",
@@ -140037,7 +140037,7 @@ const QUESTIONS = {
   },
   {
    "q": "During its setting, condensation silicone:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Releases volatile by-products such as alcohols",
@@ -140060,7 +140060,7 @@ const QUESTIONS = {
   },
   {
    "q": "A disadvantage of polyether impression material is that it:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Absorbs water, altering its dimensional stability",
@@ -141256,7 +141256,7 @@ const QUESTIONS = {
   },
   {
    "q": "Compared with a gold alloy, the elastic modulus of a chrome-cobalt alloy is approximately:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Double",
@@ -141302,7 +141302,7 @@ const QUESTIONS = {
   },
   {
    "q": "Silver amalgam is composed approximately of:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "50% mercury and 50% alloy",
@@ -141325,7 +141325,7 @@ const QUESTIONS = {
   },
   {
    "q": "In silver amalgam, the component responsible for contraction, counteracting the expansion caused by silver, is:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Tin",
@@ -141348,7 +141348,7 @@ const QUESTIONS = {
   },
   {
    "q": "In silver amalgam, creep is defined as:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "permanent deformation produced by static (constant) forces",
@@ -141371,7 +141371,7 @@ const QUESTIONS = {
   },
   {
    "q": "Osseointegration is defined as the:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "direct structural and functional connection between living bone and the implant surface",
@@ -141394,7 +141394,7 @@ const QUESTIONS = {
   },
   {
    "q": "The wire with the thickest cross-section, formed by twisted multistrands, is called a:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Cable",
@@ -141463,7 +141463,7 @@ const QUESTIONS = {
   },
   {
    "q": "In chrome-cobalt alloys, cobalt is present in a proportion of approximately:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "35–65%",
@@ -141486,7 +141486,7 @@ const QUESTIONS = {
   },
   {
    "q": "The transformation from alpha titanium (hexagonal) to beta titanium (body-centered cubic) occurs at approximately:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "882°C",
@@ -141509,7 +141509,7 @@ const QUESTIONS = {
   },
   {
    "q": "Titanium can be reliably welded only by means of:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Laser",
@@ -141532,7 +141532,7 @@ const QUESTIONS = {
   },
   {
    "q": "The type of dental implant that rests on the bone without penetrating into it is:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Subperiosteal",
@@ -141555,7 +141555,7 @@ const QUESTIONS = {
   },
   {
    "q": "In silver amalgam, the component responsible for providing expansion is:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Silver",
@@ -141578,7 +141578,7 @@ const QUESTIONS = {
   },
   {
    "q": "In a gallium amalgam, gallium is incorporated in order to replace:",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Mercury",
@@ -141601,7 +141601,7 @@ const QUESTIONS = {
   },
   {
    "q": "The allotropic form of iron used in the manufacture of dental steel is:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Fe gamma (face-centered cubic)",
@@ -141624,7 +141624,7 @@ const QUESTIONS = {
   },
   {
    "q": "The type of steel most commonly used in dentistry, according to its structure, is:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Austenitic",
@@ -141647,7 +141647,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which element is added to steel to increase its elastic limit, making it suitable for orthodontic wires?",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Vanadium and silicon",
@@ -141693,7 +141693,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chrome-cobalt alloys are mainly composed of:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Cobalt 35–65% and chromium 20–35%",
@@ -141716,7 +141716,7 @@ const QUESTIONS = {
   },
   {
    "q": "The element added to steel to increase hardness and traction resistance, used in the manufacture of endodontic files, is:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Nickel",
@@ -141762,7 +141762,7 @@ const QUESTIONS = {
   },
   {
    "q": "The element added to steel so that it becomes stainless steel with a passive protective layer is:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Chromium",
@@ -141785,7 +141785,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following conditions reduces the creep of a silver amalgam?",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Spherical particles with a high copper content",
@@ -141831,7 +141831,7 @@ const QUESTIONS = {
   },
   {
    "q": "In chrome-cobalt alloys, the element that is always present (up to 0.4%) and forms carbides is:",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Carbon",
@@ -141969,7 +141969,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement about the structural types of steel is CORRECT?",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "Austenitic steel (Fe gamma with carbon) is the type commonly used in dentistry.",
@@ -141992,7 +141992,7 @@ const QUESTIONS = {
   },
   {
    "q": "A high surface energy is characteristic of:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Non-passivated metals",
@@ -142015,7 +142015,7 @@ const QUESTIONS = {
   },
   {
    "q": "The impression elastomer that absorbs water, altering its dimensional stability, is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Polyether",
@@ -142061,7 +142061,7 @@ const QUESTIONS = {
   },
   {
    "q": "According to its definition, a biomaterial is a material designed to act interfacially with biological systems in order to:",
-   "c": 15,
+   "c": 2,
    "options": [
     {
      "t": "evaluate, treat, augment or replace any tissue, organ or function of the body",
@@ -142084,7 +142084,7 @@ const QUESTIONS = {
   },
   {
    "q": "When biomaterials are classified according to their behaviour with the tissues, they are divided into:",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "biocompatible and bioinert",
@@ -142107,7 +142107,7 @@ const QUESTIONS = {
   },
   {
    "q": "In the study of mechanical properties, force is measured in newtons, one newton being equal to:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "kg·m/s²",
@@ -142130,7 +142130,7 @@ const QUESTIONS = {
   },
   {
    "q": "One megapascal (MPa) of stress is equivalent to:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "10^6 Pa, that is, N/mm²",
@@ -142153,7 +142153,7 @@ const QUESTIONS = {
   },
   {
    "q": "The conversion between the pascal and the pound per square inch (psi) is:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "1 psi ≈ 6894.75 Pa",
@@ -142176,7 +142176,7 @@ const QUESTIONS = {
   },
   {
    "q": "Young's (elastic) modulus of a material is defined as the ratio between:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "tension and deformation, remaining constant while Hooke's law is fulfilled",
@@ -142199,7 +142199,7 @@ const QUESTIONS = {
   },
   {
    "q": "When a material is loaded beyond its proportional limit, into the plastic region, on releasing the force the material:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "retains a permanent deformation and does not recover its original dimension",
@@ -142222,7 +142222,7 @@ const QUESTIONS = {
   },
   {
    "q": "Flexural fatigue of a material is best described as:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "fracture caused by repeated tensions below the proportional limit that exhaust its tenacity",
@@ -142245,7 +142245,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which durometry (hardness) test measures the material using a square-based diamond pyramid indenter and expresses its result as VHN?",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Vickers test",
@@ -142268,7 +142268,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the porosity of a dental material, which statement is CORRECT?",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Greater porosity increases plaque retention and makes the material break more easily",
@@ -142291,7 +142291,7 @@ const QUESTIONS = {
   },
   {
    "q": "A fusion temperature range, understood as the interval of temperature in which all the elements change state, is characteristic of:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Complex compositions such as waxes and metal alloys",
@@ -142314,7 +142314,7 @@ const QUESTIONS = {
   },
   {
    "q": "The amount of heat needed to raise the temperature of 1 g of a substance by 1 degree C is called:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Specific heat",
@@ -142337,7 +142337,7 @@ const QUESTIONS = {
   },
   {
    "q": "The optical phenomenon in which light is scattered by the internal particles of a translucent structure, known as Tyndall's effect, corresponds to:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Diffusion",
@@ -142360,7 +142360,7 @@ const QUESTIONS = {
   },
   {
    "q": "The complex optical phenomenon by which two objects match in colour under one type of light but look different under another is called:",
-   "c": 17,
+   "c": 3,
    "options": [
     {
      "t": "Metamerism",
@@ -142383,7 +142383,7 @@ const QUESTIONS = {
   },
   {
    "q": "Stone (gypsum) crystallizes in which crystallographic system?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Monoclinic",
@@ -142406,7 +142406,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement correctly describes a colloid?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Its dispersed particles are larger than those of the dispersant and present in lower proportion",
@@ -142429,7 +142429,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the measurement of a material's setting time and its proportioning/mixing, which is CORRECT?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Setting time is measured with Gillmore and Vicat needles, and proportioning/mixing normally takes less than one minute.",
@@ -142452,7 +142452,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the oxidation of dental metals, which is CORRECT?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "It is a loss of electrons with uptake of oxygen and can be beneficial when it favours the metal-porcelain bond.",
@@ -142475,7 +142475,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding corrosion of metals in the oral cavity, which is CORRECT?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Localized corrosion appears as puncta, plates or scales, whereas generalized corrosion extends over the surface and may cause tattoos.",
@@ -142498,7 +142498,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding tarnish and pigmentation of a metallic restoration, which is CORRECT?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Tarnish is the thin outer dull gray-black film and represents the first stage of pigmentation.",
@@ -142521,7 +142521,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding surface tension and the wetting agents (surfactants) used in dentistry, which is CORRECT?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Surfactants lower surface tension in low amounts and are used to emulsify, solubilize and as antimicrobials.",
@@ -142544,7 +142544,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which statement correctly defines these surface phenomena?",
-   "c": 1,
+   "c": 4,
    "options": [
     {
      "t": "Adsorption is the adhesion of atoms or molecules to a surface, whereas absorption is their incorporation into a material.",
@@ -142567,7 +142567,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the bodies that regulate or standardize dental materials, which pairing is CORRECT?",
-   "c": 4,
+   "c": 18,
    "options": [
     {
      "t": "AENOR is the Spanish standardization body that issues the UNE norms.",
@@ -142590,7 +142590,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding zinc oxide eugenol impression paste, which is CORRECT?",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Cooling the mixing tile lengthens its setting time, while heating it or mixing longer shortens it.",
@@ -142613,7 +142613,7 @@ const QUESTIONS = {
   },
   {
    "q": "In the composition of alginate, the component that acts as a retarder, controlling the setting time, is:",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "Sodium phosphate",
@@ -142636,7 +142636,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding alginate impression material, which statement is CORRECT?",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "It is poorly suited to fixed prosthesis impressions and can be disinfected with iodophors or sodium hypochlorite.",
@@ -142659,7 +142659,7 @@ const QUESTIONS = {
   },
   {
    "q": "Regarding the photopolymerizable (light-cured) impression material, which statement is CORRECT?",
-   "c": 18,
+   "c": 5,
    "options": [
     {
      "t": "It is based on polyether urethane dimethacrylate with silica, is hydrophilic and needs no mixing.",
@@ -142820,7 +142820,7 @@ const QUESTIONS = {
   },
   {
    "q": "Metallic solid solutions can adopt several arrangements. Which of the following is NOT a recognised type of solid solution?",
-   "c": 3,
+   "c": 17,
    "options": [
     {
      "t": "Eutectic substitutional solid solution",
@@ -142912,7 +142912,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which composition corresponds to the copper-palladium alloy used in dentistry?",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "About 75% palladium, 10-15% copper and 5-10% gallium, with silver eliminated.",
@@ -142935,7 +142935,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following is a titanium alloy commonly used in dentistry?",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Ti + 6% aluminium + 4% vanadium",
@@ -142958,7 +142958,7 @@ const QUESTIONS = {
   },
   {
    "q": "Under the EU Mercury Regulation on dental amalgam, which of the following is a mandatory restriction?",
-   "c": 2,
+   "c": 14,
    "options": [
     {
      "t": "Amalgam must not be placed in deciduous teeth, in patients under 15, or in pregnant/breast-feeding women.",
@@ -142981,7 +142981,7 @@ const QUESTIONS = {
   },
   {
    "q": "Which of the following statements about steel used in dentistry is CORRECT?",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "It is altered by sodium hypochlorite and by welding, which produces allotropic changes.",
@@ -154938,7 +154938,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le plan sagittal, quelles régions de la colonne présentent une CYPHOSE physiologique ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Thoracique et sacrée",
@@ -154984,7 +154984,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le foramen transverse, perforé dans chaque apophyse transverse, est caractéristique :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Des vertèbres cervicales",
@@ -155007,7 +155007,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les processus articulaires SUPÉRIEURS des vertèbres lombaires sont orientés :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Médialement et légèrement en arrière",
@@ -155030,7 +155030,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'articulation entre deux corps vertébraux adjacents (via le disque) est :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Une symphyse (amphi-arthrose)",
@@ -155053,7 +155053,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le ligament longitudinal POSTÉRIEUR de la colonne vertébrale :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Tapisse la face postérieure des corps vertébraux dans le canal rachidien",
@@ -155076,7 +155076,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le ligament le plus postérieur de la colonne vertébrale (le plus superficiel sur la ligne médiane) ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Ligament supra-épineux",
@@ -155099,7 +155099,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le ligament cruciforme de l'atlas (région atlanto-axoïdienne) est formé par :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Le ligament transverse de l'atlas et deux faisceaux longitudinaux",
@@ -155168,7 +155168,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'atlas (C1) s'articule en haut avec :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Les condyles occipitaux, par une articulation condylienne",
@@ -155260,7 +155260,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le manubrium sternal s'articule avec :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "La clavicule, la 1ere côte et le cartilage de la 2eme côte",
@@ -155306,7 +155306,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur une côte typique, quelle structure de l'extrémité postérieure est décrite par le cours comme la région joignant la tête et le tubercule ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Le col de la côte",
@@ -155329,7 +155329,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'épine ischiatique de l'os coxal sépare :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "La grande échancrure ischiatique de la petite échancrure ischiatique",
@@ -156755,7 +156755,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur la 1ere côte, on note la présence :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "D'un tubercule du scalène entre deux sillons vasculaires",
@@ -158526,7 +158526,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sont considérées comme vraies côtes celles qui :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Rejoignent le sternum par leur propre cartilage costal",
@@ -158549,7 +158549,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la correspondance articulation–type qui est FAUSSE :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Articulation des corps vertébraux = plane",
@@ -158572,7 +158572,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces structures NE s'articule PAS avec le manubrium du sternum ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "La 3e côte",
@@ -158595,7 +158595,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'atlas s'articule supérieurement avec :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Les condyles occipitaux",
@@ -158802,7 +158802,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément n'est PAS en relation avec le processus épineux ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Ligament longitudinal postérieur",
@@ -158825,7 +158825,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces ligaments est le plus postérieur ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Ligament inter-épineux",
@@ -159101,7 +159101,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'os coxal, quelle structure se trouve entre la grande et la petite échancrure ischiatique ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "L'épine ischiatique",
@@ -159170,7 +159170,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle région de la colonne les corps vertébraux présentent-ils des processus unciformes qui s'articulent avec la vertèbre sus-jacente ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Cervicale",
@@ -159193,7 +159193,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les 8e, 9e et 10e paires de côtes sont appelées :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Fausses côtes",
@@ -159492,7 +159492,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces éléments NE contribue PAS à former le détroit pelvien supérieur ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Branche ischio-pubienne",
@@ -159561,7 +159561,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces articulations est renforcée par un ligament radié antérieur et un ligament radié postérieur ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Sternocostale",
@@ -159676,7 +159676,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces régions de la colonne forme une cyphose ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Thoracique",
@@ -159791,7 +159791,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos de l'os coxal :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "La crête iliaque se termine en avant et en arrière par une épine iliaque supérieure",
@@ -159860,7 +159860,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel des éléments suivants est caractéristique des processus transverses des vertèbres cervicales ?",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Foramen transverse",
@@ -159906,7 +159906,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les articulations des corps vertébraux sont un exemple de :",
-   "c": 16,
+   "c": 1,
    "options": [
     {
      "t": "Symphyse",
@@ -188365,7 +188365,7 @@ const QUESTIONS = {
  "processusBio2": [
   {
    "q": "Étudiante en kiné, vous révisez la méiose. Combien de cellules filles haploïdes une cellule germinale diploïde donne-t-elle après les deux divisions méiotiques complètes ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "2 cellules filles haploïdes",
@@ -188388,7 +188388,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une consultation de génétique, une étudiante en médecine demande à quel sous-stade de la prophase I la méiose des ovocytes est bloquée chez la femme, depuis la vie fœtale jusqu'à la puberté. Que répondez-vous ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Diplotène",
@@ -188411,7 +188411,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez la femme, à quel stade précis la méiose I de l'ovocyte primaire est-elle bloquée jusqu'à la puberté ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Métaphase I",
@@ -188434,7 +188434,7 @@ const QUESTIONS = {
   },
   {
    "q": "Footballeur de 28 ans avec rupture du tendon d'Achille. Vous expliquez l'origine embryologique du tendon. De quel feuillet primordial dérive-t-il ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Ectoderme",
@@ -188457,7 +188457,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel moment précis de la gamétogenèse féminine la méiose II de l'ovocyte secondaire est-elle achevée ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Au moment de l'ovulation",
@@ -188480,7 +188480,7 @@ const QUESTIONS = {
   },
   {
    "q": "À 5 jours après la fécondation, quelle structure embryonnaire s'implante dans l'endomètre utérin ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Morula",
@@ -188503,7 +188503,7 @@ const QUESTIONS = {
   },
   {
    "q": "À la 2ᵉ semaine de développement, en quels deux feuillets l'embryoblaste se différencie-t-il pour former le disque germinatif bilaminaire ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Ectoderme et endoderme",
@@ -188526,7 +188526,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la gastrulation à la 3ᵉ semaine, la migration des cellules de l'épiblaste à travers la ligne primitive donne naissance à quels feuillets ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Épiblaste et hypoblaste",
@@ -188549,7 +188549,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure embryonnaire induit la formation de la plaque neurale par épaississement de l'ectoderme ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Notochorde",
@@ -188572,7 +188572,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quelle semaine de développement le tube neural se ferme-t-il normalement chez l'embryon humain ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "2ᵉ semaine",
@@ -188595,7 +188595,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un nouveau-né présente une spina bifida. Cette malformation est causée par un défaut de fermeture de quelle structure embryonnaire ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Notochorde",
@@ -188618,7 +188618,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les structures suivantes, laquelle dérive du feuillet ectodermique ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Cellules sanguines",
@@ -188641,7 +188641,7 @@ const QUESTIONS = {
   },
   {
    "q": "En histologie, à quelle famille appartient la coloration hématoxyline-éosine (H&E) la plus utilisée en pratique ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Colorations différentielles",
@@ -188664,7 +188664,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure cellulaire prendra une coloration basophile (bleue) avec l'hématoxyline ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Filaments du cytosquelette",
@@ -188687,7 +188687,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle coloration histologique est utilisée pour mettre en évidence le collagène (vert ou bleu) et les fibres musculaires (rouge) ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Coloration de PAS",
@@ -188710,7 +188710,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le facteur le plus important dans l'observation d'échantillons au microscope ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Grossissement maximal de l'objectif",
@@ -188733,7 +188733,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le pouvoir de résolution typique de la microscopie optique classique ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "0,1 nm",
@@ -188756,7 +188756,7 @@ const QUESTIONS = {
   },
   {
    "q": "Tous les tissus conjonctifs (lâche, dense, osseux, sang) partagent une origine embryonnaire commune. Laquelle ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Neuro-ectoderme",
@@ -188779,7 +188779,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel composant de la matrice extracellulaire est le plus abondant parmi les glycosaminoglycanes (GAGs) du tissu conjonctif ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Chondroïtine sulfate",
@@ -188802,7 +188802,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle protéine d'adhésion lie spécifiquement les cellules à la matrice extracellulaire dans le tissu conjonctif ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Laminine",
@@ -188825,7 +188825,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel type de collagène constitue principalement les fibres réticulaires du tissu conjonctif ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Collagène de type I",
@@ -188848,7 +188848,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient de 35 ans avec syndrome d'Ehlers-Danlos. Quelle anomalie de matrice extracellulaire est en cause ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Défaut de synthèse ou de maturation du collagène",
@@ -188871,7 +188871,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle vitamine est essentielle à la synthèse correcte du collagène, sa carence provoquant scorbut et mauvaise cicatrisation ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Vitamine A",
@@ -188894,7 +188894,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les cellules suivantes, laquelle est une cellule fixe (résidente) du tissu conjonctif synthétisant la matrice extracellulaire ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Fibroblaste",
@@ -188917,7 +188917,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel suffixe désigne les cellules spécialisées dans la dégradation et le remodelage de la matrice extracellulaire ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "-claste",
@@ -188940,7 +188940,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle cellule présente un noyau excentrique en « roue de charrette » et produit des anticorps spécifiques d'antigène ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Mastocyte",
@@ -188963,7 +188963,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel tissu conjonctif non spécialisé compose les tendons et ligaments, riche en collagène organisé en faisceaux parallèles ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Tissu conjonctif lâche",
@@ -188986,7 +188986,7 @@ const QUESTIONS = {
   },
   {
    "q": "Footballeur de 28 ans, rupture du tendon d'Achille. Quel type de collagène prédomine dans la structure normale du tendon ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Collagène de type II",
@@ -189009,7 +189009,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patiente fumeuse de 50 ans, BPCO avec élastolyse pulmonaire. Quel constituant des fibres élastiques est principalement détruit ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Collagène de type I",
@@ -189032,7 +189032,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où trouve-t-on principalement le tissu conjonctif réticulaire dans l'organisme ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Tendons et ligaments",
@@ -189055,7 +189055,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la cellule du tissu conjonctif principalement responsable de la libération initiale d'histamine lors d'une réaction inflammatoire aiguë ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Neutrophile",
@@ -189078,7 +189078,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les 5 signes cardinaux de l'inflammation aiguë décrits par Celse incluent rougeur, chaleur, œdème, douleur et :",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Perte de fonction par limitation antalgique et mécanique du foyer",
@@ -189101,7 +189101,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle cytokine pro-inflammatoire est principalement responsable de la fièvre via la production de PGE2 dans l'hypothalamus ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "IL-10",
@@ -189124,7 +189124,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la phase cellulaire de l'inflammation, quel est le rôle initial des sélectines endothéliales ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Phagocytose des bactéries",
@@ -189147,7 +189147,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel des médiateurs suivants a un effet principalement ANTI-inflammatoire et favorise la résolution ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "TNF-α",
@@ -189170,7 +189170,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient de 60 ans en sepsis sévère. Quelle est la cause physiopathologique principale de la chute tensionnelle dans la « tempête cytokinique » ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Vasodilatation diffuse induite par les cytokines via le NO",
@@ -189193,7 +189193,7 @@ const QUESTIONS = {
   },
   {
    "q": "Étudiant de 22 ans avec gastrite post-AINS au long cours. Quel mécanisme explique cet effet indésirable ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Inhibition de COX-1 et baisse des prostaglandines protectrices de la muqueuse",
@@ -189216,7 +189216,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la capacité de régénération, comment classer le tissu nerveux et le tissu musculaire cardiaque ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "Tissus labiles",
@@ -189239,7 +189239,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la différence fondamentale entre régénération et réparation tissulaire ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "La régénération laisse une cicatrice fibreuse",
@@ -189262,7 +189262,7 @@ const QUESTIONS = {
   },
   {
    "q": "Footballeur de 20 ans avec rupture du LCA opéré. Lors du remodelage de la greffe, quelle transition collagénique se produit ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "Type I remplacé par type III",
@@ -189285,7 +189285,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle caractéristique principale distingue le tissu épithélial du tissu conjonctif ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Cellules juxtaposées reposant sur une membrane basale avec très peu de MEC",
@@ -189308,7 +189308,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel épithélium tapisse l'intérieur des vaisseaux sanguins (endothélium) et les alvéoles pulmonaires ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Pavimenteux simple",
@@ -189331,7 +189331,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient avec hématurie. Quel type d'épithélium tapisse normalement la vessie urinaire et change de forme selon le remplissage ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Cylindrique pseudostratifié cilié",
@@ -189354,7 +189354,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous étudiez les glandes amphicrines. Lequel des organes suivants en est un exemple typique avec deux types cellulaires distincts ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Glande sublinguale",
@@ -189377,7 +189377,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante de 21 ans consulte aux urgences avec une cheville rouge, chaude, gonflée et douloureuse 24 h après une entorse au tennis. La professionnelle de santé évoque la phase vasculaire. Quel évènement INITIAL marque cette phase ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Une brève vasoconstriction artériolaire suivie d'une vasodilatation capillaire",
@@ -189400,7 +189400,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une appendicite aiguë chez un adolescent de 15 ans, les neutrophiles arrivent rapidement au foyer. Quel mécanisme moléculaire permet leur ARRÊT ferme sur l'endothélium activé avant la diapédèse ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Liaison forte des intégrines leucocytaires aux ICAM endothéliaux",
@@ -189423,7 +189423,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un enfant de 6 ans présente 39,8 °C dans le cadre d'une amygdalite bactérienne. La pédiatre explique aux parents le mécanisme de la fièvre. Quel médiateur agit DIRECTEMENT sur les neurones hypothalamiques pour élever le point de consigne ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "La prostaglandine E2 (PGE2) produite par les cellules endothéliales hypothalamiques",
@@ -189446,7 +189446,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente de 38 ans souffre de polyarthrite rhumatoïde et présente un déséquilibre M1/M2 des macrophages synoviaux. Quelle est la fonction PRINCIPALE des macrophages polarisés en M2 ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Remodelage de la matrice et réparation des dommages tissulaires",
@@ -189469,7 +189469,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient diabétique de 58 ans présente une inflammation chronique de bas grade. Lequel des médiateurs suivants est considéré comme principalement ANTI-INFLAMMATOIRE, sécrété en phase de résolution ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "L'interleukine-10 (IL-10) libérée par les macrophages M2",
@@ -189492,7 +189492,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente de 27 ans en alimentation déséquilibrée (rapport Ω6/Ω3 proche de 1:20) consulte une diététicienne. Quel est le principal effet attendu d'un EXCÈS d'oméga-6 par rapport aux oméga-3 ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Favorisation de l'inflammation car précurseurs de médiateurs pro-inflammatoires",
@@ -189515,7 +189515,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient de 70 ans hospitalisé en réanimation pour pneumopathie présente une tempête cytokinique avec hypotension et défaillance multi-organes. Quel diagnostic syndromique le médecin évoque-t-il ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Un sepsis avec réponse inflammatoire systémique exacerbée",
@@ -189538,7 +189538,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente de 48 ans souffrant de gonarthrose est traitée par ibuprofène quotidien. Sa pharmacienne lui rappelle que le mécanisme d'action principal des AINS est :",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "L'inhibition des cyclo-oxygénases COX-1 et COX-2 réduisant les prostaglandines",
@@ -189561,7 +189561,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un enseignant en médecine demande à ses étudiants de classer le foie selon sa capacité de régénération. Quelle catégorie correspond à ce tissu ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "Tissu stable : faible prolifération basale mais division rapide après lésion",
@@ -189584,7 +189584,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un footballeur de 28 ans est opéré d'une rupture du tendon d'Achille avec suture chirurgicale. Le retour à l'entraînement a lieu après 9 mois. La phase de PROLIFÉRATION de la cicatrisation tendineuse comporte essentiellement :",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "La formation d'un tissu de granulation riche en fibroblastes et collagène",
@@ -189607,7 +189607,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la cicatrisation d'une greffe de ligament croisé antérieur chez un footballeur de 20 ans, on parle de processus de « ligamentization ». La phase de NÉCROSE survient à quel moment ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "Entre 0 et 4 semaines : dégénérescence cellulaire de la greffe par ischémie",
@@ -189630,7 +189630,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un physiothérapeute applique un programme d'exercices de résistance progressive à un patient atteint de tendinopathie. Quel concept biologique justifie cette approche ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "La mécanotransduction : conversion des charges mécaniques en réponses cellulaires",
@@ -189653,7 +189653,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une chercheuse explique à ses étudiants que la régénération tissulaire diffère de la réparation. Quel est le critère central qui distingue les deux processus ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "La régénération restaure un tissu identique ; la réparation produit une cicatrice fibreuse",
@@ -189676,7 +189676,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient de 45 ans est hospitalisé pour leucémie myéloïde aiguë et bénéficie d'une greffe allogénique de moelle osseuse. Quelles cellules sont effectivement greffées ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Des progéniteurs hématopoïétiques exprimant le marqueur CD34",
@@ -189699,7 +189699,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une équipe de recherche cultive des cellules issues de la masse cellulaire interne d'un blastocyste de 5 jours. Quel est leur potentiel de différenciation ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Pluripotent : capables de générer tous les tissus des trois feuillets embryonnaires",
@@ -189722,7 +189722,7 @@ const QUESTIONS = {
   },
   {
    "q": "En 2006, Yamanaka a révolutionné la recherche en reprogrammant des cellules adultes en cellules souches pluripotentes induites (iPSC). Quel est le principal AVANTAGE des iPSC par rapport aux cellules souches embryonnaires ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Elles évitent les questions éthiques et réduisent le risque immunogène (autologue)",
@@ -189745,7 +189745,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une chercheuse étudie les cellules satellites du muscle squelettique. Comment doit-elle les classer dans la hiérarchie des cellules souches ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Progéniteurs adultes oligo/unipotents de la lignée musculaire",
@@ -189768,7 +189768,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cadre des thérapies cellulaires approuvées en Europe, ChondroCelect a été utilisé pour traiter quelles lésions ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Lésions cartilagineuses symptomatiques du condyle fémoral du genou de l'adulte",
@@ -189791,7 +189791,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante observe au microscope un épithélium tapissant l'intérieur d'un vaisseau sanguin. Quel terme spécifique désigne ce type d'épithélium ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Endothélium : épithélium pavimenteux simple tapissant la lumière vasculaire",
@@ -189814,7 +189814,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un histologiste examine l'épithélium de la trachée et observe une seule couche cellulaire dont les noyaux sont situés à des hauteurs différentes, toutes les cellules touchant la lame basale. Comment qualifier cet épithélium ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Pseudostratifié cylindrique cilié, typique des voies respiratoires",
@@ -189837,7 +189837,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un dermatologue explique à une patiente phototype I que la mélanine est produite dans la couche germinative de l'épiderme. Quelle est la cellule responsable de sa synthèse ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Le mélanocyte qui transfère le pigment aux kératinocytes adjacents",
@@ -189860,7 +189860,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une miction, l'épithélium tapissant la vessie change d'aspect : les cellules s'aplatissent quand l'organe est plein. Comment se nomme ce type d'épithélium ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Épithélium transitionnel ou uroépithélium",
@@ -189883,7 +189883,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante étudie le pancréas en histologie et constate qu'il libère des enzymes digestives dans le duodénum et de l'insuline dans le sang. Comment qualifier cette glande ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Glande amphicrine à différents types de cellules pour différentes fonctions",
@@ -189906,7 +189906,7 @@ const QUESTIONS = {
   },
   {
    "q": "En histologie, un étudiant observe une glande exocrine où le produit de sécrétion est libéré par rupture complète de la cellule. De quel mode de sécrétion s'agit-il ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Holocrine, comme dans les glandes sébacées de la peau",
@@ -189929,7 +189929,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente de 32 ans présente une plaie chirurgicale propre suturée après césarienne. Quel type de cicatrisation décrit ce processus ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "Première intention : plaie propre suturée, berges rapprochées",
@@ -189952,7 +189952,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la cicatrisation cutanée, quel est l'évènement central de la phase d'HÉMOSTASE ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "Agrégation plaquettaire et formation d'un caillot de fibrine provisoire",
@@ -189975,7 +189975,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente noire de 35 ans développe sur la cicatrice d'un piercing une lésion proéminente débordant largement les limites initiales de la plaie. Quel diagnostic privilégier ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "Chéloïde, proliférant en relief AU-DELÀ des berges de la plaie",
@@ -189998,7 +189998,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente brûlée au troisième degré bénéficie d'une thérapie par pression sur ses cicatrices. Quel est le mécanisme principal expliquant l'efficacité de cette technique ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "Réduction de l'oxygénation et du flux sanguin diminuant le nombre de cellules productrices de collagène",
@@ -190021,7 +190021,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient ayant subi une greffe de LCA présente, lors du remodelage tardif, un changement clé dans la composition collagénique de sa cicatrice. Lequel ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "Le collagène de type III est remplacé par du type I plus résistant",
@@ -190044,7 +190044,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante observe au microscope un tissu adipeux composé de grandes cellules polyédriques contenant chacune une seule gouttelette lipidique. De quel type s'agit-il ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Tissu adipeux uniloculaire (blanc), principale réserve d'énergie",
@@ -190067,7 +190067,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un médecin explique à un patient en surpoids le rôle endocrine du tissu adipeux. Quelle hormone est principalement produite par les adipocytes blancs pour réguler la satiété ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "La leptine, sécrétée proportionnellement à la masse adipeuse",
@@ -190090,7 +190090,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une nouvelle-née de 2 jours est exposée brièvement à un environnement froid. Quel tissu adipeux assure principalement sa thermorégulation par production de chaleur ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Le tissu adipeux multiloculaire brun, riche en mitochondries",
@@ -190113,7 +190113,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un sportif de 25 ans s'entraîne en endurance par temps froid. Quel mécanisme moléculaire explique le browning d'une partie de son tissu adipeux blanc ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Production musculaire d'irisine stimulant UCP-1 et la biogenèse mitochondriale",
@@ -190136,7 +190136,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un endocrinologue explique à un patient avec IMC = 38 la différence entre obésité hyperplasique et hypertrophique. Quelle proposition décrit l'obésité HYPERPLASIQUE ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Augmentation du NOMBRE d'adipocytes à partir des préadipocytes",
@@ -190159,7 +190159,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'obésité, le tissu adipeux subit une fibrose progressive. Quel changement cellulaire principal observe-t-on ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Bascule des macrophages du phénotype M2 vers le phénotype M1",
@@ -190182,7 +190182,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une fibrose du corps adipeux de Hoffa après chirurgie du LCA. Quelle voie de signalisation est principalement responsable de la fibrose tissulaire ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "La voie TGF-bêta/Smad, pro-fibrotique majeure",
@@ -190205,7 +190205,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un biologiste mesure l'hématocrite d'un patient adulte. Que représente précisément cette valeur ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Le volume occupé par les éléments cellulaires (surtout les érythrocytes) après centrifugation",
@@ -190228,7 +190228,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante regarde un frottis sanguin et identifie une cellule biconcave énucléée sans organites, contenant de l'hémoglobine. Quelle est cette cellule et sa durée de vie ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Érythrocyte, durée de vie d'environ 120 jours dans la circulation",
@@ -190251,7 +190251,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur un hémogramme, on retrouve un leucocyte avec noyau polylobé en 3 lobes et cytoplasme finement granuleux qui représente 60-70 % des leucocytes. De quelle cellule s'agit-il ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Neutrophile, granulocyte à noyau polylobé et granules neutrophiles fins",
@@ -190274,7 +190274,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une allergie sévère avec libération massive d'histaminase atténuant la réaction. Quel granulocyte est principalement responsable de cette régulation anti-allergique ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "L'éosinophile, qui contient de l'histaminase neutralisant l'histamine",
@@ -190297,7 +190297,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient atteint de leucémie nécessite une greffe de cellules souches. Où résident principalement les cellules souches hématopoïétiques chez l'adulte ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Dans la moelle osseuse rouge des os spongieux du squelette axial",
@@ -190320,7 +190320,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une anémie après hémorragie massive. Le médecin explique que l'organisme va augmenter spécifiquement la production de globules rouges. Quel facteur de croissance régule principalement cette réponse ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "L'érythropoïétine (EPO), facteur de croissance spécifique de la lignée érythroïde",
@@ -190343,7 +190343,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante en histologie observe qu'un épithélium simple recouvre la cavité péricardique. Comment qualifier précisément cet épithélium ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Mésothélium pavimenteux simple tapissant les cavités séreuses",
@@ -190366,7 +190366,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente vegan en carence de vitamine B12 présente une anémie macrocytaire. Quel est le rôle principal de cette vitamine dans l'hématopoïèse ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Cofacteur de la synthèse d'ADN nécessaire à la maturation des érythroblastes",
@@ -190389,7 +190389,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un histologiste observe une membrane basale entre un épithélium intestinal et le tissu conjonctif sous-jacent. Quelle est sa fonction principale ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Adhésion de l'épithélium au conjonctif et filtration sélective entre les deux tissus",
@@ -190412,7 +190412,7 @@ const QUESTIONS = {
   },
   {
    "q": "Femme de 76 ans, sédentaire, consulte pour arthrose de la hanche gauche. Concernant le cartilage hyalin articulaire endommagé, quelle proposition est correcte?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Il est vascularisé et innervé, ce qui explique la douleur mécanique",
@@ -190435,7 +190435,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les trois types de cartilage, quel critère majeur les différencie histologiquement?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Le nombre de noyaux par chondrocyte",
@@ -190458,7 +190458,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le fibrocartilage présent dans les disques intervertébraux et les ménisques, quelle proposition est correcte?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Il possède un périchondre épais à deux couches",
@@ -190481,7 +190481,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la croissance par apposition du cartilage hyalin, quelle proposition est correcte?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Elle se fait par division mitotique des chondrocytes au centre du cartilage",
@@ -190504,7 +190504,7 @@ const QUESTIONS = {
   },
   {
    "q": "Homme sédentaire de 28 ans avec déchirure méniscale en zone blanche-blanche. Quelle proposition concernant cette zone est correcte?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Elle est très vascularisée et cicatrise spontanément",
@@ -190527,7 +190527,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les cellules du tissu osseux, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Les ostéoclastes dérivent de la lignée mésenchymateuse comme les ostéoblastes",
@@ -190550,7 +190550,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la matrice extracellulaire osseuse, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "La fraction organique est dominée par le collagène de type II",
@@ -190573,7 +190573,7 @@ const QUESTIONS = {
   },
   {
    "q": "Femme sédentaire de 60 ans avec fracture du col fémoral et âge osseux DEXA de 77 ans. Concernant l'ostéoporose post-ménopausique, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Elle résulte d'une hyperactivité ostéoblastique sans résorption accrue",
@@ -190596,7 +190596,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'ostéon (système de Havers) de l'os compact, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Il est constitué de lamelles parallèles sans canal central",
@@ -190619,7 +190619,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'ossification endochondrale des os longs, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Elle se déroule directement à partir d'une membrane fibreuse mésenchymateuse",
@@ -190642,7 +190642,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la plaque épiphysaire d'un os long en croissance, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Elle s'ossifie en fin de croissance et stoppe l'allongement de l'os",
@@ -190665,7 +190665,7 @@ const QUESTIONS = {
   },
   {
    "q": "Retraité marcheur de 72 ans avec fracture de stress calcanéenne. Concernant le cal osseux 21 jours post-fracture, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Le cal fibrocartilagineux s'ossifie en os plexiforme primaire",
@@ -190688,7 +190688,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le périoste, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Il recouvre toute la surface osseuse, y compris le cartilage articulaire",
@@ -190711,7 +190711,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la fibre musculaire squelettique, quelle proposition est correcte?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Elle est multinucléée avec des noyaux périphériques sous le sarcolemme",
@@ -190734,7 +190734,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le sarcomère et son comportement lors de la contraction musculaire, quelle proposition est correcte?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "La bande A se raccourcit pendant la contraction",
@@ -190757,7 +190757,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'ultrastructure de la fibre musculaire squelettique, quelle proposition est correcte sur la triade?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Elle comprend un tubule T entouré d'une seule citerne de réticulum sarcoplasmique",
@@ -190780,7 +190780,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les enveloppes conjonctives du muscle squelettique, quelle proposition est correcte?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "L'épimysium entoure chaque fibre musculaire individuelle",
@@ -190803,7 +190803,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les disques intercalaires du muscle cardiaque, quelle proposition est correcte?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Ils sont localisés au niveau de la ligne M des sarcomères",
@@ -190826,7 +190826,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le muscle lisse, quelle proposition est correcte par rapport au muscle strié squelettique?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Ses myofilaments s'ancrent sur des sarcomères répétés et alignés",
@@ -190849,7 +190849,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la régénération du muscle strié squelettique, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Les fibres musculaires mûres se divisent par mitose pour réparer la lésion",
@@ -190872,7 +190872,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la voie Notch dans l'activation des cellules satellites musculaires, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Elle maintient les cellules satellites dans un état de quiescence",
@@ -190895,7 +190895,7 @@ const QUESTIONS = {
   },
   {
    "q": "Rugbyman de 23 ans avec fracture trimalléolaire et atrophie musculaire post-immobilisation. Concernant le rééducation, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "L'immobilisation prolongée active les cellules satellites quiescentes",
@@ -190918,7 +190918,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la réparation du muscle cardiaque après infarctus du myocarde, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Le myocarde lésé est régénéré par hyperplasie des cardiomyocytes adultes",
@@ -190941,7 +190941,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la fibrose musculaire post-lésionnelle, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Elle débute dès les premières heures suivant la blessure musculaire",
@@ -190964,7 +190964,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le neurone et ses extensions, quelle proposition est correcte?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Les dendrites sont dépourvues de noyau et d'appareil de Golgi mais contiennent des corps de Nissl",
@@ -190987,7 +190987,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les cellules gliales et leur fonction de myélinisation, quelle proposition est correcte?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Une cellule de Schwann myélinise un seul internode d'un seul axone dans le SNP",
@@ -191010,7 +191010,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les noeuds de Ranvier des fibres nerveuses myélinisées du SNP, quelle proposition est correcte?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Ils correspondent aux zones d'enroulement maximal de la gaine de myéline",
@@ -191033,7 +191033,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les enveloppes conjonctives du nerf périphérique, quelle proposition est correcte?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "L'endonèvre est un tissu conjonctif dense irrégulier autour des faisceaux",
@@ -191056,7 +191056,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la classification de Sunderland des lésions nerveuses périphériques, quelle proposition est correcte?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "Le grade 1 (neurapraxie) implique une section complète de l'axone",
@@ -191079,7 +191079,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la dégénérescence Wallérienne après section nerveuse, quelle proposition est correcte?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "La partie proximale reliée au soma dégénère et est entièrement réabsorbée",
@@ -191102,7 +191102,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la régénération nerveuse dans le SNC versus SNP, quelle proposition est correcte?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "Dans le SNC, les oligodendrocytes libèrent des facteurs favorisant la repousse",
@@ -191125,7 +191125,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les caractéristiques générales du tissu cartilagineux, quelle proposition est correcte?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "C'est un tissu conjonctif richement vascularisé et innervé",
@@ -191148,7 +191148,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le cartilage élastique, quelle proposition est correcte?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "On le trouve sur les surfaces articulaires synoviales",
@@ -191171,7 +191171,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la réparation des lésions cartilagineuses, quelle proposition est correcte?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Le cartilage hyalin se régénère parfaitement par division des chondrocytes",
@@ -191194,7 +191194,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les ostéoclastes et la résorption osseuse, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Ils dérivent de cellules mésenchymateuses indifférenciées",
@@ -191217,7 +191217,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la moelle osseuse, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "La moelle jaune assure l'hématopoïèse grâce à ses adipocytes",
@@ -191240,7 +191240,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'ossification intramembranaire, quelle proposition est correcte?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Elle se fait à partir d'un modèle cartilagineux préexistant",
@@ -191263,7 +191263,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les filaments du muscle squelettique, quelle proposition est correcte?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Les filaments épais sont composés d'actine, tropomyosine et troponine",
@@ -191286,7 +191286,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le sarcoplasme du muscle cardiaque comparé au squelettique, quelle proposition est correcte?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Il contient moins de mitochondries que le squelettique",
@@ -191309,7 +191309,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la phase de prolifération dans la régénération musculaire squelettique, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Elle correspond au nettoyage des débris cellulaires par les macrophages",
@@ -191332,7 +191332,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la régénération du muscle lisse, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Elle dépend exclusivement de cellules satellites quiescentes",
@@ -191355,7 +191355,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'hypertrophie cardiaque physiologique observée chez l'athlète d'endurance, quelle proposition est correcte?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Elle correspond à une hyperplasie massive des cardiomyocytes",
@@ -191378,7 +191378,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les astrocytes du SNC, quelle proposition est correcte?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Ils forment la gaine de myéline des axones du SNC",
@@ -191401,7 +191401,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les types morphologiques de neurones, quelle proposition est correcte?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Les neurones pseudo-unipolaires possèdent plusieurs axones distincts",
@@ -191424,7 +191424,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la phase initiale de régénération nerveuse périphérique après axonotmèse, quelle proposition est correcte?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "Le segment distal forme un tube de Büngner par les cellules de Schwann",
@@ -191447,7 +191447,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les options chirurgicales en cas de lésion nerveuse périphérique grave, quelle proposition est correcte?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "La neurorraphie consiste à transférer un nerf fonctionnel vers un muscle dénervé",
@@ -191470,7 +191470,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'ossification endochondrale se produit à partir de :",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Une maquette de cartilage hyalin remplacée par de l'os",
@@ -191493,7 +191493,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un endothélium est :",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Un épithélium cubique simple qui couvre les vaisseaux de grand diamètre",
@@ -191516,7 +191516,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le remodelage osseux :",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Se déroule au périoste et à l'endoste et entretient la forme de l'os",
@@ -191539,7 +191539,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où peut-on trouver un épithélium pseudostratifié cilié ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Dans la trachée",
@@ -191562,7 +191562,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le tissu osseux compact :",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Est formé d'ostéones (systèmes de Havers)",
@@ -191585,7 +191585,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les myofibrilles :",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Contiennent des sarcomères dont l'alignement strie le muscle",
@@ -191608,7 +191608,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la raison de la striation des fibres musculaires squelettiques ?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "L'arrangement régulier des sarcomères le long des myofibrilles",
@@ -191631,7 +191631,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qu'un sarcomère ?",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "L'unité contractile comprise entre deux lignes Z",
@@ -191654,7 +191654,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les disques intercalaires se situent au niveau de :",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Les disques Z, entre cardiomyocytes",
@@ -191677,7 +191677,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le seul type de tissu musculaire qui conserve la capacité mitotique intacte dans toutes ses cellules ?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Tissu musculaire lisse, dont les cellules se divisent encore à l'âge adulte",
@@ -191700,7 +191700,7 @@ const QUESTIONS = {
   },
   {
    "q": "Innervation et irrigation du muscle :",
-   "c": 8,
+   "c": 15,
    "options": [
     {
      "t": "Nerfs et vaisseaux cheminent dans le tissu conjonctif entourant les fibres",
@@ -191723,7 +191723,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel épithélium présente la plus grande résistance à la friction ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Épithélium pavimenteux stratifié",
@@ -191746,7 +191746,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le tissu épithélial :",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Repose sur une membrane basale et reste avasculaire",
@@ -191769,7 +191769,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la caractéristique du tissu épithélial de la peau ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Il constitue une couche continue de cellules étroitement jointives",
@@ -191792,7 +191792,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel épithélium tapisse l'intérieur de la cavité buccale ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Épithélium pavimenteux stratifié non kératinisé",
@@ -191815,7 +191815,7 @@ const QUESTIONS = {
   },
   {
    "q": "La membrane basale :",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Est synthétisée à la fois par l'épithélium et le conjonctif sous-jacent",
@@ -191838,7 +191838,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les principales cellules du tissu conjonctif à capacité phagocytaire ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Les macrophages, issus de la différenciation des monocytes circulants",
@@ -191861,7 +191861,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles cellules du tissu conjonctif produisent du pus en phagocytant des bactéries ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Les neutrophiles, polynucléaires recrutés en phase aiguë",
@@ -191884,7 +191884,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles cellules sont capables de produire des immunoglobulines (anticorps) ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Macrophages",
@@ -191907,7 +191907,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les composants du tissu conjonctif sont :",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Des fibroblastes et des agrégats de protéoglycanes",
@@ -191930,7 +191930,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le tissu conjonctif le plus largement disséminé dans le corps humain ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Tissu conjonctif lâche",
@@ -191953,7 +191953,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel tissu conjonctif forme les tendons ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Tissu conjonctif lâche aréolaire",
@@ -191976,7 +191976,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles fibres extracellulaires du tissu conjonctif sont capables de retrouver leur forme initiale après distension ou compression ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Fibres de collagène",
@@ -191999,7 +191999,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le tissu cartilagineux :",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Est richement vascularisé par des capillaires",
@@ -192022,7 +192022,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les groupes isogéniques (lacunes) du cartilage :",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Naissent de la division d'un chondrocyte unique",
@@ -192045,7 +192045,7 @@ const QUESTIONS = {
   },
   {
    "q": "La régénération du tissu cartilagineux :",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Est incomplète car le cartilage est avasculaire",
@@ -192068,7 +192068,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la fonction du tissu adipeux ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Constituer une réserve d'énergie de l'organisme",
@@ -192091,7 +192091,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'obésité hypercellulaire (hyperplasique) survient :",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Par suralimentation précoce chez l'enfant",
@@ -192114,7 +192114,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le tissu osseux :",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Est vascularisé et innervé",
@@ -192137,7 +192137,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel des éléments suivants fait partie de la composante inorganique de la matrice osseuse ?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Hydroxyapatite de calcium et de phosphate",
@@ -192160,7 +192160,7 @@ const QUESTIONS = {
   },
   {
    "q": "La couche externe de la diaphyse d'un os long est formée de :",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Tissu osseux spongieux",
@@ -192183,7 +192183,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le nom du tissu osseux formé en premier après une fracture (cal) ?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Tissu osseux plexiforme",
@@ -192206,7 +192206,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles cellules sont capables de résorber le tissu osseux pour le remodeler ?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Cellule ostéoprogénitrice",
@@ -192229,7 +192229,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qu'un canal de Volkmann ?",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Un canal transversal reliant les canaux de Havers entre eux",
@@ -192252,7 +192252,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le nom de la glande dont le produit est libéré par exocytose (sans perte cellulaire) ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Glande mérocrine",
@@ -192275,7 +192275,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le nom de la glande qui libère sa sécrétion en perdant une partie de son cytoplasme apical ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Glande mérocrine",
@@ -192298,7 +192298,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles glandes unicellulaires trouve-t-on associées à l'épithélium intestinal ?",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Cellules caliciformes (à mucus)",
@@ -192321,7 +192321,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les glandes endocrines sont caractérisées par :",
-   "c": 18,
+   "c": 9,
    "options": [
     {
      "t": "Le déversement de leur sécrétion directement dans le sang via une riche vascularisation",
@@ -192344,7 +192344,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles cellules synthétisent la matrice du tissu conjonctif lors de sa croissance ?",
-   "c": 14,
+   "c": 4,
    "options": [
     {
      "t": "Cellules mésenchymateuses",
@@ -192367,7 +192367,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure cellulaire est colorée par un colorant basique ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Le noyau, riche en acides nucléiques",
@@ -192390,7 +192390,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles cellules gliales constituent la barrière hémato-encéphalique dans le système nerveux central ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Astrocytes",
@@ -192413,7 +192413,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le nom de la partie du neurone chargée de recevoir les stimuli et de les conduire vers le corps cellulaire ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Dendrite",
@@ -192436,7 +192436,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la méiose, quels éléments sont séparés et migrent vers les pôles opposés pendant l'anaphase I ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Les bivalents alignés sur la plaque équatoriale",
@@ -192459,7 +192459,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant la prophase I de la méiose, quelle structure assure l'appariement des chromosomes homologues en bivalents ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le complexe synaptonémal reliant les homologues",
@@ -192482,7 +192482,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la spermatogenèse, quelle étape correspond à la différenciation des spermatides en spermatozoïdes ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "La spermiogenèse, qui suit l'achèvement de la méiose",
@@ -192505,7 +192505,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle portion de la trompe utérine la fécondation se produit-elle habituellement ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "L'endomètre utérin, au futur site de nidation",
@@ -192528,7 +192528,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mécanisme empêche la fécondation de l'ovocyte par plus d'un spermatozoïde ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Les granules corticaux libèrent leurs enzymes et durcissent l’enveloppe vitelline",
@@ -192551,7 +192551,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi l'ADN mitochondrial d'un individu est-il exclusivement d'origine maternelle ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Les mitochondries paternelles sont dégradées par les granules corticaux après la fusion des noyaux",
@@ -192574,7 +192574,7 @@ const QUESTIONS = {
   },
   {
    "q": "Après la nidation, les cellules du trophoblaste se différencient pour former une structure plus complexe participant aux échanges materno-fœtaux. Laquelle ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "L'hypoblaste, qui constitue le toit de la cavité du blastocyste",
@@ -192597,7 +192597,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours de la neurulation, quelle structure est à l'origine du système nerveux périphérique ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La plaque neurale, épaississement initial de l'ectoblaste",
@@ -192620,7 +192620,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'objectif de l'étape de fixation dans le traitement d'un échantillon histologique ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Empêcher la digestion du tissu par ses propres enzymes et les bactéries",
@@ -192643,7 +192643,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle coloration spécifique met en évidence les glucides et le glycogène des tissus ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "L'acide périodique-Schiff, utilisé pour l'étude du foie et des reins",
@@ -192666,7 +192666,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle coloration différentielle identifie les bactéries acido-alcoolo-résistantes telles que Mycobacterium tuberculosis ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "La coloration PAS, qui révèle les glucides et le glycogène tissulaires",
@@ -192689,7 +192689,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les quatre tissus de base, lequel est constitué de cellules juxtaposées reposant sur une matrice extracellulaire très peu abondante ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Le tissu épithélial, dont les fonctions sont le revêtement et la sécrétion",
@@ -192712,7 +192712,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel tissu conjonctif non spécialisé compose les ligaments jaunes de la colonne vertébrale, les cordes vocales et le ligament suspenseur du pénis ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Le tissu conjonctif élastique, jaunâtre à l'état frais",
@@ -192735,7 +192735,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle propriété mécanique caractérise le tissu conjonctif dense irrégulier du derme et de la dure-mère ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Une faible résistance à la traction compensée par une substance fondamentale abondante",
@@ -192758,7 +192758,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel type de collagène constitue les fibres du tissu conjonctif réticulaire ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Le collagène de type I",
@@ -192781,7 +192781,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une tendinopathie chronique du tendon d'Achille. Quelle modification cellulaire caractérise le tendon pathologique ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Une hypocellularité avec des ténocytes fusiformes bien alignés",
@@ -192804,7 +192804,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle différence structurale distingue le ligament du tendon, tous deux faits de tissu conjonctif dense régulier ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Ses fibres de collagène sont entrecroisées et résistent dans toutes les directions",
@@ -192827,7 +192827,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles voies de signalisation sont spécifiquement activées au cours de la régénération tissulaire pour réguler les cellules souches ?",
-   "c": 17,
+   "c": 7,
    "options": [
     {
      "t": "Les voies Wnt, Notch et Hedgehog, complétées par le FGF et l'IGF",
@@ -192850,7 +192850,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles propriétés font des cellules souches mésenchymateuses de très bons candidats pour la thérapie cellulaire ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Totipotentes, capables de former également les tissus extra-embryonnaires",
@@ -192873,7 +192873,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la niche des cellules souches adultes, quel élément intègre les signaux provenant de différentes sources ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "Les fibres nerveuses de la niche",
@@ -192896,7 +192896,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quelles cellules les progéniteurs périostés sont-ils capables de se différencier ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "En adipocytes ou en fibroblastes",
@@ -192919,7 +192919,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la classification des cellules souches selon leur origine, d'où sont isolées les cellules souches germinales ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "De la masse cellulaire interne du blastocyste de cinq jours",
@@ -192942,7 +192942,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mode de division permet à une cellule souche de produire une cellule engagée dans la différenciation tout en maintenant le pool de cellules souches ?",
-   "c": 1,
+   "c": 8,
    "options": [
     {
      "t": "La division symétrique",
@@ -192965,7 +192965,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure fournit les cellules qui assurent la régénération de l’épiderme après une plaie ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "La matrice provisoire de fibrine formée lors de l'hémostase",
@@ -192988,7 +192988,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la phase de remodelage d'une cicatrice cutanée, quel couple moléculaire règle la dégradation de la matrice extracellulaire ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "La fibrine et la fibronectine du caillot provisoire",
@@ -193011,7 +193011,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la séquence cellulaire de la phase inflammatoire d'une plaie cutanée ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "Les kératinocytes arrivent d'abord et couvrent la plaie, suivis des cellules endothéliales",
@@ -193034,7 +193034,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une plaie aux berges irrégulières et écartées cicatrise en seconde intention. Quelle caractéristique correspond à ce mode de cicatrisation ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "La guérison se déroule sans myofibroblastes ni contraction de la plaie",
@@ -193057,7 +193057,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur le plan moléculaire, qu'est-ce qui distingue une chéloïde d'une cicatrice hypertrophique ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "Des taux de TGF-bêta encore plus élevés et une surproduction d'IL-6 et d'IL-8",
@@ -193080,7 +193080,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par quel mécanisme les pansements en silicone agissent-ils sur une cicatrice en cours de maturation ?",
-   "c": 3,
+   "c": 10,
    "options": [
     {
      "t": "Ils dégradent l'excès de collagène en activant les métalloprotéases matricielles",
@@ -193103,7 +193103,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours de l'histogenèse du tissu adipeux uniloculaire, quelle cellule se différencie directement en adipocyte immature capable de synthétiser des triglycérides ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "L'adipocyte brun multiloculaire mature",
@@ -193126,7 +193126,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle différence sépare le sérum du plasma sanguin ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Le sérum est le plasma dépourvu de ses protéines de la coagulation",
@@ -193149,7 +193149,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur un frottis, on observe de petits fragments cytoplasmiques énucléés intervenant dans la coagulation. De quelle cellule dérivent-ils ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Du monocyte circulant du sang périphérique",
@@ -193172,7 +193172,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément cellulaire du sang, une fois activé, se différencie en plasmocyte producteur d'anticorps ?",
-   "c": 5,
+   "c": 12,
    "options": [
     {
      "t": "Le monocyte",
@@ -193195,7 +193195,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où se situe précisément la niche des cellules satellites du muscle strié squelettique ?",
-   "c": 9,
+   "c": 16,
    "options": [
     {
      "t": "Dans le tissu conjonctif de l'épimysium entourant le muscle entier",
@@ -193218,7 +193218,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles cellules gliales tapissent les ventricules cérébraux et le canal central de la moelle, séparant le tissu nerveux du liquide céphalo-rachidien ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Les oligodendrocytes",
@@ -193241,7 +193241,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle caractéristique distingue les fibres nerveuses périphériques amyélinisées des fibres myélinisées ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Une cellule de Schwann entoure un seul axone par un enroulement spiralé de plusieurs couches",
@@ -193264,7 +193264,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la classification de Sunderland des lésions du nerf périphérique, quelle structure est atteinte dans une lésion de grade 1 ?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "Toutes les enveloppes jusqu'à l'épinèvre, avec hémorragie et fibrose",
@@ -193287,7 +193287,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle lésion nerveuse associe une interruption des fascicules nerveux à un épinèvre intact, empêchant la repousse d'atteindre les cibles distales ?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "La neurotmèse complète du nerf (grade 5)",
@@ -193310,7 +193310,7 @@ const QUESTIONS = {
   },
   {
    "q": "Après une lésion du système nerveux central, quel est le rôle de la microglie ?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "Phagocyter les parties endommagées du tissu nerveux",
@@ -193333,7 +193333,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la recherche sur la régénération nerveuse, pourquoi utilise-t-on les cellules souches mésenchymateuses de moelle osseuse ?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "Pour leur capacité à se différencier en cellules de type Schwann",
@@ -193356,7 +193356,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle situation rend la régénération axonale périphérique infructueuse malgré un soma neuronal intact ?",
-   "c": 11,
+   "c": 18,
    "options": [
     {
      "t": "Une phagocytose des débris du segment distal par les macrophages",
@@ -193379,7 +193379,7 @@ const QUESTIONS = {
   },
   {
    "q": "La fonction de l'os est :",
-   "c": 7,
+   "c": 14,
    "options": [
     {
      "t": "Fournir un soutien",
@@ -193402,7 +193402,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle part du poids corporel le tissu adipeux représente-t-il, et comment se répartit-elle selon le sexe ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Environ 20 % du poids corporel : 20 à 25 % chez la femme, 15 à 20 % chez l'homme",
@@ -193425,7 +193425,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quoi dépend la teinte, blanche ou jaune, du tissu adipeux uniloculaire ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Du régime alimentaire : plus la teinte est jaune, plus il contient de carotènes",
@@ -193448,7 +193448,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'observe-t-on dans le tissu adipeux uniloculaire au cours du jeûne ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Une diminution du volume des gouttelettes lipidiques",
@@ -193471,7 +193471,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi le tissu adipeux constitue-t-il un bon isolant thermique ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Parce que les graisses sont de mauvais conducteurs de la chaleur",
@@ -193494,7 +193494,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où le tissu adipeux forme-t-il des coussins amortisseurs ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Dans les plantes des mains et des pieds",
@@ -193517,7 +193517,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où se trouve la majeure partie du tissu adipeux de l'organisme ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Dans l'hypoderme, sous la peau de tout le corps",
@@ -193540,7 +193540,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quoi la couleur brunâtre du tissu adipeux multiloculaire est-elle due ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "À son grand nombre de vaisseaux sanguins et de mitochondries",
@@ -193563,7 +193563,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez l'adulte, où persiste principalement le tissu adipeux multiloculaire ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Autour de l'artère carotide, des aisselles et de la thyroïde",
@@ -193586,7 +193586,7 @@ const QUESTIONS = {
   },
   {
    "q": "Avec l'âge, en quoi le tissu adipeux multiloculaire se transforme-t-il progressivement ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Il se transforme progressivement en tissu adipeux blanc",
@@ -193609,7 +193609,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quoi une présence accrue de tissu adipeux multiloculaire est-elle liée ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "À un métabolisme basal plus élevé",
@@ -193632,7 +193632,7 @@ const QUESTIONS = {
   },
   {
    "q": "Grâce à l'expression de quel gène le tissu adipeux beige acquiert-il et conserve-t-il son phénotype ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "PRDM16, exprimé dans le tissu adipeux brun",
@@ -193655,7 +193655,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le processus de browning du tissu adipeux blanc est :",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Réversible",
@@ -193678,7 +193678,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel composant alimentaire augmente l'expression d'UCP1 dans le tissu adipeux blanc ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "La capsaïcine, contenue dans le poivre",
@@ -193701,7 +193701,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel moment l'histogenèse du tissu adipeux uniloculaire débute-t-elle ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Au 5e mois de la vie fœtale",
@@ -193724,7 +193724,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le tissu adipeux multiloculaire, que devient l'énergie issue du métabolisme des acides gras ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Elle est libérée sous forme de chaleur",
@@ -193747,7 +193747,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'obésité hyperplasique, que se produit-il lorsque la quantité de graisses diminue ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "La taille des adipocytes diminue",
@@ -193770,7 +193770,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'obésité, par quel facteur la taille d'un adipocyte peut-elle être multipliée ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Par 20",
@@ -193793,7 +193793,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'OMS, à partir de quel indice de masse corporelle parle-t-on d'obésité ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Un IMC de 30 ou plus",
@@ -193816,7 +193816,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle conséquence une accumulation excessive de graisse viscérale entraîne-t-elle ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Un risque cardiovasculaire",
@@ -193839,7 +193839,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours de l'obésité, quelles fibres musculaires s'atrophient préférentiellement et sont remplacées par du tissu conjonctif ?",
-   "c": 4,
+   "c": 11,
    "options": [
     {
      "t": "Les fibres de type II",
@@ -193862,7 +193862,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles structures composent le système nerveux périphérique dans la division anatomique du tissu nerveux ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Les nerfs, les ganglions nerveux et les terminaisons nerveuses",
@@ -193885,7 +193885,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quels deux versants le système autonome se subdivise-t-il ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Sympathique et parasympathique",
@@ -193908,7 +193908,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que pose la théorie du neurone ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Les neurones sont des unités morphologiquement et trophiquement indépendantes",
@@ -193931,7 +193931,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels pigments les granules d'inclusion du cytoplasme neuronal renferment-ils ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "La neuromélanine et la lipofuscine",
@@ -193954,7 +193954,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quelle caractéristique de l'axone la vitesse de conduction dépend-elle ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "De son diamètre, variable d'un axone à l'autre",
@@ -193977,7 +193977,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces types de synapses existe au niveau de la membrane plasmique du neurone ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "La synapse axo-axonale",
@@ -194000,7 +194000,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que renferme la substance grise du système nerveux central ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Les corps cellulaires, les dendrites et les portions proximales des axones",
@@ -194023,7 +194023,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on un neurone dont l'axone est court ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Un neurone de type II de Golgi",
@@ -194046,7 +194046,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on les neurones d'association dans le classement selon leur fonction ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Les interneurones",
@@ -194069,7 +194069,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quelle proportion les cellules gliales sont-elles présentes par rapport aux neurones ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Cinq à dix fois plus nombreuses",
@@ -194092,7 +194092,7 @@ const QUESTIONS = {
   },
   {
    "q": "Avec quelles structures les extensions cytoplasmiques des astrocytes entrent-elles en contact ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "La paroi endothéliale des vaisseaux et la membrane pie-mère",
@@ -194115,7 +194115,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se présentent les extensions des oligodendrocytes ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Peu nombreuses, courtes, fines et peu ramifiées",
@@ -194138,7 +194138,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle description morphologique correspond à la microglie ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Cellule petite et foncée, à noyau petit et ovale et à extensions courtes et tortueuses",
@@ -194161,7 +194161,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que contient le cytoplasme des cellules épendymaires ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "De nombreuses mitochondries et des faisceaux de filaments intermédiaires",
@@ -194184,7 +194184,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on l'enveloppe que la cellule de Schwann forme autour de la fibre nerveuse périphérique ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Le neurolemme",
@@ -194207,7 +194207,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on un groupe de fibres nerveuses dans le système nerveux central ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Un faisceau",
@@ -194230,7 +194230,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quelle nature est la gaine de myéline d'une fibre nerveuse périphérique ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Un complexe lipoprotéique",
@@ -194253,7 +194253,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle portion de la fibre nerveuse les segments internodaux sont-ils les plus courts ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Dans sa partie finale",
@@ -194276,7 +194276,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les fibres nerveuses myélinisées du système nerveux central possèdent-elles des nœuds de Ranvier ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Oui, leur gaine est interrompue par des nœuds de Ranvier",
@@ -194299,7 +194299,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que trouve-t-on autour des branches nerveuses les plus fines ?",
-   "c": 10,
+   "c": 17,
    "options": [
     {
      "t": "Ni épinèvre ni périnèvre",
@@ -194322,7 +194322,7 @@ const QUESTIONS = {
   },
   {
    "q": "Combien de temps après la fécondation l'embryon atteint-il le stade à deux cellules ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Trente heures",
@@ -194345,7 +194345,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant la deuxième semaine de développement, le début de la connexion utéroplacentaire correspond à :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La fixation du pédicule",
@@ -194368,7 +194368,7 @@ const QUESTIONS = {
   },
   {
    "q": "La gastrulation commence par :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La formation de la ligne primitive à la surface de l'épiblaste",
@@ -194391,7 +194391,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel processus débute avec la formation du disque germinatif trilaminaire ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La morphogenèse",
@@ -194414,7 +194414,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les anomalies de la fermeture du tube neural correspondent à :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "Des malformations potentiellement létales de l'embryon et du fœtus",
@@ -194437,7 +194437,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'émail des dents dérive de quelle couche embryonnaire ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche ectodermique",
@@ -194460,7 +194460,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quelle couche embryonnaire l'hypophyse dérive-t-elle ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche ectodermique",
@@ -194483,7 +194483,7 @@ const QUESTIONS = {
   },
   {
    "q": "La glande mammaire et les glandes sous-cutanées dérivent de :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche ectodermique",
@@ -194506,7 +194506,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le revêtement épithélial de la vessie et de l'urètre dérive de :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche endodermique",
@@ -194529,7 +194529,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les amygdales et le thymus dérivent de quelle couche embryonnaire ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche endodermique",
@@ -194552,7 +194552,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le parenchyme thyroïdien, parathyroïdien, hépatique et pancréatique dérive de :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche endodermique",
@@ -194575,7 +194575,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le revêtement de la cavité tympanique et de la trompe d'Eustache dérive de :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche endodermique",
@@ -194598,7 +194598,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les reins, les gonades et leurs conduits dérivent de :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche mésodermique",
@@ -194621,7 +194621,7 @@ const QUESTIONS = {
   },
   {
    "q": "La rate dérive de quelle couche embryonnaire ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche mésodermique",
@@ -194644,7 +194644,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le muscle lisse et le muscle strié dérivent de :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche mésodermique",
@@ -194667,7 +194667,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quelle couche dérivent en général les organes et les structures qui maintiennent le contact avec le monde extérieur ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La couche ectodermique",
@@ -194690,7 +194690,7 @@ const QUESTIONS = {
   },
   {
    "q": "La période fœtale s'étend :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "De la neuvième semaine jusqu'à l'accouchement",
@@ -194713,7 +194713,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant la période embryonnaire, que se produit-il entre la quatrième et la huitième semaine ?",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "La formation des tissus et des organes",
@@ -194736,7 +194736,7 @@ const QUESTIONS = {
   },
   {
    "q": "La période embryonnaire commence :",
-   "c": 12,
+   "c": 2,
    "options": [
     {
      "t": "À l'implantation dans l'utérus",
@@ -194759,7 +194759,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment appelle-t-on les cavités de la matrice dans lesquelles les chondrocytes sont logés ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Les chondroplastes",
@@ -194782,7 +194782,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi le tissu cartilagineux est-il le tissu retenu pour la croissance squelettique de l'embryon ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Parce qu'il se développe tout en conservant sa rigidité, avant d'être transformé en os",
@@ -194805,7 +194805,7 @@ const QUESTIONS = {
   },
   {
    "q": "Outre le chondroblaste, en quelle autre cellule la cellule chondrogénique peut-elle se différencier ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "En cellule ostéoprogénitrice de l'os",
@@ -194828,7 +194828,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel équipement cytoplasmique caractérise le chondroblaste ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Un réticulum endoplasmique rugueux et un appareil de Golgi développés",
@@ -194851,7 +194851,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle propriété du cartilage hyalin explique sa participation au jeu des articulations ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Il génère des surfaces très lisses, de faible frottement",
@@ -194874,7 +194874,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle localisation correspond au cartilage hyalin ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Les articulations non synoviales de type synchondrose",
@@ -194897,7 +194897,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'où vient le nom du cartilage hyalin ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "De son aspect vitreux, « hyalos » signifiant verre en grec",
@@ -194920,7 +194920,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle protéine associe en conglomérats les glycosaminoglycanes de la matrice du cartilage hyalin ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "La chondronectine",
@@ -194943,7 +194943,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle portion de la matrice du cartilage hyalin entoure un groupe isogénique ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "La matrice territoriale",
@@ -194966,7 +194966,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel protéoglycane, piégé dans un réseau de collagène de type II, confère sa résilience mécanique au cartilage articulaire ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "L'aggrécane",
@@ -194989,7 +194989,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels éléments de la membrane du chondrocyte sont essentiels à la transduction des signaux mécaniques ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Les canaux Ca2+ et les intégrines",
@@ -195012,7 +195012,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel type d'inflammation caractérise l'arthrose ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Une inflammation chronique de faible intensité",
@@ -195035,7 +195035,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces structures, laquelle est constituée de cartilage élastique ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Les cartilages corniculés et cunéiformes du larynx",
@@ -195058,7 +195058,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle structure trouve-t-on du fibrocartilage ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Les zones d'insertion des tendons sur l'os",
@@ -195081,7 +195081,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment appelle-t-on le foyer formé par les premiers chondroblastes issus des cellules mésenchymateuses ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Le centre de chondrification",
@@ -195104,7 +195104,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que contient la couche fibreuse externe du périchondre ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Du collagène de type I, des fibroblastes et des vaisseaux sanguins",
@@ -195127,7 +195127,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que peut engendrer la tentative de réparation d'une lésion cartilagineuse ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Une vascularisation du foyer, suivie de la formation de tissu osseux",
@@ -195150,7 +195150,7 @@ const QUESTIONS = {
   },
   {
    "q": "Où se situent les niches de cellules souches mésenchymateuses mobilisables pour la réparation du cartilage ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Dans la moelle osseuse, le périchondre, le tissu adipeux et la membrane synoviale",
@@ -195173,7 +195173,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par quel mécanisme débute une hernie discale ?",
-   "c": 6,
+   "c": 13,
    "options": [
     {
      "t": "Par la rupture de l'annulus fibrosus, qui laisse échapper le noyau pulpeux",
@@ -196325,7 +196325,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un athlète de 28 ans présente une fréquence cardiaque de 48 bpm au repos. Quelle modification du tissu nodal explique cette bradycardie d'entraînement ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Augmentation du tonus parasympathique au repos",
@@ -196808,7 +196808,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un coureur démarre une course de 10 km. Quelle réponse cardiovasculaire à l'exercice est attendue dès les premières minutes ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Augmentation du débit cardiaque par hausse conjointe du VES et de la FC",
@@ -196831,7 +196831,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le réflexe de Bainbridge contribue à la réponse cardiaque à l'effort. Par quel mécanisme s'active-t-il ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Étirement des oreillettes par l'augmentation du retour veineux",
@@ -196854,7 +196854,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un exercice progressif jusqu'au maximum, comment évoluent FC et VES au-delà de 70% de l'intensité maximale ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "FC et VES augmentent tous deux jusqu'à l'épuisement",
@@ -196877,7 +196877,7 @@ const QUESTIONS = {
   },
   {
    "q": "La consommation maximale d'oxygène (VO2max) est définie par l'équation de Fick. Quelle est cette équation ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "VO2 = Q × différence artérioveineuse en O2",
@@ -196900,7 +196900,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient de 50 ans veut estimer sa fréquence cardiaque maximale pour calibrer son entraînement. Quelle est la formule classique utilisée ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "FCmax = 220 - âge",
@@ -196923,7 +196923,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un effort intense, la ventilation augmente précocement. Quel mécanisme initie cette hyperventilation avant même le début effectif de l'exercice ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Commande centrale anticipatrice issue du cortex moteur",
@@ -196946,7 +196946,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant un exercice d'endurance soutenu, comment évolue typiquement la pression artérielle systolique ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Elle augmente proportionnellement à l'intensité de l'exercice",
@@ -196969,7 +196969,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un kinésithérapeute évalue les adaptations cardiaques d'un cycliste élite. Quelle modification structurelle est typique du cœur d'athlète entraîné en endurance ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Dilatation des cavités ventriculaires avec épaississement modéré et proportionné du myocarde",
@@ -196992,7 +196992,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante de 20 ans expérimente des courbatures 48 h après un entraînement excentrique inhabituel. Quel mécanisme principal explique ces DOMS ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Accumulation de cristaux d'acide lactique dans les fibres",
@@ -197015,7 +197015,7 @@ const QUESTIONS = {
   },
   {
    "q": "Léa, étudiante de 20 ans, avale une bouchée de pain. Quelle est la seule étape volontaire du réflexe de déglutition ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Étape orale : la langue pousse le bol contre le palais mou",
@@ -197038,7 +197038,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la digestion intestinale, quel type de contraction de l'intestin grêle assure principalement la digestion mécanique sans faire avancer le chyme ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Segmentation : mélange du chyme sur place sans propulsion",
@@ -197061,7 +197061,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément du tube digestif présente une troisième couche musculaire en plus des couches circulaire interne et longitudinale externe ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Estomac : ajout d'une couche musculaire oblique",
@@ -197084,7 +197084,7 @@ const QUESTIONS = {
   },
   {
    "q": "Marc, 35 ans, consomme un repas riche en lipides. Sous quelle forme principale les lipides quittent-ils l'entérocyte pour rejoindre la circulation ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Chylomicrons captés par les capillaires lymphatiques",
@@ -197107,7 +197107,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure de l'intestin grêle augmente la surface d'absorption par des saillies de la membrane apicale des entérocytes ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Microvillosités : saillies cytoplasmiques de la membrane apicale",
@@ -197130,7 +197130,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la régulation de la motilité du tube digestif, quelle affirmation est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Le parasympathique stimule la motilité via l'acétylcholine",
@@ -197153,7 +197153,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sophie, 25 ans, jeûne depuis 12 heures. Quel mécanisme hormonal explique sa sensation de faim ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Sécrétion accrue de ghréline par l'estomac vide",
@@ -197176,7 +197176,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez une personne obèse, quelle anomalie hormonale est typiquement observée pour la leptine ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Leptine élevée avec résistance fonctionnelle au récepteur",
@@ -197199,7 +197199,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel apport énergétique en kcal correspond à 1 gramme de lipides ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "9 kcal par gramme",
@@ -197222,7 +197222,7 @@ const QUESTIONS = {
   },
   {
    "q": "Romain, 22 ans, sprinte 6 secondes au départ d'un 100 m. Quel système énergétique domine pendant cet effort explosif initial ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Métabolisme anaérobie alactique : ATP-phosphocréatine",
@@ -197245,7 +197245,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle enzyme catalyse la resynthèse rapide d'ATP à partir de la phosphocréatine dans le muscle ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Créatine kinase : transfère le phosphate de la PCr à l'ADP",
@@ -197268,7 +197268,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un exercice intense, le lactate produit dans le muscle peut emprunter le cycle de Cori. Où ce cycle réalise-t-il la néoglucogenèse ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Dans le foie, organe néoglucogénique principal",
@@ -197291,7 +197291,7 @@ const QUESTIONS = {
   },
   {
    "q": "À propos du lactate produit pendant l'exercice anaérobie, quelle affirmation est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Réoxydé en pyruvate, il resert de substrat à la voie aérobie",
@@ -197314,7 +197314,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel rendement énergétique en ATP est obtenu par mole de glucose oxydée complètement par voie aérobie ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Environ 39 ATP par mole de glucose",
@@ -197337,7 +197337,7 @@ const QUESTIONS = {
   },
   {
    "q": "Antoine, 30 ans, court 2 heures à faible intensité. Quel substrat énergétique va prédominer ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Métabolisme aérobie des lipides (β-oxydation des AG)",
@@ -197360,7 +197360,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle enzyme permet la libération des acides gras stockés dans le tissu adipeux pendant l'exercice ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Lipase hormono-sensible, activée par les catécholamines",
@@ -197383,7 +197383,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel rôle joue la lipoprotéine lipase (LPL) dans le métabolisme lipidique ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Hydrolyser les TG des lipoprotéines circulantes pour libérer les AG",
@@ -197406,7 +197406,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la β-oxydation, quelle affirmation est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Elle dégrade les acyl-CoA en acétyl-CoA dans la mitochondrie",
@@ -197429,7 +197429,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel danger métabolique apparaît lors d'une utilisation quasi exclusive des graisses comme substrat énergétique ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Acidose métabolique par accumulation de corps cétoniques",
@@ -197452,7 +197452,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du métabolisme des acides aminés à l'effort, le foie convertit l'ammonium toxique en quelle molécule éliminée dans les urines ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Urée issue de la désamination des acides aminés",
@@ -197475,7 +197475,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le seuil lactique de premier niveau (SL1) lors d'un test d'effort progressif, quelle définition est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Intensité où le lactate augmente de plus de 0,5 mmol/L entre deux prélèvements",
@@ -197498,7 +197498,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle de Skinner & McLellan (1980), quelle est la phase recommandée pour les patients diabétiques ou présentant des pathologies cardiaques ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Phase I : repos au seuil aérobie (<65% VO2max)",
@@ -197521,7 +197521,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle formule simple permet d'estimer la FC maximale théorique d'un patient lors d'un test d'effort ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "FCmax = 220 - âge",
@@ -197544,7 +197544,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle adaptation musculaire à l'entraînement d'endurance est observée chez un sportif chronique ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Augmentation des mitochondries et des enzymes du cycle de Krebs",
@@ -197567,7 +197567,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les sphincters de la défécation, quelle affirmation est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Le sphincter externe est sous contrôle volontaire à partir de 18 mois",
@@ -197590,7 +197590,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la principale réserve de glucose dans l'organisme et où la trouve-t-on stockée ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Glycogène, stocké dans le foie et les muscles",
@@ -197613,7 +197613,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi le glycogène musculaire ne peut-il pas servir à maintenir la glycémie ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Le muscle manque de glucose-6-phosphatase pour libérer le glucose",
@@ -197636,7 +197636,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel pourcentage de la dépense énergétique totale représente le métabolisme de repos chez un adulte ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "60-75 % de la dépense énergétique totale",
@@ -197659,7 +197659,7 @@ const QUESTIONS = {
   },
   {
    "q": "Karim, 28 ans, prend un repas riche. Quelle hormone duodénale anorexigène est libérée en réponse à l'arrivée du chyme ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Cholécystokinine (CCK) sécrétée par le duodénum",
@@ -197682,7 +197682,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les théories de régulation des prises alimentaires, quelle correspondance est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Théorie glucostatique : régulation à court terme par la glycémie",
@@ -197705,7 +197705,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels neurotransmetteurs sont impliqués dans le circuit de la récompense activé par la consommation de sucre ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Dopamine via les voies dopaminergiques du striatum et du cortex préfrontal",
@@ -197728,7 +197728,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la voie d'absorption principale du fer, des acides aminés et des glucides après digestion ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Veine porte hépatique via la circulation entéro-hépatique",
@@ -197751,7 +197751,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le pancréas exocrine sécrète ses enzymes digestives sous quelle forme pour protéger ses propres tissus ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Sous forme de zymogènes inactifs, activés dans le duodénum",
@@ -197774,7 +197774,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle enzyme intestinale active les zymogènes pancréatiques dans la lumière du duodénum ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Entéropeptidase (entérokinase) de la bordure en brosse",
@@ -197797,7 +197797,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure du tube digestif est responsable du brassage final du contenu colique en mouvements de masse ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Côlon : mouvements de masse propulsant le contenu",
@@ -197820,7 +197820,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le microbiote du gros intestin, quelle affirmation est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Il produit des vitamines K et B absorbées par le côlon",
@@ -197843,7 +197843,7 @@ const QUESTIONS = {
   },
   {
    "q": "À intensité d'exercice supérieure à 50% du VO2max, quel substrat énergétique devient prédominant ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Le glycogène musculaire (glucose) via la glycolyse",
@@ -197866,7 +197866,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'effet de l'entraînement aérobie sur le métabolisme musculaire, quelle conséquence est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Diminution de la production de lactate à intensité donnée",
@@ -197889,7 +197889,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle lipoprotéine plasmatique est la plus riche en triglycérides après absorption d'un repas gras ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Chylomicrons (environ 85% de triglycérides)",
@@ -197912,7 +197912,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le seuil ventilatoire SV2 lors d'un test d'effort progressif, quelle affirmation est CORRECTE ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Il correspond à la deuxième rupture de linéarité de la courbe VE-VO2",
@@ -198119,7 +198119,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quel facteur dépend la force produite par un muscle ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Le nombre d'unités motrices recrutées.",
@@ -198142,7 +198142,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cervelet :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Est une structure clé de la mémoire procédurale (ou motrice) et de l'apprentissage moteur.",
@@ -198165,7 +198165,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle région du tube digestif ont lieu les quatre processus caractéristiques du système digestif (motilité, sécrétion, digestion et absorption) ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Côlon",
@@ -198188,7 +198188,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel, parmi les éléments suivants, fait partie de la salive, des sécrétions gastriques et pancréatiques ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Bicarbonate",
@@ -198211,7 +198211,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle situation les enzymes responsables de l'activation de la glycolyse augmentent leur activité dans le muscle squelettique ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Lorsque la concentration d'ATP musculaire augmente",
@@ -198510,7 +198510,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel, parmi les stimuli suivants, est responsable de l'augmentation de la ventilation pendant l'exercice physique :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "L'élévation de la PCO2 artérielle, principal moteur de l'hyperventilation d'effort",
@@ -198832,7 +198832,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE par rapport au réflexe de Frank-Starling pendant l'exercice :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Le volume d'éjection augmente en réponse à un retour veineux accru",
@@ -198855,7 +198855,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez l'ordre correct concernant le chemin des aliments dans le tube digestif :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Œsophage / estomac / pylore / jéjunum / valve iléo-caecale / côlon sigmoïde / rectum",
@@ -198878,7 +198878,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément du péritoine relie l'intestin grêle à la paroi postérieure ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Mésentère",
@@ -198901,7 +198901,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la relation CORRECTE :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Estomac - fundus",
@@ -198924,7 +198924,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse INCORRECTE par rapport au processus de déglutition.",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Permet la progression du bol alimentaire de la cavité buccale à l'estomac",
@@ -198947,7 +198947,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le réflexe d'évacuation :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Il est déclenché par la distension des parois du rectum.",
@@ -198970,7 +198970,7 @@ const QUESTIONS = {
   },
   {
    "q": "Des nutriments sont-ils absorbés dans le gros intestin ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Oui, de l'eau, des électrolytes et des vitamines d'origine bactérienne.",
@@ -198993,7 +198993,7 @@ const QUESTIONS = {
   },
   {
    "q": "Théoriquement, chez une personne en surpoids avec de grandes réserves de graisse :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Les niveaux de leptine sont bas, donc elle se sent rassasiée.",
@@ -199016,7 +199016,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle hormone, sécrétée par l'estomac, a une fonction orexigène ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Neuropeptide Y",
@@ -199039,7 +199039,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel métabolisme prédomine après deux heures d'activité physique de faible intensité ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Métabolisme aérobie des lipides",
@@ -199062,7 +199062,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'interaction des métabolismes lors de l'activité physique :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Les trois sont activés SIMULTANÉMENT, leur contribution variant selon l'intensité et la durée.",
@@ -199085,7 +199085,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse INCORRECTE par rapport au métabolisme anaérobie alactique :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Il est prédominant lorsque l'activité physique est très courte et explosive",
@@ -199683,7 +199683,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que signifie le principe du tout ou rien appliqué à la fibre musculaire squelettique ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Stimulée, elle se contracte avec toute la force que permettent les conditions, sinon pas du tout.",
@@ -199706,7 +199706,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quel ordre les unités motrices sont-elles recrutées lorsque la force demandée augmente progressivement ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Type IIa, puis type I, puis type IIx, selon leur résistance croissante à la fatigue.",
@@ -199729,7 +199729,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE à propos des fibres qui composent une même unité motrice :",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Elles sont de types variés et seules les plus grosses répondent aux stimulus faibles.",
@@ -199752,7 +199752,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles contiennent habituellement la plus forte proportion de fibres de type I ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Les muscles oculomoteurs, dont les unités motrices comptent très peu de fibres.",
@@ -199775,7 +199775,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours classe-t-il les contractions musculaires selon le mouvement produit ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "En une contraction dynamique, dite isométrique, et des contractions statiques, isotoniques ou isocinétiques.",
@@ -199798,7 +199798,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE concernant la force maximale développée selon le type de contraction :",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Elle est plus élevée en concentrique qu'en excentrique, car le muscle se raccourcit activement.",
@@ -199821,7 +199821,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle qualité de force correspond à la capacité de développer une grande énergie dans le temps le plus court possible ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "La force explosive",
@@ -199844,7 +199844,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel récepteur proprioceptif renseigne sur le degré de tension du muscle plutôt que sur sa longueur ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Le mécanorécepteur articulaire",
@@ -199913,7 +199913,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse CORRECTE sur la distinction entre réponse et adaptation à l'exercice physique :",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "La réponse est ponctuelle et commune à tous, l'adaptation est chronique et propre aux entraînés",
@@ -199936,7 +199936,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la réponse normale du pancréas pendant une activité physique ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Il freine la sécrétion d'insuline, le muscle captant le glucose par ses GLUT activés par le Ca2+",
@@ -199959,7 +199959,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le débit ventilatoire augmente-t-il au cours d'un exercice d'intensité croissante ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "D'abord par l'augmentation du volume courant, puis par celle de la fréquence respiratoire",
@@ -200212,7 +200212,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle voie descendante coordonne les mouvements des yeux avec ceux de la tête et du cou ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "La voie tectospinale",
@@ -200304,7 +200304,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on la contraction de toutes les fibres d'une unité motrice en réponse à un seul potentiel d'action de son motoneurone ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "Une secousse musculaire",
@@ -200327,7 +200327,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se subdivisent les contractions dynamiques d'après le développement du mouvement ?",
-   "c": 3,
+   "c": 4,
    "options": [
     {
      "t": "En contractions isotoniques et isocinétiques",
@@ -200396,7 +200396,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui caractérise les systèmes de modulation du contrôle moteur, comme le cervelet et les ganglions de la base ?",
-   "c": 4,
+   "c": 5,
    "options": [
     {
      "t": "Ils n'ont pas de connexion directe avec les motoneurones et ne produisent pas le mouvement",
@@ -263755,7 +263755,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une femme de 55 ans atteinte d'arthrite rhumatoïde évolutive consulte en physiothérapie pour des douleurs cervicales et une raideur matinale prolongée. L'examen révèle une suspicion d'instabilité atlanto-axoïdienne (C1-C2) liée à la destruction inflammatoire des structures ligamentaires. Quelle est la conduite la plus appropriée pour le physiothérapeute ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "A) Réaliser des manipulations cervicales à haute vélocité pour améliorer la mobilité",
@@ -263888,7 +263888,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le signe de Trendelenburg est lié à une faiblesse des :",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "A) Abducteurs de la hanche",
@@ -263907,7 +263907,7 @@ const QUESTIONS = {
   },
   {
    "q": "En cas d'ostéoporose, il faut principalement faire:",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "A) Le travail de l'équilibre",
@@ -264040,7 +264040,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le syndrome post-réanimation (post-ICU) ou d'immobilisation inclut :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "A) Séquelles physiques, cognitives et psychologiques",
@@ -264078,7 +264078,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'alignement postural normal en position anatomique comprend :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "A) Occiput – D4/D5 – L4",
@@ -264097,7 +264097,7 @@ const QUESTIONS = {
   },
   {
    "q": "La lordose cervicale normale correspond approximativement à :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "A) 1 TD à hauteur de C7",
@@ -264116,7 +264116,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du Sitting Knee Extension Test, le test est arrêté si :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "A) Le bassin bascule en antéversion et la lordose lombaire s'accentue",
@@ -264135,7 +264135,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'Ely's Test évalue principalement :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "A) Le quadriceps (flexion passive du genou en décubitus ventral)",
@@ -264154,7 +264154,7 @@ const QUESTIONS = {
   },
   {
    "q": "La différence principale entre nociception et douleur est que :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "A) La nociception est l'expérience subjective, la douleur est le signal neuronal",
@@ -264173,7 +264173,7 @@ const QUESTIONS = {
   },
   {
    "q": "La douleur nociplastique est définie par :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "A) Une lésion nerveuse périphérique",
@@ -264192,7 +264192,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les fibres responsables de la douleur rapide et piquante sont :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "A) Fibres C",
@@ -264211,7 +264211,7 @@ const QUESTIONS = {
   },
   {
    "q": "La transformation d'un stimulus nocif en signal électrique s'appelle :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "A) Transmission",
@@ -264230,7 +264230,7 @@ const QUESTIONS = {
   },
   {
    "q": "QUESTION RESERVE. La modulation correspond à :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "A) La perception consciente",
@@ -264249,7 +264249,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la prise en charge rééducative d'un patient présentant un Whiplash Associated Disorder (WAD) ou coup du lapin cervical, quelle affirmation est correcte ?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. Le traitement vise principalement à récupérer rapidement les amplitudes maximales de flexion-extension cervicale, même en phase aiguë douloureuse.",
@@ -264268,7 +264268,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les critères modernes de retour rééducation après ligamentoplastie du ligament croisé antérieur (LCA), quelle proposition est exacte ?",
-   "c": 15,
+   "c": 16,
    "options": [
     {
      "t": "a. Une récupération de 70 % de la force du quadriceps par rapport au côté sain (Limb Symmetry Index) suffit pour autoriser le retour au sport pivot-contact.",
@@ -264287,7 +264287,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les lésions de type SLAP (Superior Labrum Anterior to Posterior) de l'épaule :",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "a. Elles correspondent à une atteinte du bourrelet glénoïdien supérieur, dans la zone d'ancrage du tendon du long biceps.",
@@ -264325,7 +264325,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les tests orthopédiques suivants, lequel est le plus spécifique pour l'évaluation clinique d'une épicondylalgie latérale (tennis elbow) ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "a. Le test de Cozen",
@@ -264382,7 +264382,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le conflit fémoro-acétabulaire (FAI), quelle affirmation est correcte ?",
-   "c": 14,
+   "c": 15,
    "options": [
     {
      "t": "a. Le conflit de type CAM (asphéricité de la jonction tête-col) prédomine chez l'homme jeune et sportif.",
@@ -264420,7 +264420,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel test est considéré comme la référence clinique principale pour évaluer une instabilité antérieure du genou liée à une atteinte du LCA ?",
-   "c": 15,
+   "c": 16,
    "options": [
     {
      "t": "a. Le test de Lachman réalisé à environ 30° de flexion du genou.",
@@ -264439,7 +264439,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lorsqu'un patient utilise une seule béquille après chirurgie ou blessure du membre inférieur :",
-   "c": 15,
+   "c": 16,
    "options": [
     {
      "t": "a. Elle doit être portée du côté homolatéral au membre atteint pour soulager directement l'appui.",
@@ -264458,7 +264458,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la tendinopathie rotulienne :",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "a. La douleur siège au pôle inférieur de la rotule, majorée par les charges tendineuses répétées.",
@@ -264515,7 +264515,7 @@ const QUESTIONS = {
   },
   {
    "q": "La spondylolyse correspond :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. À une fracture de fatigue du pars interarticularis, souvent en L5, favorisée par les hyperextensions répétées.",
@@ -264534,7 +264534,7 @@ const QUESTIONS = {
   },
   {
    "q": "La fracture de Colles :",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "a. Est une fracture distale du radius, généralement secondaire à une chute sur la main en extension.",
@@ -264553,7 +264553,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'angle de Cobb dans l'évaluation d'une scoliose :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. Il mesure la rotation vertébrale axiale uniquement.",
@@ -264572,7 +264572,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un adolescent présentant une scoliose avec un angle de Cobb de 25° et un score de Risser de 0 :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. Le potentiel de croissance restant est important et impose une surveillance rapprochée, mais ne justifie aucune mesure thérapeutique.",
@@ -264591,7 +264591,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi une atteinte de la colonne postérieure dans une fracture rachidienne est-elle considérée comme un facteur d'instabilité ?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. Parce qu'elle lèse le complexe ligamentaire postérieur, mais reste sans conséquence tant que la colonne antérieure est intacte.",
@@ -264610,7 +264610,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le score TLICS (Thoracolumbar Injury Classification and Severity Score) prend en compte :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. L'âge, le sexe et la densité osseuse.",
@@ -264629,7 +264629,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le système TLICS, à partir de quel score une prise en charge chirurgicale est-elle généralement recommandée ?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. ≥ 2 points",
@@ -264648,7 +264648,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les stratégies de stabilisation lombo-abdominale :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. Le hollowing vise principalement l'activation sélective des muscles profonds comme le transverse abdominal.",
@@ -264667,7 +264667,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi la tendinopathie du supra-épineux est-elle particulièrement fréquente ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "a. En raison d'une combinaison de faible vascularisation, contraintes mécaniques répétées et réduction de l'espace sous-acromial.",
@@ -264686,7 +264686,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mouvement est le plus susceptible de réduire l'espace sous-acromial et favoriser un conflit mécanique ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "a. Abduction active en rotation externe au-delà de 90°.",
@@ -264705,7 +264705,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi une posture avec épaules projetées vers l'avant favorise-t-elle l'impingement sous-acromial ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "a. Elle entraîne une bascule postérieure et une rotation externe scapulaire qui sollicitent excessivement le supra-épineux.",
@@ -264743,7 +264743,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cadre du syndrome croisé supérieur de Janda, quel schéma musculaire est le plus caractéristique ?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. Hyperactivité des muscles pectoraux majeurs/mineurs, trapèze supérieur et élévateur de la scapula, associée à une inhibition des fléchisseurs profonds du cou, trapèze inférieur et dentelé antérieur",
@@ -264762,7 +264762,7 @@ const QUESTIONS = {
   },
   {
    "q": "Reserve. Concernant le dysfonctionnement temporo-mandibulaire avec déplacement antérieur du disque articulaire :",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "a. L'hyperactivité du muscle ptérygoïdien latéral peut favoriser une traction antérieure du disque, perturbant sa relation normale avec le condyle mandibulaire.",
@@ -265085,7 +265085,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la fibromyalgie selon le cours, quelle affirmation sur le diagnostic est exacte ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Le diagnostic est complètement clinique car la symptomatologie est subjective et il n'existe pas d'examen pour le confirmer",
@@ -265104,7 +265104,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur le plan physiopathologique, comment le cours classe-t-il la douleur de la fibromyalgie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Comme une douleur nociplastique liée à une sensibilisation centrale, avec excès de glutamate et de substance P",
@@ -265123,7 +265123,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur la douleur, quelle est la définition de l'allodynie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Une réponse douloureuse à un stimulus normalement non nociceptif",
@@ -265142,7 +265142,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la transmission des stimuli douloureux décrite par le cours, quelles fibres conduisent la douleur lente et chronique en libérant la substance P ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Les fibres C, amyéliniques et lentes",
@@ -265161,7 +265161,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle structure du mésencéphale est décrite comme ayant pour fonction essentielle de réduire la douleur excessive dans la voie descendante de modulation ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La substance grise périaqueducale",
@@ -265180,7 +265180,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la classification physiopathologique du cours, quel type de douleur correspond à une douleur sans dommage tissulaire identifiable, regroupant la fibromyalgie, la douleur viscérale et le syndrome du côlon irritable ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Douleur nociplastique (centrale)",
@@ -265199,7 +265199,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle anomalie biologique le cours associe-t-il spécifiquement au diagnostic de la maladie de Paget ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une élévation de la phosphatase alcaline",
@@ -265484,7 +265484,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les rhumatismes inflammatoires et dégénératifs, l'arthrose se distingue de l'arthrite par sa physiopathologie. Quel mécanisme le cours met-il en avant dans l'arthrose?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une lésion et une disparition progressive du cartilage entraînant un frottement osseux",
@@ -265503,7 +265503,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours qualifie l'ostéoporose de maladie « silencieuse ». À quelles localisations correspondent les fractures les plus typiquement citées?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Vertèbres, hanche et poignet",
@@ -265522,7 +265522,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours de la maladie de Paget, quel résultat biologique le cours retient-il comme évocateur dans la prise de sang?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une élévation de la phosphatase alcaline",
@@ -265541,7 +265541,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours classe la fibromyalgie parmi les douleurs de sensibilisation centrale. À quel type de douleur, selon la physiopathologie, la rattache-t-il?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La douleur nociplastique (sensibilisation centrale)",
@@ -265560,7 +265560,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les caractéristiques de la fibromyalgie décrites dans le cours, quelle durée minimale et quel seuil de points douloureux sont retenus?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Douleur depuis au moins 3 mois et 11 points douloureux sur 18",
@@ -265579,7 +265579,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la transmission des stimuli douloureux, le cours distingue les fibres nerveuses selon leur myélinisation et leur fonction. Quelle est la caractéristique des fibres C?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Sans myéline, à conduction lente, nociceptives (thermiques, chimiques, mécaniques)",
@@ -265598,7 +265598,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours définit plusieurs anomalies sensitives. Comment y est définie l'allodynie?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Une réponse douloureuse à un stimulus non nociceptif",
@@ -265902,7 +265902,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le diagnostic de la fibromyalgie, que retient le cours ?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Il est complètement clinique, sans examen permettant de le confirmer",
@@ -265921,7 +265921,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur le plan physiopathologique, le cours classe la fibromyalgie comme :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Un problème de sensibilisation centrale (douleur nociplastique)",
@@ -265940,7 +265940,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le diagnostic biologique de la maladie de Paget, quel marqueur sanguin le cours met-il en avant ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "L'élévation de la phosphatase alcaline",
@@ -265959,7 +265959,7 @@ const QUESTIONS = {
   },
   {
    "q": "La polymyosite est définie dans le cours comme une maladie d'origine :",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Auto-immune",
@@ -265978,7 +265978,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une suspicion d'épicondylalgie latérale, le test de Cozen est réalisé. Selon le cours, comment obtient-on un résultat positif ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Reproduction des symptômes lors de l'extension résistée du poignet, le patient s'opposant à la force du thérapeute",
@@ -266130,7 +266130,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les critères de la fibromyalgie selon le cours, quelle affirmation est exacte ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Douleur diffuse depuis au moins 3 mois avec 11 points douloureux sur 18",
@@ -266149,7 +266149,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mécanisme physiopathologique central est mis en avant dans la fibromyalgie selon le cours ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Une sensibilisation centrale (douleur nociplastique) avec excès de glutamate et de substance P",
@@ -266168,7 +266168,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, comment est posé le diagnostic de fibromyalgie ?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Il est complètement clinique, sans examen confirmant le diagnostic",
@@ -266187,7 +266187,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la maladie de Paget osseuse, quelle anomalie biologique est citée dans le cours pour le diagnostic ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une élévation de la phosphatase alcaline",
@@ -266206,7 +266206,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle pathologie rhumatologique est habituellement asymptomatique mais peut entraîner douleur, déformation et augmentation de la vascularisation ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "La maladie de Paget",
@@ -266225,7 +266225,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la polymyosite, quelle proposition correspond au cours ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "C'est une maladie auto-immune touchant surtout les femmes, pouvant se compliquer de dysphagie",
@@ -266377,7 +266377,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'épicondylalgie, quel test est utilisé pour l'atteinte de l'épicondyle latéral selon le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Le test de Cozen",
@@ -266396,7 +266396,7 @@ const QUESTIONS = {
   },
   {
    "q": "La tendinopathie de De Quervain concerne les tendons de quels muscles selon le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Le court extenseur du pouce et le long abducteur du pouce",
@@ -266415,7 +266415,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel test orthopédique est décrit dans le cours pour la tendinopathie de De Quervain ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Le test de Finkelstein",
@@ -266434,7 +266434,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la maladie de Dupuytren, quelle affirmation est conforme au cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "C'est un épaississement de l'aponévrose palmaire entraînant une rétraction des doigts sans douleur",
@@ -266453,7 +266453,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient âgé chute sur la paume de la main et présente une déformation en fourche du poignet avec déplacement dorsal. Quelle fracture évoque le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "La fracture de Colles (radius distal)",
@@ -266472,7 +266472,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la fracture du scaphoïde, quelles complications sont mentionnées dans le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "La pseudarthrose et la nécrose",
@@ -266491,7 +266491,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la classification de Mason modifiée des fractures de la tête radiale, que caractérise le type II ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Une division osseuse déplacée de plus de 2 mm ou angulée, avec blocage mécanique possible de la rotation",
@@ -266833,7 +266833,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les fibres nerveuses de la douleur selon le cours.",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Les fibres C sont amyéliniques, lentes (< 2 m/s) et nociceptives.",
@@ -266852,7 +266852,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel neurotransmetteur est le plus important dans la voie paléospinothalamique transmettant la douleur lente et chronique ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La substance P.",
@@ -266871,7 +266871,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, indiquez la réponse correcte distinguant allodynie et hyperalgésie.",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "L'allodynie est une réponse douloureuse à un stimulus non nociceptif, tandis que l'hyperalgésie est une réponse accrue à un stimulus nociceptif.",
@@ -266890,7 +266890,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se distingue la douleur nociceptive ischémique de la douleur neuropathique quant à leur réponse au traitement antalgique ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La douleur neuropathique réagit mal aux analgésiques alors que la douleur nociceptive répond bien au traitement.",
@@ -266928,7 +266928,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la physiopathologie de la fibromyalgie selon le cours.",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Elle implique une augmentation de l'activité du glutamate et des récepteurs NMDA, ainsi qu'une atrophie de la matière grise.",
@@ -266947,7 +266947,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel mécanisme inhibiteur endogène est altéré dans la physiopathologie de la fibromyalgie ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Une diminution de l'efficacité du DNIC (contrôle inhibiteur nocif diffus), porté par les voies sérotoninergiques et noradrénergiques.",
@@ -266966,7 +266966,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la maladie de Paget selon le cours.",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Le diagnostic biologique montre une augmentation de la phosphatase alcaline.",
@@ -267289,7 +267289,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la classification des types de douleur selon la physiopathologie, comment est désignée la douleur résultant d'une altération de la nociception sans preuve de lésion tissulaire, regroupant la fibromyalgie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La douleur nociplastique (centrale)",
@@ -267308,7 +267308,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la terminologie sémiologique de la douleur, comment se définit l'allodynie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Une réponse douloureuse à un stimulus non nociceptif",
@@ -267327,7 +267327,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur la transmission de la douleur, quel neurotransmetteur est le plus important dans la voie paléospinothalamique transmettant la douleur lente et chronique ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La substance P",
@@ -267346,7 +267346,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles fibres nerveuses sont amyéliniques, lentes (< 2 m/s) et nociceptives ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Les fibres C",
@@ -267365,7 +267365,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiopathologie de la fibromyalgie, quels médiateurs excitateurs de la douleur sont prédominants selon le cours ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le glutamate et la substance P",
@@ -267384,7 +267384,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les caractéristiques cliniques de la douleur dans la fibromyalgie, quelle proposition est exacte selon le cours ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Douleur généralisée et bilatérale, au-dessus et au-dessous de la taille, touchant le squelette axial",
@@ -267403,7 +267403,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le diagnostic de la fibromyalgie, quelle proposition est exacte selon le cours ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Le diagnostic est exclusivement clinique car la symptomatologie est subjective",
@@ -267422,7 +267422,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiopathologie de la fibromyalgie, quel mécanisme inhibiteur est dysfonctionnel selon le cours ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Une diminution de l'efficacité du DNIC (contrôle inhibiteur nocif diffus)",
@@ -267441,7 +267441,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le diagnostic de l'arthrose, quel examen complémentaire est cité dans le cours en cas d'épanchement ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "L'étude du liquide synovial",
@@ -267460,7 +267460,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le diagnostic biologique de la maladie de Paget, quelle anomalie sanguine est caractéristique ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une élévation de la phosphatase alcaline",
@@ -267479,7 +267479,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels agents infectieux sont évoqués parmi les causes possibles de la maladie de Paget ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "La rougeole et la rubéole",
@@ -267498,7 +267498,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la polymyosite, indiquez la réponse correcte selon le profil épidémiologique du cours.",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Myopathie inflammatoire auto-immune, prédominant chez les femmes afro-américaines entre 30 et 60 ans",
@@ -267517,7 +267517,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la classification de Mason modifiée par Hotchkiss et Broberg-Morrey, à quel type correspond une fracture déplacée de plus de 2 mm de la tête radiale avec possible blocage mécanique de la rotation de l'avant-bras ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Le type II",
@@ -267536,7 +267536,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la fracture de l'olécrâne, quel mécanisme produit typiquement une fracture transversale ou oblique (le plus fréquent) ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Une contraction excentrique intense et soudaine du triceps, coude en flexion",
@@ -267555,7 +267555,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la maladie de Dupuytren, quelle structure est atteinte et quelle conséquence fonctionnelle en découle ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Un épaississement et une rétraction de l'aponévrose palmaire limitant l'extension des doigts (surtout les rayons ulnaires)",
@@ -267574,7 +267574,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le test de Cozen, quelle pathologie permet-il d'explorer ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "L'épicondylalgie latérale",
@@ -267593,7 +267593,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le test de Finkelstein, reproduisant les symptômes lors d'une déviation cubitale, explore quelle structure ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Les tendons du court extenseur et du long abducteur du pouce (De Quervain)",
@@ -267612,7 +267612,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le test de la main vide (empty can/Jobe) selon le cours.",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Il évalue le supra-épineux, en abduction dans le plan scapulaire pouce vers le bas",
@@ -267726,7 +267726,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans le faisceau spinothalamique, quelle voie transmet la douleur lente et chronique ainsi que la perception émotionnelle désagréable ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le faisceau paléo-spinothalamique",
@@ -267745,7 +267745,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la définition correcte de l'allodynie selon le cours.",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Réponse douloureuse à un stimulus non nociceptif",
@@ -267764,7 +267764,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit la dysesthésie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Sensation anormale désagréable ou inconfortable, spontanée ou provoquée",
@@ -267783,7 +267783,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la douleur nociplastique (centrale) se caractérise par :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Une altération de la nociception malgré l'absence de preuve de lésions tissulaires ou de maladie du système somatosensoriel",
@@ -267802,7 +267802,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel critère diagnostique caractérise la fibromyalgie en termes de points douloureux et de durée d'évolution ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Au moins 11 points douloureux sur 18, évoluant depuis au moins 3 mois",
@@ -267821,7 +267821,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les critères du cours, combien de points douloureux sur 18 sont requis dans la fibromyalgie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "11 points sur 18",
@@ -267840,7 +267840,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel mécanisme physiopathologique sous-tend la douleur de la fibromyalgie ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Une sensibilisation centrale avec altération de la régulation centrale des voies de la douleur",
@@ -268106,7 +268106,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours de rhumatologie, quel signe biologique est caractéristique de la maladie de Paget ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une augmentation de la phosphatase alcaline",
@@ -268125,7 +268125,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles causes infectieuses sont évoquées (avec un point d'interrogation) dans la maladie de Paget ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "La rougeole et la rubéole",
@@ -268144,7 +268144,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel est l'outil de diagnostic mentionné pour l'ostéoporose ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Le FRAX",
@@ -268163,7 +268163,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à partir de quel âge la masse osseuse commence-t-elle à diminuer naturellement, étape clé dans la genèse de l'ostéoporose ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Vers 30-35 ans",
@@ -268182,7 +268182,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le test de Cozen explore quelle pathologie ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "L'épicondylalgie latérale",
@@ -268201,7 +268201,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle pathologie le test de Finkelstein permet-il d'explorer ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "La ténosynovite de De Quervain",
@@ -268220,7 +268220,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le test de Jobe (Empty Can Test) évalue principalement quel muscle ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Le supra-épineux",
@@ -268239,7 +268239,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans la réalisation du test de Jobe (Empty Can) explorant le supra-épineux, quelle position du membre supérieur est adoptée ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Abduction dans le plan scapulaire avec rotation interne (pouce vers le bas)",
@@ -268296,7 +268296,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle caractéristique définit la douleur nociceptive de type ischémique ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Elle résulte d'une réduction de l'apport d'oxygène et de nutriments par diminution du flux sanguin",
@@ -268391,7 +268391,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans la transduction au niveau du premier neurone des voies de la douleur, quel neurotransmetteur donne lieu à des potentiels synaptiques RAPIDES dans la corne dorsale ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le glutamate",
@@ -268410,7 +268410,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la douleur nociplastique (centrale) telle que définie dans le cours.",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Il n'est pas possible d'y identifier de dommage tissulaire ou structurel ; la fibromyalgie en fait partie",
@@ -268429,7 +268429,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces termes désigne une « réponse douloureuse à un stimulus non nociceptif » ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Allodynie",
@@ -268448,7 +268448,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les voies de transmission de la douleur, quelle affirmation est exacte selon le cours ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le faisceau néo-spinothalamique est la voie principale du signal de douleur rapide",
@@ -268467,7 +268467,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel noyau est décrit comme un site primordial du système analgésique endogène via ses connexions avec la substance grise périaqueducale ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le noyau du raphé magnus",
@@ -268486,7 +268486,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel mécanisme physiopathologique central est au premier plan dans la fibromyalgie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Une altération de la régulation centrale des voies de la douleur (sensibilisation centrale)",
@@ -268505,7 +268505,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les critères présentés dans le cours, combien de points douloureux doivent être positifs pour évoquer une fibromyalgie ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "11 points douloureux sur 18",
@@ -268676,7 +268676,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la tendinopathie de De Quervain, quels tendons sont concernés selon le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Le court extenseur du pouce et le long abducteur du pouce",
@@ -268695,7 +268695,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel des tests suivants est positif lorsque les symptômes se reproduisent lors d'une déviation cubitale après flexion totale du pouce dans la paume ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Le test de Finkelstein",
@@ -268714,7 +268714,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la classification de Mason (modifiée par Hotchkiss et Broberg-Morrey) des fractures de la tête radiale, à quoi correspond le type II ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Fracture déplacée > 2 mm ou angulée, avec blocage mécanique possible de la rotation de l'avant-bras",
@@ -268733,7 +268733,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le mécanisme indirect des fractures de l'olécrâne, quel type de trait fracturaire produit-il typiquement selon le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Une fracture transversale ou oblique, la plus fréquente",
@@ -268752,7 +268752,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la maladie de Dupuytren selon le cours.",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Elle correspond à un épaississement de l'aponévrose palmaire et ne s'accompagne pas de douleur",
@@ -268771,7 +268771,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la maladie de Dupuytren, quels doigts sont préférentiellement atteints par la flexion en rétraction selon le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Les 5e, 4e et 3e doigts",
@@ -268790,7 +268790,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la fracture de Colles, quel énoncé est exact selon le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "Elle survient lors de chutes avec appui palmaire et donne une difformité en fourchette avec déplacement dorsal",
@@ -268809,7 +268809,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la complication redoutée de la fracture du scaphoïde mise en avant dans le cours ?",
-   "c": 13,
+   "c": 14,
    "options": [
     {
      "t": "La pseudarthrose et la nécrose avasculaire",
@@ -268828,7 +268828,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la polymyosite telle que décrite dans le cours.",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "C'est une maladie auto-immune touchant surtout les femmes, entre 30 et 60 ans",
@@ -269094,7 +269094,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la transmission de la douleur, quel neurotransmetteur est le plus important dans la voie paléospinothalamique selon le cours ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La substance P",
@@ -269113,7 +269113,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle voie ascendante est la voie principale du signal de douleur rapide ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le faisceau néo-spinothalamique",
@@ -269132,7 +269132,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les fibres nociceptives, laquelle est correctement caractérisée selon le cours ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Les fibres C sont sans myéline et lentes (< 2 m/s)",
@@ -269151,7 +269151,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les définitions du cours, laquelle est correcte concernant les troubles de la sensibilité douloureuse ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "L'allodynie est une réponse douloureuse à un stimulus non nociceptif",
@@ -269170,7 +269170,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle affirmation définit correctement la dysesthésie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Une sensation anormale désagréable ou inconfortable, spontanée ou provoquée",
@@ -269189,7 +269189,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la démarche diagnostique de la fibromyalgie, quelle affirmation est exacte selon le cours ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Le diagnostic est purement clinique car la symptomatologie est subjective, sans examen de confirmation",
@@ -269208,7 +269208,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se caracterise la douleur de la fibromyalgie sur le plan semiologique et topographique ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Une douleur generalisee avec hyperalgesie et allodynie, bilaterale, au-dessus et au-dessous de la taille",
@@ -269227,7 +269227,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la fibromyalgie, quelle affirmation sur sa physiopathologie est exacte selon le cours ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Il existe une diminution de l'efficacite du DNIC (controle inhibiteur nocif diffus)",
@@ -269246,7 +269246,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, a quel type de douleur appartient la fibromyalgie selon la physiopathologie ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La douleur nociplastique (sensibilisation centrale)",
@@ -269265,7 +269265,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la maladie de Paget, quel marqueur biologique est eleve selon le cours ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "La phosphatase alcaline",
@@ -269284,7 +269284,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles causes virales sont evoquees dans la maladie de Paget ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "La rougeole et la rubeole",
@@ -269303,7 +269303,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la polymyosite, quelle affirmation est exacte selon le cours ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Sa cause est auto-immune et elle predomine chez la femme entre 30 et 60 ans",
@@ -269322,7 +269322,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiopathologie de l'arthrose, quelle affirmation est exacte selon le cours ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une lesion du cartilage entraine son amincissement puis sa disparition, aboutissant a un frottement osseux",
@@ -269512,7 +269512,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les mécanismes inhibiteurs dysfonctionnels de la douleur dans la fibromyalgie, quelle anomalie est décrite ?",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Une diminution de l'efficacite du DNIC (controle inhibiteur nocif diffus)",
@@ -269531,7 +269531,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la proposition correcte concernant la physiopathologie de la fibromyalgie selon le cours.",
-   "c": 11,
+   "c": 12,
    "options": [
     {
      "t": "Il existe une augmentation de l'activité du glutamate et des récepteurs NMDA",
@@ -269550,7 +269550,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, sur quoi repose le diagnostic de la fibromyalgie ?",
-   "c": 10,
+   "c": 11,
    "options": [
     {
      "t": "Il est purement clinique, aucun examen ne permettant de le confirmer",
@@ -269569,7 +269569,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur la transmission de la douleur, quel est le neurotransmetteur le plus important de la voie paléospinothalamique transmettant la douleur lente et chronique ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La substance P",
@@ -269588,7 +269588,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel de ces termes désigne une réponse douloureuse à un stimulus normalement non nociceptif ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "L'allodynie",
@@ -269607,7 +269607,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel terme désigne une sensation anormale, pas forcément désagréable, comme une brûlure, une démangeaison ou des picotements ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La paresthésie",
@@ -269626,7 +269626,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les types de douleur, lequel de ces tableaux relève de la douleur nociplastique (centrale) ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "La fibromyalgie",
@@ -269835,7 +269835,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle anomalie biologique caractéristique oriente le diagnostic de la maladie de Paget à la prise de sang ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Une augmentation de la phosphatase alcaline",
@@ -269854,7 +269854,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le mécanisme physiopathologique de l'ostéoporose, quelle proposition est exacte ?",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Un déséquilibre du remodelage osseux au profit de la résorption sur la formation, aggravé à la ménopause",
@@ -269873,7 +269873,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur la polymyosite, indiquez la proposition correcte concernant son terrain épidémiologique.",
-   "c": 12,
+   "c": 13,
    "options": [
     {
      "t": "Cause auto-immune, survenant entre 30 et 60 ans, prédominant chez la femme avec atteinte musculaire proximale",
