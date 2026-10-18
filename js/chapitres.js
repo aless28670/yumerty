@@ -1314,75 +1314,143 @@ const CHAPITRES = {
   "pathoChir2": [
     {
       "id": 1,
-      "nom": "Bassin et hanche — anatomie, fractures du bassin et luxations de hanche"
+      "nom": "01. Bassin, hanche et cuisse — anatomie et radiologie"
     },
     {
       "id": 2,
-      "nom": "Fractures du fémur proximal et de la diaphyse fémorale"
+      "nom": "02. Blessures du bassin — fractures de l'anneau pelvien, de l'acétabulum et luxations de hanche"
     },
     {
       "id": 3,
-      "nom": "Hanche de l'enfant"
+      "nom": "03. Fractures de l'extrémité proximale du fémur et de la diaphyse fémorale"
     },
     {
       "id": 4,
-      "nom": "Hanche douloureuse de l'adulte"
+      "nom": "04. La hanche de l'enfant"
     },
     {
       "id": 5,
-      "nom": "Genou et jambe — anatomie, luxations et fractures"
+      "nom": "05. La hanche douloureuse de l'adulte"
     },
     {
       "id": 6,
-      "nom": "Lésions de l'appareil extenseur du genou"
+      "nom": "06. Genou et jambe — anatomie et radiologie"
     },
     {
       "id": 7,
-      "nom": "Lésions ligamentaires et méniscales du genou"
+      "nom": "07. Blessures des extrémités articulaires du genou"
     },
     {
       "id": 8,
-      "nom": "Genou douloureux de l'adulte et genou de l'enfant"
+      "nom": "08. Appareil extenseur et lésions de la rotule"
     },
     {
       "id": 9,
-      "nom": "Cheville et pied — anatomie, entorses et fractures"
+      "nom": "09. Fractures diaphysaires du tibia"
     },
     {
       "id": 10,
-      "nom": "Pied de l'enfant — déformations congénitales et acquises"
+      "nom": "10. Blessures ligamentaires du genou"
     },
     {
       "id": 11,
-      "nom": "Pied douloureux — talalgie et métatarsalgie"
+      "nom": "11. Lésions des ménisques du genou"
     },
     {
       "id": 12,
-      "nom": "Épaule et bras — anatomie, fractures et luxations"
+      "nom": "12. Le genou douloureux de l'adulte"
     },
     {
       "id": 13,
-      "nom": "Épaule douloureuse"
+      "nom": "13. Le genou douloureux chez l'enfant"
     },
     {
       "id": 14,
-      "nom": "Coude et avant-bras — anatomie, fractures et luxations"
+      "nom": "14. Cheville et pied — anatomie et radiologie"
     },
     {
       "id": 15,
-      "nom": "Syndromes douloureux du coude"
+      "nom": "15. Entorses de la cheville, fractures de la cheville et du pilon tibial"
     },
     {
       "id": 16,
-      "nom": "Poignet et main — anatomie, fractures du radius distal et du carpe"
+      "nom": "16. Blessures du pied — fractures du tarse, des métatarsiens et des orteils"
     },
     {
       "id": 17,
-      "nom": "Traumatismes de la main et pathologie douloureuse de la main et du poignet"
+      "nom": "17. Le pied de l'enfant — déformations congénitales et acquises"
     },
     {
       "id": 18,
-      "nom": "Lésions nerveuses des membres — plexus brachial et compressions nerveuses"
+      "nom": "18. Le pied douloureux — talalgie et métatarsalgie"
+    },
+    {
+      "id": 19,
+      "nom": "19. Épaule et bras — anatomie et radiologie"
+    },
+    {
+      "id": 20,
+      "nom": "20. Traumatismes de l'épaule (1) — fractures"
+    },
+    {
+      "id": 21,
+      "nom": "21. Traumatismes de l'épaule (2) — luxations"
+    },
+    {
+      "id": 22,
+      "nom": "22. Épaule douloureuse (1) — syndrome douloureux sous-acromial"
+    },
+    {
+      "id": 23,
+      "nom": "23. Épaule douloureuse (2) — tendinopathie calcifiante, SLAP, capsulite adhésive"
+    },
+    {
+      "id": 24,
+      "nom": "24. Coude et avant-bras — anatomie et radiologie"
+    },
+    {
+      "id": 25,
+      "nom": "25. Fractures de la région du coude, luxations et fractures-luxations"
+    },
+    {
+      "id": 26,
+      "nom": "26. Blessures et fractures-luxations de l'avant-bras"
+    },
+    {
+      "id": 27,
+      "nom": "27. Syndromes douloureux du coude"
+    },
+    {
+      "id": 28,
+      "nom": "28. Poignet et main — anatomie et radiologie"
+    },
+    {
+      "id": 29,
+      "nom": "29. Fractures du radius distal"
+    },
+    {
+      "id": 30,
+      "nom": "30. Fractures des os du carpe, fractures-luxations et lésions du fibrocartilage triangulaire"
+    },
+    {
+      "id": 31,
+      "nom": "31. Traumatismes ouverts et fermés de la main"
+    },
+    {
+      "id": 32,
+      "nom": "32. Douleur de la main et du poignet — Dupuytren et déformations acquises"
+    },
+    {
+      "id": 33,
+      "nom": "33. Lésions du plexus brachial"
+    },
+    {
+      "id": 34,
+      "nom": "34. Compressions et lésions nerveuses du membre supérieur"
+    },
+    {
+      "id": 35,
+      "nom": "35. Compressions et lésions nerveuses du membre inférieur"
     }
   ],
   "pathologie1": [
