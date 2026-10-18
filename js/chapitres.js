@@ -2126,35 +2126,27 @@ const CHAPITRES = {
   "drainageExam1": [
     {
       "id": 1,
-      "nom": "1. Histoire et concept du DLM"
+      "nom": "Leçon 1 — Histoire et concept du DLM"
     },
     {
       "id": 2,
-      "nom": "2. Effets, indications et contre-indications du DLM"
+      "nom": "Leçon 2 — Effets, indications et contre-indications"
     },
     {
       "id": 3,
-      "nom": "3. Structure et fonction du système lymphatique"
+      "nom": "Leçon 3 — Structure et fonction du système lymphatique"
     },
     {
       "id": 4,
-      "nom": "4. Anatomie du système lymphatique — tête et cou"
+      "nom": "Leçon 4.1 — Anatomie lymphatique : tête et cou"
     },
     {
       "id": 5,
-      "nom": "4.1 Anatomie du système lymphatique — tronc"
+      "nom": "Leçon 4.2 — Anatomie lymphatique : tronc"
     },
     {
       "id": 6,
-      "nom": "5. Manœuvres de base"
-    },
-    {
-      "id": 7,
-      "nom": "6. Séquence de base — cou"
-    },
-    {
-      "id": 8,
-      "nom": "7. Séquence de base — membre inférieur"
+      "nom": "Leçon 4.3 — Anatomie lymphatique : membres inférieur et supérieur"
     }
   ]
 };
