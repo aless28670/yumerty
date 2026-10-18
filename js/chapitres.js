@@ -104,75 +104,75 @@ const CHAPITRES = {
   "dentBiomaterial": [
     {
       "id": 1,
-      "nom": "Subject presentation. Topic 1"
+      "nom": "01. Subject presentation"
     },
     {
       "id": 2,
-      "nom": "2. — Biomaterials"
+      "nom": "02. Concepts and definitions"
     },
     {
       "id": 3,
-      "nom": "3. — Characteristics & General"
+      "nom": "03. Characteristics and general physical properties of dental biomaterials"
     },
     {
       "id": 4,
-      "nom": "4. — Biomaterials"
-    },
-    {
-      "id": 5,
-      "nom": "9. Polymeric Materials I- Impression Materials"
-    },
-    {
-      "id": 6,
-      "nom": "10. Polymeric Materials Ii- Acrylics"
-    },
-    {
-      "id": 7,
-      "nom": "11. Polymeric Materials Iii- Composite Resins"
-    },
-    {
-      "id": 8,
-      "nom": "12. Polymeric Materials Iv: Waxes, Thermoplastic Materials AND"
-    },
-    {
-      "id": 9,
-      "nom": "13. Ceramic Materials I.- Plasters"
-    },
-    {
-      "id": 10,
-      "nom": "14. Ceramic Materials Ii: Dental Cements"
-    },
-    {
-      "id": 11,
-      "nom": "15. Ceramic Materials Iii: Porcelains AND Vitroceramics"
-    },
-    {
-      "id": 12,
-      "nom": "16. Metallic Materials I: Noble Metals AND Titanium"
-    },
-    {
-      "id": 13,
-      "nom": "17. Non- Noble Metals AND Alloy"
-    },
-    {
-      "id": 14,
-      "nom": "18. Titanium AND Silver Amalgam"
-    },
-    {
-      "id": 15,
-      "nom": "19. Metallic Materials Iv. Non- Noble Alloys. Types AND Applications"
-    },
-    {
-      "id": 16,
-      "nom": "20. Bone Regeneration Materials"
-    },
-    {
-      "id": 17,
-      "nom": "7 y 8"
+      "nom": "04. Characteristics and chemical properties of dental materials"
     },
     {
       "id": 18,
-      "nom": "5 y 6"
+      "nom": "05-06. Biological properties and polymeric materials"
+    },
+    {
+      "id": 17,
+      "nom": "07-08. Ceramic materials and metallic materials"
+    },
+    {
+      "id": 5,
+      "nom": "09. Polymeric materials I — impression materials"
+    },
+    {
+      "id": 6,
+      "nom": "10. Polymeric materials II — acrylics"
+    },
+    {
+      "id": 7,
+      "nom": "11. Polymeric materials III — composite resins"
+    },
+    {
+      "id": 8,
+      "nom": "12. Polymeric materials IV — waxes, thermoplastic materials and gutta-percha"
+    },
+    {
+      "id": 9,
+      "nom": "13. Ceramic materials I — plasters"
+    },
+    {
+      "id": 10,
+      "nom": "14. Ceramic materials II — dental cements"
+    },
+    {
+      "id": 11,
+      "nom": "15. Ceramic materials III — porcelains and vitroceramics"
+    },
+    {
+      "id": 12,
+      "nom": "16. Metallic materials I — noble metals and titanium"
+    },
+    {
+      "id": 13,
+      "nom": "17. Non-noble metals and alloys"
+    },
+    {
+      "id": 14,
+      "nom": "18. Titanium and silver amalgam"
+    },
+    {
+      "id": 15,
+      "nom": "19. Metallic materials IV — non-noble alloys, types and applications"
+    },
+    {
+      "id": 16,
+      "nom": "20. Bone regeneration materials"
     }
   ],
   "dentDiagnostic": [
@@ -294,7 +294,7 @@ const CHAPITRES = {
     },
     {
       "id": 3,
-      "nom": "5. Mandibular Positions AND Movements-1"
+      "nom": "5. Mandibular positions and movements"
     },
     {
       "id": 4,
@@ -504,59 +504,59 @@ const CHAPITRES = {
   "dentPeriodoncia": [
     {
       "id": 1,
-      "nom": "01. — esson"
+      "nom": "01. Anatomy of the Periodontium"
     },
     {
       "id": 2,
-      "nom": "02. — The mucosa in toothed areas and the"
+      "nom": "02. The mucosa in toothed and peri-implant areas"
     },
     {
       "id": 3,
-      "nom": "03. — esson"
+      "nom": "03. Bone"
     },
     {
       "id": 4,
-      "nom": "04. — pidemiology of periodontal diseases"
+      "nom": "04. Epidemiology of periodontal diseases"
     },
     {
       "id": 5,
-      "nom": "05. — esson"
+      "nom": "05. Biofilm and Dental Calculus"
     },
     {
       "id": 6,
-      "nom": "06. — Periodontal Infections"
+      "nom": "06. Periodontal Infections"
     },
     {
       "id": 7,
-      "nom": "07. — esson"
+      "nom": "07. Pathogenesis of Periodontitis"
     },
     {
       "id": 8,
-      "nom": "08. — esson"
+      "nom": "08. Non-Dental Biofilm-Induced Gingival Diseases"
     },
     {
       "id": 9,
-      "nom": "09. — Diseases"
+      "nom": "09. Dental Biofilm-Induced Gingival Diseases"
     },
     {
       "id": 10,
-      "nom": "10. — eriodontitis"
+      "nom": "10. Periodontitis"
     },
     {
       "id": 11,
-      "nom": "11. — olar"
+      "nom": "11. Molar Incisor Pattern Periodontitis"
     },
     {
       "id": 12,
-      "nom": "12. — Necrotizing Periodontal"
+      "nom": "12. Necrotizing Periodontal Diseases"
     },
     {
       "id": 13,
-      "nom": "13. — esson 13"
+      "nom": "13. Mechanical Supra-Gingival Plaque Control"
     },
     {
       "id": 14,
-      "nom": "14. — non-surgical periodontal"
+      "nom": "14. Non-surgical periodontal treatment"
     }
   ],
   "dentPharmacoFin": [
@@ -660,7 +660,7 @@ const CHAPITRES = {
     },
     {
       "id": 11,
-      "nom": "10. Corticoids 25-26"
+      "nom": "10. Corticoids"
     },
     {
       "id": 12,
@@ -988,7 +988,7 @@ const CHAPITRES = {
     },
     {
       "id": 8,
-      "nom": "5 - Efectos fisiologicos de la fisioterapia invasiva 25 26 FR [Autoguardado]"
+      "nom": "5 - Efectos fisiologicos de la fisioterapia invasiva"
     },
     {
       "id": 9,
@@ -1170,7 +1170,7 @@ const CHAPITRES = {
     },
     {
       "id": 4,
-      "nom": "Neuropatías del miembro superior FOSTII 25 26 FR"
+      "nom": "Neuropatías del miembro superior FOSTII"
     },
     {
       "id": 5,
@@ -1212,11 +1212,11 @@ const CHAPITRES = {
     },
     {
       "id": 7,
-      "nom": "07F. INFECTIONS OSTÉOARTICULAIRES v.2"
+      "nom": "07F. INFECTIONS OSTÉOARTICULAIRES"
     },
     {
       "id": 8,
-      "nom": "08F. TUMEURS OSSEUSES BÉNIGNES ET PSEUDOTUMEURS. TUMEURS OSSEUSES MALIGNES v.3"
+      "nom": "08F. TUMEURS OSSEUSES BÉNIGNES ET PSEUDOTUMEURS. TUMEURS OSSEUSES MALIGNES"
     },
     {
       "id": 9,
@@ -1240,7 +1240,7 @@ const CHAPITRES = {
     },
     {
       "id": 14,
-      "nom": "14F. Processus de consolidation des fractures. Traitement général des fractures. Principes de l’ostéosynthèse v.2"
+      "nom": "14F. Processus de consolidation des fractures. Traitement général des fractures. Principes de l’ostéosynthèse"
     },
     {
       "id": 15,
@@ -1256,7 +1256,7 @@ const CHAPITRES = {
     },
     {
       "id": 18,
-      "nom": "18.F Vieillissement du cartilage articulaire. Arthrose v.2"
+      "nom": "18.F Vieillissement du cartilage articulaire. Arthrose"
     },
     {
       "id": 19,
@@ -1264,19 +1264,19 @@ const CHAPITRES = {
     },
     {
       "id": 20,
-      "nom": "20 F. Pathologie musculaire v.2"
+      "nom": "20 F. Pathologie musculaire"
     },
     {
       "id": 21,
-      "nom": "21F. Pathologie tendineuse, synoviale et ligamentaire v.3"
+      "nom": "21F. Pathologie tendineuse, synoviale et ligamentaire"
     },
     {
       "id": 22,
-      "nom": "22.F Pathologie des nerfs périphériques v.2"
+      "nom": "22.F Pathologie des nerfs périphériques"
     },
     {
       "id": 23,
-      "nom": "23 F. Le syndrome des loges et ses complications. Syndrome douloureux régional complexe v.3"
+      "nom": "23 F. Le syndrome des loges et ses complications. Syndrome douloureux régional complexe"
     },
     {
       "id": 24,
@@ -1284,7 +1284,7 @@ const CHAPITRES = {
     },
     {
       "id": 25,
-      "nom": "25.LÉSIONS TRAUMATIQUES DE LA COLONNE CERVICALE v.2"
+      "nom": "25.LÉSIONS TRAUMATIQUES DE LA COLONNE CERVICALE"
     },
     {
       "id": 26,
@@ -1292,7 +1292,7 @@ const CHAPITRES = {
     },
     {
       "id": 27,
-      "nom": "27.F Douleur cervicale PATHOLOGIES À L’ORIGINE DE DOULEURS CERVICALES v.2"
+      "nom": "27.F Douleur cervicale PATHOLOGIES À L’ORIGINE DE DOULEURS CERVICALES"
     },
     {
       "id": 28,
@@ -1873,20 +1873,16 @@ const CHAPITRES = {
       "nom": "3.9. Épidémiologie et prévention des troubles de santé mentale"
     },
     {
-      "id": 22,
-      "nom": "5.3. Emplacement de l'enterprise"
-    },
-    {
       "id": 23,
       "nom": "4. 1-Systèmes de santé. Organisation du système de santé espagnol"
     },
     {
       "id": 24,
-      "nom": "4. 2 Sociétés v.3"
+      "nom": "4. 2 Sociétés"
     },
     {
       "id": 25,
-      "nom": "4. 3 Qualité et sécurité v.2"
+      "nom": "4. 3 Qualité et sécurité"
     },
     {
       "id": 26,
@@ -1894,7 +1890,11 @@ const CHAPITRES = {
     },
     {
       "id": 27,
-      "nom": "5. 2 DAFO. Analyse Swot v.2"
+      "nom": "5. 2 DAFO. Analyse Swot"
+    },
+    {
+      "id": 22,
+      "nom": "5. 3 Emplacement de l'entreprise"
     },
     {
       "id": 28,
@@ -1906,11 +1906,11 @@ const CHAPITRES = {
     },
     {
       "id": 30,
-      "nom": "5. 6 Gestion et planification des ressources humaines v.2"
+      "nom": "5. 6 Gestion et planification des ressources humaines"
     },
     {
       "id": 31,
-      "nom": "6. 1 Plan économique v.2"
+      "nom": "6. 1 Plan économique"
     },
     {
       "id": 32,
@@ -1918,7 +1918,7 @@ const CHAPITRES = {
     },
     {
       "id": 33,
-      "nom": "6. 3 Économie de la santé et planification sanitaire V.2"
+      "nom": "6. 3 Économie de la santé et planification sanitaire"
     }
   ],
   "structure1": [
