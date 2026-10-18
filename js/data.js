@@ -153866,29 +153866,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Parmi les muscles de la cuisse, lequel est mono-articulaire (n'agit que sur la hanche) ?",
-   "c": 10,
-   "options": [
-    {
-     "t": "Grand adducteur",
-     "correct": true,
-     "j": "Le grand adducteur ne croise QUE la hanche (adduction + extension) ; il est mono-articulaire."
-    },
-    {
-     "t": "Gracile",
-     "j": "Bi-articulaire : adducteur de hanche et fléchisseur de la jambe au genou."
-    },
-    {
-     "t": "Droit fémoral",
-     "j": "Bi-articulaire : fléchisseur de hanche et extenseur du genou."
-    },
-    {
-     "t": "Sartorius",
-     "j": "Bi-articulaire : agit sur la hanche (flexion, abduction, rotation lat.) et le genou (flexion, rotation méd.)."
-    }
-   ]
-  },
+  {"q":"Parmi les muscles de la cuisse, lequel est mono-articulaire (n'agit que sur la hanche) ?","c":12,"options":[{"t":"Grand adducteur","correct":true,"j":"Le grand adducteur ne croise QUE la hanche (adduction + extension) ; il est mono-articulaire."},{"t":"Gracile","j":"Bi-articulaire : adducteur de hanche et fléchisseur de la jambe au genou."},{"t":"Droit fémoral","j":"Bi-articulaire : fléchisseur de hanche et extenseur du genou."},{"t":"Sartorius","j":"Bi-articulaire : agit sur la hanche (flexion, abduction, rotation lat.) et le genou (flexion, rotation méd.)."}]},
   {
    "q": "Quel muscle de la cuisse NE s'insère PAS sur la ligne âpre du fémur ?",
    "c": 12,
@@ -153981,29 +153959,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Parmi les muscles suivants de la jambe, lequel s'insère sur la tête de la fibula ?",
-   "c": 12,
-   "options": [
-    {
-     "t": "Biceps fémoral",
-     "correct": true,
-     "j": "Le chef long et le chef court convergent et s'insèrent terminalement sur la tête fibulaire."
-    },
-    {
-     "t": "Semi-membraneux",
-     "j": "S'insère par ses trois faisceaux sur le condyle médial du tibia, sans aucune attache fibulaire."
-    },
-    {
-     "t": "Semi-tendineux",
-     "j": "S'insère sur la face médiale du tibia (patte d'oie superficielle), non sur la fibula."
-    },
-    {
-     "t": "Gracile",
-     "j": "Insertion sur la face médiale du tibia (patte d'oie superficielle), aucune attache fibulaire."
-    }
-   ]
-  },
+  {"q":"Parmi les muscles suivants de la cuisse, lequel s'insère sur la tête de la fibula ?","c":12,"options":[{"t":"Biceps fémoral","correct":true,"j":"Le chef long et le chef court convergent et s'insèrent terminalement sur la tête fibulaire."},{"t":"Semi-membraneux","j":"S'insère par ses trois faisceaux sur le condyle médial du tibia, sans aucune attache fibulaire."},{"t":"Semi-tendineux","j":"S'insère sur la face médiale du tibia (patte d'oie superficielle), non sur la fibula."},{"t":"Gracile","j":"Insertion sur la face médiale du tibia (patte d'oie superficielle), aucune attache fibulaire."}]},
   {
    "q": "Le long fléchisseur de l'hallux naît :",
    "c": 14,
@@ -155453,29 +155409,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quels muscles abdominaux/inguinaux ont une insertion sur le pubis ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Grand droit, pyramidal, oblique externe et oblique interne",
-     "correct": true,
-     "j": "Tous convergent vers la région pubienne : crête, tubercule et ligament inguinal."
-    },
-    {
-     "t": "Grand droit, pyramidal, oblique interne et carré des lombes",
-     "j": "Le carré des lombes s'insère sur la 12e côte et les transverses lombaires, pas sur le pubis."
-    },
-    {
-     "t": "Grand droit, pyramidal, oblique externe et grand psoas",
-     "j": "Le grand psoas se termine sur le petit trochanter du fémur, sans insertion pubienne."
-    },
-    {
-     "t": "Grand droit, oblique externe, oblique interne et diaphragme",
-     "j": "Le diaphragme s'insère sur le rebord costal et les piliers lombaires, pas sur le pubis ; le pyramidal manque ici."
-    }
-   ]
-  },
+  {"q":"Quels muscles abdominaux/inguinaux ont une insertion sur le pubis ?","c":7,"options":[{"t":"Grand droit, pyramidal, oblique externe et transverse","correct":true,"j":"Diapositive 52 du cours : le TRANSVERSE s'insère sur « ligne blanche, pubis ». L'oblique externe rejoint le tubercule pubien en formant le ligament inguinal (d.36), et le grand droit comme le pyramidal naissent du pubis."},{"t":"Grand droit, pyramidal, oblique interne et carré des lombes","j":"Deux erreurs : l'oblique interne s'insère sur « 3 dernières côtes, apophyse xiphoïde, ligne blanche » (d.46), sans pubis ; et le carré des lombes va de la crête iliaque à la 12e côte et aux lombaires."},{"t":"Grand droit, pyramidal, oblique externe et grand psoas","j":"Le grand psoas se termine sur le petit trochanter du fémur, sans insertion pubienne."},{"t":"Grand droit, oblique externe, oblique interne et diaphragme","j":"L'oblique interne n'atteint pas le pubis (d.46) et le diaphragme s'insère sur le gril costal, le sternum et les piliers lombaires."}]},
   {
    "q": "Parmi les muscles du plancher pelvien suivants, lequel est dans le plan le plus SUPERFICIEL (inférieur) ?",
    "c": 8,
@@ -155545,29 +155479,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel muscle plantaire pelvien NE s'insère PAS sur le centre tendineux du périnée ?",
-   "c": 8,
-   "options": [
-    {
-     "t": "Coccygien",
-     "correct": true,
-     "j": "S'insère de l'épine ischiatique au sacrum/coccyx, pas sur le centre tendineux."
-    },
-    {
-     "t": "Bulbo-spongieux",
-     "j": "Insertion typique sur le corps périnéal (centre tendineux)."
-    },
-    {
-     "t": "Sphincter anal externe",
-     "j": "S'insère sur le corps périnéal et le coccyx."
-    },
-    {
-     "t": "Transverse superficiel du périnée",
-     "j": "S'insère de l'ischion au centre tendineux du périnée."
-    }
-   ]
-  },
+  {"q":"Quel muscle du plancher pelvien NE s'insère PAS sur le centre tendineux du périnée ?","c":8,"options":[{"t":"Coccygien","correct":true,"j":"S'insère de l'épine ischiatique au sacrum/coccyx, pas sur le centre tendineux."},{"t":"Bulbo-spongieux","j":"Insertion typique sur le corps périnéal (centre tendineux)."},{"t":"Sphincter anal externe","j":"S'insère sur le corps périnéal et le coccyx."},{"t":"Transverse superficiel du périnée","j":"S'insère de l'ischion au centre tendineux du périnée."}]},
   {
    "q": "La fonction principale des muscles du plancher pelvien est :",
    "c": 8,
@@ -155660,29 +155572,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Sur le fémur, la trifurcation supérieure de la ligne âpre donne notamment :",
-   "c": 12,
-   "options": [
-    {
-     "t": "La tubérosité glutéale",
-     "correct": true,
-     "j": "Branche de la trifurcation avec la ligne pectinée et la crête du vaste médial ; insertion du grand gluteal."
-    },
-    {
-     "t": "La fosse trochantérique",
-     "j": "Dépression de la face médiale du grand trochanter (insertion de l'obturateur externe), distincte de la trifurcation."
-    },
-    {
-     "t": "La ligne intertrochantérienne",
-     "j": "Crête antérieure unissant les trochanters sur le col, distincte de la ligne âpre postérieure."
-    },
-    {
-     "t": "Le tubercule de l'adducteur",
-     "j": "Saillie distale du condyle médial liée à la bifurcation INFÉRIEURE de la ligne âpre."
-    }
-   ]
-  },
+  {"q":"Sur le fémur, la trifurcation supérieure de la ligne âpre donne notamment :","c":9,"options":[{"t":"La tubérosité glutéale","correct":true,"j":"Branche de la trifurcation avec la ligne pectinée et la crête du vaste médial ; insertion du grand gluteal."},{"t":"La fosse trochantérique","j":"Dépression de la face médiale du grand trochanter (insertion de l'obturateur externe), distincte de la trifurcation."},{"t":"La ligne intertrochantérienne","j":"Crête antérieure unissant les trochanters sur le col, distincte de la ligne âpre postérieure."},{"t":"Le tubercule de l'adducteur","j":"Saillie distale du condyle médial liée à la bifurcation INFÉRIEURE de la ligne âpre."}]},
   {
    "q": "Le ligament croisé ANTÉRIEUR (LCA) du genou :",
    "c": 11,
@@ -155729,29 +155619,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Le tractus ilio-tibial :",
-   "c": 11,
-   "options": [
-    {
-     "t": "Reçoit l'insertion du grand glutéal et du tenseur du fascia lata",
-     "correct": true,
-     "j": "Bande fasciale latérale recevant les fibres de ces deux muscles et les transmettant au tubercule de Gerdy."
-    },
-    {
-     "t": "Reçoit l'insertion du moyen et du petit glutéal",
-     "j": "Moyen et petit glutéaux se terminent directement sur le grand trochanter, pas sur le tractus."
-    },
-    {
-     "t": "Se termine en distalité sur la patella",
-     "j": "Sa terminaison distale est le tubercule de Gerdy sur le tibia, et non la patella."
-    },
-    {
-     "t": "Constitue un ligament intra-articulaire du genou",
-     "j": "C'est un épaississement fascial extra-articulaire, stabilisateur latéral, et non un ligament intra-articulaire."
-    }
-   ]
-  },
+  {"q":"Le tractus ilio-tibial :","c":10,"options":[{"t":"Reçoit l'insertion du grand glutéal et du tenseur du fascia lata","correct":true,"j":"Bande fasciale latérale recevant les fibres de ces deux muscles et les transmettant au tubercule de Gerdy."},{"t":"Reçoit l'insertion du moyen et du petit glutéal","j":"Moyen et petit glutéaux se terminent directement sur le grand trochanter, pas sur le tractus."},{"t":"Se termine en distalité sur la patella","j":"Sa terminaison distale est le tubercule de Gerdy sur le tibia, et non la patella."},{"t":"Constitue un ligament intra-articulaire du genou","j":"C'est un épaississement fascial extra-articulaire, stabilisateur latéral, et non un ligament intra-articulaire."}]},
   {
    "q": "Quel muscle est le seul innervé par le nerf glutéal INFÉRIEUR ?",
    "c": 10,
@@ -155821,29 +155689,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle structure NE passe PAS dans la fosse poplitée ?",
-   "c": 11,
-   "options": [
-    {
-     "t": "Nerf fémoral",
-     "correct": true,
-     "j": "Le nerf fémoral se divise à la racine de la cuisse, en avant : il n'atteint jamais la face postérieure du genou."
-    },
-    {
-     "t": "Nerfs tibial et fibulaire commun",
-     "j": "Les deux divisions du sciatique passent par la fosse poplitée."
-    },
-    {
-     "t": "Vaisseaux poplités",
-     "j": "Artère et veine poplitées traversent la fosse."
-    },
-    {
-     "t": "Petite veine saphène",
-     "j": "Elle se jette dans la veine poplitée dans la fosse poplitée."
-    }
-   ]
-  },
+  {"q":"Quelle structure NE passe PAS dans la fosse poplitée ?","c":12,"options":[{"t":"Nerf fémoral","correct":true,"j":"Le nerf fémoral se divise à la racine de la cuisse, en avant : il n'atteint jamais la face postérieure du genou."},{"t":"Nerfs tibial et fibulaire commun","j":"Les deux divisions du sciatique passent par la fosse poplitée."},{"t":"Vaisseaux poplités","j":"Artère et veine poplitées traversent la fosse."},{"t":"Petite veine saphène","j":"Elle se jette dans la veine poplitée dans la fosse poplitée."}]},
   {
    "q": "La trochlée talienne est plus large en :",
    "c": 13,
@@ -156971,29 +156817,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Le tubercule infracondylaire de Gerdy (sur le tibia) reçoit l'insertion :",
-   "c": 11,
-   "options": [
-    {
-     "t": "Du tractus ilio-tibial (Maissiat)",
-     "correct": true,
-     "j": "Repère palpable à la face antéro-latérale du plateau tibial."
-    },
-    {
-     "t": "Du tendon patellaire",
-     "j": "S'insère sur la tubérosité tibiale antérieure (TTA), pas le Gerdy."
-    },
-    {
-     "t": "Du semi-tendineux",
-     "j": "S'insère sur la patte d'oie superficielle médiale."
-    },
-    {
-     "t": "Du sartorius",
-     "j": "S'insère sur la face médiale du tibia (patte d'oie), pas en antéro-latéral."
-    }
-   ]
-  },
+  {"q":"Le tubercule infracondylaire de Gerdy (sur le tibia) reçoit l'insertion :","c":[10,11],"options":[{"t":"Du tractus ilio-tibial (Maissiat)","correct":true,"j":"Repère palpable à la face antéro-latérale du plateau tibial."},{"t":"Du tendon patellaire","j":"S'insère sur la tubérosité tibiale antérieure (TTA), pas le Gerdy."},{"t":"Du semi-tendineux","j":"S'insère sur la patte d'oie superficielle médiale."},{"t":"Du sartorius","j":"S'insère sur la face médiale du tibia (patte d'oie), pas en antéro-latéral."}]},
   {
    "q": "L'articulation tibio-fibulaire INFÉRIEURE est :",
    "c": 13,
@@ -157109,29 +156933,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lequel de ces muscles produit une action au niveau d'une seule articulation ?",
-   "c": 10,
-   "options": [
-    {
-     "t": "Grand adducteur",
-     "correct": true,
-     "j": "Exact : le grand adducteur n'agit que sur la hanche (mono-articulaire)."
-    },
-    {
-     "t": "Biceps fémoral",
-     "j": "Sa longue portion croise hanche et genou (bi-articulaire)."
-    },
-    {
-     "t": "Droit fémoral",
-     "j": "Bi-articulaire : il croise la hanche avant d'agir sur le genou."
-    },
-    {
-     "t": "Gracile",
-     "j": "Lui aussi bi-articulaire : il franchit la hanche puis le genou."
-    }
-   ]
-  },
+  {"q":"Lequel de ces muscles produit une action au niveau d'une seule articulation ?","c":12,"options":[{"t":"Grand adducteur","correct":true,"j":"Exact : le grand adducteur n'agit que sur la hanche (mono-articulaire)."},{"t":"Biceps fémoral","j":"Sa longue portion croise hanche et genou (bi-articulaire)."},{"t":"Droit fémoral","j":"Bi-articulaire : il croise la hanche avant d'agir sur le genou."},{"t":"Gracile","j":"Lui aussi bi-articulaire : il franchit la hanche puis le genou."}]},
   {
    "q": "Lequel de ces muscles présente une origine/insertion au niveau de l'épine iliaque antéro-inférieure ?",
    "c": 12,
@@ -159547,29 +159349,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lequel des muscles suivants est inspirateur ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Dentelé postérieur supérieur",
-     "correct": true,
-     "j": "Exact : le dentelé postérieur supérieur élève les côtes supérieures et participe à l'inspiration, comme le diaphragme et les élévateurs des côtes."
-    },
-    {
-     "t": "Dentelé postérieur inférieur",
-     "j": "Faux : il abaisse les côtes inférieures, c'est un muscle expirateur accessoire."
-    },
-    {
-     "t": "Intercostaux internes",
-     "j": "Faux : les intercostaux internes abaissent les côtes et sont expirateurs (à l'inverse des intercostaux externes, inspirateurs)."
-    },
-    {
-     "t": "Transverse de l'abdomen",
-     "j": "Faux : muscle de la sangle abdominale, il refoule le diaphragme vers le haut et participe à l'expiration forcée."
-    }
-   ]
-  },
+  {"q":"Lequel des muscles suivants est inspirateur ?","c":[3,6],"options":[{"t":"Dentelé postérieur supérieur","correct":true,"j":"Exact : le dentelé postérieur supérieur élève les côtes supérieures et participe à l'inspiration, comme le diaphragme et les élévateurs des côtes."},{"t":"Dentelé postérieur inférieur","j":"Faux : il abaisse les côtes inférieures, c'est un muscle expirateur accessoire."},{"t":"Intercostaux internes","j":"Faux : les intercostaux internes abaissent les côtes et sont expirateurs (à l'inverse des intercostaux externes, inspirateurs)."},{"t":"Transverse de l'abdomen","j":"Faux : muscle de la sangle abdominale, il refoule le diaphragme vers le haut et participe à l'expiration forcée."}]},
   {
    "q": "La patte d'oie superficielle est formée par les muscles :",
    "c": 12,
@@ -208397,25 +208177,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans l'extension de la tête sur le cou, en levier de premier genre, le composant central (point d'appui) est :",
-   "c": 11,
-   "options": [
-    {
-     "t": "Les articulations atlanto-occipitales (C0-C1)",
-     "correct": true,
-     "j": "Dans l'extension tête-sur-cou (levier de premier genre), le point d'appui est constitué par les condyles occipitaux articulés avec l'atlas (C0-C1) : l'axe du mouvement passe par ces articulations, entre la résistance (poids antérieur de la tête) et la puissance (muscles postérieurs de la nuque)."
-    },
-    {
-     "t": "L'articulation atlanto-axoïdienne (C1-C2)",
-     "j": "L'articulation atlanto-axoïdienne (C1-C2) est surtout dévolue à la rotation axiale de la tête ; elle n'est pas l'axe de la flexion-extension tête-sur-cou, dont le pivot est plus haut, en C0-C1."
-    },
-    {
-     "t": "La charnière cervico-thoracique (C7-T1)",
-     "j": "La charnière C7-T1 est un point d'appui pour les mouvements globaux du rachis cervical sur le tronc, non pour l'extension de la tête sur le cou qui s'appuie en C0-C1."
-    }
-   ]
-  },
+  {"q":"Dans l'extension de la tête sur le cou, en levier de premier genre, le composant central (point d'appui) est :","c":[7,11],"options":[{"t":"Les articulations atlanto-occipitales (C0-C1)","correct":true,"j":"Dans l'extension tête-sur-cou (levier de premier genre), le point d'appui est constitué par les condyles occipitaux articulés avec l'atlas (C0-C1) : l'axe du mouvement passe par ces articulations, entre la résistance (poids antérieur de la tête) et la puissance (muscles postérieurs de la nuque)."},{"t":"L'articulation atlanto-axoïdienne (C1-C2)","j":"L'articulation atlanto-axoïdienne (C1-C2) est surtout dévolue à la rotation axiale de la tête ; elle n'est pas l'axe de la flexion-extension tête-sur-cou, dont le pivot est plus haut, en C0-C1."},{"t":"La charnière cervico-thoracique (C7-T1)","j":"La charnière C7-T1 est un point d'appui pour les mouvements globaux du rachis cervical sur le tronc, non pour l'extension de la tête sur le cou qui s'appuie en C0-C1."}]},
   {
    "q": "Patient en décubitus dorsal avec membres inférieurs fléchis (genoux ramenés sur le ventre) : que se passe-t-il au niveau du bassin ?",
    "c": 10,
@@ -208644,25 +208406,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Pour un patient en bilan musculaire à grade 3, l'indication de travail actif appropriée est :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Travail actif libre contre pesanteur sans résistance",
-     "correct": true,
-     "j": "À grade 3, le muscle vainc la pesanteur : on consolide en actif libre avant de passer à l'actif résisté."
-    },
-    {
-     "t": "Travail actif aidé par suspension axiale excentrée",
-     "j": "L'actif aidé décharge la pesanteur : il est indiqué à grade 2, pas à grade 3."
-    },
-    {
-     "t": "Travail actif résisté contre charge progressive externe",
-     "j": "L'actif résisté (contre charge externe) ne s'introduit qu'à partir du grade 4."
-    }
-   ]
-  },
+  {"q":"Pour un patient en bilan musculaire à grade 3, l'indication de travail actif appropriée est :","c":4,"options":[{"t":"Travail actif libre contre pesanteur sans résistance","correct":true,"j":"À grade 3, le muscle vainc la pesanteur : on consolide en actif libre avant de passer à l'actif résisté."},{"t":"Travail actif aidé par suspension axiale excentrée","j":"L'actif aidé décharge la pesanteur : il est indiqué à grade 2, pas à grade 3."},{"t":"Travail actif résisté contre charge progressive externe","j":"L'actif résisté (contre charge externe) ne s'introduit qu'à partir du grade 4."}]},
   {
    "q": "Une conséquence physiologique de l'immobilisation prolongée est :",
    "c": 4,
@@ -208720,25 +208464,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Pour un patient sous plâtre cruro-pédieux après fracture, l'exercice indiqué pour le quadriceps est :",
-   "c": 10,
-   "options": [
-    {
-     "t": "Des contractions isométriques sous plâtre",
-     "correct": true,
-     "j": "L'isométrique préserve la force et limite l'amyotrophie sans mouvement articulaire, compatible avec l'immobilisation rigide."
-    },
-    {
-     "t": "Des contractions isotoniques concentriques en course interne",
-     "j": "Le mode isotonique concentrique impose un raccourcissement avec mouvement articulaire, impossible sous plâtre cruro-pédieux qui bloque genou et cheville."
-    },
-    {
-     "t": "Des contractions isocinétiques à vitesse angulaire constante",
-     "j": "L'isocinétique requiert un déplacement articulaire à vitesse imposée sur dynamomètre, incompatible avec un membre immobilisé sous plâtre."
-    }
-   ]
-  },
+  {"q":"Pour un patient sous plâtre cruro-pédieux après fracture, l'exercice indiqué pour le quadriceps est :","c":4,"options":[{"t":"Des contractions isométriques sous plâtre","correct":true,"j":"L'isométrique préserve la force et limite l'amyotrophie sans mouvement articulaire, compatible avec l'immobilisation rigide."},{"t":"Des contractions isotoniques concentriques en course interne","j":"Le mode isotonique concentrique impose un raccourcissement avec mouvement articulaire, impossible sous plâtre cruro-pédieux qui bloque genou et cheville."},{"t":"Des contractions isocinétiques à vitesse angulaire constante","j":"L'isocinétique requiert un déplacement articulaire à vitesse imposée sur dynamomètre, incompatible avec un membre immobilisé sous plâtre."}]},
   {
    "q": "L'agent physique principal de la kinésithérapie est :",
    "c": 4,
@@ -209005,25 +208731,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La densitométrie osseuse (DEXA) explore principalement :",
-   "c": 9,
-   "options": [
-    {
-     "t": "Le rachis lombaire et l'extrémité supérieure du fémur",
-     "correct": true,
-     "j": "Sites de référence DEXA pour le diagnostic d'ostéoporose : rachis lombaire (L1-L4) et col fémoral (extrémité supérieure du fémur)."
-    },
-    {
-     "t": "Le radius distal et le calcanéus",
-     "j": "Faux : le radius distal n'est qu'un site périphérique de recours et le calcanéus relève de l'échographie quantitative, pas des sites axiaux de référence DEXA."
-    },
-    {
-     "t": "Le crâne et le rachis cervical",
-     "j": "Faux : crâne et rachis cervical ne sont pas des sites DEXA ; ils ne reflètent pas le risque fracturaire ostéoporotique évalué en routine."
-    }
-   ]
-  },
+  {"q":"La densitométrie osseuse (DEXA) explore principalement :","c":1,"options":[{"t":"Le rachis lombaire et l'extrémité supérieure du fémur","correct":true,"j":"Sites de référence DEXA pour le diagnostic d'ostéoporose : rachis lombaire (L1-L4) et col fémoral (extrémité supérieure du fémur)."},{"t":"Le radius distal et le calcanéus","j":"Faux : le radius distal n'est qu'un site périphérique de recours et le calcanéus relève de l'échographie quantitative, pas des sites axiaux de référence DEXA."},{"t":"Le crâne et le rachis cervical","j":"Faux : crâne et rachis cervical ne sont pas des sites DEXA ; ils ne reflètent pas le risque fracturaire ostéoporotique évalué en routine."}]},
   {
    "q": "En radiographie simple, l'hiérarchie des densités du noir vers le blanc est :",
    "c": 2,
@@ -209138,25 +208846,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La scintigraphie osseuse au technétium 99 met en évidence :",
-   "c": 9,
-   "options": [
-    {
-     "t": "Les zones d'hyperactivité métabolique osseuse",
-     "correct": true,
-     "j": "Le technétium 99m se fixe sur l'os métaboliquement actif (fractures, métastases, infections, arthropathies)."
-    },
-    {
-     "t": "Les foyers d'hyperfixation glucidique tumorale",
-     "j": "L'hyperfixation glucidique relève du TEP au 18-FDG, non de la scintigraphie osseuse au technétium."
-    },
-    {
-     "t": "Les zones de déminéralisation osseuse quantifiée",
-     "j": "La quantification de la déminéralisation est mesurée par densitométrie (DEXA), pas par scintigraphie."
-    }
-   ]
-  },
+  {"q":"La scintigraphie osseuse au technétium 99 met en évidence :","c":1,"options":[{"t":"Les zones d'hyperactivité métabolique osseuse","correct":true,"j":"Le technétium 99m se fixe sur l'os métaboliquement actif (fractures, métastases, infections, arthropathies)."},{"t":"Les foyers d'hyperfixation glucidique tumorale","j":"L'hyperfixation glucidique relève du TEP au 18-FDG, non de la scintigraphie osseuse au technétium."},{"t":"Les zones de déminéralisation osseuse quantifiée","j":"La quantification de la déminéralisation est mesurée par densitométrie (DEXA), pas par scintigraphie."}]},
   {
    "q": "Lors d'un examen objectif, après l'observation et l'analyse de la douleur, l'étape suivante est :",
    "c": 4,
@@ -209176,25 +208866,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'évaluation neurologique périphérique du membre inférieur comprend systématiquement :",
-   "c": 9,
-   "options": [
-    {
-     "t": "Réflexes ostéo-tendineux, force motrice et sensibilité",
-     "correct": true,
-     "j": "Triptyque neurologique : ROT, testing moteur par myotomes et sensibilité par dermatomes."
-    },
-    {
-     "t": "Inspection, palpation et mobilités passives articulaires",
-     "j": "C'est l'examen articulaire ostéo-articulaire, qui n'explore pas la fonction nerveuse périphérique."
-    },
-    {
-     "t": "Testing musculaire, souplesse et endurance à l'effort",
-     "j": "C'est un bilan musculaire fonctionnel, distinct de l'examen neurologique (ROT, force, sensibilité)."
-    }
-   ]
-  },
+  {"q":"L'évaluation neurologique périphérique du membre inférieur comprend systématiquement :","c":4,"options":[{"t":"Réflexes ostéo-tendineux, force motrice et sensibilité","correct":true,"j":"Triptyque neurologique : ROT, testing moteur par myotomes et sensibilité par dermatomes."},{"t":"Inspection, palpation et mobilités passives articulaires","j":"C'est l'examen articulaire ostéo-articulaire, qui n'explore pas la fonction nerveuse périphérique."},{"t":"Testing musculaire, souplesse et endurance à l'effort","j":"C'est un bilan musculaire fonctionnel, distinct de l'examen neurologique (ROT, force, sensibilité)."}]},
   {
    "q": "Un jeune sportif de 22 ans présente une lombalgie après soulèvement en flexion. Le mécanisme le plus probable est :",
    "c": 8,
@@ -209708,25 +209380,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'évaluation neurodynamique par le test de Lasègue positif évoque :",
-   "c": 10,
-   "options": [
-    {
-     "t": "Une mécanosensibilité accrue du nerf sciatique",
-     "correct": true,
-     "j": "Lasègue (élévation passive jambe tendue, douleur radiculaire sous 60°) met en tension le nerf sciatique : évoque une hernie L4-L5 ou L5-S1."
-    },
-    {
-     "t": "Une mécanosensibilité accrue du nerf fémoral",
-     "j": "Le nerf fémoral se teste en décubitus ventral, hanche en extension (test de Léri/Wassermann), pas par le Lasègue."
-    },
-    {
-     "t": "Une mécanosensibilité accrue du nerf tibial postérieur",
-     "j": "Le tibial postérieur s'explore par dorsiflexion-éversion de la cheville en fin de Lasègue (sensibilisation distale), et non par le Lasègue de base."
-    }
-   ]
-  },
+  {"q":"L'évaluation neurodynamique par le test de Lasègue positif évoque :","c":[4,10],"options":[{"t":"Une mécanosensibilité accrue du nerf sciatique","correct":true,"j":"Lasègue (élévation passive jambe tendue, douleur radiculaire sous 60°) met en tension le nerf sciatique : évoque une hernie L4-L5 ou L5-S1."},{"t":"Une mécanosensibilité accrue du nerf fémoral","j":"Le nerf fémoral se teste en décubitus ventral, hanche en extension (test de Léri/Wassermann), pas par le Lasègue."},{"t":"Une mécanosensibilité accrue du nerf tibial postérieur","j":"Le tibial postérieur s'explore par dorsiflexion-éversion de la cheville en fin de Lasègue (sensibilisation distale), et non par le Lasègue de base."}]},
   {
    "q": "Au lombaire, le psoas iliaque, avec point fixe sur le rachis, agit comme :",
    "c": 8,
@@ -209822,44 +209476,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "En IRM, le disque intervertébral sain apparaît :",
-   "c": 11,
-   "options": [
-    {
-     "t": "Hyperintense en T2 au niveau du noyau pulpeux",
-     "correct": true,
-     "j": "Le noyau pulpeux sain, riche en eau, donne un hypersignal T2."
-    },
-    {
-     "t": "Hypointense en T2 au niveau du noyau pulpeux",
-     "j": "Hyposignal T2 = disque déshydraté/dégénéré, pas un disque sain."
-    },
-    {
-     "t": "Hyperintense en T1 au niveau du noyau pulpeux",
-     "j": "En T1, le noyau sain donne un signal intermédiaire à bas, pas un hypersignal."
-    }
-   ]
-  },
-  {
-   "q": "L'examen radiologique de référence pour visualiser une fracture occulte costale est :",
-   "c": 8,
-   "options": [
-    {
-     "t": "Le scanner thoracique",
-     "correct": true,
-     "j": "Les fractures costales peu déplacées ou occultes sont mieux détectées au scanner thoracique, plus sensible que les autres examens."
-    },
-    {
-     "t": "La radiographie de gril costal en incidence oblique ciblée",
-     "j": "L'incidence oblique du gril costal améliore la détection par rapport à la face mais reste moins sensible que le scanner pour les fractures occultes."
-    },
-    {
-     "t": "La scintigraphie osseuse au technétium",
-     "j": "La scintigraphie est sensible mais peu spécifique et tardive ; le scanner reste l'examen de référence pour caractériser une fracture costale occulte."
-    }
-   ]
-  },
+  {"q":"En IRM, le disque intervertébral sain apparaît :","c":[3,6],"options":[{"t":"Hyperintense en T2 au niveau du noyau pulpeux","correct":true,"j":"Le noyau pulpeux sain, riche en eau, donne un hypersignal T2."},{"t":"Hypointense en T2 au niveau du noyau pulpeux","j":"Hyposignal T2 = disque déshydraté/dégénéré, pas un disque sain."},{"t":"Hyperintense en T1 au niveau du noyau pulpeux","j":"En T1, le noyau sain donne un signal intermédiaire à bas, pas un hypersignal."}]},
+  {"q":"L'examen radiologique de référence pour visualiser une fracture occulte costale est :","c":3,"options":[{"t":"Le scanner thoracique","correct":true,"j":"Les fractures costales peu déplacées ou occultes sont mieux détectées au scanner thoracique, plus sensible que les autres examens."},{"t":"La radiographie de gril costal en incidence oblique ciblée","j":"L'incidence oblique du gril costal améliore la détection par rapport à la face mais reste moins sensible que le scanner pour les fractures occultes."},{"t":"La scintigraphie osseuse au technétium","j":"La scintigraphie est sensible mais peu spécifique et tardive ; le scanner reste l'examen de référence pour caractériser une fracture costale occulte."}]},
   {
    "q": "Lors d'une rotation lombaire droite, l'oblique interne agit comme :",
    "c": 8,
@@ -210031,63 +209649,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'examen radiologique de référence pour le diagnostic d'une sacro-iliite débutante est :",
-   "c": 10,
-   "options": [
-    {
-     "t": "L'IRM des sacro-iliaques avec séquences STIR",
-     "correct": true,
-     "j": "L'IRM (STIR) détecte le plus précocement l'œdème osseux sous-chondral, avant toute lésion structurale visible en radiographie."
-    },
-    {
-     "t": "La radiographie standard du bassin de face",
-     "j": "Faux : la radiographie ne révèle que les lésions structurales tardives (érosions, condensation) et reste normale au début."
-    },
-    {
-     "t": "Le scanner des sacro-iliaques en coupes fines",
-     "j": "Faux : le scanner analyse bien l'os cortical et les érosions chroniques mais ne montre pas l'œdème médullaire précoce."
-    }
-   ]
-  },
-  {
-   "q": "La mobilisation articulaire manuelle analytique simple :",
-   "c": 5,
-   "options": [
-    {
-     "t": "Respecte les axes et plans en reproduisant glissements et roulements",
-     "correct": true,
-     "j": "L'analytique simple reproduit la physiologie articulaire (axes, plans, glissements/roulements) avec des prises près de l'interligne."
-    },
-    {
-     "t": "Utilise de longues prises éloignées de l'interligne articulaire",
-     "j": "Faux : les longues prises éloignées de l'interligne caractérisent la mobilisation fonctionnelle/globale, non l'analytique."
-    },
-    {
-     "t": "Intercale les articulations intermédiaires dans le mouvement",
-     "j": "Faux : l'analytique isole une seule articulation sans intercaler les articulations voisines."
-    }
-   ]
-  },
-  {
-   "q": "L'un des effets physiologiques de la kinésithérapie est :",
-   "c": 12,
-   "options": [
-    {
-     "t": "Maintenir ou améliorer les propriétés mécaniques de l'articulation",
-     "correct": true,
-     "j": "La mobilisation entretient les qualités mécaniques articulaires (élasticité, jeu) et nourrit le cartilage."
-    },
-    {
-     "t": "Augmenter la viscosité du liquide synovial",
-     "j": "Faux : le mouvement diminue la viscosité synoviale (fluidification thixotrope), il ne l'augmente pas."
-    },
-    {
-     "t": "Préserver à l'identique la trophicité du cartilage",
-     "j": "Faux : la mobilisation modifie activement le cartilage en l'entretenant par les échanges synoviaux, elle ne le laisse pas inchangé."
-    }
-   ]
-  },
+  {"q":"L'examen radiologique de référence pour le diagnostic d'une sacro-iliite débutante est :","c":3,"options":[{"t":"L'IRM des sacro-iliaques avec séquences STIR","correct":true,"j":"L'IRM (STIR) détecte le plus précocement l'œdème osseux sous-chondral, avant toute lésion structurale visible en radiographie."},{"t":"La radiographie standard du bassin de face","j":"Faux : la radiographie ne révèle que les lésions structurales tardives (érosions, condensation) et reste normale au début."},{"t":"Le scanner des sacro-iliaques en coupes fines","j":"Faux : le scanner analyse bien l'os cortical et les érosions chroniques mais ne montre pas l'œdème médullaire précoce."}]},
+  {"q":"La mobilisation articulaire manuelle analytique simple :","c":4,"options":[{"t":"Respecte les axes et plans en reproduisant glissements et roulements","correct":true,"j":"L'analytique simple reproduit la physiologie articulaire (axes, plans, glissements/roulements) avec des prises près de l'interligne."},{"t":"Utilise de longues prises éloignées de l'interligne articulaire","j":"Faux : les longues prises éloignées de l'interligne caractérisent la mobilisation fonctionnelle/globale, non l'analytique."},{"t":"Intercale les articulations intermédiaires dans le mouvement","j":"Faux : l'analytique isole une seule articulation sans intercaler les articulations voisines."}]},
+  {"q":"L'un des effets physiologiques de la kinésithérapie est :","c":4,"options":[{"t":"Maintenir ou améliorer les propriétés mécaniques de l'articulation","correct":true,"j":"La mobilisation entretient les qualités mécaniques articulaires (élasticité, jeu) et nourrit le cartilage."},{"t":"Augmenter la viscosité du liquide synovial","j":"Faux : le mouvement diminue la viscosité synoviale (fluidification thixotrope), il ne l'augmente pas."},{"t":"Préserver à l'identique la trophicité du cartilage","j":"Faux : la mobilisation modifie activement le cartilage en l'entretenant par les échanges synoviaux, elle ne le laisse pas inchangé."}]},
   {
    "q": "Concernant la kinésithérapie passive manuelle analytique spécifique :",
    "c": 4,
@@ -210126,25 +209690,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant le bilan musculaire, indiquez la bonne réponse :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Le grade 1 correspond à une contraction palpable sans déplacement angulaire",
-     "correct": true,
-     "j": "Exact : grade 1 = contraction visible ou palpable sans aucun mouvement articulaire."
-    },
-    {
-     "t": "Le grade 3 correspond à un mouvement complet contre résistance modérée",
-     "j": "Faux : le grade 3 = mouvement complet contre la pesanteur seule, sans résistance ajoutée (la résistance définit le grade 4)."
-    },
-    {
-     "t": "Le grade 2 correspond à un mouvement complet contre la pesanteur",
-     "j": "Faux : le grade 2 = mouvement complet seulement une fois la pesanteur éliminée ; le mouvement complet contre la pesanteur définit le grade 3."
-    }
-   ]
-  },
+  {"q":"Concernant le bilan musculaire, indiquez la bonne réponse :","c":4,"options":[{"t":"Le grade 1 correspond à une contraction palpable sans déplacement angulaire","correct":true,"j":"Exact : grade 1 = contraction visible ou palpable sans aucun mouvement articulaire."},{"t":"Le grade 3 correspond à un mouvement complet contre résistance modérée","j":"Faux : le grade 3 = mouvement complet contre la pesanteur seule, sans résistance ajoutée (la résistance définit le grade 4)."},{"t":"Le grade 2 correspond à un mouvement complet contre la pesanteur","j":"Faux : le grade 2 = mouvement complet seulement une fois la pesanteur éliminée ; le mouvement complet contre la pesanteur définit le grade 3."}]},
   {
    "q": "La kinésithérapie active se distingue de la mobilisation passive par :",
    "c": 4,
@@ -210164,25 +209710,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La kinésithérapie active libre serait indiquée lorsque :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Le patient présente un bilan musculaire de grade 3",
-     "correct": true,
-     "j": "Exact : grade 3 = mouvement complet contre la pesanteur, indication de l'actif libre."
-    },
-    {
-     "t": "Le patient présente une rigidité articulaire",
-     "j": "La rigidité relève de la mobilisation passive."
-    },
-    {
-     "t": "Le patient ne peut bouger qu'en éliminant la pesanteur",
-     "j": "Cela correspond au grade 2 (actif aidé)."
-    }
-   ]
-  },
+  {"q":"La kinésithérapie active libre serait indiquée lorsque :","c":4,"options":[{"t":"Le patient présente un bilan musculaire de grade 3","correct":true,"j":"Exact : grade 3 = mouvement complet contre la pesanteur, indication de l'actif libre."},{"t":"Le patient présente une rigidité articulaire","j":"La rigidité relève de la mobilisation passive."},{"t":"Le patient ne peut bouger qu'en éliminant la pesanteur","j":"Cela correspond au grade 2 (actif aidé)."}]},
   {
    "q": "Concernant l'extension du rachis dans son ensemble, indiquez la bonne réponse :",
    "c": 8,
@@ -210449,25 +209977,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "À quel type de chaîne cinétique facilitatrice correspond : « les muscles des membres déclenchent l'activité de ceux du tronc » ?",
-   "c": 12,
-   "options": [
-    {
-     "t": "Une chaîne périphérique-axial",
-     "correct": true,
-     "j": "Exact : le départ de l'activité aux membres (périphérie) recrute ensuite le tronc (axe) : sens périphérique vers axial."
-    },
-    {
-     "t": "Une chaîne axial-périphérique",
-     "j": "Cette chaîne va de l'axe vers la périphérie (le tronc déclenche les membres) : c'est le sens inverse de l'énoncé."
-    },
-    {
-     "t": "Une chaîne axial-axial",
-     "j": "Cette chaîne reste confinée à l'axe (tronc vers tronc) et n'implique pas les membres comme point de départ."
-    }
-   ]
-  },
+  {"q":"À quel type de chaîne cinétique facilitatrice correspond : « les muscles des membres déclenchent l'activité de ceux du tronc » ?","c":4,"options":[{"t":"Une chaîne périphérique-axial","correct":true,"j":"Exact : le départ de l'activité aux membres (périphérie) recrute ensuite le tronc (axe) : sens périphérique vers axial."},{"t":"Une chaîne axial-périphérique","j":"Cette chaîne va de l'axe vers la périphérie (le tronc déclenche les membres) : c'est le sens inverse de l'énoncé."},{"t":"Une chaîne axial-axial","j":"Cette chaîne reste confinée à l'axe (tronc vers tronc) et n'implique pas les membres comme point de départ."}]},
   {
    "q": "Concernant l'articulation temporo-mandibulaire :",
    "c": 7,
@@ -210487,25 +209997,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Les conséquences d'une immobilisation se caractérisent par :",
-   "c": 2,
-   "options": [
-    {
-     "t": "Une diminution de l'information proprioceptive",
-     "correct": true,
-     "j": "Exact : l'immobilisation appauvrit les afferences proprioceptives par defaut de sollicitation des mecanorecepteurs articulaires et musculaires."
-    },
-    {
-     "t": "Une augmentation de la densite minerale osseuse sous-chondrale",
-     "j": "Faux : l'immobilisation entraine une demineralisation (osteoporose d'immobilisation), donc une diminution de la densite minerale osseuse."
-    },
-    {
-     "t": "Une diminution de la viscosite du liquide synovial",
-     "j": "Faux : l'immobilisation augmente la viscosite synoviale et favorise l'enraidissement ; c'est le mouvement qui la diminue."
-    }
-   ]
-  },
+  {"q":"Les conséquences d'une immobilisation se caractérisent par :","c":4,"options":[{"t":"Une diminution de l'information proprioceptive","correct":true,"j":"Exact : l'immobilisation appauvrit les afferences proprioceptives par defaut de sollicitation des mecanorecepteurs articulaires et musculaires."},{"t":"Une augmentation de la densite minerale osseuse sous-chondrale","j":"Faux : l'immobilisation entraine une demineralisation (osteoporose d'immobilisation), donc une diminution de la densite minerale osseuse."},{"t":"Une diminution de la viscosite du liquide synovial","j":"Faux : l'immobilisation augmente la viscosite synoviale et favorise l'enraidissement ; c'est le mouvement qui la diminue."}]},
   {
    "q": "Concernant l'évaluation du patient, choisissez la bonne réponse :",
    "c": 4,
@@ -210658,44 +210150,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant les effets physiologiques de la kinésithérapie, on peut dire que :",
-   "c": 7,
-   "options": [
-    {
-     "t": "L'articulation est soumise à des forces de tension, de compression et de friction",
-     "correct": true,
-     "j": "Exact : la mobilisation applique tension, compression et friction, stimulant le cartilage et la synovie."
-    },
-    {
-     "t": "L'articulation voit augmenter la viscosité de son liquide synovial",
-     "j": "Faux : le mouvement DIMINUE la viscosité du liquide synovial (fluidification) et facilite ainsi le glissement."
-    },
-    {
-     "t": "L'articulation voit diminuer la nutrition de son cartilage",
-     "j": "Faux : la mobilisation AUGMENTE la nutrition du cartilage en favorisant les échanges avec le liquide synovial (imbibition)."
-    }
-   ]
-  },
-  {
-   "q": "Concernant la mobilisation articulaire manuelle analytique simple, indiquez la bonne réponse :",
-   "c": 2,
-   "options": [
-    {
-     "t": "Elle reproduit les glissements et roulements dans les plans physiologiques",
-     "correct": true,
-     "j": "Exact : l'analytique simple respecte les axes et plans, donc les glissements et roulements physiologiques de l'articulation."
-    },
-    {
-     "t": "Elle utilise de longues prises à distance de l'interligne articulaire",
-     "j": "Cela décrit une mobilisation fonctionnelle/globale, pas analytique (les prises analytiques encadrent l'interligne)."
-    },
-    {
-     "t": "Elle sollicite une chaîne cinétique de plusieurs articulations",
-     "j": "L'analytique isole une seule articulation ; c'est la mobilisation globale qui mobilise une chaîne."
-    }
-   ]
-  },
+  {"q":"Concernant les effets physiologiques de la kinésithérapie, on peut dire que :","c":4,"options":[{"t":"L'articulation est soumise à des forces de tension, de compression et de friction","correct":true,"j":"Exact : la mobilisation applique tension, compression et friction, stimulant le cartilage et la synovie."},{"t":"L'articulation voit augmenter la viscosité de son liquide synovial","j":"Faux : le mouvement DIMINUE la viscosité du liquide synovial (fluidification) et facilite ainsi le glissement."},{"t":"L'articulation voit diminuer la nutrition de son cartilage","j":"Faux : la mobilisation AUGMENTE la nutrition du cartilage en favorisant les échanges avec le liquide synovial (imbibition)."}]},
+  {"q":"Concernant la mobilisation articulaire manuelle analytique simple, indiquez la bonne réponse :","c":4,"options":[{"t":"Elle reproduit les glissements et roulements dans les plans physiologiques","correct":true,"j":"Exact : l'analytique simple respecte les axes et plans, donc les glissements et roulements physiologiques de l'articulation."},{"t":"Elle utilise de longues prises à distance de l'interligne articulaire","j":"Cela décrit une mobilisation fonctionnelle/globale, pas analytique (les prises analytiques encadrent l'interligne)."},{"t":"Elle sollicite une chaîne cinétique de plusieurs articulations","j":"L'analytique isole une seule articulation ; c'est la mobilisation globale qui mobilise une chaîne."}]},
   {
    "q": "Concernant la rotation du rachis dans son ensemble, une des limites du mouvement est :",
    "c": 8,
@@ -210848,25 +210304,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant les tractions articulaires, indiquez la bonne réponse :",
-   "c": 8,
-   "options": [
-    {
-     "t": "Elle exerce une force perpendiculaire à la surface articulaire",
-     "correct": true,
-     "j": "Exact : la traction se fait perpendiculairement à la surface (décoaptation des surfaces)."
-    },
-    {
-     "t": "Elle exerce une force parallèle à la surface articulaire",
-     "j": "La force parallèle correspond au glissement, non à la traction qui est perpendiculaire."
-    },
-    {
-     "t": "Elle exerce une force de rapprochement des surfaces articulaires",
-     "j": "La traction ÉCARTE les surfaces (décoaptation) ; le rapprochement correspond à la compression."
-    }
-   ]
-  },
+  {"q":"Concernant les tractions articulaires, indiquez la bonne réponse :","c":4,"options":[{"t":"Elle exerce une force perpendiculaire à la surface articulaire","correct":true,"j":"Exact : la traction se fait perpendiculairement à la surface (décoaptation des surfaces)."},{"t":"Elle exerce une force parallèle à la surface articulaire","j":"La force parallèle correspond au glissement, non à la traction qui est perpendiculaire."},{"t":"Elle exerce une force de rapprochement des surfaces articulaires","j":"La traction ÉCARTE les surfaces (décoaptation) ; le rapprochement correspond à la compression."}]},
   {
    "q": "L'objectif principal de la kinésithérapie passive analytique spécifique est :",
    "c": 4,
@@ -210886,25 +210324,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la mobilisation passive articulaire globale :",
-   "c": 2,
-   "options": [
-    {
-     "t": "Elle travaille une chaîne cinétique de mouvement articulaire",
-     "correct": true,
-     "j": "Exact : la mobilisation globale sollicite plusieurs articulations en chaîne (mouvement fonctionnel)."
-    },
-    {
-     "t": "Elle est réalisée avec des prises courtes près de l'interligne",
-     "j": "Cela décrit l'analytique spécifique."
-    },
-    {
-     "t": "Elle respecte les glissements et roulements intimes d'une seule articulation",
-     "j": "Cela décrit l'analytique, pas la globale."
-    }
-   ]
-  },
+  {"q":"Concernant la mobilisation passive articulaire globale :","c":4,"options":[{"t":"Elle travaille une chaîne cinétique de mouvement articulaire","correct":true,"j":"Exact : la mobilisation globale sollicite plusieurs articulations en chaîne (mouvement fonctionnel)."},{"t":"Elle est réalisée avec des prises courtes près de l'interligne","j":"Cela décrit l'analytique spécifique."},{"t":"Elle respecte les glissements et roulements intimes d'une seule articulation","j":"Cela décrit l'analytique, pas la globale."}]},
   {
    "q": "Chez un patient présentant un bilan musculaire de grade 4, il est vrai que :",
    "c": 4,
@@ -210943,25 +210363,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Pour un patient présentant une goniométrie de 90°/0°/10° (plan sagittal) et un bilan musculaire de grade 4 :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Le secteur articulaire utile est de 100° en flexion-extension",
-     "correct": true,
-     "j": "Exact : 90/0/10 = 90° de flexion et 10° d'extension, soit une amplitude totale de 100° ; un grade 4 autorise un travail actif résisté."
-    },
-    {
-     "t": "Le secteur articulaire utile est de 90° en flexion-extension",
-     "j": "Faux : il faut additionner les 90° de flexion et les 10° d'extension, soit 100°."
-    },
-    {
-     "t": "Le secteur articulaire utile est de 80° en flexion-extension",
-     "j": "Faux : la notation 90/0/10 donne 90° + 10° = 100°, pas 80°."
-    }
-   ]
-  },
+  {"q":"Pour un patient présentant une goniométrie de 90°/0°/10° (plan sagittal) et un bilan musculaire de grade 4 :","c":4,"options":[{"t":"Le secteur articulaire utile est de 100° en flexion-extension","correct":true,"j":"Exact : 90/0/10 = 90° de flexion et 10° d'extension, soit une amplitude totale de 100° ; un grade 4 autorise un travail actif résisté."},{"t":"Le secteur articulaire utile est de 90° en flexion-extension","j":"Faux : il faut additionner les 90° de flexion et les 10° d'extension, soit 100°."},{"t":"Le secteur articulaire utile est de 80° en flexion-extension","j":"Faux : la notation 90/0/10 donne 90° + 10° = 100°, pas 80°."}]},
   {
    "q": "Concernant la flexion du rachis, quel comportement des structures vertébrales est correct ?",
    "c": 8,
@@ -212178,44 +211580,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant l'exercice dynamique de kinésithérapie active destiné au renforcement musculaire, quelle proposition est exacte ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Lorsque la vitesse du mouvement est variable, le travail est dit isocinétique",
-     "j": "Le travail isocinétique se fait au contraire à vitesse angulaire constante, la résistance s'adaptant à chaque instant."
-    },
-    {
-     "t": "Lorsque la résistance opposée est variable, le travail est dit isométrique",
-     "j": "Le travail isométrique est une contraction sans déplacement du segment, et non une contraction à résistance variable."
-    },
-    {
-     "t": "Lorsque la résistance opposée reste constante, le travail est dit isotonique",
-     "correct": true,
-     "j": "Le travail isotonique se définit par une résistance maintenue constante tout au long du déplacement articulaire."
-    }
-   ]
-  },
-  {
-   "q": "La chaîne cinétique facilitatrice est celle qui :",
-   "c": 2,
-   "options": [
-    {
-     "t": "Recherche la contraction de tous les muscles antagonistes du mouvement",
-     "j": "La chaîne facilitatrice s'appuie sur les muscles qui participent au mouvement, et non sur la mise en jeu des antagonistes."
-    },
-    {
-     "t": "Utilise une contraction parasite des muscles faibles pour obtenir le mouvement",
-     "j": "Le recours à une contraction parasite correspond à une compensation, que la kinésithérapie active cherche justement à éviter."
-    },
-    {
-     "t": "Met en jeu un muscle sain pour déclencher l'activité du muscle atteint",
-     "correct": true,
-     "j": "La facilitation consiste à utiliser l'activité d'un muscle sain de la chaîne pour recruter le muscle déficitaire."
-    }
-   ]
-  },
+  {"q":"Concernant l'exercice dynamique de kinésithérapie active destiné au renforcement musculaire, quelle proposition est exacte ?","c":4,"options":[{"t":"Lorsque la vitesse du mouvement est variable, le travail est dit isocinétique","j":"Le travail isocinétique se fait au contraire à vitesse angulaire constante, la résistance s'adaptant à chaque instant."},{"t":"Lorsque la résistance opposée est variable, le travail est dit isométrique","j":"Le travail isométrique est une contraction sans déplacement du segment, et non une contraction à résistance variable."},{"t":"Lorsque la résistance opposée reste constante, le travail est dit isotonique","correct":true,"j":"Le travail isotonique se définit par une résistance maintenue constante tout au long du déplacement articulaire."}]},
+  {"q":"La chaîne cinétique facilitatrice est celle qui :","c":4,"options":[{"t":"Recherche la contraction de tous les muscles antagonistes du mouvement","j":"La chaîne facilitatrice s'appuie sur les muscles qui participent au mouvement, et non sur la mise en jeu des antagonistes."},{"t":"Utilise une contraction parasite des muscles faibles pour obtenir le mouvement","j":"Le recours à une contraction parasite correspond à une compensation, que la kinésithérapie active cherche justement à éviter."},{"t":"Met en jeu un muscle sain pour déclencher l'activité du muscle atteint","correct":true,"j":"La facilitation consiste à utiliser l'activité d'un muscle sain de la chaîne pour recruter le muscle déficitaire."}]},
   {
    "q": "Lors de l'examen des mouvements physiologiques actifs, la surpression est ajoutée :",
    "c": 4,
@@ -212330,44 +211696,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La tomographie par émission de positrons (TEP) :",
-   "c": 9,
-   "options": [
-    {
-     "t": "Mesure la fixation osseuse d'un isotope administré par voie veineuse, le plus souvent le technétium 99",
-     "j": "Cette description correspond à la scintigraphie osseuse, dont l'isotope se concentre dans l'os et est capté par une caméra gamma."
-    },
-    {
-     "t": "Mesure l'activité métabolique des tissus à partir d'un produit radiopharmaceutique, le plus souvent le fluor 18",
-     "correct": true,
-     "j": "La TEP évalue le métabolisme tissulaire grâce à un médicament marqué, le fluor 18 étant le radiopharmaceutique le plus utilisé."
-    },
-    {
-     "t": "Mesure la densité minérale des tissus à partir de deux faisceaux de rayons X d'énergies différentes",
-     "j": "Cette description est celle de l'absorptiométrie biphotonique (DXA), utilisée pour quantifier la densité minérale osseuse."
-    }
-   ]
-  },
-  {
-   "q": "Dans l'absorptiométrie biphotonique à rayons X (DXA), le score Z correspond :",
-   "c": 9,
-   "options": [
-    {
-     "t": "À la valeur nette de densité minérale mesurée au rachis lombaire et au fémur proximal",
-     "j": "Cette valeur nette est bien fournie par l'examen, mais elle est distincte du score, qui est une comparaison avec une population."
-    },
-    {
-     "t": "À la comparaison de la densité mesurée avec celle d'une population de même âge et de même sexe",
-     "correct": true,
-     "j": "Le résultat est exprimé en valeur nette puis rapporté à une population de référence appariée sur l'âge et le sexe : c'est le score Z."
-    },
-    {
-     "t": "À la différence de densité minérale mesurée entre le rachis lombaire et le fémur proximal",
-     "j": "Les deux sites sont mesurés séparément pour estimer le risque de fracture, mais leur différence ne définit aucun score."
-    }
-   ]
-  },
+  {"q":"La tomographie par émission de positrons (TEP) :","c":1,"options":[{"t":"Mesure la fixation osseuse d'un isotope administré par voie veineuse, le plus souvent le technétium 99","j":"Cette description correspond à la scintigraphie osseuse, dont l'isotope se concentre dans l'os et est capté par une caméra gamma."},{"t":"Mesure l'activité métabolique des tissus à partir d'un produit radiopharmaceutique, le plus souvent le fluor 18","correct":true,"j":"La TEP évalue le métabolisme tissulaire grâce à un médicament marqué, le fluor 18 étant le radiopharmaceutique le plus utilisé."},{"t":"Mesure la densité minérale des tissus à partir de deux faisceaux de rayons X d'énergies différentes","j":"Cette description est celle de l'absorptiométrie biphotonique (DXA), utilisée pour quantifier la densité minérale osseuse."}]},
+  {"q":"Dans l'absorptiométrie biphotonique à rayons X (DXA), le score Z correspond :","c":1,"options":[{"t":"À la valeur nette de densité minérale mesurée au rachis lombaire et au fémur proximal","j":"Cette valeur nette est bien fournie par l'examen, mais elle est distincte du score, qui est une comparaison avec une population."},{"t":"À la comparaison de la densité mesurée avec celle d'une population de même âge et de même sexe","correct":true,"j":"Le résultat est exprimé en valeur nette puis rapporté à une population de référence appariée sur l'âge et le sexe : c'est le score Z."},{"t":"À la différence de densité minérale mesurée entre le rachis lombaire et le fémur proximal","j":"Les deux sites sont mesurés séparément pour estimer le risque de fracture, mais leur différence ne définit aucun score."}]},
   {
    "q": "Dans la pathologie du système nerveux périphérique, l'échographie :",
    "c": 9,
