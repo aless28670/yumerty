@@ -1234,59 +1234,31 @@ const CHAPITRES = {
   "osteo2": [
     {
       "id": 1,
-      "nom": "Rachis cervical : anatomie fonctionnelle et biomécanique"
+      "nom": "Rachis cervical"
     },
     {
       "id": 2,
-      "nom": "Syndromes cervicaux et modèles cliniques"
-    },
-    {
-      "id": 3,
-      "nom": "Rachis cervical : artère vertébrale et relations neurovasculaires"
-    },
-    {
-      "id": 4,
-      "nom": "Dysfonctions cervicales et tests de mobilité"
-    },
-    {
-      "id": 5,
       "nom": "Examen neurologique et tests orthopédiques cervicaux"
     },
     {
-      "id": 6,
-      "nom": "Critères de sécurité cervicaux et tests d'instabilité"
+      "id": 3,
+      "nom": "Critères de sécurité cervicaux"
     },
     {
-      "id": 7,
-      "nom": "Bassin : biomécanique et dysfonctions ilio-sacrées"
-    },
-    {
-      "id": 8,
-      "nom": "Sacrum : axes, mouvements et torsions"
-    },
-    {
-      "id": 9,
-      "nom": "Neurodynamique et plexus brachial"
-    },
-    {
-      "id": 10,
-      "nom": "Syndrome du défilé thoraco-brachial"
-    },
-    {
-      "id": 11,
-      "nom": "Syndromes canalaires du membre supérieur"
-    },
-    {
-      "id": 12,
+      "id": 4,
       "nom": "Chaînes musculaires GDS"
     },
     {
-      "id": 13,
-      "nom": "RPG-SGA : examen morphologique et tests de raccourcissement"
+      "id": 5,
+      "nom": "Neuropathies du membre supérieur"
     },
     {
-      "id": 14,
-      "nom": "RPG-SGA : principes et postures"
+      "id": 6,
+      "nom": "RPG-SGA"
+    },
+    {
+      "id": 7,
+      "nom": "Bassin et sacrum"
     }
   ],
   "pathoChir1": [
@@ -1580,63 +1552,27 @@ const CHAPITRES = {
     },
     {
       "id": 2,
-      "nom": "Anatomie et développement du système respiratoire"
+      "nom": "Généralités du système respiratoire"
     },
     {
       "id": 3,
-      "nom": "Mécanique ventilatoire, muscles et volumes pulmonaires"
-    },
-    {
-      "id": 4,
-      "nom": "Propriétés physiques du système respiratoire"
-    },
-    {
-      "id": 5,
-      "nom": "Positions, ventilation-perfusion et excursion diaphragmatique"
-    },
-    {
-      "id": 6,
       "nom": "Évaluation du patient respiratoire"
     },
     {
-      "id": 7,
-      "nom": "Auscultation et troubles ventilatoires"
+      "id": 4,
+      "nom": "Auscultation"
     },
     {
-      "id": 8,
+      "id": 5,
       "nom": "Spirométrie"
     },
     {
-      "id": 9,
-      "nom": "Techniques expiratoires lentes"
+      "id": 6,
+      "nom": "Techniques de kinésithérapie respiratoire"
     },
     {
-      "id": 10,
-      "nom": "Techniques expiratoires forcées et toux"
-    },
-    {
-      "id": 11,
-      "nom": "Techniques des voies aériennes extra-thoraciques"
-    },
-    {
-      "id": 12,
-      "nom": "Techniques inspiratoires lentes et ventilation dirigée"
-    },
-    {
-      "id": 13,
-      "nom": "Techniques complémentaires et instrumentales"
-    },
-    {
-      "id": 14,
-      "nom": "Aérosolthérapie et pharmacologie inhalée"
-    },
-    {
-      "id": 15,
-      "nom": "Oxygénothérapie et ventilation mécanique"
-    },
-    {
-      "id": 16,
-      "nom": "Pathologies respiratoires et indications de la KR"
+      "id": 7,
+      "nom": "Pharmacologie et ventilation mécanique"
     }
   ],
   "procesos2": [
@@ -1996,71 +1932,39 @@ const CHAPITRES = {
   "valoColonne": [
     {
       "id": 1,
-      "nom": "Rachis dans son ensemble : anatomie et physiologie globale"
+      "nom": "Rachis lombaire"
     },
     {
       "id": 2,
-      "nom": "Musculature du tronc et actions musculaires"
+      "nom": "Rachis dorsal et cage thoracique"
     },
     {
       "id": 3,
-      "nom": "Rachis lombaire : anatomie et disque intervertébral"
+      "nom": "Rachis cervical"
     },
     {
       "id": 4,
-      "nom": "Rachis lombaire : physiologie articulaire et biomécanique"
-    },
-    {
-      "id": 5,
-      "nom": "Rachis dorsal, côtes et cage thoracique"
-    },
-    {
-      "id": 6,
-      "nom": "Mécanique ventilatoire"
-    },
-    {
-      "id": 7,
-      "nom": "Rachis cervical : anatomie osseuse, ligamentaire et musculaire"
-    },
-    {
-      "id": 8,
-      "nom": "Rachis cervical : physiologie articulaire et biomécanique"
-    },
-    {
-      "id": 9,
       "nom": "ATM et appareil manducateur"
     },
     {
-      "id": 10,
+      "id": 5,
       "nom": "Bassin et articulations sacro-iliaques"
     },
     {
-      "id": 11,
-      "nom": "Biomécanique pelvienne et raisonnement clinique lombo-pelvien"
+      "id": 6,
+      "nom": "Radiologie simple"
     },
     {
-      "id": 12,
-      "nom": "Examen objectif et bilans (goniométrie, bilan musculaire, douleur)"
-    },
-    {
-      "id": 13,
-      "nom": "Kinésithérapie passive : mobilisations et effets"
-    },
-    {
-      "id": 14,
-      "nom": "Kinésithérapie active et bases biomécaniques"
-    },
-    {
-      "id": 15,
-      "nom": "Bases physiques de la radiologie simple"
-    },
-    {
-      "id": 16,
+      "id": 7,
       "nom": "Scanner, IRM et échographie"
     },
     {
-      "id": 17,
-      "nom": "Autres examens complémentaires et explorations du système nerveux périphérique"
+      "id": 8,
+      "nom": "Autres examens complémentaires et système nerveux périphérique"
+    },
+    {
+      "id": 9,
+      "nom": "Bilans et thérapie manuelle"
     }
   ],
   "valoMembresInf": [

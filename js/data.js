@@ -207136,7 +207136,7 @@ const QUESTIONS = {
  "valoColonne": [
   {
    "q": "Un patient de 32 ans en bureau penche le tronc vers l'avant pour saisir un dossier. Concernant le comportement du segment vertébral lombaire en flexion globale, quelle est la proposition exacte ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le noyau pulpeux se déplace vers l'arrière et la tension augmente sur la partie postérieure de l'anneau fibreux",
@@ -207212,7 +207212,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ensemble musculaire correspond aux principaux rotateurs droits du tronc ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Oblique interne droit + oblique externe gauche + iliocostal droit + grand dorsal droit",
@@ -207231,7 +207231,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au niveau lombaire, en extension, le mouvement est limité par :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le ligament longitudinal antérieur et le contact osseux des apophyses épineuses",
@@ -207250,7 +207250,7 @@ const QUESTIONS = {
   },
   {
    "q": "En inclinaison lombaire droite, on observe une rotation automatique :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Controlatérale, vers la gauche, par compression discale et tension ligamentaire",
@@ -207269,7 +207269,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant l'inspiration calme, quel élément participe principalement à l'augmentation du diamètre vertical du thorax ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "La descente du centre phrénique avec aplatissement de la coupole diaphragmatique",
@@ -207288,7 +207288,7 @@ const QUESTIONS = {
   },
   {
    "q": "Avec point fixe sur le bassin, quelle est l'action principale du muscle carré des lombes ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Inclinaison homolatérale du rachis lombaire",
@@ -207307,7 +207307,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les côtes inférieures (8 à 12), pendant l'inspiration, effectuent principalement un mouvement :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "En anse de seau, élevant le corps de la côte et augmentant le diamètre transversal",
@@ -207326,7 +207326,7 @@ const QUESTIONS = {
   },
   {
    "q": "En inclinaison latérale dorsale gauche, on observe :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une rotation controlatérale avec dilatation thoracique du côté convexe",
@@ -207345,7 +207345,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le mouvement principal réalisé entre C0 et C1 (occipito-atloïdien) est :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "La flexion-extension, par roulement et glissement des condyles occipitaux",
@@ -207364,7 +207364,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au rachis cervical inférieur, quelle structure est spécifique et limite les mouvements latéraux entre vertèbres ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Les processus unciformes (uncus de Luschka)",
@@ -207383,7 +207383,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'action du SCM en contraction unilatérale droite :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Inclinaison homolatérale droite + rotation controlatérale gauche + extension cervicale haute",
@@ -207402,7 +207402,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'articulation temporo-mandibulaire (ATM) doit la possibilité d'allier rotation et translation à la présence :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "D'un disque articulaire biconcave divisant l'articulation en deux étages",
@@ -207421,7 +207421,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la rotation axiale C1-C2 vers la gauche :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "L'anneau atlas + ligament transverse tourne autour de l'apophyse odontoïde qui reste fixe",
@@ -207440,7 +207440,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au rachis cervical inférieur, en extension, le mouvement est limité par :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Le ligament longitudinal antérieur et le contact osseux des arcs postérieurs",
@@ -207459,7 +207459,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le sacrum possède plusieurs axes transversaux. L'axe transversal moyen passant par S2 correspond principalement au mouvement de :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Nutation et contre-nutation",
@@ -207478,7 +207478,7 @@ const QUESTIONS = {
   },
   {
    "q": "La limite principale de la flexion lombaire à la charnière lombo-sacrée est :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le faisceau ilio-lombaire supérieur (ilio-transverse supérieur)",
@@ -207497,7 +207497,7 @@ const QUESTIONS = {
   },
   {
    "q": "La faible amplitude (3 à 18°) de la rotation lombaire s'explique par :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le cisaillement discal contrarié par l'orientation sagittale des facettes",
@@ -207516,7 +207516,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'expiration forcée fait essentiellement intervenir :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Les muscles abdominaux qui abaissent les côtes et remontent le diaphragme",
@@ -207535,7 +207535,7 @@ const QUESTIONS = {
   },
   {
    "q": "En inclinaison cervicale basse droite, le couplage automatique est :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Une rotation homolatérale droite due à l'orientation des facettes cervicales basses",
@@ -207554,7 +207554,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au rachis cervical inférieur, la flexion est limitée principalement par :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Le ligament jaune, l'anneau fibreux postérieur et les capsules en bâillement",
@@ -207592,7 +207592,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un patient assis avec genoux tendus, le muscle limitant en premier l'antéversion du bassin est :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Les ischio-jambiers, biarticulaires, étirés sur genoux tendus",
@@ -207611,7 +207611,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la classification des côtes, la 10e côte est :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une fausse côte, rattachée au sternum par un cartilage commun",
@@ -207630,7 +207630,7 @@ const QUESTIONS = {
   },
   {
    "q": "La côte qui s'articule avec l'angle sternal (angle de Louis) est :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La 2e côte, dont le mouvement est en bras de pompe",
@@ -207649,7 +207649,7 @@ const QUESTIONS = {
   },
   {
    "q": "En rotation C0-C1 vers la gauche, le couplage automatique est :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Une inclinaison controlatérale (vers la droite), liée au ligament alaire",
@@ -207668,7 +207668,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une flexion cervicale active à partir de la position anatomique, les condyles occipitaux :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Roulent vers l'avant et glissent vers l'arrière sur les masses latérales de l'atlas",
@@ -207687,7 +207687,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une mobilisation passive d'inclinaison cervicale droite par le kinésithérapeute, les condyles occipitaux :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Glissent vers la gauche (sens opposé à l'inclinaison)",
@@ -207706,7 +207706,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'extension de la tête sur le cou, en levier de premier genre, le composant central (point d'appui) est :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Les articulations atlanto-occipitales (C0-C1)",
@@ -207725,7 +207725,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient en décubitus dorsal avec membres inférieurs fléchis (genoux ramenés sur le ventre) : que se passe-t-il au niveau du bassin ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Le bassin bascule en rétroversion par l'action des ischio-jambiers raccourcis",
@@ -207744,7 +207744,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle combinaison de mouvements sacro-iliaques produit une ouverture du détroit inférieur du bassin ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Nutation + rotation interne iliaque + adduction",
@@ -207763,7 +207763,7 @@ const QUESTIONS = {
   },
   {
    "q": "En inclinaison lombaire droite, le noyau pulpeux et l'anneau fibreux se comportent ainsi :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le noyau migre vers la convexité gauche et l'anneau gauche se tend",
@@ -207782,7 +207782,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la charnière lombo-sacrée selon le cours de valorisation lombaire :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Sa mobilité est limitée par les faisceaux ilio-lombaires",
@@ -207801,7 +207801,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au rachis lombaire, le mouvement le moins ample est :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La rotation axiale",
@@ -207820,7 +207820,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les muscles suivants, lequel est moteur de l'ouverture buccale ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Le ptérygoïdien latéral (faisceau inférieur)",
@@ -207839,7 +207839,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle région du rachis l'inclinaison s'accompagne d'une rotation automatique homolatérale ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Au rachis cervical inférieur",
@@ -207858,7 +207858,7 @@ const QUESTIONS = {
   },
   {
    "q": "La mobilisation passive analytique simple est caractérisée par :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Des prises longues, respectant les axes physiologiques, pouvant intercaler plusieurs articulations",
@@ -207877,7 +207877,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les effets physiologiques attendus de la kinésithérapie articulaire passive :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Nutrition du cartilage et entretien des propriétés mécaniques articulaires",
@@ -207896,7 +207896,7 @@ const QUESTIONS = {
   },
   {
    "q": "La mobilisation passive analytique spécifique se distingue par :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Des prises courtes, glissements intimes intra-articulaires, objectif capsulo-ligamentaire ciblé",
@@ -207915,7 +207915,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un patient qui présente une perte du schéma corporel après une semaine de coma, pour le récupérer on choisit :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "La kinésithérapie passive manuelle fonctionnelle",
@@ -207934,7 +207934,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'échelle de Daniels, un patient capable d'effectuer le mouvement complet contre la pesanteur sans résistance a un grade :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "3",
@@ -207953,7 +207953,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour un patient en bilan musculaire à grade 3, l'indication de travail actif appropriée est :",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Travail actif libre contre pesanteur sans résistance",
@@ -207972,7 +207972,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une conséquence physiologique de l'immobilisation prolongée est :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Une baisse de la proprioception avec raideur capsulaire",
@@ -207991,7 +207991,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'évaluation, l'échelle visuelle analogique (EVA) sert principalement à mesurer :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "L'intensité subjective de la douleur sur une réglette de 0 à 10",
@@ -208010,7 +208010,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un levier de premier genre est caractérisé par :",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Le point d'appui situé entre la puissance et la résistance",
@@ -208029,7 +208029,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour un patient sous plâtre cruro-pédieux après fracture, l'exercice indiqué pour le quadriceps est :",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Des contractions isométriques sous plâtre",
@@ -208048,7 +208048,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'agent physique principal de la kinésithérapie est :",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Le mouvement",
@@ -208067,7 +208067,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une coureuse de 28 ans présente une bascule pelvienne droite vers le bas en appui unipodal gauche. Quel muscle insuffisant doit-on suspecter ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Le moyen fessier gauche",
@@ -208086,7 +208086,7 @@ const QUESTIONS = {
   },
   {
    "q": "En physiologie articulaire, la nutation sacrée correspond à :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Une bascule antérieure de la base sacrée et un recul de l'apex",
@@ -208105,7 +208105,7 @@ const QUESTIONS = {
   },
   {
    "q": "La contre-nutation sacrée a pour limite principale :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "La tension du ligament sacro-iliaque postérieur",
@@ -208124,7 +208124,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une rotation antérieure iliaque droite se traduit par :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "L'EIAS droite descend et avance, l'EIPS droite monte",
@@ -208143,7 +208143,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle facilite la rotation antérieure iliaque ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le droit antérieur du quadriceps",
@@ -208162,7 +208162,7 @@ const QUESTIONS = {
   },
   {
    "q": "La symphyse pubienne est une articulation de type :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Amphiarthrose à disque fibrocartilagineux",
@@ -208181,7 +208181,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au scanner (TDM), l'élément interprété en blanc (haute densité) est :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "Le métal et le calcium (os cortical)",
@@ -208200,7 +208200,7 @@ const QUESTIONS = {
   },
   {
    "q": "En IRM séquence T1, la graisse sous-cutanée apparaît :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "Hyperintense (blanc)",
@@ -208219,7 +208219,7 @@ const QUESTIONS = {
   },
   {
    "q": "En IRM séquence T2, le liquide céphalo-rachidien apparaît :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "Hyperintense (blanc)",
@@ -208238,7 +208238,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'avantage principal de l'IRM par rapport au scanner est :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "Une meilleure résolution des tissus mous",
@@ -208257,7 +208257,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une contre-indication absolue de l'IRM est :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "La présence d'un pacemaker non IRM-compatible",
@@ -208276,7 +208276,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'échographie a comme \"ennemi\" diagnostique principal :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "L'os et l'air (cône d'ombre et arrêt du faisceau)",
@@ -208295,7 +208295,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'élastographie échographique mesure :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "La rigidité ou l'élasticité du tissu en évaluant la propagation d'une onde",
@@ -208314,7 +208314,7 @@ const QUESTIONS = {
   },
   {
    "q": "La densitométrie osseuse (DEXA) explore principalement :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "Le rachis lombaire et l'extrémité supérieure du fémur",
@@ -208333,7 +208333,7 @@ const QUESTIONS = {
   },
   {
    "q": "En radiographie simple, l'hiérarchie des densités du noir vers le blanc est :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "Air < graisse < eau < os < métal",
@@ -208352,7 +208352,7 @@ const QUESTIONS = {
   },
   {
    "q": "La grille ABCS de lecture radiographique correspond à :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "A=Alignement, B=os (bones), C=cartilage/articulations, S=tissus mous (soft tissues)",
@@ -208371,7 +208371,7 @@ const QUESTIONS = {
   },
   {
    "q": "En radiographie, la projection antéro-postérieure (AP) signifie :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "Le faisceau entre par la face antérieure et ressort par la face postérieure du patient",
@@ -208390,7 +208390,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'électromyogramme (EMG) en aiguille permet d'évaluer :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "L'activité électrique du muscle au repos et à la contraction volontaire",
@@ -208409,7 +208409,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'étude de la conduction nerveuse (ENG) mesure :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "La vitesse de conduction et la latence des fibres myélinisées",
@@ -208428,7 +208428,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour différencier une atteinte centrale d'une atteinte périphérique nerveuse, le test utile est :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "Les potentiels évoqués somesthésiques",
@@ -208447,7 +208447,7 @@ const QUESTIONS = {
   },
   {
    "q": "La scintigraphie osseuse au technétium 99 met en évidence :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "Les zones d'hyperactivité métabolique osseuse",
@@ -208466,7 +208466,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un examen objectif, après l'observation et l'analyse de la douleur, l'étape suivante est :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "La démonstration fonctionnelle, où le patient reproduit activement le geste ou la position qui déclenche sa douleur",
@@ -208485,7 +208485,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'évaluation neurologique périphérique du membre inférieur comprend systématiquement :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "Réflexes ostéo-tendineux, force motrice et sensibilité",
@@ -208504,7 +208504,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un jeune sportif de 22 ans présente une lombalgie après soulèvement en flexion. Le mécanisme le plus probable est :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Une contrainte sur l'anneau fibreux postérieur par migration postérieure du noyau",
@@ -208523,7 +208523,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'amplitude approximative de flexion-extension de la colonne dorsale est :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "30-40° de flexion et 20-25° d'extension",
@@ -208542,7 +208542,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au rachis dorsal, les segments les plus mobiles en rotation axiale sont :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "T3 et T9 (mobilité rotatoire maximale)",
@@ -208561,7 +208561,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le ménisque articulaire de l'ATM est qualifié de :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Disque biconcave fibrocartilagineux interposé",
@@ -208580,7 +208580,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'ouverture buccale maximale, on observe :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Une rotation condylienne suivie d'une translation antérieure du condyle sous le tubercule articulaire",
@@ -208599,7 +208599,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une diduction droite (latérotrusion vers la droite) implique principalement :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Le ptérygoïdien latéral gauche, controlatéral au côté de déplacement",
@@ -208618,7 +208618,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'os hyoïde joue un rôle de :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Ancrage central reliant les muscles supra-hyoïdiens aux muscles infra-hyoïdiens",
@@ -208637,7 +208637,7 @@ const QUESTIONS = {
   },
   {
    "q": "En extension cervicale, la mandibule a tendance à :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "S'ouvrir par mise en tension des muscles supra-hyoïdiens",
@@ -208656,7 +208656,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'inspiration, le diamètre antéro-postérieur du thorax supérieur :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Augmente par mouvement en bras de pompe des côtes supérieures",
@@ -208675,7 +208675,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le ligament transverse de l'atlas a pour fonction principale :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Plaquer l'apophyse odontoïde contre l'arc antérieur de l'atlas",
@@ -208694,7 +208694,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'apophyse épineuse de C7 (vertèbre proéminente) se distingue par :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Sa longueur et son caractère non bifide, palpable sous la peau",
@@ -208713,7 +208713,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'apophyse odontoïde appartient à :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'axis (C2)",
@@ -208732,7 +208732,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'atlas (C1) se caractérise anatomiquement par :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'absence de corps vertébral et deux masses latérales",
@@ -208751,7 +208751,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente des cervicalgies et un acouphène pulsatile après un traumatisme. La structure cervicale à risque qui chemine dans le foramen transverse est :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'artère vertébrale, de C6 à C1",
@@ -208770,7 +208770,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour évaluer la mobilité passive cervicale en flexion-extension, le kinésithérapeute place sa prise :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Sous l'occiput et sous le menton, en induisant un hochement",
@@ -208789,7 +208789,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une mobilisation passive d'inclinaison cervicale chez un patient en décubitus dorsal pour rapprocher l'oreille droite de l'épaule droite :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Les condyles occipitaux glissent vers la gauche, côté opposé à l'inclinaison",
@@ -208808,7 +208808,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient se plaint de douleurs ATM bilatérales avec claquement. Les muscles à examiner en priorité sont :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Les masséters, les temporaux et les ptérygoïdiens",
@@ -208827,7 +208827,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le mouvement en bras de pompe des côtes supérieures augmente principalement :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Le diamètre antéro-postérieur du thorax supérieur",
@@ -208846,7 +208846,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la flexion lombaire, le rythme lombo-pelvien attendu pour la flexion totale du tronc est :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "40° de flexion lombaire + 70° de flexion de hanche",
@@ -208865,7 +208865,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la flexion du tronc, les muscles qui contrôlent excentriquement la descente sont :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Érecteurs du rachis, multifides et grand fessier",
@@ -208884,7 +208884,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le ligament jaune au niveau lombaire :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Relie les lames vertébrales adjacentes en arrière du canal",
@@ -208903,7 +208903,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une douleur fessière irradiant à la face postérieure de la cuisse jusqu'au talon : on évoque une sciatique de territoire :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "S1 : fesse, face postérieure de cuisse et mollet, talon, bord latéral du pied",
@@ -208922,7 +208922,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le réflexe ostéotendineux achilléen explore principalement la racine :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "S1, via le triceps sural",
@@ -208941,7 +208941,7 @@ const QUESTIONS = {
   },
   {
    "q": "La nutation sacrée s'accompagne d'un mouvement iliaque :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "De fermeture iliaque : les ailes iliaques se rapprochent",
@@ -208960,7 +208960,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le diamètre promontoire / sus-pubien augmente lors de :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "La contre-nutation sacrée",
@@ -208979,7 +208979,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente présente une douleur sacro-iliaque droite au test de Patrick (FABER). Ce test évalue :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Une atteinte de la sacro-iliaque ou de la coxofémorale",
@@ -208998,7 +208998,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente présente une douleur lombaire avec irradiation antérieure de cuisse. La racine la plus probable est :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "L3 ou L4 : face antérieure de cuisse, parfois face médiale de jambe (cruralgie)",
@@ -209017,7 +209017,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'évaluation neurodynamique par le test de Lasègue positif évoque :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Une mécanosensibilité accrue du nerf sciatique",
@@ -209036,7 +209036,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au lombaire, le psoas iliaque, avec point fixe sur le rachis, agit comme :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Fléchisseur de la hanche",
@@ -209055,7 +209055,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cervical haut, le ligament alaire relie principalement :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'apophyse odontoïde aux condyles occipitaux",
@@ -209074,7 +209074,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les fibres profondes des muscles postérieurs cervicaux (multifides) produisent en contraction unilatérale :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Extension + inclinaison + rotation homolatérales",
@@ -209093,7 +209093,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'évaluation de la mobilité passive comprend la perception de la sensation de fin de mouvement (end-feel). Un end-feel mou normal correspond à :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "Une approximation des tissus mous",
@@ -209131,7 +209131,7 @@ const QUESTIONS = {
   },
   {
    "q": "En IRM, le disque intervertébral sain apparaît :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "Hyperintense en T2 au niveau du noyau pulpeux",
@@ -209150,7 +209150,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'examen radiologique de référence pour visualiser une fracture occulte costale est :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "Le scanner thoracique",
@@ -209169,7 +209169,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une rotation lombaire droite, l'oblique interne agit comme :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Rotateur homolatéral droit",
@@ -209188,7 +209188,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un effort de poussée (Valsalva), le rôle du transverse de l'abdomen est de :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Augmenter la pression intra-abdominale pour stabiliser le rachis lombaire",
@@ -209207,7 +209207,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le diaphragme thoracique est innervé par :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Le nerf phrénique (C3-C5)",
@@ -209226,7 +209226,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une dysfonction des sacro-iliaques peut donner cliniquement :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Une douleur fessière asymétrique reproduite à la palpation des EIPS",
@@ -209264,7 +209264,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une rotation cervicale active droite, le splénius du cou droit agit comme :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Rotateur homolatéral droit",
@@ -209283,7 +209283,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'amplitude de rotation totale du rachis cervical de chaque côté atteint normalement :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Environ 80-90° de chaque côté",
@@ -209321,7 +209321,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du mouvement de protrusion mandibulaire, les muscles principaux sont :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Les ptérygoïdiens latéraux, aidés du masséter superficiel",
@@ -209340,7 +209340,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'examen radiologique de référence pour le diagnostic d'une sacro-iliite débutante est :",
-   "c": 16,
+   "c": 7,
    "options": [
     {
      "t": "L'IRM des sacro-iliaques avec séquences STIR",
@@ -209359,7 +209359,7 @@ const QUESTIONS = {
   },
   {
    "q": "La mobilisation articulaire manuelle analytique simple :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Respecte les axes et plans en reproduisant glissements et roulements",
@@ -209378,7 +209378,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'un des effets physiologiques de la kinésithérapie est :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Maintenir ou améliorer les propriétés mécaniques de l'articulation",
@@ -209397,7 +209397,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la kinésithérapie passive manuelle analytique spécifique :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Elle imprime des mouvements intimes de glissement",
@@ -209416,7 +209416,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un patient ayant perdu le schéma corporel après une semaine de coma, on utilisera pour le récupérer :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "La kinésithérapie passive manuelle fonctionnelle, globale",
@@ -209435,7 +209435,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le bilan musculaire, indiquez la bonne réponse :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "Le grade 1 correspond à une contraction palpable sans déplacement angulaire",
@@ -209454,7 +209454,7 @@ const QUESTIONS = {
   },
   {
    "q": "La kinésithérapie active se distingue de la mobilisation passive par :",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "La présence d'une contraction musculaire volontaire du patient",
@@ -209473,7 +209473,7 @@ const QUESTIONS = {
   },
   {
    "q": "La kinésithérapie active libre serait indiquée lorsque :",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Le patient présente un bilan musculaire de grade 3",
@@ -209568,7 +209568,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les muscles responsables de la rotation gauche du tronc sont :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Oblique interne gauche, oblique externe droit et transversaire-épineux droit",
@@ -209587,7 +209587,7 @@ const QUESTIONS = {
   },
   {
    "q": "En physiologie articulaire lombaire, lors de l'extension :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les articulations des processus articulaires se ferment (s'emboîtent)",
@@ -209606,7 +209606,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant l'inclinaison lombaire :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La mise en tension des ligaments de la convexité explique la rotation controlatérale automatique",
@@ -209625,7 +209625,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la respiration, on peut affirmer que :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Les muscles abdominaux sont synergiques du diaphragme",
@@ -209644,7 +209644,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les actions musculaires du rachis lombaire :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Les muscles iliocostal et longissimus sont inclinateurs homolatéraux en activation unilatérale",
@@ -209663,7 +209663,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les côtes pendant l'inspiration, il est vrai que :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Les côtes supérieures augmentent surtout le diamètre antéro-postérieur (bras de pompe)",
@@ -209682,7 +209682,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'inclinaison du rachis dorsal, il est vrai que :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Les muscles moteurs de l'inclinaison sont situés dans la concavité",
@@ -209701,7 +209701,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le rachis cervical supérieur, indiquez la bonne réponse :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "L'inclinaison se produit essentiellement à l'étage occiput-C1",
@@ -209720,7 +209720,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le rachis cervical inférieur, indiquez la bonne réponse :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Les processus unciformes (onciformes) facilitent le mouvement de flexion-extension",
@@ -209739,7 +209739,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la rotation droite du rachis cervical, il est vrai que :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Le trapèze gauche incline vers la gauche et tourne vers la droite",
@@ -209758,7 +209758,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type de chaîne cinétique facilitatrice correspond : « les muscles des membres déclenchent l'activité de ceux du tronc » ?",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Une chaîne périphérique-axial",
@@ -209777,7 +209777,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'articulation temporo-mandibulaire :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Le disque accompagne le condyle vers l'avant lors de l'ouverture buccale",
@@ -209796,7 +209796,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les conséquences d'une immobilisation se caractérisent par :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Une diminution de l'information proprioceptive",
@@ -209815,7 +209815,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'évaluation du patient, choisissez la bonne réponse :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "L'echelle visuelle analogique (EVA) est un outil d'evaluation de la douleur",
@@ -209853,7 +209853,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant une latéroflexion de la colonne lombaire :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "L'iliopsoas, à point fixe lombaire, participe au mouvement comme muscle principal",
@@ -209872,7 +209872,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiologie articulaire dorsale lors de la flexion :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Il y a une ouverture des espaces intercostaux postérieurs",
@@ -209891,7 +209891,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant la phase inspiratoire, identifiez le bon choix :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Le diamètre vertical du thorax augmente",
@@ -209910,7 +209910,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du mouvement de rotation axiale entre C1 et C2 :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "L'axe du mouvement passe par l'apophyse odontoïde de l'axis",
@@ -209929,7 +209929,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le mouvement d'extension du rachis cervical inférieur est limité par :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Le ligament longitudinal antérieur",
@@ -209948,7 +209948,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'axe transverse moyen du sacrum, il est vrai que :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Autour de lui se produisent les mouvements de nutation et de contre-nutation",
@@ -209967,7 +209967,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les effets physiologiques de la kinésithérapie, on peut dire que :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "L'articulation est soumise à des forces de tension, de compression et de friction",
@@ -209986,7 +209986,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la mobilisation articulaire manuelle analytique simple, indiquez la bonne réponse :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Elle reproduit les glissements et roulements dans les plans physiologiques",
@@ -210024,7 +210024,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours d'une latéroflexion de la colonne lombaire :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le carré des lombes, point fixe sur la crête iliaque, est un des responsables du mouvement",
@@ -210043,7 +210043,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiologie articulaire de la rotation au niveau dorsal :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La concavité costale s'accentue du côté homolatéral à la rotation",
@@ -210062,7 +210062,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant la phase d'inspiration, identifiez le bon choix :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Les côtes supérieures se relèvent et avancent (bras de pompe)",
@@ -210081,7 +210081,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le mouvement de flexion du rachis cervical inférieur est limité par :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "La tension des ligaments jaunes",
@@ -210100,7 +210100,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'axe transverse inférieur du sacrum, il est vrai que :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Il porte les mouvements de rotation iliaque antérieure et postérieure",
@@ -210119,7 +210119,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel des effets physiologiques de la kinésithérapie se produit au niveau du système nerveux ?",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Maintien de la mémoire kinesthésique et du schéma corporel",
@@ -210138,7 +210138,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle thérapie est indiquée chez un patient devant maintenir l'amplitude articulaire au coude ?",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "La mobilisation passive analytique simple",
@@ -210157,7 +210157,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les tractions articulaires, indiquez la bonne réponse :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Elle exerce une force perpendiculaire à la surface articulaire",
@@ -210176,7 +210176,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'objectif principal de la kinésithérapie passive analytique spécifique est :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Élargir l'amplitude articulaire",
@@ -210195,7 +210195,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la mobilisation passive articulaire globale :",
-   "c": 13,
+   "c": 9,
    "options": [
     {
      "t": "Elle travaille une chaîne cinétique de mouvement articulaire",
@@ -210214,7 +210214,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un patient présentant un bilan musculaire de grade 4, il est vrai que :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "Le mouvement est complet contre une résistance modérée",
@@ -210233,7 +210233,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un bilan musculaire de grade 2 indique que le muscle évalué :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "Réalise le mouvement dans toute l'amplitude si la pesanteur est éliminée",
@@ -210252,7 +210252,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour un patient présentant une goniométrie de 90°/0°/10° (plan sagittal) et un bilan musculaire de grade 4 :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "Le secteur articulaire utile est de 100° en flexion-extension",
@@ -210309,7 +210309,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les muscles agonistes de l'inclinaison latérale du rachis dans son ensemble sont :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Les muscles obliques de l'abdomen homolatéraux",
@@ -210328,7 +210328,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les muscles rotateurs du rachis lombaire sont :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le psoas controlatéral",
@@ -210347,7 +210347,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez lequel des éléments suivants limite le mouvement de flexion lombaire :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le ligament ilio-lombaire supérieur",
@@ -210366,7 +210366,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces options concernant le rachis lombaire, laquelle est correcte ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La rotation lombaire entraîne un cisaillement du disque",
@@ -210385,7 +210385,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces options concernant le rachis dorsal, laquelle est correcte ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Le mouvement d'extension est associé à l'inspiration",
@@ -210404,7 +210404,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le mouvement d'expiration forcée, laquelle est correcte ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Le diaphragme se relâche et les abdominaux se contractent",
@@ -210423,7 +210423,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au niveau costal inférieur, lorsque le mouvement d'inspiration se produit :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Les côtes diminuent leur obliquité en se relevant",
@@ -210442,7 +210442,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de flexion-extension attribuée au rachis cervical inférieur ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Environ 100° à 110°",
@@ -210461,7 +210461,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est l'amplitude de rotation du rachis cervical supérieur ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Environ 24° de rotation",
@@ -210480,7 +210480,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure, propre à la colonne cervicale, contribue à la stabilité latérale ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'articulation unco-vertébrale (Luschka)",
@@ -210499,7 +210499,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la région cervicale, à quel niveau le disque intervertébral est-il le plus épais ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Vers l'avant, ce qui crée la lordose cervicale",
@@ -210518,7 +210518,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mouvement de l'articulation atlanto-occipitale (C0-C1) est limité par un contact osseux ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "L'extension, par contact occiput – arc postérieur C1 – arc postérieur C2",
@@ -210537,7 +210537,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui limite la flexion de l'articulation atlanto-occipitale (C0-C1) ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "La tension capsulaire et des ligaments postérieurs",
@@ -210556,7 +210556,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi n'y a-t-il pas de bâillement articulaire dans l'articulation atlanto-odontoïde ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Grâce à la présence du ligament transverse",
@@ -210575,7 +210575,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quels niveaux observe-t-on un mouvement d'inclinaison dans le rachis cervical supérieur ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Entre Occiput-C1 et C2-C3",
@@ -210594,7 +210594,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une rotation à gauche de C0-C1, dans quel sens s'incline automatiquement l'occiput ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Vers la droite (controlatérale)",
@@ -210613,7 +210613,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle, en contraction unilatérale, produit une inclinaison et une rotation controlatérale du cou ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Le muscle scalène",
@@ -210632,7 +210632,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels plans des muscles postérieurs réalisent une extension avec inclinaison et rotation homolatérales ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Les plans profond/intermédiaire",
@@ -210651,7 +210651,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces muscles appartient au groupe des sous-occipitaux ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'oblique inférieur de la tête",
@@ -210670,7 +210670,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quels niveaux le foramen transverse livre-t-il passage à l'artère vertébrale ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "De C1 à C6",
@@ -210689,7 +210689,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le système rachidien, quel segment est considéré comme le plus rigide et le plus stable ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Le rachis dorsal",
@@ -210708,7 +210708,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur une vertèbre dorsale typique (T2-T10), où se situent les facettes costales destinées aux tubercules des côtes ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Sur les apophyses transverses",
@@ -210727,7 +210727,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur une vertèbre dorsale typique, comment sont orientées les facettes articulaires supérieures ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Vers l'arrière (postérieure)",
@@ -210746,7 +210746,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la particularité costale des vertèbres atypiques T11 et T12 ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Elles présentent une facette costale complète",
@@ -210765,7 +210765,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de rotation axiale du rachis dorsal de chaque côté ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Environ 30°",
@@ -210784,7 +210784,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles structures constituent les limites du mouvement de rotation du rachis dorsal ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Le sternum et les ligaments costo-vertébraux",
@@ -210803,7 +210803,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se comporte le disque intervertébral dorsal lors de la rotation d'une vertèbre sur l'autre ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Il subit une rotation-torsion",
@@ -210822,7 +210822,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours qualifie-t-il les articulations costo-vertébrale et costo-transversaire entre elles ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Deux arthrodies mécaniquement liées",
@@ -210841,7 +210841,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel type de mouvement réalisent les articulations costo-vertébrale et costo-transversaire lors de la ventilation ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une rotation autour d'un axe central",
@@ -210860,7 +210860,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quel plan se rapproche l'axe XX' du mouvement costal des côtes inférieures ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Du plan sagittal",
@@ -210879,7 +210879,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'expiration passive, quel muscle abaisse les côtes avec les intercostaux internes ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Le transverse thoracique",
@@ -210898,7 +210898,7 @@ const QUESTIONS = {
   },
   {
    "q": "En contraction bilatérale, quel effet le groupe transverso-épineux exerce-t-il sur la cyphose thoracique ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Il réduit la cyphose thoracique",
@@ -210917,7 +210917,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le revêtement de l'extrémité antérieure d'une côte ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Du cartilage hyalin",
@@ -210936,7 +210936,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le disque intervertébral lombaire, quelle proposition est exacte ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Il représente environ 25 % de la longueur du rachis et est plus épais en lombaire",
@@ -210955,7 +210955,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la composition du noyau pulpeux du disque intervertébral lombaire ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Un gel de mucoprotéines riche en protéoglycanes et fibres de collagène",
@@ -210974,7 +210974,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la teneur en eau du noyau pulpeux lombaire au cours de la vie, on retient :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Elle diminue d'environ 88 % à 70 %",
@@ -210993,7 +210993,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les facettes des articulations postérieures lombaires sont :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Recouvertes de cartilage hyalin et maintenues par une capsule fine et lâche",
@@ -211012,7 +211012,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le segment vertébral lombaire considéré comme un levier du premier genre, quel élément agit comme un ressort amortisseur ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le disque intervertébral",
@@ -211031,7 +211031,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la flexion lombaire, quel est le comportement du noyau pulpeux et de l'anneau fibreux ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le noyau recule et la tension augmente dans la partie postérieure de l'anneau",
@@ -211050,7 +211050,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de flexion de la colonne lombaire selon le cours ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "40° à 60°",
@@ -211069,7 +211069,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel étage se situe l'amplitude maximale de flexion-extension du rachis lombaire ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "L4-L5",
@@ -211088,7 +211088,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la latéroflexion lombaire, comment se comporte le disque intervertébral ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le noyau se déplace vers la convexité et l'anneau se tend du côté convexe",
@@ -211107,7 +211107,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'inclinaison latérale lombaire s'accompagne d'une rotation automatique :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Controlatérale, l'épineuse tournant vers la concavité",
@@ -211126,7 +211126,7 @@ const QUESTIONS = {
   },
   {
    "q": "À la charnière lombo-sacrée, qu'est-ce qui limite l'inclinaison latérale lombaire ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Les ligaments ilio-lombaires du côté de la convexité",
@@ -211145,7 +211145,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le rythme lombo-pelvique, la flexion totale du tronc se répartit en :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "40° de lombaire et 70° de hanche",
@@ -211164,7 +211164,7 @@ const QUESTIONS = {
   },
   {
    "q": "Combien d'articulations composent le bassin ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "4 articulations",
@@ -211183,7 +211183,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type appartient l'articulation sacro-iliaque ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Condylienne",
@@ -211202,7 +211202,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la nutation, comment se comportent les tubercules ischiatiques ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Ils se séparent",
@@ -211221,7 +211221,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la contre-nutation, dans quel sens se déplace le promontoire du sacrum ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Vers le haut et l'arrière",
@@ -211240,7 +211240,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mouvement sacro-iliaque s'accompagne d'une ouverture iliaque ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "La contre-nutation",
@@ -211259,7 +211259,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ligament limite principalement la contre-nutation ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le ligament sacro-iliaque postérieur",
@@ -211278,7 +211278,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ligament participe à limiter la nutation aux côtés du sacro-épineux ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le ligament sacro-tubéreux",
@@ -211297,7 +211297,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la fonction principale du disque fibrocartilagineux de la symphyse pubienne ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Compression et absorption des chocs",
@@ -211316,7 +211316,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la rotation postérieure de l'iliaque, comment se déplace la branche pubienne ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Elle monte",
@@ -211335,7 +211335,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par où le poids corporel est-il transmis du rachis vers le bassin ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "De L5-S1 vers les ailes sacrées",
@@ -211354,7 +211354,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'extension des membres inférieurs, comment s'incline le bassin ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "En antéversion",
@@ -211373,7 +211373,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle combinaison de mouvements provoque une fermeture du détroit supérieur du bassin ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Nutation, rotation interne et adduction",
@@ -211392,7 +211392,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le segment lombaire du rachis comporte :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Cinq vertèbres, avec une charnière dorso-lombaire et une charnière lombo-sacrée",
@@ -211411,7 +211411,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le corps d'une vertèbre lombaire est constitué :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "D'os compact dense, entouré d'une fine couche d'os spongieux",
@@ -211430,7 +211430,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au niveau lombaire, le ligament longitudinal postérieur :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Chemine sur la face postérieure des corps vertébraux et des disques, en avant du canal rachidien",
@@ -211449,7 +211449,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le segment vertébral lombaire assimilé à un levier, le disque intervertébral joue le rôle :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "D'un frein qui s'oppose à l'écartement des arcs postérieurs",
@@ -211468,7 +211468,7 @@ const QUESTIONS = {
   },
   {
    "q": "La hernie discale lombaire correspond :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "À l'épaississement de l'anneau fibreux qui refoule le noyau vers l'avant",
@@ -211487,7 +211487,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'exercice dynamique de kinésithérapie active destiné au renforcement musculaire, quelle proposition est exacte ?",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Lorsque la vitesse du mouvement est variable, le travail est dit isocinétique",
@@ -211506,7 +211506,7 @@ const QUESTIONS = {
   },
   {
    "q": "La chaîne cinétique facilitatrice est celle qui :",
-   "c": 14,
+   "c": 9,
    "options": [
     {
      "t": "Recherche la contraction de tous les muscles antagonistes du mouvement",
@@ -211525,7 +211525,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'examen des mouvements physiologiques actifs, la surpression est ajoutée :",
-   "c": 12,
+   "c": 9,
    "options": [
     {
      "t": "Lorsque le mouvement actif du patient reproduit d'emblée une douleur vive",
@@ -211544,7 +211544,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dire que les rayons X sont un rayonnement ionisant signifie qu'ils :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "Peuvent transporter leur énergie en ligne droite sans aucun support matériel",
@@ -211563,7 +211563,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le tube à rayons X :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "Les électrons partent de l'anode et sont accélérés vers la cathode, où ils sont freinés",
@@ -211582,7 +211582,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du freinage brusque des électrons sur l'anode, l'énergie cinétique est transformée :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "À 99 % en rayons X et à 1 % seulement en chaleur",
@@ -211601,7 +211601,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs qui augmentent le rayonnement diffusé, on retient :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "Un champ d'irradiation étroit, une faible épaisseur traversée et un kilovoltage élevé",
@@ -211620,7 +211620,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la radioprotection en radiodiagnostic, quelle proposition est exacte ?",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "L'irradiation externe ne concerne que les travailleurs, le patient étant protégé par le châssis",
@@ -211639,7 +211639,7 @@ const QUESTIONS = {
   },
   {
    "q": "La tomographie par émission de positrons (TEP) :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "Mesure la fixation osseuse d'un isotope administré par voie veineuse, le plus souvent le technétium 99",
@@ -211658,7 +211658,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'absorptiométrie biphotonique à rayons X (DXA), le score Z correspond :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "À la valeur nette de densité minérale mesurée au rachis lombaire et au fémur proximal",
@@ -211677,7 +211677,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la pathologie du système nerveux périphérique, l'échographie :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "Est surtout utilisée pour le nerf médian, pour mesurer la vitesse de conduction et la latence",
@@ -211696,7 +211696,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les tests quantitatifs sensitifs (QST) :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "Déterminent le seuil d'activation pour la vibration, le chaud, le froid et la pression douloureuse",
@@ -211715,7 +211715,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les indications des potentiels évoqués, on retient :",
-   "c": 17,
+   "c": 8,
    "options": [
     {
      "t": "La mise en évidence de fasciculations et de signes de dénervation musculaire",
@@ -211734,7 +211734,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le rayonnement émergent d'une radiographie correspond :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "À la part du faisceau arrêtée par les structures les plus radio-opaques",
@@ -211753,7 +211753,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour décrire le déplacement d'une fracture ou d'une luxation sur une radiographie, la convention est :",
-   "c": 15,
+   "c": 6,
    "options": [
     {
      "t": "De rapporter le déplacement à l'axe du faisceau incident, le membre étant tenu pour fixe",
@@ -255467,7 +255467,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours du test de Mitchell, j'observe que la facette articulaire gauche de C-6 est postériorisée et reste ainsi en extension, et que la postériorité disparaît en flexion. Quel sera le résultat du test ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "FRS gauche",
@@ -255486,7 +255486,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le syndrome cervico-brachial :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le patient signale une douleur dysesthésique dans le membre supérieur.",
@@ -255505,7 +255505,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans lequel de ces tests n'est-il PAS nécessaire de surveiller le pouls du patient?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Test d'Eden.",
@@ -255524,7 +255524,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lequel de ces muscles traitons-nous directement dans la technique d'inhibition de la musculature sous-occipitale ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Oblique majeur de la tête.",
@@ -255543,7 +255543,7 @@ const QUESTIONS = {
   },
   {
    "q": "Des dysfonctionnements de la FSR se produisent dans l'une de ces articulations de la colonne cervicale supérieure :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "CO-C1.",
@@ -255581,7 +255581,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle artère est évaluée avec le test de De Kleyn ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Sous-clavière.",
@@ -255600,7 +255600,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dysfonctionnements de la colonne cervicale supérieure, veuillez indiquer la réponse correcte :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Dans les dysfonctionnements FRS ou ERS de l'occipital, un condyle se déplace vers l'avant et l'autre vers l'arrière.",
@@ -255619,7 +255619,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test de mobilité en translation pour CO-C1, si lors de la flexion et de la translation de gauche à droite, nous constatons une mobilité restreinte avec le reste des paramètres normaux, nous sommes en présence d'un :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "ESRd.",
@@ -255657,7 +255657,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test de mobilité en translation pour la région cervicale inférieure, si lors de la flexion et de la translation de gauche à droite, nous constatons une mobilité restreinte avec le reste des paramètres normaux, nous sommes en présence d'un dysfonctionnement au niveau :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "ERSd.",
@@ -255714,7 +255714,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le nerf du sinus vertébral de Luschka innerve notamment :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "La portion antérieure de l'anneau fibreux et le ligament longitudinal antérieur.",
@@ -255828,7 +255828,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient de 65 ans présente des fourmillements dans les doigts (pouce, index). Il ressent une perte de force dans les doigts : il ne peut ni porter ni poids ni fermer les doigts. Cochez la réponse correcte :",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Compression du nerf médian : syndrome du canal carpien.",
@@ -255847,7 +255847,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les autres tableaux cliniques et le mode d'apparition de la douleur selon l'anamnèse, indiquez la réponse CORRECTE :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "La hernie discale et le canal lombaire étroit présentent un début aigu et bien délimité.",
@@ -255904,7 +255904,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le tableau clinique de la hernie discale, indiquez la réponse CORRECTE :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "La radiographie révèle une augmentation de la hauteur du disque.",
@@ -255961,7 +255961,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant l'utilisation des techniques neurodynamiques dans le syndrome du défilé thoraco-brachial (SDTB) :",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Elles sont indiquées pour tous les types de SDTB, y compris les formes vasculaires.",
@@ -255980,7 +255980,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient consulte pour une douleur cervicale irradiant vers la région occipitale et l'épaule, une limitation de la mobilité articulaire, sans anomalies neurologiques et avec des antécédents de traumatisme. Quelle structure pourrait être impliquée ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Disque intervertébral C5-C6",
@@ -256018,7 +256018,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une lésion du sacrum en TDA, on trouve à l'examen :",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "Base droite du sacrum en antérieur.",
@@ -256037,7 +256037,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indique la réponse correcte concernant le sacrum :",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "En contre-nutation, les AIL se déplacent vers l'arrière.",
@@ -256056,7 +256056,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant un sacrum en TII, indique la réponse correcte :",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "Au test des 4 points, dans la phase neutre de test respiratoire, lors de l'inspiration, la base droite ne se postériorisera pas.",
@@ -256075,7 +256075,7 @@ const QUESTIONS = {
   },
   {
    "q": "À l'examen d'une TDD, indique ce que l'on ne trouve PAS :",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "Base gauche en antérieur.",
@@ -256094,7 +256094,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les axes du sacrum, indique la réponse correcte :",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "L'axe transverse inférieur est l'axe de la torsion pelvienne.",
@@ -256113,7 +256113,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indique la réponse correcte concernant l'exploration d'une TII :",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "Au test du ballottement sacré, lorsqu'on exerce une poussée postéro-antérieure sur l'AIL droit selon l'axe oblique, on percevra une restriction de mobilité de l'AIL qui n'accepte pas la poussée.",
@@ -256132,7 +256132,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cas d'une base sacrée droite antérieure, d'un AIL gauche postérieur et d'une jambe droite longue, on parle de",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "TDD.",
@@ -256151,7 +256151,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cas d'un TDI du sacrum, lors de la mise en œuvre de la technique de correction par la respiration :",
-   "c": 8,
+   "c": 7,
    "options": [
     {
      "t": "Nous poussons sur la base sacrée droite pendant l'expiration.",
@@ -256170,7 +256170,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle chaîne musculaire, en cas de tension excessive, le sacrum se trouve-t-il en contranutation ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "PA.",
@@ -256189,7 +256189,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'examen d'un patient présentant une tension excessive de la chaîne PM, on constate :",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Pied creux à voûte effondrée et avant-pied élargi.",
@@ -256208,7 +256208,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le muscle représentatif de la chaîne PA ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Le longus colli.",
@@ -256227,7 +256227,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que signifie le concept d'« empreinte utile » ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Toute marque visible sur le corps.",
@@ -256246,7 +256246,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pivot de la chaîne AM :",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Genoux",
@@ -256265,7 +256265,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que désigne le domaine d'une chaîne ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "L'endroit où elle laisse son empreinte utile.",
@@ -256284,7 +256284,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui active la chaîne PA lors de l'inspiration ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Les muscles abdominaux.",
@@ -256303,7 +256303,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la pratique clinique RPG, chez un patient de type antérieur avec hypercyphose dorsale et douleurs antérieures de hanche, la famille de postures la plus cohérente pour commencer le traitement est :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "Un programme d'exercices analytiques destiné à renforcer les fléchisseurs de hanche.",
@@ -256322,7 +256322,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du test de raccourcissement de la chaîne postérieure en bipédestation, vous répétez la flexion globale du tronc cette fois-ci avec les genoux fléchis. Le patient ne parvient pas à maintenir un angle tibiotarsien de 90° et doit ouvrir l'angle de cheville pour ne pas tomber en arrière. Cette situation suggère un raccourcissement prioritaire des :",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Ischio-jambiers.",
@@ -256341,7 +256341,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous travaillez en posture debout contre le mur avec un patient présentant un blocage inspiratoire costal haut et une respiration thoracique haute dominante; la stratégie respiratoire la plus indiquée est de :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "Utiliser la respiration paradoxale en « soupirant en gonflant le ventre » afin de rectifier la rigidité costale haute.",
@@ -256360,7 +256360,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant l'exécution d'une posture de SGA, vous observez une augmentation progressive de la tension dans la zone lombaire centrale alors que le patient poursuit la progression vers les extrémités ; la correction prioritaire consiste à :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "Interrompre la séance et passer immédiatement à des étirements passifs segmentaires.",
@@ -256379,7 +256379,7 @@ const QUESTIONS = {
   },
   {
    "q": "En s'appuyant sur l'équation de fluence (fluage), pour limiter le risque de blessure lors de l'allongement d'une chaîne très raide, la meilleure adaptation pratique est de :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "Considérer que l'allongement est indépendant du temps si la force est constante.",
@@ -256398,7 +256398,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient arrive en phase aiguë, très douloureux, avec difficulté à se tenir debout : selon les recommandations RPG, la manière la plus adaptée de commencer le traitement est de :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "Travailler sans gravité, en décubitus, en choisissant des postures en ouverture ou fermeture de hanche adaptées à sa morphologie.",
@@ -256417,7 +256417,7 @@ const QUESTIONS = {
   },
   {
    "q": "En posture de « danseuse » (fermeture de hanche en charge), vous observez une rotation interne des genoux et une cambrure lombaire excessive : la conduite recommandée est de :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "Passer directement à une posture d'ouverture de hanche sans corriger les compensations.",
@@ -256436,7 +256436,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous souhaitez cibler la chaîne postérieure chez un patient présentant douleurs lombaires et tension des ischio-jambiers : parmi les propositions suivantes, la combinaison posture-famille la plus pertinente est :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "Debout contre le mur (ouverture de hanche, bras adductés) pour travailler la chaîne inspiratoire et la chaîne maîtresse antérieure.",
@@ -256455,7 +256455,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les principes énoncés par Souchard, le principe de « globalité » s'oppose principalement à :",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "L'idée que les muscles statiques sont organisés en chaînes fonctionnelles interconnectées.",
@@ -256474,7 +256474,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les hégémonies sont définies comme des fonctions vitales sans lesquelles la vie est en danger, que le corps cherchera à préserver à tout prix. Chez un patient dont l'activité professionnelle exige de manipuler finement des objets (par exemple, un chirurgien ou un musicien), quelle hégémonie est prioritairement en jeu pour assurer cette fonctionnalité supérieure des membres supérieurs ?",
-   "c": 14,
+   "c": 6,
    "options": [
     {
      "t": "La respiration.",
@@ -256493,7 +256493,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'évaluation de l'instabilité du rachis cervical supérieur, quelle structure le test de cisaillement antérieur (anterior shear test) vise-t-il spécifiquement à évaluer ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le ligament transverse de l'atlas",
@@ -256512,7 +256512,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les tests de sécurité du rachis cervical, lequel est décrit comme un test de provocation de faible fiabilité reposant sur une rotation soutenue en fin d'amplitude (« end range ») ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le test de l'artère vertébrale en rotation-extension maintenue",
@@ -256531,7 +256531,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le résumé de l'évaluation neurologique cervicale, à quel niveau radiculaire correspond l'abduction de l'épaule (deltoïde) associée au réflexe bicipital ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "C5",
@@ -256550,7 +256550,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'évaluation neurologique cervicale, quel mouvement et quel réflexe sont associés au niveau radiculaire C6 ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Flexion du coude et extension du poignet (radiaux), réflexe du long supinateur",
@@ -256569,7 +256569,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, quel niveau radiculaire est responsable de l'abduction et de l'adduction des doigts (lombricaux) lors de l'évaluation neurologique ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "D1 (T1)",
@@ -256588,7 +256588,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel test orthopédique cervical est spécifiquement décrit pour détecter le syndrome radiculaire, en associant inclinaison latérale vers le côté douloureux, rotation homolatérale et compression caudale d'environ 7 kg ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Le test de Spurling",
@@ -256607,7 +256607,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le test de distraction cervicale, quelle interprétation correspond à un test positif selon le cours ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une diminution des symptômes, évoquant une protrusion discale ou une atteinte du foramen intervertébral",
@@ -256626,7 +256626,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test de De Klein, quelle manœuvre est réalisée et quels signes témoignent d'une positivité ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Extension passive + rotation maximale maintenue, avec apparition de vertiges, diplopie, dysarthrie, dysphagie ou nystagmus",
@@ -256645,7 +256645,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, lors d'une extension avec rotation de la tête vers la droite lors du test de De Klein, quel vaisseau voit son flux sanguin bloqué ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "L'artère vertébrale gauche (controlatérale à la rotation)",
@@ -256664,7 +256664,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les neuropathies du membre supérieur, de quel plexus proviennent les nerfs radial, médian et cubital ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Du plexus brachial (C5-T1)",
@@ -256683,7 +256683,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'organisation du plexus brachial, de quelles divisions est formé le faisceau (cordon) postérieur, origine du nerf radial ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "De la jonction de TOUTES les divisions postérieures",
@@ -256702,7 +256702,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le syndrome de l'arcade de Frohse correspond à la compression de quel nerf et à quel niveau, selon le cours ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Compression du nerf interosseux postérieur au niveau du muscle supinateur",
@@ -256721,7 +256721,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel syndrome canalaire correspond, d'après le cours, à la compression de la branche superficielle sensitive du nerf radial, souvent d'origine iatrogène (bracelets, montres, plâtres mal ajustés) ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Le syndrome de Wartenberg",
@@ -256740,7 +256740,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle neuropathie périphérique par compression est la plus fréquente du corps humain ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Le syndrome du canal carpien (nerf médian)",
@@ -256759,7 +256759,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le syndrome du canal carpien, quel territoire de paresthésies est décrit par le cours ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Pouce, index, majeur et moitié radiale de l'annulaire",
@@ -256778,7 +256778,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le syndrome du canal de Guyon correspond à la compression de quel nerf, et avec quel signe clinique évolué selon le cours ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Compression du nerf cubital, avec possible « main en griffe » aux 4e et 5e doigts",
@@ -256797,7 +256797,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans quel espace anatomique le test de Wright (test du petit pectoral) évalue-t-il une compression neurovasculaire ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "L'espace sous-coracoïdien, sous le petit pectoral",
@@ -256816,7 +256816,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel test du syndrome du défilé thoracique consiste à maintenir les deux bras à 90° d'abduction et rotation externe, coudes fléchis, en ouvrant et fermant les mains pendant 3 minutes ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le test de Roos (test de stress en élévation)",
@@ -256835,7 +256835,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test d'Adson, sur quel espace porte l'évaluation de la compression neurovasculaire ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le triangle interscalénique, entre les muscles scalènes antérieur et moyen",
@@ -256854,7 +256854,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome du défilé thoracique d'origine neurogène affecte principalement quelles branches du plexus brachial ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Les branches C8 et T1",
@@ -256873,7 +256873,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, comment distingue-t-on une atteinte de type dermatome (racine cervicale) d'une atteinte de nerf périphérique selon les tests clés ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Le dermatome est aggravé par Spurling et soulagé par la distraction cervicale, tandis que le nerf périphérique se manifeste par un Tinel local positif",
@@ -256892,7 +256892,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui caractérise une technique neurodynamique de glissement (slider) par rapport à une technique de tension ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Le glissement équilibre la tension par un mouvement compensatoire (2 paramètres de charge) et convient à un système nerveux très irritable",
@@ -256968,7 +256968,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit une dysfonction en flexion du rachis cervical supérieur au niveau C0-C1 ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "FSR (Flexion, Sidebending/inclinaison et Rotation)",
@@ -257063,7 +257063,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le trajet de l'artère vertébrale, à quel niveau pénètre-t-elle le foramen transverse pour amorcer son trajet ascendant ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Au niveau de C6",
@@ -257082,7 +257082,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, dans quelle position l'artère vertébrale peut-elle physiologiquement réduire fortement sa lumière sans répercussion ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Rotation controlatérale associée à une extension cervicale",
@@ -257101,7 +257101,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment est interprété un test de l'artère vertébrale (test de De Kleyn) positif avant une manipulation avec impulsion ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Comme une contre-indication absolue à la manipulation avec impulsion",
@@ -257120,7 +257120,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test de De Klein tel que décrit, quelle artère est explorée lorsque l'examinateur réalise une extension avec rotation vers la droite ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "L'artère vertébrale gauche (controlatérale à la rotation)",
@@ -257139,7 +257139,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les symptômes recherchés, lequel constitue un signe positif lors du test de De Klein ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Vertiges, diplopie et nystagmus",
@@ -257158,7 +257158,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, que permet de détecter le test de Spurling ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Un syndrome radiculaire par compression d'une racine nerveuse",
@@ -257177,7 +257177,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se réalise la manœuvre du test de Spurling d'après le cours ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Inclinaison latérale vers le côté douloureux plus rotation homolatérale, puis compression caudale d'environ 7 kg pendant 10 secondes",
@@ -257196,7 +257196,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test de distraction, comment s'interprète une diminution des symptômes lors de la traction ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Elle indique une protrusion discale ou une atteinte du foramen intervertébral",
@@ -257215,7 +257215,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'examen neurologique cervical, quel myotome est testé par l'abduction de l'épaule (deltoïde) avec recherche du réflexe bicipital ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "C5",
@@ -257234,7 +257234,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'évaluation neurologique du cours, quel niveau racinaire correspond à l'extension du coude (triceps) avec le réflexe tricipital ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "C7",
@@ -257253,7 +257253,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, quel mouvement est testé pour évaluer le myotome D1 (T1) ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Abduction et adduction des doigts (muscles interosseux/lombricaux)",
@@ -257272,7 +257272,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les tests de sécurité cervicaux, lequel évalue spécifiquement le ligament transverse de l'atlas selon le cours ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le test de cisaillement antérieur (anterior shear test)",
@@ -257291,7 +257291,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la GDS, comment se traduit un excès de tension de la chaîne PM (propulsion) sur la posture ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Une propulsion du tronc vers l'avant, avec recurvatum des genoux, extension sacro-lombaire et redressement de toute la colonne vertébrale",
@@ -257310,7 +257310,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le concept GDS de l'équilibre de l'homme debout, comment sont définies les « masses » par rapport aux « intermasses » ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Les masses sont des zones stables (centres de gravité) correspondant à des zones de cyphose",
@@ -257329,7 +257329,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la GDS, à quelle chaîne musculaire correspond le pivot primaire situé au niveau du cou ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La chaîne PA",
@@ -257348,7 +257348,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après la GDS, quel rôle de défense est attribué à la chaîne PA lorsque la colonne vertébrale subit une agression ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Elle s'active et provoque une rectification-inversion des courbes physiologiques",
@@ -257367,7 +257367,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la GDS, quel mouvement la chaîne AL favorise-t-elle au niveau de la racine des membres ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "L'adduction, la flexion et la rotation interne",
@@ -257386,7 +257386,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la typologie GDS, à quoi correspond une attitude « PA-AP » en excès ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Une compétition permanente entre les deux chaînes, traduisant l'impulsivité",
@@ -257405,7 +257405,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la GDS, comment se définit le « domaine » d'une chaîne musculaire ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "L'endroit du corps où le muscle représentant de la chaîne marque son empreinte utile",
@@ -257424,7 +257424,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la classification GDS des traces morphologiques, comment sont qualifiées les empreintes « acceptables » ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Des empreintes en excès mais encore dans leur domaine, non dérangeantes et encore flexibles",
@@ -257443,7 +257443,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le bilan morphologique en RPG-SGA, que traduit une déviation du regard du patient vers le haut ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Une responsabilité postérieure",
@@ -257462,7 +257462,7 @@ const QUESTIONS = {
   },
   {
    "q": "En RPG-SGA, quelle est la mesure de référence d'une courbe lombaire correcte au sommet de la courbe ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "2 à 3 coups de doigts",
@@ -257481,7 +257481,7 @@ const QUESTIONS = {
   },
   {
    "q": "En RPG-SGA, quelle responsabilité est attribuée à une antéversion du bassin ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Responsabilité antérieure (quadriceps droit antérieur, iliaque, psoas, ADD) et postérieure (spinale)",
@@ -257500,7 +257500,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le bilan morphologique RPG-SGA du genou, quelle responsabilité est attribuée à un valgus du genou ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Responsabilité antérieure (psoas et adducteurs), avec rotation interne du tibia et abduction du fémur",
@@ -257519,7 +257519,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le test de raccourcissement de la chaîne postérieure en bipédestation (flexion globale du tronc), que traduit l'absence d'antéversion normale du bassin lorsque les genoux sont tendus ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Un raccourcissement des ischio-jambiers",
@@ -257538,7 +257538,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'examen morphologique RPG-SGA, à quelle responsabilité musculaire correspond un genu valgum, et quelle orientation segmentaire l'accompagne ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Une responsabilité antérieure (psoas et adducteurs), avec rotation interne du tibia et abduction du fémur",
@@ -257557,7 +257557,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les critères de sécurité cervicaux, quel test de stabilité évalue spécifiquement le ligament transverse de l'atlas ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le test de cisaillement antérieur (anterior shear test)",
@@ -257576,7 +257576,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les critères de sécurité cervicaux, à quoi correspond le test de Kleyn (De Klein) ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Au test de l'artère vertébrale",
@@ -257595,7 +257595,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, quels symptômes positifs peuvent apparaître lors du test de De Klein (extension + rotation maximale) ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Vertiges, diplopie, dysarthrie, dysphagie, nystagmus, nausées",
@@ -257614,7 +257614,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur le syndrome du défilé thoracique, quel test évalue l'espace sous-coracoïdien situé sous le petit pectoral ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le test de Wright",
@@ -257633,7 +257633,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les neuropathies du membre supérieur, le syndrome du tunnel carpien résulte de la compression de quel nerf ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Le nerf médian, dans le canal carpien",
@@ -257652,7 +257652,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome de Wartenberg correspond à la compression de quelle structure nerveuse ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "La branche superficielle sensitive du nerf radial",
@@ -257671,7 +257671,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle technique neurodynamique utilise un seul paramètre de charge en appliquant une traction aux deux extrémités du nerf pour un allongement maximal ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "La technique de tension",
@@ -257804,7 +257804,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quel niveau l'artère vertébrale pénètre-t-elle le foramen transverse cervical au cours de son trajet ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Au niveau de C6, puis elle remonte jusqu'à C1",
@@ -257823,7 +257823,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, de quel pourcentage l'artère vertébrale peut-elle réduire sa lumière sans répercussion, et lors de quel mouvement ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "90 %, lors d'une rotation controlatérale et d'une extension cervicale",
@@ -257842,7 +257842,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le ganglion cervical inférieur forme le ganglion stellaire avec le premier ganglion thoracique et est situé où ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Devant le col de la première côte",
@@ -257861,7 +257861,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le nerf sinu-vertébral de Luschka au niveau cervical innerve la partie postérieure de la dure-mère de la fosse crânienne à quels niveaux (en lien avec la migraine) ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "C1-C2-C3",
@@ -257880,7 +257880,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la douleur du syndrome cervico-céphalique est rapportée à l'innervation de quel noyau et de quelles racines ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le noyau du trijumeau cervical (trijumeau – C1, C2 et C3)",
@@ -257918,7 +257918,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quelle action sur la racine des membres caractérise la chaîne AL ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "L'adduction, la flexion et la rotation interne, pouvant écraser le corps sur son axe",
@@ -257937,7 +257937,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quel est le pivot primaire de la chaîne PA ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Le cou",
@@ -257956,7 +257956,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, la chaîne PA est activée à quel temps respiratoire et dans quel but ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "À l'inspiration, pour redresser la colonne et donner un point fixe supérieur aux muscles inspiratoires",
@@ -257975,7 +257975,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, à quelle chaîne correspond une typologie en excès propulsant le tronc vers l'avant, avec recurvatum des genoux, extension sacro-lombaire et regard dirigé vers le haut ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La chaîne PM (propulsion)",
@@ -257994,7 +257994,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, à quoi correspond la « résidence » d'une chaîne musculaire ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La région du corps où, sur le plan psycho-comportemental, la chaîne s'exprime préférentiellement",
@@ -258013,7 +258013,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, dans la typologie PA-AP en compétition, quelle description de la statique rachidienne est correcte ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Cervicales et dorsales supérieures en rectification, dorso-lombaire en hyperlordose, genoux en hyperextension",
@@ -258032,7 +258032,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, parmi les 3 masses de l'équilibre de l'homme debout, à quoi correspondent anatomiquement les « masses » ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Des zones stables et de cyphose, aussi appelées centres de gravité",
@@ -258051,7 +258051,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, dans la correspondance avec la médecine traditionnelle chinoise, à quel élément et tissu est associée la chaîne PM ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "L'eau et l'os",
@@ -258070,7 +258070,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours de critères de sécurité cervicaux, quel test d'instabilité cervicale évalue spécifiquement le ligament transverse ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le test de cisaillement antérieur (anterior shear test)",
@@ -258089,7 +258089,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours de critères de sécurité, qu'implique un test de l'artère vertébrale (test de De Klein) positif avant une manipulation cervicale avec impulsion ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Une contre-indication absolue à la manipulation avec impulsion (thrust)",
@@ -258108,7 +258108,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans l'exemple du test de De Klein, une extension avec rotation vers la droite bloque le flux de quelle artère vertébrale ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "L'artère vertébrale gauche (controlatérale à la rotation)",
@@ -258127,7 +258127,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment interpréter un test de distraction cervicale lorsque la traction soulage les symptômes du patient ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Il oriente vers une protrusion discale ou une atteinte du foramen intervertébral",
@@ -258203,7 +258203,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle capacité de réduction de lumière l'artère vertébrale peut-elle subir sans répercussion, et lors de quel mouvement cela survient-il ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Une réduction de 90 % de sa lumière, lors d'une rotation controlatérale associée à une extension cervicale",
@@ -258222,7 +258222,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quel niveau l'artère vertébrale commence-t-elle sa relation avec le rachis cervical et par quel foramen pénètre-t-elle ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Au niveau C6-C7, en pénétrant le foramen transverse de C6 jusqu'à C1",
@@ -258241,7 +258241,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le test de cisaillement antérieur (anterior shear test) cité parmi les tests de sécurité cervicaux.",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Il évalue l'intégrité du ligament transverse",
@@ -258260,7 +258260,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles position et action caractérisent le test de De Klein (De Kleyn) ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Décubitus dorsal, tête hors de la table, avec extension passive et rotation maximale, puis répétition du côté opposé",
@@ -258279,7 +258279,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle racine est explorée par l'élévation des épaules via le trapèze supérieur lors de l'évaluation neurologique cervicale ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "C4",
@@ -258298,7 +258298,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quelle racine est associé le réflexe du long supinateur ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "C6",
@@ -258317,7 +258317,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le test de Jackson applique sur la tête une charge axiale dirigée vers la colonne, tête en inclinaison latérale maximale : de quel type de charge s'agit-il ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une pression (compression) axiale",
@@ -258336,7 +258336,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lors du test de distraction cervicale, que traduit une DIMINUTION des symptômes pendant la traction ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une protrusion discale ou une atteinte du foramen intervertébral",
@@ -258355,7 +258355,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel de ces signes est utilisé dans l'examen physique de la myélopathie cervicale ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le signe de Hoffman",
@@ -258374,7 +258374,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant l'organisation du faisceau postérieur du plexus brachial, selon le cours.",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Il naît de la jonction de toutes les divisions postérieures et donne le nerf radial",
@@ -258393,7 +258393,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome de l'arcade de Frohse correspond à la compression de quel nerf et à quel niveau ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Compression du nerf interosseux postérieur au niveau du muscle supinateur",
@@ -258412,7 +258412,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel test du syndrome du défilé thoracique est décrit comme le plus sensible mais pas le plus spécifique ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le test de Roos (test de stress en élévation)",
@@ -258431,7 +258431,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte : selon le cours, le syndrome du défilé thoracique neurogène affecte principalement quelles branches ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Les branches C8 et T1",
@@ -258450,7 +258450,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel espace anatomique le test de Wright (test du petit pectoral) explore-t-il dans le syndrome du défilé thoracique ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "L'espace sous-coracoïdien, sous le petit pectoral",
@@ -258469,7 +258469,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome du canal de Guyon correspond à la compression de quel nerf et quel signe clinique peut s'y observer ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Compression du nerf cubital, avec possible main en griffe au niveau des 4e et 5e doigts",
@@ -258488,7 +258488,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la technique de glissement (slider) neurodynamique selon le cours.",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Elle mobilise au moins deux articulations avec deux paramètres de charge opposés, l'un augmentant la tension nerveuse tandis que l'autre la diminue",
@@ -258507,7 +258507,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quel est le pivot primaire de la chaîne PM (Propulsion) ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La cheville",
@@ -258526,7 +258526,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quelle chaîne est qualifiée de chaîne de la souplesse, du rythme et de l'adaptabilité, et entre en \"excès\" par un MANQUE d'activité ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La chaîne AP",
@@ -258545,7 +258545,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS et la correspondance avec la médecine traditionnelle chinoise, à quel élément et tissu la chaîne PM est-elle associée ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "L'eau et l'os, en lien avec la peur et l'hiver",
@@ -258564,7 +258564,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, comment sont définies les masses dans l'équilibre de l'homme debout ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Des zones stables, aussi appelées centres de gravité, qui sont des zones de cyphose",
@@ -258583,7 +258583,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours RPG-SGA, lors de l'examen morphologique du cou, quelle est la courbe correcte par rapport à l'axe du rachis ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Environ 2,5 doigts",
@@ -258602,7 +258602,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours RPG-SGA, une antéversion du bassin relève de quelles responsabilités musculaires ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Antérieure (quadriceps droit antérieur, iliaque, psoas, adducteurs) et postérieure (spinale)",
@@ -258678,7 +258678,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels sont les types de dysfonctions retenus pour l'articulation C0-C1 ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "ESR, FSR, extension bilatérale et flexion bilatérale",
@@ -258735,7 +258735,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'artère vertébrale entre en relation avec le rachis cervical à quel niveau et pénètre dans quel foramen transverse ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Au niveau C6-C7, en pénétrant le foramen transverse de C6 jusqu'à C1",
@@ -258754,7 +258754,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans des conditions normales, de quel pourcentage l'artère vertébrale peut-elle réduire sa lumière sans répercussion, et lors de quel mouvement cela se produit-il ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "De 90 %, lors d'une rotation controlatérale associée à une extension cervicale",
@@ -258792,7 +258792,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lors d'un test de De Klein réalisé avec extension et rotation vers la DROITE, quelle artère est bloquée et que cherche-t-on à évaluer ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "On bloque l'artère vertébrale gauche pour évaluer si la droite seule maintient l'apport sanguin",
@@ -258811,7 +258811,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les critères de sécurité cervicaux, lequel des tests d'instabilité cervicale cible spécifiquement le ligament transverse ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le test de cisaillement antérieur (anterior shear test)",
@@ -258830,7 +258830,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome cervico-céphalique tire sa douleur de l'innervation de quelle structure ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le noyau du trijumeau, en relation avec C1, C2 et C3",
@@ -258849,7 +258849,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans l'organisation du plexus brachial, le faisceau (fascicule) postérieur résulte de quelle jonction ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "De la jonction de TOUTES les divisions postérieures des trois troncs",
@@ -258868,7 +258868,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome de Wartenberg se caractérise par la compression de quelle structure et quel type d'atteinte ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Branche superficielle sensitive du nerf radial, atteinte essentiellement sensitive",
@@ -258887,7 +258887,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome du canal carpien correspond à la compression de quel nerf et dans quel territoire siègent typiquement les paresthésies ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Le nerf médian, avec paresthésies du pouce, de l'index, du majeur et de la moitié radiale de l'annulaire",
@@ -258906,7 +258906,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome du défilé thoracique neurogène atteint principalement les branches C8-T1 ; dans quel territoire siègent en conséquence les paresthésies ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "La face médiale de l'avant-bras et de la main (territoire cubital)",
@@ -258925,7 +258925,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel des tests du défilé thoracique est décrit comme le plus sensible mais pas le plus spécifique ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le test de Roos (test de stress en élévation)",
@@ -258944,7 +258944,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en quoi diffèrent les techniques neurodynamiques de glissement (slider) et de tension quant aux paramètres de charge ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Le glissement équilibre la tension avec 2 paramètres de charge ; la tension allonge le nerf avec 1 seul paramètre de charge",
@@ -258963,7 +258963,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quelle chaîne joue le rôle de « sentinelle de l'axe vertébral » et s'active à l'inspiration pour redresser la colonne ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La chaîne PA (postéro-antérieure)",
@@ -258982,7 +258982,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quel est le pivot primaire de la chaîne AM et celui de la chaîne PM ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "AM : genou ; PM : cheville",
@@ -259001,7 +259001,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, dans le système des « 3 masses et 3 intermasses », à quoi correspondent respectivement les masses et les intermasses ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Les masses sont des zones de cyphose (centres de gravité stables) ; les intermasses des zones de lordose (adaptabilité-amortissement)",
@@ -259020,7 +259020,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours RPG-SGA, lors de l'examen morphologique de la courbe cervicale, quelle est la courbe correcte de référence par rapport à l'axe vertébral ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Environ 2,5 doigts",
@@ -259039,7 +259039,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours RPG-SGA, une antéversion du bassin engage quelle responsabilité musculaire ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Antérieure (droit antérieur, iliaque, psoas, adducteurs) et postérieure (spinale)",
@@ -259058,7 +259058,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours RPG-SGA, lors du test de raccourcissement de la chaîne postérieure en position assise, l'incapacité à maintenir un bassin et un rachis lombaire neutres lors du rapprochement des genoux avec flexion des hanches signe le raccourcissement de quel groupe ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Des muscles pelvitrochantériens",
@@ -259134,7 +259134,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans des conditions normales, de combien l'artère vertébrale peut-elle réduire sa lumière sans répercussion, et lors de quel mouvement ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "De 90 %, lors d'une rotation controlatérale associée à une extension cervicale",
@@ -259172,7 +259172,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel test de sécurité cervicale explore spécifiquement l'intégrité du ligament transverse ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le test de cisaillement antérieur (anterior shear test)",
@@ -259191,7 +259191,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans le test de De Klein, en réalisant une extension avec rotation vers la droite, quelle artère est mise à l'épreuve quant à sa capacité à maintenir seule l'apport sanguin ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "L'artère vertébrale droite (homolatérale à la rotation)",
@@ -259210,7 +259210,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'apparition de quels signes lors du test de De Klein traduit une atteinte vertébro-basilaire et constitue une contre-indication à la manipulation avec impulsion ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Vertiges, diplopie, dysarthrie, dysphagie, nausées et nystagmus",
@@ -259229,7 +259229,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le test de Jackson explore l'atteinte intervertébrale cervicale, les lésions ligamentaires et l'irritation de la capsule articulaire. Comment est-il réalisé sur le plan biomécanique ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Tête placée en inclinaison latérale maximale, puis pression axiale dirigée vers la colonne",
@@ -259248,7 +259248,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le test de distraction cervicale est dit positif lorsque les symptômes diminuent. Comment ce résultat s'interprète-t-il ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Il oriente vers une protrusion discale ou une atteinte du foramen intervertébral",
@@ -259267,7 +259267,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome du défilé thoracique correspond à une compression neurovasculaire dans des espaces anatomiques étroits. Quel test explore spécifiquement l'espace sous-coracoïdien sous le petit pectoral ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le test de Wright",
@@ -259286,7 +259286,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, devant des fourmillements distaux, quel élément oriente vers une atteinte radiculaire (dermatome) plutôt que vers une atteinte de nerf périphérique ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Une aggravation au test de Spurling et un soulagement par la distraction cervicale",
@@ -259305,7 +259305,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, le pivot primaire est l'articulation à partir de laquelle s'active toute la chaîne musculaire. Quel pivot primaire correspond à la chaîne PM ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La cheville",
@@ -259324,7 +259324,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur l'organisation du plexus brachial, le faisceau (fascicule) postérieur résulte de quelle réunion ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "De la jonction de TOUTES les divisions postérieures des troncs",
@@ -259343,7 +259343,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le syndrome de défilé thoracique (TOS) neurogène affecte principalement quelles branches du plexus brachial ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Les branches C8 et T1",
@@ -259362,7 +259362,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les tests du défilé thoracique, lequel est décrit comme le plus sensible mais pas le plus spécifique ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Le test de Roos (test de stress en élévation)",
@@ -259381,7 +259381,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le canal de Guyon livre passage à quel nerf, et son atteinte provoque une faiblesse pouvant aboutir à quelle déformation ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "Le nerf cubital, avec une « main en griffe » des 4e et 5e doigts",
@@ -259400,7 +259400,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui caractérise une technique de glissement (slider) neurale par opposition à une technique de tension ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Elle mobilise plusieurs articulations en équilibrant la tension (2 paramètres de charge), un mouvement l'augmentant tandis qu'un autre la diminue",
@@ -259419,7 +259419,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quel est le pivot primaire associé à la chaîne PA et lequel est-il pour la chaîne PM ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "PA : le cou ; PM : la cheville",
@@ -259438,7 +259438,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, quelle vertèbre la chaîne AM doit-elle maintenir au sommet de la cyphose dorsale, et par quel muscle représentatif (empreinte) ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "D8, par le grand droit de l'abdomen",
@@ -259457,7 +259457,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS, dans la typologie PA-AP (les deux chaînes en compétition), quelle configuration rachidienne est décrite ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Cervicale et dorsale supérieure en rectification, dorso-lombaire en hyperlordose, genoux en hyperextension",
@@ -259476,7 +259476,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode GDS sur l'équilibre de l'homme debout, comment sont définies les « masses » par rapport aux « intermasses » ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Les masses sont des zones stables (centres de gravité) en cyphose ; les intermasses sont des zones d'adaptabilité en lordose",
@@ -259495,7 +259495,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours de RPG-SGA, lors de l'examen morphologique du cou, quelle est la courbe correcte par rapport à l'axe du rachis ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Environ 2,5 doigts",
@@ -259514,7 +259514,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours de RPG-SGA, à l'examen morphologique, une rectification de la courbe lombaire implique quel coupable ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Le bassin, en raison du « mariage » entre les 3 derniers lombaires et le bassin",
@@ -259533,7 +259533,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours de RPG-SGA, une antéversion du bassin implique quelles responsabilités musculaires ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Antérieure (droit antérieur, iliaque, psoas et adducteurs) et postérieure (spinale)",
@@ -259552,7 +259552,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours de RPG-SGA, dans le test de raccourcissement de la chaîne postérieure en bipédestation, quelle structure est en cause si, genoux droits, le bassin ne réalise pas le mouvement normal d'antéversion lors de la flexion globale ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Les ischio-jambiers",
@@ -259571,7 +259571,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode G.D.S., quel énoncé décrit correctement le rôle de la chaîne AL sur la racine des membres et ses conséquences en excès de tension ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Elle favorise l'adduction, la flexion et la rotation interne, et son excès peut entraîner une congestion viscérale par pression abdominale des petits obliques",
@@ -259590,7 +259590,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode G.D.S., quelle chaîne est activée comme mécanisme de défense lors d'une agression de l'axe vertébral, provoquant une rectification-inversion des courbes physiologiques ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La chaîne PA, sentinelle de l'axe vertébral",
@@ -259609,7 +259609,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le pivot primaire de la chaîne PM selon la méthode G.D.S.",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La cheville",
@@ -259628,7 +259628,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours G.D.S., lequel de ces couples chaîne / réaction de défense est correct ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "AM : choc émotionnel, perte ou absence d'un être cher",
@@ -259647,7 +259647,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la méthode G.D.S., quelle chaîne joue le rôle primordial dans le maintien de la verticalité et ralentit la chute vers l'avant ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "PM (propulsion)",
@@ -259666,7 +259666,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours G.D.S., quelle est la conséquence d'un EXCÈS de tension de la chaîne AM ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Un déséquilibre vers l'arrière avec flexion du genou et une cyphose englobant toute la colonne",
@@ -259685,7 +259685,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la correspondance G.D.S. avec la médecine traditionnelle, à quel élément et à quel tissu est associée la chaîne PM ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "L'eau, l'os, la peur, l'hiver",
@@ -259704,7 +259704,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours G.D.S., comment se définit la typologie issue d'un équilibre entre les chaînes PA et AP fonctionnant en alternance physiologique ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "PAAP",
@@ -259723,7 +259723,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours G.D.S., à quel moment du cycle respiratoire la chaîne PA est-elle activée ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "À l'inspiration, pour redresser la colonne et donner un point fixe supérieur",
@@ -259742,7 +259742,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le concept G.D.S. de l'équilibre de l'homme debout, comment sont définies les « masses » ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Des zones stables, centres de gravité, correspondant à des zones de cyphose",
@@ -259761,7 +259761,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours G.D.S., à quelle masse correspond la cyphose sacrée dans le schéma des 3 masses et 3 intermasses ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La masse pelvienne",
@@ -259780,7 +259780,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans l'examen morphologique RPG-SGA, quelle est la valeur de référence d'une courbe cervicale correcte par rapport à l'axe ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "2,5 doigts",
@@ -259799,7 +259799,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'examen morphologique RPG-SGA, une rectification de la courbe lombaire fait porter la responsabilité sur quelle région ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Le bassin, en raison du « mariage » entre les 3 derniers lombaires et le bassin",
@@ -259818,7 +259818,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'examen morphologique RPG-SGA, à quoi attribue-t-on la responsabilité d'une rétroversion du bassin ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Aux ischio-jambiers et aux muscles pelvitrochantériens (responsabilité postérieure)",
@@ -259837,7 +259837,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours RPG-SGA, à quoi attribue-t-on la responsabilité d'un genu valgum à l'examen morphologique ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Responsabilité antérieure (psoas et adducteurs), avec tibia en rotation interne et fémur en abduction",
@@ -259856,7 +259856,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le test RPG-SGA de raccourcissement de la chaîne postérieure en bipédestation, que traduit l'absence d'antéversion normale du bassin lors de la flexion globale, genoux droits ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Un raccourcissement des ischio-jambiers",
@@ -259875,7 +259875,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours RPG-SGA, en position assise, quel raccourcissement musculaire empêche de maintenir un bassin et un rachis lombaire neutres lorsque le patient rapproche les genoux et fléchit les hanches (imposant rétroversion et rectification) ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Un raccourcissement des muscles pelvitrochantériens",
@@ -259894,7 +259894,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les critères de sécurité cervicaux, quel test d'instabilité est associé à l'évaluation du ligament transverse ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le test de cisaillement antérieur (anterior shear test)",
@@ -259913,7 +259913,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le test de l'artère vertébrale visant à évaluer le risque vasculaire avant manipulation est aussi appelé :",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Test de Kleyn (De Klein)",
@@ -259932,7 +259932,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours sur les neuropathies du membre supérieur, quel est l'espace anatomique évalué par le test de Wright ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "L'espace sous-coracoïdien, sous le petit pectoral",
@@ -259951,7 +259951,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle affirmation est correcte concernant le test de Roos dans le syndrome du défilé thoracique ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Il évalue la perméabilité globale du défilé et est le plus sensible, mais pas le plus spécifique",
@@ -259970,7 +259970,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la principale atteinte radiculaire du syndrome du défilé thoracique neurogène ?",
-   "c": 10,
+   "c": 5,
    "options": [
     {
      "t": "Les branches C8 et T1",
@@ -259989,7 +259989,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel de ces énoncés concernant le syndrome du canal carpien est correct ?",
-   "c": 11,
+   "c": 5,
    "options": [
     {
      "t": "C'est la neuropathie périphérique par compression la plus fréquente du corps humain",
@@ -260008,7 +260008,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'organisation du plexus brachial décrite dans le cours, le faisceau (fascicule) postérieur est formé par :",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "La jonction de TOUTES les divisions postérieures",
@@ -260027,7 +260027,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, de quel faisceau du plexus brachial provient le nerf cubital et de quelles racines ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Faisceau médial, racines C8 – T1 (± C7)",
@@ -260046,7 +260046,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans le diagnostic différentiel dermatome (racine cervicale) versus nerf périphérique, lequel des éléments suivants oriente vers une atteinte RADICULAIRE (dermatome) ?",
-   "c": 9,
+   "c": 5,
    "options": [
     {
      "t": "Aggravation au test de Spurling et soulagement par la distraction cervicale",
@@ -260065,7 +260065,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans le test de De Klein, quelle position est utilisée pour évaluer le risque vasculaire vertébro-basilaire ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Extension passive associée à une rotation maximale, maintenue 60 à 90 secondes",
@@ -260084,7 +260084,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel de ces symptômes positifs est attendu lors d'un test de De Klein évoquant une atteinte vertébro-basilaire ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Vertiges, diplopie, dysarthrie, dysphagie et nystagmus",
@@ -260103,7 +260103,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'évaluation neurologique du cours, quel niveau radiculaire est exploré par l'abduction de l'épaule (deltoïde) avec réflexe bicipital ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "C5",
@@ -260122,7 +260122,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel mouvement est exploré au niveau radiculaire D1 (T1) lors de l'examen neurologique du membre supérieur ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "L'abduction et l'adduction des doigts (lombricaux)",
@@ -260143,7 +260143,7 @@ const QUESTIONS = {
  "procesos1": [
   {
    "q": "La compliance pulmonaire est principalement diminuée dans :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "a) Emphysème pulmonaire",
@@ -260181,7 +260181,7 @@ const QUESTIONS = {
   },
   {
    "q": "En respiration calme, la pression pleurale en expiration est approximativement :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "a) -2 cmH2O",
@@ -260200,7 +260200,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les sécrétions intrathoraciques proximales sont associées à :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "a) Trouble ventilatoire obstructif de type I",
@@ -260219,7 +260219,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un patient bronchorrhéique et coopérant, la technique nécessitant le plus grand contrôle ventilatoire est :",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "a) ELPR",
@@ -260238,7 +260238,7 @@ const QUESTIONS = {
   },
   {
    "q": "La présence d'un bruit respiratoire bronchique aux bases pulmonaires chez l'adulte indique :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "a) Un foyer de condensation parenchymateuse",
@@ -260257,7 +260257,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les crépitants de haute fréquence traduisent une atteinte de :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "a) Voies aériennes proximales",
@@ -260276,7 +260276,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'échelle de Borg modifiée est utilisée pour quantifier :",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "a) La dyspnée et l'effort perçus",
@@ -260295,7 +260295,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un trouble ventilatoire obstructif de type I, on privilégie :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "a) Les techniques expiratoires lentes",
@@ -260314,7 +260314,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'ELTGOL est indiquée pour :",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "a) Les sécrétions proximales du poumon supralatéral",
@@ -260333,7 +260333,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un adulte présentant une atélectasie du lobe moyen droit, la technique indiquée est :",
-   "c": 12,
+   "c": 6,
    "options": [
     {
      "t": "a) EDIC en décubitus latéral",
@@ -260352,7 +260352,7 @@ const QUESTIONS = {
   },
   {
    "q": "La toux est considérée comme inefficace lorsque le débit de pointe de toux est :",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "a) <460 L/min",
@@ -260371,7 +260371,7 @@ const QUESTIONS = {
   },
   {
    "q": "La pression expiratoire maximale évalue principalement :",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "a) Le diaphragme",
@@ -260390,7 +260390,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un patient atteint de BPCO stable, le traitement bénéficiant du plus haut niveau de preuve est (1 A) :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "a) Uniquement les techniques d'hygiène bronchique",
@@ -260409,7 +260409,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le lavage nasal est réalisé préférentiellement :",
-   "c": 11,
+   "c": 6,
    "options": [
     {
      "t": "a) En décubitus dorsal",
@@ -260428,7 +260428,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle des situations suivantes n'est PAS une contre-indication absolue en kinésithérapie respiratoire ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "a) Hémoptysie active",
@@ -260447,7 +260447,7 @@ const QUESTIONS = {
   },
   {
    "q": "La bronchiolite du nourrisson est :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "a) Une infection des voies aériennes supérieures, prédominant en saison estivale",
@@ -260466,7 +260466,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'entraînement des muscles respiratoires :",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "a) Augmente la force et l'endurance des muscles inspiratoires et réduit la dyspnée",
@@ -260485,7 +260485,7 @@ const QUESTIONS = {
   },
   {
    "q": "En décubitus dorsal, l'excursion diaphragmatique est plus importante vers :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "a) l'inspiration",
@@ -260504,7 +260504,7 @@ const QUESTIONS = {
   },
   {
    "q": "Homme de 68 ans atteint de BPCO GOLD III, stable, présentant une dyspnée mMRC 3 et des signes d'hyperinflation dynamique. Quel est l'objectif kinésithérapique prioritaire ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "a) Améliorer l'efficacité diaphragmatique par un contrôle ventilatoire à expiration prolongée",
@@ -260523,7 +260523,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient de 55 ans atteint de bronchectasies, avec expectoration abondante et bonne coopération. Quelle technique permet une hygiène bronchique plus autonome ?",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "a) ELPR",
@@ -260542,7 +260542,7 @@ const QUESTIONS = {
   },
   {
    "q": "Nourrisson de 6 mois atteint de bronchiolite aiguë à VRS, présentant une détresse respiratoire modérée. Quelle intervention est indiquée ?",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "a) Techniques expiratoires passives adaptées",
@@ -260561,7 +260561,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient hospitalisé pour pneumonie basale droite avec hypoventilation localisée. Quelle position favorise la ventilation de la zone atteinte ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "a) Décubitus latéral gauche",
@@ -260580,7 +260580,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'oxygénothérapie est indiquée lorsque :",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "a) La PaO2 est inférieure à 60 mmHg",
@@ -260599,7 +260599,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un profil obstructif sur la courbe débit-volume se caractérise par une forme :",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "a) Convexe",
@@ -260618,7 +260618,7 @@ const QUESTIONS = {
   },
   {
    "q": "Femme de 65 ans atteinte de bronchectasies bilatérales, présentant des crépitants de haute fréquence prédominant aux bases et une expectoration matinale abondante. Quelle stratégie est la plus efficace pour la clairance distale ?",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "a) Toux forcée répétée en position assise",
@@ -260637,7 +260637,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un trouble ventilatoire restrictif pur se caractérise par :",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "a) Une diminution proportionnelle des volumes pulmonaires",
@@ -260656,7 +260656,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les sibilances sont principalement dues à :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "a) La présence de sécrétions liquides",
@@ -260675,7 +260675,7 @@ const QUESTIONS = {
   },
   {
    "q": "La compliance pulmonaire correspond à :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "la capacité d'une structure à se laisser distendre",
@@ -260694,7 +260694,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le manque de compliance pulmonaire est caractéristique d'une pathologie de type :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "restrictive",
@@ -260789,7 +260789,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le diaphragme est responsable d'environ quelle proportion de l'inspiration ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "75 %",
@@ -260808,7 +260808,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'innervation motrice du diaphragme est assurée par le nerf phrénique issu des racines :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "C3 à C5",
@@ -260827,7 +260827,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant l'inspiration de repos, le diaphragme :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "se contracte et descend, augmentant le volume thoracique",
@@ -260846,7 +260846,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'expiration de repos est :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "un phénomène passif lié au relâchement de la musculature inspiratoire",
@@ -260865,7 +260865,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au repos, la pression intrapleurale (pression de la plèvre) est d'environ :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "-5 cm H2O",
@@ -260884,7 +260884,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au repos, la pression alvéolaire est :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "égale à la pression atmosphérique (0 cm H2O)",
@@ -260903,7 +260903,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le volume résiduel (VR) correspond à :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "l'air qui reste dans le poumon après une expiration complète, soit environ 1500 ml",
@@ -260922,7 +260922,7 @@ const QUESTIONS = {
   },
   {
    "q": "La capacité résiduelle fonctionnelle (CRF) se définit comme :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "VR + VRE",
@@ -260941,7 +260941,7 @@ const QUESTIONS = {
   },
   {
    "q": "La constante de temps d'une unité pulmonaire est définie comme le produit de :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "la compliance et la résistance",
@@ -260960,7 +260960,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le flux aérien laminaire se caractérise par le fait qu'il est :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "parallèle à la paroi de la voie aérienne et silencieux",
@@ -260979,7 +260979,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le point d'égale pression (EPP) se produit lorsque, durant une expiration forcée :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "la pression à l'intérieur de la voie aérienne devient égale à la pression pleurale qui l'entoure, ce qui comprime la voie aérienne",
@@ -260998,7 +260998,7 @@ const QUESTIONS = {
   },
   {
    "q": "En position debout, la ventilation alvéolaire est :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "plus importante à la base qu'à l'apex",
@@ -261017,7 +261017,7 @@ const QUESTIONS = {
   },
   {
    "q": "En position debout, la perfusion alvéolaire est :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "plus importante à la base qu'à l'apex",
@@ -261036,7 +261036,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'aérosolthérapie, un inhalateur de poudre sèche se caractérise par le fait qu'il :",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "nécessite un flux inspiratoire élevé du patient",
@@ -261055,7 +261055,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les bronchodilatateurs, le salbutamol (Ventolin) appartient à la classe des :",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "agonistes β2-adrénergiques de courte durée d'action (SABA)",
@@ -261074,7 +261074,7 @@ const QUESTIONS = {
   },
   {
    "q": "La BIPAP (bilevel positive airway pressure) se caractérise par le fait qu'elle :",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "génère deux niveaux de pression (IPAP inspiratoire et EPAP expiratoire)",
@@ -261093,7 +261093,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la compliance pulmonaire est diminuée dans :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Les pathologies de type restrictif",
@@ -261131,7 +261131,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au repos, la pression alvéolaire (intra-alvéolaire) est égale à :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "0 cm H2O",
@@ -261150,7 +261150,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la pression pleurale au repos est de :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "-5 cm H2O",
@@ -261169,7 +261169,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant l'inspiration, la pression alvéolaire par rapport à la pression atmosphérique est :",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Inferieure a la pression atmospherique",
@@ -261188,7 +261188,7 @@ const QUESTIONS = {
   },
   {
    "q": "La constante de temps qui caractérise la vitesse de remplissage des unités alvéolaires se calcule par :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Compliance x Resistance",
@@ -261207,7 +261207,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le point d'égale pression (EPP) survient lorsque, pendant une expiration active et forcée :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "La pression interne de la voie aerienne s'egale a la pression pleurale, entrainant compression et fermeture de la voie aerienne",
@@ -261226,7 +261226,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un trouble ventilatoire obstructif, le rapport spirométrique caractéristique est :",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "FEV1/FVC abaisse (< 70 %)",
@@ -261245,7 +261245,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un trouble ventilatoire restrictif, le profil spirométrique typique associe :",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "FVC abaissee avec rapport FEV1/FVC normal ou eleve",
@@ -261264,7 +261264,7 @@ const QUESTIONS = {
   },
   {
    "q": "La spirométrie mesure :",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "Uniquement les volumes pulmonaires dynamiques",
@@ -261283,7 +261283,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les recommandations avant une spirométrie, le cours indique de :",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "Suspendre les bronchodilatateurs mais ne pas suspendre les corticoïdes",
@@ -261302,7 +261302,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un test de réversibilité (test bronchodilatateur), la seconde spirométrie est réalisée :",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "Environ 20 minutes après l'administration du bronchodilatateur",
@@ -261321,7 +261321,7 @@ const QUESTIONS = {
   },
   {
    "q": "À l'auscultation, les craquements (bruits adventices non continus) :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "Apparaissent à l'inspiration et correspondent aux bruits de la mucosité",
@@ -261340,7 +261340,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, les sifflements à l'auscultation sont :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "Toujours expiratoires, sauf dans les tableaux de plus grande gravité où ils apparaissent aussi à l'inspiration",
@@ -261359,7 +261359,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les craquements de haute fréquence (crépitants) traduisent un encombrement :",
-   "c": 7,
+   "c": 4,
    "options": [
     {
      "t": "Distal, dans les voies aériennes de petit diamètre, au niveau alvéolaire",
@@ -261378,7 +261378,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les techniques expiratoires lentes (ELPr, ELTGOL, drainage autogène) ont pour principe de nettoyer :",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "La mucosité de la voie aérienne moyenne, par dégonflement pulmonaire",
@@ -261397,7 +261397,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'ELTGOL est une technique de drainage qui s'adresse spécifiquement :",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "Au poumon infra-latéral, patient placé en décubitus latéral",
@@ -261416,7 +261416,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le drainage autogène, technique d'auto-drainage par expiration lente, est indiqué pour :",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "Les patients chroniques et collaborateurs, avec un temps d'apprentissage et une bonne compréhension",
@@ -261435,7 +261435,7 @@ const QUESTIONS = {
   },
   {
    "q": "La technique EDIC (exercice à débit inspiratoire contrôlé) traite :",
-   "c": 12,
+   "c": 6,
    "options": [
     {
      "t": "Le poumon supra-latéral, par une inspiration lente et profonde jusqu'à la CPT, en décubitus latéral",
@@ -261454,7 +261454,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la toux normale nettoie jusqu'à :",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "La 5ème génération bronchique",
@@ -261473,7 +261473,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le recours à la toux assistée mécanique (in-exsufflateur) est indiqué lorsque le débit expiratoire de pointe est :",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "Inférieur à 160 L/min",
@@ -261492,7 +261492,7 @@ const QUESTIONS = {
   },
   {
    "q": "La technique de la ventilation dirigée vers le mode abdomino-diaphragmatique vise principalement :",
-   "c": 12,
+   "c": 6,
    "options": [
     {
      "t": "L'économie ventilatoire, avec basse fréquence et haut volume courant",
@@ -261511,7 +261511,7 @@ const QUESTIONS = {
   },
   {
    "q": "La technique des lèvres serrées (frein labial) constitue une pression positive expiratoire (PEP) physiologique qui entraîne :",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Une augmentation du volume courant et une diminution de la fréquence respiratoire",
@@ -261530,7 +261530,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les bronchodilatateurs, le salbutamol (Ventoline) appartient à la classe des :",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "Agonistes ß2 adrénergiques de courte durée d'action (SABA)",
@@ -261549,7 +261549,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le bromure d'ipratropium (Atrovent) exerce son effet bronchodilatateur par :",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "Une action anticholinergique sur le muscle lisse bronchique",
@@ -261568,7 +261568,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, les leucotriènes participent à la pathologie respiratoire car ils :",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "Sont de puissants bronchoconstricteurs, induisent la sécrétion de mucus et favorisent l'œdème",
@@ -261587,7 +261587,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'objectif de l'oxygénothérapie selon le cours est de maintenir :",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "Une PaO2 artérielle > 60 mmHg, soit une SatO2 de 90 %, pour éviter l'hypoxie tissulaire",
@@ -261606,7 +261606,7 @@ const QUESTIONS = {
   },
   {
    "q": "À propos de l'oxygénothérapie et de la ventilation mécanique, le cours précise que :",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "L'oxygénothérapie n'est pas une ventilation mécanique",
@@ -261625,7 +261625,7 @@ const QUESTIONS = {
   },
   {
    "q": "La CPAP (Continuous Positive Airway Pressure) se caractérise par :",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "Une pression positive continue dans la voie aérienne",
@@ -261644,7 +261644,7 @@ const QUESTIONS = {
   },
   {
    "q": "La BiPAP (système de bipression positive) délivre :",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "Deux niveaux de pression : une pression inspiratoire (IPAP) et une pression expiratoire (EPAP)",
@@ -261663,7 +261663,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel pourcentage de l'inspiration est assuré par le diaphragme ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "75 %",
@@ -261682,7 +261682,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'innervation du diaphragme indiquée dans le cours ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Nerf phrénique, racines C3-C5",
@@ -261834,7 +261834,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quoi correspond la compliance pulmonaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "La capacité d'une structure à se laisser distendre",
@@ -261853,7 +261853,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, une diminution (manque) de compliance oriente vers quel type de pathologie ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Une pathologie de type restrictif",
@@ -261872,7 +261872,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quelle phase du cycle respiratoire est associée l'élasticité (rétraction) pulmonaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "À la phase expiratoire",
@@ -261891,7 +261891,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quoi correspond la constante de temps d'une unité pulmonaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Au produit de la compliance par la résistance",
@@ -261910,7 +261910,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce que l'asynchronisme alvéolaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Le remplissage des différentes zones pulmonaires à des vitesses différentes",
@@ -261929,7 +261929,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la valeur de la pression alvéolaire au repos selon le cours.",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "0 cm H2O",
@@ -261948,7 +261948,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur de la pression pleurale à l'inspiration ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "-7,5 cm H2O",
@@ -261967,7 +261967,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur de la pression alvéolaire pendant l'expiration ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "+1 cm H2O",
@@ -261986,7 +261986,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quoi correspond la capacité résiduelle fonctionnelle (CRF) ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "VR + VRE (2000 ml)",
@@ -262005,7 +262005,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur de la capacité pulmonaire totale (CPT) ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "6000 ml",
@@ -262024,7 +262024,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur du volume de réserve inspiratoire (VRI) ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "2500 ml",
@@ -262043,7 +262043,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quoi correspond le point d'égale pression (EPP) lors d'une expiration forcée ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Au point où la pression interne de la voie aérienne égale la pression pleurale, entraînant compression et fermeture de la VA",
@@ -262062,7 +262062,7 @@ const QUESTIONS = {
   },
   {
    "q": "En position debout, dans quelle région le volume alvéolaire est-il maximal selon le cours ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "À l'apex",
@@ -262081,7 +262081,7 @@ const QUESTIONS = {
   },
   {
    "q": "En position debout, où la ventilation et la perfusion alvéolaires sont-elles maximales selon le cours ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "À la base",
@@ -262100,7 +262100,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la ventilation totale (VT) calculée à partir du volume courant et de la fréquence respiratoire ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "7500 mL/min (500 mL × 15)",
@@ -262119,7 +262119,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel de ces muscles est un muscle inspiratoire de repos ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Le scalène",
@@ -262176,7 +262176,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, par quel nerf est innervé le diaphragme et quelle est la part de l'inspiration dont il est responsable ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Le nerf phrénique (C3-C5), responsable d'environ 75 % de l'inspiration",
@@ -262195,7 +262195,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit la constante de temps qui caractérise la vitesse de remplissage d'une unité alvéolaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Le produit de la compliance par la résistance",
@@ -262214,7 +262214,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en position debout, l'excursion diaphragmatique présente une prédominance et un effet particuliers. Lesquels ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une excursion de prédominance expiratoire, qui facilite l'inspiration et augmente le volume pulmonaire",
@@ -262233,7 +262233,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle structure du tronc cérébral règle la fréquence et la profondeur respiratoires ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Le centre bulbaire",
@@ -262252,7 +262252,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se caractérise un flux aérien laminaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Parallèle à la paroi de la voie aérienne et silencieux",
@@ -262290,7 +262290,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, indiquez la valeur correcte de la pression pleurale (PPL) au repos.",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "-5 cm H2O",
@@ -262309,7 +262309,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la reponse correcte concernant la pression alveolaire (PAL) au cours du cycle ventilatoire selon le cours.",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Repos 0, inspiration -1, expiration +1 cm H2O",
@@ -262328,7 +262328,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle propriete physique du systeme respiratoire est definie comme la capacite d'une structure a se laisser distendre ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "La compliance",
@@ -262347,7 +262347,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'elasticite correspond a la capacite d'une structure a revenir a son etat initial. A quelle phase ventilatoire est-elle associee ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "La phase expiratoire",
@@ -262366,7 +262366,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, indiquez le type de pathologie associe a un manque de compliance.",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Pathologie de type restrictif",
@@ -262385,7 +262385,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se definit la constante de temps qui regit l'asynchronisme alveolaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Compliance x Resistance",
@@ -262404,7 +262404,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la reponse correcte concernant le Point d'Egale Pression (EPP) selon le cours.",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Point ou la pression intrabronchique s'egalise a la pression pleurale en expiration forcee, fermant la voie aerienne",
@@ -262461,7 +262461,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel pourcentage de l'inspiration le diaphragme assure-t-il ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "75 %",
@@ -262480,7 +262480,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est l'innervation du diaphragme ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Nerf phrenique, racines C3-C5",
@@ -262499,7 +262499,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi ces muscles, lequel n'est PAS un muscle de l'inspiration de repos ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "Les intercostaux externes",
@@ -262537,7 +262537,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur de la ventilation totale (VT) ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "7 500 mL/min",
@@ -262556,7 +262556,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se calcule la capacite residuelle fonctionnelle (CRF) et quelle est sa valeur ?",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "VR + VRE = 2000 ml",
@@ -262575,7 +262575,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, indiquez la valeur du volume de reserve inspiratoire (VRI).",
-   "c": 3,
+   "c": 2,
    "options": [
     {
      "t": "2500 ml",
@@ -262594,7 +262594,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en position debout, comment se repartit la perfusion alveolaire entre apex et base ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Moins de perfusion a l'apex, plus de perfusion a la base",
@@ -262613,7 +262613,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en position debout, comment se repartit le VOLUME alveolaire entre apex et base ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Plus de volume a l'apex, moins de volume a la base",
@@ -262632,7 +262632,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en decubitus lateral, quelle est la caracteristique du poumon infra-lateral ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Mieux ventile, mieux perfuse et soumis a une pression intrapulmonaire plus elevee",
@@ -262727,7 +262727,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel type de flux aerien est parallele a la paroi de la voie aerienne et silencieux ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Le flux laminaire",
@@ -262746,7 +262746,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur normale du rapport FEV1/FVC (indice de Tiffeneau) attestant l'absence de trouble obstructif ?",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "Supérieur à 70 %",
@@ -262765,7 +262765,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles valeurs spirométriques définissent un trouble purement restrictif ?",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "FVC < 80 % avec FEV1/FVC normal ou élevé",
@@ -262784,7 +262784,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur la courbe débit/volume de la spirométrie, où se situe le PEF (pic de flux expiratoire) ?",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "Dans la phase expiratoire, partie supérieure de la courbe",
@@ -262803,7 +262803,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la recommandation correcte concernant la préparation médicamenteuse avant une spirométrie.",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "Suspendre les bronchodilatateurs et les théophyllines, mais pas les corticoïdes",
@@ -262822,7 +262822,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les critères d'acceptabilité de la manœuvre spirométrique, quelle est la durée minimale d'expiration exigée chez un patient de plus de 10 ans ?",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "6 secondes",
@@ -262841,7 +262841,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un test de réversibilité aux bronchodilatateurs, quel délai d'attente le cours impose-t-il entre la première et la seconde spirométrie ?",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "20 minutes",
@@ -262860,7 +262860,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment se définit la compliance pulmonaire et à quel type de pathologie son altération est-elle associée ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Capacité d'une structure à se laisser distendre ; sa diminution oriente vers une pathologie restrictive",
@@ -262879,7 +262879,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la relation entre élasticité et compliance du système respiratoire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Elles sont inversement liées : si l'élasticité augmente, la compliance diminue",
@@ -262898,7 +262898,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'exprime la constante de temps qui gouverne l'asynchronisme alvéolaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Le produit de la compliance par la résistance",
@@ -262917,7 +262917,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quel moment se produit le point d'égale pression (EPP) lors de la respiration ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Lors d'une expiration active et forcée, quand la pression interne de la voie aérienne s'égalise à la pression pleurale",
@@ -262955,7 +262955,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la classification des techniques de Postiaux, à quelle famille appartiennent l'ELPR, l'ELTGOL et le drainage autogène ?",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "Techniques expiratoires lentes",
@@ -262974,7 +262974,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel est l'effet mécanique principal de la pression positive expiratoire (lèvres serrées / PEP) sur la voie aérienne pendant l'expiration ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Elle maintient les voies aériennes ouvertes en s'opposant à leur fermeture précoce",
@@ -262993,7 +262993,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'ELTGOL, sur quel poumon porte le drainage et quel est le positionnement du patient ?",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "Le poumon infra-latéral, patient en décubitus latéral",
@@ -263012,7 +263012,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, jusqu'à quelle génération bronchique la technique d'expiration forcée (TEF/AFE) permet-elle le nettoyage ?",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "Jusqu'à la 7e-8e génération bronchique",
@@ -263031,7 +263031,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à partir de quelle valeur de débit de pointe à la toux (FEM) la toux assistée mécanique devient-elle indiquée ?",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "FEM < 160 L/min",
@@ -263050,7 +263050,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le pompage trachéal expiratoire (PTE) est principalement indiqué dans une situation, mais contre-indiqué dans une autre. Indiquez la réponse correcte.",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "Indiqué chez les neuromusculaires de moins de 2 ans, contre-indiqué en cas de trachéomalacie",
@@ -263069,7 +263069,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, jusqu'à quel âge la désobstruction rinopharyngée rétrograde (DRR) est-elle indiquée ?",
-   "c": 11,
+   "c": 6,
    "options": [
     {
      "t": "Jusqu'à 24 mois (nourrissons)",
@@ -263088,7 +263088,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'EDIC (exercice à débit inspiratoire contrôlé) traite un poumon précis dans un positionnement défini. Indiquez la réponse correcte.",
-   "c": 12,
+   "c": 6,
    "options": [
     {
      "t": "Poumon supra-latéral, en décubitus latéral, inspiration lente jusqu'à la CPT",
@@ -263107,7 +263107,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la plage d'oscillation bronchique et la PEP générées par les dispositifs de pression positive expiratoire (Flutter, Acapella, Cornet) ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Oscillation 5-30 Hz et PEP 10-20 cmH2O",
@@ -263126,7 +263126,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'expiration à lèvres serrées entraîne une augmentation de la pression buccale de quel ordre ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Entre 6 et 10 mmHg",
@@ -263145,7 +263145,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les bronchodilatateurs cités dans le cours, lequel est un agoniste bêta-2 adrénergique de longue durée d'action (LABA) ?",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "Salmétérol",
@@ -263164,7 +263164,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la cible thérapeutique de l'oxygénothérapie pour éviter l'hypoxie tissulaire ?",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "PaO2 artérielle supérieure à 60 mmHg, correspondant à une SatO2 de 90 %",
@@ -263183,7 +263183,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la BIPAP, indiquez la réponse correcte sur les niveaux de pression générés.",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "Elle génère deux niveaux de pression positive : IPAP (inspiratoire) et EPAP (expiratoire)",
@@ -263202,7 +263202,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, jusqu'à quelle génération bronchique la TEF/AFE (technique expiratoire forcée, accélération du flux expiratoire) permet-elle de nettoyer la mucosité ?",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "Jusqu'à la 5ème génération bronchique",
@@ -263221,7 +263221,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la limite de nettoyage de la toux selon le cours.",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "La toux nettoie jusqu'à la 5ème génération bronchiale",
@@ -263240,7 +263240,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le drainage autogène est une technique expiratoire lente d'auto-drainage. Indiquez la réponse correcte concernant ses caractéristiques.",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "Il nécessite un patient collaborateur, un temps d'apprentissage et un mode inspiratoire diaphragmatique",
@@ -263259,7 +263259,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les seuils de débit de pointe de toux (FEM) déterminant le type de toux assistée selon le cours.",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "Toux assistée manuelle si FEM < 270 L/min ; mécanique si FEM < 160 L/min",
@@ -263278,7 +263278,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, le pompage trachéal expiratoire est indiqué chez les patients neuromusculaires d'un certain âge. Lequel est correct ?",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "Indiqué chez les neuromusculaires de moins de 2 ans (jusqu'à 5 ans)",
@@ -263297,7 +263297,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la contre-indication du pompage trachéal expiratoire ?",
-   "c": 10,
+   "c": 6,
    "options": [
     {
      "t": "La pathologie trachéale, par exemple la trachéomalacie",
@@ -263316,7 +263316,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la durée de l'apnée téléinspiratoire lors de l'EDIC selon le cours.",
-   "c": 12,
+   "c": 6,
    "options": [
     {
      "t": "Apnée téléinspiratoire de 3 à 5 secondes selon la tolérance",
@@ -263335,7 +263335,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lors de l'EDIC en décubitus latéral, quel poumon est traité ?",
-   "c": 12,
+   "c": 6,
    "options": [
     {
      "t": "Le poumon supra-latéral",
@@ -263354,7 +263354,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant l'ELTGOL selon le cours.",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "Elle draine le poumon infra-latéral, patient en décubitus latéral, de VC vers VR",
@@ -263373,7 +263373,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, parmi les techniques expiratoires lentes basées sur le dégonflement pulmonaire, laquelle est passive (mais réalisable de façon active) ?",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "L'ELPr (expiration lente prolongée)",
@@ -263392,7 +263392,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la classification des techniques de drainage selon G. Postiaux dans le cours.",
-   "c": 9,
+   "c": 6,
    "options": [
     {
      "t": "ELPr, ELTGOL et drainage autogène sont des techniques expiratoires lentes",
@@ -263411,7 +263411,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, la désobstruction rétrograde du rhinopharynx (DRR) est indiquée jusqu'à quel âge ?",
-   "c": 11,
+   "c": 6,
    "options": [
     {
      "t": "Jusqu'aux 24 mois (nourrissons)",
@@ -263430,7 +263430,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la technique de balayage selon le cours.",
-   "c": 11,
+   "c": 6,
    "options": [
     {
      "t": "Elle combine ELPr + Toux + GPR + ramassage de l'expectoration",
@@ -263449,7 +263449,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles sont les valeurs de référence des effets physiologiques des dispositifs de pression positive expiratoire (PEP) instrumentaux ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Oscillation bronchique 5-30 Hz et PEP 10-20 cmH2O",
@@ -263468,7 +263468,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant l'augmentation de la pression buccale obtenue par la technique des lèvres serrées (PEP manuelle) selon le cours.",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Augmentation de la pression buccale d'entre 6 et 10 mmHg",
@@ -263487,7 +263487,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel des dispositifs suivants n'est PAS cité comme un dispositif de pression positive expiratoire (PEP) ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "L'inspiromètre",
@@ -263506,7 +263506,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les fréquences d'oscillation des vibrations selon le cours.",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Vibration manuelle 4-20 Hz et vibration mécanique 1-100 Hz",
@@ -263525,7 +263525,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels sont les pourcentages de PIM utilisés pour l'entraînement en force maximale des muscles respiratoires ?",
-   "c": 13,
+   "c": 6,
    "options": [
     {
      "t": "Haute charge à 50-80 % de la PIM, peu de répétitions",
@@ -263544,7 +263544,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel système d'inhalation nécessite un flux inspiratoire élevé, ce qui limite son usage chez l'enfant ou en cas de forte obstruction ?",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "L'inhalateur en poudre sèche",
@@ -263563,7 +263563,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant l'interface recommandée pour la nébulisation chez l'enfant de moins de 6 ans selon le cours.",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "Le masque facial, recommandé pour les enfants de moins de 6 ans",
@@ -263582,7 +263582,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel des bronchodilatateurs suivants est un agoniste β2 adrénergique d'action courte (SABA) ?",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "Le salbutamol (Ventolin)",
@@ -263601,7 +263601,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant le médicament antagoniste des récepteurs des leucotriènes selon le cours.",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "Le montélukast (Singulair)",
@@ -263620,7 +263620,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel est l'objectif d'oxygénation visé par l'oxygénothérapie pour éviter l'hypoxie tissulaire ?",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "Une PaO2 artérielle > 60 mmHg, soit une SatO2 de 90 %",
@@ -263639,7 +263639,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant la BiPAP (bipression positive) selon le cours.",
-   "c": 15,
+   "c": 7,
    "options": [
     {
      "t": "Elle génère deux niveaux de pression : l'EPAP (expiratoire) et l'IPAP (inspiratoire)",
@@ -263658,7 +263658,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel des éléments suivants n'est PAS un mécanisme de dépôt (cinétique) des particules d'aérosol ?",
-   "c": 14,
+   "c": 7,
    "options": [
     {
      "t": "L'évaporation osmotique des gouttelettes",
@@ -263677,7 +263677,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte concernant les recommandations préalables à la spirométrie selon le cours.",
-   "c": 8,
+   "c": 5,
    "options": [
     {
      "t": "Suspendre les bronchodilatateurs et les théophyllines, mais ne pas suspendre les corticoïdes",
