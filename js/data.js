@@ -223058,44 +223058,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Sarah a 8 mois et naît à 32 SA. Son âge corrigé est :",
-   "c": 5,
-   "options": [
-    {
-     "t": "6 mois",
-     "correct": true,
-     "j": "Âge corrigé = âge chronologique - mois de prématurité. 32 SA = 8 mois de gestation soit 2 mois de prématurité. 8-2=6 mois."
-    },
-    {
-     "t": "8 mois",
-     "j": "L'âge chronologique brut ne corrige pas la prématurité, ce qui surestime le développement attendu."
-    },
-    {
-     "t": "4 mois",
-     "j": "Surcorrection ; la prématurité est de 2 mois et non de 4."
-    }
-   ]
-  },
-  {
-   "q": "Selon les définitions du cours, un nouveau-né est qualifié de grand prématuré lorsque :",
-   "c": 5,
-   "options": [
-    {
-     "t": "Il naît avant 32 SA et/ou pèse moins de 2500 g",
-     "correct": true,
-     "j": "Le grand prématuré est défini par une naissance avant 32 SA et/ou un poids inférieur à 2500 g."
-    },
-    {
-     "t": "Il naît avant 37 SA et/ou pèse moins de 1500 g",
-     "j": "Avant 37 SA correspond à la prématurité simple ; moins de 1500 g définit le très petit poids de naissance, pas le seuil du grand prématuré."
-    },
-    {
-     "t": "Il naît avant 28 SA et/ou pèse moins de 1000 g",
-     "j": "Avant 28 SA on parle d'extrême prématurité, et moins de 1000 g d'extrême petit poids : catégories plus sévères que le grand prématuré."
-    }
-   ]
-  },
+  {"q":"Sarah a 8 mois et naît à 32 SA. Son âge corrigé est :","c":3,"options":[{"t":"6 mois","correct":true,"j":"Âge corrigé = âge chronologique - mois de prématurité. 32 SA = 8 mois de gestation soit 2 mois de prématurité. 8-2=6 mois."},{"t":"8 mois","j":"L'âge chronologique brut ne corrige pas la prématurité, ce qui surestime le développement attendu."},{"t":"4 mois","j":"Surcorrection ; la prématurité est de 2 mois et non de 4."}]},
+  {"q":"Selon les définitions du cours, un nouveau-né est qualifié de grand prématuré lorsque :","c":3,"options":[{"t":"Il naît avant 32 SA et/ou pèse moins de 2500 g","correct":true,"j":"Le grand prématuré est défini par une naissance avant 32 SA et/ou un poids inférieur à 2500 g."},{"t":"Il naît avant 37 SA et/ou pèse moins de 1500 g","j":"Avant 37 SA correspond à la prématurité simple ; moins de 1500 g définit le très petit poids de naissance, pas le seuil du grand prématuré."},{"t":"Il naît avant 28 SA et/ou pèse moins de 1000 g","j":"Avant 28 SA on parle d'extrême prématurité, et moins de 1000 g d'extrême petit poids : catégories plus sévères que le grand prématuré."}]},
   {
    "q": "Au 3e mois, le bébé en décubitus ventral atteint un appui symétrique sur les coudes. Quelle structure osseuse sert d'appui ?",
    "c": 3,
@@ -223267,25 +223231,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Théo est né à 38 SA, suivi en kinésithérapie. Selon le cours, la prématurité simple est définie par :",
-   "c": 5,
-   "options": [
-    {
-     "t": "Naissance avant 37 semaines",
-     "correct": true,
-     "j": "La prématurité simple est définie par une naissance avant 37 SA (Théo, né à 38 SA, n'est donc pas prématuré)."
-    },
-    {
-     "t": "Naissance avant 32 semaines",
-     "j": "Avant 32 SA, on parle de grande prématurité, et non de prématurité simple."
-    },
-    {
-     "t": "Naissance avant 28 semaines",
-     "j": "Avant 28 SA, il s'agit de l'extrême prématurité, et non de prématurité simple."
-    }
-   ]
-  },
+  {"q":"Théo est né à 38 SA, suivi en kinésithérapie. Selon le cours, la prématurité simple est définie par :","c":3,"options":[{"t":"Naissance avant 37 semaines","correct":true,"j":"La prématurité simple est définie par une naissance avant 37 SA (Théo, né à 38 SA, n'est donc pas prématuré)."},{"t":"Naissance avant 32 semaines","j":"Avant 32 SA, on parle de grande prématurité, et non de prématurité simple."},{"t":"Naissance avant 28 semaines","j":"Avant 28 SA, il s'agit de l'extrême prématurité, et non de prématurité simple."}]},
   {
    "q": "Quelle est la principale cause des séquelles neurologiques chez l'enfant prématuré selon le cours ?",
    "c": 5,
@@ -224768,25 +224714,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lors de l'évaluation neurokinésiologique, on compare le développement quantitatif et qualitatif. Quelle définition est correcte ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Quantitatif = âge mental (ce qu'il fait) ; qualitatif = âge postural (comment il fait)",
-     "correct": true,
-     "j": "L'évaluation distingue le quantitatif (ce que l'enfant fait, âge mental) du qualitatif (comment il le fait, âge postural)."
-    },
-    {
-     "t": "Quantitatif = âge postural (comment il fait) ; qualitatif = âge mental (ce qu'il fait)",
-     "j": "Définitions inversées : le quantitatif renvoie à l'âge mental et le qualitatif à l'âge postural, non l'inverse."
-    },
-    {
-     "t": "Quantitatif = âge chronologique (date de naissance) ; qualitatif = âge corrigé (terme)",
-     "j": "Confusion avec le calcul de l'âge : ce ne sont pas les axes quantitatif/qualitatif du développement."
-    }
-   ]
-  },
+  {"q":"Lors de l'évaluation neurokinésiologique, on compare le développement quantitatif et qualitatif. Quelle définition est correcte ?","c":3,"options":[{"t":"Quantitatif = âge mental (ce qu'il fait) ; qualitatif = âge postural (comment il fait)","correct":true,"j":"L'évaluation distingue le quantitatif (ce que l'enfant fait, âge mental) du qualitatif (comment il le fait, âge postural)."},{"t":"Quantitatif = âge postural (comment il fait) ; qualitatif = âge mental (ce qu'il fait)","j":"Définitions inversées : le quantitatif renvoie à l'âge mental et le qualitatif à l'âge postural, non l'inverse."},{"t":"Quantitatif = âge chronologique (date de naissance) ; qualitatif = âge corrigé (terme)","j":"Confusion avec le calcul de l'âge : ce ne sont pas les axes quantitatif/qualitatif du développement."}]},
   {
    "q": "Selon Capute, l'intensité accrue et la persistance des réflexes primitifs sont des signes de :",
    "c": 4,
@@ -225471,25 +225399,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans le contrôle postural de l'enfant, indiquez la réponse VRAIE :",
-   "c": 2,
-   "options": [
-    {
-     "t": "Dans son développement, le tonus présente initialement une distribution avec un haut degré de tension dans les segments distaux.",
-     "j": "Faux. Chez le nouveau-né, le tonus se distribue avec une hypertonie physiologique en FLEXION à prédominance proximale/axiale, pas distale. Le développement (cranio-caudal, proximo-distal) vise ensuite la stabilité proximale et la mobilité distale sélective : la tension n'est donc pas initialement distale."
-    },
-    {
-     "t": "Les réactions automatiques posturales peuvent être divisées en réactions de soutien, de redressement et de Vojta.",
-     "j": "Faux. Les réactions posturales automatiques se répartissent classiquement en réactions de redressement, d'équilibre et de protection/soutien. « Vojta » n'est pas une catégorie mais l'auteur de la méthode et des 7 réactions posturales (traction, Landau, suspension axillaire, latérale de Vojta, Collis horizontale, Peiper-Isbert, Collis verticale). La 3e catégorie est l'équilibre, pas « Vojta »."
-    },
-    {
-     "t": "L'innervation réciproque est la capacité de redresser et de maintenir l'alignement de la tête et du cou.",
-     "correct": true,
-     "j": "Réponse retenue : c'est la seule proposition contenant un énoncé physiologiquement exact (redresser et maintenir l'alignement tête/cou = réaction de redressement). NB : la transcription accole à tort ce contenu au terme « innervation réciproque » ; l'innervation réciproque désigne en réalité la co-action graduée agonistes/antagonistes (deux actions musculaires différentes simultanées) permettant le mouvement sélectif. Dans l'annale d'origine, cette proposition (redressement) était classée VRAIE."
-    }
-   ]
-  },
+  {"q":"Dans le contrôle postural de l'enfant, indiquez la réponse VRAIE :","c":3,"options":[{"t":"Dans son développement, le tonus présente initialement une distribution avec un haut degré de tension dans les segments distaux.","j":"Faux. Chez le nouveau-né, le tonus se distribue avec une hypertonie physiologique en FLEXION à prédominance proximale/axiale, pas distale. Le développement (cranio-caudal, proximo-distal) vise ensuite la stabilité proximale et la mobilité distale sélective : la tension n'est donc pas initialement distale."},{"t":"Les réactions automatiques posturales peuvent être divisées en réactions de soutien, de redressement et de Vojta.","j":"Faux. Les réactions posturales automatiques se répartissent classiquement en réactions de redressement, d'équilibre et de protection/soutien. « Vojta » n'est pas une catégorie mais l'auteur de la méthode et des 7 réactions posturales (traction, Landau, suspension axillaire, latérale de Vojta, Collis horizontale, Peiper-Isbert, Collis verticale). La 3e catégorie est l'équilibre, pas « Vojta »."},{"t":"L'innervation réciproque est la capacité de redresser et de maintenir l'alignement de la tête et du cou.","correct":true,"j":"Réponse retenue : c'est la seule proposition contenant un énoncé physiologiquement exact (redresser et maintenir l'alignement tête/cou = réaction de redressement). NB : la transcription accole à tort ce contenu au terme « innervation réciproque » ; l'innervation réciproque désigne en réalité la co-action graduée agonistes/antagonistes (deux actions musculaires différentes simultanées) permettant le mouvement sélectif. Dans l'annale d'origine, cette proposition (redressement) était classée VRAIE."}]},
   {
    "q": "Indiquez lequel des signes suivants est un signe de menace de spasticité :",
    "c": 4,
@@ -225509,44 +225419,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans le développement du contrôle postural de l'enfant, indiquez la réponse INCORRECTE :",
-   "c": 2,
-   "options": [
-    {
-     "t": "La distribution du tonus musculaire s'adapte au cours de l'ontogenèse pour favoriser la stabilité proximale et la mobilité distale sélective.",
-     "j": "VRAI. Principe développemental classique : la maturation du tonus suit une organisation proximo-distale et céphalo-caudale, instaurant d'abord une stabilité proximale (axe, ceintures) qui sert de point d'appui à une mobilité distale de plus en plus sélective. Affirmation exacte, donc ce n'est pas la réponse incorrecte recherchée."
-    },
-    {
-     "t": "La capacité d'effectuer deux actions musculaires différentes en même temps pour assurer un mouvement sélectif est connue sous le nom de réaction d'équilibre automatique.",
-     "correct": true,
-     "j": "INCORRECTE (réponse). La capacité de réaliser simultanément deux actions musculaires opposées (contraction agoniste / relâchement antagoniste) pour produire un mouvement sélectif correspond à l'innervation/mouvement réciproque, et non à la réaction d'équilibre automatique. Les réactions d'équilibre sont des ajustements posturaux automatiques destinés à maintenir ou rétablir le centre de gravité : concept distinct. La définition est donc fausse — c'est la proposition à cocher."
-    },
-    {
-     "t": "La réaction de redressement corps à corps se produit grâce à la proprioception.",
-     "j": "VRAI. La réaction de redressement corps à corps (body-on-body righting) est déclenchée par les afférences proprioceptives issues des segments corporels, qui informent sur la position relative des parties du corps et entraînent un réalignement segmentaire. Affirmation exacte, donc ce n'est pas la réponse incorrecte recherchée."
-    }
-   ]
-  },
-  {
-   "q": "Un bébé prématuré né à la semaine 32 de grossesse, qui actuellement a 6 mois d'âge chronologique, qu'est-ce qu'on attendrait observer au niveau du développement moteur typique ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Une dissociation entre la tête et la ceinture scapulaire, avec préhension latérale des objets présentés sur le côté.",
-     "correct": true,
-     "j": "Né à 32 SA, le bébé a environ 2 mois de prématurité, soit un âge corrigé de 4 mois (6 − 2). À ~3-4,5 mois corrigés, on attend la dissociation tête / ceinture scapulaire (3e mois) puis la préhension prépositive avec saisie latérale d'objets sans franchir la ligne médiane (4,5 mois) : c'est exactement le stade attendu à l'âge corrigé."
-    },
-    {
-     "t": "Une motricité holocinétique globale, avec le centre de gravité situé entre le nez et la bouche.",
-     "j": "La motricité holocinétique (mouvements globaux) avec point d'appui au niveau nez-bouche correspond au nouveau-né / 1er mois (schéma en flexion, mains atteignant la ligne médiane et la bouche). Trop immature pour un âge corrigé de 4 mois : c'est le tableau d'un nourrisson bien plus jeune."
-    },
-    {
-     "t": "Un retournement du décubitus dorsal vers ventral, avec un début de coordination « œil-main-bouche-pied ».",
-     "j": "Le retournement DD→DV (6e mois) et la coordination œil-main-bouche-pied (7e mois) correspondent à un développement de 6-7 mois. Ce serait juste seulement en raisonnant sur l'âge chronologique (6 mois) sans corriger la prématurité : c'est le distracteur-piège qui sanctionne l'oubli de l'âge corrigé."
-    }
-   ]
-  },
+  {"q":"Dans le développement du contrôle postural de l'enfant, indiquez la réponse INCORRECTE :","c":3,"options":[{"t":"La distribution du tonus musculaire s'adapte au cours de l'ontogenèse pour favoriser la stabilité proximale et la mobilité distale sélective.","j":"VRAI. Principe développemental classique : la maturation du tonus suit une organisation proximo-distale et céphalo-caudale, instaurant d'abord une stabilité proximale (axe, ceintures) qui sert de point d'appui à une mobilité distale de plus en plus sélective. Affirmation exacte, donc ce n'est pas la réponse incorrecte recherchée."},{"t":"La capacité d'effectuer deux actions musculaires différentes en même temps pour assurer un mouvement sélectif est connue sous le nom de réaction d'équilibre automatique.","correct":true,"j":"INCORRECTE (réponse). La capacité de réaliser simultanément deux actions musculaires opposées (contraction agoniste / relâchement antagoniste) pour produire un mouvement sélectif correspond à l'innervation/mouvement réciproque, et non à la réaction d'équilibre automatique. Les réactions d'équilibre sont des ajustements posturaux automatiques destinés à maintenir ou rétablir le centre de gravité : concept distinct. La définition est donc fausse — c'est la proposition à cocher."},{"t":"La réaction de redressement corps à corps se produit grâce à la proprioception.","j":"VRAI. La réaction de redressement corps à corps (body-on-body righting) est déclenchée par les afférences proprioceptives issues des segments corporels, qui informent sur la position relative des parties du corps et entraînent un réalignement segmentaire. Affirmation exacte, donc ce n'est pas la réponse incorrecte recherchée."}]},
+  {"q":"Un bébé prématuré né à la semaine 32 de grossesse, qui actuellement a 6 mois d'âge chronologique, qu'est-ce qu'on attendrait observer au niveau du développement moteur typique ?","c":3,"options":[{"t":"Une dissociation entre la tête et la ceinture scapulaire, avec préhension latérale des objets présentés sur le côté.","correct":true,"j":"Né à 32 SA, le bébé a environ 2 mois de prématurité, soit un âge corrigé de 4 mois (6 − 2). À ~3-4,5 mois corrigés, on attend la dissociation tête / ceinture scapulaire (3e mois) puis la préhension prépositive avec saisie latérale d'objets sans franchir la ligne médiane (4,5 mois) : c'est exactement le stade attendu à l'âge corrigé."},{"t":"Une motricité holocinétique globale, avec le centre de gravité situé entre le nez et la bouche.","j":"La motricité holocinétique (mouvements globaux) avec point d'appui au niveau nez-bouche correspond au nouveau-né / 1er mois (schéma en flexion, mains atteignant la ligne médiane et la bouche). Trop immature pour un âge corrigé de 4 mois : c'est le tableau d'un nourrisson bien plus jeune."},{"t":"Un retournement du décubitus dorsal vers ventral, avec un début de coordination « œil-main-bouche-pied ».","j":"Le retournement DD→DV (6e mois) et la coordination œil-main-bouche-pied (7e mois) correspondent à un développement de 6-7 mois. Ce serait juste seulement en raisonnant sur l'âge chronologique (6 mois) sans corriger la prématurité : c'est le distracteur-piège qui sanctionne l'oubli de l'âge corrigé."}]},
   {
    "q": "Indiquez la réponse INCORRECTE :",
    "c": 5,
@@ -226668,25 +226542,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Hugo, né à terme et sans antécédent particulier, est amené en consultation de suivi à l'âge de 18 mois. Il se déplace uniquement à quatre pattes et en se tenant aux meubles, mais n'a jamais effectué un seul pas en marche autonome. Sachant que la marche frontale autonome s'acquiert normalement vers 12 mois, à partir de quel âge l'absence totale de marche autonome doit-elle être retenue comme signe d'alarme justifiant un bilan ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "18 mois",
-     "correct": true,
-     "j": "La marche autonome s'acquérant vers 12 mois, un retard supérieur à 3 mois, soit une absence de marche à 18 mois, constitue le signe d'alarme imposant un bilan."
-    },
-    {
-     "t": "12 mois",
-     "j": "12 mois est l'âge normal d'acquisition de la marche frontale autonome : son absence à cet âge reste dans la variabilité physiologique, pas encore un signe d'alarme."
-    },
-    {
-     "t": "15 mois",
-     "j": "À 15-16 mois l'enfant affine sa marche (il peut s'arrêter et changer de direction) ; l'absence de marche à 15 mois n'atteint pas encore le seuil de retard significatif."
-    }
-   ]
-  },
+  {"q":"Hugo, né à terme et sans antécédent particulier, est amené en consultation de suivi à l'âge de 18 mois. Il se déplace uniquement à quatre pattes et en se tenant aux meubles, mais n'a jamais effectué un seul pas en marche autonome. Sachant que la marche frontale autonome s'acquiert normalement vers 12 mois, à partir de quel âge l'absence totale de marche autonome doit-elle être retenue comme signe d'alarme justifiant un bilan ?","c":[3,4],"options":[{"t":"18 mois","correct":true,"j":"La marche autonome s'acquérant vers 12 mois, un retard supérieur à 3 mois, soit une absence de marche à 18 mois, constitue le signe d'alarme imposant un bilan."},{"t":"12 mois","j":"12 mois est l'âge normal d'acquisition de la marche frontale autonome : son absence à cet âge reste dans la variabilité physiologique, pas encore un signe d'alarme."},{"t":"15 mois","j":"À 15-16 mois l'enfant affine sa marche (il peut s'arrêter et changer de direction) ; l'absence de marche à 15 mois n'atteint pas encore le seuil de retard significatif."}]},
   {
    "q": "Léa, née à terme à 39 SA, est examinée à J4 lors d'un bilan neuromoteur néonatal. Le kinésithérapeute amène passivement la main de l'enfant vers l'épaule controlatérale en croisant le bras devant le thorax (manœuvre du foulard), puis, hanche fléchie à 90°, étend la jambe pour mesurer l'angle poplité. Que cherchent à évaluer ces deux manœuvres ?",
    "c": 1,
@@ -227751,63 +227607,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, comment est définie la prématurité ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Né avant 37 semaines",
-     "correct": true,
-     "j": "Exact : le cours définit le prématuré comme né avant 37 semaines."
-    },
-    {
-     "t": "Né avant 32 semaines",
-     "j": "Faux : naître avant 32 semaines (et/ou moins de 2 500 g) définit le grand prématuré, pas la prématurité simple."
-    },
-    {
-     "t": "Né avant 42 semaines",
-     "j": "Faux : 42 semaines est la borne haute du terme ; la prématurité correspond à une naissance avant 37 semaines."
-    }
-   ]
-  },
-  {
-   "q": "Selon le cours, comment est défini le grand prématuré ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Né avant 32 semaines et/ou moins de 2 500 g",
-     "correct": true,
-     "j": "Exact : le cours définit le grand prématuré comme né avant 32 semaines et/ou moins de 2 500 g."
-    },
-    {
-     "t": "Né avant 37 semaines et/ou moins de 1 500 g",
-     "j": "Faux : 37 semaines définit la prématurité simple ; le grand prématuré est né avant 32 semaines."
-    },
-    {
-     "t": "Né avant 34 semaines et/ou moins de 2 000 g",
-     "j": "Faux : ces valeurs ne correspondent pas au cours, qui fixe 32 semaines et 2 500 g."
-    }
-   ]
-  },
-  {
-   "q": "Selon le cours, comment se calcule l'âge corrigé du prématuré ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Âge chronologique moins mois de prématurité",
-     "correct": true,
-     "j": "Exact : le cours donne la formule âge chronologique moins mois de prématurité égale âge corrigé."
-    },
-    {
-     "t": "Âge chronologique plus mois de prématurité",
-     "j": "Faux : on soustrait, on n'ajoute pas, les mois de prématurité à l'âge chronologique."
-    },
-    {
-     "t": "Âge gestationnel moins âge chronologique",
-     "j": "Faux : la formule du cours soustrait les mois de prématurité à l'âge chronologique, et non l'inverse avec l'âge gestationnel."
-    }
-   ]
-  },
+  {"q":"Selon le cours, comment est définie la prématurité ?","c":3,"options":[{"t":"Né avant 37 semaines","correct":true,"j":"Exact : le cours définit le prématuré comme né avant 37 semaines."},{"t":"Né avant 32 semaines","j":"Faux : naître avant 32 semaines (et/ou moins de 2 500 g) définit le grand prématuré, pas la prématurité simple."},{"t":"Né avant 42 semaines","j":"Faux : 42 semaines est la borne haute du terme ; la prématurité correspond à une naissance avant 37 semaines."}]},
+  {"q":"Selon le cours, comment est défini le grand prématuré ?","c":3,"options":[{"t":"Né avant 32 semaines et/ou moins de 2 500 g","correct":true,"j":"Exact : le cours définit le grand prématuré comme né avant 32 semaines et/ou moins de 2 500 g."},{"t":"Né avant 37 semaines et/ou moins de 1 500 g","j":"Faux : 37 semaines définit la prématurité simple ; le grand prématuré est né avant 32 semaines."},{"t":"Né avant 34 semaines et/ou moins de 2 000 g","j":"Faux : ces valeurs ne correspondent pas au cours, qui fixe 32 semaines et 2 500 g."}]},
+  {"q":"Selon le cours, comment se calcule l'âge corrigé du prématuré ?","c":3,"options":[{"t":"Âge chronologique moins mois de prématurité","correct":true,"j":"Exact : le cours donne la formule âge chronologique moins mois de prématurité égale âge corrigé."},{"t":"Âge chronologique plus mois de prématurité","j":"Faux : on soustrait, on n'ajoute pas, les mois de prématurité à l'âge chronologique."},{"t":"Âge gestationnel moins âge chronologique","j":"Faux : la formule du cours soustrait les mois de prématurité à l'âge chronologique, et non l'inverse avec l'âge gestationnel."}]},
   {
    "q": "Selon le cours, quelle particularité distingue le réflexe optico-facial (ROF) parmi les réflexes primitifs ?",
    "c": 4,
@@ -228378,63 +228180,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, quelle est la définition d'un grand prématuré ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Né avant 32 semaines et/ou moins de 2500 g",
-     "correct": true,
-     "j": "Exact : le cours définit le grand prématuré comme né avant 32 semaines et/ou pesant moins de 2500 g."
-    },
-    {
-     "t": "Né avant 37 semaines",
-     "j": "Faux : né avant 37 semaines correspond à la définition générale du prématuré, pas du grand prématuré."
-    },
-    {
-     "t": "Né avant 28 semaines et/ou moins de 1500 g",
-     "j": "Faux : le seuil retenu par le cours pour le grand prématuré est 32 semaines et/ou moins de 2500 g, et non 28 semaines."
-    }
-   ]
-  },
-  {
-   "q": "Selon le cours, comment se calcule l'âge corrigé d'un enfant prématuré ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Âge chronologique moins les mois de prématurité",
-     "correct": true,
-     "j": "Exact : le cours donne la formule âge chronologique moins mois de prématurité égale âge corrigé."
-    },
-    {
-     "t": "Âge chronologique plus les mois de prématurité",
-     "j": "Faux : on soustrait les mois de prématurité, on ne les additionne pas, selon le cours."
-    },
-    {
-     "t": "Âge gestationnel à la naissance moins 37 semaines",
-     "j": "Faux : l'âge corrigé se calcule à partir de l'âge chronologique réel diminué des mois de prématurité, et non à partir d'une soustraction de l'âge gestationnel à 37 semaines."
-    }
-   ]
-  },
-  {
-   "q": "Selon le cours, en quoi diffèrent les positions de décubitus pour le développement de la motricité chez le nourrisson ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Le décubitus dorsal développe la motricité fine et la manipulation, le décubitus ventral la motricité globale",
-     "correct": true,
-     "j": "Exact : le cours indique qu'en décubitus dorsal se développent la motricité fine et la manipulation, et qu'en décubitus ventral se développe la motricité globale."
-    },
-    {
-     "t": "Le décubitus dorsal développe la motricité globale, le décubitus ventral la motricité fine",
-     "j": "Faux : c'est l'inverse selon le cours, le décubitus ventral développant la motricité globale et le dorsal la motricité fine."
-    },
-    {
-     "t": "Le décubitus ventral développe à la fois la motricité fine et la motricité globale, le dorsal seulement le contrôle axial",
-     "j": "Faux : le cours répartit les deux types de motricité entre les deux positions (dorsal/fin, ventral/global) et ne concentre pas les deux motricités sur le seul décubitus ventral."
-    }
-   ]
-  },
+  {"q":"Selon le cours, quelle est la définition d'un grand prématuré ?","c":3,"options":[{"t":"Né avant 32 semaines et/ou moins de 2500 g","correct":true,"j":"Exact : le cours définit le grand prématuré comme né avant 32 semaines et/ou pesant moins de 2500 g."},{"t":"Né avant 37 semaines","j":"Faux : né avant 37 semaines correspond à la définition générale du prématuré, pas du grand prématuré."},{"t":"Né avant 28 semaines et/ou moins de 1500 g","j":"Faux : le seuil retenu par le cours pour le grand prématuré est 32 semaines et/ou moins de 2500 g, et non 28 semaines."}]},
+  {"q":"Selon le cours, comment se calcule l'âge corrigé d'un enfant prématuré ?","c":3,"options":[{"t":"Âge chronologique moins les mois de prématurité","correct":true,"j":"Exact : le cours donne la formule âge chronologique moins mois de prématurité égale âge corrigé."},{"t":"Âge chronologique plus les mois de prématurité","j":"Faux : on soustrait les mois de prématurité, on ne les additionne pas, selon le cours."},{"t":"Âge gestationnel à la naissance moins 37 semaines","j":"Faux : l'âge corrigé se calcule à partir de l'âge chronologique réel diminué des mois de prématurité, et non à partir d'une soustraction de l'âge gestationnel à 37 semaines."}]},
+  {"q":"Selon le cours, en quoi diffèrent les positions de décubitus pour le développement de la motricité chez le nourrisson ?","c":3,"options":[{"t":"Le décubitus dorsal développe la motricité fine et la manipulation, le décubitus ventral la motricité globale","correct":true,"j":"Exact : le cours indique qu'en décubitus dorsal se développent la motricité fine et la manipulation, et qu'en décubitus ventral se développe la motricité globale."},{"t":"Le décubitus dorsal développe la motricité globale, le décubitus ventral la motricité fine","j":"Faux : c'est l'inverse selon le cours, le décubitus ventral développant la motricité globale et le dorsal la motricité fine."},{"t":"Le décubitus ventral développe à la fois la motricité fine et la motricité globale, le dorsal seulement le contrôle axial","j":"Faux : le cours répartit les deux types de motricité entre les deux positions (dorsal/fin, ventral/global) et ne concentre pas les deux motricités sur le seul décubitus ventral."}]},
   {
    "q": "Selon le cours, que reflètent les réactions posturales anormales quant à la nature de la pathologie sous-jacente ?",
    "c": 4,
@@ -229442,25 +229190,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Qu'est-ce que l'âge qualitatif dans un diagnostic neurokinésiologique ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Celui qui établit le schéma postural le plus bas que l'enfant fait parfaitement dans le développement moteur.",
-     "correct": true,
-     "j": "L'âge qualitatif (postural) répond à « comment » l'enfant bouge : c'est le schéma postural le plus bas qu'il exécute parfaitement."
-    },
-    {
-     "t": "Celui qui établit le schéma de mouvement le plus élevé que l'enfant fait dans le développement moteur.",
-     "j": "Le schéma le plus élevé réalisé renvoie plutôt à la quantité (« qu'est-ce qu'il fait ») et donc à l'âge mental, pas à la qualité."
-    },
-    {
-     "t": "L'âge auquel l'enfant commence à effectuer l'appui-coude.",
-     "j": "Un jalon isolé (appui sur les coudes) ne définit pas l'âge qualitatif, qui évalue la perfection du schéma postural global."
-    }
-   ]
-  },
+  {"q":"Qu'est-ce que l'âge qualitatif dans un diagnostic neurokinésiologique ?","c":3,"options":[{"t":"Celui qui établit le schéma postural le plus bas que l'enfant fait parfaitement dans le développement moteur.","correct":true,"j":"L'âge qualitatif (postural) répond à « comment » l'enfant bouge : c'est le schéma postural le plus bas qu'il exécute parfaitement."},{"t":"Celui qui établit le schéma de mouvement le plus élevé que l'enfant fait dans le développement moteur.","j":"Le schéma le plus élevé réalisé renvoie plutôt à la quantité (« qu'est-ce qu'il fait ») et donc à l'âge mental, pas à la qualité."},{"t":"L'âge auquel l'enfant commence à effectuer l'appui-coude.","j":"Un jalon isolé (appui sur les coudes) ne définit pas l'âge qualitatif, qui évalue la perfection du schéma postural global."}]},
   {
    "q": "Quelles sont les phases qui déterminent le cycle de motricité réflexe ?",
    "c": 4,
@@ -229594,44 +229324,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Nous pouvons estimer l'âge mental de l'enfant en observant :",
-   "c": 1,
-   "options": [
-    {
-     "t": "Le nombre d'items réalisés dans le développement psychomoteur",
-     "correct": true,
-     "j": "L'âge mental (quantitatif) correspond à « qu'est-ce qu'il fait » : il s'estime par le nombre d'items psychomoteurs réalisés."
-    },
-    {
-     "t": "Dans quelle mesure exécute-t-il les schémas de mouvement ?",
-     "j": "La qualité d'exécution des schémas renvoie à l'âge qualitatif (postural), pas à l'âge mental quantitatif."
-    },
-    {
-     "t": "Exploration des réflexes primitifs et ostéotendineux.",
-     "j": "L'examen des réflexes explore la fonction sous-corticale et la coordination centrale, il n'estime pas l'âge mental."
-    }
-   ]
-  },
-  {
-   "q": "Quels sont les mouvements qui prédominent dans les premières semaines de la vie ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Mouvements holocinétiques ou de masse",
-     "correct": true,
-     "j": "Le nouveau-né présente des mouvements globaux, holocinétiques (de masse), avec des réflexes archaïques préservés."
-    },
-    {
-     "t": "Mouvements coordonnés et symétriques",
-     "j": "La coordination et la symétrie n'apparaissent que vers le 3e mois ; le nouveau-né est asymétrique et instable."
-    },
-    {
-     "t": "Mouvements ataxiques",
-     "j": "L'ataxie est un signe pathologique (cérébelleux), pas une caractéristique du mouvement normal du nouveau-né."
-    }
-   ]
-  },
+  {"q":"Nous pouvons estimer l'âge mental de l'enfant en observant :","c":3,"options":[{"t":"Le nombre d'items réalisés dans le développement psychomoteur","correct":true,"j":"L'âge mental (quantitatif) correspond à « qu'est-ce qu'il fait » : il s'estime par le nombre d'items psychomoteurs réalisés."},{"t":"Dans quelle mesure exécute-t-il les schémas de mouvement ?","j":"La qualité d'exécution des schémas renvoie à l'âge qualitatif (postural), pas à l'âge mental quantitatif."},{"t":"Exploration des réflexes primitifs et ostéotendineux.","j":"L'examen des réflexes explore la fonction sous-corticale et la coordination centrale, il n'estime pas l'âge mental."}]},
+  {"q":"Quels sont les mouvements qui prédominent dans les premières semaines de la vie ?","c":3,"options":[{"t":"Mouvements holocinétiques ou de masse","correct":true,"j":"Le nouveau-né présente des mouvements globaux, holocinétiques (de masse), avec des réflexes archaïques préservés."},{"t":"Mouvements coordonnés et symétriques","j":"La coordination et la symétrie n'apparaissent que vers le 3e mois ; le nouveau-né est asymétrique et instable."},{"t":"Mouvements ataxiques","j":"L'ataxie est un signe pathologique (cérébelleux), pas une caractéristique du mouvement normal du nouveau-né."}]},
   {
    "q": "À quel âge du développement moteur la démarche latérale stable se produit-elle ?",
    "c": 3,
@@ -229974,25 +229668,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la posture du nouveau-né en bonne santé, indique la proposition correcte :",
-   "c": 5,
-   "options": [
-    {
-     "t": "Il redresse la tête",
-     "j": "Faux : le redressement céphalique lié à l'orientation optique n'apparaît que vers la 6-8e semaine, pas chez le nouveau-né."
-    },
-    {
-     "t": "Il a une posture symétrique stable",
-     "j": "Faux : le nouveau-né a une posture asymétrique et instable, avec schéma postural en flexion."
-    },
-    {
-     "t": "Il n'a pas de support, seulement des surfaces de contact",
-     "correct": true,
-     "j": "Correct : le nouveau-né ne dispose pas de véritables appuis mais seulement de surfaces de contact, faute de contrôle postural antigravitaire."
-    }
-   ]
-  },
+  {"q":"Concernant la posture du nouveau-né en bonne santé, indique la proposition correcte :","c":3,"options":[{"t":"Il redresse la tête","j":"Faux : le redressement céphalique lié à l'orientation optique n'apparaît que vers la 6-8e semaine, pas chez le nouveau-né."},{"t":"Il a une posture symétrique stable","j":"Faux : le nouveau-né a une posture asymétrique et instable, avec schéma postural en flexion."},{"t":"Il n'a pas de support, seulement des surfaces de contact","correct":true,"j":"Correct : le nouveau-né ne dispose pas de véritables appuis mais seulement de surfaces de contact, faute de contrôle postural antigravitaire."}]},
   {
    "q": "Selon Vojta, quels sont les prérequis pour que se produise une réelle motricité ?",
    "c": 4,
@@ -230050,25 +229726,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Qu'entend Vojta par l'âge postural qualitatif ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Âge chronologique",
-     "j": "Faux : l'âge chronologique est l'âge réel, indépendant de la qualité du mouvement."
-    },
-    {
-     "t": "Comment se bouge l'enfant et la qualité du mouvement",
-     "correct": true,
-     "j": "Correct : l'âge postural qualitatif renvoie au « comment » l'enfant bouge, c'est-à-dire à la qualité du mouvement."
-    },
-    {
-     "t": "Se réfère au stade moteur le plus élevé de l'enfant",
-     "j": "Faux : le stade moteur le plus élevé relève de l'âge quantitatif (« ce que fait » l'enfant), pas de la qualité."
-    }
-   ]
-  },
+  {"q":"Qu'entend Vojta par l'âge postural qualitatif ?","c":3,"options":[{"t":"Âge chronologique","j":"Faux : l'âge chronologique est l'âge réel, indépendant de la qualité du mouvement."},{"t":"Comment se bouge l'enfant et la qualité du mouvement","correct":true,"j":"Correct : l'âge postural qualitatif renvoie au « comment » l'enfant bouge, c'est-à-dire à la qualité du mouvement."},{"t":"Se réfère au stade moteur le plus élevé de l'enfant","j":"Faux : le stade moteur le plus élevé relève de l'âge quantitatif (« ce que fait » l'enfant), pas de la qualité."}]},
   {
    "q": "Que signifie « réflexe » dans la motricité réflexe selon Vojta ?",
    "c": 4,
@@ -230335,25 +229993,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans l'évaluation de l'enfant, le décubitus supino nous donne des informations surtout sur :",
-   "c": 5,
-   "options": [
-    {
-     "t": "La fonction prensora (la prise)",
-     "correct": true,
-     "j": "Le décubitus dorsal (supin) renseigne surtout sur la motricité fine et la fonction de préhension qui s'y développent."
-    },
-    {
-     "t": "La qualité des points d'appui qu'il possède",
-     "j": "Les points d'appui s'évaluent plutôt en décubitus ventral, où l'enfant développe la motricité globale et le redressement."
-    },
-    {
-     "t": "Le redressement",
-     "j": "Le redressement contre la gravité s'apprécie en décubitus ventral, pas en supin où prédomine la préhension."
-    }
-   ]
-  },
+  {"q":"Dans l'évaluation de l'enfant, le décubitus supino nous donne des informations surtout sur :","c":3,"options":[{"t":"La fonction prensora (la prise)","correct":true,"j":"Le décubitus dorsal (supin) renseigne surtout sur la motricité fine et la fonction de préhension qui s'y développent."},{"t":"La qualité des points d'appui qu'il possède","j":"Les points d'appui s'évaluent plutôt en décubitus ventral, où l'enfant développe la motricité globale et le redressement."},{"t":"Le redressement","j":"Le redressement contre la gravité s'apprécie en décubitus ventral, pas en supin où prédomine la préhension."}]},
   {
    "q": "Dans le développement moteur normal d'un enfant, il commence à se déplacer vers l'avant avec l'arrastre et la reptation :",
    "c": 3,
@@ -230449,25 +230089,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'âge quantitative établie dans l'évaluation est marqué par :",
-   "c": 1,
-   "options": [
-    {
-     "t": "L'âge moteur et mental que l'enfant a sans faire attention à la qualité du patron qu'il utilise pour son mouvement",
-     "correct": true,
-     "j": "L'âge quantitatif (mental) correspond à ce que l'enfant fait, indépendamment de la qualité du patron utilisé."
-    },
-    {
-     "t": "L'âge chronologique que le bébé a dans le mouvement de l'évaluation",
-     "j": "L'âge chronologique est l'âge réel servant de référence, ce n'est pas l'âge quantitatif déduit de la performance."
-    },
-    {
-     "t": "La qualité des mouvements au niveau postural",
-     "j": "La qualité du mouvement définit l'âge postural (qualitatif), pas l'âge quantitatif."
-    }
-   ]
-  },
+  {"q":"L'âge quantitative établie dans l'évaluation est marqué par :","c":3,"options":[{"t":"L'âge moteur et mental que l'enfant a sans faire attention à la qualité du patron qu'il utilise pour son mouvement","correct":true,"j":"L'âge quantitatif (mental) correspond à ce que l'enfant fait, indépendamment de la qualité du patron utilisé."},{"t":"L'âge chronologique que le bébé a dans le mouvement de l'évaluation","j":"L'âge chronologique est l'âge réel servant de référence, ce n'est pas l'âge quantitatif déduit de la performance."},{"t":"La qualité des mouvements au niveau postural","j":"La qualité du mouvement définit l'âge postural (qualitatif), pas l'âge quantitatif."}]},
   {
    "q": "Durant le réflexe de motricité se produit (choisir l'incorrecte) :",
    "c": 4,
@@ -230525,25 +230147,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quels sont les mouvements qui prédominent lors des premières semaines de vie ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Mouvements holocinétiques ou de masse",
-     "correct": true,
-     "j": "Le nouveau-né présente surtout des mouvements globaux holocinétiques (de masse), peu différenciés."
-    },
-    {
-     "t": "Mouvements coordonnés et symétriques",
-     "j": "La posture du nouveau-né est asymétrique et instable ; la coordination et la symétrie n'apparaissent que vers 3 mois."
-    },
-    {
-     "t": "Mouvements ataxiques",
-     "j": "L'ataxie est un signe pathologique, non la caractéristique normale des premiers mouvements du nourrisson sain."
-    }
-   ]
-  },
+  {"q":"Quels sont les mouvements qui prédominent lors des premières semaines de vie ?","c":3,"options":[{"t":"Mouvements holocinétiques ou de masse","correct":true,"j":"Le nouveau-né présente surtout des mouvements globaux holocinétiques (de masse), peu différenciés."},{"t":"Mouvements coordonnés et symétriques","j":"La posture du nouveau-né est asymétrique et instable ; la coordination et la symétrie n'apparaissent que vers 3 mois."},{"t":"Mouvements ataxiques","j":"L'ataxie est un signe pathologique, non la caractéristique normale des premiers mouvements du nourrisson sain."}]},
   {
    "q": "Les fuseaux neuromusculaires sont ceux chargés de :",
    "c": 2,
@@ -230677,25 +230281,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Sélectionnez la réponse CORRECTE. Comment devrait-on interpréter le mouvement libre d'un bébé, qui marche à quatre pattes non cordonnées avec une certaine inclinaison gauche de la tête et la main gauche fermée avec le pouce à l'intérieur de la paume ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "C'est un bébé avec une paralysie cérébrale infantile type hémiplégique dystonique gauche.",
-     "correct": true,
-     "j": "L'inclinaison céphalique et la main fermée pouce inclus en permanence du même côté sont des signes asymétriques pathologiques (schéma de substitution), évocateurs d'une atteinte hémiplégique."
-    },
-    {
-     "t": "C'est un bébé avec un âge quantitatif de 7 mois et qualitatif de 8 semaines aprox.",
-     "j": "La marche à 4 pattes (même non coordonnée) correspond au 8e mois en quantité ; l'asymétrie décrite n'est pas un simple décalage qualitatif mais un signe d'alarme."
-    },
-    {
-     "t": "C'est un bébé avec un âge quantitatif de 8 mois et qualitatif de 4 semaines aprox.",
-     "j": "La présence persistante d'une main fermée pouce dans la paume et d'une inclinaison céphalique traduit un dysfonctionnement du SNC, pas un âge qualitatif néonatal isolé."
-    }
-   ]
-  },
+  {"q":"Sélectionnez la réponse CORRECTE. Comment devrait-on interpréter le mouvement libre d'un bébé, qui marche à quatre pattes non cordonnées avec une certaine inclinaison gauche de la tête et la main gauche fermée avec le pouce à l'intérieur de la paume ?","c":[4,5],"options":[{"t":"C'est un bébé avec une paralysie cérébrale infantile type hémiplégique dystonique gauche.","correct":true,"j":"L'inclinaison céphalique et la main fermée pouce inclus en permanence du même côté sont des signes asymétriques pathologiques (schéma de substitution), évocateurs d'une atteinte hémiplégique."},{"t":"C'est un bébé avec un âge quantitatif de 7 mois et qualitatif de 8 semaines aprox.","j":"La marche à 4 pattes (même non coordonnée) correspond au 8e mois en quantité ; l'asymétrie décrite n'est pas un simple décalage qualitatif mais un signe d'alarme."},{"t":"C'est un bébé avec un âge quantitatif de 8 mois et qualitatif de 4 semaines aprox.","j":"La présence persistante d'une main fermée pouce dans la paume et d'une inclinaison céphalique traduit un dysfonctionnement du SNC, pas un âge qualitatif néonatal isolé."}]},
   {
    "q": "Indiquez la réponse INCORRECTE par rapport le retournement de décubitus dorsal à décubitus ventral :",
    "c": 3,
@@ -230886,25 +230472,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Comment est caractérisée l'étape holocinétique chez l'enfant ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Mouvements globaux, posture fléchie et réflexes primitifs.",
-     "correct": true,
-     "j": "L'étape holocinétique (nouveau-né) se caractérise par des mouvements globaux de masse, un schéma postural en flexion et la présence des réflexes archaïques."
-    },
-    {
-     "t": "Mouvements sélectifs, réflexe plantaire et position tonique.",
-     "j": "Les mouvements sélectifs apparaissent bien plus tard ; l'étape holocinétique est au contraire faite de mouvements globaux non différenciés."
-    },
-    {
-     "t": "Mouvements volontaires, réflexes primitifs actifs et contrôle céphalique.",
-     "j": "Le contrôle céphalique et les mouvements volontaires ne sont pas encore acquis au stade holocinétique du nouveau-né."
-    }
-   ]
-  },
+  {"q":"Comment est caractérisée l'étape holocinétique chez l'enfant ?","c":3,"options":[{"t":"Mouvements globaux, posture fléchie et réflexes primitifs.","correct":true,"j":"L'étape holocinétique (nouveau-né) se caractérise par des mouvements globaux de masse, un schéma postural en flexion et la présence des réflexes archaïques."},{"t":"Mouvements sélectifs, réflexe plantaire et position tonique.","j":"Les mouvements sélectifs apparaissent bien plus tard ; l'étape holocinétique est au contraire faite de mouvements globaux non différenciés."},{"t":"Mouvements volontaires, réflexes primitifs actifs et contrôle céphalique.","j":"Le contrôle céphalique et les mouvements volontaires ne sont pas encore acquis au stade holocinétique du nouveau-né."}]},
   {
    "q": "Indiquez la réponse CORRECTE. Un bébé avec un âge corrigé de 9 mois, quelle réponse devrait-elle nous indiquer un signe d'alarme ?",
    "c": 4,
@@ -230924,25 +230492,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "On évalue un enfant de 5 mois d'âge corrigé. Il peut faire appui sur les mains en décubitus ventral mais avec le pouce gauche en ADD et l'épaule gauche en protraction ; il peut suivre un jouet avec le regard en maintenant la tête réclinée et le patron du nageur est inconstant. Indiquez la réponse CORRECTE.",
-   "c": 1,
-   "options": [
-    {
-     "t": "L'âge qualitative du bébé est 6-8 semaines.",
-     "correct": true,
-     "j": "L'âge qualitatif (comment il fait : asymétrie, pouce en ADD, protraction d'épaule, tête réclinée) est nettement en retard, autour de 6-8 semaines, alors que l'âge corrigé est de 5 mois."
-    },
-    {
-     "t": "L'âge quantitative du bébé est 5 mois.",
-     "j": "Faux : l'âge quantitatif (qu'est-ce qu'il fait) ne se confond pas avec l'âge corrigé et n'atteint pas ici la qualité d'un appui de 5 mois."
-    },
-    {
-     "t": "L'âge chronologique du bébé est 6 mois.",
-     "j": "Faux : l'énoncé donne l'âge corrigé (5 mois) sans préciser la prématurité, l'âge chronologique ne peut être affirmé à 6 mois."
-    }
-   ]
-  },
+  {"q":"On évalue un enfant de 5 mois d'âge corrigé. Il peut faire appui sur les mains en décubitus ventral mais avec le pouce gauche en ADD et l'épaule gauche en protraction ; il peut suivre un jouet avec le regard en maintenant la tête réclinée et le patron du nageur est inconstant. Indiquez la réponse CORRECTE.","c":3,"options":[{"t":"L'âge qualitative du bébé est 6-8 semaines.","correct":true,"j":"L'âge qualitatif (comment il fait : asymétrie, pouce en ADD, protraction d'épaule, tête réclinée) est nettement en retard, autour de 6-8 semaines, alors que l'âge corrigé est de 5 mois."},{"t":"L'âge quantitative du bébé est 5 mois.","j":"Faux : l'âge quantitatif (qu'est-ce qu'il fait) ne se confond pas avec l'âge corrigé et n'atteint pas ici la qualité d'un appui de 5 mois."},{"t":"L'âge chronologique du bébé est 6 mois.","j":"Faux : l'énoncé donne l'âge corrigé (5 mois) sans préciser la prématurité, l'âge chronologique ne peut être affirmé à 6 mois."}]},
   {
    "q": "La position de départ pour déclencher la reptation réflexe :",
    "c": 4,
@@ -231114,25 +230664,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quels mouvements prédominent durant les premières semaines de vie ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Holocinétiques",
-     "correct": true,
-     "j": "Les premiers mouvements du nouveau-né sont globaux et holocinétiques (mouvements de masse), non différenciés."
-    },
-    {
-     "t": "Coordonnés",
-     "j": "Faux : la coordination fine s'acquiert progressivement ; les premiers mouvements sont globaux, pas coordonnés."
-    },
-    {
-     "t": "Ataxiques",
-     "j": "Faux : « ataxiques » désigne un trouble pathologique de la coordination, pas la motricité globale physiologique du nouveau-né."
-    }
-   ]
-  },
+  {"q":"Quels mouvements prédominent durant les premières semaines de vie ?","c":3,"options":[{"t":"Holocinétiques","correct":true,"j":"Les premiers mouvements du nouveau-né sont globaux et holocinétiques (mouvements de masse), non différenciés."},{"t":"Coordonnés","j":"Faux : la coordination fine s'acquiert progressivement ; les premiers mouvements sont globaux, pas coordonnés."},{"t":"Ataxiques","j":"Faux : « ataxiques » désigne un trouble pathologique de la coordination, pas la motricité globale physiologique du nouveau-né."}]},
   {
    "q": "À quel âge du développement moteur apparaît la marche latérale stable ?",
    "c": 3,
@@ -231399,25 +230931,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Sur quoi le décubitus dorsal renseigne-t-il ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Fonction de préhension",
-     "correct": true,
-     "j": "En décubitus dorsal l'enfant développe la motricité fine et la manipulation : cette position renseigne sur la fonction de préhension et l'orientation vers la ligne médiane."
-    },
-    {
-     "t": "Qualité des appuis",
-     "j": "La qualité des appuis et de la charge s'évalue surtout en décubitus ventral (procubitus), pas en dorsal."
-    },
-    {
-     "t": "Redressement",
-     "j": "Les mécanismes de redressement antigravitaire s'apprécient plutôt en procubitus et en suspension, pas en décubitus dorsal."
-    }
-   ]
-  },
+  {"q":"Sur quoi le décubitus dorsal renseigne-t-il ?","c":3,"options":[{"t":"Fonction de préhension","correct":true,"j":"En décubitus dorsal l'enfant développe la motricité fine et la manipulation : cette position renseigne sur la fonction de préhension et l'orientation vers la ligne médiane."},{"t":"Qualité des appuis","j":"La qualité des appuis et de la charge s'évalue surtout en décubitus ventral (procubitus), pas en dorsal."},{"t":"Redressement","j":"Les mécanismes de redressement antigravitaire s'apprécient plutôt en procubitus et en suspension, pas en décubitus dorsal."}]},
   {
    "q": "À quel âge apparaît le déplacement par reptation ?",
    "c": 3,
@@ -231513,25 +231027,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Qu'est-ce que l'âge quantitatif dans un diagnostic neurokinésiologique ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Âge moteur et mental sans qualité",
-     "correct": true,
-     "j": "L'âge quantitatif correspond à \"ce que l'enfant fait\" (âge mental/moteur), indépendamment de la qualité d'exécution."
-    },
-    {
-     "t": "Âge chronologique",
-     "j": "L'âge chronologique est l'âge réel ; on le compare à l'âge quantitatif, ce n'en est pas la définition."
-    },
-    {
-     "t": "Qualité du mouvement",
-     "j": "La qualité (\"comment il fait\") définit l'âge qualitatif/postural, et non l'âge quantitatif."
-    }
-   ]
-  },
+  {"q":"Qu'est-ce que l'âge quantitatif dans un diagnostic neurokinésiologique ?","c":3,"options":[{"t":"Âge moteur et mental sans qualité","correct":true,"j":"L'âge quantitatif correspond à \"ce que l'enfant fait\" (âge mental/moteur), indépendamment de la qualité d'exécution."},{"t":"Âge chronologique","j":"L'âge chronologique est l'âge réel ; on le compare à l'âge quantitatif, ce n'en est pas la définition."},{"t":"Qualité du mouvement","j":"La qualité (\"comment il fait\") définit l'âge qualitatif/postural, et non l'âge quantitatif."}]},
   {
    "q": "Quelle est la fonction du système somatosensoriel ?",
    "c": 2,
@@ -231680,7 +231176,7 @@ const QUESTIONS = {
     {"q":"Un homme de 58 ans consulte pour douleur inguinale chronique avec boiterie. Vous suspectez une coxarthrose débutante. Quel paramètre articulaire sera précocement limité à l'examen clinique ?","c":5,"options":[{"t":"Rotation interne en flexion de hanche","correct":true,"j":"Rotation interne : mouvement le plus précocement et systématiquement limité (met en contrainte les structures antéro-supérieures de la hanche). Évaluée hanche fléchie à 90°."},{"t":"Rotation externe en flexion de hanche","j":"La rotation externe est conservée plus longtemps que l'interne dans les pathologies dégénératives de hanche."},{"t":"Abduction pure hanche tendue","j":"Peut être limitée à un stade avancé mais ce n'est pas le paramètre LE PLUS précoce ni LE PLUS discriminant."},{"t":"Flexion de hanche en décubitus dorsal","j":"La flexion reste relativement préservée dans les pathologies débutantes ; elle se limite tardivement."}]},
     {"q":"Un homme de 45 ans sous corticothérapie au long cours consulte pour douleur inguinale progressive. Quel examen est de référence pour le diagnostic précoce d'une nécrose avasculaire de la tête fémorale ?","c":5,"options":[{"t":"IRM de hanche en première intention","correct":true,"j":"IRM = examen de référence pour diagnostic PRÉCOCE de la nécrose avasculaire. La radiographie est normale aux stades initiaux ; effondrement visible seulement aux stades 3-4."},{"t":"Radiographie standard de bassin face + faux profil","j":"Examen de première intention systématique mais NORMAL aux stades précoces. Insuffisant pour un diagnostic précoce."},{"t":"Scintigraphie osseuse aux bisphosphonates marqués","j":"Possible (hyperfixation puis hypofixation centrale) mais moins sensible et moins spécifique que l'IRM pour le diagnostic précoce."},{"t":"Scanner avec reconstructions 3D du col fémoral","j":"Utile pour évaluer la déformation osseuse à un stade avancé, pas pour le diagnostic précoce où l'os n'est pas encore altéré."}]},
     {"q":"Un sportif de 28 ans consulte pour douleurs inguinales en pivot. Vous suspectez un conflit fémoro-acétabulaire antérieur. Quelle manœuvre reproduira la douleur ?","c":5,"options":[{"t":"Flexion 90° + adduction + rotation interne de hanche","correct":true,"j":"FADIR : flexion 90° + croisement de la ligne médiane (adduction) + rotation interne. Coince la jonction tête-col contre le rebord acétabulaire antérieur et reproduit la douleur."},{"t":"Flexion 90° + adduction + rotation externe de hanche","j":"La rotation EXTERNE ouvre l'espace antérieur ; c'est la rotation interne qui ferme et reproduit le conflit antérieur."},{"t":"Flexion 90° + abduction + rotation externe de hanche","j":"Décrit le FABER (Patrick test) : teste la hanche globale ou la sacro-iliaque, sans spécificité pour le conflit antérieur."},{"t":"Extension + adduction + rotation interne de hanche","j":"C'est la FLEXION qui ferme l'espace antérieur où se produit le conflit ; l'extension ne reproduit pas la douleur."}]},
-    {"q":"Grâce à la rotule, le moment de force du quadriceps est augmenté d'environ :","c":8,"options":[{"t":"40 %","correct":true,"j":"La rotule éloigne le tendon de l'axe de rotation du genou, augmentant le bras de levier d'environ 40 %."},{"t":"10 %","j":"Sous-estime largement le gain réel apporté par la rotule."},{"t":"70 %","j":"Surestime le gain ; la valeur enseignée est de 40 %."},{"t":"100 %","j":"La rotule n'est pas indispensable à l'extension, et le gain réel est de 40 % environ, pas un doublement."}]},
+    {"q":"Grâce à la rotule, le moment de force du quadriceps est augmenté d'environ :","c":[6,8],"options":[{"t":"40 %","correct":true,"j":"La rotule éloigne le tendon de l'axe de rotation du genou, augmentant le bras de levier d'environ 40 %."},{"t":"10 %","j":"Sous-estime largement le gain réel apporté par la rotule."},{"t":"70 %","j":"Surestime le gain ; la valeur enseignée est de 40 %."},{"t":"100 %","j":"La rotule n'est pas indispensable à l'extension, et le gain réel est de 40 % environ, pas un doublement."}]},
     {"q":"Une luxation antérieure du genou survient lors d'une hyperextension forcée. Selon la gradation enseignée, à environ 50° d'hyperextension, quelle structure est lésée ?","c":7,"options":[{"t":"Artère poplitée (urgence vasculaire, risque d'amputation)","correct":true,"j":"Gradation : 10° → LCA ; 30° → LCP ; 50° → artère poplitée. Ischémie > 6 h = amputation. Réduction immédiate (même sans radio) et réparation vasculaire urgente."},{"t":"Ligament croisé postérieur isolé","j":"Le LCP est lésé à 30° d'hyperextension. À 50°, l'atteinte est plus grave (vasculaire), le LCP est déjà compromis."},{"t":"Ligament croisé antérieur isolé","j":"Le LCA est lésé dès 10° d'hyperextension. À 50°, la cible spécifique additionnelle est l'artère poplitée."},{"t":"Nerf fibulaire commun par étirement","j":"Le fibulaire commun est lésé dans les luxations postéro-latérales, pas dans la gradation classique par hyperextension simple."}]},
     {"q":"Un homme de 65 ans, après chute de sa hauteur, présente une fracture supra-condylienne du fémur déplacée. Sur la radio de profil, le fragment distal apparaît basculé. Quelle action musculaire explique ce déplacement ?","c":7,"options":[{"t":"Les gastrocnémiens tirent le fragment vers l'arrière en flexion","correct":true,"j":"Gastrocnémiens : tractent le fragment distal vers l'arrière et le bas (flexion). Quadriceps + ischios : tractent le fragment proximal vers le haut (raccourcissement)."},{"t":"Le quadriceps tire le fragment distal vers l'avant en hyperextension","j":"Le quadriceps tire le fragment PROXIMAL vers le haut, et n'agit pas en avant sur le fragment distal."},{"t":"Le tendon rotulien stabilise le fragment distal en extension pure","j":"Pas de stabilisation : au contraire, les gastrocnémiens flexionnent le fragment vers l'arrière."},{"t":"Aucun déplacement musculaire car la fracture est extra-articulaire","j":"Le déplacement musculaire est typique, indépendamment du caractère extra ou intra-articulaire."}]},
     {"q":"Un patient de 55 ans présente après chute une rupture du tendon QUADRICIPITAL. Comment va se déplacer la rotule à la radio ?","c":8,"options":[{"t":"Vers distal (la rotule descend par traction du tendon rotulien)","correct":true,"j":"Rupture du tendon quadricipital : plus rien ne tire la rotule vers le haut → tendon rotulien la tire vers le bas. Patella baja sur la radio."},{"t":"Vers proximal (la rotule monte par traction du quadriceps)","j":"Décrit la rupture du tendon ROTULIEN (et non quadricipital) : le quadriceps tire la rotule vers le haut (patella alta)."},{"t":"Latéralement (subluxation/luxation patellaire externe)","j":"Déplacement latéral = luxation fémoro-patellaire (instabilité), pas une rupture tendineuse pure."},{"t":"Aucun déplacement (la rotule reste centrée dans la trochlée)","j":"Faux : la rupture d'un des tendons (quadricipital ou rotulien) entraîne TOUJOURS un déplacement caractéristique de la rotule."}]},
@@ -231781,7 +231277,7 @@ const QUESTIONS = {
     {"q":"Un footballeur de 28 ans consulte pour douleurs inguinales mécaniques aggravées par le shoot. Vous suspectez un conflit fémoro-acétabulaire de type came. Concernant l'évaluation clinique de ce conflit, marquez la FAUSSE :","c":5,"options":[{"t":"Le test FABER est plus sensible que FADIR pour le conflit antérieur","correct":true,"j":"FAUX : FABER (flexion-abduction-rotation externe) teste la sacro-iliaque ou la hanche globalement. C'est FADIR (rotation INTERNE) qui ferme l'espace antérieur et reproduit le conflit."},{"t":"Le FADIR ferme l'espace antérieur par rotation interne en flexion","j":"Vrai : FADIR coince la jonction tête-col contre le rebord cotyloïdien antérieur, reproduisant la douleur du conflit."},{"t":"Le diagnostic est confirmé par l'IRM avec arthrographie au gadolinium","j":"Vrai : l'arthro-IRM avec gadolinium est l'examen de référence pour identifier les lésions labrales associées au FAI."},{"t":"L'arthroscopie de hanche est le traitement chirurgical principal","j":"Vrai : l'arthroscopie permet le débridement labral, l'ostéochondroplastie du col fémoral et la réinsertion labrale si nécessaire."}]},
     {"q":"Une joueuse de basket de 19 ans présente une rupture isolée du LCA après pivot en charge. Vous expliquez le mauvais potentiel de cicatrisation spontanée. Concernant la vascularisation des ligaments croisés, quelle réponse est correcte ?","c":10,"options":[{"t":"Les croisés sont peu vascularisés, surtout l'antérieur","correct":true,"j":"Les ligaments croisés sont intra-articulaires et peu vascularisés. Le LCA est le moins bien vascularisé → mauvaise capacité de cicatrisation."},{"t":"Le LCA est mieux vascularisé que le LCP","j":"Inverse : le LCP a une meilleure vascularisation et un meilleur potentiel de cicatrisation."},{"t":"Les croisés sont richement vascularisés","j":"Faux : leur vascularisation est précaire, ce qui explique leur faible potentiel de cicatrisation spontanée."},{"t":"Seul le LCM (collatéral médial) est intra-articulaire","j":"Faux : les ligaments collatéraux sont extra-articulaires. Les croisés sont intra-articulaires."}]},
     {"q":"L'angle postéro-latéral du genou comprend toutes ces structures SAUF :","c":6,"options":[{"t":"Le ligament croisé antérieur","correct":true,"j":"L'angle postéro-latéral = LCL + tendon poplité + capsule postéro-latérale + ligament poplité fibulaire. Le LCA n'en fait PAS partie."},{"t":"Le ligament collatéral latéral","j":"Vrai : le LCL est un composant principal de l'angle postéro-latéral, tendu en varus."},{"t":"Le tendon du muscle poplité","j":"Vrai : le poplité déverrouille le genou et participe à l'angle postéro-latéral."},{"t":"Le ligament poplité fibulaire","j":"Vrai : composant de l'angle postéro-latéral."}]},
-    {"q":"Un patient de 24 ans, suite à un choc latéral direct sur le genou, présente une fracture du col du péroné isolée. Quelle structure nerveuse est à risque immédiat et avec quel déficit clinique ?","c":6,"options":[{"t":"Nerf fibulaire commun, avec risque de steppage du pied","correct":true,"j":"Le nerf fibulaire commun contourne le col du péroné ; sa lésion entraîne un steppage (déficit des releveurs du pied) et un déficit sensitif antéro-latéral."},{"t":"Nerf tibial postérieur en arrière de la malléole médiale","j":"Le tibial postérieur descend en médial du tibia, pas autour du col péronier qui est latéral."},{"t":"Nerf saphène à la face médiale du genou et de la jambe","j":"Branche purement sensitive du fémoral, non exposée au col du péroné qui est latéral."},{"t":"Nerf obturateur dans son passage du canal obturateur","j":"Innerve les adducteurs de hanche, sans rapport anatomique avec le col du péroné."}]},
+    {"q":"Un patient de 24 ans, suite à un choc latéral direct sur le genou, présente une fracture du col du péroné isolée. Quelle structure nerveuse est à risque immédiat et avec quel déficit clinique ?","c":[6,35],"options":[{"t":"Nerf fibulaire commun, avec risque de steppage du pied","correct":true,"j":"Le nerf fibulaire commun contourne le col du péroné ; sa lésion entraîne un steppage (déficit des releveurs du pied) et un déficit sensitif antéro-latéral."},{"t":"Nerf tibial postérieur en arrière de la malléole médiale","j":"Le tibial postérieur descend en médial du tibia, pas autour du col péronier qui est latéral."},{"t":"Nerf saphène à la face médiale du genou et de la jambe","j":"Branche purement sensitive du fémoral, non exposée au col du péroné qui est latéral."},{"t":"Nerf obturateur dans son passage du canal obturateur","j":"Innerve les adducteurs de hanche, sans rapport anatomique avec le col du péroné."}]},
     {"q":"Lors d'une luxation traumatique du genou avec atteinte de l'artère poplitée, au-delà de quel délai d'ischémie l'amputation devient-elle nécessaire ?","c":7,"options":[{"t":"6 heures","correct":true,"j":"Délai limite enseigné : 6 h d'ischémie. Au-delà, risque d'amputation. Réduction urgente sous 8 h, réparation vasculaire si lésion confirmée."},{"t":"12 heures","j":"Trop tardif ; le seuil critique est 6 h."},{"t":"24 heures","j":"Bien trop tardif ; risque vital et fonctionnel maximal au-delà de 6 h."},{"t":"3 heures","j":"Plus strict que le standard enseigné ; le seuil retenu est de 6 h."}]},
     {"q":"Un sportif de 22 ans subit une hyperextension forcée du genou par contact en valgus. Concernant la gradation des lésions selon l'angle d'hyperextension, quelle réponse est correcte ?","c":7,"options":[{"t":"10° → LCA ; 30° → LCP ; 50° → artère poplitée","correct":true,"j":"Progression enseignée : 10° d'hyperextension lèse le LCA, 30° le LCP, 50° l'artère poplitée."},{"t":"10° → LCP ; 30° → LCA ; 50° → ménisques","j":"Inverse des deux premiers et faux pour la troisième étape."},{"t":"50° → LCA isolé","j":"À 50° on a une atteinte vasculaire majeure (artère poplitée), pas une lésion LCA isolée."},{"t":"Aucune relation entre degré d'hyperextension et structures lésées","j":"Faux : la gradation est précise et enseignée."}]},
     {"q":"Aux urgences, un motard de 30 ans présente une luxation du genou avec abolition des pouls distaux. Vous suspectez une atteinte de l'artère poplitée. Concernant l'ordre de prise en charge :","c":7,"options":[{"t":"Réduction urgente puis réparation vasculaire puis stabilisation","correct":true,"j":"Ordre enseigné : réduction immédiate (même sans radio), puis réparation vasculaire, stabilisation (attelle/fixateur externe), réparation ligamentaire secondaire, kiné prolongée."},{"t":"Réparation ligamentaire puis réduction puis ostéosynthèse","j":"Faux : la réduction est prioritaire ; la réparation ligamentaire est secondaire (différée)."},{"t":"Imagerie complète puis réduction sous anesthésie en différé","j":"Faux : la réduction est immédiate, parfois sans imagerie préalable, vu l'urgence vasculaire."},{"t":"Stabilisation par plâtre seul puis surveillance pendant 48 h","j":"Insuffisant : le plâtre ne traite pas la composante vasculaire qui est l'urgence majeure."}]},
@@ -231864,7 +231360,7 @@ const QUESTIONS = {
     {"q":"Quelle est la durée d'immobilisation d'une fracture de clavicule chez l'enfant < 12 ans ?","c":20,"options":[{"t":"Harnais en huit pendant 2-3 semaines, remodelage osseux rapide","correct":true,"j":"Enfant < 12 ans : grande capacité de remodelage, immobilisation courte 2-3 semaines par harnais. Adulte : écharpe 4-6 semaines."},{"t":"Plâtre thoraco-brachial maintenu pendant 6 semaines complètes","j":"Excessif et inadapté chez l'enfant : la clavicule consolide rapidement avec un simple harnais."},{"t":"Aucune immobilisation, simple bandage compressif pendant 48 h","j":"Insuffisant : une immobilisation courte est nécessaire pour le confort et l'alignement."},{"t":"Ostéosynthèse chirurgicale systématique par plaque anatomique","j":"Faux : l'enfant relève du traitement conservateur en première intention, sauf cas particuliers."}]},
     {"q":"À propos de la fracture diaphysaire de l'humérus, quelle lésion nerveuse est typiquement associée ?","c":20,"options":[{"t":"Lésion du nerf radial","correct":true,"j":"Nerf radial vulnérable dans la gouttière humérale → lésion fréquente dans les fractures diaphysaires de l'humérus. EMG à 6 semaines, récupération possible jusqu'à 5 ans."},{"t":"Lésion du nerf médian","j":"Sans rapport ; le médian n'est pas exposé à la diaphyse humérale."},{"t":"Lésion du nerf ulnaire à la diaphyse","j":"L'ulnaire est plus exposé au coude (épitrochlée), pas à la diaphyse."},{"t":"Aucune atteinte nerveuse n'est attendue","j":"Faux : le nerf radial est classiquement lésé."}]},
     {"q":"Quels critères ORIENTENT vers un traitement conservateur d'une fracture diaphysaire humérale ?","c":20,"options":[{"t":"Angulation sagittale < 20°, frontale < 30°, raccourcissement < 3 cm","correct":true,"j":"Critères de stabilité acceptable pour un conservateur enseignés : angulation sagittale < 20°, frontale < 30°, raccourcissement < 3 cm. Au-delà : chirurgie."},{"t":"Fracture ouverte avec exposition cutanée et contamination du foyer","j":"Au contraire : fracture ouverte = indication chirurgicale (parage, antibioprophylaxie)."},{"t":"Présence d'une paralysie radiale par compression nerveuse aiguë","j":"Une paralysie radiale incite plutôt à explorer chirurgicalement le nerf, pas à un traitement conservateur."},{"t":"Polytraumatisme associé pour limiter la durée d'immobilisation","j":"Polytraumatisé → chirurgie pour faciliter le nursing et la prise en charge globale."}]},
-    {"q":"Une patiente de 75 ans présente une rupture massive irréparable de la coiffe avec arthrose excentrée. Quelle prothèse est appropriée ?","c":22,"options":[{"t":"Prothèse inversée : boule sur la glène, cavité sur l'humérus","correct":true,"j":"Prothèse inversée : inversion de l'anatomie (boule glénoïdienne, cavité humérale). Indication : rupture massive de la coiffe non réparable + arthrose excentrée. Le deltoïde supplée."},{"t":"Prothèse anatomique : tête humérale + glène, orientation native","j":"Indiquée dans l'arthrose à coiffe intacte. Sans coiffe fonctionnelle, le résultat est mauvais → préférer la prothèse INVERSÉE."},{"t":"Hémiarthroplastie : remplacement de la tête humérale seule","j":"Indication restreinte (fractures complexes du sujet âgé) ; ne traite pas l'arthrose excentrée à coiffe non réparable comme la prothèse inversée le fait."},{"t":"Resurfaçage prothétique de la tête humérale, conservation glène","j":"Indication chez le sujet jeune avec arthrose limitée et coiffe intacte. Pas pour une rupture massive de la coiffe avec arthrose."}]},
+    {"q":"Une patiente de 75 ans présente une rupture massive irréparable de la coiffe avec arthrose excentrée. Quelle prothèse est appropriée ?","c":[20,22],"options":[{"t":"Prothèse inversée : boule sur la glène, cavité sur l'humérus","correct":true,"j":"Prothèse inversée : inversion de l'anatomie (boule glénoïdienne, cavité humérale). Indication : rupture massive de la coiffe non réparable + arthrose excentrée. Le deltoïde supplée."},{"t":"Prothèse anatomique : tête humérale + glène, orientation native","j":"Indiquée dans l'arthrose à coiffe intacte. Sans coiffe fonctionnelle, le résultat est mauvais → préférer la prothèse INVERSÉE."},{"t":"Hémiarthroplastie : remplacement de la tête humérale seule","j":"Indication restreinte (fractures complexes du sujet âgé) ; ne traite pas l'arthrose excentrée à coiffe non réparable comme la prothèse inversée le fait."},{"t":"Resurfaçage prothétique de la tête humérale, conservation glène","j":"Indication chez le sujet jeune avec arthrose limitée et coiffe intacte. Pas pour une rupture massive de la coiffe avec arthrose."}]},
     {"q":"Quel critère permet de considérer une fracture proximale de l'humérus comme « déplacée » selon Neer ?","c":20,"options":[{"t":"Déplacement > 1 cm OU angulation > 45°","correct":true,"j":"Critères de Neer : > 1 cm de déplacement OU > 45° d'angulation. Détermine le nombre de fragments « comptés » dans la classification."},{"t":"Tout déplacement, même millimétrique","j":"Trop strict ; Neer fixe des seuils précis."},{"t":"Uniquement les fractures ouvertes","j":"Faux : la classification s'applique à toutes les fractures."},{"t":"L'âge du patient","j":"Pas un critère de Neer."}]},
     {"q":"Un rugbyman de 23 ans présente après plaquage frontal violent une luxation sterno-claviculaire postérieure. Quelle est la particularité majeure de cette luxation ?","c":21,"options":[{"t":"Urgence vitale par compression trachéale, œsophagienne et vasculaire","correct":true,"j":"Postérieure = la plus dangereuse : derrière le sternum se trouvent trachée, œsophage, vaisseaux médiastinaux. Réduction urgente sous AG en milieu chirurgical."},{"t":"Urgence vasculaire pure par compression de l'artère sous-clavière","j":"L'atteinte vasculaire est une des composantes possibles, mais les compressions trachéale et œsophagienne sont également critiques (urgence GLOBALE)."},{"t":"Lésion stable sans urgence immédiate, prise en charge à J7","j":"Faux : c'est la luxation sterno-claviculaire la PLUS DANGEREUSE. Reportée, elle peut être fatale par asphyxie ou hémorragie médiastinale."},{"t":"Plus fréquente que la forme antérieure mais moins symptomatique","j":"Inverse : la postérieure est plus RARE que l'antérieure, mais beaucoup plus grave."}]},
     {"q":"Quel grade Rockwood associe rupture coraco-claviculaire et déplacement majeur ?","c":21,"options":[{"t":"Grade 5 : déplacement majeur vers le haut, rupture CC complète","correct":true,"j":"Rockwood : G1 entorse AC, G2 rupture AC, G3 rupture AC+CC clavicule qui monte, G4 clavicule en arrière, G5 déplacement majeur en haut, G6 sous acromion."},{"t":"Grade 1 : entorse AC isolée sans rupture des coraco-claviculaires","j":"Grade 1 = simple entorse AC, ligaments intacts. Pas de rupture CC ni de déplacement majeur."},{"t":"Grade 2 : rupture des ligaments AC avec CC intacts en place","j":"Grade 2 = rupture AC mais CC intacts. Pas le grade au déplacement majeur."},{"t":"Grade 6 : clavicule passant sous l'acromion par mécanisme rare","j":"Grade 6 = forme rare avec clavicule sous l'acromion ; pas la définition du déplacement majeur classique."}]},
@@ -231933,7 +231429,7 @@ const QUESTIONS = {
     {"q":"Quelle durée maximale d'immobilisation pour une entorse des doigts longs ?","c":31,"options":[{"t":"15 jours maximum, les doigts s'enraidissent très vite","correct":true,"j":"Entorses des doigts longs : immobilisation 15 jours max par syndactylisation. Au-delà, raideur. Mobilisation précoce indispensable pour conserver la fonction."},{"t":"6 semaines minimum pour assurer la cicatrisation ligamentaire","j":"Trop long : risque de raideur définitive et perte de fonction. Mobilisation précoce préférée."},{"t":"3 mois en attelle complète pour stabiliser l'articulation","j":"Excessif : les doigts perdent leur fonction rapidement avec une immobilisation prolongée."},{"t":"Aucune immobilisation, simple traitement antalgique seul","j":"Insuffisant : une courte immobilisation protectrice (~15 j) est utile pour la cicatrisation."}]},
     {"q":"Un boxeur amateur de 25 ans présente après combat une fracture intra-articulaire plurifragmentaire de la base du 1er métacarpien. Cochez le diagnostic correct :","c":31,"options":[{"t":"Fracture de Rolando intra-articulaire plurifragmentaire","correct":true,"j":"Rolando : fracture intra-articulaire de la base du 1er métacarpien en PLUSIEURS morceaux. Plus complexe que Bennett (2 fragments), pronostic moins favorable."},{"t":"Fracture de Bennett intra-articulaire en 2 fragments","j":"Bennett est en 2 fragments à la base du 1er métacarpien. Ici la description (plurifragmentaire) correspond plutôt à Rolando."},{"t":"Fracture-luxation carpo-métacarpienne sans atteinte intra-articulaire","j":"Description incompatible : la fracture est INTRA-articulaire selon l'énoncé, ce qui exclut une fracture purement extra-articulaire."},{"t":"Fracture diaphysaire du 1er métacarpien avec extension articulaire","j":"L'énoncé précise « base du 1er métacarpien », pas diaphysaire. Localisation différente."}]},
     {"q":"Le syndrome d'INTERSECTION du poignet correspond à :","c":32,"options":[{"t":"Conflit entre tendons de la 1re et de la 2e glissière dorsale","correct":true,"j":"Syndrome d'intersection : croisement entre les tendons de la 1re loge (long abducteur + court extenseur du pouce) et ceux de la 2e (extenseurs radiaux du carpe)."},{"t":"Compression du nerf médian sous le rétinaculum des fléchisseurs","j":"C'est le syndrome du canal carpien, pas l'intersection."},{"t":"Rupture du long extenseur du pouce sur le tubercule de Lister","j":"Atteinte de la 3e glissière (souvent post-fracture du radius distal), pas l'intersection."},{"t":"Arthrose de l'articulation trapézo-métacarpienne du pouce","j":"C'est la rhizarthrose, distincte du syndrome d'intersection."}]},
-    {"q":"Concernant le syndrome de WARTENBERG, quelle structure est touchée ?","c":32,"options":[{"t":"Branche sensitive superficielle du nerf radial au poignet","correct":true,"j":"Wartenberg : compression de la branche superficielle du nerf radial (purement sensitif) entre brachio-radial et extenseurs radiaux. Causes : montre / bracelet serrés. Tinel positif."},{"t":"Branche motrice profonde du nerf radial à l'arcade de Frohse","j":"Concerne le nerf interosseux postérieur (déficit moteur d'extension), pas Wartenberg qui est sensitif."},{"t":"Branche motrice du nerf ulnaire dans le canal de Guyon","j":"Concerne le syndrome du canal de Guyon (ulnaire au poignet), pas Wartenberg."},{"t":"Branche du nerf médian sous le ligament transverse du carpe","j":"Concerne le syndrome du canal carpien, pas Wartenberg qui touche le nerf radial."}]},
+    {"q":"Concernant le syndrome de WARTENBERG, quelle structure est touchée ?","c":[32,34],"options":[{"t":"Branche sensitive superficielle du nerf radial au poignet","correct":true,"j":"Wartenberg : compression de la branche superficielle du nerf radial (purement sensitif) entre brachio-radial et extenseurs radiaux. Causes : montre / bracelet serrés. Tinel positif."},{"t":"Branche motrice profonde du nerf radial à l'arcade de Frohse","j":"Concerne le nerf interosseux postérieur (déficit moteur d'extension), pas Wartenberg qui est sensitif."},{"t":"Branche motrice du nerf ulnaire dans le canal de Guyon","j":"Concerne le syndrome du canal de Guyon (ulnaire au poignet), pas Wartenberg."},{"t":"Branche du nerf médian sous le ligament transverse du carpe","j":"Concerne le syndrome du canal carpien, pas Wartenberg qui touche le nerf radial."}]},
     {"q":"À propos de la maladie de DUPUYTREN, marquez la réponse correcte :","c":32,"options":[{"t":"Fibrose progressive de l'aponévrose palmaire, atteignant les 4e et 5e doigts","correct":true,"j":"Dupuytren : fibrose aponévrotique palmaire évoluant en cordes, touchant surtout les 4e et 5e doigts. Hommes > 50 ans, associée à alcool, tabac, diabète, VIH."},{"t":"Atteinte articulaire dégénérative des interphalangiennes proximales","j":"Décrit une arthrose digitale (nodules de Bouchard), pas la maladie de Dupuytren qui est aponévrotique."},{"t":"Inflammation chronique des gaines tendineuses fléchisseuses","j":"Décrit plutôt une ténosynovite ou un doigt à ressaut, pas la fibrose aponévrotique de Dupuytren."},{"t":"Atteinte préférentielle du pouce et de l'index par déviation latérale","j":"Faux : Dupuytren touche surtout les 4e et 5e doigts, pas le pouce ni l'index en premier."}]},
     {"q":"Concernant le test de FINKELSTEIN, quelle position est utilisée ?","c":32,"options":[{"t":"Pouce dans la paume, déviation ulnaire forcée du poignet","correct":true,"j":"Finkelstein : pouce replié dans la paume, doigts fermés dessus, déviation ulnaire forcée. Étire le long abducteur et court extenseur du pouce. Positif si douleur radiale (De Quervain)."},{"t":"Extension active du poignet contre résistance, coude fléchi 90°","j":"C'est le test de Cozen (épicondylite latérale), pas Finkelstein qui s'effectue au poignet."},{"t":"Compression directe de la tabatière anatomique sans mobilisation","j":"Évalue une fracture du scaphoïde, pas la ténosynovite de De Quervain."},{"t":"Flexion forcée du poignet maintenue 60 secondes pour reproduire la douleur","j":"C'est le test de Phalen (canal carpien), pas Finkelstein qui utilise la déviation ulnaire."}]},
     {"q":"Le nodule de NOTTA correspond à :","c":32,"options":[{"t":"Épaississement du tendon fléchisseur à la poulie A1, doigt à ressaut","correct":true,"j":"Nodule de Notta : épaississement nodulaire du tendon fléchisseur à la poulie A1, palpable, signant le doigt à ressaut. Clinique : blocage en flexion, libération en clic."},{"t":"Épaississement aponévrotique palmaire évoluant en corde fibreuse","j":"Description d'un nodule de Dupuytren, distinct du nodule de Notta (qui est tendineux)."},{"t":"Masse synoviale dorsale issue de la capsule articulaire du poignet","j":"Description d'un ganglion (kyste synovial) du poignet, pas du nodule de Notta."},{"t":"Nodule sous-cutané rhumatoïde aux interphalangiennes proximales","j":"Nodules rhumatoïdes dans la PR, distincts du nodule de Notta (qui est sur le tendon fléchisseur)."}]},
@@ -231984,8 +231480,8 @@ const QUESTIONS = {
     {"q":"Une patiente de 52 ans consulte pour douleurs latérales chroniques de la hanche, exacerbées par le décubitus latéral du côté douloureux. Vous palpez une douleur élective sur le grand trochanter. Quel diagnostic ?","c":5,"options":[{"t":"Syndrome douloureux trochantérien (tendinopathie des moyens fessiers + bursite)","correct":true,"j":"Tableau typique : femme 40-60 ans, douleur latérale, élective au décubitus latéral du côté douloureux, à la palpation du grand trochanter. Tendinopathie des moyens fessiers + bursite trochantérienne. Traitement conservateur en première intention, infiltrations possibles."},{"t":"Coxarthrose débutante","j":"Donnerait une douleur INGUINALE mécanique, pas latérale. Et limitation précoce de la rotation interne, pas une douleur élective à la palpation latérale."},{"t":"Méralgie paresthésique (nerf cutané latéral de la cuisse)","j":"Donne des paresthésies de la face antéro-latérale de la cuisse, pas une douleur localisée au grand trochanter ni aggravée au décubitus."},{"t":"Hernie inguinale étranglée","j":"Tableau aigu chirurgical sans rapport avec une douleur trochantérienne chronique."}]},
     {"q":"Un homme de 50 ans consulte pour un claquement audible et palpable de la hanche lors du passage de la flexion à l'extension. Vous évoquez une hanche à ressort interne. Quelle structure est en cause ?","c":5,"options":[{"t":"Tendon du psoas glissant sur le petit trochanter (ou éminence iliopectinée)","correct":true,"j":"Hanche à ressort INTERNE (extra-articulaire interne) : claquement du tendon du psoas sur le petit trochanter ou l'éminence iliopectinée, lors du passage flexion → extension. À distinguer de la hanche à ressort externe (TFL sur grand trochanter) et intra-articulaire (corps libre)."},{"t":"Tenseur du fascia lata glissant sur le grand trochanter","j":"Description de la hanche à ressort EXTERNE, qui apparaît plutôt de l'extension à la flexion. Pas le tableau interne décrit."},{"t":"Corps libre intra-articulaire dans la cavité acétabulaire","j":"Hanche à ressort INTRA-articulaire : claquement plus profond, mécanique articulaire vraie. Pas extra-articulaire."},{"t":"Rupture partielle du tendon du droit fémoral","j":"Donnerait une douleur antérieure à la contraction résistée, pas un claquement reproductible avec le mouvement."}]},
     {"q":"Vous examinez un patient suspect de coxarthrose débutante. Quel paramètre de mobilité articulaire est précocement et systématiquement limité ?","c":5,"options":[{"t":"Rotation interne en flexion de hanche","correct":true,"j":"La rotation interne (normale ~30-40°) est le mouvement le plus précocement et systématiquement limité dans toutes les pathologies dégénératives et inflammatoires de hanche. Met en contrainte les structures antéro-supérieures. À évaluer hanche fléchie à 90°."},{"t":"Rotation externe en flexion de hanche","j":"Conservée plus longtemps que l'interne. Pas le paramètre précocement limité."},{"t":"Flexion de hanche en décubitus dorsal","j":"Préservée relativement longtemps. Se limite tardivement dans l'évolution arthrosique."},{"t":"Abduction de hanche pure","j":"Peut être limitée à un stade avancé, mais ce n'est pas le paramètre le plus précoce ni le plus discriminant."}]},
-    {"q":"Un patient de 28 ans présente une fracture du col du péroné après un choc latéral direct sur le genou en valgus. À l'examen, vous suspectez une lésion nerveuse. Quel déficit clinique recherchez-vous en priorité ?","c":6,"options":[{"t":"Steppage du pied avec perte de la dorsiflexion (nerf fibulaire commun)","correct":true,"j":"Le nerf fibulaire commun contourne le col du péroné, exposé en cas de fracture. Lésion → steppage (déficit des releveurs du pied : tibial antérieur, extenseurs des orteils) + déficit sensitif antéro-latéral de jambe et dos du pied."},{"t":"Paresthésie plantaire (nerf tibial postérieur)","j":"Le nerf tibial postérieur descend en médial, derrière la malléole médiale. Sans rapport avec le col du péroné qui est latéral."},{"t":"Faiblesse des adducteurs (nerf obturateur)","j":"Le nerf obturateur passe au niveau du bassin et innerve les adducteurs de hanche. Pas concerné par une fracture du col du péroné."},{"t":"Anesthésie de la face médiale du genou (nerf saphène)","j":"Le nerf saphène est une branche purement sensitive du fémoral, parcourant la face médiale du genou/jambe. Pas exposée au col du péroné qui est latéral."}]},
-    {"q":"Vous expliquez à un étudiant pourquoi la rotule augmente l'efficacité du quadriceps. Quel est l'ordre de grandeur du gain enseigné, et par quel mécanisme ?","c":8,"options":[{"t":"Environ +40 % d'efficacité, en éloignant les tendons de l'axe de rotation et en augmentant le bras de levier","correct":true,"j":"La rotule augmente le bras de levier du quadriceps d'environ 40 %. En s'interposant entre le tendon quadricipital et le tendon rotulien, elle éloigne ces tendons de l'axe articulaire fémoro-tibial, augmentant le moment de force pour une même tension musculaire."},{"t":"Environ +10 %, en lubrifiant le glissement tendineux","j":"Sous-estimation et mécanisme erroné : la rotule agit par bras de levier mécanique, pas par lubrification."},{"t":"Environ +80 %, en réduisant la friction tibio-fémorale","j":"Surestimation et confusion : la rotule n'agit pas sur la friction tibio-fémorale, mais sur le bras de levier du quadriceps."},{"t":"Aucune influence — purement protecteur","j":"Faux : la rotule a un rôle biomécanique majeur. Une patellectomie diminue significativement la force d'extension du genou."}]},
+    {"q":"Un patient de 28 ans présente une fracture du col du péroné après un choc latéral direct sur le genou en valgus. À l'examen, vous suspectez une lésion nerveuse. Quel déficit clinique recherchez-vous en priorité ?","c":[6,35],"options":[{"t":"Steppage du pied avec perte de la dorsiflexion (nerf fibulaire commun)","correct":true,"j":"Le nerf fibulaire commun contourne le col du péroné, exposé en cas de fracture. Lésion → steppage (déficit des releveurs du pied : tibial antérieur, extenseurs des orteils) + déficit sensitif antéro-latéral de jambe et dos du pied."},{"t":"Paresthésie plantaire (nerf tibial postérieur)","j":"Le nerf tibial postérieur descend en médial, derrière la malléole médiale. Sans rapport avec le col du péroné qui est latéral."},{"t":"Faiblesse des adducteurs (nerf obturateur)","j":"Le nerf obturateur passe au niveau du bassin et innerve les adducteurs de hanche. Pas concerné par une fracture du col du péroné."},{"t":"Anesthésie de la face médiale du genou (nerf saphène)","j":"Le nerf saphène est une branche purement sensitive du fémoral, parcourant la face médiale du genou/jambe. Pas exposée au col du péroné qui est latéral."}]},
+    {"q":"Vous expliquez à un étudiant pourquoi la rotule augmente l'efficacité du quadriceps. Quel est l'ordre de grandeur du gain enseigné, et par quel mécanisme ?","c":[6,8],"options":[{"t":"Environ +40 % d'efficacité, en éloignant les tendons de l'axe de rotation et en augmentant le bras de levier","correct":true,"j":"La rotule augmente le bras de levier du quadriceps d'environ 40 %. En s'interposant entre le tendon quadricipital et le tendon rotulien, elle éloigne ces tendons de l'axe articulaire fémoro-tibial, augmentant le moment de force pour une même tension musculaire."},{"t":"Environ +10 %, en lubrifiant le glissement tendineux","j":"Sous-estimation et mécanisme erroné : la rotule agit par bras de levier mécanique, pas par lubrification."},{"t":"Environ +80 %, en réduisant la friction tibio-fémorale","j":"Surestimation et confusion : la rotule n'agit pas sur la friction tibio-fémorale, mais sur le bras de levier du quadriceps."},{"t":"Aucune influence — purement protecteur","j":"Faux : la rotule a un rôle biomécanique majeur. Une patellectomie diminue significativement la force d'extension du genou."}]},
     {"q":"Aux urgences, un motard de 32 ans présente après chute une douleur intense au genou avec déformation. Les pouls pédieux sont abolis. Vous suspectez une luxation du genou avec atteinte de l'artère poplitée. Au-delà de quel délai d'ischémie l'amputation devient-elle quasi inévitable ?","c":7,"options":[{"t":"6 heures","correct":true,"j":"Délai limite enseigné : 6 heures d'ischémie chaude. Au-delà, les lésions musculo-nerveuses sont irréversibles et le risque d'amputation est majeur. D'où l'urgence absolue : réduction immédiate (avant même la radio) + revascularisation chirurgicale."},{"t":"12 heures","j":"Trop tardif. Au-delà de 6 h, les muscles entrent en nécrose irréversible."},{"t":"24 heures","j":"Très largement trop tardif. À 24 h, l'amputation est quasi systématique."},{"t":"3 heures","j":"Plus strict que le standard enseigné. Le seuil retenu est 6 h, pas 3 h."}]},
     {"q":"Un skieur de 25 ans présente une luxation du genou par hyperextension forcée. Selon la gradation enseignée, à environ 30° d'hyperextension, quelle structure est typiquement lésée ?","c":7,"options":[{"t":"LCP (ligament croisé postérieur)","correct":true,"j":"Gradation enseignée par degré d'hyperextension : 10° → LCA (premier touché car antérieur, frein de la translation antérieure) ; 30° → LCP ; 50° → artère poplitée (lésion vasculaire majeure)."},{"t":"LCA isolé","j":"Le LCA cède en premier dès ~10° d'hyperextension. À 30°, le LCA est déjà rompu et c'est le LCP qui est atteint."},{"t":"Artère poplitée","j":"L'artère poplitée est lésée à 50° d'hyperextension, pas à 30°. Urgence vasculaire absolue à ce stade."},{"t":"Ligament collatéral médial","j":"Le LCM est lésé en valgus forcé, pas en hyperextension pure. Pas la gradation décrite."}]},
     {"q":"Un homme de 45 ans, en rattrapant une chute, ressent un craquement brutal au genou. À l'examen, il ne peut plus étendre activement le genou, la rotule est ascensionnée et un gap est palpable sous la rotule. Quel diagnostic ?","c":8,"options":[{"t":"Rupture du tendon rotulien","correct":true,"j":"Rupture du tendon rotulien : la rotule monte (patella alta) car le quadriceps tire vers le haut sans frein distal. Gap palpable SOUS la rotule. Extension active impossible. À différencier de la rupture quadricipitale (rotule basse, gap au-dessus)."},{"t":"Rupture du tendon quadricipital","j":"Inverse : rupture quadricipitale → rotule DESCEND (patella baja), gap palpable AU-DESSUS de la rotule. Pas le tableau décrit."},{"t":"Fracture transversale de la rotule","j":"Mécanisme similaire (contraction violente), mais à l'examen on palperait un espace ENTRE deux fragments osseux dans la rotule, pas un gap sous la rotule intacte."},{"t":"Luxation fémoro-patellaire","j":"Donne une déformation avec rotule visiblement déplacée latéralement, douleur intense, mais pas de gap tendineux. Réduction souvent spontanée."}]},
@@ -232046,7 +231542,7 @@ const QUESTIONS = {
     {"q":"Un joueur de tennis amateur de 45 ans consulte pour douleur latérale du coude droit depuis 3 mois, aggravée par la préhension forte et l'extension du poignet. Vous suspectez une épicondylite latérale. Quel test reproduit le mieux la douleur ?","c":27,"options":[{"t":"Cozen — extension résistée du poignet, coude fléchi à 90°","correct":true,"j":"Cozen : coude à 90°, extension du poignet contre résistance → reproduit la douleur épicondylienne latérale. Très sensible. Compléter avec Maudsley (extension résistée du 3e doigt, plus spécifique de l'extenseur commun) et Mill (étirement passif des extenseurs)."},{"t":"Test de Froment — adduction résistée du pouce","j":"Froment évalue le nerf ULNAIRE (faiblesse de l'adducteur du pouce). Sans rapport avec l'épicondylite latérale."},{"t":"Test de Phalen — flexion soutenue des poignets","j":"Phalen évalue le syndrome du canal carpien (compression du nerf médian). Pas pour l'épicondylite."},{"t":"Test de Yergason — supination résistée, coude à 90°","j":"Yergason teste le LONG BICEPS (tendinopathie ou instabilité). Pas pour l'épicondylite latérale."}]},
     {"q":"Un patient de 38 ans présente une douleur latérale du coude diffuse, plus profonde que typique de l'épicondylite, à 5 cm sous l'épicondyle. Vous évoquez un syndrome du tunnel radial (arcade de Frohse). Quelle est la conduite et l'anatomie en cause ?","c":27,"options":[{"t":"Compression du nerf interosseux postérieur entre les deux insertions du muscle supinateur (arcade de Frohse) — déficit moteur des extenseurs des doigts sans poignet tombant","correct":true,"j":"Tunnel radial / arcade de Frohse : le nerf interosseux postérieur (branche profonde du radial) passe entre les deux chefs du muscle supinateur. Compression → déficit des extenseurs des doigts, MAIS PAS du poignet (les extenseurs radiaux du carpe naissent en amont). Pas de poignet tombant complet. Distractor proche de l'épicondylite (souvent associé)."},{"t":"Poignet tombant complet par compression du nerf radial proximal","j":"Le poignet tombant complet signe une atteinte plus PROXIMALE (gouttière humérale). À l'arcade de Frohse, les extenseurs radiaux du carpe sont épargnés."},{"t":"Compression du nerf ulnaire au coude (tunnel cubital)","j":"Tunnel cubital = nerf ULNAIRE, en MÉDIAL du coude. Donne des paresthésies des 4e-5e doigts. Pas le tableau latéral décrit."},{"t":"Bursite olécrânienne profonde","j":"Bursite olécrânienne = inflammation de la bourse postérieure du coude. Pas une compression nerveuse latérale."}]},
     {"q":"Un développeur de 48 ans, qui dort souvent le coude fléchi, présente des paresthésies du 5e doigt et de la moitié ulnaire du 4e doigt, aggravées la nuit. À l'examen, signe de Tinel positif derrière l'épicondyle médial. Quel diagnostic et quels signes recherchez-vous ?","c":27,"options":[{"t":"Compression du nerf ulnaire au tunnel cubital — griffe ulnaire (4e-5e doigts) + signe de Froment positif","correct":true,"j":"Compression ulnaire au tunnel cubital : passage du nerf derrière l'épicondyle médial, comprimé en flexion prolongée (sommeil). Paresthésies 5e + moitié ulnaire 4e doigt, signe de Tinel +. Tardivement : griffe ulnaire (interosseux + lombricaux 4-5 déficitaires → MCP étendue + IP fléchie en 4-5) + signe de Froment positif (adducteur du pouce faible)."},{"t":"Syndrome du canal carpien — paresthésies des 3 premiers doigts","j":"Canal carpien = nerf MÉDIAN, paresthésies des 3 premiers doigts (et moitié RADIALE du 4e), pas du 5e. Tableau différent."},{"t":"Syndrome de Kiloh-Nevin — déficit moteur pur de la pince OK","j":"Kiloh-Nevin : compression du nerf INTEROSSEUX ANTÉRIEUR (branche motrice du médian), pas du nerf ulnaire. Pas de paresthésies. Tableau différent."},{"t":"Tendinopathie du fléchisseur ulnaire du carpe","j":"Donnerait une douleur localisée sur le tendon, pas des paresthésies des 4e-5e doigts ni un signe de Tinel positif."}]},
-    {"q":"Vous examinez un patient suspect d'entorse de l'articulation interphalangienne proximale (IPP). Quelles structures forment la « boîte en 3 coins » qui stabilise cette articulation ?","c":31,"options":[{"t":"Ligament collatéral médial + ligament collatéral latéral + plaque palmaire (volaire)","correct":true,"j":"Boîte en 3 coins : concept de stabilité de l'IPP = LCL médial + LCL latéral + plaque palmaire (fibrocartilage palmaire). La plaque palmaire se lèse en hyperextension forcée → instabilité. Si 3 « coins » cassés → instabilité majeure, luxation possible."},{"t":"Bandelette centrale + 2 bandelettes latérales du tendon extenseur","j":"Décrit l'appareil EXTENSEUR du doigt, pas les stabilisateurs articulaires de la boîte en 3 coins."},{"t":"Poulies A2 + A4 + tendon fléchisseur","j":"Décrit le système de poulies des fléchisseurs (importance mécanique pour le glissement), pas les stabilisateurs articulaires."},{"t":"Capsule + ligament annulaire + plaque dorsale","j":"Le « ligament annulaire » et la « plaque dorsale » ne sont pas des structures distinctes de la boîte en 3 coins enseignée."}]},
+    {"q":"Vous examinez un patient suspect d'entorse de l'articulation interphalangienne proximale (IPP). Quelles structures forment la « boîte en 3 coins » qui stabilise cette articulation ?","c":[28,31],"options":[{"t":"Ligament collatéral médial + ligament collatéral latéral + plaque palmaire (volaire)","correct":true,"j":"Boîte en 3 coins : concept de stabilité de l'IPP = LCL médial + LCL latéral + plaque palmaire (fibrocartilage palmaire). La plaque palmaire se lèse en hyperextension forcée → instabilité. Si 3 « coins » cassés → instabilité majeure, luxation possible."},{"t":"Bandelette centrale + 2 bandelettes latérales du tendon extenseur","j":"Décrit l'appareil EXTENSEUR du doigt, pas les stabilisateurs articulaires de la boîte en 3 coins."},{"t":"Poulies A2 + A4 + tendon fléchisseur","j":"Décrit le système de poulies des fléchisseurs (importance mécanique pour le glissement), pas les stabilisateurs articulaires."},{"t":"Capsule + ligament annulaire + plaque dorsale","j":"Le « ligament annulaire » et la « plaque dorsale » ne sont pas des structures distinctes de la boîte en 3 coins enseignée."}]},
     {"q":"Vous immobilisez la main d'un patient en « position intrinsèque plus ». Quelle est cette position et pourquoi est-elle protectrice ?","c":28,"options":[{"t":"MCP en flexion 60-90° + IP en extension complète — limite la raideur ligamentaire","correct":true,"j":"Position intrinsèque plus (= position d'immobilisation protectrice de la main) : MCP en flexion 60-90° + IPP/IPD en extension complète + pouce en opposition. Met les ligaments collatéraux des MCP en TENSION (évite leur rétraction), préserve la mobilité ultérieure. Position de référence dans les attelles post-traumatiques de la main."},{"t":"MCP en extension + IP en flexion — pour étirer les fléchisseurs","j":"Inverse : cette position raidit les MCP (rétraction des collatéraux car détendus en extension) et raidit les fléchisseurs. C'est la position « intrinsèque MOINS », contraire à ce qu'on cherche."},{"t":"Toutes les articulations en flexion maximale","j":"Position de poing fermé : provoque une rétraction articulaire majeure et une perte de fonction. À éviter en immobilisation."},{"t":"Toutes les articulations en extension complète","j":"Position « plat » : MCP en extension favorise la rétraction des collatéraux et la raideur. Pas protectrice."}]},
     {"q":"Un jeune homme de 24 ans chute sur la main en extension (FOOSH). Il présente une douleur de la tabatière anatomique et au tubercule du scaphoïde en palmaire. La radio initiale est normale. Quelle est la conduite ?","c":30,"options":[{"t":"Immobiliser dans un plâtre incluant le pouce 10 jours puis refaire une radio (suspicion de fracture du scaphoïde)","correct":true,"j":"Suspicion de fracture du scaphoïde (le plus fréquent du carpe, 70 %). Mécanisme typique : FOOSH chez le jeune homme. Le trait de fracture peut être invisible à la radio initiale. Conduite : immobilisation incluant le pouce 10 jours puis nouvelle radio, ou IRM/scanner précoce. Risque de nécrose avasculaire par vascularisation rétrograde si non immobilisé."},{"t":"Pas d'immobilisation, simple antalgique et surveillance","j":"Dangereux : si fracture méconnue, risque de pseudarthrose et de nécrose avasculaire par mauvaise vascularisation rétrograde du pôle proximal."},{"t":"Chirurgie immédiate par vis de Herbert","j":"La chirurgie est indiquée pour les fractures DÉPLACÉES ou du 1/3 PROXIMAL confirmées. Pas en première intention sur suspicion sans confirmation."},{"t":"Bandage simple et rééducation immédiate","j":"Aggraverait la fracture méconnue. Pas d'attitude correcte sur une suspicion de scaphoïde."}]},
     {"q":"Pourquoi le pôle PROXIMAL du scaphoïde est-il particulièrement à risque de nécrose avasculaire en cas de fracture ?","c":30,"options":[{"t":"Vascularisation rétrograde — les artères entrent par la zone DISTALE et remontent vers la proximale","correct":true,"j":"Scaphoïde : vascularisation rétrograde, l'apport sanguin entre par le pôle DISTAL (artère scapho-trapézienne) et remonte vers le pôle proximal. Une fracture en milieu d'os interrompt cet apport, exposant le fragment PROXIMAL à la nécrose avasculaire. Plus la fracture est proximale, plus le risque est élevé."},{"t":"Vascularisation antérograde unique, mais os très fragile","j":"Inverse : c'est précisément la vascularisation RÉTROGRADE qui rend le pôle proximal vulnérable."},{"t":"Compression chronique par le radius distal","j":"Le radius distal protège le scaphoïde, ne le comprime pas anormalement. Le facteur clé est la vascularisation."},{"t":"Forte insertion musculaire qui dévascularise après fracture","j":"Le scaphoïde n'a quasiment pas d'insertion musculaire. Le mécanisme est purement vasculaire (rétrograde)."}]},
@@ -256932,25 +256428,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Le signe de Froment indique une atteinte :",
-   "c": 4,
-   "options": [
-    {
-     "t": "A) Du nerf médian",
-     "j": "Le nerf médian assure l'opposition du pouce et la flexion ; son atteinte donne le signe du serment ou la main du prédicateur, pas le signe de Froment."
-    },
-    {
-     "t": "B) Du nerf radial",
-     "j": "Le nerf radial commande l'extension du poignet et des doigts ; son atteinte donne le wrist drop, sans rapport avec le signe de Froment."
-    },
-    {
-     "t": "C) Du nerf ulnaire",
-     "correct": true,
-     "j": "Le signe de Froment teste l'adducteur du pouce, innervé par le nerf ulnaire ; en cas de paralysie, le sujet compense par le long fléchisseur du pouce (médian) en fléchissant la phalange distale pour tenir une feuille."
-    }
-   ]
-  },
+  {"q":"Le signe de Froment indique une atteinte :","c":[4,6],"options":[{"t":"A) Du nerf médian","j":"Le nerf médian assure l'opposition du pouce et la flexion ; son atteinte donne le signe du serment ou la main du prédicateur, pas le signe de Froment."},{"t":"B) Du nerf radial","j":"Le nerf radial commande l'extension du poignet et des doigts ; son atteinte donne le wrist drop, sans rapport avec le signe de Froment."},{"t":"C) Du nerf ulnaire","correct":true,"j":"Le signe de Froment teste l'adducteur du pouce, innervé par le nerf ulnaire ; en cas de paralysie, le sujet compense par le long fléchisseur du pouce (médian) en fléchissant la phalange distale pour tenir une feuille."}]},
   {
    "q": "La neuropathie radiale entraîne typiquement :",
    "c": 4,
@@ -256970,25 +256448,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La pseudociatique se distingue par:",
-   "c": 4,
-   "options": [
-    {
-     "t": "A) Déficit moteur et réflexes altérés",
-     "j": "Un déficit moteur et une altération des réflexes signent une véritable atteinte radiculaire (vraie sciatique), pas une pseudociatique."
-    },
-    {
-     "t": "B) Douleur non dermatomérique sans déficit neurologique objectif",
-     "correct": true,
-     "j": "La pseudociatique (souvent d'origine myofasciale, syndrome du piriforme, articulation sacro-iliaque) donne une douleur projetée non systématisée à un dermatome et sans déficit neurologique objectif."
-    },
-    {
-     "t": "C) Signe de Lasègue positif",
-     "j": "Le signe de Lasègue positif évoque une irritation radiculaire vraie (hernie discale), donc une sciatique authentique et non une pseudociatique."
-    }
-   ]
-  },
+  {"q":"La pseudociatique se distingue par:","c":[4,15],"options":[{"t":"A) Déficit moteur et réflexes altérés","j":"Un déficit moteur et une altération des réflexes signent une véritable atteinte radiculaire (vraie sciatique), pas une pseudociatique."},{"t":"B) Douleur non dermatomérique sans déficit neurologique objectif","correct":true,"j":"La pseudociatique (souvent d'origine myofasciale, syndrome du piriforme, articulation sacro-iliaque) donne une douleur projetée non systématisée à un dermatome et sans déficit neurologique objectif."},{"t":"C) Signe de Lasègue positif","j":"Le signe de Lasègue positif évoque une irritation radiculaire vraie (hernie discale), donc une sciatique authentique et non une pseudociatique."}]},
   {
    "q": "Le syndrome du tunnel tarsien correspond à :",
    "c": 4,
@@ -257008,25 +256468,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Le syndrome post-réanimation (post-ICU) ou d'immobilisation inclut :",
-   "c": 11,
-   "options": [
-    {
-     "t": "A) Séquelles physiques, cognitives et psychologiques",
-     "correct": true,
-     "j": "Le syndrome post-réanimation (PICS) associe des séquelles physiques (faiblesse, déconditionnement), cognitives (troubles mnésiques, exécutifs) et psychologiques (anxiété, dépression, état de stress post-traumatique)."
-    },
-    {
-     "t": "B) Neuromyopathie de réanimation et déconditionnement, sans atteinte cognitive ni psychologique",
-     "j": "La neuromyopathie et le déconditionnement font partie du tableau, mais le PICS comporte aussi un volet cognitif et psychologique; le restreindre à la sphère physique est incomplet."
-    },
-    {
-     "t": "C) Troubles cognitifs et psychologiques sans retentissement musculaire durable",
-     "j": "Les troubles cognitifs et psychologiques existent, mais le PICS comprend une composante physique majeure (faiblesse acquise, amyotrophie) durable; l'écarter est inexact."
-    }
-   ]
-  },
+  {"q":"Le syndrome post-réanimation (post-ICU) ou d'immobilisation inclut :","c":17,"options":[{"t":"A) Séquelles physiques, cognitives et psychologiques","correct":true,"j":"Le syndrome post-réanimation (PICS) associe des séquelles physiques (faiblesse, déconditionnement), cognitives (troubles mnésiques, exécutifs) et psychologiques (anxiété, dépression, état de stress post-traumatique)."},{"t":"B) Neuromyopathie de réanimation et déconditionnement, sans atteinte cognitive ni psychologique","j":"La neuromyopathie et le déconditionnement font partie du tableau, mais le PICS comporte aussi un volet cognitif et psychologique; le restreindre à la sphère physique est incomplet."},{"t":"C) Troubles cognitifs et psychologiques sans retentissement musculaire durable","j":"Les troubles cognitifs et psychologiques existent, mais le PICS comprend une composante physique majeure (faiblesse acquise, amyotrophie) durable; l'écarter est inexact."}]},
   {
    "q": "Dans la compression du nerf cubital au coude, le traitement conservateur inclut :",
    "c": 4,
@@ -257046,82 +256488,10 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'alignement postural normal en position anatomique comprend :",
-   "c": 11,
-   "options": [
-    {
-     "t": "A) Occiput – D4/D5 – L4",
-     "j": "D4/D5 situe la référence trop haut sur le rachis dorsal et L4 dévie le repère en avant : la ligne de gravité ne passe pas par ces niveaux."
-    },
-    {
-     "t": "B) Occiput – D7/D8 – S2",
-     "correct": true,
-     "j": "La ligne de gravité (fil à plomb postural) passe par l'occiput, la région dorsale moyenne (D7/D8) et le sacrum (S2), repères classiques de l'alignement postural de profil."
-    },
-    {
-     "t": "C) Occiput – D10/D11 – S4",
-     "j": "D10/D11 place le repère dorsal trop bas et S4 trop caudal sur le sacrum : ce trio ne correspond pas à l'axe gravitaire postural de référence."
-    }
-   ]
-  },
-  {
-   "q": "La lordose cervicale normale correspond approximativement à :",
-   "c": 11,
-   "options": [
-    {
-     "t": "A) 1 TD à hauteur de C7",
-     "j": "La lordose cervicale physiologique n'est pas limitée à un seul travers de doigt en C7 ; cette valeur sous-estime largement la courbure cervicale normale."
-    },
-    {
-     "t": "B) 3 TD à hauteur de C4",
-     "correct": true,
-     "j": "La lordose cervicale physiologique correspond approximativement à environ 3 travers de doigt mesurés à hauteur de C4, sommet de la courbure cervicale."
-    },
-    {
-     "t": "C) 5 TD à hauteur de T1",
-     "j": "5 TD est excessif et T1 est à la jonction cervico-thoracique, hors du sommet de la lordose cervicale ; cette mesure ne correspond pas à la lordose cervicale normale."
-    }
-   ]
-  },
-  {
-   "q": "Lors du Sitting Knee Extension Test, le test est arrêté si :",
-   "c": 11,
-   "options": [
-    {
-     "t": "A) Le bassin bascule en antéversion et la lordose lombaire s'accentue",
-     "j": "L'antéversion du bassin avec accentuation de la lordose n'est pas le critère retenu : c'est au contraire la perte de la lordose (rétroversion compensatoire) qui signe la limite et impose l'arrêt."
-    },
-    {
-     "t": "B) La lordose lombaire est perdue ou douleur apparaît",
-     "correct": true,
-     "j": "Le test est arrêté dès que le patient perd la lordose lombaire (mécanisme compensatoire indiquant une tension neuroméningée/ischio-jambiers) ou qu'une douleur apparaît, signant la limite à évaluer."
-    },
-    {
-     "t": "C) Le pied se met en flexion plantaire spontanée",
-     "j": "La position du pied n'est pas un critère d'arrêt de ce test : on surveille la compensation lombaire et la reproduction des symptômes, pas la posture distale du pied."
-    }
-   ]
-  },
-  {
-   "q": "L'Ely's Test évalue principalement :",
-   "c": 11,
-   "options": [
-    {
-     "t": "A) Le quadriceps (flexion passive du genou en décubitus ventral)",
-     "correct": true,
-     "j": "L'Ely's test (Duncan-Ely) se réalise en décubitus ventral par flexion passive du genou : une rétraction du droit fémoral (quadriceps) provoque une élévation compensatoire du bassin, signant le test positif."
-    },
-    {
-     "t": "B) Les ischio-jambiers",
-     "j": "Les ischio-jambiers sont évalués par d'autres tests (ex. straight leg raise, popliteal angle), pas par la flexion passive du genou en procubitus qui met en tension le droit fémoral."
-    },
-    {
-     "t": "C) Le psoas-iliaque",
-     "j": "Le psoas-iliaque est testé notamment par le test de Thomas, et non par l'Ely's test qui cible le quadriceps/droit fémoral."
-    }
-   ]
-  },
+  {"q":"L'alignement postural normal en position anatomique comprend :","c":17,"options":[{"t":"A) Occiput – D4/D5 – L4","j":"D4/D5 situe la référence trop haut sur le rachis dorsal et L4 dévie le repère en avant : la ligne de gravité ne passe pas par ces niveaux."},{"t":"B) Occiput – D7/D8 – S2","correct":true,"j":"La ligne de gravité (fil à plomb postural) passe par l'occiput, la région dorsale moyenne (D7/D8) et le sacrum (S2), repères classiques de l'alignement postural de profil."},{"t":"C) Occiput – D10/D11 – S4","j":"D10/D11 place le repère dorsal trop bas et S4 trop caudal sur le sacrum : ce trio ne correspond pas à l'axe gravitaire postural de référence."}]},
+  {"q":"La lordose cervicale normale correspond approximativement à :","c":[11,17],"options":[{"t":"A) 1 TD à hauteur de C7","j":"La lordose cervicale physiologique n'est pas limitée à un seul travers de doigt en C7 ; cette valeur sous-estime largement la courbure cervicale normale."},{"t":"B) 3 TD à hauteur de C4","correct":true,"j":"La lordose cervicale physiologique correspond approximativement à environ 3 travers de doigt mesurés à hauteur de C4, sommet de la courbure cervicale."},{"t":"C) 5 TD à hauteur de T1","j":"5 TD est excessif et T1 est à la jonction cervico-thoracique, hors du sommet de la lordose cervicale ; cette mesure ne correspond pas à la lordose cervicale normale."}]},
+  {"q":"Lors du Sitting Knee Extension Test, le test est arrêté si :","c":17,"options":[{"t":"A) Le bassin bascule en antéversion et la lordose lombaire s'accentue","j":"L'antéversion du bassin avec accentuation de la lordose n'est pas le critère retenu : c'est au contraire la perte de la lordose (rétroversion compensatoire) qui signe la limite et impose l'arrêt."},{"t":"B) La lordose lombaire est perdue ou douleur apparaît","correct":true,"j":"Le test est arrêté dès que le patient perd la lordose lombaire (mécanisme compensatoire indiquant une tension neuroméningée/ischio-jambiers) ou qu'une douleur apparaît, signant la limite à évaluer."},{"t":"C) Le pied se met en flexion plantaire spontanée","j":"La position du pied n'est pas un critère d'arrêt de ce test : on surveille la compensation lombaire et la reproduction des symptômes, pas la posture distale du pied."}]},
+  {"q":"L'Ely's Test évalue principalement :","c":17,"options":[{"t":"A) Le quadriceps (flexion passive du genou en décubitus ventral)","correct":true,"j":"L'Ely's test (Duncan-Ely) se réalise en décubitus ventral par flexion passive du genou : une rétraction du droit fémoral (quadriceps) provoque une élévation compensatoire du bassin, signant le test positif."},{"t":"B) Les ischio-jambiers","j":"Les ischio-jambiers sont évalués par d'autres tests (ex. straight leg raise, popliteal angle), pas par la flexion passive du genou en procubitus qui met en tension le droit fémoral."},{"t":"C) Le psoas-iliaque","j":"Le psoas-iliaque est testé notamment par le test de Thomas, et non par l'Ely's test qui cible le quadriceps/droit fémoral."}]},
   {
    "q": "La différence principale entre nociception et douleur est que :",
    "c": 3,
@@ -257274,25 +256644,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "En phase post-opératoire précoce après fracture du col du fémur, quel objectif thérapeutique est prioritaire ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "a. Restaurer d'emblée une marche autonome en appui complet sans aide technique.",
-     "j": "En phase précoce, la marche se fait sous protection (aide technique, appui adapté selon le montage chirurgical) ; exiger d'emblée un appui complet autonome est inadapté."
-    },
-    {
-     "t": "b. Prévenir les complications thromboemboliques, maintenir le tonus musculaire par contractions isométriques et débuter des mobilisations prudentes.",
-     "correct": true,
-     "j": "Objectifs prioritaires de la phase post-opératoire précoce : prévention thromboembolique, entretien musculaire isométrique et mobilisations prudentes pour limiter l'enraidissement."
-    },
-    {
-     "t": "c. Restaurer la proprioception fine et la pliométrie en vue d'une reprise sportive rapide.",
-     "j": "La proprioception fine et le travail pliométrique relèvent des phases tardives de rééducation, pas de la phase post-opératoire précoce d'une fracture du col fémoral."
-    }
-   ]
-  },
+  {"q":"En phase post-opératoire précoce après fracture du col du fémur, quel objectif thérapeutique est prioritaire ?","c":9,"options":[{"t":"a. Restaurer d'emblée une marche autonome en appui complet sans aide technique.","j":"En phase précoce, la marche se fait sous protection (aide technique, appui adapté selon le montage chirurgical) ; exiger d'emblée un appui complet autonome est inadapté."},{"t":"b. Prévenir les complications thromboemboliques, maintenir le tonus musculaire par contractions isométriques et débuter des mobilisations prudentes.","correct":true,"j":"Objectifs prioritaires de la phase post-opératoire précoce : prévention thromboembolique, entretien musculaire isométrique et mobilisations prudentes pour limiter l'enraidissement."},{"t":"c. Restaurer la proprioception fine et la pliométrie en vue d'une reprise sportive rapide.","j":"La proprioception fine et le travail pliométrique relèvent des phases tardives de rééducation, pas de la phase post-opératoire précoce d'une fracture du col fémoral."}]},
   {
    "q": "Parmi les tests orthopédiques suivants, lequel est le plus spécifique pour l'évaluation clinique d'une épicondylalgie latérale (tennis elbow) ?",
    "c": 14,
@@ -257331,25 +256683,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans la prévention et la rééducation des blessures de surcharge comme la périostite, la règle des 10 % signifie :",
-   "c": 2,
-   "options": [
-    {
-     "t": "a. Réduire systématiquement l'entraînement de 10 % chaque semaine.",
-     "j": "Faux : la règle des 10 % concerne une augmentation maximale progressive, pas une réduction systématique de la charge."
-    },
-    {
-     "t": "b. Ne jamais augmenter la charge d'entraînement hebdomadaire de plus de 10 % afin de limiter le risque de surcharge mécanique.",
-     "correct": true,
-     "j": "Vrai : la règle des 10 % stipule de ne pas augmenter le volume/la charge d'entraînement de plus de 10 % par semaine, afin de laisser le temps aux tissus de s'adapter et prévenir les blessures de surcharge (périostite, tendinopathies)."
-    },
-    {
-     "t": "c. Limiter le travail sur surface dure à seulement 10 % du volume total.",
-     "j": "Faux : la règle ne porte pas sur le pourcentage de travail sur surface dure mais sur la progressivité de l'augmentation de charge hebdomadaire."
-    }
-   ]
-  },
+  {"q":"Dans la prévention et la rééducation des blessures de surcharge comme la périostite, la règle des 10 % signifie :","c":8,"options":[{"t":"a. Réduire systématiquement l'entraînement de 10 % chaque semaine.","j":"Faux : la règle des 10 % concerne une augmentation maximale progressive, pas une réduction systématique de la charge."},{"t":"b. Ne jamais augmenter la charge d'entraînement hebdomadaire de plus de 10 % afin de limiter le risque de surcharge mécanique.","correct":true,"j":"Vrai : la règle des 10 % stipule de ne pas augmenter le volume/la charge d'entraînement de plus de 10 % par semaine, afin de laisser le temps aux tissus de s'adapter et prévenir les blessures de surcharge (périostite, tendinopathies)."},{"t":"c. Limiter le travail sur surface dure à seulement 10 % du volume total.","j":"Faux : la règle ne porte pas sur le pourcentage de travail sur surface dure mais sur la progressivité de l'augmentation de charge hebdomadaire."}]},
   {
    "q": "Concernant le conflit fémoro-acétabulaire (FAI), quelle affirmation est correcte ?",
    "c": 15,
@@ -257369,25 +256703,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "En utilisation standard des béquilles :",
-   "c": 18,
-   "options": [
-    {
-     "t": "a. La poignée doit être réglée pour laisser environ 30° de flexion du coude lors de la prise en main.",
-     "correct": true,
-     "j": "Vrai : le réglage correct implique une flexion du coude d'environ 15 à 30° (souvent cité à 30°) lorsque la main repose sur la poignée, permettant une poussée efficace."
-    },
-    {
-     "t": "b. La poignée doit être réglée pour laisser le coude en extension complète lors de la prise en main.",
-     "j": "Faux : un coude en extension complète empêche l'amortissement et la poussée efficace ; il faut conserver environ 15 à 30° de flexion."
-    },
-    {
-     "t": "c. La hauteur de l'appui axillaire doit être réglée pour reposer directement dans le creux de l'aisselle.",
-     "j": "Faux : l'appui axillaire doit rester 2 à 3 cm sous le creux de l'aisselle pour éviter la compression du paquet vasculo-nerveux (paralysie radiale axillaire)."
-    }
-   ]
-  },
+  {"q":"En utilisation standard des béquilles :","c":9,"options":[{"t":"a. La poignée doit être réglée pour laisser environ 30° de flexion du coude lors de la prise en main.","correct":true,"j":"Vrai : le réglage correct implique une flexion du coude d'environ 15 à 30° (souvent cité à 30°) lorsque la main repose sur la poignée, permettant une poussée efficace."},{"t":"b. La poignée doit être réglée pour laisser le coude en extension complète lors de la prise en main.","j":"Faux : un coude en extension complète empêche l'amortissement et la poussée efficace ; il faut conserver environ 15 à 30° de flexion."},{"t":"c. La hauteur de l'appui axillaire doit être réglée pour reposer directement dans le creux de l'aisselle.","j":"Faux : l'appui axillaire doit rester 2 à 3 cm sous le creux de l'aisselle pour éviter la compression du paquet vasculo-nerveux (paralysie radiale axillaire)."}]},
   {
    "q": "Quel test est considéré comme la référence clinique principale pour évaluer une instabilité antérieure du genou liée à une atteinte du LCA ?",
    "c": 16,
@@ -257407,44 +256723,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lorsqu'un patient utilise une seule béquille après chirurgie ou blessure du membre inférieur :",
-   "c": 16,
-   "options": [
-    {
-     "t": "a. Elle doit être portée du côté homolatéral au membre atteint pour soulager directement l'appui.",
-     "j": "Faux : porter la béquille du côté lésé ne reproduit pas l'alternance physiologique bras/jambe opposés et décharge mal le membre atteint."
-    },
-    {
-     "t": "b. Elle doit être portée du côté controlatéral au membre atteint afin d'optimiser la décharge mécanique.",
-     "correct": true,
-     "j": "Vrai : une béquille unique se porte du côté controlatéral (sain), reproduisant l'alternance physiologique bras/jambe opposés et déchargeant le membre lésé."
-    },
-    {
-     "t": "c. Elle doit avancer simultanément avec le membre sain, en opposition au membre atteint.",
-     "j": "Faux : la béquille controlatérale avance avec le membre atteint (et non avec le membre sain) pour assurer un appui de protection au moment où le membre lésé est sollicité."
-    }
-   ]
-  },
-  {
-   "q": "Dans la tendinopathie rotulienne :",
-   "c": 14,
-   "options": [
-    {
-     "t": "a. La douleur siège au pôle inférieur de la rotule, majorée par les charges tendineuses répétées.",
-     "correct": true,
-     "j": "Vrai : la tendinopathie rotulienne (jumper's knee) provoque une douleur typiquement à l'insertion proximale du tendon rotulien, au pôle inférieur de la rotule, majorée par les charges répétées (sauts)."
-    },
-    {
-     "t": "b. La douleur prédomine au pôle supérieur de la rotule, à l'insertion du tendon quadricipital.",
-     "j": "Faux : c'est la tendinopathie quadricipitale qui siège au pôle supérieur ; la tendinopathie rotulienne touche le pôle inférieur, insertion proximale du tendon rotulien."
-    },
-    {
-     "t": "c. Le renforcement excentrique progressif est contre-indiqué au profit du repos strict.",
-     "j": "Faux : comme pour les autres tendinopathies chroniques, le renforcement excentrique progressif est le traitement de référence ; le repos strict favorise le déconditionnement tendineux."
-    }
-   ]
-  },
+  {"q":"Lorsqu'un patient utilise une seule béquille après chirurgie ou blessure du membre inférieur :","c":9,"options":[{"t":"a. Elle doit être portée du côté homolatéral au membre atteint pour soulager directement l'appui.","j":"Faux : porter la béquille du côté lésé ne reproduit pas l'alternance physiologique bras/jambe opposés et décharge mal le membre atteint."},{"t":"b. Elle doit être portée du côté controlatéral au membre atteint afin d'optimiser la décharge mécanique.","correct":true,"j":"Vrai : une béquille unique se porte du côté controlatéral (sain), reproduisant l'alternance physiologique bras/jambe opposés et déchargeant le membre lésé."},{"t":"c. Elle doit avancer simultanément avec le membre sain, en opposition au membre atteint.","j":"Faux : la béquille controlatérale avance avec le membre atteint (et non avec le membre sain) pour assurer un appui de protection au moment où le membre lésé est sollicité."}]},
+  {"q":"Dans la tendinopathie rotulienne :","c":8,"options":[{"t":"a. La douleur siège au pôle inférieur de la rotule, majorée par les charges tendineuses répétées.","correct":true,"j":"Vrai : la tendinopathie rotulienne (jumper's knee) provoque une douleur typiquement à l'insertion proximale du tendon rotulien, au pôle inférieur de la rotule, majorée par les charges répétées (sauts)."},{"t":"b. La douleur prédomine au pôle supérieur de la rotule, à l'insertion du tendon quadricipital.","j":"Faux : c'est la tendinopathie quadricipitale qui siège au pôle supérieur ; la tendinopathie rotulienne touche le pôle inférieur, insertion proximale du tendon rotulien."},{"t":"c. Le renforcement excentrique progressif est contre-indiqué au profit du repos strict.","j":"Faux : comme pour les autres tendinopathies chroniques, le renforcement excentrique progressif est le traitement de référence ; le repos strict favorise le déconditionnement tendineux."}]},
   {
    "q": "La chondropathie fémoro-patellaire se manifeste typiquement par :",
    "c": 8,
@@ -258053,44 +257333,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la fibromyalgie selon le cours, quelle affirmation sur le diagnostic est exacte ?",
-   "c": 13,
-   "options": [
-    {
-     "t": "Le diagnostic est complètement clinique car la symptomatologie est subjective et il n'existe pas d'examen pour le confirmer",
-     "correct": true,
-     "j": "Correct : le cours indique que le diagnostic est complètement clinique, la symptomatologie étant subjective, sans examen de confirmation ni protocole de traitement établi."
-    },
-    {
-     "t": "Le diagnostic repose sur une biopsie musculaire et l'électromyographie",
-     "j": "Faux : biopsie musculaire et EMG sont des examens du diagnostic de la polymyosite, pas de la fibromyalgie qui est un diagnostic purement clinique."
-    },
-    {
-     "t": "Le diagnostic est confirmé par l'élévation de la phosphatase alcaline",
-     "j": "Faux : l'élévation de la phosphatase alcaline est un marqueur de la maladie de Paget, sans rapport avec la fibromyalgie."
-    }
-   ]
-  },
-  {
-   "q": "Sur le plan physiopathologique, comment le cours classe-t-il la douleur de la fibromyalgie ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Comme une douleur nociplastique liée à une sensibilisation centrale, avec excès de glutamate et de substance P",
-     "correct": true,
-     "j": "Correct : le cours présente la fibromyalgie comme un problème de sensibilisation centrale / douleur nociplastique, avec augmentation du glutamate et de la substance P, et précise que ce n'est pas une maladie musculosquelettique."
-    },
-    {
-     "t": "Comme une douleur nociceptive mécanique secondaire à une lésion articulaire",
-     "j": "Faux : le cours souligne au contraire que la fibromyalgie n'est pas une maladie du système musculosquelettique et relève de la douleur nociplastique, pas nociceptive mécanique."
-    },
-    {
-     "t": "Comme une douleur neuropathique périphérique par lésion d'un nerf",
-     "j": "Faux : la fibromyalgie est classée comme nociplastique/sensibilisation centrale, et non comme une douleur neuropathique par lésion d'un nerf périphérique."
-    }
-   ]
-  },
+  {"q":"Concernant la fibromyalgie selon le cours, quelle affirmation sur le diagnostic est exacte ?","c":12,"options":[{"t":"Le diagnostic est complètement clinique car la symptomatologie est subjective et il n'existe pas d'examen pour le confirmer","correct":true,"j":"Correct : le cours indique que le diagnostic est complètement clinique, la symptomatologie étant subjective, sans examen de confirmation ni protocole de traitement établi."},{"t":"Le diagnostic repose sur une biopsie musculaire et l'électromyographie","j":"Faux : biopsie musculaire et EMG sont des examens du diagnostic de la polymyosite, pas de la fibromyalgie qui est un diagnostic purement clinique."},{"t":"Le diagnostic est confirmé par l'élévation de la phosphatase alcaline","j":"Faux : l'élévation de la phosphatase alcaline est un marqueur de la maladie de Paget, sans rapport avec la fibromyalgie."}]},
+  {"q":"Sur le plan physiopathologique, comment le cours classe-t-il la douleur de la fibromyalgie ?","c":[3,12],"options":[{"t":"Comme une douleur nociplastique liée à une sensibilisation centrale, avec excès de glutamate et de substance P","correct":true,"j":"Correct : le cours présente la fibromyalgie comme un problème de sensibilisation centrale / douleur nociplastique, avec augmentation du glutamate et de la substance P, et précise que ce n'est pas une maladie musculosquelettique."},{"t":"Comme une douleur nociceptive mécanique secondaire à une lésion articulaire","j":"Faux : le cours souligne au contraire que la fibromyalgie n'est pas une maladie du système musculosquelettique et relève de la douleur nociplastique, pas nociceptive mécanique."},{"t":"Comme une douleur neuropathique périphérique par lésion d'un nerf","j":"Faux : la fibromyalgie est classée comme nociplastique/sensibilisation centrale, et non comme une douleur neuropathique par lésion d'un nerf périphérique."}]},
   {
    "q": "Selon le cours sur la douleur, quelle est la définition de l'allodynie ?",
    "c": 3,
@@ -258528,25 +257772,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon les caractéristiques de la fibromyalgie décrites dans le cours, quelle durée minimale et quel seuil de points douloureux sont retenus?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Douleur depuis au moins 3 mois et 11 points douloureux sur 18",
-     "correct": true,
-     "j": "Exact : le cours précise une douleur généralisée depuis au moins 3 mois et 11 points douloureux sur 18."
-    },
-    {
-     "t": "Douleur depuis au moins 6 mois et 9 points douloureux sur 18",
-     "j": "Faux : le cours retient une durée d'au moins 3 mois et un seuil de 11 points sur 18, et non 6 mois ni 9 points."
-    },
-    {
-     "t": "Douleur depuis au moins 3 mois et 18 points douloureux sur 18",
-     "j": "Faux : le seuil est de 11 points sur 18, et non la totalité des 18 points ; la durée de 3 mois est en revanche correcte."
-    }
-   ]
-  },
+  {"q":"Selon les caractéristiques de la fibromyalgie décrites dans le cours, quelle durée minimale et quel seuil de points douloureux sont retenus?","c":12,"options":[{"t":"Douleur depuis au moins 3 mois et 11 points douloureux sur 18","correct":true,"j":"Exact : le cours précise une douleur généralisée depuis au moins 3 mois et 11 points douloureux sur 18."},{"t":"Douleur depuis au moins 6 mois et 9 points douloureux sur 18","j":"Faux : le cours retient une durée d'au moins 3 mois et un seuil de 11 points sur 18, et non 6 mois ni 9 points."},{"t":"Douleur depuis au moins 3 mois et 18 points douloureux sur 18","j":"Faux : le seuil est de 11 points sur 18, et non la totalité des 18 points ; la durée de 3 mois est en revanche correcte."}]},
   {
    "q": "Dans la transmission des stimuli douloureux, le cours distingue les fibres nerveuses selon leur myélinisation et leur fonction. Quelle est la caractéristique des fibres C?",
    "c": 3,
@@ -258813,25 +258039,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Le test de Froment, utilisé pour explorer une atteinte du nerf cubital, est considéré positif lorsque le patient :",
-   "c": 4,
-   "options": [
-    {
-     "t": "Compense en fléchissant l'interphalangienne du pouce pour maintenir la prise d'une feuille",
-     "correct": true,
-     "j": "Exact : le cours décrit la positivité par une compensation en flexion de l'interphalangienne du pouce (effet de pince) pour retenir l'objet."
-    },
-    {
-     "t": "Est incapable de rapprocher le 5e doigt des autres doigts",
-     "j": "Faux : l'incapacité à rapprocher l'auriculaire correspond au signe de Wartenberg, pas au test de Froment."
-    },
-    {
-     "t": "Reproduit ses symptômes lors d'une flexion maintenue du poignet",
-     "j": "Faux : la reproduction des symptômes en flexion soutenue du poignet décrit le test de Phalen (tunnel carpien, nerf médian), pas le Froment qui teste l'adducteur du pouce (nerf cubital)."
-    }
-   ]
-  },
+  {"q":"Le test de Froment, utilisé pour explorer une atteinte du nerf cubital, est considéré positif lorsque le patient :","c":6,"options":[{"t":"Compense en fléchissant l'interphalangienne du pouce pour maintenir la prise d'une feuille","correct":true,"j":"Exact : le cours décrit la positivité par une compensation en flexion de l'interphalangienne du pouce (effet de pince) pour retenir l'objet."},{"t":"Est incapable de rapprocher le 5e doigt des autres doigts","j":"Faux : l'incapacité à rapprocher l'auriculaire correspond au signe de Wartenberg, pas au test de Froment."},{"t":"Reproduit ses symptômes lors d'une flexion maintenue du poignet","j":"Faux : la reproduction des symptômes en flexion soutenue du poignet décrit le test de Phalen (tunnel carpien, nerf médian), pas le Froment qui teste l'adducteur du pouce (nerf cubital)."}]},
   {
    "q": "Dans la paralysie complète du nerf médian, le cours décrit une déformation caractéristique de la main appelée :",
    "c": 4,
@@ -258870,44 +258078,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant le diagnostic de la fibromyalgie, que retient le cours ?",
-   "c": 11,
-   "options": [
-    {
-     "t": "Il est complètement clinique, sans examen permettant de le confirmer",
-     "correct": true,
-     "j": "Exact : le cours précise que le diagnostic est entièrement clinique, la symptomatologie étant subjective et sans examen confirmatif ni protocole de traitement établi."
-    },
-    {
-     "t": "Il repose sur la mise en évidence de points douloureux à la palpation avec biologie inflammatoire perturbée",
-     "j": "Faux : les points douloureux orientent cliniquement mais le cours insiste sur l'absence d'examen confirmatif ; la fibromyalgie ne s'accompagne pas d'un syndrome inflammatoire biologique."
-    },
-    {
-     "t": "Il est confirmé par l'élévation des enzymes musculaires à l'analyse de sang",
-     "j": "Faux : l'élévation des enzymes musculaires oriente vers la polymyosite ; dans la fibromyalgie le bilan biologique est normal et le diagnostic reste clinique."
-    }
-   ]
-  },
-  {
-   "q": "Sur le plan physiopathologique, le cours classe la fibromyalgie comme :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Un problème de sensibilisation centrale (douleur nociplastique)",
-     "correct": true,
-     "j": "Exact : le cours décrit une altération de la régulation centrale des voies de la douleur et conclut à une sensibilisation centrale / douleur nociplastique."
-    },
-    {
-     "t": "Une atteinte musculaire inflammatoire auto-immune",
-     "j": "Faux : l'atteinte musculaire inflammatoire auto-immune définit la polymyosite ; le cours affirme que la fibromyalgie n'est PAS une maladie du système musculosquelettique."
-    },
-    {
-     "t": "Une douleur neuropathique par lésion d'un nerf périphérique",
-     "j": "Faux : la douleur neuropathique suppose une lésion du système nerveux somatosensoriel ; la fibromyalgie relève d'une sensibilisation centrale (nociplastique), sans lésion nerveuse périphérique."
-    }
-   ]
-  },
+  {"q":"Concernant le diagnostic de la fibromyalgie, que retient le cours ?","c":12,"options":[{"t":"Il est complètement clinique, sans examen permettant de le confirmer","correct":true,"j":"Exact : le cours précise que le diagnostic est entièrement clinique, la symptomatologie étant subjective et sans examen confirmatif ni protocole de traitement établi."},{"t":"Il repose sur la mise en évidence de points douloureux à la palpation avec biologie inflammatoire perturbée","j":"Faux : les points douloureux orientent cliniquement mais le cours insiste sur l'absence d'examen confirmatif ; la fibromyalgie ne s'accompagne pas d'un syndrome inflammatoire biologique."},{"t":"Il est confirmé par l'élévation des enzymes musculaires à l'analyse de sang","j":"Faux : l'élévation des enzymes musculaires oriente vers la polymyosite ; dans la fibromyalgie le bilan biologique est normal et le diagnostic reste clinique."}]},
+  {"q":"Sur le plan physiopathologique, le cours classe la fibromyalgie comme :","c":[3,12],"options":[{"t":"Un problème de sensibilisation centrale (douleur nociplastique)","correct":true,"j":"Exact : le cours décrit une altération de la régulation centrale des voies de la douleur et conclut à une sensibilisation centrale / douleur nociplastique."},{"t":"Une atteinte musculaire inflammatoire auto-immune","j":"Faux : l'atteinte musculaire inflammatoire auto-immune définit la polymyosite ; le cours affirme que la fibromyalgie n'est PAS une maladie du système musculosquelettique."},{"t":"Une douleur neuropathique par lésion d'un nerf périphérique","j":"Faux : la douleur neuropathique suppose une lésion du système nerveux somatosensoriel ; la fibromyalgie relève d'une sensibilisation centrale (nociplastique), sans lésion nerveuse périphérique."}]},
   {
    "q": "Dans le diagnostic biologique de la maladie de Paget, quel marqueur sanguin le cours met-il en avant ?",
    "c": 13,
@@ -259136,25 +258308,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "D'après le cours, comment est posé le diagnostic de fibromyalgie ?",
-   "c": 11,
-   "options": [
-    {
-     "t": "Il est complètement clinique, sans examen confirmant le diagnostic",
-     "correct": true,
-     "j": "Le cours indique que le diagnostic est complètement clinique et qu'il n'existe pas d'examen pour le confirmer ni de protocole de traitement etabli."
-    },
-    {
-     "t": "Il est confirme par une electromyographie objectivant une atteinte musculaire",
-     "j": "L'EMG est normal dans la fibromyalgie ; il n'existe selon le cours aucun examen complementaire confirmant le diagnostic, qui reste purement clinique."
-    },
-    {
-     "t": "Il repose sur la mise en evidence d'un syndrome inflammatoire biologique",
-     "j": "Le bilan biologique (dont les marqueurs inflammatoires) est normal dans la fibromyalgie ; aucun examen ne confirme le diagnostic selon le cours, qui demeure clinique."
-    }
-   ]
-  },
+  {"q":"D'après le cours, comment est posé le diagnostic de fibromyalgie ?","c":12,"options":[{"t":"Il est complètement clinique, sans examen confirmant le diagnostic","correct":true,"j":"Le cours indique que le diagnostic est complètement clinique et qu'il n'existe pas d'examen pour le confirmer ni de protocole de traitement etabli."},{"t":"Il est confirme par une electromyographie objectivant une atteinte musculaire","j":"L'EMG est normal dans la fibromyalgie ; il n'existe selon le cours aucun examen complementaire confirmant le diagnostic, qui reste purement clinique."},{"t":"Il repose sur la mise en evidence d'un syndrome inflammatoire biologique","j":"Le bilan biologique (dont les marqueurs inflammatoires) est normal dans la fibromyalgie ; aucun examen ne confirme le diagnostic selon le cours, qui demeure clinique."}]},
   {
    "q": "Concernant la maladie de Paget osseuse, quelle anomalie biologique est citée dans le cours pour le diagnostic ?",
    "c": 13,
@@ -259459,25 +258613,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon la classification de Mason modifiée des fractures de la tête radiale, que caractérise le type II ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Une division osseuse déplacée de plus de 2 mm ou angulée, avec blocage mécanique possible de la rotation",
-     "correct": true,
-     "j": "Le cours définit le type II par un déplacement > 2 mm ou une angulation, avec blocage mécanique possible de la rotation de l'avant-bras."
-    },
-    {
-     "t": "Une fracture non déplacée ou déplacée de moins de 2 mm sans blocage mécanique",
-     "j": "Cette description correspond au type I, où la rotation n'est limitée que par la douleur."
-    },
-    {
-     "t": "Une fracture déplacée et comminutive de toute la tête radiale",
-     "j": "Cette description correspond au type III, non au type II."
-    }
-   ]
-  },
+  {"q":"Selon la classification de Mason modifiée des fractures de la tête radiale, que caractérise le type II ?","c":18,"options":[{"t":"Une division osseuse déplacée de plus de 2 mm ou angulée, avec blocage mécanique possible de la rotation","correct":true,"j":"Le cours définit le type II par un déplacement > 2 mm ou une angulation, avec blocage mécanique possible de la rotation de l'avant-bras."},{"t":"Une fracture non déplacée ou déplacée de moins de 2 mm sans blocage mécanique","j":"Cette description correspond au type I, où la rotation n'est limitée que par la douleur."},{"t":"Une fracture déplacée et comminutive de toute la tête radiale","j":"Cette description correspond au type III, non au type II."}]},
   {
    "q": "Selon l'hypothèse de Braak dans la maladie de Parkinson, indiquez la réponse correcte concernant la chronologie des stades.",
    "c": 7,
@@ -259877,25 +259013,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon les critères du cours, indiquez la réponse correcte concernant la fibromyalgie.",
-   "c": 7,
-   "options": [
-    {
-     "t": "Elle requiert 11 points douloureux sur 18 et une douleur présente depuis au moins 3 mois.",
-     "correct": true,
-     "j": "Exact : le cours exige 11 points douloureux sur 18 et une douleur depuis au moins 3 mois."
-    },
-    {
-     "t": "Elle requiert 9 points douloureux sur 18 et une douleur présente depuis au moins 6 mois.",
-     "j": "Faux : le cours mentionne 11 points sur 18 et un seuil de 3 mois, pas 9 points ni 6 mois."
-    },
-    {
-     "t": "Elle requiert 11 points douloureux sur 18 et une douleur présente depuis au moins 6 mois.",
-     "j": "Faux : le nombre de points (11/18) est correct mais le délai est d'au moins 3 mois, pas 6 mois."
-    }
-   ]
-  },
+  {"q":"Selon les critères du cours, indiquez la réponse correcte concernant la fibromyalgie.","c":12,"options":[{"t":"Elle requiert 11 points douloureux sur 18 et une douleur présente depuis au moins 3 mois.","correct":true,"j":"Exact : le cours exige 11 points douloureux sur 18 et une douleur depuis au moins 3 mois."},{"t":"Elle requiert 9 points douloureux sur 18 et une douleur présente depuis au moins 6 mois.","j":"Faux : le cours mentionne 11 points sur 18 et un seuil de 3 mois, pas 9 points ni 6 mois."},{"t":"Elle requiert 11 points douloureux sur 18 et une douleur présente depuis au moins 6 mois.","j":"Faux : le nombre de points (11/18) est correct mais le délai est d'au moins 3 mois, pas 6 mois."}]},
   {
    "q": "Indiquez la réponse correcte concernant la physiopathologie de la fibromyalgie selon le cours.",
    "c": 12,
@@ -260333,25 +259451,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Concernant la physiopathologie de la fibromyalgie, quels médiateurs excitateurs de la douleur sont prédominants selon le cours ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Le glutamate et la substance P",
-     "correct": true,
-     "j": "Exact : le cours souligne une prédominance du glutamate et de la substance P parmi les mécanismes excitateurs de la douleur dans la fibromyalgie."
-    },
-    {
-     "t": "La sérotonine et la noradrénaline",
-     "j": "Faux : les voies sérotoninergiques et noradrénergiques relèvent des mécanismes inhibiteurs déficitaires, et non des médiateurs excitateurs prédominants."
-    },
-    {
-     "t": "Les endorphines et les enképhalines",
-     "j": "Faux : ces opioïdes endogènes sont des modulateurs inhibiteurs de la douleur, pas des médiateurs excitateurs de la fibromyalgie."
-    }
-   ]
-  },
+  {"q":"Concernant la physiopathologie de la fibromyalgie, quels médiateurs excitateurs de la douleur sont prédominants selon le cours ?","c":[3,12],"options":[{"t":"Le glutamate et la substance P","correct":true,"j":"Exact : le cours souligne une prédominance du glutamate et de la substance P parmi les mécanismes excitateurs de la douleur dans la fibromyalgie."},{"t":"La sérotonine et la noradrénaline","j":"Faux : les voies sérotoninergiques et noradrénergiques relèvent des mécanismes inhibiteurs déficitaires, et non des médiateurs excitateurs prédominants."},{"t":"Les endorphines et les enképhalines","j":"Faux : ces opioïdes endogènes sont des modulateurs inhibiteurs de la douleur, pas des médiateurs excitateurs de la fibromyalgie."}]},
   {
    "q": "Concernant les caractéristiques cliniques de la douleur dans la fibromyalgie, quelle proposition est exacte selon le cours ?",
    "c": 12,
@@ -260485,25 +259585,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon la classification de Mason modifiée par Hotchkiss et Broberg-Morrey, à quel type correspond une fracture déplacée de plus de 2 mm de la tête radiale avec possible blocage mécanique de la rotation de l'avant-bras ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Le type II",
-     "correct": true,
-     "j": "Exact : le type II correspond à une division osseuse déplacée > 2 mm ou angulée, avec blocage mécanique possible."
-    },
-    {
-     "t": "Le type I",
-     "j": "Faux : le type I est non déplacé ou déplacé < 2 mm, sans blocage mécanique, seulement limité par la douleur."
-    },
-    {
-     "t": "Le type III",
-     "j": "Faux : le type III est une fracture déplacée ET comminutive de toute la tête radiale, plus sévère que le type II."
-    }
-   ]
-  },
+  {"q":"Selon la classification de Mason modifiée par Hotchkiss et Broberg-Morrey, à quel type correspond une fracture déplacée de plus de 2 mm de la tête radiale avec possible blocage mécanique de la rotation de l'avant-bras ?","c":18,"options":[{"t":"Le type II","correct":true,"j":"Exact : le type II correspond à une division osseuse déplacée > 2 mm ou angulée, avec blocage mécanique possible."},{"t":"Le type I","j":"Faux : le type I est non déplacé ou déplacé < 2 mm, sans blocage mécanique, seulement limité par la douleur."},{"t":"Le type III","j":"Faux : le type III est une fracture déplacée ET comminutive de toute la tête radiale, plus sévère que le type II."}]},
   {
    "q": "Concernant la fracture de l'olécrâne, quel mécanisme produit typiquement une fracture transversale ou oblique (le plus fréquent) ?",
    "c": 14,
@@ -260770,44 +259852,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, quel critère diagnostique caractérise la fibromyalgie en termes de points douloureux et de durée d'évolution ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Au moins 11 points douloureux sur 18, évoluant depuis au moins 3 mois",
-     "correct": true,
-     "j": "Exact : le cours retient 11 points douloureux sur 18 et une douleur évoluant depuis au moins 3 mois."
-    },
-    {
-     "t": "Au moins 18 points douloureux sur 18, évoluant depuis au moins 6 mois",
-     "j": "Faux : le seuil est de 11 points sur 18 (et non la totalité) et la durée requise est de 3 mois, pas 6 mois."
-    },
-    {
-     "t": "Au moins 9 points douloureux sur 11, évoluant depuis au moins 1 mois",
-     "j": "Faux : le cours décrit 18 points de référence avec un seuil de 11, et une durée de 3 mois, pas ces valeurs."
-    }
-   ]
-  },
-  {
-   "q": "Selon les critères du cours, combien de points douloureux sur 18 sont requis dans la fibromyalgie ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "11 points sur 18",
-     "correct": true,
-     "j": "Correct : le cours retient 11 points douloureux sur 18."
-    },
-    {
-     "t": "9 points sur 18",
-     "j": "Faux : le cours indique 11/18, pas 9/18."
-    },
-    {
-     "t": "14 points sur 18",
-     "j": "Faux : le cours indique 11/18, pas 14/18."
-    }
-   ]
-  },
+  {"q":"Selon le cours, quel critère diagnostique caractérise la fibromyalgie en termes de points douloureux et de durée d'évolution ?","c":12,"options":[{"t":"Au moins 11 points douloureux sur 18, évoluant depuis au moins 3 mois","correct":true,"j":"Exact : le cours retient 11 points douloureux sur 18 et une douleur évoluant depuis au moins 3 mois."},{"t":"Au moins 18 points douloureux sur 18, évoluant depuis au moins 6 mois","j":"Faux : le seuil est de 11 points sur 18 (et non la totalité) et la durée requise est de 3 mois, pas 6 mois."},{"t":"Au moins 9 points douloureux sur 11, évoluant depuis au moins 1 mois","j":"Faux : le cours décrit 18 points de référence avec un seuil de 11, et une durée de 3 mois, pas ces valeurs."}]},
+  {"q":"Selon les critères du cours, combien de points douloureux sur 18 sont requis dans la fibromyalgie ?","c":12,"options":[{"t":"11 points sur 18","correct":true,"j":"Correct : le cours retient 11 points douloureux sur 18."},{"t":"9 points sur 18","j":"Faux : le cours indique 11/18, pas 9/18."},{"t":"14 points sur 18","j":"Faux : le cours indique 11/18, pas 14/18."}]},
   {
    "q": "Selon le cours, quel mécanisme physiopathologique sous-tend la douleur de la fibromyalgie ?",
    "c": 12,
@@ -261226,25 +260272,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, le signe de Froment, lors de l'atteinte du nerf cubital, se manifeste cliniquement par :",
-   "c": 4,
-   "options": [
-    {
-     "t": "Une flexion de l'articulation interphalangienne du pouce pour compenser la prise",
-     "correct": true,
-     "j": "Correct : le déficit de prise est compensé par une flexion de l'IP du pouce, signe de Froment positif."
-    },
-    {
-     "t": "Une incapacité à rapprocher l'auriculaire des autres doigts",
-     "j": "Faux : cela décrit le signe de Wartenberg, pas le signe de Froment."
-    },
-    {
-     "t": "Une reproduction des symptômes lors d'une déviation cubitale du poignet",
-     "j": "Faux : cela décrit le test de Phalen (tunnel carpien), pas le signe de Froment."
-    }
-   ]
-  },
+  {"q":"Selon le cours, le signe de Froment, lors de l'atteinte du nerf cubital, se manifeste cliniquement par :","c":6,"options":[{"t":"Une flexion de l'articulation interphalangienne du pouce pour compenser la prise","correct":true,"j":"Correct : le déficit de prise est compensé par une flexion de l'IP du pouce, signe de Froment positif."},{"t":"Une incapacité à rapprocher l'auriculaire des autres doigts","j":"Faux : cela décrit le signe de Wartenberg, pas le signe de Froment."},{"t":"Une reproduction des symptômes lors d'une déviation cubitale du poignet","j":"Faux : cela décrit le test de Phalen (tunnel carpien), pas le signe de Froment."}]},
   {
    "q": "Selon le cours, la douleur dans la SLA est décrite comme :",
    "c": 7,
@@ -261454,44 +260482,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, quel mécanisme physiopathologique central est au premier plan dans la fibromyalgie ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "Une altération de la régulation centrale des voies de la douleur (sensibilisation centrale)",
-     "correct": true,
-     "j": "Correct : la fibromyalgie repose sur une altération de la régulation centrale de la douleur, c'est un problème de sensibilisation centrale (douleur nociplastique)."
-    },
-    {
-     "t": "Une atteinte primitive et inflammatoire du muscle squelettique",
-     "j": "Faux : le cours précise que la fibromyalgie n'est PAS une maladie du système musculosquelettique."
-    },
-    {
-     "t": "Une démyélinisation des fibres nociceptives périphériques A-delta et C",
-     "j": "Faux : la démyélinisation périphérique évoque une atteinte neuropathique ; la fibromyalgie relève d'une sensibilisation centrale."
-    }
-   ]
-  },
-  {
-   "q": "Selon les critères présentés dans le cours, combien de points douloureux doivent être positifs pour évoquer une fibromyalgie ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "11 points douloureux sur 18",
-     "correct": true,
-     "j": "Correct : le cours retient 11 points douloureux sur 18, avec une douleur évoluant depuis au moins 3 mois."
-    },
-    {
-     "t": "9 points douloureux sur 18",
-     "j": "Faux : le seuil indiqué est de 11 sur 18, et non 9 sur 18."
-    },
-    {
-     "t": "11 points douloureux sur 14",
-     "j": "Faux : le total de points de référence est 18 (et non 14) ; le seuil est 11/18."
-    }
-   ]
-  },
+  {"q":"Selon le cours, quel mécanisme physiopathologique central est au premier plan dans la fibromyalgie ?","c":[3,12],"options":[{"t":"Une altération de la régulation centrale des voies de la douleur (sensibilisation centrale)","correct":true,"j":"Correct : la fibromyalgie repose sur une altération de la régulation centrale de la douleur, c'est un problème de sensibilisation centrale (douleur nociplastique)."},{"t":"Une atteinte primitive et inflammatoire du muscle squelettique","j":"Faux : le cours précise que la fibromyalgie n'est PAS une maladie du système musculosquelettique."},{"t":"Une démyélinisation des fibres nociceptives périphériques A-delta et C","j":"Faux : la démyélinisation périphérique évoque une atteinte neuropathique ; la fibromyalgie relève d'une sensibilisation centrale."}]},
+  {"q":"Selon les critères présentés dans le cours, combien de points douloureux doivent être positifs pour évoquer une fibromyalgie ?","c":12,"options":[{"t":"11 points douloureux sur 18","correct":true,"j":"Correct : le cours retient 11 points douloureux sur 18, avec une douleur évoluant depuis au moins 3 mois."},{"t":"9 points douloureux sur 18","j":"Faux : le seuil indiqué est de 11 sur 18, et non 9 sur 18."},{"t":"11 points douloureux sur 14","j":"Faux : le total de points de référence est 18 (et non 14) ; le seuil est 11/18."}]},
   {
    "q": "Concernant les types de maladie de Charcot-Marie-Tooth, lequel des énoncés est exact ?",
    "c": 4,
@@ -261682,25 +260674,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans la classification de Mason (modifiée par Hotchkiss et Broberg-Morrey) des fractures de la tête radiale, à quoi correspond le type II ?",
-   "c": 14,
-   "options": [
-    {
-     "t": "Fracture déplacée > 2 mm ou angulée, avec blocage mécanique possible de la rotation de l'avant-bras",
-     "correct": true,
-     "j": "Correct : le type II est une fracture déplacée > 2 mm ou angulée avec blocage mécanique possible."
-    },
-    {
-     "t": "Fracture non ou peu déplacée (< 2 mm), rotation limitée seulement par la douleur",
-     "j": "Faux : cette description correspond au type I, non au type II."
-    },
-    {
-     "t": "Fracture déplacée et comminutive de toute la tête radiale",
-     "j": "Faux : la fracture comminutive de toute la tête radiale correspond au type III."
-    }
-   ]
-  },
+  {"q":"Dans la classification de Mason (modifiée par Hotchkiss et Broberg-Morrey) des fractures de la tête radiale, à quoi correspond le type II ?","c":18,"options":[{"t":"Fracture déplacée > 2 mm ou angulée, avec blocage mécanique possible de la rotation de l'avant-bras","correct":true,"j":"Correct : le type II est une fracture déplacée > 2 mm ou angulée avec blocage mécanique possible."},{"t":"Fracture non ou peu déplacée (< 2 mm), rotation limitée seulement par la douleur","j":"Faux : cette description correspond au type I, non au type II."},{"t":"Fracture déplacée et comminutive de toute la tête radiale","j":"Faux : la fracture comminutive de toute la tête radiale correspond au type III."}]},
   {
    "q": "Concernant le mécanisme indirect des fractures de l'olécrâne, quel type de trait fracturaire produit-il typiquement selon le cours ?",
    "c": 14,
@@ -262518,25 +261492,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, sur quoi repose le diagnostic de la fibromyalgie ?",
-   "c": 11,
-   "options": [
-    {
-     "t": "Il est purement clinique, aucun examen ne permettant de le confirmer",
-     "correct": true,
-     "j": "Exact : le cours indique que le diagnostic est completement clinique et qu'il n'existe pas d'examen pour le confirmer, la symptomatologie etant subjective."
-    },
-    {
-     "t": "Il est clinique mais necessite l'exclusion prealable d'une atteinte inflammatoire par bilan biologique",
-     "j": "Faux : le cours decrit un diagnostic completement clinique sans evoquer un bilan biologique d'exclusion comme condition ; aucun examen ne confirme ni n'oriente le diagnostic."
-    },
-    {
-     "t": "Il repose sur la mise en evidence de points douloureux a la palpation couplee a une imagerie",
-     "j": "Faux : le cours souligne l'absence de tout examen confirmatoire, dont l'imagerie ; le diagnostic reste purement clinique et la symptomatologie subjective."
-    }
-   ]
-  },
+  {"q":"Selon le cours, sur quoi repose le diagnostic de la fibromyalgie ?","c":12,"options":[{"t":"Il est purement clinique, aucun examen ne permettant de le confirmer","correct":true,"j":"Exact : le cours indique que le diagnostic est completement clinique et qu'il n'existe pas d'examen pour le confirmer, la symptomatologie etant subjective."},{"t":"Il est clinique mais necessite l'exclusion prealable d'une atteinte inflammatoire par bilan biologique","j":"Faux : le cours decrit un diagnostic completement clinique sans evoquer un bilan biologique d'exclusion comme condition ; aucun examen ne confirme ni n'oriente le diagnostic."},{"t":"Il repose sur la mise en evidence de points douloureux a la palpation couplee a une imagerie","j":"Faux : le cours souligne l'absence de tout examen confirmatoire, dont l'imagerie ; le diagnostic reste purement clinique et la symptomatologie subjective."}]},
   {
    "q": "Selon le cours sur la transmission de la douleur, quel est le neurotransmetteur le plus important de la voie paléospinothalamique transmettant la douleur lente et chronique ?",
    "c": 3,
