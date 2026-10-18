@@ -1848,79 +1848,27 @@ const CHAPITRES = {
   "psycho": [
     {
       "id": 1,
-      "nom": "Psychologie et psychologie de la santé"
+      "nom": "Psychologie de la santé"
     },
     {
       "id": 2,
-      "nom": "Santé, maladie et rôle de malade"
+      "nom": "Comportements, santé et maladie"
     },
     {
       "id": 3,
-      "nom": "Du modèle biomédical au modèle biopsychosocial"
+      "nom": "Conditionnement, émotions et stress"
     },
     {
       "id": 4,
-      "nom": "Comportements de santé et prévention"
+      "nom": "Douleur"
     },
     {
       "id": 5,
-      "nom": "Modèles de comportements de santé"
+      "nom": "Adhérence au traitement"
     },
     {
       "id": 6,
-      "nom": "Apprentissage et conditionnement"
-    },
-    {
-      "id": 7,
-      "nom": "Émotions et gestion émotionnelle"
-    },
-    {
-      "id": 8,
-      "nom": "Stress et adaptation"
-    },
-    {
-      "id": 9,
-      "nom": "Douleur : définition, nociception et classifications"
-    },
-    {
-      "id": 10,
-      "nom": "Modèles psychologiques de la douleur"
-    },
-    {
-      "id": 11,
-      "nom": "Variables psychologiques associées à la douleur"
-    },
-    {
-      "id": 12,
-      "nom": "Évaluation de la douleur"
-    },
-    {
-      "id": 13,
-      "nom": "Techniques cognitivo-comportementales en kinésithérapie"
-    },
-    {
-      "id": 14,
-      "nom": "Motivation, observance et adhérence au traitement"
-    },
-    {
-      "id": 15,
-      "nom": "Entretien motivationnel et stratégies d'adhérence"
-    },
-    {
-      "id": 16,
-      "nom": "Relation thérapeutique et bases de la communication"
-    },
-    {
-      "id": 17,
-      "nom": "Communication dans les soins : empathie et écoute active"
-    },
-    {
-      "id": 18,
-      "nom": "Assertivité et gestion des conflits"
-    },
-    {
-      "id": 19,
-      "nom": "Annonce d'une mauvaise nouvelle"
+      "nom": "Relation et communication"
     }
   ],
   "santePublique": [
@@ -2118,129 +2066,29 @@ const CHAPITRES = {
   "valoMembresInf": [
     {
       "id": 1,
-      "nom": "Hanche — ligaments, capsule et limites articulaires"
+      "nom": "Hanche"
     },
     {
       "id": 2,
-      "nom": "Hanche — mouvements, amplitudes et muscles moteurs"
+      "nom": "Genou"
     },
     {
       "id": 3,
-      "nom": "Hanche — biomécanique : coaptation, stabilité pelvienne et rythme lombo-pelvien"
-    },
-    {
-      "id": 4,
-      "nom": "Hanche — angles et orientations du fémur"
-    },
-    {
-      "id": 5,
-      "nom": "Genou — anatomie et axes du membre inférieur"
-    },
-    {
-      "id": 6,
-      "nom": "Genou — flexion-extension : amplitudes et muscles moteurs"
-    },
-    {
-      "id": 7,
-      "nom": "Genou — arthrocinématique fémoro-tibiale et déplacements méniscaux"
-    },
-    {
-      "id": 8,
-      "nom": "Genou — rotations axiales et déverrouillage"
-    },
-    {
-      "id": 9,
-      "nom": "Genou — ligaments : comportement, stabilité et lésions"
-    },
-    {
-      "id": 10,
-      "nom": "Genou — articulation fémoro-patellaire"
-    },
-    {
-      "id": 11,
-      "nom": "Cheville et pied — anatomie : ostéologie, articulations et ligaments"
-    },
-    {
-      "id": 12,
-      "nom": "Talo-crurale et tibio-fibulaires — flexion dorsale et plantaire"
-    },
-    {
-      "id": 13,
-      "nom": "Arrière-pied et tarse — inversion-éversion et muscles moteurs"
-    },
-    {
-      "id": 14,
-      "nom": "Avant-pied — Lisfranc, métatarso-phalangiennes et interphalangiennes"
-    },
-    {
-      "id": 15,
-      "nom": "Pied — biomécanique : axes, pronation-supination, voûte plantaire et marche"
+      "nom": "Cheville et pied"
     }
   ],
   "valoMembresSup": [
     {
       "id": 1,
-      "nom": "Épaule — anatomie de la ceinture scapulaire et stabilisateurs passifs"
+      "nom": "Épaule"
     },
     {
       "id": 2,
-      "nom": "Épaule — plexus brachial et innervation de la ceinture scapulaire"
+      "nom": "Coude"
     },
     {
       "id": 3,
-      "nom": "Épaule — physiologie sterno-claviculaire et acromio-claviculaire"
-    },
-    {
-      "id": 4,
-      "nom": "Épaule — cinématique scapulo-thoracique"
-    },
-    {
-      "id": 5,
-      "nom": "Épaule — physiologie gléno-humérale et muscles moteurs"
-    },
-    {
-      "id": 6,
-      "nom": "Épaule — biomécanique : rythme scapulo-huméral et mobilité globale"
-    },
-    {
-      "id": 7,
-      "nom": "Coude — anatomie, articulations et ligaments"
-    },
-    {
-      "id": 8,
-      "nom": "Coude — physiologie de la flexion-extension"
-    },
-    {
-      "id": 9,
-      "nom": "Avant-bras — prono-supination et articulations radio-ulnaires"
-    },
-    {
-      "id": 10,
-      "nom": "Coude — biomécanique : levier et facteurs de coaptation"
-    },
-    {
-      "id": 11,
-      "nom": "Poignet — anatomie et articulations du carpe"
-    },
-    {
-      "id": 12,
-      "nom": "Poignet — physiologie articulaire et arthrocinématique"
-    },
-    {
-      "id": 13,
-      "nom": "Poignet et main — biomécanique : synergies, ténodèse et prises"
-    },
-    {
-      "id": 14,
-      "nom": "Main — carpo-métacarpiennes, métacarpo-phalangiennes et interphalangiennes"
-    },
-    {
-      "id": 15,
-      "nom": "Pouce — colonne du pouce et fonction musculaire"
-    },
-    {
-      "id": 16,
-      "nom": "Nerfs du poignet et de la main — syndromes canalaires"
+      "nom": "Poignet et main"
     }
   ]
 };

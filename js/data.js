@@ -11389,7 +11389,7 @@ const QUESTIONS = {
  "psycho": [
   {
    "q": "Une réponse adaptée au stress implique:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "L'apparition d'un syndrome métabolique",
@@ -11408,7 +11408,7 @@ const QUESTIONS = {
   },
   {
    "q": "Etant donné un bébé qui n'a pas peur des souris blanches mais oui aux bruits forts, je lui présente plusieurs fois une souris blanche suivie d'un bruit fort. Ceci, finalement, le bébé déclenche une réponse de peur lorsque je lui montre tout simplement la souris blanche, sans faire de bruit. Ce processus est un processus de:",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Conditionnement métalogique",
@@ -11427,7 +11427,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'apparition d'un état d'anxiété est lié à l'évaluation cognitive d'un stimulus comme dangereux ou menaçant. Les personnes ayant un élevé trait d'anxiété:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Perçoivent de façons aussi menaçantes les différentes situations que les personnes avec un trait d'anxiété moins élevé.",
@@ -11446,7 +11446,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'efficacité personnelle perçue se traduit comme:",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Croyance sur la mesure dans laquelle nous pouvons contrôler ou non que les conséquences de notre comportement",
@@ -11465,7 +11465,7 @@ const QUESTIONS = {
   },
   {
    "q": "La technique du sandwich est généralement très utile pour:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Donner une très mauvaise nouvelle",
@@ -11484,7 +11484,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle hormone sera sécrétée par le cerveau lors de l'écoute de la musique agréable?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Dopamine",
@@ -11503,7 +11503,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le stress est un processus:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Adaptatif",
@@ -11522,7 +11522,7 @@ const QUESTIONS = {
   },
   {
    "q": "La fonction évocatrice de la communication verbale consiste à:",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Stimuler l'exécution de certains comportements",
@@ -11541,7 +11541,7 @@ const QUESTIONS = {
   },
   {
    "q": "Si on essaye de parler à quelqu'un, mais il ne nous comprends pas à cause du bruit ambiant, alors:",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "La réception est inefficace",
@@ -11560,7 +11560,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement opérant, un exemple de punition négative pour la plupart des gens:",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Une insulte",
@@ -11579,7 +11579,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les substances algésiogènes libérés par les cellules abîmées lorsqu'un stimulus nociceptif de forte intensité nuit à l'intégrité de l'organisme",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Arriver à la moelle épinière, où elles se fixeront à un neurone médullaire qui enverra un potentiel d'action vers le cerveau.",
@@ -11598,7 +11598,7 @@ const QUESTIONS = {
   },
   {
    "q": "La technique DESC est très utile pour exprimer inconfort ou mécontentement de façon assertive et demander un changement de comportement à une autre personne. DESC est un acronyme; La lettre C correspond à:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Conséquences : conséquences positives du changement de comportement et négatives du non-changement",
@@ -11636,7 +11636,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lorsqu'on met en place l'écoute active, on essaye de:",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Écouter et comprendre ce que l'autre personne veut dire",
@@ -11655,7 +11655,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'expérience douloureuse est:",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "La même pour tout le monde, indépendamment de ses expériences",
@@ -11693,7 +11693,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une personne revient de vacances. Tout à coup, en rentrant chez lui, il se rend compte qu'il a été volé. A ce moment là, il se trouvera dans la phase du Syndrome Général d'adaptation (Selye, 1936)",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "De résistance",
@@ -11712,7 +11712,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle transactionnel du stress (Lazarus et Folkman, 1984), lors de l'évaluation secondaire:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "On cherche une réponse adaptative pour résoudre le stresseur",
@@ -11731,7 +11731,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le facteur le plus important pour déterminer l'intention et le comportement dans le modèle de l'approche du processus d'action de santé (HAPA):",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La vulnérabilité perçue",
@@ -11750,7 +11750,7 @@ const QUESTIONS = {
   },
   {
    "q": "La perception et interprétation des symptômes d'une maladie:",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Dépend de plusieurs facteurs, par exemple la nature des symptômes",
@@ -11769,7 +11769,7 @@ const QUESTIONS = {
   },
   {
    "q": "La communication non verbale (signaler la réponse incorrecte):",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Est conditionnée par la culture",
@@ -11788,7 +11788,7 @@ const QUESTIONS = {
   },
   {
    "q": "La technique de Résolution de Problèmes définit un problème comme:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "L'incapacité à trouver des solutions appropriées aux situations qui nous concernent",
@@ -11807,7 +11807,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour mesurer la douleur d'une personne, on doit tenir compte de trois aspects:",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Aspect sensoriel, émotionnel et l'impact que la douleur a sur la vie de la personne",
@@ -11826,7 +11826,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle ABC des émotions (Ellis, 1982), B correspond à :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Conséquence émotionnelle",
@@ -11845,7 +11845,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour annoncer un diagnostic de la douleur chronique à un patient:",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "On lui demande d'abord qu'est ce qu'il sait par rapport à ses douleurs",
@@ -11864,7 +11864,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle biopsychosocial, les discordances entre les représentations profanes et scientifiques de la maladie doivent être discutées.",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Le soignant ou le médecin doivent être considérés comme une autorité à qui rien de tout ce qui concerne la santé ne peut être discuté.",
@@ -11883,7 +11883,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le conditionnement opérant est un processus à travers lequel le sujet :",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Fait un apprentissage associatif lié au développement de nouveaux comportements en fonction de leurs conséquences",
@@ -11902,7 +11902,7 @@ const QUESTIONS = {
   },
   {
    "q": "Antoine a perdu le match d'hier de Volley. A cause de cela, il considère avoir perdu toutes les options pour que son équipe soit championne. Antoine ressentira probablement:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Anxiété",
@@ -11921,7 +11921,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une personne qui montre généralement un comportement sûr de soi, en respectant ses propres droits et les droits des autres, aura :",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Un style de communication assertif",
@@ -11940,7 +11940,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sarah dit à Christophe qu'il devrait faire plus de sport. Dans cet exemple, Sarah est :",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Le feedback",
@@ -11959,7 +11959,7 @@ const QUESTIONS = {
   },
   {
    "q": "La loi de Yerkes-Dodson (1908) décrit la relation entre l'activation de l'organisme déclenché par le stresseur et la performance",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Maintient une forme de U inversé",
@@ -11978,7 +11978,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle Biopsychosocial (Signalez la réponse incorrect) :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "L'état de complète santé peut être atteint en faisant attention aux variables biologiques, psychologiques et sociales",
@@ -11997,7 +11997,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour gérer un comportement agressif d'une façon assertive, il faut comprendre que:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "L'agressivité manifestée par la personne peut se traduire comme une souffrance interne et la tentative de se protéger",
@@ -12016,7 +12016,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la conception de la santé, les aspects psychosociaux ont commencé à avoir de l'importanc:",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Au 18eme siècle",
@@ -12035,7 +12035,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'hostilité se réfère à :",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Un comportement visant à nuire à des personnes ou des choses",
@@ -12054,7 +12054,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon Selye, lorsqu'on parle de Eustress, on parle de:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Stress positive et agréable qui apparaît quand on fait une évaluation primaire du stresseur comme un défi",
@@ -12073,7 +12073,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les variables qui prédisent l'intention selon la théorie du comportement planifié (TCP) sont:",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "L'attitude, les Normes Subjectives et le contrôle comportemental perçu",
@@ -12092,7 +12092,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie du portillon, ou Gate Control Theory (Melzack&Wall,1965)",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "L'activité des fibres, A-Delta et C facilitent la transmission du potentiel d'action",
@@ -12111,7 +12111,7 @@ const QUESTIONS = {
   },
   {
    "q": "Talcot Parson introduit le terme \"Rôle de Malade\" en 1951. Une caractéristique de ce rôle social est :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le droit de respecter les exigences sanitaires",
@@ -12130,7 +12130,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les études de Hans Selye, toute nouvelle exigence de l'environnement provoque",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Une réponse spécifique de l'organisme pour faire face à cette exigence",
@@ -12149,7 +12149,7 @@ const QUESTIONS = {
   },
   {
    "q": "La langue des signes est considérée comme:",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Communication paraverbale",
@@ -12168,7 +12168,7 @@ const QUESTIONS = {
   },
   {
    "q": "Imaginez que l'alarme que vous utilisez depuis 2 ans commence à sonner lors d'une situation détendue. La sensation d'agitation et de tension qui apparaîtra est due à un conditionnement de type:",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Opérant",
@@ -12187,7 +12187,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'auteur de l'article \"le modèle biopsychosocial de la santé\", publié en 1977, est :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Engel",
@@ -12206,7 +12206,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les compétences en communication servent, entre autres, à gérer les émotions. A quel système appartiennent-elles?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Cognitif",
@@ -12244,7 +12244,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une personne qui s'inquiète depuis 7 mois et qui tombe finalement malade, se trouvera, probablement, dans la phase du Syndrome Général d'Adaptation (Selye, 1936)",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "D'alarme",
@@ -12263,7 +12263,7 @@ const QUESTIONS = {
   },
   {
    "q": "La douleur comporte une dimension psychologique. Ceci implique :",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Qu'une personne ressentira la même douleur qu'une autre, même si le stimulus nociceptif n'est pas le même",
@@ -12282,7 +12282,7 @@ const QUESTIONS = {
   },
   {
    "q": "\"Les stimulis qui m'entourent conditionnent mon comportement\". Cette phrase met en évidence les études en conditionnement:",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Classique",
@@ -12301,7 +12301,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les émotions:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Sont toujours adaptatives",
@@ -12320,7 +12320,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une personne qui ne montre pas un comportement sûr de soi, et respecte les droits des autres mais pas les siens, aura généralement, un style de communication:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Assertif",
@@ -12339,7 +12339,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces propositions n'est pas une conséquence des émotions sur la douleur?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "La perte de mémoire",
@@ -12358,7 +12358,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment dirions-nous, en Déclaration Moi/Je, la phrase suivante : \"Tu ne m'écoutes jamais!\"",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "\"J'ai l'impression que tu ne m'écoutes pas\"",
@@ -12377,7 +12377,7 @@ const QUESTIONS = {
   },
   {
    "q": "Faire la fête est un comportement:",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Immunogène",
@@ -12396,7 +12396,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lorsqu'on à un conflit et on veut exprimer inconfort ou mécontentement de façon assertive :",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "On doit se centrer en la personne et pas en son comportement",
@@ -12415,7 +12415,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement opérant, un exemple de punition positive pour la plupart des gens:",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Enlever la douleur",
@@ -12434,7 +12434,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelques caractéristiques de la relation thérapeutique (signalez la réponse incorrecte):",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Relation d'attentes et confiance",
@@ -12453,7 +12453,7 @@ const QUESTIONS = {
   },
   {
    "q": "La respiration abdominale est une stratégie de gestion émotionnelle qui affecte principalement...",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Le système moteur",
@@ -12472,7 +12472,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les systèmes de réponse émotionnelle sont:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Cognitif, physiologique et subjectif",
@@ -12491,7 +12491,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une personne qui s'inquiète depuis 7 jours mais cherche toujours une solution, se trouve dans la phase du SGA",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "D'épuisement",
@@ -12510,7 +12510,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une personne qui montre un comportement sûr de soi et ne respecte pas les droits des autres mais que les siens...",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Aura un style de communication agressif",
@@ -12529,7 +12529,7 @@ const QUESTIONS = {
   },
   {
    "q": "Si quelqu'un nous parle de physique nucléaire mais on ne comprend rien à ce sujet...",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "La réception est inefficace",
@@ -12548,7 +12548,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour le modèle Biopsychosocial (signalez la réponse incorrecte)",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Les conséquences d'une maladie peuvent devenir cause d'autres",
@@ -12567,7 +12567,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un comportement qui diminue la santé est appelé :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Comportement immunogène",
@@ -12586,7 +12586,7 @@ const QUESTIONS = {
   },
   {
    "q": "La stratégie de gestion du temps est une stratégie...",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Centrée sur la gestion du problème",
@@ -12605,7 +12605,7 @@ const QUESTIONS = {
   },
   {
    "q": "La prévention secondaire :",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Consiste à modifier le comportement des personnes qui ont déjà exhibé le comportement-problème, mais dont les manifestations pathologiques ne sont pas encore perceptibles.",
@@ -12624,7 +12624,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les dimensions de l'adhésion sont:",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Information et charisme",
@@ -12643,7 +12643,7 @@ const QUESTIONS = {
   },
   {
    "q": "La stratégie du sandwich est surtout utile pour :",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Nier quelque chose",
@@ -12662,7 +12662,7 @@ const QUESTIONS = {
   },
   {
    "q": "La perception des symptômes et sensations internes est...",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Moins intense lorsque la stimulation externe est grande et intense",
@@ -12681,7 +12681,7 @@ const QUESTIONS = {
   },
   {
    "q": "La stratégie du Banc de brume...",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Doit être utilisée avec précaution",
@@ -12700,7 +12700,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un journal de douleur, les variables à marquer sont établies par:",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Le patient",
@@ -12719,7 +12719,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sarah dit à Christophe qu'il devrait faire plus de sport. Sarah est ...",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "La source",
@@ -12738,7 +12738,7 @@ const QUESTIONS = {
   },
   {
    "q": "La fonction informationnelle de la communication:",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Sert à produire certains sentiments et émotions",
@@ -12757,7 +12757,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour rejeter une demande, il faut tout d'abord:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Analyser la demande",
@@ -12776,7 +12776,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au Moyen-Age, la santé est considérée comme:",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Absence de maladie",
@@ -12795,7 +12795,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour le modèle Biomédical:",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Corps et esprit sont deux entités interdépendantes",
@@ -12814,7 +12814,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le trait d'anxiété se réfère à:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Un état relativement stable dans la tendance d'un individu à l'anxiété",
@@ -12833,7 +12833,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une séparation conjugale avec dispute est un stresseur...",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Mineur",
@@ -12852,7 +12852,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle bidimensionnel des émotions, ou théorie du plaisir - activation (Russell,1980) les dimensions de la joie sont:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Activation positive et valence positive",
@@ -12871,7 +12871,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'instrument d'évaluation de la douleur qui nous apporte plus d'information parmi les suivants est:",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Echelle d'évaluation visuelle analogique",
@@ -12890,7 +12890,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour rejeter une demande de façon assertive, la technique du sandwich peut être très utile. Cette technique là consiste à:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Confondre notre interlocuteur avec beaucoup d'information en peu de temps",
@@ -12909,7 +12909,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour le modèle biomédical (signalez la réponse incorrect):",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Le médecin est le seul contrôleur de la santé du patient",
@@ -12928,7 +12928,7 @@ const QUESTIONS = {
   },
   {
    "q": "La relation thérapeutique est une relation asymétrique. Ceci implique toujours:",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Que le soignant dit au patient quoi faire et le patient obéit",
@@ -12947,7 +12947,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle ABC des émotions (Ellis,1962), A correspond à",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Interprétation",
@@ -12966,7 +12966,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les fibres C réceptionnent l'information des:",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Nocicepteurs mécaniques et thermiques",
@@ -12985,7 +12985,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle Demandes-Control (Karasek,1979), une latitude décisionnelle (autonomie) faible et un niveau élevé des demandes associées au travail implique:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Un comportement actif",
@@ -13004,7 +13004,7 @@ const QUESTIONS = {
   },
   {
    "q": "La fonction promotrice de la communication verbale consiste à:",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Stimuler l'exécution de certains comportements",
@@ -13042,7 +13042,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement opérant, un renforçateur primaire:",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Manque de valeur intrinsèque jusqu'à qu'il soit associé (par exemple: argent)",
@@ -13061,7 +13061,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon Selye, lorsqu'on parle de Distress, on parle de:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Stress négatif et déplaisant qui apparaît quand on fait une évaluation primaire du stresseur comme un défi",
@@ -13080,7 +13080,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle de LeDoux, les voies cérébrales de traitement des stimuli qui peuvent déclencher une réponse émotionnelle (voie rapide et lente), fonctionnent:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "De façons linéaire",
@@ -13099,7 +13099,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour gérer un comportement agressif d'une façons assertive:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Il faut demander par rapport au contenue du message",
@@ -13118,7 +13118,7 @@ const QUESTIONS = {
   },
   {
    "q": "\"La conséquence de mes actions modifie leur future occurrence\". Cette phrase met en évidence les études en conditionnement:",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Classique",
@@ -13137,7 +13137,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le modèle biomédical considère santé et maladie comme:",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Des états qualitativement opposés",
@@ -13156,7 +13156,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un désastre naturel est, généralement, un stresseur:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Majeur",
@@ -13175,7 +13175,7 @@ const QUESTIONS = {
   },
   {
    "q": "Être empathique consiste à :",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Se décentrer de soi même et partager les émotions des autres sans les juger",
@@ -13194,7 +13194,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sarah dit à Christophe qu'il devrait faire plus de sport, mais Christophe ne l'écoute pas car son attention est attirée vers une annonce TV. Dans cet exemple, on considère l'annonce de TV:",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Un récepteur",
@@ -13213,7 +13213,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les 2 pionniers de la relaxation ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "G.Engel et J.B. Watson",
@@ -13232,7 +13232,7 @@ const QUESTIONS = {
   },
   {
    "q": "La respiration abdominale est une technique/stratégie:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "De relaxation",
@@ -13251,7 +13251,7 @@ const QUESTIONS = {
   },
   {
    "q": "Antoine a perdu le match d'hier de volley. Il considère que l'arbitre est corrompu. Antoine ressentira probablement:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Colère",
@@ -13650,7 +13650,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'OMS, comment se définit la santé ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Un état complet de bien-être physique, mental et social qui ne se réduit pas à l'absence de maladie ou d'infirmité.",
@@ -13669,7 +13669,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se caractérise la maladie d'après le cours ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Une altération de l'état de santé, rupture d'ordre physique, mental et social, avec des symptômes objectifs et subjectifs.",
@@ -13688,7 +13688,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle biopsychosocial, que montre l'exemple de la personne hypocondriaque ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Adopter un rôle de malade n'implique pas nécessairement un trouble biologique.",
@@ -13707,7 +13707,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle biopsychosocial, que traduit l'effet placebo ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "L'efficacité des traitements biologiques est influencée par des facteurs psychosociaux.",
@@ -13726,7 +13726,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cadre du modèle biopsychosocial, qu'est-ce qui justifie le recours à une étude en double aveugle en recherche clinique ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Les patients, contrairement aux sujets inanimés, sont profondément influencés par la façon dont ils sont étudiés.",
@@ -13745,7 +13745,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la distinction « disease / illness », à quoi correspond la « disease » ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "À l'état objectif, centré sur le processus pathologique qui produit ou non des symptômes.",
@@ -13764,7 +13764,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans les pays à faible revenu, quelles causes de décès prédominent ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Les infections, les maladies tropicales, la mortalité maternelle/périnatale et la malnutrition.",
@@ -13783,7 +13783,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans les pays à revenu moyen ou élevé, quelles causes de décès prédominent ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Les maladies cardiovasculaires, les cancers, les maladies respiratoires chroniques et le diabète.",
@@ -13802,7 +13802,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment évoluent les décès dus aux maladies non transmissibles (MNT) lorsque le revenu augmente ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Ils augmentent : la hausse du revenu s'accompagne d'une augmentation des décès dus aux MNT.",
@@ -13821,7 +13821,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les 15 principales causes d'années vécues avec un handicap dans le monde, combien sont des maladies non transmissibles (MNT) ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "12 des 15 principales causes sont des maladies non transmissibles.",
@@ -13840,7 +13840,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'OMS, quelle proportion des infarctus du myocarde et des AVC pourrait être évitée grâce à une bonne hygiène de vie ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Environ 80 % des cas.",
@@ -13859,7 +13859,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proportion des cas de diabète de type 2 pourrait être évitée grâce à un poids sain, une activité physique régulière et une alimentation équilibrée ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Jusqu'à 90 % des cas.",
@@ -13878,7 +13878,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les données de prévention, quelle proportion des cancers peut être évitée grâce à l'adoption de comportements sains ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "30 à 50 %",
@@ -13897,7 +13897,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment définit-on un facteur de risque ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Une caractéristique ou un comportement qui augmente la probabilité de développer une maladie sans garantir son apparition.",
@@ -13916,7 +13916,7 @@ const QUESTIONS = {
   },
   {
    "q": "La nature d'un facteur de risque peut relever de plusieurs registres. Lequel de ces ensembles les recense correctement ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Biologique, environnementale, comportementale, sociale et génétique.",
@@ -13935,7 +13935,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces ensembles, lequel correspond aux principaux facteurs de risque des maladies chroniques ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Tabagisme, inactivité physique, alcool, alimentation malsaine et pollution atmosphérique.",
@@ -13954,7 +13954,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour quelle raison la maladie parodontale est-elle considérée comme un facteur de risque cardiovasculaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Le passage de bactéries dans le sang y augmente l'inflammation, ce qui favorise l'atteinte cardiovasculaire.",
@@ -13973,7 +13973,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que désigne-t-on par « immunogènes comportementaux » ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Des comportements qui renforcent les défenses et favorisent la santé, comme la méditation ou le bénévolat.",
@@ -13992,7 +13992,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi l'exercice physique peut-il être tantôt immunogène, tantôt pathogène ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Parce que son effet dépend du contexte et des conséquences : régulier il protège, excessif ou obsessionnel il nuit.",
@@ -14011,7 +14011,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'objectif de la prévention primaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Éviter que le comportement-problème ne se développe, idéalement dès l'enfance.",
@@ -14030,7 +14030,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un kinésithérapeute suit un patient qui présente déjà des manifestations pathologiques installées ; l'objectif est d'éviter une récidive, une aggravation ou le décès. À quel niveau de prévention correspond cette action ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "La prévention secondaire",
@@ -14049,7 +14049,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une équipe met en place une démarche destinée à éviter ou atténuer les conséquences néfastes d'interventions et de soins inutiles. De quel niveau de prévention s'agit-il ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "La prévention quaternaire",
@@ -14068,7 +14068,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'objectif principal du modèle des croyances relatives à la santé (Health Belief Model) ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Déterminer le niveau de prévention le plus adapté au stade de la maladie",
@@ -14087,7 +14087,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les éléments suivants, lequel constitue une composante du modèle des croyances relatives à la santé ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La vulnérabilité perçue",
@@ -14106,7 +14106,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle des croyances relatives à la santé, dans quelle situation la probabilité d'adopter le comportement est-elle maximale ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Vulnérabilité perçue élevée et obstacles perçus supérieurs aux avantages",
@@ -14125,7 +14125,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les domaines d'application du modèle des croyances relatives à la santé, lequel est celui où il se montre le moins efficace ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "L'observance thérapeutique",
@@ -14144,7 +14144,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition décrit correctement une limite du modèle des croyances relatives à la santé ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Centré sur les croyances et la peur, il néglige les émotions et l'influence sociale",
@@ -14163,7 +14163,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quelles deux croyances repose la théorie de l'auto-efficacité ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La croyance en la gravité du résultat et la croyance en sa propre vulnérabilité face à celui-ci",
@@ -14182,7 +14182,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie de l'auto-efficacité, laquelle de ces quatre sources en constitue la source principale ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La maîtrise personnelle, c'est-à-dire les expériences de réussite réellement vécues",
@@ -14201,7 +14201,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se définit la prophétie auto-réalisatrice (effet Pygmalion) ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Une croyance ou une attente qui oriente le comportement jusqu'à provoquer sa propre réalisation",
@@ -14220,7 +14220,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la principale limite reprochée à la théorie de l'auto-efficacité ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Elle néglige le rôle du contexte et du soutien social dans le comportement",
@@ -14239,7 +14239,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie du comportement interpersonnel, quels sont les trois éléments qui influencent le comportement ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "L'intention, l'habitude et les conditions facilitantes ou inhibitrices",
@@ -14258,7 +14258,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la théorie du comportement interpersonnel, comment se définit une habitude ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Un comportement routinier exécuté sans réflexion consciente préalable",
@@ -14277,7 +14277,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui caractérise l'apport original de la théorie du comportement interpersonnel ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Elle accorde aux habitudes et aux émotions autant d'importance qu'à la volonté",
@@ -14296,7 +14296,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quel postulat concernant l'individu reposent la théorie de l'action raisonnée et celle du comportement planifié ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "L'individu est rationnel et traite systématiquement l'information dont il dispose",
@@ -14315,7 +14315,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour quel type de comportements la théorie du comportement planifié (TCP) a-t-elle été élaborée ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Les comportements sur lesquels l'individu n'exerce qu'un contrôle partiel",
@@ -14334,7 +14334,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la principale limite reprochée aux théories de l'action raisonnée et du comportement planifié ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Elles supposent des décisions rationnelles et négligent le rôle des émotions, de la fatigue et des habitudes.",
@@ -14353,7 +14353,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le modèle HAPA décrit-il le changement des comportements de santé ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Comme un processus dynamique organisé en étapes d'adoption puis de maintien du comportement.",
@@ -14372,7 +14372,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que recouvre la phase de volition du modèle HAPA ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La planification, l'initiation, le maintien et la récupération de l'action.",
@@ -14391,7 +14391,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que met en évidence le modèle HAPA à propos des intentions ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Que de bonnes intentions ne suffisent pas à garantir un changement effectif de comportement.",
@@ -14410,7 +14410,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels types de facteurs influencent les comportements de santé ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Des facteurs économiques, individuels, environnementaux et sociaux.",
@@ -14429,7 +14429,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle définition correspond à l'apprentissage ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Un changement relativement permanent du comportement ou des connaissances résultant de l'expérience, distinct de la maturation.",
@@ -14448,7 +14448,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les trois modes d'apprentissage ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le conditionnement classique, le conditionnement opérant et l'apprentissage social ou vicariant.",
@@ -14467,7 +14467,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement classique, quelle affirmation caractérise correctement le stimulus inconditionné (SI) et la réponse inconditionnée (RI) ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le SI déclenche naturellement une réponse et la RI est un réflexe inné.",
@@ -14486,7 +14486,7 @@ const QUESTIONS = {
   },
   {
    "q": "En rééducation, un patient reçoit un TENS dont l'appareil émet un bruit de fonctionnement. Quelle correspondance des éléments est correcte ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le TENS est le SI, l'analgésie la RI, son bruit le SC et le soulagement anticipé la RC.",
@@ -14505,7 +14505,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement opérant, quel est l'effet respectif du renforcement et de la punition sur un comportement ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le renforcement augmente la probabilité de reproduction du comportement, la punition la diminue.",
@@ -14524,7 +14524,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement opérant, comment agit le renforcement positif sur un comportement ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Il ajoute un stimulus agréable afin d'augmenter la fréquence du comportement.",
@@ -14543,7 +14543,7 @@ const QUESTIONS = {
   },
   {
    "q": "En rééducation, corriger la posture d'un patient fait disparaître sa douleur, ce qui l'incite à reproduire cette posture. De quel mécanisme s'agit-il ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Renforcement négatif : retirer un stimulus désagréable augmente le comportement.",
@@ -14562,7 +14562,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lorsqu'une conduite d'évitement s'installe, comment les conditionnements classique et opérant coopèrent-ils ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le classique crée l'émotion automatique, l'opérant maintient le comportement.",
@@ -14581,7 +14581,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui caractérise l'état d'impuissance apprise chez un individu ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "L'individu se dit « je ne peux pas » et renonce à agir.",
@@ -14600,7 +14600,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui définit l'apprentissage social, dit aussi vicariant ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Un apprentissage par observation et imitation de modèles, où la motivation est déterminante.",
@@ -14619,7 +14619,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un kiné favorise l'apprentissage par observation chez un patient. Selon la théorie de l'apprentissage social (vicariant), quelles sont, dans l'ordre, les quatre étapes du processus ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Attention, rétention, reproduction, motivation.",
@@ -14638,7 +14638,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient en rééducation observe d'autres patients réussir un exercice qu'il n'ose pas encore faire. Selon le cours, que font ses neurones miroirs dans cette situation ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Ils simulent mentalement le mouvement observé chez le patient.",
@@ -14657,7 +14657,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelles sont les trois grandes fonctions des émotions ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Adaptation/survie, communication, organisation/motivation.",
@@ -14676,7 +14676,7 @@ const QUESTIONS = {
   },
   {
    "q": "Tu vois des collègues chuchoter et rire, et tu ressens de la honte, alors qu'ils ne se moquaient pas de toi. Selon le cours, comment comprendre cette émotion ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "C'est une hypothèse rapide du cerveau, fondée sur l'interprétation et non sur la réalité.",
@@ -14695,7 +14695,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui caractérise concrètement une mauvaise régulation émotionnelle ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Des réactions disproportionnées, de l'évitement et de la rumination.",
@@ -14714,7 +14714,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui caractérise les émotions primaires ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Automatiques, universelles, adaptatives et présentes dès la naissance.",
@@ -14733,7 +14733,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui caractérise les émotions secondaires ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Complexes, façonnées par l'expérience et la culture, mélangeant plusieurs primaires.",
@@ -14752,7 +14752,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la classification bidimensionnelle des émotions, à quelle émotion correspond une activation faible associée à une valence positive ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Le calme, autrement dit la sérénité",
@@ -14771,7 +14771,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure cérébrale joue le rôle de « gare de triage » sensorielle en transmettant les informations aux zones émotionnelles ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Le thalamus, relais des messages sensoriels",
@@ -14790,7 +14790,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure agit comme un « détecteur d'alarme » et gère les réponses émotionnelles, en particulier la peur ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'amygdale, sentinelle des menaces",
@@ -14809,7 +14809,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure assure la régulation émotionnelle, le contrôle des impulsions et la prise de décision ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Le cortex préfrontal, chef d'orchestre",
@@ -14828,7 +14828,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les bases biologiques des émotions, quelle association structure–fonction est exacte ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'hypothalamus déclenche les réponses physiologiques et l'hippocampe relie émotions et mémoire",
@@ -14847,7 +14847,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'organisation du cerveau en trois niveaux, à quoi correspond le niveau limbique ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Aux émotions et à la mémoire affective",
@@ -14866,7 +14866,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles conséquences peut entraîner une lésion du cortex préfrontal, notamment de la région orbitofrontale ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Une impulsivité, une agressivité et une incapacité à planifier",
@@ -14885,7 +14885,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle ABC cognitif, qu'est-ce qui caractérise une croyance irrationnelle ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Une proposition inflexible et absolue, formulée sous forme d'obligation",
@@ -14904,7 +14904,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle cognitif ABC, quel est l'objectif du travail thérapeutique sur les croyances du patient ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Les assouplir pour les rendre plus réalistes et flexibles, sans viser leur disparition.",
@@ -14923,7 +14923,7 @@ const QUESTIONS = {
   },
   {
    "q": "Après une séance riche en encouragements, un patient ne retient qu'une seule remarque sur sa raideur résiduelle et conclut que la séance a été mauvaise. Quelle distorsion cognitive illustre cette situation ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "La généralisation excessive.",
@@ -14942,7 +14942,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient estime que sa rééducation est soit une réussite totale, soit un échec complet, sans aucune situation intermédiaire. Quelle distorsion cognitive illustre ce mode de pensée ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'abstraction sélective.",
@@ -14961,7 +14961,7 @@ const QUESTIONS = {
   },
   {
    "q": "Après un seul exercice raté, un patient déclare : « Je n'y arriverai jamais, je rate toujours tout. » Quelle distorsion cognitive illustre cette conclusion ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "La généralisation excessive.",
@@ -14980,7 +14980,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sans qu'aucun élément ne le confirme, un patient est convaincu que son kinésithérapeute le trouve paresseux. Quelle distorsion cognitive illustre cette conviction ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "La personnalisation.",
@@ -14999,7 +14999,7 @@ const QUESTIONS = {
   },
   {
    "q": "Devant une légère douleur, un patient anticipe aussitôt une aggravation irréversible et une invalidité définitive. Quelle distorsion cognitive illustre cette réaction ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "La généralisation excessive.",
@@ -15018,7 +15018,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient se sent responsable de la mauvaise humeur de son thérapeute, alors que celle-ci tient à des causes qui lui sont totalement étrangères. Quelle distorsion cognitive illustre cette attitude ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "La personnalisation.",
@@ -15037,7 +15037,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient déclare : « J'ai peur avant l'exercice, donc cet exercice est forcément dangereux pour moi », prenant son émotion pour la preuve d'un fait. Quelle distorsion cognitive illustre ce raisonnement ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Les fausses obligations (« je dois »).",
@@ -15056,7 +15056,7 @@ const QUESTIONS = {
   },
   {
    "q": "En rééducation, face à un patient qui exprime des croyances rigides sur sa guérison, comment le kinésithérapeute utilise-t-il le dialogue socratique ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Il aide le patient à examiner lui-même ses pensées au moyen de questions ouvertes, sans le confronter ni lui dire qu'il a tort.",
@@ -15075,7 +15075,7 @@ const QUESTIONS = {
   },
   {
    "q": "Face à un patient présentant de fortes distorsions cognitives, comment se situe l'intervention du kinésithérapeute ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Il n'agit pas comme psychothérapeute mais intervient à un niveau psychoéducatif, relationnel et comportemental, selon les principes des TCC.",
@@ -15094,7 +15094,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition décrit correctement la tristesse en tant qu'émotion ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Elle apparaît face à une perte, aide à s'arrêter et à réfléchir, et constitue une réponse adaptative et temporaire.",
@@ -15113,7 +15113,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition caractérise le mieux la dépression ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Un trouble de l'humeur persistant, avec tristesse intense, perte d'intérêt (anhédonie) et difficultés à fonctionner, nécessitant souvent un traitement professionnel.",
@@ -15132,7 +15132,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui distingue fondamentalement la dépression de la tristesse ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Non pas l'intensité de la souffrance ressentie, mais bien la perte de fonctionnement de la personne.",
@@ -15151,7 +15151,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle définition correspond à la colère ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Une émotion intense et temporaire, causée par une frustration ou une menace, pouvant aller de l'irritation à la rage.",
@@ -15170,7 +15170,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment distingue-t-on l'agressivité de l'agression ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'agressivité est un comportement visant à nuire à autrui, et l'agression l'action concrète qui inflige le tort.",
@@ -15189,7 +15189,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition distingue correctement l'anxiété de la peur ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'anxiété est une réponse anticipatoire face à une menace future, la peur une réponse immédiate à un danger présent.",
@@ -15208,7 +15208,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'anxiété, quelle proposition est exacte ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Les situations qui menacent l'estime de soi sont généralement plus anxiogènes que les dangers physiques.",
@@ -15227,7 +15227,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les techniques de gestion émotionnelle, quelle proposition est exacte ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "L'arrêt de la pensée est la technique utilisée pour lutter contre les ruminations.",
@@ -15246,7 +15246,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi consiste la respiration abdominale telle que décrite dans le cours ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Inspirer par le nez pendant 5 s, retenir l'air 4 s, puis expirer par la bouche pendant 10 s.",
@@ -15265,7 +15265,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle séquence décrit une bonne régulation émotionnelle selon le cours ?",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Prêter attention à l'émotion, respirer, comparer les émotions, valider ses émotions puis comprendre les besoins sous-jacents.",
@@ -15284,7 +15284,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition distingue correctement le stress de l'anxiété ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Le stress est une réaction d'adaptation à un stimulus externe réel, tandis que l'anxiété répond à une menace anticipée ou imaginaire.",
@@ -15303,7 +15303,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours définit-il le stress psychologique ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Une réaction à une situation évaluée comme menaçante ou comme dépassant les ressources de l'individu.",
@@ -15322,7 +15322,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition caractérise les stresseurs biogéniques ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Ils agissent directement par leurs propriétés biochimiques, à l'image de la caféine ou de la nicotine.",
@@ -15341,7 +15341,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les stresseurs psychosociaux, quelle proposition est exacte ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Leur effet dépend de l'interprétation de la personne, et le soutien social atténue les facteurs sociaux.",
@@ -15360,7 +15360,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la réponse physiologique au stress, quelle séquence décrit correctement le déclenchement de la réaction ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Interprétation subjective par le cortex sensoriel → système limbique → hypothalamus → activation nerveuse et endocrinienne",
@@ -15379,7 +15379,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'activation du système nerveux autonome sympathique lors du stress, quelle proposition est exacte ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Elle produit une activation lente mais durable, médiée par l'adrénaline, mettant l'organisme en état d'alerte",
@@ -15398,7 +15398,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'effet de l'activation de l'axe hypothalamo-hypophyso-surrénalien dans le stress ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Elle augmente la sécrétion d'adrénaline",
@@ -15417,7 +15417,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cortisol régule-t-il son propre axe et le métabolisme énergétique lors du stress ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Il stimule la sécrétion de CRH et d'ACTH par rétroaction positive et, avec l'adrénaline, mobilise l'énergie",
@@ -15436,7 +15436,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces ensembles d'effets, lequel correspond aux conséquences du stress chronique ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Altération de la mémoire, baisse de l'immunité, stockage de l'énergie en graisse et hausse de la pression artérielle",
@@ -15455,7 +15455,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proportion de la population active souffrirait d'effets négatifs du stress ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Environ 23 % de la population active",
@@ -15474,7 +15474,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle part des consultations médicales serait liée à des troubles en rapport avec le stress ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Entre 25 et 40 % des consultations médicales",
@@ -15493,7 +15493,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que représente le syndrome métabolique dans l'évolution pathologique liée au stress ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Le stade terminal d'une hypersécrétion prolongée de catécholamines et de glucocorticoïdes, sans lien avec le risque cardiovasculaire",
@@ -15512,7 +15512,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'exposition prolongée aux glucocorticoïdes altère l'apprentissage, la mémoire et la gestion émotionnelle. Quel mécanisme cérébral l'explique directement ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Elle diminue le fonctionnement des neurones de l'hippocampe et réduit la neurogenèse.",
@@ -15531,7 +15531,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'effet du stress chronique sur le vieillissement, quelle proposition est exacte ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Il accélère le vieillissement en réduisant la taille des télomères.",
@@ -15550,7 +15550,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'effet d'une exposition prolongée aux glucocorticoïdes sur le système immunitaire ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Elle supprime la réponse immunitaire et augmente le risque de maladies auto-immunes.",
@@ -15569,7 +15569,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel facteur explique en partie les différences individuelles de résistance à la maladie liée au stress ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "La sensation de contrôle perçu, par opposition au sentiment d'impuissance.",
@@ -15588,7 +15588,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la réaction affective immédiate du modèle transactionnel, à quoi correspond la réponse d'orientation (RO) ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Une réponse affectivement neutre de curiosité ou d'acceptation du stimulus.",
@@ -15607,7 +15607,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'évaluation primaire du modèle transactionnel, comment se distinguent une évaluation « menace » et une évaluation « préjudice » ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Le préjudice est un dommage déjà subi, la menace un dommage anticipé.",
@@ -15626,7 +15626,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le contrôle et la prédictibilité d'un facteur de stress, quelle proposition est exacte ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Sa probabilité est indépendante du comportement, et la prédictibilité réduit l'activation psychophysiologique.",
@@ -15645,7 +15645,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que vise le coping centré sur le problème ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Agir sur la source du stress pour la modifier, la réduire ou l'éliminer.",
@@ -15664,7 +15664,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le coping centré sur l'émotion a pour objectif principal de :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "réguler les émotions négatives suscitées par la situation stressante.",
@@ -15683,7 +15683,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les propositions suivantes, laquelle correspond exactement à l'une des huit stratégies spécifiques de coping ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "l'acceptation de la responsabilité personnelle.",
@@ -15702,7 +15702,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les dimensions du soutien social décrites dans le cours sont :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "émotionnelle, instrumentale et informative.",
@@ -15721,7 +15721,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la stratégie d'évitement, quelle proposition est exacte ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "elle est inefficace à long terme mais peut être utile à court terme lors de traumatismes graves.",
@@ -15740,7 +15740,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle affirmation décrit correctement le rapport entre la réussite d'une stratégie de coping et ses effets ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "une stratégie réussie peut néanmoins être néfaste, comme le déni prolongé d'un diagnostic.",
@@ -15759,7 +15759,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'usage des questionnaires en kinésithérapie, quelle proposition est correcte ?",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "ils mesurent la fonctionnalité ou prédisent l'évolution, sans poser de diagnostic.",
@@ -15778,7 +15778,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la définition du concept de douleur, comment l'individu en acquiert-il la notion ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "par l'expérience, à travers les situations vécues au cours de la vie.",
@@ -15797,7 +15797,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'expression de la douleur par le patient, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "le rapport du patient doit être respecté même sans cause visible, la parole n'étant qu'un mode d'expression parmi d'autres.",
@@ -15816,7 +15816,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la nociception, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Elle constitue une expérience consciente résultant du traitement cérébral de l'information sensorielle.",
@@ -15835,7 +15835,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la douleur, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Elle est une expérience consciente issue du traitement cérébral et de facteurs bio-psycho-sociaux.",
@@ -15854,7 +15854,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les rapports entre nociception et douleur, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "La nociception aboutit toujours à une douleur, et toute douleur suppose une nociception active.",
@@ -15873,7 +15873,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les nocicepteurs, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Ce sont des récepteurs encapsulés détectant uniquement des variations thermiques modérées, localisés dans la peau.",
@@ -15892,7 +15892,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les nocicepteurs sont connectés :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "aux ganglions de la racine dorsale ou au ganglion trijumeau.",
@@ -15911,7 +15911,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les fibres Aδ, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Elles sont amyéliniques et véhiculent une douleur sourde, diffuse et tardive.",
@@ -15930,7 +15930,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la douleur aiguë, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "C'est un signal d'alerte immédiat, qui dure moins de trois mois et disparaît avec la guérison.",
@@ -15949,7 +15949,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la douleur subaiguë, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Elle est immédiate et brève, disparaissant dès le début de la guérison des tissus.",
@@ -15968,7 +15968,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la douleur chronique, quelle proposition est exacte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Elle dure plus de 3 mois et peut persister même après la guérison des lésions, devenant une maladie à part entière.",
@@ -15987,7 +15987,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel critère est considéré comme le plus important pour distinguer une douleur aiguë d'une douleur chronique ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "La relation avec les aspects cognitifs et comportementaux, davantage que la durée écoulée.",
@@ -16006,7 +16006,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la distinction entre douleur adaptative et douleur désadaptative, quelle proposition est correcte ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "L'adaptative est protectrice, proportionnelle et aiguë ; la désadaptative est disproportionnée, sans stimulus et chronique.",
@@ -16025,7 +16025,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle situation correspond à une douleur nociceptive ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Une entorse, une fracture ou une brûlure, liée à un dommage tissulaire réel ou potentiel.",
@@ -16044,7 +16044,7 @@ const QUESTIONS = {
   },
   {
    "q": "La douleur neuropathique se définit par :",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Une lésion ou un dysfonctionnement du système nerveux, par exemple une sciatique ou une neuropathie diabétique.",
@@ -16063,7 +16063,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition caractérise la douleur nociplastique (psychosomatique) ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Une sensibilisation du système nerveux sans lésion identifiable, comme la fibromyalgie ou les céphalées chroniques.",
@@ -16082,7 +16082,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment comprendre le fait que la douleur chronique « n'est pas imaginaire » ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Le système nerveux a appris un mode hyper-protecteur ; la douleur est réelle même sans lésion active.",
@@ -16101,7 +16101,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie du portillon, pourquoi le fait de frotter la peau soulage-t-il la douleur ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Les fibres Aβ tactiles activent l'interneurone inhibiteur qui ferme la porte dans la corne dorsale.",
@@ -16120,7 +16120,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie du portillon, quel est l'effet des fibres nociceptives Aδ et C sur l'interneurone médullaire ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Elles inhibent l'interneurone, ce qui ouvre la porte et laisse passer la douleur",
@@ -16139,7 +16139,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'où partent les voies descendantes inhibitrices de la douleur et quels médiateurs libèrent-elles ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "De la substance grise périaqueducale, relayées par le noyau du raphé, libérant endorphines et enképhalines",
@@ -16158,7 +16158,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment les voies descendantes facilitatrices augmentent-elles la sensibilité à la douleur ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Le stress et la peur activent le système limbique et l'amygdale, ce qui accroît la sensibilité douloureuse",
@@ -16177,7 +16177,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le traitement central de la douleur, quels sont les rôles respectifs du cortex cingulaire antérieur et de la formation réticulaire ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Le cingulaire antérieur relie douleur physique et émotion, la formation réticulaire gère l'alerte automatique",
@@ -16196,7 +16196,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces ensembles de facteurs, lequel OUVRE la porte de la douleur selon la théorie du portillon ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "L'anxiété, la colère et les pensées catastrophiques",
@@ -16215,7 +16215,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces ensembles de facteurs, lequel FERME la porte de la douleur selon la théorie du portillon ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Le soutien social, la relaxation et le sentiment de contrôle",
@@ -16234,7 +16234,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle d'évitement de la peur, en quoi consiste la voie d'adaptation saine ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Percevoir la douleur comme gérable et temporaire, maintenir l'activité et parvenir à la récupération",
@@ -16253,7 +16253,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle d'évitement de la peur, quel enchaînement décrit la voie du catastrophisme ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Peur de la douleur, kinésiophobie, déconditionnement, hypervigilance et sensibilisation centrale, jusqu'à la douleur chronique",
@@ -16272,7 +16272,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle du catastrophisme, quelles sont ses trois composantes ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Rumination, grossissement (magnification) et désespoir.",
@@ -16291,7 +16291,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cycle perpétuel du catastrophisme, pourquoi l'évitement du mouvement aggrave-t-il la douleur chronique ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Il laisse la lésion cicatriser tout en réactivant périodiquement les pensées catastrophiques.",
@@ -16310,7 +16310,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment l'apprentissage associé à des stimuli module-t-il la douleur ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Les stimuli aversifs, en augmentant la peur, réduisent la douleur ; les appétitifs l'augmentent.",
@@ -16329,7 +16329,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle affirmation décrit le mieux le lien entre douleur chronique et troubles anxio-dépressifs ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Environ un tiers des patients présente une anxiété/dépression, associée à une douleur plus intense.",
@@ -16348,7 +16348,7 @@ const QUESTIONS = {
   },
   {
    "q": "Des soldats blessés au combat demandent moins d'analgésiques que des civils présentant des blessures comparables. Qu'illustre ce constat ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "La gravité objective de la lésion détermine à elle seule l'intensité de la douleur.",
@@ -16367,7 +16367,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'effet d'un sentiment d'auto-efficacité élevé (« je peux supporter la douleur ») ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Il s'associe à une douleur moindre et à une meilleure récupération.",
@@ -16386,7 +16386,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'effet respectif de la focalisation attentionnelle et de la distraction sur la douleur ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Se focaliser sur la douleur en diminue l'intensité ; se distraire l'augmente.",
@@ -16405,7 +16405,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui caractérise l'effet placebo ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Une amélioration réelle sans substance active, liée aux attentes positives et libérant des endorphines.",
@@ -16424,7 +16424,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'effet nocebo et la douleur, quelle proposition est exacte ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Des attentes négatives déclenchent un stress qui, via l'amygdale, augmente réellement la douleur ressentie.",
@@ -16443,7 +16443,7 @@ const QUESTIONS = {
   },
   {
    "q": "La sensibilisation centrale se caractérise par :",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Un SNC hyperréactif où un stimulus non douloureux déclenche une réponse exagérée (allodynie) et un stimulus douloureux devient indolore (hyperalgésie).",
@@ -16462,7 +16462,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les liens entre anxiété et souvenirs de douleur :",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "L'anxiété efface les souvenirs de douleur, ce qui contribue à apaiser l'expérience douloureuse actuelle.",
@@ -16481,7 +16481,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par quel mécanisme l'anxiété peut-elle générer des douleurs musculaires ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Par une activation du système sympathique entraînant contractures, spasmes musculaires et douleurs myofasciales.",
@@ -16500,7 +16500,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie de l'attribution appliquée à la douleur :",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Attribuer sa douleur à des causes rassurantes, contrôlables et passagères tend à l'aggraver.",
@@ -16519,7 +16519,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment la dépression influence-t-elle la douleur au niveau des neurotransmetteurs ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Elle augmente la sérotonine et la dopamine, qui inhibent la douleur, ce qui réduit la douleur ressentie.",
@@ -16538,7 +16538,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment la baisse de motivation liée à la dépression retentit-elle sur les muscles ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Elle favorise l'inactivité, conduisant à un déconditionnement et à une atrophie musculaire.",
@@ -16557,7 +16557,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'effet d'une baisse de la qualité du sommeil sur la douleur ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Elle élève le seuil de douleur, rendant la personne moins sensible à la douleur.",
@@ -16576,7 +16576,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment définit-on le mieux la kinésiophobie ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Une peur excessive et irrationnelle du mouvement, reposant sur une perception de menace plutôt que sur la gravité réelle.",
@@ -16595,7 +16595,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les deux composantes de la kinésiophobie ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "La peur de la douleur et les croyances de vulnérabilité.",
@@ -16614,7 +16614,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les propositions suivantes, laquelle correspond à des prédicteurs de la kinésiophobie ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Un catastrophisme élevé associé à une faible auto-efficacité.",
@@ -16633,7 +16633,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que mesure le HADS ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Conjointement l'anxiété et la dépression.",
@@ -16652,7 +16652,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon quelles dimensions le BDI-II évalue-t-il la dépression ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Une dimension cognitivo-affective et une dimension somatique.",
@@ -16671,7 +16671,7 @@ const QUESTIONS = {
   },
   {
    "q": "À travers quelles composantes le PCS évalue-t-il le catastrophisme ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La rumination, la magnification et le désespoir.",
@@ -16690,7 +16690,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que mesure le TSK-11 ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La kinésiophobie, liée à l'évitement de l'activité et de la douleur.",
@@ -16709,7 +16709,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le statut des questionnaires utilisés en kinésithérapie ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Des outils d'évaluation qui ne posent pas de diagnostic.",
@@ -16728,7 +16728,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'auto-évaluation de la douleur, quelle affirmation en constitue une limite reconnue ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Elle suppose des compétences verbales et peut être altérée par une mémoire imparfaite de la douleur.",
@@ -16747,7 +16747,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les données présentées, comment le genre influence-t-il la verbalisation de la douleur ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Les hommes tendent à verbaliser moins leur douleur en présence de femmes.",
@@ -16766,7 +16766,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles variations physiologiques accompagnent typiquement la douleur ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Une augmentation de la fréquence cardiaque et une diminution de la température périphérique.",
@@ -16785,7 +16785,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui caractérise l'approche multimodale en kinésithérapie ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Elle combine des techniques passives, actives et des stratégies éducatives, avec de meilleurs résultats dans la douleur chronique.",
@@ -16804,7 +16804,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le rôle de l'éducation à la douleur parmi les traitements cognitifs ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Elle constitue la première ligne : elle transforme la menace en information gérable et diminue le catastrophisme.",
@@ -16823,7 +16823,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'effet du mindfulness (pleine conscience) dans la prise en charge de la douleur ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Il contribue à réduire l'hypervigilance à la douleur.",
@@ -16842,7 +16842,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'objectif de l'exposition progressive au mouvement ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Réduire progressivement la kinésiophobie, c'est-à-dire la peur du mouvement.",
@@ -16861,7 +16861,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les techniques cognitivo-comportementales complémentaires, comment sont conçus les programmes de reprise d'activité ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Ils sont fondés sur la capacité du patient et non sur la douleur ressentie.",
@@ -16880,7 +16880,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle proportion des patients atteints de maladies chroniques ne suit pas correctement son traitement ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Entre 20 et 50 % des patients ne suivent pas correctement leur traitement",
@@ -16899,7 +16899,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en kinésithérapie, quelle proportion des patients ne respecte pas les recommandations de traitement ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Entre 30 et 50 % des patients ne respectent pas les recommandations de traitement",
@@ -16918,7 +16918,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que traduit le « paradoxe de l'adhérence » présenté dans le cours ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Une hausse de l'adhérence s'accompagne d'une baisse du nombre de séances nécessaires",
@@ -16937,7 +16937,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la classification du cours, à quel niveau de conséquences de la non-adhérence rattache-t-on la résistance aux médicaments ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Aux conséquences individuelles, qui concernent la santé personnelle du patient",
@@ -16956,7 +16956,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours définit-il la motivation ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Le processus qui initie, guide et soutient les comportements orientés vers un objectif, sous l'effet de facteurs internes ou externes",
@@ -16975,7 +16975,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient poursuit ses exercices parce qu'il éprouve du plaisir à constater ses propres progrès. De quelle motivation s'agit-il et à quoi est-elle liée ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Une motivation extrinsèque, liée à l'auto-efficacité (compliments et récompenses reçus)",
@@ -16994,7 +16994,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle situation illustre une motivation extrinsèque au sens du cours ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Le patient poursuit ses exercices parce qu'il les trouve intéressants et satisfaisants en soi",
@@ -17013,7 +17013,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment le kinésithérapeute doit-il utiliser les facteurs de motivation du patient ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Privilégier les facteurs extrinsèques tout en aidant le patient à trouver ses facteurs intrinsèques",
@@ -17032,7 +17032,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les bénéfices secondaires de la maladie, quelle proposition est exacte ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Ce sont des avantages, souvent inconscients, retirés du maintien de l'état de malade : attention, soutien, temps libre ou avantages financiers.",
@@ -17051,7 +17051,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'observance thérapeutique se définit comme :",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Le degré de conformité entre les prescriptions et le comportement du patient (médicaments, doses, horaires, règles hygiéno-diététiques).",
@@ -17070,7 +17070,7 @@ const QUESTIONS = {
   },
   {
    "q": "La conformité (compliance au sens strict) correspond à :",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Une obéissance passive du patient qui suit les prescriptions sans les questionner, dans une relation paternaliste.",
@@ -17089,7 +17089,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'adhésion thérapeutique se caractérise avant tout par :",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Un processus actif et collaboratif, centré sur le patient, reposant sur des recommandations convenues ensemble.",
@@ -17108,7 +17108,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente diminue d'elle-même la dose prescrite afin de limiter des effets indésirables gênants. Comment interpréter ce comportement selon le cours ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Comme une décision raisonnée (analyse coûts-avantages) dont les raisons peuvent différer de celles du soignant.",
@@ -17127,7 +17127,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs d'observance liés au patient, concernant le locus de contrôle :",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Un locus de contrôle interne est associé à une meilleure adhérence qu'un locus de contrôle externe.",
@@ -17146,7 +17146,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs d'observance liés au soignant, on retient :",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Ses connaissances, son style de communication (empathie, écoute active), ses autosoins (burnout) et sa gestion de l'incertitude.",
@@ -17165,7 +17165,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs d'observance liés au traitement figurent :",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Sa complexité, sa durée, sa fréquence, ses effets secondaires ainsi que la charge et les avantages perçus.",
@@ -17184,7 +17184,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les ensembles suivants, lequel ne regroupe que des facteurs liés à la MALADIE susceptibles d'influencer l'observance ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "La gravité, l'évolution et le pronostic de la pathologie.",
@@ -17203,7 +17203,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les propositions suivantes, laquelle ne regroupe que des facteurs liés à la relation thérapeutique et au contexte ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Objectifs communs, continuité des soins et soutien social.",
@@ -17222,7 +17222,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle attitude caractérise l'entretien motivationnel visant à augmenter la motivation au changement ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Une attitude empathique, centrée sur le patient, qui évite la confrontation.",
@@ -17241,7 +17241,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel est le facteur prédictif le plus important du résultat de tout traitement ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "La motivation du patient à changer.",
@@ -17260,7 +17260,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après les effets de mémorisation évoqués (génération, production, enactment, enseignement), quelle situation favorise le mieux la rétention d'un exercice ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Réaliser soi-même l'exercice plutôt que de regarder le kiné le faire.",
@@ -17279,7 +17279,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quel ordre se déroulent les quatre phases de l'entretien motivationnel ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Rapport, Focaliser, Évoquer, Planifier.",
@@ -17298,7 +17298,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que recouvrent les quatre outils de base OARS de l'entretien motivationnel ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Questions ouvertes, Affirmations, Reflets et Synthèses.",
@@ -17317,7 +17317,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient déclare : « J'ai vraiment besoin d'aller mieux rapidement. » Quel type de langage du changement exprime-t-il ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Le besoin.",
@@ -17336,7 +17336,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le cadre de l'entretien motivationnel, quelle posture le kinésithérapeute adopte-t-il vis-à-vis de son patient ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Un facilitateur qui accompagne le patient, considéré comme partenaire et expert de sa propre vie.",
@@ -17355,7 +17355,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se définit la dissonance cognitive ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "L'inconfort lié à des pensées ou des actions contradictoires, que l'on cherche à réduire.",
@@ -17374,7 +17374,7 @@ const QUESTIONS = {
   },
   {
    "q": "Face à l'ambivalence du patient (des raisons de changer et de ne pas changer), comment le kinésithérapeute doit-il se positionner ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "La considérer comme normale et laisser le patient la résoudre lui-même, en évitant le débat.",
@@ -17393,7 +17393,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les six stades du modèle transthéorique du changement ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Précontemplation, contemplation, préparation, action, maintien et rechute.",
@@ -17412,7 +17412,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se caractérisent respectivement les stades de précontemplation et de contemplation ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "En précontemplation le patient n'a pas identifié le problème ; en contemplation il est ambivalent.",
@@ -17431,7 +17431,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les objectifs de l'entretien motivationnel par stade, que vise-t-on prioritairement au stade de contemplation ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Explorer avec le patient les avantages et les inconvénients du changement.",
@@ -17450,7 +17450,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour anticiper la non-observance, deux questions identifient environ la moitié des patients à risque ; sur quoi portent-elles ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "La perception de l'auto-efficacité et la capacité à faire face à l'effort.",
@@ -17469,7 +17469,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les stratégies d'adhérence, quels effets la gamification produit-elle ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Elle augmente l'auto-efficacité, la motivation et l'intensité des répétitions.",
@@ -17488,7 +17488,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une démarche d'adhérence, que recouvre l'acronyme d'un objectif « SMART » ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis.",
@@ -17507,7 +17507,7 @@ const QUESTIONS = {
   },
   {
    "q": "À propos de la matrice SWOT et du journal comme stratégies d'adhérence, quelle proposition est exacte ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "La matrice SWOT explore forces, faiblesses, opportunités et menaces, et favorise la responsabilité et l'auto-efficacité.",
@@ -17526,7 +17526,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'analyse des rôles, qu'implique le rôle de soignant ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Agir pour le bien-être avec professionnalisme et objectivité, avec pour privilèges l'accès à l'intimité, l'autonomie et la dominance professionnelle.",
@@ -17545,7 +17545,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'axiome selon lequel « on ne peut pas ne pas communiquer », quelle affirmation est correcte ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Il est impossible de ne pas communiquer, car même le silence transmet un message.",
@@ -17564,7 +17564,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les axiomes de la communication, quels sont les deux aspects de toute communication ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Le contenu et la relation.",
@@ -17583,7 +17583,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que signifie l'axiome de la « ponctuation des séquences » de communication ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "La nature de la relation dépend de la façon dont chacun interprète qui a commencé l'échange.",
@@ -17602,7 +17602,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant les modes digital et analogique de la communication, quelle proposition est correcte ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Le digital correspond aux mots (verbal) et l'analogique au non-verbal, et leur divergence crée des incongruences.",
@@ -17621,7 +17621,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les axiomes, une communication peut être :",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Symétrique, fondée sur l'égalité, ou complémentaire, fondée sur une position haute et une position basse.",
@@ -17640,7 +17640,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel moment précis la communication peut-elle être considérée comme achevée ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Lorsque le récepteur retourne l'information à l'émetteur (feedback).",
@@ -17659,7 +17659,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la communication affective, comment se répartit l'impact du message ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "55 % langage corporel, 38 % voix et 7 % mots.",
@@ -17678,7 +17678,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'où provient surtout la première impression et en combien de temps se forme-t-elle ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Surtout du non-verbal, et elle se forme en quelques secondes.",
@@ -17697,7 +17697,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment qualifier l'ancien modèle de communication soignant, antérieur au consentement aux soins et au patient partenaire autonome ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Un modèle paternaliste, où le soignant décide pour le patient.",
@@ -17716,7 +17716,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel décalage existe entre professionnels et patients concernant les besoins d'information ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Les soignants sous-estiment l'intérêt du diagnostic/pronostic et surestiment celui du traitement.",
@@ -17735,7 +17735,7 @@ const QUESTIONS = {
   },
   {
    "q": "En phase terminale, que montre la relation autour de l'annonce entre patients et médecins ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "La plupart des patients savent et veulent en parler, alors que la plupart des médecins évitent le sujet.",
@@ -17754,7 +17754,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment les patients perçoivent-ils un professionnel qui les informe abondamment ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Ils lui prêtent une motivation positive à leur égard.",
@@ -17773,7 +17773,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les trois compétences de communication ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "L'empathie, l'écoute active et l'assertivité.",
@@ -17792,7 +17792,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'implique l'empathie dans la relation à autrui ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Comprendre ce que ressent l'autre sans se laisser emporter émotionnellement, sans le juger, en se décentrant de soi.",
@@ -17811,7 +17811,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel est l'ordre des trois phases de l'empathie ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Identification, puis incorporation, puis séparation (mise à distance pour éviter la culpabilité).",
@@ -17830,7 +17830,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui différencie l'empathie de la sympathie ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Dans l'empathie, la compréhension du sentiment de l'autre n'est pas nécessairement partagée.",
@@ -17849,7 +17849,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, que produit le fait de se forcer à l'empathie ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Des idées erronées, de la méfiance et des contradictions.",
@@ -17868,7 +17868,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, lequel figure parmi les cinq impératifs de l'écoute active ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "S'intéresser davantage à la personne qu'à son problème.",
@@ -17887,7 +17887,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle attitude correspond à l'écoute active face à une personne qui expose un problème ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Écouter d'abord la personne sans lui proposer de solution immédiate.",
@@ -17906,7 +17906,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en quoi consiste la technique du miroir en écoute active ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Répéter la dernière phrase ou le dernier mot prononcé par la personne.",
@@ -17925,7 +17925,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment sont définies les compétences sociales dans le cadre de l'assertivité ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Des réponses socialement compétentes selon le contexte, qui sont des comportements appris.",
@@ -17944,7 +17944,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un collègue, mécontent d'une décision, se mure dans le silence puis multiplie sarcasmes et remarques ironiques, sans jamais exprimer clairement son désaccord ni tenir compte de celui des autres. Quel style relationnel décrit ce comportement ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Le style manipulation (passif-agressif)",
@@ -17963,7 +17963,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment réagit la majorité des gens (environ 60 à 70 %) lorsqu'ils se trouvent dans une situation tendue ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Ils basculent vers un style passif ou passif-agressif",
@@ -17982,7 +17982,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, quel est l'aspect le plus difficile lorsqu'on pose une limite à quelqu'un ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Soutenir l'émotion et rester calme quand l'autre réagit mal",
@@ -18001,7 +18001,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours explique-t-il l'origine de la peur du rejet ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Le cerveau est programmé pour préserver le lien social",
@@ -18020,7 +18020,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que privilégie l'analyse systémique pour comprendre un conflit ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Les interactions réciproques plutôt qu'une cause unique",
@@ -18039,7 +18039,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle stratégie le cours propose-t-il pour gérer une montée de tension pendant un conflit ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "S'accorder un temps mort en s'éloignant ou en comptant",
@@ -18058,7 +18058,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi consiste la technique du disque rayé pour dire non ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Répéter inlassablement le même argument, sans se fâcher",
@@ -18077,7 +18077,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour exprimer un désaccord de manière respectueuse, quelle distinction le cours recommande-t-il ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Distinguer la personne de son comportement",
@@ -18096,7 +18096,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle attitude adopter pour bien recevoir une critique ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Écouter pour comprendre, remercier, puis questionner sans réfuter",
@@ -18115,7 +18115,7 @@ const QUESTIONS = {
   },
   {
    "q": "Face à un comportement agressif, quelle approche le cours préconise-t-il ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Combiner l'empathie et la fermeté, dans une attitude assertive",
@@ -18134,7 +18134,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment définit-on une mauvaise nouvelle ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Toute information qui altère négativement la vision du patient sur son avenir",
@@ -18153,7 +18153,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces démarches ne fait PAS partie des six étapes du protocole d'annonce ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Obtenir le consentement écrit du patient avant de débuter l'entretien",
@@ -18172,7 +18172,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi la mauvaise nouvelle s'annonce-t-elle par étapes ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Parce qu'après le choc le patient n'entend plus rien, l'émotion bloquant sa compréhension",
@@ -18191,7 +18191,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la conception mécaniciste de la santé, l'état de maladie s'explique essentiellement par :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le bon ou le mauvais fonctionnement des organes et des parties du corps",
@@ -18210,7 +18210,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les soins de santé se définissent comme :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "L'ensemble des connaissances, compétences et techniques permettant de répondre aux besoins de santé d'une personne ou d'une collectivité",
@@ -18229,7 +18229,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi ces facteurs de risque, lequel est commun aux maladies du cœur, au cancer et aux maladies chroniques du poumon ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "La consommation de cigarettes",
@@ -18248,7 +18248,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les réactions déclenchées chez un individu par la maladie varient principalement en fonction :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "De sa personnalité, de sa représentation imaginaire et de la représentation collective de la maladie",
@@ -18267,7 +18267,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mécanisme explique l'effet antalgique des techniques de relaxation ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Elles réduisent l'activation du système nerveux sympathique, ce qui diminue la tension et la perception douloureuse",
@@ -18286,7 +18286,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi consiste le biofeedback dans la prise en charge de la douleur ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Afficher au patient, en temps réel, ses variables physiologiques pour qu'il apprenne à contrôler ses réponses",
@@ -18305,7 +18305,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'apporte au patient le journal de la douleur rempli quotidiennement ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Il lui permet d'identifier les modèles et les déclencheurs possibles de sa douleur à partir de ses activités et de ses émotions",
@@ -18324,7 +18324,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quel principe repose l'imagerie motrice ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Imaginer un mouvement sans l'exécuter active les mêmes circuits neuronaux que sa réalisation effective",
@@ -18343,7 +18343,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est l'apport propre de la réalité virtuelle chez un patient douloureux chronique ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Elle permet une exposition contrôlée au mouvement sans risque réel, ce qui améliore la motivation et l'observance du traitement",
@@ -18362,7 +18362,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que vise la formation aux stratégies d'adaptation chez le patient douloureux chronique ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Augmenter son auto-efficacité et réduire sa dépendance aux traitements externes par la restructuration cognitive",
@@ -18381,7 +18381,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous devez annoncer à un patient que son pronostic fonctionnel est plus limité qu'espéré. Comment préparez-vous l'entretien ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Dans un lieu calme et privé, assis à côté du patient, en ouvrant par une question sur la façon dont il se sent",
@@ -18400,7 +18400,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le patient vient de vous dire ce qu'il sait déjà de sa situation. Quelle démarche vient immédiatement après ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Lui demander quelle quantité d'information il souhaite recevoir avant de lui transmettre le diagnostic",
@@ -18419,7 +18419,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au moment de partager l'information, quelle conduite est conforme au protocole d'annonce ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Délivrer la réalité médicale à petites doses, en reformulant avec les mots du patient et en vérifiant sa compréhension",
@@ -18438,7 +18438,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le patient fond en larmes à l'annonce. Quelle est l'attitude attendue du kinésithérapeute ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Le laisser exprimer son émotion sans l'interrompre et lui signifier qu'on comprend que ce soit difficile à entendre",
@@ -18457,7 +18457,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces attitudes figure parmi les erreurs à éviter lors d'une annonce ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Réagir avec une forte réactivité émotionnelle à la réaction du patient",
@@ -18476,7 +18476,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans quelle situation le kinésithérapeute se trouve-t-il en position d'annoncer une mauvaise nouvelle ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Lorsqu'il doit expliquer que la récupération a atteint un plateau et que l'évolution sera désormais très limitée",
@@ -18495,7 +18495,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se termine un entretien d'annonce conduit selon le protocole ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Par un résumé des points clés, les prochaines étapes proposées et l'assurance de rester disponible pour ses questions",
@@ -18514,7 +18514,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'hypothèse de la sensibilisation centrale, qu'est-ce qui rend le système nerveux central hyperréactif chez une personne anxieuse ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "L'activité soutenue des neurotransmetteurs et des hormones liés au stress chronique.",
@@ -18533,7 +18533,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'appelle-t-on « attributions causales » dans l'étude des liens entre anxiété et douleur chronique ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Les interprétations que la personne fait des causes de ses symptômes douloureux.",
@@ -18552,7 +18552,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels effets l'anxiété exerce-t-elle sur la vigilance et sur la discrimination des stimuli ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Elle élève le niveau d'alerte et dégrade la discrimination des stimuli.",
@@ -18571,7 +18571,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel retentissement l'anxiété a-t-elle sur la prise en charge d'un patient douloureux chronique ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Elle réduit l'effet du traitement, par une perte d'adhérence du patient.",
@@ -18590,7 +18590,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur le plan fonctionnel et sur la qualité de vie, à quoi l'anxiété expose-t-elle le patient douloureux chronique ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "À une moins bonne qualité de vie, avec évitement et déconditionnement physique.",
@@ -18609,7 +18609,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que perturbe la privation de sommeil chez une personne déprimée et douloureuse ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Les systèmes de modulation de la douleur ainsi que le traitement sensoriel.",
@@ -18628,7 +18628,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quelles activités porte la perte d'intérêt observée dans la dépression chez un patient douloureux ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Sur les activités physiques comme sur les activités sociales.",
@@ -18647,7 +18647,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle caractéristique de la douleur elle-même figure parmi les prédicteurs de la kinésiophobie ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Son intensité ainsi que sa durée.",
@@ -18666,7 +18666,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément du parcours de soins antérieur du patient prédit la kinésiophobie ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Les rechutes passées et les échecs de traitement déjà vécus.",
@@ -18685,7 +18685,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment la kinésiophobie se répartit-elle selon l'âge et selon le sexe ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Elle est plus fréquente chez les personnes âgées et plus marquée chez les femmes.",
@@ -18704,7 +18704,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quoi le niveau socio-économique et éducatif est-il relié dans la survenue d'une kinésiophobie ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "À l'accès à des informations adéquates sur la douleur et le mouvement.",
@@ -18723,7 +18723,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que retient-on à propos de la prédisposition génétique et de la douleur chronique familiale ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Elles peuvent accroître la peur de la douleur chez certaines personnes.",
@@ -18742,7 +18742,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment la définition de référence de la douleur la qualifie-t-elle ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Une expérience sensorielle et émotionnelle désagréable, liée à une lésion tissulaire réelle ou potentielle, ou y ressemblant.",
@@ -18761,7 +18761,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle nuance les notes explicatives de la définition apportent-elles à la fonction adaptative de la douleur ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Généralement adaptative, elle peut nuire à la fonctionnalité et au bien-être psychologique et social.",
@@ -18780,7 +18780,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ordre de grandeur sépare la vitesse de conduction des fibres Aδ de celle des fibres C ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Environ 20 m/s pour les fibres Aδ contre 2 m/s pour les fibres C.",
@@ -18799,7 +18799,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est exactement le rôle des nocicepteurs dans l'expérience douloureuse ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Ils détectent le danger et en avertissent le cerveau, sans ressentir eux-mêmes la douleur.",
@@ -18818,7 +18818,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle place la douleur occupe-t-elle parmi les motifs de recours à un professionnel de santé ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "C'est le symptôme le plus susceptible d'amener une personne à consulter.",
@@ -18837,7 +18837,7 @@ const QUESTIONS = {
   },
   {
    "q": "Entre quels systèmes de l'organisme l'expérience de la douleur met-elle en jeu une interaction complexe ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Les systèmes nerveux, immunitaire et endocrinien.",
@@ -18856,7 +18856,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle évolution thérapeutique caractérise les personnes souffrant de douleur chronique complexe ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Elles ne répondent pas aux traitements standards et vivent la douleur comme un handicap.",
@@ -18875,7 +18875,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment l'entourage d'un patient souffrant de douleur chronique complexe est-il décrit ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Fortement impliqué, avec des relations centrées sur le problème de la douleur.",
@@ -18894,7 +18894,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'est-ce qui influence le maintien de la douleur dans le temps chez un patient douloureux chronique ?",
-   "c": 9,
+   "c": 4,
    "options": [
     {
      "t": "Les environnements sociaux ainsi que les caractéristiques individuelles du patient.",
@@ -18913,7 +18913,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un patient anxieux, à quel moment une réponse anxieuse et douloureuse peut-elle déjà s'installer ?",
-   "c": 11,
+   "c": 4,
    "options": [
     {
      "t": "Avant même que la douleur ne soit apparue, par anticipation.",
@@ -18932,7 +18932,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans les exemples de facteurs de prédisposition donnés par le cours, les troubles émotionnels tels que la colère sont rattachés à quel groupe de pathologies ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Aux maladies du cœur et à l'arrêt cardiaque.",
@@ -18951,7 +18951,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est, d'après le cours, le coût de l'adaptation que la maladie impose au patient ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Elle mobilise ses ressources personnelles et lui cause des troubles qui s'ajoutent à la maladie.",
@@ -18970,7 +18970,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mouvement psychique le cours décrit-il spécifiquement à propos des maladies graves ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Une brusque résurgence de l'angoisse de mort, qui mobilise profondément la psychologie.",
@@ -18989,7 +18989,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle portée le cours attribue-t-il aux réactions et à l'adaptation du malade à sa maladie ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Elles sont déterminantes pour l'attitude du patient et pour l'évolution de la maladie.",
@@ -19008,7 +19008,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quoi renvoient les « aspects subjectifs » de la pratique des soignants ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Aux façons d'examiner, d'informer, de prescrire, de soigner et d'accompagner.",
@@ -19027,7 +19027,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les demandes d'ordre relationnel et affectif qui accompagnent les symptômes médicaux s'adressent :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Au soignant, mais aussi à l'environnement du patient, famille et milieu professionnel.",
@@ -19046,7 +19046,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les éléments relationnels de la fonction soignante retenus par le cours ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "La relation soignant-soigné, les relations avec la famille et les relations avec la société.",
@@ -19065,7 +19065,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les représentations culturelles de l'épilepsie et les croyances religieuses entourant certains traitements illustrent :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Que certaines affections entraînent des réactions particulières qui dépendent de la culture.",
@@ -19084,7 +19084,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après les principales causes de décès recensées par l'OMS, qu'est-ce qui distingue les pays à revenu moyen des pays à revenu élevé ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Le diabète figure au revenu moyen, et les maladies neurodégénératives au revenu élevé.",
@@ -19103,7 +19103,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les comportements protecteurs cités par le cours, lequel n'est mentionné que pour la prévention des cancers ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Protéger sa peau de l'exposition au soleil.",
@@ -19122,7 +19122,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels facteurs de risque le cours présente-t-il comme communs à la maladie parodontale et à la maladie cardiovasculaire ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "L'obésité, le tabac et le syndrome métabolique.",
@@ -19141,7 +19141,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel immunogène comportemental le cours justifie-t-il par le fait que rester actif sur le plan cognitif améliore le fonctionnement du cerveau et réduit le risque de maladies neurodégénératives ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "La poursuite active de l'éducation et de la formation continue.",
@@ -19160,7 +19160,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour quelle raison l'utilisation excessive d'appareils électroniques est-elle rangée parmi les pathogènes comportementaux ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Elle favorise les problèmes visuels, les troubles du sommeil et la sédentarité.",
@@ -19179,7 +19179,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que précise le cours à propos de l'intention qui sous-tend un comportement lié à la santé ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Il ne vise pas nécessairement de façon consciente à améliorer la santé.",
@@ -19198,7 +19198,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans son acception générale, que recouvre la prévention ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Éviter l'apparition des maladies, interrompre leur progression et réduire leurs conséquences.",
@@ -19217,7 +19217,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs qui influencent les comportements de santé, lequel de ces ensembles correspond aux facteurs sociaux ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "Les normes, le soutien social et les modèles de rôle.",
@@ -19236,7 +19236,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours définit-il l'automédication parmi les pathogènes comportementaux ?",
-   "c": 4,
+   "c": 2,
    "options": [
     {
      "t": "L'usage de médicaments sans ordonnance ou sans supervision d'un professionnel de santé.",
@@ -19255,7 +19255,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient déclare : « Je n'ai pas le temps de faire mes exercices. » Le kinésithérapeute répond : « Vous sentez que vos journées sont trop chargées en ce moment, c'est bien cela ? » Quel outil de base emploie-t-il ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Un reflet, qui renvoie au patient ce qu'il vient tout juste d'exprimer.",
@@ -19274,7 +19274,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours d'un entretien, le kinésithérapeute dit à son patient : « Vous me disiez que votre priorité, c'est de pouvoir jouer avec vos enfants le soir. » Quelle modalité de l'évocation met-il en œuvre ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Le rappel de ce qui compte pour le patient, relié à ses valeurs et à ses priorités.",
@@ -19293,7 +19293,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, laquelle de ces conduites du kinésithérapeute est CONTRAIRE à l'attitude collaborative de l'entretien motivationnel ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Proposer spontanément des conseils que le patient n'a pas demandés.",
@@ -19312,7 +19312,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient dit : « Je pense que je peux faire les exercices l'après-midi. » Quelle réponse du kinésithérapeute correspond au renforcement du discours-changement ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "« On dirait que vous pensez déjà à la façon d'intégrer cela dans votre routine quotidienne. »",
@@ -19331,7 +19331,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel stade du changement l'objectif principal est-il d'aider le patient à repérer les situations à risque et à se doter de stratégies pour prévenir les rechutes ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Au stade du maintien.",
@@ -19350,7 +19350,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient qui avait repris ses exercices les a complètement abandonnés et se dit découragé. Selon les lignes directrices du cours, comment aborder cet épisode ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "En le normalisant sans culpabiliser le patient, et en explorant avec lui ce qui l'a provoqué.",
@@ -19369,7 +19369,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la conclusion du cours, pourquoi une habitude nuisible pour la santé persiste-t-elle malgré ses effets négatifs ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Parce qu'elle apporte un bénéfice immédiat ou qu'elle remplit une fonction psychologique, parfois inconsciente.",
@@ -19388,7 +19388,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une analyse SWOT menée avec son patient, celui-ci déclare : « Au travail, ils ne vont pas m'aider avec ça. » Dans quelle case cet élément doit-il être placé ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Dans les menaces.",
@@ -19407,7 +19407,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que doit recueillir le journal proposé au patient pour soutenir son adhérence ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "L'activité réalisée avec sa fréquence et sa durée, les difficultés rencontrées ainsi que la perception de l'effort.",
@@ -19426,7 +19426,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'élaboration d'un « plan de voyage » avec le patient, quelle règle le cours pose-t-il concernant les objectifs ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Les objectifs à long terme supposent des objectifs à court et à moyen terme, réévalués régulièrement.",
@@ -19445,7 +19445,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la définition d'objectifs SMART, qu'est-ce qui distingue un objectif « atteignable » d'un objectif « réaliste » ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "L'atteignable est ajusté aux capacités du patient, le réaliste à ses priorités.",
@@ -19464,7 +19464,7 @@ const QUESTIONS = {
   },
   {
    "q": "Avant d'engager un plan d'action, le kinésithérapeute demande : « Sur une échelle de 0 à 10, à quel point vous sentez-vous prêt à essayer ? » Que cherche-t-il à faire ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Vérifier le degré de préparation du patient avant de construire le plan.",
@@ -19483,7 +19483,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'apportent les plateformes de télérééducation et d'exercices guidés ?",
-   "c": 15,
+   "c": 5,
    "options": [
     {
      "t": "Elles améliorent l'adhérence du patient à son programme ainsi que sa récupération.",
@@ -19502,7 +19502,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs qui influencent la motivation, lequel le cours classe-t-il parmi les facteurs EXTERNES ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "La relation thérapeutique.",
@@ -19521,7 +19521,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels résultats cliniques sont attendus lorsque la motivation du patient est soutenue ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Une meilleure observance du traitement, une diminution de la douleur et une fonctionnalité accrue.",
@@ -19540,7 +19540,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, dans quel cas un patient est-il le plus susceptible de se conformer aux conseils de son soignant ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Lorsque ces conseils rejoignent ses propres croyances sur la santé, la maladie et le traitement.",
@@ -19559,7 +19559,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel statut faut-il reconnaître à l'adhésion dans la prise en charge du patient ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Elle est un moyen : le but reste de prendre en charge le patient dans son propre système de référence.",
@@ -19578,7 +19578,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les outils de motivation en kinésithérapie, que vise principalement la diminution de l'incertitude chez le patient ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Améliorer la gestion émotionnelle du patient.",
@@ -19597,7 +19597,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la comparaison entre conformité et observance, quelle perspective le cours attribue-t-il à l'observance ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Une perspective biopsychosociale, qui tient compte des préférences du patient.",
@@ -19616,7 +19616,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient convaincu que toute douleur ressentie pendant l'exercice signe une lésion évite systématiquement les mouvements prescrits. Quel facteur d'observance lié au patient est ici en cause ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Ses croyances et attitudes à l'égard de la santé et de la maladie.",
@@ -19635,7 +19635,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours présente la motivation comme un processus dynamique. Que recouvre sa composante cognitive ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "La manière dont nous interprétons nos objectifs.",
@@ -19654,7 +19654,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment la plupart des patients vivent-ils le fait de ne pas suivre strictement les prescriptions ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Sans culpabilité particulière : ils n'y voient pas une faute, mais une décision cohérente avec leur vie.",
@@ -19673,7 +19673,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente espace puis interrompt ses séances : le cabinet n'est accessible qu'en voiture et les séances ne sont pas prises en charge. Quel groupe de facteurs d'observance est ici principalement en cause ?",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Les facteurs liés au contexte de vie.",
@@ -19692,7 +19692,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment un patient interprète-t-il l'absence de nouvelles concernant sa situation ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Comme de mauvaises nouvelles, le manque d'information créant incertitude, peur et anxiété.",
@@ -19711,7 +19711,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'est-ce qui empêche le plus souvent les patients de réclamer eux-mêmes des informations ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "La crainte de la réaction du soignant, le manque de temps et de compétences pour formuler leurs questions.",
@@ -19730,7 +19730,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel rapport existe-t-il entre les compétences en communication et les compétences biotechniques ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Sans communication, les meilleures compétences biotechniques peuvent rester totalement futiles.",
@@ -19749,7 +19749,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au début de la relation, comment le cours recommande-t-il de structurer l'entretien avec le patient ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Le laisser raconter son histoire ouvertement et avec peu de direction, pour enrichir l'information mutuelle.",
@@ -19768,7 +19768,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient qui ne se sent pas écouté minimise sa douleur devant son kinésithérapeute. Comment le cours interprète-t-il ce comportement ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Comme une réaction de protection, et non comme une manipulation du professionnel.",
@@ -19787,7 +19787,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel effet une communication ouverte et encourageante peut-elle avoir en kinésithérapie ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Réduire l'anxiété du patient, ce qui peut modifier sa perception de la douleur et accélérer sa récupération.",
@@ -19806,7 +19806,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'approche centrée sur la personne, l'empathie du soignant est complète lorsqu'il :",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "comprend les réactions et les sentiments de l'autre de l'intérieur et lui communique cette compréhension.",
@@ -19825,7 +19825,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que signifie la condition du « comme si » dans la définition de l'empathie ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Percevoir le cadre de référence interne de l'autre sans jamais oublier qu'on n'est pas cette personne.",
@@ -19844,7 +19844,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un étudiant estime être empathique parce qu'il sourit beaucoup à ses patients et leur consacre plus de temps qu'aux autres. Que répond le cours ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Sourire et accorder du temps ne constituent pas en eux-mêmes de l'empathie véritable.",
@@ -19863,7 +19863,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle condition interne est nécessaire pour qu'une attitude soit perçue comme empathique ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "La cohérence entre ce que l'on pense, ce que l'on ressent et ce que l'on fait.",
@@ -19882,7 +19882,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient confie qu'il a peur de ne jamais reprendre son travail. Quelle réponse correspond au développement de l'empathie selon le cours ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Légitimer ce qu'il ressent et lui proposer un soutien véridique, sans créer de fausses attentes.",
@@ -19901,7 +19901,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les éléments de l'empathie verbale, que recommande le cours sous le terme de « réactivité faible » ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Prendre son temps avant de répondre ou de reprendre la parole à son tour.",
@@ -19920,7 +19920,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment s'interprètent l'absence de contact visuel et une position fermée lors d'un échange ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Toutes deux renvoient au rejet : de la personne pour l'une, de la communication pour l'autre.",
@@ -19939,7 +19939,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, qu'exige l'écoute active de la part du soignant sur le plan de l'attention ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Une mobilisation intense de l'attention, portée aussi sur les gestes, l'attitude et le regard de l'autre.",
@@ -19958,7 +19958,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que vise la synthèse en écoute active, selon le cours ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Regrouper les faits et les sentiments exprimés pour que la personne puisse corriger ou compléter.",
@@ -19977,7 +19977,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle position le soignant adopte-t-il vis-à-vis du contenu de ce que dit le patient ?",
-   "c": 17,
+   "c": 6,
    "options": [
     {
      "t": "Il manifeste qu'il a compris le message, sans exprimer d'accord ni de désaccord.",
@@ -19996,7 +19996,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le schéma de la communication, à quoi correspond le code ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "À l'ensemble des signes et des règles qui constituent le message.",
@@ -20015,7 +20015,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel rôle la communication non verbale joue-t-elle dans l'interaction soignant-soigné ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Elle soutient le dialogue en le complétant, en le synchronisant et en donnant du feedback, et communique émotions et attitudes.",
@@ -20034,7 +20034,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les deux formes de communication non verbale, laquelle révèle le mieux les émotions de la personne ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "La forme non intentionnelle, puisque l'émotion est toujours incontrôlable.",
@@ -20053,7 +20053,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quelle catégorie appartient le ton de la voix ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "À la communication non verbale, qui passe par les signaux du corps et de la voix.",
@@ -20072,7 +20072,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'émetteur d'un message est-il nécessairement une personne ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Non : une affiche, par exemple, peut elle aussi tenir le rôle d'émetteur.",
@@ -20091,7 +20091,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment s'articulent généralement le verbal et le non verbal ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Ils sont plurimodaux et simultanés : les moyens employés sont le plus souvent co-occurrents.",
@@ -20110,7 +20110,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une relation complémentaire entre deux interlocuteurs est-elle nécessairement problématique ?",
-   "c": 16,
+   "c": 6,
    "options": [
     {
      "t": "Non : le cours souligne qu'elle peut être très fonctionnelle, comme entre parents et enfants.",
@@ -20129,7 +20129,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un kinésithérapeute fait remplir plusieurs questionnaires à un patient douloureux chronique. Quelle décision ces questionnaires sont-ils destinés à éclairer ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Le type de traitement à choisir et l'orientation éventuelle vers un autre professionnel.",
@@ -20148,7 +20148,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle utilité le cours reconnaît-il à la passation de questionnaires en kinésithérapie ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Ordonner le recueil des informations nécessaires aux antécédents du patient.",
@@ -20167,7 +20167,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez quels patients le cours recommande-t-il de rechercher une hypervigilance à la douleur ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Ceux qui présentent un processus douloureux complexe évoluant au long cours.",
@@ -20186,7 +20186,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle stratégie le cours propose-t-il pour renforcer l'auto-efficacité d'un patient douloureux chronique ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Fixer des objectifs courts et réalisables qui améliorent la perception qu'il a de lui-même.",
@@ -20205,7 +20205,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans l'évaluation de la douleur, que recouvre précisément le niveau sensoriel ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La nature de la douleur, sa localisation et son intensité.",
@@ -20224,7 +20224,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel avantage le cours reconnaît-il aux méthodes d'auto-évaluation de la douleur ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Elles sont faciles à mettre en œuvre et conviennent à des douleurs de types variés.",
@@ -20243,7 +20243,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours signale que la douleur rapportée en auto-évaluation peut se déformer. Quel exemple en donne-t-il ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Le patient exagère sa douleur pour obtenir de la sympathie ou de l'attention.",
@@ -20262,7 +20262,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est, selon le cours, la façon la plus courante de mesurer la douleur ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Poser une question unique demandant au patient de noter sa douleur sur une échelle.",
@@ -20281,7 +20281,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur une réglette d'évaluation visuelle analogique, qu'est-ce qui distingue la face tournée vers le patient de celle que lit le soignant ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La face patient ne porte aucune graduation, seules ses extrémités étant décrites.",
@@ -20300,7 +20300,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le questionnaire de dépistage Örebro interroge le patient sur des douleurs siégeant à quel niveau ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Le dos, les épaules ou la nuque.",
@@ -20319,7 +20319,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au questionnaire Örebro, que traduit un score total élevé ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Un risque élevé d'évolution défavorable de la situation douloureuse.",
@@ -20338,7 +20338,7 @@ const QUESTIONS = {
   },
   {
    "q": "Outre l'intensité de la douleur, quelles dimensions psychologiques le questionnaire Örebro explore-t-il ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "La tension anxieuse, l'humeur dépressive et les croyances d'évitement de l'activité.",
@@ -20357,7 +20357,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le questionnaire Örebro demande au patient de formuler lui-même deux pronostics. Lesquels ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Le risque que sa douleur persiste et ses chances de travailler dans six mois.",
@@ -20376,7 +20376,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi les mesures physiologiques de la douleur manquent-elles parfois de fiabilité ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Parce que les réponses enregistrées s'émoussent par habituation.",
@@ -20395,7 +20395,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que met en évidence l'électromyographie chez une personne qui éprouve une douleur ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Une activité renforcée dans les muscles impliqués par la douleur.",
@@ -20414,7 +20414,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle modification de l'activité cérébrale l'électroencéphalogramme associe-t-il à la douleur ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Des ondes dont les pointes sont plus hautes.",
@@ -20433,7 +20433,7 @@ const QUESTIONS = {
   },
   {
    "q": "La mémoire de la douleur étant imparfaite, quelle conséquence pratique le cours en tire-t-il ?",
-   "c": 12,
+   "c": 4,
    "options": [
     {
      "t": "Une part de l'information se perd si la mesure n'a pas lieu pendant la douleur.",
@@ -20452,7 +20452,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement opérant, que désignent exactement les qualificatifs « positif » et « négatif » ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "L'ajout d'un stimulus dans le cas du « positif » et son retrait dans celui du « négatif ».",
@@ -20471,7 +20471,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le conditionnement opérant, qu'est-ce que le stimulus discriminatif ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le signal qui précède le comportement et annonce l'occasion de l'émettre, comme le kiné qui appelle son patient.",
@@ -20490,7 +20490,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment le conditionnement opérant rend-il compte de l'acquisition d'un comportement ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Par l'interaction de l'organisme avec son environnement, sans retenir la psyché comme cadre explicatif.",
@@ -20509,7 +20509,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une personne anxieuse envers les chiens croise un chien dans la rue. Selon le cours, laquelle de ces conséquences fait baisser son anxiété à long terme ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Caresser le chien et y trouver du plaisir, ce qui renforce le comportement d'approche.",
@@ -20528,7 +20528,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient suit un programme de rééducation. Selon le cours, quelles conséquences de ce programme risquent de faire diminuer son assiduité ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "La fatigue ressentie après les séances et le temps retiré aux autres activités.",
@@ -20547,7 +20547,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans une salle de rééducation, un patient encore hésitant regarde travailler des patients plus avancés. Selon le cours, qu'est-ce qui augmente sa motivation à reproduire ce qu'il voit ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Voir ces patients valorisés et encouragés, manifestant du soulagement après l'effort.",
@@ -20566,7 +20566,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie de l'apprentissage social, qu'est-ce que l'observateur acquiert par la seule observation d'autrui, en plus des comportements eux-mêmes ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Les associations entre les situations, les comportements et les récompenses qui en découlent.",
@@ -20585,7 +20585,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, pourquoi un kinésithérapeute doit-il connaître les théories de l'apprentissage ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Parce que rééduquer, c'est apprendre à nouveau : le kiné agit sur le corps, mais aussi sur le cerveau qui apprend et désapprend.",
@@ -20604,7 +20604,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours relève que les publicités « ne vendent pas un produit, elles vendent une émotion ». Selon lui, par quel mécanisme ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Le produit, neutre au départ, est associé à des images et des musiques agréables jusqu'à susciter seul l'émotion.",
@@ -20623,7 +20623,7 @@ const QUESTIONS = {
   },
   {
    "q": "Après une fracture du bras, un patient se bloque et évite de mobiliser son membre alors que le mouvement n'est plus douloureux. Selon le cours, sur quoi le kiné doit-il travailler ?",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Réassocier le mouvement à une expérience de sécurité plutôt qu'à la douleur.",
@@ -20642,7 +20642,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les croyances du modèle biomédical, quelles maladies finissent par générer des symptômes ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Toutes les maladies génèrent des symptômes, plus tôt ou plus tard, quelle qu'en soit l'origine.",
@@ -20661,7 +20661,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour le modèle biomédical, d'où proviennent les causes de la maladie ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "D'éléments externes à l'organisme qui l'envahissent et y provoquent des changements internes involontaires.",
@@ -20680,7 +20680,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle place le modèle biomédical reconnaît-il au patient dans la survenue de sa maladie ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Celle d'une victime, avec peu ou pas de responsabilité dans l'apparition de son trouble.",
@@ -20699,7 +20699,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour le modèle biomédical, quel statut ont les émotions négatives observées chez une personne malade ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Ce sont des conséquences de la maladie, sans effet en retour sur son développement.",
@@ -20718,7 +20718,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que signifie le caractère matérialiste et réductionniste du modèle biomédical ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Tout ce qui ne s'explique pas par des processus biologiques ou physiques est invalidé.",
@@ -20737,7 +20737,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi consiste l'essentiel de l'action clinique dans le modèle biomédical ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Repérer et tenter de corriger des déviations de paramètres physiologiques par rapport à une norme.",
@@ -20756,7 +20756,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le continuum santé-maladie du modèle biopsychosocial, que se produit-il en deçà de la ligne neutre ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Les traitements médicaux commencent, puis s'intensifient à mesure que la santé se dégrade.",
@@ -20775,7 +20775,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur le continuum santé-maladie, où se situent les signaux d'alerte anormaux ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Du côté de la dégradation, juste en deçà de la ligne neutre.",
@@ -20794,7 +20794,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le modèle biopsychosocial décrit l'être humain comme un système complexe. Quels facteurs y sont internes, et lesquels externes ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Les facteurs biologiques et psychologiques sont internes, les facteurs sociaux externes.",
@@ -20813,7 +20813,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle biopsychosocial, que produit à elle seule une altération biochimique ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Elle ne se traduit pas directement en maladie : le tableau naît de l'interaction de plusieurs niveaux.",
@@ -20832,7 +20832,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle biopsychosocial, que peuvent entraîner des altérations psychologiques ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Des maladies ou des formes de souffrance, parfois assorties de corrélats biochimiques.",
@@ -20851,7 +20851,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle biopsychosocial, que n'apporte pas la mise en évidence d'un trouble biologique devant une douleur ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Elle ne dit rien de la signification que le symptôme revêt pour le patient.",
@@ -20870,7 +20870,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel poids le modèle biopsychosocial accorde-t-il aux variables psychosociales ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Des déterminants de la prédisposition, de la sévérité et de l'évolution plus importants que ne le pensait le biomédical.",
@@ -20889,7 +20889,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle biopsychosocial, quel effet la relation entre le soignant et le malade a-t-elle sur l'issue médicale ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Elle l'influence, ne serait-ce qu'en jouant sur l'adhésion au traitement.",
@@ -20908,7 +20908,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le cours souligne que le modèle biopsychosocial reste mal compris. Quelle réduction en donne-t-il pour exemple chez les soignants ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Le réduire à un supplément d'empathie dont on se passe quand le temps manque.",
@@ -20927,7 +20927,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les exemples du cours, que montre le développement cérébral au sujet du modèle biopsychosocial ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Il est largement influencé par des facteurs relationnels, affectifs et environnementaux.",
@@ -20946,7 +20946,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que reproche le cours aux algorithmes d'évaluation du risque coronaire ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Ils ne prennent pas en considération les facteurs psychosociaux comme le stress.",
@@ -20965,7 +20965,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la pratique clinique biopsychosociale, qu'implique concrètement l'élargissement des perspectives ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Que les trois dimensions soient abordées simultanément par le soignant lui-même.",
@@ -20984,7 +20984,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle biopsychosocial, quelle conséquence la participation active du patient a-t-elle sur la relation thérapeutique ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Elle la modifie profondément et exige des compétences relationnelles et éducatives.",
@@ -21003,7 +21003,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment l'annonce d'une mauvaise nouvelle doit-elle être comprise ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Comme un processus de communication, qui relève de la responsabilité du soignant.",
@@ -21022,7 +21022,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, que vise le soignant en conduisant progressivement l'annonce d'une mauvaise nouvelle ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Amener le patient à deviner, connaître et percevoir lui-même sa réalité médicale.",
@@ -21041,7 +21041,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'étape consacrée à découvrir ce que le patient veut savoir porte sur deux questions. Lesquelles ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Jusqu'où la vérité peut être dite, et de quelle manière le patient souhaite qu'elle le soit.",
@@ -21060,7 +21060,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles conséquences le cours attribue-t-il à une mauvaise nouvelle mal annoncée ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Davantage d'anxiété, des ruminations et une perte de confiance dans les soignants.",
@@ -21079,7 +21079,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment réagissent le plus souvent les soignants mal à l'aise devant une annonce difficile ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Ils tendent soit à brutaliser l'annonce, soit à l'éviter.",
@@ -21098,7 +21098,7 @@ const QUESTIONS = {
   },
   {
    "q": "Devant un patient dont la récupération stagne, un kinésithérapeute lance : « Il faut rester positif, de toute façon on a tout fait. » Comment le cours qualifie-t-il ce type de propos ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Une phrase maladroite née du malaise du soignant, que la structure de l'entretien évite.",
@@ -21117,7 +21117,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que montrent les recherches sur la communication soignant-patient citées par le cours ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Une communication empathique et structurée s'accompagne de plus de satisfaction et de confiance.",
@@ -21136,7 +21136,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les études citées par le cours, qu'attendent généralement les patients en matière de vérité ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Qu'on la leur dise, en tenant compte de ce qu'ils savent déjà et de leur état émotionnel.",
@@ -21155,7 +21155,7 @@ const QUESTIONS = {
   },
   {
    "q": "Qu'observe-t-on, selon le cours, chez les soignants formés à ce protocole d'annonce ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Un meilleur sentiment d'auto-efficacité et un plus grand confort émotionnel.",
@@ -21174,7 +21174,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que recouvre, pour le soignant lui-même, l'étape de préparation de l'entretien d'annonce ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Revoir les informations médicales et se préparer émotionnellement à la conversation.",
@@ -21193,7 +21193,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quelles réactions l'étape d'accueil des émotions prépare-t-elle le soignant ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "À la tristesse, à la colère ou à la peur.",
@@ -21212,7 +21212,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au moment de s'adapter et de répondre au patient, par quoi le cours fait-il commencer le soignant ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Par un recadrage de l'historique de la maladie et du patient.",
@@ -21231,7 +21231,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant l'annonce, quelle conduite le cours recommande-t-il à propos du diagnostic lui-même ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Laisser au patient le temps de le prononcer lui-même.",
@@ -21250,7 +21250,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient hémiplégique dont la marche stagne vous dit : « J'ai peut-être trop relâché mes efforts. » Que recommande le cours de lui répondre ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Que la limitation tient à la nature de la lésion et non à un manque de travail.",
@@ -21269,7 +21269,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vers quels objectifs le cours propose-t-il de réorienter le travail après l'annonce d'un plateau fonctionnel ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "Vers la stabilité, la prévention des chutes et l'adaptation du quotidien.",
@@ -21288,7 +21288,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, par quoi le kinésithérapeute ouvre-t-il l'annonce du plateau fonctionnel, au moment de partager l'information ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "En rappelant d'abord les progrès déjà accomplis par le patient.",
@@ -21307,7 +21307,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel objectif le cours assigne-t-il à l'entretien avec un patient qui espère encore retrouver son niveau d'avant ?",
-   "c": 19,
+   "c": 6,
    "options": [
     {
      "t": "L'aider à viser une vie au mieux de ses capacités actuelles, sans se sentir abandonné.",
@@ -21326,7 +21326,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle place le cours assigne-t-il à une intervention cognitivo-comportementale dans la prise en charge d'un patient douloureux chronique ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Elle doit s'inscrire dans un programme de traitement complet, comme toute autre intervention de kinésithérapie.",
@@ -21345,7 +21345,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'éducation à la douleur enseigne au patient certains mécanismes neurophysiologiques. Lesquels le cours cite-t-il ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "La sensibilisation centrale et la plasticité cérébrale.",
@@ -21364,7 +21364,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel message central l'éducation à la douleur cherche-t-elle à faire comprendre au patient ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Que la douleur n'est pas toujours le signe d'un dommage.",
@@ -21383,7 +21383,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi consiste concrètement la pratique de la pleine conscience proposée à un patient douloureux ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Se concentrer sur le moment présent et observer ses sensations sans les juger ni y réagir.",
@@ -21402,7 +21402,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que favorise la pleine conscience à l'égard des sensations douloureuses ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Une plus grande acceptation de ces sensations, sans réaction émotionnelle.",
@@ -21421,7 +21421,7 @@ const QUESTIONS = {
   },
   {
    "q": "Outre la diminution de la peur, quel bénéfice l'exposition progressive au mouvement apporte-t-elle au patient ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Elle lui fait retrouver confiance en son corps et améliore sa fonctionnalité.",
@@ -21440,7 +21440,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi le biofeedback aide-t-il le patient à pratiquer plus efficacement les techniques de relaxation ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Il lui montre comment sa tension musculaire et son stress agissent sur sa douleur.",
@@ -21459,7 +21459,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quels éléments la rétroaction biologique a-t-elle montré son utilité chez le patient douloureux ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Sur la réduction de la douleur musculaire et de l'anxiété.",
@@ -21478,7 +21478,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quels patients l'imagerie motrice est-elle particulièrement indiquée ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "À ceux souffrant de douleur chronique ou dont la mobilité est réduite.",
@@ -21497,7 +21497,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels effets le cours attribue-t-il aux programmes d'entraînement non limités par la douleur ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Une tolérance à l'exercice accrue et une perception de la menace réduite.",
@@ -21516,7 +21516,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quels principes les programmes d'entraînement non limités par la douleur s'inspirent-ils ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "De ceux de l'exposition progressive.",
@@ -21535,7 +21535,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle position le cours défend-il quant à la prise en charge de la douleur chronique ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Elle n'est exclusive à aucun professionnel et gagne à être menée en équipe interdisciplinaire.",
@@ -21554,7 +21554,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quels types d'interventions complémentaires de nombreux patients douloureux chroniques peuvent-ils bénéficier ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "D'interventions pharmacologiques ou psychologiques.",
@@ -21573,7 +21573,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi, selon le cours, les traitements purement structurels sont-ils entrés en crise en kinésithérapie ?",
-   "c": 13,
+   "c": 4,
    "options": [
     {
      "t": "Parce qu'un problème complexe ne peut pas être abordé d'un seul point de vue structurel.",
@@ -21592,7 +21592,7 @@ const QUESTIONS = {
   },
   {
    "q": "Étant donné un bébé qui n'a pas peur des souris blanches mais oui aux bruits forts, je lui présente plusieurs fois une souris blanche suivie d'un bruit fort. Ceci, finalement, et par conditionnement classique, fait que le bébé déclenche une réponse de peur lorsque je lui montre tout simplement la souris blanche, sans faire de bruit. La souris blanche dans cette expérience, sera",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Un stimulus inconditionné ou non conditionné",
@@ -21611,7 +21611,7 @@ const QUESTIONS = {
   },
   {
    "q": "Étant donné un bébé qui n'a pas peur des souris blanches mais oui aux bruits forts, je lui présente plusieurs fois une souris blanche suivie d'un bruit fort. Ceci, finalement, et par conditionnement classique, fait que le bébé déclenche une réponse de peur lorsque je lui montre tout simplement la souris blanche, sans faire de bruit. La peur à la souris blanche, dans cette expérience, sera",
-   "c": 6,
+   "c": 3,
    "options": [
     {
      "t": "Un stimulus inconditionné ou non conditionné",
@@ -21630,7 +21630,7 @@ const QUESTIONS = {
   },
   {
    "q": "Antoine a perdu le match d'hier de volley. A cause de cela, il considère le championnat menacé. Antoine ressentira probablement:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Colère",
@@ -21649,7 +21649,7 @@ const QUESTIONS = {
   },
   {
    "q": "La technique DESC est très utile pour exprimer inconfort ou mécontentement de façon assertive et demander un changement de comportement à une autre personne. DESC est un acronyme; La lettre S correspond à:",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Spécifier : Spécifier le changement de comportement que nous souhaiterions",
@@ -21668,7 +21668,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle Demandes-Control de Karasek (1979), si on est dans une situation de tension élevée, une bonne solution serait:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Augmenter la quantité de travail à réaliser",
@@ -21687,7 +21687,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les dimensions de l'adhésion au traitement sont (Signalez la réponse incorrecte):",
-   "c": 14,
+   "c": 5,
    "options": [
     {
      "t": "Empathie",
@@ -21706,7 +21706,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le syndrome tridimensionnel du Burnout est composé par :",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Épuisement émotionnel, dépersonnalisation et faible performance au travail",
@@ -21725,7 +21725,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle Effort-Récompense, le stress au travail est conséquence de:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Le manque de réciprocité entre l'effort déployé et les récompenses reçues",
@@ -21744,7 +21744,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour faire une bonne gestion du temps, il faut bien hiérarchiser les tâches en fonction:",
-   "c": 8,
+   "c": 3,
    "options": [
     {
      "t": "Du temps qu'elles vont nous prendre et sa difficulté",
@@ -21763,7 +21763,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quelle technique la sophrologie ne s'inspire pas:",
-   "c": 7,
+   "c": 3,
    "options": [
     {
      "t": "Le yoga",
@@ -21782,7 +21782,7 @@ const QUESTIONS = {
   },
   {
    "q": "En accord au modèle d'ajustement au diagnostic (Shontz, 1982):",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "La phase initiale de choc est caractérisée par un étourdissement",
@@ -21915,7 +21915,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon l'hypothèse originale du modèle des croyances sur la santé, quelle condition de départ est nécessaire pour qu'une personne adopte un comportement de santé ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Disposer d'un niveau minimum de motivation et d'informations de santé pertinentes.",
@@ -21934,7 +21934,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le modèle des croyances sur la santé, de quelles perceptions individuelles la menace perçue résulte-t-elle ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "De la susceptibilité perçue à la maladie et de la sévérité perçue de ses conséquences.",
@@ -21953,7 +21953,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une femme convaincue de la menace que représente un cancer reçoit un courrier l'invitant à une campagne de dépistage précoce, et prend aussitôt rendez-vous. Quelle composante du modèle des croyances sur la santé ce courrier illustre-t-il ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Un incitant à l'action, c'est-à-dire un élément qui déclenche le passage à l'acte.",
@@ -21972,7 +21972,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel comportement s'observe chez une personne qui a de fortes attentes de résultat mais un faible sentiment d'efficacité personnelle ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Elle s'autodévalorise et se décourage.",
@@ -21991,7 +21991,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, par quels moyens concrets les attentes positives d'un kinésithérapeute envers son patient agissent-elles sur la récupération de ce dernier ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "En l'encourageant, en lui proposant des objectifs progressifs et en félicitant ses progrès.",
@@ -22010,7 +22010,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la théorie du comportement interpersonnel, que recouvrent les conditions facilitantes ou inhibitrices ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Les ressources externes disponibles et les barrières de l'environnement.",
@@ -22029,7 +22029,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la théorie de l'action raisonnée, à quoi correspondent les normes subjectives ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "À la perception de ce que les personnes importantes aux yeux de l'individu attendent de lui.",
@@ -22048,7 +22048,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le modèle HAPA, en quoi l'intention de changer doit-elle se transformer pour que le comportement soit effectivement réalisé ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "En plans d'action détaillés précisant quand, où et comment agir.",
@@ -22067,7 +22067,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient a arrêté de fumer, mais son conjoint continue. Comment le modèle HAPA rend-il compte de cette situation ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Le maintien du comportement dépend aussi des barrières et ressources sociales du contexte.",
@@ -22086,7 +22086,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un joueur se coupe au cours d'un match et ne s'en aperçoit qu'à la fin de la rencontre, alors que la même coupure survenue chez lui l'aurait fait souffrir aussitôt. Selon le premier principe de la théorie des portes, qu'illustre cette différence ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "La blessure survenue en match est forcément moins grave, donc le signal nociceptif y est plus faible.",
@@ -22105,7 +22105,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon la théorie des portes, quelle composante de la douleur répond particulièrement aux thérapies cognitivo-comportementales et à l'éducation à la douleur ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "La composante cognitive/évaluative, celle du jugement porté sur sa propre douleur.",
@@ -22124,7 +22124,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pour calmer la douleur, le cerveau fabrique lui-même des substances antidouleur naturelles. Par quel mécanisme ces substances font-elles diminuer la douleur ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "En supprimant la détection du stimulus nocif par les récepteurs répartis dans la peau et les muscles profonds.",
@@ -22143,7 +22143,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi un stress ou des émotions négatives prolongés peuvent-ils aggraver une douleur ou une maladie inflammatoire ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Les émotions négatives modifient directement la composition chimique des tissus, qui s'enflamment davantage.",
@@ -22162,7 +22162,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle utilité particulière reconnaît-on au modèle d'évitement de la peur ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Il éclaire pourquoi, après une blessure aiguë, certaines personnes évoluent vers la chronicité et d'autres non.",
@@ -22181,7 +22181,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi le cours présente-t-il la douleur non seulement comme une sensation mais comme une perception ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "Parce qu'elle naît d'un récepteur spécialisé avant d'être traduite en message nerveux conscient.",
@@ -22200,7 +22200,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient supporte aujourd'hui beaucoup moins bien un soin qu'il tolérait sans peine quelques années plus tôt. Que dit le cours d'une telle variation ?",
-   "c": 10,
+   "c": 4,
    "options": [
     {
      "t": "La tolérance à la douleur est une donnée fixe par nature : seule l'intensité réelle du soin a pu augmenter entre-temps.",
@@ -22219,7 +22219,7 @@ const QUESTIONS = {
   },
   {
    "q": "La méthode DESC sert à exprimer un désaccord de façon assertive. Par quelle étape commence-t-elle ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Exprimer d'emblée l'émotion que la situation fait naître en nous.",
@@ -22238,7 +22238,7 @@ const QUESTIONS = {
   },
   {
    "q": "En quoi consiste concrètement la stratégie du banc de brouillard face à une critique infondée ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Nier la critique point par point et contre-attaquer jusqu'à ce que l'interlocuteur reconnaisse son erreur.",
@@ -22257,7 +22257,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un kinésithérapeute propose un programme d'exercices à domicile et le patient refuse. Que dit le cours de ce refus ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Ce n'est pas un échec : le moment est mauvais, la demande est à reformuler, ou une alternative est à proposer.",
@@ -22276,7 +22276,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, que peut apporter un conflit lorsqu'on parvient à le rendre constructif ?",
-   "c": 18,
+   "c": 6,
    "options": [
     {
      "t": "Il révèle lequel des deux interlocuteurs avait raison, ce qui clôt durablement la discussion.",
@@ -200444,7 +200444,7 @@ const QUESTIONS = {
  "valoMembresSup": [
   {
    "q": "Quel muscle est le principal rotateur interne de l'articulation gléno-humérale ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Subscapulaire",
@@ -200463,7 +200463,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente effectue un mouvement de sonnette interne de la scapula. Quelle description cinématique est exacte ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "L'angle inférieur se rapproche de la colonne et la cavité glénoïde s'oriente vers le bas",
@@ -200482,7 +200482,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du mouvement d'abduction horizontale de l'épaule (bras à 90° de flexion ramené en arrière dans le plan horizontal), quelle cinématique de la scapula accompagne ce mouvement ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Adduction (rétraction) scapulaire et orientation postérieure de la glène",
@@ -200501,7 +200501,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une nageuse exécute une antéposition complète de la ceinture scapulaire (mouvement de poussée vers l'avant). Quel ensemble cinématique correspond ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Protraction scapulaire, ouverture de l'angle omo-claviculaire et glène orientée vers l'avant",
@@ -200539,7 +200539,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le rôle principal des muscles de la coiffe des rotateurs dans la cinématique gléno-humérale ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Centrer activement la tête humérale dans la cavité glénoïde lors des mouvements",
@@ -200558,7 +200558,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient effectue une flexion résistée du coude, paume tournée vers le bas (pronation). Quel muscle fléchisseur du coude est principalement sollicité dans cette position ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Brachioradial (long supinateur)",
@@ -200577,7 +200577,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition décrit correctement les types articulaires constituant le coude ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Huméro-ulnaire : trochléenne ; huméro-radiale : condylienne ; radio-ulnaire supérieure : trochoïde",
@@ -200596,7 +200596,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément ligamentaire est principalement responsable de la limitation de la supination de l'avant-bras au niveau de l'articulation radio-ulnaire supérieure ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Fibres antérieures du ligament carré (de Denucé)",
@@ -200615,7 +200615,7 @@ const QUESTIONS = {
   },
   {
    "q": "Décrivez le mouvement osseux relatif au niveau de l'articulation radio-ulnaire supérieure lors de la pronation.",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Le radius tourne autour de l'ulna et se croise en avant de lui distalement",
@@ -200634,7 +200634,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la limite osseuse principale de la flexion du coude lorsque le mouvement atteint son maximum passif ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Impaction du processus coronoïde dans la fosse coronoïdienne",
@@ -200653,7 +200653,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément constitue la limite principale de l'extension complète du coude ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Impaction du bec olécranien dans la fosse olécranienne",
@@ -200672,7 +200672,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient effectue une flexion active du poignet, depuis la position anatomique. Décrivez l'arthrocinématique au niveau radio-carpienne et médio-carpienne.",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Le lunatum et le capitatum roulent vers l'avant et glissent vers l'arrière",
@@ -200691,7 +200691,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles intrinsèques de la main produisent simultanément une flexion des articulations métacarpo-phalangiennes et une extension des interphalangiennes ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Les muscles lombricaux",
@@ -200710,7 +200710,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous testez la déviation radiale passive du poignet et trouvez une limitation avec sensation osseuse en fin de course. Quelle structure rend compte de cette limite physiologique ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Contact entre le scaphoïde et le processus styloïde radial",
@@ -200729,7 +200729,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel nerf traverse le canal carpien et quel autre nerf passe par le canal de Guyon au niveau du poignet ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Nerf médian dans le canal carpien, nerf ulnaire dans le canal de Guyon",
@@ -200748,7 +200748,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous étudiez l'articulation trapézo-métacarpienne du pouce. Quel type articulaire est-elle et quels mouvements la caractérisent ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Une articulation en selle, à deux degrés de liberté permettant l'opposition",
@@ -200767,7 +200767,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un test passif d'extension du poignet, vous trouvez une limite avec sensation ferme (semi-rigide). Quelles structures en sont normalement responsables ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Ligaments radio-carpiens palmaires et capsule palmaire",
@@ -200786,7 +200786,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours d'un test passif d'extension du poignet, on trouve une limite avec sensation élastique. Quelles structures sont responsables ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Mise en tension des muscles fléchisseurs du carpe",
@@ -200805,7 +200805,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une déviation ulnaire passive du poignet, quel est le déplacement des os de la première rangée du carpe par rapport au radius fixe ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Roulement ulnaire et glissement radial (sens opposés)",
@@ -200824,7 +200824,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mme L., 42 ans, gymnaste, abaisse activement sa ceinture scapulaire lors d'une descente sur barres parallèles. Quelles structures capsulo-ligamentaires de la sterno-claviculaire sont principalement étirées par cet abaissement claviculaire ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Capsule supérieure de la SC et ligament interclaviculaire",
@@ -200843,7 +200843,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pendant l'élévation du bras au-dessus de la tête, la clavicule effectue une rotation postérieure axiale autour de son grand axe. À quel mouvement scapulaire cette rotation est-elle couplée ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Sonnette externe de la scapula (rotation vers le haut)",
@@ -200862,7 +200862,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'abduction (translation externe) scapulaire, quel devient l'angle omo-claviculaire et l'orientation de la glène ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "L'angle omo-claviculaire s'ouvre et la glène s'oriente vers l'avant et latéralement",
@@ -200881,7 +200881,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles de la coiffe des rotateurs assurent principalement la coaptation transversale (centrage) de la tête humérale dans la glène lors de l'abduction ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Subscapulaire en avant et infra-épineux/petit rond en arrière",
@@ -200900,7 +200900,7 @@ const QUESTIONS = {
   },
   {
    "q": "M. R., 30 ans, lève le bras à 180° en flexion. Quelle répartition de l'amplitude correspond au rythme scapulo-huméral enseigné dans le cours (Neumann) ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "120° gléno-humérale et 60° scapulo-thoracique",
@@ -200919,7 +200919,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du deuxième temps de l'abduction de l'épaule (de 90° à 150°), quelle articulation est principalement sollicitée et par quel mécanisme cinématique ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "Scapulo-thoracique par sonnette externe",
@@ -200938,7 +200938,7 @@ const QUESTIONS = {
   },
   {
    "q": "M. D., 35 ans, recule activement son bras en extension de l'épaule. Parmi les listes suivantes, laquelle correspond aux muscles extenseurs de la gléno-humérale enseignés dans le cours ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Deltoïde, grand rond, latissimus dorsi, triceps brachial",
@@ -200957,7 +200957,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours du mouvement d'adduction horizontale de l'épaule (bras à 90° de flexion ramené vers le sternum), quels mouvements scapulaire et claviculaire accompagnent ce geste ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Protraction scapulaire et protraction claviculaire",
@@ -200976,7 +200976,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les muscles suivants, lequel est rotateur interne principal de l'articulation gléno-humérale ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Grand pectoral",
@@ -200995,7 +200995,7 @@ const QUESTIONS = {
   },
   {
    "q": "Mme S., 28 ans, rame en aviron et amène son objet vers le corps (rétroposition de la ceinture scapulaire). Selon le cours, quelle description cinématique est exacte ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Rétraction scapulaire (adduction vers la colonne) et rétraction claviculaire à la SC",
@@ -201014,7 +201014,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez une luxation de la tête radiale chez un enfant de 3 ans (pulled elbow). Quel muscle est principalement responsable de la luxation antéro-supérieure de la tête radiale lorsque le coude est en flexion à 90° ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Biceps brachial",
@@ -201033,7 +201033,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous testez le bilan musculaire des abducteurs de l'épaule. Pour évaluer la cotation en position où la gravité est éliminée, dans quelle position installez-vous le patient ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Décubitus latéral, côté testé au-dessus, bras reposant sur un plan glissant horizontal",
@@ -201052,7 +201052,7 @@ const QUESTIONS = {
   },
   {
    "q": "En goniométrie, un patient présente une raideur du coude en extension fixée à 30° de flexion. Comment notez-vous ce blocage selon la convention internationale (SFTR) sur le plan sagittal ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "S : 0-30-130",
@@ -201071,7 +201071,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente un déficit de l'abducteur du 5e doigt et des interosseux dorsaux. Quel nerf est probablement atteint ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Nerf ulnaire (cubital)",
@@ -201090,7 +201090,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient consulte pour épicondylalgie latérale chronique liée à un travail répétitif d'extension du poignet. Quel muscle est principalement impliqué dans cette pathologie ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Court extenseur radial du carpe",
@@ -201109,7 +201109,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un sujet effectue une abduction du 1er métacarpien dans le plan perpendiculaire à la paume. Quelle est l'arthrocinématique au niveau de la trapézo-métacarpienne ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Surface convexe du métacarpien glissant en sens opposé au mouvement osseux",
@@ -201128,7 +201128,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente un défaut d'opposition du pouce avec aplatissement de l'éminence thénar. Quelle est la cause neurologique la plus probable ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Lésion du nerf médian",
@@ -201147,7 +201147,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle articulation du carpe est désignée comme la plus mobile et participe à l'enroulement de la main lors d'un geste de saisie cylindrique ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "5e carpo-métacarpienne (méta sur hamatum)",
@@ -201166,7 +201166,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'extension active du poignet par les seuls muscles extenseurs (sans contraction des fléchisseurs des doigts), que se passe-t-il automatiquement au niveau des doigts par effet de ténodèse ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Flexion automatique des doigts par mise en tension des fléchisseurs extrinsèques",
@@ -201185,7 +201185,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient atteint d'un syndrome du défilé thoraco-brachial présente des paresthésies sur le territoire C8-T1. Quel élément ostéo-ligamentaire peut comprimer le tronc inférieur du plexus brachial ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Première côte et muscles scalènes",
@@ -201204,7 +201204,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente présente une scapula alata (décollement de la scapula du thorax) avec faiblesse à la poussée murale. Quel muscle est probablement atteint et quel est son innervation ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Dentelé antérieur, innervé par le nerf thoracique long (C5-C7)",
@@ -201223,7 +201223,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours d'un appui sur les mains paume au sol (gainage planche), comment se comportent les muscles fléchisseurs et extenseurs du poignet ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Co-contraction synergique des fléchisseurs et extenseurs du carpe",
@@ -201242,7 +201242,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous décrivez le mouvement d'opposition du pouce. Quelle séquence cinématique caractérise ce mouvement complexe ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Abduction + flexion + rotation médiale du 1er métacarpien",
@@ -201261,7 +201261,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle proposition décrit correctement le rôle du ligament annulaire du radius dans la stabilité du coude ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Il maintient la tête radiale en regard de la cavité sigmoïde de l'ulna pendant la prono-supination",
@@ -201280,7 +201280,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une flexion résistée des doigts contre une dynamométrie globale, le phénomène de Quadriga affecte la mesure. De quoi s'agit-il ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Interconnexion des tendons du fléchisseur profond limitant la flexion indépendante d'un doigt",
@@ -201299,7 +201299,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez la mobilité d'une articulation interphalangienne proximale (IPP). Quelle amplitude active de flexion est physiologique pour le 5e doigt ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Environ 135°",
@@ -201318,7 +201318,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours d'un test d'abduction des doigts contre résistance, quels muscles intrinsèques sollicitez-vous principalement ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Interosseux dorsaux et abducteur du 5e doigt",
@@ -201337,7 +201337,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle est innervé par le nerf radial et permet l'extension du poignet ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Court extenseur radial du carpe",
@@ -201356,7 +201356,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient effectue une supination forcée de l'avant-bras contre résistance maximale. Quels muscles travaillent en synergie ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Biceps brachial et supinateur",
@@ -201375,7 +201375,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un débutant en escalade présente une épitrochléite (épicondylite médiale). Quel groupe musculaire est principalement enthésopathique ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Fléchisseurs et pronateurs du poignet (épitrochléens)",
@@ -201394,7 +201394,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez la goniométrie de la prono-supination chez un patient avec coude fléchi à 90°. Quelle est l'amplitude normale totale de ce mouvement ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Environ 175° (85° de pronation + 90° de supination)",
@@ -201413,7 +201413,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous mesurez la déviation ulnaire passive du poignet et trouvez une limite à 45° avec sensation osseuse. Quelle structure est responsable ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Choc du triquetrum contre le disque articulaire ulnaire",
@@ -201432,7 +201432,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la position dite de fonction du poignet utilisée comme position de référence en orthopédie (immobilisation, fixation chirurgicale) ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "10-15° d'extension et 10° de déviation ulnaire",
@@ -201451,7 +201451,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous mesurez la flexion active du coude. À quelle valeur normale doit-elle s'arrêter physiologiquement ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "145° environ",
@@ -201470,7 +201470,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel est le rôle du supra-épineux au niveau de l'articulation gléno-humérale ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Stabilité dynamique : sa contraction resserre la capsule",
@@ -201489,7 +201489,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, à quels mouvements de l'articulation gléno-humérale le grand pectoral participe-t-il ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Flexion, rotation interne et adduction",
@@ -201527,7 +201527,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le mouvement d'opposition du pouce nécessite l'intégrité d'un nerf principal. Lequel ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le nerf médian, via sa branche thénarienne",
@@ -201546,7 +201546,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la position de stabilité maximale (close-pack) de l'articulation gléno-humérale ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Abduction maximale associée à la rotation externe maximale",
@@ -201565,7 +201565,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une scapula avec angle inférieur décollé du thorax (tilt antérieur). Quel muscle, par sa rétraction, est typiquement en cause ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Petit pectoral",
@@ -201584,7 +201584,7 @@ const QUESTIONS = {
   },
   {
    "q": "En goniométrie de l'épaule, la rotation externe à 0° d'abduction (coude au corps) a une amplitude normale de :",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "75-85°",
@@ -201603,7 +201603,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez la force d'un patient en pronation contre résistance, coude fléchi à 90°. Quels muscles testez-vous principalement ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Rond pronateur et pronateur carré",
@@ -201622,7 +201622,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours d'une flexion complète des MCP des doigts (poing fermé), quelle rotation automatique accompagne ce mouvement ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Supination des phalanges (convergence vers la pulpe du pouce)",
@@ -201641,7 +201641,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente présente une rétraction chronique du grand pectoral entraînant une attitude en protraction scapulaire. Selon les muscles moteurs cités par le cours pour la protraction et la rétraction de l'omoplate, quelle situation musculaire en résulte ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le petit pectoral est raccourci tandis que le trapèze moyen et les rhomboïdes sont allongés",
@@ -201660,7 +201660,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure du carpe est la plus exposée aux fractures lors d'une chute sur la paume de la main en extension forcée ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Scaphoïde",
@@ -201679,7 +201679,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous décrivez la goniométrie de la déviation ulnaire du poignet en position de pronation vs supination. Quelle proposition est exacte ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "La déviation ulnaire est plus ample en supination qu'en pronation",
@@ -201698,7 +201698,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles produisent l'extension active des articulations interphalangiennes des doigts ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Les lombricaux et les interosseux (muscles intrinsèques)",
@@ -201717,7 +201717,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle assure spécifiquement la flexion de l'articulation MCP du pouce ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Court fléchisseur du pouce",
@@ -201736,7 +201736,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au cours du mouvement combiné d'élévation du bras au-dessus de la tête, quelle est la rotation gléno-humérale obligatoire pour atteindre les 180° ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "Rotation externe d'environ 45°",
@@ -201755,7 +201755,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le ligament collatéral médial du coude (LCM ou ligament collatéral ulnaire) est principalement étiré par quel mouvement ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Contrainte en valgus du coude",
@@ -201774,7 +201774,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un mouvement de rétraction de la clavicule (épaules tirées en arrière), quelle cinématique sterno-claviculaire se produit ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Roulement et glissement postérieurs de la surface claviculaire",
@@ -201793,7 +201793,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel est le mouvement principal de la première rangée du carpe lors d'une flexion combinée à une déviation ulnaire (dart throw motion) ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Mouvement prédominant à l'étage médiocarpien",
@@ -201812,7 +201812,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une chute sur la main avec poignet en extension forcée, quelle articulation interphalangienne est typiquement luxée vers l'arrière ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "L'interphalangienne proximale (IPP) en dorsal",
@@ -201831,7 +201831,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du test de Phalen (poignet en flexion maximale maintenue 60 secondes), une reproduction des paresthésies des trois premiers doigts évoque :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Syndrome du canal carpien (compression du nerf médian)",
@@ -201850,7 +201850,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les principaux rotateurs internes de l'articulation gléno-humérale, on trouve :",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Le sous-scapulaire, le grand rond et le grand pectoral",
@@ -201869,7 +201869,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du mouvement de sonnette interne de la scapula :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le bord inférieur se rapproche de la colonne, grâce au rhomboïde",
@@ -201888,7 +201888,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'abduction horizontale de l'épaule, quelle est la réponse correcte ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Le mouvement associe une abduction de l'humérus et une adduction (rétraction) de la scapula",
@@ -201907,7 +201907,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle affirmation est correcte lors de l'antéposition (protraction) de la ceinture scapulaire ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La scapula effectue une abduction et glisse en avant sur le thorax",
@@ -201945,7 +201945,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles maintiennent la tête humérale en place pour assurer une bonne congruence articulaire ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Le supra-épineux, l'infra-épineux, le petit rond et le sous-scapulaire",
@@ -201964,7 +201964,7 @@ const QUESTIONS = {
   },
   {
    "q": "Si le patient tire sur un élastique en fléchissant le coude, paume dirigée vers le sol, quel muscle renforce-t-il principalement ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Brachio-radial",
@@ -201983,7 +201983,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la bonne réponse concernant la physiologie articulaire du coude ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "L'articulation radio-ulnaire supérieure est de type trochoïde et permet la prono-supination",
@@ -202002,7 +202002,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément est un facteur limitant de la supination ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Ligament carré (de Denucé)",
@@ -202021,7 +202021,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la bonne réponse concernant la pronation de l'avant-bras :",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Lors de la pronation, la tête radiale tourne autour de son axe",
@@ -202040,7 +202040,7 @@ const QUESTIONS = {
   },
   {
    "q": "À partir de la position anatomique, lors de la flexion du poignet, quels mouvements observe-t-on ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Le lunatum et le capitatum roulent vers l'avant et glissent vers l'arrière",
@@ -202059,7 +202059,7 @@ const QUESTIONS = {
   },
   {
    "q": "Signalez la bonne réponse concernant les muscles moteurs du poignet et de la main :",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Les lombricaux font la flexion métacarpo-phalangienne et l'extension interphalangienne",
@@ -202078,7 +202078,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiologie articulaire du poignet, dans la déviation radiale, il est vrai que :",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "La sensation finale est élastique, liée aux extenseur et fléchisseur ulnaires du carpe",
@@ -202097,7 +202097,7 @@ const QUESTIONS = {
   },
   {
    "q": "Signalez la bonne réponse concernant le trajet des nerfs au poignet :",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le nerf médian chemine dans le canal carpien, sous le rétinaculum des fléchisseurs",
@@ -202116,7 +202116,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant l'articulation trapézo-métacarpienne du pouce :",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Le mouvement d'opposition comprend flexion + abduction + rotation médiale",
@@ -202135,7 +202135,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une extension passive du poignet, une limite semi-rigide est due à :",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Les ligaments radio-carpiens palmaires et la capsule antérieure",
@@ -202154,7 +202154,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mouvement claviculaire, réalisé dans le plan frontal, est limité par le ligament costo-claviculaire et le muscle sous-clavier ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "L'élévation",
@@ -202173,7 +202173,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le deuxième temps de l'abduction de l'épaule (≈ 60-120°), indiquez la bonne réponse :",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "L'omoplate bascule en sonnette externe",
@@ -202192,7 +202192,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez les principaux moteurs de la rotation interne de l'épaule :",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Grand pectoral et grand rond",
@@ -202211,7 +202211,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la rétroposition (rétraction) de l'unité scapulo-thoracique, indiquez la bonne réponse :",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La scapula s'adducte et se rapproche du rachis",
@@ -202230,7 +202230,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiologie articulaire de l'extension du coude, indiquez la bonne réponse :",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "L'olécrâne bute dans la fosse olécrânienne, donnant un arrêt dur",
@@ -202249,7 +202249,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la radio-ulnaire proximale, le mouvement est limité par :",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "La tension du ligament carré de Denucé",
@@ -202268,7 +202268,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la flexion du poignet, il est vrai que :",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "À rayon fixe, le lunatum et le capitatum roulent en avant et glissent en arrière",
@@ -202287,7 +202287,7 @@ const QUESTIONS = {
   },
   {
    "q": "La sensation de limite élastique dans le mouvement d'extension du poignet est déterminée par :",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "La mise en tension des muscles fléchisseurs de l'avant-bras",
@@ -202306,7 +202306,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la physiologie du poignet, dans l'inclinaison ulnaire, il est vrai que :",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "À rayon fixe, la rangée proximale glisse vers le radial pendant que le carpe s'incline en ulnaire",
@@ -202344,7 +202344,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'élévation de la clavicule à l'articulation sterno-claviculaire, quelle arthrocinématique se produit ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Roulement supérieur et glissement inférieur, avec étirement du ligament costo-claviculaire",
@@ -202363,7 +202363,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel mouvement de la clavicule constitue la position de blocage (verrouillage) de l'articulation sterno-claviculaire ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "La rotation postérieure complète de la clavicule",
@@ -202382,7 +202382,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles assurent principalement l'abaissement (descente) de la scapula à l'articulation scapulo-thoracique ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Trapèze inférieur, grand dorsal, sous-clavier et petit pectoral",
@@ -202420,7 +202420,7 @@ const QUESTIONS = {
   },
   {
    "q": "D'après le cours, quelle structure capsulo-ligamentaire est principalement resserrée lors de la flexion de l'articulation gléno-humérale ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "La capsule postérieure",
@@ -202439,7 +202439,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ensemble musculaire est moteur de la rotation externe de l'articulation gléno-humérale selon le cours ?",
-   "c": 5,
+   "c": 1,
    "options": [
     {
      "t": "Infra-épineux, petit rond et supra-épineux",
@@ -202458,7 +202458,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel nerf, particulièrement exposé, assure l'innervation du muscle dentelé antérieur ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le nerf long thoracique",
@@ -202477,7 +202477,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles assurent la pronation de l'avant-bras ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Rond pronateur et pronateur carré",
@@ -202496,7 +202496,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la flexion passive du coude selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "160°",
@@ -202515,7 +202515,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude normale de la pronation de l'avant-bras selon le cours ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "85°",
@@ -202534,7 +202534,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans la pronosupination, quel os reste le guide ou l'axe du déplacement de l'avant-bras et de la main ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "L'ulna",
@@ -202553,7 +202553,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type de levier mécanique correspond le coude selon le cours ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Levier du 3e genre",
@@ -202572,7 +202572,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au niveau de quelle articulation s'effectue principalement le mouvement de flexion du coude ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "L'articulation huméro-ulnaire",
@@ -202591,7 +202591,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément amortit le choc du radius sur l'ulna lors de la limite de la pronation ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Les muscles fléchisseurs",
@@ -202610,7 +202610,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle stabilise la tête radiale et empêche sa luxation en haut et en avant lors de la traction du biceps ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Le ligament annulaire",
@@ -202629,7 +202629,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel os du carpe s'articule avec le radius pour former, avec le lunatum, l'articulation radio-carpienne ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Le scaphoïde",
@@ -202648,7 +202648,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude physiologique maximale de la déviation ulnaire du poignet selon le cours ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "45°",
@@ -202667,7 +202667,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type articulaire correspond l'articulation médio-carpienne ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Double condylienne",
@@ -202686,7 +202686,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la deuxième phase de l'opposition du pouce, quel mouvement du 1er métacarpien se produit après l'abduction ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Flexion et rotation médiale",
@@ -202705,7 +202705,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle intrinsèque de l'éminence thénar n'effectue que l'adduction et la flexion du pouce, sans composante d'opposition propre ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "L'adducteur du pouce",
@@ -202724,7 +202724,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel nerf innerve les muscles de l'éminence thénar ainsi que les deux premiers lombricaux ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le nerf médian",
@@ -202743,7 +202743,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au niveau de l'articulation carpo-métacarpienne, quel métacarpien est le plus mobile en flexion (20-25°) ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Le 5e métacarpien (avec l'hamatum)",
@@ -202762,7 +202762,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle est le seul fléchisseur de l'articulation interphalangienne du pouce ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Le long fléchisseur du pouce",
@@ -202838,7 +202838,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles racines forment le plexus brachial selon le cours ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "C4 à T2",
@@ -202857,7 +202857,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels nerfs sont susceptibles d'être lésés lors d'un traumatisme axillaire ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le nerf radial, le nerf médian et le nerf cubital",
@@ -202876,7 +202876,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, à quoi correspond l'arthrocinématique de la descente claviculaire à l'articulation sterno-claviculaire ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Roulement inférieur et glissement supérieur",
@@ -202895,7 +202895,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles assurent principalement la protraction de la scapula à l'articulation scapulo-thoracique selon le cours ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Dentelé antérieur, petit pectoral et sous-clavière",
@@ -202952,7 +202952,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ensemble de muscles est moteur de la flexion du coude selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Biceps brachial, brachial antérieur et brachioradial",
@@ -202971,7 +202971,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles sont moteurs de l'extension du coude selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Triceps brachial et anconé",
@@ -202990,7 +202990,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel élément capsulaire limite la flexion du coude selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "La tension de la partie postérieure de la capsule",
@@ -203009,7 +203009,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel facteur capsulaire constitue une limite de l'extension du coude selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "La tension de la partie antérieure de la capsule articulaire",
@@ -203028,7 +203028,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type articulaire correspond l'articulation radio-ulnaire distale selon le cours ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Articulation trochoïde",
@@ -203047,7 +203047,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure fibrocartilagineuse fait partie des moyens de fixation de l'articulation radio-ulnaire distale ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le fibrocartilage triangulaire, disque articulaire",
@@ -203066,7 +203066,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la supination de l'avant-bras selon le cours ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "90°",
@@ -203085,7 +203085,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels muscles assurent la stabilité de l'ulna lorsque le coude est en flexion à 90° ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Triceps brachial, brachial antérieur et anconé",
@@ -203104,7 +203104,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude physiologique maximale de la flexion du poignet selon le cours ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "85°",
@@ -203123,7 +203123,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels sont les moteurs principaux de la flexion des articulations carpiennes ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Fléchisseur radial du carpe, long palmaire et fléchisseur ulnaire du carpe",
@@ -203142,7 +203142,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'extension du poignet, radius fixe, comment se comportent le lunatum et le capitatum ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Ils roulent vers l'arrière et glissent vers l'avant",
@@ -203161,7 +203161,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type articulaire correspondent les articulations interphalangiennes des doigts ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Trochléennes",
@@ -203180,7 +203180,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type articulaire correspondent les articulations métacarpophalangiennes ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Condyliennes",
@@ -203199,7 +203199,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles assurent l'abduction des doigts au niveau des articulations métacarpophalangiennes ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Les interosseux dorsaux et l'abducteur du 5e doigt",
@@ -203218,7 +203218,7 @@ const QUESTIONS = {
   },
   {
    "q": "Combien de canaux fibreux le rétinaculum des extenseurs (ligament annulaire dorsal) délimite-t-il pour le passage des tendons ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Six",
@@ -203237,7 +203237,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quels os s'insèrent distalement les longs et courts extenseurs radiaux du carpe ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Sur la base des 2e et 3e métacarpiens",
@@ -203256,7 +203256,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de flexion de l'articulation trapézo-métacarpienne du pouce selon le cours ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "35-50°",
@@ -203275,7 +203275,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel nerf est particulièrement exposé lors d'une fracture du col de l'humérus ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le nerf radial",
@@ -203294,7 +203294,7 @@ const QUESTIONS = {
   },
   {
    "q": "À leur sortie des trous de conjonction, entre quels muscles les racines principales du plexus brachial cheminent-elles ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Entre le scalène moyen et le scalène postérieur",
@@ -203313,7 +203313,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le défilé costo-claviculaire, entre quelles structures osseuses les troncs du plexus brachial peuvent-ils être comprimés ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Entre la clavicule et le coracoïde",
@@ -203332,7 +203332,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel nerf assure l'innervation du muscle supra-épineux et du muscle infra-épineux ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le nerf axillaire",
@@ -203351,7 +203351,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle abaisseur de la ceinture scapulaire est innervé par le nerf thoraco-dorsal ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le petit pectoral",
@@ -203370,7 +203370,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du mouvement de protraction (antéposition) de la clavicule à l'articulation sterno-claviculaire, quelles structures sont mises en tension ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Le fascicule postérieur du ligament costo-claviculaire et le ligament capsulaire postérieur",
@@ -203389,7 +203389,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la rotation postérieure de la clavicule à l'articulation sterno-claviculaire ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "20 à 25°",
@@ -203408,7 +203408,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les ajustements acromio-claviculaires réalisés dans le plan sagittal (inclinaison antérieure et postérieure) correspondent au déplacement de quel repère scapulaire ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Le bord médial de l'omoplate, qui pivote vers le thorax ou s'en éloigne",
@@ -203427,7 +203427,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'élévation complète du bras à 180°, quelle est la participation de l'articulation sterno-claviculaire ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "25° d'élévation, 25° de rotation postérieure et 15° de rétraction",
@@ -203446,7 +203446,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans le rythme scapulo-huméral décrit par le cours pour une élévation complète du bras à 180°, quelle est la participation de l’articulation acromio-claviculaire ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "60° de sonnette externe, 10° de tilt postérieur et 20° de rotation externe",
@@ -203465,7 +203465,7 @@ const QUESTIONS = {
   },
   {
    "q": "Les 60° de rotation ascendante de la scapulo-thoracique résultent de la somme de quels mouvements ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "De la rétraction claviculaire sterno-claviculaire et du tilt antérieur acromio-claviculaire",
@@ -203484,7 +203484,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel couple musculaire doit se coordonner pour produire les 60° de sonnette externe de la scapula ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "Le petit pectoral et le muscle sous-clavier",
@@ -203503,7 +203503,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le tableau de mobilité de la ceinture scapulaire, quelle est l'amplitude de l'adduction horizontale de l'épaule ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "135°",
@@ -203522,7 +203522,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le tableau de mobilité de la ceinture scapulaire, quelle est l'amplitude de l'extension de l'épaule ?",
-   "c": 6,
+   "c": 1,
    "options": [
     {
      "t": "20 à 30°",
@@ -203541,7 +203541,7 @@ const QUESTIONS = {
   },
   {
    "q": "À l'articulation radio-ulnaire distale, comment sont orientées les surfaces articulaires ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "La tête de l'ulna est convexe et la cavité sigmoïde du radius est concave",
@@ -203560,7 +203560,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ligament du coude est constitué d'un faisceau antérieur, d'un faisceau postérieur et d'un faisceau transverse ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le ligament annulaire du radius",
@@ -203579,7 +203579,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure, citée par le cours sous le nom de ligament de Denucé, complète en bas l’anneau formé par le ligament annulaire du radius ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "La membrane interosseuse",
@@ -203598,7 +203598,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles articulations composent le complexe du coude et de l'avant-bras décrit par le cours ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Huméro-ulnaire, huméro-radiale, radio-ulnaire distale et médio-carpienne",
@@ -203617,7 +203617,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle conséquence mécanique découle du fait que le coude fonctionne comme un levier du troisième genre ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Il favorise l'amplitude et la vitesse du mouvement au détriment de la puissance",
@@ -203636,7 +203636,7 @@ const QUESTIONS = {
   },
   {
    "q": "Dans un levier du troisième genre comme celui du coude, comment s'ordonnent le point d'appui, la force musculaire et la résistance ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "La résistance se situe entre le point d'appui et la force",
@@ -203655,7 +203655,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels ligaments figurent parmi les facteurs de coaptation du coude en extension ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Les ligaments collatéraux ulnaire et radial",
@@ -203674,7 +203674,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles sont cités comme facteurs de coaptation du coude en extension ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Le triceps brachial, le biceps brachial et le brachioradial",
@@ -203693,7 +203693,7 @@ const QUESTIONS = {
   },
   {
    "q": "Outre les ligaments collatéraux et les muscles longitudinaux, quels éléments le cours cite-t-il parmi les facteurs de coaptation du coude en extension ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Le processus coronoïde dans sa fosse humérale",
@@ -203712,7 +203712,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un vissage énergique associant supination résistée et maintien du coude, quel muscle se contracte de façon isométrique pour neutraliser la tendance du biceps brachial à fléchir le coude ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Le triceps brachial",
@@ -203731,7 +203731,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au sein de la première rangée du carpe, quelle articulation fait exception au type arthrodie décrit par le cours ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "L'articulation luno-triquétrale, de type en selle",
@@ -203750,7 +203750,7 @@ const QUESTIONS = {
   },
   {
    "q": "Sur quelle structure le fléchisseur ulnaire du carpe s'insère-t-il distalement ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Sur l'aponévrose palmaire de la main",
@@ -203769,7 +203769,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels tendons occupent le canal le plus radial délimité par le rétinaculum des extenseurs ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Le court extenseur du pouce et le long abducteur du pouce",
@@ -203788,7 +203788,7 @@ const QUESTIONS = {
   },
   {
    "q": "Outre la stabilisation, quelle fonction le rétinaculum des extenseurs assure-t-il lors de l'extension active du poignet ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Empêcher les tendons de se cambrer vers l'extérieur",
@@ -203807,7 +203807,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quel rapport de force existe entre les muscles fléchisseurs et les muscles extenseurs du poignet ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Les extenseurs développent environ le double de la force des fléchisseurs",
@@ -203826,7 +203826,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel degré d'extension du poignet la force de préhension de la main est-elle maximale ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Entre 30 et 35° d'extension",
@@ -203845,7 +203845,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par effet de ténodèse, que se produit-il au niveau des doigts lorsque le poignet se fléchit ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Les doigts restent en position neutre, la ténodèse n'agissant qu'en extension du poignet",
@@ -203864,7 +203864,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors du lancer de fléchettes, quel couplage de mouvements du poignet est utilisé ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Extension avec inclinaison ulnaire, puis flexion avec inclinaison radiale",
@@ -203883,7 +203883,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle pince bidigitale est mise en jeu pour saisir et tourner une clé ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "La pince subterminale",
@@ -203902,7 +203902,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle extrinsèque est le seul capable d'assurer le repositionnement complet du pouce sur ses trois articulations ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Le long extenseur du pouce",
@@ -203921,7 +203921,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se répartit l'innervation motrice des muscles au niveau du poignet selon le cours ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Le nerf cubital innerve tous les muscles de la face palmaire, les nerfs radial et médian ceux de la face dorsale",
@@ -203940,7 +203940,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel groupe musculaire intrinsèque est le plus représentatif de l'innervation du nerf cubital dans la main ?",
-   "c": 16,
+   "c": 3,
    "options": [
     {
      "t": "Les muscles hypothénariens",
@@ -203961,7 +203961,7 @@ const QUESTIONS = {
  "valoMembresInf": [
   {
    "q": "Vous évaluez une patiente lors d'une marche : pendant la phase d'appui unipodal droite, le bassin reste horizontal sans chute controlatérale. Quels muscles assurent principalement cette stabilité frontale du bassin ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Petit fessier, moyen fessier et tenseur du fascia lata du côté en appui",
@@ -203980,7 +203980,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient en décubitus ventral, genou fléchi à 90°, ramène activement le tibia vers le côté controlatéral du corps. Quels muscles produisent ce mouvement ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Pelvitrochantériens (piriforme, jumeaux, obturateurs, carré fémoral) et sartorius",
@@ -204037,7 +204037,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une course en montée avec port d'une charge dorsale, quel groupe musculaire est principalement sollicité pour assurer la stabilité antéropostérieure du bassin et l'extension de hanche ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Le grand fessier, extenseur le plus puissant de la coxo-fémorale",
@@ -204094,7 +204094,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous décrivez à un patient les mouvements principaux et secondaires du genou en vous appuyant sur la biomécanique articulaire. Quelle proposition correspond exactement au cours ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Flexion-extension principale dans le plan sagittal, rotations secondaires nécessitant une flexion préalable",
@@ -204113,7 +204113,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un test de force des ischio-jambiers (flexion résistée du genou), pourquoi est-il préférable de mettre le patient hanche fléchie plutôt qu'en extension neutre ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Hanche fléchie, les ischio-jambiers biarticulaires sont pré-étirés et donc plus efficaces",
@@ -204132,7 +204132,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous testez passivement la flexion maximale du genou, hanche fléchie. Quelle sensation de fin de course (end-feel) attendez-vous physiologiquement ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Sensation molle, par contact des masses molles cuisse-jambe postérieures",
@@ -204151,7 +204151,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une joueuse de handball, assise, ramène activement la pointe du pied vers l'intérieur (rotation interne du genou). Quels ligaments sont principalement mis en tension par ce mouvement ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Les ligaments croisés antérieur et postérieur, qui s'enroulent l'un sur l'autre",
@@ -204170,7 +204170,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous étudiez la cinématique méniscale du genou en flexion (passage de la position debout à accroupie). D'après le cours, comment se déplacent les ménisques ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Ils reculent tous les deux, le ménisque externe davantage et se déforme plus",
@@ -204189,7 +204189,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient effectue un squat profond. Décrivez le comportement biomécanique des condyles fémoraux sur les plateaux tibiaux lors de la descente.",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Roulement postérieur et glissement antérieur simultanés",
@@ -204208,7 +204208,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente présente une hyperextension du genou de 15° (genu recurvatum). Quelles structures contrôlent normalement et limitent l'hyperextension du genou ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Plan capsulo-ligamentaire postérieur, ligaments collatéraux et muscles fléchisseurs",
@@ -204227,7 +204227,7 @@ const QUESTIONS = {
   },
   {
    "q": "En chaîne cinétique fermée (CCF), un sujet effectue une extension de genou en se relevant d'un squat. Décrivez la cinématique fémoro-tibiale.",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Roulement antérieur des condyles, glissement postérieur simultané",
@@ -204246,7 +204246,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi la rotule a-t-elle une tendance physiologique à la luxation latérale en extension complète du genou ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Angle Q ouvert latéralement et joue trochléenne externe plus proéminente",
@@ -204265,7 +204265,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient est assis sur une table, jambe pendante. Il effectue une extension active du genou en CCO. Décrivez la cinématique tibio-fémorale.",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le tibia roule antérieurement et glisse antérieurement sur le fémur",
@@ -204284,7 +204284,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un coureur de fond, debout, désigne ses muscles éverseurs. Quels muscles sont responsables de l'éversion active du pied ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Long fibulaire et court fibulaire",
@@ -204303,7 +204303,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient effectue une flexion dorsale maximale active de cheville. Que se passe-t-il au niveau des articulations tibio-fibulaires inférieure et talo-crurale ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Écartement et rotation externe de la malléole externe, roulement antérieur du talus",
@@ -204322,7 +204322,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous décomposez le mouvement d'inversion du pied. Quelles composantes cinématiques retrouvez-vous ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Flexion plantaire + adduction + supination",
@@ -204341,7 +204341,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'axe de Henke est un repère anatomique fondamental du pied. Quelle description est exacte ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Axe oblique passant par le col du talus et la tubérosité postéro-latérale du calcanéum, permettant l'inversion-éversion",
@@ -204360,7 +204360,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez la voûte plantaire d'une patiente. Quels muscles soutiennent activement l'arche longitudinale interne du pied ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Tibial postérieur et long fibulaire",
@@ -204379,7 +204379,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente porteuse d'une instabilité chronique de cheville présente une rupture isolée d'un faisceau du ligament collatéral latéral. Quel mécanisme traumatique en est typiquement responsable et quel faisceau est concerné ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Inversion forcée en flexion plantaire, rupture du ligament talo-fibulaire antérieur",
@@ -204398,7 +204398,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un joueur de basket atterrit après un saut sur un pied en éversion forcée. Quelle conséquence anatomique principale faut-il craindre ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Fracture des malléoles, particulièrement la malléole latérale",
@@ -204417,7 +204417,7 @@ const QUESTIONS = {
   },
   {
    "q": "En chaîne cinétique ouverte (CCO), un patient assis effectue une extension active du genou. Quelle est la cinématique fémoro-tibiale exacte ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le tibia roule et glisse antérieurement, dans le même sens, sur le fémur fixe",
@@ -204436,7 +204436,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une danseuse présente un syndrome rotulien avec luxation latérale récidivante. Quel facteur biomécanique principal favorise cette tendance ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Insuffisance du vaste médial oblique opposé à la latéralisation rotulienne",
@@ -204455,7 +204455,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente de 65 ans présente un pied plat acquis avec affaissement de la voûte longitudinale interne. Quel muscle, par son insuffisance, est principalement responsable de cet affaissement ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Tibial postérieur",
@@ -204474,7 +204474,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient est en décubitus dorsal, vous saisissez son tibia distal et le tirez vers l'avant, genou fléchi à 90°, hanche à 45°. Quel ligament testez-vous ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Ligament croisé antérieur",
@@ -204493,7 +204493,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la marche normale, un mécanisme de rotation axiale automatique du genou se produit dans les derniers degrés d'extension. Quelle est cette rotation ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Rotation externe automatique du tibia",
@@ -204512,7 +204512,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une raideur du LCP suite à une ancienne entorse postérieure. Quel mouvement sera principalement limité ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Flexion complète du genou",
@@ -204531,7 +204531,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'un mouvement de rotation externe du genou en CCO, quel déplacement réalise le ménisque externe ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le ménisque externe s'avance sur sa glène pendant que le médial recule",
@@ -204550,7 +204550,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de l'évaluation d'une flexion plantaire isolée du gros orteil, quel muscle testez-vous principalement ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Long fléchisseur de l'hallux",
@@ -204569,7 +204569,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle est principalement responsable de la flexion plantaire de la cheville et atteint son efficacité maximale genou en extension ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Triceps sural (gastrocnémiens et soléaire)",
@@ -204588,7 +204588,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un test passif de flexion dorsale de cheville chez un patient retrouve une limite à 5°, genou en extension, qui passe à 15° genou fléchi. Quel muscle est responsable de cette différence ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Gastrocnémiens (muscle biarticulaire enjambant le genou)",
@@ -204607,7 +204607,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle position est dite de stabilité maximale (close-pack) pour l'articulation du genou ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Extension complète avec rotation externe automatique",
@@ -204626,7 +204626,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle articulation tarsienne forme l'articulation médio-tarsienne de Chopart ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Talo-naviculaire + calcanéo-cuboïdienne",
@@ -204645,7 +204645,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient en décubitus dorsal, hanche fléchie à 90° et genou fléchi à 90°, présente une douleur lors de la rotation interne passive de la hanche. Vers quelle pathologie cela oriente-t-il principalement ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Conflit fémoro-acétabulaire antérieur",
@@ -204664,7 +204664,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le triceps sural produit la flexion plantaire mais sa contraction maximale s'accompagne d'une autre composante au niveau du pied. Laquelle ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Adduction et supination (varus du pied)",
@@ -204683,7 +204683,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une étudiante en kinésithérapie évalue la stabilité antérolatérale du genou lors d'un test de pivot shift positif. Quel ligament est principalement lésé ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Ligament croisé antérieur",
@@ -204702,7 +204702,7 @@ const QUESTIONS = {
   },
   {
    "q": "En position anatomique debout, un sujet effectue une flexion passive du tronc en avant. Quelle composante intervient au niveau de la hanche dans le rythme lombo-pelvien ipsi-directionnel ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Bassin et colonne lombaire tournent dans le même sens, vers l'avant",
@@ -204721,7 +204721,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une flexion de hanche au-delà de 90°, quelle modification posturale rachidienne est physiologique ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Rétroversion du bassin et diminution de la lordose lombaire",
@@ -204740,7 +204740,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une marche normale, à quel moment du cycle survient la supination maximale de l'arrière-pied selon le cours ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Pendant la phase d'impulsion (propulsion)",
@@ -204759,7 +204759,7 @@ const QUESTIONS = {
   },
   {
    "q": "En extension active du genou, quel mécanisme tire la corne postérieure du ménisque externe vers l'avant selon le cours ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "La tension du ligament ménisco-fémoral",
@@ -204778,7 +204778,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient présente une raideur des fléchisseurs du genou (ischio-jambiers courts). Quel test simple utilisez-vous pour les évaluer cliniquement ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Test du SLR (jambe tendue) ou angle poplité",
@@ -204797,7 +204797,7 @@ const QUESTIONS = {
   },
   {
    "q": "En appui unipodal pathologique, le bassin chute du côté oscillant (signe de Trendelenburg). Quel muscle est en cause du côté en appui ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Moyen fessier",
@@ -204816,7 +204816,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez la mobilité de la rotule en glissement latéro-médial chez un patient. À quelle position du genou le test est-il optimal ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Extension complète",
@@ -204835,7 +204835,7 @@ const QUESTIONS = {
   },
   {
    "q": "Le muscle poplité a un rôle spécifique au niveau du genou. Lequel ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Déverrouille le genou en initiant la rotation interne du tibia",
@@ -204854,7 +204854,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un patient effectue un test de Lachman positif. Quelle structure ligamentaire est probablement rompue ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Ligament croisé antérieur",
@@ -204873,7 +204873,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors d'une flexion plantaire de cheville, quel mouvement de la mortaise tibio-fibulaire inférieure est observé ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Rapprochement des malléoles, descente et rotation interne de la malléole externe",
@@ -204892,7 +204892,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez la cinématique du pied chez un sprinter en phase de propulsion. Quel mouvement domine pour stabiliser l'avant-pied ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Supination (verrouillage du transverse du tarse)",
@@ -204930,7 +204930,7 @@ const QUESTIONS = {
   },
   {
    "q": "Un coureur présente un déficit de stabilité pelvienne antéropostérieure lors de la propulsion (course, montée). Selon la biomécanique enseignée, quels muscles sont essentiels au contrôle de cette stabilité ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Les extenseurs de hanche : ischio-jambiers et grand fessier",
@@ -204949,7 +204949,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous mesurez au goniomètre la flexion de hanche d'un patient, genou tendu (ischio-jambiers en tension). Quelle amplitude maximale attendez-vous selon les normes enseignées ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Environ 90°",
@@ -205006,7 +205006,7 @@ const QUESTIONS = {
   },
   {
    "q": "Une patiente en décubitus dorsal présente une flexion de la hanche droite avec un test de Thomas positif. Quelle est la signification clinique ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Rétraction des fléchisseurs de la hanche",
@@ -205025,7 +205025,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ligament empêche principalement le glissement antérieur du tibia sous le fémur (par exemple lors d'une décélération brutale en course) ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Ligament croisé antérieur",
@@ -205044,7 +205044,7 @@ const QUESTIONS = {
   },
   {
    "q": "En position assise jambes croisées, quels mouvements coxo-fémoraux sont combinés du côté de la hanche en croisement (jambe sur l'autre) ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Flexion + adduction + rotation externe",
@@ -205063,7 +205063,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous mesurez la flexion de hanche genou tendu (SLR) chez un patient avec ischio-jambiers normaux. Quelle est l'amplitude attendue ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Environ 80-90°",
@@ -205082,7 +205082,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vous évaluez un patient avec rupture isolée du LCP. Quel signe clinique recherchez-vous principalement ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Tiroir postérieur positif",
@@ -205101,7 +205101,7 @@ const QUESTIONS = {
   },
   {
    "q": "En appui bipodal symétrique, l'action des abducteurs et adducteurs de hanche est :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Une co-contraction bilatérale et tonique des deux groupes",
@@ -205120,7 +205120,7 @@ const QUESTIONS = {
   },
   {
    "q": "En décubitus dorsal, hanche fléchie à 90° genou fléchi à 90°, vous réalisez le test passif de rotation interne et trouvez une amplitude de 32°. Selon les valeurs de référence du cours, cette amplitude est :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Dans la norme : la rotation interne passive en flexion 90° est de 30-40°",
@@ -205139,7 +205139,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel facteur de risque est associé à une luxation de la hanche due à une adduction forcée ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Antéversion du col du fémur",
@@ -205177,7 +205177,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la réponse correcte par rapport à la coaptation de la hanche :",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Vers 40° d'abduction, la résultante musculaire devient coaptante",
@@ -205196,7 +205196,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles assurent la stabilité latérale (frontale) de la hanche en appui unipodal ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Petit et moyen fessiers et le tenseur du fascia lata",
@@ -205215,7 +205215,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient en décubitus ventral, genou fléchi, qui ramène le tibia vers le côté controlatéral : quels muscles produisent ce mouvement ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Pelvitrochantériens et sartorius",
@@ -205234,7 +205234,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le mouvement physiologique du genou, signalez la bonne réponse :",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Les rotations interne et externe ne sont possibles que genou fléchi, une fois l'articulation déverrouillée",
@@ -205253,7 +205253,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez la bonne réponse concernant les fléchisseurs du genou :",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Ils sont plus efficaces lorsque la hanche est fléchie, qui pré-étire les ischio-jambiers biarticulaires",
@@ -205272,7 +205272,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient assis qui amène la pointe du pied vers l'intérieur (rotation interne du tibia) : quels ligaments du genou se mettent en tension ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Les ligaments croisés antérieur et postérieur",
@@ -205291,7 +205291,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lorsqu'un individu fait un squat (flexion en chaîne fermée), signalez la bonne réponse :",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Les condyles fémoraux roulent en arrière et glissent en avant",
@@ -205310,7 +205310,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles réalisent l'éversion de la cheville ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Long fibulaire et court fibulaire",
@@ -205329,7 +205329,7 @@ const QUESTIONS = {
   },
   {
    "q": "Patient assis qui ramène le dos du pied vers le tibia (flexion dorsale) : que observe-t-on à la cheville ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Le talus réalise un roulement antérieur et un glissement postérieur",
@@ -205348,7 +205348,7 @@ const QUESTIONS = {
   },
   {
    "q": "Indiquez l'affirmation correcte concernant la physiologie articulaire de la cheville :",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "L'éversion met en tension le plan médial (ligament deltoïde)",
@@ -205367,7 +205367,7 @@ const QUESTIONS = {
   },
   {
    "q": "Signalez la bonne réponse sur les axes de la cheville et du pied :",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "L'axe de Henke (sous-talien) permet l'inversion-éversion",
@@ -205386,7 +205386,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la réponse correcte concernant la voûte plantaire ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "L'arche longitudinale médiale est soutenue activement par le tibial postérieur et le long fibulaire",
@@ -205443,7 +205443,7 @@ const QUESTIONS = {
   },
   {
    "q": "L'axe mécanique du membre inférieur :",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Relie le centre de la tête fémorale au centre de la cheville",
@@ -205462,7 +205462,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles structures limitent l'hyperextension du genou ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "La capsule postérieure et le ligament poplité oblique",
@@ -205481,7 +205481,7 @@ const QUESTIONS = {
   },
   {
    "q": "Énoncez l'affirmation vraie concernant la rotule en extension :",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "En extension, la rotule tend à se subluxer en dehors",
@@ -205500,7 +205500,7 @@ const QUESTIONS = {
   },
   {
    "q": "Parmi les facteurs de coaptation de la hanche, lesquels sont principalement assurés par les ligaments et par les muscles ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Ligaments surtout antérieurs et muscles surtout postérieurs",
@@ -205538,7 +205538,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude d'extension de hanche genou tendu (quadriceps détendu) selon le cours ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "20 à 30° (jusqu'à environ 30°)",
@@ -205576,7 +205576,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur normale de l'angle d'inclinaison entre l'axe du col anatomique et l'axe diaphysaire du fémur ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Environ 125°",
@@ -205614,7 +205614,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, en flexion-extension neutre, quelle est l'action des muscles adducteurs de la hanche (hormis les fibres postérieures du grand adducteur) ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Ils sont fléchisseurs",
@@ -205633,7 +205633,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant la rotation externe de hanche en position de flexion coxo-fémorale, quelle proposition est exacte ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Le mouvement actif est réduit à 30-35°, le passif pouvant dépasser 60°",
@@ -205652,7 +205652,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'orientation exacte du ligament croisé antérieur (LCA) ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Oblique vers le haut, vers l'arrière et vers l'extérieur",
@@ -205671,7 +205671,7 @@ const QUESTIONS = {
   },
   {
    "q": "Concernant le roulement pur (sans glissement) des condyles en début de flexion, lequel persiste le plus longtemps ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le condyle externe, jusqu'à environ 20°",
@@ -205690,7 +205690,7 @@ const QUESTIONS = {
   },
   {
    "q": "En flexion, quelle structure tire vers l'arrière la corne antérieure du ménisque interne ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Les fibres du LCA",
@@ -205709,7 +205709,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'orientation du ligament collatéral médial du genou ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Oblique vers le bas et vers l'avant",
@@ -205728,7 +205728,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au-delà de 90° de flexion, et surtout à 120°, lequel des croisés se tend le plus ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Le LCP, qui se verticalise davantage",
@@ -205747,7 +205747,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel rôle joue le vaste médial (fibres obliques) au niveau de la rotule ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Il résiste à la luxation externe de la rotule",
@@ -205766,7 +205766,7 @@ const QUESTIONS = {
   },
   {
    "q": "Pourquoi la flexion active du genou est-elle moindre (120°) hanche en extension qu'en flexion de hanche (140°) ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Par efficacité réduite des ischio-jambiers et tension du droit fémoral",
@@ -205785,7 +205785,7 @@ const QUESTIONS = {
   },
   {
    "q": "En extension, quelle structure tire vers l'avant la corne postérieure du ménisque externe ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le ligament ménisco-fémoral",
@@ -205804,7 +205804,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels os l'articulation talo-crurale (mortaise) met-elle en présence ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Le tibia et la fibula avec le talus",
@@ -205823,7 +205823,7 @@ const QUESTIONS = {
   },
   {
    "q": "Laquelle de ces propositions est exacte concernant le ligament collatéral médial (deltoïde) ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Il s'étend de la malléole interne au naviculaire, au calcanéus et au talus",
@@ -205842,7 +205842,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle articulation forme la tarso-métatarsienne (articulation de Lisfranc) ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "L'articulation entre le tarse antérieur (cunéiformes et cuboïde) et les métatarsiens",
@@ -205861,7 +205861,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les trois composantes du mouvement d'inversion du pied ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Adduction, supination et extension",
@@ -205880,7 +205880,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure ligamentaire est rompue lors d'une inversion forcée de la cheville ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Le ligament talo-fibulaire antérieur",
@@ -205899,7 +205899,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la flexion plantaire de l'articulation talo-crurale ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "30° à 50°",
@@ -205918,7 +205918,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la flexion plantaire, comment se comporte la malléole externe au niveau de la tibio-fibulaire inférieure ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Elle se rapproche, fermant la mortaise, avec descente, rotation interne et antériorisation",
@@ -205937,7 +205937,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon les quadrants des axes XX et de Henke, quels muscles produisent l'extension, l'abduction et la pronation du pied ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Le court fibulaire et le long fibulaire",
@@ -205956,7 +205956,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude normale de la rotation interne de la hanche selon le cours ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "35°",
@@ -205975,7 +205975,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude maximale de l'adduction de la hanche selon le cours ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "20 à 30°",
@@ -205994,7 +205994,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quelle est la valeur de l'angle de torsion (déclinaison ou antéversion) du col fémoral ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "10 à 30°",
@@ -206013,7 +206013,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, comment nomme-t-on une augmentation de l'angle d'inclinaison cervico-diaphysaire du fémur ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Coxa valga",
@@ -206032,7 +206032,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels muscles sont moteurs de l'abduction de la hanche ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Moyen fessier, petit fessier et tenseur du fascia lata",
@@ -206051,7 +206051,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, quels muscles sont moteurs de la rotation externe de la hanche ?",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "Pyramidal, obturateurs et quadratus femoris",
@@ -206089,7 +206089,7 @@ const QUESTIONS = {
   },
   {
    "q": "Selon le cours, l'adduction pure de la hanche en position anatomique :",
-   "c": 2,
+   "c": 1,
    "options": [
     {
      "t": "N'existe pas et se combine à la flexion, l'extension ou l'abduction opposée",
@@ -206108,7 +206108,7 @@ const QUESTIONS = {
   },
   {
    "q": "En appui unipodal hanche en extension (bassin en rétroversion), quelles structures assurent d'abord la stabilité frontale selon le cours ?",
-   "c": 3,
+   "c": 1,
    "options": [
     {
      "t": "Le tenseur du fascia lata et le ligament ilio-fémoral",
@@ -206127,7 +206127,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la flexion du genou en chaîne cinétique fermée, dans quel sens se fait le glissement des condyles fémoraux sur les plateaux tibiaux ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Vers l'avant, en sens opposé au roulement",
@@ -206146,7 +206146,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ligament croisé est COMPLÈTEMENT tendu lorsque le genou est en extension ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Le LCA",
@@ -206165,7 +206165,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la flexion du genou, quel ménisque recule le plus et de combien selon le cours ?",
-   "c": 7,
+   "c": 2,
    "options": [
     {
      "t": "Le ménisque externe, d'environ 12 mm",
@@ -206184,7 +206184,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment se comportent les ligaments collatéraux lors de la flexion du genou ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Ils se relâchent",
@@ -206203,7 +206203,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que devient la force de coaptation de la rotule sur le fémur lors de la flexion du genou ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Elle augmente",
@@ -206222,7 +206222,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel ligament collatéral contrôle le déséquilibre en valgus du genou ?",
-   "c": 9,
+   "c": 2,
    "options": [
     {
      "t": "Le ligament collatéral interne (médial)",
@@ -206241,7 +206241,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles sont moteurs de la rotation externe du genou selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Le biceps fémoral et le tenseur du fascia lata",
@@ -206260,7 +206260,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la rotation externe active du genou selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "40°",
@@ -206279,7 +206279,7 @@ const QUESTIONS = {
   },
   {
    "q": "Combien d'os compose la ligne antérieure du tarse ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Cinq os : cuboïde, naviculaire et trois cunéiformes",
@@ -206298,7 +206298,7 @@ const QUESTIONS = {
   },
   {
    "q": "Avec quel(s) os du tarse la base du 2e métatarsien s'articule-t-elle ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Avec les trois cunéiformes",
@@ -206317,7 +206317,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle particularité caractérise le talus en tant qu'os « en cage » ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Il ne reçoit aucune insertion musculaire",
@@ -206336,7 +206336,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels types d'articulations composent la médio-tarsienne de Chopart ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Une énarthrose talo-naviculaire et une calcanéo-cuboïdienne en selle",
@@ -206355,7 +206355,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'arthrocinématique du talus lors de la flexion dorsale de la talo-crurale ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "Un roulement antérieur du talus avec glissement postérieur",
@@ -206374,7 +206374,7 @@ const QUESTIONS = {
   },
   {
    "q": "À quel type articulaire correspondent les articulations métatarso-phalangiennes ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Des énarthroses",
@@ -206393,7 +206393,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est la limite osseuse principale du mouvement d'inversion du pied ?",
-   "c": 13,
+   "c": 3,
    "options": [
     {
      "t": "Le confinement de la malléole médiale (interne)",
@@ -206412,7 +206412,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la supination autour de l'axe longitudinal du pied (Z-Z') ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "52°",
@@ -206431,7 +206431,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on respectivement le pied supinateur et le pied pronateur ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "Pied varus pour le supinateur et pied valgus pour le pronateur",
@@ -206450,7 +206450,7 @@ const QUESTIONS = {
   },
   {
    "q": "Par rapport à quel repère l'angle de torsion (ou de déclinaison) du col fémoral est-il mesuré ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "À l'axe de la diaphyse fémorale, avec lequel l'axe du col forme cet angle",
@@ -206469,7 +206469,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vu d'en haut, quelle est l'orientation du col du fémur décrite par le cours ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Il se dirige obliquement vers l'intérieur et vers l'avant",
@@ -206488,7 +206488,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles conséquences une antéversion fémorale excessive entraîne-t-elle sur les amplitudes de rotation de la hanche ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La rotation interne est augmentée et la rotation externe diminuée",
@@ -206507,7 +206507,7 @@ const QUESTIONS = {
   },
   {
    "q": "Chez un sujet présentant une antéversion fémorale excessive, quelle position du membre inférieur en charge améliore la congruence coxo-fémorale ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "La station debout avec la hanche en abduction",
@@ -206526,7 +206526,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment désigne-t-on un col fémoral dont l'angle de torsion est inférieur aux valeurs normales ?",
-   "c": 4,
+   "c": 1,
    "options": [
     {
      "t": "Une coxa vara",
@@ -206545,7 +206545,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les trois articulations de la région du genou énumérées par le cours ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "La fémoro-tibiale, la fémoro-patellaire et la tibio-fibulaire supérieure",
@@ -206564,7 +206564,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les insertions du ligament croisé antérieur ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "De la face axiale du condyle latéral du fémur à la surface rétro-spinale du tibia",
@@ -206583,7 +206583,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle valeur de l'angle formé par les diaphyses fémorale et tibiale correspond au genu valgum physiologique ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "170°",
@@ -206602,7 +206602,7 @@ const QUESTIONS = {
   },
   {
    "q": "De combien de degrés l'axe mécanique du membre inférieur s'écarte-t-il de la verticale ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "6°",
@@ -206621,7 +206621,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel rôle le cours attribue-t-il aux ménisques du genou ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Ils contrôlent les déséquilibres latéraux en se mettant en tension lors de l'extension",
@@ -206640,7 +206640,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles le cours classe-t-il parmi les fléchisseurs accessoires du genou ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Le vaste médial, le vaste latéral et le vaste intermédiaire",
@@ -206659,7 +206659,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment nomme-t-on la déformation du genou caractérisée par une hyperextension exagérée ?",
-   "c": 5,
+   "c": 2,
    "options": [
     {
      "t": "Un genu varum",
@@ -206678,7 +206678,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la flexion passive du genou selon le cours ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "140°",
@@ -206697,7 +206697,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de l'hyperextension physiologique du genou obtenue passivement ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "15 à 20°",
@@ -206716,7 +206716,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles structures le cours cite-t-il comme limites de l'hyperextension du genou ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Les ménisques et le ligament transverse du genou",
@@ -206735,7 +206735,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quel muscle accessoire de l'extension verrouille le genou dans ses derniers degrés d'extension ?",
-   "c": 6,
+   "c": 2,
    "options": [
     {
      "t": "Le muscle semi-membraneux",
@@ -206754,7 +206754,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelles sont les amplitudes passives des rotations du genou selon le cours ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "20 à 25° de rotation interne et 60 à 65° de rotation externe",
@@ -206773,7 +206773,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles le cours retient-il comme moteurs de la rotation interne du genou ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Le biceps fémoral et le tenseur du fascia lata",
@@ -206792,7 +206792,7 @@ const QUESTIONS = {
   },
   {
    "q": "Lors de la rotation externe du genou, comment se déplacent les condyles fémoraux sur les glénoïdes tibiales ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Les deux condyles reculent simultanément sur leurs glénoïdes",
@@ -206811,7 +206811,7 @@ const QUESTIONS = {
   },
   {
    "q": "Au début de la flexion du genou, quelle rotation automatique survient et par quel mécanisme ?",
-   "c": 8,
+   "c": 2,
    "options": [
     {
      "t": "Une rotation externe du tibia, le condyle médial reculant plus que le latéral",
@@ -206830,7 +206830,7 @@ const QUESTIONS = {
   },
   {
    "q": "Vers où est dirigée la face postérieure de la rotule lorsque le genou est fléchi ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Vers le haut",
@@ -206849,7 +206849,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle structure permet la translation verticale de la rotule le long de la gorge trochléenne lors de la flexion ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "L'allongement élastique du tendon du quadriceps",
@@ -206868,7 +206868,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment la rotule est-elle entraînée par le fémur lors des rotations du genou ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "En rotation externe, le fémur entraîne la rotule vers l'extérieur",
@@ -206887,7 +206887,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que peut-il se produire au niveau de la rotule lors d'une hyperextension passive du genou ?",
-   "c": 10,
+   "c": 2,
    "options": [
     {
      "t": "Elle s'engage dans l'échancrure intercondylienne",
@@ -206906,7 +206906,7 @@ const QUESTIONS = {
   },
   {
    "q": "Combien de phalanges chaque orteil comporte-t-il ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Deux pour tous les orteils, y compris le premier",
@@ -206925,7 +206925,7 @@ const QUESTIONS = {
   },
   {
    "q": "Comment le cours décrit-il l'articulation subtalaire (talo-calcanéenne) ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Deux surfaces articulaires formant deux arthrodies, l'une antérieure et l'autre postérieure",
@@ -206944,7 +206944,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels faisceaux composent le ligament collatéral latéral de la cheville ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Le tibio-talaire antérieur, le tibio-naviculaire et le tibio-calcanéen",
@@ -206963,7 +206963,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quel type est l'articulation entre le naviculaire et les trois cunéiformes, et quel est son rôle ?",
-   "c": 11,
+   "c": 3,
    "options": [
     {
      "t": "Une trochlée dont les mouvements de flexion-extension suivent l'axe de Henke",
@@ -206982,7 +206982,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude de la flexion dorsale de la talo-crurale et le minimum nécessaire à la marche ?",
-   "c": 12,
+   "c": 3,
    "options": [
     {
      "t": "30 à 50°, avec un minimum de 20° pour la marche",
@@ -207001,7 +207001,7 @@ const QUESTIONS = {
   },
   {
    "q": "De quel type sont les articulations tarso-métatarsiennes et par quoi sont-elles renforcées ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Des trochlées, renforcées par deux ligaments latéraux à deux fascicules chacun",
@@ -207020,7 +207020,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'obliquité de l'interligne entre le premier métatarsien et le cunéiforme médial ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Oblique en arrière et en dehors",
@@ -207039,7 +207039,7 @@ const QUESTIONS = {
   },
   {
    "q": "Que devient l'arche antérieure du pied lors de la flexion des métatarsiens ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Elle augmente, car les têtes métatarsiennes se rapprochent de l'axe longitudinal du pied",
@@ -207058,7 +207058,7 @@ const QUESTIONS = {
   },
   {
    "q": "Entre quelles bases métatarsiennes n'existe-t-il normalement pas d'articulation intermétatarsienne ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Entre le deuxième et le troisième métatarsien",
@@ -207077,7 +207077,7 @@ const QUESTIONS = {
   },
   {
    "q": "Combien d'articulations interphalangiennes chaque orteil possède-t-il et de quel type sont-elles ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "Trois trochlées, identiques pour tous les orteils y compris le premier",
@@ -207096,7 +207096,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quels muscles assurent l'adduction des orteils ?",
-   "c": 14,
+   "c": 3,
    "options": [
     {
      "t": "L'abducteur du premier orteil et les interosseux dorsaux",
@@ -207115,7 +207115,7 @@ const QUESTIONS = {
   },
   {
    "q": "Quelle est l'amplitude des mouvements d'abduction-adduction du pied autour de l'axe longitudinal de la jambe ?",
-   "c": 15,
+   "c": 3,
    "options": [
     {
      "t": "35 à 45°",
