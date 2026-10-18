@@ -8,19 +8,19 @@ const CHAPITRES = {
   "anat1": [
     {
       "id": 1,
-      "nom": "1. Ostéoarthrologie du tronc"
+      "nom": "1. Ostéoarthrologie du tronc"
     },
     {
       "id": 2,
-      "nom": "2. Les os du crâne"
+      "nom": "2. Les os du crâne"
     },
     {
       "id": 3,
-      "nom": "3. Myologie du dos et de la région sous-occipitale"
+      "nom": "3. Myologie du dos et de la région sous-occipitale"
     },
     {
       "id": 4,
-      "nom": "4. Myologie de la région antérieure et latérale du cou"
+      "nom": "4. Myologie de la région antérieure et latérale du cou"
     },
     {
       "id": 5,
@@ -56,7 +56,7 @@ const CHAPITRES = {
     },
     {
       "id": 13,
-      "nom": "2.5. Ostéoarthrologie du pied et de la cheville"
+      "nom": "2.5. Ostéoarthrologie du pied et de la cheville"
     },
     {
       "id": 14,
@@ -70,11 +70,11 @@ const CHAPITRES = {
   "anat2": [
     {
       "id": 1,
-      "nom": "1. L'OSTÉOARTHROLOGIE DE LA CEINTURE SCAPULAIRE DU MEMBRE SUPÉRIEUR"
+      "nom": "1. L'OSTÉOARTHROLOGIE DE LA CEINTURE SCAPULAIRE DU MEMBRE SUPÉRIEUR"
     },
     {
       "id": 2,
-      "nom": "2. L'OSTÉOARTHROLOGIE DU COUDE"
+      "nom": "2. L'OSTÉOARTHROLOGIE DU COUDE"
     },
     {
       "id": 3,
@@ -98,7 +98,7 @@ const CHAPITRES = {
     },
     {
       "id": 8,
-      "nom": "8. NEUROANATOMIE DU MEMBRE SUPÉRIEUR"
+      "nom": "8. NEUROANATOMIE DU MEMBRE SUPÉRIEUR"
     }
   ],
   "dentBiomaterial": [
@@ -1170,11 +1170,11 @@ const CHAPITRES = {
     },
     {
       "id": 4,
-      "nom": "Neuropatías del miembro superior FOSTII 25 26 FR"
+      "nom": "Neuropatías del miembro superior FOSTII 25 26 FR"
     },
     {
       "id": 5,
-      "nom": "CERVICALES francés"
+      "nom": "CERVICALES francés"
     },
     {
       "id": 6,
@@ -1212,7 +1212,7 @@ const CHAPITRES = {
     },
     {
       "id": 7,
-      "nom": "07F. INFECTIONS OSTÉOARTICULAIRES v.2"
+      "nom": "07F. INFECTIONS OSTÉOARTICULAIRES v.2"
     },
     {
       "id": 8,
@@ -1224,7 +1224,7 @@ const CHAPITRES = {
     },
     {
       "id": 10,
-      "nom": "10F. Bases físicas y aplicaciones de la TAC la RM y la ecografía"
+      "nom": "10F. Bases físicas y aplicaciones de la TAC la RM y la ecografía"
     },
     {
       "id": 11,
@@ -1498,7 +1498,7 @@ const CHAPITRES = {
     },
     {
       "id": 11,
-      "nom": "11. Patología Degenerativa- Esclerosis Múltiple- FR"
+      "nom": "11. Patología Degenerativa- Esclerosis Múltiple- FR"
     },
     {
       "id": 12,
@@ -1520,15 +1520,15 @@ const CHAPITRES = {
   "procesos1": [
     {
       "id": 1,
-      "nom": "1. Introduction kiné respiratoire"
+      "nom": "1. Introduction kiné respiratoire"
     },
     {
       "id": 2,
-      "nom": "2. Généralités du systeme respiratoire"
+      "nom": "2. Généralités du systeme respiratoire"
     },
     {
       "id": 3,
-      "nom": "3. Évaluation patient respiratoire"
+      "nom": "3. Évaluation patient respiratoire"
     },
     {
       "id": 4,
@@ -1536,7 +1536,7 @@ const CHAPITRES = {
     },
     {
       "id": 5,
-      "nom": "5. Spirométrie"
+      "nom": "5. Spirométrie"
     },
     {
       "id": 6,
@@ -1544,7 +1544,7 @@ const CHAPITRES = {
     },
     {
       "id": 7,
-      "nom": "7. Pharmacologie ET VM Français"
+      "nom": "7. Pharmacologie ET VM Français"
     }
   ],
   "procesos2": [
@@ -1624,11 +1624,11 @@ const CHAPITRES = {
   "processusBio1": [
     {
       "id": 1,
-      "nom": "1. Introduction à la physique et à la chimie de la vie"
+      "nom": "1. Introduction à la physique et à la chimie de la vie"
     },
     {
       "id": 2,
-      "nom": "2. Origine et évolution cellulaires"
+      "nom": "2. Origine et évolution cellulaires"
     },
     {
       "id": 3,
@@ -1636,7 +1636,7 @@ const CHAPITRES = {
     },
     {
       "id": 4,
-      "nom": "4. Cytosquelette. Le sarcomère comme exemple"
+      "nom": "4. Cytosquelette. Le sarcomère comme exemple"
     },
     {
       "id": 5,
@@ -1648,7 +1648,7 @@ const CHAPITRES = {
     },
     {
       "id": 7,
-      "nom": "6. B. La signalisation et la stimulation cellulaire, la mécanotransduction"
+      "nom": "6. B. La signalisation et la stimulation cellulaire, la mécanotransduction"
     },
     {
       "id": 8,
@@ -1656,15 +1656,15 @@ const CHAPITRES = {
     },
     {
       "id": 9,
-      "nom": "8. Gènes, chromosomes et génome"
+      "nom": "8. Gènes, chromosomes et génome"
     },
     {
       "id": 10,
-      "nom": "9. Synthèse des protéines. L'épigénétique (IMR)"
+      "nom": "9. Synthèse des protéines. L'épigénétique (IMR)"
     },
     {
       "id": 11,
-      "nom": "10. Principes physiques des transformation énergétiques"
+      "nom": "10. Principes physiques des transformation énergétiques"
     },
     {
       "id": 12,
@@ -1672,7 +1672,7 @@ const CHAPITRES = {
     },
     {
       "id": 13,
-      "nom": "12. Métabolisme de la cellule humaine"
+      "nom": "12. Métabolisme de la cellule humaine"
     },
     {
       "id": 14,
@@ -1680,33 +1680,33 @@ const CHAPITRES = {
     },
     {
       "id": 15,
-      "nom": "14. Généralités sur les ondes et les ondes sonores"
+      "nom": "14. Généralités sur les ondes et les ondes sonores"
     },
     {
       "id": 16,
-      "nom": "15. Ondes électromagnétiques et applications"
+      "nom": "15. Ondes électromagnétiques et applications"
     }
   ],
   "processusBio2": [
     {
       "id": 1,
-      "nom": "1. Méiose et gamétogenèse humaine"
+      "nom": "1. Méiose et gamétogenèse humaine"
     },
     {
       "id": 2,
-      "nom": "2. Développement embryonnaire"
+      "nom": "2. Développement embryonnaire"
     },
     {
       "id": 3,
-      "nom": "3. Introduction à l'histologie"
+      "nom": "3. Introduction à l'histologie"
     },
     {
       "id": 4,
-      "nom": "4. Caractéristiques des tissus conjonctifs"
+      "nom": "4. Caractéristiques des tissus conjonctifs"
     },
     {
       "id": 5,
-      "nom": "5. Types de tissus conjonctifs non spécialisés"
+      "nom": "5. Types de tissus conjonctifs non spécialisés"
     },
     {
       "id": 6,
@@ -1714,19 +1714,19 @@ const CHAPITRES = {
     },
     {
       "id": 7,
-      "nom": "7. Réparation et Régénération tissulaire des tissus conjonctifs"
+      "nom": "7. Réparation et Régénération tissulaire des tissus conjonctifs"
     },
     {
       "id": 8,
-      "nom": "08. Cellules souches et médecine régénérative"
+      "nom": "08. Cellules souches et médecine régénérative"
     },
     {
       "id": 9,
-      "nom": "9.10. Tissu épithélial"
+      "nom": "9.10. Tissu épithélial"
     },
     {
       "id": 10,
-      "nom": "11. Régénération et réparation du tissu épithélial Cicatrices"
+      "nom": "11. Régénération et réparation du tissu épithélial Cicatrices"
     },
     {
       "id": 11,
@@ -1750,7 +1750,7 @@ const CHAPITRES = {
     },
     {
       "id": 16,
-      "nom": "17. Réparation et régénération des tissus musculaires"
+      "nom": "17. Réparation et régénération des tissus musculaires"
     },
     {
       "id": 17,
@@ -1758,21 +1758,21 @@ const CHAPITRES = {
     },
     {
       "id": 18,
-      "nom": "19. Régénération du tissu nerveux"
+      "nom": "19. Régénération du tissu nerveux"
     }
   ],
   "psycho": [
     {
       "id": 1,
-      "nom": "1. Psychologie de la Santé"
+      "nom": "1. Psychologie de la Santé"
     },
     {
       "id": 2,
-      "nom": "2. Comportements Santé Maladie"
+      "nom": "2. Comportements Santé Maladie"
     },
     {
       "id": 3,
-      "nom": "3. Conditionnement, émotions et stress"
+      "nom": "3. Conditionnement, émotions et stress"
     },
     {
       "id": 4,
@@ -1780,7 +1780,7 @@ const CHAPITRES = {
     },
     {
       "id": 5,
-      "nom": "5. Adhérence au traitment Psychologie de la santé"
+      "nom": "5. Adhérence au traitment Psychologie de la santé"
     },
     {
       "id": 6,
@@ -1924,45 +1924,45 @@ const CHAPITRES = {
   "structure1": [
     {
       "id": 1,
-      "nom": "1. Introduction, homéostasie et milieu interne"
+      "nom": "1. Introduction, homéostasie et milieu interne"
     },
     {
       "id": 2,
-      "nom": "2. Système nerveux Partie I"
+      "nom": "2. Système nerveux Partie I"
     },
     {
       "id": 3,
-      "nom": "2. Système nerveux Partie II"
+      "nom": "2. Système nerveux Partie II"
     },
     {
       "id": 4,
-      "nom": "3. Système musculaire"
+      "nom": "3. Système musculaire"
     },
     {
       "id": 5,
-      "nom": "3. Système musculaire (avec rappelle voie sensitive))"
+      "nom": "3. Système musculaire (avec rappelle voie sensitive))"
     },
     {
       "id": 6,
-      "nom": "4. Système Endocrinien version"
+      "nom": "4. Système Endocrinien version"
     },
     {
       "id": 7,
-      "nom": "5. Système Immunitaire version"
+      "nom": "5. Système Immunitaire version"
     }
   ],
   "structure2": [
     {
       "id": 1,
-      "nom": "1. Le Système Respiratoire"
+      "nom": "1. Le Système Respiratoire"
     },
     {
       "id": 2,
-      "nom": "2. Le Système Cardiovasculaire"
+      "nom": "2. Le Système Cardiovasculaire"
     },
     {
       "id": 3,
-      "nom": "Diapositive 67 corrigée chapitre 2"
+      "nom": "Diapositive 67 corrigée chapitre 2"
     },
     {
       "id": 4,
@@ -1970,13 +1970,13 @@ const CHAPITRES = {
     },
     {
       "id": 5,
-      "nom": "4. L'appareil digestif et métabolisme énergétique"
+      "nom": "4. L'appareil digestif et métabolisme énergétique"
     }
   ],
   "valoColonne": [
     {
       "id": 1,
-      "nom": "Base physique et applications d'autres tests complémentaires"
+      "nom": "Base physique et applications d'autres tests complémentaires"
     },
     {
       "id": 2,
@@ -1984,7 +1984,7 @@ const CHAPITRES = {
     },
     {
       "id": 3,
-      "nom": "Bases physiques et applications de la tomodensitométrie, de l'IRM et de l'échographie"
+      "nom": "Bases physiques et applications de la tomodensitométrie, de l'IRM et de l'échographie"
     },
     {
       "id": 4,
@@ -1996,31 +1996,31 @@ const CHAPITRES = {
     },
     {
       "id": 6,
-      "nom": "Révision Rx, TAC, IRM"
+      "nom": "Révision Rx, TAC, IRM"
     },
     {
       "id": 7,
-      "nom": "Teoría ATM"
+      "nom": "Teoría ATM"
     },
     {
       "id": 8,
-      "nom": "Teoría Lumbar"
+      "nom": "Teoría Lumbar"
     },
     {
       "id": 9,
-      "nom": "Tests complémentaires pour l'étude du système nerveux périphérique"
+      "nom": "Tests complémentaires pour l'étude du système nerveux périphérique"
     },
     {
       "id": 10,
-      "nom": "Théorie Bassin"
+      "nom": "Théorie Bassin"
     },
     {
       "id": 11,
-      "nom": "Théorie Cervicale -2"
+      "nom": "Théorie Cervicale -2"
     },
     {
       "id": 12,
-      "nom": "Théorie Dorsale"
+      "nom": "Théorie Dorsale"
     }
   ],
   "valoMembresInf": [
