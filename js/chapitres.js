@@ -2122,6 +2122,40 @@ const CHAPITRES = {
       "id": 3,
       "nom": "Poignet et main"
     }
+  ],
+  "drainageExam1": [
+    {
+      "id": 1,
+      "nom": "1. Histoire et concept du DLM"
+    },
+    {
+      "id": 2,
+      "nom": "2. Effets, indications et contre-indications du DLM"
+    },
+    {
+      "id": 3,
+      "nom": "3. Structure et fonction du système lymphatique"
+    },
+    {
+      "id": 4,
+      "nom": "4. Anatomie du système lymphatique — tête et cou"
+    },
+    {
+      "id": 5,
+      "nom": "4.1 Anatomie du système lymphatique — tronc"
+    },
+    {
+      "id": 6,
+      "nom": "5. Manœuvres de base"
+    },
+    {
+      "id": 7,
+      "nom": "6. Séquence de base — cou"
+    },
+    {
+      "id": 8,
+      "nom": "7. Séquence de base — membre inférieur"
+    }
   ]
 };
 

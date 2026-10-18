@@ -364,7 +364,21 @@ const CURSUS = {
         "semesters": {
           "S1": {
             "label": "Semestre 1",
-            "matieres": {}
+            "matieres": {
+              "drainage": {
+                "label": "Drainage lymphatique manuel",
+                "accent": "#4a8a86",
+                "modules": [
+                  {
+                    "id": "drainageExam1",
+                    "label": "Examen 1 — 3 propositions",
+                    "bankKey": "drainageExam1",
+                    "optionCount": 3,
+                    "accent": "#4a8a86"
+                  }
+                ]
+              }
+            }
           },
           "S2": {
             "label": "Semestre 2",
