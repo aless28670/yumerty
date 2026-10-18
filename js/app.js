@@ -170,7 +170,11 @@ const STATS_KEY = "neuro_question_stats";
 const COUNTER_KEY = "neuro_session_counters";
 const MISTAKES_KEY = "yumerty_mistakes_v1";
 const SEEN_KEY = "yumerty_seen_v1";
-const CHAPTERS_KEY = "yumerty_chapters_v1";
+/* Suffixe « _v2 » : les chapitres ont été renumérotés le 18/10/2026 pour coller aux vrais
+   fichiers de cours (Neuro 1 proposait 16 chapitres pour 4 cours réels). Les sélections
+   enregistrées avant cette date désignaient d'autres chapitres ; changer la clé les écarte
+   proprement au lieu de les laisser pointer en silence vers le mauvais chapitre. */
+const CHAPTERS_KEY = "yumerty_chapters_v2";
 const SESSION_KEY = "yumerty_active_session_v1";
 
 /* ----------- State ----------- */
