@@ -333,11 +333,19 @@ function countMistakesForBanks(bankKeys) {
 /* ----------- Chapter selection ----------- */
 
 /* Chapters declared for a bank, or null when the bank isn't tagged yet. */
+/* Une question peut relever de DEUX chapitres : quand une notion est enseignée dans deux cours
+   et qu'aucun ne la porte seul, elle est rangée dans les deux plutôt qu'arbitrée au hasard.
+   Le champ `c` accepte donc un nombre (cas courant) ou un tableau de nombres. */
+function chapitresDe(q) {
+  if (Array.isArray(q.c)) return q.c;
+  return q.c ? [q.c] : [];
+}
+
 function chaptersOf(bank) {
   const defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[bank]) || null;
   if (!defs || !defs.length) return null;
   const counts = {};
-  (QUESTIONS[bank] || []).forEach(q => { if (q.c) counts[q.c] = (counts[q.c] || 0) + 1; });
+  (QUESTIONS[bank] || []).forEach(q => chapitresDe(q).forEach(id => { counts[id] = (counts[id] || 0) + 1; }));
   const list = defs.map(ch => ({ id: ch.id, nom: ch.nom, count: counts[ch.id] || 0 }))
                    .filter(ch => ch.count > 0);
   return list.length ? list : null;
@@ -360,7 +368,10 @@ function chapterPool(bank) {
   const sel = getChapterSelection(bank);
   if (!sel.length || !chaptersOf(bank)) return null;
   const set = new Set();
-  (QUESTIONS[bank] || []).forEach((q, i) => { if (sel.indexOf(q.c) !== -1) set.add(i); });
+  (QUESTIONS[bank] || []).forEach((q, i) => {
+    // une question à deux chapitres apparaît dès que l'un des deux est coché
+    if (chapitresDe(q).some(id => sel.indexOf(id) !== -1)) set.add(i);
+  });
   return set.size ? set : null;
 }
 
@@ -830,9 +841,13 @@ function renderQuestion() {
   const chapEl = $("#question-chapter");
   if (chapEl) {
     const defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[state.mode]) || null;
-    const ch = defs && q.c ? defs.filter(d => d.id === q.c)[0] : null;
-    chapEl.hidden = !ch;
-    if (ch) chapEl.textContent = "Chapitre " + ch.id + " · " + ch.nom;
+    const ids = chapitresDe(q);
+    const chs = defs ? ids.map(id => defs.filter(d => d.id === id)[0]).filter(Boolean) : [];
+    chapEl.hidden = !chs.length;
+    if (chs.length) {
+      chapEl.textContent = (chs.length > 1 ? "Chapitres " : "Chapitre ")
+        + chs.map(c => c.id + " · " + c.nom).join("  —  ");
+    }
   }
 
   const optsEl = $("#options");
