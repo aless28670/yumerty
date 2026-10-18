@@ -184784,29 +184784,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Un patient avec une lésion du nerf radial conserve néanmoins une supination active. Quel muscle suppléé cette fonction ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Biceps brachial",
-     "correct": true,
-     "j": "En cas de lésion du nerf radial, la supination reste possible grâce au biceps brachial (innervé par le musculo-cutané, non lésé)."
-    },
-    {
-     "t": "Supinateur",
-     "j": "Innervé par le nerf radial, donc paralysé en cas de lésion radiale, ne peut pas suppléer."
-    },
-    {
-     "t": "Brachio-radial",
-     "j": "Innervé par le radial également, paralysé en cas de lésion radiale."
-    },
-    {
-     "t": "Rond pronateur",
-     "j": "Muscle pronateur, antagoniste de la supination, ne peut pas la suppléer."
-    }
-   ]
-  },
+  {"q":"Un patient avec une lésion du nerf radial conserve néanmoins une supination active. Quel muscle suppléé cette fonction ?","c":[4,6],"options":[{"t":"Biceps brachial","correct":true,"j":"En cas de lésion du nerf radial, la supination reste possible grâce au biceps brachial (innervé par le musculo-cutané, non lésé)."},{"t":"Supinateur","j":"Innervé par le nerf radial, donc paralysé en cas de lésion radiale, ne peut pas suppléer."},{"t":"Brachio-radial","j":"Innervé par le radial également, paralysé en cas de lésion radiale."},{"t":"Rond pronateur","j":"Muscle pronateur, antagoniste de la supination, ne peut pas la suppléer."}]},
   {
    "q": "Une chirurgienne de 33 ans souffre d'un syndrome du canal carpien. Quelle structure traverse ce canal ?",
    "c": 5,
@@ -185888,29 +185866,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel élément anatomique sépare le radius de la tête de l'ulna au niveau du poignet ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Disque articulaire triangulaire",
-     "correct": true,
-     "j": "Le disque articulaire (fibrocartilage triangulaire) sépare la tête de l'ulna du carpe et complète la cavité radio-carpienne ; l'ulna ne s'articule pas directement avec les os du carpe."
-    },
-    {
-     "t": "Membrane interosseuse antébrachiale",
-     "j": "Tendue entre les diaphyses du radius et de l'ulna, elle solidarise les deux os mais n'intervient pas au niveau du poignet."
-    },
-    {
-     "t": "Ligament annulaire radial",
-     "j": "Situé au coude, il entoure la tête radiale dans l'articulation radio-ulnaire proximale, pas au poignet."
-    },
-    {
-     "t": "Capsule articulaire radio-carpienne",
-     "j": "Manchon fibreux englobant l'articulation, elle ne s'interpose pas spécifiquement entre la tête ulnaire et le carpe."
-    }
-   ]
-  },
+  {"q":"Quel élément anatomique sépare la tête de l'ulna du carpe au niveau du poignet ?","c":5,"options":[{"t":"Disque articulaire triangulaire","correct":true,"j":"Le disque articulaire (fibrocartilage triangulaire) sépare la tête de l'ulna du carpe et complète la cavité radio-carpienne ; l'ulna ne s'articule pas directement avec les os du carpe."},{"t":"Membrane interosseuse antébrachiale","j":"Tendue entre les diaphyses du radius et de l'ulna, elle solidarise les deux os mais n'intervient pas au niveau du poignet."},{"t":"Ligament annulaire radial","j":"Situé au coude, il entoure la tête radiale dans l'articulation radio-ulnaire proximale, pas au poignet."},{"t":"Capsule articulaire radio-carpienne","j":"Manchon fibreux englobant l'articulation, elle ne s'interpose pas spécifiquement entre la tête ulnaire et le carpe."}]},
   {
    "q": "Un cours mentionne les trois fonctions de la membrane interosseuse antébrachiale. Laquelle des suivantes n'en fait PAS partie ?",
    "c": 2,
@@ -186302,29 +186258,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Un étudiant doit identifier l'insertion latérale du rétinaculum des fléchisseurs au poignet. Quels os ?",
-   "c": 5,
-   "options": [
-    {
-     "t": "Scaphoïde et trapèze",
-     "correct": true,
-     "j": "Le rétinaculum des fléchisseurs s'insère latéralement sur le scaphoïde et le trapèze, médialement sur le pisiforme et l'hamulus de l'hamatum."
-    },
-    {
-     "t": "Pisiforme et hamulus de l'hamatum",
-     "j": "Insertion médiale du rétinaculum, pas latérale."
-    },
-    {
-     "t": "Capitatum et trapézoïde",
-     "j": "Os centraux de la rangée distale, pas insertions principales du rétinaculum."
-    },
-    {
-     "t": "Lunatum et triquétrum",
-     "j": "Os de la rangée proximale, pas points d'insertion du rétinaculum des fléchisseurs."
-    }
-   ]
-  },
+  {"q":"Un étudiant doit identifier l'insertion latérale du rétinaculum des fléchisseurs au poignet. Quels os ?","c":[5,6],"options":[{"t":"Scaphoïde et trapèze","correct":true,"j":"Le rétinaculum des fléchisseurs s'insère latéralement sur le scaphoïde et le trapèze, médialement sur le pisiforme et l'hamulus de l'hamatum."},{"t":"Pisiforme et hamulus de l'hamatum","j":"Insertion médiale du rétinaculum, pas latérale."},{"t":"Capitatum et trapézoïde","j":"Os centraux de la rangée distale, pas insertions principales du rétinaculum."},{"t":"Lunatum et triquétrum","j":"Os de la rangée proximale, pas points d'insertion du rétinaculum des fléchisseurs."}]},
   {
    "q": "Un patient avec un canal carpien sévère présente une atrophie thénarienne. Quel muscle thénarien conserve son innervation (ulnaire) ?",
    "c": 7,
@@ -187268,29 +187202,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Parmi les muscles suivants, lequel NE s'insère PAS sur le tendon du muscle extenseur commun des doigts ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Les lombricaux",
-     "j": "Ils rejoignent l'appareil extenseur (dossière des interosseux)."
-    },
-    {
-     "t": "Les interosseux palmaires",
-     "j": "Ils participent à la dossière de l'appareil extenseur."
-    },
-    {
-     "t": "Le muscle extenseur de l'index",
-     "j": "Il rejoint l'appareil extenseur de l'index."
-    },
-    {
-     "t": "Le muscle long extenseur du pouce",
-     "correct": true,
-     "j": "Exact : il se termine sur la phalange distale du POUCE, pas sur l'appareil extenseur des doigts."
-    }
-   ]
-  },
+  {"q":"Parmi les muscles suivants, lequel NE s'insère PAS sur le tendon du muscle extenseur commun des doigts ?","c":[6,7],"options":[{"t":"Les lombricaux","j":"Ils rejoignent l'appareil extenseur (dossière des interosseux)."},{"t":"Les interosseux palmaires","j":"Ils participent à la dossière de l'appareil extenseur."},{"t":"Le muscle extenseur de l'index","j":"Il rejoint l'appareil extenseur de l'index."},{"t":"Le muscle long extenseur du pouce","correct":true,"j":"Exact : il se termine sur la phalange distale du POUCE, pas sur l'appareil extenseur des doigts."}]},
   {
    "q": "Quel est l'os le plus latéral de la rangée proximale du carpe ?",
    "c": 5,
@@ -187360,29 +187272,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lequel de ces muscles peut participer à la flexion du coude ?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Anconé",
-     "j": "L'anconé est extenseur du coude et ne participe pas à sa flexion."
-    },
-    {
-     "t": "Long palmaire",
-     "correct": true,
-     "j": "Exact : naissant de l'épicondyle médial, il croise le coude et participe (faiblement) à sa flexion."
-    },
-    {
-     "t": "Coraco-brachial",
-     "j": "Il fléchit l'épaule (humérus), ne croise pas le coude et ne le fléchit pas."
-    },
-    {
-     "t": "Extenseur ulnaire du carpe",
-     "j": "Muscle postérieur de l'avant-bras, il étend/adducte le poignet et n'agit pas sur le coude."
-    }
-   ]
-  },
+  {"q":"Lequel de ces muscles peut participer à la flexion du coude ?","c":6,"options":[{"t":"Anconé","j":"L'anconé est extenseur du coude et ne participe pas à sa flexion."},{"t":"Long palmaire","correct":true,"j":"Exact : naissant de l'épicondyle médial, il croise le coude et participe (faiblement) à sa flexion."},{"t":"Coraco-brachial","j":"Il fléchit l'épaule (humérus), ne croise pas le coude et ne le fléchit pas."},{"t":"Extenseur ulnaire du carpe","j":"Muscle postérieur de l'avant-bras, il étend/adducte le poignet et n'agit pas sur le coude."}]},
   {
    "q": "Indiquez l'association CORRECTE entre muscle et action :",
    "c": 4,
@@ -240851,44 +240741,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Indiquez la réponse correcte concernant les objectifs du traitement d'une dysfonction en ERS sur le rachis dorsal:",
-   "c": 2,
-   "options": [
-    {
-     "t": "Mobiliser globalement et de façon non spécifique l'ensemble du groupe vertébral dorsal.",
-     "j": "Faux : une ERS est une dysfonction mono-segmentaire de type II (2e loi de Fryette). Une mobilisation globale non spécifique du groupe ne lève pas la restriction d'un segment précis bloqué en extension; elle vise un trouble de groupe (type I), pas une ERS."
-    },
-    {
-     "t": "Corriger de manière spécifique la dysfonction qui se trouve en désimbrication.",
-     "correct": true,
-     "j": "Correct : une dysfonction ERS (Extension-Rotation-Sidebending, type II de Fryette) correspond à une facette articulaire en désimbrication (ouverte) du côté opposé, bloquée en extension. Le but est de corriger spécifiquement ce segment pour lever la restriction de flexion et restaurer la fermeture facettaire."
-    },
-    {
-     "t": "Rétablir l'équilibre tonique et dynamique de la zone.",
-     "j": "Faux : c'est un objectif global et non spécifique. Une ERS, dysfonction mono-segmentaire de type II, requiert une correction ciblée du segment, pas seulement un rééquilibrage tonique régional."
-    }
-   ]
-  },
-  {
-   "q": "Indiquez quelle structure limite l'extension vertébrale dorsale:",
-   "c": 1,
-   "options": [
-    {
-     "t": "Ligament vertébral commun antérieur.",
-     "j": "Faux : le ligament longitudinal (vertébral commun) antérieur est mis en tension lors de l'extension, donc il limite l'extension sur le plan ligamentaire, mais ici la limite anatomique prédominante au rachis dorsal est osseuse."
-    },
-    {
-     "t": "Ligament jaune.",
-     "j": "Faux : le ligament jaune unit les lames vertébrales et se met en tension lors de la flexion ; il limite la flexion, pas l'extension."
-    },
-    {
-     "t": "Choc osseux entre les côtes.",
-     "correct": true,
-     "j": "Correct : au rachis dorsal, l'extension est limitée par le contact osseux (apophyses articulaires, épineuses) et, par l'intermédiaire des articulations costo-vertébrales, par le rapprochement/choc des côtes. Cette butée osseuse est le frein spécifique de l'étage dorsal, distinguant ce niveau du rachis lombaire."
-    }
-   ]
-  },
+  {"q":"Indiquez la réponse correcte concernant les objectifs du traitement d'une dysfonction en ERS sur le rachis dorsal:","c":2,"options":[{"t":"Mobiliser globalement et de façon non spécifique l'ensemble du groupe vertébral dorsal.","j":"Faux : une ERS est une dysfonction mono-segmentaire de type II (2e loi de Fryette). Une mobilisation globale non spécifique du groupe ne lève pas la restriction d'un segment précis bloqué en extension; elle vise un trouble de groupe (type I), pas une ERS."},{"t":"Corriger de manière spécifique la dysfonction qui se trouve en désimbrication.","j":"Inverse : C. Dorsal p.47 décrit l'ERS comme une vertèbre en EXTENSION, donc en imbrication. C'est la FRS qui est en désimbrication ; le traitement de l'ERS consiste justement à désimbriquer (p.48)."},{"t":"Rétablir l'équilibre tonique et dynamique de la zone.","correct":true,"j":"C. Dorsal p.48 : le traitement d'une ERS associe HVLA en flexion « pour décoapter et désimbriquer », techniques articulatoires et énergie musculaire, qui « augmente la mobilité articulaire et équilibre le tonus de la musculature »."}]},
+  {"q":"Indiquez quelle structure limite l'extension vertébrale dorsale:","c":[1,2],"options":[{"t":"Ligament vertébral commun antérieur.","j":"Faux : le ligament longitudinal (vertébral commun) antérieur est mis en tension lors de l'extension, donc il limite l'extension sur le plan ligamentaire, mais ici la limite anatomique prédominante au rachis dorsal est osseuse."},{"t":"Ligament jaune.","j":"Faux : le ligament jaune unit les lames vertébrales et se met en tension lors de la flexion ; il limite la flexion, pas l'extension."},{"t":"Choc osseux entre les côtes.","correct":true,"j":"Correct : au rachis dorsal, l'extension est limitée par le contact osseux (apophyses articulaires, épineuses) et, par l'intermédiaire des articulations costo-vertébrales, par le rapprochement/choc des côtes. Cette butée osseuse est le frein spécifique de l'étage dorsal, distinguant ce niveau du rachis lombaire."}]},
   {
    "q": "Délimitez le défilé thoracique:",
    "c": 2,
@@ -241535,25 +241389,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel est le nom de l'espace anatomique indiqué (par la flèche dans l'image)?",
-   "c": 4,
-   "options": [
-    {
-     "t": "Hiatus œsophagien, situé au niveau de T10 dans le pilier droit du diaphragme.",
-     "j": "Faux ici: l'hiatus œsophagien (T10) est un orifice diaphragmatique réel, mais il livre passage à l'œsophage et aux nerfs vagues, et ne correspond pas à la structure désignée."
-    },
-    {
-     "t": "Orifice de la veine cave inférieure, situé au niveau de T8 dans le centre tendineux.",
-     "correct": true,
-     "j": "Exact: l'orifice de la veine cave inférieure (foramen de la veine cave) se situe au niveau de T8, dans le centre tendineux du diaphragme, et livre passage à la VCI et au nerf phrénique droit."
-    },
-    {
-     "t": "Hiatus aortique, situé au niveau de T12 en arrière des piliers du diaphragme.",
-     "j": "Faux ici: l'hiatus aortique (T12) est un orifice diaphragmatique réel, mais postérieur et ostéo-fibreux, livrant passage à l'aorte, au canal thoracique et à la veine azygos; il ne correspond pas à la structure désignée."
-    }
-   ]
-  },
+  {"q":"Parmi les orifices du diaphragme, lequel est creusé dans le centre tendineux ?","c":4,"options":[{"t":"Hiatus œsophagien, situé au niveau de T10 dans le pilier droit du diaphragme.","j":"Faux ici: l'hiatus œsophagien (T10) est un orifice diaphragmatique réel, mais il livre passage à l'œsophage et aux nerfs vagues, et ne correspond pas à la structure désignée."},{"t":"Orifice de la veine cave inférieure, situé au niveau de T8 dans le centre tendineux.","correct":true,"j":"Le foramen de la veine cave inférieure est le seul des trois orifices creusé dans le CENTRE TENDINEUX du diaphragme, au niveau de T8."},{"t":"Hiatus aortique, situé au niveau de T12 en arrière des piliers du diaphragme.","j":"Faux ici: l'hiatus aortique (T12) est un orifice diaphragmatique réel, mais postérieur et ostéo-fibreux, livrant passage à l'aorte, au canal thoracique et à la veine azygos; il ne correspond pas à la structure désignée."}]},
   {
    "q": "Quel muscle traitons-nous directement avec la technique de glissement longitudinal?",
    "c": 3,
@@ -241725,25 +241561,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quel est le sommet commun des triangles supérieur et inférieur dans les polygones de force ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "D4.",
-     "j": "Faux : D4 est un pivot antéro-postérieur (charnière cervico-dorsale) dans le modèle de Littlejohn, mais il n'est pas le sommet commun des triangles de force."
-    },
-    {
-     "t": "D9.",
-     "correct": true,
-     "j": "Correct : dans les polygones de force de Littlejohn, D9 (le pivot postérieur central) constitue le sommet commun aux triangles de force supérieur et inférieur ; c'est le point de croisement des lignes de gravité."
-    },
-    {
-     "t": "L3.",
-     "j": "Faux : L3 est un pivot ostéopathique (pivot lombaire, centre du polygone de sustentation) mais ne représente pas le sommet commun des deux triangles de force, rôle dévolu à D9."
-    }
-   ]
-  },
+  {"q":"Quel est le sommet commun des triangles supérieur et inférieur dans les polygones de force ?","c":1,"options":[{"t":"D4.","correct":true,"j":"INTRO p.37 : « Ils forment un triangle supérieur et un autre triangle inférieur, avec D4 comme sommet commun »."},{"t":"D9.","j":"D9 est le pivot de la marche (INTRO p.40, liste des 9 pivots ligamentaires), pas le sommet commun des deux triangles de force."},{"t":"L3.","j":"Faux : L3 est un pivot ostéopathique (pivot lombaire, centre du polygone de sustentation) mais ne représente pas le sommet commun des deux triangles de force, rôle dévolu à D9."}]},
   {
    "q": "Selon Littlejohn, les pivots ostéopathiques sont :",
    "c": 1,
@@ -241763,25 +241581,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "En ce qui concerne la ligne PA :",
-   "c": 1,
-   "options": [
-    {
-     "t": "Son origine se trouve dans la partie antérieure du foramen magnum et son insertion dans le coccyx.",
-     "j": "Description anatomique d'un trajet osseux, qui ne correspond pas à la définition de la ligne PA : celle-ci est une ligne de référence gravitaire, pas une structure reliant le foramen magnum au coccyx."
-    },
-    {
-     "t": "Elle provient de la partie postérieure du foramen magnum et s'insère dans les deux hanches.",
-     "j": "Fausse description : la ligne PA n'est pas un trajet reliant le foramen magnum aux hanches mais une ligne verticale de référence posturale."
-    },
-    {
-     "t": "C'est la ligne verticale de la gravité.",
-     "correct": true,
-     "j": "La ligne PA (postéro-antérieure) est la ligne verticale de référence correspondant à l'axe de gravité utilisé pour l'analyse posturale en ostéopathie structurelle."
-    }
-   ]
-  },
+  {"q":"En ce qui concerne la ligne PA :","c":1,"options":[{"t":"Son origine se trouve dans la partie antérieure du foramen magnum et son insertion dans le coccyx.","j":"C'est le bord POSTÉRIEUR du trou occipital qui donne naissance à la ligne PA (INTRO p.35), pas sa partie antérieure."},{"t":"Elle provient de la partie postérieure du foramen magnum et s'insère dans les deux hanches.","correct":true,"j":"INTRO p.35 : « LIGNE POSTÉRO-ANTÉRIEURE — trou occipital, bord postérieur ; apophyses transverses C3-C6 ; elles se croisent devant le corps vertébral de D4 ; bord antérieur de L2-L3 ; articulation coxo-fémorale ; 2e cunéiforme »."},{"t":"C'est la ligne verticale de la gravité.","j":"INTRO p.36 traite séparément la « ligne du centre de gravité » : ce n'est pas la ligne PA."}]},
   {
    "q": "Une dysfonction somatique en L4 affecte:",
    "c": 1,
@@ -245240,25 +245040,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, dans une subluxation costale antéro-inférieure, comment se comportent les espaces intercostaux à la palpation statique ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "Espace intercostal inférieur augmenté et espace supérieur diminué",
-     "correct": true,
-     "j": "Juste : dans la subluxation antéro-inférieure la côte ressort en arrière, l'espace inférieur est augmenté et le supérieur diminué."
-    },
-    {
-     "t": "Espace intercostal inférieur diminué et espace supérieur augmenté",
-     "j": "Faux : ce schéma (inférieur diminué, supérieur augmenté) correspond à la subluxation postéro-supérieure, pas à l'antéro-inférieure."
-    },
-    {
-     "t": "Les deux espaces intercostaux sont augmentés symétriquement",
-     "j": "Faux : le cours décrit une asymétrie entre espaces supérieur et inférieur, jamais une augmentation symétrique des deux."
-    }
-   ]
-  },
+  {"q":"Selon le cours, dans une subluxation costale antéro-inférieure, comment se comportent les espaces intercostaux à la palpation statique ?","c":2,"options":[{"t":"Espace intercostal inférieur augmenté et espace supérieur diminué","j":"C'est le schéma inverse, celui de la subluxation postéro-supérieure. Pour l'antéro-inférieure, C. Dorsal p.37 donne l'espace inférieur diminué et le supérieur augmenté."},{"t":"Espace intercostal inférieur diminué et espace supérieur augmenté","correct":true,"j":"C. Dorsal p.37 : « Subluxation antéro-inférieure — palpation statique : la côte ressort en avant et apparaît cachée en arrière ; espace intercostal inférieur : diminué ; espace intercostal supérieur : augmenté »."},{"t":"Les deux espaces intercostaux sont augmentés symétriquement","j":"Faux : le cours décrit une asymétrie entre espaces supérieur et inférieur, jamais une augmentation symétrique des deux."}]},
   {
    "q": "Selon le cours, les piliers du diaphragme se caractérisent comme étant :",
    "c": 4,
@@ -249840,25 +249622,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Les sécrétions intrathoraciques proximales sont associées à :",
-   "c": 4,
-   "options": [
-    {
-     "t": "a) Trouble ventilatoire obstructif de type I",
-     "correct": true,
-     "j": "Les sécrétions proximales (grosses voies aériennes centrales) correspondent au trouble ventilatoire obstructif de type I, accessible aux techniques à haut débit."
-    },
-    {
-     "t": "b) Trouble ventilatoire obstructif de type II",
-     "j": "Le type II concerne les sécrétions distales/périphériques, drainées par des techniques à bas débit, et non les sécrétions proximales."
-    },
-    {
-     "t": "c) Trouble ventilatoire restrictif",
-     "j": "Le trouble restrictif traduit une réduction des volumes pulmonaires, sans rapport avec la localisation proximale des sécrétions."
-    }
-   ]
-  },
+  {"q":"Les sécrétions intrathoraciques proximales sont associées à :","c":6,"options":[{"t":"a) Trouble ventilatoire obstructif de type I","j":"T.6 p.6 : le TVO de type I correspond aux voies respiratoires EXTRAthoraciques (bruits transmis), pas aux voies intrathoraciques proximales."},{"t":"b) Trouble ventilatoire obstructif de type II","correct":true,"j":"T.6 p.6, arbre de décision de Postiaux : les voies respiratoires intrathoraciques PROXIMALES définissent le TVO de type II, que l'on traite par techniques expiratoires forcées."},{"t":"c) Trouble ventilatoire restrictif","j":"Le trouble restrictif traduit une réduction des volumes pulmonaires, sans rapport avec la localisation proximale des sécrétions."}]},
   {
    "q": "Chez un patient bronchorrhéique et coopérant, la technique nécessitant le plus grand contrôle ventilatoire est :",
    "c": 6,
@@ -249935,25 +249699,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Dans un trouble ventilatoire obstructif de type I, on privilégie :",
-   "c": 4,
-   "options": [
-    {
-     "t": "a) Les techniques expiratoires lentes",
-     "correct": true,
-     "j": "Dans le trouble obstructif, l'obstruction bronchique impose des techniques expiratoires lentes (type ELPR, ELTGOL, drainage autogène) qui évitent le collapsus bronchique précoce et favorisent le désencombrement sans piégeage aérien."
-    },
-    {
-     "t": "b) Les techniques inspiratoires forcées",
-     "j": "Les techniques inspiratoires forcées relèvent plutôt des troubles restrictifs (ré-expansion) et ne traitent pas l'obstruction expiratoire ni le désencombrement."
-    },
-    {
-     "t": "c) Les expansions thoraciques rapides",
-     "j": "Les expansions thoraciques rapides ciblent les pertes de volume (restriction/atélectasie) et risquent d'aggraver le collapsus dynamique des voies aériennes en cas d'obstruction."
-    }
-   ]
-  },
+  {"q":"Dans un trouble ventilatoire obstructif de type I, on privilégie :","c":6,"options":[{"t":"a) Les techniques expiratoires lentes","j":"T.6 p.5 : les techniques expiratoires LENTES relèvent du TVO de type III (ELPr, ELTGOL, drainage autogène), pas du type I."},{"t":"b) Les techniques inspiratoires forcées","correct":true,"j":"T.6 p.5 : « CLASSEMENT DES TECHNIQUES — TVO TYPE I : INSPIRATOIRES FORCÉES ». L'arbre de Postiaux (p.6) y range la DRR, désobstruction rhinopharyngée rétrograde."},{"t":"c) Les expansions thoraciques rapides","j":"Les expansions thoraciques rapides ciblent les pertes de volume (restriction/atélectasie) et risquent d'aggraver le collapsus dynamique des voies aériennes en cas d'obstruction."}]},
   {
    "q": "L'ELTGOL est indiquée pour :",
    "c": 6,
@@ -249992,25 +249738,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La toux est considérée comme inefficace lorsque le débit de pointe de toux est :",
-   "c": 3,
-   "options": [
-    {
-     "t": "a) <460 L/min",
-     "j": "460 L/min n'est pas le seuil reconnu ; en dessous de ce chiffre la toux reste généralement efficace chez l'adulte."
-    },
-    {
-     "t": "b) <360 L/min",
-     "correct": true,
-     "j": "Un débit de pointe de toux (DEP toux / PCEF) inférieur à 360 L/min signe une toux à risque d'inefficacité, seuil en dessous duquel l'aide au désencombrement devient nécessaire ; sous 270 L/min la toux est franchement inefficace."
-    },
-    {
-     "t": "c) <250 L/min dans tous les cas",
-     "j": "La mention « dans tous les cas » est inexacte et 250 L/min correspond à un seuil critique (toux très inefficace) ; le seuil d'alerte d'inefficacité débutante est 360 L/min."
-    }
-   ]
-  },
+  {"q":"La toux est considérée comme inefficace lorsque le débit de pointe de toux est :","c":3,"options":[{"t":"a) <460 L/min","j":"T.3 p.21 : au-dessus de 360 L/min la toux est au contraire jugée EFFICACE."},{"t":"b) <160 L/min","correct":true,"j":"T.3 p.21 : « pic flux de toux > 360 L/min : toux efficace ; < 270 L/min : risque de toux non efficace ; < 160 L/min : toux non efficace ». Le seuil de l'inefficacité est donc 160."},{"t":"c) <250 L/min dans tous les cas","j":"Proche du seuil de RISQUE (270 L/min selon T.3 p.21), mais l'inefficacité avérée est fixée à 160 L/min."}]},
   {
    "q": "La pression expiratoire maximale évalue principalement :",
    "c": 3,
@@ -250030,44 +249758,8 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Chez un patient atteint de BPCO stable, le traitement bénéficiant du plus haut niveau de preuve est (1 A) :",
-   "c": 3,
-   "options": [
-    {
-     "t": "a) Uniquement les techniques d'hygiène bronchique",
-     "j": "Les techniques d'hygiène bronchique seules ont un niveau de preuve moindre dans la BPCO stable et ne constituent pas la pierre angulaire de la réhabilitation."
-    },
-    {
-     "t": "b) L'exercice thérapeutique associé à l'entraînement des muscles respiratoires",
-     "correct": true,
-     "j": "La réhabilitation respiratoire fondée sur le réentraînement à l'effort (exercice thérapeutique), associé à l'entraînement des muscles respiratoires, est l'intervention de plus haut niveau de preuve (grade 1A) dans la BPCO stable."
-    },
-    {
-     "t": "c) La respiration diaphragmatique isolée",
-     "j": "La respiration diaphragmatique isolée a un faible niveau de preuve et peut même majorer le travail respiratoire chez certains BPCO ; elle n'atteint pas le grade 1A."
-    }
-   ]
-  },
-  {
-   "q": "Le lavage nasal est réalisé préférentiellement :",
-   "c": 6,
-   "options": [
-    {
-     "t": "a) En décubitus dorsal",
-     "j": "Le décubitus dorsal expose au risque de passage du sérum vers le pharynx et les voies aériennes inférieures avec fausse route ; ce n'est pas la position recommandée."
-    },
-    {
-     "t": "b) En position assise",
-     "j": "Faux : la position assise n'est pas la position de référence du lavage de nez du nourrisson ; le décubitus latéral, tête tournée, permet un écoulement contrôlé d'une narine à l'autre."
-    },
-    {
-     "t": "c) En décubitus latéral",
-     "correct": true,
-     "j": "Le lavage nasal (notamment chez le nourrisson) se réalise en décubitus latéral, tête sur le côté, pour faire passer le sérum d'une narine à l'autre et évacuer les sécrétions sans risque de fausse route."
-    }
-   ]
-  },
+  {"q":"Chez un patient atteint de BPCO stable, le traitement bénéficiant du plus haut niveau de preuve est (1 A) :","c":3,"options":[{"t":"a) Uniquement les techniques d'hygiène bronchique","j":"Les techniques d'hygiène bronchique seules ont un niveau de preuve moindre dans la BPCO stable et ne constituent pas la pierre angulaire de la réhabilitation."},{"t":"b) L'exercice physique associé à l'entraînement de la musculature périphérique","correct":true,"j":"T.3 p.41 : « exercice physique… 1A ; entraînement de la musculature périphérique… 1A ; entraînement de la musculature respiratoire… 1B ». Seuls les deux premiers atteignent le niveau 1A."},{"t":"c) La respiration diaphragmatique isolée","j":"La respiration diaphragmatique isolée a un faible niveau de preuve et peut même majorer le travail respiratoire chez certains BPCO ; elle n'atteint pas le grade 1A."}]},
+  {"q":"Le lavage nasal est réalisé préférentiellement :","c":6,"options":[{"t":"a) En décubitus dorsal","j":"Le décubitus dorsal expose au risque de passage du sérum vers le pharynx et les voies aériennes inférieures avec fausse route ; ce n'est pas la position recommandée."},{"t":"b) En position assise","correct":true,"j":"T.6 p.29 : « 3.2 LAVAGE NASALE — Assis ou sédestation. Sérum physiologique. Seringue ou monodose : 5 à 10 ml »."},{"t":"c) En décubitus latéral","j":"T.6 p.29 ne décrit pas le décubitus latéral : le lavage nasal se fait assis ou en sédestation."}]},
   {
    "q": "Laquelle des situations suivantes n'est PAS une contre-indication absolue en kinésithérapie respiratoire ?",
    "c": 3,
@@ -250144,25 +249836,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Homme de 68 ans atteint de BPCO GOLD III, stable, présentant une dyspnée mMRC 3 et des signes d'hyperinflation dynamique. Quel est l'objectif kinésithérapique prioritaire ?",
-   "c": 3,
-   "options": [
-    {
-     "t": "a) Améliorer l'efficacité diaphragmatique par un contrôle ventilatoire à expiration prolongée",
-     "correct": true,
-     "j": "Dans la BPCO avec hyperinflation, le diaphragme est aplati et inefficace ; l'objectif prioritaire est d'améliorer son efficacité par un contrôle ventilatoire à frein expiratoire et expiration prolongée, qui réduit le piégeage aérien et la dyspnée."
-    },
-    {
-     "t": "b) Optimiser le désencombrement bronchique par techniques expiratoires lentes répétées",
-     "j": "Faux : en BPCO stable peu encombrée, le désencombrement n'est pas l'objectif premier ; il ne corrige pas l'hyperinflation dynamique, principal mécanisme de la dyspnée ici."
-    },
-    {
-     "t": "c) Renforcer les muscles inspiratoires accessoires pour augmenter l'amplitude thoracique",
-     "j": "Faux : solliciter davantage les muscles accessoires majore le coût ventilatoire et l'hyperinflation ; on cherche au contraire à restaurer la course diaphragmatique, pas à recruter les accessoires."
-    }
-   ]
-  },
+  {"q":"Homme de 68 ans atteint de BPCO GOLD III, stable, présentant une dyspnée mMRC 3 et des signes d'hyperinflation dynamique. Quel est l'objectif kinésithérapique prioritaire ?","c":[3,6],"options":[{"t":"a) Améliorer l'efficacité diaphragmatique par un contrôle ventilatoire à expiration prolongée","correct":true,"j":"Dans la BPCO avec hyperinflation, le diaphragme est aplati et inefficace ; l'objectif prioritaire est d'améliorer son efficacité par un contrôle ventilatoire à frein expiratoire et expiration prolongée, qui réduit le piégeage aérien et la dyspnée."},{"t":"b) Optimiser le désencombrement bronchique par techniques expiratoires lentes répétées","j":"Faux : en BPCO stable peu encombrée, le désencombrement n'est pas l'objectif premier ; il ne corrige pas l'hyperinflation dynamique, principal mécanisme de la dyspnée ici."},{"t":"c) Renforcer les muscles inspiratoires accessoires pour augmenter l'amplitude thoracique","j":"Faux : solliciter davantage les muscles accessoires majore le coût ventilatoire et l'hyperinflation ; on cherche au contraire à restaurer la course diaphragmatique, pas à recruter les accessoires."}]},
   {
    "q": "Patient de 55 ans atteint de bronchectasies, avec expectoration abondante et bonne coopération. Quelle technique permet une hygiène bronchique plus autonome ?",
    "c": 6,
@@ -250201,25 +249875,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Patient hospitalisé pour pneumonie basale droite avec hypoventilation localisée. Quelle position favorise la ventilation de la zone atteinte ?",
-   "c": 2,
-   "options": [
-    {
-     "t": "a) Décubitus latéral gauche",
-     "correct": true,
-     "j": "Pour ventiler une zone pathologique, on place le poumon atteint en position supérieure (\"poumon sain en bas\") : le décubitus latéral gauche met le poumon droit en haut et le rend plus libre de se distendre, favorisant sa ventilation."
-    },
-    {
-     "t": "b) Décubitus latéral droit",
-     "j": "Le décubitus latéral droit met le poumon atteint en position déclive (comprimé), ce qui aggrave son hypoventilation au lieu de la corriger."
-    },
-    {
-     "t": "c) Décubitus dorsal",
-     "j": "Le décubitus dorsal ne crée pas de gradient ventilatoire latéral préférentiel pour la zone basale droite atteinte."
-    }
-   ]
-  },
+  {"q":"Patient hospitalisé pour pneumonie basale droite avec hypoventilation localisée. Quelle position favorise la ventilation de la zone atteinte ?","c":2,"options":[{"t":"a) Décubitus latéral gauche","j":"Le décubitus latéral gauche rend le poumon GAUCHE déclive et donc mieux ventilé (T.2 p.61) : c'est le côté sain que l'on ventilerait, pas la zone atteinte."},{"t":"b) Décubitus latéral droit","correct":true,"j":"T.2 p.61 : « poumon infra-latéral : + ventilation et pression ». Pour ventiler une base droite atteinte, on met donc le côté droit en bas, en décubitus latéral droit."},{"t":"c) Décubitus dorsal","j":"Le décubitus dorsal ne crée pas de gradient ventilatoire latéral préférentiel pour la zone basale droite atteinte."}]},
   {
    "q": "L'oxygénothérapie est indiquée lorsque :",
    "c": 7,
