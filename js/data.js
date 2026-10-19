@@ -10347,25 +10347,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'apparition d'un état d'anxiété est lié à l'évaluation cognitive d'un stimulus comme dangereux ou menaçant. Les personnes ayant un élevé trait d'anxiété:",
-   "c": 3,
-   "options": [
-    {
-     "t": "Perçoivent de façons aussi menaçantes les différentes situations que les personnes avec un trait d'anxiété moins élevé.",
-     "j": "Faux : un trait d'anxiété élevé modifie la perception des menaces, elle n'est pas identique."
-    },
-    {
-     "t": "Perçoivent moins de situations menaçantes que les personnes avec un trait d'anxiété moins élevé.",
-     "j": "Faux : c'est l'inverse, ils perçoivent davantage de situations comme menaçantes."
-    },
-    {
-     "t": "Perçoivent plus de situations menaçantes que les personnes avec un trait d'anxiété élevé.",
-     "correct": true,
-     "j": "Seule réponse dans le bon sens (« plus de situations menaçantes ») : un trait d'anxiété élevé accroît la perception de menace (Spielberger, trait/état) ; comparatif visiblement à lire « moins élevé »."
-    }
-   ]
-  },
+  {"q":"L'apparition d'un état d'anxiété est lié à l'évaluation cognitive d'un stimulus comme dangereux ou menaçant. Les personnes ayant un élevé trait d'anxiété:","c":3,"options":[{"t":"Perçoivent de façons aussi menaçantes les différentes situations que les personnes avec un trait d'anxiété moins élevé.","j":"Faux : un trait d'anxiété élevé modifie la perception des menaces, elle n'est pas identique."},{"t":"Perçoivent moins de situations menaçantes que les personnes avec un trait d'anxiété moins élevé.","j":"Faux : c'est l'inverse, ils perçoivent davantage de situations comme menaçantes."},{"t":"Perçoivent plus de situations menaçantes que les personnes avec un trait d'anxiété faible","correct":true,"j":"Sujet 3 p.84 (Spielberger) : le trait d'anxiété est une disposition stable à interpréter les situations comme menaçantes. Un trait élevé conduit donc à percevoir plus de situations comme menaçantes qu'un trait faible."}]},
   {
    "q": "L'efficacité personnelle perçue se traduit comme:",
    "c": 2,
@@ -10746,25 +10728,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le modèle ABC des émotions (Ellis, 1982), B correspond à :",
-   "c": 3,
-   "options": [
-    {
-     "t": "Conséquence émotionnelle",
-     "j": "C = conséquence émotionnelle (résultat), pas le cœur du modèle."
-    },
-    {
-     "t": "Interprétation",
-     "correct": true,
-     "j": "Correct: B = Beliefs = interprétation/croyances, l'élément central causal du modèle ABC d'Ellis."
-    },
-    {
-     "t": "Situation",
-     "j": "A = situation/événement déclencheur, neutre."
-    }
-   ]
-  },
+  {"q":"Selon le modèle ABC des émotions d'Ellis, B correspond à :","c":3,"options":[{"t":"Conséquence émotionnelle","j":"C = conséquence émotionnelle (résultat), pas le cœur du modèle."},{"t":"Interprétation","correct":true,"j":"Correct: B = Beliefs = interprétation/croyances, l'élément central causal du modèle ABC d'Ellis."},{"t":"Situation","j":"A = situation/événement déclencheur, neutre."}]},
   {
    "q": "Pour annoncer un diagnostic de la douleur chronique à un patient:",
    "c": 6,
@@ -11031,25 +10995,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Talcot Parson introduit le terme \"Rôle de Malade\" en 1951. Une caractéristique de ce rôle social est :",
-   "c": 1,
-   "options": [
-    {
-     "t": "Le droit de respecter les exigences sanitaires",
-     "j": "Non : formulation confuse ; respecter les exigences sanitaires est plutôt une obligation, pas un privilège du rôle."
-    },
-    {
-     "t": "Le droit de ne pas accomplir les obligations habituelles",
-     "correct": true,
-     "j": "Correct : le rôle de malade selon Parsons confère l'exemption des obligations/rôles sociaux habituels."
-    },
-    {
-     "t": "Le droit de signer le document de sortie volontaire de l'hôpital au cas où on n'accepte pas le traitement proposé",
-     "j": "Non : signer une sortie volontaire n'est pas une caractéristique du sick role de Parsons."
-    }
-   ]
-  },
+  {"q":"Selon le modèle de Parsons, une caractéristique du « rôle de malade » est :","c":6,"options":[{"t":"Le droit de respecter les exigences sanitaires","j":"Non : formulation confuse ; respecter les exigences sanitaires est plutôt une obligation, pas un privilège du rôle."},{"t":"Le droit de ne pas accomplir les obligations habituelles","correct":true,"j":"Correct : le rôle de malade selon Parsons confère l'exemption des obligations/rôles sociaux habituels."},{"t":"Le droit de signer le document de sortie volontaire de l'hôpital au cas où on n'accepte pas le traitement proposé","j":"Non : signer une sortie volontaire n'est pas une caractéristique du sick role de Parsons."}]},
   {
    "q": "Selon les études de Hans Selye, toute nouvelle exigence de l'environnement provoque",
    "c": 3,
@@ -11563,25 +11509,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "La stratégie du sandwich est surtout utile pour :",
-   "c": 6,
-   "options": [
-    {
-     "t": "Nier quelque chose",
-     "correct": true,
-     "j": "Correct : la technique du sandwich (positif-refus-positif) sert à refuser/dire non (negar = refuser)."
-    },
-    {
-     "t": "Trouver les comportements pathogènes d'un patient",
-     "j": "Non : sans rapport avec le repérage des comportements pathogènes."
-    },
-    {
-     "t": "Donner une mauvaise nouvelle",
-     "j": "Non : une mauvaise nouvelle se donne avec le protocole Buckman/SPIKES, pas le sandwich."
-    }
-   ]
-  },
+  {"q":"La stratégie du sandwich est surtout utile pour :","c":6,"options":[{"t":"Refuser une demande","correct":true,"j":"Sujet 6 : la technique du sandwich encadre un refus entre deux éléments positifs, ce qui permet de dire non sans rompre la relation."},{"t":"Trouver les comportements pathogènes d'un patient","j":"Non : sans rapport avec le repérage des comportements pathogènes."},{"t":"Donner une mauvaise nouvelle","j":"Non : une mauvaise nouvelle se donne avec le protocole Buckman/SPIKES, pas le sandwich."}]},
   {
    "q": "La perception des symptômes et sensations internes est...",
    "c": 1,
@@ -11696,25 +11624,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Au Moyen-Age, la santé est considérée comme:",
-   "c": 1,
-   "options": [
-    {
-     "t": "Absence de maladie",
-     "correct": true,
-     "j": "Conception prémoderne/ancienne de la santé = absence de maladie ; correspond au Moyen-Âge."
-    },
-    {
-     "t": "Un état complet de bien-être physique, mental et social",
-     "j": "État complet de bien-être = définition OMS 1948, conception moderne."
-    },
-    {
-     "t": "Une ressource physique de la vie quotidienne",
-     "j": "Ressource de la vie quotidienne = conception contemporaine (charte d'Ottawa 1986)."
-    }
-   ]
-  },
+  {"q":"Dans la conception biomédicale traditionnelle, la santé est considérée comme :","c":1,"options":[{"t":"Absence de maladie","correct":true,"j":"Conception prémoderne/ancienne de la santé = absence de maladie ; correspond au Moyen-Âge."},{"t":"Un état complet de bien-être physique, mental et social","j":"État complet de bien-être = définition OMS 1948, conception moderne."},{"t":"Une ressource physique de la vie quotidienne","j":"Ressource de la vie quotidienne = conception contemporaine (charte d'Ottawa 1986)."}]},
   {
    "q": "Pour le modèle Biomédical:",
    "c": 1,
@@ -11791,25 +11701,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "L'instrument d'évaluation de la douleur qui nous apporte plus d'information parmi les suivants est:",
-   "c": 4,
-   "options": [
-    {
-     "t": "Echelle d'évaluation visuelle analogique",
-     "j": "Faux - l'échelle visuelle analogique est unidimensionnelle (intensité seulement)."
-    },
-    {
-     "t": "Journal de douleur",
-     "correct": true,
-     "j": "Correct - le journal de douleur enregistre en temps réel plusieurs dimensions (intensité, moment, contexte), donc le plus d'information."
-    },
-    {
-     "t": "Dessins de douleur",
-     "j": "Faux - le dessin apporte surtout la localisation/distribution."
-    }
-   ]
-  },
+  {"q":"L'instrument d'évaluation de la douleur qui nous apporte plus d'information parmi les suivants est:","c":4,"options":[{"t":"Echelle d'évaluation visuelle analogique","j":"Faux - l'échelle visuelle analogique est unidimensionnelle (intensité seulement)."},{"t":"Journal de douleur","correct":true,"j":"Le journal de douleur recueille l'intensité dans la durée, le contexte, les activités et les traitements, là où une échelle ne donne qu'une valeur ponctuelle. À noter : le Sujet 4 présente ces instruments sans les hiérarchiser explicitement."},{"t":"Dessins de douleur","j":"Faux - le dessin apporte surtout la localisation/distribution."}]},
   {
    "q": "Pour rejeter une demande de façon assertive, la technique du sandwich peut être très utile. Cette technique là consiste à:",
    "c": 6,
@@ -211985,25 +211877,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "À propos des neurones miroirs découverts par Rizzolatti, où sont-ils principalement localisés ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Dans le cortex prémoteur ventral",
-     "correct": true,
-     "j": "Système des neurones miroirs : cortex prémoteur ventral (et lobule pariétal inférieur), déchargeant à l'exécution comme à l'observation d'une action."
-    },
-    {
-     "t": "Dans le cortex moteur primaire M1",
-     "j": "M1 commande l'exécution effective du mouvement, mais ne décharge pas à la simple observation d'une action d'autrui."
-    },
-    {
-     "t": "Dans le cortex préfrontal dorsolatéral",
-     "j": "Le préfrontal dorsolatéral sous-tend la planification et la mémoire de travail, pas la résonance motrice à l'observation."
-    }
-   ]
-  },
+  {"q":"À propos des neurones miroirs, où sont-ils principalement localisés ?","c":1,"options":[{"t":"Dans le cortex prémoteur ventral","correct":true,"j":"T1 p.17 : « un type de cellule cérébrale appelée neurone miroir, situé dans la zone 5 du cortex prémoteur ». La zone 5 du cortex prémoteur désigne précisément sa partie ventrale (aire F5), d'où se déclenche l'activité aussi bien à l'action qu'à son observation."},{"t":"Dans le cortex moteur primaire M1","j":"M1 commande l'exécution effective du mouvement, mais ne décharge pas à la simple observation d'une action d'autrui."},{"t":"Dans le cortex préfrontal dorsolatéral","j":"Le préfrontal dorsolatéral sous-tend la planification et la mémoire de travail, pas la résonance motrice à l'observation."}]},
   {
    "q": "Charles observe Céline boire un verre d'eau. Que se passe-t-il dans son cerveau via le système des neurones miroirs ?",
    "c": 1,
@@ -213372,63 +213246,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Lors d'une approche Bobath chez un patient ataxique, quelle stratégie est privilégiée ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Le travail excentrique pour favoriser le contrôle sélectif",
-     "correct": true,
-     "j": "Le travail excentrique module les schémas totaux et la fixation, favorisant la sélectivité chez l'ataxique."
-    },
-    {
-     "t": "L'élargissement de la base d'appui pour stabiliser",
-     "j": "La large base est une compensation pathologique de l'ataxique, à réduire en traitement, non à imposer."
-    },
-    {
-     "t": "L'accrochage aux supports pour limiter les oscillations",
-     "j": "C'est une stratégie de fixation à éviter en Bobath chez l'ataxique."
-    }
-   ]
-  },
-  {
-   "q": "Chez un patient PARKINSONIEN (hypocinétique), quelle stratégie Bobath est appropriée ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Amplifier l'input sensoriel avec un travail rythme-cadence",
-     "correct": true,
-     "j": "Stratégie hypocinétique : amplifier l'information sensorielle et utiliser rythme et cadence pour relancer l'initiation du mouvement."
-    },
-    {
-     "t": "Stabiliser le tronc en bloquant toute rotation",
-     "j": "Inverse : on PROMEUT les rotations chez le parkinsonien pour défaire la rigidité axiale."
-    },
-    {
-     "t": "Privilégier la vision focale pour stabiliser la marche",
-     "j": "À éviter : la vision focale crée des fixations cervicales et n'aide pas l'initiation."
-    }
-   ]
-  },
-  {
-   "q": "Chez un patient HUNTINGTONIEN (hypercinétique), quelle stratégie est appropriée ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Orienter l'attention vers l'information sensorielle sans contrôler le mouvement",
-     "correct": true,
-     "j": "Stratégie hypercinétique : focaliser sur le sensoriel, sans chercher à arrêter ni contraindre le mouvement choréique."
-    },
-    {
-     "t": "Bloquer mécaniquement les mouvements involontaires par contention",
-     "j": "Inutile et frustrant : on n'arrête pas la chorée par une contrainte mécanique."
-    },
-    {
-     "t": "Imposer de grandes amplitudes pour canaliser le geste",
-     "j": "Inverse : on travaille de petites amplitudes pour viser la stabilité."
-    }
-   ]
-  },
+  {"q":"Lors d'une approche Bobath chez un patient ataxique, quelle stratégie est privilégiée ?","c":3,"options":[{"t":"Le travail excentrique pour favoriser le contrôle sélectif","correct":true,"j":"Le travail excentrique module les schémas totaux et la fixation, favorisant la sélectivité chez l'ataxique."},{"t":"L'élargissement de la base d'appui pour stabiliser","j":"La large base est une compensation pathologique de l'ataxique, à réduire en traitement, non à imposer."},{"t":"L'accrochage aux supports pour limiter les oscillations","j":"C'est une stratégie de fixation à éviter en Bobath chez l'ataxique."}]},
+  {"q":"Chez un patient PARKINSONIEN (hypocinétique), quelle stratégie Bobath est appropriée ?","c":3,"options":[{"t":"Amplifier l'input sensoriel avec un travail rythme-cadence","correct":true,"j":"Stratégie hypocinétique : amplifier l'information sensorielle et utiliser rythme et cadence pour relancer l'initiation du mouvement."},{"t":"Stabiliser le tronc en bloquant toute rotation","j":"Inverse : on PROMEUT les rotations chez le parkinsonien pour défaire la rigidité axiale."},{"t":"Privilégier la vision focale pour stabiliser la marche","j":"À éviter : la vision focale crée des fixations cervicales et n'aide pas l'initiation."}]},
+  {"q":"Chez un patient HUNTINGTONIEN (hypercinétique), quelle stratégie est appropriée ?","c":3,"options":[{"t":"Orienter l'attention vers l'information sensorielle sans contrôler le mouvement","correct":true,"j":"Stratégie hypercinétique : focaliser sur le sensoriel, sans chercher à arrêter ni contraindre le mouvement choréique."},{"t":"Bloquer mécaniquement les mouvements involontaires par contention","j":"Inutile et frustrant : on n'arrête pas la chorée par une contrainte mécanique."},{"t":"Imposer de grandes amplitudes pour canaliser le geste","j":"Inverse : on travaille de petites amplitudes pour viser la stabilité."}]},
   {
    "q": "Le système propio-spinal a quel rôle principal ?",
    "c": 3,
@@ -213467,25 +213287,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "À propos de la stratégie thérapeutique du patient ataxique cérébelleux, que faut-il privilégier ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Maintenir une base d'appui réduite et stable pendant le traitement",
-     "correct": true,
-     "j": "Stratégie Bobath ataxique : base réduite et stable, sans large polygone compensatoire, pour activer le contrôle central."
-    },
-    {
-     "t": "Élargir la base d'appui pour rassurer et sécuriser le patient",
-     "j": "Inverse de l'objectif Bobath : on réduit la base pour activer le contrôle central plutôt que d'installer une compensation."
-    },
-    {
-     "t": "Saturer l'apport visuel pour compenser le déficit postural",
-     "j": "Sature et fixe le regard, ne traite pas le problème central de l'ataxie."
-    }
-   ]
-  },
+  {"q":"À propos de la stratégie thérapeutique du patient ataxique cérébelleux, que faut-il privilégier ?","c":3,"options":[{"t":"Maintenir une base d'appui réduite et stable pendant le traitement","correct":true,"j":"Stratégie Bobath ataxique : base réduite et stable, sans large polygone compensatoire, pour activer le contrôle central."},{"t":"Élargir la base d'appui pour rassurer et sécuriser le patient","j":"Inverse de l'objectif Bobath : on réduit la base pour activer le contrôle central plutôt que d'installer une compensation."},{"t":"Saturer l'apport visuel pour compenser le déficit postural","j":"Sature et fixe le regard, ne traite pas le problème central de l'ataxie."}]},
   {
    "q": "Le motoneurone alpha est principalement modulé en cas de spasticité par :",
    "c": 2,
@@ -213638,25 +213440,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle stratégie Bobath est appropriée chez un patient ataxique pour éviter la \"fixation\" ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Stabilité proximale avant le mouvement distal, sans fixation rigide",
-     "correct": true,
-     "j": "Stratégie : développer la stabilité proximale dynamique servant de base au mouvement distal, au lieu de la fixation rigide compensatrice."
-    },
-    {
-     "t": "Augmenter le poids ajouté aux segments distaux pour amortir le tremblement",
-     "j": "Le lestage distal réduit transitoirement l'oscillation mais renforce une stratégie compensatrice de raideur, sans construire la stabilité proximale active recherchée."
-    },
-    {
-     "t": "Verrouiller les articulations proximales en cocontraction maximale d'emblée",
-     "j": "La cocontraction proximale figée est précisément la fixation à éviter : elle supprime l'ajustement dynamique au profit d'une rigidité compensatrice."
-    }
-   ]
-  },
+  {"q":"Quelle stratégie Bobath est appropriée chez un patient ataxique pour éviter la \"fixation\" ?","c":3,"options":[{"t":"Stabilité proximale avant le mouvement distal, sans fixation rigide","correct":true,"j":"Stratégie : développer la stabilité proximale dynamique servant de base au mouvement distal, au lieu de la fixation rigide compensatrice."},{"t":"Augmenter le poids ajouté aux segments distaux pour amortir le tremblement","j":"Le lestage distal réduit transitoirement l'oscillation mais renforce une stratégie compensatrice de raideur, sans construire la stabilité proximale active recherchée."},{"t":"Verrouiller les articulations proximales en cocontraction maximale d'emblée","j":"La cocontraction proximale figée est précisément la fixation à éviter : elle supprime l'ajustement dynamique au profit d'une rigidité compensatrice."}]},
   {
    "q": "Selon le cours, la composante neuronale spinale de la spasticité comprend :",
    "c": 2,
@@ -213771,25 +213555,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Les muscles antigravitationnels sont caractérisés par :",
-   "c": 1,
-   "options": [
-    {
-     "t": "Une atrophie plus marquée en cas d'inactivité prolongée",
-     "correct": true,
-     "j": "Riches en fibres lentes (type I), les muscles posturaux antigravitaires s'atrophient davantage à l'inactivité."
-    },
-    {
-     "t": "Une prédominance de fibres rapides fatigables de type II",
-     "j": "Faux : ils sont au contraire dominés par les fibres lentes résistantes à la fatigue (type I), adaptées au maintien postural."
-    },
-    {
-     "t": "Une stabilité phénotypique les protégeant de toute transformation",
-     "j": "Faux : ils sont très plastiques et subissent une transformation des fibres lentes vers rapides lors de l'inactivité."
-    }
-   ]
-  },
+  {"q":"Les muscles antigravitationnels sont caractérisés par :","c":[1,4],"options":[{"t":"Une atrophie plus marquée en cas d'inactivité prolongée","correct":true,"j":"Riches en fibres lentes (type I), les muscles posturaux antigravitaires s'atrophient davantage à l'inactivité."},{"t":"Une prédominance de fibres rapides fatigables de type II","j":"Faux : ils sont au contraire dominés par les fibres lentes résistantes à la fatigue (type I), adaptées au maintien postural."},{"t":"Une stabilité phénotypique les protégeant de toute transformation","j":"Faux : ils sont très plastiques et subissent une transformation des fibres lentes vers rapides lors de l'inactivité."}]},
   {
    "q": "Un patient se voit proposer la \"thérapie par contrainte induite\". Quel principe neuroplastique mobilise-t-elle ?",
    "c": 1,
@@ -213904,25 +213670,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Quelle stratégie favorise la stabilité proximale pour un patient présentant un déficit du contrôle postural ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Solliciter la core stability et l'innervation reciproque",
-     "correct": true,
-     "j": "La stabilite proximale dynamique repose sur l'activation des muscles profonds du tronc (core stability) et l'innervation reciproque, permettant un mouvement distal libre sur une base stable."
-    },
-    {
-     "t": "Verrouiller les articulations par co-contraction permanente",
-     "j": "La co-contraction figeante donne une fixation pathologique rigide, opposee a la stabilite dynamique recherchee ; elle bloque le mouvement distal."
-    },
-    {
-     "t": "Solliciter d'abord les muscles superficiels du tronc",
-     "j": "Les muscles superficiels assurent le mouvement et la force ; la base de la stabilite proximale est apportee par les muscles profonds, pas par les superficiels."
-    }
-   ]
-  },
+  {"q":"Quelle stratégie favorise la stabilité proximale pour un patient présentant un déficit du contrôle postural ?","c":[3,4],"options":[{"t":"Solliciter la core stability et l'innervation reciproque","correct":true,"j":"La stabilite proximale dynamique repose sur l'activation des muscles profonds du tronc (core stability) et l'innervation reciproque, permettant un mouvement distal libre sur une base stable."},{"t":"Verrouiller les articulations par co-contraction permanente","j":"La co-contraction figeante donne une fixation pathologique rigide, opposee a la stabilite dynamique recherchee ; elle bloque le mouvement distal."},{"t":"Solliciter d'abord les muscles superficiels du tronc","j":"Les muscles superficiels assurent le mouvement et la force ; la base de la stabilite proximale est apportee par les muscles profonds, pas par les superficiels."}]},
   {
    "q": "Quelle est la spécificité du système nerveux qui le distingue d'un modèle hiérarchique réflexologique classique ?",
    "c": 1,
@@ -216241,25 +215989,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le cours, dans quelle structure du système nerveux central sont situés les neurones miroirs ?",
-   "c": 1,
-   "options": [
-    {
-     "t": "Dans la zone 5 du cortex prémoteur",
-     "correct": true,
-     "j": "Exact : le cours localise le neurone miroir dans la zone 5 du cortex prémoteur."
-    },
-    {
-     "t": "Dans la zone 6 du cortex prémoteur",
-     "j": "Faux : le cours mentionne la zone 5, et non la zone 6."
-    },
-    {
-     "t": "Dans la zone 4 du cortex moteur primaire",
-     "j": "Faux : il s'agit du cortex prémoteur (zone 5), pas du cortex moteur primaire (aire 4)."
-    }
-   ]
-  },
+  {"q":"Selon le cours, dans quelle structure du système nerveux central sont situés les neurones miroirs ?","c":1,"options":[{"t":"Dans la zone 5 du cortex prémoteur","correct":true,"j":"T1 p.17, mot pour mot : « un type de cellule cérébrale appelée neurone miroir situé dans la zone 5 du cortex prémoteur se déclenche non seulement lors d'une action, mais aussi lorsque le singe regarde un autre faire cette action »."},{"t":"Dans la zone 6 du cortex prémoteur","j":"Faux : le cours mentionne la zone 5, et non la zone 6."},{"t":"Dans la zone 4 du cortex moteur primaire","j":"Faux : il s'agit du cortex prémoteur (zone 5), pas du cortex moteur primaire (aire 4)."}]},
   {
    "q": "Selon le cours, quelle proportion des fibres du faisceau corticospinal latéral provient des aires motrices ?",
    "c": 3,
