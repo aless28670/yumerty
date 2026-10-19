@@ -147023,25 +147023,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon le système de catégorisation des hypothèses, à quoi correspond l'hypothèse de prévision ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Expliquer au patient, sous forme d'hypothèse, la durée probable du processus de guérison",
-     "correct": true,
-     "j": "Le cours définit l'hypothèse de prévision comme l'estimation, expliquée au patient, de la durée du processus de guérison, sans jamais promettre 100 %."
-    },
-    {
-     "t": "Identifier les précautions et contre-indications à l'examen et au traitement",
-     "j": "Cela correspond à l'hypothèse de précautions et contre-indications, une catégorie distincte."
-    },
-    {
-     "t": "Déterminer les mécanismes pathobiologiques comme l'inflammation ou la nociception",
-     "j": "C'est l'hypothèse des mécanismes pathobiologiques, pas l'hypothèse de prévision."
-    }
-   ]
-  },
+  {"q":"Selon le système de catégorisation des hypothèses, à quoi correspond l'hypothèse de prévision ?","c":6,"options":[{"t":"Expliquer au patient, sous forme d'hypothèse, la durée probable du processus de guérison","correct":true,"j":"Le cours définit l'hypothèse de prévision comme l'estimation, expliquée au patient, de la durée du processus de guérison, sans jamais promettre 100 %."},{"t":"Identifier les précautions et contre-indications à l'examen et au traitement","j":"Cela correspond à l'hypothèse de précautions et contre-indications, une catégorie distincte."},{"t":"Déterminer les mécanismes pathobiologiques comme l'inflammation ou la nociception","j":"C'est l'hypothèse des mécanismes pathobiologiques, pas l'hypothèse de prévision."}]},
   {
    "q": "Sur le système musculo-squelettique, quel est un effet de l'exercice thérapeutique ?",
    "c": 9,
@@ -148239,63 +148221,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Selon Jones et Magarey, que ne faut-il pas faire face au patient ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "S'enfermer dans une pensée unique",
-     "correct": true,
-     "j": "Le cours recommande de ne pas s'enfermer dans une pensée unique, sous peine de n'entendre que ce que l'on veut entendre."
-    },
-    {
-     "t": "Poser des questions ouvertes",
-     "j": "Poser des questions ouvertes est au contraire recommandé par le cours."
-    },
-    {
-     "t": "Clarifier en posant plus de questions",
-     "j": "Le cours conseille justement de clarifier les choses en posant davantage de questions."
-    }
-   ]
-  },
-  {
-   "q": "Parmi les 7 catégories d'hypothèses, à quoi correspond l'hypothèse de la limitation fonctionnelle ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Au rôle, aux activités et à la participation du patient",
-     "correct": true,
-     "j": "Le cours associe l'hypothèse de limitation fonctionnelle au rôle, aux activités et à la participation (parties BIO et PSYCHO)."
-    },
-    {
-     "t": "Aux mécanismes de nociception et d'inflammation",
-     "j": "Cela correspond à l'hypothèse des mécanismes pathobiologiques."
-    },
-    {
-     "t": "Au travail et aux loisirs perpétuant la douleur",
-     "j": "Cela correspond à l'hypothèse des facteurs contributifs."
-    }
-   ]
-  },
-  {
-   "q": "Selon le cours, comment doit-on annoncer le pronostic au patient ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "En donnant un délai plutôt long, sans promettre une guérison à 100 %",
-     "correct": true,
-     "j": "Le cours conseille de donner un délai plus long et de ne jamais dire au patient qu'on va le guérir à 100 %."
-    },
-    {
-     "t": "En promettant une guérison complète pour rassurer",
-     "j": "Le cours déconseille de promettre une guérison à 100 %."
-    },
-    {
-     "t": "En annonçant le délai le plus court possible",
-     "j": "Le cours recommande au contraire de donner un délai plus long."
-    }
-   ]
-  },
+  {"q":"Selon Jones et Magarey, que ne faut-il pas faire face au patient ?","c":6,"options":[{"t":"S'enfermer dans une pensée unique","correct":true,"j":"Le cours recommande de ne pas s'enfermer dans une pensée unique, sous peine de n'entendre que ce que l'on veut entendre."},{"t":"Poser des questions ouvertes","j":"Poser des questions ouvertes est au contraire recommandé par le cours."},{"t":"Clarifier en posant plus de questions","j":"Le cours conseille justement de clarifier les choses en posant davantage de questions."}]},
+  {"q":"Parmi les 7 catégories d'hypothèses, à quoi correspond l'hypothèse de la limitation fonctionnelle ?","c":6,"options":[{"t":"Au rôle, aux activités et à la participation du patient","correct":true,"j":"Le cours associe l'hypothèse de limitation fonctionnelle au rôle, aux activités et à la participation (parties BIO et PSYCHO)."},{"t":"Aux mécanismes de nociception et d'inflammation","j":"Cela correspond à l'hypothèse des mécanismes pathobiologiques."},{"t":"Au travail et aux loisirs perpétuant la douleur","j":"Cela correspond à l'hypothèse des facteurs contributifs."}]},
+  {"q":"Selon le cours, comment doit-on annoncer le pronostic au patient ?","c":6,"options":[{"t":"En donnant un délai plutôt long, sans promettre une guérison à 100 %","correct":true,"j":"Le cours conseille de donner un délai plus long et de ne jamais dire au patient qu'on va le guérir à 100 %."},{"t":"En promettant une guérison complète pour rassurer","j":"Le cours déconseille de promettre une guérison à 100 %."},{"t":"En annonçant le délai le plus court possible","j":"Le cours recommande au contraire de donner un délai plus long."}]},
   {
    "q": "Selon le cours, la métacognition correspond au processus par lequel le clinicien :",
    "c": 7,
@@ -150424,63 +150352,9 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "À quels moments la réévaluation du patient doit-elle être réalisée ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Pendant la séance, après chaque approche, à la fin et au début de la suivante",
-     "correct": true,
-     "j": "La réévaluation s'effectue en cours de séance, après chaque approche, à la fin de la séance et au début de celle du lendemain ; on ne peut jamais s'en passer."
-    },
-    {
-     "t": "Seulement à la fin du programme de traitement, pour mesurer le résultat",
-     "j": "Attendre la fin du programme prive le thérapeute de l'information qui permet d'ajuster la prise en charge en cours de route."
-    },
-    {
-     "t": "Seulement au début de chaque séance, avant d'appliquer une technique",
-     "j": "Une réévaluation initiale ne suffit pas : elle doit aussi suivre chaque approche et clore la séance."
-    }
-   ]
-  },
-  {
-   "q": "En quoi consiste l'hypothèse de traitement dans le système de catégorisation des hypothèses ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Réaliser un traitement test dès le premier jour pour vérifier l'hypothèse",
-     "correct": true,
-     "j": "Dès la première séance, on applique un traitement test destiné à vérifier si l'hypothèse formulée se confirme ou non."
-    },
-    {
-     "t": "Choisir d'emblée le protocole standard correspondant au diagnostic",
-     "j": "Le raisonnement par hypothèses s'oppose à l'application d'un protocole choisi d'avance, trop rigide pour chaque patient."
-    },
-    {
-     "t": "Lister les techniques interdites avant tout contact avec le patient",
-     "j": "Les précautions et les contre-indications constituent une autre catégorie d'hypothèses, distincte de celle du traitement."
-    }
-   ]
-  },
-  {
-   "q": "Dans l'analyse du diagramme du corps, dans quel ordre les structures responsables de la douleur sont-elles envisagées ?",
-   "c": 7,
-   "options": [
-    {
-     "t": "Des structures situées sous la douleur vers les causes les moins probables",
-     "correct": true,
-     "j": "On commence par les structures situées sous la zone douloureuse, les plus probables, puis les structures voisines, et enfin les hypothèses les moins probables."
-    },
-    {
-     "t": "Des causes viscérales à exclure vers les structures locales probables",
-     "j": "Les causes viscérales comptent parmi les moins probables : elles sont envisagées en dernier, sans être oubliées pour autant."
-    },
-    {
-     "t": "Des structures qui irradient à distance vers les structures locales",
-     "j": "La musculature qui irradie vers la zone est examinée après celle qui se trouve sous la douleur, non avant."
-    }
-   ]
-  },
+  {"q":"À quels moments la réévaluation du patient doit-elle être réalisée ?","c":6,"options":[{"t":"Pendant la séance, après chaque approche, à la fin et au début de la suivante","correct":true,"j":"La réévaluation s'effectue en cours de séance, après chaque approche, à la fin de la séance et au début de celle du lendemain ; on ne peut jamais s'en passer."},{"t":"Seulement à la fin du programme de traitement, pour mesurer le résultat","j":"Attendre la fin du programme prive le thérapeute de l'information qui permet d'ajuster la prise en charge en cours de route."},{"t":"Seulement au début de chaque séance, avant d'appliquer une technique","j":"Une réévaluation initiale ne suffit pas : elle doit aussi suivre chaque approche et clore la séance."}]},
+  {"q":"En quoi consiste l'hypothèse de traitement dans le système de catégorisation des hypothèses ?","c":6,"options":[{"t":"Réaliser un traitement test dès le premier jour pour vérifier l'hypothèse","correct":true,"j":"Dès la première séance, on applique un traitement test destiné à vérifier si l'hypothèse formulée se confirme ou non."},{"t":"Choisir d'emblée le protocole standard correspondant au diagnostic","j":"Le raisonnement par hypothèses s'oppose à l'application d'un protocole choisi d'avance, trop rigide pour chaque patient."},{"t":"Lister les techniques interdites avant tout contact avec le patient","j":"Les précautions et les contre-indications constituent une autre catégorie d'hypothèses, distincte de celle du traitement."}]},
+  {"q":"Dans l'analyse du diagramme du corps, dans quel ordre les structures responsables de la douleur sont-elles envisagées ?","c":6,"options":[{"t":"Des structures situées sous la douleur vers les causes les moins probables","correct":true,"j":"On commence par les structures situées sous la zone douloureuse, les plus probables, puis les structures voisines, et enfin les hypothèses les moins probables."},{"t":"Des causes viscérales à exclure vers les structures locales probables","j":"Les causes viscérales comptent parmi les moins probables : elles sont envisagées en dernier, sans être oubliées pour autant."},{"t":"Des structures qui irradient à distance vers les structures locales","j":"La musculature qui irradie vers la zone est examinée après celle qui se trouve sous la douleur, non avant."}]},
   {
    "q": "À quel groupe de préjugés du physiothérapeute « l'erreur du coût irrécupérable » appartient-elle ?",
    "c": 7,
