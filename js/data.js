@@ -167260,29 +167260,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Le soma est :",
-   "c": 2,
-   "options": [
-    {
-     "t": "Le corps cellulaire abritant le noyau du neurone",
-     "correct": true,
-     "j": "Exact : le soma (péricaryon) contient le noyau et la majorité des organites."
-    },
-    {
-     "t": "Le prolongement unique conduisant l'influx vers la sortie",
-     "j": "C'est l'axone, prolongement conducteur efférent du neurone."
-    },
-    {
-     "t": "Les prolongements ramifiés recevant les afférences",
-     "j": "Ce sont les dendrites, prolongements récepteurs, distincts du soma."
-    },
-    {
-     "t": "La zone d'émergence de l'axone au pôle du corps cellulaire",
-     "j": "C'est le cône d'implantation axonal, site de genèse du potentiel d'action."
-    }
-   ]
-  },
+  {"q":"Le soma est :","c":[4,10],"options":[{"t":"Le corps cellulaire abritant le noyau du neurone","correct":true,"j":"Exact : le soma (péricaryon) contient le noyau et la majorité des organites."},{"t":"Le prolongement unique conduisant l'influx vers la sortie","j":"C'est l'axone, prolongement conducteur efférent du neurone."},{"t":"Les prolongements ramifiés recevant les afférences","j":"Ce sont les dendrites, prolongements récepteurs, distincts du soma."},{"t":"La zone d'émergence de l'axone au pôle du corps cellulaire","j":"C'est le cône d'implantation axonal, site de genèse du potentiel d'action."}]},
   {
    "q": "La membrane mitochondriale interne contient :",
    "c": 13,
@@ -169974,29 +169952,7 @@ const QUESTIONS = {
     }
    ]
   },
-  {
-   "q": "Indiquez la mauvaise réponse. Cellules procaryotes et eucaryotes :",
-   "c": 2,
-   "options": [
-    {
-     "t": "Ils présentent différents types d'ADN.",
-     "j": "Le tableau oppose un ADN circulaire et nu chez les procaryotes à un ADN linéaire associé aux histones chez les eucaryotes : la proposition est donc correcte (ch. 2, p. 17)."
-    },
-    {
-     "t": "Ils diffèrent entre autres par le fait que les procaryotes n'ont pas de cytosquelette et les eucaryotes en ont un.",
-     "j": "La ligne « Cytoplasme » du tableau indique « Pas de cytosquelette » pour les procaryotes et « Avec cytosquelette » pour les eucaryotes (ch. 2, p. 17)."
-    },
-    {
-     "t": "Ils ont différents mécanismes de division cellulaire.",
-     "j": "Le cours attribue la fission binaire aux procaryotes et la mitose aux eucaryotes : les deux mécanismes sont bien distincts (ch. 2, p. 17)."
-    },
-    {
-     "t": "Ils effectuent des processus de transcription et de traduction dans le même compartiment.",
-     "correct": true,
-     "j": "C'est la proposition fausse : chez l'eucaryote, l'enveloppe nucléaire sépare les deux étapes en deux compartiments distincts (ch. 9, p. 13 et 16) ; généraliser aux deux types cellulaires l'organisation sans noyau du procaryote est l'erreur piégée."
-    }
-   ]
-  },
+  {"q":"Indiquez la mauvaise réponse. Cellules procaryotes et eucaryotes :","c":[2,10],"options":[{"t":"Ils présentent différents types d'ADN.","j":"Le tableau oppose un ADN circulaire et nu chez les procaryotes à un ADN linéaire associé aux histones chez les eucaryotes : la proposition est donc correcte (ch. 2, p. 17)."},{"t":"Ils diffèrent entre autres par le fait que les procaryotes n'ont pas de cytosquelette et les eucaryotes en ont un.","j":"La ligne « Cytoplasme » du tableau indique « Pas de cytosquelette » pour les procaryotes et « Avec cytosquelette » pour les eucaryotes (ch. 2, p. 17)."},{"t":"Ils ont différents mécanismes de division cellulaire.","j":"Le cours attribue la fission binaire aux procaryotes et la mitose aux eucaryotes : les deux mécanismes sont bien distincts (ch. 2, p. 17)."},{"t":"Ils effectuent des processus de transcription et de traduction dans le même compartiment.","correct":true,"j":"C'est la proposition fausse : chez l'eucaryote, l'enveloppe nucléaire sépare les deux étapes en deux compartiments distincts (ch. 9, p. 13 et 16) ; généraliser aux deux types cellulaires l'organisation sans noyau du procaryote est l'erreur piégée."}]},
   {
    "q": "Laquelle des molécules suivantes est un glucide ?",
    "c": 1,
