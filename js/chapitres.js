@@ -2007,16 +2007,12 @@ const CHAPITRES = {
       "nom": "3. Système musculaire"
     },
     {
-      "id": 5,
-      "nom": "3. Système musculaire (avec rappelle voie sensitive))"
-    },
-    {
       "id": 6,
-      "nom": "4. Système Endocrinien version"
+      "nom": "4. Système Endocrinien"
     },
     {
       "id": 7,
-      "nom": "5. Système Immunitaire version"
+      "nom": "5. Système Immunitaire"
     }
   ],
   "structure2": [
