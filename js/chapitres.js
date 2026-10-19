@@ -401,10 +401,6 @@ const CHAPITRES = {
       "nom": "09. 9 CVR. Ischaemic heart disease prof"
     },
     {
-      "id": 10,
-      "nom": "12. B - 12 CVR. Arterial diseases"
-    },
-    {
       "id": 11,
       "nom": "Unit Heart Failure and arrhitmias"
     },
