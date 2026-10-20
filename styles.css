@@ -2284,3 +2284,34 @@ html { scroll-behavior: smooth; }
   text-transform: uppercase;
   color: rgba(var(--accent-rgb, 185, 118, 63), 0.95);
 }
+
+/* ----------- Questions illustrées -----------
+   Certaines questions (orthèses, prothèses, aides techniques) montrent une photo : c'est
+   l'image qui EST la question. Le cadre est volontairement sobre et la hauteur bornée, pour
+   que les propositions restent visibles sans défiler sur un téléphone. */
+.question-figure {
+  margin: -8px 0 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.question-figure img {
+  max-width: 100%;
+  max-height: 46vh;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(40, 35, 28, 0.12);
+  background: #fff;
+  padding: 8px;
+  object-fit: contain;
+}
+
+.review-q + .question-figure img,
+.mistakes-question + .question-figure img {
+  max-height: 30vh;
+}
+
+@media (max-width: 640px) {
+  .question-figure img { max-height: 38vh; }
+}

@@ -341,6 +341,18 @@ function chapitresDe(q) {
   return q.c ? [q.c] : [];
 }
 
+/* ----------- Questions illustrées -----------
+   Une question peut porter un champ `img` : le chemin d'une photo (appareil, orthèse,
+   déformation…) affichée sous l'énoncé. C'est la seule exception à la règle « aucun renvoi
+   visuel » : ici le visuel EST la question. `imgAlt` décrit l'image pour la synthèse vocale
+   et pour le cas où le fichier ne se charge pas. */
+function figureHtml(q) {
+  if (!q.img) return "";
+  return '<figure class="question-figure">'
+    + '<img src="' + escapeHtml(q.img) + '" alt="' + escapeHtml(q.imgAlt || "") + '" loading="lazy">'
+    + '</figure>';
+}
+
 function chaptersOf(bank) {
   const defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[bank]) || null;
   if (!defs || !defs.length) return null;
@@ -837,6 +849,15 @@ function renderQuestion() {
 
   $("#question-text").textContent = q.q;
 
+  // Photo de la question, quand il y en a une.
+  const figEl = $("#question-figure");
+  if (figEl) {
+    const imgEl = $("#question-image");
+    figEl.hidden = !q.img;
+    if (q.img) { imgEl.src = q.img; imgEl.alt = q.imgAlt || ""; }
+    else { imgEl.removeAttribute("src"); imgEl.alt = ""; }
+  }
+
   // Chapitre de la question (quand la matière est découpée en chapitres).
   const chapEl = $("#question-chapter");
   if (chapEl) {
@@ -1059,6 +1080,7 @@ function showReview() {
           </span>
         </div>
         <p class="review-q">${escapeHtml(q.q)}</p>
+        ${figureHtml(q)}
         <div class="review-answers">
           <div class="review-answer-block">
             <div class="review-answer-label">Ta réponse</div>
@@ -1167,6 +1189,7 @@ function renderMistake() {
   card.innerHTML = `
     <p class="mistakes-mode-label" data-mode="${escapeHtml(m.mode)}">${escapeHtml(MODE_LABELS[m.mode] || m.mode)}</p>
     <p class="mistakes-question">${escapeHtml(q.q)}</p>
+    ${figureHtml(q)}
     <div class="options" id="mistakes-options">${optionsHtml}</div>
     <div id="mistakes-feedback" hidden></div>
   `;
