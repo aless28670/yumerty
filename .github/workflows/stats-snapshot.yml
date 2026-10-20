@@ -27,7 +27,10 @@ name: Instantané des statistiques
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Toutes les 10 min : l'instantané ne dépasse donc jamais ~15 min de retard, délai
+    # d'ordonnancement de GitHub compris. Les Actions sont gratuites et illimitées sur un dépôt
+    # PUBLIC ; si le dépôt passe un jour en privé, repasser à 30 min pour rester dans le quota.
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
