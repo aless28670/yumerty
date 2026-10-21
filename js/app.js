@@ -473,6 +473,29 @@ function wireChapterBlock(card, bank) {
   block.classList.toggle("chap-active", getChapterSelection(bank).length > 0);
 }
 
+/* Part de questions illustrées visée dans une série. Le tirage reste aléatoire : on garantit
+   seulement qu'une série en contienne environ cette proportion, tant que le vivier disponible
+   en comporte assez. Une banque sans photo n'est pas affectée — le quota devient inopérant. */
+const PART_ILLUSTREES = 0.15;
+
+/* Tire `len` questions parmi `indices` en respectant la part visée de questions illustrées.
+   Tout ce qui n'est pas imposé par le quota est tiré au hasard, et l'ordre final est remélangé
+   pour que les photos ne se regroupent pas en début de série. */
+function tirerAvecQuota(bank, indices, len) {
+  const avec = [], sans = [];
+  indices.forEach(i => (bank[i].img ? avec : sans).push(i));
+  if (!avec.length || !sans.length) return shuffle(indices).slice(0, len);
+
+  /* Le quota est un PLANCHER, pas une consigne stricte : on réserve d'abord cette part de
+     questions illustrées, puis on complète au hasard dans tout le vivier restant. Une série
+     en contient donc au moins ce nombre, parfois davantage — la variation reste naturelle. */
+  const vise = Math.min(Math.round(len * PART_ILLUSTREES), avec.length, len);
+  const illustrees = shuffle(avec).slice(0, vise);
+  const pris = new Set(illustrees);
+  const reste = shuffle(indices.filter(i => !pris.has(i))).slice(0, len - illustrees.length);
+  return shuffle([...illustrees, ...reste]);
+}
+
 /* Strict no-repeat selection: exhaust every unseen question in the bank
    before any previously-seen one is allowed back. Once the full bank has
    been cycled through, the seen set resets and a new cycle begins. */
@@ -499,13 +522,13 @@ function pickQuestions(mode, length) {
 
   let chosen;
   if (unseen.length >= len) {
-    chosen = shuffle(unseen).slice(0, len);
+    chosen = tirerAvecQuota(bank, unseen, len);
   } else {
     // Not enough unseen left → take all unseen, fill the rest by resetting
     // (avoids ever showing a duplicate within the same session).
     const remainder = len - unseen.length;
     const recycled = bank.map((_, i) => i).filter(i => inPool(i) && !unseen.includes(i));
-    chosen = [...unseen, ...shuffle(recycled).slice(0, remainder)];
+    chosen = [...unseen, ...tirerAvecQuota(bank, recycled, remainder)];
     chosen = shuffle(chosen);
     // The unseen pool is fully drained; flag everything as fresh for next time.
     seen = chosen.slice();
