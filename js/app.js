@@ -481,16 +481,6 @@ function pickQuestions(mode, length) {
   const len = length || getQuizLength(mode);
   let seen = getSeenIndices(mode);
 
-  /* ⚠️ TEMPORAIRE — aperçu du rendu des questions illustrées.
-     Avec « ?images » dans l'adresse, le tirage ne retient que les questions qui portent une
-     photo, sans toucher à l'historique des questions déjà vues. Sert uniquement à montrer
-     le rendu : À SUPPRIMER après la démonstration. */
-  if (new URLSearchParams(location.search).has("images")) {
-    const avecImage = [];
-    bank.forEach((q, i) => { if (q.img) avecImage.push(i); });
-    return construireQuestions(bank, shuffle(avecImage).slice(0, 10));
-  }
-
   // Chapter filter: when the user has selected chapters, only those questions
   // are eligible. No selection (or no chapter data) = whole bank, as before.
   const pool = chapterPool(mode);
