@@ -2301,7 +2301,7 @@ html { scroll-behavior: smooth; }
 
 .question-figure img {
   max-width: 100%;
-  max-height: 46vh;
+  max-height: 56vh;
   width: auto;
   height: auto;
   border-radius: 12px;
@@ -2313,9 +2313,9 @@ html { scroll-behavior: smooth; }
 
 .review-q + .question-figure img,
 .mistakes-question + .question-figure img {
-  max-height: 30vh;
+  max-height: 36vh;
 }
 
 @media (max-width: 640px) {
-  .question-figure img { max-height: 38vh; }
+  .question-figure img { max-height: 46vh; }
 }
