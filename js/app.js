@@ -840,8 +840,15 @@ function resumeActiveSession() {
   state.quizLength = s.quizLength;
   state.points = s.points || getPoints(s.mode);
   state.rawMax = s.rawMax || (state.quizLength * state.points.good);
-  state.questions = s.questions;
-  state.index = Math.min(s.index || 0, s.questions.length - 1);
+  /* Une session sauvegardée contient les questions telles qu'elles étaient au moment de
+     l'enregistrement. On y réinjecte la photo depuis la banque : sans cela, une série
+     commencée avant l'ajout des questions illustrées resterait sans image jusqu'à sa fin. */
+  const banque = QUESTIONS[s.mode] || [];
+  state.questions = (s.questions || []).map(q => {
+    const src = banque[q.bankIndex];
+    return src ? { ...q, img: src.img, imgAlt: src.imgAlt } : q;
+  });
+  state.index = Math.min(s.index || 0, state.questions.length - 1);
   state.answers = Array.isArray(s.answers) ? s.answers : [];
   state.awaitingNext = false;
   const resumeLabel = $("#quiz-mode-label");
