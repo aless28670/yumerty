@@ -481,6 +481,16 @@ function pickQuestions(mode, length) {
   const len = length || getQuizLength(mode);
   let seen = getSeenIndices(mode);
 
+  /* ⚠️ TEMPORAIRE — aperçu du rendu des questions illustrées.
+     Avec « ?images » dans l'adresse, le tirage ne retient que les questions qui portent une
+     photo, sans toucher à l'historique des questions déjà vues. Sert uniquement à montrer
+     le rendu : À SUPPRIMER après la démonstration. */
+  if (new URLSearchParams(location.search).has("images")) {
+    const avecImage = [];
+    bank.forEach((q, i) => { if (q.img) avecImage.push(i); });
+    return construireQuestions(bank, shuffle(avecImage).slice(0, 10));
+  }
+
   // Chapter filter: when the user has selected chapters, only those questions
   // are eligible. No selection (or no chapter data) = whole bank, as before.
   const pool = chapterPool(mode);
@@ -518,10 +528,15 @@ function pickQuestions(mode, length) {
     saveSeenIndices(mode, seen);
   }
 
-  // Build picked questions with a per-question shuffled options order.
+  return construireQuestions(bank, chosen);
+}
+
+/* Met en forme les questions tirées, avec un ordre de propositions mélangé pour chacune.
+   C'est l'objet rendu ici que lisent l'écran de quiz ET l'écran de correction : tout champ
+   oublié disparaît de l'affichage, d'où la recopie explicite de la photo. */
+function construireQuestions(bank, chosen) {
   return chosen.map(idx => {
     const src = bank[idx];
-    const n = src.options.length;
     const optOrder = optionOrder(src.options);
     const options = optOrder.map((origIdx, displayIdx) => ({
       ...src.options[origIdx],
@@ -532,6 +547,8 @@ function pickQuestions(mode, length) {
       bankIndex: idx,
       q: src.q,
       c: src.c,
+      img: src.img,
+      imgAlt: src.imgAlt,
       options
     };
   });
@@ -794,8 +811,11 @@ function startMode(mode, length) {
   if (wanted < 1) { alert("Aucune question ne correspond aux chapitres sélectionnés."); return; }
   state.quizLength = wanted;
   state.points = getPoints(mode);
-  state.rawMax = state.quizLength * state.points.good;
   state.questions = pickQuestions(mode, state.quizLength);
+  /* La sélection peut renvoyer moins de questions que demandé (filtre de chapitres, aperçu) :
+     la longueur affichée et le barème doivent suivre, sans quoi le quiz ne se termine jamais. */
+  state.quizLength = state.questions.length;
+  state.rawMax = state.quizLength * state.points.good;
   state.index = 0;
   state.answers = [];
   state.awaitingNext = false;
