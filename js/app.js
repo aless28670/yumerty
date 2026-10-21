@@ -476,7 +476,7 @@ function wireChapterBlock(card, bank) {
 /* Part de questions illustrées visée dans une série. Le tirage reste aléatoire : on garantit
    seulement qu'une série en contienne environ cette proportion, tant que le vivier disponible
    en comporte assez. Une banque sans photo n'est pas affectée — le quota devient inopérant. */
-const PART_ILLUSTREES = 0.15;
+const PART_ILLUSTREES = 0.05;
 
 /* Tire `len` questions parmi `indices` en respectant la part visée de questions illustrées.
    Tout ce qui n'est pas imposé par le quota est tiré au hasard, et l'ordre final est remélangé
