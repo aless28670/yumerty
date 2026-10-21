@@ -72,12 +72,15 @@
   var CLE_VID = "ym_vid";    // identifiant anonyme propre à ce navigateur
   var FILE = "ym_file";      // clé localStorage de la file d'attente
   var FILE_MAX = 200;        // au-delà, on jette les plus anciens (bornage du stockage)
-  /* Battement porté de 60 s à 4 min le 17/10/2026. Chaque battement coûte une écriture KV, et
-     le plan gratuit de Cloudflare en autorise 1 000 par jour : à 60 s, une session de dix
-     minutes en consommait dix, et quelques dizaines de visiteurs suffisaient à épuiser le
-     quota — après quoi les écritures échouent en silence et la journée est perdue.
-     La fenêtre « en ligne » du serveur a été portée à 6 min en conséquence. */
-  var BATTEMENT = 4 * 60000;
+  /* Battement porté de 60 s à 4 min le 17/10/2026, puis à 10 min le 21/10/2026. Chaque
+     battement coûte une écriture KV, et le plan gratuit de Cloudflare en autorise 1 000 par
+     jour : au-delà, les écritures échouent en silence et la fin de journée est perdue.
+     Cloudflare a averti à 90 % du quota le 21/10/2026, le site étant désormais assez
+     fréquenté pour l'atteindre. Une session d'une heure coûte maintenant 7 écritures au lieu
+     de 18, soit environ 2,5 fois plus de trafic encaissé à quota constant.
+     ⚠️ La fenêtre « en ligne » du serveur (ONLINE_WINDOW dans src/index.js) DOIT rester
+     supérieure au battement, sinon un visiteur actif apparaît hors ligne entre deux signaux. */
+  var BATTEMENT = 10 * 60000;
 
   /* ⭐ IDENTIFIANT PAR NAVIGATEUR — correction du défaut majeur constaté le 18/10/2026.
      Jusque-là le serveur identifiait un visiteur par l'empreinte de son ADRESSE IP. Or toutes
