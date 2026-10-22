@@ -508,12 +508,21 @@ async function dechiffrer(paquet, pw) {
   var clair = await crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, cle, corps);
   return JSON.parse(new TextDecoder().decode(clair));
 }
+/* Cause du dernier échec de l'instantané. Trois situations très différentes étaient autrefois
+   fondues dans un même message « n'a pas répondu », ce qui envoyait chercher une panne de
+   Worker alors que le fichier était publié et lisible. On les distingue désormais. */
+var causeInstantane = "";
+var dateInstantane = "";
 async function statsInstantane(pw) {
   var r;
-  try { r = await fetch(INSTANTANE + "?t=" + Date.now(), { cache: "no-store" }); } catch (e) { return null; }
-  if (!r.ok) return null;                          // l'Action n'a pas encore publié
-  try { var paquet = await r.json(); var s = await dechiffrer(paquet, pw); s.__instantane = paquet.date; return s; }
-  catch (e) { return null; }                       // mot de passe différent de celui de l'Action
+  try { r = await fetch(INSTANTANE + "?t=" + Date.now(), { cache: "no-store" }); }
+  catch (e) { causeInstantane = "reseau"; return null; }
+  if (!r.ok) { causeInstantane = "absent"; return null; }   // l'Action n'a pas encore publié
+  var paquet;
+  try { paquet = await r.json(); } catch (e) { causeInstantane = "illisible"; return null; }
+  dateInstantane = paquet.date || "";
+  try { var s = await dechiffrer(paquet, pw); s.__instantane = paquet.date; causeInstantane = ""; return s; }
+  catch (e) { causeInstantane = "motdepasse"; return null; } // mot de passe ≠ celui de l'Action
 }
 
 
@@ -682,8 +691,46 @@ async function charger() {
     peindre(i);
     return;
   }
-  bandeau("Données momentanément indisponibles : ni le direct, ni l'instantané GitHub n'ont répondu. "
-    + "Si cela persiste, vérifie que le Worker est déployé et que la GitHub Action a bien publié stats.enc.json.");
+  /* Message de diagnostic : on dit CE QUI a échoué, pas « tout a échoué ». */
+  var quand = dateInstantane ? " (publié le " + F(new Date(dateInstantane).getTime()) + ")" : "";
+  var msg;
+  if (causeInstantane === "motdepasse") {
+    msg = "L'instantané du " + (dateInstantane ? F(new Date(dateInstantane).getTime()) : "jour")
+      + " est bien publié, mais il ne se déchiffre pas avec ce mot de passe. "
+      + "Puisque la GitHub Action a réussi à le produire, c'est que le Worker et le secret "
+      + "YM_ADMIN_PASSWORD concordent : le mot de passe saisi ici n'est pas le bon. "
+      + "Reconnecte-toi avec le mot de passe admin, ou reporte-toi au secret ADMIN_PASSWORD du Worker.";
+  } else if (causeInstantane === "absent") {
+    msg = "L'instantané n'est pas publié sur la branche `stats` : la GitHub Action n'a jamais abouti. "
+      + "Vérifie l'onglet Actions du dépôt et le secret YM_ADMIN_PASSWORD.";
+  } else if (causeInstantane === "reseau") {
+    msg = "Ni le Worker ni raw.githubusercontent.com ne répondent depuis ce réseau. "
+      + "C'est une coupure côté connexion, pas une panne du site.";
+  } else if (causeInstantane === "illisible") {
+    msg = "L'instantané" + quand + " est servi mais illisible (fichier tronqué ou corrompu). "
+      + "Relance la GitHub Action pour en republier un.";
+  } else {
+    msg = "Données momentanément indisponibles. Si cela persiste, vérifie que le Worker est "
+      + "déployé et que la GitHub Action a bien publié stats.enc.json.";
+  }
+  if (derniereCause) msg += "  (Côté direct : " + derniereCause + ".)";
+
+  /* IMPASSE À ÉVITER. Au rechargement d'une page, on entre directement si le jeton est encore
+     valable, mais le mot de passe n'est PAS conservé (il ne vit qu'en mémoire). Si le direct
+     tombe à ce moment-là — jeton expiré, ou Worker injoignable — l'instantané ne peut pas être
+     déchiffré faute de mot de passe, et l'ancienne console se contentait d'un message sans
+     issue. On redemande donc le mot de passe : c'est la seule action qui débloque la situation. */
+  if (!motdepasse) {
+    var err = document.getElementById("erreur");
+    if (err) { err.hidden = false; err.textContent = "Session expirée — saisis ton mot de passe pour relire les statistiques hors ligne."; }
+    if (minuteur) { clearInterval(minuteur); minuteur = null; }
+    document.getElementById("ecranAdmin").hidden = true;
+    document.getElementById("ecranConnexion").hidden = false;
+    var champ = document.getElementById("motdepasse");
+    if (champ) champ.focus();
+    return;
+  }
+  bandeau(msg);
 }
 
 function entrer() {
