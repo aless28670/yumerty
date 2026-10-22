@@ -243,7 +243,7 @@ const CURSUS = {
         "long": "3ᵉ année",
         "semesters": {
           "S1": {
-            "label": "Semestre 1",
+            "label": "Ancien programme · Semestre 1",
             "matieres": {
               "neuro1": {
                 "label": "Neurologie 1",
@@ -300,7 +300,7 @@ const CURSUS = {
             }
           },
           "S2": {
-            "label": "Semestre 2",
+            "label": "Ancien programme · Semestre 2",
             "matieres": {
               "pathoChir2": {
                 "label": "Pathologies Chirurgicales 2",
@@ -351,6 +351,24 @@ const CURSUS = {
                     "bankKey": "procesos2",
                     "optionCount": 3,
                     "accent": "#c47a35"
+                  }
+                ]
+              }
+            }
+          },
+          "N1": {
+            "label": "Nouveau programme · Semestre 1",
+            "matieres": {
+              "neurologie1N": {
+                "label": "Neurologie 1",
+                "accent": "#6366f1",
+                "modules": [
+                  {
+                    "id": "neuro1N",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "neuro1N",
+                    "optionCount": 3,
+                    "accent": "#6366f1"
                   }
                 ]
               }
