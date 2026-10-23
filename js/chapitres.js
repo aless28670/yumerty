@@ -5,6 +5,26 @@
    ========================================================= */
 
 const CHAPITRES = {
+  "investigation2": [
+    { "id": 1, "nom": "T0 — Révision des concepts généraux" },
+    { "id": 2, "nom": "T1.1 — Notions statistiques de base" },
+    { "id": 3, "nom": "T1.2 — Classification des variables selon leur mesure" },
+    { "id": 4, "nom": "T1.3 — Taille de l'échantillon" },
+    { "id": 5, "nom": "T1.4 — Échantillonnage et planification de l'étude" },
+    { "id": 6, "nom": "T2.1 — Statistique descriptive" },
+    { "id": 7, "nom": "T2.2 — Représentation graphique" },
+    { "id": 8, "nom": "T2.3 — Distribution des variables et normalité" },
+    { "id": 9, "nom": "T3.1 — Estimation de paramètres et intervalles de confiance" },
+    { "id": 10, "nom": "T3.2 — Formulation d'hypothèses statistiques" },
+    { "id": 11, "nom": "T4 — Association et quantification des risques" },
+    { "id": 12, "nom": "T5.1 — Tests d'hypothèses" },
+    { "id": 13, "nom": "T5.2 — Autres analyses statistiques" },
+    { "id": 14, "nom": "T6.1 — Conception de la base de données" },
+    { "id": 15, "nom": "T6.2 — Conception du plan d'analyse" },
+    { "id": 16, "nom": "T7.1 — Rédaction scientifique" },
+    { "id": 17, "nom": "T7.2 — Conception de questionnaires et d'entretiens" },
+    { "id": 18, "nom": "T7.3 — L'évaluation par les pairs" }
+  ],
   "pathologie3": [
     { "id": 1, "nom": "T1 — Anatomie et physiopathologie de l'appareil respiratoire" },
     { "id": 2, "nom": "T2 — Anamnèse, examen physique et facteurs de risque" },

@@ -399,6 +399,20 @@ const CURSUS = {
                   }
                 ]
               }
+              ,
+              "investigation2": {
+                "label": "Investigation 2",
+                "accent": "#14b8a6",
+                "modules": [
+                  {
+                    "id": "investigation2",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "investigation2",
+                    "optionCount": 3,
+                    "accent": "#14b8a6"
+                  }
+                ]
+              }
             }
           }
         }
