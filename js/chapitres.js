@@ -5,6 +5,20 @@
    ========================================================= */
 
 const CHAPITRES = {
+  "orthoTraumato": [
+    { "id": 1, "nom": "T1 — Régénération et réparation tissulaires" },
+    { "id": 2, "nom": "T2 — Fractures vertébrales" },
+    { "id": 3, "nom": "T3 — Entorses vertébrales (whiplash)" },
+    { "id": 4, "nom": "T4 — Anomalies structurelles dans le plan sagittal" },
+    { "id": 5, "nom": "T5 — Discopathie traumatique" },
+    { "id": 6, "nom": "T6 — Notion et prise en charge des cicatrices" },
+    { "id": 7, "nom": "T7 — Torticolis congénital et plagiocéphalie" },
+    { "id": 10, "nom": "T10 — Scoliose" },
+    { "id": 12, "nom": "T12 — Fractures du membre supérieur chez l'adulte" },
+    { "id": 13, "nom": "T13 — Fractures du membre supérieur chez l'enfant" },
+    { "id": 14, "nom": "T14 — Prothèses du membre supérieur chez l'adulte" },
+    { "id": 15, "nom": "T15 — Entorses et instabilités du membre supérieur" }
+  ],
   "neuro1N": [
     { "id": 1, "nom": "T1 — Introduction à la kinésithérapie neurologique" },
     { "id": 2, "nom": "T2 — Approche fonctionnelle : le tronc" },

@@ -359,6 +359,19 @@ const CURSUS = {
           "N1": {
             "label": "Nouveau programme · Semestre 1",
             "matieres": {
+              "orthoTraumato": {
+                "label": "Ortho Traumato",
+                "accent": "#d97706",
+                "modules": [
+                  {
+                    "id": "orthoTraumato",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "orthoTraumato",
+                    "optionCount": 4,
+                    "accent": "#d97706"
+                  }
+                ]
+              },
               "neurologie1N": {
                 "label": "Neurologie 1",
                 "accent": "#6366f1",
