@@ -385,6 +385,20 @@ const CURSUS = {
                   }
                 ]
               }
+              ,
+              "pathologie3": {
+                "label": "Pathologie 3",
+                "accent": "#0ea5e9",
+                "modules": [
+                  {
+                    "id": "pathologie3",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "pathologie3",
+                    "optionCount": 4,
+                    "accent": "#0ea5e9"
+                  }
+                ]
+              }
             }
           }
         }

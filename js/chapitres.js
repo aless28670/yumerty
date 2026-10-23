@@ -5,6 +5,28 @@
    ========================================================= */
 
 const CHAPITRES = {
+  "pathologie3": [
+    { "id": 1, "nom": "T1 — Anatomie et physiopathologie de l'appareil respiratoire" },
+    { "id": 2, "nom": "T2 — Anamnèse, examen physique et facteurs de risque" },
+    { "id": 3, "nom": "T3 — Insuffisance respiratoire" },
+    { "id": 4, "nom": "T4 — Syndromes obstructifs" },
+    { "id": 5, "nom": "T5 — Syndromes restrictifs" },
+    { "id": 6, "nom": "T6 — Infections de l'appareil respiratoire" },
+    { "id": 7, "nom": "T7 — COVID-19, grippe et tuberculose" },
+    { "id": 8, "nom": "T8 — Autres pathologies respiratoires" },
+    { "id": 9, "nom": "T9 — Pharmacologie respiratoire" },
+    { "id": 10, "nom": "T10 — Anatomie et physiologie de l'appareil cardiovasculaire" },
+    { "id": 11, "nom": "T11 — Examens complémentaires en cardiologie" },
+    { "id": 12, "nom": "T12 — Facteurs de risque et athérosclérose" },
+    { "id": 13, "nom": "T13 — Cardiopathie ischémique" },
+    { "id": 14, "nom": "T14 — Insuffisance cardiaque" },
+    { "id": 15, "nom": "T15 — Valvulopathies" },
+    { "id": 16, "nom": "T16 — Arythmies" },
+    { "id": 17, "nom": "T17 — Autres pathologies cardiovasculaires" },
+    { "id": 18, "nom": "T18 — Pharmacologie cardiologique" },
+    { "id": 19, "nom": "T19 — Réanimation cardio-pulmonaire" },
+    { "id": 20, "nom": "T20 — Ventilation mécanique et oxygénothérapie" }
+  ],
   "orthoTraumato": [
     { "id": 1, "nom": "T1 — Régénération et réparation tissulaires" },
     { "id": 2, "nom": "T2 — Fractures vertébrales" },
