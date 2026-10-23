@@ -358,9 +358,15 @@ function chaptersOf(bank) {
   if (!defs || !defs.length) return null;
   const counts = {};
   (QUESTIONS[bank] || []).forEach(q => chapitresDe(q).forEach(id => { counts[id] = (counts[id] || 0) + 1; }));
-  const list = defs.map(ch => ({ id: ch.id, nom: ch.nom, count: counts[ch.id] || 0 }))
-                   .filter(ch => ch.count > 0);
-  return list.length ? list : null;
+  const list = defs.map(ch => ({ id: ch.id, nom: ch.nom, count: counts[ch.id] || 0 }));
+  /* RÈGLE D'ALESSANDRO (23/10/2026) : tant que TOUS les chapitres déclarés pour la matière
+     ne sont pas alimentés, on ne propose AUCUN choix de chapitre — la matière se joue en
+     entier. Un choix partiel laisserait croire que le découpage est complet et ferait réviser
+     un programme amputé sans que l'étudiant·e le sache. Dès que le dernier chapitre reçoit sa
+     première question, le sélecteur réapparaît de lui-même. */
+  if (list.some(ch => ch.count === 0)) return null;
+  const servis = list.filter(ch => ch.count > 0);
+  return servis.length ? servis : null;
 }
 
 function getChapterSelection(bank) {
