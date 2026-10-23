@@ -202,17 +202,31 @@ const CURSUS = {
                     "accent": "#b35c38"
                   }
                 ]
-              },
-              "santePublique": {
-                "label": "Santé Publique",
-                "accent": "#5a8a6a",
+              }
+              ,
+              "ethiqueLegislation": {
+                "label": "Éthique & Législation",
+                "accent": "#0f766e",
                 "modules": [
                   {
-                    "id": "santePublique",
-                    "label": "Examen — 4 propositions",
-                    "bankKey": "santePublique",
-                    "optionCount": 4,
-                    "accent": "#5a8a6a"
+                    "id": "ethiqueLegislation",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "ethiqueLegislation",
+                    "optionCount": 3,
+                    "accent": "#0f766e"
+                  }
+                ]
+              },
+              "procedimiento1": {
+                "label": "Procedimiento 1",
+                "accent": "#7c3aed",
+                "modules": [
+                  {
+                    "id": "procedimiento1",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "procedimiento1",
+                    "optionCount": 3,
+                    "accent": "#7c3aed"
                   }
                 ]
               }
@@ -231,6 +245,20 @@ const CURSUS = {
                     "bankKey": "pathologie2",
                     "optionCount": 4,
                     "accent": "#c08a3e"
+                  }
+                ]
+              }
+              ,
+              "santePublique": {
+                "label": "Santé Publique",
+                "accent": "#5a8a6a",
+                "modules": [
+                  {
+                    "id": "santePublique",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "santePublique",
+                    "optionCount": 4,
+                    "accent": "#5a8a6a"
                   }
                 ]
               }

@@ -5,6 +5,40 @@
    ========================================================= */
 
 const CHAPITRES = {
+  "ethiqueLegislation": [
+    { "id": 1, "nom": "T1.1 — Valeurs, morale et éthique" },
+    { "id": 2, "nom": "T1.2 — Bioéthique : principes fondamentaux" },
+    { "id": 3, "nom": "T1.3 — (Dés)humanisation des soins et relation thérapeutique" },
+    { "id": 4, "nom": "T1.4 — Éthique, science et recherche" },
+    { "id": 5, "nom": "T2.1 — Consentement éclairé" },
+    { "id": 6, "nom": "T2.2 — Secret professionnel" },
+    { "id": 7, "nom": "T2.3 — Protection des données" },
+    { "id": 8, "nom": "T3.1 — Responsabilité professionnelle" },
+    { "id": 9, "nom": "T3.2 — Code de déontologie" },
+    { "id": 10, "nom": "T3.3 — Le dossier médical" }
+  ],
+  "procedimiento1": [
+    { "id": 1, "nom": "T00 — Effets neurophysiologiques de la thérapie manuelle" },
+    { "id": 2, "nom": "T01 — Fondements du travail en commun et concept Maitland" },
+    { "id": 3, "nom": "T02 — Bases neurophysiologiques du traitement articulaire (Mulligan)" },
+    { "id": 4, "nom": "T03 — Méthode McKenzie" },
+    { "id": 5, "nom": "T04 — Bases neurophysiologiques du traitement des tissus mous" },
+    { "id": 6, "nom": "T05 — Bases neurophysiologiques du traitement par neurodynamique" },
+    { "id": 7, "nom": "T06 — Bases neurophysiologiques du traitement par l'exercice" },
+    { "id": 8, "nom": "T07 — Colonne cervicale" },
+    { "id": 9, "nom": "T08 — Colonne lombaire" },
+    { "id": 10, "nom": "T09 — Douleur thoracique" },
+    { "id": 11, "nom": "T10 — Électrothérapie : haute fréquence (diathermie OC et MO)" },
+    { "id": 12, "nom": "T11 — Électrothérapie : basse fréquence" },
+    { "id": 13, "nom": "T12 — Électrothérapie : moyenne fréquence et galvanique" },
+    { "id": 14, "nom": "T13 — Ceinture scapulaire et épaule" },
+    { "id": 15, "nom": "T14 — Coude" },
+    { "id": 16, "nom": "T15 — Main" },
+    { "id": 17, "nom": "T16 — Neuropathies du membre supérieur" },
+    { "id": 18, "nom": "T17 — Hanche" },
+    { "id": 19, "nom": "T18 — Genou" },
+    { "id": 20, "nom": "T19 — Complexe cheville-pied" }
+  ],
   "procedimiento3": [
     { "id": 1, "nom": "T01 — Évaluation du patient cardio-respiratoire" },
     { "id": 2, "nom": "T02 — Spirométrie" },
@@ -2254,6 +2288,10 @@ const CHAPITRES = {
     {
       "id": 11,
       "nom": "T11 — Orthèses en neurologie"
+    },
+    {
+      "id": 12,
+      "nom": "T12 — Aides techniques (diapos 1-6 et déambulateurs)"
     }
   ]
 };
