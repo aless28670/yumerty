@@ -2192,11 +2192,11 @@ const CHAPITRES = {
     },
     {
       "id": 8,
-      "nom": "T8 — Prothèses bioniques"
+      "nom": "T8 — Prothèses bioniques (hors partiel 1)"
     },
     {
       "id": 9,
-      "nom": "T9 — Impression 3D"
+      "nom": "T9 — Impression 3D (hors partiel 1)"
     },
     {
       "id": 10,
