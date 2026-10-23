@@ -413,6 +413,20 @@ const CURSUS = {
                   }
                 ]
               }
+              ,
+              "procedimiento3": {
+                "label": "Procedimiento 3",
+                "accent": "#f97316",
+                "modules": [
+                  {
+                    "id": "procedimiento3",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "procedimiento3",
+                    "optionCount": 3,
+                    "accent": "#f97316"
+                  }
+                ]
+              }
             }
           }
         }

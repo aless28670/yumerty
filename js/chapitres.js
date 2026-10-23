@@ -5,6 +5,13 @@
    ========================================================= */
 
 const CHAPITRES = {
+  "procedimiento3": [
+    { "id": 1, "nom": "T01 — Évaluation du patient cardio-respiratoire" },
+    { "id": 2, "nom": "T02 — Spirométrie" },
+    { "id": 3, "nom": "T03 — Auscultation pulmonaire" },
+    { "id": 4, "nom": "T04 — Tests fonctionnels" },
+    { "id": 5, "nom": "T05 — Évaluation musculaire en cardio-respiratoire" }
+  ],
   "investigation2": [
     { "id": 1, "nom": "T0 — Révision des concepts généraux" },
     { "id": 2, "nom": "T1.1 — Notions statistiques de base" },
