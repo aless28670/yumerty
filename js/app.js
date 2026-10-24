@@ -453,7 +453,6 @@ function chapterGridHtml(bank) {
       <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
         <span class="chap-chip-num">${ch.id}</span>
         <span class="chap-chip-name">${escapeHtml(nomChapitre(ch))}</span>
-        <span class="chap-chip-tick" aria-hidden="true"></span>
       </button>`;
   }).join("");
 }
@@ -594,7 +593,6 @@ function chapterBlockHtml(bank) {
       <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
         <span class="chap-chip-num">${ch.id}</span>
         <span class="chap-chip-name">${escapeHtml(nomChapitre(ch))}</span>
-        <span class="chap-chip-tick" aria-hidden="true"></span>
       </button>`;
   }).join("");
   return `
