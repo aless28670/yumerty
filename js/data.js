@@ -51,7 +51,7 @@ const QUESTIONS = {
    "c": 8,
    "options": [
     {
-     "t": "Rapport sexuels hétérosexuels",
+     "t": "Rapports sexuels hétérosexuels",
      "j": "Faux pour la France : l'hétérosexuel prédomine dans le monde, pas en Occident."
     },
     {
@@ -296,29 +296,6 @@ const QUESTIONS = {
     {
      "t": "La capacité d'un micro-organisme de provoquer des infections graves",
      "j": "Provoquer des infections graves = virulence — faux"
-    }
-   ]
-  },
-  {
-   "q": "Choisissez la réponse correcte. Quelle est la principale voie de transmission du VIH en France ?",
-   "c": 8,
-   "options": [
-    {
-     "t": "Rapport sexuel hétérosexuel",
-     "j": "Rapport hétérosexuel = mode dominant au niveau mondial, pas en France — faux"
-    },
-    {
-     "t": "utilisateur de drogue injectable",
-     "j": "Usage de drogue injectable = voie sanguine, minoritaire — faux"
-    },
-    {
-     "t": "Les relations sexuelles entre hommes",
-     "correct": true,
-     "j": "Relations sexuelles entre hommes (HSH) = voie principale en Occident/France — CORRECT"
-    },
-    {
-     "t": "Voie verticale",
-     "j": "Voie verticale réduite à ~0% en Occident — faux"
     }
    ]
   },
@@ -397109,6 +397086,1127 @@ const QUESTIONS = {
     {
      "t": "Une tendinopathie chronique",
      "j": "Les tendinopathies chroniques sont l'indication principale."
+    }
+   ]
+  },
+  {
+   "q": "Qu'est-ce que la diathermie ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "L'emploi de courants de haute fréquence pour chauffer les tissus",
+     "correct": true,
+     "j": "Son nom vient du grec : à travers, chaleur, qualité."
+    },
+    {
+     "t": "L'emploi d'un rayonnement infrarouge pour réchauffer la peau",
+     "j": "L'infrarouge agit par rayonnement et non par courant électrique."
+    },
+    {
+     "t": "L'emploi d'ultrasons pour produire une chaleur profonde",
+     "j": "L'échauffement par ultrasons est d'origine mécanique, non électrique."
+    }
+   ]
+  },
+  {
+   "q": "Dans quelle gamme se situent les fréquences employées en diathermie ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "De 10 à 100 MHz, typiquement 27,12 MHz",
+     "j": "Cette bande est celle des ondes courtes."
+    },
+    {
+     "t": "De 300 kHz à 1,2 MHz, typiquement 448 kHz",
+     "correct": true,
+     "j": "Cette bande correspond à la radiofréquence employée en tecarthérapie."
+    },
+    {
+     "t": "Autour de 2 450 MHz, dans la bande des micro-ondes",
+     "j": "Cette fréquence est celle du magnétron en micro-ondes."
+    }
+   ]
+  },
+  {
+   "q": "Quel effet recherche-t-on en phase aiguë ou post-opératoire avec la diathermie ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "La vascularisation, avec effet thermique modéré entre 36 et 38 °C",
+     "j": "Ce réglage correspond aux phases subaiguës."
+    },
+    {
+     "t": "L'hyperactivation, avec effet thermique élevé entre 39 et 45 °C",
+     "j": "Ce réglage est réservé aux phases chroniques ou tardives."
+    },
+    {
+     "t": "La bio-stimulation, sans sensation thermique, entre 32 et 35 °C",
+     "correct": true,
+     "j": "Elle produit un effet drainant et une analgésie par augmentation du flux sanguin."
+    }
+   ]
+  },
+  {
+   "q": "À quelle phase correspond l'hyperactivation en diathermie ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Aux phases chroniques ou tardives de la récupération",
+     "correct": true,
+     "j": "Elle produit lipolyse, stimulation du collagène et activation des fibroblastes."
+    },
+    {
+     "t": "Aux phases aiguës, juste après la lésion ou l'intervention",
+     "j": "La phase aiguë appelle au contraire une application athermique."
+    },
+    {
+     "t": "Aux phases subaiguës, lorsque l'inflammation commence à céder",
+     "j": "Les phases subaiguës relèvent du palier de vascularisation."
+    }
+   ]
+  },
+  {
+   "q": "À partir de quelle température la diathermie favorise-t-elle la création d'acide hyaluronique ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "À partir de 32 °C, dès le palier de bio-stimulation",
+     "j": "Ce palier reste athermique et ne déclenche pas cette réaction."
+    },
+    {
+     "t": "À partir de 37,5 °C, par rupture des enveloppes de glucose",
+     "correct": true,
+     "j": "Cet effet s'ajoute à la synthèse de collagène à plus long terme."
+    },
+    {
+     "t": "À partir de 45 °C, au seuil supérieur de l'application thermique",
+     "j": "Une telle température dépasse le seuil utile et expose à la brûlure."
+    }
+   ]
+  },
+  {
+   "q": "À partir de quelle température la diathermie favorise-t-elle la viscoélasticité capsulaire ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "À partir de 35 °C",
+     "j": "Ce niveau correspond encore au palier athermique de bio-stimulation."
+    },
+    {
+     "t": "À partir de 45 °C",
+     "j": "Ce seuil correspond à la limite haute de l'application thermique."
+    },
+    {
+     "t": "À partir de 40 °C",
+     "correct": true,
+     "j": "Elle s'accompagne d'une absorption rapide du liquide synovial."
+    }
+   ]
+  },
+  {
+   "q": "Quels sont les trois mécanismes de l'analgésie obtenue par diathermie ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Saturation des nocicepteurs, effet diathermique, stimulation métabolique",
+     "correct": true,
+     "j": "Le dernier agit plus de 24 heures par augmentation de la stimulation sanguine."
+    },
+    {
+     "t": "Blocage de la plaque motrice, vasoconstriction et sédation centrale",
+     "j": "Aucun de ces trois mécanismes n'est décrit pour la diathermie."
+    },
+    {
+     "t": "Libération d'endorphines, inhibition médullaire et effet placebo",
+     "j": "Ces mécanismes relèvent d'autres modalités antalgiques."
+    }
+   ]
+  },
+  {
+   "q": "Qu'est-ce qui caractérise l'électrode capacitive ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Elle est nue et pénètre les tissus les plus fibreux ou résistants",
+     "j": "Cette description est celle de l'électrode résistive."
+    },
+    {
+     "t": "Elle est recouverte d'un isolant et agit plus superficiellement",
+     "correct": true,
+     "j": "Elle traite les muscles et ligaments superficiels situés sous l'électrode."
+    },
+    {
+     "t": "Elle est appliquée à distance et agit par induction magnétique",
+     "j": "L'application inductive concerne les ondes courtes, pas la diathermie de contact."
+    }
+   ]
+  },
+  {
+   "q": "Vers quels tissus le courant se dirige-t-il avec une électrode résistive ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Vers les tissus les plus vascularisés et les mieux conducteurs",
+     "j": "Le courant est au contraire attiré par les tissus à forte impédance."
+    },
+    {
+     "t": "Vers la couche graisseuse sous-cutanée située sous l'électrode",
+     "j": "Le mode capacitif agit en surface ; le résistif va plus profondément."
+    },
+    {
+     "t": "Vers ceux présentant l'impédance la plus élevée : fascia, tendon, os",
+     "correct": true,
+     "j": "L'électrode nue traverse les couches jusqu'à ces structures résistantes."
+    }
+   ]
+  },
+  {
+   "q": "Où ne faut-il jamais placer l'électrode neutre ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Dans la zone cardiaque",
+     "correct": true,
+     "j": "Elle est posée à proximité de la zone traitée, par exemple l'abdomen si l'on traite le quadriceps."
+    },
+    {
+     "t": "Sur une proéminence osseuse du membre traité",
+     "j": "Cette précaution vise surtout les micro-ondes, non l'électrode de retour."
+    },
+    {
+     "t": "Du côté opposé au membre que l'on traite",
+     "j": "La plaque se place au contraire près de la zone à traiter."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la durée habituelle d'une séance de diathermie ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Entre 5 et 10 minutes, quelle que soit la zone traitée",
+     "j": "Cette durée est trop brève pour obtenir les effets recherchés."
+    },
+    {
+     "t": "Entre 20 et 30 minutes, selon l'étendue de la zone",
+     "correct": true,
+     "j": "Les séances sont espacées de 24 à 48 heures."
+    },
+    {
+     "t": "Entre 45 et 60 minutes, pour les pathologies chroniques",
+     "j": "Une telle durée dépasse largement ce qui est recommandé."
+    }
+   ]
+  },
+  {
+   "q": "Quelle puissance employer dans un processus inflammatoire ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Une forte puissance, pour accélérer la résorption de l'œdème",
+     "j": "La forte puissance est réservée aux processus chroniques."
+    },
+    {
+     "t": "Une puissance moyenne, indépendamment du stade lésionnel",
+     "j": "Le réglage dépend précisément du stade de la lésion."
+    },
+    {
+     "t": "Une faible puissance, l'application étant athermique",
+     "correct": true,
+     "j": "Les processus chroniques appellent à l'inverse une application thermique de forte puissance."
+    }
+   ]
+  },
+  {
+   "q": "À quoi sert la crème conductrice en diathermie de contact ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "À favoriser la conductivité et le transfert d'énergie vers la zone",
+     "correct": true,
+     "j": "Elle est douce, élastique, riche en émulsion d'huile et non collante."
+    },
+    {
+     "t": "À protéger la peau contre les brûlures dues au courant",
+     "j": "Son rôle premier est le transfert d'énergie, non la protection thermique."
+    },
+    {
+     "t": "À introduire un principe actif à travers la peau du patient",
+     "j": "L'introduction transdermique de substances relève de l'iontophorèse."
+    }
+   ]
+  },
+  {
+   "q": "Laquelle de ces situations est une contre-indication à la diathermie ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Une arthrose douloureuse de l'articulation à traiter",
+     "j": "L'arthrose figure au contraire parmi les indications."
+    },
+    {
+     "t": "Le port d'un stimulateur cardiaque",
+     "correct": true,
+     "j": "Grossesse, thrombose veineuse et processus infectieux le sont également."
+    },
+    {
+     "t": "Une pathologie tendineuse chronique du membre inférieur",
+     "j": "La pathologie tendineuse est une indication reconnue."
+    }
+   ]
+  },
+  {
+   "q": "Quelle précaution s'impose en présence d'une diminution de la sensibilité ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Réduire la puissance de moitié et surveiller la peau",
+     "j": "La contre-indication est formelle et ne se contourne pas par un réglage."
+    },
+    {
+     "t": "Augmenter la durée pour compenser la moindre perception",
+     "j": "Allonger l'exposition aggraverait le risque de brûlure."
+    },
+    {
+     "t": "S'abstenir : la perte de sensibilité contre-indique l'application",
+     "correct": true,
+     "j": "Le patient ne peut plus signaler une chaleur excessive."
+    }
+   ]
+  },
+  {
+   "q": "Pourquoi les ondes courtes et les micro-ondes ne sont-elles pas ionisantes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Leur énergie est insuffisante pour arracher des électrons aux atomes",
+     "correct": true,
+     "j": "Leur longueur d'onde est plus grande et leur fréquence plus basse que l'ultraviolet."
+    },
+    {
+     "t": "Elles ne pénètrent pas au-delà des couches superficielles de la peau",
+     "j": "La profondeur de pénétration n'a aucun rapport avec le caractère ionisant."
+    },
+    {
+     "t": "Elles sont appliquées en mode pulsé et non en mode continu",
+     "j": "Le mode d'émission ne détermine pas le caractère ionisant du rayonnement."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la fréquence standard des ondes courtes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "2 450 MHz, dans la bande des micro-ondes",
+     "j": "Cette fréquence est celle des micro-ondes appliquées par magnétron."
+    },
+    {
+     "t": "27,12 MHz, dans une bande allant de 10 à 100 MHz",
+     "correct": true,
+     "j": "Cette valeur est celle retenue par la réglementation américaine."
+    },
+    {
+     "t": "448 kHz, dans la bande de la radiofréquence",
+     "j": "Cette valeur est la fréquence typique de la diathermie."
+    }
+   ]
+  },
+  {
+   "q": "Quels tissus les ondes courtes réchauffent-elles préférentiellement ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Ceux à forte conductivité : muscles et tissus bien vascularisés",
+     "j": "Ce sont les micro-ondes qui chauffent préférentiellement ces tissus."
+    },
+    {
+     "t": "La peau et le tissu sous-cutané immédiat uniquement",
+     "j": "Les ondes courtes agissent au contraire en profondeur."
+    },
+    {
+     "t": "Ceux à faible conductivité électrique : graisse, capsule, tissu conjonctif",
+     "correct": true,
+     "j": "Leur pénétration est de ce fait plus profonde."
+    }
+   ]
+  },
+  {
+   "q": "Quelle différence sépare le mode continu du mode pulsé en ondes courtes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Le continu produit surtout des effets thermiques, le pulsé y ajoute des effets non thermiques",
+     "correct": true,
+     "j": "Le mode pulsé permet réparation tissulaire, analgésie et contrôle de l'œdème."
+    },
+    {
+     "t": "Le continu agit en surface, le pulsé agit en profondeur",
+     "j": "La profondeur dépend de la fréquence et du mode d'applicateur, non de la pulsation."
+    },
+    {
+     "t": "Le continu est réservé à l'enfant, le pulsé à l'adulte",
+     "j": "Aucune distinction de ce type n'existe entre les deux modes."
+    }
+   ]
+  },
+  {
+   "q": "Quels modes d'application existent pour les ondes courtes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Le magnétron focalisé, plat allongé ou convergent",
+     "j": "Ces applicateurs sont ceux des micro-ondes."
+    },
+    {
+     "t": "Le capacitif, avec plusieurs dispositions, et l'inductif par bobine",
+     "correct": true,
+     "j": "Le capacitif se décline en coplanaire, controlatéral ou longitudinal."
+    },
+    {
+     "t": "L'aiguille guidée par ultrasons, en percutané",
+     "j": "Cette technique est celle de l'électrolyse percutanée."
+    }
+   ]
+  },
+  {
+   "q": "Quel est le risque de brûlure comparé entre ondes courtes et micro-ondes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Plus élevé avec les ondes courtes, du fait de leur profondeur",
+     "j": "Leur chauffage plus uniforme réduit au contraire ce risque."
+    },
+    {
+     "t": "Identique pour les deux, le risque dépendant de la seule durée",
+     "j": "Le risque diffère nettement selon la modalité employée."
+    },
+    {
+     "t": "Plus élevé avec les micro-ondes, surtout sur les proéminences osseuses",
+     "correct": true,
+     "j": "Les ondes courtes chauffent de façon plus uniforme et plus étendue."
+    }
+   ]
+  },
+  {
+   "q": "Quelle application clinique est typique des micro-ondes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Les tendinites et bursites, sur des zones superficielles et localisées",
+     "correct": true,
+     "j": "Elles conviennent aux structures petites ou accessibles comme l'épaule ou le coude."
+    },
+    {
+     "t": "L'arthrite et les contractures musculaires profondes",
+     "j": "Ces indications relèvent des ondes courtes, plus pénétrantes."
+    },
+    {
+     "t": "Les lombalgies et les atteintes profondes de la hanche",
+     "j": "Les zones étendues ou profondes appellent les ondes courtes."
+    }
+   ]
+  },
+  {
+   "q": "Quel appareil délivre les micro-ondes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "La bobine inductive",
+     "j": "La bobine sert à l'application inductive des ondes courtes."
+    },
+    {
+     "t": "Le magnétron",
+     "correct": true,
+     "j": "Il se décline en applicateur focalisé, plat allongé ou convergent."
+    },
+    {
+     "t": "L'électrode capacitive recouverte d'un isolant",
+     "j": "Cette électrode appartient à la diathermie de contact."
+    }
+   ]
+  },
+  {
+   "q": "Que produit la fréquence thermique en ondes courtes et micro-ondes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Un rééquilibrage ionique et une meilleure fonction de la pompe sodium-potassium",
+     "j": "Ces effets relèvent de la fréquence athermique."
+    },
+    {
+     "t": "Une augmentation de la synthèse d'ATP sans élévation de température",
+     "j": "Cet effet appartient également au registre athermique."
+    },
+    {
+     "t": "Vasodilatation et hyperthermie, avec liquéfaction des tissus denses",
+     "correct": true,
+     "j": "S'y ajoutent l'apport de nutriments et l'évacuation de l'œdème chronique."
+    }
+   ]
+  },
+  {
+   "q": "Quels effets thérapeutiques obtient-on en mode athermique ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Régénération tissulaire, cicatrisation, analgésie et effet anti-œdème",
+     "correct": true,
+     "j": "Ils découlent du rééquilibrage ionique et de l'amélioration du métabolisme cellulaire."
+    },
+    {
+     "t": "Détente musculaire et augmentation de l'élasticité des tissus mous",
+     "j": "Ces effets procèdent de l'application thermique."
+    },
+    {
+     "t": "Liquéfaction des tissus denses et évacuation de l'œdème chronique",
+     "j": "Ces effets sont liés à la vasodilatation thermique."
+    }
+   ]
+  },
+  {
+   "q": "Laquelle de ces situations contre-indique l'application thermique d'ondes courtes ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Une raideur articulaire d'origine rhumatologique ancienne",
+     "j": "La raideur articulaire figure parmi les indications."
+    },
+    {
+     "t": "Un hématome ou une rupture tissulaire récente",
+     "correct": true,
+     "j": "Processus inflammatoires aigus, thrombophlébite et ostéosynthèse le sont aussi."
+    },
+    {
+     "t": "Une douleur musculo-squelettique chronique du bas du dos",
+     "j": "La douleur chronique est une indication reconnue."
+    }
+   ]
+  },
+  {
+   "q": "Laquelle de ces situations contre-indique l'application athermique ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Une bursite sous-deltoïdienne en phase subaiguë",
+     "j": "Cette atteinte figure parmi les indications musculo-squelettiques."
+    },
+    {
+     "t": "Un ulcère de pression cutanée en cours de cicatrisation",
+     "j": "La cicatrisation des plaies est au contraire une indication."
+    },
+    {
+     "t": "Une tuberculose, active comme inactive",
+     "correct": true,
+     "j": "Processus tumoraux, grossesse et porteurs de stimulateur le sont également."
+    }
+   ]
+  },
+  {
+   "q": "Sur quelles régions l'application athermique est-elle proscrite ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "Le crâne, les yeux, les oreilles et les gonades",
+     "correct": true,
+     "j": "Une attention particulière s'impose aussi sur les zones de glandes endocrines."
+    },
+    {
+     "t": "Les grandes articulations portantes comme la hanche et le genou",
+     "j": "Ces régions font au contraire partie des zones traitées."
+    },
+    {
+     "t": "Les masses musculaires du membre inférieur",
+     "j": "Aucune restriction ne vise ces masses musculaires."
+    }
+   ]
+  },
+  {
+   "q": "Pour quelle indication neurologique les ondes courtes sont-elles proposées ?",
+   "c": 11,
+   "options": [
+    {
+     "t": "La rééducation des troubles de l'équilibre d'origine centrale",
+     "j": "Aucune indication de ce type n'est mentionnée."
+    },
+    {
+     "t": "La réparation des nerfs périphériques, par augmentation de la vitesse de conduction",
+     "correct": true,
+     "j": "Elles peuvent également favoriser la régénération nerveuse."
+    },
+    {
+     "t": "Le traitement des spasticités d'origine médullaire",
+     "j": "La spasticité ne figure pas parmi les indications retenues."
+    }
+   ]
+  },
+  {
+   "q": "Comment naissent les courants interférentiels ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "De l'alternance rapide de la polarité d'un courant continu",
+     "j": "Le courant continu galvanique ne change précisément pas de polarité."
+    },
+    {
+     "t": "De la modulation d'un courant de haute fréquence par un oscillateur",
+     "j": "Ce principe correspond à la diathermie, non aux interférentiels."
+    },
+    {
+     "t": "De l'interférence de deux courants sinusoïdaux de moyenne fréquence",
+     "correct": true,
+     "j": "Leur croisement engendre un battement de basse fréquence dans le tissu."
+    }
+   ]
+  },
+  {
+   "q": "Dans quelle gamme se situe la moyenne fréquence ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "De 1 000 à 100 000 Hz, parfois jusqu'à 500 000 Hz",
+     "correct": true,
+     "j": "Cette gamme explique la faible impédance cutanée rencontrée."
+    },
+    {
+     "t": "De 1 à 1 000 Hz, comme les courants de basse fréquence",
+     "j": "Cette gamme est celle de la basse fréquence."
+    },
+    {
+     "t": "Au-delà de 300 kHz, comme en radiofréquence",
+     "j": "Au-delà de ce seuil on entre dans la haute fréquence."
+    }
+   ]
+  },
+  {
+   "q": "Avec un courant porteur à 4 000 Hz et un second à 4 100 Hz, quelle est la fréquence résultante ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "4 050 Hz, soit la moyenne des deux fréquences appliquées",
+     "j": "La résultante n'est pas une moyenne mais une différence."
+    },
+    {
+     "t": "100 Hz, soit la différence entre les deux fréquences",
+     "correct": true,
+     "j": "La fréquence de battement correspond à l'écart entre les deux courants."
+    },
+    {
+     "t": "8 100 Hz, soit la somme des deux fréquences appliquées",
+     "j": "L'addition des fréquences ne correspond à aucun phénomène observé ici."
+    }
+   ]
+  },
+  {
+   "q": "Qu'est-ce qui distingue un courant interférentiel modulé d'un pré-modulé ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "L'intensité maximale délivrée au patient pendant la séance",
+     "j": "L'intensité est un réglage indépendant du mode de modulation."
+    },
+    {
+     "t": "Le nombre d'électrodes nécessaires à l'application du courant",
+     "j": "Le nombre d'électrodes découle du mode choisi sans le définir."
+    },
+    {
+     "t": "Le lieu où se forme la modulation d'amplitude : le tissu ou l'appareil",
+     "correct": true,
+     "j": "Dans le pré-modulé, le signal sort déjà modulé de l'appareil."
+    }
+   ]
+  },
+  {
+   "q": "Quelle application privilégier pour une douleur locale comme une tendinopathie ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "L'application pré-modulée, au flux linéaire et à zone réduite",
+     "correct": true,
+     "j": "Elle convient aussi au traitement d'un point gâchette."
+    },
+    {
+     "t": "L'application modulée, au volume tridimensionnel plus large",
+     "j": "Ce mode convient aux zones étendues comme la lombalgie."
+    },
+    {
+     "t": "L'application galvanique continue par électrode active",
+     "j": "Le courant galvanique relève d'une tout autre modalité."
+    }
+   ]
+  },
+  {
+   "q": "Pourquoi la moyenne fréquence permet-elle des intensités plus élevées ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Le courant est délivré par impulsions très brèves et espacées",
+     "j": "La durée des impulsions n'explique pas la tolérance obtenue."
+    },
+    {
+     "t": "La peau oppose une faible impédance aux fréquences porteuses",
+     "correct": true,
+     "j": "Le confort du patient est préservé malgré une intensité supérieure."
+    },
+    {
+     "t": "Les électrodes employées présentent une surface plus grande",
+     "j": "La surface des électrodes n'est pas le facteur déterminant ici."
+    }
+   ]
+  },
+  {
+   "q": "Que se produit-il si la fréquence appliquée devient trop élevée ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "La profondeur de pénétration du courant diminue fortement",
+     "j": "Une fréquence plus élevée améliore au contraire la pénétration."
+    },
+    {
+     "t": "Le risque de brûlure cutanée augmente proportionnellement",
+     "j": "Le risque de brûlure dépend de l'intensité, non de la fréquence."
+    },
+    {
+     "t": "Des impulsions tombent en période réfractaire et la force diminue",
+     "correct": true,
+     "j": "La plaque motrice se fatigue sans qu'un nouveau potentiel d'action soit déclenché."
+    }
+   ]
+  },
+  {
+   "q": "À partir de quelle fréquence recherche-t-on l'effet analgésique ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Au-dessus de 4 000 Hz",
+     "correct": true,
+     "j": "L'effet excitomoteur s'obtient quant à lui au-delà de 2 500 Hz."
+    },
+    {
+     "t": "Au-dessus de 2 500 Hz",
+     "j": "Cette valeur correspond au seuil de l'effet excitomoteur."
+    },
+    {
+     "t": "Au-dessus de 100 Hz",
+     "j": "Cette fréquence est celle du battement résultant, non du porteur."
+    }
+   ]
+  },
+  {
+   "q": "Sur quelle théorie repose l'effet neurophysiologique des interférentiels ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "La théorie de la dépolarisation progressive de la plaque motrice",
+     "j": "Cette théorie ne rend pas compte de l'effet antalgique recherché."
+    },
+    {
+     "t": "La théorie du contrôle de la porte",
+     "correct": true,
+     "j": "L'effet métabolique s'y ajoute par augmentation de la synthèse et du flux circulatoire."
+    },
+    {
+     "t": "La théorie de la libération hypophysaire d'endorphines",
+     "j": "Ce mécanisme n'est pas celui qui est invoqué pour cette modalité."
+    }
+   ]
+  },
+  {
+   "q": "Quelle fréquence d'impulsion retenir dans une affection aiguë ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Entre 1 et 10 Hz",
+     "j": "Ces très basses fréquences ne correspondent pas au réglage recommandé."
+    },
+    {
+     "t": "Au-delà de 4 000 Hz",
+     "j": "Cette valeur concerne le courant porteur et non la fréquence d'impulsion."
+    },
+    {
+     "t": "Entre 75 et 100 Hz",
+     "correct": true,
+     "j": "Les affections chroniques appellent au contraire une fréquence inférieure à 75 Hz."
+    }
+   ]
+  },
+  {
+   "q": "Quel risque guette si les mêmes paramètres sont maintenus toute la séance ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "L'accoutumance",
+     "correct": true,
+     "j": "On y remédie en faisant varier l'intensité ou la fréquence."
+    },
+    {
+     "t": "La brûlure cutanée sous les électrodes",
+     "j": "La brûlure est liée au dépassement de l'intensité, non à la constance des réglages."
+    },
+    {
+     "t": "La contraction tétanique involontaire du muscle traité",
+     "j": "Ce risque provient d'une augmentation excessive de l'intensité."
+    }
+   ]
+  },
+  {
+   "q": "Quelle intensité ne faut-il jamais dépasser ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "50 mA, seuil au-delà duquel la douleur devient intolérable",
+     "j": "Le seuil de sécurité retenu est nettement plus bas."
+    },
+    {
+     "t": "20 mA, au risque de provoquer des brûlures",
+     "correct": true,
+     "j": "Augmenter l'intensité expose aussi à des contractions tétaniques gênantes."
+    },
+    {
+     "t": "10 mA, limite de la sensibilité confortable du patient",
+     "j": "Cette valeur est inférieure au seuil de sécurité indiqué."
+    }
+   ]
+  },
+  {
+   "q": "Que désigne la largeur dans la modulation de fréquence ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "La vitesse à laquelle la fréquence monte puis redescend",
+     "j": "Cette vitesse correspond au taux de variation, exprimé en secondes."
+    },
+    {
+     "t": "La durée totale pendant laquelle le courant est délivré",
+     "j": "La durée du traitement est un paramètre distinct."
+    },
+    {
+     "t": "La déviation maximale du balayage autour de la fréquence choisie",
+     "correct": true,
+     "j": "À 90 Hz avec une largeur de ±10 Hz, l'appareil balaie de 80 à 100 Hz."
+    }
+   ]
+  },
+  {
+   "q": "Quel spectre de modulation retenir pour une affection aiguë ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Le spectre 6/6, dit triangulaire",
+     "correct": true,
+     "j": "La fréquence monte six secondes puis redescend aussitôt en six secondes."
+    },
+    {
+     "t": "Le spectre 1/1, dit carré",
+     "j": "Ce spectre est destiné aux déficiences persistantes."
+    },
+    {
+     "t": "Le spectre 1/30, dit trapézoïdal",
+     "j": "Ce spectre s'adresse aux affections subaiguës."
+    }
+   ]
+  },
+  {
+   "q": "Quelle intensité régler dans une affection persistante ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Une dose légère, produisant une sensation nette sans contraction",
+     "j": "Ce réglage correspond aux affections aiguës."
+    },
+    {
+     "t": "Une dose forte, provoquant une contraction puis légèrement diminuée",
+     "correct": true,
+     "j": "Dans l'aigu on se contente d'une dose légère, sans contraction musculaire."
+    },
+    {
+     "t": "Une dose maximale tolérée, maintenue toute la séance",
+     "j": "Maintenir l'intensité maximale expose à l'accoutumance et à la brûlure."
+    }
+   ]
+  },
+  {
+   "q": "Les interférentiels produisent-ils un effet polaire ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Oui, sous la cathode, comme avec le courant continu",
+     "j": "L'effet polaire caractérise le courant galvanique unidirectionnel."
+    },
+    {
+     "t": "Oui, mais seulement en application pré-modulée",
+     "j": "Le mode de modulation ne crée aucun effet polaire."
+    },
+    {
+     "t": "Non : le placement des électrodes n'engendre pas d'effet polaire",
+     "correct": true,
+     "j": "C'est une différence majeure avec le courant galvanique."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la durée d'une séance de courants interférentiels ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "De 5 à 30 minutes selon l'étendue traitée et la tolérance",
+     "correct": true,
+     "j": "On commence souvent par dix minutes avant d'allonger progressivement."
+    },
+    {
+     "t": "De 45 à 60 minutes, pour laisser agir le courant en profondeur",
+     "j": "Une telle durée dépasse largement ce qui est recommandé."
+    },
+    {
+     "t": "De 2 à 5 minutes, pour éviter toute accoutumance",
+     "j": "Une séance aussi brève ne permet pas d'obtenir l'effet recherché."
+    }
+   ]
+  },
+  {
+   "q": "Quel rythme de traitement est recommandé en courants interférentiels ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Une fois par semaine pendant trois mois consécutifs",
+     "j": "Ce rythme est trop espacé pour produire l'effet attendu."
+    },
+    {
+     "t": "Trois à cinq fois par semaine, pendant deux à quatre semaines",
+     "correct": true,
+     "j": "Une réévaluation intervient après six séances, visant au moins 30 % de réduction de la douleur."
+    },
+    {
+     "t": "Tous les jours pendant une semaine, puis arrêt définitif",
+     "j": "Ce schéma ne correspond pas aux recommandations cliniques."
+    }
+   ]
+  },
+  {
+   "q": "Qu'est-ce que le courant galvanique ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Un courant alternatif de moyenne fréquence modulé en amplitude",
+     "j": "Cette description est celle des courants interférentiels."
+    },
+    {
+     "t": "Un courant pulsé de basse fréquence à polarité alternée",
+     "j": "L'alternance de polarité est précisément ce qui manque au galvanique."
+    },
+    {
+     "t": "Un courant continu unidirectionnel, sans changement de polarité",
+     "correct": true,
+     "j": "Les électrons circulent en permanence du pôle positif vers le pôle négatif."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la nature des effets du courant galvanique ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Non thermiques : physiques et chimiques, par mouvement d'ions",
+     "correct": true,
+     "j": "Les effets thermiques y sont minimes et sans portée thérapeutique."
+    },
+    {
+     "t": "Thermiques, par résistance des tissus au passage du courant",
+     "j": "Cet échauffement existe mais ne constitue pas un effet thérapeutique."
+    },
+    {
+     "t": "Mécaniques, par vibration des structures traversées",
+     "j": "Aucun effet mécanique n'est produit par ce type de courant."
+    }
+   ]
+  },
+  {
+   "q": "Laquelle de ces modifications le courant galvanique produit-il ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Une élévation marquée de la température des tissus traversés",
+     "j": "Les effets thermiques sont au contraire minimes."
+    },
+    {
+     "t": "Une augmentation de la perméabilité des membranes cellulaires",
+     "correct": true,
+     "j": "Il module aussi le seuil d'excitabilité des terminaisons nerveuses."
+    },
+    {
+     "t": "Une contraction tétanique soutenue du muscle sous-jacent",
+     "j": "La contraction tétanique relève des courants excitomoteurs."
+    }
+   ]
+  },
+  {
+   "q": "Que désignent les effets interpolaires du courant galvanique ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Les effets chimiques produits directement sous chaque électrode",
+     "j": "Ces effets locaux constituent précisément l'effet polaire."
+    },
+    {
+     "t": "Les effets ressentis à distance, dans le membre controlatéral",
+     "j": "Aucun effet controlatéral n'est décrit pour cette modalité."
+    },
+    {
+     "t": "Les effets survenant dans l'espace situé entre cathode et anode",
+     "correct": true,
+     "j": "Ils portent sur l'excitabilité nerveuse, la circulation et le métabolisme."
+    }
+   ]
+  },
+  {
+   "q": "Quel est l'objectif principal de l'iontophorèse ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Introduire une substance ionisée à travers la peau par le courant",
+     "correct": true,
+     "j": "Le mouvement des ions s'obtient par répulsion entre charges de même signe."
+    },
+    {
+     "t": "Provoquer une réaction électrochimique dans un tendon dégénéré",
+     "j": "Cette réaction est celle de l'électrolyse percutanée."
+    },
+    {
+     "t": "Stimuler la contraction d'un muscle dénervé par le courant continu",
+     "j": "L'excitation musculaire n'est pas la finalité de l'iontophorèse."
+    }
+   ]
+  },
+  {
+   "q": "Que faut-il impérativement connaître avant une iontophorèse ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "La profondeur exacte de la lésion que l'on souhaite atteindre",
+     "j": "La profondeur ne conditionne pas le choix de la polarité."
+    },
+    {
+     "t": "La charge ionique de la substance que l'on souhaite introduire",
+     "correct": true,
+     "j": "Elle détermine l'électrode sous laquelle placer le produit."
+    },
+    {
+     "t": "La surface corporelle totale du patient que l'on traite",
+     "j": "Cette donnée n'intervient pas dans le réglage de la technique."
+    }
+   ]
+  },
+  {
+   "q": "Par quelles voies les substances traversent-elles la peau en iontophorèse ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Les capillaires sanguins du derme superficiel",
+     "j": "Les capillaires assurent la diffusion ultérieure, non le franchissement cutané."
+    },
+    {
+     "t": "Les terminaisons nerveuses libres de l'épiderme",
+     "j": "Les terminaisons nerveuses ne constituent pas une voie de passage."
+    },
+    {
+     "t": "Les follicules pileux, les glandes sudoripares et sébacées",
+     "correct": true,
+     "j": "Ces annexes cutanées offrent les voies de moindre résistance."
+    }
+   ]
+  },
+  {
+   "q": "Quel inconvénient présente l'iontophorèse ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Elle ne peut être employée qu'avec des substances ionisées",
+     "correct": true,
+     "j": "Elle peut en outre provoquer des effets indésirables généraux."
+    },
+    {
+     "t": "Elle impose une application douloureuse pour être efficace",
+     "j": "L'application est au contraire indolore."
+    },
+    {
+     "t": "Elle produit des effets systémiques et jamais locaux",
+     "j": "Ses effets sont précisément locaux."
+    }
+   ]
+  },
+  {
+   "q": "En quoi consiste l'électrolyse percutanée thérapeutique ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "À introduire un médicament ionisé à travers la peau intacte",
+     "j": "Cette description est celle de l'iontophorèse."
+    },
+    {
+     "t": "À appliquer un courant galvanique par une aiguille guidée par ultrasons",
+     "correct": true,
+     "j": "Elle vise les tissus mous lésés comme les tendons, ligaments ou muscles."
+    },
+    {
+     "t": "À chauffer le tendon en profondeur par une électrode résistive",
+     "j": "Ce mécanisme est celui de la diathermie résistive."
+    }
+   ]
+  },
+  {
+   "q": "Quel phénomène l'électrolyse percutanée déclenche-t-elle dans le tissu ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Une élévation thermique locale au-delà de quarante degrés",
+     "j": "La réaction produite est expressément non thermique."
+    },
+    {
+     "t": "Une vasoconstriction réflexe du lit capillaire environnant",
+     "j": "Aucune vasoconstriction n'est recherchée par cette technique."
+    },
+    {
+     "t": "Une réaction électrochimique non thermique, dite ablation cathodique",
+     "correct": true,
+     "j": "Elle provoque une inflammation contrôlée dans le tissu dégénéré."
+    }
+   ]
+  },
+  {
+   "q": "Pourquoi l'inflammation provoquée par l'électrolyse percutanée est-elle utile ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Elle réactive la phagocytose et la réparation du tissu dégénéré",
+     "correct": true,
+     "j": "Brève mais nécessaire, elle relance la cicatrisation des tendinopathies chroniques."
+    },
+    {
+     "t": "Elle détruit définitivement les fibres nerveuses nociceptives locales",
+     "j": "Aucune destruction nerveuse n'est visée par la technique."
+    },
+    {
+     "t": "Elle entretient un état inflammatoire durable dans la zone traitée",
+     "j": "L'inflammation induite est au contraire brève et contrôlée."
+    }
+   ]
+  },
+  {
+   "q": "Quel avantage l'électrolyse percutanée tire-t-elle du guidage échographique ?",
+   "c": 13,
+   "options": [
+    {
+     "t": "Une diminution de la douleur ressentie lors de l'insertion",
+     "j": "Le guidage sert la précision du geste, non le confort du patient."
+    },
+    {
+     "t": "Une précision thérapeutique par traitement local et spécifique",
+     "correct": true,
+     "j": "Les changements structurels sont visibles en temps réel pendant la séance."
+    },
+    {
+     "t": "Une réduction du nombre d'électrodes nécessaires à la séance",
+     "j": "La technique n'emploie pas d'électrodes de surface."
     }
    ]
   }

@@ -202,43 +202,7 @@ const CURSUS = {
                     "accent": "#b35c38"
                   }
                 ]
-              }
-            }
-          },
-          "S2": {
-            "label": "Semestre 2",
-            "matieres": {
-              "pathologie2": {
-                "label": "Pathologie 2",
-                "accent": "#c08a3e",
-                "modules": [
-                  {
-                    "id": "pathologie2",
-                    "label": "Examen — 4 propositions",
-                    "bankKey": "pathologie2",
-                    "optionCount": 4,
-                    "accent": "#c08a3e"
-                  }
-                ]
               },
-              "santePublique": {
-                "label": "Santé Publique",
-                "accent": "#5a8a6a",
-                "modules": [
-                  {
-                    "id": "santePublique",
-                    "label": "Examen — 4 propositions",
-                    "bankKey": "santePublique",
-                    "optionCount": 4,
-                    "accent": "#5a8a6a"
-                  }
-                ]
-              }
-            }
-          },
-          "N1": {
-            "label": "Nouveau programme · Semestre 1",
-            "matieres": {
               "biomecanique": {
                 "label": "Biomécanique",
                 "accent": "#14b8a6",
@@ -275,6 +239,37 @@ const CURSUS = {
                     "bankKey": "procedimiento1",
                     "optionCount": 3,
                     "accent": "#6366f1"
+                  }
+                ]
+              }
+            }
+          },
+          "S2": {
+            "label": "Semestre 2",
+            "matieres": {
+              "pathologie2": {
+                "label": "Pathologie 2",
+                "accent": "#c08a3e",
+                "modules": [
+                  {
+                    "id": "pathologie2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "pathologie2",
+                    "optionCount": 4,
+                    "accent": "#c08a3e"
+                  }
+                ]
+              },
+              "santePublique": {
+                "label": "Santé Publique",
+                "accent": "#5a8a6a",
+                "modules": [
+                  {
+                    "id": "santePublique",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "santePublique",
+                    "optionCount": 4,
+                    "accent": "#5a8a6a"
                   }
                 ]
               }

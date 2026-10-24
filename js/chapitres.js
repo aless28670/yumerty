@@ -2486,5 +2486,87 @@ window.CHAPITRES = {
    "id": 3,
    "nom": "3 — Marche pathologique"
   }
+ ],
+ "procedimiento1": [
+  {
+   "id": 1,
+   "nom": "Effets neurophysiologiques de la thérapie manuelle"
+  },
+  {
+   "id": 2,
+   "nom": "Maitland"
+  },
+  {
+   "id": 3,
+   "nom": "Mulligan"
+  },
+  {
+   "id": 4,
+   "nom": "McKenzie"
+  },
+  {
+   "id": 5,
+   "nom": "Tissus mous"
+  },
+  {
+   "id": 6,
+   "nom": "Neurodynamique"
+  },
+  {
+   "id": 7,
+   "nom": "Exercice thérapeutique"
+  },
+  {
+   "id": 8,
+   "nom": "Colonne cervicale"
+  },
+  {
+   "id": 9,
+   "nom": "Colonne lombaire"
+  },
+  {
+   "id": 10,
+   "nom": "Douleur thoracique"
+  },
+  {
+   "id": 11,
+   "nom": "Électrothérapie — haute fréquence (diathermie, ondes courtes, micro-ondes)"
+  },
+  {
+   "id": 12,
+   "nom": "Électrothérapie — basse fréquence (TENS)"
+  },
+  {
+   "id": 13,
+   "nom": "Électrothérapie — moyenne fréquence (interférentiels et galvanique)"
+  },
+  {
+   "id": 14,
+   "nom": "Ceinture scapulaire et épaule"
+  },
+  {
+   "id": 15,
+   "nom": "Coude"
+  },
+  {
+   "id": 16,
+   "nom": "Poignet et main"
+  },
+  {
+   "id": 17,
+   "nom": "Neuropathies du membre supérieur"
+  },
+  {
+   "id": 18,
+   "nom": "Hanche"
+  },
+  {
+   "id": 19,
+   "nom": "Genou"
+  },
+  {
+   "id": 20,
+   "nom": "Complexe cheville-pied"
+  }
  ]
 };
