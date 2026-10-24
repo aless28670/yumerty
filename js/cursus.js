@@ -477,7 +477,33 @@ const CURSUS = {
           },
           "N2": {
             "label": "Semestre 2",
-            "matieres": {}
+            "matieres": {
+              "cardiorrespiratoria": {
+                "label": "Cardiorrespiratoria",
+                "accent": "#ef4444",
+                "modules": []
+              },
+              "neurologie2N": {
+                "label": "Neurologie 2",
+                "accent": "#6366f1",
+                "modules": []
+              },
+              "pathologie4": {
+                "label": "Pathologie 4",
+                "accent": "#f43f5e",
+                "modules": []
+              },
+              "procedimientos4": {
+                "label": "Procedimientos 4",
+                "accent": "#0ea5e9",
+                "modules": []
+              },
+              "sueloPelvico": {
+                "label": "Suelo Pélvico",
+                "accent": "#ec4899",
+                "modules": []
+              }
+            }
           }
         },
         "programmes": {
@@ -534,7 +560,23 @@ const CURSUS = {
           },
           "S2": {
             "label": "Semestre 2",
-            "matieres": {}
+            "matieres": {
+              "deportiva3": {
+                "label": "Deportiva 3",
+                "accent": "#22c55e",
+                "modules": []
+              },
+              "obstetrica": {
+                "label": "Obstétrica et Uroginecológica",
+                "accent": "#ec4899",
+                "modules": []
+              },
+              "ortopedica3": {
+                "label": "Ortopédica 3",
+                "accent": "#f59e0b",
+                "modules": []
+              }
+            }
           }
         }
       }

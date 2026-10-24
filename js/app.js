@@ -571,6 +571,21 @@ function construireQuestions(bank, chosen) {
   });
 }
 
+/* Compte les matières d'un semestre : celles réellement jouables (≥ 1 module) et le total
+   déclaré. Une matière annoncée mais sans module compte comme « à venir », jamais comme
+   disponible — sans quoi le site promettrait des examens qui n'existent pas encore. */
+function countMatieres(semestre) {
+  const ms = Object.values((semestre && semestre.matieres) || {});
+  return { prets: ms.filter(m => (m.modules || []).length > 0).length, total: ms.length };
+}
+
+/* Libellé et état d'une carte à partir de ces deux compteurs. */
+function dispoMeta(prets, total, mot) {
+  if (total === 0) return { meta: "Bientôt disponible", disabled: true };
+  if (prets === 0) return { meta: total + " " + mot + (total > 1 ? "s" : "") + " · bientôt", disabled: false };
+  return { meta: prets + " " + mot + (prets > 1 ? "s" : "") + " disponible" + (prets > 1 ? "s" : ""), disabled: false };
+}
+
 /* ----------- Navigation system (Cursus → Année → [Programme] → Semestre → Matière → Modules) ----------- */
 
 /* Renvoie l'objet `programmes` d'une année si elle en déclare un (K3 : ancien / nouveau),
@@ -692,15 +707,17 @@ function renderNav() {
     subtitle.textContent = "";
     list.dataset.layout = "years";
     Object.entries(c.years).forEach(([yk, y], i) => {
-      const totalMatieres = Object.values(y.semesters || {}).reduce(
-        (n, s) => n + Object.keys(s.matieres || {}).length, 0);
+      const cy = Object.values(y.semesters || {}).reduce((acc, s) => {
+        const c = countMatieres(s); acc.prets += c.prets; acc.total += c.total; return acc;
+      }, { prets: 0, total: 0 });
+      const dy = dispoMeta(cy.prets, cy.total, "matière");
       const ordinal = (i + 1) === 1 ? "1ère année" : (i + 1) + "ème année";
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
         eyebrow: ordinal,
         title: y.label,
-        meta: totalMatieres > 0 ? totalMatieres + " matière" + (totalMatieres > 1 ? "s" : "") : "Bientôt disponible",
-        disabled: totalMatieres === 0,
+        meta: dy.meta,
+        disabled: dy.disabled,
         accent: c.accent,
         data: { year: yk, level: y.programmes ? "programmes" : "semesters" }
       }));
@@ -712,14 +729,16 @@ function renderNav() {
     subtitle.textContent = "";
     list.dataset.layout = "programmes";
     Object.entries(y.programmes).forEach(([pk, p], i) => {
-      const n = (p.semesters || []).reduce(
-        (acc, sk) => acc + Object.keys(((y.semesters || {})[sk] || {}).matieres || {}).length, 0);
+      const cp = (p.semesters || []).reduce((acc, sk) => {
+        const c2 = countMatieres((y.semesters || {})[sk]); acc.prets += c2.prets; acc.total += c2.total; return acc;
+      }, { prets: 0, total: 0 });
+      const dp = dispoMeta(cp.prets, cp.total, "matière");
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
         eyebrow: c.label.toUpperCase() + " · " + (y.long || y.label),
         title: p.label,
-        meta: n > 0 ? n + " matière" + (n > 1 ? "s" : "") : "Bientôt disponible",
-        disabled: n === 0,
+        meta: dp.meta,
+        disabled: dp.disabled,
         accent: c.accent,
         data: { programme: pk, level: "semesters" }
       }));
@@ -733,13 +752,14 @@ function renderNav() {
     const p = y.programmes && state.nav.programme ? y.programmes[state.nav.programme] : null;
     if (p) { title.textContent = y.label; subtitle.textContent = p.label; }
     visibleSemesterKeys(y, state.nav.programme).map(sk => [sk, (y.semesters || {})[sk]]).filter(([, s]) => s).forEach(([sk, s], i) => {
-      const matCount = Object.keys(s.matieres || {}).length;
+      const cs = countMatieres(s);
+      const ds = dispoMeta(cs.prets, cs.total, "matière");
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
         eyebrow: c.label.toUpperCase() + " · " + (y.long || y.label),
         title: s.label,
-        meta: matCount > 0 ? matCount + " matière" + (matCount > 1 ? "s" : "") + " disponible" + (matCount > 1 ? "s" : "") : "Bientôt disponible",
-        disabled: matCount === 0,
+        meta: ds.meta,
+        disabled: ds.disabled,
         accent: c.accent,
         data: { semester: sk, level: "matieres" }
       }));
