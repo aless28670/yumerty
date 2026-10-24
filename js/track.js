@@ -82,6 +82,7 @@
      supérieure au battement, sinon un visiteur actif apparaît hors ligne entre deux signaux. */
   var BATTEMENT = 10 * 60000;
   var CLE_BATT = "ym_dernier_signal";   // horodatage du dernier signal, PARTAGÉ entre les onglets
+  var CLE_RECHARGE = "ym_recharge_version";  // sessionStorage : ce chargement est un rechargement auto
 
   /* ⭐ DEUX FUITES D'ÉCRITURES, corrigées le 2026-10-24 (quota épuisé avant 18 h UTC).
      Le battement était bien espacé de 10 min, mais deux chemins le contournaient :
@@ -256,8 +257,21 @@
   // js/app.js appelle window.__ymTrack("quiz") au lancement d'un quiz : on le lui rend.
   window.__ymTrack = pister;
 
+  /* ⭐ UN RECHARGEMENT QUE NOUS AVONS PROVOQUÉ N'EST PAS UNE VISITE.
+     Le surveillant de version, plus bas, recharge les onglets ouverts à chaque déploiement.
+     Chacun de ces rechargements envoyait une « vue » — donc une écriture KV — alors que
+     personne n'est arrivé sur le site : le visiteur était déjà là, déjà compté. Le 2026-10-24,
+     une dizaine de déploiements d'affilée ont ainsi consommé une part du quota du jour pour
+     des visites qui n'ont jamais eu lieu, et faussé le compteur de pages vues.
+     On marque donc le rechargement avant de le déclencher, et on saute la vue au retour. */
+  var rechargeAuto = false;
+  try {
+    rechargeAuto = sessionStorage.getItem(CLE_RECHARGE) === "1";
+    if (rechargeAuto) sessionStorage.removeItem(CLE_RECHARGE);
+  } catch (e) {}
+
   vider();
-  pister("view");
+  if (!rechargeAuto) pister("view");
 
   var minuteur = null;
   function battre() {
@@ -307,6 +321,8 @@
   function rechargerSiPossible() {
     if (!perime) return;
     if (quizEnCours() && document.visibilityState === "visible") return;   // on laisse finir
+    // Marque lue au prochain chargement pour ne pas compter ce rechargement comme une visite.
+    try { sessionStorage.setItem(CLE_RECHARGE, "1"); } catch (err) {}
     try { location.reload(); } catch (err) {}
   }
   function surveillerVersion() {
