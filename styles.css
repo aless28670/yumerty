@@ -2329,3 +2329,71 @@ html { scroll-behavior: smooth; }
   cursor:pointer;opacity:.85;transition:opacity .15s,transform .15s}
 .chap-part-btn:hover{opacity:1;transform:translateY(-1px)}
 .chap-part-btn:active{transform:translateY(0)}
+
+/* ===== Parcours de révision : Mi-terme / Final / Tout / Personnaliser ===== */
+.revise{margin-top:1.15rem}
+.revise-q{margin:0 0 .85rem;font-size:.95rem;font-weight:650;letter-spacing:.01em}
+.revise-scope{font-weight:500;opacity:.7;font-size:.86rem}
+
+.scope-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem}
+.scope-btn{appearance:none;cursor:pointer;text-align:left;font:inherit;
+  display:flex;flex-direction:column;gap:.22rem;padding:.85rem 1rem;border-radius:14px;
+  color:inherit;
+  border:1px solid rgba(var(--accent-rgb),.28);
+  background:linear-gradient(145deg,rgba(var(--accent-rgb),.13),rgba(var(--accent-rgb),.05));
+  box-shadow:0 1px 0 rgba(255,255,255,.05) inset;
+  transition:transform .16s cubic-bezier(.2,.8,.3,1),box-shadow .16s,border-color .16s,background .16s}
+.scope-btn:hover{transform:translateY(-2px);border-color:rgba(var(--accent-rgb),.6);
+  background:linear-gradient(145deg,rgba(var(--accent-rgb),.22),rgba(var(--accent-rgb),.09));
+  box-shadow:0 10px 26px -14px rgba(var(--accent-rgb),.75)}
+.scope-btn:active{transform:translateY(0)}
+.scope-name{font-weight:700;font-size:1rem;color:var(--accent)}
+.scope-sub{font-size:.8rem;opacity:.7}
+
+.revise-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-top:.95rem}
+.revise-go{appearance:none;cursor:pointer;font:inherit;font-weight:700;border:0;border-radius:999px;
+  padding:.6rem 1.4rem;color:#0b0f14;background:var(--accent);
+  box-shadow:0 8px 22px -12px rgba(var(--accent-rgb),.9);transition:transform .15s,box-shadow .15s}
+.revise-go:hover{transform:translateY(-1px);box-shadow:0 12px 28px -12px rgba(var(--accent-rgb),1)}
+.revise-back{appearance:none;cursor:pointer;font:inherit;font-size:.86rem;border:0;background:none;
+  color:inherit;opacity:.65;padding:.4rem 0;margin-top:.7rem;transition:opacity .15s}
+.revise-back:hover{opacity:1}
+.revise-step[data-step="chapters"] .chap-grid{max-height:min(46vh,380px);overflow:auto;padding-right:.25rem}
+
+/* ===== Couleur permanente sur les cartes de navigation =====
+   Avant, l'accent n'apparaissait qu'au survol : toutes les cartes se ressemblaient et
+   paraissaient grises. La teinte est désormais visible en permanence, et s'intensifie au survol. */
+.nav-card{
+  background:
+    linear-gradient(135deg, rgba(var(--accent-rgb),.055) 0%, rgba(var(--accent-rgb),.015) 60%, transparent 100%),
+    linear-gradient(135deg,#fbf9f4 0%,#f6f2ea 100%);
+  border-color:rgba(var(--accent-rgb),.22);
+}
+/* Liseré de couleur à gauche, toujours visible */
+.nav-card::after{
+  content:"";position:absolute;left:0;top:14%;bottom:14%;width:4px;border-radius:0 4px 4px 0;
+  background:linear-gradient(180deg,rgba(var(--accent-rgb),.35),rgb(var(--accent-rgb)),rgba(var(--accent-rgb),.35));
+  opacity:.85;transition:opacity .3s,top .3s,bottom .3s;pointer-events:none;
+}
+.nav-card:hover:not(:disabled)::after{opacity:1;top:6%;bottom:6%}
+.nav-card::before{background:radial-gradient(circle at 0% 50%, rgba(var(--accent-rgb),.14) 0%, transparent 58%)}
+.nav-card-number{color:rgba(var(--accent-rgb),.42)}
+.nav-card-accent-line{background:linear-gradient(180deg,transparent,rgba(var(--accent-rgb),.45),transparent)}
+.nav-card-arrow{color:rgba(var(--accent-rgb),.65)}
+.nav-card:hover:not(:disabled){
+  background:
+    linear-gradient(135deg, rgba(var(--accent-rgb),.13) 0%, rgba(var(--accent-rgb),.04) 65%, transparent 100%),
+    linear-gradient(135deg,#fefcf8 0%,#f7f1e7 100%);
+  box-shadow:0 0 0 1.5px rgba(var(--accent-rgb),.42),
+             0 26px 70px -24px rgba(var(--accent-rgb),.45);
+}
+/* Une matière à venir reste lisible et garde une trace de sa couleur */
+.nav-card-disabled{opacity:.62;filter:none;border-style:dashed;
+  border-color:rgba(var(--accent-rgb),.3);background:linear-gradient(135deg,#faf8f3,#f4f0e8)}
+.nav-card-disabled::after{opacity:.3}
+.nav-card-disabled .nav-card-number{color:rgba(40,35,28,.14)}
+.nav-card-disabled .nav-card-meta{font-weight:600;color:rgba(var(--accent-rgb),.8)}
+
+/* La carte de module reprend la même logique */
+.mode-card{border-color:rgba(var(--accent-rgb),.26)}
+.mode-card .mode-title{color:var(--accent)}

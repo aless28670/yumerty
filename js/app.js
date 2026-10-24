@@ -422,6 +422,116 @@ function chapterSummary(bank) {
   return sel.length + (sel.length > 1 ? " chapitres choisis" : " chapitre choisi");
 }
 
+/* Nombre de questions couvertes par une liste de chapitres (vide = tout le programme). */
+function nbQcuPour(bank, ids) {
+  const all = QUESTIONS[bank] || [];
+  if (!ids || !ids.length) return all.length;
+  return all.filter(q => chapitresDe(q).some(c => ids.indexOf(c) !== -1)).length;
+}
+
+/* Grille de chapitres nue, réutilisée par l'étape « Personnaliser ». */
+function chapterGridHtml(bank) {
+  const chaps = chaptersOf(bank) || [];
+  const sel = getChapterSelection(bank);
+  return chaps.map(ch => {
+    const on = sel.indexOf(ch.id) !== -1;
+    return `
+      <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
+        <span class="chap-chip-num">${ch.id}</span>
+        <span class="chap-chip-name">${escapeHtml(ch.nom)}</span>
+        <span class="chap-chip-tick" aria-hidden="true"></span>
+      </button>`;
+  }).join("");
+}
+
+/* Bloc « Que veux-tu réviser ? » : parties d'examen, tout le programme, ou personnalisé.
+   Remplace l'ancien tiroir de chapitres, qui obligeait à cocher chapitre par chapitre. */
+function reviseBlockHtml(bank) {
+  const chaps = chaptersOf(bank);
+  const parts = partiesOf(bank) || [];
+  const total = (QUESTIONS[bank] || []).length;
+  const btn = (scope, nom, sous) => `
+        <button type="button" class="scope-btn" data-scope="${escapeHtml(scope)}">
+          <span class="scope-name">${escapeHtml(nom)}</span>
+          <span class="scope-sub">${escapeHtml(sous)}</span>
+        </button>`;
+  const partsBtns = parts.map(p =>
+    btn("part:" + p.id, p.label === "Mid" ? "Mi-terme" : p.label, nbQcuPour(bank, p.chapitres) + " questions")).join("");
+  const customBtn = chaps ? btn("custom", "Personnaliser", "choisir mes chapitres") : "";
+  return `
+      <div class="revise" data-revise="${escapeHtml(bank)}">
+        <div class="revise-step" data-step="scope">
+          <p class="revise-q">Que veux-tu réviser&nbsp;?</p>
+          <div class="scope-grid">
+            ${partsBtns}
+            ${btn("all", "Tout le programme", total + " questions")}
+            ${customBtn}
+          </div>
+        </div>
+        <div class="revise-step" data-step="chapters" hidden>
+          <p class="revise-q">Choisis tes chapitres</p>
+          <div class="chap-grid">${chaps ? chapterGridHtml(bank) : ""}</div>
+          <div class="revise-actions">
+            <button type="button" class="revise-back" data-rev-back="scope">← Retour</button>
+            <button type="button" class="revise-go" data-rev-go>Continuer</button>
+          </div>
+        </div>
+        <div class="revise-step" data-step="format" hidden>
+          <p class="revise-q">Combien de questions&nbsp;? <span class="revise-scope"></span></p>
+          <div class="mode-card-actions">
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="20">20 QCU</button>
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="30">30 QCU</button>
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="40">40 QCU</button>
+          </div>
+          <button type="button" class="revise-back" data-rev-back="scope">← Changer ce que je révise</button>
+        </div>
+      </div>`;
+}
+
+/* Interactions du bloc de révision. */
+function wireReviseBlock(card, bank) {
+  const block = card.querySelector('[data-revise="' + bank + '"]');
+  if (!block) return;
+  const steps = {};
+  block.querySelectorAll(".revise-step").forEach(el => { steps[el.dataset.step] = el; });
+  const show = name => Object.entries(steps).forEach(([k, el]) => { el.hidden = (k !== name); });
+  const chips = () => Array.prototype.slice.call(block.querySelectorAll(".chap-chip"));
+
+  const allerAuFormat = (libelle, ids) => {
+    saveChapterSelection(bank, ids || []);
+    const n = nbQcuPour(bank, ids);
+    const sc = block.querySelector(".revise-scope");
+    if (sc) sc.textContent = "· " + libelle + " · " + n + " questions disponibles";
+    show("format");
+  };
+
+  block.addEventListener("click", e => {
+    const sb = e.target.closest("[data-scope]");
+    if (sb && block.contains(sb)) {
+      const sc = sb.dataset.scope;
+      if (sc === "all") return allerAuFormat("Tout le programme", []);
+      if (sc === "custom") { show("chapters"); return; }
+      const p = (partiesOf(bank) || []).find(x => "part:" + x.id === sc);
+      if (p) allerAuFormat(p.label === "Mid" ? "Mi-terme" : p.label, p.chapitres);
+      return;
+    }
+    const chip = e.target.closest(".chap-chip");
+    if (chip && block.contains(chip)) {
+      const on = !chip.classList.contains("is-on");
+      chip.classList.toggle("is-on", on);
+      chip.setAttribute("aria-pressed", on ? "true" : "false");
+      return;
+    }
+    const back = e.target.closest("[data-rev-back]");
+    if (back && block.contains(back)) { show(back.dataset.revBack); return; }
+    const go = e.target.closest("[data-rev-go]");
+    if (go && block.contains(go)) {
+      const ids = chips().filter(c => c.classList.contains("is-on")).map(c => Number(c.dataset.chapId));
+      allerAuFormat(ids.length ? ids.length + " chapitres" : "Tout le programme", ids);
+    }
+  });
+}
+
 /* Sélecteur de chapitres intégré à la carte du module. */
 function chapterBlockHtml(bank) {
   const chaps = chaptersOf(bank);
@@ -875,17 +985,12 @@ function renderNav() {
           </div>
           <h3 class="mode-title">${escapeHtml(mod.label)}</h3>
           <p class="mode-desc">${escapeHtml(mod.desc || ("QCU à " + mod.optionCount + " propositions. Score final ramené sur 10."))}</p>
-          ${chapterBlockHtml(mod.bankKey)}
-          <div class="mode-card-actions">
-            <button class="length-btn" data-bank-key="${escapeHtml(mod.bankKey)}" data-length="20">20 QCU</button>
-            <button class="length-btn" data-bank-key="${escapeHtml(mod.bankKey)}" data-length="30">30 QCU</button>
-            <button class="length-btn" data-bank-key="${escapeHtml(mod.bankKey)}" data-length="40">40 QCU</button>
-          </div>
+          ${reviseBlockHtml(mod.bankKey)}
         </div>
       `;
       applyBorderGlow(card, accent);
       list.appendChild(card);
-      wireChapterBlock(card, mod.bankKey);
+      wireReviseBlock(card, mod.bankKey);
     });
   }
 }
