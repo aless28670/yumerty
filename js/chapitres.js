@@ -2570,3 +2570,156 @@ window.CHAPITRES = {
   }
  ]
 };
+
+/* Parties d examen : permet de reviser tout le Mid ou tout le Final d une matiere
+   sans cocher les chapitres un a un. Les listes suivent exactement les dossiers de cours.
+   Une partie qui couvre TOUT le programme n est pas declaree : elle ferait doublon avec
+   le comportement par defaut (aucune selection = tout le programme). */
+window.PARTIES = {
+ "ethiqueLegislation": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "procedimiento1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "santePublique": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "id": "gestion",
+   "label": "Gestion",
+   "chapitres": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ]
+  }
+ ],
+ "pathologie1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  }
+ ]
+};

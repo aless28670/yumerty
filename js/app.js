@@ -397,12 +397,28 @@ function availableCount(bank) {
   return pool ? pool.size : (QUESTIONS[bank] || []).length;
 }
 
+/* Parties d'examen d'une matière (Mid / Final / Gestion), ou null si elle n'en déclare pas.
+   Une partie n'est retenue que si tous ses chapitres existent réellement dans la matière. */
+function partiesOf(bank) {
+  const defs = (typeof PARTIES !== "undefined" && PARTIES[bank]) || null;
+  const chaps = chaptersOf(bank);
+  if (!defs || !chaps) return null;
+  const ids = chaps.map(c => c.id);
+  const ok = defs.filter(p => p.chapitres.every(c => ids.indexOf(c) !== -1));
+  return ok.length ? ok : null;
+}
+
 /* Résumé affiché sur l'en-tête du sélecteur. */
 function chapterSummary(bank) {
   const chaps = chaptersOf(bank);
   if (!chaps) return "";
   const sel = getChapterSelection(bank);
   if (!sel.length) return "Tout le programme";
+  // Si la sélection est exactement une partie d'examen, on l'annonce par son nom.
+  const parts = partiesOf(bank) || [];
+  const meme = parts.find(p => p.chapitres.length === sel.length
+    && p.chapitres.every(c => sel.indexOf(c) !== -1));
+  if (meme) return meme.label + " — " + sel.length + " chapitres";
   return sel.length + (sel.length > 1 ? " chapitres choisis" : " chapitre choisi");
 }
 
@@ -411,6 +427,12 @@ function chapterBlockHtml(bank) {
   const chaps = chaptersOf(bank);
   if (!chaps) return "";
   const sel = getChapterSelection(bank);
+  const parts = partiesOf(bank);
+  const partsHtml = parts ? `
+        <div class="chap-parts">
+          <span class="chap-parts-label">Réviser une partie d'examen :</span>
+          ${parts.map(p => `<button type="button" class="chap-part-btn" data-chap-part="${escapeHtml(p.id)}">${escapeHtml(p.label)}</button>`).join("")}
+        </div>` : "";
   const chips = chaps.map(ch => {
     const on = sel.indexOf(ch.id) !== -1;
     return `
@@ -433,6 +455,7 @@ function chapterBlockHtml(bank) {
       <div class="chap-panel" hidden>
         <p class="chap-help">Choisis ce que tu as révisé. Sans sélection, les questions sont tirées dans tout le programme, comme à l'examen.</p>
         <div class="chap-grid">${chips}</div>
+        ${partsHtml}
         <div class="chap-bulk">
           <button type="button" class="chap-bulk-btn" data-chap-none>Effacer ma sélection — revenir à tout le programme</button>
         </div>
@@ -463,6 +486,21 @@ function wireChapterBlock(card, bank) {
     block.classList.toggle("chap-open", open);
   });
   block.addEventListener("click", e => {
+    // Bouton de partie : coche d'un coup tous les chapitres de ce Mid / Final.
+    const partBtn = e.target.closest("[data-chap-part]");
+    if (partBtn && block.contains(partBtn)) {
+      const parts = partiesOf(bank) || [];
+      const p = parts.find(x => x.id === partBtn.dataset.chapPart);
+      if (p) {
+        chips().forEach(c => {
+          const on = p.chapitres.indexOf(Number(c.dataset.chapId)) !== -1;
+          c.classList.toggle("is-on", on);
+          c.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        refresh();
+      }
+      return;
+    }
     const chip = e.target.closest(".chap-chip");
     if (!chip || !block.contains(chip)) return;
     const on = !chip.classList.contains("is-on");

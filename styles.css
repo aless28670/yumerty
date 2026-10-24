@@ -2320,3 +2320,12 @@ html { scroll-behavior: smooth; }
 @media (max-width: 640px) {
   .question-figure img { max-height: 38vh; }
 }
+
+/* Parties d'examen (Mid / Final) dans le sélecteur de chapitres */
+.chap-parts{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:0 0 .85rem}
+.chap-parts-label{font-size:.82rem;opacity:.75;margin-right:.15rem}
+.chap-part-btn{appearance:none;border:1px solid currentColor;background:transparent;color:inherit;
+  border-radius:999px;padding:.35rem .9rem;font:inherit;font-size:.85rem;font-weight:600;
+  cursor:pointer;opacity:.85;transition:opacity .15s,transform .15s}
+.chap-part-btn:hover{opacity:1;transform:translateY(-1px)}
+.chap-part-btn:active{transform:translateY(0)}
