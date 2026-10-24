@@ -2336,20 +2336,6 @@ html { scroll-behavior: smooth; }
 .revise-q{margin:0 0 .85rem;font-size:.95rem;font-weight:650;letter-spacing:.01em}
 .revise-scope{font-weight:500;opacity:.7;font-size:.86rem}
 
-.scope-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem}
-.scope-btn{appearance:none;cursor:pointer;text-align:left;font:inherit;
-  display:flex;flex-direction:column;gap:.22rem;padding:.85rem 1rem;border-radius:14px;
-  color:inherit;
-  border:1px solid rgba(var(--accent-rgb),.28);
-  background:linear-gradient(145deg,rgba(var(--accent-rgb),.13),rgba(var(--accent-rgb),.05));
-  box-shadow:0 1px 0 rgba(255,255,255,.05) inset;
-  transition:transform .16s cubic-bezier(.2,.8,.3,1),box-shadow .16s,border-color .16s,background .16s}
-.scope-btn:hover{transform:translateY(-2px);border-color:rgba(var(--accent-rgb),.6);
-  background:linear-gradient(145deg,rgba(var(--accent-rgb),.22),rgba(var(--accent-rgb),.09));
-  box-shadow:0 10px 26px -14px rgba(var(--accent-rgb),.75)}
-.scope-btn:active{transform:translateY(0)}
-.scope-name{font-weight:700;font-size:1rem;color:var(--text)}
-.scope-sub{font-size:.8rem;color:var(--text-muted)}
 
 .revise-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-top:.95rem}
 .revise-go{appearance:none;cursor:pointer;font:inherit;font-weight:700;border:0;border-radius:999px;
@@ -2432,3 +2418,37 @@ html { scroll-behavior: smooth; }
 .chap-help,
 .revise-scope{ color:var(--text-muted); }
 .chap-chip{ color:var(--text); }
+
+/* ===== Choix de révision : lignes éditoriales =====
+   Même langage visuel que les cartes de navigation (titre, sous-titre, valeur à droite,
+   flèche) plutôt qu'une grille de pastilles, qui jurait avec le reste du site. */
+.scope-list{display:flex;flex-direction:column;gap:.5rem}
+.scope-row{
+  appearance:none;cursor:pointer;font:inherit;text-align:left;width:100%;
+  display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:1rem;
+  padding:1rem 1.15rem;border-radius:14px;color:var(--text);
+  background:linear-gradient(135deg,rgba(var(--accent-rgb),.045),transparent 70%),#fbf9f4;
+  border:1px solid rgba(var(--accent-rgb),.22);
+  transition:transform .18s cubic-bezier(.2,.8,.3,1),border-color .18s,box-shadow .18s,background .18s;
+}
+.scope-row:hover{
+  transform:translateY(-2px);
+  border-color:rgba(var(--accent-rgb),.5);
+  background:linear-gradient(135deg,rgba(var(--accent-rgb),.09),transparent 70%),#fefcf8;
+  box-shadow:0 14px 34px -20px rgba(var(--accent-rgb),.6);
+}
+.scope-row:active{transform:translateY(0)}
+.scope-row-main{display:flex;flex-direction:column;gap:.22rem;min-width:0}
+.scope-row-title{font-weight:700;font-size:1.02rem;letter-spacing:-.005em}
+.scope-row-sub{font-size:.82rem;color:var(--text-muted)}
+.scope-row-count{
+  font-size:.78rem;font-weight:600;white-space:nowrap;color:var(--text-muted);
+  padding:.3rem .7rem;border-radius:999px;background:rgba(var(--accent-rgb),.10);
+}
+.scope-row-arrow{display:inline-flex;color:rgba(var(--accent-rgb),.6);transition:transform .18s,color .18s}
+.scope-row-arrow svg{width:19px;height:19px}
+.scope-row:hover .scope-row-arrow{color:rgb(var(--accent-rgb));transform:translateX(5px)}
+@media (max-width:520px){
+  .scope-row{grid-template-columns:1fr auto;padding:.9rem 1rem}
+  .scope-row-arrow{display:none}
+}

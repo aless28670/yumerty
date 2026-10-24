@@ -458,23 +458,41 @@ function reviseBlockHtml(bank) {
   const chaps = chaptersOf(bank);
   const parts = partiesOf(bank) || [];
   const total = (QUESTIONS[bank] || []).length;
-  const btn = (scope, nom, sous) => `
-        <button type="button" class="scope-btn" data-scope="${escapeHtml(scope)}">
-          <span class="scope-name">${escapeHtml(nom)}</span>
-          <span class="scope-sub">${escapeHtml(sous)}</span>
-        </button>`;
-  const partsBtns = parts.map(p =>
-    btn("part:" + p.id, p.label === "Mid" ? "Mi-terme" : p.label, nbQcuPour(bank, p.chapitres) + " questions")).join("");
-  const customBtn = chaps ? btn("custom", "Personnaliser", "choisir mes chapitres") : "";
+  const nbChap = chaps ? chaps.length : 0;
+
+  /* Une partie qui couvre tous les chapitres EST « tout le programme » : on ne montre
+     pas les deux, ce serait le même tirage sous deux noms. C'est le cas de Pathologie 1,
+     dont le dossier « final » contient aussi les cours du mi-terme. */
+  const couvreTout = p => nbChap > 0 && p.chapitres.length >= nbChap;
+  const aUnePartieTotale = parts.some(couvreTout);
+
+  const nom = p => (p.label === "Mid" ? "Mi-terme" : p.label);
+  const etendue = p => couvreTout(p)
+    ? "Tout le programme"
+    : "Chapitres " + p.chapitres[0] + " à " + p.chapitres[p.chapitres.length - 1];
+
+  const ligne = (scope, titre, sous, compte) => `
+          <button type="button" class="scope-row" data-scope="${escapeHtml(scope)}">
+            <span class="scope-row-main">
+              <span class="scope-row-title">${escapeHtml(titre)}</span>
+              <span class="scope-row-sub">${escapeHtml(sous)}</span>
+            </span>
+            <span class="scope-row-count">${escapeHtml(compte)}</span>
+            <span class="scope-row-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </button>`;
+
+  const lignes = [];
+  parts.forEach(p => lignes.push(ligne("part:" + p.id, nom(p), etendue(p), nbQcuPour(bank, p.chapitres) + " questions")));
+  if (!aUnePartieTotale) lignes.push(ligne("all", "Tout le programme", "Comme à l'examen, tirage dans tout le cours", total + " questions"));
+  if (chaps) lignes.push(ligne("custom", "Personnaliser", "Je choisis mes chapitres un par un", nbChap + " chapitres"));
+
   return `
       <div class="revise" data-revise="${escapeHtml(bank)}">
         <div class="revise-step" data-step="scope">
           <p class="revise-q">Que veux-tu réviser&nbsp;?</p>
-          <div class="scope-grid">
-            ${partsBtns}
-            ${btn("all", "Tout le programme", total + " questions")}
-            ${customBtn}
-          </div>
+          <div class="scope-list">${lignes.join("")}</div>
         </div>
         <div class="revise-step" data-step="chapters" hidden>
           <p class="revise-q">Choisis tes chapitres</p>
@@ -514,7 +532,7 @@ function wireReviseBlock(card, bank) {
   };
 
   block.addEventListener("click", e => {
-    const sb = e.target.closest("[data-scope]");
+    const sb = e.target.closest(".scope-row");
     if (sb && block.contains(sb)) {
       const sc = sb.dataset.scope;
       if (sc === "all") return allerAuFormat("Tout le programme", []);
