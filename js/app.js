@@ -457,7 +457,6 @@ function chapterGridHtml(bank) {
 function reviseBlockHtml(bank) {
   const chaps = chaptersOf(bank);
   const parts = partiesOf(bank) || [];
-  const total = (QUESTIONS[bank] || []).length;
   const nbChap = chaps ? chaps.length : 0;
 
   /* Une partie qui couvre tous les chapitres EST « tout le programme » : on ne montre pas
@@ -480,14 +479,13 @@ function reviseBlockHtml(bank) {
       : t.length + " chapitre" + (t.length > 1 ? "s" : "");
   };
 
-  const ligne = (i, scope, t, sous, compte) => `
+  const ligne = (i, scope, t, sous) => `
           <button type="button" class="scope-row" data-scope="${escapeHtml(scope)}">
             <span class="scope-row-num" aria-hidden="true">${String(i).padStart(2, "0")}</span>
             <span class="scope-row-main">
               <span class="scope-row-title">${escapeHtml(t)}</span>
               <span class="scope-row-sub">${escapeHtml(sous)}</span>
             </span>
-            <span class="scope-row-count">${escapeHtml(compte)}</span>
             <span class="scope-row-arrow" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </span>
@@ -495,12 +493,12 @@ function reviseBlockHtml(bank) {
 
   const lignes = [];
   let i = 0;
-  parts.forEach(p => lignes.push(ligne(++i, "part:" + p.id, titre(p), plage(p.chapitres), nbQcuPour(bank, p.chapitres) + " questions")));
+  parts.forEach(p => lignes.push(ligne(++i, "part:" + p.id, titre(p), plage(p.chapitres))));
   if (!aUnePartieTotale) {
     const tous = chaps ? chaps.map(c => c.id) : [];
-    lignes.push(ligne(++i, "all", "Tout le programme", chaps ? plage(tous) : "Toute la matière", total + " questions"));
+    lignes.push(ligne(++i, "all", "Tout le programme", chaps ? plage(tous) : "Toute la matière"));
   }
-  if (chaps) lignes.push(ligne(++i, "custom", "Personnaliser", "Chapitres au choix", nbChap + " au total"));
+  if (chaps) lignes.push(ligne(++i, "custom", "Personnaliser", "Chapitres au choix"));
 
   return `
       <div class="revise" data-revise="${escapeHtml(bank)}">
@@ -539,9 +537,8 @@ function wireReviseBlock(card, bank) {
 
   const allerAuFormat = (libelle, ids) => {
     saveChapterSelection(bank, ids || []);
-    const n = nbQcuPour(bank, ids);
     const sc = block.querySelector(".revise-scope");
-    if (sc) sc.textContent = "· " + libelle + " · " + n + " questions disponibles";
+    if (sc) sc.textContent = "· " + libelle;
     show("format");
   };
 
@@ -567,7 +564,7 @@ function wireReviseBlock(card, bank) {
     const go = e.target.closest("[data-rev-go]");
     if (go && block.contains(go)) {
       const ids = chips().filter(c => c.classList.contains("is-on")).map(c => Number(c.dataset.chapId));
-      allerAuFormat(ids.length ? ids.length + " chapitres" : "Tout le programme", ids);
+      allerAuFormat(ids.length ? (ids.length + " chapitre" + (ids.length > 1 ? "s" : "")) : "Tout le programme", ids);
     }
   });
 }
