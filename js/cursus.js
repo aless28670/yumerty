@@ -220,8 +220,7 @@ const CURSUS = {
                     "accent": "#c08a3e"
                   }
                 ]
-              }
-              ,
+              },
               "santePublique": {
                 "label": "Santé Publique",
                 "accent": "#5a8a6a",
@@ -232,6 +231,50 @@ const CURSUS = {
                     "bankKey": "santePublique",
                     "optionCount": 4,
                     "accent": "#5a8a6a"
+                  }
+                ]
+              }
+            }
+          },
+          "N1": {
+            "label": "Nouveau programme · Semestre 1",
+            "matieres": {
+              "biomecanique": {
+                "label": "Biomécanique",
+                "accent": "#14b8a6",
+                "modules": [
+                  {
+                    "id": "biomecanique",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "biomecanique",
+                    "optionCount": 3,
+                    "accent": "#14b8a6"
+                  }
+                ]
+              },
+              "ethiqueLegislation": {
+                "label": "Éthique & Législation",
+                "accent": "#f59e0b",
+                "modules": [
+                  {
+                    "id": "ethiqueLegislation",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "ethiqueLegislation",
+                    "optionCount": 3,
+                    "accent": "#f59e0b"
+                  }
+                ]
+              },
+              "procedimiento1": {
+                "label": "Procedimiento 1",
+                "accent": "#6366f1",
+                "modules": [
+                  {
+                    "id": "procedimiento1",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "procedimiento1",
+                    "optionCount": 3,
+                    "accent": "#6366f1"
                   }
                 ]
               }
@@ -383,6 +426,45 @@ const CURSUS = {
                     "bankKey": "neuro1N",
                     "optionCount": 3,
                     "accent": "#6366f1"
+                  }
+                ]
+              },
+              "procedimiento3": {
+                "label": "Procedimiento 3",
+                "accent": "#0ea5e9",
+                "modules": [
+                  {
+                    "id": "procedimiento3",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "procedimiento3",
+                    "optionCount": 3,
+                    "accent": "#0ea5e9"
+                  }
+                ]
+              },
+              "investigation2": {
+                "label": "Investigation 2",
+                "accent": "#8b5cf6",
+                "modules": [
+                  {
+                    "id": "investigation2",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "investigation2",
+                    "optionCount": 3,
+                    "accent": "#8b5cf6"
+                  }
+                ]
+              },
+              "pathologie3": {
+                "label": "Pathologie 3",
+                "accent": "#ef4444",
+                "modules": [
+                  {
+                    "id": "pathologie3",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "pathologie3",
+                    "optionCount": 4,
+                    "accent": "#ef4444"
                   }
                 ]
               }
@@ -640,5 +722,3 @@ const CURSUS = {
     }
   }
 };
-
-window.CURSUS = CURSUS;
