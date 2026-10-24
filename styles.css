@@ -2348,8 +2348,8 @@ html { scroll-behavior: smooth; }
   background:linear-gradient(145deg,rgba(var(--accent-rgb),.22),rgba(var(--accent-rgb),.09));
   box-shadow:0 10px 26px -14px rgba(var(--accent-rgb),.75)}
 .scope-btn:active{transform:translateY(0)}
-.scope-name{font-weight:700;font-size:1rem;color:var(--accent)}
-.scope-sub{font-size:.8rem;opacity:.7}
+.scope-name{font-weight:700;font-size:1rem;color:var(--text)}
+.scope-sub{font-size:.8rem;color:var(--text-muted)}
 
 .revise-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-top:.95rem}
 .revise-go{appearance:none;cursor:pointer;font:inherit;font-weight:700;border:0;border-radius:999px;
@@ -2366,9 +2366,9 @@ html { scroll-behavior: smooth; }
    paraissaient grises. La teinte est désormais visible en permanence, et s'intensifie au survol. */
 .nav-card{
   background:
-    linear-gradient(135deg, rgba(var(--accent-rgb),.055) 0%, rgba(var(--accent-rgb),.015) 60%, transparent 100%),
+    linear-gradient(135deg, rgba(var(--accent-rgb),.045) 0%, rgba(var(--accent-rgb),.012) 60%, transparent 100%),
     linear-gradient(135deg,#fbf9f4 0%,#f6f2ea 100%);
-  border-color:rgba(var(--accent-rgb),.22);
+  border-color:rgba(var(--accent-rgb),.26);
 }
 /* Liseré de couleur à gauche, toujours visible */
 .nav-card::after{
@@ -2378,15 +2378,15 @@ html { scroll-behavior: smooth; }
 }
 .nav-card:hover:not(:disabled)::after{opacity:1;top:6%;bottom:6%}
 .nav-card::before{background:radial-gradient(circle at 0% 50%, rgba(var(--accent-rgb),.14) 0%, transparent 58%)}
-.nav-card-number{color:rgba(var(--accent-rgb),.34)}
+.nav-card-number{color:rgba(var(--accent-rgb),.26)}
 .nav-card-accent-line{background:linear-gradient(180deg,transparent,rgba(var(--accent-rgb),.45),transparent)}
 .nav-card-arrow{color:rgba(var(--accent-rgb),.65)}
 .nav-card:hover:not(:disabled){
   background:
-    linear-gradient(135deg, rgba(var(--accent-rgb),.13) 0%, rgba(var(--accent-rgb),.04) 65%, transparent 100%),
+    linear-gradient(135deg, rgba(var(--accent-rgb),.10) 0%, rgba(var(--accent-rgb),.03) 65%, transparent 100%),
     linear-gradient(135deg,#fefcf8 0%,#f7f1e7 100%);
-  box-shadow:0 0 0 1.5px rgba(var(--accent-rgb),.42),
-             0 26px 70px -24px rgba(var(--accent-rgb),.45);
+  box-shadow:0 0 0 1.5px rgba(var(--accent-rgb),.45),
+             0 26px 70px -24px rgba(var(--accent-rgb),.38);
 }
 /* Une matière à venir reste lisible et garde une trace de sa couleur */
 .nav-card-disabled{opacity:.62;filter:none;border-style:dashed;
@@ -2395,9 +2395,9 @@ html { scroll-behavior: smooth; }
 .nav-card-disabled .nav-card-number{color:rgba(40,35,28,.14)}
 .nav-card-disabled .nav-card-meta{font-weight:600;color:rgba(var(--accent-rgb),.8)}
 
-/* La carte de module reprend la même logique */
+/* La carte de module reprend la même logique : la couleur ne touche que le contour.
+   Les écritures restent à l'encre du site, comme partout ailleurs. */
 .mode-card{border-color:rgba(var(--accent-rgb),.26)}
-.mode-card .mode-title{color:var(--accent)}
 
 /* ===== Thème unique de l'examen =====
    Pendant une partie, une seule teinte : celle du site. Les couleurs de matière servent
@@ -2418,3 +2418,15 @@ html { scroll-behavior: smooth; }
   border-color:rgba(192,83,58,.55);
   color:var(--bad);
 }
+
+/* ===== Texte toujours à l'encre =====
+   La couleur d'une matière est un repère de surface : liseré, contour, fond très léger.
+   Elle ne doit jamais teinter les mots, qui restent lisibles à l'encre du site. */
+.mode-title,
+.nav-card-title,
+.chap-head-title,
+.revise-q{ color:var(--text); }
+.mode-desc,
+.chap-help,
+.revise-scope{ color:var(--text-muted); }
+.chap-chip{ color:var(--text); }

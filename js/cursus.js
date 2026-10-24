@@ -16,7 +16,7 @@ const CURSUS = {
             "matieres": {
               "histoireKine": {
                 "label": "Histoire de la Kiné",
-                "accent": "#8a6a4b",
+                "accent": "#5c452f",
                 "modules": [
                   {
                     "id": "histoireKine",
@@ -28,7 +28,7 @@ const CURSUS = {
               },
               "anat1": {
                 "label": "Anatomie 1",
-                "accent": "#8e3f45",
+                "accent": "#5e2f33",
                 "modules": [
                   {
                     "id": "anat1",
@@ -40,7 +40,7 @@ const CURSUS = {
               },
               "processusBio1": {
                 "label": "Processus biologiques 1",
-                "accent": "#5e7f4a",
+                "accent": "#2f4858",
                 "modules": [
                   {
                     "id": "processusBio1",
@@ -52,7 +52,7 @@ const CURSUS = {
               },
               "structure1": {
                 "label": "Structure 1",
-                "accent": "#7a7066",
+                "accent": "#4a453d",
                 "modules": [
                   {
                     "id": "structure1",
@@ -64,7 +64,7 @@ const CURSUS = {
               },
               "psycho": {
                 "label": "Psychologie de la santé",
-                "accent": "#8a6383",
+                "accent": "#5a3f55",
                 "modules": [
                   {
                     "id": "psycho",
@@ -75,14 +75,14 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#4e6b7a"
+            "accent": "#2f4858"
           },
           "S2": {
             "label": "Semestre 2",
             "matieres": {
               "investigation": {
                 "label": "Investigation 1",
-                "accent": "#3f6b6b",
+                "accent": "#2c4f4a",
                 "modules": [
                   {
                     "id": "investigation",
@@ -94,7 +94,7 @@ const CURSUS = {
               },
               "anat2": {
                 "label": "Anatomie 2",
-                "accent": "#8e3f45",
+                "accent": "#5e2f33",
                 "modules": [
                   {
                     "id": "anat2",
@@ -106,7 +106,7 @@ const CURSUS = {
               },
               "processusBio2": {
                 "label": "Processus biologiques 2",
-                "accent": "#5e7f4a",
+                "accent": "#2f4858",
                 "modules": [
                   {
                     "id": "processusBio2",
@@ -118,7 +118,7 @@ const CURSUS = {
               },
               "structure2": {
                 "label": "Structure 2",
-                "accent": "#7a7066",
+                "accent": "#4a453d",
                 "modules": [
                   {
                     "id": "structure2",
@@ -130,7 +130,7 @@ const CURSUS = {
               },
               "valoMembres": {
                 "label": "Valorisation Membres",
-                "accent": "#6f8347",
+                "accent": "#4a5b32",
                 "modules": [
                   {
                     "id": "valoMembresSup",
@@ -157,7 +157,7 @@ const CURSUS = {
               },
               "valoColonne": {
                 "label": "Valorisation Colonne",
-                "accent": "#6f8347",
+                "accent": "#4a5b32",
                 "modules": [
                   {
                     "id": "valoColonne",
@@ -168,10 +168,10 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#4e6b7a"
+            "accent": "#2f4858"
           }
         },
-        "accent": "#4e6b7a"
+        "accent": "#2f4858"
       },
       "K2": {
         "label": "K2",
@@ -182,7 +182,7 @@ const CURSUS = {
             "matieres": {
               "pathologie1": {
                 "label": "Pathologie 1",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "pathologie1",
@@ -194,7 +194,7 @@ const CURSUS = {
               },
               "biomecanique": {
                 "label": "Biomécanique",
-                "accent": "#5d7d74",
+                "accent": "#35544e",
                 "modules": [
                   {
                     "id": "biomecanique",
@@ -206,7 +206,7 @@ const CURSUS = {
               },
               "ethiqueLegislation": {
                 "label": "Éthique & Législation",
-                "accent": "#9a6a12",
+                "accent": "#6a5214",
                 "modules": [
                   {
                     "id": "ethiqueLegislation",
@@ -218,7 +218,7 @@ const CURSUS = {
               },
               "procedimiento1": {
                 "label": "Procedimiento 1",
-                "accent": "#4e6b7a",
+                "accent": "#2f4858",
                 "modules": [
                   {
                     "id": "procedimiento1",
@@ -229,14 +229,14 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#7a4b5e"
+            "accent": "#4a3b52"
           },
           "S2": {
             "label": "Semestre 2",
             "matieres": {
               "pathologie2": {
                 "label": "Pathologie 2",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "pathologie2",
@@ -248,7 +248,7 @@ const CURSUS = {
               },
               "santePublique": {
                 "label": "Santé Publique",
-                "accent": "#4a7a72",
+                "accent": "#2e544e",
                 "modules": [
                   {
                     "id": "santePublique",
@@ -260,19 +260,19 @@ const CURSUS = {
               },
               "abordaje": {
                 "label": "Abordaje",
-                "accent": "#8a8075",
+                "accent": "#4d4740",
                 "modules": []
               },
               "procedimiento2": {
                 "label": "Procedimiento 2",
-                "accent": "#4e6b7a",
+                "accent": "#2f4858",
                 "modules": []
               }
             },
-            "accent": "#7a4b5e"
+            "accent": "#4a3b52"
           }
         },
-        "accent": "#7a4b5e"
+        "accent": "#4a3b52"
       },
       "K3": {
         "label": "K3",
@@ -283,7 +283,7 @@ const CURSUS = {
             "matieres": {
               "neuro1": {
                 "label": "Neurologie 1",
-                "accent": "#5b5f84",
+                "accent": "#3b3f63",
                 "modules": [
                   {
                     "id": "neuro1",
@@ -295,7 +295,7 @@ const CURSUS = {
               },
               "pathoChir1": {
                 "label": "Pathologies Chirurgicales 1",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "pathoChir1",
@@ -307,7 +307,7 @@ const CURSUS = {
               },
               "osteo1": {
                 "label": "Ostéopathie 1",
-                "accent": "#a8791f",
+                "accent": "#6b4423",
                 "modules": [
                   {
                     "id": "osteo1",
@@ -319,7 +319,7 @@ const CURSUS = {
               },
               "procesos1": {
                 "label": "Processus 1",
-                "accent": "#4e6b7a",
+                "accent": "#2f4858",
                 "modules": [
                   {
                     "id": "procesos1",
@@ -330,14 +330,14 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#a8791f"
+            "accent": "#6b4423"
           },
           "S2": {
             "label": "Semestre 2",
             "matieres": {
               "pathoChir2": {
                 "label": "Pathologies Chirurgicales 2",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "pathoChir2",
@@ -349,7 +349,7 @@ const CURSUS = {
               },
               "neuro2": {
                 "label": "Neurologie 2",
-                "accent": "#5b5f84",
+                "accent": "#3b3f63",
                 "modules": [
                   {
                     "id": "neuro2",
@@ -361,7 +361,7 @@ const CURSUS = {
               },
               "osteo2": {
                 "label": "Ostéopathie 2",
-                "accent": "#a8791f",
+                "accent": "#6b4423",
                 "modules": [
                   {
                     "id": "osteo2",
@@ -373,7 +373,7 @@ const CURSUS = {
               },
               "procesos2": {
                 "label": "Processus 2",
-                "accent": "#4e6b7a",
+                "accent": "#2f4858",
                 "modules": [
                   {
                     "id": "procesos2",
@@ -384,14 +384,14 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#a8791f"
+            "accent": "#6b4423"
           },
           "N1": {
             "label": "Semestre 1",
             "matieres": {
               "orthoTraumato": {
                 "label": "Ortho Traumato",
-                "accent": "#b05c38",
+                "accent": "#7a3f24",
                 "modules": [
                   {
                     "id": "orthoTraumato",
@@ -403,7 +403,7 @@ const CURSUS = {
               },
               "neurologie1N": {
                 "label": "Neurologie 1",
-                "accent": "#5b5f84",
+                "accent": "#3b3f63",
                 "modules": [
                   {
                     "id": "neuro1N",
@@ -415,7 +415,7 @@ const CURSUS = {
               },
               "procedimiento3": {
                 "label": "Procedimiento 3",
-                "accent": "#4e6b7a",
+                "accent": "#2f4858",
                 "modules": [
                   {
                     "id": "procedimiento3",
@@ -427,7 +427,7 @@ const CURSUS = {
               },
               "investigation2": {
                 "label": "Investigation 2",
-                "accent": "#3f6b6b",
+                "accent": "#2c4f4a",
                 "modules": [
                   {
                     "id": "investigation2",
@@ -439,7 +439,7 @@ const CURSUS = {
               },
               "pathologie3": {
                 "label": "Pathologie 3",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "pathologie3",
@@ -450,38 +450,38 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#a8791f"
+            "accent": "#6b4423"
           },
           "N2": {
             "label": "Semestre 2",
             "matieres": {
               "cardiorrespiratoria": {
                 "label": "Cardiorrespiratoria",
-                "accent": "#a84a3a",
+                "accent": "#70312a",
                 "modules": []
               },
               "neurologie2N": {
                 "label": "Neurologie 2",
-                "accent": "#5b5f84",
+                "accent": "#3b3f63",
                 "modules": []
               },
               "pathologie4": {
                 "label": "Pathologie 4",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": []
               },
               "procedimientos4": {
                 "label": "Procedimientos 4",
-                "accent": "#4e6b7a",
+                "accent": "#2f4858",
                 "modules": []
               },
               "sueloPelvico": {
                 "label": "Suelo Pélvico",
-                "accent": "#9c5f6b",
+                "accent": "#65384a",
                 "modules": []
               }
             },
-            "accent": "#a8791f"
+            "accent": "#6b4423"
           }
         },
         "programmes": {
@@ -500,7 +500,7 @@ const CURSUS = {
             ]
           }
         },
-        "accent": "#a8791f"
+        "accent": "#6b4423"
       },
       "K4": {
         "label": "K4",
@@ -511,7 +511,7 @@ const CURSUS = {
             "matieres": {
               "drainage": {
                 "label": "Drainage lymphatique manuel",
-                "accent": "#5c7f91",
+                "accent": "#37505e",
                 "modules": [
                   {
                     "id": "drainageExam1",
@@ -523,7 +523,7 @@ const CURSUS = {
               },
               "orthese": {
                 "label": "Orthèses et prothèses",
-                "accent": "#b05c38",
+                "accent": "#7a3f24",
                 "modules": [
                   {
                     "id": "ortheseExam1",
@@ -534,31 +534,31 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#5f7f5a"
+            "accent": "#39503f"
           },
           "S2": {
             "label": "Semestre 2",
             "matieres": {
               "deportiva3": {
                 "label": "Deportiva 3",
-                "accent": "#7b8c3f",
+                "accent": "#4f5a26",
                 "modules": []
               },
               "obstetrica": {
                 "label": "Obstétrica et Uroginecológica",
-                "accent": "#9c5f6b",
+                "accent": "#65384a",
                 "modules": []
               },
               "ortopedica3": {
                 "label": "Ortopédica 3",
-                "accent": "#b05c38",
+                "accent": "#7a3f24",
                 "modules": []
               }
             },
-            "accent": "#5f7f5a"
+            "accent": "#39503f"
           }
         },
-        "accent": "#5f7f5a"
+        "accent": "#39503f"
       }
     }
   },
@@ -577,7 +577,7 @@ const CURSUS = {
             "matieres": {
               "dentBiomaterial": {
                 "label": "Biomaterials",
-                "accent": "#5d7d74",
+                "accent": "#35544e",
                 "modules": [
                   {
                     "id": "dentBiomaterial",
@@ -589,7 +589,7 @@ const CURSUS = {
               },
               "dentSemiology1": {
                 "label": "Semiology 1",
-                "accent": "#3f6b6b",
+                "accent": "#2c4f4a",
                 "modules": [
                   {
                     "id": "dentSemiology1",
@@ -601,7 +601,7 @@ const CURSUS = {
               },
               "dentPharmacoMid": {
                 "label": "Pharmacology — Midterm",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "dentPharmacoMid",
@@ -613,7 +613,7 @@ const CURSUS = {
               },
               "dentPathology1Mid": {
                 "label": "Pathology 1 — Midterm",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "dentPathology1Mid",
@@ -625,7 +625,7 @@ const CURSUS = {
               },
               "dentPharmacoFin": {
                 "label": "Pharmacology — Final",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "dentPharmacoFin",
@@ -637,7 +637,7 @@ const CURSUS = {
               },
               "dentPathology1Fin": {
                 "label": "Pathology 1 — Final",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "dentPathology1Fin",
@@ -649,7 +649,7 @@ const CURSUS = {
               },
               "dentHeadNeck": {
                 "label": "Head & Neck",
-                "accent": "#8e3f45",
+                "accent": "#5e2f33",
                 "modules": [
                   {
                     "id": "dentHeadNeck",
@@ -660,14 +660,14 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#7a4b5e"
+            "accent": "#4a3b52"
           },
           "S2": {
             "label": "Semestre 2",
             "matieres": {
               "dentDiagnostic": {
                 "label": "Diagnostic",
-                "accent": "#3f6b6b",
+                "accent": "#3b3f63",
                 "modules": [
                   {
                     "id": "dentDiagnostic",
@@ -679,7 +679,7 @@ const CURSUS = {
               },
               "dentSemiology2": {
                 "label": "Semiology 2",
-                "accent": "#3f6b6b",
+                "accent": "#2c4f4a",
                 "modules": [
                   {
                     "id": "dentSemiology2",
@@ -691,7 +691,7 @@ const CURSUS = {
               },
               "dentPhysiology": {
                 "label": "Physiology",
-                "accent": "#5e7f4a",
+                "accent": "#3d5a35",
                 "modules": [
                   {
                     "id": "dentPhysiology",
@@ -703,7 +703,7 @@ const CURSUS = {
               },
               "dentPeriodoncia": {
                 "label": "Periodontology",
-                "accent": "#9c5f6b",
+                "accent": "#65384a",
                 "modules": [
                   {
                     "id": "dentPeriodoncia",
@@ -715,7 +715,7 @@ const CURSUS = {
               },
               "dentOcclusion": {
                 "label": "Occlusion",
-                "accent": "#9a6a12",
+                "accent": "#6a5214",
                 "modules": [
                   {
                     "id": "dentOcclusion",
@@ -727,7 +727,7 @@ const CURSUS = {
               },
               "dentPatho2Mid": {
                 "label": "Pathology 2 — Midterm",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "dentPatho2Mid",
@@ -739,7 +739,7 @@ const CURSUS = {
               },
               "dentPatho2Fin": {
                 "label": "Pathology 2 — Final",
-                "accent": "#7a4b5e",
+                "accent": "#4a3b52",
                 "modules": [
                   {
                     "id": "dentPatho2Fin",
@@ -750,10 +750,10 @@ const CURSUS = {
                 ]
               }
             },
-            "accent": "#7a4b5e"
+            "accent": "#4a3b52"
           }
         },
-        "accent": "#7a4b5e"
+        "accent": "#4a3b52"
       }
     }
   }
