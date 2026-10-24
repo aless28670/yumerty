@@ -916,13 +916,16 @@ function renderNav() {
       const cy = Object.values(y.semesters || {}).reduce((acc, s) => {
         const c = countMatieres(s); acc.prets += c.prets; acc.total += c.total; return acc;
       }, { prets: 0, total: 0 });
+      /* Pas de décompte de matières au niveau de l'année : le détail se lit au semestre,
+         et l'afficher ici alourdissait le choix pour rien. Seule une année entièrement
+         vide reste annoncée « Bientôt disponible » et non cliquable. */
       const dy = dispoMeta(cy.prets, cy.total, "matière");
       const ordinal = (i + 1) === 1 ? "1ère année" : (i + 1) + "ème année";
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
         eyebrow: ordinal,
         title: y.label,
-        meta: dy.meta,
+        meta: cy.total === 0 ? dy.meta : "",
         disabled: dy.disabled,
         accent: c.accent,
         data: { year: yk, level: y.programmes ? "programmes" : "semesters" }
