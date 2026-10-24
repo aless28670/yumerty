@@ -1050,7 +1050,7 @@ window.CHAPITRES = {
   },
   {
    "id": 9,
-   "nom": "Effets physiologiques de l exercice thérapeutique"
+   "nom": "Effets physiologiques de l'exercice thérapeutique"
   },
   {
    "id": 10,
@@ -1066,7 +1066,7 @@ window.CHAPITRES = {
   },
   {
    "id": 13,
-   "nom": "Effets physiologiques de l électrothérapie"
+   "nom": "Effets physiologiques de l'électrothérapie"
   },
   {
    "id": 14,
@@ -1396,7 +1396,7 @@ window.CHAPITRES = {
   },
   {
    "id": 7,
-   "nom": "Blessures des extrémités articulaires du genou"
+   "nom": "Blessures des extrémités'articulaires du genou"
   },
   {
    "id": 8,
@@ -1436,7 +1436,7 @@ window.CHAPITRES = {
   },
   {
    "id": 17,
-   "nom": "Pied de l enfant"
+   "nom": "Pied de l'enfant"
   },
   {
    "id": 18,
@@ -1514,7 +1514,7 @@ window.CHAPITRES = {
  "pathologie1": [
   {
    "id": 1,
-   "nom": "Tissus de l appareil locomoteur"
+   "nom": "Tissus de l'appareil locomoteur"
   },
   {
    "id": 2,
@@ -1570,15 +1570,15 @@ window.CHAPITRES = {
   },
   {
    "id": 15,
-   "nom": "Hanche douloureuse de l adulte"
+   "nom": "Hanche douloureuse de l'adulte"
   },
   {
    "id": 16,
-   "nom": "Genou douloureux de l adulte"
+   "nom": "Genou douloureux de l'adulte"
   },
   {
    "id": 17,
-   "nom": "Pied de l enfant et pied douloureux de l adulte"
+   "nom": "Pied de l'enfant et pied douloureux de l'adulte"
   }
  ],
  "pathologie2": [
@@ -1636,11 +1636,11 @@ window.CHAPITRES = {
   },
   {
    "id": 14,
-   "nom": "Démences et maladie d Alzheimer"
+   "nom": "Démences et maladie d'Alzheimer"
   },
   {
    "id": 15,
-   "nom": "Neurologie de l enfant"
+   "nom": "Neurologie de l'enfant"
   }
  ],
  "procesos1": [
@@ -2118,7 +2118,7 @@ window.CHAPITRES = {
   },
   {
    "id": 5,
-   "nom": "Lecture d images : cas pratiques"
+   "nom": "Lecture d'images : cas pratiques"
   },
   {
    "id": 6,
