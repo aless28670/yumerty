@@ -460,21 +460,31 @@ function reviseBlockHtml(bank) {
   const total = (QUESTIONS[bank] || []).length;
   const nbChap = chaps ? chaps.length : 0;
 
-  /* Une partie qui couvre tous les chapitres EST « tout le programme » : on ne montre
-     pas les deux, ce serait le même tirage sous deux noms. C'est le cas de Pathologie 1,
-     dont le dossier « final » contient aussi les cours du mi-terme. */
+  /* Une partie qui couvre tous les chapitres EST « tout le programme » : on ne montre pas
+     les deux, ce serait le même tirage sous deux noms. Cas de Pathologie 1, dont l'examen
+     final porte sur l'ensemble du semestre. */
   const couvreTout = p => nbChap > 0 && p.chapitres.length >= nbChap;
   const aUnePartieTotale = parts.some(couvreTout);
 
-  const nom = p => (p.label === "Mid" ? "Mi-terme" : p.label);
-  const etendue = p => couvreTout(p)
-    ? "Tout le programme"
-    : "Chapitres " + p.chapitres[0] + " à " + p.chapitres[p.chapitres.length - 1];
+  /* Intitulés explicites : on parle d'examens, pas de parties abstraites. */
+  const titre = p => p.label === "Mid" ? "Examen mi-terme"
+                   : p.label === "Final" ? "Examen final"
+                   : "Examen " + p.label.toLowerCase();
 
-  const ligne = (scope, titre, sous, compte) => `
+  /* Sous-titres tous bâtis sur le même modèle : l'étendue en chapitres. */
+  const plage = ids => {
+    const t = ids.slice().sort((a, b) => a - b);
+    const continu = t.every((v, i) => i === 0 || v === t[i - 1] + 1);
+    return continu && t.length > 1
+      ? "Chapitres " + t[0] + " à " + t[t.length - 1]
+      : t.length + " chapitre" + (t.length > 1 ? "s" : "");
+  };
+
+  const ligne = (i, scope, t, sous, compte) => `
           <button type="button" class="scope-row" data-scope="${escapeHtml(scope)}">
+            <span class="scope-row-num" aria-hidden="true">${String(i).padStart(2, "0")}</span>
             <span class="scope-row-main">
-              <span class="scope-row-title">${escapeHtml(titre)}</span>
+              <span class="scope-row-title">${escapeHtml(t)}</span>
               <span class="scope-row-sub">${escapeHtml(sous)}</span>
             </span>
             <span class="scope-row-count">${escapeHtml(compte)}</span>
@@ -484,9 +494,13 @@ function reviseBlockHtml(bank) {
           </button>`;
 
   const lignes = [];
-  parts.forEach(p => lignes.push(ligne("part:" + p.id, nom(p), etendue(p), nbQcuPour(bank, p.chapitres) + " questions")));
-  if (!aUnePartieTotale) lignes.push(ligne("all", "Tout le programme", "Comme à l'examen, tirage dans tout le cours", total + " questions"));
-  if (chaps) lignes.push(ligne("custom", "Personnaliser", "Je choisis mes chapitres un par un", nbChap + " chapitres"));
+  let i = 0;
+  parts.forEach(p => lignes.push(ligne(++i, "part:" + p.id, titre(p), plage(p.chapitres), nbQcuPour(bank, p.chapitres) + " questions")));
+  if (!aUnePartieTotale) {
+    const tous = chaps ? chaps.map(c => c.id) : [];
+    lignes.push(ligne(++i, "all", "Tout le programme", chaps ? plage(tous) : "Toute la matière", total + " questions"));
+  }
+  if (chaps) lignes.push(ligne(++i, "custom", "Personnaliser", "Chapitres au choix", nbChap + " au total"));
 
   return `
       <div class="revise" data-revise="${escapeHtml(bank)}">
@@ -538,7 +552,7 @@ function wireReviseBlock(card, bank) {
       if (sc === "all") return allerAuFormat("Tout le programme", []);
       if (sc === "custom") { show("chapters"); return; }
       const p = (partiesOf(bank) || []).find(x => "part:" + x.id === sc);
-      if (p) allerAuFormat(p.label === "Mid" ? "Mi-terme" : p.label, p.chapitres);
+      if (p) allerAuFormat(p.label === "Mid" ? "Examen mi-terme" : p.label === "Final" ? "Examen final" : "Examen " + p.label.toLowerCase(), p.chapitres);
       return;
     }
     const chip = e.target.closest(".chap-chip");

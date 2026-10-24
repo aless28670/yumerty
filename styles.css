@@ -2425,8 +2425,8 @@ html { scroll-behavior: smooth; }
 .scope-list{display:flex;flex-direction:column;gap:.5rem}
 .scope-row{
   appearance:none;cursor:pointer;font:inherit;text-align:left;width:100%;
-  display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:1rem;
-  padding:1rem 1.15rem;border-radius:14px;color:var(--text);
+  display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;gap:1rem;
+  padding:1rem 1.2rem;border-radius:14px;color:var(--text);
   background:linear-gradient(135deg,rgba(var(--accent-rgb),.045),transparent 70%),#fbf9f4;
   border:1px solid rgba(var(--accent-rgb),.22);
   transition:transform .18s cubic-bezier(.2,.8,.3,1),border-color .18s,box-shadow .18s,background .18s;
@@ -2438,6 +2438,14 @@ html { scroll-behavior: smooth; }
   box-shadow:0 14px 34px -20px rgba(var(--accent-rgb),.6);
 }
 .scope-row:active{transform:translateY(0)}
+/* Numéro à gauche, comme sur les cartes de navigation : c'est ce qui raccroche
+   cet écran au langage visuel du reste du site. */
+.scope-row-num{
+  font-family:'Archivo','Hanken Grotesk',sans-serif;font-size:1.5rem;font-weight:500;
+  line-height:1;letter-spacing:-.03em;color:rgba(var(--accent-rgb),.3);
+  font-feature-settings:'tnum' on;transition:color .18s,transform .18s;
+}
+.scope-row:hover .scope-row-num{color:rgb(var(--accent-rgb));transform:translateX(-2px)}
 .scope-row-main{display:flex;flex-direction:column;gap:.22rem;min-width:0}
 .scope-row-title{font-weight:700;font-size:1.02rem;letter-spacing:-.005em}
 .scope-row-sub{font-size:.82rem;color:var(--text-muted)}
@@ -2449,6 +2457,7 @@ html { scroll-behavior: smooth; }
 .scope-row-arrow svg{width:19px;height:19px}
 .scope-row:hover .scope-row-arrow{color:rgb(var(--accent-rgb));transform:translateX(5px)}
 @media (max-width:520px){
-  .scope-row{grid-template-columns:1fr auto;padding:.9rem 1rem}
+  .scope-row{grid-template-columns:auto 1fr auto;padding:.9rem 1rem;gap:.8rem}
   .scope-row-arrow{display:none}
+  .scope-row-num{font-size:1.25rem}
 }
