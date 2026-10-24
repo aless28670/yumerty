@@ -2,131 +2,131 @@ window.CHAPITRES = {
  "orthoTraumato": [
   {
    "id": 1,
-   "nom": "T1 — Régénération et réparation tissulaires"
+   "nom": "Régénération et réparation tissulaires"
   },
   {
    "id": 2,
-   "nom": "T2 — Fractures vertébrales"
+   "nom": "Fractures vertébrales"
   },
   {
    "id": 3,
-   "nom": "T3 — Entorses vertébrales (whiplash)"
+   "nom": "Entorses vertébrales (whiplash)"
   },
   {
    "id": 4,
-   "nom": "T4 — Anomalies structurelles dans le plan sagittal"
+   "nom": "Anomalies structurelles dans le plan sagittal"
   },
   {
    "id": 5,
-   "nom": "T5 — Discopathie traumatique"
+   "nom": "Discopathie traumatique"
   },
   {
    "id": 6,
-   "nom": "T6 — Notion et prise en charge des cicatrices"
+   "nom": "Notion et prise en charge des cicatrices"
   },
   {
    "id": 7,
-   "nom": "T7 — Torticolis congénital et plagiocéphalie"
+   "nom": "Torticolis congénital et plagiocéphalie"
   },
   {
    "id": 10,
-   "nom": "T10 — Scoliose"
+   "nom": "Scoliose"
   },
   {
    "id": 12,
-   "nom": "T12 — Fractures du membre supérieur chez l'adulte"
+   "nom": "Fractures du membre supérieur chez l'adulte"
   },
   {
    "id": 13,
-   "nom": "T13 — Fractures du membre supérieur chez l'enfant"
+   "nom": "Fractures du membre supérieur chez l'enfant"
   },
   {
    "id": 14,
-   "nom": "T14 — Prothèses du membre supérieur chez l'adulte"
+   "nom": "Prothèses du membre supérieur chez l'adulte"
   },
   {
    "id": 15,
-   "nom": "T15 — Entorses et instabilités du membre supérieur"
+   "nom": "Entorses et instabilités du membre supérieur"
   }
  ],
  "neuro1N": [
   {
    "id": 1,
-   "nom": "T1 — Introduction à la kinésithérapie neurologique"
+   "nom": "Introduction à la kinésithérapie neurologique"
   },
   {
    "id": 2,
-   "nom": "T2 — Approche fonctionnelle : le tronc"
+   "nom": "Approche fonctionnelle : le tronc"
   },
   {
    "id": 3,
-   "nom": "T3 — Approche fonctionnelle : la marche"
+   "nom": "Approche fonctionnelle : la marche"
   },
   {
    "id": 4,
-   "nom": "T4 — Approche fonctionnelle : le membre supérieur"
+   "nom": "Approche fonctionnelle : le membre supérieur"
   }
  ],
  "anat1": [
   {
    "id": 1,
-   "nom": "1. Ostéoarthrologie du tronc"
+   "nom": "Ostéoarthrologie du tronc"
   },
   {
    "id": 2,
-   "nom": "2. Les os du crâne"
+   "nom": "Les os du crâne"
   },
   {
    "id": 3,
-   "nom": "3. Myologie du dos et de la région sous-occipitale"
+   "nom": "Myologie du dos et de la région sous-occipitale"
   },
   {
    "id": 4,
-   "nom": "4. Myologie de la région antérieure et latérale du cou"
+   "nom": "Myologie de la région antérieure et latérale du cou"
   },
   {
    "id": 5,
-   "nom": "5. ATM, myologie de la mastication et muscles de la mimique"
+   "nom": "ATM, mastication et muscles de la mimique"
   },
   {
    "id": 6,
-   "nom": "6. Muscles de la cage thoracique"
+   "nom": "Muscles de la cage thoracique"
   },
   {
    "id": 7,
-   "nom": "7. Muscles de la paroi abdominale"
+   "nom": "Muscles de la paroi abdominale"
   },
   {
    "id": 8,
-   "nom": "8. Les muscles du plancher pelvien"
+   "nom": "Les muscles du plancher pelvien"
   },
   {
    "id": 9,
-   "nom": "2.1. Articulation de la hanche"
+   "nom": "Articulation de la hanche"
   },
   {
    "id": 10,
-   "nom": "2.2. Muscles de la hanche"
+   "nom": "Muscles de la hanche"
   },
   {
    "id": 11,
-   "nom": "2.3. Articulation du genou"
+   "nom": "Articulation du genou"
   },
   {
    "id": 12,
-   "nom": "2.4. Muscles de la cuisse"
+   "nom": "Muscles de la cuisse"
   },
   {
    "id": 13,
-   "nom": "2.5. Ostéoarthrologie du pied et de la cheville"
+   "nom": "Ostéoarthrologie du pied et de la cheville"
   },
   {
    "id": 14,
-   "nom": "2.6. Muscles des jambes et des pieds"
+   "nom": "Muscles des jambes et des pieds"
   },
   {
    "id": 15,
-   "nom": "2.7. Muscles du pied"
+   "nom": "Muscles du pied"
   }
  ],
  "anat2": [
@@ -166,213 +166,213 @@ window.CHAPITRES = {
  "dentBiomaterial": [
   {
    "id": 1,
-   "nom": "01. Subject presentation"
+   "nom": "Subject presentation"
   },
   {
    "id": 2,
-   "nom": "02. Concepts and definitions"
+   "nom": "Concepts and definitions"
   },
   {
    "id": 3,
-   "nom": "03. Characteristics and general physical properties of dental biomaterials"
+   "nom": "Physical properties of dental biomaterials"
   },
   {
    "id": 4,
-   "nom": "04. Characteristics and chemical properties of dental materials"
+   "nom": "Chemical properties of dental materials"
   },
   {
    "id": 18,
-   "nom": "05-06. Biological properties and polymeric materials"
+   "nom": "Biological properties and polymers"
   },
   {
    "id": 17,
-   "nom": "07-08. Ceramic materials and metallic materials"
+   "nom": "Ceramic and metallic materials"
   },
   {
    "id": 5,
-   "nom": "09. Polymeric materials I — impression materials"
+   "nom": "Polymeric materials I — impression materials"
   },
   {
    "id": 6,
-   "nom": "10. Polymeric materials II — acrylics"
+   "nom": "Polymeric materials II — acrylics"
   },
   {
    "id": 7,
-   "nom": "11. Polymeric materials III — composite resins"
+   "nom": "Polymeric materials III — composite resins"
   },
   {
    "id": 8,
-   "nom": "12. Polymeric materials IV — waxes, thermoplastic materials and gutta-percha"
+   "nom": "Polymers: waxes, thermoplastics and gutta-percha"
   },
   {
    "id": 9,
-   "nom": "13. Ceramic materials I — plasters"
+   "nom": "Ceramic materials I — plasters"
   },
   {
    "id": 10,
-   "nom": "14. Ceramic materials II — dental cements"
+   "nom": "Ceramic materials II — dental cements"
   },
   {
    "id": 11,
-   "nom": "15. Ceramic materials III — porcelains and vitroceramics"
+   "nom": "Ceramic materials III — porcelains and vitroceramics"
   },
   {
    "id": 12,
-   "nom": "16. Metallic materials I — noble metals and titanium"
+   "nom": "Metallic materials I — noble metals and titanium"
   },
   {
    "id": 13,
-   "nom": "17. Non-noble metals and alloys"
+   "nom": "Non-noble metals and alloys"
   },
   {
    "id": 14,
-   "nom": "18. Titanium and silver amalgam"
+   "nom": "Titanium and silver amalgam"
   },
   {
    "id": 15,
-   "nom": "19. Metallic materials IV — non-noble alloys, types and applications"
+   "nom": "Metals: non-noble alloys and applications"
   },
   {
    "id": 16,
-   "nom": "20. Bone regeneration materials"
+   "nom": "Bone regeneration materials"
   }
  ],
  "dentDiagnostic": [
   {
    "id": 1,
-   "nom": "1. — Basis OF Radiology"
+   "nom": "Basis OF Radiology"
   },
   {
    "id": 2,
-   "nom": "2. — Types of X-Rays"
+   "nom": "Types of X-Rays"
   },
   {
    "id": 3,
-   "nom": "3. — Radiation Protection"
+   "nom": "Radiation Protection"
   },
   {
    "id": 4,
-   "nom": "4. — Introduction TO X-ray Interpretation"
+   "nom": "Introduction TO X-ray Interpretation"
   },
   {
    "id": 5,
-   "nom": "5. — Techniques"
+   "nom": "Techniques"
   },
   {
    "id": 6,
-   "nom": "6. — Radiobiology"
+   "nom": "Radiobiology"
   }
  ],
  "dentHeadNeck": [
   {
    "id": 1,
-   "nom": "01. (DB) Dental anatomy generalities"
+   "nom": "(DB) Dental anatomy generalities"
   },
   {
    "id": 2,
-   "nom": "02. Incisors and canines"
+   "nom": "Incisors and canines"
   },
   {
    "id": 3,
-   "nom": "03. Premolars"
+   "nom": "Premolars"
   },
   {
    "id": 4,
-   "nom": "04. Maxillary and Mandibular molars"
+   "nom": "Maxillary and Mandibular molars"
   },
   {
    "id": 5,
-   "nom": "05. (DB2). General concepts and osteology of the skull"
+   "nom": "General concepts and osteology of the skull"
   },
   {
    "id": 6,
-   "nom": "06. Cranial and facial bones I (ethmoid, sphenoid and temporal)"
+   "nom": "Cranial and facial bones (1)"
   },
   {
    "id": 7,
-   "nom": "07. Cranial and facial bones II (maxillary and palatine)"
+   "nom": "Cranial and facial bones II (maxillary and palatine)"
   },
   {
    "id": 8,
-   "nom": "08. (DB3). Cranial and facial bones III"
+   "nom": "Cranial and facial bones III"
   },
   {
    "id": 9,
-   "nom": "09. Mandible and TMJ"
+   "nom": "Mandible and TMJ"
   },
   {
    "id": 10,
-   "nom": "10. (DB4). Cranial fossae and cavities"
+   "nom": "Cranial fossae and cavities"
   },
   {
    "id": 11,
-   "nom": "11. TMJ-related fossae"
+   "nom": "TMJ-related fossae"
   },
   {
    "id": 12,
-   "nom": "12. Muscles from the first branchial arch"
+   "nom": "Muscles from the first branchial arch"
   },
   {
    "id": 13,
-   "nom": "13. Muscles from the second branchial arch"
+   "nom": "Muscles from the second branchial arch"
   },
   {
    "id": 14,
-   "nom": "14. (DB5). Tongue muscles"
+   "nom": "Tongue muscles"
   },
   {
    "id": 15,
-   "nom": "15. Hyoid bone and muscles; neck triangles and cervical fasciae"
+   "nom": "Hyoid bone, neck triangles and fasciae"
   },
   {
    "id": 16,
-   "nom": "16. (DB6). Head and neck arteries I"
+   "nom": "Head and neck arteries I"
   },
   {
    "id": 17,
-   "nom": "17. Head and neck arteries II. External carotid artery"
+   "nom": "Head and neck arteries II. External carotid artery"
   },
   {
    "id": 18,
-   "nom": "18. Venous and lymphatic drainage"
+   "nom": "Venous and lymphatic drainage"
   },
   {
    "id": 19,
-   "nom": "19. Pharynx"
+   "nom": "Pharynx"
   },
   {
    "id": 20,
-   "nom": "20. Larynx"
+   "nom": "Larynx"
   }
  ],
  "dentOcclusion": [
   {
    "id": 1,
-   "nom": "1. Occlusion IN Dentistry"
+   "nom": "Occlusion IN Dentistry"
   },
   {
    "id": 2,
-   "nom": "2. Stomathognatic system"
+   "nom": "Stomathognatic system"
   },
   {
    "id": 3,
-   "nom": "5. Mandibular positions and movements"
+   "nom": "Mandibular positions and movements"
   },
   {
    "id": 4,
-   "nom": "6. Centric Relation"
+   "nom": "Centric Relation"
   },
   {
    "id": 5,
-   "nom": "7. Eccentric Relation"
+   "nom": "Eccentric Relation"
   },
   {
    "id": 6,
-   "nom": "8. 9 Articulators-1"
+   "nom": "Articulators"
   },
   {
    "id": 7,
-   "nom": "10. Occlusal Schemes"
+   "nom": "Occlusal Schemes"
   }
  ],
  "dentPatho2Fin": [
@@ -428,39 +428,39 @@ window.CHAPITRES = {
  "dentPatho2Mid": [
   {
    "id": 1,
-   "nom": "01. 1 Blood disorders"
+   "nom": "Blood disorders"
   },
   {
    "id": 2,
-   "nom": "02. 2 Hemostasis"
+   "nom": "Hemostasis"
   },
   {
    "id": 3,
-   "nom": "03. 3 Bleeding Disorders and Thrombophilia"
+   "nom": "Bleeding Disorders and Thrombophilia"
   },
   {
    "id": 4,
-   "nom": "04. 4 Hemostasis and Drugs prof"
+   "nom": "Hemostasis and Drugs prof"
   },
   {
    "id": 5,
-   "nom": "05. 5 Hemotherapy and BMT"
+   "nom": "Hemotherapy and BMT"
   },
   {
    "id": 6,
-   "nom": "06. 6 Cardiovascular General"
+   "nom": "Cardiovascular General"
   },
   {
    "id": 7,
-   "nom": "07. 7 CVR. HBP. Diagnosis and Treatment prof"
+   "nom": "CVR. HBP. Diagnosis and Treatment prof"
   },
   {
    "id": 8,
-   "nom": "08. 8 CVR. Diabetes.-1"
+   "nom": "CVR. Diabetes."
   },
   {
    "id": 9,
-   "nom": "09. 9 CVR. Ischaemic heart disease prof"
+   "nom": "CVR. Ischaemic heart disease prof"
   },
   {
    "id": 11,
@@ -472,601 +472,601 @@ window.CHAPITRES = {
   },
   {
    "id": 13,
-   "nom": "Unit Congenital heart disease. Valvulopathies. Endocarditis"
+   "nom": "Congenital heart disease, valvulopathies, endocarditis"
   }
  ],
  "dentPathology1Fin": [
   {
    "id": 1,
-   "nom": "11. GRADO PMQA-1 Ch11 Immunology. Basics"
+   "nom": "Immunology. Basics"
   },
   {
    "id": 2,
-   "nom": "12. GRADO PMQA-1 Ch12 Immune-mediated diseases"
+   "nom": "Immune-mediated diseases"
   },
   {
    "id": 3,
-   "nom": "13. GRADO PMQA-1 Ch13 Anaphylaxis"
+   "nom": "Anaphylaxis"
   },
   {
    "id": 4,
-   "nom": "14. GRADO PMQA-1 Ch14 Autoimmune Diseases. Pemphigus and Lichen planus"
+   "nom": "Autoimmune diseases: pemphigus and lichen planus"
   },
   {
    "id": 5,
-   "nom": "15. GRADO PMQA-1 Ch15 ID General concepts"
+   "nom": "ID General concepts"
   },
   {
    "id": 6,
-   "nom": "16. GRADO PMQA-1 Ch16 ID Diagnosis, Prevention and Treatment"
+   "nom": "Infectious disease: diagnosis and treatment"
   },
   {
    "id": 7,
-   "nom": "17. GRADO PMQA-1 Ch17ST Is"
+   "nom": "ST Is"
   },
   {
    "id": 8,
-   "nom": "18. GRADO PMQA-1 Ch18 HIV Infection"
+   "nom": "HIV Infection"
   },
   {
    "id": 9,
-   "nom": "19. GRADO PMQA-1 Ch19 Oral infections"
+   "nom": "Oral infections"
   },
   {
    "id": 10,
-   "nom": "20. GRADO PMQA-1 Ch20 Occupational Exposures"
+   "nom": "Occupational Exposures"
   },
   {
    "id": 11,
-   "nom": "21. GRADO PMQA-1 Ch21 Standard Precautions"
+   "nom": "Standard Precautions"
   }
  ],
  "dentPathology1Mid": [
   {
    "id": 1,
-   "nom": "02. GRADO PMQA-1 Ch2 Health care bases"
+   "nom": "Health care bases"
   },
   {
    "id": 2,
-   "nom": "03. GRADO PMQA-1 Ch3 Medical care process. Prevention and Diagnosis"
+   "nom": "Medical care process: prevention and diagnosis"
   },
   {
    "id": 3,
-   "nom": "04. GRADO PMQA-1 Ch4 Diagnostic Work-up. Blood tests and urinalysis"
+   "nom": "Diagnostic work-up: blood and urine tests"
   },
   {
    "id": 4,
-   "nom": "05. GRADO PMQA-1 Ch5 Diagnostic tests. Microbiology and Histopathology"
+   "nom": "Diagnostic tests: microbiology and histopathology"
   },
   {
    "id": 5,
-   "nom": "06. GRADO PMQA-1 Ch6 Diagnostic work up. Imaging studies-techniques"
+   "nom": "Diagnostic work-up: imaging"
   },
   {
    "id": 6,
-   "nom": "07. GRADO PMQA-1 Ch7 Prognosis and Treatment"
+   "nom": "Prognosis and Treatment"
   },
   {
    "id": 7,
-   "nom": "08. GRADO PMQA-1 Ch8 Medical Dental History"
+   "nom": "Medical Dental History"
   },
   {
    "id": 8,
-   "nom": "09. GRADO PMQA-1 Ch9Cancer. Prevention, Diagnosis and treatment"
+   "nom": "Cancer: prevention, diagnosis and treatment"
   },
   {
    "id": 9,
-   "nom": "10. GRADO PMQA-1 Ch10 Oropharyngeal cancer"
+   "nom": "Oropharyngeal cancer"
   }
  ],
  "dentPeriodoncia": [
   {
    "id": 1,
-   "nom": "01. Anatomy of the Periodontium"
+   "nom": "Anatomy of the Periodontium"
   },
   {
    "id": 2,
-   "nom": "02. The mucosa in toothed and peri-implant areas"
+   "nom": "The mucosa in toothed and peri-implant areas"
   },
   {
    "id": 3,
-   "nom": "03. Bone"
+   "nom": "Bone"
   },
   {
    "id": 4,
-   "nom": "04. Epidemiology of periodontal diseases"
+   "nom": "Epidemiology of periodontal diseases"
   },
   {
    "id": 5,
-   "nom": "05. Biofilm and Dental Calculus"
+   "nom": "Biofilm and Dental Calculus"
   },
   {
    "id": 6,
-   "nom": "06. Periodontal Infections"
+   "nom": "Periodontal Infections"
   },
   {
    "id": 7,
-   "nom": "07. Pathogenesis of Periodontitis"
+   "nom": "Pathogenesis of Periodontitis"
   },
   {
    "id": 8,
-   "nom": "08. Non-Dental Biofilm-Induced Gingival Diseases"
+   "nom": "Non-Dental Biofilm-Induced Gingival Diseases"
   },
   {
    "id": 9,
-   "nom": "09. Dental Biofilm-Induced Gingival Diseases"
+   "nom": "Dental Biofilm-Induced Gingival Diseases"
   },
   {
    "id": 10,
-   "nom": "10. Periodontitis"
+   "nom": "Periodontitis"
   },
   {
    "id": 11,
-   "nom": "11. Molar Incisor Pattern Periodontitis"
+   "nom": "Molar Incisor Pattern Periodontitis"
   },
   {
    "id": 12,
-   "nom": "12. Necrotizing Periodontal Diseases"
+   "nom": "Necrotizing Periodontal Diseases"
   },
   {
    "id": 13,
-   "nom": "13. Mechanical Supra-Gingival Plaque Control"
+   "nom": "Mechanical Supra-Gingival Plaque Control"
   },
   {
    "id": 14,
-   "nom": "14. Non-surgical periodontal treatment"
+   "nom": "Non-surgical periodontal treatment"
   }
  ],
  "dentPharmacoFin": [
   {
    "id": 1,
-   "nom": "16. General principles of atb"
+   "nom": "General principles of atb"
   },
   {
    "id": 2,
-   "nom": "17. Antibiotics I -26"
+   "nom": "Antibiotics I"
   },
   {
    "id": 3,
-   "nom": "18. Antibiotics II -26"
+   "nom": "Antibiotics II"
   },
   {
    "id": 4,
-   "nom": "19. Antiviral and antifungal drugs"
+   "nom": "Antiviral and antifungal drugs"
   },
   {
    "id": 5,
-   "nom": "20. Antiseptics. Disinfectants. Caries. Aphthae. Halitosis"
+   "nom": "Antiseptics, caries, aphthae and halitosis"
   },
   {
    "id": 6,
-   "nom": "21. Treatment of oropharyngeal infection"
+   "nom": "Treatment of oropharyngeal infection"
   },
   {
    "id": 7,
-   "nom": "22. Antihypertensive. Vasodilators. diuretic drugs -26"
+   "nom": "Antihypertensive. Vasodilators. diuretic drugs"
   },
   {
    "id": 8,
-   "nom": "23. Inotropics, antiarrhythmic agents and antianginals"
+   "nom": "Inotropics, antiarrhythmic agents and antianginals"
   },
   {
    "id": 9,
-   "nom": "25. Anticoagulants, antiplatelet and fibrinolytic drugs -26"
+   "nom": "Anticoagulants, antiplatelet and fibrinolytic drugs"
   },
   {
    "id": 10,
-   "nom": "26. Treatment of diabetes mellitus. Insulin and other hypoglycemic agents -26"
+   "nom": "Diabetes mellitus: insulin and hypoglycemic agents"
   },
   {
    "id": 11,
-   "nom": "27. Gastrointestinal drugs -26"
+   "nom": "Gastrointestinal drugs"
   },
   {
    "id": 12,
-   "nom": "28. Respiratory Pharmacology -26"
+   "nom": "Respiratory Pharmacology"
   },
   {
    "id": 13,
-   "nom": "29. Pharmacology of bone"
+   "nom": "Pharmacology of bone"
   },
   {
    "id": 14,
-   "nom": "30. Cytostatic drugs"
+   "nom": "Cytostatic drugs"
   }
  ],
  "dentPharmacoMid": [
   {
    "id": 1,
-   "nom": "0. Intro"
+   "nom": "Intro"
   },
   {
    "id": 2,
-   "nom": "01. Concepthistoryevol"
+   "nom": "Concepthistoryevol"
   },
   {
    "id": 3,
-   "nom": "02. Pharmacokinetics"
+   "nom": "Pharmacokinetics"
   },
   {
    "id": 4,
-   "nom": "03. Pharmacodynamics"
+   "nom": "Pharmacodynamics"
   },
   {
    "id": 5,
-   "nom": "04. Adverse drug reactions"
+   "nom": "Adverse drug reactions"
   },
   {
    "id": 6,
-   "nom": "05. Drug Interactions"
+   "nom": "Drug Interactions"
   },
   {
    "id": 7,
-   "nom": "06. Autonomic Nervous System"
+   "nom": "Autonomic Nervous System"
   },
   {
    "id": 8,
-   "nom": "07. Neuromuscular blockers"
+   "nom": "Neuromuscular blockers"
   },
   {
    "id": 9,
-   "nom": "08. Opioid"
+   "nom": "Opioid"
   },
   {
    "id": 10,
-   "nom": "09. Nsaids"
+   "nom": "Nsaids"
   },
   {
    "id": 11,
-   "nom": "10. Corticoids"
+   "nom": "Corticoids"
   },
   {
    "id": 12,
-   "nom": "11. Antimigraine and antihistamine drugs"
+   "nom": "Antimigraine and antihistamine drugs"
   },
   {
    "id": 13,
-   "nom": "12. Benzodiazepines -26"
+   "nom": "Benzodiazepines"
   },
   {
    "id": 14,
-   "nom": "13. Antidepressants and antiepileptic drugs -26"
+   "nom": "Antidepressants and antiepileptic drugs"
   },
   {
    "id": 15,
-   "nom": "14. Local and general anesthetics -26"
+   "nom": "Local and general anesthetics"
   }
  ],
  "dentPhysiology": [
   {
    "id": 1,
-   "nom": "01. (DB1). Introduction to PSS and the Oral Cavity"
+   "nom": "Introduction to PSS and the Oral Cavity"
   },
   {
    "id": 2,
-   "nom": "02. Enamel"
+   "nom": "Enamel"
   },
   {
    "id": 3,
-   "nom": "03. Dentin and Pulp"
+   "nom": "Dentin and Pulp"
   },
   {
    "id": 4,
-   "nom": "04. Periodontium"
+   "nom": "Periodontium"
   },
   {
    "id": 5,
-   "nom": "05. (DB2). Embryology"
+   "nom": "Embryology"
   },
   {
    "id": 6,
-   "nom": "06. Cranial Nerves"
+   "nom": "Cranial Nerves"
   },
   {
    "id": 7,
-   "nom": "07. Trigeminal Nerve - Generalities"
+   "nom": "Trigeminal Nerve - Generalities"
   },
   {
    "id": 8,
-   "nom": "08. Trigeminal Nerve - Branches"
+   "nom": "Trigeminal Nerve - Branches"
   },
   {
    "id": 9,
-   "nom": "09. Trigeminal Nerve - Pathways"
+   "nom": "Trigeminal Nerve - Pathways"
   },
   {
    "id": 10,
-   "nom": "10. (DB3). Introduction to the Somatosensory System"
+   "nom": "Introduction to the Somatosensory System"
   },
   {
    "id": 11,
-   "nom": "11. (DB4). Somatosensory System - Mechanoreceptors and Proprioceptors"
+   "nom": "Somatosensory system: mechano- and proprioceptors"
   },
   {
    "id": 12,
-   "nom": "12. Temperature and pain - FSE 24"
+   "nom": "Temperature and pain - FSE 24"
   },
   {
    "id": 13,
-   "nom": "13. (DB5). Orofacial Pain"
+   "nom": "Orofacial Pain"
   },
   {
    "id": 14,
-   "nom": "14. Motor Control of Mastication"
+   "nom": "Motor Control of Mastication"
   },
   {
    "id": 15,
-   "nom": "15. Salivary Glands - Innervation"
+   "nom": "Salivary Glands - Innervation"
   },
   {
    "id": 16,
-   "nom": "16. Salivary Glands - Physiology"
+   "nom": "Salivary Glands - Physiology"
   },
   {
    "id": 17,
-   "nom": "17. Salivary Glands - Anatomy and Histology"
+   "nom": "Salivary Glands - Anatomy and Histology"
   },
   {
    "id": 18,
-   "nom": "18. Taste"
+   "nom": "Taste"
   },
   {
    "id": 19,
-   "nom": "19. (DB6). Swallowing"
+   "nom": "Swallowing"
   }
  ],
  "dentSemiology1": [
   {
    "id": 1,
-   "nom": "01. General concepts"
+   "nom": "General concepts"
   },
   {
    "id": 2,
-   "nom": "02. Immune system pathophysiology"
+   "nom": "Immune system pathophysiology"
   },
   {
    "id": 3,
-   "nom": "03. Infectious pathophysiology"
+   "nom": "Infectious pathophysiology"
   },
   {
    "id": 4,
-   "nom": "04. Environmental diseasses"
+   "nom": "Environmental diseasses"
   },
   {
    "id": 5,
-   "nom": "05. Congenital and genetic diseases"
+   "nom": "Congenital and genetic diseases"
   },
   {
    "id": 6,
-   "nom": "06. Neoplasias"
+   "nom": "Neoplasias"
   },
   {
    "id": 7,
-   "nom": "07. Eating pathophys"
+   "nom": "Eating pathophys"
   },
   {
    "id": 8,
-   "nom": "08. Approach to hematology"
+   "nom": "Approach to hematology"
   },
   {
    "id": 9,
-   "nom": "09. RBC pathophysiology"
+   "nom": "RBC pathophysiology"
   },
   {
    "id": 10,
-   "nom": "10. WBC pathophysiology"
+   "nom": "WBC pathophysiology"
   },
   {
    "id": 11,
-   "nom": "11. Coagulation pathophysiology"
+   "nom": "Coagulation pathophysiology"
   },
   {
    "id": 12,
-   "nom": "12. Cardiovascular introduction"
+   "nom": "Cardiovascular introduction"
   },
   {
    "id": 13,
-   "nom": "13. Atherosclerosis"
+   "nom": "Atherosclerosis"
   },
   {
    "id": 14,
-   "nom": "14. Ischemic heart disease"
+   "nom": "Ischemic heart disease"
   },
   {
    "id": 15,
-   "nom": "15. Heart failure"
+   "nom": "Heart failure"
   },
   {
    "id": 16,
-   "nom": "16. Blood pressure pathophys"
+   "nom": "Blood pressure pathophys"
   },
   {
    "id": 17,
-   "nom": "17. Valvular heart diseases"
+   "nom": "Valvular heart diseases"
   },
   {
    "id": 18,
-   "nom": "18. Arrhythmias"
+   "nom": "Arrhythmias"
   },
   {
    "id": 19,
-   "nom": "19. Peripheral vascular diseases"
+   "nom": "Peripheral vascular diseases"
   },
   {
    "id": 20,
-   "nom": "20. Respiratory pathophysiology: introduction"
+   "nom": "Respiratory pathophysiology: introduction"
   },
   {
    "id": 21,
-   "nom": "21. Respiratory failure"
+   "nom": "Respiratory failure"
   },
   {
    "id": 22,
-   "nom": "22. Obstructive pulmonary diseases"
+   "nom": "Obstructive pulmonary diseases"
   },
   {
    "id": 23,
-   "nom": "23. Rectrictive pulmonary diseases"
+   "nom": "Rectrictive pulmonary diseases"
   },
   {
    "id": 24,
-   "nom": "24. Pulmonary hypertension"
+   "nom": "Pulmonary hypertension"
   }
  ],
  "dentSemiology2": [
   {
    "id": 1,
-   "nom": "01. Approach to patient with digestive disease"
+   "nom": "Approach to patient with digestive disease"
   },
   {
    "id": 2,
-   "nom": "02. Esophageal pathophysiology"
+   "nom": "Esophageal pathophysiology"
   },
   {
    "id": 3,
-   "nom": "03. Gastroduodenal pathophysiology"
+   "nom": "Gastroduodenal pathophysiology"
   },
   {
    "id": 4,
-   "nom": "04. Small and large bowel pathophysiology"
+   "nom": "Small and large bowel pathophysiology"
   },
   {
    "id": 5,
-   "nom": "05. Liver or hepatic failure"
+   "nom": "Liver or hepatic failure"
   },
   {
    "id": 6,
-   "nom": "06. Jaundice"
+   "nom": "Jaundice"
   },
   {
    "id": 7,
-   "nom": "07. Portal hypertension"
+   "nom": "Portal hypertension"
   },
   {
    "id": 8,
-   "nom": "08. Gallbladder and biliary tract diseases"
+   "nom": "Gallbladder and biliary tract diseases"
   },
   {
    "id": 9,
-   "nom": "09. Approach to patients with endocrine disease"
+   "nom": "Approach to patients with endocrine disease"
   },
   {
    "id": 10,
-   "nom": "10. Diabetes Mellitus"
+   "nom": "Diabetes Mellitus"
   },
   {
    "id": 11,
-   "nom": "11. Thyroid gland pathophysiology"
+   "nom": "Thyroid gland pathophysiology"
   },
   {
    "id": 12,
-   "nom": "12. Adrenal gland pathophysiology"
+   "nom": "Adrenal gland pathophysiology"
   },
   {
    "id": 13,
-   "nom": "13. Pituitary gland pathophysiology"
+   "nom": "Pituitary gland pathophysiology"
   },
   {
    "id": 14,
-   "nom": "14. Approach to patient with nephrourological diseases"
+   "nom": "Approach to patient with nephrourological diseases"
   },
   {
    "id": 15,
-   "nom": "15. Acute and chronic renal failure"
+   "nom": "Acute and chronic renal failure"
   },
   {
    "id": 16,
-   "nom": "16. Glomerular diseases"
+   "nom": "Glomerular diseases"
   },
   {
    "id": 17,
-   "nom": "17. Urinary tract diseases"
+   "nom": "Urinary tract diseases"
   },
   {
    "id": 18,
-   "nom": "18. Bone pathophysiology"
+   "nom": "Bone pathophysiology"
   },
   {
    "id": 19,
-   "nom": "19. Joint pathophysiology"
+   "nom": "Joint pathophysiology"
   },
   {
    "id": 20,
-   "nom": "20. Approach to patient with a neurological disease"
+   "nom": "Approach to patient with a neurological disease"
   },
   {
    "id": 21,
-   "nom": "21. Consciousness pathophysiology"
+   "nom": "Consciousness pathophysiology"
   },
   {
    "id": 22,
-   "nom": "22. Motor system pathophysiology"
+   "nom": "Motor system pathophysiology"
   },
   {
    "id": 23,
-   "nom": "23. CSF and meninges pathophysiology"
+   "nom": "CSF and meninges pathophysiology"
   },
   {
    "id": 24,
-   "nom": "24. Cranial nerves pathophysiology"
+   "nom": "Cranial nerves pathophysiology"
   },
   {
    "id": 25,
-   "nom": "25. Neuropathy and myopathy"
+   "nom": "Neuropathy and myopathy"
   }
  ],
  "histoireKine": [
   {
    "id": 1,
-   "nom": "1.- Qu'est-ce que la physiothérapie"
+   "nom": "Qu'est-ce que la physiothérapie"
   },
   {
    "id": 2,
-   "nom": "2 -Origine et Evolution de la Kinésithérapie"
+   "nom": "Origine et évolution de la kinésithérapie"
   },
   {
    "id": 3,
-   "nom": "2.3 La physiothérapie comme sciences"
+   "nom": "La physiothérapie comme sciences"
   },
   {
    "id": 4,
-   "nom": "3. Le physiothérapeute tant qu'agent de santé dans un contexte interprofessionnel24 25"
+   "nom": "Le kinésithérapeute dans le parcours de soins"
   },
   {
    "id": 5,
-   "nom": "3.Anamnese"
+   "nom": "Anamnese"
   },
   {
    "id": 6,
-   "nom": "4.Raisonement clinique Partie 2"
+   "nom": "Raisonement clinique Partie 2"
   },
   {
    "id": 7,
-   "nom": "4.Raisonement clinique partie 1"
+   "nom": "Raisonement clinique partie 1"
   },
   {
    "id": 8,
-   "nom": "5 - Efectos fisiologicos de la fisioterapia invasiva"
+   "nom": "Effets physiologiques de la kinésithérapie invasive"
   },
   {
    "id": 9,
-   "nom": "5 - Effets physiologique de l'exercice thérapeutique – Nikos – Copie"
+   "nom": "Effets physiologiques de l exercice thérapeutique"
   },
   {
    "id": 10,
-   "nom": "5- Efectos fisiologicos de la terapia manual FR"
+   "nom": "Effets physiologiques de la thérapie manuelle"
   },
   {
    "id": 11,
-   "nom": "5. Efets physiologiques kine respi"
+   "nom": "Efets physiologiques kine respi"
   },
   {
    "id": 12,
-   "nom": "5.- Efectos fisiológicos de la F. Neurológica"
+   "nom": "Effets physiologiques de la kinésithérapie neurologique"
   },
   {
    "id": 13,
-   "nom": "5.Efectos Fisiológicos de la Electroterapia AMPLIADO"
+   "nom": "Effets physiologiques de l électrothérapie"
   },
   {
    "id": 14,
@@ -1076,83 +1076,83 @@ window.CHAPITRES = {
  "investigation": [
   {
    "id": 1,
-   "nom": "1.1. La Méthode Scientifique"
+   "nom": "La Méthode Scientifique"
   },
   {
    "id": 2,
-   "nom": "1.2. Les erreurs dans la recherche Validité interne et externe"
+   "nom": "Erreurs, validité interne et externe"
   },
   {
    "id": 3,
-   "nom": "1.3. Validité et fiabilité des méthodes de mesure"
+   "nom": "Validité et fiabilité des méthodes de mesure"
   },
   {
    "id": 4,
-   "nom": "1.4. Aspects éthiques de la recherche"
+   "nom": "Aspects éthiques de la recherche"
   },
   {
    "id": 5,
-   "nom": "2.1. Stratégies de recherche"
+   "nom": "Stratégies de recherche"
   },
   {
    "id": 6,
-   "nom": "2.2. Question de recherche, hypothèse et objectifs"
+   "nom": "Question de recherche, hypothèse et objectifs"
   },
   {
    "id": 7,
-   "nom": "2.3. Les variables d'un point de vue méthodologique"
+   "nom": "Les variables d'un point de vue méthodologique"
   },
   {
    "id": 8,
-   "nom": "2.4. Les variables selon leur mesure"
+   "nom": "Les variables selon leur mesure"
   },
   {
    "id": 9,
-   "nom": "2.5. Notions statistiques de base"
+   "nom": "Notions statistiques de base"
   },
   {
    "id": 10,
-   "nom": "2.6. Statistique descriptive"
+   "nom": "Statistique descriptive"
   },
   {
    "id": 11,
-   "nom": "2.7. Représentation graphique"
+   "nom": "Représentation graphique"
   },
   {
    "id": 12,
-   "nom": "3.1. Communication scientifique"
+   "nom": "Communication scientifique"
   },
   {
    "id": 13,
-   "nom": "3.2. Bases de données bibliographiques"
+   "nom": "Bases de données bibliographiques"
   },
   {
    "id": 14,
-   "nom": "3.3. Stratégies de recherche recherche biomédicale"
+   "nom": "Stratégies de recherche recherche biomédicale"
   },
   {
    "id": 15,
-   "nom": "3.4. L'article scientifique"
+   "nom": "L'article scientifique"
   },
   {
    "id": 16,
-   "nom": "3.5. Références bibliographiques"
+   "nom": "Références bibliographiques"
   },
   {
    "id": 17,
-   "nom": "3.6. Évaluation de la qualité des articles et des revues scientifiques"
+   "nom": "Qualité des articles et des revues"
   },
   {
    "id": 18,
-   "nom": "3.7. Évidence scientifique dans la pratique de la kinésithérapie"
+   "nom": "Pratique fondée sur les preuves"
   },
   {
    "id": 19,
-   "nom": "3.8. Guides de pratique clinique"
+   "nom": "Guides de pratique clinique"
   },
   {
    "id": 20,
-   "nom": "3.9. Revue systématique"
+   "nom": "Revue systématique"
   }
  ],
  "neuro1": [
@@ -1216,431 +1216,431 @@ window.CHAPITRES = {
  "osteo2": [
   {
    "id": 1,
-   "nom": "Cervicales UE Criterios de Seguridad"
+   "nom": "Rachis cervical : critères de sécurité"
   },
   {
    "id": 2,
-   "nom": "Examen neurologico y test ortopédicos columna cervical FR"
+   "nom": "Examen neurologique et tests orthopédiques cervicaux"
   },
   {
    "id": 3,
-   "nom": "CHAÎNES MUSCULAIRES"
+   "nom": "Chaînes musculaires"
   },
   {
    "id": 4,
-   "nom": "Neuropatías del miembro superior FOSTII"
+   "nom": "Neuropathies du membre supérieur"
   },
   {
    "id": 5,
-   "nom": "CERVICALES francés"
+   "nom": "Rachis cervical"
   },
   {
    "id": 6,
-   "nom": "PELVIS Y SACRO"
+   "nom": "Bassin et sacrum"
   },
   {
    "id": 7,
-   "nom": "Practicas RPG-SGA"
+   "nom": "Rééducation posturale globale"
   }
  ],
  "pathoChir1": [
   {
    "id": 1,
-   "nom": "01F. Concepts chirurgicaux généraux"
+   "nom": "Concepts chirurgicaux généraux"
   },
   {
    "id": 2,
-   "nom": "02F. Douleur chirurgie, anéthésie"
+   "nom": "Douleur chirurgie, anéthésie"
   },
   {
    "id": 3,
-   "nom": "03F. Inflammation"
+   "nom": "Inflammation"
   },
   {
    "id": 4,
-   "nom": "04F. Heridas. Proceso de cicatrización. Patología de la cicatriz. Quemaduras"
+   "nom": "Plaies, cicatrisation et brûlures"
   },
   {
    "id": 5,
-   "nom": "05F. ASSISTANCE AU PATIENT POLYTRAUMATISÉ. TESTS SUPPLÉMENTAIRES APPLICABLES SUR LE SYSTÈME NERVEUX CENTRAL"
+   "nom": "Patient polytraumatisé"
   },
   {
    "id": 6,
-   "nom": "06F. INFECTION LOCALE ET GENERALISÉE"
+   "nom": "Infection locale et generalisée"
   },
   {
    "id": 7,
-   "nom": "07F. INFECTIONS OSTÉOARTICULAIRES"
+   "nom": "Infections ostéoarticulaires"
   },
   {
    "id": 8,
-   "nom": "08F. TUMEURS OSSEUSES BÉNIGNES ET PSEUDOTUMEURS. TUMEURS OSSEUSES MALIGNES"
+   "nom": "Tumeurs osseuses"
   },
   {
    "id": 9,
-   "nom": "09F. Base physique et applications de la radiologie simple"
+   "nom": "Radiologie simple"
   },
   {
    "id": 10,
-   "nom": "10F. Bases físicas y aplicaciones de la TAC la RM y la ecografía"
+   "nom": "Scanner, IRM et échographie"
   },
   {
    "id": 11,
-   "nom": "11F. Bases físicas y aplicaciones de otras pruebas complementarias"
+   "nom": "Autres examens complémentaires"
   },
   {
    "id": 12,
-   "nom": "12 F. TESTS COMPLÉMENTAIRES POUR L’ÉTUDE DU SYSTÈME NERVEUX PÉRIPHÉRIQUE"
+   "nom": "Explorations du système nerveux périphérique"
   },
   {
    "id": 13,
-   "nom": "13F. Étiologie et mécanisme de production des fractures. Clinique. Classification"
+   "nom": "Fractures : étiologie et classification"
   },
   {
    "id": 14,
-   "nom": "14F. Processus de consolidation des fractures. Traitement général des fractures. Principes de l’ostéosynthèse"
+   "nom": "Consolidation des fractures et ostéosynthèse"
   },
   {
    "id": 15,
-   "nom": "15F. Pathologie du cal de fracture. Consolidation vicieuse, consolidation retardée et pseudoarthrose"
+   "nom": "Complications de consolidation"
   },
   {
    "id": 16,
-   "nom": "16F. Physiopathologie de la plaque de croissance. Épiphysiolyse"
+   "nom": "Plaque de croissance et épiphysiolyse"
   },
   {
    "id": 17,
-   "nom": "17F. Lésions du cartilage articulaire. Mécanismes de réparation. Lésions fibrocartilagineuses"
+   "nom": "Lésions du cartilage articulaire"
   },
   {
    "id": 18,
-   "nom": "18.F Vieillissement du cartilage articulaire. Arthrose"
+   "nom": "F Vieillissement du cartilage articulaire. Arthrose"
   },
   {
    "id": 19,
-   "nom": "19.F ARTHRITE AIGUË. AUTRES ARTHROPATHIES"
+   "nom": "F arthrite aiguë. autres arthropathies"
   },
   {
    "id": 20,
-   "nom": "20 F. Pathologie musculaire"
+   "nom": "Pathologie musculaire"
   },
   {
    "id": 21,
-   "nom": "21F. Pathologie tendineuse, synoviale et ligamentaire"
+   "nom": "Pathologie tendineuse, synoviale et ligamentaire"
   },
   {
    "id": 22,
-   "nom": "22.F Pathologie des nerfs périphériques"
+   "nom": "F Pathologie des nerfs périphériques"
   },
   {
    "id": 23,
-   "nom": "23 F. Le syndrome des loges et ses complications. Syndrome douloureux régional complexe"
+   "nom": "Syndrome des loges et douleur régionale complexe"
   },
   {
    "id": 24,
-   "nom": "24.F CERVICALE. ANATOMIE & RADIOLOGIE"
+   "nom": "F cervicale. anatomie & radiologie"
   },
   {
    "id": 25,
-   "nom": "25.LÉSIONS TRAUMATIQUES DE LA COLONNE CERVICALE"
+   "nom": "Traumatismes du rachis cervical"
   },
   {
    "id": 26,
-   "nom": "26.F DOULEUR cervicale APPROCHE GÉNÉRALE DE LA DOULEUR CERVICALE"
+   "nom": "Cervicalgie : approche générale"
   },
   {
    "id": 27,
-   "nom": "27.F Douleur cervicale PATHOLOGIES À L’ORIGINE DE DOULEURS CERVICALES"
+   "nom": "Cervicalgie : pathologies en cause"
   },
   {
    "id": 28,
-   "nom": "28F. COLONNE THORACO-lombaire. ANATOMIE & RADIOLOGIE"
+   "nom": "COLONNE THORACO-lombaire. ANATOMIE & RADIOLOGIE"
   },
   {
    "id": 29,
-   "nom": "29.F LÉSIONS TRAUMATIQUES DE LA COLONNE THORACO-LOMBAIRE"
+   "nom": "Traumatismes du rachis thoraco-lombaire"
   },
   {
    "id": 30,
-   "nom": "30.F Douleur lombaire . Hernies discales"
+   "nom": "F Douleur lombaire . Hernies discales"
   },
   {
    "id": 31,
-   "nom": "31.F Douleur lombaire . D’autres pathologies qui causent de la douleur. DÉFORMATIONS DU DOS"
+   "nom": "Lombalgie et déformations du dos"
   }
  ],
  "pathoChir2": [
   {
    "id": 1,
-   "nom": "01. Bassin, hanche et cuisse — anatomie et radiologie"
+   "nom": "Bassin, hanche et cuisse — anatomie et radiologie"
   },
   {
    "id": 2,
-   "nom": "02. Blessures du bassin — fractures de l'anneau pelvien, de l'acétabulum et luxations de hanche"
+   "nom": "Traumatismes du bassin et de la hanche"
   },
   {
    "id": 3,
-   "nom": "03. Fractures de l'extrémité proximale du fémur et de la diaphyse fémorale"
+   "nom": "Fractures du fémur proximal et diaphysaire"
   },
   {
    "id": 4,
-   "nom": "04. La hanche de l'enfant"
+   "nom": "La hanche de l'enfant"
   },
   {
    "id": 5,
-   "nom": "05. La hanche douloureuse de l'adulte"
+   "nom": "La hanche douloureuse de l'adulte"
   },
   {
    "id": 6,
-   "nom": "06. Genou et jambe — anatomie et radiologie"
+   "nom": "Genou et jambe — anatomie et radiologie"
   },
   {
    "id": 7,
-   "nom": "07. Blessures des extrémités articulaires du genou"
+   "nom": "Blessures des extrémités articulaires du genou"
   },
   {
    "id": 8,
-   "nom": "08. Appareil extenseur et lésions de la rotule"
+   "nom": "Appareil extenseur et rotule"
   },
   {
    "id": 9,
-   "nom": "09. Fractures diaphysaires du tibia"
+   "nom": "Fractures diaphysaires du tibia"
   },
   {
    "id": 10,
-   "nom": "10. Blessures ligamentaires du genou"
+   "nom": "Blessures ligamentaires du genou"
   },
   {
    "id": 11,
-   "nom": "11. Lésions des ménisques du genou"
+   "nom": "Lésions des ménisques du genou"
   },
   {
    "id": 12,
-   "nom": "12. Le genou douloureux de l'adulte"
+   "nom": "Le genou douloureux de l'adulte"
   },
   {
    "id": 13,
-   "nom": "13. Le genou douloureux chez l'enfant"
+   "nom": "Le genou douloureux chez l'enfant"
   },
   {
    "id": 14,
-   "nom": "14. Cheville et pied — anatomie et radiologie"
+   "nom": "Cheville et pied — anatomie et radiologie"
   },
   {
    "id": 15,
-   "nom": "15. Entorses de la cheville, fractures de la cheville et du pilon tibial"
+   "nom": "Entorses et fractures de la cheville"
   },
   {
    "id": 16,
-   "nom": "16. Blessures du pied — fractures du tarse, des métatarsiens et des orteils"
+   "nom": "Traumatismes du pied"
   },
   {
    "id": 17,
-   "nom": "17. Le pied de l'enfant — déformations congénitales et acquises"
+   "nom": "Pied de l enfant"
   },
   {
    "id": 18,
-   "nom": "18. Le pied douloureux — talalgie et métatarsalgie"
+   "nom": "Le pied douloureux — talalgie et métatarsalgie"
   },
   {
    "id": 19,
-   "nom": "19. Épaule et bras — anatomie et radiologie"
+   "nom": "Épaule et bras — anatomie et radiologie"
   },
   {
    "id": 20,
-   "nom": "20. Traumatismes de l'épaule (1) — fractures"
+   "nom": "Traumatismes de l'épaule (1) — fractures"
   },
   {
    "id": 21,
-   "nom": "21. Traumatismes de l'épaule (2) — luxations"
+   "nom": "Traumatismes de l'épaule (2) — luxations"
   },
   {
    "id": 22,
-   "nom": "22. Épaule douloureuse (1) — syndrome douloureux sous-acromial"
+   "nom": "Épaule douloureuse (1) : conflit sous-acromial"
   },
   {
    "id": 23,
-   "nom": "23. Épaule douloureuse (2) — tendinopathie calcifiante, SLAP, capsulite adhésive"
+   "nom": "Épaule douloureuse (2) : tendinopathie et capsulite"
   },
   {
    "id": 24,
-   "nom": "24. Coude et avant-bras — anatomie et radiologie"
+   "nom": "Coude et avant-bras — anatomie et radiologie"
   },
   {
    "id": 25,
-   "nom": "25. Fractures de la région du coude, luxations et fractures-luxations"
+   "nom": "Fractures et luxations du coude"
   },
   {
    "id": 26,
-   "nom": "26. Blessures et fractures-luxations de l'avant-bras"
+   "nom": "Blessures et fractures-luxations de l'avant-bras"
   },
   {
    "id": 27,
-   "nom": "27. Syndromes douloureux du coude"
+   "nom": "Syndromes douloureux du coude"
   },
   {
    "id": 28,
-   "nom": "28. Poignet et main — anatomie et radiologie"
+   "nom": "Poignet et main — anatomie et radiologie"
   },
   {
    "id": 29,
-   "nom": "29. Fractures du radius distal"
+   "nom": "Fractures du radius distal"
   },
   {
    "id": 30,
-   "nom": "30. Fractures des os du carpe, fractures-luxations et lésions du fibrocartilage triangulaire"
+   "nom": "Fractures du carpe et lésions du fibrocartilage"
   },
   {
    "id": 31,
-   "nom": "31. Traumatismes ouverts et fermés de la main"
+   "nom": "Traumatismes ouverts et fermés de la main"
   },
   {
    "id": 32,
-   "nom": "32. Douleur de la main et du poignet — Dupuytren et déformations acquises"
+   "nom": "Douleur de la main et du poignet"
   },
   {
    "id": 33,
-   "nom": "33. Lésions du plexus brachial"
+   "nom": "Lésions du plexus brachial"
   },
   {
    "id": 34,
-   "nom": "34. Compressions et lésions nerveuses du membre supérieur"
+   "nom": "Compressions et lésions nerveuses du membre supérieur"
   },
   {
    "id": 35,
-   "nom": "35. Compressions et lésions nerveuses du membre inférieur"
+   "nom": "Compressions et lésions nerveuses du membre inférieur"
   }
  ],
  "pathologie1": [
   {
    "id": 1,
-   "nom": "01. Tejidos del aparato locomotor- composición, formación y regeneración (hueso, tendón, músculo, ligamento) FR"
+   "nom": "Tissus de l appareil locomoteur"
   },
   {
    "id": 2,
-   "nom": "02. Diagnóstico del dolor toracolumbar- Patología discal y radicular FR"
+   "nom": "Douleur thoraco-lombaire et pathologie discale"
   },
   {
    "id": 3,
-   "nom": "03. Dolor lumbar - Otras patologías- Deformidades de espalda FR"
+   "nom": "Lombalgie et déformations du dos"
   },
   {
    "id": 4,
-   "nom": "04. Dolor cervical - Abordaje general del dolor cervical FR"
+   "nom": "Cervicalgie"
   },
   {
    "id": 5,
-   "nom": "05. Lesiones del sistema nervioso periférico FR"
+   "nom": "Lésions du système nerveux périphérique"
   },
   {
    "id": 6,
-   "nom": "06. Lesiones del plexo braquial y compresions nerviosas del MS FR"
+   "nom": "Plexus brachial et compressions du membre supérieur"
   },
   {
    "id": 7,
-   "nom": "07. Compresiones nerviosas de MMII FR"
+   "nom": "Compressions nerveuses du membre inférieur"
   },
   {
    "id": 8,
-   "nom": "08. Patología ósea (osteoporosis, Paget)- Patología muscular no traumática FR"
+   "nom": "Pathologie osseuse et musculaire non traumatique"
   },
   {
    "id": 9,
-   "nom": "09. Patología articular no traumática (abordaje de las artropatías, artritis) FR"
+   "nom": "Arthropathies et arthrites"
   },
   {
    "id": 10,
-   "nom": "10. Cartílago articular- Envejecimiento y artrosis FR"
+   "nom": "Cartilage articulaire et arthrose"
   },
   {
    "id": 11,
-   "nom": "11. Cirugia sobre lesiones no traumáticas- Principios de artroplastia y artrodesis FR"
+   "nom": "Chirurgie non traumatique : arthroplastie et arthrodèse"
   },
   {
    "id": 12,
-   "nom": "12. Hombro doloroso FR"
+   "nom": "Épaule douloureuse"
   },
   {
    "id": 13,
-   "nom": "13. Síndromes dolorosos del codo FR"
+   "nom": "Syndromes douloureux du coude"
   },
   {
    "id": 14,
-   "nom": "14. Dolor mano y muñeca FR"
+   "nom": "Douleur de la main et du poignet"
   },
   {
    "id": 15,
-   "nom": "15. La cadera dolorosa del adulto FR"
+   "nom": "Hanche douloureuse de l adulte"
   },
   {
    "id": 16,
-   "nom": "16. La rodilla dolorosa del adulto FR"
+   "nom": "Genou douloureux de l adulte"
   },
   {
    "id": 17,
-   "nom": "17. Pie infantil y pie doloroso del adulto FR"
+   "nom": "Pied de l enfant et pied douloureux de l adulte"
   }
  ],
  "pathologie2": [
   {
    "id": 1,
-   "nom": "1. Bases Physiopathologiques Générales DE LA Neurologie Chez L´adulte"
+   "nom": "Bases physiopathologiques de la neurologie"
   },
   {
    "id": 2,
-   "nom": "2. Lésions Cérébrales Acquises"
+   "nom": "Lésions cérébrales acquises"
   },
   {
    "id": 3,
-   "nom": "3. Troubles Cognitifs ET Neuropsychologiques Suite À LA Lésion Neurologique"
+   "nom": "Troubles cognitifs et neuropsychologiques"
   },
   {
    "id": 4,
-   "nom": "4. Troubles DU Tonus ET DU Mouvement Suite À LA Lésion Néurologique"
+   "nom": "Troubles du tonus et du mouvement"
   },
   {
    "id": 5,
-   "nom": "5. Discinesies FR"
+   "nom": "Dyskinésies"
   },
   {
    "id": 6,
-   "nom": "6. Parkinson FR"
+   "nom": "Maladie de Parkinson"
   },
   {
    "id": 7,
-   "nom": "7. Lésion Médullaire"
+   "nom": "Lésion médullaire"
   },
   {
    "id": 8,
-   "nom": "8. Exploration Neurologique FR"
+   "nom": "Examen neurologique"
   },
   {
    "id": 9,
-   "nom": "9. Troubles sensoriels et"
+   "nom": "Troubles sensoriels"
   },
   {
    "id": 10,
-   "nom": "10. Pacient Oncologique FR"
+   "nom": "Patient oncologique"
   },
   {
    "id": 11,
-   "nom": "11. Patología Degenerativa- Esclerosis Múltiple- FR"
+   "nom": "Sclérose en plaques"
   },
   {
    "id": 12,
-   "nom": "12. Syndrome-de-guillain-barre-sgb FR"
+   "nom": "Syndrome de Guillain-Barré"
   },
   {
    "id": 13,
-   "nom": "13. Patient gériatrique"
+   "nom": "Patient gériatrique"
   },
   {
    "id": 14,
-   "nom": "14. Démence et Alzhéimer"
+   "nom": "Démences et maladie d Alzheimer"
   },
   {
    "id": 15,
-   "nom": "15. Bases Physiologiques DE Neurologie Chez Lénfantlo PPT FR"
+   "nom": "Neurologie de l enfant"
   }
  ],
  "procesos1": [
@@ -1676,141 +1676,141 @@ window.CHAPITRES = {
  "procesos2": [
   {
    "id": 1,
-   "nom": "01. Generale-Contexte kiné"
+   "nom": "Contexte de la kinésithérapie"
   },
   {
    "id": 2,
-   "nom": "02. General-Processus physiopathologiques des tissus"
+   "nom": "Processus physiopathologiques des tissus"
   },
   {
    "id": 3,
-   "nom": "03. Douleur"
+   "nom": "Douleur"
   },
   {
    "id": 4,
-   "nom": "06. Neuropatías y Radiculopatías"
+   "nom": "Neuropathies et radiculopathies"
   },
   {
    "id": 5,
-   "nom": "07. Anexo - Test Columna Vertebral"
+   "nom": "Tests du rachis"
   },
   {
    "id": 6,
-   "nom": "08. Anexo - Test MMSS"
+   "nom": "Tests du membre supérieur"
   },
   {
    "id": 7,
-   "nom": "08. Maladies Neurodegeneratives"
+   "nom": "Maladies neurodégénératives"
   },
   {
    "id": 8,
-   "nom": "09. MMII Partie 4"
+   "nom": "Membre inférieur (4)"
   },
   {
    "id": 9,
-   "nom": "09. Mmii Partie 2"
+   "nom": "Membre inférieur (2)"
   },
   {
    "id": 10,
-   "nom": "09. Anexo - Test MMII"
+   "nom": "Tests du membre inférieur"
   },
   {
    "id": 11,
-   "nom": "10. Columna Vertebral"
+   "nom": "Rachis"
   },
   {
    "id": 12,
-   "nom": "10. Fybromialgie"
+   "nom": "Fibromyalgie"
   },
   {
    "id": 13,
-   "nom": "11. Rhumatologie"
+   "nom": "Rhumatologie"
   },
   {
    "id": 14,
-   "nom": "11. Mmss"
+   "nom": "Membre supérieur"
   },
   {
    "id": 15,
-   "nom": "12. MMII partie 1"
+   "nom": "Membre inférieur (1)"
   },
   {
    "id": 16,
-   "nom": "12. MMII Partie 3"
+   "nom": "Membre inférieur (3)"
   },
   {
    "id": 17,
-   "nom": "THE Me 04 RESU- Man Clin - Val Funcional"
+   "nom": "Évaluation fonctionnelle en clinique"
   },
   {
    "id": 18,
-   "nom": "MMSS coude et poignet"
+   "nom": "Coude et poignet"
   }
  ],
  "processusBio1": [
   {
    "id": 1,
-   "nom": "1. Introduction à la physique et à la chimie de la vie"
+   "nom": "Introduction à la physique et à la chimie de la vie"
   },
   {
    "id": 2,
-   "nom": "2. Origine et évolution cellulaires"
+   "nom": "Origine et évolution cellulaires"
   },
   {
    "id": 3,
-   "nom": "3. La membrane plasmique. structure et transport"
+   "nom": "La membrane plasmique. structure et transport"
   },
   {
    "id": 4,
-   "nom": "4. Cytosquelette. Le sarcomère comme exemple"
+   "nom": "Cytosquelette. Le sarcomère comme exemple"
   },
   {
    "id": 5,
-   "nom": "5. Organites cellulaires"
+   "nom": "Organites cellulaires"
   },
   {
    "id": 6,
-   "nom": "6. A. La signalisation et la stimulation cellulaire"
+   "nom": "A. La signalisation et la stimulation cellulaire"
   },
   {
    "id": 7,
-   "nom": "6. B. La signalisation et la stimulation cellulaire, la mécanotransduction"
+   "nom": "Signalisation cellulaire et mécanotransduction"
   },
   {
    "id": 8,
-   "nom": "7. Etapes et controle de la division cellulaire"
+   "nom": "Etapes et controle de la division cellulaire"
   },
   {
    "id": 9,
-   "nom": "8. Gènes, chromosomes et génome"
+   "nom": "Gènes, chromosomes et génome"
   },
   {
    "id": 10,
-   "nom": "9. Synthèse des protéines. L'épigénétique (IMR)"
+   "nom": "Synthèse des protéines. L'épigénétique (IMR)"
   },
   {
    "id": 11,
-   "nom": "10. Principes physiques des transformation énergétiques"
+   "nom": "Principes physiques des transformation énergétiques"
   },
   {
    "id": 12,
-   "nom": "11. Thermodynamique"
+   "nom": "Thermodynamique"
   },
   {
    "id": 13,
-   "nom": "12. Métabolisme de la cellule humaine"
+   "nom": "Métabolisme de la cellule humaine"
   },
   {
    "id": 14,
-   "nom": "13. La temperature"
+   "nom": "La temperature"
   },
   {
    "id": 15,
-   "nom": "14. Généralités sur les ondes et les ondes sonores"
+   "nom": "Généralités sur les ondes et les ondes sonores"
   },
   {
    "id": 16,
-   "nom": "15. Ondes électromagnétiques et applications"
+   "nom": "Ondes électromagnétiques et applications"
   }
  ],
  "processusBio2": [
@@ -1916,161 +1916,161 @@ window.CHAPITRES = {
  "santePublique": [
   {
    "id": 1,
-   "nom": "1.1. La santé, ses déterminants et indicateurs"
+   "nom": "La santé, ses déterminants et indicateurs"
   },
   {
    "id": 2,
-   "nom": "1.2. Santé Publique"
+   "nom": "Santé Publique"
   },
   {
    "id": 3,
-   "nom": "1.3. Démographie et Épidémiologie"
+   "nom": "Démographie et Épidémiologie"
   },
   {
    "id": 4,
-   "nom": "1.4. La prévention et ses niveaux"
+   "nom": "La prévention et ses niveaux"
   },
   {
    "id": 5,
-   "nom": "1.5. Promotion de la santé et Éducation pour la santé"
+   "nom": "Promotion de la santé et Éducation pour la santé"
   },
   {
    "id": 6,
-   "nom": "2.1. Concept de maladie transmissible"
+   "nom": "Concept de maladie transmissible"
   },
   {
    "id": 7,
-   "nom": "2.2. Épidémiologie et prévention des maladies à transmission aérienne"
+   "nom": "Prévention des maladies à transmission aérienne"
   },
   {
    "id": 8,
-   "nom": "2.3. Épidémiologie et prévention des infections à transmission directe"
+   "nom": "Infections à transmission directe"
   },
   {
    "id": 9,
-   "nom": "2.4. Épidémiologie et prévention des infections à transmission indirecte"
+   "nom": "Infections à transmission indirecte"
   },
   {
    "id": 10,
-   "nom": "2.5. Mesures générales d’hygiène - précautions standard et spécifiques"
+   "nom": "Hygiène et précautions standard"
   },
   {
    "id": 11,
-   "nom": "2.6. Ëpidémiologie et prévention des infections associées aux soins"
+   "nom": "Infections associées aux soins"
   },
   {
    "id": 12,
-   "nom": "2.7. Inmunisation active et passive"
+   "nom": "Inmunisation active et passive"
   },
   {
    "id": 13,
-   "nom": "3.1. Concept de maladie chronique. Transition épidémiologique"
+   "nom": "Maladies chroniques et transition épidémiologique"
   },
   {
    "id": 14,
-   "nom": "3.2. Facteurs de risque des maladies chroniques et sa prévalence dans la population"
+   "nom": "Facteurs de risque des maladies chroniques"
   },
   {
    "id": 15,
-   "nom": "3.3. Épidémiologie et prévention du Diabète"
+   "nom": "Diabète"
   },
   {
    "id": 16,
-   "nom": "3.4. Épidémiologie et prévention des maladies cardiovasculaires"
+   "nom": "Maladies cardiovasculaires"
   },
   {
    "id": 17,
-   "nom": "3.5. Épidémiologie et prévention du cancer"
+   "nom": "Cancer"
   },
   {
    "id": 18,
-   "nom": "3.6. Épidémiologie et prévention des maladies respiratoires chroniques"
+   "nom": "Maladies respiratoires chroniques"
   },
   {
    "id": 19,
-   "nom": "3.7. Épidémiologie et prévention de maladies musculosquelettiques"
+   "nom": "Maladies musculo-squelettiques"
   },
   {
    "id": 20,
-   "nom": "3.8. Épidémiologie et prévention des maladies neurodégénératives"
+   "nom": "Maladies neurodégénératives"
   },
   {
    "id": 21,
-   "nom": "3.9. Épidémiologie et prévention des troubles de santé mentale"
+   "nom": "Troubles de santé mentale"
   },
   {
    "id": 23,
-   "nom": "4. 1-Systèmes de santé. Organisation du système de santé espagnol"
+   "nom": "Organisation du système de santé espagnol"
   },
   {
    "id": 24,
-   "nom": "4. 2 Sociétés"
+   "nom": "Sociétés"
   },
   {
    "id": 25,
-   "nom": "4. 3 Qualité et sécurité"
+   "nom": "Qualité et sécurité"
   },
   {
    "id": 26,
-   "nom": "5. 1 Plan stratégique"
+   "nom": "Plan stratégique"
   },
   {
    "id": 27,
-   "nom": "5. 2 DAFO. Analyse Swot"
+   "nom": "DAFO. Analyse Swot"
   },
   {
    "id": 22,
-   "nom": "5. 3 Emplacement de l'entreprise"
+   "nom": "Emplacement de l'entreprise"
   },
   {
    "id": 28,
-   "nom": "5. 4 Clients potentiels. Cible"
+   "nom": "Clients potentiels. Cible"
   },
   {
    "id": 29,
-   "nom": "5. 5- Stratégies marketing"
+   "nom": "Stratégies marketing"
   },
   {
    "id": 30,
-   "nom": "5. 6 Gestion et planification des ressources humaines"
+   "nom": "Gestion et planification des ressources humaines"
   },
   {
    "id": 31,
-   "nom": "6. 1 Plan économique"
+   "nom": "Plan économique"
   },
   {
    "id": 32,
-   "nom": "6. 2 Aides et subventions"
+   "nom": "Aides et subventions"
   },
   {
    "id": 33,
-   "nom": "6. 3 Économie de la santé et planification sanitaire"
+   "nom": "Économie de la santé et planification sanitaire"
   }
  ],
  "structure1": [
   {
    "id": 1,
-   "nom": "1. Introduction, homéostasie et milieu interne"
+   "nom": "Introduction, homéostasie et milieu intérieur"
   },
   {
    "id": 2,
-   "nom": "2. Système nerveux Partie I"
+   "nom": "Système nerveux (1)"
   },
   {
    "id": 3,
-   "nom": "2. Système nerveux Partie II"
+   "nom": "Système nerveux (2)"
   },
   {
    "id": 4,
-   "nom": "3. Système musculaire"
+   "nom": "Système musculaire"
   },
   {
    "id": 6,
-   "nom": "4. Système Endocrinien"
+   "nom": "Système endocrinien"
   },
   {
    "id": 7,
-   "nom": "5. Système Immunitaire"
+   "nom": "Système immunitaire"
   }
  ],
  "structure2": [
@@ -2102,51 +2102,51 @@ window.CHAPITRES = {
  "valoColonne": [
   {
    "id": 1,
-   "nom": "Base physique et applications d'autres tests complémentaires"
+   "nom": "Bases physiques des examens complémentaires"
   },
   {
    "id": 2,
-   "nom": "Base physique et applications de la radiologie simple"
+   "nom": "Radiologie simple"
   },
   {
    "id": 3,
-   "nom": "Bases physiques et applications de la tomodensitométrie, de l'IRM et de l'échographie"
+   "nom": "Scanner, IRM et échographie"
   },
   {
    "id": 4,
-   "nom": "Formation TMO T0 Explorat Evaluat Objective FR"
+   "nom": "Évaluation objective : méthode"
   },
   {
    "id": 5,
-   "nom": "Images & Solutions 2"
+   "nom": "Lecture d images : cas pratiques"
   },
   {
    "id": 6,
-   "nom": "Révision Rx, TAC, IRM"
+   "nom": "Révision radio, scanner et IRM"
   },
   {
    "id": 7,
-   "nom": "Teoría ATM"
+   "nom": "Articulation temporo-mandibulaire"
   },
   {
    "id": 8,
-   "nom": "Teoría Lumbar"
+   "nom": "Rachis lombaire"
   },
   {
    "id": 9,
-   "nom": "Tests complémentaires pour l'étude du système nerveux périphérique"
+   "nom": "Explorations du système nerveux périphérique"
   },
   {
    "id": 10,
-   "nom": "Théorie Bassin"
+   "nom": "Bassin"
   },
   {
    "id": 11,
-   "nom": "Théorie Cervicale -2"
+   "nom": "Rachis cervical"
   },
   {
    "id": 12,
-   "nom": "Théorie Dorsale"
+   "nom": "Rachis dorsal"
   }
  ],
  "valoMembresInf": [
@@ -2180,311 +2180,311 @@ window.CHAPITRES = {
  "drainageExam1": [
   {
    "id": 1,
-   "nom": "Leçon 1 — Histoire et concept du DLM"
+   "nom": "Histoire et concept du DLM"
   },
   {
    "id": 2,
-   "nom": "Leçon 2 — Effets, indications et contre-indications"
+   "nom": "Effets, indications et contre-indications"
   },
   {
    "id": 3,
-   "nom": "Leçon 3 — Structure et fonction du système lymphatique"
+   "nom": "Structure et fonction du système lymphatique"
   },
   {
    "id": 4,
-   "nom": "Leçon 4.1 — Anatomie lymphatique : tête et cou"
+   "nom": "Anatomie lymphatique : tête et cou"
   },
   {
    "id": 5,
-   "nom": "Leçon 4.2 — Anatomie lymphatique : tronc"
+   "nom": "Anatomie lymphatique : tronc"
   },
   {
    "id": 6,
-   "nom": "Leçon 4.3 — Anatomie lymphatique : membres inférieur et supérieur"
+   "nom": "Anatomie lymphatique : les membres"
   }
  ],
  "ortheseExam1": [
   {
    "id": 1,
-   "nom": "T1 — Généralités : orthèses et prothèses"
+   "nom": "Généralités : orthèses et prothèses"
   },
   {
    "id": 2,
-   "nom": "T2 — Amputations et traitement"
+   "nom": "Amputations et traitement"
   },
   {
    "id": 3,
-   "nom": "T3 — Amputations du membre inférieur"
+   "nom": "Amputations du membre inférieur"
   },
   {
    "id": 4,
-   "nom": "T4 — Amputations du membre supérieur"
+   "nom": "Amputations du membre supérieur"
   },
   {
    "id": 5,
-   "nom": "T5 — Orthoprothèses dans les malformations congénitales"
+   "nom": "Orthoprothèses dans les malformations congénitales"
   },
   {
    "id": 6,
-   "nom": "T6 — Ostéo-intégration chez l'amputé"
+   "nom": "Ostéo-intégration chez l'amputé"
   },
   {
    "id": 7,
-   "nom": "T7 — Alignement des prothèses et troubles de la marche"
+   "nom": "Alignement des prothèses et troubles de la marche"
   },
   {
    "id": 8,
-   "nom": "T8 — Prothèses bioniques (hors partiel 1)"
+   "nom": "Prothèses bioniques (hors partiel 1)"
   },
   {
    "id": 9,
-   "nom": "T9 — Impression 3D (hors partiel 1)"
+   "nom": "Impression 3D (hors partiel 1)"
   },
   {
    "id": 10,
-   "nom": "T10 — Déformations crâniennes"
+   "nom": "Déformations crâniennes"
   },
   {
    "id": 11,
-   "nom": "T11 — Orthèses en neurologie"
+   "nom": "Orthèses en neurologie"
   },
   {
    "id": 12,
-   "nom": "T12 — Aides techniques (diapos 1-6 et déambulateurs)"
+   "nom": "Aides techniques (diapos 1-6 et déambulateurs)"
   }
  ],
  "procedimiento3": [
   {
    "id": 1,
-   "nom": "T01 — Évaluation du patient cardio-respiratoire"
+   "nom": "Évaluation du patient cardio-respiratoire"
   },
   {
    "id": 2,
-   "nom": "T02 — Spirométrie"
+   "nom": "Spirométrie"
   },
   {
    "id": 3,
-   "nom": "T03 — Auscultation pulmonaire"
+   "nom": "Auscultation pulmonaire"
   },
   {
    "id": 4,
-   "nom": "T04 — Tests fonctionnels"
+   "nom": "Tests fonctionnels"
   },
   {
    "id": 5,
-   "nom": "T05 — Évaluation musculaire en cardio-respiratoire"
+   "nom": "Évaluation musculaire en cardio-respiratoire"
   }
  ],
  "investigation2": [
   {
    "id": 1,
-   "nom": "T0 — Révision des concepts généraux"
+   "nom": "Révision des concepts généraux"
   },
   {
    "id": 2,
-   "nom": "T1.1 — Notions statistiques de base"
+   "nom": "Notions statistiques de base"
   },
   {
    "id": 3,
-   "nom": "T1.2 — Classification des variables selon leur mesure"
+   "nom": "Classification des variables selon leur mesure"
   },
   {
    "id": 4,
-   "nom": "T1.3 — Taille de l'échantillon"
+   "nom": "Taille de l'échantillon"
   },
   {
    "id": 5,
-   "nom": "T1.4 — Échantillonnage et planification de l'étude"
+   "nom": "Échantillonnage et planification de l'étude"
   },
   {
    "id": 6,
-   "nom": "T2.1 — Statistique descriptive"
+   "nom": "Statistique descriptive"
   },
   {
    "id": 7,
-   "nom": "T2.2 — Représentation graphique"
+   "nom": "Représentation graphique"
   },
   {
    "id": 8,
-   "nom": "T2.3 — Distribution des variables et normalité"
+   "nom": "Distribution des variables et normalité"
   },
   {
    "id": 9,
-   "nom": "T3.1 — Estimation de paramètres et intervalles de confiance"
+   "nom": "Estimation de paramètres et intervalles de confiance"
   },
   {
    "id": 10,
-   "nom": "T3.2 — Formulation d'hypothèses statistiques"
+   "nom": "Formulation d'hypothèses statistiques"
   },
   {
    "id": 11,
-   "nom": "T4 — Association et quantification des risques"
+   "nom": "Association et quantification des risques"
   },
   {
    "id": 12,
-   "nom": "T5.1 — Tests d'hypothèses"
+   "nom": "Tests d'hypothèses"
   },
   {
    "id": 13,
-   "nom": "T5.2 — Autres analyses statistiques"
+   "nom": "Autres analyses statistiques"
   },
   {
    "id": 14,
-   "nom": "T6.1 — Conception de la base de données"
+   "nom": "Conception de la base de données"
   },
   {
    "id": 15,
-   "nom": "T6.2 — Conception du plan d'analyse"
+   "nom": "Conception du plan d'analyse"
   },
   {
    "id": 16,
-   "nom": "T7.1 — Rédaction scientifique"
+   "nom": "Rédaction scientifique"
   },
   {
    "id": 17,
-   "nom": "T7.2 — Conception de questionnaires et d'entretiens"
+   "nom": "Conception de questionnaires et d'entretiens"
   },
   {
    "id": 18,
-   "nom": "T7.3 — L'évaluation par les pairs"
+   "nom": "L'évaluation par les pairs"
   }
  ],
  "pathologie3": [
   {
    "id": 1,
-   "nom": "T1 — Anatomie et physiopathologie de l'appareil respiratoire"
+   "nom": "Anatomie et physiopathologie de l'appareil respiratoire"
   },
   {
    "id": 2,
-   "nom": "T2 — Anamnèse, examen physique et facteurs de risque"
+   "nom": "Anamnèse, examen physique et facteurs de risque"
   },
   {
    "id": 3,
-   "nom": "T3 — Insuffisance respiratoire"
+   "nom": "Insuffisance respiratoire"
   },
   {
    "id": 4,
-   "nom": "T4 — Syndromes obstructifs"
+   "nom": "Syndromes obstructifs"
   },
   {
    "id": 5,
-   "nom": "T5 — Syndromes restrictifs"
+   "nom": "Syndromes restrictifs"
   },
   {
    "id": 6,
-   "nom": "T6 — Infections de l'appareil respiratoire"
+   "nom": "Infections de l'appareil respiratoire"
   },
   {
    "id": 7,
-   "nom": "T7 — COVID-19, grippe et tuberculose"
+   "nom": "COVID-19, grippe et tuberculose"
   },
   {
    "id": 8,
-   "nom": "T8 — Autres pathologies respiratoires"
+   "nom": "Autres pathologies respiratoires"
   },
   {
    "id": 9,
-   "nom": "T9 — Pharmacologie respiratoire"
+   "nom": "Pharmacologie respiratoire"
   },
   {
    "id": 10,
-   "nom": "T10 — Anatomie et physiologie de l'appareil cardiovasculaire"
+   "nom": "Anatomie et physiologie de l'appareil cardiovasculaire"
   },
   {
    "id": 11,
-   "nom": "T11 — Examens complémentaires en cardiologie"
+   "nom": "Examens complémentaires en cardiologie"
   },
   {
    "id": 12,
-   "nom": "T12 — Facteurs de risque et athérosclérose"
+   "nom": "Facteurs de risque et athérosclérose"
   },
   {
    "id": 13,
-   "nom": "T13 — Cardiopathie ischémique"
+   "nom": "Cardiopathie ischémique"
   },
   {
    "id": 14,
-   "nom": "T14 — Insuffisance cardiaque"
+   "nom": "Insuffisance cardiaque"
   },
   {
    "id": 15,
-   "nom": "T15 — Valvulopathies"
+   "nom": "Valvulopathies"
   },
   {
    "id": 16,
-   "nom": "T16 — Arythmies"
+   "nom": "Arythmies"
   },
   {
    "id": 17,
-   "nom": "T17 — Autres pathologies cardiovasculaires"
+   "nom": "Autres pathologies cardiovasculaires"
   },
   {
    "id": 18,
-   "nom": "T18 — Pharmacologie cardiologique"
+   "nom": "Pharmacologie cardiologique"
   },
   {
    "id": 19,
-   "nom": "T19 — Réanimation cardio-pulmonaire"
+   "nom": "Réanimation cardio-pulmonaire"
   },
   {
    "id": 20,
-   "nom": "T20 — Ventilation mécanique et oxygénothérapie"
+   "nom": "Ventilation mécanique et oxygénothérapie"
   }
  ],
  "ethiqueLegislation": [
   {
    "id": 1,
-   "nom": "1.1 — Valeurs, Morale et Éthique"
+   "nom": "Valeurs, Morale et Éthique"
   },
   {
    "id": 2,
-   "nom": "1.2 — Bioéthique et principes fondamentaux"
+   "nom": "Bioéthique et principes fondamentaux"
   },
   {
    "id": 3,
-   "nom": "1.3 — (Dés)humanisation des soins et relation thérapeutique"
+   "nom": "Humanisation des soins et relation thérapeutique"
   },
   {
    "id": 4,
-   "nom": "1.4 — Éthique, science et recherche"
+   "nom": "Éthique, science et recherche"
   },
   {
    "id": 5,
-   "nom": "2.1 — Consentement éclairé"
+   "nom": "Consentement éclairé"
   },
   {
    "id": 6,
-   "nom": "2.2 — Secret professionnel"
+   "nom": "Secret professionnel"
   },
   {
    "id": 7,
-   "nom": "2.3 — Protection des données"
+   "nom": "Protection des données"
   },
   {
    "id": 8,
-   "nom": "3.1 — Responsabilité professionnelle"
+   "nom": "Responsabilité professionnelle"
   },
   {
    "id": 9,
-   "nom": "3.2 — Code de déontologie"
+   "nom": "Code de déontologie"
   },
   {
    "id": 10,
-   "nom": "3.3 — Le dossier médical"
+   "nom": "Le dossier médical"
   }
  ],
  "biomecanique": [
   {
    "id": 1,
-   "nom": "1 — Fondements biomécaniques du mouvement humain"
+   "nom": "Fondements biomécaniques du mouvement humain"
   },
   {
    "id": 2,
-   "nom": "2 — Marche humaine typique"
+   "nom": "Marche humaine typique"
   },
   {
    "id": 3,
-   "nom": "3 — Marche pathologique"
+   "nom": "Marche pathologique"
   }
  ],
  "procedimiento1": [
@@ -2530,15 +2530,15 @@ window.CHAPITRES = {
   },
   {
    "id": 11,
-   "nom": "Électrothérapie — haute fréquence (diathermie, ondes courtes, micro-ondes)"
+   "nom": "Électrothérapie : haute fréquence"
   },
   {
    "id": 12,
-   "nom": "Électrothérapie — basse fréquence (TENS)"
+   "nom": "Électrothérapie : basse fréquence (TENS)"
   },
   {
    "id": 13,
-   "nom": "Électrothérapie — moyenne fréquence (interférentiels et galvanique)"
+   "nom": "Électrothérapie : moyenne fréquence"
   },
   {
    "id": 14,
@@ -2571,10 +2571,6 @@ window.CHAPITRES = {
  ]
 };
 
-/* Parties d examen : permet de reviser tout le Mid ou tout le Final d une matiere
-   sans cocher les chapitres un a un. Les listes suivent exactement les dossiers de cours.
-   Une partie qui couvre TOUT le programme n est pas declaree : elle ferait doublon avec
-   le comportement par defaut (aucune selection = tout le programme). */
 window.PARTIES = {
  "ethiqueLegislation": [
   {
