@@ -2373,12 +2373,12 @@ html { scroll-behavior: smooth; }
 /* Liseré de couleur à gauche, toujours visible */
 .nav-card::after{
   content:"";position:absolute;left:0;top:14%;bottom:14%;width:4px;border-radius:0 4px 4px 0;
-  background:linear-gradient(180deg,rgba(var(--accent-rgb),.35),rgb(var(--accent-rgb)),rgba(var(--accent-rgb),.35));
-  opacity:.85;transition:opacity .3s,top .3s,bottom .3s;pointer-events:none;
+  background:linear-gradient(180deg,rgba(var(--accent-rgb),.25),rgba(var(--accent-rgb),.9),rgba(var(--accent-rgb),.25));
+  opacity:.7;transition:opacity .3s,top .3s,bottom .3s;pointer-events:none;
 }
 .nav-card:hover:not(:disabled)::after{opacity:1;top:6%;bottom:6%}
 .nav-card::before{background:radial-gradient(circle at 0% 50%, rgba(var(--accent-rgb),.14) 0%, transparent 58%)}
-.nav-card-number{color:rgba(var(--accent-rgb),.42)}
+.nav-card-number{color:rgba(var(--accent-rgb),.34)}
 .nav-card-accent-line{background:linear-gradient(180deg,transparent,rgba(var(--accent-rgb),.45),transparent)}
 .nav-card-arrow{color:rgba(var(--accent-rgb),.65)}
 .nav-card:hover:not(:disabled){
