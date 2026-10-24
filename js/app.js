@@ -438,6 +438,12 @@ function nbQcuPour(bank, ids) {
 }
 
 /* Grille de chapitres nue, réutilisée par l'étape « Personnaliser ». */
+/* Certains libellés de chapitre commencent déjà par leur numéro (« 1 — Fondements… ») :
+   la pastille l'affiche, on ne le répète pas dans le texte. */
+function nomChapitre(ch) {
+  return String(ch.nom).replace(/^\s*\d+\s*(?:[—–-]\s*|\.\s*)/, "");
+}
+
 function chapterGridHtml(bank) {
   const chaps = chaptersOf(bank) || [];
   const sel = getChapterSelection(bank);
@@ -446,7 +452,7 @@ function chapterGridHtml(bank) {
     return `
       <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
         <span class="chap-chip-num">${ch.id}</span>
-        <span class="chap-chip-name">${escapeHtml(ch.nom)}</span>
+        <span class="chap-chip-name">${escapeHtml(nomChapitre(ch))}</span>
         <span class="chap-chip-tick" aria-hidden="true"></span>
       </button>`;
   }).join("");
@@ -510,8 +516,8 @@ function reviseBlockHtml(bank) {
           <p class="revise-q">Choisis tes chapitres</p>
           <div class="chap-grid">${chaps ? chapterGridHtml(bank) : ""}</div>
           <div class="revise-actions">
-            <button type="button" class="revise-back" data-rev-back="scope">← Retour</button>
-            <button type="button" class="revise-go" data-rev-go>Continuer</button>
+            <button type="button" class="btn-retour" data-rev-back="scope">← Retour</button>
+            <button type="button" class="btn-continuer" data-rev-go>Continuer</button>
           </div>
         </div>
         <div class="revise-step" data-step="format" hidden>
@@ -521,7 +527,9 @@ function reviseBlockHtml(bank) {
             <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="30">30 QCU</button>
             <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="40">40 QCU</button>
           </div>
-          <button type="button" class="revise-back" data-rev-back="scope">← Changer ce que je révise</button>
+          <div class="revise-actions revise-actions-simple">
+            <button type="button" class="btn-retour" data-rev-back="scope">← Changer ce que je révise</button>
+          </div>
         </div>
       </div>`;
 }
@@ -585,7 +593,7 @@ function chapterBlockHtml(bank) {
     return `
       <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
         <span class="chap-chip-num">${ch.id}</span>
-        <span class="chap-chip-name">${escapeHtml(ch.nom)}</span>
+        <span class="chap-chip-name">${escapeHtml(nomChapitre(ch))}</span>
         <span class="chap-chip-tick" aria-hidden="true"></span>
       </button>`;
   }).join("");
@@ -1006,6 +1014,9 @@ function renderNav() {
       pill.dataset.matiereKey = matiere;
     }
 
+    /* Le titre du module n'est utile que s'il y en a plusieurs : sinon il répète
+       le nom de la matière affiché juste au-dessus. */
+    const plusieursModules = (m.modules || []).length > 1;
     (m.modules || []).forEach(mod => {
       const card = document.createElement("div");
       card.className = "mode-card border-glow";
@@ -1018,10 +1029,10 @@ function renderNav() {
         <span class="edge-light" aria-hidden="true"></span>
         <div class="mode-card-inner">
           <div class="mode-card-head">
-            <span class="mode-tag" style="background:${accentRgba(0.14)}; color:${accent}; box-shadow: inset 0 0 0 1px ${accentRgba(0.35)};">${escapeHtml(mod.label)}</span>
+            <span class="mode-tag" style="background:${accentRgba(0.14)}; color:${accent}; box-shadow: inset 0 0 0 1px ${accentRgba(0.35)};">${escapeHtml(mod.optionCount + " propositions")}</span>
           </div>
-          <h3 class="mode-title">${escapeHtml(mod.label)}</h3>
-          <p class="mode-desc">${escapeHtml(mod.desc || ("QCU à " + mod.optionCount + " propositions. Score final ramené sur 10."))}</p>
+          ${plusieursModules ? `<h3 class="mode-title">${escapeHtml(mod.label)}</h3>` : ""}
+          <p class="mode-desc">${escapeHtml(mod.desc || ("Une mauvaise réponse retire " + (mod.optionCount === 4 ? "1/3" : "1/2") + " point. Score ramené sur 10."))}</p>
           ${reviseBlockHtml(mod.bankKey)}
         </div>
       `;

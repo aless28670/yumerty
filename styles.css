@@ -2337,14 +2337,6 @@ html { scroll-behavior: smooth; }
 .revise-scope{font-weight:500;opacity:.7;font-size:.86rem}
 
 
-.revise-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-top:.95rem}
-.revise-go{appearance:none;cursor:pointer;font:inherit;font-weight:700;border:0;border-radius:999px;
-  padding:.6rem 1.4rem;color:#0b0f14;background:var(--accent);
-  box-shadow:0 8px 22px -12px rgba(var(--accent-rgb),.9);transition:transform .15s,box-shadow .15s}
-.revise-go:hover{transform:translateY(-1px);box-shadow:0 12px 28px -12px rgba(var(--accent-rgb),1)}
-.revise-back{appearance:none;cursor:pointer;font:inherit;font-size:.86rem;border:0;background:none;
-  color:inherit;opacity:.65;padding:.4rem 0;margin-top:.7rem;transition:opacity .15s}
-.revise-back:hover{opacity:1}
 .revise-step[data-step="chapters"] .chap-grid{max-height:min(46vh,380px);overflow:auto;padding-right:.25rem}
 
 /* ===== Relief permanent sur les cartes de navigation =====
@@ -2458,3 +2450,45 @@ html { scroll-behavior: smooth; }
   .scope-row-arrow{display:none}
   .scope-row-num{font-size:1.25rem}
 }
+
+/* ===== Barre d'actions du sélecteur de chapitres =====
+   Les deux boutons ont la même hauteur, la même typographie et le même rythme :
+   « Retour » n'est plus un lien minuscule collé à un gros bouton plein. */
+.revise-actions{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  margin-top:1.15rem;padding-top:1.05rem;
+  border-top:1px solid rgba(40,35,28,.09);
+}
+.revise-actions-simple{justify-content:flex-start;border-top:0;padding-top:.3rem}
+.btn-retour,.btn-continuer{
+  appearance:none;cursor:pointer;font:inherit;font-size:.9rem;font-weight:600;
+  height:42px;padding:0 1.35rem;border-radius:999px;line-height:1;
+  display:inline-flex;align-items:center;justify-content:center;
+  transition:transform .16s cubic-bezier(.2,.8,.3,1),background .16s,border-color .16s,box-shadow .16s;
+}
+.btn-retour{
+  background:transparent;color:var(--text-muted);
+  border:1px solid rgba(40,35,28,.16);
+}
+.btn-retour:hover{background:#fbf9f4;border-color:rgba(40,35,28,.3);color:var(--text);transform:translateY(-1px)}
+.btn-continuer{
+  background:rgb(var(--accent-rgb));color:#fdfbf6;border:1px solid transparent;
+  box-shadow:0 8px 20px -10px rgba(var(--accent-rgb),.85);
+}
+.btn-continuer:hover{transform:translateY(-1px);box-shadow:0 12px 26px -10px rgba(var(--accent-rgb),1)}
+
+/* ===== Chapitres : hauteur régulière, texte qui respire ===== */
+.chap-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.55rem}
+.chap-chip{min-height:52px;align-items:center;padding:11px 13px;font-size:13px;font-weight:500;line-height:1.35}
+.chap-chip-num{width:26px;height:26px;border-radius:9px;font-weight:700;font-size:12px}
+.chap-chip-name{flex:1;min-width:0;overflow-wrap:anywhere}
+
+/* ===== En-tête du module ===== */
+.mode-tag{
+  display:inline-block;padding:.34rem .8rem;border-radius:999px;
+  font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+}
+.mode-card-head{margin-bottom:.7rem}
+.mode-desc{margin:.25rem 0 0;font-size:.88rem;line-height:1.5}
+.revise{margin-top:1.4rem}
+.revise-q{margin:0 0 .9rem;font-size:.92rem;font-weight:650;letter-spacing:.005em}
