@@ -871,16 +871,21 @@ function renderCursusList() {
     card.style.setProperty("--accent", c.accent);
     card.style.setProperty("--accent-soft", c.accent + "55");
     card.style.setProperty("--accent-glow", c.accent + "33");
-    if (!c.available) {
+    card.style.setProperty("--accent-rgb", hexToRgb(c.accent));
+    /* Un cursus encore en chantier est annoncé comme tel plutôt que simplement grisé :
+       l'utilisateur comprend qu'il arrive, pas qu'il est cassé. */
+    const aVenir = !c.available;
+    if (aVenir) {
       card.disabled = true;
-      card.style.opacity = "0.45";
-      card.style.cursor = "not-allowed";
+      card.classList.add("subject-card-soon");
     } else {
       card.dataset.cursus = key;
     }
     card.innerHTML = `
       <span class="subject-card-title">${escapeHtml(c.label)}</span>
-      <span class="subject-card-arrow" aria-hidden="true">→</span>
+      ${aVenir
+        ? `<span class="subject-card-soon-tag">Bientôt disponible</span>`
+        : `<span class="subject-card-arrow" aria-hidden="true">→</span>`}
     `;
     root.appendChild(card);
   });
