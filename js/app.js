@@ -180,7 +180,7 @@ const SESSION_KEY = "yumerty_active_session_v1";
 /* ----------- State ----------- */
 const state = {
   // Navigation context (which level we're in: 'cursus', 'years', 'semesters', 'matieres', 'modules')
-  nav: { cursus: null, year: null, semester: null, matiere: null, level: null },
+  nav: { cursus: null, year: null, programme: null, semester: null, matiere: null, level: null },
   mode: null,            // bankKey of the current quiz (== QUESTIONS[bankKey])
   mistakesView: null,
   quizLength: DEFAULT_LENGTH,
@@ -571,22 +571,42 @@ function construireQuestions(bank, chosen) {
   });
 }
 
-/* ----------- Navigation system (Cursus → Année → Semestre → Matière → Modules) ----------- */
+/* ----------- Navigation system (Cursus → Année → [Programme] → Semestre → Matière → Modules) ----------- */
 
-const NAV_LEVELS = ["cursus", "years", "semesters", "matieres", "modules"];
+/* Renvoie l'objet `programmes` d'une année si elle en déclare un (K3 : ancien / nouveau),
+   sinon null. C'est ce qui insère — ou non — l'écran de choix du programme. */
+function programmesOf(cursusKey, yearKey) {
+  const y = CURSUS[cursusKey] && CURSUS[cursusKey].years && CURSUS[cursusKey].years[yearKey];
+  return (y && y.programmes && Object.keys(y.programmes).length) ? y.programmes : null;
+}
+
+/* Les clés de semestre visibles au niveau courant : celles du programme choisi, ou toutes. */
+function visibleSemesterKeys(y, programme) {
+  if (y.programmes && programme && y.programmes[programme]) return y.programmes[programme].semesters;
+  return Object.keys(y.semesters || {});
+}
+
+const NAV_LEVELS = ["cursus", "years", "programmes", "semesters", "matieres", "modules"];
 
 function navigateTo(level, key) {
   if (level === "cursus") {
     // Reset state.nav to initial cursus selection screen
-    state.nav = { cursus: null, year: null, semester: null, matiere: null, level: "cursus" };
+    state.nav = { cursus: null, year: null, programme: null, semester: null, matiere: null, level: "cursus" };
     showScreen("home");
     return;
   }
   if (level === "years") {
     state.nav.cursus = key;
-    state.nav.year = state.nav.semester = state.nav.matiere = null;
-  } else if (level === "semesters") {
+    state.nav.year = state.nav.programme = state.nav.semester = state.nav.matiere = null;
+  } else if (level === "programmes") {
+    // Niveau intermédiaire : certaines années (K3) proposent d'abord ancien / nouveau programme.
     state.nav.year = key;
+    state.nav.programme = state.nav.semester = state.nav.matiere = null;
+  } else if (level === "semesters") {
+    // `key` est l'année quand on vient du niveau « années », le programme quand on vient
+    // du niveau « programmes » (l'année est alors déjà fixée dans state.nav).
+    if (programmesOf(state.nav.cursus, state.nav.year) && state.nav.year) state.nav.programme = key;
+    else state.nav.year = key;
     state.nav.semester = state.nav.matiere = null;
   } else if (level === "matieres") {
     state.nav.semester = key;
@@ -602,8 +622,13 @@ function navigateTo(level, key) {
 function backNav() {
   const lvl = state.nav.level;
   if (lvl === "years")          navigateTo("cursus");
-  else if (lvl === "semesters") navigateTo("years", state.nav.cursus);
-  else if (lvl === "matieres")  navigateTo("semesters", state.nav.year);
+  else if (lvl === "programmes") navigateTo("years", state.nav.cursus);
+  else if (lvl === "semesters") {
+    // Revenir au choix du programme si l'année en propose un, sinon à la liste des années.
+    if (programmesOf(state.nav.cursus, state.nav.year)) { state.nav.level = "programmes"; state.nav.programme = null; showScreen("nav"); renderNav(); }
+    else navigateTo("years", state.nav.cursus);
+  }
+  else if (lvl === "matieres")  { state.nav.level = "semesters"; state.nav.semester = null; showScreen("nav"); renderNav(); }
   else if (lvl === "modules")   navigateTo("matieres", state.nav.semester);
   else                          showScreen("home");
 }
@@ -677,7 +702,26 @@ function renderNav() {
         meta: totalMatieres > 0 ? totalMatieres + " matière" + (totalMatieres > 1 ? "s" : "") : "Bientôt disponible",
         disabled: totalMatieres === 0,
         accent: c.accent,
-        data: { year: yk, level: "semesters" }
+        data: { year: yk, level: y.programmes ? "programmes" : "semesters" }
+      }));
+    });
+  } else if (level === "programmes") {
+    const y = c.years[year];
+    eyebrow.textContent = "";
+    title.textContent = y.label;
+    subtitle.textContent = "";
+    list.dataset.layout = "programmes";
+    Object.entries(y.programmes).forEach(([pk, p], i) => {
+      const n = (p.semesters || []).reduce(
+        (acc, sk) => acc + Object.keys(((y.semesters || {})[sk] || {}).matieres || {}).length, 0);
+      list.appendChild(renderNavCard({
+        number: String(i + 1).padStart(2, "0"),
+        eyebrow: c.label.toUpperCase() + " · " + (y.long || y.label),
+        title: p.label,
+        meta: n > 0 ? n + " matière" + (n > 1 ? "s" : "") : "Bientôt disponible",
+        disabled: n === 0,
+        accent: c.accent,
+        data: { programme: pk, level: "semesters" }
       }));
     });
   } else if (level === "semesters") {
@@ -686,7 +730,9 @@ function renderNav() {
     title.textContent = y.label;
     subtitle.textContent = "";
     list.dataset.layout = "semesters";
-    Object.entries(y.semesters || {}).forEach(([sk, s], i) => {
+    const p = y.programmes && state.nav.programme ? y.programmes[state.nav.programme] : null;
+    if (p) { title.textContent = y.label; subtitle.textContent = p.label; }
+    visibleSemesterKeys(y, state.nav.programme).map(sk => [sk, (y.semesters || {})[sk]]).filter(([, s]) => s).forEach(([sk, s], i) => {
       const matCount = Object.keys(s.matieres || {}).length;
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
@@ -1364,7 +1410,8 @@ document.addEventListener("click", (e) => {
   if (navBtn) {
     e.preventDefault();
     const d = navBtn.dataset;
-    if (d.level === "semesters") navigateTo("semesters", d.year);
+    if (d.level === "programmes") navigateTo("programmes", d.year);
+    else if (d.level === "semesters") navigateTo("semesters", d.programme || d.year);
     else if (d.level === "matieres") navigateTo("matieres", d.semester);
     else if (d.level === "modules") navigateTo("modules", d.matiere);
     return;

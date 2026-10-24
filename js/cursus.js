@@ -282,7 +282,7 @@ const CURSUS = {
         "long": "3ᵉ année",
         "semesters": {
           "S1": {
-            "label": "Ancien programme · Semestre 1",
+            "label": "Semestre 1",
             "matieres": {
               "neuro1": {
                 "label": "Neurologie 1",
@@ -339,7 +339,7 @@ const CURSUS = {
             }
           },
           "S2": {
-            "label": "Ancien programme · Semestre 2",
+            "label": "Semestre 2",
             "matieres": {
               "pathoChir2": {
                 "label": "Pathologies Chirurgicales 2",
@@ -396,7 +396,7 @@ const CURSUS = {
             }
           },
           "N1": {
-            "label": "Nouveau programme · Semestre 1",
+            "label": "Semestre 1",
             "matieres": {
               "orthoTraumato": {
                 "label": "Ortho Traumato",
@@ -464,6 +464,21 @@ const CURSUS = {
                 ]
               }
             }
+          }
+        },
+        "programmes": {
+          "ancien": {
+            "label": "Ancien programme",
+            "semesters": [
+              "S1",
+              "S2"
+            ]
+          },
+          "nouveau": {
+            "label": "Nouveau programme",
+            "semesters": [
+              "N1"
+            ]
           }
         }
       },

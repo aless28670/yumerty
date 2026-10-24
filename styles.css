@@ -156,6 +156,7 @@ button {
   width: 100%;
 }
 #nav-list[data-layout="years"]      { grid-template-columns: 1fr; }
+#nav-list[data-layout="programmes"] { grid-template-columns: 1fr; }
 #nav-list[data-layout="semesters"]  { grid-template-columns: 1fr; }
 #nav-list[data-layout="matieres"]   { grid-template-columns: 1fr; }
 
