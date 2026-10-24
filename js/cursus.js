@@ -85,7 +85,7 @@ const CURSUS = {
             "label": "Semestre 2",
             "matieres": {
               "investigation": {
-                "label": "Investigation",
+                "label": "Investigation 1",
                 "accent": "#7a8a5e",
                 "modules": [
                   {
@@ -272,6 +272,16 @@ const CURSUS = {
                     "accent": "#5a8a6a"
                   }
                 ]
+              },
+              "abordaje": {
+                "label": "Abordaje",
+                "accent": "#0ea5e9",
+                "modules": []
+              },
+              "procedimiento2": {
+                "label": "Procedimiento 2",
+                "accent": "#8b5cf6",
+                "modules": []
               }
             }
           }

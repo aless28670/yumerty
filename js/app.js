@@ -760,11 +760,14 @@ function renderNav() {
     keys.forEach((mk, i) => {
       const m = matieres[mk];
       const moduleCount = (m.modules || []).length;
+      // Une matière déclarée sans module est annoncée comme à venir et reste non cliquable,
+      // au même titre qu'un semestre vide.
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
         eyebrow: "Matière",
         title: m.label,
-        meta: moduleCount + " module" + (moduleCount > 1 ? "s" : "") + " · examen",
+        meta: moduleCount > 0 ? moduleCount + " module" + (moduleCount > 1 ? "s" : "") + " · examen" : "Bientôt disponible",
+        disabled: moduleCount === 0,
         accent: m.accent || c.accent,
         data: { matiere: mk, level: "modules" }
       }));
