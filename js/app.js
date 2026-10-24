@@ -576,7 +576,17 @@ function construireQuestions(bank, chosen) {
    disponible — sans quoi le site promettrait des examens qui n'existent pas encore. */
 function countMatieres(semestre) {
   const ms = Object.values((semestre && semestre.matieres) || {});
-  return { prets: ms.filter(m => (m.modules || []).length > 0).length, total: ms.length };
+  return { prets: ms.filter(estPrete).length, total: ms.length };
+}
+
+/* Une matière n'est prête que si au moins un de ses modules pointe vers une banque qui existe
+   ET contient des questions. Un module déclaré vers une banque absente ne doit jamais faire
+   annoncer la matière comme disponible. */
+function estPrete(m) {
+  return (m.modules || []).some(mod => {
+    const b = typeof QUESTIONS !== "undefined" && QUESTIONS[mod.bankKey];
+    return Array.isArray(b) && b.length > 0;
+  });
 }
 
 /* Libellé et état d'une carte à partir de ces deux compteurs. */
@@ -779,9 +789,11 @@ function renderNav() {
     }
     keys.forEach((mk, i) => {
       const m = matieres[mk];
-      const moduleCount = (m.modules || []).length;
-      // Une matière déclarée sans module est annoncée comme à venir et reste non cliquable,
-      // au même titre qu'un semestre vide.
+      // Seuls les modules réellement jouables comptent (cf. estPrete).
+      const moduleCount = (m.modules || []).filter(mod => {
+        const b = typeof QUESTIONS !== "undefined" && QUESTIONS[mod.bankKey];
+        return Array.isArray(b) && b.length > 0;
+      }).length;
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
         eyebrow: "Matière",

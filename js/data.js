@@ -402487,5 +402487,6695 @@ const QUESTIONS = {
     }
    ]
   }
+ ],
+ "valoMembresMix": [
+  {
+   "q": "Quel muscle est le principal rotateur interne de l'articulation gléno-humérale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Subscapulaire",
+     "correct": true,
+     "j": "Le subscapulaire est le seul muscle de la coiffe des rotateurs à rôle de rotateur interne ; il coapte la tête humérale tout en assurant la rotation médiale, les trois autres chefs de la coiffe étant rotateurs externes ou abducteur."
+    },
+    {
+     "t": "Infra-épineux",
+     "j": "L'infra-épineux (infraspinatus) est un rotateur externe de la coiffe, antagoniste du subscapulaire ; il ne produit pas de rotation interne."
+    },
+    {
+     "t": "Supra-épineux",
+     "j": "Le supra-épineux est l'initiateur de l'abduction et un coaptateur de la tête humérale ; il n'a pas d'action de rotation interne."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente effectue un mouvement de sonnette interne de la scapula. Quelle description cinématique est exacte ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "L'angle inférieur se rapproche de la colonne et la cavité glénoïde s'oriente vers le bas",
+     "correct": true,
+     "j": "La sonnette interne (rotation vers le bas) bascule la glène inférieurement et l'angle inféro-médial vers le rachis, sous l'action des rhomboïdes et de l'angulaire."
+    },
+    {
+     "t": "L'angle inférieur s'écarte de la colonne et la cavité glénoïde s'oriente vers le haut",
+     "j": "C'est la sonnette externe (rotation vers le haut), où la glène se relève pour accompagner l'élévation du bras au-delà de 90°."
+    },
+    {
+     "t": "L'angle inférieur monte vers l'épaule et la cavité glénoïde s'oriente vers l'avant",
+     "j": "Cette description correspond à une élévation associée à une protraction scapulaire, pas à une sonnette interne qui oriente la glène vers le bas."
+    }
+   ]
+  },
+  {
+   "q": "Lors du mouvement d'abduction horizontale de l'épaule (bras à 90° de flexion ramené en arrière dans le plan horizontal), quelle cinématique de la scapula accompagne ce mouvement ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Adduction (rétraction) scapulaire et orientation postérieure de la glène",
+     "correct": true,
+     "j": "L'abduction horizontale ramène le bras en arrière ; la scapula suit en se rétractant vers le rachis, orientant la glène en arrière."
+    },
+    {
+     "t": "Abduction (protraction) scapulaire et orientation antérieure de la glène",
+     "j": "La protraction accompagne l'adduction horizontale (bras vers l'avant), avec glène antérieure, pas l'abduction horizontale."
+    },
+    {
+     "t": "Élévation scapulaire et orientation supérieure de la glène",
+     "j": "L'élévation avec glène orientée vers le haut correspond à la sonnette externe de l'élévation du bras, pas au plan horizontal."
+    }
+   ]
+  },
+  {
+   "q": "Une nageuse exécute une antéposition complète de la ceinture scapulaire (mouvement de poussée vers l'avant). Quel ensemble cinématique correspond ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Protraction scapulaire, ouverture de l'angle omo-claviculaire et glène orientée vers l'avant",
+     "correct": true,
+     "j": "L'antéposition combine protraction sterno-claviculaire et rotation acromio-claviculaire : la scapula s'écarte du rachis et la glène fait face en avant."
+    },
+    {
+     "t": "Rétraction scapulaire, fermeture de l'angle omo-claviculaire et glène orientée vers l'arrière",
+     "j": "C'est la rétroposition (tirage en arrière) : la scapula se rapproche du rachis et la glène s'oriente postérieurement."
+    },
+    {
+     "t": "Élévation scapulaire, montée de la clavicule et glène orientée vers le haut",
+     "j": "C'est le mouvement d'élévation vertical de l'épaule, distinct de l'antéposition qui est antérieure dans le plan horizontal."
+    }
+   ]
+  },
+  {
+   "q": "Vous décrivez les articulations de la ceinture scapulaire. Quelle proposition est correcte ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "La scapulo-thoracique est une syssarcose, plan de glissement musculo-aponévrotique sans cartilage",
+     "correct": true,
+     "j": "La scapulo-thoracique n'est pas une vraie articulation synoviale : c'est un plan de glissement entre scapula, dentelé antérieur et thorax, classé comme syssarcose."
+    },
+    {
+     "t": "L'acromio-claviculaire est une articulation en selle, à surfaces emboîtées à 2 degrés de liberté",
+     "j": "L'acromio-claviculaire est en réalité une articulation plane (arthrodie) à mobilités faibles, pas une articulation en selle."
+    },
+    {
+     "t": "La sous-deltoïdienne est une vraie articulation synoviale, à capsule et cartilage propres",
+     "j": "La sous-deltoïdienne est en réalité un plan de glissement bursal entre coiffe et acromion, pas une articulation synoviale."
+    }
+   ]
+  },
+  {
+   "q": "Quel est le rôle principal des muscles de la coiffe des rotateurs dans la cinématique gléno-humérale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Centrer activement la tête humérale dans la cavité glénoïde lors des mouvements",
+     "correct": true,
+     "j": "La coiffe (supra, infra, petit rond, subscapulaire) coapte la tête humérale et compense la traction luxante du deltoïde, assurant le centrage articulaire."
+    },
+    {
+     "t": "Produire la majeure partie de la force d'élévation active du bras",
+     "j": "L'élévation est produite surtout par le deltoïde et le grand pectoral ; la coiffe reste un stabilisateur, non un moteur principal."
+    },
+    {
+     "t": "Plaquer passivement la scapula contre la paroi du thorax",
+     "j": "La stabilisation scapulaire est assurée par le trapèze, le dentelé antérieur et les rhomboïdes, et non par la coiffe des rotateurs."
+    }
+   ]
+  },
+  {
+   "q": "Un patient effectue une flexion résistée du coude, paume tournée vers le bas (pronation). Quel muscle fléchisseur du coude est principalement sollicité dans cette position ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Brachioradial (long supinateur)",
+     "correct": true,
+     "j": "Le brachioradial est le seul fléchisseur efficace en pronation : le biceps perd son efficacité (raccourci par sa fonction supinatrice) et le brachial reste actif mais le brachioradial domine en pronation."
+    },
+    {
+     "t": "Biceps brachial",
+     "j": "Le biceps est plus efficace en supination ou position neutre ; en pronation, son tendon s'enroule autour du radius et son efficacité diminue."
+    },
+    {
+     "t": "Brachial antérieur",
+     "j": "Le brachial est fléchisseur quelle que soit la position de l'avant-bras (insertion ulnaire), mais ce n'est pas spécifiquement le muscle principal en pronation ; le brachioradial est plus discriminant."
+    }
+   ]
+  },
+  {
+   "q": "Quelle proposition décrit correctement les types articulaires constituant le coude ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Huméro-ulnaire : trochléenne ; huméro-radiale : condylienne ; radio-ulnaire supérieure : trochoïde",
+     "correct": true,
+     "j": "L'huméro-ulnaire est une trochlée (flexion-extension pure) ; l'huméro-radiale est une condylienne (flexion + rotation) ; la radio-ulnaire supérieure est une trochoïde (rotation pure autour de l'axe radial)."
+    },
+    {
+     "t": "Huméro-ulnaire : condylienne ; huméro-radiale : trochléenne ; radio-ulnaire supérieure : trochoïde",
+     "j": "L'huméro-ulnaire n'est pas condylienne mais trochléenne (un seul degré de liberté) ; l'huméro-radiale n'est pas une trochlée mais une condylienne, le couple est donc inversé."
+    },
+    {
+     "t": "Huméro-ulnaire : trochléenne ; huméro-radiale : condylienne ; radio-ulnaire supérieure : arthrodie",
+     "j": "Les deux premières sont exactes, mais la radio-ulnaire supérieure n'est pas une arthrodie (articulation plane à glissement) : c'est une trochoïde permettant la rotation."
+    }
+   ]
+  },
+  {
+   "q": "Quel élément ligamentaire est principalement responsable de la limitation de la supination de l'avant-bras au niveau de l'articulation radio-ulnaire supérieure ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Fibres antérieures du ligament carré (de Denucé)",
+     "correct": true,
+     "j": "Le ligament carré de Denucé unit le bord médial du col radial au bord radial de l'ulna ; ses fibres antérieures se tendent en supination et postérieures en pronation."
+    },
+    {
+     "t": "Ligament annulaire du radius",
+     "j": "Le ligament annulaire stabilise la tête radiale contre l'ulna pendant tout le mouvement de rotation, mais n'est pas le frein principal de la supination."
+    },
+    {
+     "t": "Membrane interosseuse",
+     "j": "La membrane interosseuse est tendue en position intermédiaire ; elle limite la translation longitudinale, pas spécifiquement la supination."
+    }
+   ]
+  },
+  {
+   "q": "Décrivez le mouvement osseux relatif au niveau de l'articulation radio-ulnaire supérieure lors de la pronation.",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le radius tourne autour de l'ulna et se croise en avant de lui distalement",
+     "correct": true,
+     "j": "Le radius mobile pivote autour de l'axe de l'ulna fixe (trochoïde) ; son extrémité distale décrit un arc et croise l'ulna en avant : c'est le mécanisme essentiel de la pronation."
+    },
+    {
+     "t": "Le radius tourne autour de l'ulna et se croise en arrière de lui distalement",
+     "j": "Le radius pivote bien autour de l'ulna, mais en pronation son extrémité distale passe en avant de l'ulna ; un croisement postérieur ne correspond à aucune position de l'avant-bras."
+    },
+    {
+     "t": "Le radius pivote sur place sans que son extrémité distale ne croise l'ulna",
+     "j": "La rotation se fait certes autour de l'axe radial proximal, mais distalement le radius se déplace et croise obligatoirement l'ulna : sans croisement il n'y aurait pas de pronation."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la limite osseuse principale de la flexion du coude lorsque le mouvement atteint son maximum passif ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Impaction du processus coronoïde dans la fosse coronoïdienne",
+     "correct": true,
+     "j": "En flexion maximale, le coronoïde entre dans la fosse coronoïdienne et la tête radiale dans la fosse radiale (sus-condyliennes antérieures) ; ces butoirs osseux antérieurs constituent la limite ultime."
+    },
+    {
+     "t": "Impaction du processus olécranien dans la fosse olécranienne",
+     "j": "Ce contact osseux est postérieur et limite l'extension du coude, pas la flexion."
+    },
+    {
+     "t": "Impaction de la tête radiale contre le capitulum huméral",
+     "j": "La tête radiale reste en regard du capitulum durant toute la flexion-extension ; elle vient buter dans la fosse radiale (antérieure), non contre le capitulum, qui n'arrête pas la flexion."
+    }
+   ]
+  },
+  {
+   "q": "Quel élément constitue la limite principale de l'extension complète du coude ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Impaction du bec olécranien dans la fosse olécranienne",
+     "correct": true,
+     "j": "L'extension est arrêtée par l'impaction du sommet olécranien dans la fosse olécranienne postérieure de l'humérus ; ce frein osseux est complété par la capsule antérieure et les fléchisseurs."
+    },
+    {
+     "t": "Impaction du processus coronoïde dans la fosse coronoïdienne",
+     "j": "Le coronoïde est antérieur et vient buter dans la fosse coronoïdienne en flexion maximale, pas en extension."
+    },
+    {
+     "t": "Mise en tension du ligament collatéral ulnaire",
+     "j": "Le ligament collatéral ulnaire se tend surtout en valgus et stabilise le coude médialement, mais il n'est pas le frein principal de l'extension, qui est osseux (olécrane)."
+    }
+   ]
+  },
+  {
+   "q": "Un patient effectue une flexion active du poignet, depuis la position anatomique. Décrivez l'arthrocinématique au niveau radio-carpienne et médio-carpienne.",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le lunatum et le capitatum roulent vers l'avant et glissent vers l'arrière",
+     "correct": true,
+     "j": "En flexion du poignet, les os carpiens (surface convexe sur la radiale concave) roulent dans le sens du mouvement (antérieur) avec glissement de sens opposé (postérieur), ce qui maintient la congruence et évite la luxation."
+    },
+    {
+     "t": "Le lunatum et le capitatum roulent vers l'arrière et glissent vers l'avant",
+     "j": "Ce schéma roulement postérieur / glissement antérieur correspond à l'extension du poignet, et non à la flexion."
+    },
+    {
+     "t": "Le lunatum et le capitatum roulent et glissent tous deux vers l'avant",
+     "j": "Un roulement et un glissement de même sens sont impossibles pour une surface convexe se déplaçant sur une surface concave : roulement et glissement sont obligatoirement opposés."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles intrinsèques de la main produisent simultanément une flexion des articulations métacarpo-phalangiennes et une extension des interphalangiennes ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les muscles lombricaux",
+     "correct": true,
+     "j": "Les lombricaux naissent du tendon du fléchisseur profond et se terminent sur l'expansion dorsale de l'extenseur : ils fléchissent la MCP tout en étendant les IP (position dite d'écriture)."
+    },
+    {
+     "t": "Les muscles thénariens",
+     "j": "Les muscles de l'éminence thénar agissent sur la colonne du pouce (abduction, flexion, opposition du pouce) ; ils ne produisent pas la flexion MCP avec extension IP des doigts longs."
+    },
+    {
+     "t": "Les muscles hypothénariens",
+     "j": "Les muscles de l'éminence hypothénar mobilisent le 5e rayon (abduction, flexion, opposition du petit doigt) ; ils n'assurent pas l'action lombricale sur les doigts longs."
+    }
+   ]
+  },
+  {
+   "q": "Vous testez la déviation radiale passive du poignet et trouvez une limitation avec sensation osseuse en fin de course. Quelle structure rend compte de cette limite physiologique ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Contact entre le scaphoïde et le processus styloïde radial",
+     "correct": true,
+     "j": "En déviation radiale, le scaphoïde vient buter contre la styloïde radiale, donnant un end-feel dur osseux ; c'est la limite normale du mouvement à 15°."
+    },
+    {
+     "t": "Contact entre le triquetrum et le disque articulaire",
+     "j": "Ce contact triquétro-disque limite la déviation ulnaire, pas radiale."
+    },
+    {
+     "t": "Tension du ligament collatéral radial",
+     "j": "Le ligament collatéral radial limite plutôt la déviation ulnaire (W palmaire) ; en déviation radiale, le frein osseux scapho-stylien prédomine."
+    }
+   ]
+  },
+  {
+   "q": "Quel nerf traverse le canal carpien et quel autre nerf passe par le canal de Guyon au niveau du poignet ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Nerf médian dans le canal carpien, nerf ulnaire dans le canal de Guyon",
+     "correct": true,
+     "j": "Le nerf médian passe entre les tendons fléchisseurs sous le rétinaculum (canal carpien) ; le nerf ulnaire emprunte le canal de Guyon, plus médial, accompagné de l'artère ulnaire."
+    },
+    {
+     "t": "Nerf ulnaire dans le canal carpien, nerf médian dans le canal de Guyon",
+     "j": "Inversion classique : le canal carpien contient le médian sous le rétinaculum, tandis que le canal de Guyon, plus médial, livre passage à l'ulnaire."
+    },
+    {
+     "t": "Nerf médian dans le canal carpien, branche profonde du nerf médian dans le canal de Guyon",
+     "j": "Le médian est bien dans le canal carpien, mais le canal de Guyon est emprunté par le nerf ulnaire (et sa branche profonde), non par une branche du médian."
+    }
+   ]
+  },
+  {
+   "q": "Vous étudiez l'articulation trapézo-métacarpienne du pouce. Quel type articulaire est-elle et quels mouvements la caractérisent ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Une articulation en selle, à deux degrés de liberté permettant l'opposition",
+     "correct": true,
+     "j": "La trapézo-métacarpienne du pouce a une géométrie en selle (toroïde), à 2 degrés de liberté principaux (flexion-extension, abduction-adduction) ; leur combinaison avec une rotation conjointe produit l'opposition."
+    },
+    {
+     "t": "Une articulation condylienne, à deux degrés de liberté sans rotation conjointe",
+     "j": "La condylienne (comme la radio-carpienne) possède bien 2 degrés de liberté, mais sa congruence ovoïde n'autorise pas la rotation conjointe nécessaire à l'opposition ; la trapézo-métacarpienne est en selle, non condylienne."
+    },
+    {
+     "t": "Une trochoïde, à un degré de liberté en rotation axiale",
+     "j": "La trochoïde (radio-ulnaire) ne permet qu'une rotation autour d'un axe longitudinal, incompatible avec la flexion-abduction couplée et l'opposition du pouce."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'un test passif d'extension du poignet, vous trouvez une limite avec sensation ferme (semi-rigide). Quelles structures en sont normalement responsables ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Ligaments radio-carpiens palmaires et capsule palmaire",
+     "correct": true,
+     "j": "L'extension étire les structures palmaires (capsulaires et ligamentaires) ; leur tension donne un end-feel ferme, semi-rigide, caractéristique."
+    },
+    {
+     "t": "Ligaments dorsaux et capsule dorsale",
+     "j": "Les structures dorsales limitent la flexion, pas l'extension."
+    },
+    {
+     "t": "Choc osseux entre capitatum et radius",
+     "j": "Un choc osseux donnerait un end-feel dur (et est rare en extension physiologique) ; la limite ferme évoque les éléments capsulo-ligamentaires."
+    }
+   ]
+  },
+  {
+   "q": "Au cours d'un test passif d'extension du poignet, on trouve une limite avec sensation élastique. Quelles structures sont responsables ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Mise en tension des muscles fléchisseurs du carpe",
+     "correct": true,
+     "j": "L'extension étire les fléchisseurs antagonistes (long palmaire, fléchisseurs radial et ulnaire du carpe) ; leur tension donne un end-feel élastique, signature d'une limite musculaire."
+    },
+    {
+     "t": "Mise en tension des ligaments radio-carpiens dorsaux",
+     "j": "Une limite par les ligaments dorsaux du carpe donnerait un end-feel ferme, non élastique."
+    },
+    {
+     "t": "Mise en butée des os de la première rangée carpienne",
+     "j": "Un contact osseux (scaphoïde-lunatum sur le radius) donnerait un end-feel dur, non élastique."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une déviation ulnaire passive du poignet, quel est le déplacement des os de la première rangée du carpe par rapport au radius fixe ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Roulement ulnaire et glissement radial (sens opposés)",
+     "correct": true,
+     "j": "La première rangée carpienne (scaphoïde-lunatum-triquetrum) étant convexe sur la concave radiale, elle roule dans le sens du mouvement (ulnaire) et glisse dans le sens opposé (radial)."
+    },
+    {
+     "t": "Roulement et glissement dans le sens ulnaire",
+     "j": "Le glissement homodirectionnel n'a pas lieu pour des surfaces convexes sur concaves ; il existerait seulement si la première rangée était concave."
+    },
+    {
+     "t": "Roulement radial et glissement ulnaire",
+     "j": "Ceci correspondrait à la déviation radiale, pas ulnaire."
+    }
+   ]
+  },
+  {
+   "q": "Mme L., 42 ans, gymnaste, abaisse activement sa ceinture scapulaire lors d'une descente sur barres parallèles. Quelles structures capsulo-ligamentaires de la sterno-claviculaire sont principalement étirées par cet abaissement claviculaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Capsule supérieure de la SC et ligament interclaviculaire",
+     "correct": true,
+     "j": "Selon le cours (Neumann), la descente claviculaire à la SC se fait par roulement inférieur et glissement supérieur, et étire la capsule supérieure ainsi que le ligament interclaviculaire qui relie les deux clavicules."
+    },
+    {
+     "t": "Fascicule antérieur du ligament costo-claviculaire",
+     "j": "Le cours associe l'étirement du fascicule antérieur du costo-claviculaire à la protraction (roulement et glissement antérieurs), pas à l'abaissement."
+    },
+    {
+     "t": "Fascicule postérieur du ligament costo-claviculaire",
+     "j": "Le cours décrit le fascicule postérieur comme étiré lors de l'élévation claviculaire (roulement supérieur), pas lors de la descente."
+    }
+   ]
+  },
+  {
+   "q": "Pendant l'élévation du bras au-dessus de la tête, la clavicule effectue une rotation postérieure axiale autour de son grand axe. À quel mouvement scapulaire cette rotation est-elle couplée ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Sonnette externe de la scapula (rotation vers le haut)",
+     "correct": true,
+     "j": "La rotation postérieure de la clavicule (40-50°) est mécaniquement obligatoire pour permettre la sonnette externe complète de la scapula, via le ligament conoïde qui s'enroule."
+    },
+    {
+     "t": "Sonnette interne de la scapula (rotation vers le bas)",
+     "j": "La sonnette interne accompagne l'abaissement du bras et la rotation antérieure de la clavicule, pas postérieure."
+    },
+    {
+     "t": "Bascule antérieure de la scapula (tilt antérieur)",
+     "j": "La bascule antérieure se produit plutôt en abaissement/extension du bras ; l'élévation au zénith s'accompagne au contraire d'une bascule postérieure."
+    }
+   ]
+  },
+  {
+   "q": "Lors de l'abduction (translation externe) scapulaire, quel devient l'angle omo-claviculaire et l'orientation de la glène ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "L'angle omo-claviculaire s'ouvre et la glène s'oriente vers l'avant et latéralement",
+     "correct": true,
+     "j": "La protraction scapulaire ouvre l'angle entre la clavicule et la scapula ; la glène, fixée à la scapula, tourne avec elle vers l'avant (préparation à la poussée)."
+    },
+    {
+     "t": "L'angle se ferme et la glène s'oriente postérieurement",
+     "j": "C'est la rétraction (adduction scapulaire) qui ferme l'angle et oriente la glène en arrière."
+    },
+    {
+     "t": "L'angle s'ouvre mais la glène s'oriente médialement et en arrière",
+     "j": "L'ouverture de l'angle accompagne bien la protraction, mais la glène solidaire de la scapula tourne vers l'avant et le dehors, jamais en dedans et en arrière qui caractérise la rétraction."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles de la coiffe des rotateurs assurent principalement la coaptation transversale (centrage) de la tête humérale dans la glène lors de l'abduction ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Subscapulaire en avant et infra-épineux/petit rond en arrière",
+     "correct": true,
+     "j": "Ces muscles forment un couple transversal qui plaque la tête humérale contre la glène, équilibrant la traction luxante du deltoïde et permettant l'abduction physiologique."
+    },
+    {
+     "t": "Supra-épineux et grand pectoral",
+     "j": "Le supra-épineux participe au centrage axial supérieur ; le grand pectoral est un puissant adducteur-rotateur interne, antagoniste de la coaptation centrée."
+    },
+    {
+     "t": "Grand dorsal et grand rond",
+     "j": "Ce sont des adducteurs et rotateurs internes, à action plutôt luxante en abduction qu'à action coaptatrice."
+    }
+   ]
+  },
+  {
+   "q": "M. R., 30 ans, lève le bras à 180° en flexion. Quelle répartition de l'amplitude correspond au rythme scapulo-huméral enseigné dans le cours (Neumann) ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "120° gléno-humérale et 60° scapulo-thoracique",
+     "correct": true,
+     "j": "Le cours énonce le rythme 2:1 : élévation complète 180° = GH 120° + ST 60°, la GH fournissant le double de la scapulo-thoracique."
+    },
+    {
+     "t": "135° gléno-humérale et 45° scapulo-thoracique",
+     "j": "Ce rapport 3:1 ne correspond pas au rythme enseigné ; le cours retient un rapport 2:1, soit 120°/60° et non 135°/45°."
+    },
+    {
+     "t": "100° gléno-humérale et 80° scapulo-thoracique",
+     "j": "Ce partage proche de 1,25:1 sous-estime la part gléno-humérale ; le rythme 2:1 attribue 120° à la GH et 60° à la scapulo-thoracique."
+    }
+   ]
+  },
+  {
+   "q": "Lors du deuxième temps de l'abduction de l'épaule (de 90° à 150°), quelle articulation est principalement sollicitée et par quel mécanisme cinématique ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Scapulo-thoracique par sonnette externe",
+     "correct": true,
+     "j": "Au-delà de 90°, la GH est verrouillée par butée du trochiter sous l'acromion ; la sonnette externe scapulaire libère le mouvement et permet de poursuivre l'élévation."
+    },
+    {
+     "t": "Gléno-humérale par rotation interne",
+     "j": "C'est la rotation externe (et non interne) qui libère l'abduction au-delà de 90° en dégageant le trochiter de l'acromion."
+    },
+    {
+     "t": "Acromio-claviculaire isolée",
+     "j": "L'AC participe à la sonnette via la mobilité scapulaire, mais n'est pas mobile isolément ; elle est couplée à la SC."
+    }
+   ]
+  },
+  {
+   "q": "M. D., 35 ans, recule activement son bras en extension de l'épaule. Parmi les listes suivantes, laquelle correspond aux muscles extenseurs de la gléno-humérale enseignés dans le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Deltoïde, grand rond, latissimus dorsi, triceps brachial",
+     "correct": true,
+     "j": "Le cours liste comme extenseurs gléno-huméraux le deltoïde (faisceau postérieur), le grand rond, le latissimus dorsi et le triceps brachial (avec rhomboïdes et trapèze moyen pour la sonnette scapulaire)."
+    },
+    {
+     "t": "Sous-scapulaire, grand pectoral, grand rond, latissimus dorsi",
+     "j": "Cette liste correspond aux rotateurs internes (RI) du cours, pas aux extenseurs."
+    },
+    {
+     "t": "Deltoïde, coracobrachial, grand pectoral, biceps brachial",
+     "j": "Cette liste correspond aux fléchisseurs gléno-huméraux du cours, antagonistes de l'extension."
+    }
+   ]
+  },
+  {
+   "q": "Au cours du mouvement d'adduction horizontale de l'épaule (bras à 90° de flexion ramené vers le sternum), quels mouvements scapulaire et claviculaire accompagnent ce geste ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Protraction scapulaire et protraction claviculaire",
+     "correct": true,
+     "j": "L'adduction horizontale projette la scapula en avant : protraction de la scapula (qui s'écarte du rachis) et protraction claviculaire à la SC (déplacement antérieur)."
+    },
+    {
+     "t": "Rétraction scapulaire et rétraction claviculaire",
+     "j": "C'est le mouvement inverse, observé en abduction horizontale (scapula vers le rachis), et non en adduction horizontale."
+    },
+    {
+     "t": "Élévation scapulaire et élévation claviculaire",
+     "j": "L'élévation est une translation verticale de la ceinture (port d'une charge) ; l'adduction horizontale est un déplacement antérieur, donc une protraction."
+    }
+   ]
+  },
+  {
+   "q": "Parmi les muscles suivants, lequel est rotateur interne principal de l'articulation gléno-humérale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Grand pectoral",
+     "correct": true,
+     "j": "Le grand pectoral est un puissant rotateur interne de la GH, avec le subscapulaire, le grand dorsal et le grand rond ; tous tirent la tête humérale en rotation médiale."
+    },
+    {
+     "t": "Petit rond",
+     "j": "Le petit rond est un rotateur externe de la GH (avec l'infra-épineux et le deltoïde postérieur), antagoniste de la rotation interne."
+    },
+    {
+     "t": "Coracobrachial",
+     "j": "Le coracobrachial est fléchisseur et adducteur de la GH ; il n'a pas d'action rotatoire interne principale sur l'humérus."
+    }
+   ]
+  },
+  {
+   "q": "Mme S., 28 ans, rame en aviron et amène son objet vers le corps (rétroposition de la ceinture scapulaire). Selon le cours, quelle description cinématique est exacte ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Rétraction scapulaire (adduction vers la colonne) et rétraction claviculaire à la SC",
+     "correct": true,
+     "j": "Le cours décrit la rétraction comme l'inverse de la protraction : la scapula s'adducte vers la colonne et la clavicule effectue une rétraction à la SC (roulement et glissement postérieurs)."
+    },
+    {
+     "t": "Protraction scapulaire et rotation interne AC, orientant la glène vers l'avant",
+     "j": "Cette description correspond à la protraction (antéposition) selon le cours, mouvement inverse de la rétroposition."
+    },
+    {
+     "t": "Sonnette externe scapulaire et élévation claviculaire à 25°",
+     "j": "Cette combinaison décrit la composante AC + SC de l'élévation du bras à 180° (rythme scapulo-huméral), pas la rétroposition."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez une luxation de la tête radiale chez un enfant de 3 ans (pulled elbow). Quel muscle est principalement responsable de la luxation antéro-supérieure de la tête radiale lorsque le coude est en flexion à 90° ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Biceps brachial",
+     "correct": true,
+     "j": "À 90° de flexion, la traction du biceps sur la tubérosité radiale devient quasi verticale et tire la tête radiale vers le haut et l'avant ; sa luxation est normalement empêchée par le ligament annulaire."
+    },
+    {
+     "t": "Brachial antérieur",
+     "j": "Le brachial antérieur s'insère sur l'ulna (tubérosité ulnaire), pas sur le radius : il fléchit le coude mais n'exerce aucune traction luxante sur la tête radiale."
+    },
+    {
+     "t": "Supinateur",
+     "j": "Le supinateur s'enroule autour du col radial et participe à la supination ; il maintient le contact plutôt qu'il ne luxe la tête radiale vers le haut et l'avant."
+    }
+   ]
+  },
+  {
+   "q": "Vous testez le bilan musculaire des abducteurs de l'épaule. Pour évaluer la cotation en position où la gravité est éliminée, dans quelle position installez-vous le patient ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Décubitus latéral, côté testé au-dessus, bras reposant sur un plan glissant horizontal",
+     "correct": true,
+     "j": "Le décubitus latéral, membre supérieur sur un plan glissant, place l'abduction de l'épaule dans un plan horizontal où la pesanteur n'agit plus contre le mouvement : c'est la position de pesanteur éliminée (cotation 2)."
+    },
+    {
+     "t": "Assis, tronc incliné latéralement du côté testé, bras reposant sur une table",
+     "j": "L'inclinaison du tronc et l'appui ne suppriment pas réellement l'effet de la pesanteur sur l'abduction frontale, qui reste contrariée par le poids du membre."
+    },
+    {
+     "t": "Décubitus dorsal, épaule en rotation externe, bras le long du corps",
+     "j": "En décubitus dorsal l'abduction frontale s'effectue contre la pesanteur (cotation 3 et plus) ; la position n'est donc pas dite à pesanteur éliminée."
+    }
+   ]
+  },
+  {
+   "q": "En goniométrie, un patient présente une raideur du coude en extension fixée à 30° de flexion. Comment notez-vous ce blocage selon la convention internationale (SFTR) sur le plan sagittal ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "S : 0-30-130",
+     "correct": true,
+     "j": "La notation SFTR (S = sagittal) indique : extension max - position de blocage - flexion max. Ici, pas d'extension au-delà de 30° (donc 0), blocage à 30°, flexion à 130°."
+    },
+    {
+     "t": "S : 30-0-130",
+     "j": "Cette notation indiquerait une hyperextension de 30°, ce qui serait inverse au blocage en flexion."
+    },
+    {
+     "t": "S : 30-130-0",
+     "j": "La séquence SFTR commence par l'extension maximale, pas par le point neutre ou de blocage."
+    }
+   ]
+  },
+  {
+   "q": "Un patient présente un déficit de l'abducteur du 5e doigt et des interosseux dorsaux. Quel nerf est probablement atteint ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Nerf ulnaire (cubital)",
+     "correct": true,
+     "j": "Le nerf ulnaire innerve les muscles hypothénariens (dont l'abducteur du 5e), tous les interosseux et les 2 derniers lombricaux ; son atteinte donne une griffe ulnaire avec déficit d'écartement des doigts."
+    },
+    {
+     "t": "Branche profonde du nerf médian (interosseux antérieur)",
+     "j": "Le nerf interosseux antérieur est purement moteur pour le long fléchisseur du pouce, le carré pronateur et le fléchisseur profond des 2e-3e doigts ; il n'innerve ni l'abducteur du 5e ni les interosseux."
+    },
+    {
+     "t": "Branche profonde du nerf radial (interosseux postérieur)",
+     "j": "L'interosseux postérieur innerve les extenseurs de l'avant-bras (loge dorsale), pas les muscles intrinsèques de la main que sont les interosseux et l'abducteur du 5e."
+    }
+   ]
+  },
+  {
+   "q": "Un patient consulte pour épicondylalgie latérale chronique liée à un travail répétitif d'extension du poignet. Quel muscle est principalement impliqué dans cette pathologie ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Court extenseur radial du carpe",
+     "correct": true,
+     "j": "Le court extenseur radial du carpe est le tendon le plus souvent enthésopathique dans le tennis elbow : son origine sur l'épicondyle latéral subit les contraintes répétées de l'extension active du poignet."
+    },
+    {
+     "t": "Long extenseur radial du carpe",
+     "j": "Le long extenseur radial du carpe prend son origine plus haut, sur la crête supracondylienne latérale et non sur l'épicondyle ; il est rarement la cible de l'enthésopathie du tennis elbow."
+    },
+    {
+     "t": "Fléchisseur ulnaire du carpe",
+     "j": "Muscle palmaire dont l'origine est l'épicondyle médial : il est en cause dans l'épitrochléite (golfer's elbow), non dans l'épicondylalgie latérale."
+    }
+   ]
+  },
+  {
+   "q": "Un sujet effectue une abduction du 1er métacarpien dans le plan perpendiculaire à la paume. Quelle est l'arthrocinématique au niveau de la trapézo-métacarpienne ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Surface convexe du métacarpien glissant en sens opposé au mouvement osseux",
+     "correct": true,
+     "j": "Dans le plan d'abduction, la surface du métacarpien sur la selle trapézienne est convexe : selon la loi convexe-sur-concave, le glissement se fait en sens inverse du déplacement osseux."
+    },
+    {
+     "t": "Surface concave du métacarpien glissant dans le même sens que le mouvement osseux",
+     "j": "Cette cinématique (glissement de même sens) correspond au cas concave-sur-convexe ; or dans le plan d'abduction la surface métacarpienne est convexe, pas concave."
+    },
+    {
+     "t": "Surface convexe du trapèze glissant en sens opposé au mouvement osseux",
+     "j": "C'est le métacarpien qui est mobile et convexe dans ce plan ; le trapèze fixe ne fournit pas la surface mobile décrite ici."
+    }
+   ]
+  },
+  {
+   "q": "Un patient présente un défaut d'opposition du pouce avec aplatissement de l'éminence thénar. Quelle est la cause neurologique la plus probable ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Lésion du nerf médian",
+     "correct": true,
+     "j": "Le médian innerve l'éminence thénar (court abducteur, opposant, partie superficielle du court fléchisseur) ; son atteinte (canal carpien sévère) donne une amyotrophie thénarienne avec perte d'opposition."
+    },
+    {
+     "t": "Lésion du nerf ulnaire",
+     "j": "L'ulnaire innerve l'éminence hypothénarienne (5e doigt) et l'adducteur du pouce ; son atteinte donne main en griffe et perte d'adduction du pouce, pas d'opposition."
+    },
+    {
+     "t": "Lésion du nerf radial",
+     "j": "Le radial commande les extenseurs ; son atteinte donne main tombante, pas une amyotrophie thénarienne."
+    }
+   ]
+  },
+  {
+   "q": "Quelle articulation du carpe est désignée comme la plus mobile et participe à l'enroulement de la main lors d'un geste de saisie cylindrique ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "5e carpo-métacarpienne (méta sur hamatum)",
+     "correct": true,
+     "j": "La 5e CMC est la plus mobile (20-25° de flexion), suivie de la 4e ; elle permet à la paume de se creuser pour épouser un objet cylindrique."
+    },
+    {
+     "t": "2e carpo-métacarpienne (méta sur trapézoïde)",
+     "j": "Quasi rigide : le 2e méta encastré sur le trapézoïde a très peu de mobilité, c'est un pilier fixe central."
+    },
+    {
+     "t": "3e carpo-métacarpienne (méta sur capitatum)",
+     "j": "Pratiquement rigide également ; elle forme avec la 2e l'axe stable central de la main, sans participer à l'enroulement."
+    }
+   ]
+  },
+  {
+   "q": "Lors de l'extension active du poignet par les seuls muscles extenseurs (sans contraction des fléchisseurs des doigts), que se passe-t-il automatiquement au niveau des doigts par effet de ténodèse ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Flexion automatique des doigts par mise en tension des fléchisseurs extrinsèques",
+     "correct": true,
+     "j": "L'extension du poignet allonge passivement les tendons fléchisseurs extrinsèques sur la face palmaire : les doigts se ferment automatiquement (ténodèse)."
+    },
+    {
+     "t": "Extension automatique des doigts par mise en tension des extenseurs extrinsèques",
+     "j": "L'extension passive des doigts par ténodèse se produit lors de la flexion du poignet (effet inverse), pas pendant l'extension du poignet."
+    },
+    {
+     "t": "Flexion automatique des doigts par contraction réflexe des lombricaux",
+     "j": "L'effet ténodèse est purement passif et mécanique ; il ne dépend d'aucune contraction active, qu'elle soit des lombricaux ou d'un autre muscle."
+    }
+   ]
+  },
+  {
+   "q": "Un patient atteint d'un syndrome du défilé thoraco-brachial présente des paresthésies sur le territoire C8-T1. Quel élément ostéo-ligamentaire peut comprimer le tronc inférieur du plexus brachial ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Première côte et muscles scalènes",
+     "correct": true,
+     "j": "Le défilé interscalénique (entre scalènes antérieur et moyen, sur la première côte) est le site classique de compression du tronc inférieur C8-T1 du plexus brachial."
+    },
+    {
+     "t": "Clavicule et muscle subclavier",
+     "j": "Le défilé costo-claviculaire existe, mais comprime plutôt l'ensemble du paquet vasculo-nerveux que sélectivement le tronc inférieur C8-T1."
+    },
+    {
+     "t": "Apophyse coracoïde et petit pectoral",
+     "j": "Le défilé costo-coracoïdien sous le petit pectoral comprime le plexus en abduction-élévation, et non spécifiquement le tronc inférieur à sa sortie."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente présente une scapula alata (décollement de la scapula du thorax) avec faiblesse à la poussée murale. Quel muscle est probablement atteint et quel est son innervation ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Dentelé antérieur, innervé par le nerf thoracique long (C5-C7)",
+     "correct": true,
+     "j": "Le dentelé antérieur stabilise la scapula contre le thorax et la fait pivoter en sonnette externe ; sa paralysie (nerf long thoracique) donne la scapula alata classique du test de poussée murale."
+    },
+    {
+     "t": "Trapèze inférieur, innervé par le spinal accessoire",
+     "j": "Une atteinte du trapèze (spinal) donne aussi un défaut de bascule scapulaire mais le scapula alata typique de la poussée murale est lié au dentelé antérieur."
+    },
+    {
+     "t": "Rhomboïde majeur, innervé par le scapulaire dorsal",
+     "j": "Le rhomboïde est rétracteur scapulaire ; son atteinte donne plutôt une dyskinésie en sonnette interne."
+    }
+   ]
+  },
+  {
+   "q": "Au cours d'un appui sur les mains paume au sol (gainage planche), comment se comportent les muscles fléchisseurs et extenseurs du poignet ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Co-contraction synergique des fléchisseurs et extenseurs du carpe",
+     "correct": true,
+     "j": "Le carpe étant dépourvu d'insertions musculaires directes (sauf FCU), seule la co-contraction simultanée des fléchisseurs et extenseurs assure sa stabilité par compression articulaire."
+    },
+    {
+     "t": "Contraction dominante des extenseurs avec relâchement des fléchisseurs",
+     "j": "Sans contraction antagoniste des fléchisseurs, la stabilisation du carpe par compression est insuffisante et le poignet reste instable en charge."
+    },
+    {
+     "t": "Verrouillage passif osseux du carpe sans activité musculaire",
+     "j": "Le carpe n'a pas de butée osseuse stable en charge : sa cohésion en appui dépend de l'activité musculaire, non d'un simple verrouillage passif."
+    }
+   ]
+  },
+  {
+   "q": "Vous décrivez le mouvement d'opposition du pouce. Quelle séquence cinématique caractérise ce mouvement complexe ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Abduction + flexion + rotation médiale du 1er métacarpien",
+     "correct": true,
+     "j": "L'opposition est un mouvement combiné : abduction initiale, puis flexion et rotation interne (médiale) du 1er méta, favorisée par le ligament oblique postérieur de la trapézo-méta."
+    },
+    {
+     "t": "Adduction + extension + rotation latérale",
+     "j": "C'est le mouvement inverse (repositionnement) ; il ramène le pouce vers la paume neutre."
+    },
+    {
+     "t": "Flexion + adduction + rotation latérale",
+     "j": "Cette combinaison ne reproduit pas l'opposition ; la rotation médiale est essentielle."
+    }
+   ]
+  },
+  {
+   "q": "Quelle proposition décrit correctement le rôle du ligament annulaire du radius dans la stabilité du coude ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Il maintient la tête radiale en regard de la cavité sigmoïde de l'ulna pendant la prono-supination",
+     "correct": true,
+     "j": "Le ligament annulaire encercle la tête radiale et la maintient appliquée contre l'ulna durant tout le mouvement de rotation ; sa rupture cause la pronation douloureuse du jeune enfant."
+    },
+    {
+     "t": "Il limite la flexion du coude au-delà de 145°",
+     "j": "La flexion est limitée par les structures osseuses (coronoïde) et capsulaires, pas par le ligament annulaire."
+    },
+    {
+     "t": "Il s'oppose au valgus du coude",
+     "j": "Le valgus est contrôlé par le ligament collatéral ulnaire (médial), pas par l'annulaire."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une flexion résistée des doigts contre une dynamométrie globale, le phénomène de Quadriga affecte la mesure. De quoi s'agit-il ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Interconnexion des tendons du fléchisseur profond limitant la flexion indépendante d'un doigt",
+     "correct": true,
+     "j": "Le fléchisseur commun profond a un corps musculaire unique pour 4 tendons interconnectés : la restriction d'un doigt (raideur, amputation, suture trop courte) limite la force des autres, c'est l'effet Quadriga."
+    },
+    {
+     "t": "Co-activation des lombricaux empêchant la flexion isolée d'un doigt",
+     "j": "Les lombricaux participent à la flexion MCP et à l'extension IP, mais ne créent pas l'effet Quadriga, lié à l'anatomie du fléchisseur profond."
+    },
+    {
+     "t": "Inhibition réciproque par l'extenseur commun lors de la flexion",
+     "j": "Phénomène neurologique d'innervation antagoniste, distinct du Quadriga qui est un phénomène anatomique tendineux."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez la mobilité d'une articulation interphalangienne proximale (IPP). Quelle amplitude active de flexion est physiologique pour le 5e doigt ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Environ 135°",
+     "correct": true,
+     "j": "La flexion IPP croît du 2e au 5e doigt et atteint environ 135° pour le 5e, permettant l'enroulement complet de la main en poing."
+    },
+    {
+     "t": "Environ 100°",
+     "j": "Valeur proche de l'amplitude de l'IPP du 2e doigt ; le 5e doigt est nettement plus mobile et dépasse cette amplitude."
+    },
+    {
+     "t": "Environ 70°",
+     "j": "Amplitude insuffisante évoquant une raideur en flexion ; bien en deçà de la valeur physiologique du 5e doigt."
+    }
+   ]
+  },
+  {
+   "q": "Au cours d'un test d'abduction des doigts contre résistance, quels muscles intrinsèques sollicitez-vous principalement ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Interosseux dorsaux et abducteur du 5e doigt",
+     "correct": true,
+     "j": "L'abduction (écartement par rapport à l'axe du 3e doigt) est produite par les interosseux dorsaux, complétés par l'abducteur propre du 5e doigt."
+    },
+    {
+     "t": "Interosseux palmaires et adducteur du pouce",
+     "j": "Ces muscles rapprochent les doigts de l'axe (adduction) ; ils sont antagonistes de l'abduction testée."
+    },
+    {
+     "t": "Lombricaux et fléchisseur superficiel",
+     "j": "Ces muscles agissent sur la flexion MCP et l'extension IP, sans rôle dans le plan frontal d'abduction."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle est innervé par le nerf radial et permet l'extension du poignet ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Court extenseur radial du carpe",
+     "correct": true,
+     "j": "Le CERC, innervé par la branche profonde du nerf radial, s'insère sur la base du 3e métacarpien : extenseur du poignet et fixateur lors de la préhension."
+    },
+    {
+     "t": "Fléchisseur ulnaire du carpe",
+     "j": "Innervé par le nerf ulnaire, c'est un fléchisseur et inclinateur ulnaire du poignet, pas un extenseur radial : ni le nerf ni l'action ne correspondent."
+    },
+    {
+     "t": "Fléchisseur radial du carpe",
+     "j": "Innervé par le nerf médian, ce muscle fléchit le poignet : ni le nerf ni l'action ne correspondent à un extenseur radial."
+    }
+   ]
+  },
+  {
+   "q": "Un patient effectue une supination forcée de l'avant-bras contre résistance maximale. Quels muscles travaillent en synergie ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Biceps brachial et supinateur",
+     "correct": true,
+     "j": "Le biceps est le supinateur le plus puissant (surtout coude fléchi à 90°) ; le supinateur (court supinateur) est actif quelle que soit la position du coude. Ces deux muscles travaillent en synergie."
+    },
+    {
+     "t": "Rond pronateur et pronateur carré",
+     "j": "Ce sont les deux muscles pronateurs de l'avant-bras, antagonistes directs de la supination testée."
+    },
+    {
+     "t": "Brachial antérieur et anconé",
+     "j": "Le brachial est purement fléchisseur du coude ; l'anconé est extenseur du coude. Ni l'un ni l'autre n'agit sur la prono-supination."
+    }
+   ]
+  },
+  {
+   "q": "Un débutant en escalade présente une épitrochléite (épicondylite médiale). Quel groupe musculaire est principalement enthésopathique ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Fléchisseurs et pronateurs du poignet (épitrochléens)",
+     "correct": true,
+     "j": "L'épitrochléite atteint l'enthèse commune des muscles épitrochléens (rond pronateur, fléchisseurs du carpe et des doigts), qui y prennent leur origine et que surchargent les contraintes répétitives de flexion-pronation."
+    },
+    {
+     "t": "Extenseurs et supinateur du poignet (épicondyliens)",
+     "j": "Ces muscles prennent leur origine sur l'épicondyle latéral (épicondylite, tennis elbow), pas sur l'épitrochlée médiale."
+    },
+    {
+     "t": "Fléchisseurs longs des doigts (loge profonde de l'avant-bras)",
+     "j": "Le fléchisseur profond et le long fléchisseur du pouce naissent du radius, de l'ulna et de la membrane interosseuse, non de l'épitrochlée."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez la goniométrie de la prono-supination chez un patient avec coude fléchi à 90°. Quelle est l'amplitude normale totale de ce mouvement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Environ 175° (85° de pronation + 90° de supination)",
+     "correct": true,
+     "j": "L'amplitude physiologique totale est d'environ 85° de pronation et 90° de supination, soit ~175° autour de la position neutre (pouce vers le haut)."
+    },
+    {
+     "t": "Environ 90° (45° de pronation + 45° de supination)",
+     "j": "Sous-estimé : chaque versant atteint à lui seul près de 85-90°, la prono-supination physiologique dépasse largement 90° au total."
+    },
+    {
+     "t": "Environ 270° (135° de pronation + 135° de supination)",
+     "j": "Surestimé : la pronation et la supination sont limitées à ~85-90° chacune par les structures capsulaires et le contact radius-ulna."
+    }
+   ]
+  },
+  {
+   "q": "Vous mesurez la déviation ulnaire passive du poignet et trouvez une limite à 45° avec sensation osseuse. Quelle structure est responsable ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Choc du triquetrum contre le disque articulaire ulnaire",
+     "correct": true,
+     "j": "En déviation ulnaire maximale, le triquetrum vient au contact du disque articulaire de la tête ulnaire ; ce choc osseux constitue la limite physiologique normale."
+    },
+    {
+     "t": "Choc scaphoïde-styloïde radiale",
+     "j": "Ce choc limite la déviation radiale, pas ulnaire."
+    },
+    {
+     "t": "Tension du ligament collatéral ulnaire",
+     "j": "Le LCU est en fait relâché lors de la déviation ulnaire ; il limite plutôt la déviation radiale."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la position dite de fonction du poignet utilisée comme position de référence en orthopédie (immobilisation, fixation chirurgicale) ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "10-15° d'extension et 10° de déviation ulnaire",
+     "correct": true,
+     "j": "La position fonctionnelle optimise la force de préhension et les AVQ : extension 10-15° et déviation ulnaire 10° ; c'est la position d'immobilisation de référence."
+    },
+    {
+     "t": "0° d'extension et 0° de déviation (position neutre)",
+     "j": "La position neutre ne correspond pas à l'usage fonctionnel optimal et diminue la force de préhension par rapport à la légère extension."
+    },
+    {
+     "t": "30° de flexion et 10° de déviation radiale",
+     "j": "Position défavorable : la flexion diminue la force de préhension et la déviation radiale n'est pas physiologique pour la prise."
+    }
+   ]
+  },
+  {
+   "q": "Vous mesurez la flexion active du coude. À quelle valeur normale doit-elle s'arrêter physiologiquement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "145° environ",
+     "correct": true,
+     "j": "La flexion active normale du coude est de 145° ; la flexion passive peut atteindre 160° par mobilisation forcée et compression des masses molles."
+    },
+    {
+     "t": "160° environ",
+     "j": "160° correspond à la flexion PASSIVE forcée (compression des masses molles), pas à la flexion active normale qui s'arrête à 145°."
+    },
+    {
+     "t": "120° environ",
+     "j": "Valeur insuffisante : elle traduit un déficit de flexion (raideur), l'amplitude active physiologique atteignant 145°."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quel est le rôle du supra-épineux au niveau de l'articulation gléno-humérale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Stabilité dynamique : sa contraction resserre la capsule",
+     "correct": true,
+     "j": "Le cours énonce : « Le supra-épineux assure la stabilité dynamique de l'articulation. Sa contraction resserre la capsule. » Il est aussi listé parmi les abducteurs GH."
+    },
+    {
+     "t": "Rotation interne : moteur principal avec le sub-scapulaire",
+     "j": "Le cours liste les rotateurs internes GH (grand dorsal, grand rond, sub-scapulaire, pectoraux, dentelé) ; le supra-épineux n'y figure pas et est au contraire rotateur externe."
+    },
+    {
+     "t": "Extension : son recul entraîne la tête humérale en arrière",
+     "j": "Le cours liste les extenseurs GH (grand rond, deltoïde, rhomboïdes, latissimus dorsi, trapèze moyen, triceps) ; le supra-épineux n'en fait pas partie."
+    }
+   ]
+  },
+  {
+   "q": "D'après le cours, à quels mouvements de l'articulation gléno-humérale le grand pectoral participe-t-il ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Flexion, rotation interne et adduction",
+     "correct": true,
+     "j": "Le cours liste le grand pectoral parmi les fléchisseurs GH, les rotateurs internes GH et les adducteurs associés à la flexion."
+    },
+    {
+     "t": "Extension, rotation externe et abduction",
+     "j": "Le cours classe ces mouvements sous d'autres muscles (latissimus dorsi, infra-épineux, deltoïde, supra-épineux) ; le grand pectoral n'y figure pas et est rotateur interne, pas externe."
+    },
+    {
+     "t": "Abduction, rotation externe et extension",
+     "j": "Les abducteurs GH listés sont le deltoïde, le supra-épineux, le trapèze et le dentelé ; le grand pectoral n'en fait pas partie et reste rotateur interne, jamais externe."
+    }
+   ]
+  },
+  {
+   "q": "Le ligament coraco-claviculaire se compose de deux faisceaux. Quel est le rôle principal du faisceau conoïde ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Assurer la stabilité verticale clavicule-coracoïde",
+     "correct": true,
+     "j": "Le faisceau conoïde, plus vertical, suspend la clavicule à la coracoïde et limite son déplacement vertical ; sa rupture domine les disjonctions AC de stade III."
+    },
+    {
+     "t": "Assurer la stabilité horizontale antéro-postérieure",
+     "j": "La stabilité horizontale antéro-postérieure est assurée par le faisceau trapézoïde, plus oblique, et non par le conoïde."
+    },
+    {
+     "t": "Stabiliser directement l'articulation acromio-claviculaire",
+     "j": "La stabilité propre de l'interligne acromio-claviculaire dépend des ligaments acromio-claviculaires ; le conoïde stabilise à distance, par suspension à la coracoïde."
+    }
+   ]
+  },
+  {
+   "q": "Le mouvement d'opposition du pouce nécessite l'intégrité d'un nerf principal. Lequel ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le nerf médian, via sa branche thénarienne",
+     "correct": true,
+     "j": "L'opposition est produite par les muscles thénariens (court abducteur, opposant, faisceau superficiel du court fléchisseur) innervés par le médian ; sa section l'abolit."
+    },
+    {
+     "t": "Le nerf ulnaire, via sa branche profonde",
+     "j": "La branche profonde de l'ulnaire innerve l'adducteur du pouce et l'éminence hypothénar, mais pas les muscles oppositionnels du pouce."
+    },
+    {
+     "t": "Le nerf radial, via sa branche postérieure",
+     "j": "La branche postérieure du radial innerve les extenseurs de l'avant-bras et du pouce ; elle ne participe pas à l'opposition active."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la position de stabilité maximale (close-pack) de l'articulation gléno-humérale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Abduction maximale associée à la rotation externe maximale",
+     "correct": true,
+     "j": "En ABD + RE complètes, les ligaments gléno-huméraux et la capsule antérieure sont mis en tension maximale et la tête humérale est plaquée contre la glène : c'est la position close-pack de la GH."
+    },
+    {
+     "t": "Abduction de 90° associée à la rotation interne maximale",
+     "j": "En RI, la capsule antérieure se détend et la tête tend à se subluxer en avant : la congruence n'est pas maximale, ce n'est donc pas la position close-pack mais une position à risque d'instabilité antérieure."
+    },
+    {
+     "t": "Flexion maximale associée à la rotation externe maximale",
+     "j": "La flexion antérieure complète sollicite surtout la capsule postéro-inférieure sans verrouiller l'ensemble de l'appareil capsulo-ligamentaire ; la tension n'est pas globale, la congruence n'atteint pas le close-pack."
+    }
+   ]
+  },
+  {
+   "q": "Un patient présente une scapula avec angle inférieur décollé du thorax (tilt antérieur). Quel muscle, par sa rétraction, est typiquement en cause ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Petit pectoral",
+     "correct": true,
+     "j": "Le petit pectoral tracte la coracoïde antérieurement et bascule la scapula en tilt antérieur ; sa rétraction (souvent posturale en cyphose) est la cause typique du décollement de l'angle inférieur."
+    },
+    {
+     "t": "Trapèze inférieur",
+     "j": "Le trapèze inférieur, au contraire, plaque l'angle inférieur contre le thorax (tilt postérieur) ; sa faiblesse aggrave le tilt antérieur."
+    },
+    {
+     "t": "Dentelé antérieur",
+     "j": "Le dentelé antérieur plaque la scapula sur le thorax ; sa faiblesse donne plutôt une scapula alata."
+    }
+   ]
+  },
+  {
+   "q": "En goniométrie de l'épaule, la rotation externe à 0° d'abduction (coude au corps) a une amplitude normale de :",
+   "c": 1,
+   "options": [
+    {
+     "t": "75-85°",
+     "correct": true,
+     "j": "La rotation externe à 0° d'abduction est limitée par la mise en tension de la capsule antérieure ; amplitude normale 75-85°. Elle augmente à 90° quand l'épaule est en ABD 90°."
+    },
+    {
+     "t": "30-45°",
+     "j": "Très insuffisant : valeur observée en cas de capsulite ou raideur, pas normale."
+    },
+    {
+     "t": "120-135°",
+     "j": "Trop ample : impossible physiologiquement à 0° ABD du fait des contraintes capsulaires."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez la force d'un patient en pronation contre résistance, coude fléchi à 90°. Quels muscles testez-vous principalement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Rond pronateur et pronateur carré",
+     "correct": true,
+     "j": "Les deux pronateurs travaillent en synergie : le rond pronateur (proximal) initie le mouvement, le pronateur carré (distal) le complète et tend la membrane interosseuse."
+    },
+    {
+     "t": "Biceps et brachioradial",
+     "j": "Le biceps est supinateur ; le brachioradial est neutralisateur (ramène en position neutre). Aucun n'est pronateur principal."
+    },
+    {
+     "t": "Supinateur et triceps",
+     "j": "Le supinateur est antagoniste de la pronation ; le triceps n'agit pas sur la prono-supination."
+    }
+   ]
+  },
+  {
+   "q": "Au cours d'une flexion complète des MCP des doigts (poing fermé), quelle rotation automatique accompagne ce mouvement ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Supination des phalanges (convergence vers la pulpe du pouce)",
+     "correct": true,
+     "j": "L'asymétrie des têtes métacarpiennes et la tension collatérale entraînent une supination automatique des doigts en flexion ; le plan oblique converge vers la pulpe du pouce, permettant la prise."
+    },
+    {
+     "t": "Pronation des phalanges (divergence vers le bord ulnaire)",
+     "j": "La pronation est le mouvement opposé ; les doigts ne pronent pas en flexion et ne divergent pas vers le bord ulnaire lors de la fermeture du poing."
+    },
+    {
+     "t": "Abduction des phalanges (ouverture de l'éventail digital)",
+     "j": "L'abduction est abolie en flexion, les ligaments collatéraux des MCP étant tendus à fond ; l'éventail digital se ferme, il ne s'ouvre pas."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente présente une rétraction chronique du grand pectoral entraînant une attitude en protraction scapulaire. Selon les muscles moteurs cités par le cours pour la protraction et la rétraction de l'omoplate, quelle situation musculaire en résulte ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le petit pectoral est raccourci tandis que le trapèze moyen et les rhomboïdes sont allongés",
+     "correct": true,
+     "j": "Le cours classe le petit pectoral et le dentelé antérieur parmi les protracteurs scapulaires, et le trapèze moyen comme les rhomboïdes parmi les rétracteurs : une posture en protraction fixée raccourcit les premiers et étire les seconds."
+    },
+    {
+     "t": "Le trapèze moyen et les rhomboïdes sont raccourcis tandis que le petit pectoral est allongé",
+     "j": "Le cours place trapèze moyen et rhomboïdes parmi les rétracteurs et le petit pectoral parmi les protracteurs : en protraction fixée c'est l'inverse qui se produit, ces rétracteurs sont étirés et non raccourcis."
+    },
+    {
+     "t": "Le dentelé antérieur est allongé tandis que les rhomboïdes sont raccourcis",
+     "j": "Le cours classe le dentelé antérieur parmi les protracteurs au même titre que le petit pectoral : il est raccourci, et les rhomboïdes rétracteurs sont étirés, soit l'inverse de la proposition."
+    }
+   ]
+  },
+  {
+   "q": "Quelle structure du carpe est la plus exposée aux fractures lors d'une chute sur la paume de la main en extension forcée ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Scaphoïde",
+     "correct": true,
+     "j": "Le scaphoïde est le plus fréquemment fracturé du carpe lors d'une chute paume ouverte ; sa vascularisation rétrograde rend ces fractures susceptibles de pseudarthrose."
+    },
+    {
+     "t": "Lunatum",
+     "j": "Le lunatum est plus souvent luxé (luxation rétrolunaire) que fracturé en chute paume."
+    },
+    {
+     "t": "Triquetrum",
+     "j": "Le triquetrum est plus rarement fracturé ; sa lésion classique est l'arrachement osseux dorsal."
+    }
+   ]
+  },
+  {
+   "q": "Vous décrivez la goniométrie de la déviation ulnaire du poignet en position de pronation vs supination. Quelle proposition est exacte ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "La déviation ulnaire est plus ample en supination qu'en pronation",
+     "correct": true,
+     "j": "En supination, la déviation ulnaire atteint son maximum (~45°) ; en pronation elle diminue car la rotation porte l'ulna distalement et tend les structures dorso-ulnaires (extenseur ulnaire du carpe et TFCC) qui freinent l'inclinaison ulnaire."
+    },
+    {
+     "t": "La déviation ulnaire est plus ample en pronation",
+     "j": "C'est l'inverse : en pronation la variance ulnaire devient positive et le TFCC ainsi que le tendon de l'extenseur ulnaire du carpe se tendent, ce qui réduit l'amplitude au lieu de l'augmenter."
+    },
+    {
+     "t": "L'amplitude est identique dans les deux positions",
+     "j": "Faux : la position de prono-supination modifie la tension des contraintes dorso-ulnaires, si bien que la déviation ulnaire mesurée en pronation est nettement inférieure à celle obtenue en supination."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles produisent l'extension active des articulations interphalangiennes des doigts ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les lombricaux et les interosseux (muscles intrinsèques)",
+     "correct": true,
+     "j": "Poignet-main p.81 : l'extension des interphalangiennes est produite par les muscles intrinsèques (lombricaux et interosseux) via la bandelette de l'appareil extenseur. L'extenseur commun, lui, étend la métacarpo-phalangienne."
+    },
+    {
+     "t": "L'extenseur commun des doigts (muscle extrinsèque)",
+     "j": "L'extenseur commun des doigts étend la métacarpo-phalangienne ; sur les interphalangiennes son action passe par la bandelette médiane, mise en tension par les intrinsèques."
+    },
+    {
+     "t": "Le fléchisseur superficiel des doigts (muscle extrinsèque)",
+     "j": "Le fléchisseur superficiel est antagoniste des extenseurs : il fléchit l'IPP et ne participe pas à l'extension."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle assure spécifiquement la flexion de l'articulation MCP du pouce ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Court fléchisseur du pouce",
+     "correct": true,
+     "j": "Le court fléchisseur du pouce (intrinsèque thénar) est le fléchisseur principal de la MCP du pouce ; sa chef superficielle est innervée par le médian, profonde par l'ulnaire."
+    },
+    {
+     "t": "Long fléchisseur du pouce",
+     "j": "Le LFP est le seul fléchisseur de l'IP du pouce ; il fléchit aussi MCP mais n'est pas spécifique de cette articulation."
+    },
+    {
+     "t": "Court abducteur du pouce",
+     "j": "Le court abducteur produit l'abduction et participe à l'opposition, pas la flexion MCP isolée."
+    }
+   ]
+  },
+  {
+   "q": "Au cours du mouvement combiné d'élévation du bras au-dessus de la tête, quelle est la rotation gléno-humérale obligatoire pour atteindre les 180° ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Rotation externe d'environ 45°",
+     "correct": true,
+     "j": "La rotation externe gléno-humérale d'environ 45° dégage le trochiter sous l'acromion et permet l'élévation complète à 180°."
+    },
+    {
+     "t": "Rotation interne d'environ 45°",
+     "j": "La rotation interne fait au contraire buter le trochiter sous l'acromion (conflit sous-acromial) et bloque l'élévation au-delà de 90°."
+    },
+    {
+     "t": "Rotation neutre de 0°",
+     "j": "Sans rotation externe, le trochiter reste en regard de l'acromion et limite l'élévation par conflit anatomique trochiter-acromion."
+    }
+   ]
+  },
+  {
+   "q": "Le ligament collatéral médial du coude (LCM ou ligament collatéral ulnaire) est principalement étiré par quel mouvement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Contrainte en valgus du coude",
+     "correct": true,
+     "j": "Le LCM s'oppose au valgus du coude ; il est étiré par toute contrainte en valgus (lanceur de baseball, gardien de hockey) et peut se rompre lors de mouvements répétés."
+    },
+    {
+     "t": "Contrainte en varus du coude",
+     "j": "Le varus tend le ligament collatéral radial (latéral), pas le LCM."
+    },
+    {
+     "t": "Flexion complète du coude",
+     "j": "La flexion ne met pas le LCM particulièrement en tension ; ses faisceaux antérieur et postérieur se relaient sans étirement majeur."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'un mouvement de rétraction de la clavicule (épaules tirées en arrière), quelle cinématique sterno-claviculaire se produit ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Roulement et glissement postérieurs de la surface claviculaire",
+     "correct": true,
+     "j": "La SC est une articulation en selle : en rétraction, la surface concave claviculaire roule et glisse postérieurement sur la surface convexe sternale, étirant le costo-claviculaire antérieur."
+    },
+    {
+     "t": "Roulement et glissement antérieurs de la surface claviculaire",
+     "j": "Le roulement-glissement antérieur correspond à la protraction (épaules vers l'avant), mouvement opposé à la rétraction."
+    },
+    {
+     "t": "Roulement postérieur sans glissement de la surface claviculaire",
+     "j": "Un roulement isolé sans glissement conduirait à une subluxation ; le glissement concomitant est obligatoire à la SC."
+    }
+   ]
+  },
+  {
+   "q": "Quel est le mouvement principal de la première rangée du carpe lors d'une flexion combinée à une déviation ulnaire (dart throw motion) ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Mouvement prédominant à l'étage médiocarpien",
+     "correct": true,
+     "j": "Le dart throw motion (flexion + DU ou extension + DR) se produit principalement à l'étage médiocarpien, la radio-carpienne restant relativement stable ; geste fonctionnel naturel."
+    },
+    {
+     "t": "Mouvement prédominant à l'étage radio-carpien",
+     "j": "La radio-carpienne reste relativement stable durant le dart throw ; c'est la médiocarpienne qui assure l'essentiel du mouvement."
+    },
+    {
+     "t": "Mouvement prédominant à l'étage radio-ulnaire distal",
+     "j": "La radio-ulnaire distale gère la prono-supination de l'avant-bras, pas la trajectoire du dart throw, qui est intracarpienne."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une chute sur la main avec poignet en extension forcée, quelle articulation interphalangienne est typiquement luxée vers l'arrière ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'interphalangienne proximale (IPP) en dorsal",
+     "correct": true,
+     "j": "L'IPP est la plus fréquemment luxée des doigts, le plus souvent en dorsal lors d'une hyperextension forcée (sport de balle, chute), avec rupture de la plaque palmaire."
+    },
+    {
+     "t": "L'interphalangienne distale (IPD) en palmaire",
+     "j": "Les luxations IPD sont rares (articulation plus petite et mieux protégée) ; en dorsal le plus souvent quand elles surviennent."
+    },
+    {
+     "t": "La métacarpo-phalangienne en latéral",
+     "j": "Les luxations MCP sont plus rares et obéissent à un mécanisme différent ; ce n'est pas l'articulation interphalangienne visée par la question."
+    }
+   ]
+  },
+  {
+   "q": "Lors du test de Phalen (poignet en flexion maximale maintenue 60 secondes), une reproduction des paresthésies des trois premiers doigts évoque :",
+   "c": 3,
+   "options": [
+    {
+     "t": "Syndrome du canal carpien (compression du nerf médian)",
+     "correct": true,
+     "j": "La flexion forcée du poignet diminue le diamètre du canal carpien et comprime le nerf médian ; la reproduction des paresthésies dans le territoire médian (D1-D2-D3 + moitié D4) signe le diagnostic."
+    },
+    {
+     "t": "Syndrome du canal de Guyon",
+     "j": "Le canal de Guyon contient le nerf ulnaire ; les paresthésies seraient sur D5 et la moitié de D4, pas sur D1-D3."
+    },
+    {
+     "t": "Compression du nerf radial",
+     "j": "Le nerf radial donnerait des paresthésies du versant dorsal, pas du versant palmaire des trois premiers doigts."
+    }
+   ]
+  },
+  {
+   "q": "Parmi les principaux rotateurs internes de l'articulation gléno-humérale, on trouve :",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le sous-scapulaire, le grand rond et le grand pectoral",
+     "correct": true,
+     "j": "Sous-scapulaire, grand rond et grand pectoral (avec le grand dorsal) sont les rotateurs médiaux puissants de l'épaule."
+    },
+    {
+     "t": "Le sous-scapulaire, le grand dorsal et l'infra-épineux",
+     "j": "Sous-scapulaire et grand dorsal sont bien rotateurs internes, mais l'infra-épineux est un rotateur EXTERNE, ce qui invalide la combinaison."
+    },
+    {
+     "t": "Le grand pectoral, le grand rond et le deltoïde postérieur",
+     "j": "Grand pectoral et grand rond sont rotateurs internes, mais le deltoïde postérieur est rotateur EXTERNE et extenseur, ce qui invalide la combinaison."
+    }
+   ]
+  },
+  {
+   "q": "Lors du mouvement de sonnette interne de la scapula :",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le bord inférieur se rapproche de la colonne, grâce au rhomboïde",
+     "correct": true,
+     "j": "La sonnette interne (bascule médiale) abaisse la glène ; rhomboïdes et élévateur en sont moteurs."
+    },
+    {
+     "t": "La glène est orientée vers le haut, grâce au dentelé antérieur",
+     "j": "Cela décrit la sonnette EXTERNE (dentelé antérieur)."
+    },
+    {
+     "t": "L'angle supéro-interne se déplace en médial grâce au trapèze",
+     "j": "Le trapèze participe à la sonnette externe."
+    }
+   ]
+  },
+  {
+   "q": "Concernant l'abduction horizontale de l'épaule, quelle est la réponse correcte ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le mouvement associe une abduction de l'humérus et une adduction (rétraction) de la scapula",
+     "correct": true,
+     "j": "L'abduction horizontale (bras vers l'arrière) s'accompagne d'une adduction scapulaire."
+    },
+    {
+     "t": "La limite est la tension du labrum et de la capsule postérieure",
+     "j": "C'est l'adduction horizontale qui est limitée par les structures postérieures."
+    },
+    {
+     "t": "Les moteurs sont les fibres moyennes du deltoïde et le supra-épineux",
+     "j": "Ce sont les moteurs de l'abduction frontale, non horizontale."
+    }
+   ]
+  },
+  {
+   "q": "Quelle affirmation est correcte lors de l'antéposition (protraction) de la ceinture scapulaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "La scapula effectue une abduction et glisse en avant sur le thorax",
+     "correct": true,
+     "j": "L'antéposition s'accompagne d'une abduction (protraction) scapulaire, la scapula s'éloignant de la colonne."
+    },
+    {
+     "t": "La cavité glénoïde se dirige vers l'arrière et en dedans",
+     "j": "En antéposition la glène se porte plutôt en avant et latéralement, non en arrière."
+    },
+    {
+     "t": "L'angle scapulo-claviculaire s'ouvre et la scapula recule",
+     "j": "En antéposition cet angle se ferme et la scapula avance, c'est la rétroposition qui le fait reculer."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez la bonne réponse sur les articulations de la ceinture scapulaire :",
+   "c": 1,
+   "options": [
+    {
+     "t": "L'articulation omo-serrato-thoracique est une syssarcose, partie de l'unité fonctionnelle scapulo-thoracique",
+     "correct": true,
+     "j": "La scapulo-thoracique est une syssarcose (glissement musculaire), fausse articulation fonctionnelle."
+    },
+    {
+     "t": "L'acromio-claviculaire est en selle, à 1 degré de liberté (abd-add)",
+     "j": "C'est une arthrodie (plane), à plusieurs micro-mouvements."
+    },
+    {
+     "t": "L'articulation sous-deltoïdienne a une fonction principale de stabilité",
+     "j": "Le plan de glissement sous-deltoïdien sert à la mobilité, non à la stabilité primaire."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles maintiennent la tête humérale en place pour assurer une bonne congruence articulaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le supra-épineux, l'infra-épineux, le petit rond et le sous-scapulaire",
+     "correct": true,
+     "j": "Ces quatre muscles forment la coiffe des rotateurs qui recentre et coapte la tête humérale dans la glène."
+    },
+    {
+     "t": "Le supra-épineux, l'infra-épineux, le petit rond et le grand rond",
+     "j": "Supra-épineux, infra-épineux et petit rond appartiennent à la coiffe, mais le coaptateur antérieur est le sous-scapulaire et non le grand rond, simple mobilisateur n'appartenant pas à la coiffe."
+    },
+    {
+     "t": "Le supra-épineux, le sous-scapulaire, le petit rond et le deltoïde",
+     "j": "Trois de ces muscles sont des coaptateurs de la coiffe, mais l'infra-épineux y est remplacé à tort par le deltoïde, qui mobilise le bras sans recentrer la tête humérale."
+    }
+   ]
+  },
+  {
+   "q": "Si le patient tire sur un élastique en fléchissant le coude, paume dirigée vers le sol, quel muscle renforce-t-il principalement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Brachio-radial",
+     "correct": true,
+     "j": "En pronation (paume vers le sol), le brachio-radial devient le fléchisseur principal."
+    },
+    {
+     "t": "Biceps brachial",
+     "j": "Le biceps est moins efficace en pronation (il est supinateur)."
+    },
+    {
+     "t": "Brachial antérieur",
+     "j": "Fléchisseur constant, mais moins sollicité spécifiquement en pronation que le brachio-radial."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la bonne réponse concernant la physiologie articulaire du coude ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "L'articulation radio-ulnaire supérieure est de type trochoïde et permet la prono-supination",
+     "correct": true,
+     "j": "La radio-ulnaire proximale (trochoïde) assure la rotation du radius (prono-supination)."
+    },
+    {
+     "t": "L'huméro-ulnaire est condylienne et permet la prono-supination et la flexo-extension",
+     "j": "Elle est trochléenne et n'autorise que la flexo-extension."
+    },
+    {
+     "t": "L'huméro-radiale est une trochlée permettant la latéralité",
+     "j": "Elle est condylienne ; pas de latéralité au coude."
+    }
+   ]
+  },
+  {
+   "q": "Quel élément est un facteur limitant de la supination ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ligament carré (de Denucé)",
+     "correct": true,
+     "j": "Le ligament carré (de Denucé) relie le col radial à l'ulna ; ses fibres antérieures freinent la supination à la radio-ulnaire proximale."
+    },
+    {
+     "t": "Ligament annulaire du radius",
+     "j": "Le ligament annulaire maintient la tête radiale contre l'incisure radiale mais autorise sa rotation ; il ne freine pas la supination."
+    },
+    {
+     "t": "Membrane interosseuse de l'avant-bras",
+     "j": "La membrane interosseuse transmet les contraintes et limite l'écartement radio-ulnaire ; elle n'est pas le frein principal de la supination."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez la bonne réponse concernant la pronation de l'avant-bras :",
+   "c": 2,
+   "options": [
+    {
+     "t": "Lors de la pronation, la tête radiale tourne autour de son axe",
+     "correct": true,
+     "j": "La pronation = rotation du radius (tête radiale dans le ligament annulaire) qui croise l'ulna distalement."
+    },
+    {
+     "t": "Les pronateurs proximaux sont le rond pronateur et l'anconé",
+     "j": "L'anconé est extenseur, non pronateur."
+    },
+    {
+     "t": "Lors de la supination, le radius croise distalement l'ulna",
+     "j": "C'est en PRONATION que le radius croise l'ulna."
+    }
+   ]
+  },
+  {
+   "q": "À partir de la position anatomique, lors de la flexion du poignet, quels mouvements observe-t-on ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le lunatum et le capitatum roulent vers l'avant et glissent vers l'arrière",
+     "correct": true,
+     "j": "Surfaces convexes (rangée proximale puis tête du capitatum) sur surfaces concaves : le roulement se fait dans le sens du mouvement (palmaire) et le glissement en sens opposé (dorsal)."
+    },
+    {
+     "t": "Le scaphoïde roule vers l'avant tandis que le lunatum glisse vers l'avant",
+     "j": "Toutes les pièces convexes du carpe roulent et glissent en sens opposés ; un glissement antérieur du lunatum correspondrait à l'extension, pas à la flexion."
+    },
+    {
+     "t": "Le lunatum roule vers l'avant et glisse vers l'avant, le capitatum restant fixe",
+     "j": "Pour une surface convexe sur concave, roulement et glissement sont opposés ; et le capitatum participe au mouvement, il ne reste pas fixe."
+    }
+   ]
+  },
+  {
+   "q": "Signalez la bonne réponse concernant les muscles moteurs du poignet et de la main :",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les lombricaux font la flexion métacarpo-phalangienne et l'extension interphalangienne",
+     "correct": true,
+     "j": "Action caractéristique des lombricaux (flexion MCP + extension IP)."
+    },
+    {
+     "t": "Les interosseux dorsaux font la flexion MCP et l'adduction des doigts",
+     "j": "Les interosseux dorsaux ABDUCTENT les doigts."
+    },
+    {
+     "t": "Le long palmaire fait une flexion du poignet et une déviation ulnaire",
+     "j": "Le long palmaire est médian (pas de déviation ulnaire spécifique)."
+    }
+   ]
+  },
+  {
+   "q": "Concernant la physiologie articulaire du poignet, dans la déviation radiale, il est vrai que :",
+   "c": 3,
+   "options": [
+    {
+     "t": "La sensation finale est élastique, liée aux extenseur et fléchisseur ulnaires du carpe",
+     "correct": true,
+     "j": "La déviation radiale (de faible amplitude) est freinée élastiquement par les muscles du bord ulnaire."
+    },
+    {
+     "t": "La sensation est semi-rigide, due aux ligaments dorsaux et collatéraux radiaux",
+     "j": "La fin de course radiale est plutôt élastique/osseuse (scaphoïde-styloïde)."
+    },
+    {
+     "t": "La sensation est une butée osseuse entre le triquétrum et le ligament triangulaire",
+     "j": "Cela concerne la déviation ULNAIRE."
+    }
+   ]
+  },
+  {
+   "q": "Signalez la bonne réponse concernant le trajet des nerfs au poignet :",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le nerf médian chemine dans le canal carpien, sous le rétinaculum des fléchisseurs",
+     "correct": true,
+     "j": "Le nerf médian traverse le canal carpien en passant sous le rétinaculum des fléchisseurs."
+    },
+    {
+     "t": "Le nerf ulnaire chemine dans le canal carpien, en dehors de l'artère ulnaire",
+     "j": "Le nerf ulnaire passe par le canal de Guyon (avec l'artère ulnaire), non par le canal carpien."
+    },
+    {
+     "t": "Le nerf radial chemine dans le canal de Guyon, au bord ulnaire du poignet",
+     "j": "Le canal de Guyon livre passage au nerf ulnaire ; le rameau du radial reste superficiel au bord radial."
+    }
+   ]
+  },
+  {
+   "q": "Concernant l'articulation trapézo-métacarpienne du pouce :",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le mouvement d'opposition comprend flexion + abduction + rotation médiale",
+     "correct": true,
+     "j": "L'opposition combine flexion, abduction et rotation interne du 1er métacarpien."
+    },
+    {
+     "t": "C'est une arthrodie permettant des glissements dans les 3 plans",
+     "j": "C'est une articulation EN SELLE (toroïde)."
+    },
+    {
+     "t": "Lors de l'abduction, roulement et glissement du métacarpien se font dans le même sens",
+     "j": "Surfaces en selle : roulement et glissement en sens opposés selon le plan."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une extension passive du poignet, une limite semi-rigide est due à :",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les ligaments radio-carpiens palmaires et la capsule antérieure",
+     "correct": true,
+     "j": "La fin de course en extension est freinée par les structures ligamentaires et capsulaires palmaires, donnant une sensation semi-rigide."
+    },
+    {
+     "t": "Les muscles long palmaire et fléchisseur radial du carpe",
+     "j": "Un frein musculaire donnerait une sensation élastique, non semi-rigide."
+    },
+    {
+     "t": "La butée osseuse entre le capitatum et le bord dorsal du radius",
+     "j": "Une butée osseuse donnerait une sensation dure, non semi-rigide."
+    }
+   ]
+  },
+  {
+   "q": "Quel mouvement claviculaire, réalisé dans le plan frontal, est limité par le ligament costo-claviculaire et le muscle sous-clavier ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "L'élévation",
+     "correct": true,
+     "j": "L'élévation de la clavicule est freinée par le ligament costo-claviculaire et le sous-clavier."
+    },
+    {
+     "t": "L'antéposition",
+     "j": "Mouvement du plan transversal, non frontal."
+    },
+    {
+     "t": "L'abaissement",
+     "j": "L'abaissement est limité par d'autres structures (contact 1re côte)."
+    }
+   ]
+  },
+  {
+   "q": "Concernant le deuxième temps de l'abduction de l'épaule (≈ 60-120°), indiquez la bonne réponse :",
+   "c": 1,
+   "options": [
+    {
+     "t": "L'omoplate bascule en sonnette externe",
+     "correct": true,
+     "j": "Le 2e temps fait intervenir la sonnette externe de la scapula, sous l'action du trapèze et du dentelé antérieur."
+    },
+    {
+     "t": "L'omoplate bascule en sonnette interne",
+     "j": "La sonnette interne ramène la glène vers le bas ; le 2e temps de l'abduction requiert au contraire une sonnette externe orientant la glène vers le haut."
+    },
+    {
+     "t": "La scapula reste fixe, seule la gléno-humérale poursuit le mouvement",
+     "j": "La gléno-humérale assure surtout le 1er temps ; au 2e temps c'est la bascule scapulaire (rythme scapulo-huméral) qui prend le relais, la scapula n'étant pas fixe."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez les principaux moteurs de la rotation interne de l'épaule :",
+   "c": 1,
+   "options": [
+    {
+     "t": "Grand pectoral et grand rond",
+     "correct": true,
+     "j": "Grand pectoral, grand rond (avec sous-scapulaire et grand dorsal) sont les rotateurs internes."
+    },
+    {
+     "t": "Supra-épineux et sous-scapulaire",
+     "j": "Le supra-épineux est abducteur, pas rotateur interne."
+    },
+    {
+     "t": "Infra-épineux et petit rond",
+     "j": "Ce sont des rotateurs EXTERNES."
+    }
+   ]
+  },
+  {
+   "q": "Concernant la rétroposition (rétraction) de l'unité scapulo-thoracique, indiquez la bonne réponse :",
+   "c": 1,
+   "options": [
+    {
+     "t": "La scapula s'adducte et se rapproche du rachis",
+     "correct": true,
+     "j": "La rétroposition correspond à l'adduction (rétraction) de la scapula, son bord médial se rapprochant du rachis."
+    },
+    {
+     "t": "La scapula s'abducte et s'éloigne du rachis",
+     "j": "Cela définit l'antéposition (protraction), mouvement inverse de la rétroposition."
+    },
+    {
+     "t": "La scapula sonne (bascule) et la glène regarde vers le haut",
+     "j": "Cela décrit la sonnette latérale, qui élève la glène, et non la rétroposition."
+    }
+   ]
+  },
+  {
+   "q": "Concernant la physiologie articulaire de l'extension du coude, indiquez la bonne réponse :",
+   "c": 2,
+   "options": [
+    {
+     "t": "L'olécrâne bute dans la fosse olécrânienne, donnant un arrêt dur",
+     "correct": true,
+     "j": "L'extension est limitée par la butée osseuse du bec de l'olécrâne dans sa fosse, d'où une sensation de fin de course dure."
+    },
+    {
+     "t": "Le processus coronoïde bute dans la fosse coronoïdienne, donnant un arrêt dur",
+     "j": "C'est la flexion, et non l'extension, qui est limitée par l'impact du coronoïde dans sa fosse."
+    },
+    {
+     "t": "La tête radiale bute dans la fosse radiale, donnant un arrêt dur",
+     "j": "La fosse radiale reçoit la tête radiale en flexion, non en extension du coude."
+    }
+   ]
+  },
+  {
+   "q": "Concernant la radio-ulnaire proximale, le mouvement est limité par :",
+   "c": 2,
+   "options": [
+    {
+     "t": "La tension du ligament carré de Denucé",
+     "correct": true,
+     "j": "Le ligament carré (de Denucé) freine et limite la rotation à la radio-ulnaire proximale."
+    },
+    {
+     "t": "La tension du ligament annulaire radial",
+     "j": "Le ligament annulaire maintient la tête radiale mais ne freine pas la rotation, qu'il guide au contraire."
+    },
+    {
+     "t": "La tension de la corde oblique de la membrane interosseuse",
+     "j": "La corde oblique participe à la stabilité longitudinale, mais ne limite pas la rotation à la radio-ulnaire proximale."
+    }
+   ]
+  },
+  {
+   "q": "Concernant la flexion du poignet, il est vrai que :",
+   "c": 3,
+   "options": [
+    {
+     "t": "À rayon fixe, le lunatum et le capitatum roulent en avant et glissent en arrière",
+     "correct": true,
+     "j": "Les os convexes du carpe roulent dans le sens du mouvement (palmaire) et glissent en sens opposé (dorsal)."
+    },
+    {
+     "t": "À rayon fixe, le lunatum et le capitatum roulent en arrière et glissent en avant",
+     "j": "Le sens est inversé : en flexion le roulement est palmaire et le glissement dorsal pour des surfaces convexes."
+    },
+    {
+     "t": "Le mouvement est freiné par les ligaments radio-carpiens palmaires",
+     "j": "En flexion ce sont les ligaments radio-carpiens dorsaux qui se tendent et limitent le mouvement."
+    }
+   ]
+  },
+  {
+   "q": "La sensation de limite élastique dans le mouvement d'extension du poignet est déterminée par :",
+   "c": 3,
+   "options": [
+    {
+     "t": "La mise en tension des muscles fléchisseurs de l'avant-bras",
+     "correct": true,
+     "j": "En extension, l'étirement des fléchisseurs antébrachiaux donne une fin de course élastique."
+    },
+    {
+     "t": "La mise en tension des ligaments radio-carpiens palmaires",
+     "j": "Une butée ligamentaire donnerait une fin de course semi-rigide, et non élastique."
+    },
+    {
+     "t": "La mise en tension globale de la capsule articulaire",
+     "j": "La capsule donne une fin de course ferme, plus rigide que la sensation élastique d'origine musculaire."
+    }
+   ]
+  },
+  {
+   "q": "Concernant la physiologie du poignet, dans l'inclinaison ulnaire, il est vrai que :",
+   "c": 3,
+   "options": [
+    {
+     "t": "À rayon fixe, la rangée proximale glisse vers le radial pendant que le carpe s'incline en ulnaire",
+     "correct": true,
+     "j": "En inclinaison ulnaire, la rangée proximale (scaphoïde-lunatum-triquétrum) glisse radialement, en sens opposé au mouvement."
+    },
+    {
+     "t": "À rayon fixe, la rangée proximale glisse vers l'ulnaire pendant que le carpe s'incline en ulnaire",
+     "j": "Le sens est inversé : le glissement de la rangée proximale se fait vers le radial, opposé à l'inclinaison ulnaire."
+    },
+    {
+     "t": "À rayon fixe, l'inclinaison ulnaire est freinée par le plan ligamentaire collatéral ulnaire",
+     "j": "L'inclinaison ulnaire est freinée par le plan collatéral radial, qui se tend du côté opposé au mouvement."
+    }
+   ]
+  },
+  {
+   "q": "Quel est le type articulaire de l'articulation sterno-claviculaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Articulation en selle",
+     "correct": true,
+     "j": "Le cours décrit l'articulation sterno-claviculaire comme une articulation en selle, avec un diamètre concave-convexe et un diamètre convexe-concave."
+    },
+    {
+     "t": "Articulation plate (arthrodie)",
+     "j": "C'est l'articulation acromio-claviculaire qui a tendance à être plate, pas la sterno-claviculaire."
+    },
+    {
+     "t": "Articulation sphéroïde (énarthrose)",
+     "j": "Aucune articulation en selle n'est sphéroïde ; la gléno-humérale, elle, représente 1/3 d'une sphère."
+    }
+   ]
+  },
+  {
+   "q": "Lors de l'élévation de la clavicule à l'articulation sterno-claviculaire, quelle arthrocinématique se produit ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Roulement supérieur et glissement inférieur, avec étirement du ligament costo-claviculaire",
+     "correct": true,
+     "j": "Le cours indique qu'à l'élévation la clavicule roule vers le haut et glisse vers le bas, étirant le ligament costo-claviculaire."
+    },
+    {
+     "t": "Roulement inférieur et glissement supérieur, avec étirement de la capsule supérieure",
+     "j": "Ceci décrit la descente claviculaire, qui étire la capsule supérieure et le ligament interclaviculaire."
+    },
+    {
+     "t": "Roulement et glissement antérieurs, avec étirement du fascicule postérieur",
+     "j": "Ceci correspond à la protraction claviculaire et non à l'élévation."
+    }
+   ]
+  },
+  {
+   "q": "Quel mouvement de la clavicule constitue la position de blocage (verrouillage) de l'articulation sterno-claviculaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "La rotation postérieure complète de la clavicule",
+     "correct": true,
+     "j": "Le cours précise que la rotation postérieure complète est considérée comme une position de blocage de l'articulation sterno-claviculaire."
+    },
+    {
+     "t": "La protraction maximale de la clavicule",
+     "j": "La protraction étire le fascicule postérieur du ligament costo-claviculaire mais n'est pas décrite comme une position de blocage."
+    },
+    {
+     "t": "L'élévation maximale de la clavicule",
+     "j": "L'élévation étire le ligament costo-claviculaire mais ne correspond pas à la position de blocage articulaire."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles assurent principalement l'abaissement (descente) de la scapula à l'articulation scapulo-thoracique ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Trapèze inférieur, grand dorsal, sous-clavier et petit pectoral",
+     "correct": true,
+     "j": "Le cours liste pour la descente le trapèze inférieur, le grand dorsal, le sous-clavier et le petit pectoral."
+    },
+    {
+     "t": "Trapèze supérieur, angulaire de l'omoplate et rhomboïdes",
+     "j": "Ces muscles sont moteurs de l'élévation de la scapula, pas de la descente."
+    },
+    {
+     "t": "Dentelé antérieur, petit pectoral et sous-clavier",
+     "j": "Cette combinaison correspond aux moteurs de la protraction de la scapula et non de la descente."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quel angle la tête humérale forme-t-elle avec le corps de l'humérus ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Environ 135°",
+     "correct": true,
+     "j": "Le cours indique que l'axe de la tête humérale forme un angle de 135° avec le corps de l'humérus."
+    },
+    {
+     "t": "Environ 120°",
+     "j": "120° correspond à la part de l'élévation assurée par l'articulation gléno-humérale dans le rythme scapulo-huméral, pas à l'angle d'inclinaison."
+    },
+    {
+     "t": "Environ 60°",
+     "j": "60° correspond à la contribution scapulo-thoracique à l'élévation, pas à l'angle cervico-diaphysaire de l'humérus."
+    }
+   ]
+  },
+  {
+   "q": "D'après le cours, quelle structure capsulo-ligamentaire est principalement resserrée lors de la flexion de l'articulation gléno-humérale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "La capsule postérieure",
+     "correct": true,
+     "j": "Le cours précise que lors de la flexion la capsule postérieure est surtout resserrée, et qu'une rotation externe est nécessaire pour compléter l'amplitude."
+    },
+    {
+     "t": "La capsule antérieure",
+     "j": "La capsule antérieure est davantage sollicitée en extension et en rotation externe, pas en flexion."
+    },
+    {
+     "t": "La poche axillaire (récessus inférieur)",
+     "j": "La poche axillaire se déploie lors de l'abduction pour permettre le mouvement vers le bas, pas spécifiquement en flexion."
+    }
+   ]
+  },
+  {
+   "q": "Quel ensemble musculaire est moteur de la rotation externe de l'articulation gléno-humérale selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Infra-épineux, petit rond et supra-épineux",
+     "correct": true,
+     "j": "Le cours liste pour la rotation externe l'infra-épineux, le petit rond, le supra-épineux, ainsi que les rhomboïdes et le trapèze."
+    },
+    {
+     "t": "Sub-scapulaire, grand rond et grand dorsal",
+     "j": "Ces muscles sont moteurs de la rotation interne et non de la rotation externe."
+    },
+    {
+     "t": "Grand et petit pectoraux et dentelé antérieur",
+     "j": "Ces muscles participent à la rotation interne de l'épaule selon le cours, pas à la rotation externe."
+    }
+   ]
+  },
+  {
+   "q": "Quel nerf, particulièrement exposé, assure l'innervation du muscle dentelé antérieur ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le nerf long thoracique",
+     "correct": true,
+     "j": "Le cours associe spécifiquement le nerf long thoracique au muscle dentelé antérieur."
+    },
+    {
+     "t": "Le nerf radial du membre supérieur",
+     "j": "Le nerf radial est vulnérable lors d'un traumatisme axillaire et des fractures du col huméral, mais n'innerve pas le dentelé antérieur."
+    },
+    {
+     "t": "Le nerf médian du membre supérieur",
+     "j": "Le nerf médian fait partie des trois nerfs exposés au traumatisme axillaire, mais il n'innerve pas le dentelé antérieur."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles assurent la pronation de l'avant-bras ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Rond pronateur et pronateur carré",
+     "correct": true,
+     "j": "Le cours cite le rond pronateur et le pronateur carré comme moteurs de la pronation."
+    },
+    {
+     "t": "Rond pronateur et supinateur",
+     "j": "Le supinateur est un moteur de la supination, pas de la pronation."
+    },
+    {
+     "t": "Brachioradial et pronateur carré",
+     "j": "Le brachioradial est cité parmi les moteurs de la supination, non de la pronation."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la flexion passive du coude selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "160°",
+     "correct": true,
+     "j": "Le cours indique une flexion active de 145° et une flexion passive de 160°."
+    },
+    {
+     "t": "145°",
+     "j": "145° correspond à la flexion active, pas à la flexion passive."
+    },
+    {
+     "t": "90°",
+     "j": "90° est la position neutre de référence pour la prono-supination, pas la flexion passive maximale."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude normale de la pronation de l'avant-bras selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "85°",
+     "correct": true,
+     "j": "Le cours fixe l'amplitude de la pronation à 85°."
+    },
+    {
+     "t": "90°",
+     "j": "90° est l'amplitude de la supination, pas de la pronation."
+    },
+    {
+     "t": "45°",
+     "j": "Aucune de ces amplitudes n'est de 45° ; la pronation atteint 85°."
+    }
+   ]
+  },
+  {
+   "q": "Dans la pronosupination, quel os reste le guide ou l'axe du déplacement de l'avant-bras et de la main ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "L'ulna",
+     "correct": true,
+     "j": "Le cours précise que l'ulna reste un guide ou un axe tandis que le radius tourne autour."
+    },
+    {
+     "t": "Le radius",
+     "j": "Le radius assure la précision du mouvement en tournant autour de l'ulna ; il n'est pas l'axe fixe."
+    },
+    {
+     "t": "L'humérus",
+     "j": "L'humérus n'intervient pas comme axe de la prono-supination, qui se fait entre radius et ulna."
+    }
+   ]
+  },
+  {
+   "q": "À quel type de levier mécanique correspond le coude selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Levier du 3e genre",
+     "correct": true,
+     "j": "Le cours décrit un levier du 3e genre, favorisant l'amplitude et la vitesse au détriment de la puissance."
+    },
+    {
+     "t": "Levier du 1er genre",
+     "j": "Le cours qualifie le coude de levier du 3e genre, pas du 1er genre."
+    },
+    {
+     "t": "Levier du 2e genre",
+     "j": "Le cours qualifie le coude de levier du 3e genre, pas du 2e genre."
+    }
+   ]
+  },
+  {
+   "q": "Au niveau de quelle articulation s'effectue principalement le mouvement de flexion du coude ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "L'articulation huméro-ulnaire",
+     "correct": true,
+     "j": "Le cours indique que la flexion s'effectue principalement à l'articulation huméro-ulnaire et partiellement à l'huméro-radiale."
+    },
+    {
+     "t": "L'articulation huméro-radiale",
+     "j": "L'articulation huméro-radiale ne participe que partiellement à la flexion, qui se fait surtout en huméro-ulnaire."
+    },
+    {
+     "t": "L'articulation radio-ulnaire proximale",
+     "j": "La radio-ulnaire proximale assure la prono-supination, pas la flexion du coude."
+    }
+   ]
+  },
+  {
+   "q": "Quel élément amortit le choc du radius sur l'ulna lors de la limite de la pronation ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les muscles fléchisseurs",
+     "correct": true,
+     "j": "Le cours indique que le choc du radius sur l'ulna en fin de pronation est amorti par les muscles fléchisseurs."
+    },
+    {
+     "t": "Les muscles supinateurs",
+     "j": "Les supinateurs limitent la pronation par leur tension, mais ce sont les fléchisseurs qui amortissent le choc osseux."
+    },
+    {
+     "t": "Le ligament annulaire",
+     "j": "Le ligament annulaire stabilise la tête radiale ; il n'amortit pas le choc du radius sur l'ulna en pronation."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle stabilise la tête radiale et empêche sa luxation en haut et en avant lors de la traction du biceps ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le ligament annulaire",
+     "correct": true,
+     "j": "Le cours indique que le ligament annulaire empêche la luxation de la tête radiale en haut et en avant."
+    },
+    {
+     "t": "Le ligament carré",
+     "j": "Le ligament carré intervient dans les limites de la prono-supination, non dans la retenue de la tête radiale en flexion."
+    },
+    {
+     "t": "Le ligament collatéral ulnaire",
+     "j": "Le ligament collatéral ulnaire participe à la coaptation en extension, pas à la retenue de la tête radiale en avant."
+    }
+   ]
+  },
+  {
+   "q": "Quel os du carpe s'articule avec le radius pour former, avec le lunatum, l'articulation radio-carpienne ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le scaphoïde",
+     "correct": true,
+     "j": "Le scaphoïde s'articule avec le radius ; le cours rappelle « n'oublions pas le scaphoïde avec le radius » au niveau radio-carpien."
+    },
+    {
+     "t": "Le triquetrum",
+     "j": "Le triquetrum appartient à la première rangée mais s'articule surtout avec le disque et le pisiforme, pas directement avec le radius."
+    },
+    {
+     "t": "Le capitatum",
+     "j": "Le capitatum est un os de la deuxième rangée, central à l'articulation médio-carpienne, et ne s'articule pas avec le radius."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude physiologique maximale de la déviation ulnaire du poignet selon le cours ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "45°",
+     "correct": true,
+     "j": "Le cours indique une déviation ulnaire de 45°, plus importante en supination qu'en pronation."
+    },
+    {
+     "t": "15°",
+     "j": "15° correspond à la déviation radiale, plus limitée que la déviation ulnaire."
+    },
+    {
+     "t": "60°",
+     "j": "60° est l'AMA globale des deux déviations réunies, pas celle de la seule déviation ulnaire."
+    }
+   ]
+  },
+  {
+   "q": "À quel type articulaire correspond l'articulation médio-carpienne ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Double condylienne",
+     "correct": true,
+     "j": "Le cours classe l'articulation médio-carpienne comme double condylienne."
+    },
+    {
+     "t": "Condylienne simple",
+     "j": "La radio-carpienne est condylienne simple ; la médio-carpienne est double condylienne."
+    },
+    {
+     "t": "En selle (emboîtement réciproque)",
+     "j": "Le type en selle est réservé à la trapézo-métacarpienne du pouce, pas à la médio-carpienne."
+    }
+   ]
+  },
+  {
+   "q": "Lors de la deuxième phase de l'opposition du pouce, quel mouvement du 1er métacarpien se produit après l'abduction ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Flexion et rotation médiale",
+     "correct": true,
+     "j": "Le cours décrit en 2e phase une flexion et rotation médiale du 1er métacarpien de 45 à 60°, favorisée par le ligament oblique postérieur."
+    },
+    {
+     "t": "Extension et rotation latérale",
+     "j": "L'extension et la rotation latérale caractérisent le repositionnement, pas l'opposition."
+    },
+    {
+     "t": "Adduction pure sans rotation",
+     "j": "L'adduction seule ne produit pas l'opposition ; celle-ci exige une rotation médiale associée à la flexion."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle intrinsèque de l'éminence thénar n'effectue que l'adduction et la flexion du pouce, sans composante d'opposition propre ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'adducteur du pouce",
+     "correct": true,
+     "j": "Le cours présente l'adducteur du pouce à deux têtes comme effectuant l'adduction et la flexion, à part des muscles à composante d'opposition."
+    },
+    {
+     "t": "Le court abducteur du pouce",
+     "j": "Le court abducteur fait partie des muscles thénariens possédant une composante d'opposition."
+    },
+    {
+     "t": "L'opposant du pouce",
+     "j": "L'opposant du pouce est par définition un muscle d'opposition, ce qui ne correspond pas à l'énoncé."
+    }
+   ]
+  },
+  {
+   "q": "Quel nerf innerve les muscles de l'éminence thénar ainsi que les deux premiers lombricaux ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le nerf médian",
+     "correct": true,
+     "j": "Le cours précise que le nerf médian innerve les muscles de l'éminence thénar et les deux premiers lombricaux."
+    },
+    {
+     "t": "Le nerf ulnaire (cubital)",
+     "j": "Le nerf cubital innerve surtout les muscles hypothénariens, pas l'éminence thénar ni les deux premiers lombricaux."
+    },
+    {
+     "t": "Le nerf radial",
+     "j": "Le nerf radial innerve les extenseurs de la face dorsale, et non les muscles thénariens."
+    }
+   ]
+  },
+  {
+   "q": "Au niveau de l'articulation carpo-métacarpienne, quel métacarpien est le plus mobile en flexion (20-25°) ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le 5e métacarpien (avec l'hamatum)",
+     "correct": true,
+     "j": "Le cours attribue au 5e métacarpien, articulé avec l'hamatum, une mobilité de 20-25° de flexion."
+    },
+    {
+     "t": "Le 4e métacarpien (avec capitatum et hamatum)",
+     "j": "Le 4e métacarpien n'a qu'environ 10° de flexion, moins que le 5e."
+    },
+    {
+     "t": "Le 2e métacarpien (avec le trapèze)",
+     "j": "Le 2e métacarpien forme une articulation presque rigide, c'est l'un des moins mobiles."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle est le seul fléchisseur de l'articulation interphalangienne du pouce ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le long fléchisseur du pouce",
+     "correct": true,
+     "j": "Le cours désigne le long fléchisseur du pouce comme seul fléchisseur de l'interphalangienne du pouce."
+    },
+    {
+     "t": "Le court fléchisseur du pouce",
+     "j": "Le court fléchisseur du pouce agit sur la métacarpo-phalangienne, pas sur l'interphalangienne."
+    },
+    {
+     "t": "Le long extenseur du pouce",
+     "j": "Le long extenseur étend les articulations du pouce et assure le repositionnement, il n'est pas fléchisseur."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quelle fraction de sphère représente la surface articulaire de la tête humérale à l'articulation gléno-humérale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Un tiers de sphère",
+     "correct": true,
+     "j": "Le cours indique que la tête humérale représente 1/3 d'une sphère."
+    },
+    {
+     "t": "Une demi-sphère",
+     "j": "La demi-sphère n'est pas la proportion retenue par le cours pour la tête humérale."
+    },
+    {
+     "t": "Un quart de sphère",
+     "j": "Le quart de sphère ne correspond pas à la description du cours, qui retient le tiers."
+    }
+   ]
+  },
+  {
+   "q": "D'après le cours, où le cartilage de la cavité glénoïde est-il le plus épais ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "En bas plutôt qu'en haut",
+     "correct": true,
+     "j": "Le cours précise que le cartilage glénoïdien est plus épais en bas qu'en haut."
+    },
+    {
+     "t": "En haut plutôt qu'en bas",
+     "j": "L'inverse est décrit : le cartilage est plus épais en bas, pas en haut."
+    },
+    {
+     "t": "En avant plutôt qu'en arrière",
+     "j": "Le cours oppose le haut et le bas pour l'épaisseur du cartilage, non l'avant et l'arrière."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, la concavité de la cavité glénoïde est plus profonde dans quelle région ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Dans sa partie postérieure",
+     "correct": true,
+     "j": "Le cours indique que la concavité est plus profonde en postérieure sur toute la longueur."
+    },
+    {
+     "t": "Dans sa partie antérieure",
+     "j": "La profondeur supérieure est décrite en postérieur, non en antérieur."
+    },
+    {
+     "t": "Dans sa partie supérieure",
+     "j": "Le cours situe la concavité la plus profonde en postérieur, non en partie supérieure."
+    }
+   ]
+  },
+  {
+   "q": "Quelles racines forment le plexus brachial selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "C4 à T2",
+     "correct": true,
+     "j": "Le cours définit le plexus brachial par les racines C4-T2."
+    },
+    {
+     "t": "C5 à T1",
+     "j": "Le cours retient C4-T2 et non l'étendue C5-T1."
+    },
+    {
+     "t": "C3 à C8",
+     "j": "Le plexus brachial est décrit de C4 à T2, l'étendue C3-C8 ne correspond pas."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quels nerfs sont susceptibles d'être lésés lors d'un traumatisme axillaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le nerf radial, le nerf médian et le nerf cubital",
+     "correct": true,
+     "j": "Le cours cite ces trois nerfs comme exposés lors d'un traumatisme axillaire direct ou d'une luxation."
+    },
+    {
+     "t": "Le nerf radial, le nerf axillaire et le nerf musculo-cutané",
+     "j": "Le cours retient le radial, le médian et le cubital, non l'axillaire ni le musculo-cutané."
+    },
+    {
+     "t": "Le nerf médian, le nerf cubital et le nerf long thoracique",
+     "j": "Le long thoracique innerve le dentelé antérieur et n'est pas listé parmi les nerfs du traumatisme axillaire."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, à quoi correspond l'arthrocinématique de la descente claviculaire à l'articulation sterno-claviculaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Roulement inférieur et glissement supérieur",
+     "correct": true,
+     "j": "Le cours décrit la descente par un roulement inférieur et un glissement supérieur de la clavicule."
+    },
+    {
+     "t": "Roulement supérieur et glissement inférieur",
+     "j": "Cette combinaison correspond à l'élévation, pas à la descente claviculaire."
+    },
+    {
+     "t": "Roulement et glissement tous deux inférieurs",
+     "j": "Le cours associe à la descente un roulement et un glissement de sens opposés, non concordants."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles assurent principalement la protraction de la scapula à l'articulation scapulo-thoracique selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Dentelé antérieur, petit pectoral et sous-clavière",
+     "correct": true,
+     "j": "Le cours liste ces trois muscles comme moteurs de la protraction scapulo-thoracique."
+    },
+    {
+     "t": "Trapèze moyen, trapèze inférieur et les rhomboïdes",
+     "j": "Ces muscles sont cités par le cours pour la rétraction, non la protraction."
+    },
+    {
+     "t": "Trapèze supérieur, angulaire et grands rhomboïdes",
+     "j": "Ce groupe est rattaché par le cours à l'élévation de la scapula, pas à la protraction."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, le ligament costo-claviculaire comporte deux fascicules. Quelle est l'orientation du fascicule antérieur ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Oblique en haut et en dehors",
+     "correct": true,
+     "j": "Épaule p.6 oppose les deux fascicules du ligament costo-claviculaire, le postérieur étant « supérieur et médian » : l'antérieur monte donc en dehors. ⚠ La diapositive l'écrit « oblique en avant et en arrière », formulation géométriquement impossible — défaut du support, à signaler à l'enseignant."
+    },
+    {
+     "t": "Orienté en supérieur et en médian",
+     "j": "C'est l'orientation du fascicule POSTÉRIEUR, décrit « supérieur et médian » par Épaule p.6."
+    },
+    {
+     "t": "Vertical, en supérieur et latéral",
+     "j": "Le cours ne décrit pas le fascicule antérieur comme vertical mais comme oblique."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quels muscles renforcent en haut l'articulation acromio-claviculaire par leurs insertions ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Les insertions du deltoïde et du trapèze",
+     "correct": true,
+     "j": "Le cours indique que l'acromio-claviculaire est renforcée en haut par les insertions du deltoïde et du trapèze."
+    },
+    {
+     "t": "Les insertions du supra-épineux et du sous-scapulaire",
+     "j": "Ces muscles appartiennent à la coiffe gléno-humérale et ne sont pas cités comme renforts supérieurs de l'AC."
+    },
+    {
+     "t": "Les insertions du petit pectoral et du sous-clavière",
+     "j": "Le cours rattache ces muscles à la dynamique scapulo-thoracique, non au renfort supérieur de l'AC."
+    }
+   ]
+  },
+  {
+   "q": "Quel ensemble de muscles est moteur de la flexion du coude selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Biceps brachial, brachial antérieur et brachioradial",
+     "correct": true,
+     "j": "Le cours liste exactement ces trois muscles comme moteurs de la flexion du coude (biceps brachial, brachial antérieur, long supinateur ou brachioradial)."
+    },
+    {
+     "t": "Biceps brachial, brachial antérieur et rond pronateur",
+     "j": "Le rond pronateur est un moteur de la pronation de l'avant-bras, pas un fléchisseur cité du coude."
+    },
+    {
+     "t": "Biceps brachial, brachioradial et anconé médial",
+     "j": "L'anconé est un muscle moteur de l'extension du coude, non de la flexion."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles sont moteurs de l'extension du coude selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Triceps brachial et anconé",
+     "correct": true,
+     "j": "Le cours désigne le triceps brachial (têtes médiale, latérale et longue) et l'anconé comme moteurs de l'extension."
+    },
+    {
+     "t": "Triceps brachial et brachial antérieur",
+     "j": "Le brachial antérieur est un fléchisseur du coude, pas un extenseur."
+    },
+    {
+     "t": "Triceps brachial et supinateur",
+     "j": "Le supinateur participe à la supination de l'avant-bras et non à l'extension du coude."
+    }
+   ]
+  },
+  {
+   "q": "Quel élément capsulaire limite la flexion du coude selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La tension de la partie postérieure de la capsule",
+     "correct": true,
+     "j": "Le cours indique que la flexion est limitée par la tension de la partie postérieure de la capsule articulaire."
+    },
+    {
+     "t": "La tension de la partie antérieure de la capsule articulaire",
+     "j": "C'est la partie antérieure de la capsule qui limite l'extension, et non la flexion."
+    },
+    {
+     "t": "La tension des fibres antérieures du ligament annulaire",
+     "j": "Le ligament annulaire stabilise la tête radiale ; ce n'est pas le frein capsulaire de la flexion cité."
+    }
+   ]
+  },
+  {
+   "q": "Quel facteur capsulaire constitue une limite de l'extension du coude selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La tension de la partie antérieure de la capsule articulaire",
+     "correct": true,
+     "j": "Le cours cite la tension de la partie antérieure de la capsule parmi les limites de l'extension."
+    },
+    {
+     "t": "La tension de la partie postérieure de la capsule articulaire",
+     "j": "La partie postérieure de la capsule limite la flexion, et non l'extension."
+    },
+    {
+     "t": "La tension des fibres antérieures du ligament carré",
+     "j": "Les fibres antérieures du ligament carré limitent la supination de l'avant-bras, pas l'extension du coude."
+    }
+   ]
+  },
+  {
+   "q": "À quel type articulaire correspond l'articulation radio-ulnaire distale selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Articulation trochoïde",
+     "correct": true,
+     "j": "Le cours décrit la radio-ulnaire distale comme une articulation trochoïde reliant la tête du cubitus à la cavité sigmoïde du radius."
+    },
+    {
+     "t": "Articulation trochléenne",
+     "j": "L'articulation trochléenne (type charnière) correspond à l'huméro-ulnaire, pas à la radio-ulnaire distale."
+    },
+    {
+     "t": "Articulation condylienne",
+     "j": "L'articulation radio-ulnaire distale est trochoïde et non condylienne d'après le cours."
+    }
+   ]
+  },
+  {
+   "q": "Quelle structure fibrocartilagineuse fait partie des moyens de fixation de l'articulation radio-ulnaire distale ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le fibrocartilage triangulaire, disque articulaire",
+     "correct": true,
+     "j": "Le cours cite le fibrocartilage triangulaire parmi les moyens de fixation de la radio-ulnaire distale."
+    },
+    {
+     "t": "Le ligament annulaire entourant la tête du radius",
+     "j": "Le ligament annulaire appartient à la radio-ulnaire proximale, pas à l'articulation distale."
+    },
+    {
+     "t": "La membrane interosseuse de l'avant-bras",
+     "j": "La membrane interosseuse n'est pas le moyen de fixation cité ; c'est le fibrocartilage triangulaire."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la supination de l'avant-bras selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "90°",
+     "correct": true,
+     "j": "Le cours donne une amplitude de supination de 90°, réalisée sur les articulations radio-ulnaires supérieure et inférieure."
+    },
+    {
+     "t": "85°",
+     "j": "85° est l'amplitude de la pronation selon le cours, et non celle de la supination."
+    },
+    {
+     "t": "45°",
+     "j": "Cette valeur ne correspond pas ; l'amplitude de supination indiquée est de 90°."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quels muscles assurent la stabilité de l'ulna lorsque le coude est en flexion à 90° ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Triceps brachial, brachial antérieur et anconé",
+     "correct": true,
+     "j": "En flexion à 90°, le cours indique que l'ulna est stable grâce au triceps brachial, au brachial antérieur et à l'anconé."
+    },
+    {
+     "t": "Biceps brachial, brachioradial et supinateur",
+     "j": "Ces muscles ne sont pas ceux cités pour la stabilité de l'ulna à 90° ; le brachioradial et le supinateur n'y figurent pas."
+    },
+    {
+     "t": "Triceps brachial, biceps brachial et rond pronateur",
+     "j": "Le biceps et le rond pronateur ne font pas partie des stabilisateurs de l'ulna en flexion à 90° selon le cours."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude physiologique maximale de la flexion du poignet selon le cours ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "85°",
+     "correct": true,
+     "j": "Le cours indique une flexion du poignet de 85°, maximale en position neutre sans déviation."
+    },
+    {
+     "t": "45°",
+     "j": "45° correspond à l'amplitude de la déviation ulnaire, pas à celle de la flexion."
+    },
+    {
+     "t": "60°",
+     "j": "60° est l'AMA globale des déviations radio-ulnaire réunies, pas la flexion sagittale."
+    }
+   ]
+  },
+  {
+   "q": "Quels sont les moteurs principaux de la flexion des articulations carpiennes ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Fléchisseur radial du carpe, long palmaire et fléchisseur ulnaire du carpe",
+     "correct": true,
+     "j": "Le cours cite ces trois muscles comme moteurs principaux de la flexion du poignet."
+    },
+    {
+     "t": "Long et court extenseurs radiaux du carpe et extenseur ulnaire du carpe",
+     "j": "Ces trois muscles sont les moteurs principaux de l'extension, pas de la flexion."
+    },
+    {
+     "t": "Fléchisseurs superficiel et profond des doigts et long fléchisseur du pouce",
+     "j": "Ces muscles ne sont que des moteurs secondaires de la flexion du poignet."
+    }
+   ]
+  },
+  {
+   "q": "Lors de l'extension du poignet, radius fixe, comment se comportent le lunatum et le capitatum ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Ils roulent vers l'arrière et glissent vers l'avant",
+     "correct": true,
+     "j": "Le cours décrit en extension un roulement postérieur et un glissement antérieur simultanés du lunatum et du capitatum."
+    },
+    {
+     "t": "Ils roulent vers l'avant et glissent vers l'arrière",
+     "j": "Ce comportement correspond à la flexion du poignet, sens inverse de l'extension."
+    },
+    {
+     "t": "Ils roulent et glissent tous deux vers l'arrière",
+     "j": "Roulement et glissement se font en sens opposés ; ils ne vont pas dans la même direction."
+    }
+   ]
+  },
+  {
+   "q": "À quel type articulaire correspondent les articulations interphalangiennes des doigts ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Trochléennes",
+     "correct": true,
+     "j": "Le cours classe les articulations interphalangiennes comme trochléennes."
+    },
+    {
+     "t": "Condyliennes",
+     "j": "Les articulations métacarpophalangiennes sont condyliennes, pas les interphalangiennes."
+    },
+    {
+     "t": "Arthrodies",
+     "j": "Les arthrodies correspondent aux articulations carpo- et intermétacarpiennes, pas aux interphalangiennes."
+    }
+   ]
+  },
+  {
+   "q": "À quel type articulaire correspondent les articulations métacarpophalangiennes ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Condyliennes",
+     "correct": true,
+     "j": "Le cours classe les articulations métacarpophalangiennes comme condyliennes."
+    },
+    {
+     "t": "Trochléennes",
+     "j": "Le type trochléen est réservé aux articulations interphalangiennes."
+    },
+    {
+     "t": "En selle (emboîtement réciproque)",
+     "j": "Le type en selle ne concerne que la trapézo-métacarpienne du pouce."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles assurent l'abduction des doigts au niveau des articulations métacarpophalangiennes ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les interosseux dorsaux et l'abducteur du 5e doigt",
+     "correct": true,
+     "j": "Le cours désigne les interosseux dorsaux et l'abducteur du 5e doigt comme moteurs de l'abduction des doigts."
+    },
+    {
+     "t": "Les interosseux palmaires et les lombricaux",
+     "j": "Les interosseux palmaires sont moteurs de l'adduction des doigts et les lombricaux fléchissent les MCP, pas l'abduction."
+    },
+    {
+     "t": "Les fléchisseurs superficiel et profond des doigts",
+     "j": "Ces fléchisseurs extrinsèques ne participent qu'accessoirement à la déviation, pas à l'abduction des doigts."
+    }
+   ]
+  },
+  {
+   "q": "Combien de canaux fibreux le rétinaculum des extenseurs (ligament annulaire dorsal) délimite-t-il pour le passage des tendons ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Six",
+     "correct": true,
+     "j": "Le cours décrit six canaux fibreux entre le rétinaculum dorsal et la face dorsale du carpe."
+    },
+    {
+     "t": "Quatre",
+     "j": "Le cours compte six canaux dorsaux, pas quatre."
+    },
+    {
+     "t": "Huit",
+     "j": "Le cours compte six canaux dorsaux, pas huit."
+    }
+   ]
+  },
+  {
+   "q": "Sur quels os s'insèrent distalement les longs et courts extenseurs radiaux du carpe ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Sur la base des 2e et 3e métacarpiens",
+     "correct": true,
+     "j": "Le cours situe l'insertion des extenseurs radiaux du carpe à la base des 2e et 3e métacarpiens."
+    },
+    {
+     "t": "Sur la base du 5e métacarpien uniquement",
+     "j": "C'est l'extenseur ulnaire du carpe qui s'insère à la base du 5e métacarpien."
+    },
+    {
+     "t": "Sur le pisiforme et ses ligaments",
+     "j": "Le pisiforme reçoit le fléchisseur ulnaire du carpe, pas les extenseurs radiaux."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de flexion de l'articulation trapézo-métacarpienne du pouce selon le cours ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "35-50°",
+     "correct": true,
+     "j": "Le cours indique une flexion de 35 à 50° à l'articulation trapézo-métacarpienne du pouce."
+    },
+    {
+     "t": "10-15°",
+     "j": "10-15° correspond à l'amplitude d'extension de la trapézo-métacarpienne, pas à la flexion."
+    },
+    {
+     "t": "60°",
+     "j": "60° correspond à la flexion de la MCP du pouce sur la paume, pas à la trapézo-métacarpienne."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quel nerf est particulièrement exposé lors d'une fracture du col de l'humérus ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le nerf radial",
+     "correct": true,
+     "j": "Le cours précise que le nerf radial, déjà vulnérable lors d'un traumatisme axillaire, est aussi exposé aux fractures du col de l'humérus, dont il épouse le contact osseux."
+    },
+    {
+     "t": "Le nerf cubital",
+     "j": "Comme le médian, il peut souffrir d'un traumatisme axillaire direct, sans rapport particulier avec le col de l'humérus."
+    },
+    {
+     "t": "Le nerf médian",
+     "j": "Il figure parmi les trois nerfs menacés par un traumatisme axillaire, mais le cours ne le cite pas pour les fractures du col huméral."
+    }
+   ]
+  },
+  {
+   "q": "À leur sortie des trous de conjonction, entre quels muscles les racines principales du plexus brachial cheminent-elles ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Entre le scalène moyen et le scalène postérieur",
+     "j": "Cet espace ne contient pas les racines du plexus brachial, qui passent en avant du scalène moyen."
+    },
+    {
+     "t": "En avant du scalène antérieur et du nerf phrénique",
+     "j": "Les racines passent en arrière du scalène antérieur ; c'est le nerf phrénique qui descend sur sa face antérieure."
+    },
+    {
+     "t": "Entre le scalène antérieur et le scalène moyen",
+     "correct": true,
+     "j": "Le cours situe le passage des cinq racines principales au niveau du trou de conjonction puis des muscles scalènes ; ce défilé interscalénique est compris entre le scalène antérieur et le scalène moyen."
+    }
+   ]
+  },
+  {
+   "q": "Dans le défilé costo-claviculaire, entre quelles structures osseuses les troncs du plexus brachial peuvent-ils être comprimés ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Entre la clavicule et le coracoïde",
+     "j": "Le processus coracoïde est bien un site de vulnérabilité, mais le plexus y passe sous le petit pectoral et non entre coracoïde et clavicule."
+    },
+    {
+     "t": "Entre la première côte et la vertèbre C7",
+     "j": "Ce rapport ne correspond à aucun défilé décrit : à ce niveau, les racines sont déjà engagées entre les scalènes."
+    },
+    {
+     "t": "Entre la clavicule et la première côte",
+     "correct": true,
+     "j": "Le cours cite la clavicule et la première côte parmi les sites de vulnérabilité des troncs : le plexus traverse l'espace étroit compris entre ces deux os."
+    }
+   ]
+  },
+  {
+   "q": "Quel nerf assure l'innervation du muscle supra-épineux et du muscle infra-épineux ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le nerf axillaire",
+     "j": "Il innerve le deltoïde et le petit rond, et non les deux muscles des fosses scapulaires, qui relèvent d’un nerf issu du tronc supérieur du plexus."
+    },
+    {
+     "t": "Le nerf supra-scapulaire",
+     "correct": true,
+     "j": "Né du plexus brachial à sa partie supérieure, il gagne la face postérieure de la scapula et innerve successivement le supra-épineux puis l'infra-épineux."
+    },
+    {
+     "t": "Le nerf scapulaire dorsal",
+     "j": "Il innerve les rhomboïdes et l'angulaire de l'omoplate, muscles élévateurs et rétracteurs de la scapula."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle abaisseur de la ceinture scapulaire est innervé par le nerf thoraco-dorsal ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le petit pectoral",
+     "j": "C'est aussi un abaisseur et un protracteur de la scapula, mais il est innervé par les nerfs pectoraux, non par le thoraco-dorsal."
+    },
+    {
+     "t": "Le muscle grand dorsal",
+     "correct": true,
+     "j": "Le grand dorsal figure parmi les abaisseurs de la scapula décrits dans le cours et reçoit son innervation du nerf thoraco-dorsal, issu du plexus brachial."
+    },
+    {
+     "t": "Le muscle sous-clavier",
+     "j": "Il participe à l'abaissement de la ceinture scapulaire mais reçoit son innervation du nerf subclavier."
+    }
+   ]
+  },
+  {
+   "q": "Lors du mouvement de protraction (antéposition) de la clavicule à l'articulation sterno-claviculaire, quelles structures sont mises en tension ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le fascicule postérieur du ligament costo-claviculaire et le ligament capsulaire postérieur",
+     "correct": true,
+     "j": "La protraction s'accompagne d'un roulement et d'un glissement antérieurs de la clavicule, qui étirent le fascicule postérieur du ligament costo-claviculaire, la capsule postérieure et les rétracteurs de l'omoplate."
+    },
+    {
+     "t": "Le fascicule antérieur du ligament costo-claviculaire et le ligament capsulaire antérieur",
+     "j": "Ces structures sont étirées lors de la rétraction, quand la clavicule roule et glisse vers l'arrière, et non lors de la protraction."
+    },
+    {
+     "t": "Le ligament interclaviculaire et la capsule supérieure de l'articulation",
+     "j": "Ces deux structures sont mises en tension lors de la descente claviculaire, qui écarte l'extrémité médiale de la clavicule vers le haut."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la rotation postérieure de la clavicule à l'articulation sterno-claviculaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "20 à 25°",
+     "j": "Environ 25° de rotation postérieure sont utilisés lors de l'élévation complète du bras, mais cela ne représente qu'une part de l'amplitude disponible."
+    },
+    {
+     "t": "40 à 50°",
+     "correct": true,
+     "j": "Le cours retient une rotation de 40 à 50° autour de l'axe longitudinal de la clavicule, l'arthrocinématique se faisant sur le disque articulaire."
+    },
+    {
+     "t": "60 à 70°",
+     "j": "Cette valeur dépasse l'amplitude possible de la clavicule et correspondrait plutôt à la rotation ascendante globale de la scapulo-thoracique."
+    }
+   ]
+  },
+  {
+   "q": "Les ajustements acromio-claviculaires réalisés dans le plan sagittal (inclinaison antérieure et postérieure) correspondent au déplacement de quel repère scapulaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le bord médial de l'omoplate, qui pivote vers le thorax ou s'en éloigne",
+     "j": "C'est la description des ajustements dans le plan horizontal, correspondant aux rotations interne et externe de la scapula."
+    },
+    {
+     "t": "L'angle supéro-médial de l'omoplate, qui glisse vers le haut ou vers le bas",
+     "j": "Ce déplacement vertical correspond à l'élévation et à l'abaissement de la scapula, et non aux ajustements sagittaux."
+    },
+    {
+     "t": "L'angle inférieur de l'omoplate, qui pivote vers le thorax ou s'en éloigne",
+     "correct": true,
+     "j": "Le cours décrit les ajustements sagittaux comme une bascule au cours de laquelle l'angle inférieur de la scapula se rapproche du thorax ou s'en écarte."
+    }
+   ]
+  },
+  {
+   "q": "Lors de l'élévation complète du bras à 180°, quelle est la participation de l'articulation sterno-claviculaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "25° d'élévation, 25° de rotation postérieure et 15° de rétraction",
+     "correct": true,
+     "j": "Ce sont les valeurs retenues par le cours pour la contribution sterno-claviculaire au rythme scapulo-huméral complet."
+    },
+    {
+     "t": "15° d'élévation, 40° de rotation postérieure et 25° de rétraction",
+     "j": "Ces valeurs inversent les proportions enseignées : l'élévation claviculaire est plus importante que la rétraction."
+    },
+    {
+     "t": "35° d'élévation, 20° de rotation postérieure et 10° de rétraction",
+     "j": "Ces chiffres correspondent à la participation acromio-claviculaire (sonnette externe, tilt postérieur, rotation externe) et non à la sterno-claviculaire."
+    }
+   ]
+  },
+  {
+   "q": "Dans le rythme scapulo-huméral décrit par le cours pour une élévation complète du bras à 180°, quelle est la participation de l’articulation acromio-claviculaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "60° de sonnette externe, 10° de tilt postérieur et 20° de rotation externe",
+     "j": "Les 60° correspondent à la rotation ascendante globale de la scapulo-thoracique, somme des participations sterno- et acromio-claviculaires."
+    },
+    {
+     "t": "35° de sonnette externe, 20° de tilt postérieur et 10° de rotation externe",
+     "correct": true,
+     "j": "Le cours détaille ainsi la contribution acromio-claviculaire, qui affine la position de la scapula sur le thorax pendant l'élévation."
+    },
+    {
+     "t": "20° de sonnette externe, 35° de tilt postérieur et 10° de rotation externe",
+     "j": "Ces chiffres intervertissent les deux premières valeurs : c’est la sonnette externe qui atteint 35°, le tilt postérieur restant limité à 20°."
+    }
+   ]
+  },
+  {
+   "q": "Les 60° de rotation ascendante de la scapulo-thoracique résultent de la somme de quels mouvements ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "De la rétraction claviculaire sterno-claviculaire et du tilt antérieur acromio-claviculaire",
+     "j": "La rétraction n'intervient que pour 15° et le tilt utile à l'élévation est postérieur, non antérieur."
+    },
+    {
+     "t": "De l'élévation claviculaire sterno-claviculaire et de la rotation vers le haut acromio-claviculaire",
+     "correct": true,
+     "j": "Le cours pose l'équation : élévation claviculaire à la sterno-claviculaire + rotation ascendante à l'acromio-claviculaire = 60° de rotation ascendante scapulo-thoracique."
+    },
+    {
+     "t": "De la rotation postérieure claviculaire et de la rotation interne acromio-claviculaire",
+     "j": "La rotation postérieure accompagne l'élévation mais la rotation acromio-claviculaire associée est externe, la rotation interne survenant lors de la protraction."
+    }
+   ]
+  },
+  {
+   "q": "Quel couple musculaire doit se coordonner pour produire les 60° de sonnette externe de la scapula ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le petit pectoral et le muscle sous-clavier",
+     "j": "Ces muscles abaissent et protractent la ceinture scapulaire ; leur action s'oppose à la rotation ascendante."
+    },
+    {
+     "t": "Le trapèze supérieur et le dentelé antérieur",
+     "correct": true,
+     "j": "Le cours insiste sur la coordination de ces deux muscles, dont les forces s'additionnent pour faire tourner la scapula vers le haut jusqu'à 60°."
+    },
+    {
+     "t": "Le trapèze moyen et les rhomboïdes",
+     "j": "Ce couple assure la rétraction de la scapula et participe même à la sonnette interne pour les rhomboïdes."
+    }
+   ]
+  },
+  {
+   "q": "Selon le tableau de mobilité de la ceinture scapulaire, quelle est l'amplitude de l'adduction horizontale de l'épaule ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "135°",
+     "correct": true,
+     "j": "Le cours retient 135°, l'objectif fonctionnel étant de pouvoir amener le coude vers le sternum sans compensation scapulaire."
+    },
+    {
+     "t": "115°",
+     "j": "Cette amplitude intermédiaire traduirait une adduction horizontale incomplète, insuffisante pour amener le coude au sternum."
+    },
+    {
+     "t": "90°",
+     "j": "Cette valeur correspond au point de départ du mouvement, bras placé en abduction à 90°, et non à l'amplitude parcourue."
+    }
+   ]
+  },
+  {
+   "q": "Selon le tableau de mobilité de la ceinture scapulaire, quelle est l'amplitude de l'extension de l'épaule ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "20 à 30°",
+     "j": "Cette valeur sous-estime l'amplitude disponible et correspondrait à une extension limitée par une raideur capsulaire antérieure."
+    },
+    {
+     "t": "45 à 55°",
+     "correct": true,
+     "j": "Le cours retient 45 à 55° d'extension, en soulignant qu'il faut se méfier des compensations scapulaires qui majorent faussement la mesure."
+    },
+    {
+     "t": "70 à 80°",
+     "j": "Ces degrés ne sont atteints qu'en laissant la scapula basculer en avant, c'est-à-dire grâce à une compensation scapulaire."
+    }
+   ]
+  },
+  {
+   "q": "À l'articulation radio-ulnaire distale, comment sont orientées les surfaces articulaires ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La tête de l'ulna est convexe et la cavité sigmoïde du radius est concave",
+     "correct": true,
+     "j": "Le cours décrit cette trochoïde comme reliant la tête du cubitus, convexe, à la cavité sigmoïde du radius, concave."
+    },
+    {
+     "t": "La tête du radius est convexe et l'incisure radiale de l'ulna est concave",
+     "j": "Cette description est celle de l'articulation radio-ulnaire proximale, où le radius présente une tête convexe."
+    },
+    {
+     "t": "La tête de l'ulna est concave et la cavité sigmoïde du radius est convexe",
+     "j": "L'orientation est exactement inverse : c'est l'ulna qui porte la surface convexe à ce niveau distal."
+    }
+   ]
+  },
+  {
+   "q": "Quel ligament du coude est constitué d'un faisceau antérieur, d'un faisceau postérieur et d'un faisceau transverse ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le ligament annulaire du radius",
+     "j": "Il forme un anneau fibreux unique autour de la tête radiale et non un ensemble de trois faisceaux."
+    },
+    {
+     "t": "Le ligament collatéral radial",
+     "j": "Le ligament collatéral latéral s'étend de l'épicondyle latéral au ligament annulaire sans se diviser en ces trois faisceaux."
+    },
+    {
+     "t": "Le ligament collatéral ulnaire",
+     "correct": true,
+     "j": "Le ligament collatéral médial du coude se décompose en trois portions, antérieure, postérieure et transverse, tendues entre épicondyle médial et ulna."
+    }
+   ]
+  },
+  {
+   "q": "Quelle structure complète en bas l'anneau formé par le ligament annulaire du radius ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La membrane interosseuse",
+     "j": "Elle unit les diaphyses du radius et de l'ulna sur toute la longueur de l'avant-bras, à distance du col radial."
+    },
+    {
+     "t": "Le ligament carré",
+     "correct": true,
+     "j": "Tendu du bord inférieur de l'incisure radiale de l'ulna au col du radius, il ferme en bas l'anneau formé par le ligament annulaire."
+    },
+    {
+     "t": "La corde oblique",
+     "j": "Elle est tendue obliquement de l'ulna au radius en dessous de la tuberosité radiale, dans l'espace interosseux, et non autour du col."
+    }
+   ]
+  },
+  {
+   "q": "Quelles articulations composent le complexe du coude et de l'avant-bras décrit par le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Huméro-ulnaire, huméro-radiale, radio-ulnaire distale et médio-carpienne",
+     "j": "La médio-carpienne appartient au carpe ; c'est la radio-ulnaire proximale qui manque dans cette liste."
+    },
+    {
+     "t": "Huméro-ulnaire, huméro-radiale, radio-ulnaire proximale et radio-carpienne",
+     "j": "La radio-carpienne est une articulation du poignet, sans participation à la prono-supination du complexe du coude."
+    },
+    {
+     "t": "Huméro-ulnaire, huméro-radiale, radio-ulnaire proximale et radio-ulnaire distale",
+     "correct": true,
+     "j": "Le cours regroupe ces quatre articulations, la radio-ulnaire distale appartenant anatomiquement au poignet mais fonctionnellement au coude."
+    }
+   ]
+  },
+  {
+   "q": "Quelle conséquence mécanique découle du fait que le coude fonctionne comme un levier du troisième genre ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Il favorise l'amplitude et la vitesse du mouvement au détriment de la puissance",
+     "correct": true,
+     "j": "Le cours définit le levier du troisième genre comme privilégiant le déplacement et la vitesse du segment distal, au prix d'une force musculaire supérieure à la charge déplacée."
+    },
+    {
+     "t": "Il équilibre puissance et vitesse grâce à un point d'appui central",
+     "j": "Cette disposition, avec l'appui entre la force et la résistance, caractérise le levier du premier genre."
+    },
+    {
+     "t": "Il favorise la puissance développée au détriment de l'amplitude et de la vitesse",
+     "j": "C'est le comportement d'un levier du deuxième genre, dans lequel la résistance est placée entre l'appui et la force."
+    }
+   ]
+  },
+  {
+   "q": "Dans un levier du troisième genre comme celui du coude, comment s'ordonnent le point d'appui, la force musculaire et la résistance ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La résistance se situe entre le point d'appui et la force",
+     "j": "Cette disposition définit le levier du deuxième genre, qui privilégie la force au détriment de l'amplitude."
+    },
+    {
+     "t": "La force s'applique entre le point d'appui et la résistance",
+     "correct": true,
+     "j": "L'insertion des fléchisseurs est proche de l'articulation, donc entre l'axe articulaire et la charge tenue dans la main : c'est la définition du troisième genre."
+    },
+    {
+     "t": "Le point d'appui se situe entre la force et la résistance",
+     "j": "Cette disposition définit le levier du premier genre, de type balance, que ne réalise pas la flexion du coude."
+    }
+   ]
+  },
+  {
+   "q": "Quels ligaments figurent parmi les facteurs de coaptation du coude en extension ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les ligaments collatéraux ulnaire et radial",
+     "correct": true,
+     "j": "Le cours place ces deux ligaments en tête des facteurs de coaptation en extension : leur tension plaque l'ulna et le radius contre la palette humérale."
+    },
+    {
+     "t": "Le ligament annulaire et le ligament carré",
+     "j": "Ces deux structures maintiennent la tête radiale lors de la prono-supination mais ne sont pas citées comme facteurs de coaptation en extension."
+    },
+    {
+     "t": "Les ligaments radio-ulnaires antérieur et postérieur",
+     "j": "Ils renforcent la capsule de l'articulation radio-ulnaire distale et n'interviennent pas dans la coaptation du coude en extension."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles sont cités comme facteurs de coaptation du coude en extension ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le triceps brachial, le biceps brachial et le brachioradial",
+     "correct": true,
+     "j": "Ces muscles longitudinaux croisent l'articulation et, par leur tension, appliquent les surfaces articulaires l'une contre l'autre en extension."
+    },
+    {
+     "t": "Le brachial antérieur, l'anconé et le rond pronateur",
+     "j": "Le brachial antérieur et l'anconé sont cités pour la stabilité de l'ulna en flexion à 90°, non pour la coaptation en extension."
+    },
+    {
+     "t": "Le supinateur, le carré pronateur et le coracobrachial",
+     "j": "Ces muscles agissent sur la rotation de l'avant-bras ou sur l'épaule et ne sont pas retenus comme coaptateurs du coude."
+    }
+   ]
+  },
+  {
+   "q": "Outre les ligaments collatéraux et les muscles longitudinaux, quels éléments le cours cite-t-il parmi les facteurs de coaptation du coude en extension ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le processus coronoïde dans sa fosse humérale",
+     "j": "Ce choc osseux fait partie des facteurs limitant la flexion du coude, et non de la coaptation en extension."
+    },
+    {
+     "t": "Le bec de l'olécrane dans la fosse olécranienne",
+     "j": "Ce contact osseux constitue la butée qui limite l'extension, ce qui n'en fait pas un facteur de coaptation."
+    },
+    {
+     "t": "Les reliefs épicondyliens et épitrochléens de l’humérus",
+     "correct": true,
+     "j": "Le cours clôt la liste des facteurs de coaptation en extension par les épicondyles et l’épitrochléaire, dont les saillies et les masses musculaires qu’elles ancrent appliquent les surfaces l’une contre l’autre."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'un vissage énergique associant supination résistée et maintien du coude, quel muscle se contracte de façon isométrique pour neutraliser la tendance du biceps brachial à fléchir le coude ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le triceps brachial",
+     "correct": true,
+     "j": "Le cours décrit cette synergie : pendant la contraction vigoureuse du biceps et du supinateur, le triceps s'active isométriquement pour annuler la composante de flexion."
+    },
+    {
+     "t": "Le muscle anconé",
+     "j": "Il accompagne l'extension et stabilise l'ulna, mais sa petite taille ne lui permet pas de contrebalancer la traction du biceps."
+    },
+    {
+     "t": "Le brachial antérieur",
+     "j": "Fléchisseur pur du coude, il ajouterait sa force à celle du biceps au lieu de la neutraliser."
+    }
+   ]
+  },
+  {
+   "q": "Au sein de la première rangée du carpe, quelle articulation fait exception au type arthrodie décrit par le cours ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'articulation luno-triquétrale, de type en selle",
+     "j": "Elle appartient aussi aux arthrodies de la première rangée ; le type en selle est réservé à la trapézo-métacarpienne du pouce."
+    },
+    {
+     "t": "L'articulation pisi-pyramidale, de type condylien",
+     "correct": true,
+     "j": "Le cours précise que la première rangée est faite d'arthrodies, à l'exception de l'articulation pisi-pyramidale, qui est condylienne."
+    },
+    {
+     "t": "L'articulation scapho-lunaire, de type condylien",
+     "j": "Comme les autres articulations entre os d'une même rangée, elle est décrite comme une arthrodie à surfaces planes."
+    }
+   ]
+  },
+  {
+   "q": "Sur quelle structure le fléchisseur ulnaire du carpe s'insère-t-il distalement ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Sur l'aponévrose palmaire de la main",
+     "j": "C'est la terminaison du long palmaire, situé entre les deux fléchisseurs du carpe."
+    },
+    {
+     "t": "Sur la base du cinquième métacarpien",
+     "j": "Cette insertion est celle de l'extenseur ulnaire du carpe, son homologue de la face dorsale."
+    },
+    {
+     "t": "Sur le pisiforme et ses ligaments",
+     "correct": true,
+     "j": "C'est le seul tendon extrinsèque à s'attacher directement à un os du carpe, le pisiforme, par lequel il prolonge son action sur la main."
+    }
+   ]
+  },
+  {
+   "q": "Quels tendons occupent le canal le plus radial délimité par le rétinaculum des extenseurs ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le court extenseur du pouce et le long abducteur du pouce",
+     "correct": true,
+     "j": "Le cours énumère les six canaux du bord ulnaire vers le bord radial et place ces deux tendons dans le dernier, le plus radial."
+    },
+    {
+     "t": "L'extenseur commun des doigts et l'extenseur propre de l'index",
+     "j": "Ils partagent le canal central du rétinaculum, à distance du bord radial du poignet."
+    },
+    {
+     "t": "Le long extenseur du pouce et le long extenseur radial du carpe",
+     "j": "Ils occupent deux canaux distincts, le quatrième et le cinquième, intermédiaires entre le bord ulnaire et le bord radial du poignet."
+    }
+   ]
+  },
+  {
+   "q": "Outre la stabilisation, quelle fonction le rétinaculum des extenseurs assure-t-il lors de l'extension active du poignet ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Empêcher les tendons de se cambrer vers l'extérieur",
+     "correct": true,
+     "j": "Le cours précise que ce rétinaculum maintient les tendons plaqués contre le squelette et les empêche de faire corde d'arc pendant l'extension active."
+    },
+    {
+     "t": "Assurer l'insertion directe des tendons sur les os du carpe",
+     "j": "Aucun tendon extrinsèque ne s'insère sur le carpe, hormis le fléchisseur ulnaire du carpe sur le pisiforme : le rétinaculum ne crée pas d'insertion."
+    },
+    {
+     "t": "Limiter l'amplitude finale de l'extension du poignet",
+     "j": "La fin d'extension est limitée par les muscles fléchisseurs, les ligaments palmaires et les butées osseuses, non par le rétinaculum dorsal."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quel rapport de force existe entre les muscles fléchisseurs et les muscles extenseurs du poignet ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les extenseurs développent environ le double de la force des fléchisseurs",
+     "j": "Le rapport est inverse : la section transversale des extenseurs est près de deux fois plus petite que celle des fléchisseurs."
+    },
+    {
+     "t": "Les deux groupes développent une force sensiblement équivalente",
+     "j": "L'écart de section transversale entre les deux loges interdit de les considérer comme équivalents en force."
+    },
+    {
+     "t": "Les fléchisseurs développent environ le double de la force des extenseurs",
+     "correct": true,
+     "j": "Le cours compare les surfaces de section transversale, 33 cm² pour les fléchisseurs contre 15,5 cm² pour les extenseurs, d'où une force environ deux fois supérieure."
+    }
+   ]
+  },
+  {
+   "q": "À quel degré d'extension du poignet la force de préhension de la main est-elle maximale ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Entre 30 et 35° d'extension",
+     "correct": true,
+     "j": "Le cours situe à ce niveau l'optimum de longueur des fléchisseurs extrinsèques des doigts, qui rend la préhension la plus efficace."
+    },
+    {
+     "t": "Entre 55 et 60° d'extension",
+     "j": "Au-delà de l'optimum, les fléchisseurs sont trop raccourcis et la force de préhension diminue."
+    },
+    {
+     "t": "Entre 10 et 15° d'extension",
+     "j": "Cette position correspond plutôt à l'angle de stabilisation chirurgicale du poignet, pas au maximum de force de serrage."
+    }
+   ]
+  },
+  {
+   "q": "Par effet de ténodèse, que se produit-il au niveau des doigts lorsque le poignet se fléchit ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les doigts restent en position neutre, la ténodèse n'agissant qu'en extension du poignet",
+     "j": "L'effet de ténodèse joue dans les deux sens : la position du poignet modifie en permanence la longueur relative des tendons des doigts."
+    },
+    {
+     "t": "La flexion des trois phalanges devient automatique et l'extension exige un effort volontaire",
+     "j": "C'est ce qui se produit lors de l'extension du poignet, qui tend les tendons fléchisseurs des doigts."
+    },
+    {
+     "t": "L'extension de la première phalange devient automatique et la flexion exige un effort volontaire",
+     "correct": true,
+     "j": "La flexion du poignet met en tension les extenseurs des doigts : la première phalange s'étend d'elle-même et la flexion active devient faible."
+    }
+   ]
+  },
+  {
+   "q": "Lors du lancer de fléchettes, quel couplage de mouvements du poignet est utilisé ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Extension avec inclinaison ulnaire, puis flexion avec inclinaison radiale",
+     "j": "Ce couplage inverse n'est pas le plan fonctionnel du lancer : il contrarie l'orientation naturelle des colonnes du carpe."
+    },
+    {
+     "t": "Flexion avec inclinaison radiale, puis extension avec inclinaison ulnaire",
+     "j": "Cette combinaison n'est pas retenue : la phase d'armé se fait en extension, non en flexion."
+    },
+    {
+     "t": "Extension avec inclinaison radiale, puis flexion avec inclinaison ulnaire",
+     "correct": true,
+     "j": "Le cours décrit ce plan oblique fonctionnel en chaîne cinétique ouverte, qui associe l'armé en extension-inclinaison radiale au lâcher en flexion-inclinaison ulnaire."
+    }
+   ]
+  },
+  {
+   "q": "Quelle pince bidigitale est mise en jeu pour saisir et tourner une clé ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "La pince subterminale",
+     "j": "Elle oppose pulpe contre pulpe, comme pour tenir une pièce de monnaie, et n'offre pas l'appui latéral nécessaire à la rotation d'une clé."
+    },
+    {
+     "t": "La pince interdigitale latérale",
+     "j": "Elle serre l'objet entre les faces latérales de deux doigts, sans participation du pouce, comme pour tenir un stylo entre index et majeur."
+    },
+    {
+     "t": "La pince subtermino-latérale",
+     "correct": true,
+     "j": "La pulpe du pouce s'applique contre la face latérale de l'index : c'est la prise utilisée pour la clé, qui demande à la fois force et contrôle."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle extrinsèque est le seul capable d'assurer le repositionnement complet du pouce sur ses trois articulations ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le long extenseur du pouce",
+     "correct": true,
+     "j": "Le cours en fait le seul muscle capable de ramener le pouce de l'opposition à sa position de départ en agissant sur les trois articulations de la colonne."
+    },
+    {
+     "t": "Le long abducteur du pouce",
+     "j": "Il agit en extension et en abduction de la seule articulation carpo-métacarpienne du pouce."
+    },
+    {
+     "t": "Le court extenseur du pouce",
+     "j": "Son action ne porte que sur les articulations métacarpo-phalangienne et carpo-métacarpienne, sans atteindre l'interphalangienne."
+    }
+   ]
+  },
+  {
+   "q": "Comment se répartit l'innervation motrice des muscles au niveau du poignet selon le cours ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le nerf cubital innerve tous les muscles de la face palmaire, les nerfs radial et médian ceux de la face dorsale",
+     "j": "Le nerf cubital ne couvre qu'une partie de la face palmaire, qu'il partage avec le nerf médian."
+    },
+    {
+     "t": "Le nerf radial innerve tous les muscles de la face dorsale, les nerfs médian et cubital ceux de la face palmaire",
+     "correct": true,
+     "j": "Cette répartition par quadrants est explicite dans le cours : le radial commande l'ensemble des extenseurs dorsaux, les deux autres nerfs les muscles palmaires."
+    },
+    {
+     "t": "Le nerf médian innerve tous les muscles de la face dorsale, les nerfs radial et cubital ceux de la face palmaire",
+     "j": "Le nerf médian est un nerf de la loge antérieure : il ne fournit aucun muscle de la face dorsale du poignet."
+    }
+   ]
+  },
+  {
+   "q": "Quel groupe musculaire intrinsèque est le plus représentatif de l'innervation du nerf cubital dans la main ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Les muscles hypothénariens",
+     "correct": true,
+     "j": "Le cours retient les muscles de l'éminence hypothénar, au bord ulnaire de la main, comme les plus représentatifs du territoire moteur du nerf cubital."
+    },
+    {
+     "t": "Les muscles thénariens",
+     "j": "L'éminence thénar relève du nerf médian, dont la lésion se traduit par un aplatissement de cette éminence."
+    },
+    {
+     "t": "Les deux premiers lombricaux",
+     "j": "Ces lombricaux radiaux sont également innervés par le nerf médian, et non par le nerf cubital."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez une patiente lors d'une marche : pendant la phase d'appui unipodal droite, le bassin reste horizontal sans chute controlatérale. Quels muscles assurent principalement cette stabilité frontale du bassin ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Petit fessier, moyen fessier et tenseur du fascia lata du côté en appui",
+     "correct": true,
+     "j": "Ces trois abducteurs du côté en appui forment un levier du 1er genre dont le point d'appui est la coxo-fémorale, équilibrant le poids du corps qui chercherait à incliner le bassin du côté opposé."
+    },
+    {
+     "t": "Adducteurs et grand fessier du côté en appui",
+     "j": "Les adducteurs auraient l'effet inverse (chute controlatérale du bassin) ; le grand fessier contribue surtout à la stabilité antéropostérieure."
+    },
+    {
+     "t": "Pelvitrochantériens (piriforme, jumeaux, obturateurs) du côté en appui",
+     "j": "Les pelvitrochantériens sont des rotateurs externes et stabilisateurs profonds, mais ne contrôlent pas le déséquilibre frontal en appui unipodal."
+    }
+   ]
+  },
+  {
+   "q": "Un patient en décubitus ventral, genou fléchi à 90°, ramène activement le tibia vers le côté controlatéral du corps. Quels muscles produisent ce mouvement ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Pelvitrochantériens (piriforme, jumeaux, obturateurs, carré fémoral) et sartorius",
+     "correct": true,
+     "j": "Ce mouvement correspond à la rotation externe de la hanche évaluée en décubitus ventral ; les pelvitrochantériens et le sartorius en sont les principaux moteurs."
+    },
+    {
+     "t": "TFL, petit fessier et moyen fessier (fibres antérieures)",
+     "j": "Ces muscles sont des rotateurs internes de la hanche : ils amèneraient le tibia vers l'extérieur, pas vers le côté controlatéral."
+    },
+    {
+     "t": "Psoas-iliaque, pectiné et long adducteur",
+     "j": "Ces muscles sont surtout fléchisseurs et adducteurs ; leur rôle rotatoire est marginal et plutôt internalisant."
+    }
+   ]
+  },
+  {
+   "q": "Vous mesurez la flexion passive de hanche chez un patient. La même hanche atteint 90° genou tendu et 130° genou fléchi. Quel mécanisme principal explique cette différence ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Détente des ischio-jambiers biarticulaires lorsque le genou est fléchi",
+     "correct": true,
+     "j": "Genou tendu, les ischio-jambiers sont mis en tension passive et limitent la flexion à 90° ; genou fléchi, ils se détendent et la flexion atteint sa limite ligamentaire et osseuse vers 130-140°."
+    },
+    {
+     "t": "Allongement du droit fémoral lors de la flexion du genou",
+     "j": "Le droit fémoral est antagoniste de la flexion de hanche mais sa tension limite l'extension, pas la flexion ; son raccourcissement en flexion de genou n'augmente pas l'amplitude de flexion coxo-fémorale."
+    },
+    {
+     "t": "Détente du faisceau supérieur du ligament ilio-fémoral",
+     "j": "Ce ligament limite l'extension de hanche, pas la flexion ; sa tension n'est pas modifiée par la position du genou."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une flexion maximale passive de la hanche genou fléchi, le mouvement s'arrête vers 135-140°. Quelle est la limite physiologique principale à ce moment ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Contact des masses molles de la cuisse avec la paroi abdominale antérieure",
+     "correct": true,
+     "j": "Genou fléchi, ischio-jambiers détendus et capsule pré-tendue, la limite ultime devient le contact mécanique des masses molles entre cuisse et abdomen."
+    },
+    {
+     "t": "Mise en tension du faisceau postérieur de la capsule coxo-fémorale",
+     "j": "La capsule postérieure se détend en flexion ; c'est en extension qu'elle se tend, elle n'est donc pas la butée de fin de flexion."
+    },
+    {
+     "t": "Choc du col du fémur sur le rebord acétabulaire postérieur",
+     "j": "Le conflit fémoro-acétabulaire peut limiter la flexion en pathologie, mais la limite physiologique normale reste le contact des masses molles."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une course en montée avec port d'une charge dorsale, quel groupe musculaire est principalement sollicité pour assurer la stabilité antéropostérieure du bassin et l'extension de hanche ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le grand fessier, extenseur le plus puissant de la coxo-fémorale",
+     "correct": true,
+     "j": "La course en montée et le port d'une charge dorsale exigent une extension de hanche vigoureuse contre forte résistance, situation où le grand fessier, extenseur principal, devient le moteur dominant au-delà du seuil où les ischio-jambiers suffisent."
+    },
+    {
+     "t": "Les ischio-jambiers, extenseurs de hanche et stabilisateurs antéropostérieurs du bassin",
+     "j": "Les ischio-jambiers participent à l'extension et stabilisent le bassin lors de la marche normale et de la course sur le plat, mais en montée chargée leur puissance d'extension reste inférieure à celle du grand fessier, qui prend le relais."
+    },
+    {
+     "t": "Le faisceau inférieur du grand adducteur, accessoirement extenseur de hanche",
+     "j": "Le faisceau vertical postérieur du grand adducteur a une composante extensrice et stabilisatrice, mais accessoire : il complète l'action sans constituer le groupe principal recruté en montée chargée."
+    }
+   ]
+  },
+  {
+   "q": "Une danseuse en grand écart latéral, hanche en abduction maximale et rotation externe, ressent une sensation de tirage profond dans la région antéro-inférieure de la coxo-fémorale. Quel ligament est principalement mis en tension ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Ligament pubo-fémoral",
+     "correct": true,
+     "j": "Le pubo-fémoral est étiré par l'abduction, l'extension et la rotation externe ; antéro-inférieur, il est mis en tension marquée dans cette position de grand écart."
+    },
+    {
+     "t": "Ligament ischio-fémoral",
+     "j": "L'ischio-fémoral est postérieur ; il se tend surtout en rotation interne et extension, position inverse de celle décrite."
+    },
+    {
+     "t": "Faisceau ilio-prétrochantérien (ilio-fémoral)",
+     "j": "Ce faisceau antéro-supérieur limite surtout l'extension et la rotation externe en station debout, mais se relâche en abduction et n'est pas la cible antéro-inférieure ici."
+    }
+   ]
+  },
+  {
+   "q": "Un patient présente une raideur isolée du ligament pubo-fémoral après chirurgie de la hanche. Quels mouvements seront principalement limités d'après les limites articulaires décrites en cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Extension et abduction de la hanche",
+     "correct": true,
+     "j": "Le cours liste le ligament pubo-fémoral parmi les limites ligamentaires de l'extension (avec coxo-fémoral fascicule inférieur et ischio-fémoral) et de l'abduction (avec ischio-fémoral) ; sa rétraction limite donc ce couple de mouvements."
+    },
+    {
+     "t": "Adduction et rotation interne de hanche",
+     "j": "Le cours attribue la limitation de l'adduction au ligament ilio-fémoral (faisceau supérieur) et au ligament de la tête fémorale, et la limitation de la rotation interne au ligament ischio-fémoral et au ligament de la tête fémorale ; le pubo-fémoral n'y figure pas."
+    },
+    {
+     "t": "Flexion et rotation externe de hanche",
+     "j": "Le cours indique que la rotation externe est limitée par l'ilio-fémoral (fascicules supérieur et inférieur) et le ligament de la tête fémorale ; la flexion n'est pas limitée par le pubo-fémoral, qui se détend en flexion."
+    }
+   ]
+  },
+  {
+   "q": "Vous décrivez à un patient les mouvements principaux et secondaires du genou en vous appuyant sur la biomécanique articulaire. Quelle proposition correspond exactement au cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Flexion-extension principale dans le plan sagittal, rotations secondaires nécessitant une flexion préalable",
+     "correct": true,
+     "j": "Le cours décrit la flexo-extension comme mouvement principal (axe transversal, plan sagittal) et la rotation comme mouvement secondaire (axe vertical) ; en extension maximale, croisés et collatéraux tendus abolissent les rotations, qui exigent donc une flexion préalable."
+    },
+    {
+     "t": "Abduction-adduction principales dans le plan transversal, possibles en extension complète",
+     "j": "Le cours qualifie les mouvements latéraux de 'pseudomouvement de latéralité' ou 'jeu mécanique' (1 à 2 cm), qui disparaissent justement en extension ; ce ne sont pas des mouvements principaux."
+    },
+    {
+     "t": "Rotations principales dans le plan frontal, abolies dès que le genou se fléchit",
+     "j": "Les rotations sont des mouvements secondaires (plan transversal, non frontal) ; elles ne sont accessibles que genou fléchi et sont au contraire abolies en extension maximale, l'inverse de ce qui est proposé."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'un test de force des ischio-jambiers (flexion résistée du genou), pourquoi est-il préférable de mettre le patient hanche fléchie plutôt qu'en extension neutre ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Hanche fléchie, les ischio-jambiers biarticulaires sont pré-étirés et donc plus efficaces",
+     "correct": true,
+     "j": "La pré-tension passive (loi de Blix) augmente la tension active développée. Hanche fléchie, les ischio-jambiers sont allongés à leur origine ischiatique, optimisant leur capacité contractile."
+    },
+    {
+     "t": "Hanche en extension, les ischio-jambiers sont mis sur leur position de raccourcissement maximal",
+     "j": "En extension de hanche, les ischio-jambiers sont raccourcis à leur origine et perdent en efficacité (insuffisance active)."
+    },
+    {
+     "t": "Le poplité, mono-articulaire, devient plus efficace en flexion de hanche",
+     "j": "Le poplité étant mono-articulaire, son efficacité ne dépend pas de la position de la hanche ; cette explication est erronée."
+    }
+   ]
+  },
+  {
+   "q": "Vous testez passivement la flexion maximale du genou, hanche fléchie. Quelle sensation de fin de course (end-feel) attendez-vous physiologiquement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Sensation molle, par contact des masses molles cuisse-jambe postérieures",
+     "correct": true,
+     "j": "La flexion maximale est limitée par le simple contact mécanique mou des masses musculaires postérieures cuisse-jambe ; c'est un end-feel typiquement mou."
+    },
+    {
+     "t": "Sensation dure, par choc osseux condyle-plateau tibial postérieur",
+     "j": "Le glissement postérieur des condyles évite précisément ce choc osseux lors de la flexion ; un end-feel dur serait pathologique."
+    },
+    {
+     "t": "Sensation ferme, par mise en tension du ligament croisé antérieur",
+     "j": "Le LCA est tendu en extension complète, pas en flexion ; il se relâche progressivement en flexion, donc il ne donne pas l'end-feel de fin de flexion."
+    }
+   ]
+  },
+  {
+   "q": "Une joueuse de handball, assise, ramène activement la pointe du pied vers l'intérieur (rotation interne du genou). Quels ligaments sont principalement mis en tension par ce mouvement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les ligaments croisés antérieur et postérieur, qui s'enroulent l'un sur l'autre",
+     "correct": true,
+     "j": "En rotation interne, les croisés s'enroulent et se tendent simultanément ; cet enroulement constitue le frein principal de la rotation interne du genou."
+    },
+    {
+     "t": "Les ligaments collatéraux médial et latéral, qui s'écartent l'un de l'autre",
+     "j": "Les ligaments collatéraux limitent la rotation externe (ils s'écartent en RE) et se détendent au contraire en rotation interne."
+    },
+    {
+     "t": "Le ligament croisé antérieur et le collatéral médial, tendus ensemble",
+     "j": "En rotation interne, c'est l'enroulement des DEUX croisés qui prédomine, pas le LCA seul couplé au collatéral médial."
+    }
+   ]
+  },
+  {
+   "q": "Vous étudiez la cinématique méniscale du genou en flexion (passage de la position debout à accroupie). D'après le cours, comment se déplacent les ménisques ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ils reculent tous les deux, le ménisque externe davantage et se déforme plus",
+     "correct": true,
+     "j": "Le cours indique qu'en flexion les ménisques se déplacent en arrière en suivant le roulement des condyles : le ménisque externe recule environ deux fois plus que l'interne et se déforme davantage."
+    },
+    {
+     "t": "Ils avancent tous les deux, tirés vers l'avant par les ailerons rotuliens",
+     "j": "Le cours décrit cette avancée méniscale lors de l'EXTENSION (tension des ailerons rotuliens et du ligament ménisco-fémoral tirant la corne postérieure du ménisque externe vers l'avant), pas en flexion."
+    },
+    {
+     "t": "Le ménisque interne avance tandis que le ménisque externe recule en arrière",
+     "j": "Ces déplacements opposés correspondent au comportement méniscal en ROTATION (en RE : ME avance / MI se replie ; en RI : inverse), pas à la flexion où les deux ménisques reculent ensemble."
+    }
+   ]
+  },
+  {
+   "q": "Un patient effectue un squat profond. Décrivez le comportement biomécanique des condyles fémoraux sur les plateaux tibiaux lors de la descente.",
+   "c": 2,
+   "options": [
+    {
+     "t": "Roulement postérieur et glissement antérieur simultanés",
+     "correct": true,
+     "j": "En chaîne fermée fléchissante (squat), le fémur convexe se déplace sur le tibia concave : le roulement suit le mouvement angulaire (postérieur en flexion) et est couplé à un glissement opposé (antérieur), ce qui évite la luxation postérieure du condyle."
+    },
+    {
+     "t": "Roulement postérieur et glissement postérieur simultanés",
+     "j": "Sans glissement antérieur compensateur, les condyles luxeraient en arrière par-dessus le plateau tibial : roulement et glissement de même sens sont impossibles en chaîne fermée."
+    },
+    {
+     "t": "Roulement antérieur et glissement postérieur simultanés",
+     "j": "Ce schéma correspond à l'extension en chaîne fermée (relèvement du squat), pas à la descente fléchissante où le roulement se fait en arrière."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente présente une hyperextension du genou de 15° (genu recurvatum). Quelles structures contrôlent normalement et limitent l'hyperextension du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Plan capsulo-ligamentaire postérieur, ligaments collatéraux et muscles fléchisseurs",
+     "correct": true,
+     "j": "L'hyperextension est freinée par le plan postérieur (coques condyliennes, poplité oblique et arqué), les collatéraux qui se tendent en extension et les muscles fléchisseurs ; leur faillite donne le recurvatum."
+    },
+    {
+     "t": "Ligament croisé postérieur, ménisques et muscle poplité",
+     "j": "Le LCP et le poplité sont tendus et actifs en flexion, pas en extension ; les ménisques ne freinent pas l'hyperextension : ce plan ne contrôle pas le recurvatum."
+    },
+    {
+     "t": "Muscle quadriceps, tendon patellaire et aileron rotulien médial",
+     "j": "Le quadriceps et l'appareil extenseur sont les moteurs de l'extension, non ses freins ; ils ne participent pas à la limitation de l'hyperextension."
+    }
+   ]
+  },
+  {
+   "q": "En chaîne cinétique fermée (CCF), un sujet effectue une extension de genou en se relevant d'un squat. Décrivez la cinématique fémoro-tibiale.",
+   "c": 2,
+   "options": [
+    {
+     "t": "Roulement antérieur des condyles, glissement postérieur simultané",
+     "correct": true,
+     "j": "En CCF en extension, la surface convexe (fémur) se déplace sur la concave (tibia) : roulement antérieur (sens du mouvement angulaire) couplé à un glissement postérieur compensateur."
+    },
+    {
+     "t": "Glissement antérieur du tibia sur le fémur, sans roulement condylien associé",
+     "j": "En CCF c'est le fémur qui se déplace sur le tibia stable au sol, pas l'inverse ; un glissement isolé sans roulement n'existe pas dans le couple cinématique du genou."
+    },
+    {
+     "t": "Roulement postérieur des condyles, glissement postérieur simultané",
+     "j": "Roulement et glissement sont obligatoirement opposés en CCF pour préserver le contact articulaire, et en extension le roulement se fait en avant, non en arrière."
+    }
+   ]
+  },
+  {
+   "q": "Pourquoi la rotule a-t-elle une tendance physiologique à la luxation latérale en extension complète du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Angle Q ouvert latéralement et joue trochléenne externe plus proéminente",
+     "correct": true,
+     "j": "La résultante des tendons quadricipital et rotulien (angle Q) tire la rotule en dehors ; en extension la coaptation diminue et seules la prééminence trochléenne externe et le vaste médial oblique s'y opposent."
+    },
+    {
+     "t": "Angle Q ouvert médialement et joue trochléenne interne plus proéminente",
+     "j": "L'angle Q est physiologiquement ouvert en dehors et c'est la joue externe qui est plus haute : ce schéma inversé décrirait une tendance à la luxation médiale, qui n'existe pas en physiologie."
+    },
+    {
+     "t": "Traction médiale du tendon rotulien et insuffisance du vaste latéral",
+     "j": "Le tendon rotulien suit l'axe TTA-rotule et participe à la résultante latéralisée ; c'est l'insuffisance du vaste médial oblique, non latéral, qui favorise la luxation externe."
+    }
+   ]
+  },
+  {
+   "q": "Un patient est assis sur une table, jambe pendante. Il effectue une extension active du genou en CCO. Décrivez la cinématique tibio-fémorale.",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le tibia roule antérieurement et glisse antérieurement sur le fémur",
+     "correct": true,
+     "j": "En CCO, la surface concave (tibia) se déplace sur la convexe (fémur) : roulement et glissement se font dans le même sens (antérieur en extension)."
+    },
+    {
+     "t": "Le tibia roule antérieurement et glisse postérieurement sur le fémur",
+     "j": "Des sens opposés caractérisent la chaîne fermée ; en CCO avec surface concave sur convexe, roulement et glissement sont de même sens."
+    },
+    {
+     "t": "Le fémur roule postérieurement et glisse antérieurement sur le tibia",
+     "j": "En CCO le fémur est fixe et c'est le tibia qui se déplace ; ce schéma fémoral relève de la chaîne fermée."
+    }
+   ]
+  },
+  {
+   "q": "Un coureur de fond, debout, désigne ses muscles éverseurs. Quels muscles sont responsables de l'éversion active du pied ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Long fibulaire et court fibulaire",
+     "correct": true,
+     "j": "Les deux fibulaires latéraux passent en arrière de la malléole latérale et s'insèrent à la base des métatarsiens externes ; ils combinent abduction, pronation et flexion plantaire (éversion)."
+    },
+    {
+     "t": "Tibial postérieur et long fléchisseur des orteils",
+     "j": "Ces muscles passent en arrière de la malléole médiale : ils font l'inversion (adduction + supination), pas l'éversion."
+    },
+    {
+     "t": "Tibial antérieur et long extenseur du gros orteil",
+     "j": "Le tibial antérieur fait flexion dorsale + adduction + supination ; le LEH également flexion dorsale + supination : ce sont des inverseurs en flexion dorsale."
+    }
+   ]
+  },
+  {
+   "q": "Un patient effectue une flexion dorsale maximale active de cheville. Que se passe-t-il au niveau des articulations tibio-fibulaires inférieure et talo-crurale ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Écartement et rotation externe de la malléole externe, roulement antérieur du talus",
+     "correct": true,
+     "j": "La trochlée talienne plus large en avant ouvre la mortaise en flexion dorsale : la malléole externe s'écarte et tourne en rotation externe, le talus roule en avant et glisse en arrière (couple de mouvement contraire)."
+    },
+    {
+     "t": "Rapprochement et rotation interne de la malléole externe, roulement postérieur du talus",
+     "j": "C'est la cinématique inverse, observée en flexion plantaire où la partie postérieure plus étroite de la trochlée laisse la mortaise se refermer."
+    },
+    {
+     "t": "Élévation et rotation interne de la malléole externe, roulement antérieur du talus",
+     "j": "La malléole externe s'élève bien en flexion dorsale, mais elle tourne en rotation externe (non interne) et s'écarte ; cette combinaison mêle à tort des composantes des deux mouvements."
+    }
+   ]
+  },
+  {
+   "q": "Vous décomposez le mouvement d'inversion du pied. Quelles composantes cinématiques retrouvez-vous ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Flexion plantaire + adduction + supination",
+     "correct": true,
+     "j": "L'inversion est un mouvement complexe autour de l'axe oblique de Henke, combinant les 3 composantes : flexion plantaire (descente), adduction (vers la ligne médiane) et supination (rotation interne du pied)."
+    },
+    {
+     "t": "Flexion dorsale + adduction + supination",
+     "j": "L'inversion comporte une flexion plantaire, pas dorsale ; cette combinaison correspondrait à un mouvement non physiologique de l'axe de Henke."
+    },
+    {
+     "t": "Flexion plantaire + abduction + pronation",
+     "j": "Cette combinaison définit l'éversion, mouvement opposé à l'inversion."
+    }
+   ]
+  },
+  {
+   "q": "L'axe de Henke est un repère anatomique fondamental du pied. Quelle description est exacte ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Axe oblique passant par le col du talus et la tubérosité postéro-latérale du calcanéum, permettant l'inversion-éversion",
+     "correct": true,
+     "j": "L'axe de Henke est l'axe oblique tridimensionnel de l'articulation subtalaire ; son obliquité explique la combinaison flexion + adduction-abduction + supination-pronation lors d'un mouvement pur d'inversion-éversion."
+    },
+    {
+     "t": "Axe horizontal passant par les deux malléoles, permettant la flexion dorsale-plantaire",
+     "j": "Cet axe horizontal bi-malléolaire correspond à l'articulation talo-crurale (flexion dorsale-plantaire), et non à l'axe de Henke."
+    },
+    {
+     "t": "Axe vertical passant par le centre du talus, permettant l'abduction-adduction",
+     "j": "L'axe vertical du pied permet surtout l'abduction-adduction au niveau de l'avant-pied, mais ne correspond pas à l'axe de Henke qui est oblique et subtalaire."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez la voûte plantaire d'une patiente. Quels muscles soutiennent activement l'arche longitudinale interne du pied ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Tibial postérieur et long fibulaire",
+     "correct": true,
+     "j": "Le tibial postérieur soutient activement l'arche médiale par son insertion sur le naviculaire ; le long fibulaire la complète en croisant la plante du pied de la malléole externe au 1er métatarsien (effet en étrier)."
+    },
+    {
+     "t": "Tibial antérieur et triceps sural",
+     "j": "Le tibial antérieur élève le bord interne mais agit surtout en flexion dorsale ; le triceps sural est plantaire mais n'a pas de rôle direct de soutien d'arche."
+    },
+    {
+     "t": "Court fibulaire et long fléchisseur des orteils",
+     "j": "Le court fibulaire ne participe pas au soutien de l'arche interne (insertion 5e méta) ; le LFO contribue indirectement par l'enroulement des orteils."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente porteuse d'une instabilité chronique de cheville présente une rupture isolée d'un faisceau du ligament collatéral latéral. Quel mécanisme traumatique en est typiquement responsable et quel faisceau est concerné ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Inversion forcée en flexion plantaire, rupture du ligament talo-fibulaire antérieur",
+     "correct": true,
+     "j": "L'inversion en flexion plantaire est le mécanisme classique de l'entorse externe ; le talo-fibulaire antérieur (LTFA) est le premier faisceau lésé et le plus exposé."
+    },
+    {
+     "t": "Éversion forcée, rupture du ligament calcanéo-fibulaire",
+     "j": "L'éversion lèse plutôt le ligament deltoïde médial et peut fracturer les malléoles ; pas le calcanéo-fibulaire (faisceau moyen, lésé en inversion plus sévère)."
+    },
+    {
+     "t": "Flexion dorsale forcée, rupture du talo-fibulaire postérieur",
+     "j": "La FD forcée peut causer un conflit antérieur ou une fracture du col du talus, mais ne rompt pas typiquement le LTFP qui est très résistant et rarement isolément lésé."
+    }
+   ]
+  },
+  {
+   "q": "Un joueur de basket atterrit après un saut sur un pied en éversion forcée. Quelle conséquence anatomique principale faut-il craindre ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Fracture des malléoles, particulièrement la malléole latérale",
+     "correct": true,
+     "j": "L'éversion forcée projette le talus contre la malléole externe qui peut se fracturer (mécanisme de Weber) ; les fractures bi-malléolaires sont également possibles."
+    },
+    {
+     "t": "Rupture isolée du ligament talo-fibulaire antérieur",
+     "j": "Le LTFA est lésé en inversion (entorse externe), pas en éversion qui sollicite le compartiment médial et osseux."
+    },
+    {
+     "t": "Luxation pure de l'articulation subtalaire",
+     "j": "La luxation subtalaire pure existe mais le tableau d'éversion forcée projette d'abord le talus contre les malléoles avant toute luxation."
+    }
+   ]
+  },
+  {
+   "q": "En chaîne cinétique ouverte (CCO), un patient assis effectue une extension active du genou. Quelle est la cinématique fémoro-tibiale exacte ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le tibia roule et glisse antérieurement, dans le même sens, sur le fémur fixe",
+     "correct": true,
+     "j": "En CCO le fémur est fixe ; la surface concave (plateau tibial) sur surface convexe (condyles) donne un roulement et un glissement homodirectionnels, le tibia avançant globalement."
+    },
+    {
+     "t": "Le tibia roule antérieurement et glisse postérieurement, en sens opposés, sur le fémur fixe",
+     "j": "Le couplage en sens opposés (roulement et glissement inverses) caractérise la chaîne fermée (convexe sur concave), pas la CCO."
+    },
+    {
+     "t": "Le fémur roule et glisse antérieurement, dans le même sens, sur le tibia fixe",
+     "j": "En CCO c'est le segment distal (tibia) qui se déplace ; le fémur n'est pas le segment mobile dans cette position assise."
+    }
+   ]
+  },
+  {
+   "q": "Une danseuse présente un syndrome rotulien avec luxation latérale récidivante. Quel facteur biomécanique principal favorise cette tendance ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Insuffisance du vaste médial oblique opposé à la latéralisation rotulienne",
+     "correct": true,
+     "j": "Le vaste médial oblique est le seul frein actif à la luxation externe ; sa faiblesse laisse libre cours à la résultante quadricipitale latéralisée (angle Q)."
+    },
+    {
+     "t": "Insuffisance du vaste latéral opposé à la latéralisation rotulienne",
+     "j": "Le vaste latéral tire au contraire la rotule en dehors ; sa faiblesse réduirait la latéralisation au lieu de la favoriser."
+    },
+    {
+     "t": "Hypertonie du droit fémoral exerçant une traction latérale",
+     "j": "Le droit fémoral est central et tire dans l'axe du quadriceps ; son hypertonie n'oriente pas la rotule latéralement."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente de 65 ans présente un pied plat acquis avec affaissement de la voûte longitudinale interne. Quel muscle, par son insuffisance, est principalement responsable de cet affaissement ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Tibial postérieur",
+     "correct": true,
+     "j": "Le tibial postérieur soutient activement l'arche interne par son insertion principale sur le naviculaire ; sa dysfonction (tendinopathie chronique du sujet âgé) entraîne un pied plat valgus."
+    },
+    {
+     "t": "Long fibulaire",
+     "j": "Le long fibulaire soutient l'arche transversale et le bord interne au niveau du 1er méta, mais son rôle dans le pied plat est moindre que celui du tibial postérieur."
+    },
+    {
+     "t": "Tibial antérieur",
+     "j": "Le tibial antérieur élève dynamiquement le bord interne en flexion dorsale ; son insuffisance donne un steppage, pas un pied plat statique."
+    }
+   ]
+  },
+  {
+   "q": "Un patient est en décubitus dorsal, vous saisissez son tibia distal et le tirez vers l'avant, genou fléchi à 90°, hanche à 45°. Quel ligament testez-vous ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ligament croisé antérieur",
+     "correct": true,
+     "j": "Le tiroir antérieur (translation antérieure anormale du tibia sur le fémur) signe l'atteinte du LCA, frein principal de la translation antérieure du tibia."
+    },
+    {
+     "t": "Ligament croisé postérieur",
+     "j": "Le LCP se teste par tiroir postérieur (poussée du tibia vers l'arrière), pas par traction antérieure."
+    },
+    {
+     "t": "Ligament collatéral médial",
+     "j": "Le LCM se teste par contrainte en valgus forcé, pas par translation antéro-postérieure."
+    }
+   ]
+  },
+  {
+   "q": "Lors de la marche normale, un mécanisme de rotation axiale automatique du genou se produit dans les derniers degrés d'extension. Quelle est cette rotation ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Rotation externe automatique du tibia",
+     "correct": true,
+     "j": "En fin d'extension, le condyle médial parcourt une course plus longue que le latéral, imposant une rotation externe automatique du tibia de 5 à 10° qui verrouille le genou (vis et écrou)."
+    },
+    {
+     "t": "Rotation interne automatique du tibia",
+     "j": "La rotation interne du tibia survient au début de la flexion (déverrouillage), pas en fin d'extension."
+    },
+    {
+     "t": "Rotation externe automatique du fémur",
+     "j": "Le verrouillage final ne se fait jamais par rotation externe du fémur : en chaîne fermée le fémur tourne au contraire en rotation interne sur le tibia fixé."
+    }
+   ]
+  },
+  {
+   "q": "Un patient présente une raideur du LCP suite à une ancienne entorse postérieure. Quel mouvement sera principalement limité ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Flexion complète du genou",
+     "correct": true,
+     "j": "Le LCP atteint sa tension maximale au-delà de 90° de flexion ; sa fibrose limite donc surtout la flexion complète."
+    },
+    {
+     "t": "Extension complète du genou",
+     "j": "L'extension tend le LCA, pas le LCP, qui est plutôt détendu en extension ; elle n'est pas freinée par sa rétraction."
+    },
+    {
+     "t": "Rotation externe en extension",
+     "j": "En extension les rotations sont abolies par le verrouillage automatique, et le LCP n'est pas le frein de la rotation externe."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'un mouvement de rotation externe du genou en CCO, quel déplacement réalise le ménisque externe ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le ménisque externe s'avance sur sa glène pendant que le médial recule",
+     "correct": true,
+     "j": "En rotation externe, le condyle latéral avance par rapport au plateau tibial latéral, entraînant le ménisque externe vers l'avant ; simultanément le condyle médial recule et chasse le ménisque interne en arrière."
+    },
+    {
+     "t": "Le ménisque externe recule pendant que le médial s'avance",
+     "j": "Ce schéma inversé correspond à la rotation interne du genou : c'est alors le ménisque externe qui recule et le médial qui s'avance, l'opposé de la rotation externe."
+    },
+    {
+     "t": "Les deux ménisques reculent symétriquement sur leurs glènes",
+     "j": "Les ménisques suivent les condyles en sens opposés lors des rotations ; ils ne reculent jamais ensemble, ce déplacement symétrique n'existe pas en rotation axiale."
+    }
+   ]
+  },
+  {
+   "q": "Lors de l'évaluation d'une flexion plantaire isolée du gros orteil, quel muscle testez-vous principalement ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Long fléchisseur de l'hallux",
+     "correct": true,
+     "j": "Le LFH s'insère sur la base de la phalange distale du gros orteil et produit sa flexion plantaire interphalangienne active ; il est testé par poussée résistée du pulpe contre le pouce de l'examinateur."
+    },
+    {
+     "t": "Court fléchisseur de l'hallux",
+     "j": "Muscle intrinsèque s'insérant sur la phalange proximale via les os sésamoïdes : il fléchit la métatarso-phalangienne du gros orteil mais non l'interphalangienne distale, qui isole le LFH."
+    },
+    {
+     "t": "Long fléchisseur des orteils",
+     "j": "Il s'insère sur les phalanges distales des quatre derniers orteils (2 à 5) et n'agit pas sur le gros orteil, qui possède son propre fléchisseur long."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle est principalement responsable de la flexion plantaire de la cheville et atteint son efficacité maximale genou en extension ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Triceps sural (gastrocnémiens et soléaire)",
+     "correct": true,
+     "j": "Les gastrocnémiens biarticulaires sont pré-tendus genou tendu : la flexion plantaire est alors maximale ; genou fléchi, ils perdent en efficacité (insuffisance active). Le soléaire mono-articulaire complète l'ensemble."
+    },
+    {
+     "t": "Soléaire (chef profond du triceps)",
+     "j": "Fléchisseur plantaire puissant mais mono-articulaire : son efficacité est indépendante de la position du genou, donc il ne répond pas au critère « maximale genou en extension »."
+    },
+    {
+     "t": "Tibial postérieur (loge postérieure profonde)",
+     "j": "Fléchisseur plantaire accessoire, surtout inverseur du pied ; son action ne dépend pas de la position du genou."
+    }
+   ]
+  },
+  {
+   "q": "Un test passif de flexion dorsale de cheville chez un patient retrouve une limite à 5°, genou en extension, qui passe à 15° genou fléchi. Quel muscle est responsable de cette différence ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Gastrocnémiens (muscle biarticulaire enjambant le genou)",
+     "correct": true,
+     "j": "Biarticulaires, les gastrocnémiens sont étirés genou tendu et limitent la flexion dorsale ; genou fléchi, ils se relâchent et libèrent l'amplitude (test de Silfverskiöld positif)."
+    },
+    {
+     "t": "Soléaire (muscle mono-articulaire de la jambe)",
+     "j": "Mono-articulaire, son raccourcissement est indépendant du genou : il limiterait la flexion dorsale de manière identique dans les deux positions (Silfverskiöld négatif)."
+    },
+    {
+     "t": "Tibial postérieur (muscle mono-articulaire de la loge profonde)",
+     "j": "Mono-articulaire et surtout inverseur du pied ; sa tension ne varie pas avec la position du genou."
+    }
+   ]
+  },
+  {
+   "q": "Quelle position est dite de stabilité maximale (close-pack) pour l'articulation du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Extension complète avec rotation externe automatique",
+     "correct": true,
+     "j": "En extension complète, croisés et collatéraux sont tendus et la rotation externe automatique verrouille l'articulation : c'est le close-pack du genou."
+    },
+    {
+     "t": "Extension complète avec rotation interne forcée",
+     "j": "L'extension est bien la position de verrouillage, mais la rotation automatique terminale est externe (vis de verrouillage), pas interne."
+    },
+    {
+     "t": "Flexion à 90° avec rotation neutre",
+     "j": "À 90° de flexion, les collatéraux se détendent et la mobilité rotatoire est maximale : c'est la position loose-pack, la moins stable."
+    }
+   ]
+  },
+  {
+   "q": "Quelle articulation tarsienne forme l'articulation médio-tarsienne de Chopart ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Talo-naviculaire + calcanéo-cuboïdienne",
+     "correct": true,
+     "j": "Chopart (transverse du tarse) sépare l'arrière-pied (talus, calcanéus) du médio-pied (naviculaire, cuboïde) et participe à l'inversion-éversion."
+    },
+    {
+     "t": "Talo-calcanéenne + cunéo-naviculaire",
+     "j": "La talo-calcanéenne est l'articulation subtalaire et la cunéo-naviculaire est plus distale : aucune ne constitue Chopart."
+    },
+    {
+     "t": "Cunéo-métatarsiennes + cuboïdo-métatarsiennes",
+     "j": "Cet ensemble forme l'articulation tarso-métatarsienne de Lisfranc, située en aval de Chopart."
+    }
+   ]
+  },
+  {
+   "q": "Un patient en décubitus dorsal, hanche fléchie à 90° et genou fléchi à 90°, présente une douleur lors de la rotation interne passive de la hanche. Vers quelle pathologie cela oriente-t-il principalement ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Conflit fémoro-acétabulaire antérieur",
+     "correct": true,
+     "j": "La position flexion + rotation interne (test FADIR) amène la jonction tête-col contre le rebord acétabulaire antéro-supérieur ; douleur reproduite = conflit cam ou pincer."
+    },
+    {
+     "t": "Tendinopathie du moyen fessier",
+     "j": "La tendinopathie glutéale donne une douleur trochantérienne en abduction résistée, pas en flexion-rotation interne passive."
+    },
+    {
+     "t": "Bursite ischiatique postérieure",
+     "j": "La bursite ischiatique se manifeste en position assise prolongée et à la flexion résistée du genou, pas en rotation interne passive de hanche."
+    }
+   ]
+  },
+  {
+   "q": "Le triceps sural produit la flexion plantaire mais sa contraction maximale s'accompagne d'une autre composante au niveau du pied. Laquelle ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Adduction et supination (varus du pied)",
+     "correct": true,
+     "j": "Le triceps sural s'insère sur la face postérieure du calcanéum, en dedans de l'axe sous-talien : sa contraction maximale entraîne adduction et supination, soit un varus."
+    },
+    {
+     "t": "Abduction et pronation (valgus du pied)",
+     "j": "Ces composantes correspondent aux muscles fibulaires latéraux, pas au triceps sural."
+    },
+    {
+     "t": "Flexion dorsale et abduction (talus du pied)",
+     "j": "Antagonistes du triceps sural : ce sont les muscles de la loge antéro-latérale de la jambe."
+    }
+   ]
+  },
+  {
+   "q": "Une étudiante en kinésithérapie évalue la stabilité antérolatérale du genou lors d'un test de pivot shift positif. Quel ligament est principalement lésé ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ligament croisé antérieur",
+     "correct": true,
+     "j": "Le pivot shift teste la subluxation antérieure du plateau tibial latéral lors d'une flexion sous valgus + RI : signe pathognomonique d'une rupture du LCA."
+    },
+    {
+     "t": "Ligament collatéral médial",
+     "j": "Le LCM se teste en valgus à 30°, pas par pivot shift."
+    },
+    {
+     "t": "Ligament croisé postérieur",
+     "j": "Le LCP se teste par tiroir postérieur ou test de Godfrey, pas par pivot shift."
+    }
+   ]
+  },
+  {
+   "q": "En position anatomique debout, un sujet effectue une flexion passive du tronc en avant. Quelle composante intervient au niveau de la hanche dans le rythme lombo-pelvien ipsi-directionnel ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Bassin et colonne lombaire tournent dans le même sens, vers l'avant",
+     "correct": true,
+     "j": "Le rythme ipsi-directionnel décrit colonne et bassin tournant dans le même sens : la flexion antérieure du tronc s'accompagne d'une antéversion du bassin (flexion de hanche)."
+    },
+    {
+     "t": "Bassin et colonne lombaire tournent en sens opposés, le bassin partant en rétroversion",
+     "j": "C'est le rythme contradirectionnel (mouvements opposés du bassin et du rachis) : le bassin rétroverse pendant que le tronc fléchit, ce qui n'est pas le rythme ipsi-directionnel décrit ici."
+    },
+    {
+     "t": "Le bassin précède le rachis lombaire qui reste verrouillé en lordose",
+     "j": "Inversion de la séquence physiologique : c'est le rachis lombaire qui s'enroule d'abord, puis le bassin antéverse ; un lombaire figé en lordose ne correspond pas au rythme ipsi-directionnel."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une flexion de hanche au-delà de 90°, quelle modification posturale rachidienne est physiologique ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Rétroversion du bassin et diminution de la lordose lombaire",
+     "correct": true,
+     "j": "Au-delà de 90°, la coxo-fémorale atteint sa limite : la suite du mouvement passe par la rétroversion pelvienne, qui aplanit la lordose lombaire (effacement)."
+    },
+    {
+     "t": "Antéversion du bassin et augmentation de la lordose lombaire",
+     "j": "L'antéversion pelvienne accompagne l'extension de hanche, pas la flexion, et accentue la lordose au lieu de l'effacer."
+    },
+    {
+     "t": "Rétroversion du bassin et accentuation de la lordose lombaire",
+     "j": "La rétroversion pelvienne est bien associée à la flexion au-delà de 90°, mais elle efface la lordose et ne peut pas l'accentuer simultanément : l'association proposée est contradictoire."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une marche normale, à quel moment du cycle survient la supination maximale de l'arrière-pied selon le cours ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Pendant la phase d'impulsion (propulsion)",
+     "correct": true,
+     "j": "Le cours indique explicitement : « La supination maximale est produite généralement pendant la phase d'impulsion » ; ce mécanisme stabilise l'avant-pied sur l'arrière-pied lors de la propulsion."
+    },
+    {
+     "t": "À l'attaque du talon",
+     "j": "À l'attaque du talon, le pied est en réception et amortit la charge ; le cours situe la supination maximale lors de la phase d'impulsion, pas à la réception."
+    },
+    {
+     "t": "En milieu de phase d'oscillation",
+     "j": "La phase d'oscillation n'est pas le moment où l'avant-pied se stabilise sur l'arrière-pied ; le cours rattache la supination maximale à la phase d'impulsion (appui)."
+    }
+   ]
+  },
+  {
+   "q": "En extension active du genou, quel mécanisme tire la corne postérieure du ménisque externe vers l'avant selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La tension du ligament ménisco-fémoral",
+     "correct": true,
+     "j": "Le cours énonce : « La tension du ligament ménisco-fémoral tire vers l'avant la corne postérieure du ménisque externe » lors de l'extension (facteur actif d'avancée du ménisque)."
+    },
+    {
+     "t": "La tension de l'expansion du muscle semi-membraneux",
+     "j": "Selon le cours, l'expansion du semi-membraneux tire le ménisque INTERNE vers l'ARRIÈRE en flexion ; elle n'avance pas la corne postérieure du ménisque externe en extension."
+    },
+    {
+     "t": "La contraction du muscle poplité",
+     "j": "Le cours indique que « la ME est propulsée vers l'ARRIÈRE par l'expansion du poplité » lors de la flexion ; le poplité ne tire pas le ménisque externe vers l'avant en extension."
+    }
+   ]
+  },
+  {
+   "q": "Un patient présente une raideur des fléchisseurs du genou (ischio-jambiers courts). Quel test simple utilisez-vous pour les évaluer cliniquement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Test du SLR (jambe tendue) ou angle poplité",
+     "correct": true,
+     "j": "Le SLR mesure passivement la flexion de hanche genou tendu : une limitation < 80° traduit des ischio-jambiers courts ; l'angle poplité en est une variante chiffrée."
+    },
+    {
+     "t": "Test de Thomas (extension de hanche)",
+     "j": "Le test de Thomas évalue la rétraction des fléchisseurs de hanche (psoas, droit fémoral) par défaut d'extension, pas les ischio-jambiers."
+    },
+    {
+     "t": "Test d'Ober (adduction de hanche)",
+     "j": "Le test d'Ober évalue la rétraction du tenseur du fascia lata et de la bandelette ilio-tibiale par défaut d'adduction, pas les ischio-jambiers."
+    }
+   ]
+  },
+  {
+   "q": "En appui unipodal pathologique, le bassin chute du côté oscillant (signe de Trendelenburg). Quel muscle est en cause du côté en appui ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Moyen fessier",
+     "correct": true,
+     "j": "Le moyen fessier est le stabilisateur frontal principal en appui unipodal ; sa faiblesse laisse le bassin chuter du côté oscillant (signe de Trendelenburg positif)."
+    },
+    {
+     "t": "Adducteurs",
+     "j": "Les adducteurs mobilisent le membre dans le plan frontal mais n'ont pas de rôle stabilisateur du bassin en appui unipodal."
+    },
+    {
+     "t": "Grand fessier",
+     "j": "Le grand fessier stabilise plutôt dans le plan sagittal (extension de hanche) ; sa faiblesse donne une démarche en hyperlordose."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez la mobilité de la rotule en glissement latéro-médial chez un patient. À quelle position du genou le test est-il optimal ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Extension complète",
+     "correct": true,
+     "j": "En extension, la rotule n'est pas encore engagée dans la gorge trochléenne et glisse librement ; dès 30° de flexion elle s'encastre et la mobilité passive devient limitée."
+    },
+    {
+     "t": "Flexion à 90°",
+     "j": "À 90°, la rotule est verrouillée dans la trochlée et sa mobilité latérale est physiologiquement réduite."
+    },
+    {
+     "t": "Flexion maximale",
+     "j": "En flexion maximale, la rotule est plaquée fortement contre le fémur (coaptation maximale), donc peu mobilisable passivement."
+    }
+   ]
+  },
+  {
+   "q": "Le muscle poplité a un rôle spécifique au niveau du genou. Lequel ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Déverrouille le genou en initiant la rotation interne du tibia",
+     "correct": true,
+     "j": "Le poplité est le déverrouilleur du genou : sa contraction crée la rotation interne tibiale qui défait le verrouillage en extension et amorce la flexion."
+    },
+    {
+     "t": "Étend le genou en plaquant la rotule contre la trochlée",
+     "j": "L'extension du genou est produite par le quadriceps via l'appareil extenseur ; le poplité n'a aucun rôle extenseur."
+    },
+    {
+     "t": "Verrouille le genou en imposant la rotation externe du tibia",
+     "j": "La rotation externe terminale (screw-home) verrouille le genou en extension ; le poplité fait l'inverse en déclenchant la rotation interne pour déverrouiller."
+    }
+   ]
+  },
+  {
+   "q": "Un patient effectue un test de Lachman positif. Quelle structure ligamentaire est probablement rompue ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ligament croisé antérieur",
+     "correct": true,
+     "j": "Le test de Lachman (tiroir antérieur à 20-30° de flexion) est le test le plus sensible pour le LCA ; sa positivité (translation antérieure > 3-5 mm) signe la rupture du LCA."
+    },
+    {
+     "t": "Ligament croisé postérieur",
+     "j": "Le LCP donne un tiroir postérieur, pas un Lachman positif."
+    },
+    {
+     "t": "Ligament collatéral médial",
+     "j": "Le LCM se teste par contrainte en valgus, pas par Lachman."
+    }
+   ]
+  },
+  {
+   "q": "Lors d'une flexion plantaire de cheville, quel mouvement de la mortaise tibio-fibulaire inférieure est observé ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Rapprochement des malléoles, descente et rotation interne de la malléole externe",
+     "correct": true,
+     "j": "En flexion plantaire, la partie postérieure plus étroite du talus se loge dans la mortaise : les malléoles se rapprochent, avec descente et rotation interne de la malléole externe."
+    },
+    {
+     "t": "Écartement des malléoles, ascension et rotation externe de la malléole externe",
+     "j": "Cet écartement avec ascension et rotation externe correspond à la flexion dorsale, lorsque la partie antérieure large du talus s'engage dans la mortaise."
+    },
+    {
+     "t": "Translation antérieure des malléoles, sans rotation de la malléole externe",
+     "j": "La syndesmose ne réalise pas de simple translation antérieure : le mouvement combine rapprochement/écartement, descente/ascension et rotation de la malléole externe."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez la cinématique du pied chez un sprinter en phase de propulsion. Quel mouvement domine pour stabiliser l'avant-pied ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Supination (verrouillage du transverse du tarse)",
+     "correct": true,
+     "j": "La supination de l'arrière-pied verrouille les articulations de Chopart (transverse du tarse), transformant le pied en levier rigide propice au push-off."
+    },
+    {
+     "t": "Pronation (déverrouillage du transverse du tarse)",
+     "j": "La pronation déverrouille au contraire Chopart et rend le pied flexible ; favorable à l'amortissement à l'attaque du talon, pas à la propulsion."
+    },
+    {
+     "t": "Inversion (verrouillage de la sous-talienne seule)",
+     "j": "L'inversion isolée mobilise surtout la sous-talienne sans le verrouillage couplé de Chopart ; ce n'est pas le mécanisme qui rigidifie l'avant-pied en propulsion."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente de 32 ans, debout, est en rotation externe maximale passive de la coxo-fémorale (genou tendu). Selon le cours, quel(s) ligament(s) limite(nt) ce mouvement ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le ligament ilio-fémoral et le ligament de la tête fémorale",
+     "correct": true,
+     "j": "Le cours rattache la limitation de la rotation externe au ligament ilio-fémoral (fascicules supérieur et inférieur) et au ligament de la tête fémorale, les rotateurs internes complétant la limitation musculaire."
+    },
+    {
+     "t": "Le ligament ischio-fémoral et le ligament de la tête fémorale",
+     "j": "Le cours rattache cette combinaison à la limitation de la rotation interne ('limites de la rotation interne : ligament ischio-fémoral et ligament de la tête fémorale'), pas à la rotation externe."
+    },
+    {
+     "t": "Le ligament pubo-fémoral et le ligament ischio-fémoral",
+     "j": "Le cours associe ces deux ligaments à la limitation de l'abduction de la hanche, et non à la rotation externe."
+    }
+   ]
+  },
+  {
+   "q": "Un coureur présente un déficit de stabilité pelvienne antéropostérieure lors de la propulsion (course, montée). Selon la biomécanique enseignée, quels muscles sont essentiels au contrôle de cette stabilité ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Les extenseurs de hanche : ischio-jambiers et grand fessier",
+     "correct": true,
+     "j": "Le cours précise que la stabilité pelvienne antéropostérieure dépend des ischio-jambiers en marche normale et du grand fessier pour sauter, courir et marcher en montée (hanche théorie l. 591-593)."
+    },
+    {
+     "t": "Les abducteurs de hanche : moyen et petit fessiers",
+     "j": "Les abducteurs contrôlent la stabilité pelvienne dans le PLAN FRONTAL en appui monopodal (l. 619-627), et non la stabilité antéropostérieure de propulsion."
+    },
+    {
+     "t": "Les fléchisseurs de hanche : psoas-iliaque et droit fémoral",
+     "j": "Le cours classe ces muscles comme moteurs de la flexion de hanche (l. 176-186), pas comme stabilisateurs pelviens antéropostérieurs en propulsion."
+    }
+   ]
+  },
+  {
+   "q": "Vous mesurez au goniomètre la flexion de hanche d'un patient, genou tendu (ischio-jambiers en tension). Quelle amplitude maximale attendez-vous selon les normes enseignées ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Environ 90°",
+     "correct": true,
+     "j": "Le cours précise que la flexion de hanche atteint 90° lorsque le genou est en extension, en raison de la mise en tension des ischio-jambiers (hanche théorie l. 161-163)."
+    },
+    {
+     "t": "120 à 140°",
+     "j": "Ces valeurs correspondent à la flexion de hanche avec le GENOU FLÉCHI (ischio-jambiers détendus), pas avec le genou tendu (l. 163)."
+    },
+    {
+     "t": "135°",
+     "j": "135° est la flexion maximale globale de la hanche, mais elle n'est pas atteignable genou tendu en raison de la tension des ischio-jambiers (l. 161)."
+    }
+   ]
+  },
+  {
+   "q": "Une jeune femme effectue un grand écart facial (flexion de hanche + abduction). Quelle position de hanche minimise la limitation par les structures capsulo-ligamentaires ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Flexion de hanche associée à l'abduction",
+     "correct": true,
+     "j": "En flexion, le faisceau supérieur du ligament ilio-fémoral (Bertin) et le pubo-fémoral se relâchent, autorisant une abduction maximale ; c'est la position d'avantage en assouplissement."
+    },
+    {
+     "t": "Extension de hanche associée à l'abduction",
+     "j": "En extension, les ligaments antérieurs (ilio-fémoral, pubo-fémoral) sont tendus et limitent l'abduction ; position défavorable au grand écart."
+    },
+    {
+     "t": "Rotation interne de hanche associée à l'abduction",
+     "j": "La rotation interne tend l'ischio-fémoral et ne détend pas les freins antérieurs ; elle n'augmente pas l'amplitude d'abduction."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la limite physiologique principale de l'abduction de hanche en position debout ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Tension des adducteurs et butée du col fémoral sur l'acétabulum",
+     "correct": true,
+     "j": "En position debout (hanche en extension), l'abduction est freinée par la tension des adducteurs (gracile, court et long adducteur, pectiné) et le contact col-rebord acétabulaire supérieur."
+    },
+    {
+     "t": "Tension du tractus ilio-tibial et du tenseur du fascia lata",
+     "j": "Le tenseur du fascia lata et le tractus ilio-tibial sont des abducteurs : ils produisent et assistent l'abduction, ils ne la limitent pas."
+    },
+    {
+     "t": "Tension du ligament de la tête fémorale (ligament rond)",
+     "j": "Le ligament de la tête fémorale est surtout mis en tension dans l'adduction et la flexion extrêmes ; il ne constitue pas le frein de l'abduction."
+    }
+   ]
+  },
+  {
+   "q": "Une patiente en décubitus dorsal présente une flexion de la hanche droite avec un test de Thomas positif. Quelle est la signification clinique ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Rétraction des fléchisseurs de la hanche",
+     "correct": true,
+     "j": "Le test de Thomas positif (impossibilité d'étendre passivement la hanche en gardant le bassin neutre) signe la rétraction des fléchisseurs (psoas-iliaque, droit fémoral) ; la position du genou discrimine les deux."
+    },
+    {
+     "t": "Rétraction des extenseurs de la hanche",
+     "j": "Une rétraction du grand fessier limiterait la flexion, pas l'extension ; elle ne donne pas de Thomas positif. C'est le test de Thomas qui explore les fléchisseurs courts."
+    },
+    {
+     "t": "Rétraction des adducteurs de la hanche",
+     "j": "Une rétraction des adducteurs limite l'abduction (testée jambes écartées), pas l'extension ; elle ne reproduit pas un Thomas positif."
+    }
+   ]
+  },
+  {
+   "q": "Quel ligament empêche principalement le glissement antérieur du tibia sous le fémur (par exemple lors d'une décélération brutale en course) ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ligament croisé antérieur",
+     "correct": true,
+     "j": "Le LCA s'oppose à la translation antérieure du tibia par rapport au fémur ; sa rupture autorise un tiroir antérieur pathologique et favorise la subluxation antérieure du plateau tibial."
+    },
+    {
+     "t": "Ligament croisé postérieur",
+     "j": "Le LCP s'oppose à la translation postérieure du tibia, mouvement opposé."
+    },
+    {
+     "t": "Ligament collatéral médial",
+     "j": "Le LCM s'oppose au valgus, pas à la translation antéro-postérieure."
+    }
+   ]
+  },
+  {
+   "q": "En position assise jambes croisées, quels mouvements coxo-fémoraux sont combinés du côté de la hanche en croisement (jambe sur l'autre) ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Flexion + adduction + rotation externe",
+     "correct": true,
+     "j": "Cette position combine flexion de hanche (90° environ), adduction (cuisse vers le côté opposé) et rotation externe (cuisse tournée vers l'extérieur) ; classique en position assise jambes croisées."
+    },
+    {
+     "t": "Extension + abduction + rotation interne",
+     "j": "Combinaison opposée, observée debout en position fermée des pieds."
+    },
+    {
+     "t": "Flexion + abduction + rotation externe",
+     "j": "Combinaison de l'écart facial assis, pas du croisement de jambes."
+    }
+   ]
+  },
+  {
+   "q": "Vous mesurez la flexion de hanche genou tendu (SLR) chez un patient avec ischio-jambiers normaux. Quelle est l'amplitude attendue ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Environ 80-90°",
+     "correct": true,
+     "j": "Le SLR normal atteint 80-90° ; au-delà, la tension des ischio-jambiers limite le mouvement même chez un sujet souple. Une limitation < 70° oriente vers des ischio-jambiers courts ou une atteinte radiculaire."
+    },
+    {
+     "t": "Environ 60-70°",
+     "j": "Cette amplitude correspond déjà à une limitation pathologique (ischio-jambiers raccourcis ou tension radiculaire), inférieure à la norme genou tendu."
+    },
+    {
+     "t": "Environ 110-120°",
+     "j": "Impossible genou tendu : cette valeur correspond à la flexion de hanche genou fléchi, qui relâche les ischio-jambiers ; genou tendu, ils plafonnent l'amplitude vers 80-90°."
+    }
+   ]
+  },
+  {
+   "q": "Vous évaluez un patient avec rupture isolée du LCP. Quel signe clinique recherchez-vous principalement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Tiroir postérieur positif",
+     "correct": true,
+     "j": "Le LCP s'oppose au glissement postérieur du tibia ; sa rupture donne un tiroir postérieur, complété par l'affaissement spontané du plateau (signe de Godfrey en flexion 90°)."
+    },
+    {
+     "t": "Tiroir antérieur positif",
+     "j": "Le tiroir antérieur explore le LCA, qui freine la translation antérieure du tibia ; il est négatif dans une rupture isolée du LCP."
+    },
+    {
+     "t": "Pivot shift positif",
+     "j": "Le pivot shift (ressaut rotatoire) signe une rupture du LCA, pas du LCP."
+    }
+   ]
+  },
+  {
+   "q": "En appui bipodal symétrique, l'action des abducteurs et adducteurs de hanche est :",
+   "c": 1,
+   "options": [
+    {
+     "t": "Une co-contraction bilatérale et tonique des deux groupes",
+     "correct": true,
+     "j": "En appui bipodal symétrique, abducteurs et adducteurs des deux côtés sont co-activés en faible tonicité pour stabiliser le bassin centré dans le plan frontal."
+    },
+    {
+     "t": "Une contraction des seuls abducteurs du côté portant",
+     "j": "Ce schéma correspond à l'appui MONOpodal (verrouillage de type Trendelenburg) ; en bipodal symétrique les adducteurs sont aussi sollicités."
+    },
+    {
+     "t": "Une contraction alternée des deux groupes opposés",
+     "j": "L'alternance abducteurs/adducteurs caractérise la phase oscillante de la marche, pas la station bipodale statique où l'action est simultanée."
+    }
+   ]
+  },
+  {
+   "q": "En décubitus dorsal, hanche fléchie à 90° genou fléchi à 90°, vous réalisez le test passif de rotation interne et trouvez une amplitude de 32°. Selon les valeurs de référence du cours, cette amplitude est :",
+   "c": 1,
+   "options": [
+    {
+     "t": "Dans la norme : la rotation interne passive en flexion 90° est de 30-40°",
+     "correct": true,
+     "j": "Le cours fixe explicitement la rotation interne de hanche en décubitus avec flexion du genou à 90° à 30-40° ; 32° est donc dans la fourchette physiologique attendue."
+    },
+    {
+     "t": "Diminuée : la valeur normale en flexion 90° est de 45-55°",
+     "j": "La valeur de référence du cours est 30-40° en flexion 90° (et non 45-55°), donc 32° n'est pas diminuée par rapport à cette norme."
+    },
+    {
+     "t": "Excessive : au-delà de la norme attendue (15-25°)",
+     "j": "La fourchette normale enseignée est 30-40°, pas 15-25° ; 32° n'est donc pas excessive."
+    }
+   ]
+  },
+  {
+   "q": "Quel facteur de risque est associé à une luxation de la hanche due à une adduction forcée ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Antéversion du col du fémur",
+     "correct": true,
+     "j": "Une antéversion excessive du col réduit la couverture postérieure de la tête et favorise la luxation en adduction forcée. À noter : le cours (p.45-48) décrit l'antéversion sans faire ce lien explicitement."
+    },
+    {
+     "t": "Coxa vara",
+     "j": "La coxa vara augmente au contraire l'offset et la couverture de la tête fémorale, ce qui stabilise l'articulation plutôt que de la luxer."
+    },
+    {
+     "t": "Coxa profunda (cotyle profond)",
+     "j": "Un cotyle profond augmente la couverture acétabulaire et la contention de la tête ; c'est un facteur de stabilité, non de luxation."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la réponse correcte concernant la mise en tension des ligaments de la hanche selon la position ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Lors de l'abduction se tendent le ligament pubo-fémoral et le ligament ischio-fémoral",
+     "correct": true,
+     "j": "L'abduction met en tension les faisceaux inférieurs de la capsule : ligaments pubo-fémoral et ischio-fémoral."
+    },
+    {
+     "t": "Lors de la flexion se tendent le ligament ilio-fémoral et le ligament pubo-fémoral",
+     "j": "La flexion DÉTEND les ligaments antérieurs (ilio-fémoral et pubo-fémoral) ; ils ne se tendent pas en flexion."
+    },
+    {
+     "t": "Lors de l'extension le ligament ilio-fémoral (de Bertin) est détendu",
+     "j": "En extension le ligament ilio-fémoral (de Bertin) est au contraire TENDU : c'est lui qui verrouille la hanche en station debout."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez la réponse correcte par rapport à la coaptation de la hanche :",
+   "c": 1,
+   "options": [
+    {
+     "t": "Vers 40° d'abduction, la résultante musculaire devient coaptante",
+     "correct": true,
+     "j": "Au-delà d'une certaine abduction, la résultante des forces se rapproche de l'axe du col et devient coaptante. À noter : hanche p.40 énumère les facteurs de coaptation sans donner ce seuil angulaire."
+    },
+    {
+     "t": "Vers 40° de flexion, la tension des ligaments augmente la coaptation",
+     "j": "En flexion les ligaments se détendent : la coaptation ligamentaire diminue, pas l'inverse."
+    },
+    {
+     "t": "Vers 40° d'adduction, les muscles biarticulaires renforcent la stabilité",
+     "j": "L'adduction rapproche de l'action luxante ; ce sont surtout les monoarticulaires profonds et les ligaments qui coaptent."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles assurent la stabilité latérale (frontale) de la hanche en appui unipodal ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Petit et moyen fessiers et le tenseur du fascia lata",
+     "correct": true,
+     "j": "Ce sont les abducteurs qui stabilisent le bassin en appui unipodal (anti-Trendelenburg)."
+    },
+    {
+     "t": "Le TFL, le biceps fémoral et le grand fessier",
+     "j": "Biceps fémoral et grand fessier agissent dans le plan sagittal, non frontal."
+    },
+    {
+     "t": "Les adducteurs en raison de leur obliquité",
+     "j": "Les adducteurs déstabilisent dans le plan frontal en appui unipodal."
+    }
+   ]
+  },
+  {
+   "q": "Patient en décubitus ventral, genou fléchi, qui ramène le tibia vers le côté controlatéral : quels muscles produisent ce mouvement ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Pelvitrochantériens et sartorius",
+     "correct": true,
+     "j": "Ramener le tibia (genou fléchi) en dehors = rotation latérale de hanche : pelvitrochantériens + sartorius."
+    },
+    {
+     "t": "Tenseur du fascia lata et petit fessier",
+     "j": "Ce sont des rotateurs MÉDIAUX de hanche : ils ramèneraient le tibia en dedans."
+    },
+    {
+     "t": "Moyen fessier (faisceau antérieur) et grand adducteur",
+     "j": "Le faisceau antérieur du moyen fessier est rotateur MÉDIAL et le grand adducteur est essentiellement adducteur : pas de rotation latérale."
+    }
+   ]
+  },
+  {
+   "q": "Concernant le mouvement physiologique du genou, signalez la bonne réponse :",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les rotations interne et externe ne sont possibles que genou fléchi, une fois l'articulation déverrouillée",
+     "correct": true,
+     "j": "En extension le genou est verrouillé par le valgus physiologique et la tension ligamentaire ; la rotation axiale n'apparaît qu'à partir d'une certaine flexion qui déverrouille l'articulation."
+    },
+    {
+     "t": "La rotation interne automatique accompagne les derniers degrés d'extension du genou",
+     "j": "C'est l'inverse : la rotation automatique terminale de l'extension est une rotation EXTERNE du tibia (vissage), assurant le verrouillage en extension complète."
+    },
+    {
+     "t": "L'amplitude de rotation axiale est maximale en extension complète et diminue avec la flexion",
+     "j": "La rotation est nulle en extension (genou verrouillé) et augmente avec la flexion qui déverrouille l'articulation : la relation est inverse de celle énoncée."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez la bonne réponse concernant les fléchisseurs du genou :",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ils sont plus efficaces lorsque la hanche est fléchie, qui pré-étire les ischio-jambiers biarticulaires",
+     "correct": true,
+     "j": "Les ischio-jambiers étant biarticulaires, la flexion de hanche les met en tension passive (pré-étirement) et augmente leur efficacité comme fléchisseurs du genou."
+    },
+    {
+     "t": "Ils sont plus efficaces lorsque la hanche est en extension, qui relâche les ischio-jambiers",
+     "j": "L'extension de hanche raccourcit les ischio-jambiers biarticulaires et réduit donc leur efficacité comme fléchisseurs du genou : c'est l'inverse."
+    },
+    {
+     "t": "Leur efficacité de flexion est indépendante de la position de la hanche car le poplité en est le moteur principal",
+     "j": "Le poplité n'est qu'un fléchisseur accessoire et déverrouilleur ; les moteurs principaux sont les ischio-jambiers biarticulaires, donc l'efficacité dépend bien de la position de hanche."
+    }
+   ]
+  },
+  {
+   "q": "Patient assis qui amène la pointe du pied vers l'intérieur (rotation interne du tibia) : quels ligaments du genou se mettent en tension ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les ligaments croisés antérieur et postérieur",
+     "correct": true,
+     "j": "En rotation interne, les deux croisés s'enroulent l'un sur l'autre et se tendent."
+    },
+    {
+     "t": "Les ligaments latéraux interne et externe",
+     "j": "Les collatéraux se tendent surtout en rotation externe / contraintes varus-valgus."
+    },
+    {
+     "t": "Le croisé antérieur et le latéral interne",
+     "j": "En rotation interne ce sont les DEUX croisés qui se tendent."
+    }
+   ]
+  },
+  {
+   "q": "Lorsqu'un individu fait un squat (flexion en chaîne fermée), signalez la bonne réponse :",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les condyles fémoraux roulent en arrière et glissent en avant",
+     "correct": true,
+     "j": "En flexion (chaîne fermée), le roulement postérieur des condyles est compensé par un glissement antérieur."
+    },
+    {
+     "t": "Les condyles fémoraux roulent en avant et glissent en arrière",
+     "j": "C'est la combinaison de l'extension, non de la flexion."
+    },
+    {
+     "t": "Les condyles fémoraux roulent en arrière sans aucun glissement",
+     "j": "Sans glissement compensateur, le fémur luxerait en arrière du plateau ; le glissement antérieur est constant."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles réalisent l'éversion de la cheville ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Long fibulaire et court fibulaire",
+     "correct": true,
+     "j": "Les fibulaires (long et court) sont les éverseurs (pronateurs) du pied."
+    },
+    {
+     "t": "Fléchisseur commun des orteils et tibial antérieur",
+     "j": "Le tibial antérieur est inverseur."
+    },
+    {
+     "t": "Extenseur commun des orteils et 3e fibulaire",
+     "j": "Ils participent surtout à la flexion dorsale ; éverseurs accessoires seulement."
+    }
+   ]
+  },
+  {
+   "q": "Patient assis qui ramène le dos du pied vers le tibia (flexion dorsale) : que observe-t-on à la cheville ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le talus réalise un roulement antérieur et un glissement postérieur",
+     "correct": true,
+     "j": "Surface convexe (talus) sur concave (mortaise) : roulement antérieur, glissement postérieur."
+    },
+    {
+     "t": "Le talus réalise un roulement antérieur et un glissement antérieur",
+     "j": "Sur une mortaise concave, le glissement se fait en sens opposé au roulement, donc postérieur, et non antérieur."
+    },
+    {
+     "t": "Le talus réalise un roulement postérieur et un glissement antérieur",
+     "j": "C'est la cinématique de la flexion plantaire, non de la flexion dorsale."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez l'affirmation correcte concernant la physiologie articulaire de la cheville :",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'éversion met en tension le plan médial (ligament deltoïde)",
+     "correct": true,
+     "j": "L'éversion éloigne le pied de la malléole interne et met en tension le plan médial (ligament deltoïde)."
+    },
+    {
+     "t": "L'éversion met en tension le plan latéral (ligament talo-fibulaire antérieur)",
+     "j": "L'éversion détend le plan latéral ; c'est l'inversion forcée qui lèse le ligament talo-fibulaire antérieur."
+    },
+    {
+     "t": "L'éversion combine flexion plantaire, adduction et supination",
+     "j": "Cette combinaison définit l'inversion ; l'éversion associe flexion dorsale, abduction et pronation."
+    }
+   ]
+  },
+  {
+   "q": "Signalez la bonne réponse sur les axes de la cheville et du pied :",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'axe de Henke (sous-talien) permet l'inversion-éversion",
+     "correct": true,
+     "j": "L'axe d'Henke, oblique du col du talus au calcanéum, supporte les mouvements d'inversion-éversion."
+    },
+    {
+     "t": "L'axe transversal de la tibio-tarsienne permet l'inversion-éversion",
+     "j": "La tibio-tarsienne autorise surtout la flexion dorsale et plantaire, non l'inversion-éversion."
+    },
+    {
+     "t": "L'axe de Chopart (médio-tarsienne) permet la flexion dorsale-plantaire",
+     "j": "La flexion dorsale/plantaire relève de la tibio-tarsienne ; le Chopart ajuste l'orientation de l'avant-pied."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la réponse correcte concernant la voûte plantaire ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'arche longitudinale médiale est soutenue activement par le tibial postérieur et le long fibulaire",
+     "correct": true,
+     "j": "Tibial postérieur et long fibulaire forment un étrier actif soutenant l'arche médiale."
+    },
+    {
+     "t": "L'arche longitudinale médiale est soutenue activement par le triceps sural et le tibial antérieur",
+     "j": "Le triceps sural est fléchisseur plantaire et le tibial antérieur inverseur ; ils ne forment pas l'étrier de soutien de l'arche médiale."
+    },
+    {
+     "t": "L'arche longitudinale médiale s'affaisse en flexion plantaire et se creuse en pied plat",
+     "j": "La flexion plantaire creuse la voûte ; l'affaissement du scaphoïde et de l'arche médiale définit le pied plat."
+    }
+   ]
+  },
+  {
+   "q": "Indiquez les mouvements de la hanche limités par le ligament pubo-fémoral :",
+   "c": 1,
+   "options": [
+    {
+     "t": "Abduction et extension",
+     "correct": true,
+     "j": "Hanche p.24 : « limites de l'abduction — ligaments pubo-fémoral et ischio-fémoral » ; p.21 : « limites de l'extension — les ligaments pubo-fémoraux, coxo-fémoraux et ischio-fémoraux »."
+    },
+    {
+     "t": "Extension et rotation interne",
+     "j": "L'extension est juste, mais la rotation interne ne lui revient pas : hanche p.33 attribue la limite de la rotation EXTERNE à l'ilio-fémoral et au ligament de la tête fémorale."
+    },
+    {
+     "t": "Abduction et flexion",
+     "j": "L'abduction est juste, mais la flexion n'est pas limitée par le pubo-fémoral : c'est l'extension qu'il retient (hanche p.21)."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la limite du mouvement de flexion de la hanche (genou fléchi) ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le contact de la face antérieure de la cuisse avec l'abdomen",
+     "correct": true,
+     "j": "Genou fléchi, la flexion de hanche est limitée par le contact des masses molles (cuisse-abdomen)."
+    },
+    {
+     "t": "La tension du ligament pubo-fémoral",
+     "j": "Les ligaments antérieurs se détendent en flexion."
+    },
+    {
+     "t": "La tension du droit fémoral",
+     "j": "Genou fléchi, le droit fémoral est détendu (il limite la flexion genou tendu)."
+    }
+   ]
+  },
+  {
+   "q": "L'axe mécanique du membre inférieur :",
+   "c": 2,
+   "options": [
+    {
+     "t": "Relie le centre de la tête fémorale au centre de la cheville",
+     "correct": true,
+     "j": "L'axe mécanique va du centre de la tête fémorale au centre de la cheville, en passant par le centre du genou."
+    },
+    {
+     "t": "Relie le grand trochanter au centre de la cheville",
+     "j": "Le repère proximal de l'axe mécanique est le centre de la tête fémorale, non le grand trochanter."
+    },
+    {
+     "t": "Relie le centre de la tête fémorale à la malléole latérale",
+     "j": "Le repère distal de l'axe mécanique est le centre de la cheville (proche de la malléole médiale), non la malléole latérale."
+    }
+   ]
+  },
+  {
+   "q": "Quelles structures limitent l'hyperextension du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La capsule postérieure et le ligament poplité oblique",
+     "correct": true,
+     "j": "L'hyperextension est freinée par le plan capsulo-ligamentaire postérieur (capsule postérieure, coques condyliennes, poplité oblique)."
+    },
+    {
+     "t": "La capsule antérieure et le ligament patellaire",
+     "j": "Le plan antérieur ne freine pas l'hyperextension ; c'est le plan postérieur qui la limite."
+    },
+    {
+     "t": "Le tendon du quadriceps et le ménisque latéral",
+     "j": "Le tendon quadricipital est extenseur et le ménisque latéral ne borne pas l'extension terminale ; ils ne limitent pas l'hyperextension."
+    }
+   ]
+  },
+  {
+   "q": "Énoncez l'affirmation vraie concernant la rotule en extension :",
+   "c": 2,
+   "options": [
+    {
+     "t": "En extension, la rotule tend à se subluxer en dehors",
+     "correct": true,
+     "j": "En extension, l'angle Q tire la rotule en dehors ; le vaste médial oblique s'oppose à cette tendance luxante latérale."
+    },
+    {
+     "t": "En extension, la rotule tend à se subluxer en dedans",
+     "j": "La tendance de subluxation en extension est latérale (dehors), non médiale, du fait de l'angle Q."
+    },
+    {
+     "t": "En extension, la rotule s'engage dans la trochlée fémorale",
+     "j": "C'est en flexion que la rotule s'engage et se stabilise dans la gorge trochléenne, pas en extension."
+    }
+   ]
+  },
+  {
+   "q": "Parmi les facteurs de coaptation de la hanche, lesquels sont principalement assurés par les ligaments et par les muscles ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Ligaments surtout antérieurs et muscles surtout postérieurs",
+     "correct": true,
+     "j": "Le cours classe les ligaments coaptateurs comme principalement antérieurs et les muscles comme principalement postérieurs."
+    },
+    {
+     "t": "Ligaments surtout postérieurs et muscles surtout antérieurs",
+     "j": "C'est l'inverse : les ligaments coaptateurs sont surtout antérieurs et les muscles surtout postérieurs."
+    },
+    {
+     "t": "Ligaments et muscles tous deux principalement antérieurs",
+     "j": "Faux : les ligaments sont surtout antérieurs mais les muscles coaptateurs sont surtout postérieurs."
+    }
+   ]
+  },
+  {
+   "q": "Dans quelle position l'abduction de hanche est-elle maximale, et par quel mécanisme ligamentaire ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Hanche fléchie, car les ligaments pubo-fémoral et ilio-rétrochantérien sont détendus",
+     "correct": true,
+     "j": "Le cours précise que l'abduction est maximale hanche fléchie, le pubo-fémoral et l'ilio-rétrochantérien étant alors distendus."
+    },
+    {
+     "t": "Hanche en extension, car les ligaments pubo-fémoral et ilio-rétrochantérien sont détendus",
+     "j": "Faux : en extension ces ligaments se resserrent, ce qui rend l'abduction minimale."
+    },
+    {
+     "t": "Hanche fléchie, car le ligament ilio-fémoral faisceau supérieur est tendu",
+     "j": "Faux : l'ilio-fémoral supérieur limite l'adduction ; l'abduction maximale tient au relâchement du pubo-fémoral et de l'ilio-rétrochantérien."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude d'extension de hanche genou tendu (quadriceps détendu) selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "20 à 30° (jusqu'à environ 30°)",
+     "correct": true,
+     "j": "Le cours donne une extension de 20-30° genou en extension (quadriceps détendus)."
+    },
+    {
+     "t": "10° (genou tendu strict)",
+     "j": "10° correspond à l'extension genou fléchi (droit fémoral en tension), pas genou tendu."
+    },
+    {
+     "t": "45° (proche de l'abduction)",
+     "j": "45° ne correspond à aucune valeur d'extension : c'est proche de l'amplitude d'abduction."
+    }
+   ]
+  },
+  {
+   "q": "Quels ligaments limitent principalement la rotation interne de la hanche ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le ligament ischio-fémoral et le ligament de la tête fémorale",
+     "correct": true,
+     "j": "Le cours indique que la rotation interne est limitée par l'ischio-fémoral et le ligament de la tête fémorale."
+    },
+    {
+     "t": "Le ligament ilio-fémoral et le ligament de la tête fémorale",
+     "j": "L'ilio-fémoral (fascicules sup et inf) limite la rotation externe, pas la rotation interne."
+    },
+    {
+     "t": "Le ligament pubo-fémoral et l'ischio-fémoral",
+     "j": "Faux : la rotation interne est limitée par l'ischio-fémoral et le ligament de la tête fémorale, non par le pubo-fémoral."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quelle est la valeur normale de l'angle d'inclinaison entre l'axe du col anatomique et l'axe diaphysaire du fémur ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Environ 125°",
+     "correct": true,
+     "j": "Le cours fixe l’angle d’inclinaison cervico-diaphysaire du fémur à environ 125°."
+    },
+    {
+     "t": "Environ 15°",
+     "j": "≈15° correspond à l’angle de torsion (antéversion) du col fémoral, pas à l’inclinaison."
+    },
+    {
+     "t": "Environ 90°",
+     "j": "90° sous-estime nettement l’angle d’inclinaison cervico-diaphysaire, qui avoisine 125°."
+    }
+   ]
+  },
+  {
+   "q": "Quels mouvements de la hanche sont principalement limités par le ligament ilio-fémoral selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "L'adduction (faisceau supérieur) et la rotation externe",
+     "correct": true,
+     "j": "Le cours liste l'ilio-fémoral (faisceau supérieur) comme limite de l'adduction et de la rotation externe (fascicules sup et inf)."
+    },
+    {
+     "t": "L'abduction (faisceau inférieur) et la rotation interne",
+     "j": "Faux : l'abduction est limitée par le pubo-fémoral et l'ischio-fémoral, et la rotation interne par l'ischio-fémoral."
+    },
+    {
+     "t": "L'adduction (faisceau inférieur) et la rotation interne",
+     "j": "L'adduction est bien limitée par l'ilio-fémoral, mais c'est la rotation externe (et non interne) qu'il limite."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, en flexion-extension neutre, quelle est l'action des muscles adducteurs de la hanche (hormis les fibres postérieures du grand adducteur) ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Ils sont fléchisseurs",
+     "correct": true,
+     "j": "Le cours indique qu'en flexion-extension neutre les adducteurs (sauf fibres postérieures du grand adducteur) sont fléchisseurs."
+    },
+    {
+     "t": "Ils sont extenseurs",
+     "j": "Faux : en position neutre ils sont fléchisseurs ; ils deviennent extenseurs au-delà d'un certain degré de flexion."
+    },
+    {
+     "t": "Ils sont rotateurs externes",
+     "j": "Faux : en flexion-extension neutre leur action décrite est la flexion, non la rotation externe."
+    }
+   ]
+  },
+  {
+   "q": "Concernant la rotation externe de hanche en position de flexion coxo-fémorale, quelle proposition est exacte ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le mouvement actif est réduit à 30-35°, le passif pouvant dépasser 60°",
+     "correct": true,
+     "j": "Le cours indique qu'en flexion coxo-fémorale la rotation externe active tombe à 30-35° alors que le mouvement passif peut dépasser 60°."
+    },
+    {
+     "t": "Le mouvement actif atteint 60°, le passif étant réduit à 30-35°",
+     "j": "C'est l'inverse : la flexion réduit l'actif à 30-35°, le passif pouvant dépasser 60°."
+    },
+    {
+     "t": "Le mouvement actif et le mouvement passif sont tous deux augmentés au-delà de 60°",
+     "j": "Faux : la flexion réduit significativement la rotation externe active à 30-35°."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'orientation exacte du ligament croisé antérieur (LCA) ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Oblique vers le haut, vers l'arrière et vers l'extérieur",
+     "correct": true,
+     "j": "Le cours décrit le LCA (croisé antéro-externe) comme oblique vers le haut, l'arrière et l'extérieur."
+    },
+    {
+     "t": "Oblique vers le haut, vers l'avant et vers l'intérieur",
+     "j": "C'est l'orientation du LCP (croisé postéro-interne), pas du LCA."
+    },
+    {
+     "t": "Oblique vers le bas, vers l'arrière et vers l'intérieur",
+     "j": "Aucun des croisés n'a cette direction ; les deux montent vers le haut selon le cours."
+    }
+   ]
+  },
+  {
+   "q": "Concernant le roulement pur (sans glissement) des condyles en début de flexion, lequel persiste le plus longtemps ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le condyle externe, jusqu'à environ 20°",
+     "correct": true,
+     "j": "Le cours : roulement pur du condyle externe jusqu'à 20°, contre 10-15° pour l'interne."
+    },
+    {
+     "t": "Le condyle interne, jusqu'à environ 20°",
+     "j": "Le condyle interne ne roule purement que sur les 10-15 premiers degrés."
+    },
+    {
+     "t": "Les deux condyles roulent purement à l'identique jusqu'à 30°",
+     "j": "Le cours distingue les deux condyles ; le roulement pur ne dépasse pas 20°."
+    }
+   ]
+  },
+  {
+   "q": "En flexion, quelle structure tire vers l'arrière la corne antérieure du ménisque interne ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les fibres du LCA",
+     "correct": true,
+     "j": "Le cours : en flexion, les fibres du LCA attirent la corne antérieure du ménisque interne vers l'arrière."
+    },
+    {
+     "t": "Le ligament ménisco-fémoral",
+     "j": "Le ligament ménisco-fémoral tire en avant la corne postérieure du ménisque externe, en extension."
+    },
+    {
+     "t": "L'expansion du muscle poplité",
+     "j": "L'expansion du poplité propulse le ménisque externe vers l'arrière, pas la corne antérieure du ménisque interne."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'orientation du ligament collatéral médial du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Oblique vers le bas et vers l'avant",
+     "correct": true,
+     "j": "Le cours : le collatéral médial est oblique vers le bas et l'avant."
+    },
+    {
+     "t": "Oblique vers le bas et vers l'arrière",
+     "j": "C'est l'orientation du collatéral latéral, pas du médial."
+    },
+    {
+     "t": "Oblique vers le haut et vers l'avant",
+     "j": "Les collatéraux descendent depuis le fémur ; cette direction ne correspond pas au cours."
+    }
+   ]
+  },
+  {
+   "q": "Au-delà de 90° de flexion, et surtout à 120°, lequel des croisés se tend le plus ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le LCP, qui se verticalise davantage",
+     "correct": true,
+     "j": "Le cours : à partir de 90° et plus à 120°, la verticalisation du LCP est plus marquée et il se tend beaucoup plus que le LCA."
+    },
+    {
+     "t": "Le LCA, qui devient vertical",
+     "j": "En flexion le LCA s'horizontalise et se détend relativement ; c'est le LCP qui se verticalise."
+    },
+    {
+     "t": "Les deux croisés se tendent de manière strictement égale",
+     "j": "Le cours précise que le LCP se tend bien plus que le LCA au-delà de 90°."
+    }
+   ]
+  },
+  {
+   "q": "Quel rôle joue le vaste médial (fibres obliques) au niveau de la rotule ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Il résiste à la luxation externe de la rotule",
+     "correct": true,
+     "j": "Le cours : le vaste médial (fibres obliques) résiste à la luxation externe de la rotule, en équilibre avec le vaste latéral."
+    },
+    {
+     "t": "Il provoque la luxation externe de la rotule",
+     "j": "C'est l'inverse : le vaste médial s'oppose à cette luxation externe."
+    },
+    {
+     "t": "Il verrouille le genou dans les derniers degrés d'extension",
+     "j": "Le verrouillage final est attribué au quadriceps, pas spécifiquement aux fibres obliques du vaste médial."
+    }
+   ]
+  },
+  {
+   "q": "Pourquoi la flexion active du genou est-elle moindre (120°) hanche en extension qu'en flexion de hanche (140°) ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Par efficacité réduite des ischio-jambiers et tension du droit fémoral",
+     "correct": true,
+     "j": "Le cours : 120° hanche en extension à cause de l'efficacité réduite des ischio-jambiers et de la tension du droit fémoral."
+    },
+    {
+     "t": "Par contact physique anticipé entre la face postérieure de la cuisse et la jambe",
+     "j": "Ce contact est la limite de la flexion maximale (passive ~160°), pas la cause du moindre degré actif hanche en extension."
+    },
+    {
+     "t": "Par mise en tension précoce du muscle poplité, qui est biarticulaire",
+     "j": "Le poplité est monoarticulaire ; il n'explique pas cette différence selon le cours."
+    }
+   ]
+  },
+  {
+   "q": "En extension, quelle structure tire vers l'avant la corne postérieure du ménisque externe ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le ligament ménisco-fémoral",
+     "correct": true,
+     "j": "Le cours : en extension, la tension du ligament ménisco-fémoral tire vers l'avant la corne postérieure du ménisque externe."
+    },
+    {
+     "t": "L'expansion du muscle semi-membraneux",
+     "j": "L'expansion du semi-membraneux tire le ménisque interne vers l'arrière, en flexion."
+    },
+    {
+     "t": "Les fibres du LCP",
+     "j": "Le cours n'attribue pas cet avancement au LCP mais au ligament ménisco-fémoral."
+    }
+   ]
+  },
+  {
+   "q": "Quels os l'articulation talo-crurale (mortaise) met-elle en présence ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le tibia et la fibula avec le talus",
+     "correct": true,
+     "j": "La talo-crurale articule le tibia avec la fibula latéralement et les deux os avec le talus en bas."
+    },
+    {
+     "t": "Le talus avec le calcanéus",
+     "j": "Le talus et le calcanéus forment l'articulation sous-talienne (talo-calcanéenne), pas la mortaise."
+    },
+    {
+     "t": "Le talus avec le naviculaire et le calcanéus avec le cuboïde",
+     "j": "Ces deux articulations constituent la médio-tarsienne de Chopart, non la talo-crurale."
+    }
+   ]
+  },
+  {
+   "q": "Laquelle de ces propositions est exacte concernant le ligament collatéral médial (deltoïde) ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Il s'étend de la malléole interne au naviculaire, au calcanéus et au talus",
+     "correct": true,
+     "j": "Le deltoïde naît de la malléole interne et se fixe sur le naviculaire, le calcanéus et le talus."
+    },
+    {
+     "t": "Il comprend les faisceaux talo-fibulaires antérieur et postérieur et le calcanéo-fibulaire",
+     "j": "Ces trois faisceaux composent le ligament collatéral latéral, pas le deltoïde médial."
+    },
+    {
+     "t": "Il s'insère sur la malléole externe et limite l'inversion forcée",
+     "j": "C'est le collatéral latéral qui s'insère sur la malléole externe ; l'inversion forcée rompt le talo-fibulaire antérieur."
+    }
+   ]
+  },
+  {
+   "q": "Quelle articulation forme la tarso-métatarsienne (articulation de Lisfranc) ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'articulation entre le tarse antérieur (cunéiformes et cuboïde) et les métatarsiens",
+     "correct": true,
+     "j": "Lisfranc est la tarso-métatarsienne, unissant cunéiformes et cuboïde aux bases des métatarsiens."
+    },
+    {
+     "t": "L'articulation entre le talus, le calcanéus, le naviculaire et le cuboïde",
+     "j": "Ces os forment la médio-tarsienne de Chopart, située plus en arrière que Lisfranc."
+    },
+    {
+     "t": "L'articulation entre les têtes métatarsiennes et les phalanges proximales",
+     "j": "Ce sont les articulations métatarso-phalangiennes (énarthroses), pas Lisfranc."
+    }
+   ]
+  },
+  {
+   "q": "Quelles sont les trois composantes du mouvement d'inversion du pied ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Adduction, supination et extension",
+     "correct": true,
+     "j": "L'inversion associe déplacement en dedans (adduction), virement en supination et glissement vers le bas (extension)."
+    },
+    {
+     "t": "Abduction, pronation et flexion",
+     "j": "Ces trois composantes définissent l'éversion, le mouvement inverse."
+    },
+    {
+     "t": "Adduction, pronation et flexion",
+     "j": "L'inversion comporte une supination et une extension, non une pronation ni une flexion."
+    }
+   ]
+  },
+  {
+   "q": "Quelle structure ligamentaire est rompue lors d'une inversion forcée de la cheville ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le ligament talo-fibulaire antérieur",
+     "correct": true,
+     "j": "L'inversion forcée peut casser le ligament talo-fibulaire antérieur."
+    },
+    {
+     "t": "Le ligament collatéral médial (deltoïde)",
+     "j": "Le deltoïde médial est mis en jeu et lésé plutôt dans l'éversion forcée."
+    },
+    {
+     "t": "Le ligament talo-fibulaire postérieur",
+     "j": "Le talo-fibulaire postérieur limite surtout la flexion dorsale, pas l'inversion."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la flexion plantaire de l'articulation talo-crurale ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "30° à 50°",
+     "correct": true,
+     "j": "La flexion plantaire a une amplitude de 30° à 50°, minimum 20° pour la marche."
+    },
+    {
+     "t": "20° à 30°",
+     "j": "C'est l'amplitude de la flexion dorsale (20° à 30°), pas de la flexion plantaire."
+    },
+    {
+     "t": "35° à 45°",
+     "j": "Cette valeur correspond à l'abduction-adduction autour de l'axe longitudinal de la jambe."
+    }
+   ]
+  },
+  {
+   "q": "Lors de la flexion plantaire, comment se comporte la malléole externe au niveau de la tibio-fibulaire inférieure ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Elle se rapproche, fermant la mortaise, avec descente, rotation interne et antériorisation",
+     "correct": true,
+     "j": "En flexion plantaire la malléole externe se rapproche (fermeture de la mortaise) avec descente, rotation interne et antériorisation."
+    },
+    {
+     "t": "Elle s'écarte, ouvrant la mortaise, avec ascension, rotation externe et postériorisation",
+     "j": "Ce comportement décrit la flexion dorsale, qui ouvre la mortaise."
+    },
+    {
+     "t": "Elle reste fixe car la tibio-fibulaire inférieure est immobile",
+     "j": "La tibio-fibulaire inférieure est mobile et participe activement aux mouvements de la mortaise."
+    }
+   ]
+  },
+  {
+   "q": "Selon les quadrants des axes XX et de Henke, quels muscles produisent l'extension, l'abduction et la pronation du pied ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le court fibulaire et le long fibulaire",
+     "correct": true,
+     "j": "Le court et le long fibulaire assurent l'extension, l'abduction et la pronation du pied."
+    },
+    {
+     "t": "Le tibial antérieur et l'extenseur de l'hallux",
+     "j": "Ces muscles réalisent la flexion, l'adduction et la supination."
+    },
+    {
+     "t": "Le tibial postérieur et le fléchisseur des orteils",
+     "j": "Ces muscles produisent l'extension associée à l'adduction et la supination, non la pronation."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude normale de la rotation interne de la hanche selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "35°",
+     "correct": true,
+     "j": "Le cours fixe la rotation interne de la hanche à 35°."
+    },
+    {
+     "t": "45 à 50°",
+     "j": "Faux : 45-50° correspond à l'amplitude d'abduction de la hanche, pas à la rotation interne."
+    },
+    {
+     "t": "60° en mouvement actif",
+     "j": "Faux : 60° évoque la rotation externe passive ; la rotation interne est de 35°."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude maximale de l'adduction de la hanche selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "20 à 30°",
+     "correct": true,
+     "j": "Le cours donne une adduction de 20-30°, l'amplitude maximale étant de 30°."
+    },
+    {
+     "t": "45 à 50° environ",
+     "j": "Faux : 45-50° correspond à l'amplitude d'abduction et non d'adduction."
+    },
+    {
+     "t": "10 à 15° environ",
+     "j": "Faux : le cours décrit une adduction de 20-30°, et non 10-15°."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quelle est la valeur de l'angle de torsion (déclinaison ou antéversion) du col fémoral ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "10 à 30°",
+     "correct": true,
+     "j": "Le cours situe l'angle de torsion (antéversion), entre l'axe du col et le plan frontal, à 10-30°."
+    },
+    {
+     "t": "Environ 125°",
+     "j": "Faux : 125° est l'angle d'inclinaison cervico-diaphysaire, non l'angle de torsion."
+    },
+    {
+     "t": "Environ 90°",
+     "j": "Faux : 90° ne correspond à aucune valeur du cours pour l'angle de torsion (10-30°)."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, comment nomme-t-on une augmentation de l'angle d'inclinaison cervico-diaphysaire du fémur ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Coxa valga",
+     "correct": true,
+     "j": "Le cours associe l'augmentation de l'angle d'inclinaison à la coxa valga."
+    },
+    {
+     "t": "Coxa vara",
+     "j": "Faux : la coxa vara correspond à une diminution de l'angle d'inclinaison."
+    },
+    {
+     "t": "Antéversion fémorale",
+     "j": "Faux : l'antéversion concerne l'angle de torsion dans le plan horizontal, pas l'angle d'inclinaison."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quels muscles sont moteurs de l'abduction de la hanche ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Moyen fessier, petit fessier et tenseur du fascia lata",
+     "correct": true,
+     "j": "Le cours liste le moyen fessier, le petit fessier, le TFL, le grand fessier (fibres supérieures) et le pyramidal comme abducteurs."
+    },
+    {
+     "t": "Gracile, long adducteur, court adducteur et pectiné",
+     "j": "Faux : gracile, long adducteur, court adducteur et pectiné sont des adducteurs de la hanche."
+    },
+    {
+     "t": "Biceps fémoral, semi-tendineux et semi-membraneux (ischio-jambiers)",
+     "j": "Faux : ces ischio-jambiers sont extenseurs de la hanche, non abducteurs."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quels muscles sont moteurs de la rotation externe de la hanche ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Pyramidal, obturateurs et quadratus femoris",
+     "correct": true,
+     "j": "Le cours cite le pyramidal, les jumeaux, les obturateurs interne et externe, le quadratus femoris, le grand fessier et le sartorius comme rotateurs externes."
+    },
+    {
+     "t": "Petit fessier, tenseur du fascia lata et long adducteur",
+     "j": "Faux : petit fessier, TFL et long adducteur sont moteurs de la rotation interne."
+    },
+    {
+     "t": "Long adducteur, court adducteur, gracile et pectiné",
+     "j": "Faux : ces muscles sont adducteurs ; le long et le court adducteur participent à la rotation interne."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, quels ligaments limitent l'adduction de la hanche ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "L'ilio-fémoral (faisceau supérieur) et le ligament de la tête fémorale",
+     "correct": true,
+     "j": "Le cours indique que l'adduction est limitée par l'ilio-fémoral (faisceau supérieur) et le ligament de la tête fémorale."
+    },
+    {
+     "t": "Le ligament pubo-fémoral et le ligament ischio-fémoral postérieur",
+     "j": "Faux : le pubo-fémoral et l'ischio-fémoral limitent l'abduction, pas l'adduction."
+    },
+    {
+     "t": "Le ligament ischio-fémoral et le ligament de la tête fémorale (rond)",
+     "j": "Faux : l'ischio-fémoral et le ligament rond limitent la rotation interne ; l'adduction tient à l'ilio-fémoral supérieur."
+    }
+   ]
+  },
+  {
+   "q": "Selon le cours, l'adduction pure de la hanche en position anatomique :",
+   "c": 1,
+   "options": [
+    {
+     "t": "N'existe pas et se combine à la flexion, l'extension ou l'abduction opposée",
+     "correct": true,
+     "j": "Le cours précise que l'adduction pure n'existe pas en position anatomique et n'apparaît qu'en combinaison (flexion, extension ou abduction opposée)."
+    },
+    {
+     "t": "Atteint son amplitude maximale de 45° en pure position anatomique",
+     "j": "Faux : l'adduction pure n'existe pas en position anatomique, et son maximum combiné est de 30°."
+    },
+    {
+     "t": "Se produit de façon isolée dès les tout premiers degrés du mouvement",
+     "j": "Faux : le cours indique qu'elle n'existe pas de façon isolée en position anatomique."
+    }
+   ]
+  },
+  {
+   "q": "En appui unipodal hanche en extension (bassin en rétroversion), quelles structures assurent d'abord la stabilité frontale selon le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Le tenseur du fascia lata et le ligament ilio-fémoral",
+     "correct": true,
+     "j": "Le cours indique qu'en extension, le centre de gravité tombant en arrière, la stabilité est assurée par le TFL et le ligament ilio-fémoral."
+    },
+    {
+     "t": "Le moyen fessier seul, le bassin étant alors vertical en équilibre",
+     "j": "Faux : c'est en position neutre F-E (bassin vertical) que le moyen fessier assure la stabilité."
+    },
+    {
+     "t": "Le grand fessier, le pyramidal et le quadratus femoris en avant",
+     "j": "Faux : ces muscles interviennent en flexion de hanche (antéversion du bassin), pas en extension."
+    }
+   ]
+  },
+  {
+   "q": "Lors de la flexion du genou en chaîne cinétique fermée, dans quel sens se fait le glissement des condyles fémoraux sur les plateaux tibiaux ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Vers l'avant, en sens opposé au roulement",
+     "correct": true,
+     "j": "Le cours : le glissement se fait dans la direction opposée au déplacement angulaire du fémur, donc vers l'avant en flexion (le roulement, lui, va vers l'arrière)."
+    },
+    {
+     "t": "Vers l'arrière, dans le même sens que le roulement",
+     "j": "Vers l'arrière en flexion correspond au roulement ; le glissement va en sens inverse, vers l'avant."
+    },
+    {
+     "t": "Vers l'avant en extension et vers l'arrière en flexion",
+     "j": "C'est l'inverse : en extension le glissement va vers l'arrière, en flexion vers l'avant."
+    }
+   ]
+  },
+  {
+   "q": "Quel ligament croisé est COMPLÈTEMENT tendu lorsque le genou est en extension ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le LCA",
+     "correct": true,
+     "j": "Le cours : le LCA est complètement tendu en extension, alors que le LCP l'est en flexion."
+    },
+    {
+     "t": "Le LCP",
+     "j": "Le LCP est complètement tendu en flexion, pas en extension."
+    },
+    {
+     "t": "Aucun, les deux croisés sont totalement relâchés en extension",
+     "j": "Faux : des portions des croisés restent toujours tendues, et le LCA est complètement tendu précisément en extension."
+    }
+   ]
+  },
+  {
+   "q": "Lors de la flexion du genou, quel ménisque recule le plus et de combien selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le ménisque externe, d'environ 12 mm",
+     "correct": true,
+     "j": "Le cours : le ménisque externe recule deux fois plus que l'interne et se déforme davantage (externe = 12 mm, interne = 6 mm)."
+    },
+    {
+     "t": "Le ménisque interne, d'environ 12 mm",
+     "j": "C'est le ménisque interne qui recule le moins (6 mm) ; les 12 mm correspondent au ménisque externe."
+    },
+    {
+     "t": "Le ménisque externe, d'environ 6 mm",
+     "j": "Le déplacement de 6 mm est celui du ménisque interne ; l'externe recule de 12 mm."
+    }
+   ]
+  },
+  {
+   "q": "Comment se comportent les ligaments collatéraux lors de la flexion du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ils se relâchent",
+     "correct": true,
+     "j": "Le cours : les collatéraux se tendent en extension et se relâchent lors de la flexion du genou."
+    },
+    {
+     "t": "Ils se tendent",
+     "j": "Les collatéraux se tendent en extension, pas en flexion où ils se relâchent."
+    },
+    {
+     "t": "Ils restent tendus de façon constante quel que soit l'angle",
+     "j": "Ce sont les portions des ligaments croisés qui restent toujours tendues ; les collatéraux, eux, se relâchent en flexion."
+    }
+   ]
+  },
+  {
+   "q": "Que devient la force de coaptation de la rotule sur le fémur lors de la flexion du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Elle augmente",
+     "correct": true,
+     "j": "Le cours : la force de coaptation de la rotule sur le fémur augmente en flexion et diminue avec l'extension."
+    },
+    {
+     "t": "Elle diminue",
+     "j": "La coaptation diminue en extension ; en flexion elle augmente."
+    },
+    {
+     "t": "Elle reste constante sur toute l'amplitude",
+     "j": "Faux : elle varie avec l'angle, augmentant en flexion et diminuant en extension."
+    }
+   ]
+  },
+  {
+   "q": "Quel ligament collatéral contrôle le déséquilibre en valgus du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le ligament collatéral interne (médial)",
+     "correct": true,
+     "j": "Le cours : le collatéral interne contrôle le déséquilibre interne (valgus), le collatéral externe contrôle le varus."
+    },
+    {
+     "t": "Le ligament collatéral externe (latéral)",
+     "j": "Le collatéral externe contrôle le varus (déséquilibre externe), pas le valgus."
+    },
+    {
+     "t": "Le ligament croisé antérieur",
+     "j": "Le LCA assure la stabilité antéro-postérieure, pas le contrôle frontal du valgus."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles sont moteurs de la rotation externe du genou selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le biceps fémoral et le tenseur du fascia lata",
+     "correct": true,
+     "j": "Le cours : les rotateurs externes du genou sont le biceps fémoral et le tenseur du fascia lata."
+    },
+    {
+     "t": "La patte d'oie et le muscle semi-membraneux profond",
+     "j": "La patte d'oie (gracile, semi-tendineux, sartorius) et le semi-membraneux sont rotateurs internes, pas externes."
+    },
+    {
+     "t": "Le poplité et le semi-tendineux",
+     "j": "Le poplité et le semi-tendineux participent à la rotation interne, pas à la rotation externe."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la rotation externe active du genou selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "40°",
+     "correct": true,
+     "j": "Le cours : rotation externe active 40° (et rotation interne active 30°)."
+    },
+    {
+     "t": "30°",
+     "j": "30° correspond à la rotation interne active, pas à la rotation externe."
+    },
+    {
+     "t": "50°",
+     "j": "50° approche l'amplitude de la rotation externe passive (45-50°), pas de la rotation externe active qui est de 40°."
+    }
+   ]
+  },
+  {
+   "q": "Combien d'os compose la ligne antérieure du tarse ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Cinq os : cuboïde, naviculaire et trois cunéiformes",
+     "correct": true,
+     "j": "La ligne antérieure du tarse comprend cinq os : le cuboïde, le naviculaire et les trois cunéiformes."
+    },
+    {
+     "t": "Deux os : le talus et le calcanéus, situés en arrière",
+     "j": "Le talus et le calcanéus constituent la ligne postérieure du tarse, pas la ligne antérieure."
+    },
+    {
+     "t": "Trois os : uniquement les trois cunéiformes médial, intermédiaire et latéral",
+     "j": "Les trois cunéiformes ne forment qu'une partie de la ligne antérieure, qui compte aussi le cuboïde et le naviculaire."
+    }
+   ]
+  },
+  {
+   "q": "Avec quel(s) os du tarse la base du 2e métatarsien s'articule-t-elle ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Avec les trois cunéiformes",
+     "correct": true,
+     "j": "Le 2e métatarsien s'articule avec les trois cunéiformes ; sa base encastrée entre eux réduit sa mobilité."
+    },
+    {
+     "t": "Avec le cunéiforme médial uniquement",
+     "j": "C'est le 1er métatarsien qui s'articule avec le seul cunéiforme médial."
+    },
+    {
+     "t": "Avec le 3e cunéiforme et le cuboïde",
+     "j": "Cette articulation correspond au 4e métatarsien, non au 2e."
+    }
+   ]
+  },
+  {
+   "q": "Quelle particularité caractérise le talus en tant qu'os « en cage » ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Il ne reçoit aucune insertion musculaire",
+     "correct": true,
+     "j": "Le talus est un os en cage : tous les muscles venant de la jambe passent autour de lui sans s'y insérer."
+    },
+    {
+     "t": "Il porte l'insertion du triceps sural sur toute sa face postérieure",
+     "j": "Le triceps sural s'insère sur le calcanéus, le talus n'ayant aucune insertion musculaire."
+    },
+    {
+     "t": "Il sert de point d'attache principal au tibial postérieur sur sa face médiale",
+     "j": "Le tibial postérieur se fixe sur le naviculaire et les cunéiformes, jamais sur le talus."
+    }
+   ]
+  },
+  {
+   "q": "Quels types d'articulations composent la médio-tarsienne de Chopart ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Une énarthrose talo-naviculaire et une calcanéo-cuboïdienne en selle",
+     "correct": true,
+     "j": "La tête du talus forme une énarthrose avec le naviculaire et le calcanéus une articulation en selle avec le cuboïde."
+    },
+    {
+     "t": "Deux arthrodies planes, l'une talo-naviculaire et l'autre calcanéo-cuboïdienne",
+     "j": "Les arthrodies caractérisent le médio-pied (cunéo-naviculaires), pas les surfaces de Chopart."
+    },
+    {
+     "t": "Une trochlée talo-naviculaire et une articulation condylienne calcanéo-cuboïdienne",
+     "j": "La talo-naviculaire est une énarthrose et la calcanéo-cuboïdienne une articulation en selle, non des trochlées ou condyliennes."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'arthrocinématique du talus lors de la flexion dorsale de la talo-crurale ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Un roulement antérieur du talus avec glissement postérieur",
+     "correct": true,
+     "j": "En flexion dorsale, le talus effectue un roulement antérieur accompagné d'un glissement postérieur."
+    },
+    {
+     "t": "Un roulement postérieur du talus avec glissement antérieur",
+     "j": "Ce schéma correspond à la flexion plantaire, non à la flexion dorsale."
+    },
+    {
+     "t": "Un glissement médial du talus sans roulement",
+     "j": "La flexion dorsale combine roulement antérieur et glissement postérieur, et non un simple glissement médial."
+    }
+   ]
+  },
+  {
+   "q": "À quel type articulaire correspondent les articulations métatarso-phalangiennes ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Des énarthroses",
+     "correct": true,
+     "j": "Les métatarso-phalangiennes sont des énarthroses, entre têtes métatarsiennes et cavités glénoïdes des premières phalanges."
+    },
+    {
+     "t": "Des trochlées",
+     "j": "Ce sont les articulations interphalangiennes qui sont des trochlées, pas les métatarso-phalangiennes."
+    },
+    {
+     "t": "Des arthrodies",
+     "j": "Les arthrodies correspondent aux articulations intermétatarsiennes ; les métatarso-phalangiennes sont des énarthroses."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est la limite osseuse principale du mouvement d'inversion du pied ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le confinement de la malléole médiale (interne)",
+     "correct": true,
+     "j": "L'inversion est limitée en butée osseuse par le confinement de la malléole médiale."
+    },
+    {
+     "t": "La collision du talus avec la malléole latérale",
+     "j": "Cette collision contre la malléole latérale est une limite osseuse de l'éversion, non de l'inversion."
+    },
+    {
+     "t": "La collision du col du talus avec le tibia",
+     "j": "Cette collision tibio-talienne limite la flexion dorsale, pas l'inversion."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la supination autour de l'axe longitudinal du pied (Z-Z') ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "52°",
+     "correct": true,
+     "j": "La supination, qui soulève le bord interne du pied, atteint 52° autour de l'axe Z-Z'."
+    },
+    {
+     "t": "25° à 35°",
+     "j": "Cette amplitude correspond à la pronation, non à la supination."
+    },
+    {
+     "t": "20° à 30°",
+     "j": "20° à 30° est l'amplitude de la flexion dorsale dans le plan sagittal, pas de la supination."
+    }
+   ]
+  },
+  {
+   "q": "Comment nomme-t-on respectivement le pied supinateur et le pied pronateur ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Pied varus pour le supinateur et pied valgus pour le pronateur",
+     "correct": true,
+     "j": "Le pied supinateur est appelé pied varus et le pied pronateur est appelé pied valgus."
+    },
+    {
+     "t": "Pied valgus pour le supinateur et pied varus pour le pronateur",
+     "j": "L'association est inversée : la supination correspond au varus et la pronation au valgus."
+    },
+    {
+     "t": "Pied équin pour le supinateur et pied talus pour le pronateur",
+     "j": "Équin et talus désignent des positions de flexion plantaire ou dorsale, non la supination ni la pronation."
+    }
+   ]
+  },
+  {
+   "q": "Par rapport à quel repère l'angle de torsion (ou de déclinaison) du col fémoral est-il mesuré ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "À l'axe de la diaphyse fémorale, avec lequel l'axe du col forme cet angle",
+     "j": "L'angle formé par l'axe du col et l'axe diaphysaire est l'angle d'inclinaison, évalué à 125°, et non l'angle de torsion."
+    },
+    {
+     "t": "Au plan sagittal, avec lequel l'axe du col anatomique forme cet angle",
+     "j": "Le plan sagittal ne sert de référence à aucun des deux angles du fémur décrits dans le cours : la torsion se mesure dans le plan horizontal, par rapport au plan frontal."
+    },
+    {
+     "t": "Au plan frontal, avec lequel l'axe du col anatomique forme cet angle",
+     "correct": true,
+     "j": "Le cours définit l'angle de torsion comme l'angle compris entre l'axe du col anatomique et le plan frontal, et le chiffre entre 10 et 30°."
+    }
+   ]
+  },
+  {
+   "q": "Vu d'en haut, quelle est l'orientation du col du fémur décrite par le cours ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Il se dirige obliquement vers l'intérieur et vers l'avant",
+     "correct": true,
+     "j": "Le cours précise que, vu de dessus, le col apparaît oblique vers l'intérieur et vers l'avant : c'est cette antéposition qui définit l'antéversion fémorale."
+    },
+    {
+     "t": "Il se dirige obliquement vers l'intérieur et vers l'arrière",
+     "j": "Une orientation postérieure du col correspond à la rétroversion fémorale, qui est une variation pathologique et non la disposition normale."
+    },
+    {
+     "t": "Il se dirige obliquement vers l'extérieur et vers l'avant",
+     "j": "Le col porte la tête fémorale vers la ligne médiane pour l'engager dans l'acétabulum : une obliquité externe est incompatible avec cette orientation."
+    }
+   ]
+  },
+  {
+   "q": "Quelles conséquences une antéversion fémorale excessive entraîne-t-elle sur les amplitudes de rotation de la hanche ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "La rotation interne est augmentée et la rotation externe diminuée",
+     "correct": true,
+     "j": "Le cours relie l'angle de torsion aux amplitudes : lorsque le col est trop antéversé, la hanche gagne en rotation interne et perd en rotation externe."
+    },
+    {
+     "t": "Les deux rotations sont augmentées de manière symétrique",
+     "j": "L'angle de torsion ne modifie pas l'amplitude totale de rotation mais sa répartition entre rotation interne et rotation externe."
+    },
+    {
+     "t": "La rotation externe est augmentée et la rotation interne diminuée",
+     "j": "C'est le profil de la rétroversion fémorale, c'est-à-dire d'un angle de torsion diminué, et non celui de l'antéversion excessive."
+    }
+   ]
+  },
+  {
+   "q": "Chez un sujet présentant une antéversion fémorale excessive, quelle position du membre inférieur en charge améliore la congruence coxo-fémorale ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "La station debout avec la hanche en abduction",
+     "j": "L'abduction modifie l'orientation dans le plan frontal, alors que l'anomalie de torsion se situe dans le plan horizontal : la congruence n'est pas corrigée."
+    },
+    {
+     "t": "La station debout avec la hanche en rotation externe",
+     "j": "La rotation externe majore encore la découverte antérieure de la tête fémorale chez un sujet dont le col est trop antéversé."
+    },
+    {
+     "t": "La station debout avec la hanche en rotation interne",
+     "correct": true,
+     "j": "Le cours montre qu'en antéversion excessive, se tenir debout hanche en rotation interne réoriente la tête dans l'acétabulum et améliore la congruence des surfaces."
+    }
+   ]
+  },
+  {
+   "q": "Comment désigne-t-on un col fémoral dont l'angle de torsion est inférieur aux valeurs normales ?",
+   "c": 1,
+   "options": [
+    {
+     "t": "Une coxa vara",
+     "j": "La coxa vara désigne la diminution de l'angle d'inclinaison cervico-diaphysaire : elle concerne l'autre angle du fémur proximal."
+    },
+    {
+     "t": "Une rétroversion fémorale",
+     "correct": true,
+     "j": "La rétroversion correspond à la diminution de l'angle de torsion : vu de dessus, le col est moins dirigé vers l'avant que la normale."
+    },
+    {
+     "t": "Une antéversion fémorale excessive",
+     "j": "L'antéversion excessive correspond à l'inverse, c'est-à-dire à une augmentation de l'angle de torsion au-delà des valeurs normales."
+    }
+   ]
+  },
+  {
+   "q": "Quelles sont les trois articulations de la région du genou énumérées par le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "La fémoro-tibiale, la fémoro-patellaire et la tibio-fibulaire supérieure",
+     "correct": true,
+     "j": "Le cours énumère ces trois articulations, la fémoro-tibiale et la fémoro-patellaire unissant fémur, tibia et rotule, la tibio-fibulaire supérieure complétant le complexe."
+    },
+    {
+     "t": "La fémoro-tibiale, la fémoro-patellaire et la tibio-fibulaire inférieure",
+     "j": "La tibio-fibulaire inférieure appartient au complexe de la cheville : elle unit tibia et fibula pour former la mortaise qui reçoit le talus."
+    },
+    {
+     "t": "La fémoro-tibiale, la tibio-fibulaire supérieure et la tibio-fibulaire inférieure",
+     "j": "Cette liste omet la fémoro-patellaire, qui est pourtant l'une des deux articulations principales du genou."
+    }
+   ]
+  },
+  {
+   "q": "Quelles sont les insertions du ligament croisé antérieur ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "De la face axiale du condyle latéral du fémur à la surface rétro-spinale du tibia",
+     "j": "L'insertion fémorale est exacte mais l'insertion tibiale ne l'est pas : une terminaison rétro-spinale correspondrait au croisé postérieur."
+    },
+    {
+     "t": "De la face axiale du condyle médial du fémur à la surface rétro-spinale du tibia",
+     "j": "Ce trajet est celui du ligament croisé postéro-interne, qui gagne la partie la plus postérieure de la surface rétro-spinale."
+    },
+    {
+     "t": "De la face axiale du condyle latéral du fémur à la surface pré-spinale du tibia",
+     "correct": true,
+     "j": "Le cours décrit le croisé antéro-externe tendu de la face axiale du condyle externe à la surface pré-spinale, en avant des épines tibiales."
+    }
+   ]
+  },
+  {
+   "q": "Quelle valeur de l'angle formé par les diaphyses fémorale et tibiale correspond au genu valgum physiologique ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "170°",
+     "j": "Cette valeur traduirait un valgus plus marqué que le valgus physiologique retenu par le cours, donc une déviation en genu valgum."
+    },
+    {
+     "t": "175°",
+     "correct": true,
+     "j": "Le cours fixe à 175° l’angle entre la diaphyse du fémur et celle du tibia, angle obtus ouvert en dehors : c’est le valgus physiologique du genou."
+    },
+    {
+     "t": "180°",
+     "j": "Un angle de 180° signifierait que les deux diaphyses sont strictement alignées, ce qui ne correspond pas au valgus physiologique du genou."
+    }
+   ]
+  },
+  {
+   "q": "De combien de degrés l'axe mécanique du membre inférieur s'écarte-t-il de la verticale ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "6°",
+     "j": "6° est l'angle que forme la diaphyse du fémur avec l'axe mécanique du membre inférieur, et non celui de l'axe mécanique avec la verticale."
+    },
+    {
+     "t": "9°",
+     "j": "Aucune des obliquités décrites par le cours n'atteint cette valeur : les deux repères chiffrés des axes du membre inférieur sont 3° et 6°."
+    },
+    {
+     "t": "3°",
+     "correct": true,
+     "j": "Le cours chiffre à 3° l'obliquité de l'axe mécanique, qui relie le centre de la tête fémorale au centre de la cheville, par rapport à la verticale."
+    }
+   ]
+  },
+  {
+   "q": "Quel rôle le cours attribue-t-il aux ménisques du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Ils contrôlent les déséquilibres latéraux en se mettant en tension lors de l'extension",
+     "j": "Ce sont les ligaments collatéraux qui contrôlent le valgus et le varus et qui se tendent en extension."
+    },
+    {
+     "t": "Ils augmentent les surfaces de contact et atténuent les pressions sur les plateaux tibiaux",
+     "correct": true,
+     "j": "Situés au-dessus des plateaux tibiaux, ils améliorent la congruence entre condyles et glénoïdes et répartissent les contraintes de compression."
+    },
+    {
+     "t": "Ils assurent la stabilité antéro-postérieure et induisent le glissement des condyles",
+     "j": "Ce sont les rôles des ligaments croisés, qui assurent la stabilité antéro-postérieure et imposent le glissement des condyles sur les glénoïdes."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles le cours classe-t-il parmi les fléchisseurs accessoires du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le vaste médial, le vaste latéral et le vaste intermédiaire",
+     "j": "Ce sont trois des quatre chefs du quadriceps, donc des extenseurs du genou et non des fléchisseurs."
+    },
+    {
+     "t": "Le biceps fémoral, le semi-tendineux et le semi-membraneux",
+     "j": "Ces trois muscles forment les ischio-jambiers, qui sont les fléchisseurs principaux et non accessoires du genou."
+    },
+    {
+     "t": "Les gastrocnémiens, le sartorius, le gracile et le poplité",
+     "correct": true,
+     "j": "Le cours les présente comme fléchisseurs secondaires, aux côtés du tenseur du fascia lata, par opposition aux fléchisseurs principaux."
+    }
+   ]
+  },
+  {
+   "q": "Comment nomme-t-on la déformation du genou caractérisée par une hyperextension exagérée ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Un genu varum",
+     "j": "Le genu varum est également une déviation frontale, de sens inverse au valgum, et non une anomalie de l'extension."
+    },
+    {
+     "t": "Un genu valgum",
+     "j": "Le genu valgum est une déviation dans le plan frontal, par accentuation du valgus physiologique de 175°."
+    },
+    {
+     "t": "Un genu recurvatum",
+     "correct": true,
+     "j": "Le cours réserve ce terme à l'hyperextension qui dépasse l'hyperextension physiologique obtenue passivement, et la considère comme pathologique."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la flexion passive du genou selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "140°",
+     "j": "140° correspond à la flexion active du genou réalisée hanche fléchie, lorsque les ischio-jambiers sont pré-étirés."
+    },
+    {
+     "t": "160°",
+     "correct": true,
+     "j": "Le cours distingue la flexion active, de 120 à 140° selon la position de la hanche, de la flexion passive qui atteint 160°."
+    },
+    {
+     "t": "120°",
+     "j": "120° correspond à la flexion active obtenue hanche en extension, limitée par l'efficacité réduite des ischio-jambiers et la tension du droit fémoral."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de l'hyperextension physiologique du genou obtenue passivement ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "15 à 20°",
+     "j": "Une telle amplitude dépasse l'hyperextension physiologique décrite dans le cours et traduirait déjà un genu recurvatum."
+    },
+    {
+     "t": "5 à 10°",
+     "correct": true,
+     "j": "Le cours décrit une hyperextension physiologique passive de 5 à 10° ; au-delà, l'hyperextension devient un genu recurvatum pathologique."
+    },
+    {
+     "t": "25 à 30°",
+     "j": "Cette valeur correspondrait à une hyperlaxité majeure du genou, très au-delà de l'amplitude physiologique retenue par le cours."
+    }
+   ]
+  },
+  {
+   "q": "Quelles structures le cours cite-t-il comme limites de l'hyperextension du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les ménisques et le ligament transverse du genou",
+     "j": "Les ménisques avancent lors de l'extension et répartissent les pressions, mais le cours ne leur attribue pas de rôle de frein à l'hyperextension."
+    },
+    {
+     "t": "La partie antérieure de la capsule et les ailerons rotuliens",
+     "j": "Les éléments antérieurs se détendent lors de l'extension : ce sont les structures postérieures qui se tendent et freinent l'hyperextension."
+    },
+    {
+     "t": "Les coques condyliennes et les ligaments poplités arqué et oblique",
+     "correct": true,
+     "j": "Le cours énumère parmi ces freins le plan fibreux postérieur de la capsule, les coques condyliennes, les ligaments poplités arqué et oblique, les collatéraux et le croisé antérieur."
+    }
+   ]
+  },
+  {
+   "q": "Quel muscle accessoire de l'extension verrouille le genou dans ses derniers degrés d'extension ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le muscle semi-membraneux",
+     "j": "Le semi-membraneux est un ischio-jambier fléchisseur et rotateur interne du genou : il ne participe pas au verrouillage en extension."
+    },
+    {
+     "t": "Le muscle poplité",
+     "j": "Le poplité joue le rôle inverse : il déverrouille le genou en initiant la rotation interne du tibia au début de la flexion."
+    },
+    {
+     "t": "Le tenseur du fascia lata",
+     "correct": true,
+     "j": "Le cours le cite comme muscle accessoire de l'extension : il verrouille le genou en fin d'extension et redevient fléchisseur dès que le genou se fléchit."
+    }
+   ]
+  },
+  {
+   "q": "Quelles sont les amplitudes passives des rotations du genou selon le cours ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "20 à 25° de rotation interne et 60 à 65° de rotation externe",
+     "j": "Ces chiffres sous-estiment la rotation interne et surestiment la rotation externe par rapport aux valeurs retenues dans le cours."
+    },
+    {
+     "t": "30 à 35° de rotation interne et 45 à 50° de rotation externe",
+     "correct": true,
+     "j": "Le cours chiffre les rotations passives à 30-35° en dedans et 45-50° en dehors, valeurs supérieures aux rotations actives."
+    },
+    {
+     "t": "45 à 50° de rotation interne et 30 à 35° de rotation externe",
+     "j": "Les valeurs sont inversées : c'est la rotation externe qui dispose de la plus grande amplitude, en passif comme en actif."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles le cours retient-il comme moteurs de la rotation interne du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Le biceps fémoral et le tenseur du fascia lata",
+     "j": "Ces deux muscles, latéraux, sont au contraire les rotateurs externes du genou retenus par le cours."
+    },
+    {
+     "t": "La patte d'oie, le semi-membraneux et le poplité",
+     "correct": true,
+     "j": "Le cours cite la patte d'oie (gracile, semi-tendineux, sartorius), le semi-membraneux et le poplité comme rotateurs internes du genou fléchi."
+    },
+    {
+     "t": "Les gastrocnémiens, le plantaire et le soléaire",
+     "j": "Les gastrocnémiens et le plantaire sont des fléchisseurs accessoires sans action rotatoire retenue, et le soléaire n'enjambe même pas le genou."
+    }
+   ]
+  },
+  {
+   "q": "Lors de la rotation externe du genou, comment se déplacent les condyles fémoraux sur les glénoïdes tibiales ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Les deux condyles reculent simultanément sur leurs glénoïdes",
+     "j": "Un recul simultané des deux condyles correspond au roulement postérieur de la flexion, et non à un mouvement de rotation axiale."
+    },
+    {
+     "t": "Le condyle latéral recule et le condyle médial avance",
+     "j": "Cette disposition est celle de la rotation interne, où le condyle externe est en retrait et l'interne en avant de sa glène."
+    },
+    {
+     "t": "Le condyle latéral avance et le condyle médial recule",
+     "correct": true,
+     "j": "Le cours décrit en rotation externe un condyle externe avancé par rapport à sa glène et un condyle interne en retrait par rapport à la sienne."
+    }
+   ]
+  },
+  {
+   "q": "Au début de la flexion du genou, quelle rotation automatique survient et par quel mécanisme ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Une rotation externe du tibia, le condyle médial reculant plus que le latéral",
+     "j": "La rotation externe automatique appartient à la fin de l'extension, et c'est le compartiment externe, non l'interne, dont le déplacement est le plus ample."
+    },
+    {
+     "t": "Une rotation interne du fémur, les deux condyles reculant de façon identique",
+     "j": "La rotation automatique est décrite pour le tibia sur le fémur, et elle suppose justement un déplacement asymétrique des deux condyles."
+    },
+    {
+     "t": "Une rotation interne du tibia, le condyle latéral reculant plus que le médial",
+     "correct": true,
+     "j": "Le cours explique cette rotation interne automatique par le déplacement plus important du condyle externe, lié à la forme du condyle et de sa glène."
+    }
+   ]
+  },
+  {
+   "q": "Vers où est dirigée la face postérieure de la rotule lorsque le genou est fléchi ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Vers le haut",
+     "correct": true,
+     "j": "Le cours précise qu'en flexion la face postérieure de la rotule regarde vers le haut, la rotule ayant basculé autour d'un axe transversal."
+    },
+    {
+     "t": "Vers le bas",
+     "j": "Aucune position du genou n'amène la surface articulaire de la rotule à regarder vers le bas : elle reste appliquée sur le fémur."
+    },
+    {
+     "t": "Vers l'arrière",
+     "j": "C'est l'orientation de la face postérieure de la rotule lorsque le genou est en extension, et non en flexion."
+    }
+   ]
+  },
+  {
+   "q": "Quelle structure permet la translation verticale de la rotule le long de la gorge trochléenne lors de la flexion ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "L'allongement élastique du tendon du quadriceps",
+     "j": "Le tendon du quadriceps est pratiquement inextensible : il transmet la force musculaire sans autoriser de course de la rotule."
+    },
+    {
+     "t": "La mise en tension progressive des ailerons rotuliens",
+     "j": "Les ailerons rotuliens stabilisent la rotule latéralement et participent à l'avancée des ménisques en extension, mais n'autorisent pas sa course verticale."
+    },
+    {
+     "t": "Le déploiement des culs-de-sac capsulaires supra-patellaires",
+     "correct": true,
+     "j": "Le cours attribue la course verticale de la rotule, jusqu'à l'échancrure intercondylienne, au déploiement du cul-de-sac capsulaire supra-patellaire."
+    }
+   ]
+  },
+  {
+   "q": "Comment la rotule est-elle entraînée par le fémur lors des rotations du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "En rotation externe, le fémur entraîne la rotule vers l'extérieur",
+     "j": "En rotation externe, le tendon rotulien est orienté en bas et en dehors et la rotule est au contraire tirée vers l'intérieur."
+    },
+    {
+     "t": "En rotation interne, le fémur entraîne la rotule vers l'intérieur",
+     "j": "Le déplacement médial de la rotule est celui qui accompagne la rotation externe, et non la rotation interne."
+    },
+    {
+     "t": "En rotation interne, le fémur entraîne la rotule vers l'extérieur",
+     "correct": true,
+     "j": "Le cours décrit qu'en rotation interne le tendon rotulien est orienté en bas et en dedans, le fémur entraînant la rotule en dehors."
+    }
+   ]
+  },
+  {
+   "q": "Que peut-il se produire au niveau de la rotule lors d'une hyperextension passive du genou ?",
+   "c": 2,
+   "options": [
+    {
+     "t": "Elle s'engage dans l'échancrure intercondylienne",
+     "j": "L'engagement de la rotule jusqu'à l'échancrure intercondylienne est au contraire le terme de sa course en flexion."
+    },
+    {
+     "t": "Elle peut se détacher de la trochlée fémorale",
+     "correct": true,
+     "j": "La coaptation fémoro-patellaire diminuant avec l'extension, le cours précise qu'en hyperextension passive la rotule peut quitter la trochlée."
+    },
+    {
+     "t": "Elle est plaquée contre la trochlée par la coaptation",
+     "j": "La force de coaptation de la rotule augmente avec la flexion et diminue avec l'extension : elle est donc minimale en hyperextension."
+    }
+   ]
+  },
+  {
+   "q": "Combien de phalanges chaque orteil comporte-t-il ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Deux pour tous les orteils, y compris le premier",
+     "j": "Seul le premier orteil est réduit à deux phalanges ; les quatre autres en possèdent bien trois."
+    },
+    {
+     "t": "Trois, sauf le premier orteil qui n'en possède que deux",
+     "correct": true,
+     "j": "Le cours décrit des phalanges proximale, moyenne et distale pour chaque orteil, à l'exception du premier qui n'en compte que deux."
+    },
+    {
+     "t": "Trois pour tous les orteils, y compris le premier",
+     "j": "Cette réponse ignore la particularité du premier orteil, qui ne comporte pas de phalange moyenne."
+    }
+   ]
+  },
+  {
+   "q": "Comment le cours décrit-il l'articulation subtalaire (talo-calcanéenne) ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Deux surfaces articulaires formant deux arthrodies, l'une antérieure et l'autre postérieure",
+     "correct": true,
+     "j": "La face inférieure du talus et la face supérieure du calcanéus se répondent par deux jeux de surfaces, constituant deux arthrodies."
+    },
+    {
+     "t": "Une surface articulaire unique formant une énarthrose entre le talus et le calcanéus",
+     "j": "L’énarthrose voisine est la talo-naviculaire de la médio-tarsienne de Chopart, et la subtalaire ne comporte pas une seule surface articulaire."
+    },
+    {
+     "t": "Deux surfaces formant une trochlée antérieure et une articulation en selle postérieure",
+     "j": "L'articulation en selle du tarse est la calcanéo-cuboïdienne ; la subtalaire est faite de deux arthrodies planes."
+    }
+   ]
+  },
+  {
+   "q": "Quels faisceaux composent le ligament collatéral latéral de la cheville ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Le tibio-talaire antérieur, le tibio-naviculaire et le tibio-calcanéen",
+     "j": "Ces faisceaux appartiennent au ligament collatéral médial ou deltoïde, tendu depuis la malléole interne."
+    },
+    {
+     "t": "Le talo-calcanéen interosseux, le talo-naviculaire dorsal et le calcanéo-cuboïdien dorsal",
+     "j": "Ces ligaments unissent les os du tarse entre eux et freinent l'inversion, mais ne naissent pas de la malléole externe."
+    },
+    {
+     "t": "Le talo-fibulaire antérieur, le talo-fibulaire postérieur et le calcanéo-fibulaire",
+     "correct": true,
+     "j": "Ce sont les trois faisceaux décrits en vue latérale, tendus de la malléole externe au talus et au calcanéus."
+    }
+   ]
+  },
+  {
+   "q": "De quel type est l'articulation entre le naviculaire et les trois cunéiformes, et quel est son rôle ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Une trochlée dont les mouvements de flexion-extension suivent l'axe de Henke",
+     "j": "Les trochlées du pied sont les interphalangiennes, et l'axe de Henke est celui de l'inversion-éversion, non d'une flexion-extension du médio-pied."
+    },
+    {
+     "t": "Une arthrodie dont les déplacements verticaux modifient la voûte plantaire",
+     "correct": true,
+     "j": "Le cours classe les cunéo-naviculaires parmi les arthrodies du médio-pied, dont les déplacements verticaux font varier la voûte plantaire."
+    },
+    {
+     "t": "Une énarthrose dont les mouvements orientent l'avant-pied dans les trois plans",
+     "j": "Les énarthroses du pied sont la talo-naviculaire et les métatarso-phalangiennes ; les cunéo-naviculaires sont des articulations planes."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude de la flexion dorsale de la talo-crurale et le minimum nécessaire à la marche ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "30 à 50°, avec un minimum de 20° pour la marche",
+     "j": "Ces valeurs sont celles de la flexion plantaire, dont le minimum fonctionnel pour la marche est effectivement de 20°."
+    },
+    {
+     "t": "10 à 20°, avec un minimum de 5° pour la marche",
+     "j": "Ces chiffres sous-estiment à la fois l'amplitude totale de la flexion dorsale et le minimum exigé pour marcher."
+    },
+    {
+     "t": "20 à 30°, avec un minimum de 10° pour la marche",
+     "correct": true,
+     "j": "Le cours retient 20 à 30° de flexion dorsale, dont au moins 10° sont indispensables au déroulement du pas."
+    }
+   ]
+  },
+  {
+   "q": "De quel type sont les articulations tarso-métatarsiennes et par quoi sont-elles renforcées ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Des trochlées, renforcées par deux ligaments latéraux à deux fascicules chacun",
+     "j": "Cette description correspond aux interphalangiennes des orteils, et non à l'interligne de Lisfranc."
+    },
+    {
+     "t": "Des énarthroses, renforcées par deux ligaments latéraux et un ligament transverse plantaire",
+     "j": "Ce type et ces renforts sont ceux des métatarso-phalangiennes, situées plus distalement."
+    },
+    {
+     "t": "Des arthrodies, renforcées par des ligaments dorsaux, plantaires et interosseux",
+     "correct": true,
+     "j": "Le cours classe toutes les tarso-métatarsiennes parmi les arthrodies et décrit ces trois groupes de renforts ligamentaires."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'obliquité de l'interligne entre le premier métatarsien et le cunéiforme médial ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Oblique en arrière et en dehors",
+     "j": "Les deux extrémités de l'interligne de Lisfranc sont obliques vers l'avant ; aucune n'est décrite comme oblique en arrière."
+    },
+    {
+     "t": "Oblique en avant et en dedans",
+     "j": "C'est l'obliquité de l'interligne entre le cinquième métatarsien et le cuboïde, opposée à celle du premier rayon."
+    },
+    {
+     "t": "Oblique en avant et en dehors",
+     "correct": true,
+     "j": "Le cours précise que, prolongé, cet interligne tomberait au milieu du cinquième métatarsien, ce qui traduit son obliquité antéro-externe."
+    }
+   ]
+  },
+  {
+   "q": "Que devient l'arche antérieure du pied lors de la flexion des métatarsiens ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Elle augmente, car les têtes métatarsiennes se rapprochent de l'axe longitudinal du pied",
+     "correct": true,
+     "j": "L'obliquité des interlignes de Lisfranc fait converger les têtes vers l'axe du pied lors de la flexion, ce qui creuse l'arche antérieure."
+    },
+    {
+     "t": "Elle s'aplatit, car les têtes métatarsiennes se rapprochent de l'axe longitudinal du pied",
+     "j": "Le rapprochement des têtes est bien celui de la flexion, mais il augmente l'arche antérieure au lieu de l'aplatir."
+    },
+    {
+     "t": "Elle s'aplatit, car les têtes métatarsiennes s'écartent de l'axe longitudinal du pied",
+     "j": "Cet écartement des têtes, avec aplatissement de l'arche antérieure, caractérise l'extension des métatarsiens."
+    }
+   ]
+  },
+  {
+   "q": "Entre quelles bases métatarsiennes n'existe-t-il normalement pas d'articulation intermétatarsienne ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Entre le deuxième et le troisième métatarsien",
+     "j": "Cette articulation intermétatarsienne existe, comme toutes celles des rayons latéraux du pied."
+    },
+    {
+     "t": "Entre le premier et le deuxième métatarsien",
+     "correct": true,
+     "j": "Le cours précise que les bases des métatarsiens voisins s'articulent entre elles, sauf celles du premier et du deuxième qui ne le font normalement pas."
+    },
+    {
+     "t": "Entre le quatrième et le cinquième métatarsien",
+     "j": "Ces deux bases s'articulent bien, par une arthrodie renforcée de ligaments dorsaux, plantaires et interosseux."
+    }
+   ]
+  },
+  {
+   "q": "Combien d'articulations interphalangiennes chaque orteil possède-t-il et de quel type sont-elles ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "Trois trochlées, identiques pour tous les orteils y compris le premier",
+     "j": "Le type est exact mais le nombre ne l'est pas : trois phalanges ne laissent que deux interphalangiennes, et le premier orteil n'en a qu'une."
+    },
+    {
+     "t": "Deux trochlées, sauf le premier orteil qui n'en possède qu'une",
+     "correct": true,
+     "j": "Le cours décrit les interphalangiennes comme des trochlées, au nombre de deux par orteil sauf au premier, qui n'a que deux phalanges."
+    },
+    {
+     "t": "Deux énarthroses, sauf le premier orteil qui n'en possède qu'une",
+     "j": "Le nombre est exact mais le type ne l'est pas : les énarthroses de l'avant-pied sont les métatarso-phalangiennes."
+    }
+   ]
+  },
+  {
+   "q": "Quels muscles assurent l'adduction des orteils ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "L'abducteur du premier orteil et les interosseux dorsaux",
+     "j": "Ces muscles, ainsi que l'abducteur du cinquième orteil, réalisent au contraire l'abduction des orteils."
+    },
+    {
+     "t": "L'adducteur du premier orteil et les interosseux plantaires",
+     "correct": true,
+     "j": "Le cours répartit les moteurs des métatarso-phalangiennes par action et place ces deux groupes dans la colonne de l'adduction."
+    },
+    {
+     "t": "Les lombricaux et le court fléchisseur des orteils",
+     "j": "Ces muscles figurent dans la colonne de la flexion des métatarso-phalangiennes et non dans celle de l'adduction."
+    }
+   ]
+  },
+  {
+   "q": "Quelle est l'amplitude des mouvements d'abduction-adduction du pied autour de l'axe longitudinal de la jambe ?",
+   "c": 3,
+   "options": [
+    {
+     "t": "35 à 45°",
+     "correct": true,
+     "j": "Le cours associe l'axe Y-Y' au plan transversal, avec une pointe du pied portée en dehors ou en dedans sur 35 à 45°."
+    },
+    {
+     "t": "25 à 35°",
+     "j": "Cette valeur est celle de la pronation, mouvement réalisé dans le plan frontal autour de l'axe longitudinal du pied."
+    },
+    {
+     "t": "15 à 25°",
+     "j": "Cette amplitude est inférieure à celle que le cours attribue à l'abduction-adduction du pied, qui se partage entre subtalaire et Chopart."
+    }
+   ]
+  }
  ]
 };
