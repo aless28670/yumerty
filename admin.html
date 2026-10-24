@@ -245,6 +245,22 @@ tbody tr:hover td{background:var(--voile)}
 .mono{font:600 12.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--encre-douce)}
 .mut{color:var(--encre-pale)}
 
+/* ---------- Signalements ---------- */
+/* Les énoncés sont longs : cette colonne est la seule à revenir à la ligne. */
+td.enonce{white-space:normal;min-width:320px;max-width:520px;line-height:1.45}
+td.msgs{white-space:normal;max-width:360px;line-height:1.45;color:var(--encre-douce);font-size:12.5px}
+td.msgs div{padding:2px 0}
+tr.traite td{opacity:.5}
+.actes{display:flex;gap:6px}
+.acte{
+  font:700 11.5px/1 'Hanken Grotesk',sans-serif;cursor:pointer;white-space:nowrap;
+  background:var(--voile);color:var(--encre-douce);border:1px solid var(--trait);
+  border-radius:999px;padding:5px 10px;
+}
+.acte:hover{color:var(--encre);border-color:var(--trait-fort)}
+.acte[disabled]{opacity:.45;cursor:default}
+.compte{font:800 13px/1 'Archivo',sans-serif}
+
 /* ---------- Écran de connexion ---------- */
 .boite{
   max-width:330px;margin:14vh auto;background:var(--carte);
@@ -390,6 +406,19 @@ tbody tr:hover td{background:var(--voile)}
     <div class="panneau"><h3>Pays</h3><div id="p_countries"></div></div>
     <div class="panneau"><h3>Appareils</h3><div id="p_devices"></div></div>
     <div class="panneau"><h3>Navigateurs</h3><div id="p_navigateurs"></div></div>
+  </div>
+
+  <!-- 6. SIGNALEMENTS -->
+  <div class="sec"><h2>Signalements</h2><p>questions que des utilisateurs estiment erronées</p></div>
+  <div class="panneau">
+    <h3>Questions signalées <span class="badge" id="sig_compte">—</span></h3>
+    <p class="hint">Un signalement ne retire rien : la question continue d'être posée normalement.
+      « Traiter » la range sans la supprimer de la liste, « Oublier » efface le signalement.
+      Les signalements sont regroupés par question : une même question signalée dix fois ne fait qu'une ligne.</p>
+    <div class="defile">
+      <table><thead><tr><th>Matière</th><th>Question</th><th>Chapitre</th><th>Fois</th><th>Dernier</th><th>Messages</th><th></th></tr></thead>
+      <tbody id="t_sig"></tbody></table>
+    </div>
   </div>
 
   <!-- 6. DÉTAIL -->
@@ -703,9 +732,83 @@ function peindre(s) {
   upd.textContent='maj '+new Date().toLocaleTimeString('fr-FR');
 }
 
+/* ---------- Signalements ----------
+   Liste lue sur le Worker (clés KV "sig:<banque>:<empreinte>"). Jamais dans l'instantané
+   GitHub : un signalement peut citer un énoncé entier, ça reste strictement privé. */
+async function appelSignalements(corps) {
+  var t = jeton();
+  if (!t) return null;
+  for (var i = 0; i < APIS.length; i++) {
+    var k = (apiPreferee + i) % APIS.length;
+    try {
+      var opts = { headers: { Authorization: "Bearer " + t }, cache: "no-store" };
+      if (corps) {
+        opts.method = "POST";
+        opts.headers["Content-Type"] = "application/json";
+        opts.body = JSON.stringify(corps);
+      }
+      var rep = await fetch(APIS[k] + "/admin/api/signalements", opts);
+      if (rep.status === 401) { poseJeton(""); return null; }
+      if (rep.ok) { apiPreferee = k; try { return await rep.json(); } catch (e) { return null; } }
+    } catch (e) {}
+  }
+  return null;
+}
+
+function peindreSignalements(d) {
+  var corps = document.getElementById("t_sig"), compte = document.getElementById("sig_compte");
+  if (!corps) return;
+  if (!d || !d.liste) {
+    corps.innerHTML = '<tr><td colspan=7 class=mut style="white-space:normal">Liste indisponible — elle n\'existe qu\'en direct, pas dans l\'instantané GitHub.</td></tr>';
+    if (compte) compte.textContent = "—";
+    return;
+  }
+  var l = d.liste, now = Date.now();
+  var actifs = l.filter(function (e) { return !e.traite; }).length;
+  if (compte) compte.textContent = actifs ? nb(actifs) + (actifs > 1 ? " à voir" : " à voir") : "rien à voir";
+  if (!l.length) {
+    corps.innerHTML = '<tr><td colspan=7 class=mut>Aucun signalement.</td></tr>';
+    return;
+  }
+  corps.innerHTML = l.map(function (e) {
+    var msgs = (e.msgs || []).filter(function (m) { return m && m.m; });
+    return '<tr' + (e.traite ? ' class=traite' : '') + '>'
+      + '<td>' + esc(e.b || "") + '</td>'
+      + '<td class=enonce>' + esc(e.q || "") + '</td>'
+      + '<td class=mut>' + esc(e.c || "—") + '</td>'
+      + '<td class=compte>' + nb(e.n || 1) + '</td>'
+      + '<td class=mut>' + (e.tN ? ago(e.tN, now) : "—") + '</td>'
+      + '<td class=msgs>' + (msgs.length
+          ? msgs.map(function (m) { return '<div>« ' + esc(m.m) + ' »</div>'; }).join("")
+          : '<span class=mut>—</span>') + '</td>'
+      + '<td><div class=actes>'
+      + '<button class=acte data-sig-traite="' + esc(e.cle) + '">' + (e.traite ? "À revoir" : "Traité") + '</button>'
+      + '<button class=acte data-sig-oubli="' + esc(e.cle) + '">Oublier</button>'
+      + '</div></td></tr>';
+  }).join("");
+}
+
+async function chargerSignalements() {
+  peindreSignalements(await appelSignalements(null));
+}
+
+/* Les boutons sont recréés à chaque peinture : on délègue au tableau. */
+document.getElementById("t_sig").addEventListener("click", async function (ev) {
+  var b = ev.target.closest(".acte");
+  if (!b) return;
+  var cle = b.getAttribute("data-sig-traite") || b.getAttribute("data-sig-oubli");
+  if (!cle) return;
+  var action = b.hasAttribute("data-sig-oubli") ? "supprimer" : "basculer";
+  if (action === "supprimer" && !confirm("Oublier ce signalement ? La question n\'est pas touchée.")) return;
+  b.disabled = true;
+  await appelSignalements({ cle: cle, action: action });
+  await chargerSignalements();
+});
+
 async function charger() {
   var s = await statsEnDirect();
-  if (s) { bandeau(""); peindre(s); return; }
+  if (s) { bandeau(""); peindre(s); chargerSignalements(); return; }
+  peindreSignalements(null);
   // Direct indisponible : on retombe sur l'instantané publié par GitHub.
   var i = await statsInstantane(motdepasse);
   if (i) {

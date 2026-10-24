@@ -1166,6 +1166,7 @@ function formatNumber(n) {
 /* ----------- Quiz rendering ----------- */
 function renderQuestion() {
   const q = state.questions[state.index];
+  reinitialiserSignalement();
   $("#quiz-current").textContent = state.index + 1;
   $("#progress-fill").style.width = ((state.index + 1) / state.quizLength * 100) + "%";
 
@@ -1635,6 +1636,114 @@ function escapeHtml(s) {
     .replace(/'/g, "&#39;");
 }
 
+
+/* =========================================================
+   SIGNALEMENT D'UNE QUESTION
+   L'utilisateur peut signaler ce qui lui paraît être une erreur, avec un message facultatif.
+   Deux garde-fous de conception :
+     — le signalement ne retire ni ne masque jamais la question : elle continue d'être tirée
+       normalement tant qu'elle n'a pas été relue manuellement ;
+     — l'envoi ne doit jamais gêner la session : s'il échoue (réseau coupé, Worker bloqué par
+       un FAI), on remercie quand même et on range l'envoi pour plus tard.
+   ========================================================= */
+var SIG_APIS = [
+  "https://yumerty.alessandrodimeopro.workers.dev",
+  "https://stats.yumerty.com"
+];
+var SIG_FILE = "yumerty_signalements_en_attente";
+
+function signalementsEnAttente() {
+  try { return JSON.parse(localStorage.getItem(SIG_FILE) || "[]"); } catch (e) { return []; }
+}
+function rangerSignalement(charge) {
+  try {
+    var f = signalementsEnAttente();
+    f.push(charge);
+    localStorage.setItem(SIG_FILE, JSON.stringify(f.slice(-30)));
+  } catch (e) {}
+}
+
+/* Tente l'envoi sur les deux adresses du Worker (l'une des deux est parfois bloquée en
+   Espagne, voir js/track.js). Renvoie true si l'une a répondu. */
+async function envoyerSignalement(charge) {
+  for (var i = 0; i < SIG_APIS.length; i++) {
+    try {
+      var r = await fetch(SIG_APIS[i] + "/signalement", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(charge)
+      });
+      if (r.ok) return true;
+      if (r.status === 429) return true;   // quota atteint : inutile de réessayer ailleurs
+    } catch (e) {}
+  }
+  return false;
+}
+
+/* Rejoue les signalements qu'on n'avait pas pu envoyer. */
+async function rejouerSignalements() {
+  var f = signalementsEnAttente();
+  if (!f.length) return;
+  var restants = [];
+  for (var i = 0; i < f.length; i++) {
+    var ok = false;
+    try { ok = await envoyerSignalement(f[i]); } catch (e) {}
+    if (!ok) restants.push(f[i]);
+  }
+  try { localStorage.setItem(SIG_FILE, JSON.stringify(restants)); } catch (e) {}
+}
+
+/* Remet le bloc à son état initial : appelé à chaque nouvelle question. */
+function reinitialiserSignalement() {
+  var pan = document.getElementById("signal-panneau");
+  var merci = document.getElementById("signal-merci");
+  var ouvrir = document.getElementById("signal-ouvrir");
+  var zone = document.getElementById("signal-message");
+  if (pan) pan.hidden = true;
+  if (merci) merci.hidden = true;
+  if (ouvrir) ouvrir.hidden = false;
+  if (zone) zone.value = "";
+}
+
+function questionCourantePourSignalement() {
+  var q = state.questions && state.questions[state.index];
+  if (!q) return null;
+  var chap = "";
+  try {
+    var defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[state.mode]) || null;
+    var ids = chapitresDe(q);
+    if (defs && ids.length) {
+      var d = defs.find(function (x) { return x.id === ids[0]; });
+      if (d) chap = d.nom;
+    }
+  } catch (e) {}
+  return { b: state.mode, q: q.q, c: chap };
+}
+
+function brancherSignalement() {
+  var ouvrir = document.getElementById("signal-ouvrir");
+  var pan = document.getElementById("signal-panneau");
+  var annuler = document.getElementById("signal-annuler");
+  var envoyer = document.getElementById("signal-envoyer");
+  var merci = document.getElementById("signal-merci");
+  var zone = document.getElementById("signal-message");
+  if (!ouvrir || !pan) return;
+
+  ouvrir.addEventListener("click", function () { pan.hidden = false; ouvrir.hidden = true; if (zone) zone.focus(); });
+  if (annuler) annuler.addEventListener("click", function () { pan.hidden = true; ouvrir.hidden = false; });
+  if (envoyer) envoyer.addEventListener("click", async function () {
+    var base = questionCourantePourSignalement();
+    if (!base) return;
+    base.m = zone ? zone.value.trim() : "";
+    pan.hidden = true;
+    if (merci) merci.hidden = false;
+    // On remercie tout de suite : l'envoi ne doit pas faire attendre l'utilisateur.
+    var ok = false;
+    try { ok = await envoyerSignalement(base); } catch (e) {}
+    if (!ok) rangerSignalement(base);
+  });
+}
+
 /* ----------- Event wiring (event delegation) ----------- */
 document.addEventListener("click", (e) => {
   // Hierarchical navigation buttons (cursus → year → semester → matière → modules)
@@ -1754,3 +1863,5 @@ function updateResumeBanner() {
 /* ----------- Init ----------- */
 renderCursusList();
 updateResumeBanner();
+brancherSignalement();
+rejouerSignalements();

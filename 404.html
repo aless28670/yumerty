@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=50">
+  <link rel="stylesheet" href="styles.css?v=51">
 </head>
 <body>
 
@@ -285,6 +285,27 @@
           </div>
 
           <div id="justifications" class="justifications" hidden></div>
+
+          <!-- Signalement d'une erreur sur la question affichée. Discret, toujours accessible,
+               sans aucun effet sur le tirage : la question reste en banque tant qu'elle n'a
+               pas été revue manuellement. -->
+          <div class="signal" id="signal-bloc">
+            <button type="button" class="signal-lien" id="signal-ouvrir">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+              Signaler une erreur
+            </button>
+            <div class="signal-panneau" id="signal-panneau" hidden>
+              <label class="signal-label" for="signal-message">Que semble-t-il clocher&nbsp;? <span>(facultatif)</span></label>
+              <textarea id="signal-message" class="signal-zone" rows="3" maxlength="500"
+                placeholder="Par exemple : la proposition B me paraît juste aussi, ou la justification contredit le cours."></textarea>
+              <div class="signal-actions">
+                <button type="button" class="btn-retour" id="signal-annuler">Annuler</button>
+                <button type="button" class="btn-continuer" id="signal-envoyer">Envoyer le signalement</button>
+              </div>
+              <p class="signal-note">Ton signalement est anonyme. La question reste affichée pour tout le monde&nbsp;: elle sera relue avant toute correction.</p>
+            </div>
+            <p class="signal-merci" id="signal-merci" hidden>Merci, c'est noté. La question sera relue.</p>
+          </div>
         </article>
       </div>
     </section>
@@ -378,7 +399,7 @@
   <script src="js/data.js?v=215"></script>
   <script src="js/chapitres.js?v=32"></script>
   <script src="js/cursus.js?v=97"></script>
-  <script src="js/app.js?v=98"></script>
+  <script src="js/app.js?v=99"></script>
   <script src="js/track.js?v=9" defer></script>
 </body>
 </html>
