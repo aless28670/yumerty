@@ -1322,13 +1322,14 @@ button {
   transform: translateY(-2px);
 }
 
-/* "Suivant" / "Suivante" buttons turn green on hover */
+/* « Suivant » garde la teinte chaude de l'examen. Le vert était réservé au verdict d'une
+   réponse : l'employer ici brouillait le signal et jurait avec le reste du site. */
 #btn-next:hover,
 #btn-mistake-next:hover {
-  background: linear-gradient(135deg, #6fa24a 0%, #5a8a4e 100%);
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.95), rgb(var(--accent-rgb)));
   color: #fdfbf6;
-  box-shadow: 0 12px 30px rgba(27, 158, 88, 0.28),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.10);
+  box-shadow: 0 14px 34px rgba(var(--accent-rgb), 0.40),
+              inset 0 0 0 1px rgba(255, 255, 255, 0.12);
   transform: translateY(-2px);
 }
 
@@ -2397,3 +2398,23 @@ html { scroll-behavior: smooth; }
 /* La carte de module reprend la même logique */
 .mode-card{border-color:rgba(var(--accent-rgb),.26)}
 .mode-card .mode-title{color:var(--accent)}
+
+/* ===== Thème unique de l'examen =====
+   Pendant une partie, une seule teinte : celle du site. Les couleurs de matière servent
+   à se repérer dans le cursus, pas à jouer. Seuls le vert et le rouge des réponses
+   restent porteurs de sens. */
+#screen-quiz, #screen-results, #screen-mistakes{ --accent:#b9763f; --accent-rgb:185,118,63; }
+
+/* « Quitter » en rouge sobre : c'est la seule action qui interrompt la session. */
+#screen-quiz .quiz-header .back-link{
+  color:var(--bad);
+  border:1px solid rgba(192,83,58,.28);
+  border-radius:999px;
+  padding:.4rem .95rem;
+  transition:background .18s,border-color .18s,color .18s;
+}
+#screen-quiz .quiz-header .back-link:hover{
+  background:var(--bad-soft);
+  border-color:rgba(192,83,58,.55);
+  color:var(--bad);
+}

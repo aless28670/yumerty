@@ -95,13 +95,21 @@ function buildModeAccents() {
 }
 const MODE_ACCENTS = buildModeAccents();
 
-/* Paint the quiz screen with the current matière's accent. */
-function applyQuizAccent(mode) {
-  const screen = document.getElementById("screen-quiz");
-  if (!screen) return;
-  const accent = MODE_ACCENTS[mode] || "#b9763f";
-  screen.style.setProperty("--accent", accent);
-  screen.style.setProperty("--accent-rgb", hexToRgb(accent));
+/* Couleur unique de l'examen. Les couleurs vives servent à se repérer dans le cursus
+   (année, matière) ; une fois l'examen lancé, elles deviennent du bruit. L'écran de
+   quiz, les résultats et la revue d'erreurs gardent donc la teinte chaude du site, et
+   seul le vert/rouge des réponses porte une information. */
+const ACCENT_EXAMEN = "#b9763f";
+
+/* Applique la teinte d'examen aux écrans de jeu (quiz, résultats, erreurs). */
+function applyQuizAccent() {
+  const rgb = hexToRgb(ACCENT_EXAMEN);
+  ["screen-quiz", "screen-results", "screen-mistakes"].forEach(id => {
+    const screen = document.getElementById(id);
+    if (!screen) return;
+    screen.style.setProperty("--accent", ACCENT_EXAMEN);
+    screen.style.setProperty("--accent-rgb", rgb);
+  });
 }
 
 /* ----- BorderGlow (porté de React Bits en vanilla, couleurs chaudes) ----- */
@@ -876,7 +884,7 @@ function renderNav() {
         title: y.label,
         meta: dy.meta,
         disabled: dy.disabled,
-        accent: c.accent,
+        accent: y.accent || c.accent,
         data: { year: yk, level: y.programmes ? "programmes" : "semesters" }
       }));
     });
@@ -897,7 +905,7 @@ function renderNav() {
         title: p.label,
         meta: dp.meta,
         disabled: dp.disabled,
-        accent: c.accent,
+        accent: y.accent || c.accent,
         data: { programme: pk, level: "semesters" }
       }));
     });
@@ -918,7 +926,7 @@ function renderNav() {
         title: s.label,
         meta: ds.meta,
         disabled: ds.disabled,
-        accent: c.accent,
+        accent: s.accent || y.accent || c.accent,
         data: { semester: sk, level: "matieres" }
       }));
     });
