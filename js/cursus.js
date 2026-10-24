@@ -464,6 +464,10 @@ const CURSUS = {
                 ]
               }
             }
+          },
+          "N2": {
+            "label": "Semestre 2",
+            "matieres": {}
           }
         },
         "programmes": {
@@ -477,7 +481,8 @@ const CURSUS = {
           "nouveau": {
             "label": "Nouveau programme",
             "semesters": [
-              "N1"
+              "N1",
+              "N2"
             ]
           }
         }
