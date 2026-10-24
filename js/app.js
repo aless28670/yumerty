@@ -884,7 +884,7 @@ function renderNav() {
         title: y.label,
         meta: dy.meta,
         disabled: dy.disabled,
-        accent: y.accent || c.accent,
+        accent: c.accent,
         data: { year: yk, level: y.programmes ? "programmes" : "semesters" }
       }));
     });
@@ -905,7 +905,7 @@ function renderNav() {
         title: p.label,
         meta: dp.meta,
         disabled: dp.disabled,
-        accent: y.accent || c.accent,
+        accent: c.accent,
         data: { programme: pk, level: "semesters" }
       }));
     });
@@ -926,7 +926,7 @@ function renderNav() {
         title: s.label,
         meta: ds.meta,
         disabled: ds.disabled,
-        accent: s.accent || y.accent || c.accent,
+        accent: c.accent,
         data: { semester: sk, level: "matieres" }
       }));
     });

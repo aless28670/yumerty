@@ -2361,9 +2361,11 @@ html { scroll-behavior: smooth; }
 .revise-back:hover{opacity:1}
 .revise-step[data-step="chapters"] .chap-grid{max-height:min(46vh,380px);overflow:auto;padding-right:.25rem}
 
-/* ===== Couleur permanente sur les cartes de navigation =====
-   Avant, l'accent n'apparaissait qu'au survol : toutes les cartes se ressemblaient et
-   paraissaient grises. La teinte est désormais visible en permanence, et s'intensifie au survol. */
+/* ===== Relief permanent sur les cartes de navigation =====
+   La teinte employée est l'orange chaud du site, identique partout : les couleurs par
+   année et par matière ont été retirées. Ce qui change ici, c'est seulement que l'accent
+   est visible en permanence au lieu d'apparaître au survol — sans quoi les cartes
+   paraissaient grises. */
 .nav-card{
   background:
     linear-gradient(135deg, rgba(var(--accent-rgb),.045) 0%, rgba(var(--accent-rgb),.012) 60%, transparent 100%),
