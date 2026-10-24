@@ -470,10 +470,12 @@ function reviseBlockHtml(bank) {
   const couvreTout = p => nbChap > 0 && p.chapitres.length >= nbChap;
   const aUnePartieTotale = parts.some(couvreTout);
 
-  /* Intitulés explicites : on parle d'examens, pas de parties abstraites. */
-  const titre = p => p.label === "Mid" ? "Examen mi-terme"
-                   : p.label === "Final" ? "Examen final"
-                   : "Examen " + p.label.toLowerCase();
+  /* Intitulés explicites : on parle d'examens, pas de parties abstraites.
+     Les libellés hors Mid/Final sont rares (Santé Publique a un examen de gestion à part) :
+     on les nomme explicitement plutôt que de bricoler une minuscule, qui donnait
+     « Examen gestion » au lieu de « Examen de gestion ». */
+  const TITRES = { Mid: "Examen mi-terme", Final: "Examen final", Gestion: "Examen de gestion" };
+  const titre = p => TITRES[p.label] || "Examen " + p.label.toLowerCase();
 
   /* Sous-titres tous bâtis sur le même modèle : l'étendue en chapitres. */
   const plage = ids => {

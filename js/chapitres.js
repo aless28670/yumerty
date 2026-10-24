@@ -2828,5 +2828,187 @@ window.PARTIES = {
     20
    ]
   }
+ ],
+ "anat1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  }
+ ],
+ "processusBio1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ]
+  }
+ ],
+ "structure1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    4,
+    6,
+    7
+   ]
+  }
+ ],
+ "processusBio2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  }
+ ],
+ "structure2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    3,
+    4
+   ]
+  }
+ ],
+ "valoColonne": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    8,
+    10
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    7,
+    11,
+    12
+   ]
+  }
+ ],
+ "dentHeadNeck": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
  ]
 };
