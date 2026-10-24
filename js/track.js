@@ -81,6 +81,29 @@
      ⚠️ La fenêtre « en ligne » du serveur (ONLINE_WINDOW dans src/index.js) DOIT rester
      supérieure au battement, sinon un visiteur actif apparaît hors ligne entre deux signaux. */
   var BATTEMENT = 10 * 60000;
+  var CLE_BATT = "ym_dernier_signal";   // horodatage du dernier signal, PARTAGÉ entre les onglets
+
+  /* ⭐ DEUX FUITES D'ÉCRITURES, corrigées le 2026-10-24 (quota épuisé avant 18 h UTC).
+     Le battement était bien espacé de 10 min, mais deux chemins le contournaient :
+
+     1. CHAQUE RETOUR D'ONGLET déclenchait un battement, sans aucun délai minimum. Un étudiant
+        qui fait l'aller-retour entre Yumerty et son cours — le geste le plus banal du site —
+        payait une écriture KV à chaque va-et-vient. C'était la fuite principale.
+     2. CHAQUE ONGLET battait pour son propre compte : trois onglets ouverts = trois écritures
+        toutes les dix minutes, pour une seule personne.
+
+     Les deux se règlent avec un seul garde-fou : l'horodatage du dernier signal est rangé dans
+     localStorage, donc PARTAGÉ par tous les onglets du navigateur, et aucun battement ne part
+     s'il a moins de BATTEMENT. On ne perd aucune information : le serveur ne retenait de toute
+     façon qu'un `last` déjà rafraîchi.
+     ⚠️ Les vues et les lancements de quiz, eux, ne sont JAMAIS retenus : ce sont des données,
+     pas des signaux de présence. Ils rafraîchissent simplement l'horodatage au passage. */
+  function dernierSignal() {
+    try { return Number(localStorage.getItem(CLE_BATT) || 0) || 0; } catch (e) { return 0; }
+  }
+  function noterSignal(t) {
+    try { localStorage.setItem(CLE_BATT, String(t)); } catch (e) {}
+  }
 
   /* ⭐ IDENTIFIANT PAR NAVIGATEUR — correction du défaut majeur constaté le 18/10/2026.
      Jusque-là le serveur identifiait un visiteur par l'empreinte de son ADRESSE IP. Or toutes
@@ -220,6 +243,9 @@
 
   function pister(e) {
     var t = Date.now();
+    /* Tout signal qui part rafraîchit la présence côté serveur : on le note, pour qu'un
+       battement n'aille pas répéter dans la minute ce qu'une vue vient de dire. */
+    noterSignal(t);
     return envoyer(e, 0).then(function (ok) {
       if (!ok) enfiler(e, t);
       else vider();                           // un envoi réussi = le réseau est revenu
@@ -234,7 +260,13 @@
   pister("view");
 
   var minuteur = null;
-  function battre() { if (document.visibilityState === "visible") pister("beat"); }
+  function battre() {
+    if (document.visibilityState !== "visible") return;
+    /* Marge de 30 s : sans elle, un intervalle de 10 min serait bloqué par son propre tour
+       précédent à cause de la dérive des minuteurs, et le battement sauterait un tour sur deux. */
+    if (Date.now() - dernierSignal() < BATTEMENT - 30000) return;
+    pister("beat");
+  }
   function demarrer() {
     if (minuteur) return;
     minuteur = setInterval(battre, BATTEMENT);
