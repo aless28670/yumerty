@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=56">
+  <link rel="stylesheet" href="styles.css?v=57">
 </head>
 <body>
 
@@ -64,9 +64,15 @@
 
     <!-- ========== ACCUEIL — CHOIX DE LA MATIÈRE ========== -->
     <section id="screen-home" class="screen active">
-      <div class="spine-bg" aria-hidden="true">
-        <img src="images/spine-hd.webp?v=6" alt="" width="1218" height="3507" decoding="async" fetchpriority="high">
-      </div>
+      <!-- La colonne est masquée sous 980 px (voir .spine-bg dans styles.css), mais un <img>
+           dans un conteneur display:none est quand même téléchargé. Le <picture> évite aux
+           téléphones de charger une image qu'ils ne verront jamais : sous 981 px, seul le GIF
+           transparent de 43 octets est demandé. -->
+      <picture class="spine-bg" aria-hidden="true">
+        <source media="(min-width: 981px)" srcset="images/spine-hd.webp?v=6" type="image/webp">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             alt="" width="1218" height="3507" decoding="async" fetchpriority="high">
+      </picture>
       <div class="resume-banner" id="resume-banner" hidden>
         <button class="resume-banner-close" data-action="resume-discard" aria-label="Fermer">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
