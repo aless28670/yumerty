@@ -2512,17 +2512,23 @@ html { scroll-behavior: smooth; }
 }
 
 /* ===== Cursus encore en chantier ===== */
+/* Un cursus à venir est volontairement en retrait — mais il doit rester lisible.
+   À .55, le badge « Bientôt disponible » tombait à 1,44:1 de contraste, soit illisible
+   (le minimum pour un petit texte gras est 3:1). */
 .subject-card-soon{
-  opacity:.55;cursor:not-allowed;
+  opacity:.8;cursor:not-allowed;
   border-style:dashed;
 }
 .subject-card-soon:hover{transform:none;box-shadow:none}
 .subject-card-soon-tag{
   font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
   padding:.3rem .75rem;border-radius:999px;white-space:nowrap;
+  /* Teinte du cursus, assombrie pour passer le contraste : reste générique, un futur
+     cursus avec un autre accent est assombri de la même façon. */
   color:rgb(var(--accent-rgb,138,90,106));
-  background:rgba(var(--accent-rgb,138,90,106),.12);
-  box-shadow:inset 0 0 0 1px rgba(var(--accent-rgb,138,90,106),.3);
+  color:color-mix(in srgb, rgb(var(--accent-rgb,138,90,106)) 50%, #2a1d22);
+  background:rgba(var(--accent-rgb,138,90,106),.16);
+  box-shadow:inset 0 0 0 1px rgba(var(--accent-rgb,138,90,106),.34);
 }
 
 /* =========================================================
