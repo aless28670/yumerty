@@ -523,7 +523,7 @@ const CURSUS = {
   "dentaire": {
     "label": "Dentaire",
     "short": "Dentaire",
-    "accent": "#8a5a6a",
+    "accent": "#b9763f",
     "available": false,
     "years": {
       "D2": {
