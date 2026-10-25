@@ -239,11 +239,25 @@ const CURSUS = {
               },
               "abordaje": {
                 "label": "Abordaje",
-                "modules": []
+                "modules": [
+                  {
+                    "id": "abordaje",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "abordaje",
+                    "optionCount": 4
+                  }
+                ]
               },
               "procedimiento2": {
                 "label": "Procedimiento 2",
-                "modules": []
+                "modules": [
+                  {
+                    "id": "procedimiento2",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "procedimiento2",
+                    "optionCount": 3
+                  }
+                ]
               }
             }
           }

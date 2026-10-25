@@ -1579,6 +1579,66 @@ window.CHAPITRES = {
   {
    "id": 17,
    "nom": "Pied de l'enfant et pied douloureux de l'adulte"
+  },
+  {
+   "id": 18,
+   "nom": "Lésion et réparation de l’os : consolidation et ostéosynthèse"
+  },
+  {
+   "id": 19,
+   "nom": "Lésion et réparation du cartilage et des ligaments"
+  },
+  {
+   "id": 20,
+   "nom": "Lésion et réparation du muscle et du tendon"
+  },
+  {
+   "id": 21,
+   "nom": "Traumatismes du rachis thoraco-lombaire"
+  },
+  {
+   "id": 22,
+   "nom": "Traumatismes du rachis cervical"
+  },
+  {
+   "id": 23,
+   "nom": "Traumatismes de l’épaule, du bras et du coude"
+  },
+  {
+   "id": 24,
+   "nom": "Traumatismes de l’avant-bras, du poignet et de la main"
+  },
+  {
+   "id": 25,
+   "nom": "Traumatismes du bassin, de la hanche et de la cuisse"
+  },
+  {
+   "id": 26,
+   "nom": "Fractures du genou et de la jambe"
+  },
+  {
+   "id": 27,
+   "nom": "Lésions ligamentaires et méniscales du genou"
+  },
+  {
+   "id": 28,
+   "nom": "Traumatismes de la cheville et du pied"
+  },
+  {
+   "id": 29,
+   "nom": "Traumatologie et orthopédie pédiatriques"
+  },
+  {
+   "id": 30,
+   "nom": "Tumeurs de l’appareil locomoteur"
+  },
+  {
+   "id": 31,
+   "nom": "Infections de l’appareil locomoteur"
+  },
+  {
+   "id": 32,
+   "nom": "Problèmes cutanés et syndromes douloureux"
   }
  ],
  "pathologie2": [
@@ -1641,6 +1701,34 @@ window.CHAPITRES = {
   {
    "id": 15,
    "nom": "Neurologie de l'enfant"
+  },
+  {
+   "id": 16,
+   "nom": "Paralysie cérébrale infantile"
+  },
+  {
+   "id": 17,
+   "nom": "Paralysie cérébrale et prématurité"
+  },
+  {
+   "id": 18,
+   "nom": "Troubles du neurodéveloppement et de l'apprentissage"
+  },
+  {
+   "id": 19,
+   "nom": "Maladies neuromusculaires pédiatriques"
+  },
+  {
+   "id": 20,
+   "nom": "Myéloméningocèle et lésion médullaire infantile"
+  },
+  {
+   "id": 21,
+   "nom": "Bases en pharmacologie et pharmacovigilance"
+  },
+  {
+   "id": 22,
+   "nom": "Pharmacocinétique et pharmacodynamie"
   }
  ],
  "procesos1": [
@@ -2568,6 +2656,106 @@ window.CHAPITRES = {
    "id": 20,
    "nom": "Complexe cheville-pied"
   }
+ ],
+ "abordaje": [
+  {
+   "id": 1,
+   "nom": "Neurophysiologie de la douleur"
+  },
+  {
+   "id": 2,
+   "nom": "Classification de la douleur"
+  },
+  {
+   "id": 3,
+   "nom": "Facteurs psychosociaux de la douleur"
+  },
+  {
+   "id": 4,
+   "nom": "Facteurs modulateurs de la douleur"
+  },
+  {
+   "id": 5,
+   "nom": "Approche clinique de la douleur"
+  }
+ ],
+ "procedimiento2": [
+  {
+   "id": 1,
+   "nom": "Neurosciences du développement"
+  },
+  {
+   "id": 2,
+   "nom": "Développement du contrôle postural"
+  },
+  {
+   "id": 3,
+   "nom": "Bases du développement neurologique"
+  },
+  {
+   "id": 4,
+   "nom": "Historique clinique neuropédiatrique"
+  },
+  {
+   "id": 5,
+   "nom": "Anamnèse et évaluation du patient neurologique adulte"
+  },
+  {
+   "id": 6,
+   "nom": "Neuroplasticité appliquée"
+  },
+  {
+   "id": 7,
+   "nom": "Tonus et sensibilité"
+  },
+  {
+   "id": 8,
+   "nom": "Échelles et propriétés psychométriques"
+  },
+  {
+   "id": 9,
+   "nom": "Échelles chez le patient neurologique"
+  },
+  {
+   "id": 10,
+   "nom": "Patient neurologique à la phase aiguë"
+  },
+  {
+   "id": 11,
+   "nom": "Orthèses : généralités et membre inférieur"
+  },
+  {
+   "id": 12,
+   "nom": "Orthèses neurologiques du membre supérieur"
+  },
+  {
+   "id": 13,
+   "nom": "Produits d'assistance aux activités quotidiennes et à la communication"
+  },
+  {
+   "id": 14,
+   "nom": "Nouvelles technologies et robotique"
+  },
+  {
+   "id": 15,
+   "nom": "Neurostimulation non invasive"
+  },
+  {
+   "id": 16,
+   "nom": "Outils favorisant la neuroplasticité"
+  },
+  {
+   "id": 17,
+   "nom": "Concepts Bobath, Vojta, Perfetti et Halliwick"
+  },
+  {
+   "id": 18,
+   "nom": "Fonctionnement neurocognitif"
+  },
+  {
+   "id": 19,
+   "nom": "Prise en charge globale : dysphagie, vessie et posture"
+  }
  ]
 };
 
@@ -2721,23 +2909,23 @@ window.PARTIES = {
    "id": "final",
    "label": "Final",
    "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
     16,
-    17
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
    ]
   }
  ],
