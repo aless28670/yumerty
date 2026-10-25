@@ -1472,19 +1472,30 @@ button {
   margin: 0 0 28px;
 }
 
+/* La note et son dénominateur forment UN seul bloc centré, à l'échelle l'un de l'autre :
+   le « / 10 » fixé à 28 px pour un nombre de 112 px paraissait oublié dans un coin. Le
+   dénominateur vaut désormais ~40 % de la note et suit la même mise à l'échelle. */
+.score-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin: 0 0 34px;
+}
 .score-block {
-  display: inline-flex;
+  display: flex;
   align-items: baseline;
-  gap: 10px;
-  margin-bottom: 22px;
+  justify-content: center;
+  gap: clamp(6px, 1vw, 12px);
+  margin: 0;
   position: relative;
 }
 .score-number {
   font-family: 'Archivo', 'Space Grotesk', sans-serif;
-  font-size: clamp(72px, 10vw, 112px);
+  font-size: clamp(66px, 9vw, 104px);
   font-weight: 700;
-  letter-spacing: -0.05em;
-  line-height: 1;
+  letter-spacing: -0.045em;
+  line-height: 0.92;
   background: var(--grad-primary);
   -webkit-background-clip: text;
   background-clip: text;
@@ -1493,21 +1504,50 @@ button {
   filter: drop-shadow(0 6px 16px rgba(30, 25, 20, 0.14));
 }
 .score-out {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 1px;
   font-family: 'Archivo', 'Space Grotesk', sans-serif;
-  font-size: 28px;
-  font-weight: 600;
+  font-size: clamp(27px, 3.7vw, 42px);
+  font-weight: 700;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
   color: var(--text-soft);
+  font-variant-numeric: tabular-nums;
 }
+.score-slash {
+  font-weight: 500;
+  opacity: 0.5;
+  margin-right: 2px;
+}
+/* Note décimale (6,25 / 8,33) : quatre caractères à pleine taille débordaient de la carte
+   sur mobile. La classe est posée par showResults() selon la longueur réelle. */
+.score-block.is-long .score-number { font-size: clamp(50px, 6.6vw, 82px); }
+.score-block.is-long .score-out    { font-size: clamp(22px, 2.9vw, 34px); }
 
 .status-pill {
-  display: inline-block;
-  padding: 11px 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  /* L'interlettrage ajoute un blanc APRÈS la dernière lettre : sans cette compensation à
+     droite, « VALIDÉ » paraissait décalé vers la gauche dans sa pastille. */
+  padding: 11px calc(26px - 0.12em) 11px 26px;
   border-radius: var(--radius-full);
   font-family: 'Archivo', 'Space Grotesk', sans-serif;
-  font-size: 16px;
+  font-size: 14.5px;
   font-weight: 700;
   letter-spacing: 0.12em;
-  margin-bottom: 36px;
+  line-height: 1;
+  margin: 0;
+}
+.status-pill::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  flex: 0 0 auto;
 }
 .status-pill.is-pass {
   background: var(--good-soft);
@@ -1562,6 +1602,34 @@ button {
   margin-top: 4px;
 }
 .results-actions .btn {
+  width: 100%;
+  padding: 15px 18px;
+  font-size: 15px;
+}
+
+/* Les actions de fin de série forment UNE famille : un seul bouton coloré (Nouvelle série)
+   et des boutons neutres de même couleur de texte. Avant, « Revoir mes erreurs » paraissait
+   noir et « Retour au menu » / « Quitter » grisâtres, comme désactivés. */
+.results-actions .btn-secondary,
+.mistakes-footer .btn-secondary { color: var(--text); }
+
+/* Second rang, volontairement plus discret : même texte, fond transparent. */
+.btn-quiet {
+  background: transparent;
+  border-color: var(--glass-border);
+}
+.btn-quiet:hover {
+  background: #fdfbf6;
+  border-color: rgba(40, 35, 28, 0.26);
+}
+
+.mistakes-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 26px;
+}
+.mistakes-footer .btn {
   width: 100%;
   padding: 15px 18px;
   font-size: 15px;
@@ -1846,6 +1914,7 @@ button {
   .quiz-actions { flex-direction: column-reverse; align-items: stretch; }
   .quiz-actions .btn { width: 100%; }
   .results-actions { grid-template-columns: 1fr; }
+  .mistakes-footer { grid-template-columns: 1fr; }
   .title { font-size: 38px; }
 }
 

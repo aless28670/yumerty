@@ -1338,8 +1338,13 @@ function showResults() {
   $("#stat-good").textContent = good;
   $("#stat-bad").textContent = bad;
   $("#stat-skip").textContent = skip;
-  $("#score-number").textContent = formatNumber(displayScore);
+  const scoreTexte = formatNumber(displayScore);
+  $("#score-number").textContent = scoreTexte;
   $("#score-max").textContent = formatNumber(DISPLAY_MAX);
+  // Une note décimale (« 6,25 ») occupe deux fois la largeur d'un « 6 » : on réduit le corps
+  // pour que le bloc reste centré dans la carte au lieu de la déborder.
+  const blocScore = document.querySelector("#screen-results .score-block");
+  if (blocScore) blocScore.classList.toggle("is-long", scoreTexte.length > 2);
 
   const pill = $("#status-pill");
   if (displayScore >= DISPLAY_PASS) {
@@ -1462,14 +1467,25 @@ function renderMistake() {
   const empty = $("#mistakes-empty");
   const actions = document.querySelector(".mistakes-actions");
 
+  const compteur = document.querySelector("#screen-mistakes .mistakes-progress");
+  const consigne = document.querySelector("#screen-mistakes .subtitle");
   if (!mv || mv.list.length === 0) {
+    // Tout est revu : on efface la carte ET on la retire du flux. Vide, elle laissait un
+    // grand rectangle blanc au-dessus du message de félicitations.
     card.innerHTML = "";
+    card.hidden = true;
+    if (compteur) compteur.hidden = true;
+    // « Re-réponds à chaque question » n'a plus de sens quand il ne reste rien à revoir.
+    if (consigne) consigne.hidden = true;
     if (empty) empty.hidden = false;
     if (actions) actions.style.display = "none";
     $("#mistakes-current").textContent = "0";
     $("#mistakes-total").textContent = "0";
     return;
   }
+  card.hidden = false;
+  if (compteur) compteur.hidden = false;
+  if (consigne) consigne.hidden = false;
   if (empty) empty.hidden = true;
   if (actions) actions.style.display = "";
 
@@ -1826,7 +1842,31 @@ document.addEventListener("click", (e) => {
     navigateMistake(1);
     return;
   }
+  if (e.target.closest("#btn-mistakes-new")) {
+    e.preventDefault();
+    nouvelleSerieDepuisErreurs();
+    return;
+  }
 });
+
+/* « Nouvelle série » depuis l'écran « Mes erreurs ». On ne peut pas réutiliser restart(),
+   qui rejoue state.mode : en arrivant par la pastille d'une matière, aucune série n'est en
+   cours. On repart donc de la matière dont on vient de revoir les erreurs. */
+function nouvelleSerieDepuisErreurs() {
+  const mv = state.mistakesView;
+  const banques = (mv && mv.bankKeys) || [];
+  state.mistakesView = null;
+  // Une seule banque : on lance directement. Plusieurs (valoMembres) : le choix du module
+  // revient à l'utilisateur, on le dépose sur l'écran des modules de la matière.
+  if (banques.length === 1 && QUESTIONS[banques[0]]) { startMode(banques[0]); return; }
+  if (state.nav && state.nav.cursus && state.nav.matiere) {
+    state.nav.level = "modules";
+    showScreen("nav");
+    renderNav();
+    return;
+  }
+  showScreen("home");
+}
 
 /* Les raccourcis du quiz ne doivent JAMAIS se déclencher pendant une saisie : dans la zone
    de signalement, taper « b » cochait la proposition B, « n » passait la question et l'espace

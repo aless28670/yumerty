@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=52">
+  <link rel="stylesheet" href="styles.css?v=53">
 </head>
 <body>
 
@@ -317,12 +317,13 @@
           <p class="results-eyebrow" id="results-mode-label"></p>
           <h1 class="results-title">Quiz terminé</h1>
 
-          <div class="score-block">
-            <div class="score-number" id="score-number">0</div>
-            <div class="score-out">/ <span id="score-max">10</span></div>
+          <div class="score-stage">
+            <p class="score-block">
+              <span class="score-number" id="score-number">0</span>
+              <span class="score-out"><span class="score-slash">/</span><span id="score-max">10</span></span>
+            </p>
+            <p class="status-pill" id="status-pill">VALIDÉ</p>
           </div>
-
-          <div class="status-pill" id="status-pill">VALIDÉ</div>
 
           <div class="stats">
             <div class="stat">
@@ -340,10 +341,10 @@
           </div>
 
           <div class="results-actions">
-            <button class="btn btn-secondary" data-action="review">Revoir mes erreurs</button>
             <button class="btn btn-primary" data-action="restart">Nouvelle série</button>
-            <button class="btn btn-ghost" data-action="back-to-subject">Retour au menu</button>
-            <button class="btn btn-ghost" data-action="quit-to-years">Quitter</button>
+            <button class="btn btn-secondary" data-action="review">Revoir mes erreurs</button>
+            <button class="btn btn-secondary btn-quiet" data-action="back-to-subject">Retour au menu</button>
+            <button class="btn btn-secondary btn-quiet" data-action="quit-to-years">Quitter</button>
           </div>
         </div>
       </div>
@@ -372,6 +373,13 @@
         <p class="mistakes-empty" id="mistakes-empty" hidden>
           Plus aucune erreur en attente. Bravo !
         </p>
+
+        <!-- Toujours accessible : après avoir revu ses erreurs, on doit pouvoir enchaîner
+             sur une série sans repasser par le menu de la matière. -->
+        <div class="mistakes-footer">
+          <button class="btn btn-primary" id="btn-mistakes-new">Nouvelle série</button>
+          <button class="btn btn-secondary btn-quiet" data-action="back-from-mistakes">Retour au menu</button>
+        </div>
       </div>
     </section>
 
@@ -388,18 +396,20 @@
         <div id="review-list" class="review-list"></div>
 
         <div class="results-actions">
-          <button class="btn btn-primary" data-action="restart">Refaire ce quiz</button>
-          <button class="btn btn-ghost" data-action="home">Accueil</button>
+          <button class="btn btn-primary" data-action="restart">Nouvelle série</button>
+          <button class="btn btn-secondary" data-action="results">Retour aux résultats</button>
+          <button class="btn btn-secondary btn-quiet" data-action="back-to-subject">Retour au menu</button>
+          <button class="btn btn-secondary btn-quiet" data-action="home">Accueil</button>
         </div>
       </div>
     </section>
 
   </main>
 
-  <script src="js/data.js?v=216"></script>
+  <script src="js/data.js?v=217"></script>
   <script src="js/chapitres.js?v=33"></script>
   <script src="js/cursus.js?v=97"></script>
-  <script src="js/app.js?v=100"></script>
+  <script src="js/app.js?v=101"></script>
   <script src="js/track.js?v=11" defer></script>
 </body>
 </html>
