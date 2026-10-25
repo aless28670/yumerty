@@ -883,18 +883,8 @@ function renderCursusList() {
     } else {
       card.dataset.cursus = key;
     }
-    /* Sous le nom du cursus, ce qu'il contient réellement : l'utilisateur voit l'ampleur
-       de ce qui l'attend avant de cliquer, et le chiffre suit les ajouts tout seul. */
-    const d = contenuDuCursus(key);
-    const meta = (!aVenir && d.matieres)
-      ? `<span class="subject-card-meta">${d.matieres} matière${d.matieres > 1 ? "s" : ""}`
-        + ` · ${separeMilliers(d.qcu)} QCU</span>`
-      : "";
     card.innerHTML = `
-      <span class="subject-card-lines">
-        <span class="subject-card-title">${escapeHtml(c.label)}</span>
-        ${meta}
-      </span>
+      <span class="subject-card-title">${escapeHtml(c.label)}</span>
       ${aVenir
         ? `<span class="subject-card-soon-tag">Bientôt disponible</span>`
         : `<span class="subject-card-arrow" aria-hidden="true">→</span>`}
@@ -933,28 +923,6 @@ function chiffresDuSite() {
     chapitres += ((typeof CHAPITRES !== "undefined" && CHAPITRES[k]) || []).length;
   });
   return { qcu, matieres, chapitres, annees: [...annees].sort() };
-}
-
-/* Ce que contient UN cursus donné : sert la ligne sous son nom sur l'accueil. */
-function contenuDuCursus(cle) {
-  const c = CURSUS[cle];
-  const banques = new Set();
-  let matieres = 0;
-  Object.values((c && c.years) || {}).forEach(annee => {
-    Object.values(annee.semesters || {}).forEach(sem => {
-      Object.values(sem.matieres || {}).forEach(mat => {
-        const cles = (mat.modules || [])
-          .map(m => m.bankKey)
-          .filter(k => (QUESTIONS[k] || []).length > 0);
-        if (!cles.length) return;
-        matieres++;
-        cles.forEach(k => banques.add(k));
-      });
-    });
-  });
-  let qcu = 0;
-  banques.forEach(k => { qcu += QUESTIONS[k].length; });
-  return { matieres, qcu };
 }
 
 /* 16050 → « 16 050 » (espace fine insécable : le nombre ne se coupe jamais en fin de ligne). */
