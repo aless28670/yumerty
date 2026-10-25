@@ -64,6 +64,10 @@
 
     <!-- ========== ACCUEIL — CHOIX DE LA MATIÈRE ========== -->
     <section id="screen-home" class="screen active">
+      <!-- Choix de la langue : uniquement sur l'accueil, discret en haut à droite.
+           Le choix est mémorisé et s'applique à tout le site. -->
+      <div class="lang-switch" id="selecteur-langue" role="group" aria-label="Langue du site"></div>
+
       <!-- La colonne est masquée sous 980 px (voir .spine-bg dans styles.css), mais un <img>
            dans un conteneur display:none est quand même téléchargé. Le <picture> évite aux
            téléphones de charger une image qu'ils ne verront jamais : sous 981 px, seul le GIF
@@ -416,6 +420,7 @@
 
   </main>
 
+  <script src="js/i18n.js?v=1"></script>
   <script src="js/data.js?v=217"></script>
   <script src="js/chapitres.js?v=33"></script>
   <script src="js/cursus.js?v=98"></script>

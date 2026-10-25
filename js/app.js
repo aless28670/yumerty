@@ -219,6 +219,9 @@ function showScreen(name) {
     renderCursusList();
     updateResumeBanner();
   }
+  /* Chaque écran est reconstruit en français puis traduit : une chaîne oubliée
+     reste lisible au lieu de disparaître. */
+  if (typeof appliquerTraductions === "function") appliquerTraductions();
 }
 
 /* ----------- Utils ----------- */
@@ -482,8 +485,8 @@ function reviseBlockHtml(bank) {
     const t = ids.slice().sort((a, b) => a - b);
     const continu = t.every((v, i) => i === 0 || v === t[i - 1] + 1);
     return continu && t.length > 1
-      ? "Chapitres " + t[0] + " à " + t[t.length - 1]
-      : t.length + " chapitre" + (t.length > 1 ? "s" : "");
+      ? traduire("Chapitres") + " " + t[0] + " " + traduire("à") + " " + t[t.length - 1]
+      : t.length + " " + traduire(t.length > 1 ? "chapitres" : "chapitre");
   };
 
   const ligne = (i, scope, t, sous) => `
@@ -784,9 +787,13 @@ function estPrete(m) {
 
 /* Libellé et état d'une carte à partir de ces deux compteurs. */
 function dispoMeta(prets, total, mot) {
-  if (total === 0) return { meta: "Bientôt disponible", disabled: true };
-  if (prets === 0) return { meta: total + " " + mot + (total > 1 ? "s" : "") + " · bientôt", disabled: false };
-  return { meta: prets + " " + mot + (prets > 1 ? "s" : "") + " disponible" + (prets > 1 ? "s" : ""), disabled: false };
+  /* Chaque fragment passe par t() : les langues n'accordent pas le pluriel de la même
+     façon, et une phrase assemblée en dur resterait en français. */
+  const T = (typeof t === "function") ? t : (x => x);
+  if (total === 0) return { meta: T("Bientôt disponible"), disabled: true };
+  const nom = n => T(n > 1 ? mot + "s" : mot);
+  if (prets === 0) return { meta: total + " " + nom(total) + " · " + T("bientôt"), disabled: false };
+  return { meta: prets + " " + nom(prets) + " " + T(prets > 1 ? "disponibles" : "disponible"), disabled: false };
 }
 
 /* ----------- Navigation system (Cursus → Année → [Programme] → Semestre → Matière → Modules) ----------- */
@@ -981,7 +988,9 @@ function renderNav() {
          et l'afficher ici alourdissait le choix pour rien. Seule une année entièrement
          vide reste annoncée « Bientôt disponible » et non cliquable. */
       const dy = dispoMeta(cy.prets, cy.total, "matière");
-      const ordinal = (i + 1) === 1 ? "1ère année" : (i + 1) + "ème année";
+      const ordinal = (typeof t === "function")
+        ? t((i + 1) === 1 ? "1ère année" : (i + 1) + "ème année")
+        : ((i + 1) === 1 ? "1ère année" : (i + 1) + "ème année");
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
         eyebrow: ordinal,
@@ -1005,7 +1014,7 @@ function renderNav() {
       const dp = dispoMeta(cp.prets, cp.total, "matière");
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
-        eyebrow: c.label.toUpperCase() + " · " + (y.long || y.label),
+        eyebrow: traduire(c.label).toUpperCase() + " · " + traduire(y.long || y.label),
         title: p.label,
         meta: dp.meta,
         disabled: dp.disabled,
@@ -1026,7 +1035,7 @@ function renderNav() {
       const ds = dispoMeta(cs.prets, cs.total, "matière");
       list.appendChild(renderNavCard({
         number: String(i + 1).padStart(2, "0"),
-        eyebrow: c.label.toUpperCase() + " · " + (y.long || y.label),
+        eyebrow: traduire(c.label).toUpperCase() + " · " + traduire(y.long || y.label),
         title: s.label,
         meta: ds.meta,
         disabled: ds.disabled,
@@ -1068,7 +1077,7 @@ function renderNav() {
     const y = c.years[year];
     const s = y.semesters[semester];
     const m = s.matieres[matiere];
-    eyebrow.textContent = c.label.toUpperCase() + " · " + (y.long || y.label) + " · " + s.label;
+    eyebrow.textContent = [t(c.label).toUpperCase(), t(y.long || y.label), t(s.label)].join(" · ");
     title.textContent = m.label;
     subtitle.textContent = "Choisis un module et le format de la session.";
 
@@ -1099,7 +1108,7 @@ function renderNav() {
             <span class="mode-tag" style="background:${accentRgba(0.14)}; color:${accent}; box-shadow: inset 0 0 0 1px ${accentRgba(0.35)};">${escapeHtml(mod.optionCount + " propositions")}</span>
           </div>
           ${plusieursModules ? `<h3 class="mode-title">${escapeHtml(mod.label)}</h3>` : ""}
-          <p class="mode-desc">${escapeHtml(mod.desc || ("Une mauvaise réponse retire " + (mod.optionCount === 4 ? "1/3" : "1/2") + " point. Score ramené sur 10."))}</p>
+          <p class="mode-desc">${escapeHtml(mod.desc || (t("Une mauvaise réponse retire") + " " + (mod.optionCount === 4 ? "1/3" : "1/2") + " " + t("point. Score ramené sur 10.")))}</p>
           ${reviseBlockHtml(mod.bankKey)}
         </div>
       `;
@@ -1148,6 +1157,12 @@ function hexToRgb(hex) {
 
 /* ----------- Mode selection ----------- */
 function startMode(mode, length) {
+  /* Dans une autre langue, le contenu de la banque arrive par un fichier
+     séparé : on l'attend avant de tirer les questions. */
+  if (window.chargerQcu && !window.qcuPret([mode])) {
+    window.chargerQcu([mode]).then(() => startMode(mode, length));
+    return;
+  }
   state.mode = mode;
   const bank = QUESTIONS[mode];
   if (!bank || bank.length === 0) {
@@ -1192,6 +1207,10 @@ function startMode(mode, length) {
 function resumeActiveSession() {
   const s = getActiveSession();
   if (!s) return;
+  if (window.chargerQcu && !window.qcuPret([s.mode])) {
+    window.chargerQcu([s.mode]).then(resumeActiveSession);
+    return;
+  }
   state.mode = s.mode;
   state.quizLength = s.quizLength;
   state.points = s.points || getPoints(s.mode);
@@ -1250,8 +1269,8 @@ function renderQuestion() {
     const chs = defs ? ids.map(id => defs.filter(d => d.id === id)[0]).filter(Boolean) : [];
     chapEl.hidden = !chs.length;
     if (chs.length) {
-      chapEl.textContent = (chs.length > 1 ? "Chapitres " : "Chapitre ")
-        + chs.map(c => c.id + " · " + c.nom).join("  —  ");
+      chapEl.textContent = t(chs.length > 1 ? "Chapitres" : "Chapitre") + " "
+        + chs.map(c => c.id + " · " + t(c.nom)).join("  —  ");
     }
   }
 
@@ -1425,8 +1444,8 @@ function showResults() {
   if (reviewBtn) {
     const errs = bad + skip;
     reviewBtn.textContent = errs > 0
-      ? `Revoir mes erreurs (${errs})`
-      : "Revoir mes erreurs";
+      ? `${traduire("Revoir mes erreurs")} (${errs})`
+      : traduire("Revoir mes erreurs");
     reviewBtn.disabled = errs === 0;
     reviewBtn.style.opacity = errs === 0 ? "0.5" : "";
     reviewBtn.style.cursor = errs === 0 ? "not-allowed" : "";
@@ -1463,7 +1482,7 @@ function showReview() {
       item.className = "review-item";
       item.innerHTML = `
         <div class="review-item-head">
-          <span class="review-num">Question ${a.n}</span>
+          <span class="review-num">${t("Question")} ${a.n}</span>
           <span class="review-tag ${a.status === "skip" ? "tag-skip" : "tag-bad"}">
             ${a.status === "skip" ? "Non répondue" : "Mauvaise réponse"}
           </span>
@@ -1508,6 +1527,10 @@ function showReview() {
 
 /* ----------- Persistent mistakes review ----------- */
 function openMistakesViewForBanks(bankKeys, matiereKey) {
+  if (window.chargerQcu && !window.qcuPret(bankKeys)) {
+    window.chargerQcu(bankKeys).then(() => openMistakesViewForBanks(bankKeys, matiereKey));
+    return;
+  }
   const all = getAllMistakes();
   const list = [];
   bankKeys.forEach(mode => {
@@ -1988,7 +2011,7 @@ function updateResumeBanner() {
   if (detail) {
     const total = s.questions.length;
     const current = Math.min(s.index + 1, total);
-    detail.textContent = `${MODE_LABELS[s.mode] || s.mode} — Question ${current} / ${total}`;
+    detail.textContent = `${t(MODE_LABELS[s.mode] || s.mode)} — ${t("Question")} ${current} / ${total}`;
   }
 }
 
@@ -1996,5 +2019,7 @@ function updateResumeBanner() {
 renderCursusList();
 renderHomeStats();
 updateResumeBanner();
+if (typeof renderSelecteurLangue === "function") renderSelecteurLangue();
+if (typeof appliquerTraductions === "function") appliquerTraductions();
 brancherSignalement();
 rejouerSignalements();
