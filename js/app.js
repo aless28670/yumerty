@@ -1828,9 +1828,40 @@ document.addEventListener("click", (e) => {
   }
 });
 
+/* Les raccourcis du quiz ne doivent JAMAIS se déclencher pendant une saisie : dans la zone
+   de signalement, taper « b » cochait la proposition B, « n » passait la question et l'espace
+   validait. On neutralise donc les raccourcis dès qu'un champ éditable a le focus ET tant que
+   le panneau de signalement est ouvert (l'espace sur le bouton « Envoyer » le cliquait tout en
+   enchaînant sur la question suivante). */
+function saisieEnCours(cible) {
+  const pan = document.getElementById("signal-panneau");
+  if (pan && !pan.hidden) return true;
+  if (!cible || cible.nodeType !== 1) return false;
+  if (cible.isContentEditable) return true;
+  const tag = (cible.tagName || "").toLowerCase();
+  return tag === "input" || tag === "textarea" || tag === "select";
+}
+
+/* Entrée et espace sur un bouton ou un lien ayant le focus : le navigateur le clique déjà.
+   Sans ce garde-fou, « Signaler une erreur » atteint au clavier ouvrait le panneau tout en
+   passant à la question suivante, et « SUIVANT » sautait deux questions d'un coup. */
+function activationDuFocus(cible, key) {
+  if (key !== "enter" && key !== " ") return false;
+  if (!cible || cible.nodeType !== 1 || !cible.closest) return false;
+  return !!cible.closest("button, a[href], [role='button'], summary");
+}
+
 document.addEventListener("keydown", (e) => {
   if (!screens.quiz || !screens.quiz.classList.contains("active")) return;
-  const key = e.key.toLowerCase();
+  // Touches mortes et saisie prédictive (claviers FR/ES : ^ ¨ ´ ~) : e.key vaut alors
+  // « Dead »/« Process » et la frappe n'est pas encore un caractère.
+  if (e.isComposing || e.keyCode === 229) return;
+  // Raccourcis système (⌘A tout sélectionner, Ctrl+V coller…) : ne pas les confondre
+  // avec les lettres de réponse.
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (saisieEnCours(e.target)) return;
+  const key = (e.key || "").toLowerCase();
+  if (activationDuFocus(e.target, key)) return;
   if (state.awaitingNext) {
     if (key === "enter" || key === " ") {
       e.preventDefault();
