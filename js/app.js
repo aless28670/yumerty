@@ -883,14 +883,105 @@ function renderCursusList() {
     } else {
       card.dataset.cursus = key;
     }
+    /* Sous le nom du cursus, ce qu'il contient réellement : l'utilisateur voit l'ampleur
+       de ce qui l'attend avant de cliquer, et le chiffre suit les ajouts tout seul. */
+    const d = contenuDuCursus(key);
+    const meta = (!aVenir && d.matieres)
+      ? `<span class="subject-card-meta">${d.matieres} matière${d.matieres > 1 ? "s" : ""}`
+        + ` · ${separeMilliers(d.qcu)} QCU</span>`
+      : "";
     card.innerHTML = `
-      <span class="subject-card-title">${escapeHtml(c.label)}</span>
+      <span class="subject-card-lines">
+        <span class="subject-card-title">${escapeHtml(c.label)}</span>
+        ${meta}
+      </span>
       ${aVenir
         ? `<span class="subject-card-soon-tag">Bientôt disponible</span>`
         : `<span class="subject-card-arrow" aria-hidden="true">→</span>`}
     `;
     root.appendChild(card);
   });
+}
+
+/* ----------- Chiffres de la page d'accueil -----------
+   Ils étaient écrits en dur dans le HTML (« 13 000+ », « 38 matières », « 526 chapitres ») et
+   se démodaient à chaque ajout. On les recalcule au chargement à partir des données réelles.
+   Un cursus fermé (available: false) n'est pas compté : on n'annonce que ce qui est jouable. */
+function chiffresDuSite() {
+  const banques = new Set();
+  const annees = new Set();
+  let matieres = 0;
+  Object.values(CURSUS).forEach(c => {
+    if (c.available === false) return;
+    Object.entries(c.years || {}).forEach(([cleAnnee, annee]) => {
+      Object.values(annee.semesters || {}).forEach(sem => {
+        Object.values(sem.matieres || {}).forEach(mat => {
+          const cles = (mat.modules || [])
+            .map(m => m.bankKey)
+            .filter(k => (QUESTIONS[k] || []).length > 0);
+          if (!cles.length) return;
+          matieres++;
+          annees.add(cleAnnee);
+          cles.forEach(k => banques.add(k));
+        });
+      });
+    });
+  });
+  let qcu = 0, chapitres = 0;
+  banques.forEach(k => {
+    qcu += QUESTIONS[k].length;
+    chapitres += ((typeof CHAPITRES !== "undefined" && CHAPITRES[k]) || []).length;
+  });
+  return { qcu, matieres, chapitres, annees: [...annees].sort() };
+}
+
+/* Ce que contient UN cursus donné : sert la ligne sous son nom sur l'accueil. */
+function contenuDuCursus(cle) {
+  const c = CURSUS[cle];
+  const banques = new Set();
+  let matieres = 0;
+  Object.values((c && c.years) || {}).forEach(annee => {
+    Object.values(annee.semesters || {}).forEach(sem => {
+      Object.values(sem.matieres || {}).forEach(mat => {
+        const cles = (mat.modules || [])
+          .map(m => m.bankKey)
+          .filter(k => (QUESTIONS[k] || []).length > 0);
+        if (!cles.length) return;
+        matieres++;
+        cles.forEach(k => banques.add(k));
+      });
+    });
+  });
+  let qcu = 0;
+  banques.forEach(k => { qcu += QUESTIONS[k].length; });
+  return { matieres, qcu };
+}
+
+/* 16050 → « 16 050 » (espace fine insécable : le nombre ne se coupe jamais en fin de ligne). */
+function separeMilliers(n) {
+  return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+}
+
+function renderHomeStats() {
+  const c = chiffresDuSite();
+  const poser = (id, texte) => { const el = document.getElementById(id); if (el) el.textContent = texte; };
+  poser("stat-qcu", separeMilliers(c.qcu));
+  poser("stat-matieres", separeMilliers(c.matieres));
+  poser("stat-chapitres", separeMilliers(c.chapitres));
+  poser("feature-chapitres", separeMilliers(c.chapitres) + " chapitres");
+
+  // « Kinésithérapie, de la K1 à la K4 » — construit depuis les années réellement pourvues.
+  const ouverts = Object.values(CURSUS).filter(x => x.available !== false);
+  if (ouverts.length === 1 && c.annees.length) {
+    const a = c.annees;
+    const plage = a.length > 1 ? `de la ${a[0]} à la ${a[a.length - 1]}` : a[0];
+    poser("step-cursus", `${ouverts[0].label}, ${plage} : sélectionne ce que tu veux travailler.`);
+  }
+  const lead = document.getElementById("landing-lead");
+  if (lead) {
+    lead.textContent = `${separeMilliers(c.qcu)} QCU corrigés, un entraînement réaliste `
+      + `et un suivi de tes erreurs pour progresser plus vite.`;
+  }
 }
 
 /* Render the current navigation level on #screen-nav. */
@@ -1935,6 +2026,7 @@ function updateResumeBanner() {
 
 /* ----------- Init ----------- */
 renderCursusList();
+renderHomeStats();
 updateResumeBanner();
 brancherSignalement();
 rejouerSignalements();

@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=53">
+  <link rel="stylesheet" href="styles.css?v=54">
 </head>
 <body>
 
@@ -64,7 +64,9 @@
 
     <!-- ========== ACCUEIL — CHOIX DE LA MATIÈRE ========== -->
     <section id="screen-home" class="screen active">
-      <div class="spine-bg" aria-hidden="true"><img src="images/spine-cut.webp?v=4" alt=""></div>
+      <div class="spine-bg" aria-hidden="true">
+        <img src="images/spine-hd.webp?v=1" alt="" width="1774" height="3548" decoding="async" fetchpriority="high">
+      </div>
       <div class="resume-banner" id="resume-banner" hidden>
         <button class="resume-banner-close" data-action="resume-discard" aria-label="Fermer">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -140,18 +142,20 @@
       <div class="home-landing">
 
         <section class="landing-section stats-band-wrap">
+          <!-- Chiffres calculés au chargement par renderHomeStats() : ils ne peuvent plus
+               se démoder au fil des ajouts de matières. -->
           <div class="stats-band">
             <div class="stat-card">
-              <span class="stat-num">13 000<span class="stat-plus">+</span></span>
+              <span class="stat-num" id="stat-qcu">—</span>
               <span class="stat-cap">QCU corrigés et justifiés</span>
             </div>
             <div class="stat-card">
-              <span class="stat-num">38</span>
+              <span class="stat-num" id="stat-matieres">—</span>
               <span class="stat-cap">matières disponibles</span>
             </div>
             <div class="stat-card">
-              <span class="stat-num">2</span>
-              <span class="stat-cap">cursus : Kiné &amp; Dentaire</span>
+              <span class="stat-num" id="stat-chapitres">—</span>
+              <span class="stat-cap">chapitres de cours</span>
             </div>
             <div class="stat-card">
               <span class="stat-num">/10</span>
@@ -164,7 +168,7 @@
           <div class="landing-head">
             <span class="landing-eyebrow">Ce que propose Yumerty</span>
             <h2 class="landing-title">Tout pour réviser efficacement.</h2>
-            <p class="landing-lead">Des milliers de QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.</p>
+            <p class="landing-lead" id="landing-lead">Des QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.</p>
           </div>
           <div class="features-grid">
             <article class="feature-card" style="--fa:#c06a45; --fa-rgb:192,106,69;">
@@ -195,7 +199,7 @@
             <article class="feature-card" style="--fa:#9c6f47; --fa-rgb:156,111,71;">
               <span class="feature-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.5l2 2 3.5-3.5"/><path d="M4 13.5l2 2 3.5-3.5"/><path d="M4 20.5l2 2 3.5-3.5"/><path d="M13 7h7"/><path d="M13 14h7"/><path d="M13 21h7"/></svg></span>
               <h3 class="feature-t">Révision par chapitre</h3>
-              <p class="feature-d">Coche un chapitre, plusieurs, ou lance la matière entière. 526 chapitres suivent le découpage de tes cours.</p>
+              <p class="feature-d">Coche un chapitre, plusieurs, ou lance la matière entière. <span id="feature-chapitres">Les chapitres</span> suivent le découpage de tes cours.</p>
             </article>
           </div>
         </section>
@@ -206,7 +210,7 @@
             <h2 class="landing-title">Réviser en quatre étapes.</h2>
           </div>
           <ol class="steps">
-            <li class="step"><span class="step-n">01</span><div class="step-body"><h3 class="step-t">Choisis ta matière</h3><p class="step-d">Kiné (K1 à K3) ou Dentaire, sélectionne ce que tu veux travailler.</p></div></li>
+            <li class="step"><span class="step-n">01</span><div class="step-body"><h3 class="step-t">Choisis ta matière</h3><p class="step-d" id="step-cursus">Sélectionne ce que tu veux travailler.</p></div></li>
             <li class="step"><span class="step-n">02</span><div class="step-body"><h3 class="step-t">Lance une série</h3><p class="step-d">20, 30 ou 40 QCU selon ton temps.</p></div></li>
             <li class="step"><span class="step-n">03</span><div class="step-body"><h3 class="step-t">Réponds</h3><p class="step-d">Une bonne réponse par question, puis la justification.</p></div></li>
             <li class="step"><span class="step-n">04</span><div class="step-body"><h3 class="step-t">Revois tes erreurs</h3><p class="step-d">Rejoue les questions ratées jusqu'à les effacer.</p></div></li>
@@ -409,7 +413,7 @@
   <script src="js/data.js?v=217"></script>
   <script src="js/chapitres.js?v=33"></script>
   <script src="js/cursus.js?v=97"></script>
-  <script src="js/app.js?v=101"></script>
+  <script src="js/app.js?v=102"></script>
   <script src="js/track.js?v=11" defer></script>
 </body>
 </html>

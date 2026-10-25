@@ -342,70 +342,6 @@ button {
   z-index: 3;
   pointer-events: none;
 }
-
-.hero-image-wrap {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  overflow: visible;
-  animation: floatGlow 8s ease-in-out infinite;
-}
-
-/* Wide soft halo behind the spine — cyan + violet, blurred deep */
-.hero-image-wrap::before {
-  content: "";
-  position: absolute;
-  top: -5%;
-  right: -15%;
-  bottom: -5%;
-  width: 95%;
-  background:
-    radial-gradient(circle at 55% 48%, rgba(90, 138, 78, 0.20) 0%, transparent 55%),
-    radial-gradient(circle at 60% 35%, rgba(251, 249, 244, 0.4) 0%, transparent 60%),
-    radial-gradient(circle at 50% 70%, rgba(233, 228, 219, 0.3) 0%, transparent 55%);
-  filter: blur(55px);
-  z-index: 0;
-  pointer-events: none;
-}
-
-.hero-image {
-  position: relative;
-  z-index: 1;
-  height: 118%;
-  width: auto;
-  max-width: none;
-  display: block;
-  transform: translateX(14%);
-  mix-blend-mode: multiply;
-  filter:
-    invert(1)
-    sepia(0.16)
-    brightness(1.05)
-    contrast(0.88);
-  opacity: 0.92;
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 28%, #000 100%);
-  mask-image: linear-gradient(to right, transparent 0%, #000 28%, #000 100%);
-}
-
-/* Violet color tint sitting on top of the spine — pulls the cyan image
-   toward the site's purple palette and removes the "stuck-on photo" feel. */
-.hero-image-wrap::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 30%;
-  background:
-    radial-gradient(ellipse 70% 60% at 55% 50%, rgba(255, 255, 255, 0.25), transparent 70%),
-    radial-gradient(ellipse 40% 30% at 60% 25%, rgba(251, 249, 244, 0.15), transparent 70%);
-  mix-blend-mode: soft-light;
-  z-index: 2;
-  pointer-events: none;
-}
-
 @keyframes floatGlow {
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-14px); }
@@ -413,28 +349,10 @@ button {
 
 /* Mobile: keep the image full-width and contained instead of bleeding */
 @media (max-width: 980px) {
-  .hero-image-wrap {
-    position: relative;
-    inset: auto;
-    width: 100%;
-    height: 320px;
-    justify-content: center;
-  }
-  .hero-image {
-    height: 100%;
-    width: auto;
-    transform: none;
-    -webkit-mask-image: radial-gradient(ellipse 75% 85% at center, #000 50%, transparent 95%);
-    mask-image: radial-gradient(ellipse 75% 85% at center, #000 50%, transparent 95%);
-  }
-  .hero-image-wrap::before {
-    inset: -10%;
-    width: auto;
-    right: -10%;
-  }
-  .hero-image-wrap::after {
-    left: 10%;
-  }
+  
+  
+  
+  
   .home-right::before { display: none; }
 }
 
@@ -717,10 +635,26 @@ button {
   justify-content: space-between;
   padding: 22px 26px;
 }
+.subject-card.subject-card-minimal .subject-card-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
 .subject-card.subject-card-minimal .subject-card-title {
   font-size: 20px;
   font-weight: 700;
-  flex: 1;
+}
+/* Ce que contient le cursus, sous son nom : chiffres réels, mis à jour tout seuls. */
+.subject-card-meta {
+  font-family: 'Archivo', 'Space Grotesk', sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  line-height: 1;
 }
 .subject-card.subject-card-minimal .subject-card-arrow {
   flex-shrink: 0;
@@ -2198,22 +2132,33 @@ html { scroll-behavior: smooth; }
 .home-landing { position: relative; z-index: 1; }
 .home-right   { background: transparent; }
 
+/* La colonne descend le long du héros. Elle était auparavant étirée sur TOUTE la hauteur de
+   l'accueil (≈ 3 400 px) à partir d'une source de 3 548 px : net sur un écran ordinaire, mais
+   agrandi 2× sur un écran Retina — d'où le flou. On borne donc sa hauteur à la moitié de la
+   source : à dpr 2 le rendu reste au pixel près, et l'image reste largement présente. */
 .spine-bg {
   position: absolute;
   top: 0;
-  bottom: 0;
   right: 0;
+  /* Un peu plus haute que le héros : elle le déborde juste assez pour relier le haut de page
+     aux sections suivantes, mais le fondu l'a éteinte avant d'atteindre les chiffres. */
+  height: clamp(720px, 112vh, 1774px);
   z-index: 0;
   pointer-events: none;
-  transform: translateX(6%);
+  transform: translateX(7%);
+  /* Fondus haut et bas : la colonne naît et se dissout dans la page au lieu d'être
+     tranchée net au bord de l'écran. */
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 7%, #000 52%, rgba(0, 0, 0, 0.42) 80%, transparent 96%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 7%, #000 52%, rgba(0, 0, 0, 0.42) 80%, transparent 96%);
 }
 .spine-bg img {
   display: block;
   height: 100%;
   width: auto;
-  opacity: 0.92;
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 100%);
-  mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 100%);
+  opacity: 0.94;
+  /* Fondu gauche : la colonne entre dans le texte sans bord franc. */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 11%, #000 100%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 11%, #000 100%);
 }
 /* Mobile : pas de colonne (trop chargé sur petit écran) — on la masque. */
 @media (max-width: 980px) {
