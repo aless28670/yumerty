@@ -191,6 +191,16 @@ const I18N = {
 
     /* ---------- Choix de ce qu'on révise ---------- */
     "Que veux-tu réviser ?": "¿Qué quieres repasar?",
+
+    /* --- Chronomètre de série --- */
+    "Chronomètre": "Cronómetro",
+    "Série sans limite de temps": "Serie sin límite de tiempo",
+    "Autre durée": "Otra duración",
+    "Durée en minutes": "Duración en minutos",
+    "Minimum 10 minutes. Une fois la série lancée, le chronomètre ne peut plus être arrêté : à zéro, la série se termine et les questions restantes comptent comme non répondues.":
+      "Mínimo 10 minutos. Una vez iniciada la serie, el cronómetro ya no se puede detener: al llegar a cero, la serie termina y las preguntas restantes cuentan como no respondidas.",
+    "Temps écoulé : les questions restantes comptent comme non répondues.":
+      "Tiempo agotado: las preguntas restantes cuentan como no respondidas.",
     "Tout le programme": "Todo el temario",
     "Personnaliser": "Personalizar",
     "← Changer ce que je révise": "← Cambiar lo que repaso",

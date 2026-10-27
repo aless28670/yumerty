@@ -184,6 +184,11 @@ const SEEN_KEY = "yumerty_seen_v1";
    proprement au lieu de les laisser pointer en silence vers le mauvais chapitre. */
 const CHAPTERS_KEY = "yumerty_chapters_v2";
 const SESSION_KEY = "yumerty_active_session_v1";
+/* Chronomètre : préférence globale (actif + durée en minutes), pas par matière.
+   On la mémorise pour l'étudiant qui travaille systématiquement en temps limité. */
+const CHRONO_KEY = "yumerty_chrono_v1";
+const CHRONO_MIN = 10;          // plancher demandé : en dessous, une série n'a pas de sens
+const CHRONO_DEFAUT = 30;
 
 /* ----------- State ----------- */
 const state = {
@@ -193,6 +198,8 @@ const state = {
   mistakesView: null,
   quizLength: DEFAULT_LENGTH,
   rawMax: DEFAULT_LENGTH,
+  deadline: null,        // horodatage de fin si la série est chronométrée, sinon null
+  chronoEcoule: false,   // vrai si la série s'est terminée parce que le temps a expiré
   points: { good: 1, bad: -0.5 },
   questions: [],
   index: 0,
@@ -256,6 +263,30 @@ function writeJSON(key, val) {
   try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
 }
 
+function lirePrefChrono() {
+  const p = readJSON(CHRONO_KEY);
+  const min = parseInt(p && p.minutes, 10);
+  return {
+    actif: !!(p && p.actif),
+    minutes: Number.isFinite(min) && min >= CHRONO_MIN ? min : CHRONO_DEFAUT
+  };
+}
+function ecrirePrefChrono(pref) { writeJSON(CHRONO_KEY, pref); }
+
+/* « 1 h 30 » plutôt que « 90 min » dès qu'on dépasse l'heure : c'est ainsi qu'un étudiant
+   annonce la durée d'une épreuve. */
+function dureeEnClair(minutes) {
+  if (minutes < 60) return minutes + " min";
+  const h = Math.floor(minutes / 60), m = minutes % 60;
+  return m ? h + " h " + String(m).padStart(2, "0") : h + " h";
+}
+function mmss(ms) {
+  const t = Math.max(0, Math.ceil(ms / 1000));
+  const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), sec = t % 60;
+  const deux = n => String(n).padStart(2, "0");
+  return h ? h + ":" + deux(m) + ":" + deux(sec) : deux(m) + ":" + deux(sec);
+}
+
 function getModeStats(mode) {
   const all = readJSON(STATS_KEY);
   return all[mode] || {};
@@ -301,6 +332,7 @@ function saveActiveSession() {
     index: state.index,
     answers: state.answers,
     awaitingNext: state.awaitingNext,
+    deadline: state.deadline || null,
     ts: Date.now()
   };
   writeJSON(SESSION_KEY, snap);
@@ -462,6 +494,42 @@ function chapterGridHtml(bank) {
 
 /* Bloc « Que veux-tu réviser ? » : parties d'examen, tout le programme, ou personnalisé.
    Remplace l'ancien tiroir de chapitres, qui obligeait à cocher chapitre par chapitre. */
+/* Interrupteur « chronomètre », dans la dernière étape avant le lancement.
+   Un clic l'active et ouvre le réglage de la durée ; la valeur par défaut est déjà 30 min,
+   donc l'étudiant pressé n'a rien d'autre à faire que de choisir son nombre de questions. */
+function chronoBlockHtml() {
+  const pref = lirePrefChrono();
+  const presets = [30, 45, 60, 90, 120];
+  return `
+          <div class="chrono" data-chrono>
+            <button type="button" class="chrono-bascule${pref.actif ? " is-on" : ""}"
+                    data-chrono-toggle role="switch" aria-checked="${pref.actif ? "true" : "false"}">
+              <span class="chrono-piste" aria-hidden="true"><span class="chrono-pastille"></span></span>
+              <span class="chrono-texte">
+                <span class="chrono-titre">Chronomètre</span>
+                <span class="chrono-sous" data-chrono-sous>${pref.actif
+                  ? escapeHtml(dureeEnClair(pref.minutes))
+                  : "Série sans limite de temps"}</span>
+              </span>
+            </button>
+            <div class="chrono-reglage" data-chrono-reglage${pref.actif ? "" : " hidden"}>
+              <div class="chrono-presets">
+                ${presets.map(m => `<button type="button" class="chrono-preset${m === pref.minutes ? " is-on" : ""}" data-chrono-min="${m}">${escapeHtml(dureeEnClair(m))}</button>`).join("")}
+              </div>
+              <label class="chrono-libre">
+                <span class="chrono-libre-label">Autre durée</span>
+                <input type="number" class="chrono-champ" data-chrono-champ
+                       min="${CHRONO_MIN}" step="5" inputmode="numeric"
+                       placeholder="${pref.minutes}" aria-label="Durée en minutes">
+                <span class="chrono-unite">min</span>
+              </label>
+              <p class="chrono-note">Minimum ${CHRONO_MIN} minutes. Une fois la série lancée,
+                le chronomètre ne peut plus être arrêté&nbsp;: à zéro, la série se termine et les
+                questions restantes comptent comme non répondues.</p>
+            </div>
+          </div>`;
+}
+
 function reviseBlockHtml(bank) {
   const chaps = chaptersOf(bank);
   const parts = partiesOf(bank) || [];
@@ -531,6 +599,7 @@ function reviseBlockHtml(bank) {
             <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="30">30 QCU</button>
             <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="40">40 QCU</button>
           </div>
+${chronoBlockHtml()}
           <div class="revise-actions revise-actions-simple">
             <button type="button" class="btn-retour" data-rev-back="scope">← Changer ce que je révise</button>
           </div>
@@ -571,6 +640,29 @@ function wireReviseBlock(card, bank) {
       chip.setAttribute("aria-pressed", on ? "true" : "false");
       return;
     }
+    /* --- chronomètre --- */
+    const bascule = e.target.closest("[data-chrono-toggle]");
+    if (bascule && block.contains(bascule)) {
+      e.preventDefault();
+      const pref = lirePrefChrono();
+      pref.actif = !pref.actif;
+      ecrirePrefChrono(pref);
+      majChrono(block);
+      return;
+    }
+    const preset = e.target.closest("[data-chrono-min]");
+    if (preset && block.contains(preset)) {
+      e.preventDefault();
+      const pref = lirePrefChrono();
+      pref.minutes = parseInt(preset.dataset.chronoMin, 10);
+      pref.actif = true;                 // choisir une durée, c'est vouloir le chronomètre
+      ecrirePrefChrono(pref);
+      const champ = block.querySelector("[data-chrono-champ]");
+      if (champ) champ.value = "";       // un préréglage reprend la main sur la saisie libre
+      majChrono(block);
+      return;
+    }
+
     const back = e.target.closest("[data-rev-back]");
     if (back && block.contains(back)) { show(back.dataset.revBack); return; }
     const go = e.target.closest("[data-rev-go]");
@@ -578,6 +670,44 @@ function wireReviseBlock(card, bank) {
       const ids = chips().filter(c => c.classList.contains("is-on")).map(c => Number(c.dataset.chapId));
       allerAuFormat(ids.length ? (ids.length + " chapitre" + (ids.length > 1 ? "s" : "")) : "Tout le programme", ids);
     }
+  });
+
+  /* Durée libre : on ne corrige qu'au moment où l'étudiant quitte le champ, sinon taper
+     « 120 » serait ramené à 10 dès le premier chiffre. */
+  const champ = block.querySelector("[data-chrono-champ]");
+  if (champ) {
+    const valider = () => {
+      const v = parseInt(champ.value, 10);
+      if (!Number.isFinite(v)) { majChrono(block); return; }
+      const pref = lirePrefChrono();
+      pref.minutes = Math.max(CHRONO_MIN, v);
+      pref.actif = true;
+      ecrirePrefChrono(pref);
+      champ.value = pref.minutes;
+      majChrono(block);
+    };
+    champ.addEventListener("change", valider);
+    champ.addEventListener("blur", valider);
+    champ.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); valider(); } });
+  }
+}
+
+/* Remet l'interrupteur, le panneau et les préréglages en accord avec la préférence. */
+function majChrono(block) {
+  const pref = lirePrefChrono();
+  const bascule = block.querySelector("[data-chrono-toggle]");
+  if (bascule) {
+    bascule.classList.toggle("is-on", pref.actif);
+    bascule.setAttribute("aria-checked", pref.actif ? "true" : "false");
+  }
+  const reglage = block.querySelector("[data-chrono-reglage]");
+  if (reglage) reglage.hidden = !pref.actif;
+  const sous = block.querySelector("[data-chrono-sous]");
+  if (sous) sous.textContent = pref.actif
+    ? traduire(dureeEnClair(pref.minutes))
+    : traduire("Série sans limite de temps");
+  block.querySelectorAll("[data-chrono-min]").forEach(b => {
+    b.classList.toggle("is-on", parseInt(b.dataset.chronoMin, 10) === pref.minutes);
   });
 }
 
@@ -860,6 +990,9 @@ function backNav() {
 
 // From quiz/results back to the modules screen of the current matière.
 function backFromQuiz() {
+  /* On masque le compte à rebours, mais l'échéance reste enregistrée : le temps n'est
+     pas suspendu, il continue de courir pour qui reprend la série. */
+  arreterChrono();
   if (state.nav.cursus && state.nav.matiere) {
     state.nav.level = "modules";
     showScreen("nav");
@@ -1156,6 +1289,53 @@ function hexToRgb(hex) {
 }
 
 /* ----------- Mode selection ----------- */
+/* ----------- Chronomètre de série -----------
+   On mémorise une ÉCHÉANCE absolue (horodatage), jamais un temps restant : ainsi le temps
+   continue de courir si l'onglet passe en arrière-plan, si la page est rechargée ou si
+   l'étudiant quitte la série et la reprend. C'est ce qui rend le chronomètre réellement
+   impossible à arrêter, sans avoir à bloquer la navigation. */
+let chronoTimer = null;
+
+function arreterChrono() {
+  if (chronoTimer) { clearInterval(chronoTimer); chronoTimer = null; }
+  const bloc = $("#quiz-chrono");
+  if (bloc) { bloc.hidden = true; bloc.classList.remove("is-urgent"); }
+}
+
+function demarrerChrono() {
+  arreterChrono();
+  if (!state.deadline) return;
+  const bloc = $("#quiz-chrono");
+  const texte = $("#quiz-chrono-temps");
+  if (!bloc || !texte) return;
+  bloc.hidden = false;
+  const battre = () => {
+    const reste = state.deadline - Date.now();
+    texte.textContent = mmss(reste);
+    bloc.classList.toggle("is-urgent", reste <= 60000);
+    if (reste <= 0) terminerSurChrono();
+  };
+  battre();
+  chronoTimer = setInterval(battre, 250);
+}
+
+/* Fin du temps : on coupe net. Les questions non traitées deviennent « non répondues »,
+   exactement comme si l'étudiant avait cliqué « Ne pas répondre » sur chacune. */
+function terminerSurChrono() {
+  arreterChrono();
+  const traitees = new Set(state.answers.map(a => a.questionIndex));
+  for (let i = 0; i < state.quizLength; i++) {
+    if (!traitees.has(i)) {
+      state.answers.push({ questionIndex: i, chosenDisplayIdx: null, status: "skip" });
+    }
+  }
+  state.answers.sort((a, b) => a.questionIndex - b.questionIndex);
+  state.awaitingNext = false;
+  state.chronoEcoule = true;
+  clearActiveSession();
+  showResults();
+}
+
 function startMode(mode, length) {
   /* Dans une autre langue, le contenu de la banque arrive par un fichier
      séparé : on l'attend avant de tirer les questions. */
@@ -1190,6 +1370,9 @@ function startMode(mode, length) {
   state.index = 0;
   state.answers = [];
   state.awaitingNext = false;
+  state.chronoEcoule = false;
+  const prefChrono = lirePrefChrono();
+  state.deadline = prefChrono.actif ? Date.now() + prefChrono.minutes * 60000 : null;
   clearActiveSession();
   saveActiveSession();
   const label = $("#quiz-mode-label");
@@ -1201,6 +1384,7 @@ function startMode(mode, length) {
   try { if (window.__ymTrack) window.__ymTrack("quiz"); } catch (e) {}
   showScreen("quiz");
   renderQuestion();
+  demarrerChrono();
 }
 
 /* Restore a previously saved active session (after refresh or browser close). */
@@ -1226,6 +1410,8 @@ function resumeActiveSession() {
   state.index = Math.min(s.index || 0, state.questions.length - 1);
   state.answers = Array.isArray(s.answers) ? s.answers : [];
   state.awaitingNext = false;
+  state.chronoEcoule = false;
+  state.deadline = s.deadline || null;
   const resumeLabel = $("#quiz-mode-label");
   resumeLabel.textContent = MODE_LABELS[s.mode];
   resumeLabel.dataset.mode = s.mode;
@@ -1236,6 +1422,10 @@ function resumeActiveSession() {
   // If we had revealed an answer just before reload, force a "next" state so
   // the user can move forward (we don't re-render the reveal UI fully).
   renderQuestion();
+  /* Le temps a continué de courir pendant l'absence : s'il est épuisé, la série est
+     terminée d'office, exactement comme si l'étudiant était resté devant l'écran. */
+  if (state.deadline && state.deadline - Date.now() <= 0) { terminerSurChrono(); return; }
+  demarrerChrono();
 }
 
 function formatNumber(n) {
@@ -1390,6 +1580,9 @@ function nextQuestion() {
 
 /* ----------- Results ----------- */
 function showResults() {
+  arreterChrono();
+  const noteChrono = $("#results-chrono");
+  if (noteChrono) noteChrono.hidden = !state.chronoEcoule;
   let good = 0, bad = 0, skip = 0;
   state.answers.forEach(a => {
     if (a.status === "good") good++;

@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=58">
+  <link rel="stylesheet" href="styles.css?v=59">
 </head>
 <body>
 
@@ -280,6 +280,12 @@
           <button class="back-link" data-action="back-to-subject">← Quitter</button>
           <div class="quiz-meta">
             <span id="quiz-mode-label" class="quiz-mode-label"></span>
+            <!-- Compte à rebours : présent seulement si la série a été lancée chronométrée.
+                 Aucun bouton de pause : le temps court jusqu'au bout (voir demarrerChrono). -->
+            <span class="quiz-chrono" id="quiz-chrono" hidden>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9.5V13l2.5 1.5M9 2h6"/></svg>
+              <span id="quiz-chrono-temps">30:00</span>
+            </span>
             <span class="quiz-progress-text"><span id="quiz-current">1</span> / <span id="quiz-total">20</span></span>
           </div>
         </header>
@@ -330,6 +336,9 @@
         <div class="results-card">
           <p class="results-eyebrow" id="results-mode-label"></p>
           <h1 class="results-title">Quiz terminé</h1>
+          <!-- Affiché seulement quand la série a été coupée par le chronomètre : sans ça,
+               l'étudiant ne comprendrait pas pourquoi des questions sont non répondues. -->
+          <p class="results-chrono" id="results-chrono" hidden>Temps écoulé&nbsp;: les questions restantes comptent comme non répondues.</p>
 
           <div class="score-stage">
             <p class="score-block">
@@ -420,11 +429,11 @@
 
   </main>
 
-  <script src="js/i18n.js?v=2"></script>
+  <script src="js/i18n.js?v=3"></script>
   <script src="js/data.js?v=217"></script>
   <script src="js/chapitres.js?v=33"></script>
   <script src="js/cursus.js?v=98"></script>
-  <script src="js/app.js?v=104"></script>
+  <script src="js/app.js?v=105"></script>
   <script src="js/track.js?v=11" defer></script>
 </body>
 </html>
