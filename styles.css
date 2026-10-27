@@ -2626,33 +2626,21 @@ html { scroll-behavior: smooth; }
    s'affiche dans l'en-tête du quiz, sans aucune commande de pause.
    ========================================================= */
 .chrono {
-  margin-top: 18px;
-  padding-top: 16px;
+  margin-top: 20px;
+  padding-top: 18px;
   border-top: 1px solid rgba(40, 35, 28, 0.09);
 }
+.chrono-tete { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.chrono-q { margin: 0; }
+/* Le levier seul, aligné à droite du titre : même grammaire que les autres lignes du bloc. */
 .chrono-bascule {
-  display: flex; align-items: center; gap: 13px;
-  width: 100%;
-  padding: 11px 13px;
-  border-radius: 14px;
-  background: #faf6ef;
-  border: 1px solid rgba(40, 35, 28, 0.1);
-  color: var(--text);
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-  transition: background 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
-}
-.chrono-bascule:hover { border-color: rgba(var(--accent-rgb), 0.38); }
-.chrono-bascule.is-on {
-  background: rgba(var(--accent-rgb), 0.055);
-  border-color: rgba(var(--accent-rgb), 0.45);
-  box-shadow: 0 0 0 1.5px rgba(var(--accent-rgb), 0.16);
-}
-/* Le levier lui-même. */
-.chrono-piste {
-  position: relative;
   flex: 0 0 auto;
+  padding: 0; border: 0; background: none;
+  cursor: pointer;
+  line-height: 0;
+}
+.chrono-piste {
+  position: relative; display: block;
   width: 42px; height: 24px;
   border-radius: var(--radius-full);
   background: rgba(40, 35, 28, 0.17);
@@ -2666,18 +2654,19 @@ html { scroll-behavior: smooth; }
   box-shadow: 0 1px 4px rgba(30, 25, 20, 0.28);
   transition: transform 220ms cubic-bezier(.22,.61,.36,1);
 }
+.chrono-bascule:hover .chrono-piste { background: rgba(40, 35, 28, 0.26); }
 .chrono-bascule.is-on .chrono-piste { background: rgb(var(--accent-rgb)); }
+.chrono-bascule.is-on:hover .chrono-piste { background: rgb(var(--accent-rgb)); }
 .chrono-bascule.is-on .chrono-pastille { transform: translateX(18px); }
-
-.chrono-texte { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
-.chrono-titre { font-size: 13.5px; font-weight: 800; letter-spacing: 0.01em; }
-.chrono-sous { font-size: 12px; font-weight: 600; color: var(--text-soft, rgba(40, 35, 28, 0.6)); }
-.chrono-bascule.is-on .chrono-sous { color: rgb(var(--accent-rgb)); }
+.chrono-bascule:focus-visible .chrono-piste {
+  outline: 2px solid rgb(var(--accent-rgb));
+  outline-offset: 3px;
+}
 
 .chrono-reglage { margin-top: 12px; }
-.chrono-presets { display: flex; flex-wrap: wrap; gap: 7px; }
+.chrono-presets { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .chrono-preset {
-  padding: 8px 13px;
+  padding: 8px 14px;
   border-radius: var(--radius-full);
   background: #f4efe6;
   border: 1px solid rgba(40, 35, 28, 0.12);
@@ -2692,23 +2681,35 @@ html { scroll-behavior: smooth; }
   border-color: rgb(var(--accent-rgb));
   color: #fdfbf6;
 }
-.chrono-libre { display: flex; align-items: center; gap: 8px; margin-top: 11px; }
-.chrono-libre-label { font-size: 12.5px; font-weight: 700; color: var(--text-soft, rgba(40, 35, 28, 0.62)); }
-.chrono-champ {
-  width: 76px;
-  padding: 8px 10px;
-  border-radius: 11px;
-  background: #fdfbf6;
-  border: 1px solid rgba(40, 35, 28, 0.16);
-  color: var(--text);
-  font-family: inherit; font-size: 13px; font-weight: 700;
+/* La durée libre est une pastille de plus, pas un formulaire à part. */
+.chrono-libre {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 4px 12px 4px 6px;
+  border-radius: var(--radius-full);
+  background: #f4efe6;
+  border: 1px solid rgba(40, 35, 28, 0.12);
+  transition: border-color 180ms ease;
 }
-.chrono-champ:focus { outline: none; border-color: rgb(var(--accent-rgb)); box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.14); }
-.chrono-unite { font-size: 12.5px; font-weight: 700; color: var(--text-soft, rgba(40, 35, 28, 0.62)); }
+.chrono-libre:focus-within { border-color: rgb(var(--accent-rgb)); }
+.chrono-champ {
+  width: 48px;
+  padding: 4px 6px;
+  border-radius: var(--radius-full);
+  background: #fdfbf6;
+  border: 1px solid rgba(40, 35, 28, 0.1);
+  color: var(--text);
+  font-family: inherit; font-size: 12.5px; font-weight: 700;
+  text-align: center;
+  -moz-appearance: textfield;
+}
+.chrono-champ::-webkit-outer-spin-button,
+.chrono-champ::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.chrono-champ:focus { outline: none; }
+.chrono-unite { font-size: 12.5px; font-weight: 700; color: var(--text-muted); }
 .chrono-note {
-  margin-top: 10px;
-  font-size: 11.5px; line-height: 1.45; font-weight: 600;
-  color: var(--text-soft, rgba(40, 35, 28, 0.55));
+  margin-top: 11px;
+  font-size: 11.5px; font-weight: 600;
+  color: var(--text-muted);
 }
 
 /* Compte à rebours dans l'en-tête du quiz. */

@@ -503,30 +503,27 @@ function chronoBlockHtml() {
   const presets = [30, 45, 60, 90, 120];
   return `
           <div class="chrono" data-chrono>
-            <button type="button" class="chrono-bascule${pref.actif ? " is-on" : ""}"
-                    data-chrono-toggle role="switch" aria-checked="${pref.actif ? "true" : "false"}">
-              <span class="chrono-piste" aria-hidden="true"><span class="chrono-pastille"></span></span>
-              <span class="chrono-texte">
-                <span class="chrono-titre">Chronomètre</span>
-                <span class="chrono-sous" data-chrono-sous>${pref.actif
-                  ? escapeHtml(dureeEnClair(pref.minutes))
-                  : "Série sans limite de temps"}</span>
-              </span>
-            </button>
+            <div class="chrono-tete">
+              <p class="revise-q chrono-q">Chronomètre <span class="revise-scope" data-chrono-sous>${pref.actif
+                ? "· " + escapeHtml(dureeEnClair(pref.minutes))
+                : ""}</span></p>
+              <button type="button" class="chrono-bascule${pref.actif ? " is-on" : ""}"
+                      data-chrono-toggle role="switch" aria-checked="${pref.actif ? "true" : "false"}"
+                      aria-label="Chronomètre">
+                <span class="chrono-piste" aria-hidden="true"><span class="chrono-pastille"></span></span>
+              </button>
+            </div>
             <div class="chrono-reglage" data-chrono-reglage${pref.actif ? "" : " hidden"}>
               <div class="chrono-presets">
                 ${presets.map(m => `<button type="button" class="chrono-preset${m === pref.minutes ? " is-on" : ""}" data-chrono-min="${m}">${escapeHtml(dureeEnClair(m))}</button>`).join("")}
+                <label class="chrono-libre">
+                  <input type="number" class="chrono-champ" data-chrono-champ
+                         min="${CHRONO_MIN}" step="5" inputmode="numeric"
+                         placeholder="${pref.minutes}" aria-label="Durée en minutes">
+                  <span class="chrono-unite">min</span>
+                </label>
               </div>
-              <label class="chrono-libre">
-                <span class="chrono-libre-label">Autre durée</span>
-                <input type="number" class="chrono-champ" data-chrono-champ
-                       min="${CHRONO_MIN}" step="5" inputmode="numeric"
-                       placeholder="${pref.minutes}" aria-label="Durée en minutes">
-                <span class="chrono-unite">min</span>
-              </label>
-              <p class="chrono-note">Minimum ${CHRONO_MIN} minutes. Une fois la série lancée,
-                le chronomètre ne peut plus être arrêté&nbsp;: à zéro, la série se termine et les
-                questions restantes comptent comme non répondues.</p>
+              <p class="chrono-note">Impossible à arrêter une fois la série lancée.</p>
             </div>
           </div>`;
 }
@@ -704,9 +701,7 @@ function majChrono(block) {
   const reglage = block.querySelector("[data-chrono-reglage]");
   if (reglage) reglage.hidden = !pref.actif;
   const sous = block.querySelector("[data-chrono-sous]");
-  if (sous) sous.textContent = pref.actif
-    ? traduire(dureeEnClair(pref.minutes))
-    : traduire("Série sans limite de temps");
+  if (sous) sous.textContent = pref.actif ? "· " + traduire(dureeEnClair(pref.minutes)) : "";
   block.querySelectorAll("[data-chrono-min]").forEach(b => {
     b.classList.toggle("is-on", parseInt(b.dataset.chronoMin, 10) === pref.minutes);
   });

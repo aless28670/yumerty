@@ -196,11 +196,9 @@ const I18N = {
     "Chronomètre": "Cronómetro",
     "Masquer le chronomètre": "Ocultar el cronómetro",
     "Afficher le chronomètre": "Mostrar el cronómetro",
-    "Série sans limite de temps": "Serie sin límite de tiempo",
-    "Autre durée": "Otra duración",
     "Durée en minutes": "Duración en minutos",
-    "Minimum 10 minutes. Une fois la série lancée, le chronomètre ne peut plus être arrêté : à zéro, la série se termine et les questions restantes comptent comme non répondues.":
-      "Mínimo 10 minutos. Una vez iniciada la serie, el cronómetro ya no se puede detener: al llegar a cero, la serie termina y las preguntas restantes cuentan como no respondidas.",
+    "min": "min",
+    "Impossible à arrêter une fois la série lancée.": "No se puede detener una vez iniciada la serie.",
     "Temps écoulé : les questions restantes comptent comme non répondues.":
       "Tiempo agotado: las preguntas restantes cuentan como no respondidas.",
     "Tout le programme": "Todo el temario",
