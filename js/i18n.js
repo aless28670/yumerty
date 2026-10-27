@@ -238,7 +238,14 @@ const I18N = {
    --------------------------------------------------------- */
 const CLE_LANGUE = "yumerty_langue";
 
+/* Tant que la traduction n'est pas complète (interface, matières, chapitres ET la
+   totalité des QCU), le site ne propose qu'une langue : afficher un choix mènerait à
+   un site à moitié traduit. Passer à true remet le sélecteur et rouvre les langues ;
+   la préférence déjà enregistrée est conservée et reprend effet à ce moment-là. */
+const LANGUES_OUVERTES = false;
+
 function langueActuelle() {
+  if (!LANGUES_OUVERTES) return "fr";
   try {
     const l = localStorage.getItem(CLE_LANGUE);
     if (l && LANGUES[l]) return l;
@@ -314,6 +321,7 @@ function appliquerTraductions(racine) {
 function traduire(x) { return t(x); }
 
 function changerLangue(l) {
+  if (!LANGUES_OUVERTES) return;
   if (!LANGUES[l]) return;
   try { localStorage.setItem(CLE_LANGUE, l); } catch (e) {}
   location.reload();   // le plus sûr : tout l'écran est reconstruit dans la langue choisie
@@ -322,6 +330,7 @@ function changerLangue(l) {
 function renderSelecteurLangue() {
   const hote = document.getElementById("selecteur-langue");
   if (!hote) return;
+  if (!LANGUES_OUVERTES) { hote.hidden = true; hote.innerHTML = ""; return; }
   const courante = langueActuelle();
   hote.innerHTML = Object.values(LANGUES).map(l =>
     `<button type="button" class="lang-btn${l.code === courante ? " is-active" : ""}"
