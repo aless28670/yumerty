@@ -268,7 +268,8 @@ function lirePrefChrono() {
   const min = parseInt(p && p.minutes, 10);
   return {
     actif: !!(p && p.actif),
-    minutes: Number.isFinite(min) && min >= CHRONO_MIN ? min : CHRONO_DEFAUT
+    minutes: Number.isFinite(min) && min >= CHRONO_MIN ? min : CHRONO_DEFAUT,
+    masque: !!(p && p.masque)      // chiffres floutés : le temps court quand même
   };
 }
 function ecrirePrefChrono(pref) { writeJSON(CHRONO_KEY, pref); }
@@ -1296,6 +1297,30 @@ function hexToRgb(hex) {
    impossible à arrêter, sans avoir à bloquer la navigation. */
 let chronoTimer = null;
 
+/* Floute ou révèle les chiffres. N'a AUCUN effet sur l'écoulement du temps : la série
+   sera coupée à l'échéance exactement de la même manière. */
+function appliquerMasqueChrono() {
+  const bloc = $("#quiz-chrono");
+  const oeil = $("#chrono-oeil");
+  if (!bloc) return;
+  const masque = lirePrefChrono().masque;
+  bloc.classList.toggle("is-masque", masque);
+  if (masque) bloc.classList.remove("is-urgent");   // pas d'alerte rouge : on ne veut pas stresser
+  if (oeil) {
+    oeil.setAttribute("aria-pressed", masque ? "true" : "false");
+    const libelle = traduire(masque ? "Afficher le chronomètre" : "Masquer le chronomètre");
+    oeil.setAttribute("aria-label", libelle);
+    oeil.setAttribute("title", libelle);
+  }
+}
+
+function basculerMasqueChrono() {
+  const pref = lirePrefChrono();
+  pref.masque = !pref.masque;
+  ecrirePrefChrono(pref);
+  appliquerMasqueChrono();
+}
+
 function arreterChrono() {
   if (chronoTimer) { clearInterval(chronoTimer); chronoTimer = null; }
   const bloc = $("#quiz-chrono");
@@ -1309,10 +1334,17 @@ function demarrerChrono() {
   const texte = $("#quiz-chrono-temps");
   if (!bloc || !texte) return;
   bloc.hidden = false;
+  appliquerMasqueChrono();
+  /* On bat quatre fois par seconde pour couper à l'heure juste, mais on n'écrit dans le
+     DOM que lorsque les chiffres affichés changent réellement : une seule mutation par
+     seconde au lieu de quatre. En espagnol, chaque mutation réveille l'observateur de
+     traduction, et il n'y a aucune raison de le faire travailler pour rien. */
+  let dernierAffichage = null;
   const battre = () => {
     const reste = state.deadline - Date.now();
-    texte.textContent = mmss(reste);
-    bloc.classList.toggle("is-urgent", reste <= 60000);
+    const rendu = mmss(reste);
+    if (rendu !== dernierAffichage) { texte.textContent = rendu; dernierAffichage = rendu; }
+    bloc.classList.toggle("is-urgent", reste <= 60000 && !lirePrefChrono().masque);
     if (reste <= 0) terminerSurChrono();
   };
   battre();
@@ -2215,4 +2247,15 @@ updateResumeBanner();
 if (typeof renderSelecteurLangue === "function") renderSelecteurLangue();
 if (typeof appliquerTraductions === "function") appliquerTraductions();
 brancherSignalement();
+/* L'œil du chronomètre : écouteur direct plutôt que délégué, pour qu'un clic dessus ne
+   puisse jamais être confondu avec un clic sur une proposition. */
+(function brancherOeilChrono() {
+  const oeil = document.getElementById("chrono-oeil");
+  if (!oeil) return;
+  oeil.addEventListener("click", e => {
+    e.preventDefault();
+    e.stopPropagation();
+    basculerMasqueChrono();
+  });
+})();
 rejouerSignalements();

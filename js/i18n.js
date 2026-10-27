@@ -194,6 +194,8 @@ const I18N = {
 
     /* --- Chronomètre de série --- */
     "Chronomètre": "Cronómetro",
+    "Masquer le chronomètre": "Ocultar el cronómetro",
+    "Afficher le chronomètre": "Mostrar el cronómetro",
     "Série sans limite de temps": "Serie sin límite de tiempo",
     "Autre durée": "Otra duración",
     "Durée en minutes": "Duración en minutos",
@@ -358,8 +360,18 @@ document.addEventListener("click", e => {
   if (langueActuelle() === "fr") return;
   const demarrer = () => {
     let enCours = false;
-    new MutationObserver(() => {
+    /* Certains éléments changent en permanence sans jamais rien avoir à traduire : le
+       compte à rebours du quiz réécrit ses chiffres chaque seconde. Les retenir ici évite
+       de reparcourir tout le document pour rien. */
+    const aIgnorer = n => {
+      for (let e = n; e; e = e.parentNode) {
+        if (e.nodeType === 1 && e.hasAttribute("data-i18n-ignore")) return true;
+      }
+      return false;
+    };
+    new MutationObserver(mutations => {
       if (enCours) return;
+      if (mutations.every(m => aIgnorer(m.target))) return;
       enCours = true;
       requestAnimationFrame(() => { appliquerTraductions(); enCours = false; });
     }).observe(document.body, { childList: true, subtree: true, characterData: true });

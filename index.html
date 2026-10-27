@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=59">
+  <link rel="stylesheet" href="styles.css?v=60">
 </head>
 <body>
 
@@ -284,7 +284,16 @@
                  Aucun bouton de pause : le temps court jusqu'au bout (voir demarrerChrono). -->
             <span class="quiz-chrono" id="quiz-chrono" hidden>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9.5V13l2.5 1.5M9 2h6"/></svg>
-              <span id="quiz-chrono-temps">30:00</span>
+              <span id="quiz-chrono-temps" data-i18n-ignore>30:00</span>
+              <!-- Voir le temps défiler angoisse certains étudiants. Cet œil floute les
+                   chiffres sans rien suspendre : le temps continue de courir et la série
+                   sera coupée à zéro de la même façon. -->
+              <button type="button" class="chrono-oeil" id="chrono-oeil"
+                      aria-pressed="false" aria-label="Masquer le chronomètre"
+                      title="Masquer le chronomètre">
+                <svg class="oeil-cacher" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l18 18M10.6 5.2A9.9 9.9 0 0 1 12 5c5 0 9 4.5 9 7 0 .9-.5 2-1.4 3.1M6.3 7.3C3.9 8.9 3 11.2 3 12c0 2.5 4 7 9 7 1.6 0 3-.4 4.2-1.1M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>
+                <svg class="oeil-montrer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12s4-7 9-7 9 7 9 7-4 7-9 7-9-7-9-7z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
             </span>
             <span class="quiz-progress-text"><span id="quiz-current">1</span> / <span id="quiz-total">20</span></span>
           </div>
@@ -429,11 +438,11 @@
 
   </main>
 
-  <script src="js/i18n.js?v=3"></script>
+  <script src="js/i18n.js?v=4"></script>
   <script src="js/data.js?v=217"></script>
   <script src="js/chapitres.js?v=33"></script>
   <script src="js/cursus.js?v=98"></script>
-  <script src="js/app.js?v=105"></script>
+  <script src="js/app.js?v=106"></script>
   <script src="js/track.js?v=11" defer></script>
 </body>
 </html>

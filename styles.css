@@ -2743,3 +2743,44 @@ html { scroll-behavior: smooth; }
   .chrono-presets { gap: 6px; }
   .chrono-preset { padding: 7px 11px; font-size: 12px; }
 }
+
+/* --- Œil : floute le compte à rebours sans suspendre le temps --- */
+.chrono-oeil {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px;
+  margin-left: 1px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  opacity: 0.55;
+  cursor: pointer;
+  transition: opacity 180ms ease, background 180ms ease;
+}
+.chrono-oeil:hover { opacity: 1; background: rgba(var(--accent-rgb), 0.12); }
+.chrono-oeil:focus-visible { outline: 2px solid currentColor; outline-offset: 1px; opacity: 1; }
+.chrono-oeil svg { width: 14px; height: 14px; }
+/* Un seul des deux pictogrammes à la fois : œil barré quand le temps est lisible
+   (« clique pour masquer »), œil ouvert quand il est flouté (« clique pour montrer »). */
+.chrono-oeil .oeil-montrer { display: none; }
+.quiz-chrono.is-masque .chrono-oeil .oeil-cacher { display: none; }
+.quiz-chrono.is-masque .chrono-oeil .oeil-montrer { display: block; }
+
+/* Les chiffres floutés restent en place : la pastille ne change pas de largeur, donc
+   l'en-tête ne tressaute pas quand on masque ou révèle le temps. */
+#quiz-chrono-temps {
+  transition: filter 220ms ease, opacity 220ms ease;
+}
+.quiz-chrono.is-masque #quiz-chrono-temps {
+  filter: blur(5px);
+  opacity: 0.5;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Masqué, le chrono reste neutre : ni rouge, ni alerte — c'est tout l'intérêt. */
+.quiz-chrono.is-masque {
+  background: rgba(40, 35, 28, 0.05);
+  border-color: rgba(40, 35, 28, 0.14);
+  color: var(--text-soft, rgba(40, 35, 28, 0.6));
+}
