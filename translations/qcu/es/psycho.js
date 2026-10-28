@@ -1,0 +1,3 @@
+QCU_T("es", "psycho", {
+  "332": ["¿Cómo calificar el antiguo modelo de comunicación asistencial, anterior al consentimiento a los cuidados y al paciente socio autónomo?",["Un modelo paternalista, en el que el profesional decide por el paciente.","Un modelo de colaboración, centrado en un paciente autónomo.","Un modelo autonomista, fundado en el consentimiento del paciente."],["El antiguo modelo era paternalista: el profesional decidía en lugar del paciente.","El paciente socio corresponde al modelo reciente, no al antiguo.","La autonomía y el consentimiento surgieron después: no caracterizan el antiguo modelo."]]
+});
