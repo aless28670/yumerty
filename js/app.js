@@ -1072,19 +1072,24 @@ function renderHomeStats() {
   poser("stat-qcu", separeMilliers(c.qcu));
   poser("stat-matieres", separeMilliers(c.matieres));
   poser("stat-chapitres", separeMilliers(c.chapitres));
-  poser("feature-chapitres", separeMilliers(c.chapitres) + " chapitres");
+  poser("feature-chapitres", traduire("{n} chapitres").replace("{n}", separeMilliers(c.chapitres)));
 
   // « Kinésithérapie, de la K1 à la K4 » — construit depuis les années réellement pourvues.
   const ouverts = Object.values(CURSUS).filter(x => x.available !== false);
   if (ouverts.length === 1 && c.annees.length) {
     const a = c.annees;
-    const plage = a.length > 1 ? `de la ${a[0]} à la ${a[a.length - 1]}` : a[0];
-    poser("step-cursus", `${ouverts[0].label}, ${plage} : sélectionne ce que tu veux travailler.`);
+    const plage = a.length > 1
+      ? traduire("de la {a} à la {b}").replace("{a}", a[0]).replace("{b}", a[a.length - 1])
+      : a[0];
+    poser("step-cursus", traduire("{cursus}, {plage} : sélectionne ce que tu veux travailler.")
+      .replace("{cursus}", traduire(ouverts[0].label))
+      .replace("{plage}", plage));
   }
   const lead = document.getElementById("landing-lead");
   if (lead) {
-    lead.textContent = `${separeMilliers(c.qcu)} QCU corrigés, un entraînement réaliste `
-      + `et un suivi de tes erreurs pour progresser plus vite.`;
+    lead.textContent = traduire(
+      "{n} QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite."
+    ).replace("{n}", separeMilliers(c.qcu));
   }
 }
 

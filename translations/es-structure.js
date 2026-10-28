@@ -76,6 +76,11 @@ Object.assign(I18N.es, {
   "Examen — 3 propositions": "Examen — 3 opciones",
   "Examen — 4 propositions": "Examen — 4 opciones",
 
+  /* ---------- Descriptifs de modules ---------- */
+  "Coude, épaule, poignet, main · 3 propositions": "Codo, hombro, muñeca, mano · 3 opciones",
+  "Hanche, genou, cheville · 3 propositions": "Cadera, rodilla, tobillo · 3 opciones",
+  "Membre supérieur + inférieur · 3 propositions": "Miembro superior + inferior · 3 opciones",
+
   /* =========================================================
      CHAPITRES
      ========================================================= */

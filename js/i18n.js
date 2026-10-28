@@ -14,10 +14,17 @@
    ========================================================= */
 
 const LANGUES = {
-  fr: { code: "fr", nom: "Français", abbr: "FR" },
-  es: { code: "es", nom: "Español", abbr: "ES" },
-  en: { code: "en", nom: "English", abbr: "EN" },
+  fr: { code: "fr", nom: "Français", abbr: "FR", pret: true },
+  es: { code: "es", nom: "Español", abbr: "ES", pret: true },
+  /* L'anglais attend sa traduction : tant que « pret » est faux, aucun bouton EN
+     n'apparaît et la langue reste inatteignable, même par une préférence enregistrée. */
+  en: { code: "en", nom: "English", abbr: "EN", pret: false },
 };
+
+/* Les seules langues proposées à l'écran. */
+function languesPretes() {
+  return Object.values(LANGUES).filter(l => l.pret);
+}
 
 const I18N = {
   es: {
@@ -228,6 +235,36 @@ const I18N = {
     "3ème année": "3.º curso",
     "4ème année": "4.º curso",
     "5ème année": "5.º curso",
+
+    /* ---------- Onglet du navigateur et partage ---------- */
+    "Yumerty — QCU corrigés et justifiés pour étudiants en kinésithérapie":
+      "Yumerty — Preguntas tipo test corregidas y justificadas para estudiantes de Fisioterapia",
+    "Yumerty — QCU médicaux": "Yumerty — Preguntas médicas tipo test",
+    "Yumerty : plus de 16 000 QCU corrigés et justifiés pour les étudiants en kinésithérapie, de la K1 à la K4. Plus de 30 matières et 450 chapitres, révision chapitre par chapitre et entraînement en conditions d'examen avec barème réaliste.":
+      "Yumerty: más de 16 000 preguntas tipo test corregidas y justificadas para estudiantes de Fisioterapia, de K1 a K4. Más de 30 asignaturas y 450 temas, repaso tema por tema y entrenamiento en condiciones de examen con un baremo realista.",
+    "Plus de 16 000 QCU corrigés et justifiés pour les étudiants en kinésithérapie. Révise chapitre par chapitre, en conditions réelles.":
+      "Más de 16 000 preguntas tipo test corregidas y justificadas para estudiantes de Fisioterapia. Repasa tema por tema, en condiciones reales.",
+    "Plus de 16 000 QCU corrigés et justifiés pour les étudiants en kinésithérapie.":
+      "Más de 16 000 preguntas tipo test corregidas y justificadas para estudiantes de Fisioterapia.",
+    "QCU kinésithérapie, révision kiné, QCU corrigés, annales kiné, entraînement examen, K1 K2 K3 K4, physiothérapie, QCU justifiés":
+      "test fisioterapia, repaso fisioterapia, preguntas corregidas, exámenes de otros años, entrenamiento examen, K1 K2 K3 K4, fisioterapia, preguntas justificadas",
+
+    /* ---------- Libellés lus par les lecteurs d'écran ---------- */
+    "Fermer": "Cerrar",
+    "Langue du site": "Idioma del sitio",
+
+    /* ---------- Accueil : phrases assemblées avec les chiffres du site ----------
+       {n}, {cursus}, {plage}, {a} et {b} sont remplacés après traduction. */
+    "{n} QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.":
+      "{n} preguntas corregidas, un entrenamiento realista y un seguimiento de tus fallos para progresar más rápido.",
+    "{n} chapitres": "{n} temas",
+    "{cursus}, {plage} : sélectionne ce que tu veux travailler.":
+      "{cursus}, {plage}: selecciona lo que quieras trabajar.",
+    "de la {a} à la {b}": "de {a} a {b}",
+    /* repli si le script ne tourne pas : les versions figées du HTML */
+    "Des QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.":
+      "Preguntas corregidas, un entrenamiento realista y un seguimiento de tus fallos para progresar más rápido.",
+    "Les chapitres": "Los temas",
   },
 
   en: {},   /* rempli juste après l'espagnol */
@@ -240,15 +277,16 @@ const CLE_LANGUE = "yumerty_langue";
 
 /* Tant que la traduction n'est pas complète (interface, matières, chapitres ET la
    totalité des QCU), le site ne propose qu'une langue : afficher un choix mènerait à
-   un site à moitié traduit. Passer à true remet le sélecteur et rouvre les langues ;
-   la préférence déjà enregistrée est conservée et reprend effet à ce moment-là. */
-const LANGUES_OUVERTES = false;
+   un site à moitié traduit. Le français et l'espagnol étant complets — interface,
+   matières, chapitres et les 16 050 QCU — le choix est ouvert depuis le 28/10/2026.
+   Seules les langues marquées « pret » dans LANGUES apparaissent. */
+const LANGUES_OUVERTES = true;
 
 function langueActuelle() {
   if (!LANGUES_OUVERTES) return "fr";
   try {
     const l = localStorage.getItem(CLE_LANGUE);
-    if (l && LANGUES[l]) return l;
+    if (l && LANGUES[l] && LANGUES[l].pret) return l;
   } catch (e) {}
   return "fr";
 }
@@ -309,11 +347,34 @@ function appliquerTraductions(racine) {
     const brut = normaliser(noeud.nodeValue);
     if (table[brut] !== undefined) noeud.nodeValue = table[brut];
   });
-  // attributs visibles
-  document.querySelectorAll("[placeholder]").forEach(el => {
-    const v = normaliser(el.getAttribute("placeholder"));
-    if (table[v] !== undefined) el.setAttribute("placeholder", table[v]);
+  /* Attributs porteurs de texte : le promeneur ci-dessus ne voit que les nœuds de
+     texte. « title » s'affiche à la souris, « aria-label » et « aria-placeholder »
+     sont lus par les lecteurs d'écran : tout cela doit suivre la langue choisie. */
+  ["placeholder", "title", "aria-label", "aria-placeholder"].forEach(attr => {
+    document.querySelectorAll("[" + attr + "]").forEach(el => {
+      const v = normaliser(el.getAttribute(attr));
+      if (table[v] !== undefined) el.setAttribute(attr, table[v]);
+    });
   });
+
+  /* Onglet du navigateur et métadonnées de partage : hors du <body>, donc jamais
+     atteints par le promeneur. Le titre est visible, le reste sert aux aperçus. */
+  const titre = normaliser(document.title);
+  if (table[titre] !== undefined) document.title = table[titre];
+  [
+    'meta[name="description"]',
+    'meta[name="keywords"]',
+    'meta[property="og:title"]',
+    'meta[property="og:description"]',
+    'meta[name="twitter:title"]',
+    'meta[name="twitter:description"]',
+  ].forEach(sel => {
+    const m = document.querySelector(sel);
+    if (!m) return;
+    const v = normaliser(m.getAttribute("content"));
+    if (table[v] !== undefined) m.setAttribute("content", table[v]);
+  });
+
   document.documentElement.setAttribute("lang", l);
 }
 
@@ -322,7 +383,7 @@ function traduire(x) { return t(x); }
 
 function changerLangue(l) {
   if (!LANGUES_OUVERTES) return;
-  if (!LANGUES[l]) return;
+  if (!LANGUES[l] || !LANGUES[l].pret) return;
   try { localStorage.setItem(CLE_LANGUE, l); } catch (e) {}
   location.reload();   // le plus sûr : tout l'écran est reconstruit dans la langue choisie
 }
@@ -332,7 +393,7 @@ function renderSelecteurLangue() {
   if (!hote) return;
   if (!LANGUES_OUVERTES) { hote.hidden = true; hote.innerHTML = ""; return; }
   const courante = langueActuelle();
-  hote.innerHTML = Object.values(LANGUES).map(l =>
+  hote.innerHTML = languesPretes().map(l =>
     `<button type="button" class="lang-btn${l.code === courante ? " is-active" : ""}"
              data-langue="${l.code}" lang="${l.code}"
              aria-label="${l.nom}"${l.code === courante ? ' aria-current="true"' : ""}>${l.abbr}</button>`
@@ -353,7 +414,13 @@ document.addEventListener("click", e => {
   const s = document.createElement("script");
   s.src = "translations/" + l + "-structure.js?v=1";
   s.async = true;
-  s.onload = () => { TABLE_NORM = null; appliquerTraductions(); };
+  s.onload = () => {
+    TABLE_NORM = null;
+    /* L'accueil assemble « Fisioterapia, de K1 a K4 … » avec le nom du cursus, qui
+       vit dans ce fichier : on le reconstruit, sinon la phrase resterait mi-française. */
+    if (typeof renderHomeStats === "function") renderHomeStats();
+    appliquerTraductions();
+  };
   s.onerror = () => { /* le site reste lisible en français : pas d'écran cassé */ };
   (document.head || document.documentElement).appendChild(s);
 })();
