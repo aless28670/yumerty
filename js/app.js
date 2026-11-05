@@ -1,0 +1,2276 @@
+/* =========================================================
+   PLATEFORME DE RÉVISION MÉDICALE — Logique de l'application
+   ========================================================= */
+
+window.addEventListener("error", (ev) => {
+  const box = document.createElement("div");
+  box.style.cssText = "position:fixed;left:12px;right:12px;bottom:12px;background:#ef4444;color:#fff;padding:14px 18px;border-radius:12px;font:14px/1.4 system-ui;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,.2);";
+  box.textContent = "JS error: " + (ev.message || ev.error) + " @ " + (ev.filename || "?") + ":" + (ev.lineno || "?");
+  document.body.appendChild(box);
+});
+
+/* « Mélangé » Valorisation Membres : union membre supérieur + inférieur,
+   construite au runtime (hors data.js pour préserver l'unicité globale). */
+if (typeof QUESTIONS !== "undefined" && QUESTIONS.valoMembresSup && QUESTIONS.valoMembresInf && !QUESTIONS.valoMembresMix) {
+  QUESTIONS.valoMembresMix = QUESTIONS.valoMembresSup.concat(QUESTIONS.valoMembresInf);
+}
+
+const DEFAULT_LENGTH = 20;
+
+// Final score is always normalized to this scale, regardless of mode length.
+const DISPLAY_MAX = 10;
+const DISPLAY_PASS = 5;
+
+// Per-mode quiz length. Anything not listed falls back to DEFAULT_LENGTH.
+const MODE_LENGTH = {
+  pathoChir2: 30
+};
+
+// Per-mode option count, used to derive the anti-guess penalty.
+// 3 options → bad = −1/2 of a correct point.
+// 4 options → bad = −1/3 of a correct point.
+const MODE_OPTIONS = {
+  facile: 3,
+  difficile: 3,
+  ontoFacile: 3,
+  ontoDifficile: 3,
+  analogies: 3,
+  pathoChir2: 4,
+  pathologie2: 4,
+  pathologie1: 4
+};
+
+function getQuizLength(mode) {
+  return MODE_LENGTH[mode] || DEFAULT_LENGTH;
+}
+
+function getPoints(mode) {
+  // Barème dérivé du nombre RÉEL de propositions de la banque :
+  // override explicite via MODE_OPTIONS, sinon compté sur la banque elle-même.
+  let n = MODE_OPTIONS[mode];
+  if (!n) {
+    const bank = (typeof QUESTIONS !== "undefined") && QUESTIONS[mode];
+    n = (bank && bank.length && bank[0].options) ? bank[0].options.length : 3;
+  }
+  return { good: 1, bad: -1 / (n - 1) };
+}
+
+/* MODE_LABELS is now built dynamically from CURSUS so a new matière added there
+   is automatically labeled correctly. Falls back to the bankKey if not found. */
+/* Libellé affiché d'une banque, traduit morceau par morceau : « Matière — Module » n'existe pas
+   tel quel dans les tables de traduction, seuls ses deux morceaux y sont. */
+const MODE_PARTIES = {};
+function libelleMode(mode) {
+  const p = MODE_PARTIES[mode];
+  if (!p) return MODE_LABELS[mode] || mode;
+  const tr = typeof t === "function" ? t : (x => x);
+  return p.map(x => tr(x)).join(" — ");
+}
+function buildModeLabels() {
+  const out = {};
+  if (typeof CURSUS === "undefined") return out;
+  Object.values(CURSUS).forEach(cursus => {
+    Object.values(cursus.years || {}).forEach(year => {
+      Object.values(year.semesters || {}).forEach(semester => {
+        Object.entries(semester.matieres || {}).forEach(([matKey, mat]) => {
+          (mat.modules || []).forEach(mod => {
+            out[mod.bankKey] = mat.label + (mat.modules.length > 1 ? " — " + mod.label : "");
+            MODE_PARTIES[mod.bankKey] = mat.modules.length > 1 ? [mat.label, mod.label] : [mat.label];
+          });
+        });
+      });
+    });
+  });
+  return out;
+}
+const MODE_LABELS = buildModeLabels();
+
+/* bankKey -> accent hex, mirrored from CURSUS, so the quiz UI (progress bar,
+   primary button, matière label) wears the matière's warm colour. */
+function buildModeAccents() {
+  const out = {};
+  if (typeof CURSUS === "undefined") return out;
+  Object.values(CURSUS).forEach(cursus => {
+    Object.values(cursus.years || {}).forEach(year => {
+      Object.values(year.semesters || {}).forEach(semester => {
+        Object.values(semester.matieres || {}).forEach(mat => {
+          (mat.modules || []).forEach(mod => {
+            out[mod.bankKey] = mod.accent || mat.accent || cursus.accent;
+          });
+        });
+      });
+    });
+  });
+  return out;
+}
+const MODE_ACCENTS = buildModeAccents();
+
+/* Couleur unique de l'examen. Les couleurs vives servent à se repérer dans le cursus
+   (année, matière) ; une fois l'examen lancé, elles deviennent du bruit. L'écran de
+   quiz, les résultats et la revue d'erreurs gardent donc la teinte chaude du site, et
+   seul le vert/rouge des réponses porte une information. */
+const ACCENT_EXAMEN = "#b9763f";
+
+/* Applique la teinte d'examen aux écrans de jeu (quiz, résultats, erreurs). */
+function applyQuizAccent() {
+  const rgb = hexToRgb(ACCENT_EXAMEN);
+  ["screen-quiz", "screen-results", "screen-mistakes"].forEach(id => {
+    const screen = document.getElementById(id);
+    if (!screen) return;
+    screen.style.setProperty("--accent", ACCENT_EXAMEN);
+    screen.style.setProperty("--accent-rgb", rgb);
+  });
+}
+
+/* ----- BorderGlow (porté de React Bits en vanilla, couleurs chaudes) ----- */
+function hexToHslParts(hex) {
+  let h = hex.replace("#", "");
+  if (h.length === 3) h = h.split("").map(c => c + c).join("");
+  const r = parseInt(h.slice(0, 2), 16) / 255,
+        g = parseInt(h.slice(2, 4), 16) / 255,
+        b = parseInt(h.slice(4, 6), 16) / 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+  let hh = 0, s = 0, l = (mx + mn) / 2;
+  if (mx !== mn) {
+    const d = mx - mn;
+    s = l > 0.5 ? d / (2 - mx - mn) : d / (mx + mn);
+    if (mx === r) hh = (g - b) / d + (g < b ? 6 : 0);
+    else if (mx === g) hh = (b - r) / d + 2;
+    else hh = (r - g) / d + 4;
+    hh /= 6;
+  }
+  return { h: Math.round(hh * 360), s: Math.round(s * 100), l: Math.round(l * 100) };
+}
+
+function glowPointerMove(e) {
+  const card = e.currentTarget;
+  const r = card.getBoundingClientRect();
+  const x = e.clientX - r.left, y = e.clientY - r.top;
+  const cx = r.width / 2, cy = r.height / 2;
+  const dx = x - cx, dy = y - cy;
+  let kx = Infinity, ky = Infinity;
+  if (dx !== 0) kx = cx / Math.abs(dx);
+  if (dy !== 0) ky = cy / Math.abs(dy);
+  const edge = Math.min(Math.max(1 / Math.min(kx, ky), 0), 1);
+  let deg = (dx === 0 && dy === 0) ? 0 : Math.atan2(dy, dx) * (180 / Math.PI) + 90;
+  if (deg < 0) deg += 360;
+  card.style.setProperty("--edge-proximity", (edge * 100).toFixed(2));
+  card.style.setProperty("--cursor-angle", deg.toFixed(2) + "deg");
+}
+
+/* Set the warm mesh + glow colour variables on a module card, then track the pointer. */
+function applyBorderGlow(card, accent) {
+  const { h, s, l } = hexToHslParts(accent);
+  const gbase = `${h}deg ${s}% ${Math.min(l + 6, 80)}%`;
+  const ops = [100, 60, 50, 40, 30, 20, 10];
+  const keys = ["", "-60", "-50", "-40", "-30", "-20", "-10"];
+  for (let i = 0; i < ops.length; i++) {
+    card.style.setProperty(`--glow-color${keys[i]}`, `hsl(${gbase} / ${ops[i]}%)`);
+  }
+  const cols = [
+    `hsl(${h} ${s}% ${l}%)`,
+    `hsl(${h} ${Math.max(s - 6, 30)}% ${Math.min(l + 13, 80)}%)`,
+    `hsl(${(h + 12) % 360} ${Math.max(s - 10, 28)}% ${Math.min(l + 21, 86)}%)`,
+  ];
+  const POS = ["80% 55%", "69% 34%", "8% 6%", "41% 38%", "86% 85%", "82% 18%", "51% 4%"];
+  const GK = ["--gradient-one", "--gradient-two", "--gradient-three", "--gradient-four", "--gradient-five", "--gradient-six", "--gradient-seven"];
+  const CM = [0, 1, 2, 0, 1, 2, 1];
+  for (let i = 0; i < 7; i++) {
+    card.style.setProperty(GK[i], `radial-gradient(at ${POS[i]}, ${cols[CM[i]]} 0px, transparent 50%)`);
+  }
+  card.style.setProperty("--gradient-base", `linear-gradient(${cols[0]} 0 100%)`);
+  card.addEventListener("pointermove", glowPointerMove);
+}
+
+const OPTION_LETTERS = ["A", "B", "C", "D", "E", "F"];
+
+const STATS_KEY = "neuro_question_stats";
+const COUNTER_KEY = "neuro_session_counters";
+const MISTAKES_KEY = "yumerty_mistakes_v1";
+const SEEN_KEY = "yumerty_seen_v1";
+/* Suffixe « _v2 » : les chapitres ont été renumérotés le 18/10/2026 pour coller aux vrais
+   fichiers de cours (Neuro 1 proposait 16 chapitres pour 4 cours réels). Les sélections
+   enregistrées avant cette date désignaient d'autres chapitres ; changer la clé les écarte
+   proprement au lieu de les laisser pointer en silence vers le mauvais chapitre. */
+const CHAPTERS_KEY = "yumerty_chapters_v2";
+const SESSION_KEY = "yumerty_active_session_v1";
+/* Chronomètre : préférence globale (actif + durée en minutes), pas par matière.
+   On la mémorise pour l'étudiant qui travaille systématiquement en temps limité. */
+const CHRONO_KEY = "yumerty_chrono_v1";
+const CHRONO_MIN = 10;          // plancher demandé : en dessous, une série n'a pas de sens
+const CHRONO_DEFAUT = 30;
+
+/* ----------- State ----------- */
+const state = {
+  // Navigation context (which level we're in: 'cursus', 'years', 'semesters', 'matieres', 'modules')
+  nav: { cursus: null, year: null, programme: null, semester: null, matiere: null, level: null },
+  mode: null,            // bankKey of the current quiz (== QUESTIONS[bankKey])
+  mistakesView: null,
+  quizLength: DEFAULT_LENGTH,
+  rawMax: DEFAULT_LENGTH,
+  deadline: null,        // horodatage de fin si la série est chronométrée, sinon null
+  chronoEcoule: false,   // vrai si la série s'est terminée parce que le temps a expiré
+  points: { good: 1, bad: -0.5 },
+  questions: [],
+  index: 0,
+  answers: [],
+  awaitingNext: false
+};
+
+/* ----------- DOM helpers ----------- */
+const $ = (sel) => document.querySelector(sel);
+const screens = {
+  home: $("#screen-home"),
+  nav: $("#screen-nav"),
+  quiz: $("#screen-quiz"),
+  results: $("#screen-results"),
+  review: $("#screen-review"),
+  mistakes: $("#screen-mistakes")
+};
+
+function showScreen(name) {
+  Object.values(screens).forEach(s => { if (s) s.classList.remove("active"); });
+  if (screens[name]) screens[name].classList.add("active");
+  try { window.scrollTo(0, 0); } catch (e) {}
+  if (name === "home") {
+    renderCursusList();
+    updateResumeBanner();
+  }
+  /* Chaque écran est reconstruit en français puis traduit : une chaîne oubliée
+     reste lisible au lieu de disparaître. */
+  if (typeof appliquerTraductions === "function") appliquerTraductions();
+}
+
+/* ----------- Utils ----------- */
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/* Une proposition qui renvoie à des LETTRES (« A et B sont corrects », « A and B are correct »)
+   vient telle quelle des annales : la réécrire reviendrait à refaire l'examen. Mais les lettres
+   affichées sont attribuées par POSITION d'affichage, et le mélange des propositions les rendait
+   donc arbitraires : l'étudiant·e ne pouvait pas savoir à quoi « A et B » renvoyait — et dans
+   43 cas c'était la BONNE RÉPONSE, la question devenant impossible. Pour ces questions seulement,
+   on conserve l'ordre de l'annale, afin que les lettres affichées soient celles de l'examen.
+   Mesuré le 15/10/2026 : 114 propositions concernées dans 10 banques, surtout le cursus Dentaire. */
+/* Propositions qui renvoient à d'autres par leur lettre (« A et B », « B y C », « A and C ») : on ne les mélange pas.
+   Le test porte sur le texte affiché, donc dans la langue choisie — d'où l'espagnol (y, las/los, respuestas, opciones).
+   Lettres sensibles à la casse et conjonction entourée d'espaces : sinon « Beta » ou « By a » passaient pour « B et A ». */
+const RENVOI_LETTRE = /^(?:(?:[Ll]es|[Tt]he|[Ll]as|[Ll]os) )?(?:(?:[Rr][eé]ponses?|[Rr]espuestas?|[Oo]ptions?|[Oo]pci[oó]n(?:es)?|[Pp]ropositions?|[Aa]nswers?) )?[A-D](?:(?: (?:et|and|y) |, ?| ?[&+] ?)[A-D])+\b|^[a-d](?:(?: (?:et|and|y) |, ?)[a-d])+ (?:sont|son|are)\b/;
+function optionOrder(options) {
+  const identite = Array.from({ length: options.length }, (_, i) => i);
+  if (options.some(o => RENVOI_LETTRE.test(String((o && o.t) || "").trim()))) return identite;
+  return shuffle(identite);
+}
+
+function readJSON(key) {
+  try { return JSON.parse(localStorage.getItem(key) || "{}"); }
+  catch (e) { return {}; }
+}
+function writeJSON(key, val) {
+  try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
+}
+
+function lirePrefChrono() {
+  const p = readJSON(CHRONO_KEY);
+  const min = parseInt(p && p.minutes, 10);
+  return {
+    actif: !!(p && p.actif),
+    minutes: Number.isFinite(min) && min >= CHRONO_MIN ? min : CHRONO_DEFAUT,
+    masque: !!(p && p.masque)      // chiffres floutés : le temps court quand même
+  };
+}
+function ecrirePrefChrono(pref) { writeJSON(CHRONO_KEY, pref); }
+
+/* « 1 h 30 » plutôt que « 90 min » dès qu'on dépasse l'heure : c'est ainsi qu'un étudiant
+   annonce la durée d'une épreuve. */
+function dureeEnClair(minutes) {
+  if (minutes < 60) return minutes + " min";
+  const h = Math.floor(minutes / 60), m = minutes % 60;
+  return m ? h + " h " + String(m).padStart(2, "0") : h + " h";
+}
+function mmss(ms) {
+  const t = Math.max(0, Math.ceil(ms / 1000));
+  const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), sec = t % 60;
+  const deux = n => String(n).padStart(2, "0");
+  return h ? h + ":" + deux(m) + ":" + deux(sec) : deux(m) + ":" + deux(sec);
+}
+
+function getModeStats(mode) {
+  const all = readJSON(STATS_KEY);
+  return all[mode] || {};
+}
+function saveModeStats(mode, stats) {
+  const all = readJSON(STATS_KEY);
+  all[mode] = stats;
+  writeJSON(STATS_KEY, all);
+}
+function nextSessionNum(mode) {
+  const counters = readJSON(COUNTER_KEY);
+  const n = (counters[mode] || 0) + 1;
+  counters[mode] = n;
+  writeJSON(COUNTER_KEY, counters);
+  return n;
+}
+
+/* ----------- Seen-questions tracker (per device, per mode) ----------- */
+function getSeenIndices(mode) {
+  const all = readJSON(SEEN_KEY);
+  return Array.isArray(all[mode]) ? all[mode] : [];
+}
+function saveSeenIndices(mode, list) {
+  const all = readJSON(SEEN_KEY);
+  all[mode] = list;
+  writeJSON(SEEN_KEY, all);
+}
+function getSeenProgress(mode) {
+  const bank = QUESTIONS[mode] || [];
+  const seen = getSeenIndices(mode);
+  return { seen: seen.length, total: bank.length };
+}
+
+/* ----------- Active session save/resume ----------- */
+function saveActiveSession() {
+  if (!state.mode || !state.questions.length) return;
+  const snap = {
+    mode: state.mode,
+    quizLength: state.quizLength,
+    rawMax: state.rawMax,
+    points: state.points,
+    questions: state.questions,
+    index: state.index,
+    answers: state.answers,
+    awaitingNext: state.awaitingNext,
+    deadline: state.deadline || null,
+    ts: Date.now()
+  };
+  writeJSON(SESSION_KEY, snap);
+}
+function clearActiveSession() {
+  try { localStorage.removeItem(SESSION_KEY); } catch (e) {}
+}
+function getActiveSession() {
+  const s = readJSON(SESSION_KEY);
+  if (!s || !s.mode || !Array.isArray(s.questions) || s.questions.length === 0) return null;
+  return s;
+}
+
+/* ----------- Persistent mistake archive ----------- */
+function getAllMistakes() { return readJSON(MISTAKES_KEY); }
+function saveAllMistakes(m) { writeJSON(MISTAKES_KEY, m); }
+
+function addMistake(mode, bankIdx, chosenOrigIdx) {
+  const all = getAllMistakes();
+  const list = all[mode] || [];
+  const existing = list.findIndex(m => m.bankIdx === bankIdx);
+  const entry = { bankIdx, chosenOrigIdx, ts: Date.now() };
+  if (existing >= 0) list[existing] = entry;
+  else list.push(entry);
+  all[mode] = list;
+  saveAllMistakes(all);
+}
+
+function removeMistake(mode, bankIdx) {
+  const all = getAllMistakes();
+  if (!all[mode]) return;
+  all[mode] = all[mode].filter(m => m.bankIdx !== bankIdx);
+  saveAllMistakes(all);
+}
+
+function countMistakesForBanks(bankKeys) {
+  const all = getAllMistakes();
+  return bankKeys.reduce((sum, bk) => sum + (all[bk] || []).length, 0);
+}
+
+/* ----------- Chapter selection ----------- */
+
+/* Chapters declared for a bank, or null when the bank isn't tagged yet. */
+/* Une question peut relever de DEUX chapitres : quand une notion est enseignée dans deux cours
+   et qu'aucun ne la porte seul, elle est rangée dans les deux plutôt qu'arbitrée au hasard.
+   Le champ `c` accepte donc un nombre (cas courant) ou un tableau de nombres. */
+function chapitresDe(q) {
+  if (Array.isArray(q.c)) return q.c;
+  return q.c ? [q.c] : [];
+}
+
+/* ----------- Questions illustrées -----------
+   Une question peut porter un champ `img` : le chemin d'une photo (appareil, orthèse,
+   déformation…) affichée sous l'énoncé. C'est la seule exception à la règle « aucun renvoi
+   visuel » : ici le visuel EST la question. `imgAlt` décrit l'image pour la synthèse vocale
+   et pour le cas où le fichier ne se charge pas. */
+function figureHtml(q) {
+  if (!q.img) return "";
+  return '<figure class="question-figure">'
+    + '<img src="' + escapeHtml(q.img) + '" alt="' + escapeHtml(q.imgAlt || "") + '" loading="lazy">'
+    + '</figure>';
+}
+
+function chaptersOf(bank) {
+  const defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[bank]) || null;
+  if (!defs || !defs.length) return null;
+  const counts = {};
+  (QUESTIONS[bank] || []).forEach(q => chapitresDe(q).forEach(id => { counts[id] = (counts[id] || 0) + 1; }));
+  /* Les chapitres encore vides ne sont pas proposés. ⚠️ La règle d'Alessandro du 23/10/2026
+     — « tant qu'une matière n'est pas couverte en entier, pas de choix de chapitre » — vise
+     les matières EN CONSTRUCTION : celles-là ne se publient tout simplement pas tant qu'il
+     manque des chapitres. Les matières déjà terminées et en ligne gardent leur sélecteur. */
+  const list = defs.map(ch => ({ id: ch.id, nom: ch.nom, count: counts[ch.id] || 0 }))
+                   .filter(ch => ch.count > 0);
+  return list.length ? list : null;
+}
+
+function getChapterSelection(bank) {
+  const all = readJSON(CHAPTERS_KEY);
+  const sel = all[bank];
+  return Array.isArray(sel) ? sel : [];
+}
+
+function saveChapterSelection(bank, ids) {
+  const all = readJSON(CHAPTERS_KEY);
+  if (!ids || !ids.length) delete all[bank]; else all[bank] = ids;
+  writeJSON(CHAPTERS_KEY, all);
+}
+
+/* Set of bank indices allowed by the current chapter selection, or null for "all". */
+function chapterPool(bank) {
+  const sel = getChapterSelection(bank);
+  if (!sel.length || !chaptersOf(bank)) return null;
+  const set = new Set();
+  (QUESTIONS[bank] || []).forEach((q, i) => {
+    // une question à deux chapitres apparaît dès que l'un des deux est coché
+    if (chapitresDe(q).some(id => sel.indexOf(id) !== -1)) set.add(i);
+  });
+  return set.size ? set : null;
+}
+
+/* How many questions the current selection makes available. */
+function availableCount(bank) {
+  const pool = chapterPool(bank);
+  return pool ? pool.size : (QUESTIONS[bank] || []).length;
+}
+
+/* Parties d'examen d'une matière (Mid / Final / Gestion), ou null si elle n'en déclare pas.
+   Une partie n'est retenue que si tous ses chapitres existent réellement dans la matière. */
+function partiesOf(bank) {
+  const defs = (typeof PARTIES !== "undefined" && PARTIES[bank]) || null;
+  const chaps = chaptersOf(bank);
+  if (!defs || !chaps) return null;
+  const ids = chaps.map(c => c.id);
+  const ok = defs.filter(p => p.chapitres.every(c => ids.indexOf(c) !== -1));
+  return ok.length ? ok : null;
+}
+
+/* Résumé affiché sur l'en-tête du sélecteur. */
+function chapterSummary(bank) {
+  const chaps = chaptersOf(bank);
+  if (!chaps) return "";
+  const sel = getChapterSelection(bank);
+  if (!sel.length) return "Tout le programme";
+  // Si la sélection est exactement une partie d'examen, on l'annonce par son nom.
+  const parts = partiesOf(bank) || [];
+  const meme = parts.find(p => p.chapitres.length === sel.length
+    && p.chapitres.every(c => sel.indexOf(c) !== -1));
+  if (meme) return meme.label + " — " + sel.length + " chapitres";
+  return sel.length + (sel.length > 1 ? " chapitres choisis" : " chapitre choisi");
+}
+
+/* Nombre de questions couvertes par une liste de chapitres (vide = tout le programme). */
+function nbQcuPour(bank, ids) {
+  const all = QUESTIONS[bank] || [];
+  if (!ids || !ids.length) return all.length;
+  return all.filter(q => chapitresDe(q).some(c => ids.indexOf(c) !== -1)).length;
+}
+
+/* Grille de chapitres nue, réutilisée par l'étape « Personnaliser ». */
+/* Certains libellés de chapitre commencent déjà par leur numéro (« 1 — Fondements… ») :
+   la pastille l'affiche, on ne le répète pas dans le texte. */
+function nomChapitre(ch) {
+  return String(ch.nom).replace(/^\s*\d+\s*(?:[—–-]\s*|\.\s*)/, "");
+}
+
+function chapterGridHtml(bank) {
+  const chaps = chaptersOf(bank) || [];
+  const sel = getChapterSelection(bank);
+  return chaps.map(ch => {
+    const on = sel.indexOf(ch.id) !== -1;
+    return `
+      <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
+        <span class="chap-chip-num">${ch.id}</span>
+        <span class="chap-chip-name">${escapeHtml(nomChapitre(ch))}</span>
+      </button>`;
+  }).join("");
+}
+
+/* Bloc « Que veux-tu réviser ? » : parties d'examen, tout le programme, ou personnalisé.
+   Remplace l'ancien tiroir de chapitres, qui obligeait à cocher chapitre par chapitre. */
+/* Interrupteur « chronomètre », dans la dernière étape avant le lancement.
+   Un clic l'active et ouvre le réglage de la durée ; la valeur par défaut est déjà 30 min,
+   donc l'étudiant pressé n'a rien d'autre à faire que de choisir son nombre de questions. */
+function chronoBlockHtml() {
+  const pref = lirePrefChrono();
+  const presets = [30, 45, 60, 90, 120];
+  return `
+          <div class="chrono" data-chrono>
+            <div class="chrono-tete">
+              <p class="revise-q chrono-q">Chronomètre <span class="revise-scope" data-chrono-sous>${pref.actif
+                ? "· " + escapeHtml(dureeEnClair(pref.minutes))
+                : ""}</span></p>
+              <button type="button" class="chrono-bascule${pref.actif ? " is-on" : ""}"
+                      data-chrono-toggle role="switch" aria-checked="${pref.actif ? "true" : "false"}"
+                      aria-label="Chronomètre">
+                <span class="chrono-piste" aria-hidden="true"><span class="chrono-pastille"></span></span>
+              </button>
+            </div>
+            <div class="chrono-reglage" data-chrono-reglage${pref.actif ? "" : " hidden"}>
+              <div class="chrono-presets">
+                ${presets.map(m => `<button type="button" class="chrono-preset${m === pref.minutes ? " is-on" : ""}" data-chrono-min="${m}">${escapeHtml(dureeEnClair(m))}</button>`).join("")}
+                <label class="chrono-libre">
+                  <input type="number" class="chrono-champ" data-chrono-champ
+                         min="${CHRONO_MIN}" step="5" inputmode="numeric"
+                         placeholder="${pref.minutes}" aria-label="Durée en minutes">
+                  <span class="chrono-unite">min</span>
+                </label>
+              </div>
+              <p class="chrono-note">Impossible à arrêter une fois la série lancée.</p>
+            </div>
+          </div>`;
+}
+
+function reviseBlockHtml(bank) {
+  const chaps = chaptersOf(bank);
+  const parts = partiesOf(bank) || [];
+  const nbChap = chaps ? chaps.length : 0;
+
+  /* Une partie qui couvre tous les chapitres EST « tout le programme » : on ne montre pas
+     les deux, ce serait le même tirage sous deux noms. Cas de Pathologie 1, dont l'examen
+     final porte sur l'ensemble du semestre. */
+  const couvreTout = p => nbChap > 0 && p.chapitres.length >= nbChap;
+  const aUnePartieTotale = parts.some(couvreTout);
+
+  /* Intitulés explicites : on parle d'examens, pas de parties abstraites.
+     Les libellés hors Mid/Final sont rares (Santé Publique a un examen de gestion à part) :
+     on les nomme explicitement plutôt que de bricoler une minuscule, qui donnait
+     « Examen gestion » au lieu de « Examen de gestion ». */
+  const TITRES = { Mid: "Examen mi-terme", Final: "Examen final", Gestion: "Examen de gestion" };
+  const titre = p => TITRES[p.label] || "Examen " + p.label.toLowerCase();
+
+  /* Sous-titres tous bâtis sur le même modèle : l'étendue en chapitres. */
+  const plage = ids => {
+    const t = ids.slice().sort((a, b) => a - b);
+    const continu = t.every((v, i) => i === 0 || v === t[i - 1] + 1);
+    return continu && t.length > 1
+      ? traduire("Chapitres") + " " + t[0] + " " + traduire("à") + " " + t[t.length - 1]
+      : t.length + " " + traduire(t.length > 1 ? "chapitres" : "chapitre");
+  };
+
+  const ligne = (i, scope, t, sous) => `
+          <button type="button" class="scope-row" data-scope="${escapeHtml(scope)}">
+            <span class="scope-row-num" aria-hidden="true">${String(i).padStart(2, "0")}</span>
+            <span class="scope-row-main">
+              <span class="scope-row-title">${escapeHtml(t)}</span>
+              <span class="scope-row-sub">${escapeHtml(sous)}</span>
+            </span>
+            <span class="scope-row-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </button>`;
+
+  const lignes = [];
+  let i = 0;
+  parts.forEach(p => lignes.push(ligne(++i, "part:" + p.id, titre(p), plage(p.chapitres))));
+  if (!aUnePartieTotale) {
+    const tous = chaps ? chaps.map(c => c.id) : [];
+    lignes.push(ligne(++i, "all", "Tout le programme", chaps ? plage(tous) : "Toute la matière"));
+  }
+  if (chaps) lignes.push(ligne(++i, "custom", "Personnaliser", "Chapitres au choix"));
+
+  return `
+      <div class="revise" data-revise="${escapeHtml(bank)}">
+        <div class="revise-step" data-step="scope">
+          <p class="revise-q">Que veux-tu réviser&nbsp;?</p>
+          <div class="scope-list">${lignes.join("")}</div>
+        </div>
+        <div class="revise-step" data-step="chapters" hidden>
+          <p class="revise-q">Choisis tes chapitres</p>
+          <div class="chap-grid">${chaps ? chapterGridHtml(bank) : ""}</div>
+          <div class="revise-actions">
+            <button type="button" class="btn-retour" data-rev-back="scope">← Retour</button>
+            <button type="button" class="btn-continuer" data-rev-go>Continuer</button>
+          </div>
+        </div>
+        <div class="revise-step" data-step="format" hidden>
+          <p class="revise-q">Combien de questions&nbsp;? <span class="revise-scope"></span></p>
+          <div class="mode-card-actions">
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="20">20 QCU</button>
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="30">30 QCU</button>
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="40">40 QCU</button>
+          </div>
+${chronoBlockHtml()}
+          <div class="revise-actions revise-actions-simple">
+            <button type="button" class="btn-retour" data-rev-back="scope">← Changer ce que je révise</button>
+          </div>
+        </div>
+      </div>`;
+}
+
+/* Interactions du bloc de révision. */
+function wireReviseBlock(card, bank) {
+  const block = card.querySelector('[data-revise="' + bank + '"]');
+  if (!block) return;
+  const steps = {};
+  block.querySelectorAll(".revise-step").forEach(el => { steps[el.dataset.step] = el; });
+  const show = name => Object.entries(steps).forEach(([k, el]) => { el.hidden = (k !== name); });
+  const chips = () => Array.prototype.slice.call(block.querySelectorAll(".chap-chip"));
+
+  const allerAuFormat = (libelle, ids) => {
+    saveChapterSelection(bank, ids || []);
+    const sc = block.querySelector(".revise-scope");
+    if (sc) sc.textContent = "· " + libelle;
+    show("format");
+  };
+
+  block.addEventListener("click", e => {
+    const sb = e.target.closest(".scope-row");
+    if (sb && block.contains(sb)) {
+      const sc = sb.dataset.scope;
+      if (sc === "all") return allerAuFormat("Tout le programme", []);
+      if (sc === "custom") { show("chapters"); return; }
+      const p = (partiesOf(bank) || []).find(x => "part:" + x.id === sc);
+      if (p) allerAuFormat(p.label === "Mid" ? "Examen mi-terme" : p.label === "Final" ? "Examen final" : "Examen " + p.label.toLowerCase(), p.chapitres);
+      return;
+    }
+    const chip = e.target.closest(".chap-chip");
+    if (chip && block.contains(chip)) {
+      const on = !chip.classList.contains("is-on");
+      chip.classList.toggle("is-on", on);
+      chip.setAttribute("aria-pressed", on ? "true" : "false");
+      return;
+    }
+    /* --- chronomètre --- */
+    const bascule = e.target.closest("[data-chrono-toggle]");
+    if (bascule && block.contains(bascule)) {
+      e.preventDefault();
+      const pref = lirePrefChrono();
+      pref.actif = !pref.actif;
+      ecrirePrefChrono(pref);
+      majChrono(block);
+      return;
+    }
+    const preset = e.target.closest("[data-chrono-min]");
+    if (preset && block.contains(preset)) {
+      e.preventDefault();
+      const pref = lirePrefChrono();
+      pref.minutes = parseInt(preset.dataset.chronoMin, 10);
+      pref.actif = true;                 // choisir une durée, c'est vouloir le chronomètre
+      ecrirePrefChrono(pref);
+      const champ = block.querySelector("[data-chrono-champ]");
+      if (champ) champ.value = "";       // un préréglage reprend la main sur la saisie libre
+      majChrono(block);
+      return;
+    }
+
+    const back = e.target.closest("[data-rev-back]");
+    if (back && block.contains(back)) { show(back.dataset.revBack); return; }
+    const go = e.target.closest("[data-rev-go]");
+    if (go && block.contains(go)) {
+      const ids = chips().filter(c => c.classList.contains("is-on")).map(c => Number(c.dataset.chapId));
+      allerAuFormat(ids.length ? (ids.length + " chapitre" + (ids.length > 1 ? "s" : "")) : "Tout le programme", ids);
+    }
+  });
+
+  /* Durée libre : on ne corrige qu'au moment où l'étudiant quitte le champ, sinon taper
+     « 120 » serait ramené à 10 dès le premier chiffre. */
+  const champ = block.querySelector("[data-chrono-champ]");
+  if (champ) {
+    const valider = () => {
+      const v = parseInt(champ.value, 10);
+      if (!Number.isFinite(v)) { majChrono(block); return; }
+      const pref = lirePrefChrono();
+      pref.minutes = Math.max(CHRONO_MIN, v);
+      pref.actif = true;
+      ecrirePrefChrono(pref);
+      champ.value = pref.minutes;
+      majChrono(block);
+    };
+    champ.addEventListener("change", valider);
+    champ.addEventListener("blur", valider);
+    champ.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); valider(); } });
+  }
+}
+
+/* Remet l'interrupteur, le panneau et les préréglages en accord avec la préférence. */
+function majChrono(block) {
+  const pref = lirePrefChrono();
+  const bascule = block.querySelector("[data-chrono-toggle]");
+  if (bascule) {
+    bascule.classList.toggle("is-on", pref.actif);
+    bascule.setAttribute("aria-checked", pref.actif ? "true" : "false");
+  }
+  const reglage = block.querySelector("[data-chrono-reglage]");
+  if (reglage) reglage.hidden = !pref.actif;
+  const sous = block.querySelector("[data-chrono-sous]");
+  if (sous) sous.textContent = pref.actif ? "· " + traduire(dureeEnClair(pref.minutes)) : "";
+  block.querySelectorAll("[data-chrono-min]").forEach(b => {
+    b.classList.toggle("is-on", parseInt(b.dataset.chronoMin, 10) === pref.minutes);
+  });
+}
+
+/* Sélecteur de chapitres intégré à la carte du module. */
+function chapterBlockHtml(bank) {
+  const chaps = chaptersOf(bank);
+  if (!chaps) return "";
+  const sel = getChapterSelection(bank);
+  const parts = partiesOf(bank);
+  const partsHtml = parts ? `
+        <div class="chap-parts">
+          <span class="chap-parts-label">Réviser une partie d'examen :</span>
+          ${parts.map(p => `<button type="button" class="chap-part-btn" data-chap-part="${escapeHtml(p.id)}">${escapeHtml(p.label)}</button>`).join("")}
+        </div>` : "";
+  const chips = chaps.map(ch => {
+    const on = sel.indexOf(ch.id) !== -1;
+    return `
+      <button type="button" class="chap-chip${on ? " is-on" : ""}" data-chap-id="${ch.id}" aria-pressed="${on ? "true" : "false"}">
+        <span class="chap-chip-num">${ch.id}</span>
+        <span class="chap-chip-name">${escapeHtml(nomChapitre(ch))}</span>
+      </button>`;
+  }).join("");
+  return `
+    <div class="chap-block" data-chap-block="${escapeHtml(bank)}">
+      <button type="button" class="chap-head" aria-expanded="false">
+        <span class="chap-head-icon" aria-hidden="true"></span>
+        <span class="chap-head-text">
+          <span class="chap-head-title">Chapitres</span>
+          <span class="chap-head-state">${escapeHtml(chapterSummary(bank))}</span>
+        </span>
+        <span class="chap-head-chevron" aria-hidden="true"></span>
+      </button>
+      <div class="chap-panel" hidden>
+        <p class="chap-help">Choisis ce que tu as révisé. Sans sélection, les questions sont tirées dans tout le programme, comme à l'examen.</p>
+        <div class="chap-grid">${chips}</div>
+        ${partsHtml}
+        <div class="chap-bulk">
+          <button type="button" class="chap-bulk-btn" data-chap-none>Effacer ma sélection — revenir à tout le programme</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+/* Interactions du sélecteur d'une carte. */
+function wireChapterBlock(card, bank) {
+  const block = card.querySelector('[data-chap-block="' + bank + '"]');
+  if (!block) return;
+  const panel = block.querySelector(".chap-panel");
+  const head = block.querySelector(".chap-head");
+  const stateEl = block.querySelector(".chap-head-state");
+  const chips = () => Array.prototype.slice.call(block.querySelectorAll(".chap-chip"));
+
+  const refresh = () => {
+    const ids = chips().filter(c => c.classList.contains("is-on")).map(c => Number(c.dataset.chapId));
+    saveChapterSelection(bank, ids);
+    stateEl.textContent = chapterSummary(bank);
+    block.classList.toggle("chap-active", ids.length > 0);
+  };
+
+  head.addEventListener("click", () => {
+    const open = panel.hidden;
+    panel.hidden = !open;
+    head.setAttribute("aria-expanded", open ? "true" : "false");
+    block.classList.toggle("chap-open", open);
+  });
+  block.addEventListener("click", e => {
+    // Bouton de partie : coche d'un coup tous les chapitres de ce Mid / Final.
+    const partBtn = e.target.closest("[data-chap-part]");
+    if (partBtn && block.contains(partBtn)) {
+      const parts = partiesOf(bank) || [];
+      const p = parts.find(x => x.id === partBtn.dataset.chapPart);
+      if (p) {
+        chips().forEach(c => {
+          const on = p.chapitres.indexOf(Number(c.dataset.chapId)) !== -1;
+          c.classList.toggle("is-on", on);
+          c.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        refresh();
+      }
+      return;
+    }
+    const chip = e.target.closest(".chap-chip");
+    if (!chip || !block.contains(chip)) return;
+    const on = !chip.classList.contains("is-on");
+    chip.classList.toggle("is-on", on);
+    chip.setAttribute("aria-pressed", on ? "true" : "false");
+    refresh();
+  });
+  block.querySelector("[data-chap-none]").addEventListener("click", () => {
+    chips().forEach(c => { c.classList.remove("is-on"); c.setAttribute("aria-pressed", "false"); });
+    refresh();
+  });
+  block.classList.toggle("chap-active", getChapterSelection(bank).length > 0);
+}
+
+/* Part de questions illustrées visée dans une série. Le tirage reste aléatoire : on garantit
+   seulement qu'une série en contienne environ cette proportion, tant que le vivier disponible
+   en comporte assez. Une banque sans photo n'est pas affectée — le quota devient inopérant. */
+const PART_ILLUSTREES = 0.05;
+
+/* Tire `len` questions parmi `indices` en respectant la part visée de questions illustrées.
+   Tout ce qui n'est pas imposé par le quota est tiré au hasard, et l'ordre final est remélangé
+   pour que les photos ne se regroupent pas en début de série. */
+function tirerAvecQuota(bank, indices, len) {
+  const avec = [], sans = [];
+  indices.forEach(i => (bank[i].img ? avec : sans).push(i));
+  if (!avec.length || !sans.length) return shuffle(indices).slice(0, len);
+
+  /* Le quota est un PLANCHER, pas une consigne stricte : on réserve d'abord cette part de
+     questions illustrées, puis on complète au hasard dans tout le vivier restant. Une série
+     en contient donc au moins ce nombre, parfois davantage — la variation reste naturelle. */
+  const vise = Math.min(Math.round(len * PART_ILLUSTREES), avec.length, len);
+  const illustrees = shuffle(avec).slice(0, vise);
+  const pris = new Set(illustrees);
+  const reste = shuffle(indices.filter(i => !pris.has(i))).slice(0, len - illustrees.length);
+  return shuffle([...illustrees, ...reste]);
+}
+
+/* Strict no-repeat selection: exhaust every unseen question in the bank
+   before any previously-seen one is allowed back. Once the full bank has
+   been cycled through, the seen set resets and a new cycle begins. */
+function pickQuestions(mode, length) {
+  const bank = QUESTIONS[mode];
+  const len = length || getQuizLength(mode);
+  let seen = getSeenIndices(mode);
+
+  // Chapter filter: when the user has selected chapters, only those questions
+  // are eligible. No selection (or no chapter data) = whole bank, as before.
+  const pool = chapterPool(mode);
+  const inPool = idx => pool === null || pool.has(idx);
+
+  // Build the unseen pool for the current cycle.
+  let unseen = [];
+  bank.forEach((_, i) => { if (inPool(i) && !seen.includes(i)) unseen.push(i); });
+
+  // If everything has been cycled through, reset and start fresh.
+  if (unseen.length === 0) {
+    seen = seen.filter(i => !inPool(i));
+    unseen = bank.map((_, i) => i).filter(inPool);
+    saveSeenIndices(mode, seen);
+  }
+
+  let chosen;
+  if (unseen.length >= len) {
+    chosen = tirerAvecQuota(bank, unseen, len);
+  } else {
+    // Not enough unseen left → take all unseen, fill the rest by resetting
+    // (avoids ever showing a duplicate within the same session).
+    const remainder = len - unseen.length;
+    const recycled = bank.map((_, i) => i).filter(i => inPool(i) && !unseen.includes(i));
+    chosen = [...unseen, ...tirerAvecQuota(bank, recycled, remainder)];
+    chosen = shuffle(chosen);
+    // The unseen pool is fully drained; flag everything as fresh for next time.
+    seen = chosen.slice();
+    saveSeenIndices(mode, seen);
+  }
+
+  // Mark this session's questions as seen.
+  if (unseen.length >= len) {
+    seen = seen.concat(chosen);
+    saveSeenIndices(mode, seen);
+  }
+
+  return construireQuestions(bank, chosen);
+}
+
+/* Met en forme les questions tirées, avec un ordre de propositions mélangé pour chacune.
+   C'est l'objet rendu ici que lisent l'écran de quiz ET l'écran de correction : tout champ
+   oublié disparaît de l'affichage, d'où la recopie explicite de la photo. */
+function construireQuestions(bank, chosen) {
+  return chosen.map(idx => {
+    const src = bank[idx];
+    const optOrder = optionOrder(src.options);
+    const options = optOrder.map((origIdx, displayIdx) => ({
+      ...src.options[origIdx],
+      letter: OPTION_LETTERS[displayIdx],
+      origIdx
+    }));
+    return {
+      bankIndex: idx,
+      q: src.q,
+      c: src.c,
+      img: src.img,
+      imgAlt: src.imgAlt,
+      options
+    };
+  });
+}
+
+/* Compte les matières d'un semestre : celles réellement jouables (≥ 1 module) et le total
+   déclaré. Une matière annoncée mais sans module compte comme « à venir », jamais comme
+   disponible — sans quoi le site promettrait des examens qui n'existent pas encore. */
+function countMatieres(semestre) {
+  const ms = Object.values((semestre && semestre.matieres) || {});
+  return { prets: ms.filter(estPrete).length, total: ms.length };
+}
+
+/* Une matière n'est prête que si au moins un de ses modules pointe vers une banque qui existe
+   ET contient des questions. Un module déclaré vers une banque absente ne doit jamais faire
+   annoncer la matière comme disponible. */
+function estPrete(m) {
+  return (m.modules || []).some(mod => {
+    const b = typeof QUESTIONS !== "undefined" && QUESTIONS[mod.bankKey];
+    return Array.isArray(b) && b.length > 0;
+  });
+}
+
+/* Libellé et état d'une carte à partir de ces deux compteurs. */
+function dispoMeta(prets, total, mot) {
+  /* Chaque fragment passe par t() : les langues n'accordent pas le pluriel de la même
+     façon, et une phrase assemblée en dur resterait en français. */
+  const T = (typeof t === "function") ? t : (x => x);
+  if (total === 0) return { meta: T("Bientôt disponible"), disabled: true };
+  const nom = n => T(n > 1 ? mot + "s" : mot);
+  if (prets === 0) return { meta: total + " " + nom(total) + " · " + T("bientôt"), disabled: false };
+  return { meta: prets + " " + nom(prets) + " " + T(prets > 1 ? "disponibles" : "disponible"), disabled: false };
+}
+
+/* ----------- Navigation system (Cursus → Année → [Programme] → Semestre → Matière → Modules) ----------- */
+
+/* Renvoie l'objet `programmes` d'une année si elle en déclare un (K3 : ancien / nouveau),
+   sinon null. C'est ce qui insère — ou non — l'écran de choix du programme. */
+function programmesOf(cursusKey, yearKey) {
+  const y = CURSUS[cursusKey] && CURSUS[cursusKey].years && CURSUS[cursusKey].years[yearKey];
+  return (y && y.programmes && Object.keys(y.programmes).length) ? y.programmes : null;
+}
+
+/* Les clés de semestre visibles au niveau courant : celles du programme choisi, ou toutes. */
+function visibleSemesterKeys(y, programme) {
+  if (y.programmes && programme && y.programmes[programme]) return y.programmes[programme].semesters;
+  return Object.keys(y.semesters || {});
+}
+
+const NAV_LEVELS = ["cursus", "years", "programmes", "semesters", "matieres", "modules"];
+
+function navigateTo(level, key) {
+  if (level === "cursus") {
+    // Reset state.nav to initial cursus selection screen
+    state.nav = { cursus: null, year: null, programme: null, semester: null, matiere: null, level: "cursus" };
+    showScreen("home");
+    return;
+  }
+  if (level === "years") {
+    state.nav.cursus = key;
+    state.nav.year = state.nav.programme = state.nav.semester = state.nav.matiere = null;
+  } else if (level === "programmes") {
+    // Niveau intermédiaire : certaines années (K3) proposent d'abord ancien / nouveau programme.
+    state.nav.year = key;
+    state.nav.programme = state.nav.semester = state.nav.matiere = null;
+  } else if (level === "semesters") {
+    // `key` est l'année quand on vient du niveau « années », le programme quand on vient
+    // du niveau « programmes » (l'année est alors déjà fixée dans state.nav).
+    if (programmesOf(state.nav.cursus, state.nav.year) && state.nav.year) state.nav.programme = key;
+    else state.nav.year = key;
+    state.nav.semester = state.nav.matiere = null;
+  } else if (level === "matieres") {
+    state.nav.semester = key;
+    state.nav.matiere = null;
+  } else if (level === "modules") {
+    state.nav.matiere = key;
+  }
+  state.nav.level = level;
+  showScreen("nav");
+  renderNav();
+}
+
+function backNav() {
+  const lvl = state.nav.level;
+  if (lvl === "years")          navigateTo("cursus");
+  else if (lvl === "programmes") navigateTo("years", state.nav.cursus);
+  else if (lvl === "semesters") {
+    // Revenir au choix du programme si l'année en propose un, sinon à la liste des années.
+    if (programmesOf(state.nav.cursus, state.nav.year)) { state.nav.level = "programmes"; state.nav.programme = null; showScreen("nav"); renderNav(); }
+    else navigateTo("years", state.nav.cursus);
+  }
+  else if (lvl === "matieres")  { state.nav.level = "semesters"; state.nav.semester = null; showScreen("nav"); renderNav(); }
+  else if (lvl === "modules")   navigateTo("matieres", state.nav.semester);
+  else                          showScreen("home");
+}
+
+// From quiz/results back to the modules screen of the current matière.
+function backFromQuiz() {
+  /* On masque le compte à rebours, mais l'échéance reste enregistrée : le temps n'est
+     pas suspendu, il continue de courir pour qui reprend la série. */
+  arreterChrono();
+  if (state.nav.cursus && state.nav.matiere) {
+    state.nav.level = "modules";
+    showScreen("nav");
+    renderNav();
+    return;
+  }
+  showScreen("home");
+}
+
+/* Render the cursus selection grid on the home page. */
+function renderCursusList() {
+  const root = document.getElementById("cursus-list");
+  if (!root) return;
+  root.innerHTML = "";
+  Object.entries(CURSUS).forEach(([key, c]) => {
+    const card = document.createElement("button");
+    card.className = "subject-card subject-card-minimal";
+    card.style.setProperty("--accent", c.accent);
+    card.style.setProperty("--accent-soft", c.accent + "55");
+    card.style.setProperty("--accent-glow", c.accent + "33");
+    card.style.setProperty("--accent-rgb", hexToRgb(c.accent));
+    /* Un cursus encore en chantier est annoncé comme tel plutôt que simplement grisé :
+       l'utilisateur comprend qu'il arrive, pas qu'il est cassé. */
+    const aVenir = !c.available;
+    if (aVenir) {
+      card.disabled = true;
+      card.classList.add("subject-card-soon");
+    } else {
+      card.dataset.cursus = key;
+    }
+    card.innerHTML = `
+      <span class="subject-card-title">${escapeHtml(c.label)}</span>
+      ${aVenir
+        ? `<span class="subject-card-soon-tag">Bientôt disponible</span>`
+        : `<span class="subject-card-arrow" aria-hidden="true">→</span>`}
+    `;
+    root.appendChild(card);
+  });
+}
+
+/* ----------- Chiffres de la page d'accueil -----------
+   Ils étaient écrits en dur dans le HTML (« 13 000+ », « 38 matières », « 526 chapitres ») et
+   se démodaient à chaque ajout. On les recalcule au chargement à partir des données réelles.
+   Un cursus fermé (available: false) n'est pas compté : on n'annonce que ce qui est jouable. */
+function chiffresDuSite() {
+  const banques = new Set();
+  const annees = new Set();
+  let matieres = 0;
+  Object.values(CURSUS).forEach(c => {
+    if (c.available === false) return;
+    Object.entries(c.years || {}).forEach(([cleAnnee, annee]) => {
+      Object.values(annee.semesters || {}).forEach(sem => {
+        Object.values(sem.matieres || {}).forEach(mat => {
+          const cles = (mat.modules || [])
+            .map(m => m.bankKey)
+            .filter(k => (QUESTIONS[k] || []).length > 0);
+          if (!cles.length) return;
+          matieres++;
+          annees.add(cleAnnee);
+          cles.forEach(k => banques.add(k));
+        });
+      });
+    });
+  });
+  let qcu = 0, chapitres = 0;
+  banques.forEach(k => {
+    qcu += QUESTIONS[k].length;
+    chapitres += ((typeof CHAPITRES !== "undefined" && CHAPITRES[k]) || []).length;
+  });
+  return { qcu, matieres, chapitres, annees: [...annees].sort() };
+}
+
+/* 16050 → « 16 050 » (espace fine insécable : le nombre ne se coupe jamais en fin de ligne).
+   En anglais, le séparateur de milliers est la virgule : « 16,050 ». */
+function separeMilliers(n) {
+  const sep = typeof langueActuelle === "function" && langueActuelle() === "en" ? "," : " ";
+  return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, sep);
+}
+
+function renderHomeStats() {
+  const c = chiffresDuSite();
+  const poser = (id, texte) => { const el = document.getElementById(id); if (el) el.textContent = texte; };
+  poser("stat-qcu", separeMilliers(c.qcu));
+  poser("stat-matieres", separeMilliers(c.matieres));
+  poser("stat-chapitres", separeMilliers(c.chapitres));
+  poser("feature-chapitres", traduire("{n} chapitres").replace("{n}", separeMilliers(c.chapitres)));
+
+  // « Kinésithérapie, de la K1 à la K4 » — construit depuis les années réellement pourvues.
+  const ouverts = Object.values(CURSUS).filter(x => x.available !== false);
+  if (ouverts.length === 1 && c.annees.length) {
+    const a = c.annees;
+    const plage = a.length > 1
+      ? traduire("de la {a} à la {b}").replace("{a}", a[0]).replace("{b}", a[a.length - 1])
+      : a[0];
+    poser("step-cursus", traduire("{cursus}, {plage} : sélectionne ce que tu veux travailler.")
+      .replace("{cursus}", traduire(ouverts[0].label))
+      .replace("{plage}", plage));
+  }
+  const lead = document.getElementById("landing-lead");
+  if (lead) {
+    lead.textContent = traduire(
+      "{n} QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite."
+    ).replace("{n}", separeMilliers(c.qcu));
+  }
+}
+
+/* Render the current navigation level on #screen-nav. */
+function renderNav() {
+  const { cursus, year, semester, matiere, level } = state.nav;
+  const eyebrow = $("#nav-eyebrow");
+  const title = $("#nav-title");
+  const subtitle = $("#nav-subtitle");
+  const list = $("#nav-list");
+  const empty = $("#nav-empty");
+  const pill = $("#nav-mistakes-pill");
+  list.innerHTML = "";
+  empty.hidden = true;
+  if (pill) pill.hidden = true;
+
+  const c = CURSUS[cursus];
+  if (!c) return;
+
+  if (level === "years") {
+    eyebrow.textContent = "";
+    title.textContent = c.label;
+    subtitle.textContent = "";
+    list.dataset.layout = "years";
+    Object.entries(c.years).forEach(([yk, y], i) => {
+      const cy = Object.values(y.semesters || {}).reduce((acc, s) => {
+        const c = countMatieres(s); acc.prets += c.prets; acc.total += c.total; return acc;
+      }, { prets: 0, total: 0 });
+      /* Pas de décompte de matières au niveau de l'année : le détail se lit au semestre,
+         et l'afficher ici alourdissait le choix pour rien. Seule une année entièrement
+         vide reste annoncée « Bientôt disponible » et non cliquable. */
+      const dy = dispoMeta(cy.prets, cy.total, "matière");
+      const ordinal = (typeof t === "function")
+        ? t((i + 1) === 1 ? "1ère année" : (i + 1) + "ème année")
+        : ((i + 1) === 1 ? "1ère année" : (i + 1) + "ème année");
+      list.appendChild(renderNavCard({
+        number: String(i + 1).padStart(2, "0"),
+        eyebrow: ordinal,
+        title: y.label,
+        meta: cy.total === 0 ? dy.meta : "",
+        disabled: dy.disabled,
+        accent: c.accent,
+        data: { year: yk, level: y.programmes ? "programmes" : "semesters" }
+      }));
+    });
+  } else if (level === "programmes") {
+    const y = c.years[year];
+    eyebrow.textContent = "";
+    title.textContent = y.label;
+    subtitle.textContent = "";
+    list.dataset.layout = "programmes";
+    Object.entries(y.programmes).forEach(([pk, p], i) => {
+      const cp = (p.semesters || []).reduce((acc, sk) => {
+        const c2 = countMatieres((y.semesters || {})[sk]); acc.prets += c2.prets; acc.total += c2.total; return acc;
+      }, { prets: 0, total: 0 });
+      const dp = dispoMeta(cp.prets, cp.total, "matière");
+      list.appendChild(renderNavCard({
+        number: String(i + 1).padStart(2, "0"),
+        eyebrow: traduire(c.label).toUpperCase() + " · " + traduire(y.long || y.label),
+        title: p.label,
+        meta: dp.meta,
+        disabled: dp.disabled,
+        accent: c.accent,
+        data: { programme: pk, level: "semesters" }
+      }));
+    });
+  } else if (level === "semesters") {
+    const y = c.years[year];
+    eyebrow.textContent = "";
+    title.textContent = y.label;
+    subtitle.textContent = "";
+    list.dataset.layout = "semesters";
+    const p = y.programmes && state.nav.programme ? y.programmes[state.nav.programme] : null;
+    if (p) { title.textContent = y.label; subtitle.textContent = p.label; }
+    visibleSemesterKeys(y, state.nav.programme).map(sk => [sk, (y.semesters || {})[sk]]).filter(([, s]) => s).forEach(([sk, s], i) => {
+      const cs = countMatieres(s);
+      const ds = dispoMeta(cs.prets, cs.total, "matière");
+      list.appendChild(renderNavCard({
+        number: String(i + 1).padStart(2, "0"),
+        eyebrow: traduire(c.label).toUpperCase() + " · " + traduire(y.long || y.label),
+        title: s.label,
+        meta: ds.meta,
+        disabled: ds.disabled,
+        accent: c.accent,
+        data: { semester: sk, level: "matieres" }
+      }));
+    });
+  } else if (level === "matieres") {
+    const y = c.years[year];
+    const s = y.semesters[semester];
+    eyebrow.textContent = "";
+    title.textContent = y.label + " — " + s.label;
+    subtitle.textContent = "";
+    list.dataset.layout = "matieres";
+    const matieres = s.matieres || {};
+    const keys = Object.keys(matieres);
+    if (keys.length === 0) {
+      empty.hidden = false;
+      return;
+    }
+    keys.forEach((mk, i) => {
+      const m = matieres[mk];
+      // Seuls les modules réellement jouables comptent (cf. estPrete).
+      const moduleCount = (m.modules || []).filter(mod => {
+        const b = typeof QUESTIONS !== "undefined" && QUESTIONS[mod.bankKey];
+        return Array.isArray(b) && b.length > 0;
+      }).length;
+      list.appendChild(renderNavCard({
+        number: String(i + 1).padStart(2, "0"),
+        eyebrow: "Matière",
+        title: m.label,
+        meta: moduleCount > 0 ? moduleCount + " module" + (moduleCount > 1 ? "s" : "") + " · examen" : "Bientôt disponible",
+        disabled: moduleCount === 0,
+        accent: m.accent || c.accent,
+        data: { matiere: mk, level: "modules" }
+      }));
+    });
+  } else if (level === "modules") {
+    const y = c.years[year];
+    const s = y.semesters[semester];
+    const m = s.matieres[matiere];
+    eyebrow.textContent = [t(c.label).toUpperCase(), t(y.long || y.label), t(s.label)].join(" · ");
+    title.textContent = m.label;
+    subtitle.textContent = "Choisis un module et le format de la session.";
+
+    // Mistakes pill aggregated over all modules of this matière
+    const bankKeys = (m.modules || []).map(mod => mod.bankKey);
+    const errorCount = bankKeys.reduce((sum, bk) => sum + (getAllMistakes()[bk] || []).length, 0);
+    if (pill) {
+      pill.hidden = errorCount === 0;
+      $("#nav-mistakes-count").textContent = errorCount;
+      pill.dataset.matiereKey = matiere;
+    }
+
+    /* Le titre du module n'est utile que s'il y en a plusieurs : sinon il répète
+       le nom de la matière affiché juste au-dessus. */
+    const plusieursModules = (m.modules || []).length > 1;
+    (m.modules || []).forEach(mod => {
+      const card = document.createElement("div");
+      card.className = "mode-card border-glow";
+      const accent = mod.accent || m.accent || c.accent;
+      const rgb = hexToRgb(accent);
+      const accentRgba = (a) => `rgba(${rgb}, ${a})`;
+      card.style.setProperty("--accent", accent);
+      card.style.setProperty("--accent-rgb", rgb);
+      card.innerHTML = `
+        <span class="edge-light" aria-hidden="true"></span>
+        <div class="mode-card-inner">
+          <div class="mode-card-head">
+            <span class="mode-tag" style="background:${accentRgba(0.14)}; color:${accent}; box-shadow: inset 0 0 0 1px ${accentRgba(0.35)};">${escapeHtml(mod.optionCount + " propositions")}</span>
+          </div>
+          ${plusieursModules ? `<h3 class="mode-title">${escapeHtml(mod.label)}</h3>` : ""}
+          <p class="mode-desc">${escapeHtml(mod.desc || (t("Une mauvaise réponse retire") + " " + (mod.optionCount === 4 ? "1/3" : "1/2") + " " + t("point. Score ramené sur 10.")))}</p>
+          ${reviseBlockHtml(mod.bankKey)}
+        </div>
+      `;
+      applyBorderGlow(card, accent);
+      list.appendChild(card);
+      wireReviseBlock(card, mod.bankKey);
+    });
+  }
+}
+
+function renderNavCard({ number, eyebrow, title, meta, accent, disabled, data }) {
+  const card = document.createElement("button");
+  card.className = "nav-card";
+  if (disabled) card.classList.add("nav-card-disabled");
+  card.style.setProperty("--accent", accent);
+  const rgb = hexToRgb(accent);
+  card.style.setProperty("--accent-rgb", rgb);
+  if (disabled) {
+    card.disabled = true;
+  } else {
+    Object.entries(data).forEach(([k, v]) => { card.dataset[k] = v; });
+    card.dataset.navClick = "1";
+  }
+  card.innerHTML = `
+    <span class="nav-card-number" aria-hidden="true">${escapeHtml(number || "")}</span>
+    <span class="nav-card-body">
+      <span class="nav-card-eyebrow">${escapeHtml(eyebrow || "")}</span>
+      <span class="nav-card-title">${escapeHtml(title)}</span>
+      <span class="nav-card-meta">${escapeHtml(meta || "")}</span>
+    </span>
+    <span class="nav-card-accent-line" aria-hidden="true"></span>
+    <span class="nav-card-arrow" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M13 6l6 6-6 6"/>
+      </svg>
+    </span>
+  `;
+  return card;
+}
+
+function hexToRgb(hex) {
+  const h = hex.replace("#", "");
+  const n = parseInt(h.length === 3 ? h.split("").map(c => c + c).join("") : h, 16);
+  return ((n >> 16) & 255) + ", " + ((n >> 8) & 255) + ", " + (n & 255);
+}
+
+/* ----------- Mode selection ----------- */
+/* ----------- Chronomètre de série -----------
+   On mémorise une ÉCHÉANCE absolue (horodatage), jamais un temps restant : ainsi le temps
+   continue de courir si l'onglet passe en arrière-plan, si la page est rechargée ou si
+   l'étudiant quitte la série et la reprend. C'est ce qui rend le chronomètre réellement
+   impossible à arrêter, sans avoir à bloquer la navigation. */
+let chronoTimer = null;
+
+/* Floute ou révèle les chiffres. N'a AUCUN effet sur l'écoulement du temps : la série
+   sera coupée à l'échéance exactement de la même manière. */
+function appliquerMasqueChrono() {
+  const bloc = $("#quiz-chrono");
+  const oeil = $("#chrono-oeil");
+  if (!bloc) return;
+  const masque = lirePrefChrono().masque;
+  bloc.classList.toggle("is-masque", masque);
+  if (masque) bloc.classList.remove("is-urgent");   // pas d'alerte rouge : on ne veut pas stresser
+  if (oeil) {
+    oeil.setAttribute("aria-pressed", masque ? "true" : "false");
+    const libelle = traduire(masque ? "Afficher le chronomètre" : "Masquer le chronomètre");
+    oeil.setAttribute("aria-label", libelle);
+    oeil.setAttribute("title", libelle);
+  }
+}
+
+function basculerMasqueChrono() {
+  const pref = lirePrefChrono();
+  pref.masque = !pref.masque;
+  ecrirePrefChrono(pref);
+  appliquerMasqueChrono();
+}
+
+function arreterChrono() {
+  if (chronoTimer) { clearInterval(chronoTimer); chronoTimer = null; }
+  const bloc = $("#quiz-chrono");
+  if (bloc) { bloc.hidden = true; bloc.classList.remove("is-urgent"); }
+}
+
+function demarrerChrono() {
+  arreterChrono();
+  if (!state.deadline) return;
+  const bloc = $("#quiz-chrono");
+  const texte = $("#quiz-chrono-temps");
+  if (!bloc || !texte) return;
+  bloc.hidden = false;
+  appliquerMasqueChrono();
+  /* On bat quatre fois par seconde pour couper à l'heure juste, mais on n'écrit dans le
+     DOM que lorsque les chiffres affichés changent réellement : une seule mutation par
+     seconde au lieu de quatre. En espagnol, chaque mutation réveille l'observateur de
+     traduction, et il n'y a aucune raison de le faire travailler pour rien. */
+  let dernierAffichage = null;
+  const battre = () => {
+    const reste = state.deadline - Date.now();
+    const rendu = mmss(reste);
+    if (rendu !== dernierAffichage) { texte.textContent = rendu; dernierAffichage = rendu; }
+    bloc.classList.toggle("is-urgent", reste <= 60000 && !lirePrefChrono().masque);
+    if (reste <= 0) terminerSurChrono();
+  };
+  battre();
+  chronoTimer = setInterval(battre, 250);
+}
+
+/* Fin du temps : on coupe net. Les questions non traitées deviennent « non répondues »,
+   exactement comme si l'étudiant avait cliqué « Ne pas répondre » sur chacune. */
+function terminerSurChrono() {
+  arreterChrono();
+  const traitees = new Set(state.answers.map(a => a.questionIndex));
+  for (let i = 0; i < state.quizLength; i++) {
+    if (!traitees.has(i)) {
+      state.answers.push({ questionIndex: i, chosenDisplayIdx: null, status: "skip" });
+    }
+  }
+  state.answers.sort((a, b) => a.questionIndex - b.questionIndex);
+  state.awaitingNext = false;
+  state.chronoEcoule = true;
+  clearActiveSession();
+  showResults();
+}
+
+function startMode(mode, length) {
+  /* Dans une autre langue, le contenu de la banque arrive par un fichier
+     séparé : on l'attend avant de tirer les questions. */
+  if (window.chargerQcu && !window.qcuPret([mode])) {
+    window.chargerQcu([mode]).then(() => startMode(mode, length));
+    return;
+  }
+  state.mode = mode;
+  const bank = QUESTIONS[mode];
+  if (!bank || bank.length === 0) {
+    alert(typeof window.t === "function" ? window.t("Cette matière est en cours de construction — la banque de questions n'est pas encore disponible.") : "Cette matière est en cours de construction — la banque de questions n'est pas encore disponible.");
+    return;
+  }
+  // With a chapter selection, never ask for more questions than the selection holds.
+  const available = availableCount(mode);
+  let wanted = length || getQuizLength(mode);
+  if (wanted > available) {
+    const sel = getChapterSelection(mode);
+    if (sel.length) {
+      alert("Les chapitres sélectionnés contiennent " + available + " questions. Le quiz en comptera " + available + ".");
+    }
+    wanted = available;
+  }
+  if (wanted < 1) { alert("Aucune question ne correspond aux chapitres sélectionnés."); return; }
+  state.quizLength = wanted;
+  state.points = getPoints(mode);
+  state.questions = pickQuestions(mode, state.quizLength);
+  /* La sélection peut renvoyer moins de questions que demandé (filtre de chapitres, aperçu) :
+     la longueur affichée et le barème doivent suivre, sans quoi le quiz ne se termine jamais. */
+  state.quizLength = state.questions.length;
+  state.rawMax = state.quizLength * state.points.good;
+  state.index = 0;
+  state.answers = [];
+  state.awaitingNext = false;
+  state.chronoEcoule = false;
+  const prefChrono = lirePrefChrono();
+  state.deadline = prefChrono.actif ? Date.now() + prefChrono.minutes * 60000 : null;
+  clearActiveSession();
+  saveActiveSession();
+  const label = $("#quiz-mode-label");
+  label.textContent = libelleMode(mode);
+  label.dataset.mode = mode;
+  applyQuizAccent(mode);
+  $("#quiz-total").textContent = state.quizLength;
+  $("#score-max").textContent = formatNumber(DISPLAY_MAX);
+  try { if (window.__ymTrack) window.__ymTrack("quiz"); } catch (e) {}
+  showScreen("quiz");
+  renderQuestion();
+  demarrerChrono();
+}
+
+/* Restore a previously saved active session (after refresh or browser close). */
+function resumeActiveSession() {
+  const s = getActiveSession();
+  if (!s) return;
+  if (window.chargerQcu && !window.qcuPret([s.mode])) {
+    window.chargerQcu([s.mode]).then(resumeActiveSession);
+    return;
+  }
+  state.mode = s.mode;
+  state.quizLength = s.quizLength;
+  state.points = s.points || getPoints(s.mode);
+  state.rawMax = s.rawMax || (state.quizLength * state.points.good);
+  /* Une session sauvegardée contient les questions telles qu'elles étaient au moment de
+     l'enregistrement. On y réinjecte la photo depuis la banque : sans cela, une série
+     commencée avant l'ajout des questions illustrées resterait sans image jusqu'à sa fin. */
+  const banque = QUESTIONS[s.mode] || [];
+  state.questions = (s.questions || []).map(q => {
+    const src = banque[q.bankIndex];
+    return src ? { ...q, img: src.img, imgAlt: src.imgAlt } : q;
+  });
+  state.index = Math.min(s.index || 0, state.questions.length - 1);
+  state.answers = Array.isArray(s.answers) ? s.answers : [];
+  state.awaitingNext = false;
+  state.chronoEcoule = false;
+  state.deadline = s.deadline || null;
+  const resumeLabel = $("#quiz-mode-label");
+  resumeLabel.textContent = libelleMode(s.mode);
+  resumeLabel.dataset.mode = s.mode;
+  applyQuizAccent(s.mode);
+  $("#quiz-total").textContent = state.quizLength;
+  $("#score-max").textContent = formatNumber(DISPLAY_MAX);
+  showScreen("quiz");
+  // If we had revealed an answer just before reload, force a "next" state so
+  // the user can move forward (we don't re-render the reveal UI fully).
+  renderQuestion();
+  /* Le temps a continué de courir pendant l'absence : s'il est épuisé, la série est
+     terminée d'office, exactement comme si l'étudiant était resté devant l'écran. */
+  if (state.deadline && state.deadline - Date.now() <= 0) { terminerSurChrono(); return; }
+  demarrerChrono();
+}
+
+function formatNumber(n) {
+  // Display 10 / 15 / 7,5 etc. with comma as decimal separator.
+  return n.toString().replace(".", ",");
+}
+
+/* ----------- Quiz rendering ----------- */
+function renderQuestion() {
+  const q = state.questions[state.index];
+  reinitialiserSignalement();
+  $("#quiz-current").textContent = state.index + 1;
+  $("#progress-fill").style.width = ((state.index + 1) / state.quizLength * 100) + "%";
+
+  $("#question-text").textContent = q.q;
+
+  // Photo de la question, quand il y en a une.
+  const figEl = $("#question-figure");
+  if (figEl) {
+    const imgEl = $("#question-image");
+    figEl.hidden = !q.img;
+    if (q.img) { imgEl.src = q.img; imgEl.alt = q.imgAlt || ""; }
+    else { imgEl.removeAttribute("src"); imgEl.alt = ""; }
+  }
+
+  // Chapitre de la question (quand la matière est découpée en chapitres).
+  const chapEl = $("#question-chapter");
+  if (chapEl) {
+    const defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[state.mode]) || null;
+    const ids = chapitresDe(q);
+    const chs = defs ? ids.map(id => defs.filter(d => d.id === id)[0]).filter(Boolean) : [];
+    chapEl.hidden = !chs.length;
+    if (chs.length) {
+      chapEl.textContent = t(chs.length > 1 ? "Chapitres" : "Chapitre") + " "
+        + chs.map(c => c.id + " · " + t(c.nom)).join("  —  ");
+    }
+  }
+
+  const optsEl = $("#options");
+  optsEl.innerHTML = "";
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "option";
+    btn.dataset.idx = i;
+    btn.innerHTML = `
+      <span class="option-letter">${opt.letter}</span>
+      <span class="option-text">${escapeHtml(opt.t)}</span>
+    `;
+    btn.addEventListener("click", () => selectAnswer(i));
+    optsEl.appendChild(btn);
+  });
+
+  $("#btn-skip").hidden = false;
+  $("#btn-skip").disabled = false;
+  $("#btn-next").hidden = true;
+  $("#justifications").hidden = true;
+  $("#justifications").innerHTML = "";
+  state.awaitingNext = false;
+}
+
+function selectAnswer(displayIdx) {
+  if (state.awaitingNext) return;
+  const q = state.questions[state.index];
+  if (displayIdx < 0 || displayIdx >= q.options.length) return;
+  const opt = q.options[displayIdx];
+  recordAnswer(displayIdx, opt.correct ? "good" : "bad");
+  if (!opt.correct) addMistake(state.mode, q.bankIndex, opt.origIdx);
+  revealAnswers(displayIdx, false);
+}
+
+function skipQuestion() {
+  if (state.awaitingNext) return;
+  recordAnswer(null, "skip");
+  revealAnswers(null, true);
+}
+
+function recordAnswer(displayIdx, status) {
+  state.answers.push({
+    questionIndex: state.index,
+    chosenDisplayIdx: displayIdx,
+    status
+  });
+  saveActiveSession();
+}
+
+function revealAnswers(chosenIdx, isSkip) {
+  const q = state.questions[state.index];
+  // Scope the query to the quiz screen — the mistakes review screen also uses
+  // .option buttons, so a global selector would pick those up and break.
+  const optionEls = document.querySelectorAll("#options .option");
+
+  optionEls.forEach((el, i) => {
+    el.disabled = true;
+    const opt = q.options[i];
+    if (!opt) return;
+    if (isSkip) {
+      if (opt.correct) el.classList.add("is-correct-not-picked");
+    } else {
+      if (i === chosenIdx) {
+        el.classList.add(opt.correct ? "is-correct" : "is-wrong");
+        if (!opt.correct) {
+          // also mark the right one
+          q.options.forEach((o2, j) => {
+            if (o2.correct && optionEls[j]) optionEls[j].classList.add("is-correct-not-picked");
+          });
+        }
+      }
+    }
+  });
+
+  // Render justifications
+  const just = $("#justifications");
+  just.innerHTML = "";
+  q.options.forEach(opt => {
+    const div = document.createElement("div");
+    div.className = "justif" + (opt.correct ? " justif-good" : "");
+    div.innerHTML = `
+      <span class="justif-letter">${opt.letter}</span>
+      <div class="justif-body">
+        <span class="justif-status ${opt.correct ? "justif-status-good" : "justif-status-bad"}">
+          ${opt.correct ? "Correct" : "Incorrect"}
+        </span>
+        <strong>${escapeHtml(opt.t)}</strong>
+        <div class="justif-text">${escapeHtml(opt.j)}</div>
+      </div>
+    `;
+    just.appendChild(div);
+  });
+  just.hidden = false;
+
+  $("#btn-skip").hidden = true;
+  $("#btn-next").hidden = false;
+  $("#btn-next").textContent = state.index + 1 === state.quizLength
+    ? "VOIR LES RÉSULTATS →"
+    : "SUIVANT →";
+
+  state.awaitingNext = true;
+  saveActiveSession();
+}
+
+function nextQuestion() {
+  state.index++;
+  if (state.index >= state.quizLength) {
+    clearActiveSession();
+    showResults();
+  } else {
+    saveActiveSession();
+    renderQuestion();
+  }
+}
+
+/* ----------- Results ----------- */
+function showResults() {
+  arreterChrono();
+  const noteChrono = $("#results-chrono");
+  if (noteChrono) noteChrono.hidden = !state.chronoEcoule;
+  let good = 0, bad = 0, skip = 0;
+  state.answers.forEach(a => {
+    if (a.status === "good") good++;
+    else if (a.status === "bad") bad++;
+    else skip++;
+  });
+  // Raw points : chaque mauvaise réponse est pénalisée selon SON propre nombre
+  // de propositions (−1/(n−1)) — indispensable pour les banques à format mixte
+  // (ex. annales dentaires 4 et 5 props). Pour une banque uniforme, le résultat
+  // est identique à l'ancien calcul plat.
+  let penalty = 0;
+  state.answers.forEach(a => {
+    if (a.status === "bad") {
+      const qq = state.questions[a.questionIndex];
+      const nOpt = (qq && qq.options && qq.options.length) || 4;
+      penalty += -1 / Math.max(1, nOpt - 1);
+    }
+  });
+  const rawPoints = +(good * state.points.good + penalty).toFixed(2);
+  const rawClamped = Math.max(0, rawPoints);
+  // Final score is always normalized to DISPLAY_MAX (= 10) regardless of mode length.
+  const displayScore = +(rawClamped * DISPLAY_MAX / state.rawMax).toFixed(2);
+
+  $("#stat-good").textContent = good;
+  $("#stat-bad").textContent = bad;
+  $("#stat-skip").textContent = skip;
+  const scoreTexte = formatNumber(displayScore);
+  $("#score-number").textContent = scoreTexte;
+  $("#score-max").textContent = formatNumber(DISPLAY_MAX);
+  // Une note décimale (« 6,25 ») occupe deux fois la largeur d'un « 6 » : on réduit le corps
+  // pour que le bloc reste centré dans la carte au lieu de la déborder.
+  const blocScore = document.querySelector("#screen-results .score-block");
+  if (blocScore) blocScore.classList.toggle("is-long", scoreTexte.length > 2);
+
+  const pill = $("#status-pill");
+  if (displayScore >= DISPLAY_PASS) {
+    pill.textContent = "VALIDÉ";
+    pill.classList.add("is-pass");
+    pill.classList.remove("is-fail");
+  } else {
+    pill.textContent = "JUILLET";
+    pill.classList.add("is-fail");
+    pill.classList.remove("is-pass");
+  }
+
+  const resultsLabel = $("#results-mode-label");
+  resultsLabel.textContent = libelleMode(state.mode);
+  resultsLabel.dataset.mode = state.mode;
+
+  // Update review button label with the count of errors + skipped questions.
+  const reviewBtn = document.querySelector('#screen-results [data-action="review"]');
+  if (reviewBtn) {
+    const errs = bad + skip;
+    reviewBtn.textContent = errs > 0
+      ? `${traduire("Revoir mes erreurs")} (${errs})`
+      : traduire("Revoir mes erreurs");
+    reviewBtn.disabled = errs === 0;
+    reviewBtn.style.opacity = errs === 0 ? "0.5" : "";
+    reviewBtn.style.cursor = errs === 0 ? "not-allowed" : "";
+  }
+
+  showScreen("results");
+}
+
+/* ----------- Review ----------- */
+function showReview() {
+  const list = $("#review-list");
+  list.innerHTML = "";
+
+  const wrong = state.answers
+    .map((a, i) => ({ ...a, n: i + 1 }))
+    .filter(a => a.status !== "good");
+
+  if (wrong.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "review-item";
+    empty.innerHTML = `
+      <p class="review-q" style="margin:0;">
+        Aucune erreur ni question non répondue. Bravo !
+      </p>
+    `;
+    list.appendChild(empty);
+  } else {
+    wrong.forEach(a => {
+      const q = state.questions[a.questionIndex];
+      const correctOpt = q.options.find(o => o.correct);
+      const chosenOpt = a.chosenDisplayIdx !== null ? q.options[a.chosenDisplayIdx] : null;
+
+      const item = document.createElement("div");
+      item.className = "review-item";
+      item.innerHTML = `
+        <div class="review-item-head">
+          <span class="review-num">${t("Question")} ${a.n}</span>
+          <span class="review-tag ${a.status === "skip" ? "tag-skip" : "tag-bad"}">
+            ${a.status === "skip" ? "Non répondue" : "Mauvaise réponse"}
+          </span>
+        </div>
+        <p class="review-q">${escapeHtml(q.q)}</p>
+        ${figureHtml(q)}
+        <div class="review-answers">
+          <div class="review-answer-block">
+            <div class="review-answer-label">Ta réponse</div>
+            <div class="review-answer-value answer-bad">
+              ${chosenOpt ? `${chosenOpt.letter}. ${escapeHtml(chosenOpt.t)}` : "— aucune —"}
+            </div>
+          </div>
+          <div class="review-answer-block">
+            <div class="review-answer-label">Bonne réponse</div>
+            <div class="review-answer-value answer-good">
+              ${correctOpt.letter}. ${escapeHtml(correctOpt.t)}
+            </div>
+          </div>
+        </div>
+        <div class="justifications" style="display:flex;">
+          ${q.options.map(o => `
+            <div class="justif ${o.correct ? "justif-good" : ""}">
+              <span class="justif-letter">${o.letter}</span>
+              <div class="justif-body">
+                <span class="justif-status ${o.correct ? "justif-status-good" : "justif-status-bad"}">
+                  ${o.correct ? "Correct" : "Incorrect"}
+                </span>
+                <strong>${escapeHtml(o.t)}</strong>
+                <div class="justif-text">${escapeHtml(o.j)}</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+      list.appendChild(item);
+    });
+  }
+
+  showScreen("review");
+}
+
+/* ----------- Persistent mistakes review ----------- */
+function openMistakesViewForBanks(bankKeys, matiereKey) {
+  if (window.chargerQcu && !window.qcuPret(bankKeys)) {
+    window.chargerQcu(bankKeys).then(() => openMistakesViewForBanks(bankKeys, matiereKey));
+    return;
+  }
+  const all = getAllMistakes();
+  const list = [];
+  bankKeys.forEach(mode => {
+    (all[mode] || []).forEach(m => list.push({ mode, ...m }));
+  });
+  list.sort((a, b) => b.ts - a.ts);
+  if (list.length === 0) return;
+  state.mistakesView = { matiereKey, bankKeys, list, index: 0 };
+  showScreen("mistakes");
+  renderMistake();
+}
+
+function renderMistake() {
+  const mv = state.mistakesView;
+  const card = $("#mistakes-card");
+  const empty = $("#mistakes-empty");
+  const actions = document.querySelector(".mistakes-actions");
+
+  const compteur = document.querySelector("#screen-mistakes .mistakes-progress");
+  const consigne = document.querySelector("#screen-mistakes .subtitle");
+  if (!mv || mv.list.length === 0) {
+    // Tout est revu : on efface la carte ET on la retire du flux. Vide, elle laissait un
+    // grand rectangle blanc au-dessus du message de félicitations.
+    card.innerHTML = "";
+    card.hidden = true;
+    if (compteur) compteur.hidden = true;
+    // « Re-réponds à chaque question » n'a plus de sens quand il ne reste rien à revoir.
+    if (consigne) consigne.hidden = true;
+    if (empty) empty.hidden = false;
+    if (actions) actions.style.display = "none";
+    $("#mistakes-current").textContent = "0";
+    $("#mistakes-total").textContent = "0";
+    return;
+  }
+  card.hidden = false;
+  if (compteur) compteur.hidden = false;
+  if (consigne) consigne.hidden = false;
+  if (empty) empty.hidden = true;
+  if (actions) actions.style.display = "";
+
+  if (mv.index < 0) mv.index = 0;
+  if (mv.index >= mv.list.length) mv.index = mv.list.length - 1;
+
+  const m = mv.list[mv.index];
+  const bank = QUESTIONS[m.mode] || [];
+  const q = bank[m.bankIdx];
+  if (!q) {
+    // Stored question no longer exists — drop it and re-render.
+    removeMistake(m.mode, m.bankIdx);
+    mv.list.splice(mv.index, 1);
+    renderMistake();
+    /* updated automatically by renderNav */
+    return;
+  }
+
+  $("#mistakes-current").textContent = mv.index + 1;
+  $("#mistakes-total").textContent = mv.list.length;
+
+  // Ordre d'affichage mélangé pour que la position d'une lettre ne soit pas un indice — sauf si
+  // une proposition renvoie à des lettres, auquel cas l'ordre de l'annale est conservé.
+  const n = q.options.length;
+  const order = optionOrder(q.options);
+  mv.currentOrder = order;
+  mv.currentQ = q;
+  mv.currentMode = m.mode;
+  mv.currentBankIdx = m.bankIdx;
+  mv.phase = "idle";
+
+  const optionsHtml = order.map((origIdx, displayIdx) => {
+    const opt = q.options[origIdx];
+    return `
+      <button type="button" class="option" data-origidx="${origIdx}">
+        <span class="option-letter">${OPTION_LETTERS[displayIdx]}</span>
+        <span class="option-text">${escapeHtml(opt.t)}</span>
+      </button>
+    `;
+  }).join("");
+
+  card.innerHTML = `
+    <p class="mistakes-mode-label" data-mode="${escapeHtml(m.mode)}">${escapeHtml(libelleMode(m.mode))}</p>
+    <p class="mistakes-question">${escapeHtml(q.q)}</p>
+    ${figureHtml(q)}
+    <div class="options" id="mistakes-options">${optionsHtml}</div>
+    <div id="mistakes-feedback" hidden></div>
+  `;
+
+  // Wire up the option clicks
+  card.querySelectorAll("#mistakes-options .option").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const origIdx = parseInt(btn.dataset.origidx, 10);
+      handleMistakeAnswer(origIdx);
+    });
+  });
+
+  $("#btn-mistake-prev").disabled = mv.index === 0;
+  // Disable "Suivante" until user has answered this re-attempt
+  $("#btn-mistake-next").disabled = true;
+}
+
+function handleMistakeAnswer(chosenOrigIdx) {
+  const mv = state.mistakesView;
+  if (!mv || mv.phase !== "idle") return;
+  const q = mv.currentQ;
+  const opt = q.options[chosenOrigIdx];
+  const correct = !!opt.correct;
+  mv.phase = "revealed";
+
+  // Mark buttons visually
+  const card = $("#mistakes-card");
+  card.querySelectorAll("#mistakes-options .option").forEach(btn => {
+    btn.disabled = true;
+    const oi = parseInt(btn.dataset.origidx, 10);
+    if (oi === chosenOrigIdx) {
+      btn.classList.add(correct ? "is-correct" : "is-wrong");
+    } else if (q.options[oi].correct) {
+      btn.classList.add("is-correct-not-picked");
+    }
+  });
+
+  const fb = $("#mistakes-feedback");
+  const statusHtml = correct
+    ? `<div class="mistakes-result mistakes-result-good">✓ Bonne réponse — question retirée de tes erreurs</div>`
+    : `<div class="mistakes-result mistakes-result-bad">✗ Mauvaise réponse — la question reste dans ta liste</div>`;
+
+  const justifsHtml = `
+    <div class="justifications" style="display:flex;">
+      ${q.options.map((o, i) => `
+        <div class="justif ${o.correct ? "justif-good" : ""}">
+          <span class="justif-letter">${OPTION_LETTERS[mv.currentOrder.indexOf(i)]}</span>
+          <div class="justif-body">
+            <span class="justif-status ${o.correct ? "justif-status-good" : "justif-status-bad"}">
+              ${o.correct ? "Correct" : "Incorrect"}
+            </span>
+            <strong>${escapeHtml(o.t)}</strong>
+            <div class="justif-text">${escapeHtml(o.j)}</div>
+          </div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+  fb.innerHTML = statusHtml + justifsHtml;
+  fb.hidden = false;
+
+  // If correct → remove from archive immediately AND from in-memory list
+  if (correct) {
+    removeMistake(mv.currentMode, mv.currentBankIdx);
+    mv.list.splice(mv.index, 1);
+    // Keep index pointing at the same slot so the next item slides in
+    /* updated automatically by renderNav */
+    $("#mistakes-total").textContent = mv.list.length;
+  }
+
+  // Enable Suivante to move to next mistake
+  $("#btn-mistake-next").disabled = false;
+  // Also offer to navigate previous if not at the start
+  $("#btn-mistake-prev").disabled = mv.index === 0;
+}
+
+function navigateMistake(delta) {
+  const mv = state.mistakesView;
+  if (!mv) return;
+  if (delta > 0) {
+    // Suivante : if current answered correctly, the item was already spliced — stay on index
+    // Otherwise advance.
+    if (mv.phase === "revealed" && mv.list[mv.index] && mv.list[mv.index].bankIdx === mv.currentBankIdx) {
+      // Wrong attempt — current item still in list, advance
+      mv.index++;
+    }
+    // If we ran past the end, the next render will hit the empty state
+  } else {
+    mv.index += delta;
+  }
+  renderMistake();
+}
+
+function backFromMistakes() {
+  state.mistakesView = null;
+  // Return to the modules screen of the current matière if there is one,
+  // otherwise back to the home page.
+  if (state.nav && state.nav.cursus && state.nav.matiere) {
+    state.nav.level = "modules";
+    showScreen("nav");
+    renderNav();
+    return;
+  }
+  showScreen("home");
+}
+
+/* ----------- Restart same mode ----------- */
+function restart() {
+  if (!state.mode) { showScreen("home"); return; }
+  // Preserve the length the user chose for the previous session (20 or 30).
+  startMode(state.mode, state.quizLength);
+}
+
+/* ----------- HTML escape ----------- */
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+
+/* =========================================================
+   SIGNALEMENT D'UNE QUESTION
+   L'utilisateur peut signaler ce qui lui paraît être une erreur, avec un message facultatif.
+   Deux garde-fous de conception :
+     — le signalement ne retire ni ne masque jamais la question : elle continue d'être tirée
+       normalement tant qu'elle n'a pas été relue manuellement ;
+     — l'envoi ne doit jamais gêner la session : s'il échoue (réseau coupé, Worker bloqué par
+       un FAI), on remercie quand même et on range l'envoi pour plus tard.
+   ========================================================= */
+var SIG_APIS = [
+  "https://yumerty.alessandrodimeopro.workers.dev",
+  "https://stats.yumerty.com"
+];
+var SIG_FILE = "yumerty_signalements_en_attente";
+
+function signalementsEnAttente() {
+  try { return JSON.parse(localStorage.getItem(SIG_FILE) || "[]"); } catch (e) { return []; }
+}
+function rangerSignalement(charge) {
+  try {
+    var f = signalementsEnAttente();
+    f.push(charge);
+    localStorage.setItem(SIG_FILE, JSON.stringify(f.slice(-30)));
+  } catch (e) {}
+}
+
+/* Tente l'envoi sur les deux adresses du Worker (l'une des deux est parfois bloquée en
+   Espagne, voir js/track.js). Renvoie true si l'une a répondu. */
+async function envoyerSignalement(charge) {
+  for (var i = 0; i < SIG_APIS.length; i++) {
+    try {
+      var r = await fetch(SIG_APIS[i] + "/signalement", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(charge)
+      });
+      if (r.ok) return true;
+      if (r.status === 429) return true;   // quota atteint : inutile de réessayer ailleurs
+    } catch (e) {}
+  }
+  return false;
+}
+
+/* Rejoue les signalements qu'on n'avait pas pu envoyer. */
+async function rejouerSignalements() {
+  var f = signalementsEnAttente();
+  if (!f.length) return;
+  var restants = [];
+  for (var i = 0; i < f.length; i++) {
+    var ok = false;
+    try { ok = await envoyerSignalement(f[i]); } catch (e) {}
+    if (!ok) restants.push(f[i]);
+  }
+  try { localStorage.setItem(SIG_FILE, JSON.stringify(restants)); } catch (e) {}
+}
+
+/* Remet le bloc à son état initial : appelé à chaque nouvelle question. */
+function reinitialiserSignalement() {
+  var pan = document.getElementById("signal-panneau");
+  var merci = document.getElementById("signal-merci");
+  var ouvrir = document.getElementById("signal-ouvrir");
+  var zone = document.getElementById("signal-message");
+  if (pan) pan.hidden = true;
+  if (merci) merci.hidden = true;
+  if (ouvrir) ouvrir.hidden = false;
+  if (zone) zone.value = "";
+}
+
+function questionCourantePourSignalement() {
+  var q = state.questions && state.questions[state.index];
+  if (!q) return null;
+  var chap = "";
+  try {
+    var defs = (typeof CHAPITRES !== "undefined" && CHAPITRES[state.mode]) || null;
+    var ids = chapitresDe(q);
+    if (defs && ids.length) {
+      var d = defs.find(function (x) { return x.id === ids[0]; });
+      if (d) chap = d.nom;
+    }
+  } catch (e) {}
+  return { b: state.mode, q: q.q, c: chap };
+}
+
+function brancherSignalement() {
+  var ouvrir = document.getElementById("signal-ouvrir");
+  var pan = document.getElementById("signal-panneau");
+  var annuler = document.getElementById("signal-annuler");
+  var envoyer = document.getElementById("signal-envoyer");
+  var merci = document.getElementById("signal-merci");
+  var zone = document.getElementById("signal-message");
+  if (!ouvrir || !pan) return;
+
+  ouvrir.addEventListener("click", function () { pan.hidden = false; ouvrir.hidden = true; if (zone) zone.focus(); });
+  if (annuler) annuler.addEventListener("click", function () { pan.hidden = true; ouvrir.hidden = false; });
+  if (envoyer) envoyer.addEventListener("click", async function () {
+    var base = questionCourantePourSignalement();
+    if (!base) return;
+    base.m = zone ? zone.value.trim() : "";
+    pan.hidden = true;
+    if (merci) merci.hidden = false;
+    // On remercie tout de suite : l'envoi ne doit pas faire attendre l'utilisateur.
+    var ok = false;
+    try { ok = await envoyerSignalement(base); } catch (e) {}
+    if (!ok) rangerSignalement(base);
+  });
+}
+
+/* ----------- Event wiring (event delegation) ----------- */
+document.addEventListener("click", (e) => {
+  // Hierarchical navigation buttons (cursus → year → semester → matière → modules)
+  const navBtn = e.target.closest("[data-nav-click]");
+  if (navBtn) {
+    e.preventDefault();
+    const d = navBtn.dataset;
+    if (d.level === "programmes") navigateTo("programmes", d.year);
+    else if (d.level === "semesters") navigateTo("semesters", d.programme || d.year);
+    else if (d.level === "matieres") navigateTo("matieres", d.semester);
+    else if (d.level === "modules") navigateTo("modules", d.matiere);
+    return;
+  }
+  // Cursus cards on the home page
+  const cursusBtn = e.target.closest("[data-cursus]");
+  if (cursusBtn && !cursusBtn.disabled) {
+    e.preventDefault();
+    navigateTo("years", cursusBtn.dataset.cursus);
+    return;
+  }
+
+  // Format buttons on the modules screen (20/30/40 QCU)
+  const lengthBtn = e.target.closest("[data-bank-key][data-length]");
+  if (lengthBtn) {
+    e.preventDefault();
+    const len = parseInt(lengthBtn.dataset.length, 10);
+    startMode(lengthBtn.dataset.bankKey, Number.isFinite(len) ? len : undefined);
+    return;
+  }
+
+  // "Mes erreurs" pill on the modules screen
+  const navMistakesPill = e.target.closest("#nav-mistakes-pill");
+  if (navMistakesPill && !navMistakesPill.hidden) {
+    e.preventDefault();
+    const c = CURSUS[state.nav.cursus];
+    const y = c && c.years && c.years[state.nav.year];
+    const s = y && y.semesters && y.semesters[state.nav.semester];
+    const m = s && s.matieres && s.matieres[state.nav.matiere];
+    const bankKeys = ((m && m.modules) || []).map(mod => mod.bankKey);
+    openMistakesViewForBanks(bankKeys, state.nav.matiere);
+    return;
+  }
+
+  const actionBtn = e.target.closest("[data-action]");
+  if (actionBtn) {
+    e.preventDefault();
+    const action = actionBtn.dataset.action;
+    if (action === "home") showScreen("home");
+    else if (action === "back-nav") backNav();
+    else if (action === "back-to-subject") backFromQuiz();
+    else if (action === "quit-to-years") navigateTo("years", state.nav.cursus || Object.keys(CURSUS)[0]);
+    else if (action === "back-from-mistakes") backFromMistakes();
+    else if (action === "results") showScreen("results");
+    else if (action === "restart") restart();
+    else if (action === "review") showReview();
+    else if (action === "resume-continue") resumeActiveSession();
+    else if (action === "resume-discard") { clearActiveSession(); updateResumeBanner(); }
+    return;
+  }
+
+  if (e.target.closest("#btn-skip")) {
+    e.preventDefault();
+    skipQuestion();
+    return;
+  }
+  if (e.target.closest("#btn-next")) {
+    e.preventDefault();
+    nextQuestion();
+    return;
+  }
+  if (e.target.closest("#btn-mistake-prev")) {
+    e.preventDefault();
+    navigateMistake(-1);
+    return;
+  }
+  if (e.target.closest("#btn-mistake-next")) {
+    e.preventDefault();
+    navigateMistake(1);
+    return;
+  }
+  if (e.target.closest("#btn-mistakes-new")) {
+    e.preventDefault();
+    nouvelleSerieDepuisErreurs();
+    return;
+  }
+});
+
+/* « Nouvelle série » depuis l'écran « Mes erreurs ». On ne peut pas réutiliser restart(),
+   qui rejoue state.mode : en arrivant par la pastille d'une matière, aucune série n'est en
+   cours. On repart donc de la matière dont on vient de revoir les erreurs. */
+function nouvelleSerieDepuisErreurs() {
+  const mv = state.mistakesView;
+  const banques = (mv && mv.bankKeys) || [];
+  state.mistakesView = null;
+  // Une seule banque : on lance directement. Plusieurs (valoMembres) : le choix du module
+  // revient à l'utilisateur, on le dépose sur l'écran des modules de la matière.
+  if (banques.length === 1 && QUESTIONS[banques[0]]) { startMode(banques[0]); return; }
+  if (state.nav && state.nav.cursus && state.nav.matiere) {
+    state.nav.level = "modules";
+    showScreen("nav");
+    renderNav();
+    return;
+  }
+  showScreen("home");
+}
+
+/* Les raccourcis du quiz ne doivent JAMAIS se déclencher pendant une saisie : dans la zone
+   de signalement, taper « b » cochait la proposition B, « n » passait la question et l'espace
+   validait. On neutralise donc les raccourcis dès qu'un champ éditable a le focus ET tant que
+   le panneau de signalement est ouvert (l'espace sur le bouton « Envoyer » le cliquait tout en
+   enchaînant sur la question suivante). */
+function saisieEnCours(cible) {
+  const pan = document.getElementById("signal-panneau");
+  if (pan && !pan.hidden) return true;
+  if (!cible || cible.nodeType !== 1) return false;
+  if (cible.isContentEditable) return true;
+  const tag = (cible.tagName || "").toLowerCase();
+  return tag === "input" || tag === "textarea" || tag === "select";
+}
+
+/* Entrée et espace sur un bouton ou un lien ayant le focus : le navigateur le clique déjà.
+   Sans ce garde-fou, « Signaler une erreur » atteint au clavier ouvrait le panneau tout en
+   passant à la question suivante, et « SUIVANT » sautait deux questions d'un coup. */
+function activationDuFocus(cible, key) {
+  if (key !== "enter" && key !== " ") return false;
+  if (!cible || cible.nodeType !== 1 || !cible.closest) return false;
+  return !!cible.closest("button, a[href], [role='button'], summary");
+}
+
+document.addEventListener("keydown", (e) => {
+  if (!screens.quiz || !screens.quiz.classList.contains("active")) return;
+  // Touches mortes et saisie prédictive (claviers FR/ES : ^ ¨ ´ ~) : e.key vaut alors
+  // « Dead »/« Process » et la frappe n'est pas encore un caractère.
+  if (e.isComposing || e.keyCode === 229) return;
+  // Raccourcis système (⌘A tout sélectionner, Ctrl+V coller…) : ne pas les confondre
+  // avec les lettres de réponse.
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (saisieEnCours(e.target)) return;
+  const key = (e.key || "").toLowerCase();
+  if (activationDuFocus(e.target, key)) return;
+  if (state.awaitingNext) {
+    if (key === "enter" || key === " ") {
+      e.preventDefault();
+      nextQuestion();
+    }
+    return;
+  }
+  if (key === "a" || key === "1") selectAnswer(0);
+  else if (key === "b" || key === "2") selectAnswer(1);
+  else if (key === "c" || key === "3") selectAnswer(2);
+  else if (key === "d" || key === "4") selectAnswer(3);
+  else if (key === "n" || key === "0") skipQuestion();
+});
+
+
+/* ----------- Resume banner (active session indicator) ----------- */
+function updateResumeBanner() {
+  const banner = document.getElementById("resume-banner");
+  if (!banner) return;
+  const s = getActiveSession();
+  if (!s) { banner.hidden = true; banner.removeAttribute("data-mode"); return; }
+  banner.hidden = false;
+  banner.dataset.mode = s.mode;
+  const detail = document.getElementById("resume-banner-detail");
+  if (detail) {
+    const total = s.questions.length;
+    const current = Math.min(s.index + 1, total);
+    detail.textContent = `${libelleMode(s.mode)} — ${t("Question")} ${current} / ${total}`;
+  }
+}
+
+/* ----------- Init ----------- */
+renderCursusList();
+renderHomeStats();
+updateResumeBanner();
+if (typeof renderSelecteurLangue === "function") renderSelecteurLangue();
+if (typeof appliquerTraductions === "function") appliquerTraductions();
+brancherSignalement();
+/* L'œil du chronomètre : écouteur direct plutôt que délégué, pour qu'un clic dessus ne
+   puisse jamais être confondu avec un clic sur une proposition. */
+(function brancherOeilChrono() {
+  const oeil = document.getElementById("chrono-oeil");
+  if (!oeil) return;
+  oeil.addEventListener("click", e => {
+    e.preventDefault();
+    e.stopPropagation();
+    basculerMasqueChrono();
+  });
+})();
+rejouerSignalements();

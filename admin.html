@@ -1,0 +1,957 @@
+<!-- ====================================================================
+     Yumerty — console de statistiques, servie par GitHub Pages.
+
+     POURQUOI CETTE PAGE EST ICI ET PAS SUR CLOUDFLARE
+     La console vivait dans le Worker Cloudflare, à https://yumerty.com/admin. Le site a été
+     déplacé sur GitHub Pages le 16/09/2026 parce que les IP partagées de Cloudflare sont
+     bloquées par intermittence par les FAI espagnols (blocage LaLiga pendant les matchs), et
+     la console est tombée avec lui. La remettre sur Cloudflare l'aurait rendue illisible
+     pendant ces fenêtres-là — précisément quand on est en Espagne.
+
+     Elle est donc servie par GitHub Pages, qui n'est jamais bloqué, et lit ses données de
+     DEUX sources, dans cet ordre :
+
+       1. EN DIRECT — https://stats.yumerty.com/admin/api/stats (le Worker, en CORS).
+          Temps réel, rafraîchi toutes les 8 s. Utilisé dès que Cloudflare est joignable.
+       2. INSTANTANÉ — raw.githubusercontent.com, branche `stats` du dépôt, réécrite toutes
+          les 30 min par .github/workflows/stats-snapshot.yml. Chiffré en AES-GCM avec une clé
+          dérivée du mot de passe (PBKDF2), parce que le dépôt est public : sans le mot de
+          passe le fichier est illisible. Utilisé quand le direct échoue, avec un bandeau
+          indiquant l'heure de l'instantané.
+
+     Conséquence : tu lis tes statistiques depuis n'importe où, blocage ou pas. Pendant un
+     blocage, elles ont au plus 30 minutes de retard au lieu d'être inaccessibles.
+
+     LE MOT DE PASSE ne quitte jamais ce navigateur. Il sert à (a) obtenir un jeton signé
+     auprès du Worker, (b) dériver la clé de déchiffrement de l'instantané. Il n'est pas
+     stocké ; seul le jeton, valable 7 jours, est gardé en sessionStorage.
+
+     DEUX COPIES DE CE TABLEAU DE BORD EXISTENT — garde-les cohérentes.
+     Le markup, le CSS et les utilitaires d'affichage de cette page sont repris de
+     dashboardPage() dans src/index.js, qui sert encore la console de secours à
+     https://stats.yumerty.com/admin (utile si GitHub Pages est en panne, ou pour déboguer le
+     Worker sans passer par le site). Si tu retouches l'apparence ici, reporte-la là-bas, et
+     inversement. Seule la fonction de chargement diffère : ici elle est en CORS avec jeton
+     porteur et retombe sur l'instantané ; là-bas elle lit l'API en local avec un cookie.
+     ==================================================================== -->
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<title>Yumerty · Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===========================================================================
+   Yumerty · Console — direction artistique refaite le 18/10/2026.
+
+   POURQUOI UNE REFONTE. La version précédente reprenait le tableau de bord de l'ancien
+   Worker, auquel j'avais ajouté des cartes au fil des demandes. Résultat : onze cartes de
+   natures incomparables (un compteur temps réel, deux compteurs quotidiens, cinq mesures sur
+   7 jours, un total) jetées dans une seule grille `auto-fit`, donc sans hiérarchie et avec
+   une dernière ligne orpheline ; un accent orange (#b9763f) étranger à la palette du site ;
+   et un graphique de 60 barres dont les valeurs inscrites à l'intérieur débordaient dès que
+   les barres passaient sous ~30 px.
+
+   PRINCIPES DE CETTE VERSION
+   1. Même langage visuel que le site : tokens de styles.css (beige chaud, encre #1c1814),
+      Archivo pour les chiffres et les titres, Hanken Grotesk pour le texte.
+   2. Une section = une question. On ne mélange plus des mesures de périodes différentes dans
+      une même grille : « maintenant », « audience », « engagement », « historique »,
+      « répartition », « détail ».
+   3. Comparabilité : dans une grille, toutes les cartes portent la MÊME mesure sur des
+      périodes différentes, ou la même période sur des mesures voisines. C'est ce qui rend la
+      lecture proportionnée.
+   4. Nombre de colonnes EXPLICITE à chaque palier, jamais d'`auto-fit` : c'est l'auto-fit qui
+      produisait des lignes bancales selon la largeur.
+   5. Échelle typographique et espacements pris dans une suite fixe, pas ajustés au cas par cas.
+   =========================================================================== */
+
+:root{
+  /* Palette reprise de styles.css, pour que la console et le site se ressemblent. */
+  --fond-0:#e9e4db; --fond-1:#f2eee6; --carte:#fbf9f4;
+  --encre:#1c1814; --encre-douce:#6f6960; --encre-pale:#a8a399;
+  --trait:rgba(40,35,28,.10); --trait-fort:rgba(40,35,28,.18);
+  --voile:rgba(40,35,28,.035);
+  --bien:#5a8a4e; --bien-voile:rgba(90,138,78,.12);
+  --mal:#c0533a; --mal-voile:rgba(192,83,58,.10);
+  /* Échelle d'espacement : 4 / 8 / 12 / 16 / 24 / 32 / 48 */
+  --e1:4px; --e2:8px; --e3:12px; --e4:16px; --e5:24px; --e6:32px; --e7:48px;
+  --rayon:14px; --rayon-s:10px;
+  --ombre:0 1px 2px rgba(40,35,28,.04), 0 8px 24px -16px rgba(40,35,28,.18);
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; padding:0 var(--e4) var(--e7);
+  background:linear-gradient(170deg,var(--fond-0) 0%,var(--fond-1) 60%,var(--carte) 100%);
+  background-attachment:fixed;
+  color:var(--encre);
+  font:400 15px/1.55 'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.enveloppe{max-width:1120px;margin:0 auto}
+
+/* ---------- En-tête ---------- */
+.entete{
+  display:flex;align-items:baseline;justify-content:space-between;gap:var(--e4);
+  flex-wrap:wrap;padding:var(--e5) 0 var(--e4);
+  border-bottom:1px solid var(--trait);margin-bottom:var(--e5);
+}
+.entete h1{
+  font:800 24px/1.1 'Archivo','Hanken Grotesk',sans-serif;
+  letter-spacing:-.025em;margin:0;
+}
+.entete h1 span{color:var(--encre-pale);font-weight:500}
+.entete .droite{display:flex;align-items:center;gap:var(--e4);font-size:13px;color:var(--encre-douce)}
+.entete a{
+  color:var(--encre);text-decoration:none;font-weight:600;font-size:13px;
+  padding:7px 13px;border:1px solid var(--trait-fort);border-radius:var(--rayon-s);
+}
+.entete a:hover{background:var(--voile)}
+
+/* ---------- Titres de section ---------- */
+.sec{
+  display:flex;align-items:baseline;gap:var(--e3);
+  margin:var(--e6) 0 var(--e3);
+}
+.sec h2{
+  font:800 13px/1 'Archivo',sans-serif;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--encre);margin:0;
+}
+.sec p{margin:0;font-size:13px;color:var(--encre-pale)}
+.sec:first-of-type{margin-top:0}
+
+/* ---------- Cartes de mesure ----------
+   Colonnes explicites : 3 ou 4 selon la section, jamais d'auto-fit. */
+.grille{display:grid;gap:var(--e3)}
+.grille.trois{grid-template-columns:repeat(3,1fr)}
+.grille.quatre{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.grille.trois,.grille.quatre{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grille.trois,.grille.quatre{grid-template-columns:1fr}}
+
+.carte{
+  background:var(--carte);border:1px solid var(--trait);border-radius:var(--rayon);
+  padding:var(--e4);box-shadow:var(--ombre);min-width:0;
+}
+.carte .mesure{
+  font:800 30px/1.05 'Archivo',sans-serif;letter-spacing:-.03em;
+  display:flex;align-items:baseline;gap:var(--e2);overflow-wrap:anywhere;
+}
+.carte .mesure small{font:600 14px/1 'Archivo',sans-serif;color:var(--encre-pale)}
+.carte .nom{font-size:12.5px;color:var(--encre-douce);margin-top:var(--e1);font-weight:500}
+.carte .var{font-size:11.5px;font-weight:700;margin-top:var(--e2);min-height:16px}
+
+/* La carte « en ligne » est la seule à porter une couleur : c'est le repère vivant. */
+.carte.vivant{background:linear-gradient(145deg,var(--bien-voile),var(--carte));border-color:rgba(90,138,78,.28)}
+.carte.vivant .mesure{color:var(--bien)}
+.pastille{
+  width:7px;height:7px;border-radius:50%;background:var(--bien);display:inline-block;
+  box-shadow:0 0 0 4px var(--bien-voile);animation:battre 2.4s ease-in-out infinite;
+}
+@keyframes battre{0%,100%{opacity:1}50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.pastille{animation:none}}
+
+.var.up{color:var(--bien)}
+.var.down{color:var(--mal)}
+.var.flat{color:var(--encre-pale)}
+
+/* ---------- Panneaux ---------- */
+.panneau{
+  background:var(--carte);border:1px solid var(--trait);border-radius:var(--rayon);
+  padding:var(--e5);box-shadow:var(--ombre);margin-bottom:var(--e3);min-width:0;
+}
+.panneau > h3{
+  font:800 15px/1.2 'Archivo',sans-serif;letter-spacing:-.01em;margin:0 0 var(--e1);
+  display:flex;align-items:center;gap:var(--e2);
+}
+.hint{font-size:12.5px;color:var(--encre-pale);margin:0 0 var(--e4);line-height:1.5}
+.badge{
+  font:700 11px/1 'Archivo',sans-serif;color:var(--encre-douce);background:var(--voile);
+  border:1px solid var(--trait);border-radius:999px;padding:4px 9px;white-space:nowrap;
+}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--e3)}
+@media(max-width:900px){.trio{grid-template-columns:1fr}}
+
+/* ---------- Bandeau d'alerte ---------- */
+.bandeau{
+  background:var(--mal-voile);border:1px solid rgba(192,83,58,.28);color:#8d3d2a;
+  font-size:13px;line-height:1.5;padding:var(--e3) var(--e4);border-radius:var(--rayon-s);
+  margin-bottom:var(--e4);
+}
+
+/* ---------- Onglets ---------- */
+.onglets{display:inline-flex;gap:var(--e1);background:var(--voile);border:1px solid var(--trait);
+  border-radius:var(--rayon-s);padding:3px;margin:0 0 var(--e4);flex-wrap:wrap}
+.onglets button{
+  font:700 13px/1 'Hanken Grotesk',sans-serif;color:var(--encre-douce);
+  background:transparent;border:0;border-radius:7px;padding:8px 15px;cursor:pointer;
+}
+.onglets button:hover{color:var(--encre)}
+.onglets button.on{color:var(--carte);background:var(--encre)}
+
+/* ---------- Mini-mesures d'un panneau ---------- */
+.minis{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--e3);margin:0 0 var(--e5)}
+@media(max-width:760px){.minis{grid-template-columns:repeat(2,1fr)}}
+.mini{border-left:2px solid var(--trait);padding-left:var(--e3);min-width:0}
+.mini .n{font:800 21px/1.1 'Archivo',sans-serif;letter-spacing:-.02em;overflow-wrap:anywhere}
+.mini .l{font-size:12px;color:var(--encre-douce);margin-top:2px}
+.mini .var{font-size:11px;font-weight:700;margin-top:var(--e1);min-height:15px}
+
+/* ---------- Graphique en barres ----------
+   Les valeurs ne sont PLUS inscrites dans les barres : c'est ce qui débordait dès que la
+   barre passait sous 30 px de large. Elles sont dans l'infobulle, et l'axe ne porte que
+   quelques repères. Les barres ont une largeur minimale et le graphique défile si besoin. */
+.cadre-graphe{overflow-x:auto;overflow-y:hidden;padding-bottom:var(--e2);margin-bottom:var(--e4)}
+.bars{display:flex;align-items:flex-end;gap:3px;height:150px;min-width:100%;padding-top:var(--e4)}
+.bar{
+  flex:1 0 auto;min-width:9px;background:var(--encre);opacity:.78;
+  border-radius:3px 3px 0 0;min-height:2px;position:relative;
+}
+.bar:hover{opacity:1}
+.bar.creux{background:repeating-linear-gradient(135deg,var(--trait) 0 3px,transparent 3px 6px);opacity:1}
+.bar em{
+  position:absolute;top:100%;left:50%;transform:translateX(-50%);
+  margin-top:6px;font:600 10px/1 'Hanken Grotesk',sans-serif;color:var(--encre-pale);
+  font-style:normal;white-space:nowrap;
+}
+
+/* ---------- Barres de répartition ---------- */
+.rowbar{display:grid;grid-template-columns:minmax(74px,auto) 1fr auto;align-items:center;
+  gap:var(--e3);padding:7px 0}
+.rowbar + .rowbar{border-top:1px solid var(--trait)}
+.lab{font-size:13px;color:var(--encre);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tr{height:6px;background:var(--voile);border-radius:999px;overflow:hidden}
+.fl{height:100%;background:var(--encre);opacity:.72;border-radius:999px}
+.v{font:700 13px/1 'Archivo',sans-serif;color:var(--encre);text-align:right;min-width:32px}
+
+/* ---------- Tableaux ---------- */
+.defile{overflow:auto;max-height:420px;border:1px solid var(--trait);border-radius:var(--rayon-s)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{
+  position:sticky;top:0;background:var(--carte);text-align:left;
+  font:700 11px/1 'Archivo',sans-serif;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--encre-douce);padding:10px var(--e3);border-bottom:1px solid var(--trait);
+  white-space:nowrap;z-index:1;
+}
+td{padding:9px var(--e3);border-bottom:1px solid var(--trait);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--voile)}
+.mono{font:600 12.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--encre-douce)}
+.mut{color:var(--encre-pale)}
+
+/* ---------- Signalements ---------- */
+/* Les énoncés sont longs : cette colonne est la seule à revenir à la ligne. */
+td.enonce{white-space:normal;min-width:320px;max-width:520px;line-height:1.45}
+td.msgs{white-space:normal;max-width:360px;line-height:1.45;color:var(--encre-douce);font-size:12.5px}
+td.msgs div{padding:2px 0}
+tr.traite td{opacity:.5}
+.actes{display:flex;gap:6px}
+.acte{
+  font:700 11.5px/1 'Hanken Grotesk',sans-serif;cursor:pointer;white-space:nowrap;
+  background:var(--voile);color:var(--encre-douce);border:1px solid var(--trait);
+  border-radius:999px;padding:5px 10px;
+}
+.acte:hover{color:var(--encre);border-color:var(--trait-fort)}
+.acte[disabled]{opacity:.45;cursor:default}
+.compte{font:800 13px/1 'Archivo',sans-serif}
+
+/* ---------- Écran de connexion ---------- */
+.boite{
+  max-width:330px;margin:14vh auto;background:var(--carte);
+  border:1px solid var(--trait);border-radius:18px;padding:var(--e6) var(--e5);
+  box-shadow:0 2px 4px rgba(40,35,28,.04),0 24px 60px -34px rgba(40,35,28,.4);text-align:center;
+}
+.boite h1{font:800 20px/1.2 'Archivo',sans-serif;letter-spacing:-.02em;margin:0 0 var(--e1)}
+.boite p{color:var(--encre-douce);font-size:13px;margin:0 0 var(--e5)}
+.boite input{
+  width:100%;padding:12px 14px;font:400 15px/1 'Hanken Grotesk',sans-serif;
+  border:1px solid var(--trait-fort);border-radius:var(--rayon-s);
+  background:#fff;color:var(--encre);margin-bottom:var(--e2);
+}
+.boite input:focus{outline:none;border-color:var(--encre)}
+.boite button{
+  width:100%;padding:12px;font:700 15px/1 'Hanken Grotesk',sans-serif;
+  color:var(--carte);background:var(--encre);border:0;border-radius:var(--rayon-s);cursor:pointer;
+}
+.boite button:hover{opacity:.88}
+.boite button[disabled]{opacity:.5;cursor:default}
+.err{
+  background:var(--mal-voile);border:1px solid rgba(192,83,58,.28);color:#8d3d2a;
+  font-size:13px;padding:9px var(--e3);border-radius:var(--rayon-s);margin-bottom:var(--e4);
+  text-align:left;line-height:1.45;
+}
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+<div class="boite" id="ecranConnexion">
+  <h1>Yumerty</h1>
+  <p>Console de statistiques — accès réservé</p>
+  <div class="err" id="erreur" hidden></div>
+  <form id="formConnexion">
+    <input type="password" id="motdepasse" placeholder="Mot de passe" autofocus autocomplete="current-password">
+    <button type="submit" id="bouton">Entrer</button>
+  </form>
+</div>
+
+<div id="ecranAdmin" hidden>
+<div class="enveloppe">
+
+  <div class="entete">
+    <h1>Yumerty <span>· statistiques</span></h1>
+    <div class="droite"><span id="upd"></span><a href="#" id="sortir">Déconnexion</a></div>
+  </div>
+
+  <div id="bandeau" class="bandeau" hidden></div>
+  <p id="quota" class="hint" hidden></p>
+
+  <!-- 1. MAINTENANT — la seule section qui réclame un coup d'œil immédiat. -->
+  <div class="sec"><h2>Maintenant</h2><p>robots et scanners exclus</p></div>
+  <div class="grille trois">
+    <div class="carte vivant">
+      <div class="mesure"><span class="pastille"></span><span id="c_online">–</span></div>
+      <div class="nom">Personnes actives (14 dernières minutes)</div>
+    </div>
+    <div class="carte">
+      <div class="mesure" id="c_today">–</div>
+      <div class="nom">Visiteurs aujourd'hui</div>
+      <div class="var" id="v_today"></div>
+    </div>
+    <div class="carte">
+      <div class="mesure" id="c_hier">–</div>
+      <div class="nom">Visiteurs hier</div>
+    </div>
+  </div>
+
+  <!-- 1 bis. PICS — combien de personnes se sont trouvées sur le site EN MÊME TEMPS.
+       À ne pas confondre avec les cartes « visiteurs » ci-dessus, qui comptent des personnes
+       distinctes sur une période : ici on mesure la simultanéité, c'est-à-dire la charge. -->
+  <div class="sec"><h2>Affluence simultanée</h2><p>nombre maximal de personnes présentes en même temps</p></div>
+  <div class="grille trois">
+    <div class="carte">
+      <div class="mesure" id="c_pic_jour">–</div>
+      <div class="nom">Pic aujourd'hui</div>
+      <div class="var" id="v_pic_jour"></div>
+    </div>
+    <div class="carte">
+      <div class="mesure" id="c_pic_semaine">–</div>
+      <div class="nom">Pic sur 7 jours</div>
+      <div class="var" id="v_pic_semaine"></div>
+    </div>
+    <div class="carte">
+      <div class="mesure"><span class="pastille"></span><span id="c_pic_now">–</span></div>
+      <div class="nom">En ce moment</div>
+    </div>
+  </div>
+
+  <!-- 2. AUDIENCE — la MÊME mesure sur trois périodes : directement comparable. -->
+  <div class="sec"><h2>Audience</h2><p>personnes distinctes, par période</p></div>
+  <div class="grille trois">
+    <div class="carte"><div class="mesure" id="c_week">–</div><div class="nom">7 derniers jours</div></div>
+    <div class="carte"><div class="mesure" id="c_mois">–</div><div class="nom">30 derniers jours</div></div>
+    <div class="carte"><div class="mesure" id="c_total">–</div><div class="nom">Depuis l'ouverture du site</div></div>
+  </div>
+
+  <!-- 3. ENGAGEMENT — quatre mesures sur la MÊME période de 7 jours. -->
+  <div class="sec"><h2>Engagement</h2><p>sur les 7 derniers jours</p></div>
+  <div class="grille quatre">
+    <div class="carte"><div class="mesure" id="c_wmoy">–</div><div class="nom">Temps moyen par visiteur</div></div>
+    <div class="carte"><div class="mesure" id="c_wpages">–</div><div class="nom">Pages par visiteur</div></div>
+    <div class="carte"><div class="mesure" id="c_wvis">–</div><div class="nom">Pages vues</div></div>
+    <div class="carte"><div class="mesure" id="c_wquiz">–</div><div class="nom">Quiz lancés</div></div>
+  </div>
+
+  <!-- 4. HISTORIQUE -->
+  <div class="sec"><h2>Historique</h2><p id="h_portee"></p></div>
+  <div class="panneau">
+    <div class="onglets">
+      <button type="button" data-g="jour" class="on">Par jour</button>
+      <button type="button" data-g="semaine">Par semaine</button>
+      <button type="button" data-g="mois">Par mois</button>
+    </div>
+    <div class="minis">
+      <div class="mini"><div class="n" id="h_u">–</div><div class="l" id="h_ul">Visiteurs</div><div class="var" id="h_uv"></div></div>
+      <div class="mini"><div class="n" id="h_v">–</div><div class="l">Pages vues</div><div class="var" id="h_vv"></div></div>
+      <div class="mini"><div class="n" id="h_q">–</div><div class="l">Quiz lancés</div><div class="var" id="h_qv"></div></div>
+      <div class="mini"><div class="n" id="h_t">–</div><div class="l">Temps passé</div><div class="var" id="h_tv"></div></div>
+    </div>
+    <div class="cadre-graphe"><div class="bars" id="h_bars"></div></div>
+    <p class="hint" id="h_note"></p>
+    <div class="defile">
+      <table><thead><tr><th>Période</th><th>Visiteurs</th><th>Pages vues</th><th>Quiz</th><th>Temps</th></tr></thead>
+      <tbody id="h_corps"></tbody></table>
+    </div>
+  </div>
+
+  <div class="panneau">
+    <h3>Depuis l'ouverture du site</h3>
+    <p class="hint" id="g_note"></p>
+    <div class="minis" style="margin-bottom:0">
+      <div class="mini"><div class="n" id="g_u">–</div><div class="l">Visiteurs distincts</div></div>
+      <div class="mini"><div class="n" id="g_v">–</div><div class="l">Pages vues</div></div>
+      <div class="mini"><div class="n" id="g_q">–</div><div class="l">Quiz lancés</div></div>
+      <div class="mini"><div class="n" id="g_t">–</div><div class="l">Temps passé</div></div>
+    </div>
+  </div>
+
+  <!-- 5. RÉPARTITION -->
+  <div class="sec"><h2>D'où viennent-ils</h2><p>personnes distinctes, 7 derniers jours</p></div>
+  <div class="trio">
+    <div class="panneau"><h3>Pays</h3><div id="p_countries"></div></div>
+    <div class="panneau"><h3>Appareils</h3><div id="p_devices"></div></div>
+    <div class="panneau"><h3>Navigateurs</h3><div id="p_navigateurs"></div></div>
+  </div>
+
+  <!-- 6. SIGNALEMENTS -->
+  <div class="sec"><h2>Signalements</h2><p>questions que des utilisateurs estiment erronées</p></div>
+  <div class="panneau">
+    <h3>Questions signalées <span class="badge" id="sig_compte">—</span></h3>
+    <p class="hint">Un signalement ne retire rien : la question continue d'être posée normalement.
+      « Traiter » la range sans la supprimer de la liste, « Oublier » efface le signalement.
+      Les signalements sont regroupés par question : une même question signalée dix fois ne fait qu'une ligne.</p>
+    <div class="defile">
+      <table><thead><tr><th>Matière</th><th>Question</th><th>Chapitre</th><th>Fois</th><th>Dernier</th><th>Messages</th><th></th></tr></thead>
+      <tbody id="t_sig"></tbody></table>
+    </div>
+  </div>
+
+  <!-- 6. DÉTAIL -->
+  <div class="sec"><h2>Détail</h2><p>un identifiant anonyme par connexion, l'adresse IP n'est jamais conservée</p></div>
+  <div class="panneau">
+    <h3>Actives en ce moment</h3>
+    <p class="hint">Personnes dont la dernière action a moins de quatorze minutes.</p>
+    <div class="defile" style="max-height:260px">
+      <table><thead><tr><th>Identifiant</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Vu</th></tr></thead>
+      <tbody id="t_online"></tbody></table>
+    </div>
+  </div>
+  <div class="panneau">
+    <h3>Visiteurs des 7 derniers jours</h3>
+    <p class="hint">Une ligne par personne, cumulée sur la période.</p>
+    <div class="defile">
+      <table><thead><tr><th>Identifiant</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Pages</th><th>Quiz</th><th>Temps</th><th>Jours</th><th>Première</th><th>Dernière</th></tr></thead>
+      <tbody id="t_users"></tbody></table>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+const F=t=>new Date(t).toLocaleString('fr-FR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+const ago=(t,now)=>{const s=Math.max(0,Math.round((now-t)/1000));if(s<60)return s+' s';const m=Math.round(s/60);if(m<60)return m+' min';return Math.round(m/60)+' h';};
+const dur=ms=>{const s=Math.round(ms/1000);if(s<60)return s+' s';const m=Math.floor(s/60);if(m<60)return m+' min';const h=Math.floor(m/60);return h+' h'+(m%60?(' '+(m%60)+' m'):'');};
+const nb=n=>Number(n||0).toLocaleString('fr-FR');
+const dev=o=>(o.mobile?'📱 ':'💻 ')+(o.os||'');
+const esc=s=>String(s==null?'':s).replace(/[<>&]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[c]));
+const sid=id=>esc(String(id).slice(0,8));
+const FLAG=c=>{if(!c||c.length!==2||c==='??')return '🌐';return String.fromCodePoint(...[...c.toUpperCase()].map(x=>127397+x.charCodeAt()));};
+const rows=(arr,lab)=>{const mx=Math.max(1,...arr.map(a=>a[1]));return arr.map(a=>'<div class=rowbar><div class=lab>'+lab(a[0])+'</div><div class=tr><div class=fl style="width:'+(a[1]/mx*100)+'%"></div></div><div class=v>'+nb(a[1])+'</div></div>').join('')||'<div class=mut style="font-size:13px">—</div>';};
+
+/* ---------- Source des données : direct, puis instantané chiffré ---------- */
+/* Deux adresses pour le même Worker, essayées dans l'ordre. Le domaine personnalisé
+   stats.yumerty.com est tombé sur les IP 188.114.96/97.x, bloquées par les FAI espagnols
+   (vérifié en TCP brut le 17/10/2026) ; l'adresse workers.dev répond depuis 104.21.x.
+   Si les deux échouent, on retombe sur l'instantané chiffré publié par GitHub. */
+var APIS = [
+  "https://yumerty.alessandrodimeopro.workers.dev",
+  "https://stats.yumerty.com"
+];
+var apiPreferee = 0;
+// Branche `stats` du dépôt, réécrite toutes les 30 min par .github/workflows/stats-snapshot.yml.
+// raw.githubusercontent.com renvoie Access-Control-Allow-Origin: * et tourne sur les IP GitHub,
+// qui ne sont pas concernées par le blocage espagnol : c'est ce qui rend ce secours fiable.
+var INSTANTANE = "https://raw.githubusercontent.com/aless28670/yumerty/stats/stats.enc.json";
+var CLE_JETON = "ym_jeton";
+var motdepasse = "";      // gardé en mémoire seulement, pour déchiffrer l'instantané
+var minuteur = null;
+var restants = null;        // essais restants avant blocage, renvoyés par le serveur
+var dernierBlocage = 0;     // secondes restantes de blocage
+/* Ce qui a réellement empêché le direct, pour ne pas accuser le blocage espagnol à tort :
+   une erreur du Worker ou une Action défaillante se diagnostiquent très différemment. */
+var derniereCause = "";
+
+function jeton() { try { return sessionStorage.getItem(CLE_JETON) || ""; } catch (e) { return ""; } }
+function poseJeton(t) { try { t ? sessionStorage.setItem(CLE_JETON, t) : sessionStorage.removeItem(CLE_JETON); } catch (e) {} }
+
+/* Échange le mot de passe contre un jeton signé par le Worker.
+   Renvoie "ok", "refuse" (mot de passe faux) ou "injoignable" (réseau bloqué) — il est
+   essentiel de distinguer les deux derniers : un réseau bloqué ne doit pas faire croire
+   à un mauvais mot de passe, sinon on cherche le problème au mauvais endroit. */
+async function obtenirJeton(pw) {
+  var r = null;
+  /* On parcourt TOUTES les adresses, et on ne s'arrête que sur une réponse exploitable.
+     Avant le 20/10/2026, une erreur serveur (500, 502…) sur la première adresse faisait
+     abandonner le direct sans jamais essayer la seconde : le site affichait « Cloudflare
+     injoignable » alors que l'autre adresse répondait parfaitement. On retente aussi une fois
+     chaque adresse, pour qu'un simple accroc réseau ne déclenche pas le repli. */
+  for (var i = 0; i < APIS.length && !r; i++) {
+    for (var essai = 0; essai < 2 && !r; essai++) {
+      try {
+        var rep = await fetch(APIS[i] + "/admin/token", {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ password: pw }), cache: "no-store",
+        });
+        // 401 et 429 sont des réponses VALABLES : le serveur nous parle, inutile d'aller voir ailleurs
+        if (rep.ok || rep.status === 401 || rep.status === 429) { r = rep; apiPreferee = i; }
+        else if (essai === 1) derniereCause = "le serveur a répondu une erreur " + rep.status;
+      } catch (e) { if (essai === 1) derniereCause = "aucune des deux adresses n'a répondu"; }
+    }
+  }
+  if (!r) return "injoignable";
+  if (r.status === 429) {                        // trop d'essais : adresse temporairement bloquée
+    var reste = 0;
+    try { reste = (await r.json()).reste || 0; } catch (e) { reste = 0; }
+    dernierBlocage = reste;
+    return "bloque";
+  }
+  if (r.status === 401) {
+    try { restants = (await r.json()).restants; } catch (e) { restants = null; }
+    return "refuse";
+  }
+  if (!r.ok) return "injoignable";
+  try { poseJeton((await r.json()).token); return "ok"; } catch (e) { return "injoignable"; }
+}
+
+async function statsEnDirect() {
+  var t = jeton();
+  if (!t) return null;
+  var r = null;
+  /* Comme pour le jeton : on essaie les deux adresses, et une erreur serveur sur l'une ne doit
+     pas empêcher d'interroger l'autre. */
+  for (var i = 0; i < APIS.length && !r; i++) {
+    var k = (apiPreferee + i) % APIS.length;
+    for (var essai = 0; essai < 2 && !r; essai++) {
+      try {
+        var rep = await fetch(APIS[k] + "/admin/api/stats", { headers: { Authorization: "Bearer " + t }, cache: "no-store" });
+        if (rep.ok || rep.status === 401) { r = rep; apiPreferee = k; }
+        else if (essai === 1) derniereCause = "le serveur a répondu une erreur " + rep.status;
+      } catch (e) { if (essai === 1) derniereCause = "aucune des deux adresses n'a répondu"; }
+    }
+  }
+  if (!r) return null;                             // les deux bloquées → on tentera l'instantané
+  if (r.status === 401) { poseJeton(""); return null; }
+  if (!r.ok) return null;
+  try { return await r.json(); } catch (e) { return null; }
+}
+
+/* ---------- Déchiffrement de l'instantané (AES-GCM, clé dérivée par PBKDF2) ----------
+   Doit rester le MIROIR EXACT du chiffrement fait par .github/workflows/stats-snapshot.yml :
+   même sel, même nombre d'itérations, même algorithme. Si tu touches à l'un, touche à l'autre. */
+function b64vers(b64) {
+  var bin = atob(b64), out = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+async function dechiffrer(paquet, pw) {
+  var sel = b64vers(paquet.sel), iv = b64vers(paquet.iv), corps = b64vers(paquet.corps);
+  var base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+  var cle = await crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt: sel, iterations: paquet.iterations, hash: "SHA-256" },
+    base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+  var clair = await crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, cle, corps);
+  return JSON.parse(new TextDecoder().decode(clair));
+}
+/* Cause du dernier échec de l'instantané. Trois situations très différentes étaient autrefois
+   fondues dans un même message « n'a pas répondu », ce qui envoyait chercher une panne de
+   Worker alors que le fichier était publié et lisible. On les distingue désormais. */
+var causeInstantane = "";
+var dateInstantane = "";
+async function statsInstantane(pw) {
+  var r;
+  try { r = await fetch(INSTANTANE + "?t=" + Date.now(), { cache: "no-store" }); }
+  catch (e) { causeInstantane = "reseau"; return null; }
+  if (!r.ok) { causeInstantane = "absent"; return null; }   // l'Action n'a pas encore publié
+  var paquet;
+  try { paquet = await r.json(); } catch (e) { causeInstantane = "illisible"; return null; }
+  dateInstantane = paquet.date || "";
+  try { var s = await dechiffrer(paquet, pw); s.__instantane = paquet.date; causeInstantane = ""; return s; }
+  catch (e) { causeInstantane = "motdepasse"; return null; } // mot de passe ≠ celui de l'Action
+}
+
+
+/* ---------- Historique d'activité : jour / semaine / mois ----------
+   NOMMAGE HONNÊTE DES CHIFFRES, à ne pas « simplifier » :
+   - par JOUR, « Visiteurs » est un vrai nombre de personnes distinctes ce jour-là.
+   - par SEMAINE et par MOIS, c'est la somme des actifs quotidiens : quelqu'un qui vient
+     cinq jours compte cinq fois. Le libellé devient donc « Jours-visiteurs », et non
+     « Visiteurs », parce que ce n'est pas un nombre de personnes. Les vrais uniques sur une
+     période sont donnés à part, dans les cartes du haut (7 j, 30 j, total).
+   - les jours antérieurs au 17/10/2026 n'ont que le nombre d'uniques : l'activité (pages
+     vues, quiz, temps) y est INCONNUE, pas nulle. On affiche « — » et on le dit, au lieu de
+     zéros qui feraient croire à un site désert. */
+var granularite = "jour";
+var dernieres = null;
+
+function serieDe(s) {
+  return granularite === "semaine" ? (s.parSemaine || [])
+       : granularite === "mois"    ? (s.parMois || [])
+       :                             (s.parJour || []).slice(-30);
+}
+function mesuree(e) {
+  // activité connue ? (jour : champ `complet` ; semaine/mois : au moins un jour mesuré)
+  return granularite === "jour" ? !!e.complet : (e.nMesures || 0) > 0;
+}
+/* Temps ACTIF connu ? Mesuré seulement depuis le 04/11/2026 : avant, le « temps » était
+   l'écart entre la première et la dernière visite de la journée (10 min à 9 h + 10 min à 18 h
+   = 9 h), donc faux. On ne l'affiche plus pour ces jours-là. */
+function tempsConnu(e) { return granularite === "jour" ? !!e.ta : (e.nTemps || 0) > 0; }
+function tempsTxt(e) {
+  if (!tempsConnu(e)) return "—";
+  var partiel = granularite !== "jour" && e.nTemps < e.nJours;
+  return dur(e.t) + (partiel ? " *" : "");
+}
+function etiquette(cle) {
+  if (granularite === "mois") {
+    var m = cle.split("-");
+    return new Date(Date.UTC(+m[0], +m[1] - 1, 1)).toLocaleDateString("fr-FR", { month: "short", year: "numeric", timeZone: "UTC" });
+  }
+  var p = cle.split("-"), d = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2]));
+  var court = d.toLocaleDateString("fr-FR", { day: "2-digit", month: "2-digit", timeZone: "UTC" });
+  return granularite === "semaine" ? "sem. " + court : court;
+}
+function pastille(el, actuel, precedent, connu) {
+  if (!connu || precedent === null || precedent === undefined) { el.textContent = ""; el.className = "var"; return; }
+  if (!precedent) { el.textContent = actuel ? "nouveau" : ""; el.className = "var up"; return; }
+  var pc = Math.round(((actuel - precedent) / precedent) * 100);
+  el.textContent = (pc > 0 ? "▲ +" : pc < 0 ? "▼ " : "= ") + pc + " %";
+  el.className = "var " + (pc > 0 ? "up" : pc < 0 ? "down" : "flat");
+}
+
+function peindreHistoire(s) {
+  dernieres = s;
+  var serie = serieDe(s);
+  var nom = granularite === "jour" ? "jour" : granularite === "semaine" ? "semaine" : "mois";
+  h_portee.textContent = serie.length + " " + (granularite === "mois" ? "derniers mois" : (nom + (serie.length > 1 ? "s" : "")) + " les plus récents");
+  h_ul.textContent = "Visiteurs";
+
+  if (!serie.length) {
+    h_note.textContent = "Aucune donnée pour l'instant : la collecte commence au premier visiteur.";
+    h_bars.innerHTML = ""; h_corps.innerHTML = "";
+    ["h_u","h_v","h_q","h_t"].forEach(function (k) { document.getElementById(k).textContent = "–"; });
+    ["h_uv","h_vv","h_qv","h_tv"].forEach(function (k) { document.getElementById(k).textContent = ""; });
+    return;
+  }
+
+  /* COMPARAISON À DATE ÉGALE (04/11/2026). Avant : la période en cours (partielle) contre la
+     précédente ENTIÈRE, d'où des « −68 % » un mercredi en pleine croissance.
+     - jour : aujourd'hui contre hier À LA MÊME HEURE (visiteurs) ;
+     - semaine / mois : les k premiers jours de la période en cours contre les k premiers jours
+       de la précédente, calculés par le serveur (s.semaine, s.moisCourant). */
+  var a = serie[serie.length - 1];
+  var cmp = granularite === "semaine" ? s.semaine : granularite === "mois" ? s.moisCourant : null;
+  var connu = mesuree(a);
+  if (cmp) {
+    h_u.textContent = nb(cmp.u);
+    h_v.textContent = nb(cmp.v);
+    h_q.textContent = nb(cmp.q);
+    h_t.textContent = cmp.joursTemps ? dur(cmp.t) : "—";
+    var p = cmp.precedent || {};
+    pastille(h_uv, cmp.u, p.u, !!cmp.precedent);
+    pastille(h_vv, cmp.v, p.v, !!cmp.precedent);
+    pastille(h_qv, cmp.q, p.q, !!cmp.precedent);
+    pastille(h_tv, cmp.t, p.t, !!(cmp.joursTemps && p.joursTemps));
+  } else {
+    h_u.textContent = nb(a.u);
+    h_v.textContent = connu ? nb(a.v) : "—";
+    h_q.textContent = connu ? nb(a.q) : "—";
+    h_t.textContent = tempsTxt(a);
+    var hm = s.hier ? s.hier.memeHeure : null;
+    pastille(h_uv, a.u, hm, hm !== null && hm !== undefined);
+    ["h_vv","h_qv","h_tv"].forEach(function (k) { var el = document.getElementById(k); el.textContent = ""; el.className = "var"; });
+  }
+
+  var manquants = serie.filter(function (e) { return !mesuree(e); }).length;
+  h_note.textContent = (granularite === "jour"
+      ? "Aujourd'hui, comparé à hier à la même heure (visiteurs arrivés avant cette heure-ci)."
+      : "Les " + (cmp ? cmp.nbJours : "") + " premiers jours du " + nom + " en cours, comparés aux " + (cmp ? cmp.nbJours : "") + " premiers jours du " + nom + " précédent : une période en cours n'est jamais comparée à une période entière.")
+    + (granularite === "jour" ? "" : " « Visiteurs » = personnes distinctes sur la période.")
+    + " Le temps passé est le temps où la page était ouverte et visible, mesuré depuis le 4 novembre 2026 ; avant, il n'était pas fiable et n'est plus affiché (« — », « * » = période partiellement mesurée)."
+    + (manquants ? " " + manquants + " " + nom + (manquants > 1 ? "s" : "") + " d'avant octobre 2026 n'ont que le nombre de visiteurs." : "");
+
+  var mx = Math.max(1, ...serie.map(function (e) { return e.u; }));
+  /* Un repère d'axe tous les N, N choisi pour en avoir au plus 8 : au-delà les étiquettes se
+     chevauchent. Et le dernier point porte toujours son étiquette, c'est celui qu'on lit. */
+  var pas = Math.max(1, Math.ceil(serie.length / 8));
+  h_bars.innerHTML = serie.map(function (e, i) {
+    var quoi = granularite === "jour" ? " visiteur(s)" : " visiteurs distincts";
+    var t = etiquette(e.cle) + " : " + e.u + quoi
+      + (mesuree(e) ? ", " + e.v + " pages vues, " + e.q + " quiz" + (tempsConnu(e) ? ", " + dur(e.t) : "")
+                    : " — activité détaillée non conservée pour cette période");
+    var repere = (i % pas === 0 || i === serie.length - 1);
+    return '<div class="bar' + (mesuree(e) ? '' : ' creux') + '"'
+      + ' style="height:' + Math.max(2, Math.round(e.u / mx * 100)) + '%"'
+      + ' title="' + esc(t) + '">'
+      + (repere ? '<em>' + esc(etiquette(e.cle)) + '</em>' : '') + '</div>';
+  }).join("");
+
+  h_corps.innerHTML = serie.slice().reverse().map(function (e) {
+    var c = mesuree(e);
+    return '<tr><td>' + esc(etiquette(e.cle)) + '</td><td class=mono>' + nb(e.u) + '</td>'
+      + '<td class=mono>' + (c ? nb(e.v) : '<span class=mut>—</span>') + '</td>'
+      + '<td class=mono>' + (c ? nb(e.q) : '<span class=mut>—</span>') + '</td>'
+      + '<td class=mono>' + (tempsConnu(e) ? tempsTxt(e) : '<span class=mut>—</span>') + '</td></tr>';
+  }).join("");
+
+  var g = s.depuisOrigine || {};
+  g_u.textContent = nb(g.u); g_v.textContent = nb(g.v); g_q.textContent = nb(g.q); g_t.textContent = g.nTemps ? dur(g.t || 0) : "—";
+  g_note.textContent = g.premierJour
+    ? "Mesuré sur " + g.nJours + " jour" + (g.nJours > 1 ? "s" : "") + " depuis le " + etiquetteJour(g.premierJour)
+      + (g.nMesures < g.nJours ? ", dont " + g.nMesures + " avec l'activité détaillée (pages vues, quiz, temps) — avant cela, seuls les visiteurs étaient conservés." : ".")
+    : "La collecte commencera au premier visiteur.";
+}
+function etiquetteJour(cle) {
+  var p = cle.split("-");
+  return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])).toLocaleDateString("fr-FR", { day: "2-digit", month: "long", year: "numeric", timeZone: "UTC" });
+}
+
+Array.prototype.forEach.call(document.querySelectorAll(".onglets button"), function (bt) {
+  bt.addEventListener("click", function () {
+    granularite = bt.getAttribute("data-g");
+    Array.prototype.forEach.call(document.querySelectorAll(".onglets button"), function (o) { o.className = o === bt ? "on" : ""; });
+    if (dernieres) peindreHistoire(dernieres);
+  });
+});
+
+/* ---------- Affichage ---------- */
+function bandeau(txt) {
+  var b = document.getElementById("bandeau");
+  if (!txt) { b.hidden = true; return; }
+  b.hidden = false; b.textContent = txt;
+}
+function peindre(s) {
+  c_mois.textContent=s.moisUnique;c_online.textContent=s.onlineCount;
+
+  /* Pics de fréquentation simultanée. La mesure a débuté le 22/10/2026 : tant qu'aucun pic
+     n'a été enregistré pour la période, on affiche un tiret plutôt qu'un zéro trompeur. */
+  c_pic_now.textContent = s.onlineCount;
+  c_pic_jour.textContent = s.picJour ? s.picJour : '–';
+  v_pic_jour.textContent = s.picJour && s.picJourA ? 'atteint à ' + new Date(s.picJourA).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}) : (s.picJour ? '' : 'mesure en cours');
+  c_pic_semaine.textContent = s.picSemaine ? s.picSemaine : '–';
+  v_pic_semaine.textContent = s.picSemaine && s.picSemaineJour
+    ? (s.picSemaineJour === s.day ? "aujourd'hui" : 'le ' + new Date(s.picSemaineJour + 'T12:00:00').toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit'}))
+    : (s.picSemaine ? '' : 'mesure en cours');
+  c_hier.textContent=s.hier?s.hier.u:'–';
+  // Comparaison du jour en cours avec hier : le repère le plus parlant pour juger une journée.
+  // Aujourd'hui contre hier À LA MÊME HEURE : une journée en cours n'est pas comparée à une journée entière.
+  pastille(v_today, s.todayCount, s.hier?s.hier.memeHeure:null, !!(s.hier && typeof s.hier.memeHeure === "number"));
+  c_wmoy.textContent=(typeof s.tempsMoyenWeek==='number')?dur(s.tempsMoyenWeek):'–';
+  c_wpages.textContent=s.pagesMoyenWeek||'–';
+  /* Surveillance du quota d'écritures : au-delà de 1 000 par jour sur le plan gratuit de
+     Cloudflare, les écritures échouent SANS ERREUR et la journée est perdue. On le dit avant. */
+  if(s.quota){
+    var pc=Math.round(s.quota.ecritures/s.quota.plafond*100);
+    quota.textContent='Enregistrements du jour : '+nb(s.quota.ecritures)+' / '+nb(s.quota.plafond)
+      +' ('+pc+' %) du quota gratuit Cloudflare.'
+      +(pc>=80?' ⚠️ Proche de la limite : au-delà, les visites de la journée ne seront plus enregistrées. Il faudra passer au plan payant (5 $/mois) ou migrer le stockage.':'');
+    quota.className=pc>=80?'bandeau':'hint';
+    quota.hidden=false;
+  }c_today.textContent=s.todayCount;c_week.textContent=s.weekUnique;c_wvis.textContent=s.weekVisits;c_wquiz.textContent=s.weekQuiz;c_total.textContent=s.totalUnique;
+  t_online.innerHTML=s.online.map(o=>'<tr><td class=mono>'+sid(o.id)+'</td><td>'+FLAG(o.country)+' '+esc(o.country)+'</td><td>'+esc(o.city)+'</td><td>'+dev(o)+'</td><td>'+esc(o.br)+'</td><td class=mut>'+ago(o.t,s.now)+'</td></tr>').join('')||'<tr><td colspan=6 class=mut>Personne en ligne pour le moment</td></tr>';
+  t_users.innerHTML=s.users7d.map(u=>'<tr><td class=mono>'+sid(u.id)+'</td><td>'+FLAG(u.country)+' '+esc(u.country)+'</td><td>'+esc(u.city)+'</td><td>'+dev(u)+'</td><td>'+esc(u.br)+'</td><td class=mono>'+u.visits+'</td><td class=mono>'+u.quiz+'</td><td class=mono>'+dur(u.timeMs)+'</td><td class=mono>'+u.days+'</td><td class=mut>'+F(u.first)+'</td><td class=mut>'+F(u.last)+'</td></tr>').join('')||'<tr><td colspan=11 class=mut>Les visiteurs apparaîtront ici dès la première visite.</td></tr>';
+  peindreHistoire(s);
+  p_countries.innerHTML=rows(s.topCountries||[],c=>FLAG(c)+' '+esc(c));
+  const dv=s.devices||{mobile:0,desktop:0};p_devices.innerHTML=rows([['📱 Mobile',dv.mobile],['💻 Ordinateur',dv.desktop]],x=>x);
+  p_navigateurs.innerHTML=rows(s.topBrowsers||[],b=>esc(b));
+  upd.textContent='maj '+new Date().toLocaleTimeString('fr-FR');
+}
+
+/* ---------- Signalements ----------
+   Liste lue sur le Worker (clés KV "sig:<banque>:<empreinte>"). Jamais dans l'instantané
+   GitHub : un signalement peut citer un énoncé entier, ça reste strictement privé. */
+async function appelSignalements(corps) {
+  var t = jeton();
+  if (!t) return null;
+  for (var i = 0; i < APIS.length; i++) {
+    var k = (apiPreferee + i) % APIS.length;
+    try {
+      var opts = { headers: { Authorization: "Bearer " + t }, cache: "no-store" };
+      if (corps) {
+        opts.method = "POST";
+        opts.headers["Content-Type"] = "application/json";
+        opts.body = JSON.stringify(corps);
+      }
+      var rep = await fetch(APIS[k] + "/admin/api/signalements", opts);
+      if (rep.status === 401) { poseJeton(""); return null; }
+      if (rep.ok) { apiPreferee = k; try { return await rep.json(); } catch (e) { return null; } }
+    } catch (e) {}
+  }
+  return null;
+}
+
+function peindreSignalements(d) {
+  var corps = document.getElementById("t_sig"), compte = document.getElementById("sig_compte");
+  if (!corps) return;
+  if (!d || !d.liste) {
+    corps.innerHTML = '<tr><td colspan=7 class=mut style="white-space:normal">Liste indisponible — elle n\'existe qu\'en direct, pas dans l\'instantané GitHub.</td></tr>';
+    if (compte) compte.textContent = "—";
+    return;
+  }
+  var l = d.liste, now = Date.now();
+  var actifs = l.filter(function (e) { return !e.traite; }).length;
+  if (compte) compte.textContent = actifs ? nb(actifs) + (actifs > 1 ? " à voir" : " à voir") : "rien à voir";
+  if (!l.length) {
+    corps.innerHTML = '<tr><td colspan=7 class=mut>Aucun signalement.</td></tr>';
+    return;
+  }
+  corps.innerHTML = l.map(function (e) {
+    var msgs = (e.msgs || []).filter(function (m) { return m && m.m; });
+    return '<tr' + (e.traite ? ' class=traite' : '') + '>'
+      + '<td>' + esc(e.b || "") + '</td>'
+      + '<td class=enonce>' + esc(e.q || "") + '</td>'
+      + '<td class=mut>' + esc(e.c || "—") + '</td>'
+      + '<td class=compte>' + nb(e.n || 1) + '</td>'
+      + '<td class=mut>' + (e.tN ? ago(e.tN, now) : "—") + '</td>'
+      + '<td class=msgs>' + (msgs.length
+          ? msgs.map(function (m) { return '<div>« ' + esc(m.m) + ' »</div>'; }).join("")
+          : '<span class=mut>—</span>') + '</td>'
+      + '<td><div class=actes>'
+      + '<button class=acte data-sig-traite="' + esc(e.cle) + '">' + (e.traite ? "À revoir" : "Traité") + '</button>'
+      + '<button class=acte data-sig-oubli="' + esc(e.cle) + '">Oublier</button>'
+      + '</div></td></tr>';
+  }).join("");
+}
+
+async function chargerSignalements() {
+  peindreSignalements(await appelSignalements(null));
+}
+
+/* Les boutons sont recréés à chaque peinture : on délègue au tableau. */
+document.getElementById("t_sig").addEventListener("click", async function (ev) {
+  var b = ev.target.closest(".acte");
+  if (!b) return;
+  var cle = b.getAttribute("data-sig-traite") || b.getAttribute("data-sig-oubli");
+  if (!cle) return;
+  var action = b.hasAttribute("data-sig-oubli") ? "supprimer" : "basculer";
+  if (action === "supprimer" && !confirm("Oublier ce signalement ? La question n\'est pas touchée.")) return;
+  b.disabled = true;
+  await appelSignalements({ cle: cle, action: action });
+  await chargerSignalements();
+});
+
+async function charger() {
+  var s = await statsEnDirect();
+  if (s) { bandeau(""); peindre(s); chargerSignalements(); return; }
+  peindreSignalements(null);
+  // Direct indisponible : on retombe sur l'instantané publié par GitHub.
+  var i = await statsInstantane(motdepasse);
+  if (i) {
+    var age = Math.round((Date.now() - new Date(i.__instantane).getTime()) / 60000);
+    var cause = derniereCause === "aucune des deux adresses n'a répondu"
+      ? "Les deux adresses du Worker sont injoignables depuis ton réseau — c'est la signature du blocage espagnol des IP Cloudflare, qui va et vient."
+      : derniereCause
+        ? "Le direct a échoué : " + derniereCause + ". Ce n'est pas un blocage réseau — regarde du côté du Worker."
+        : "Le direct n'a pas répondu.";
+    bandeau(cause
+      + " Affichage de l'instantané publié par GitHub le " + F(new Date(i.__instantane).getTime())
+      + " (il y a " + age + " min). Les visites de cette période ne sont pas perdues : elles sont "
+      + "mises en file sur l'appareil des visiteurs et renvoyées dès que le direct revient.");
+    peindre(i);
+    return;
+  }
+  /* Message de diagnostic : on dit CE QUI a échoué, pas « tout a échoué ». */
+  var quand = dateInstantane ? " (publié le " + F(new Date(dateInstantane).getTime()) + ")" : "";
+  var msg;
+  if (causeInstantane === "motdepasse") {
+    msg = "L'instantané du " + (dateInstantane ? F(new Date(dateInstantane).getTime()) : "jour")
+      + " est bien publié, mais il ne se déchiffre pas avec ce mot de passe. "
+      + "Puisque la GitHub Action a réussi à le produire, c'est que le Worker et le secret "
+      + "YM_ADMIN_PASSWORD concordent : le mot de passe saisi ici n'est pas le bon. "
+      + "Reconnecte-toi avec le mot de passe admin, ou reporte-toi au secret ADMIN_PASSWORD du Worker.";
+  } else if (causeInstantane === "absent") {
+    msg = "L'instantané n'est pas publié sur la branche `stats` : la GitHub Action n'a jamais abouti. "
+      + "Vérifie l'onglet Actions du dépôt et le secret YM_ADMIN_PASSWORD.";
+  } else if (causeInstantane === "reseau") {
+    msg = "Ni le Worker ni raw.githubusercontent.com ne répondent depuis ce réseau. "
+      + "C'est une coupure côté connexion, pas une panne du site.";
+  } else if (causeInstantane === "illisible") {
+    msg = "L'instantané" + quand + " est servi mais illisible (fichier tronqué ou corrompu). "
+      + "Relance la GitHub Action pour en republier un.";
+  } else {
+    msg = "Données momentanément indisponibles. Si cela persiste, vérifie que le Worker est "
+      + "déployé et que la GitHub Action a bien publié stats.enc.json.";
+  }
+  if (derniereCause) msg += "  (Côté direct : " + derniereCause + ".)";
+
+  /* IMPASSE À ÉVITER. Au rechargement d'une page, on entre directement si le jeton est encore
+     valable, mais le mot de passe n'est PAS conservé (il ne vit qu'en mémoire). Si le direct
+     tombe à ce moment-là — jeton expiré, ou Worker injoignable — l'instantané ne peut pas être
+     déchiffré faute de mot de passe, et l'ancienne console se contentait d'un message sans
+     issue. On redemande donc le mot de passe : c'est la seule action qui débloque la situation. */
+  if (!motdepasse) {
+    var err = document.getElementById("erreur");
+    if (err) { err.hidden = false; err.textContent = "Session expirée — saisis ton mot de passe pour relire les statistiques hors ligne."; }
+    if (minuteur) { clearInterval(minuteur); minuteur = null; }
+    document.getElementById("ecranAdmin").hidden = true;
+    document.getElementById("ecranConnexion").hidden = false;
+    var champ = document.getElementById("motdepasse");
+    if (champ) champ.focus();
+    return;
+  }
+  bandeau(msg);
+}
+
+function entrer() {
+  document.getElementById("ecranConnexion").hidden = true;
+  document.getElementById("ecranAdmin").hidden = false;
+  charger();
+  if (!minuteur) minuteur = setInterval(charger, 8000);
+}
+
+document.getElementById("formConnexion").addEventListener("submit", async function (ev) {
+  ev.preventDefault();
+  var champ = document.getElementById("motdepasse"), bouton = document.getElementById("bouton"), err = document.getElementById("erreur");
+  var pw = champ.value;
+  if (!pw) return;
+  bouton.disabled = true; bouton.textContent = "Vérification…"; err.hidden = true;
+  var etat = await obtenirJeton(pw);
+  if (etat === "bloque") {
+    var min = Math.ceil(dernierBlocage / 60);
+    err.hidden = false;
+    err.textContent = "Trop d'essais infructueux depuis ce réseau. Nouvelle tentative possible dans "
+      + (min > 1 ? min + " minutes" : "une minute") + ".";
+    bouton.disabled = false; bouton.textContent = "Entrer"; champ.value = "";
+    return;
+  }
+  if (etat === "refuse") {
+    err.hidden = false;
+    err.textContent = "Mot de passe incorrect"
+      + (typeof restants === "number" && restants > 0 && restants <= 2
+         ? " — encore " + restants + " essai" + (restants > 1 ? "s" : "") + " avant blocage temporaire." : ".");
+    bouton.disabled = false; bouton.textContent = "Entrer"; champ.value = ""; champ.focus();
+    return;
+  }
+  motdepasse = pw;
+  if (etat === "injoignable") {
+    // On ne peut pas vérifier le mot de passe sans le Worker : s'il déchiffre l'instantané,
+    // c'est qu'il est bon. Sinon on le refuse, sans distinguer les deux causes.
+    var i = await statsInstantane(pw);
+    if (!i) {
+      err.hidden = false; err.textContent = "Mot de passe incorrect, ou aucune donnée accessible hors ligne";
+      bouton.disabled = false; bouton.textContent = "Entrer"; champ.value = ""; champ.focus();
+      motdepasse = ""; return;
+    }
+  }
+  champ.value = "";
+  entrer();
+});
+
+document.getElementById("sortir").addEventListener("click", function (ev) {
+  ev.preventDefault();
+  poseJeton(""); motdepasse = "";
+  if (minuteur) { clearInterval(minuteur); minuteur = null; }
+  location.reload();
+});
+
+// Jeton encore valable (rechargement de page) : on entre directement. L'instantané ne sera
+// alors pas déchiffrable faute de mot de passe en mémoire — le direct, lui, fonctionne.
+if (jeton()) entrer();
+</script>
+</body>
+</html>
