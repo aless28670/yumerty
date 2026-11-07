@@ -345,8 +345,9 @@ tr.traite td{opacity:.5}
       <div class="var" id="v_pic_semaine"></div>
     </div>
     <div class="carte">
-      <div class="mesure"><span class="pastille"></span><span id="c_pic_now">–</span></div>
-      <div class="nom">En ce moment</div>
+      <div class="mesure" id="c_best">–</div>
+      <div class="nom">Meilleur jour (7 jours)</div>
+      <div class="var" id="v_best"></div>
     </div>
   </div>
 
@@ -730,7 +731,10 @@ function peindre(s) {
 
   /* Pics de fréquentation simultanée. La mesure a débuté le 22/10/2026 : tant qu'aucun pic
      n'a été enregistré pour la période, on affiche un tiret plutôt qu'un zéro trompeur. */
-  c_pic_now.textContent = s.onlineCount;
+  // Meilleur jour des 7 derniers jours : le jour qui a eu le plus de visiteurs distincts.
+  var j7 = (s.parJour || []).slice(-7), best = j7.reduce(function (m, e) { return !m || e.u > m.u ? e : m; }, null);
+  c_best.textContent = best ? best.u : '–';
+  v_best.textContent = best ? (best.cle === s.day ? "aujourd'hui" : new Date(best.cle + 'T12:00:00').toLocaleDateString('fr-FR',{weekday:'long',day:'2-digit',month:'2-digit'})) : '';
   c_pic_jour.textContent = s.picJour ? s.picJour : '–';
   v_pic_jour.textContent = s.picJour && s.picJourA ? 'atteint à ' + new Date(s.picJourA).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}) : (s.picJour ? '' : 'mesure en cours');
   c_pic_semaine.textContent = s.picSemaine ? s.picSemaine : '–';
