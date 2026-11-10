@@ -414,7 +414,7 @@ tr.traite td{opacity:.5}
   <div class="panneau">
     <h3>Questions signalées <span class="badge" id="sig_compte">—</span></h3>
     <p class="hint">Un signalement ne retire rien : la question continue d'être posée normalement.
-      « Traiter » la range sans la supprimer de la liste, « Oublier » efface le signalement.
+      « Traité » la fait disparaître de la liste (elle reste consultable en bas), « Oublier » efface le signalement.
       Les signalements sont regroupés par question : une même question signalée dix fois ne fait qu'une ligne.</p>
     <div class="defile">
       <table><thead><tr><th>Matière</th><th>Question</th><th>Chapitre</th><th>Fois</th><th>Dernier</th><th>Messages</th><th></th></tr></thead>
@@ -789,6 +789,7 @@ async function appelSignalements(corps) {
   return null;
 }
 
+var dernierSig = null, voirTraites = false;
 function peindreSignalements(d) {
   var corps = document.getElementById("t_sig"), compte = document.getElementById("sig_compte");
   if (!corps) return;
@@ -797,11 +798,18 @@ function peindreSignalements(d) {
     if (compte) compte.textContent = "—";
     return;
   }
-  var l = d.liste, now = Date.now();
-  var actifs = l.filter(function (e) { return !e.traite; }).length;
-  if (compte) compte.textContent = actifs ? nb(actifs) + (actifs > 1 ? " à voir" : " à voir") : "rien à voir";
+  dernierSig = d;
+  var tout = d.liste, now = Date.now();
+  var actifs = tout.filter(function (e) { return !e.traite; }).length, traites = tout.length - actifs;
+  if (compte) compte.textContent = actifs ? nb(actifs) + " à voir" : "rien à voir";
+  /* Une question traitée DISPARAÎT de la liste (demande d'Alessandro, 10/11/2026) : le
+     signalement reste stocké, on peut le revoir via le lien en bas et le remettre « à revoir ». */
+  var l = voirTraites ? tout : tout.filter(function (e) { return !e.traite; });
+  var pied = traites
+    ? '<tr><td colspan=7 class=mut><button class=acte data-sig-voir=1>' + (voirTraites ? "Masquer les traités" : "Voir les " + nb(traites) + " traité" + (traites > 1 ? "s" : "")) + '</button></td></tr>'
+    : "";
   if (!l.length) {
-    corps.innerHTML = '<tr><td colspan=7 class=mut>Aucun signalement.</td></tr>';
+    corps.innerHTML = '<tr><td colspan=7 class=mut>' + (tout.length ? "Tout est traité." : "Aucun signalement.") + '</td></tr>' + pied;
     return;
   }
   corps.innerHTML = l.map(function (e) {
@@ -819,7 +827,7 @@ function peindreSignalements(d) {
       + '<button class=acte data-sig-traite="' + esc(e.cle) + '">' + (e.traite ? "À revoir" : "Traité") + '</button>'
       + '<button class=acte data-sig-oubli="' + esc(e.cle) + '">Oublier</button>'
       + '</div></td></tr>';
-  }).join("");
+  }).join("") + pied;
 }
 
 async function chargerSignalements() {
@@ -830,11 +838,19 @@ async function chargerSignalements() {
 document.getElementById("t_sig").addEventListener("click", async function (ev) {
   var b = ev.target.closest(".acte");
   if (!b) return;
+  if (b.hasAttribute("data-sig-voir")) { voirTraites = !voirTraites; peindreSignalements(dernierSig); return; }
   var cle = b.getAttribute("data-sig-traite") || b.getAttribute("data-sig-oubli");
   if (!cle) return;
   var action = b.hasAttribute("data-sig-oubli") ? "supprimer" : "basculer";
   if (action === "supprimer" && !confirm("Oublier ce signalement ? La question n\'est pas touchée.")) return;
   b.disabled = true;
+  // La ligne disparaît tout de suite, sans attendre l'aller-retour réseau.
+  var e0 = dernierSig && dernierSig.liste.filter(function (e) { return e.cle === cle; })[0];
+  if (e0) {
+    if (action === "supprimer") dernierSig.liste = dernierSig.liste.filter(function (e) { return e.cle !== cle; });
+    else e0.traite = !e0.traite;
+    peindreSignalements(dernierSig);
+  }
   await appelSignalements({ cle: cle, action: action });
   await chargerSignalements();
 });
