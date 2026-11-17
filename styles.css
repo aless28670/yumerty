@@ -2575,6 +2575,26 @@ html { scroll-behavior: smooth; }
   box-shadow:inset 0 0 0 1px rgba(var(--accent-rgb,138,90,106),.34);
 }
 
+/* ===== Cursus à ouverture programmée : compte à rebours ===== */
+.subject-card.subject-card-locked{cursor:default;gap:16px}
+.subject-card.subject-card-locked:hover{transform:none}
+.subject-card-locked .subject-card-title{display:flex;flex-direction:column;gap:4px;min-width:0}
+.cd-date{white-space:nowrap;font-size:12.5px;font-weight:500;letter-spacing:0;color:#8a6f5c;text-transform:none}
+.cd-date::first-letter{text-transform:uppercase}
+.cd{display:flex;gap:6px;flex-shrink:0}
+.cd-bloc{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  min-width:46px;padding:7px 4px 5px;border-radius:10px;
+  background:rgba(var(--accent-rgb,185,118,63),.10);
+  box-shadow:inset 0 0 0 1px rgba(var(--accent-rgb,185,118,63),.22)}
+.cd-num{font-size:18px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;
+  color:color-mix(in srgb, rgb(var(--accent-rgb,185,118,63)) 70%, #2a1d22)}
+.cd-unit{margin-top:3px;font-size:10px;font-weight:600;letter-spacing:.06em;color:#8a6f5c}
+@media (max-width:600px){
+  .subject-card.subject-card-locked{flex-wrap:wrap;row-gap:12px}
+  .subject-card-locked .cd{width:100%}
+  .subject-card-locked .cd-bloc{flex:1}
+}
+
 /* =========================================================
    SIGNALEMENT D'UNE QUESTION
    Discret par défaut : un lien gris sous les justifications, qui ouvre une

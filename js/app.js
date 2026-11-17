@@ -1039,14 +1039,14 @@ function renderCursusList() {
     const verrou = !aVenir && ouverture > Date.now();
     if (aVenir || verrou) {
       card.disabled = true;
-      card.classList.add("subject-card-soon");
+      card.classList.add(verrou ? "subject-card-locked" : "subject-card-soon");
     } else {
       card.dataset.cursus = key;
     }
     card.innerHTML = `
-      <span class="subject-card-title">${escapeHtml(c.label)}</span>
+      <span class="subject-card-title">${escapeHtml(c.label)}${verrou ? `<span class="cd-date">${dateOuverture(ouverture)}</span>` : ""}</span>
       ${verrou
-        ? `<span class="subject-card-soon-tag" data-ouverture="${ouverture}">${texteCompteARebours(ouverture)}</span>`
+        ? `<span class="cd" data-ouverture="${ouverture}">${htmlCompteARebours(ouverture)}</span>`
         : aVenir
         ? `<span class="subject-card-soon-tag">Bientôt disponible</span>`
         : `<span class="subject-card-arrow" aria-hidden="true">→</span>`}
@@ -1056,15 +1056,28 @@ function renderCursusList() {
   demarrerCompteARebours();
 }
 
-function texteCompteARebours(t) {
-  const l = typeof langueActuelle === "function" ? langueActuelle() : "fr";
+function partiesCompteARebours(t) {
   let r = Math.max(0, Math.floor((t - Date.now()) / 1000));
   const j = Math.floor(r / 86400); r %= 86400;
   const h = Math.floor(r / 3600); r %= 3600;
-  const m = Math.floor(r / 60), s = r % 60;
-  const d2 = n => String(n).padStart(2, "0");
-  const duree = (j ? j + (l === "fr" ? "j " : "d ") : "") + d2(h) + ":" + d2(m) + ":" + d2(s);
-  return ({ fr: "Ouverture dans ", es: "Apertura en ", en: "Opens in " }[l] || "Ouverture dans ") + duree;
+  return { j, h, m: Math.floor(r / 60), s: r % 60 };
+}
+
+function htmlCompteARebours(t) {
+  const l = typeof langueActuelle === "function" ? langueActuelle() : "fr";
+  const u = { fr: ["j", "h", "min", "s"], es: ["d", "h", "min", "s"], en: ["d", "h", "min", "s"] }[l] || ["j", "h", "min", "s"];
+  const p = partiesCompteARebours(t), d2 = n => String(n).padStart(2, "0");
+  return [p.j, d2(p.h), d2(p.m), d2(p.s)].map((v, k) =>
+    `<span class="cd-bloc"><span class="cd-num">${v}</span><span class="cd-unit">${u[k]}</span></span>`).join("");
+}
+
+function dateOuverture(t) {
+  const l = typeof langueActuelle === "function" ? langueActuelle() : "fr";
+  const loc = { fr: "fr-FR", es: "es-ES", en: "en-GB" }[l] || "fr-FR";
+  const d = new Date(t);
+  const jour = d.toLocaleDateString(loc, { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Madrid" });
+  const h = d.toLocaleTimeString(loc, { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Madrid" });
+  return ({ fr: "Ouverture ", es: "Apertura el ", en: "Opens " }[l] || "") + jour + " · " + h;
 }
 
 let minuterieOuverture = null;
@@ -1075,7 +1088,7 @@ function demarrerCompteARebours() {
     const tags = document.querySelectorAll("[data-ouverture]");
     if (!tags.length) { clearInterval(minuterieOuverture); return; }
     let ouvert = false;
-    tags.forEach(el => { const t = Number(el.dataset.ouverture); if (Date.now() >= t) ouvert = true; else el.textContent = texteCompteARebours(t); });
+    tags.forEach(el => { const t = Number(el.dataset.ouverture); if (Date.now() >= t) ouvert = true; else el.innerHTML = htmlCompteARebours(t); });
     if (ouvert) { clearInterval(minuterieOuverture); renderCursusList(); }
   }, 1000);
 }
