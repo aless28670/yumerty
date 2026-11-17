@@ -531,6 +531,7 @@ const CURSUS = {
     "short": "Dentaire",
     "accent": "#b9763f",
     "available": true,
+    "opensAt": "2026-11-19T06:00:00Z",
     "years": {
       "D1": {
         "label": "D1",

@@ -952,7 +952,15 @@ function visibleSemesterKeys(y, programme) {
 
 const NAV_LEVELS = ["cursus", "years", "programmes", "semesters", "matieres", "modules"];
 
+function cursusVerrouille(k) {
+  const c = k && CURSUS[k];
+  return !!(c && (c.available === false || (c.opensAt && Date.parse(c.opensAt) > Date.now())));
+}
+
 function navigateTo(level, key) {
+  // Un cursus fermé ou pas encore ouvert ne s'atteint par aucun chemin (lien, état restauré…).
+  const cible = level === "years" ? key : state.nav && state.nav.cursus;
+  if (level !== "cursus" && cursusVerrouille(cible)) level = "cursus";
   if (level === "cursus") {
     // Reset state.nav to initial cursus selection screen
     state.nav = { cursus: null, year: null, programme: null, semester: null, matiere: null, level: "cursus" };
@@ -1026,7 +1034,10 @@ function renderCursusList() {
     /* Un cursus encore en chantier est annoncé comme tel plutôt que simplement grisé :
        l'utilisateur comprend qu'il arrive, pas qu'il est cassé. */
     const aVenir = !c.available;
-    if (aVenir) {
+    /* Ouverture programmée (opensAt, ISO UTC) : carte verrouillée + compte à rebours en direct. */
+    const ouverture = c.opensAt ? Date.parse(c.opensAt) : 0;
+    const verrou = !aVenir && ouverture > Date.now();
+    if (aVenir || verrou) {
       card.disabled = true;
       card.classList.add("subject-card-soon");
     } else {
@@ -1034,12 +1045,39 @@ function renderCursusList() {
     }
     card.innerHTML = `
       <span class="subject-card-title">${escapeHtml(c.label)}</span>
-      ${aVenir
+      ${verrou
+        ? `<span class="subject-card-soon-tag" data-ouverture="${ouverture}">${texteCompteARebours(ouverture)}</span>`
+        : aVenir
         ? `<span class="subject-card-soon-tag">Bientôt disponible</span>`
         : `<span class="subject-card-arrow" aria-hidden="true">→</span>`}
     `;
     root.appendChild(card);
   });
+  demarrerCompteARebours();
+}
+
+function texteCompteARebours(t) {
+  const l = typeof langueActuelle === "function" ? langueActuelle() : "fr";
+  let r = Math.max(0, Math.floor((t - Date.now()) / 1000));
+  const j = Math.floor(r / 86400); r %= 86400;
+  const h = Math.floor(r / 3600); r %= 3600;
+  const m = Math.floor(r / 60), s = r % 60;
+  const d2 = n => String(n).padStart(2, "0");
+  const duree = (j ? j + (l === "fr" ? "j " : "d ") : "") + d2(h) + ":" + d2(m) + ":" + d2(s);
+  return ({ fr: "Ouverture dans ", es: "Apertura en ", en: "Opens in " }[l] || "Ouverture dans ") + duree;
+}
+
+let minuterieOuverture = null;
+function demarrerCompteARebours() {
+  if (minuterieOuverture) clearInterval(minuterieOuverture);
+  if (!document.querySelector("[data-ouverture]")) return;
+  minuterieOuverture = setInterval(() => {
+    const tags = document.querySelectorAll("[data-ouverture]");
+    if (!tags.length) { clearInterval(minuterieOuverture); return; }
+    let ouvert = false;
+    tags.forEach(el => { const t = Number(el.dataset.ouverture); if (Date.now() >= t) ouvert = true; else el.textContent = texteCompteARebours(t); });
+    if (ouvert) { clearInterval(minuterieOuverture); renderCursusList(); }
+  }, 1000);
 }
 
 /* ----------- Chiffres de la page d'accueil -----------
