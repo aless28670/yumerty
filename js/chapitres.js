@@ -166,171 +166,171 @@ window.CHAPITRES = {
  "dentBiomaterial": [
   {
    "id": 1,
-   "nom": "Concepts and definitions"
+   "nom": "Concepts et définitions"
   },
   {
    "id": 2,
-   "nom": "Physical properties of dental biomaterials"
+   "nom": "Propriétés physiques des biomatériaux dentaires"
   },
   {
    "id": 3,
-   "nom": "Chemical properties of dental materials"
+   "nom": "Propriétés chimiques des matériaux dentaires"
   },
   {
    "id": 17,
-   "nom": "Biological properties and polymers"
+   "nom": "Propriétés biologiques et matériaux polymères"
   },
   {
    "id": 16,
-   "nom": "Ceramic and metallic materials"
+   "nom": "Matériaux céramiques et métalliques : généralités"
   },
   {
    "id": 4,
-   "nom": "Polymeric materials I — impression materials"
+   "nom": "Matériaux polymères I : matériaux d'empreinte"
   },
   {
    "id": 5,
-   "nom": "Polymeric materials II — acrylics"
+   "nom": "Matériaux polymères II : résines acryliques"
   },
   {
    "id": 6,
-   "nom": "Polymeric materials III — composite resins"
+   "nom": "Matériaux polymères III : résines composites"
   },
   {
    "id": 7,
-   "nom": "Polymers: waxes, thermoplastics and gutta-percha"
+   "nom": "Matériaux polymères IV : cires, thermoplastiques et gutta-percha"
   },
   {
    "id": 8,
-   "nom": "Ceramic materials I — plasters"
+   "nom": "Matériaux céramiques I : plâtres"
   },
   {
    "id": 9,
-   "nom": "Ceramic materials II — dental cements"
+   "nom": "Matériaux céramiques II : ciments dentaires"
   },
   {
    "id": 10,
-   "nom": "Ceramic materials III — porcelains and vitroceramics"
+   "nom": "Matériaux céramiques III : porcelaines et vitrocéramiques"
   },
   {
    "id": 11,
-   "nom": "Metallic materials I — noble metals and titanium"
+   "nom": "Matériaux métalliques I : métaux nobles et titane"
   },
   {
    "id": 12,
-   "nom": "Non-noble metals and alloys"
+   "nom": "Métaux et alliages non nobles"
   },
   {
    "id": 13,
-   "nom": "Titanium and silver amalgam"
+   "nom": "Titane et amalgame d'argent"
   },
   {
    "id": 14,
-   "nom": "Metals: non-noble alloys and applications"
+   "nom": "Matériaux métalliques IV : alliages non nobles"
   },
   {
    "id": 15,
-   "nom": "Bone regeneration materials"
+   "nom": "Matériaux de régénération osseuse"
   }
  ],
  "dentDiagnostic": [
   {
    "id": 1,
-   "nom": "Basis OF Radiology"
+   "nom": "Histoire et bases de la radiologie"
   },
   {
    "id": 2,
-   "nom": "Types of X-Rays"
+   "nom": "Types de radiographies et de récepteurs"
   },
   {
    "id": 3,
-   "nom": "Radiation Protection"
+   "nom": "Radioprotection"
   },
   {
    "id": 4,
-   "nom": "Introduction TO X-ray Interpretation"
+   "nom": "Introduction à l'interprétation radiographique"
   },
   {
    "id": 5,
-   "nom": "Techniques"
+   "nom": "Techniques radiographiques spéciales"
   },
   {
    "id": 6,
-   "nom": "Radiobiology"
+   "nom": "Radiobiologie"
   }
  ],
  "dentHeadNeck": [
   {
    "id": 1,
-   "nom": "(DB) Dental anatomy generalities"
+   "nom": "Anatomie dentaire : généralités"
   },
   {
    "id": 2,
-   "nom": "Incisors and canines"
+   "nom": "Incisives et canines"
   },
   {
    "id": 3,
-   "nom": "Premolars"
+   "nom": "Prémolaires"
   },
   {
    "id": 4,
-   "nom": "Maxillary and Mandibular molars"
+   "nom": "Molaires maxillaires et mandibulaires"
   },
   {
    "id": 5,
-   "nom": "General concepts and osteology of the skull"
+   "nom": "Concepts généraux et ostéologie du crâne"
   },
   {
    "id": 6,
-   "nom": "Cranial and facial bones (1)"
+   "nom": "Os du crâne et de la face I : ethmoïde, sphénoïde, temporal"
   },
   {
    "id": 7,
-   "nom": "Cranial and facial bones II (maxillary and palatine)"
+   "nom": "Os du crâne et de la face II : maxillaire et palatin"
   },
   {
    "id": 8,
-   "nom": "Cranial and facial bones III"
+   "nom": "Os du crâne et de la face III : voûte et autres os de la face"
   },
   {
    "id": 9,
-   "nom": "Mandible and TMJ"
+   "nom": "Mandibule et articulation temporo-mandibulaire"
   },
   {
    "id": 10,
-   "nom": "Cranial fossae and cavities"
+   "nom": "Fosses et cavités crâniennes"
   },
   {
    "id": 11,
-   "nom": "TMJ-related fossae"
+   "nom": "Fosses temporale, infratemporale et ptérygopalatine"
   },
   {
    "id": 12,
-   "nom": "Muscles from the first branchial arch"
+   "nom": "Muscles du premier arc branchial : muscles masticateurs"
   },
   {
    "id": 13,
-   "nom": "Muscles from the second branchial arch"
+   "nom": "Muscles du deuxième arc branchial : muscles de la face"
   },
   {
    "id": 14,
-   "nom": "Tongue muscles"
+   "nom": "Muscles de la langue"
   },
   {
    "id": 15,
-   "nom": "Hyoid bone, neck triangles and fasciae"
+   "nom": "Os hyoïde, triangles du cou et fascias cervicaux"
   },
   {
    "id": 16,
-   "nom": "Head and neck arteries I"
+   "nom": "Artères de la tête et du cou I : subclavière et carotide"
   },
   {
    "id": 17,
-   "nom": "Head and neck arteries II. External carotid artery"
+   "nom": "Artères de la tête et du cou II : carotide externe"
   },
   {
    "id": 18,
-   "nom": "Venous and lymphatic drainage"
+   "nom": "Drainage veineux et lymphatique de la tête et du cou"
   },
   {
    "id": 19,
@@ -344,667 +344,667 @@ window.CHAPITRES = {
  "dentOcclusion": [
   {
    "id": 1,
-   "nom": "Occlusion IN Dentistry"
+   "nom": "Occlusion normale et pathologique"
   },
   {
    "id": 2,
-   "nom": "Stomathognatic system"
+   "nom": "Système stomatognathique : rappel anatomique"
   },
   {
    "id": 3,
-   "nom": "Mandibular positions and movements"
+   "nom": "Positions et mouvements mandibulaires"
   },
   {
    "id": 4,
-   "nom": "Centric Relation"
+   "nom": "Relation centrée"
   },
   {
    "id": 5,
-   "nom": "Eccentric Relation"
+   "nom": "Relations excentrées"
   },
   {
    "id": 6,
-   "nom": "Articulators"
+   "nom": "Articulateurs"
   },
   {
    "id": 7,
-   "nom": "Occlusal Schemes"
+   "nom": "Schémas occlusaux"
   }
  ],
  "dentPatho2Fin": [
   {
    "id": 1,
-   "nom": "Unit Digestive"
+   "nom": "Appareil digestif : généralités"
   },
   {
    "id": 2,
-   "nom": "Unit Oral Cavity Disorders"
+   "nom": "Pathologies et syndromes de la cavité buccale"
   },
   {
    "id": 3,
-   "nom": "Unit Oral Cavity and drugs"
+   "nom": "Cavité buccale et médicaments"
   },
   {
    "id": 4,
-   "nom": "Unit Reflux. Peptic ulcer. NSAI Ds toxicity"
+   "nom": "Reflux, ulcère peptique et toxicité des AINS"
   },
   {
    "id": 5,
-   "nom": "Unit Acute Hepatitis. Chronic Liver disease"
+   "nom": "Hépatite aiguë et hépatopathie chronique"
   },
   {
    "id": 6,
-   "nom": "Unit Intestinal Diseases"
+   "nom": "Maladies intestinales et cancer colorectal"
   },
   {
    "id": 7,
-   "nom": "Unit Epilepsy"
+   "nom": "Épilepsie"
   },
   {
    "id": 8,
-   "nom": "Unit CVR. Cerebrovascular disease. Stroke"
+   "nom": "Risque cardiovasculaire : maladie cérébrovasculaire et AVC"
   },
   {
    "id": 9,
-   "nom": "Unit loss of con"
+   "nom": "Perte de connaissance"
   },
   {
    "id": 10,
-   "nom": "Unit Female sex and health"
+   "nom": "Santé et pathologie de la femme"
   },
   {
    "id": 11,
-   "nom": "Unit Artr.Osteoporosis"
+   "nom": "Arthrose et ostéoporose"
   },
   {
    "id": 12,
-   "nom": "Unit Asthma and COPD"
+   "nom": "Asthme et BPCO"
   }
  ],
  "dentPatho2Mid": [
   {
    "id": 1,
-   "nom": "Blood disorders"
+   "nom": "Maladies du sang"
   },
   {
    "id": 2,
-   "nom": "Hemostasis"
+   "nom": "Hémostase"
   },
   {
    "id": 3,
-   "nom": "Bleeding Disorders and Thrombophilia"
+   "nom": "Troubles hémorragiques et thrombophilie"
   },
   {
    "id": 4,
-   "nom": "Hemostasis and Drugs prof"
+   "nom": "Hémostase et médicaments"
   },
   {
    "id": 5,
-   "nom": "Hemotherapy and BMT"
+   "nom": "Hémothérapie et greffe de moelle osseuse"
   },
   {
    "id": 6,
-   "nom": "Cardiovascular General"
+   "nom": "Maladies cardiovasculaires : notions de base"
   },
   {
    "id": 7,
-   "nom": "CVR. HBP. Diagnosis and Treatment prof"
+   "nom": "Hypertension artérielle : diagnostic et traitement"
   },
   {
    "id": 8,
-   "nom": "CVR. Diabetes."
+   "nom": "Diabète sucré et hypoglycémie"
   },
   {
    "id": 9,
-   "nom": "CVR. Ischaemic heart disease prof"
+   "nom": "Cardiopathie ischémique"
   },
   {
    "id": 10,
-   "nom": "Unit Heart Failure and arrhitmias"
+   "nom": "Insuffisance cardiaque et arythmies"
   },
   {
    "id": 11,
-   "nom": "Unit CVR. Arterial diseases"
+   "nom": "Maladies vasculaires périphériques : artères et veines"
   },
   {
    "id": 12,
-   "nom": "Congenital heart disease, valvulopathies, endocarditis"
+   "nom": "Cardiopathies congénitales, valvulopathies et endocardite"
   }
  ],
  "dentPathology1Fin": [
   {
    "id": 1,
-   "nom": "Immunology. Basics"
+   "nom": "Immunologie : notions de base"
   },
   {
    "id": 2,
-   "nom": "Immune-mediated diseases"
+   "nom": "Maladies à médiation immunitaire"
   },
   {
    "id": 3,
-   "nom": "Anaphylaxis"
+   "nom": "Anaphylaxie"
   },
   {
    "id": 4,
-   "nom": "Autoimmune diseases: pemphigus and lichen planus"
+   "nom": "Maladies auto-immunes : pemphigus et lichen plan"
   },
   {
    "id": 5,
-   "nom": "ID General concepts"
+   "nom": "Maladies infectieuses : concepts généraux"
   },
   {
    "id": 6,
-   "nom": "Infectious disease: diagnosis and treatment"
+   "nom": "Maladies infectieuses : diagnostic, prévention et traitement"
   },
   {
    "id": 7,
-   "nom": "ST Is"
+   "nom": "Infections sexuellement transmissibles"
   },
   {
    "id": 8,
-   "nom": "HIV Infection"
+   "nom": "Infection par le VIH"
   },
   {
    "id": 9,
-   "nom": "Oral infections"
+   "nom": "Infections buccales"
   },
   {
    "id": 10,
-   "nom": "Occupational Exposures"
+   "nom": "Expositions professionnelles"
   },
   {
    "id": 11,
-   "nom": "Standard Precautions"
+   "nom": "Précautions standard"
   }
  ],
  "dentPathology1Mid": [
   {
    "id": 1,
-   "nom": "Health care bases"
+   "nom": "Bases de l'assistance sanitaire"
   },
   {
    "id": 2,
-   "nom": "Medical care process: prevention and diagnosis"
+   "nom": "Processus de soins : prévention et diagnostic"
   },
   {
    "id": 3,
-   "nom": "Diagnostic work-up: blood and urine tests"
+   "nom": "Bilan diagnostique : analyses de sang et d'urine"
   },
   {
    "id": 4,
-   "nom": "Diagnostic tests: microbiology and histopathology"
+   "nom": "Examens diagnostiques : microbiologie et histopathologie"
   },
   {
    "id": 5,
-   "nom": "Diagnostic work-up: imaging"
+   "nom": "Bilan diagnostique : imagerie"
   },
   {
    "id": 6,
-   "nom": "Prognosis and Treatment"
+   "nom": "Pronostic et traitement"
   },
   {
    "id": 7,
-   "nom": "Medical Dental History"
+   "nom": "Anamnèse médicale en odontologie"
   },
   {
    "id": 8,
-   "nom": "Cancer: prevention, diagnosis and treatment"
+   "nom": "Cancer : prévention, diagnostic et traitement"
   },
   {
    "id": 9,
-   "nom": "Oropharyngeal cancer"
+   "nom": "Cancer de la cavité buccale et de l'oropharynx"
   }
  ],
  "dentPeriodoncia": [
   {
    "id": 1,
-   "nom": "Anatomy of the Periodontium"
+   "nom": "Anatomie du parodonte"
   },
   {
    "id": 2,
-   "nom": "The mucosa in toothed and peri-implant areas"
+   "nom": "La muqueuse autour des dents et des implants"
   },
   {
    "id": 3,
-   "nom": "Bone"
+   "nom": "Os alvéolaire"
   },
   {
    "id": 4,
-   "nom": "Epidemiology of periodontal diseases"
+   "nom": "Épidémiologie des maladies parodontales"
   },
   {
    "id": 5,
-   "nom": "Biofilm and Dental Calculus"
+   "nom": "Biofilm et tartre dentaire"
   },
   {
    "id": 6,
-   "nom": "Periodontal Infections"
+   "nom": "Infections parodontales"
   },
   {
    "id": 7,
-   "nom": "Pathogenesis of Periodontitis"
+   "nom": "Pathogénie de la parodontite"
   },
   {
    "id": 8,
-   "nom": "Non-Dental Biofilm-Induced Gingival Diseases"
+   "nom": "Maladies gingivales non induites par le biofilm dentaire"
   },
   {
    "id": 9,
-   "nom": "Dental Biofilm-Induced Gingival Diseases"
+   "nom": "Maladies gingivales induites par le biofilm dentaire"
   },
   {
    "id": 10,
-   "nom": "Periodontitis"
+   "nom": "Parodontite"
   },
   {
    "id": 11,
-   "nom": "Molar Incisor Pattern Periodontitis"
+   "nom": "Parodontite à profil molaire-incisive"
   },
   {
    "id": 12,
-   "nom": "Necrotizing Periodontal Diseases"
+   "nom": "Maladies parodontales nécrosantes"
   },
   {
    "id": 13,
-   "nom": "Mechanical Supra-Gingival Plaque Control"
+   "nom": "Contrôle mécanique de la plaque supragingivale"
   },
   {
    "id": 14,
-   "nom": "Non-surgical periodontal treatment"
+   "nom": "Traitement parodontal non chirurgical"
   }
  ],
  "dentPharmacoFin": [
   {
    "id": 1,
-   "nom": "General principles of atb"
+   "nom": "Principes généraux des antibactériens"
   },
   {
    "id": 2,
-   "nom": "Antibiotics I"
+   "nom": "Antibiotiques I"
   },
   {
    "id": 3,
-   "nom": "Antibiotics II"
+   "nom": "Antibiotiques II"
   },
   {
    "id": 4,
-   "nom": "Antiviral and antifungal drugs"
+   "nom": "Antiviraux et antifongiques"
   },
   {
    "id": 5,
-   "nom": "Antiseptics, caries, aphthae and halitosis"
+   "nom": "Antiseptiques et désinfectants ; caries, aphtes et halitose"
   },
   {
    "id": 6,
-   "nom": "Treatment of oropharyngeal infection"
+   "nom": "Traitement des infections oropharyngées"
   },
   {
    "id": 7,
-   "nom": "Antihypertensive. Vasodilators. diuretic drugs"
+   "nom": "Antihypertenseurs, vasodilatateurs et diurétiques"
   },
   {
    "id": 8,
-   "nom": "Inotropics, antiarrhythmic agents and antianginals"
+   "nom": "Inotropes, antiarythmiques et antiangineux"
   },
   {
    "id": 9,
-   "nom": "Anticoagulants, antiplatelet and fibrinolytic drugs"
+   "nom": "Anticoagulants, antiagrégants plaquettaires et fibrinolytiques"
   },
   {
    "id": 10,
-   "nom": "Diabetes mellitus: insulin and hypoglycemic agents"
+   "nom": "Traitement du diabète : insuline et hypoglycémiants"
   },
   {
    "id": 11,
-   "nom": "Gastrointestinal drugs"
+   "nom": "Médicaments de l'appareil digestif"
   },
   {
    "id": 12,
-   "nom": "Respiratory Pharmacology"
+   "nom": "Pharmacologie respiratoire"
   },
   {
    "id": 13,
-   "nom": "Pharmacology of bone"
+   "nom": "Pharmacologie de l'os"
   },
   {
    "id": 14,
-   "nom": "Cytostatic drugs"
+   "nom": "Cytostatiques"
   }
  ],
  "dentPharmacoMid": [
   {
    "id": 1,
-   "nom": "Concepthistoryevol"
+   "nom": "Concept et évolution historique de la pharmacologie"
   },
   {
    "id": 2,
-   "nom": "Pharmacokinetics"
+   "nom": "Pharmacocinétique"
   },
   {
    "id": 3,
-   "nom": "Pharmacodynamics"
+   "nom": "Pharmacodynamie"
   },
   {
    "id": 4,
-   "nom": "Adverse drug reactions"
+   "nom": "Effets indésirables des médicaments"
   },
   {
    "id": 5,
-   "nom": "Drug Interactions"
+   "nom": "Interactions médicamenteuses"
   },
   {
    "id": 6,
-   "nom": "Autonomic Nervous System"
+   "nom": "Système nerveux autonome"
   },
   {
    "id": 7,
-   "nom": "Neuromuscular blockers"
+   "nom": "Bloqueurs neuromusculaires"
   },
   {
    "id": 8,
-   "nom": "Opioid"
+   "nom": "Analgésiques opioïdes"
   },
   {
    "id": 9,
-   "nom": "Nsaids"
+   "nom": "Analgésiques et AINS"
   },
   {
    "id": 10,
-   "nom": "Corticoids"
+   "nom": "Corticoïdes"
   },
   {
    "id": 11,
-   "nom": "Antimigraine and antihistamine drugs"
+   "nom": "Antimigraineux et antihistaminiques"
   },
   {
    "id": 12,
-   "nom": "Benzodiazepines"
+   "nom": "Benzodiazépines"
   },
   {
    "id": 13,
-   "nom": "Antidepressants and antiepileptic drugs"
+   "nom": "Antidépresseurs et antiépileptiques"
   },
   {
    "id": 14,
-   "nom": "Local and general anesthetics"
+   "nom": "Anesthésiques locaux et généraux"
   }
  ],
  "dentPhysiology": [
   {
    "id": 1,
-   "nom": "Introduction to PSS and the Oral Cavity"
+   "nom": "Introduction au système stomatognathique et à la cavité buccale"
   },
   {
    "id": 2,
-   "nom": "Enamel"
+   "nom": "Émail"
   },
   {
    "id": 3,
-   "nom": "Dentin and Pulp"
+   "nom": "Dentine et pulpe"
   },
   {
    "id": 4,
-   "nom": "Periodontium"
+   "nom": "Parodonte"
   },
   {
    "id": 5,
-   "nom": "Embryology"
+   "nom": "Embryologie dentaire"
   },
   {
    "id": 6,
-   "nom": "Cranial Nerves"
+   "nom": "Nerfs crâniens"
   },
   {
    "id": 7,
-   "nom": "Trigeminal Nerve - Generalities"
+   "nom": "Nerf trijumeau : généralités"
   },
   {
    "id": 8,
-   "nom": "Trigeminal Nerve - Branches"
+   "nom": "Nerf trijumeau : branches"
   },
   {
    "id": 9,
-   "nom": "Trigeminal Nerve - Pathways"
+   "nom": "Nerf trijumeau : voies"
   },
   {
    "id": 10,
-   "nom": "Introduction to the Somatosensory System"
+   "nom": "Introduction au système somatosensoriel"
   },
   {
    "id": 11,
-   "nom": "Somatosensory system: mechano- and proprioceptors"
+   "nom": "Système somatosensoriel : mécanorécepteurs et propriocepteurs"
   },
   {
    "id": 12,
-   "nom": "Temperature and pain - FSE 24"
+   "nom": "Température et douleur"
   },
   {
    "id": 13,
-   "nom": "Orofacial Pain"
+   "nom": "Douleur oro-faciale"
   },
   {
    "id": 14,
-   "nom": "Motor Control of Mastication"
+   "nom": "Contrôle moteur de la mastication"
   },
   {
    "id": 15,
-   "nom": "Salivary Glands - Innervation"
+   "nom": "Glandes salivaires : innervation"
   },
   {
    "id": 16,
-   "nom": "Salivary Glands - Physiology"
+   "nom": "Glandes salivaires : physiologie de la sécrétion"
   },
   {
    "id": 17,
-   "nom": "Salivary Glands - Anatomy and Histology"
+   "nom": "Glandes salivaires : anatomie et histologie"
   },
   {
    "id": 18,
-   "nom": "Taste"
+   "nom": "Goût"
   },
   {
    "id": 19,
-   "nom": "Swallowing"
+   "nom": "Déglutition"
   }
  ],
  "dentSemiology1": [
   {
    "id": 1,
-   "nom": "General concepts"
+   "nom": "Concepts de base en sémiologie et physiopathologie"
   },
   {
    "id": 2,
-   "nom": "Immune system pathophysiology"
+   "nom": "Physiopathologie du système immunitaire"
   },
   {
    "id": 3,
-   "nom": "Infectious pathophysiology"
+   "nom": "Physiopathologie des maladies infectieuses"
   },
   {
    "id": 4,
-   "nom": "Environmental diseasses"
+   "nom": "Maladies environnementales"
   },
   {
    "id": 5,
-   "nom": "Congenital and genetic diseases"
+   "nom": "Maladies génétiques et congénitales"
   },
   {
    "id": 6,
-   "nom": "Neoplasias"
+   "nom": "Physiopathologie des néoplasies"
   },
   {
    "id": 7,
-   "nom": "Eating pathophys"
+   "nom": "Troubles de la nutrition et du comportement alimentaire"
   },
   {
    "id": 8,
-   "nom": "Approach to hematology"
+   "nom": "Approche de l'hématologie"
   },
   {
    "id": 9,
-   "nom": "RBC pathophysiology"
+   "nom": "Troubles des globules rouges : anémie et polyglobulie"
   },
   {
    "id": 10,
-   "nom": "WBC pathophysiology"
+   "nom": "Troubles des globules blancs : leucémies et lymphomes"
   },
   {
    "id": 11,
-   "nom": "Coagulation pathophysiology"
+   "nom": "Troubles de la coagulation"
   },
   {
    "id": 12,
-   "nom": "Cardiovascular introduction"
+   "nom": "Approche du patient cardiovasculaire : physiologie et examen"
   },
   {
    "id": 13,
-   "nom": "Atherosclerosis"
+   "nom": "Athérosclérose"
   },
   {
    "id": 14,
-   "nom": "Ischemic heart disease"
+   "nom": "Cardiopathie ischémique"
   },
   {
    "id": 15,
-   "nom": "Heart failure"
+   "nom": "Insuffisance cardiaque gauche et droite"
   },
   {
    "id": 16,
-   "nom": "Blood pressure pathophys"
+   "nom": "Hypertension artérielle, hypotension et choc"
   },
   {
    "id": 17,
-   "nom": "Valvular heart diseases"
+   "nom": "Valvulopathies"
   },
   {
    "id": 18,
-   "nom": "Arrhythmias"
+   "nom": "ECG normal et arythmies"
   },
   {
    "id": 19,
-   "nom": "Peripheral vascular diseases"
+   "nom": "Maladies vasculaires périphériques : artères et veines"
   },
   {
    "id": 20,
-   "nom": "Respiratory pathophysiology: introduction"
+   "nom": "Approche du patient respiratoire : physiologie et examen"
   },
   {
    "id": 21,
-   "nom": "Respiratory failure"
+   "nom": "Insuffisance respiratoire"
   },
   {
    "id": 22,
-   "nom": "Obstructive pulmonary diseases"
+   "nom": "Maladies pulmonaires obstructives"
   },
   {
    "id": 23,
-   "nom": "Rectrictive pulmonary diseases"
+   "nom": "Maladies pulmonaires restrictives"
   },
   {
    "id": 24,
-   "nom": "Pulmonary hypertension"
+   "nom": "Hypertension pulmonaire"
   }
  ],
  "dentSemiology2": [
   {
    "id": 1,
-   "nom": "Approach to patient with digestive disease"
+   "nom": "Approche du patient atteint de maladie digestive"
   },
   {
    "id": 2,
-   "nom": "Esophageal pathophysiology"
+   "nom": "Maladies de l'œsophage"
   },
   {
    "id": 3,
-   "nom": "Gastroduodenal pathophysiology"
+   "nom": "Maladies de l'estomac et du duodénum"
   },
   {
    "id": 4,
-   "nom": "Small and large bowel pathophysiology"
+   "nom": "Maladies de l'intestin grêle et du côlon"
   },
   {
    "id": 5,
-   "nom": "Liver or hepatic failure"
+   "nom": "Insuffisance hépatique"
   },
   {
    "id": 6,
-   "nom": "Jaundice"
+   "nom": "Ictère"
   },
   {
    "id": 7,
-   "nom": "Portal hypertension"
+   "nom": "Hypertension portale"
   },
   {
    "id": 8,
-   "nom": "Gallbladder and biliary tract diseases"
+   "nom": "Maladies du pancréas, de la vésicule et des voies biliaires"
   },
   {
    "id": 9,
-   "nom": "Approach to patients with endocrine disease"
+   "nom": "Approche du patient atteint de maladie endocrinienne"
   },
   {
    "id": 10,
-   "nom": "Diabetes Mellitus"
+   "nom": "Diabète sucré"
   },
   {
    "id": 11,
-   "nom": "Thyroid gland pathophysiology"
+   "nom": "Maladies de la thyroïde"
   },
   {
    "id": 12,
-   "nom": "Adrenal gland pathophysiology"
+   "nom": "Maladies des glandes surrénales"
   },
   {
    "id": 13,
-   "nom": "Pituitary gland pathophysiology"
+   "nom": "Maladies de l'hypophyse"
   },
   {
    "id": 14,
-   "nom": "Approach to patient with nephrourological diseases"
+   "nom": "Approche du patient atteint de maladie rénale"
   },
   {
    "id": 15,
-   "nom": "Acute and chronic renal failure"
+   "nom": "Insuffisance rénale aiguë et chronique"
   },
   {
    "id": 16,
-   "nom": "Glomerular diseases"
+   "nom": "Maladies glomérulaires"
   },
   {
    "id": 17,
-   "nom": "Urinary tract diseases"
+   "nom": "Maladies des voies urinaires"
   },
   {
    "id": 18,
-   "nom": "Bone pathophysiology"
+   "nom": "Maladies osseuses"
   },
   {
    "id": 19,
-   "nom": "Joint pathophysiology"
+   "nom": "Maladies articulaires"
   },
   {
    "id": 20,
-   "nom": "Approach to patient with a neurological disease"
+   "nom": "Approche du patient neurologique : examen neurologique"
   },
   {
    "id": 21,
-   "nom": "Consciousness pathophysiology"
+   "nom": "Troubles de la conscience : coma, syncope et crises"
   },
   {
    "id": 22,
-   "nom": "Motor system pathophysiology"
+   "nom": "Troubles du système moteur"
   },
   {
    "id": 23,
-   "nom": "CSF and meninges pathophysiology"
+   "nom": "Troubles du liquide cérébrospinal et des méninges"
   },
   {
    "id": 24,
-   "nom": "Cranial nerves pathophysiology"
+   "nom": "Atteintes des nerfs crâniens"
   },
   {
    "id": 25,
-   "nom": "Neuropathy and myopathy"
+   "nom": "Neuropathies et myopathies"
   }
  ],
  "histoireKine": [
@@ -2786,231 +2786,231 @@ window.CHAPITRES = {
  "dentAFI1": [
   {
    "id": 1,
-   "nom": "Introduction: body organisation, homeostasis and terminology"
+   "nom": "Introduction : organisation du corps, homéostasie et terminologie"
   },
   {
    "id": 2,
-   "nom": "Tissues: epithelial, connective and membranes"
+   "nom": "Tissus : épithélial, conjonctif et membranes"
   },
   {
    "id": 3,
-   "nom": "Integumentary system"
+   "nom": "Système tégumentaire"
   },
   {
    "id": 4,
-   "nom": "Cartilage, bone, skeleton and joints"
+   "nom": "Cartilage, os, squelette et articulations"
   },
   {
    "id": 5,
-   "nom": "Blood and haemostasis"
+   "nom": "Sang et hémostase"
   },
   {
    "id": 6,
-   "nom": "Nervous tissue and neurophysiology"
+   "nom": "Tissu nerveux et neurophysiologie"
   },
   {
    "id": 7,
-   "nom": "Muscle tissue and muscular system"
+   "nom": "Tissu musculaire et système musculaire"
   },
   {
    "id": 8,
-   "nom": "Central nervous system"
+   "nom": "Système nerveux central"
   },
   {
    "id": 9,
-   "nom": "Autonomic nervous system"
+   "nom": "Système nerveux autonome"
   }
  ],
  "dentAFI2": [
   {
    "id": 1,
-   "nom": "Heart: anatomy and histology"
+   "nom": "Cœur : anatomie et histologie"
   },
   {
    "id": 2,
-   "nom": "Blood vessels: anatomy and histology"
+   "nom": "Vaisseaux sanguins : anatomie et histologie"
   },
   {
    "id": 3,
-   "nom": "Cardiac physiology: electrical activity and ECG"
+   "nom": "Physiologie cardiaque : activité électrique et ECG"
   },
   {
    "id": 4,
-   "nom": "Cardiac physiology: the heart as a pump (cardiac cycle)"
+   "nom": "Physiologie cardiaque : le cycle cardiaque"
   },
   {
    "id": 5,
-   "nom": "Vascular physiology: haemodynamics, blood pressure and microcirculation"
+   "nom": "Hémodynamique, pression artérielle et microcirculation"
   },
   {
    "id": 6,
-   "nom": "Cardiac output and its nervous regulation"
+   "nom": "Débit cardiaque et sa régulation nerveuse"
   },
   {
    "id": 7,
-   "nom": "Respiratory system: anatomy and histology"
+   "nom": "Appareil respiratoire : anatomie et histologie"
   },
   {
    "id": 8,
-   "nom": "Respiratory physiology: pulmonary ventilation"
+   "nom": "Physiologie respiratoire : ventilation pulmonaire"
   },
   {
    "id": 9,
-   "nom": "Respiratory physiology: gas exchange, gas transport and control of breathing"
+   "nom": "Échanges et transport des gaz, contrôle de la respiration"
   },
   {
    "id": 10,
-   "nom": "Digestive system: anatomy and histology"
+   "nom": "Appareil digestif : anatomie et histologie"
   },
   {
    "id": 11,
-   "nom": "Digestive physiology and accessory organs"
+   "nom": "Physiologie digestive et glandes annexes"
   },
   {
    "id": 12,
-   "nom": "Urinary system: anatomy and histology"
+   "nom": "Appareil urinaire : anatomie et histologie"
   },
   {
    "id": 13,
-   "nom": "Urinary physiology: filtration, reabsorption, secretion and water-electrolyte balance"
+   "nom": "Physiologie rénale et équilibre hydroélectrolytique"
   },
   {
    "id": 14,
-   "nom": "Endocrine system I: general principles"
+   "nom": "Système endocrinien I : principes généraux"
   },
   {
    "id": 15,
-   "nom": "Endocrine system II: endocrine glands and secretions"
+   "nom": "Système endocrinien II : glandes et sécrétions endocrines"
   }
  ],
  "dentAdvPerio": [
   {
    "id": 1,
-   "nom": "Basic periodontology review"
+   "nom": "Rappels de parodontologie de base"
   },
   {
    "id": 2,
-   "nom": "Basic vs surgical treatment"
+   "nom": "Traitement parodontal non chirurgical ou chirurgical"
   },
   {
    "id": 3,
-   "nom": "Occlusal trauma"
+   "nom": "Traumatisme occlusal"
   },
   {
    "id": 4,
-   "nom": "Conventional periodontal surgery"
+   "nom": "Chirurgie parodontale conventionnelle"
   },
   {
    "id": 5,
-   "nom": "Mucogingival surgery"
+   "nom": "Chirurgie mucogingivale"
   },
   {
    "id": 6,
-   "nom": "Periodontal regeneration"
+   "nom": "Régénération parodontale"
   }
  ],
  "dentAnthropo": [
   {
    "id": 1,
-   "nom": "Medical language and terminology"
+   "nom": "Langage et terminologie médicale"
   },
   {
    "id": 2,
-   "nom": "Professional ethics and deontology"
+   "nom": "Éthique et déontologie professionnelle"
   },
   {
    "id": 3,
-   "nom": "Prescientific and alternative medicine. Scientific medicine"
+   "nom": "Médecine préscientifique, alternative et scientifique"
   },
   {
    "id": 4,
-   "nom": "Palaeopathology"
+   "nom": "Paléopathologie"
   },
   {
    "id": 5,
-   "nom": "Archaic cultures: Mesopotamia, ancient Israel, ancient Egypt, Phoenicians"
+   "nom": "Cultures archaïques : Mésopotamie, Israël, Égypte, Phénicie"
   },
   {
    "id": 6,
-   "nom": "Surviving archaic cultures: India, China, Japan, pre-Columbian America"
+   "nom": "Cultures archaïques survivantes : Asie et Amérique précolombienne"
   },
   {
    "id": 7,
-   "nom": "Classical cultures: Greece, Rome, Etruria"
+   "nom": "Cultures classiques : Grèce, Rome, Étrurie"
   },
   {
    "id": 8,
-   "nom": "The Middle Ages"
+   "nom": "Le Moyen Âge"
   },
   {
    "id": 9,
-   "nom": "The Renaissance in Europe. Spain"
+   "nom": "La Renaissance en Europe et en Espagne"
   },
   {
    "id": 10,
-   "nom": "The 18th century"
+   "nom": "Le XVIIIe siècle"
   },
   {
    "id": 11,
-   "nom": "Spanish dentistry in the Enlightenment"
+   "nom": "L'odontologie espagnole au siècle des Lumières"
   },
   {
    "id": 12,
-   "nom": "Dentistry in the United States in the 19th century"
+   "nom": "L'odontologie aux États-Unis au XIXe siècle"
   },
   {
    "id": 13,
-   "nom": "Spanish dentistry in the 19th century"
+   "nom": "L'odontologie espagnole au XIXe siècle"
   },
   {
    "id": 14,
-   "nom": "Spain in the 20th century"
+   "nom": "L'Espagne au XXe siècle"
   },
   {
    "id": 15,
-   "nom": "Establishment of the dental profession"
+   "nom": "Constitution de la profession dentaire"
   },
   {
    "id": 16,
-   "nom": "Allied dental professions"
+   "nom": "Professions dentaires auxiliaires"
   },
   {
    "id": 17,
-   "nom": "Health service systems"
+   "nom": "Systèmes de santé"
   },
   {
    "id": 18,
-   "nom": "History of Spanish dental journalism"
+   "nom": "Histoire de la presse dentaire espagnole"
   }
  ],
  "dentBiochem": [
   {
    "id": 1,
-   "nom": "Introduction to biochemistry"
+   "nom": "Introduction à la biochimie"
   },
   {
    "id": 2,
-   "nom": "Chemical basis of life"
+   "nom": "Bases chimiques de la vie"
   },
   {
    "id": 3,
-   "nom": "Water"
+   "nom": "L'eau"
   },
   {
    "id": 4,
-   "nom": "Proteins"
+   "nom": "Protéines"
   },
   {
    "id": 5,
-   "nom": "Carbohydrates"
+   "nom": "Glucides"
   },
   {
    "id": 6,
-   "nom": "Lipids"
+   "nom": "Lipides"
   },
   {
    "id": 7,
-   "nom": "Nucleic acids"
+   "nom": "Acides nucléiques"
   },
   {
    "id": 8,
@@ -3018,87 +3018,87 @@ window.CHAPITRES = {
   },
   {
    "id": 9,
-   "nom": "Introduction to metabolism"
+   "nom": "Introduction au métabolisme"
   },
   {
    "id": 10,
-   "nom": "Carbohydrate metabolism"
+   "nom": "Métabolisme des glucides"
   },
   {
    "id": 11,
-   "nom": "Oral cavity: saliva and extracellular matrix of the periodontium"
+   "nom": "Salive et matrice extracellulaire du parodonte"
   }
  ],
  "dentCommunity": [
   {
    "id": 1,
-   "nom": "Principles of prevention and health promotion in dentistry"
+   "nom": "Prévention et promotion de la santé en odontologie"
   },
   {
    "id": 2,
-   "nom": "Methods for evaluating oral health and disease I"
+   "nom": "Méthodes d'évaluation de la santé bucco-dentaire I"
   },
   {
    "id": 3,
-   "nom": "Methods for evaluating oral health and disease II"
+   "nom": "Méthodes d'évaluation de la santé bucco-dentaire II"
   },
   {
    "id": 4,
-   "nom": "Epidemiology in dentistry"
+   "nom": "Épidémiologie en odontologie"
   },
   {
    "id": 5,
-   "nom": "Introduction to biostatistics"
+   "nom": "Introduction à la biostatistique"
   },
   {
    "id": 6,
-   "nom": "Planning and scheduling"
+   "nom": "Planification et programmation"
   },
   {
    "id": 7,
-   "nom": "Oral preventive programmes for specific groups I"
+   "nom": "Programmes de prévention bucco-dentaire ciblés I"
   },
   {
    "id": 8,
-   "nom": "Oral preventive programmes for specific groups II"
+   "nom": "Programmes de prévention bucco-dentaire ciblés II"
   },
   {
    "id": 9,
-   "nom": "Models of dental care"
+   "nom": "Modèles de soins dentaires"
   },
   {
    "id": 10,
-   "nom": "Dental care systems in Spain"
+   "nom": "Systèmes de soins dentaires en Espagne"
   },
   {
    "id": 11,
-   "nom": "Dentistry from a social point of view"
+   "nom": "L'odontologie d'un point de vue social"
   },
   {
    "id": 12,
-   "nom": "Health promotion and education in dentistry"
+   "nom": "Promotion et éducation à la santé en odontologie"
   },
   {
    "id": 13,
-   "nom": "Caries risk assessment, prevention and non-invasive treatment"
+   "nom": "Risque carieux, prévention et traitement non invasif"
   },
   {
    "id": 14,
-   "nom": "Evidence-based dentistry"
+   "nom": "Odontologie fondée sur les preuves"
   },
   {
    "id": 15,
-   "nom": "Gerodontology"
+   "nom": "Gérodontologie"
   },
   {
    "id": 16,
-   "nom": "Quality of life related to oral health"
+   "nom": "Qualité de vie liée à la santé bucco-dentaire"
   }
  ],
  "dentDocu": [
   {
    "id": 1,
-   "nom": "The scientific proposal"
+   "nom": "Le projet de recherche"
   },
   {
    "id": 2,
@@ -3106,691 +3106,691 @@ window.CHAPITRES = {
   },
   {
    "id": 3,
-   "nom": "The Internet as a source of information"
+   "nom": "Internet comme source d'information"
   },
   {
    "id": 4,
-   "nom": "Pre-pilot study"
+   "nom": "Étude pré-pilote"
   },
   {
    "id": 5,
-   "nom": "Plagiarism"
+   "nom": "Plagiat"
   },
   {
    "id": 6,
-   "nom": "Sources of information"
+   "nom": "Sources d'information"
   },
   {
    "id": 7,
-   "nom": "Writing in science"
+   "nom": "Rédaction scientifique"
   },
   {
    "id": 8,
-   "nom": "The scientific poster"
+   "nom": "Le poster scientifique"
   },
   {
    "id": 9,
-   "nom": "Peer review"
+   "nom": "Évaluation par les pairs"
   },
   {
    "id": 10,
-   "nom": "Presentation of the research"
+   "nom": "Présentation de la recherche"
   }
  ],
  "dentEmergencies": [
   {
    "id": 1,
-   "nom": "Initial assessment and basic life support"
+   "nom": "Évaluation initiale et réanimation de base"
   },
   {
    "id": 2,
-   "nom": "Risk assessment and emergency preparedness"
+   "nom": "Évaluation du risque et préparation aux urgences"
   },
   {
    "id": 3,
-   "nom": "Altered consciousness, syncope, seizures and stroke"
+   "nom": "Troubles de la conscience, syncope, convulsions et AVC"
   },
   {
    "id": 4,
-   "nom": "Respiratory emergencies"
+   "nom": "Urgences respiratoires"
   },
   {
    "id": 5,
-   "nom": "Cardiovascular emergencies"
+   "nom": "Urgences cardiovasculaires"
   },
   {
    "id": 6,
-   "nom": "Shock, hypotension and hypertension"
+   "nom": "Choc, hypotension et hypertension"
   },
   {
    "id": 7,
-   "nom": "Allergy and anaphylaxis"
+   "nom": "Allergie et anaphylaxie"
   },
   {
    "id": 8,
-   "nom": "Endocrine emergencies"
+   "nom": "Urgences endocriniennes"
   },
   {
    "id": 9,
-   "nom": "Bleeding and haemostasis"
+   "nom": "Hémorragies et hémostase"
   },
   {
    "id": 10,
-   "nom": "Paediatric emergencies"
+   "nom": "Urgences pédiatriques"
   },
   {
    "id": 11,
-   "nom": "Occupational hazards in the dental office"
+   "nom": "Risques professionnels au cabinet dentaire"
   }
  ],
  "dentEpi": [
   {
    "id": 1,
-   "nom": "Basic concepts of statistics"
+   "nom": "Concepts de base en statistique"
   },
   {
    "id": 2,
-   "nom": "Descriptive statistics"
+   "nom": "Statistique descriptive"
   },
   {
    "id": 3,
-   "nom": "Measures of frequency. Tables and graphs"
+   "nom": "Mesures de fréquence, tableaux et graphiques"
   },
   {
    "id": 4,
-   "nom": "Applications of probability. Sensitivity and specificity"
+   "nom": "Probabilités : sensibilité et spécificité"
   },
   {
    "id": 5,
-   "nom": "Probability distributions"
+   "nom": "Lois de probabilité"
   },
   {
    "id": 6,
-   "nom": "Hypothesis testing"
+   "nom": "Tests d'hypothèse"
   },
   {
    "id": 7,
-   "nom": "Statistical models"
+   "nom": "Modèles statistiques"
   },
   {
    "id": 8,
-   "nom": "Epidemiology: basic concepts"
+   "nom": "Épidémiologie : concepts de base"
   },
   {
    "id": 9,
-   "nom": "Risk factors and causality in epidemiology"
+   "nom": "Facteurs de risque et causalité en épidémiologie"
   },
   {
    "id": 10,
-   "nom": "Types of epidemiological studies"
+   "nom": "Types d'études épidémiologiques"
   },
   {
    "id": 11,
-   "nom": "Health and its determinants"
+   "nom": "La santé et ses déterminants"
   },
   {
    "id": 12,
-   "nom": "Health demography"
+   "nom": "Démographie sanitaire"
   },
   {
    "id": 13,
-   "nom": "Communicable diseases"
+   "nom": "Maladies transmissibles"
   },
   {
    "id": 14,
-   "nom": "Epidemiology and prevention of highly prevalent and fatal diseases"
+   "nom": "Épidémiologie et prévention des maladies prévalentes et mortelles"
   },
   {
    "id": 15,
-   "nom": "Epidemiology and prevention of the most common oral diseases"
+   "nom": "Épidémiologie et prévention des maladies bucco-dentaires"
   }
  ],
  "dentErgonomics": [
   {
    "id": 1,
-   "nom": "Introduction to ergonomics"
+   "nom": "Introduction à l'ergonomie"
   },
   {
    "id": 2,
-   "nom": "Health economics and performance"
+   "nom": "Économie de la santé et rendement"
   },
   {
    "id": 3,
-   "nom": "Dental practice planning and design"
+   "nom": "Planification et conception du cabinet dentaire"
   },
   {
    "id": 4,
-   "nom": "Administration and management of a dental clinic"
+   "nom": "Administration et gestion du cabinet dentaire"
   },
   {
    "id": 5,
-   "nom": "Dental clinic staff"
+   "nom": "Le personnel du cabinet dentaire"
   },
   {
    "id": 6,
-   "nom": "Communication in dentistry"
+   "nom": "Communication en odontologie"
   },
   {
    "id": 7,
-   "nom": "Quality in dentistry"
+   "nom": "Qualité en odontologie"
   },
   {
    "id": 8,
-   "nom": "Patient care and loyalty"
+   "nom": "Prise en charge et fidélisation des patients"
   },
   {
    "id": 9,
-   "nom": "Time management in the dental clinic"
+   "nom": "Gestion du temps au cabinet dentaire"
   },
   {
    "id": 10,
-   "nom": "Marketing in the dental clinic"
+   "nom": "Marketing au cabinet dentaire"
   },
   {
    "id": 11,
-   "nom": "Photography and intraoral scanning in dentistry"
+   "nom": "Photographie et scanner intra-oral en odontologie"
   }
  ],
  "dentImplants": [
   {
    "id": 1,
-   "nom": "History of implantology"
+   "nom": "Histoire de l'implantologie"
   },
   {
    "id": 2,
-   "nom": "Osseointegration and post-extraction healing"
+   "nom": "Ostéo-intégration et cicatrisation post-extractionnelle"
   },
   {
    "id": 3,
-   "nom": "Implant design, connections and surfaces"
+   "nom": "Implants : forme, connexions et surfaces"
   },
   {
    "id": 4,
-   "nom": "Bone quality and quantity classifications"
+   "nom": "Classifications de la qualité et du volume osseux"
   },
   {
    "id": 5,
-   "nom": "Diagnosis and treatment planning"
+   "nom": "Diagnostic et plan de traitement"
   },
   {
    "id": 6,
-   "nom": "Surgical protocol"
+   "nom": "Protocole chirurgical"
   },
   {
    "id": 7,
-   "nom": "Extraction socket management and guided bone regeneration"
+   "nom": "Gestion de l'alvéole et régénération osseuse guidée"
   },
   {
    "id": 8,
-   "nom": "Aesthetic implant placement"
+   "nom": "Pose d'implants en zone esthétique"
   },
   {
    "id": 9,
-   "nom": "Implant-supported prosthetics"
+   "nom": "Prothèse implanto-portée"
   },
   {
    "id": 10,
-   "nom": "Complications in implant dentistry"
+   "nom": "Complications en implantologie"
   }
  ],
  "dentMicro": [
   {
    "id": 1,
-   "nom": "General immunology"
+   "nom": "Immunologie générale"
   },
   {
    "id": 2,
-   "nom": "Bacterial morphology and structures"
+   "nom": "Morphologie et structures bactériennes"
   },
   {
    "id": 3,
-   "nom": "Bacterial metabolism"
+   "nom": "Métabolisme bactérien"
   },
   {
    "id": 4,
-   "nom": "Bacterial genetics"
+   "nom": "Génétique bactérienne"
   },
   {
    "id": 5,
-   "nom": "Antimicrobials"
+   "nom": "Antimicrobiens"
   },
   {
    "id": 6,
-   "nom": "Host-bacteria relationship"
+   "nom": "Relation hôte-bactérie"
   },
   {
    "id": 7,
-   "nom": "Basic concepts of mycology and parasitology"
+   "nom": "Notions de base en mycologie et parasitologie"
   },
   {
    "id": 8,
-   "nom": "Virology"
+   "nom": "Virologie"
   },
   {
    "id": 9,
-   "nom": "Genus Staphylococcus"
+   "nom": "Genre Staphylococcus"
   },
   {
    "id": 10,
-   "nom": "Genus Streptococcus"
+   "nom": "Genre Streptococcus"
   },
   {
    "id": 11,
-   "nom": "Gram-negative bacteria: Neisseria, Pseudomonas, Enterobacteriaceae"
+   "nom": "Bacilles à Gram négatif : Neisseria, Pseudomonas, entérobactéries"
   },
   {
    "id": 12,
-   "nom": "Anaerobic bacteria"
+   "nom": "Bactéries anaérobies"
   },
   {
    "id": 13,
-   "nom": "Mycobacteria"
+   "nom": "Mycobactéries"
   },
   {
    "id": 14,
-   "nom": "Spirochaetes"
+   "nom": "Spirochètes"
   },
   {
    "id": 15,
-   "nom": "Composition and ecology of the oral microbiota"
+   "nom": "Composition et écologie du microbiote buccal"
   },
   {
    "id": 16,
-   "nom": "Dental plaque"
+   "nom": "Plaque dentaire"
   },
   {
    "id": 17,
-   "nom": "Microbiology of dental caries"
+   "nom": "Microbiologie de la carie dentaire"
   },
   {
    "id": 18,
-   "nom": "Microbiology of gingivitis and periodontitis"
+   "nom": "Microbiologie de la gingivite et de la parodontite"
   },
   {
    "id": 19,
-   "nom": "Microbiology of endodontic infection and related processes"
+   "nom": "Microbiologie des infections endodontiques"
   },
   {
    "id": 20,
-   "nom": "Complications of oral infections"
+   "nom": "Complications des infections buccales"
   }
  ],
  "dentOrtho1": [
   {
    "id": 1,
-   "nom": "Ideal occlusion"
+   "nom": "Occlusion idéale"
   },
   {
    "id": 2,
-   "nom": "Study models I"
+   "nom": "Modèles d'étude I"
   },
   {
    "id": 3,
-   "nom": "Study models II (DOD, space analysis)"
+   "nom": "Modèles d'étude II : dysharmonie dento-maxillaire"
   },
   {
    "id": 4,
-   "nom": "Oral habits leading to malocclusion"
+   "nom": "Habitudes orales à l'origine de malocclusions"
   },
   {
    "id": 5,
-   "nom": "Cephalometric analysis"
+   "nom": "Analyse céphalométrique"
   },
   {
    "id": 6,
-   "nom": "Facial analysis"
+   "nom": "Analyse faciale"
   },
   {
    "id": 7,
-   "nom": "Other topics"
+   "nom": "Croissance et altérations prénatales"
   }
  ],
  "dentOrtho2": [
   {
    "id": 1,
-   "nom": "Removable appliances I"
+   "nom": "Appareils amovibles I"
   },
   {
    "id": 2,
-   "nom": "Removable appliances II"
+   "nom": "Appareils amovibles II"
   },
   {
    "id": 3,
-   "nom": "Biomechanics I"
+   "nom": "Biomécanique I"
   },
   {
    "id": 4,
-   "nom": "Biomechanics II"
+   "nom": "Biomécanique II"
   },
   {
    "id": 5,
-   "nom": "Biomechanics III"
+   "nom": "Biomécanique III"
   },
   {
    "id": 6,
-   "nom": "Adhesion in orthodontics"
+   "nom": "Collage en orthodontie"
   },
   {
    "id": 7,
-   "nom": "Two-band fixed appliances"
+   "nom": "Appareils fixes à deux bagues"
   },
   {
    "id": 8,
-   "nom": "Fixed appliances"
+   "nom": "Appareils fixes"
   },
   {
    "id": 9,
-   "nom": "Other topics"
+   "nom": "Appareils fonctionnels"
   }
  ],
  "dentOrtho3": [
   {
    "id": 1,
-   "nom": "Unit 1.1 - Anterior Crossbite I"
+   "nom": "Occlusion inversée antérieure I"
   },
   {
    "id": 2,
-   "nom": "Unit 1.2 - Anterior Crossbite II"
+   "nom": "Occlusion inversée antérieure II"
   },
   {
    "id": 3,
-   "nom": "Unit 2.1 - Posterior Crossbite I (transverse maxillary deficiency)"
+   "nom": "Occlusion inversée postérieure I : endognathie maxillaire"
   },
   {
    "id": 4,
-   "nom": "Unit 2.2 - Posterior Crossbite II (transverse maxillary deficiency)"
+   "nom": "Occlusion inversée postérieure II : endognathie maxillaire"
   },
   {
    "id": 5,
-   "nom": "Unit 3 - Preventive, interceptive and curative orthodontics"
+   "nom": "Orthodontie préventive, interceptive et curative"
   },
   {
    "id": 6,
-   "nom": "Unit 4 - Tools in orthodontics. Diagnosis I (diagnosis of malocclusion)"
+   "nom": "Outils en orthodontie : diagnostic de la malocclusion I"
   },
   {
    "id": 7,
-   "nom": "Unit 5 - Facial biotypes"
+   "nom": "Biotypes faciaux"
   },
   {
    "id": 8,
-   "nom": "Unit 6 - Diagnosis of malocclusion II"
+   "nom": "Diagnostic de la malocclusion II"
   },
   {
    "id": 9,
-   "nom": "Unit 7 - Dental anomaly patterns"
+   "nom": "Schémas d'anomalies dentaires"
   },
   {
    "id": 10,
-   "nom": "Unit 8 - Etiology of malocclusion"
+   "nom": "Étiologie de la malocclusion"
   }
  ],
  "dentOrtho4": [
   {
    "id": 1,
-   "nom": "Unit 1 - Eruption guidance and serial extraction"
+   "nom": "Guidage de l'éruption et extractions en série"
   },
   {
    "id": 2,
-   "nom": "Unit 2 - Dental crowding"
+   "nom": "Encombrement dentaire"
   },
   {
    "id": 3,
-   "nom": "Unit 3 - Model I (Class I syndrome)"
+   "nom": "Syndrome de classe I"
   },
   {
    "id": 4,
-   "nom": "Unit 4 - Model II (Class II syndrome)"
+   "nom": "Syndrome de classe II"
   },
   {
    "id": 5,
-   "nom": "Unit 4 - Functional appliances (Class II)"
+   "nom": "Appareils fonctionnels dans la classe II"
   },
   {
    "id": 6,
-   "nom": "Unit 5 - Headgear"
+   "nom": "Forces extra-orales"
   },
   {
    "id": 7,
-   "nom": "Unit 6 - Extraction in orthodontics"
+   "nom": "Extractions en orthodontie"
   },
   {
    "id": 8,
-   "nom": "Unit 7 - High angle model (open bite / long face)"
+   "nom": "Modèle hyperdivergent : béance et face longue"
   },
   {
    "id": 9,
-   "nom": "Unit 8 - Class III treatment (interceptive treatment factors)"
+   "nom": "Classe III : facteurs du traitement interceptif"
   },
   {
    "id": 10,
-   "nom": "Model III: Class III syndrome"
+   "nom": "Syndrome de classe III"
   },
   {
    "id": 11,
-   "nom": "Short face (low angle) and deep bite"
+   "nom": "Modèle hypodivergent : face courte et supraclusion"
   }
  ],
  "dentPedia1": [
   {
    "id": 1,
-   "nom": "Primary dentition morphology"
+   "nom": "Morphologie de la denture temporaire"
   },
   {
    "id": 2,
-   "nom": "Nomenclature and dental maturity"
+   "nom": "Nomenclature et maturité dentaire"
   },
   {
    "id": 3,
-   "nom": "Tooth isolation"
+   "nom": "Isolement du champ opératoire"
   },
   {
    "id": 4,
-   "nom": "Dental caries in children I"
+   "nom": "Carie de l'enfant I"
   },
   {
    "id": 5,
-   "nom": "Dental caries in children II"
+   "nom": "Carie de l'enfant II"
   },
   {
    "id": 6,
-   "nom": "Dental caries in children III"
+   "nom": "Carie de l'enfant III"
   },
   {
    "id": 7,
-   "nom": "Dental development"
+   "nom": "Développement dentaire"
   },
   {
    "id": 8,
-   "nom": "Dental eruption"
+   "nom": "Éruption dentaire"
   },
   {
    "id": 9,
-   "nom": "Eruption pathology"
+   "nom": "Pathologie de l'éruption"
   },
   {
    "id": 10,
-   "nom": "Primary dentition occlusion"
+   "nom": "Occlusion de la denture temporaire"
   },
   {
    "id": 11,
-   "nom": "Eruption of the permanent dentition"
+   "nom": "Éruption de la denture permanente"
   }
  ],
  "dentPedia2": [
   {
    "id": 1,
-   "nom": "Composite restorations"
+   "nom": "Restaurations en composite"
   },
   {
    "id": 2,
-   "nom": "Pulp pathology and therapy I"
+   "nom": "Pathologie et thérapeutique pulpaires I"
   },
   {
    "id": 3,
-   "nom": "Pulp pathology and therapy II"
+   "nom": "Pathologie et thérapeutique pulpaires II"
   },
   {
    "id": 4,
-   "nom": "Pulp pathology and therapy III"
+   "nom": "Pathologie et thérapeutique pulpaires III"
   },
   {
    "id": 5,
-   "nom": "Restoration of extensively destroyed teeth"
+   "nom": "Restauration des dents très délabrées"
   },
   {
    "id": 6,
-   "nom": "Dental trauma I"
+   "nom": "Traumatismes dentaires I"
   },
   {
    "id": 7,
-   "nom": "Dental trauma II (hard tissues)"
+   "nom": "Traumatismes dentaires II : tissus durs"
   },
   {
    "id": 8,
-   "nom": "Dental trauma III (periodontal tissues)"
+   "nom": "Traumatismes dentaires III : tissus parodontaux"
   },
   {
    "id": 9,
-   "nom": "Space maintainers I"
+   "nom": "Mainteneurs d'espace I"
   },
   {
    "id": 10,
-   "nom": "Space maintainers II"
+   "nom": "Mainteneurs d'espace II"
   },
   {
    "id": 11,
-   "nom": "Other topics"
+   "nom": "Plan de traitement en odontologie pédiatrique"
   }
  ],
  "dentPedia3": [
   {
    "id": 1,
-   "nom": "Behaviour management I"
+   "nom": "Gestion du comportement I"
   },
   {
    "id": 2,
-   "nom": "Behaviour management II"
+   "nom": "Gestion du comportement II"
   },
   {
    "id": 3,
-   "nom": "Local anaesthesia"
+   "nom": "Anesthésie locale chez l'enfant"
   },
   {
    "id": 4,
-   "nom": "Sedation in paediatric dentistry"
+   "nom": "Sédation en odontologie pédiatrique"
   },
   {
    "id": 5,
-   "nom": "General anaesthesia"
+   "nom": "Anesthésie générale chez l'enfant"
   },
   {
    "id": 6,
-   "nom": "Pharmacology"
+   "nom": "Pharmacologie chez l'enfant"
   },
   {
    "id": 7,
-   "nom": "Craniofacial growth I"
+   "nom": "Croissance craniofaciale I"
   },
   {
    "id": 8,
-   "nom": "Craniofacial growth II"
+   "nom": "Croissance craniofaciale II"
   },
   {
    "id": 9,
-   "nom": "Syndromes I"
+   "nom": "Syndromes à répercussion craniofaciale I"
   },
   {
    "id": 10,
-   "nom": "Syndromes II"
+   "nom": "Syndromes à répercussion craniofaciale II"
   }
  ],
  "dentPedia4": [
   {
    "id": 1,
-   "nom": "Dental anomalies I"
+   "nom": "Anomalies dentaires I"
   },
   {
    "id": 2,
-   "nom": "Dental anomalies II"
+   "nom": "Anomalies dentaires II"
   },
   {
    "id": 3,
-   "nom": "Dental anomalies III"
+   "nom": "Anomalies dentaires III"
   },
   {
    "id": 4,
-   "nom": "Dental anomalies IV"
+   "nom": "Anomalies dentaires IV"
   },
   {
    "id": 5,
-   "nom": "Surgical pathology"
+   "nom": "Pathologie chirurgicale"
   },
   {
    "id": 6,
-   "nom": "Medically compromised patients I"
+   "nom": "Patients médicalement compromis I"
   },
   {
    "id": 7,
-   "nom": "Medically compromised patients II"
+   "nom": "Patients médicalement compromis II"
   },
   {
    "id": 8,
-   "nom": "Oral pathology I"
+   "nom": "Pathologie buccale I"
   },
   {
    "id": 9,
-   "nom": "Oral pathology II"
+   "nom": "Pathologie buccale II"
   },
   {
    "id": 10,
-   "nom": "Child abuse"
+   "nom": "Maltraitance infantile"
   },
   {
    "id": 11,
-   "nom": "Patients with intellectual and sensory disabilities"
+   "nom": "Patients en situation de handicap intellectuel ou sensoriel"
   },
   {
    "id": 12,
-   "nom": "Dental emergencies: summary"
+   "nom": "Urgences dentaires : synthèse"
   }
  ],
  "dentPreventive": [
   {
    "id": 1,
-   "nom": "Introduction to primary preventive dentistry"
+   "nom": "Introduction à l'odontologie préventive primaire"
   },
   {
    "id": 2,
-   "nom": "The oral environment"
+   "nom": "L'environnement buccal"
   },
   {
    "id": 3,
-   "nom": "Oral biofilms"
+   "nom": "Biofilms buccaux"
   },
   {
    "id": 4,
-   "nom": "Mechanical control of oral biofilm"
+   "nom": "Contrôle mécanique du biofilm buccal"
   },
   {
    "id": 5,
-   "nom": "Chemical control of oral biofilm"
+   "nom": "Contrôle chimique du biofilm buccal"
   },
   {
    "id": 6,
-   "nom": "Dental calculus"
+   "nom": "Tartre dentaire"
   },
   {
    "id": 7,
-   "nom": "Fluoride: introduction and mechanism of action"
+   "nom": "Fluor : introduction et mécanisme d'action"
   },
   {
    "id": 8,
-   "nom": "Fluoride application"
+   "nom": "Application du fluor"
   },
   {
    "id": 9,
-   "nom": "Pit and fissure sealants"
+   "nom": "Scellement des puits et fissures"
   },
   {
    "id": 10,
@@ -3798,283 +3798,283 @@ window.CHAPITRES = {
   },
   {
    "id": 11,
-   "nom": "Non-cariogenic diet"
+   "nom": "Alimentation non cariogène"
   },
   {
    "id": 12,
-   "nom": "Dental caries"
+   "nom": "Carie dentaire"
   },
   {
    "id": 13,
-   "nom": "Caries risk assessment"
+   "nom": "Évaluation du risque carieux"
   },
   {
    "id": 14,
-   "nom": "Disinfection and sterilisation"
+   "nom": "Désinfection et stérilisation"
   }
  ],
  "dentProfessional": [
   {
    "id": 1,
-   "nom": "Introduction"
+   "nom": "Introduction à l'odontologie légale et médico-légale"
   },
   {
    "id": 2,
-   "nom": "Legal regulation of dentistry in Spain"
+   "nom": "Réglementation de l'odontologie en Espagne"
   },
   {
    "id": 3,
-   "nom": "Requirements for professional practice"
+   "nom": "Conditions d'exercice de la profession"
   },
   {
    "id": 4,
-   "nom": "Professional ethics and deontology"
+   "nom": "Éthique et déontologie professionnelle"
   },
   {
    "id": 5,
-   "nom": "Clinical records in dentistry and professional secrecy"
+   "nom": "Dossier clinique et secret professionnel"
   },
   {
    "id": 6,
-   "nom": "Drug prescription in dentistry"
+   "nom": "Prescription médicamenteuse en odontologie"
   },
   {
    "id": 7,
-   "nom": "Professional liability in dentistry"
+   "nom": "Responsabilité professionnelle en odontologie"
   },
   {
    "id": 8,
-   "nom": "Information and informed consent in dentistry"
+   "nom": "Information et consentement éclairé en odontologie"
   },
   {
    "id": 9,
-   "nom": "Lawsuits in dentistry"
+   "nom": "Litiges en odontologie"
   },
   {
    "id": 10,
-   "nom": "Introduction to toxicology"
+   "nom": "Introduction à la toxicologie"
   },
   {
    "id": 11,
-   "nom": "Toxicology in dentistry"
+   "nom": "Toxicologie en odontologie"
   },
   {
    "id": 12,
-   "nom": "Expert reports in dentistry"
+   "nom": "Expertise en odontologie"
   },
   {
    "id": 13,
-   "nom": "Assessment of oral damage"
+   "nom": "Évaluation du dommage bucco-dentaire"
   },
   {
    "id": 14,
-   "nom": "Dental documents"
+   "nom": "Documents odontologiques"
   },
   {
    "id": 15,
-   "nom": "Occupational risks of dental personnel"
+   "nom": "Risques professionnels du personnel dentaire"
   },
   {
    "id": 16,
-   "nom": "Forensic dentistry"
+   "nom": "Odontologie médico-légale"
   },
   {
    "id": 17,
-   "nom": "Non-dental necroidentification"
+   "nom": "Nécro-identification non dentaire"
   },
   {
    "id": 18,
-   "nom": "Dental necroidentification"
+   "nom": "Nécro-identification dentaire"
   },
   {
    "id": 19,
-   "nom": "Ante-mortem / post-mortem comparison"
+   "nom": "Comparaison ante mortem et post mortem"
   },
   {
    "id": 20,
-   "nom": "Methodology in the investigation of bodies"
+   "nom": "Méthodologie de l'examen des corps"
   },
   {
    "id": 21,
-   "nom": "Oral autopsy"
+   "nom": "Autopsie buccale"
   },
   {
    "id": 22,
-   "nom": "Craniometry and dentometry"
+   "nom": "Craniométrie et dentométrie"
   },
   {
    "id": 23,
-   "nom": "Identification through soft tissues (palatoscopy, cheiloscopy)"
+   "nom": "Identification par les tissus mous : palatoscopie, chéiloscopie"
   },
   {
    "id": 24,
-   "nom": "Bite marks"
+   "nom": "Traces de morsure"
   },
   {
    "id": 25,
-   "nom": "Radiology and identification by imaging"
+   "nom": "Radiologie et identification par l'image"
   },
   {
    "id": 26,
-   "nom": "Genetic markers"
+   "nom": "Marqueurs génétiques"
   },
   {
    "id": 27,
-   "nom": "Major catastrophes"
+   "nom": "Catastrophes de masse"
   },
   {
    "id": 28,
-   "nom": "Role of the dentist in major catastrophes"
+   "nom": "Rôle du dentiste dans les catastrophes de masse"
   }
  ],
  "dentProsth1": [
   {
    "id": 1,
-   "nom": "Dental prosthetics and dentistry"
+   "nom": "Prothèse dentaire et odontologie"
   },
   {
    "id": 2,
-   "nom": "The fully edentulous patient"
+   "nom": "Le patient édenté total"
   },
   {
    "id": 3,
-   "nom": "Medical history and general principles in the fully edentulous patient"
+   "nom": "Anamnèse et principes généraux chez l'édenté total"
   },
   {
    "id": 4,
-   "nom": "Impressions for complete dentures"
+   "nom": "Empreintes en prothèse complète"
   },
   {
    "id": 5,
-   "nom": "Record bases and occlusion rims"
+   "nom": "Bases d'enregistrement et bourrelets d'occlusion"
   },
   {
    "id": 6,
-   "nom": "Upper occlusion rim records"
+   "nom": "Enregistrements sur le bourrelet maxillaire"
   },
   {
    "id": 7,
-   "nom": "Lower occlusion rim records"
+   "nom": "Enregistrements sur le bourrelet mandibulaire"
   },
   {
    "id": 8,
-   "nom": "Denture teeth"
+   "nom": "Dents prothétiques"
   },
   {
    "id": 9,
-   "nom": "Trial placement"
+   "nom": "Essayage en bouche"
   },
   {
    "id": 10,
-   "nom": "Complete denture manufacturing"
+   "nom": "Fabrication de la prothèse complète"
   },
   {
    "id": 11,
-   "nom": "Remount procedure"
+   "nom": "Remontage"
   },
   {
    "id": 12,
-   "nom": "Placement of complete dentures"
+   "nom": "Pose de la prothèse complète"
   },
   {
    "id": 13,
-   "nom": "Immediate dentures"
+   "nom": "Prothèse immédiate"
   },
   {
    "id": 14,
-   "nom": "Introduction to implantology"
+   "nom": "Introduction à l'implantologie"
   },
   {
    "id": 15,
-   "nom": "Tooth-supported overdentures"
+   "nom": "Prothèses supra-radiculaires"
   },
   {
    "id": 16,
-   "nom": "Implant overdentures"
+   "nom": "Prothèses supra-implantaires"
   }
  ],
  "dentProsth2": [
   {
    "id": 1,
-   "nom": "The partially edentulous patient"
+   "nom": "Le patient édenté partiel"
   },
   {
    "id": 2,
-   "nom": "Assessment of the partially edentulous patient"
+   "nom": "Évaluation du patient édenté partiel"
   },
   {
    "id": 3,
-   "nom": "Concept and objectives of RPDs"
+   "nom": "Prothèse partielle amovible : concept et objectifs"
   },
   {
    "id": 4,
-   "nom": "RPD bases"
+   "nom": "Bases de la prothèse partielle amovible"
   },
   {
    "id": 5,
-   "nom": "RPD connectors"
+   "nom": "Connecteurs de la prothèse partielle amovible"
   },
   {
    "id": 6,
-   "nom": "RPD retainers I"
+   "nom": "Crochets de la prothèse partielle amovible I"
   },
   {
    "id": 7,
-   "nom": "RPD retainers II"
+   "nom": "Crochets de la prothèse partielle amovible II"
   },
   {
    "id": 8,
-   "nom": "RPD biomechanics"
+   "nom": "Biomécanique de la prothèse partielle amovible"
   },
   {
    "id": 9,
-   "nom": "RPD design"
+   "nom": "Conception de la prothèse partielle amovible"
   },
   {
    "id": 10,
-   "nom": "RPD treatment planning"
+   "nom": "Plan de traitement en prothèse partielle amovible"
   },
   {
    "id": 11,
-   "nom": "RPD impressions"
+   "nom": "Empreintes en prothèse partielle amovible"
   },
   {
    "id": 12,
-   "nom": "RPD framework try-in"
+   "nom": "Essayage du châssis de la prothèse partielle amovible"
   },
   {
    "id": 13,
-   "nom": "RPD placement"
+   "nom": "Pose de la prothèse partielle amovible"
   },
   {
    "id": 14,
-   "nom": "Flexible dentures"
+   "nom": "Prothèses flexibles"
   }
  ],
  "dentProsth3": [
   {
    "id": 1,
-   "nom": "Fundamentals of fixed prosthodontics"
+   "nom": "Fondamentaux de la prothèse fixée"
   },
   {
    "id": 2,
-   "nom": "Tooth preparation"
+   "nom": "Préparations dentaires"
   },
   {
    "id": 3,
-   "nom": "Materials"
+   "nom": "Matériaux en prothèse fixée"
   },
   {
    "id": 4,
-   "nom": "Laboratory techniques"
+   "nom": "Techniques de laboratoire : flux conventionnel et numérique"
   },
   {
    "id": 5,
-   "nom": "Aesthetic and functional planning"
+   "nom": "Planification esthétique et fonctionnelle"
   },
   {
    "id": 6,
-   "nom": "Veneers"
+   "nom": "Facettes"
   },
   {
    "id": 7,
@@ -4086,593 +4086,593 @@ window.CHAPITRES = {
   },
   {
    "id": 9,
-   "nom": "Treatment of endodontically treated teeth"
+   "nom": "Traitement prothétique de la dent dépulpée"
   },
   {
    "id": 10,
-   "nom": "Pre-prosthetic treatments II"
+   "nom": "Traitements préprothétiques II"
   }
  ],
  "dentProsth4": [
   {
    "id": 1,
-   "nom": "Impressions in fixed prosthodontics"
+   "nom": "Empreintes en prothèse fixée"
   },
   {
    "id": 2,
-   "nom": "Digital impressions"
+   "nom": "Empreintes numériques"
   },
   {
    "id": 3,
-   "nom": "Working casts"
+   "nom": "Modèles de travail"
   },
   {
    "id": 4,
-   "nom": "Temporary restorations"
+   "nom": "Restaurations provisoires"
   },
   {
    "id": 5,
-   "nom": "Try-ins in fixed prosthodontics"
+   "nom": "Essayages en prothèse fixée"
   },
   {
    "id": 6,
-   "nom": "Cements"
+   "nom": "Ciments de scellement"
   },
   {
    "id": 7,
-   "nom": "Implant-supported fixed prostheses"
+   "nom": "Prothèse fixée implanto-portée"
   },
   {
    "id": 8,
-   "nom": "Impressions in implant-supported prostheses"
+   "nom": "Empreintes en prothèse implanto-portée"
   }
  ],
  "dentPsycho": [
   {
    "id": 1,
-   "nom": "Introduction to health psychology"
+   "nom": "Introduction à la psychologie de la santé"
   },
   {
    "id": 2,
-   "nom": "Theoretical models: biomedical and biopsychosocial"
+   "nom": "Modèles théoriques : biomédical et biopsychosocial"
   },
   {
    "id": 3,
-   "nom": "Health behaviours"
+   "nom": "Comportements de santé"
   },
   {
    "id": 4,
-   "nom": "Therapeutic relationship and communication skills"
+   "nom": "Relation thérapeutique et compétences de communication"
   },
   {
    "id": 5,
-   "nom": "Treatment adherence"
+   "nom": "Observance thérapeutique"
   },
   {
    "id": 6,
-   "nom": "Emotion, stress and coping"
+   "nom": "Émotions, stress et stratégies d'adaptation"
   },
   {
    "id": 7,
-   "nom": "Dental fears and phobias"
+   "nom": "Peur et phobie dentaires"
   },
   {
    "id": 8,
-   "nom": "Pain"
+   "nom": "Douleur"
   },
   {
    "id": 9,
-   "nom": "Occupational stress and burnout"
+   "nom": "Stress professionnel et épuisement professionnel"
   }
  ],
  "dentRadioprot": [
   {
    "id": 1,
-   "nom": "Atomic structure"
+   "nom": "Structure atomique"
   },
   {
    "id": 2,
-   "nom": "Interaction of radiation with matter"
+   "nom": "Interaction des rayonnements avec la matière"
   },
   {
    "id": 3,
-   "nom": "Physical characteristics of radiodiagnostic equipment"
+   "nom": "Caractéristiques physiques des équipements de radiodiagnostic"
   },
   {
    "id": 4,
-   "nom": "Radiation beam and X-ray spectrum"
+   "nom": "Faisceau de rayonnement et spectre de rayons X"
   },
   {
    "id": 5,
-   "nom": "Radiological quantities and units"
+   "nom": "Grandeurs et unités radiologiques"
   },
   {
    "id": 6,
-   "nom": "Radiation detection and dosimetry"
+   "nom": "Détection et dosimétrie des rayonnements"
   },
   {
    "id": 7,
-   "nom": "Biological effects of ionising radiation and basic radiodiagnosis regulations"
+   "nom": "Effets biologiques et réglementation de base en radiodiagnostic"
   },
   {
    "id": 8,
-   "nom": "Biological effects of ionising radiation"
+   "nom": "Effets biologiques des rayonnements ionisants"
   },
   {
    "id": 9,
-   "nom": "Spanish legislation on radiodiagnostic facilities"
+   "nom": "Législation espagnole sur les installations de radiodiagnostic"
   },
   {
    "id": 10,
-   "nom": "General criteria and basic measures in radiation protection"
+   "nom": "Critères généraux et mesures de base en radioprotection"
   }
  ],
  "dentRisks": [
   {
    "id": 1,
-   "nom": "Occupational health and accidents at work. Legislation"
+   "nom": "Santé au travail et accidents du travail : législation"
   },
   {
    "id": 2,
-   "nom": "Occupational Safety and Health Act"
+   "nom": "Loi sur la prévention des risques professionnels"
   },
   {
    "id": 3,
-   "nom": "Work-related harm: occupational accidents and diseases"
+   "nom": "Accidents du travail et maladies professionnelles"
   },
   {
    "id": 4,
-   "nom": "Biological agents"
+   "nom": "Agents biologiques"
   },
   {
    "id": 5,
-   "nom": "Physical agents"
+   "nom": "Agents physiques"
   },
   {
    "id": 6,
-   "nom": "Chemical agents"
+   "nom": "Agents chimiques"
   },
   {
    "id": 7,
-   "nom": "Mental workload"
+   "nom": "Charge mentale"
   },
   {
    "id": 8,
-   "nom": "Physical workload"
+   "nom": "Charge physique"
   }
  ],
  "dentSpecialPat": [
   {
    "id": 1,
-   "nom": "Unit 1 - Hypertensive patients"
+   "nom": "Patient hypertendu"
   },
   {
    "id": 2,
-   "nom": "Unit 3 - Cardiac patients"
+   "nom": "Patient atteint de cardiopathie"
   },
   {
    "id": 3,
-   "nom": "Unit 4 - Pregnant patients"
+   "nom": "Patiente enceinte"
   },
   {
    "id": 4,
-   "nom": "Unit 5 - Digestive system alteration"
+   "nom": "Patient atteint de troubles digestifs"
   },
   {
    "id": 5,
-   "nom": "Unit 6 - Renal patients"
+   "nom": "Patient atteint de néphropathie"
   },
   {
    "id": 6,
-   "nom": "Unit 7 - Oncological patient"
+   "nom": "Patient atteint de cancer"
   },
   {
    "id": 7,
-   "nom": "Unit 8 - Transplanted patients"
+   "nom": "Patient transplanté"
   },
   {
    "id": 8,
-   "nom": "Unit 9 - Haemostatic patient"
+   "nom": "Patient atteint de troubles hématologiques"
   }
  ],
  "dentSurgery1": [
   {
    "id": 1,
-   "nom": "Medical history and examination"
+   "nom": "Anamnèse et examen clinique"
   },
   {
    "id": 2,
-   "nom": "Intraoral and extraoral radiology"
+   "nom": "Radiologie intra-orale et extra-orale"
   },
   {
    "id": 3,
-   "nom": "Anaesthesia I: concept, instruments, maxillary anaesthesia"
+   "nom": "Anesthésie I : instruments et anesthésie maxillaire"
   },
   {
    "id": 4,
-   "nom": "Anaesthesia II: mandibular anaesthesia, accidents and complications"
+   "nom": "Anesthésie II : anesthésie mandibulaire et complications"
   },
   {
    "id": 5,
-   "nom": "Anaesthesia III: local anaesthetics and vasoconstrictors"
+   "nom": "Anesthésie III : anesthésiques locaux et vasoconstricteurs"
   },
   {
    "id": 6,
-   "nom": "Exodontia I: concept, indications, anatomy, instruments"
+   "nom": "Extraction dentaire I : indications, anatomie, instruments"
   },
   {
    "id": 7,
-   "nom": "Extraction techniques"
+   "nom": "Techniques d'extraction"
   },
   {
    "id": 8,
-   "nom": "Complications in extraction"
+   "nom": "Complications de l'extraction"
   },
   {
    "id": 9,
-   "nom": "The surgical act: phases, premedication, instruments, postoperative care"
+   "nom": "L'acte chirurgical : étapes et soins postopératoires"
   },
   {
    "id": 10,
-   "nom": "Surgical exodontia: incision, flaps, ostectomy, odontosection, suture"
+   "nom": "Extraction chirurgicale : lambeaux, ostectomie et sutures"
   },
   {
    "id": 11,
-   "nom": "Medically compromised patients and complications in oral surgery"
+   "nom": "Patients à risque et complications en chirurgie buccale"
   },
   {
    "id": 12,
-   "nom": "Tooth retention: impacted third molars, canines and other teeth"
+   "nom": "Dents incluses : troisièmes molaires, canines et autres"
   }
  ],
  "dentSurgery2": [
   {
    "id": 1,
-   "nom": "Oral clinical examination"
+   "nom": "Examen clinique buccal"
   },
   {
    "id": 2,
-   "nom": "Diagnostic and descriptive terminology"
+   "nom": "Terminologie diagnostique et descriptive"
   },
   {
    "id": 3,
-   "nom": "Diagnostic tests"
+   "nom": "Examens complémentaires"
   },
   {
    "id": 4,
-   "nom": "Dyschromia"
+   "nom": "Dyschromies"
   },
   {
    "id": 5,
-   "nom": "White lesions and lichen"
+   "nom": "Lésions blanches et lichen plan"
   },
   {
    "id": 6,
-   "nom": "Fungal infections"
+   "nom": "Infections fongiques"
   },
   {
    "id": 7,
-   "nom": "Bacterial infections"
+   "nom": "Infections bactériennes"
   },
   {
    "id": 8,
-   "nom": "Viral infections"
+   "nom": "Infections virales"
   },
   {
    "id": 9,
-   "nom": "Ulcers"
+   "nom": "Ulcérations"
   },
   {
    "id": 10,
-   "nom": "Chemical and physical injuries"
+   "nom": "Lésions chimiques et physiques"
   }
  ],
  "dentSurgery3": [
   {
    "id": 1,
-   "nom": "Unit 1 - Blistering diseases"
+   "nom": "Maladies bulleuses"
   },
   {
    "id": 2,
-   "nom": "Unit 2 - Benign exophytic lesions"
+   "nom": "Lésions exophytiques bénignes"
   },
   {
    "id": 3,
-   "nom": "Unit 3 - Abnormalities by location (tongue and lip)"
+   "nom": "Anomalies selon la localisation : langue et lèvre"
   },
   {
    "id": 4,
-   "nom": "Unit 4 - Precancer"
+   "nom": "Lésions précancéreuses"
   },
   {
    "id": 5,
-   "nom": "Unit 5 - Oral cancer"
+   "nom": "Cancer buccal"
   },
   {
    "id": 6,
-   "nom": "Unit 6 - Neuro I (pain, orofacial pain, neuralgias)"
+   "nom": "Douleur oro-faciale et névralgies"
   },
   {
    "id": 7,
-   "nom": "Unit 7 - Neuro II (burning mouth, atypical facial pain, palsies)"
+   "nom": "Stomatodynie, algie faciale atypique et paralysies"
   },
   {
    "id": 8,
-   "nom": "Unit 8 - Salivary gland disease I"
+   "nom": "Pathologie des glandes salivaires I"
   },
   {
    "id": 9,
-   "nom": "Unit 9 - Salivary gland disease II"
+   "nom": "Pathologie des glandes salivaires II"
   },
   {
    "id": 10,
-   "nom": "Unit 10 - Endocrine, metabolic and haematological disorders"
+   "nom": "Troubles endocriniens, métaboliques et hématologiques"
   },
   {
    "id": 11,
-   "nom": "Unit 11 - Bone pathology"
+   "nom": "Pathologie osseuse"
   },
   {
    "id": 12,
-   "nom": "Unit 13 - Geriatric patient"
+   "nom": "Le patient âgé"
   },
   {
    "id": 13,
-   "nom": "Unit 14 - TMJ pathology"
+   "nom": "Pathologie de l'articulation temporo-mandibulaire"
   }
  ],
  "dentSurgery4": [
   {
    "id": 1,
-   "nom": "Odontogenic infections"
+   "nom": "Infections odontogènes"
   },
   {
    "id": 2,
-   "nom": "Cellulitis"
+   "nom": "Cellulites"
   },
   {
    "id": 3,
-   "nom": "Infections of the jaw bones"
+   "nom": "Infections des maxillaires"
   },
   {
    "id": 4,
-   "nom": "Implants"
+   "nom": "Implants dentaires"
   },
   {
    "id": 5,
-   "nom": "Bone regeneration"
+   "nom": "Régénération osseuse"
   },
   {
    "id": 6,
-   "nom": "Preprosthetic surgery"
+   "nom": "Chirurgie préprothétique"
   },
   {
    "id": 7,
-   "nom": "Cysts I"
+   "nom": "Kystes I"
   },
   {
    "id": 8,
-   "nom": "Cysts II"
+   "nom": "Kystes II"
   },
   {
    "id": 9,
-   "nom": "Odontogenic tumours"
+   "nom": "Tumeurs odontogènes"
   },
   {
    "id": 10,
-   "nom": "Non-odontogenic tumours"
+   "nom": "Tumeurs non odontogènes"
   },
   {
    "id": 11,
-   "nom": "Review of basic and advanced surgical techniques"
+   "nom": "Révision des techniques chirurgicales de base et avancées"
   }
  ],
  "dentTherap1": [
   {
    "id": 1,
-   "nom": "Caries I: concept, aetiology, cariogenic factors"
+   "nom": "Carie I : concept, étiologie et facteurs cariogènes"
   },
   {
    "id": 2,
-   "nom": "Caries II: histology and classification"
+   "nom": "Carie II : histologie et classification"
   },
   {
    "id": 3,
-   "nom": "Caries III: diagnosis, risk and dentin removal"
+   "nom": "Carie III : diagnostic, risque et éviction dentinaire"
   },
   {
    "id": 4,
-   "nom": "Dentin wound"
+   "nom": "La plaie dentinaire"
   },
   {
    "id": 5,
-   "nom": "Operative field and cavities: basic concepts"
+   "nom": "Champ opératoire et cavités : notions de base"
   },
   {
    "id": 6,
-   "nom": "Anterior and posterior cavities"
+   "nom": "Cavités antérieures et postérieures"
   },
   {
    "id": 7,
-   "nom": "Direct restorative materials I: GIC, compomers, composite composition"
+   "nom": "Restauration directe I : verres ionomères et compomères"
   },
   {
    "id": 8,
-   "nom": "Direct restorative materials II: composite classification, properties, polymerisation"
+   "nom": "Restauration directe II : composites"
   },
   {
    "id": 9,
-   "nom": "Adhesion I: general concepts, conventional adhesives, enamel and dentin"
+   "nom": "Adhésion I : concepts généraux, émail et dentine"
   },
   {
    "id": 10,
-   "nom": "Premolar anatomy"
+   "nom": "Anatomie des prémolaires"
   },
   {
    "id": 11,
-   "nom": "Upper molar anatomy"
+   "nom": "Anatomie des molaires maxillaires"
   },
   {
    "id": 12,
-   "nom": "Lower molar anatomy"
+   "nom": "Anatomie des molaires mandibulaires"
   },
   {
    "id": 13,
-   "nom": "Non-bacterial dental pathology (attrition, abrasion, erosion, abfraction)"
+   "nom": "Lésions dentaires non carieuses : usure, érosion, abfraction"
   },
   {
    "id": 14,
-   "nom": "Colour alterations"
+   "nom": "Dyschromies dentaires"
   },
   {
    "id": 15,
-   "nom": "Adhesion II: classification, self-etch and universal adhesives, protocols"
+   "nom": "Adhésion II : classification et adhésifs automordançants"
   }
  ],
  "dentTherap2": [
   {
    "id": 1,
-   "nom": "Internal anatomy and access openings"
+   "nom": "Anatomie endocanalaire et cavités d'accès"
   },
   {
    "id": 2,
-   "nom": "Materials I"
+   "nom": "Matériaux en endodontie I"
   },
   {
    "id": 3,
-   "nom": "Materials II"
+   "nom": "Matériaux en endodontie II"
   },
   {
    "id": 4,
-   "nom": "Instrumentation"
+   "nom": "Instrumentation canalaire"
   },
   {
    "id": 5,
-   "nom": "Obturation technique"
+   "nom": "Techniques d'obturation canalaire"
   },
   {
    "id": 6,
-   "nom": "Irrigation"
+   "nom": "Irrigation canalaire"
   },
   {
    "id": 7,
-   "nom": "Anaesthesia and radiology"
+   "nom": "Anesthésie et radiologie en endodontie"
   },
   {
    "id": 8,
-   "nom": "Accidents and complications"
+   "nom": "Accidents et complications en endodontie"
   },
   {
    "id": 9,
-   "nom": "Pulp and periapical pathology"
+   "nom": "Pathologie pulpaire et périapicale"
   },
   {
    "id": 10,
-   "nom": "Diagnosis in endodontics"
+   "nom": "Diagnostic en endodontie"
   }
  ],
  "dentTherap3": [
   {
    "id": 1,
-   "nom": "Cariology"
+   "nom": "Cariologie"
   },
   {
    "id": 2,
-   "nom": "Adhesion"
+   "nom": "Adhésion"
   },
   {
    "id": 3,
-   "nom": "Dental materials in operative dentistry"
+   "nom": "Matériaux en dentisterie restauratrice"
   },
   {
    "id": 4,
-   "nom": "Aesthetics in operative dentistry"
+   "nom": "Esthétique en dentisterie restauratrice"
   },
   {
    "id": 5,
-   "nom": "Direct anterior restorations I"
+   "nom": "Restaurations antérieures directes I"
   },
   {
    "id": 6,
-   "nom": "Direct anterior restorations II"
+   "nom": "Restaurations antérieures directes II"
   },
   {
    "id": 7,
-   "nom": "Fibre-reinforced treatments"
+   "nom": "Restaurations renforcées par fibres"
   },
   {
    "id": 8,
-   "nom": "Porcelain veneers"
+   "nom": "Facettes en céramique"
   },
   {
    "id": 9,
-   "nom": "Posterior teeth restorations"
+   "nom": "Restaurations des dents postérieures"
   },
   {
    "id": 10,
-   "nom": "Indirect posterior restorations"
+   "nom": "Restaurations postérieures indirectes"
   },
   {
    "id": 11,
-   "nom": "Endodontically treated teeth"
+   "nom": "Restauration de la dent dépulpée"
   },
   {
    "id": 12,
-   "nom": "Bruxist patients"
+   "nom": "Le patient bruxomane"
   }
  ],
  "dentTherap4": [
   {
    "id": 1,
-   "nom": "Diagnosis in endodontics I"
+   "nom": "Diagnostic en endodontie I"
   },
   {
    "id": 2,
-   "nom": "Diagnosis in endodontics II: clinical examination"
+   "nom": "Diagnostic en endodontie II : examen clinique"
   },
   {
    "id": 3,
-   "nom": "Rotary NiTi instrumentation I"
+   "nom": "Instrumentation rotative en nickel-titane I"
   },
   {
    "id": 4,
-   "nom": "Rotary NiTi instrumentation II"
+   "nom": "Instrumentation rotative en nickel-titane II"
   },
   {
    "id": 5,
-   "nom": "Irrigation"
+   "nom": "Irrigation en endodontie"
   },
   {
    "id": 6,
-   "nom": "Obturation materials in endodontics"
+   "nom": "Matériaux d'obturation canalaire"
   },
   {
    "id": 7,
-   "nom": "Obturation techniques"
+   "nom": "Techniques d'obturation canalaire"
   },
   {
    "id": 8,
-   "nom": "Emergencies in endodontics"
+   "nom": "Urgences en endodontie"
   },
   {
    "id": 9,
-   "nom": "Accidents and complications in endodontics"
+   "nom": "Accidents et complications en endodontie"
   },
   {
    "id": 10,
-   "nom": "Pharmacology in endodontics"
+   "nom": "Pharmacologie en endodontie"
   },
   {
    "id": 11,
-   "nom": "Treatment of the immature tooth"
+   "nom": "Traitement de la dent immature"
   },
   {
    "id": 12,
-   "nom": "Endo-periodontal pathology"
+   "nom": "Lésions endo-parodontales"
   },
   {
    "id": 13,
-   "nom": "Endodontic surgery"
+   "nom": "Chirurgie endodontique"
   }
  ]
 };

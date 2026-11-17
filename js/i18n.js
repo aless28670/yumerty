@@ -54,6 +54,9 @@ const I18N = {
     "Kinésithérapie": "Fisioterapia",
     "Dentaire": "Odontología",
     "Bientôt disponible": "Próximamente",
+    "Continuer": "Continuar",
+    "{n} module · examen": "{n} módulo · examen",
+    "{n} modules · examen": "{n} módulos · examen",
 
     /* ---------- Bandeau de chiffres ---------- */
     "QCU corrigés et justifiés": "preguntas corregidas y justificadas",
@@ -294,6 +297,9 @@ const I18N = {
     "Kinésithérapie": "Physiotherapy",
     "Dentaire": "Dentistry",
     "Bientôt disponible": "Coming soon",
+    "Continuer": "Continue",
+    "{n} module · examen": "{n} module · exam",
+    "{n} modules · examen": "{n} modules · exams",
     "QCU corrigés et justifiés": "corrected, explained MCQs",
     "matières disponibles": "subjects available",
     "chapitres de cours": "course topics",
@@ -599,7 +605,7 @@ const ESSAIS_MAX = 3;
   const tenter = () => {
     essai += 1;
     const s = document.createElement("script");
-    s.src = "translations/" + l + "-structure.js?v=1" + (essai > 1 ? "&r=" + essai : "");
+    s.src = "translations/" + l + "-structure.js?v=2" + (essai > 1 ? "&r=" + essai : "");
     s.async = true;
     s.onload = () => {
       TABLE_NORM = null;

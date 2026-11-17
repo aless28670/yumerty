@@ -600,7 +600,7 @@ function reviseBlockHtml(bank) {
           <div class="chap-grid">${chaps ? chapterGridHtml(bank) : ""}</div>
           <div class="revise-actions">
             <button type="button" class="btn-retour" data-rev-back="scope">← Retour</button>
-            <button type="button" class="btn-continuer" data-rev-go>Continuer</button>
+            <button type="button" class="btn-continuer" data-rev-go>${escapeHtml(t("Continuer"))}</button>
           </div>
         </div>
         <div class="revise-step" data-step="format" hidden>
@@ -1267,7 +1267,7 @@ function renderNav() {
         number: String(i + 1).padStart(2, "0"),
         eyebrow: "Matière",
         title: m.label,
-        meta: moduleCount > 0 ? moduleCount + " module" + (moduleCount > 1 ? "s" : "") + " · examen" : "Bientôt disponible",
+        meta: moduleCount > 0 ? t(moduleCount > 1 ? "{n} modules · examen" : "{n} module · examen").replace("{n}", moduleCount) : t("Bientôt disponible"),
         disabled: moduleCount === 0,
         accent: m.accent || c.accent,
         data: { matiere: mk, level: "modules" }
