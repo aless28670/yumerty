@@ -603,4 +603,7 @@ Object.assign(I18N.en, {
   "Orthèses de hanche": "Hip orthoses",
   "Orthèses de genou": "Knee orthoses",
   "Orthèses du pied": "Foot orthoses",
+
+  /* --- libellés de structure (chantier dentaire D1-D5, 11/11) --- */
+  "Matières au choix": "Elective subjects",
 });

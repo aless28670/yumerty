@@ -530,8 +530,112 @@ const CURSUS = {
     "label": "Dentaire",
     "short": "Dentaire",
     "accent": "#b9763f",
-    "available": false,
+    "available": true,
     "years": {
+      "D1": {
+        "label": "D1",
+        "long": "1ʳᵉ année",
+        "semesters": {
+          "S1": {
+            "label": "Semestre 1",
+            "matieres": {
+              "dentAFI1": {
+                "label": "Anatomy, Physiology & Histology 1",
+                "modules": [
+                  {
+                    "id": "dentAFI1",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentAFI1",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentEpi": {
+                "label": "Epidemiology",
+                "modules": [
+                  {
+                    "id": "dentEpi",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentEpi",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentBiochem": {
+                "label": "Biochemistry",
+                "modules": [
+                  {
+                    "id": "dentBiochem",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentBiochem",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentDocu": {
+                "label": "Documentation",
+                "modules": [
+                  {
+                    "id": "dentDocu",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentDocu",
+                    "optionCount": 4
+                  }
+                ]
+              }
+            }
+          },
+          "S2": {
+            "label": "Semestre 2",
+            "matieres": {
+              "dentAFI2": {
+                "label": "Anatomy, Physiology & Histology 2",
+                "modules": [
+                  {
+                    "id": "dentAFI2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentAFI2",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentMicro": {
+                "label": "Microbiology",
+                "modules": [
+                  {
+                    "id": "dentMicro",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentMicro",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentPsycho": {
+                "label": "Psychology",
+                "modules": [
+                  {
+                    "id": "dentPsycho",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPsycho",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentAnthropo": {
+                "label": "Anthropology",
+                "modules": [
+                  {
+                    "id": "dentAnthropo",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentAnthropo",
+                    "optionCount": 4
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
       "D2": {
         "label": "D2",
         "long": "2ᵉ année",
@@ -694,6 +798,379 @@ const CURSUS = {
                     "id": "dentPatho2Fin",
                     "label": "Examen — 4 propositions",
                     "bankKey": "dentPatho2Fin",
+                    "optionCount": 4
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "D3": {
+        "label": "D3",
+        "long": "3ᵉ année",
+        "semesters": {
+          "S1": {
+            "label": "Semestre 1",
+            "matieres": {
+              "dentProsth1": {
+                "label": "Prosthodontics 1",
+                "modules": [
+                  {
+                    "id": "dentProsth1",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentProsth1",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentPedia1": {
+                "label": "Paediatric Dentistry 1",
+                "modules": [
+                  {
+                    "id": "dentPedia1",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPedia1",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentOrtho1": {
+                "label": "Orthodontics 1",
+                "modules": [
+                  {
+                    "id": "dentOrtho1",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentOrtho1",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentTherap1": {
+                "label": "Dental Therapeutics 1",
+                "modules": [
+                  {
+                    "id": "dentTherap1",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentTherap1",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentSurgery1": {
+                "label": "Oral Surgery 1",
+                "modules": [
+                  {
+                    "id": "dentSurgery1",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentSurgery1",
+                    "optionCount": 4
+                  }
+                ]
+              }
+            }
+          },
+          "S2": {
+            "label": "Semestre 2",
+            "matieres": {
+              "dentProsth2": {
+                "label": "Prosthodontics 2",
+                "modules": [
+                  {
+                    "id": "dentProsth2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentProsth2",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentPedia2": {
+                "label": "Paediatric Dentistry 2",
+                "modules": [
+                  {
+                    "id": "dentPedia2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPedia2",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentOrtho2": {
+                "label": "Orthodontics 2",
+                "modules": [
+                  {
+                    "id": "dentOrtho2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentOrtho2",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentTherap2": {
+                "label": "Dental Therapeutics 2",
+                "modules": [
+                  {
+                    "id": "dentTherap2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentTherap2",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentSurgery2": {
+                "label": "Oral Surgery 2",
+                "modules": [
+                  {
+                    "id": "dentSurgery2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentSurgery2",
+                    "optionCount": 4
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "D4": {
+        "label": "D4",
+        "long": "4ᵉ année",
+        "semesters": {
+          "S1": {
+            "label": "Semestre 1",
+            "matieres": {
+              "dentProsth3": {
+                "label": "Prosthodontics 3",
+                "modules": [
+                  {
+                    "id": "dentProsth3",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentProsth3",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentPedia3": {
+                "label": "Paediatric Dentistry 3",
+                "modules": [
+                  {
+                    "id": "dentPedia3",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPedia3",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentTherap3": {
+                "label": "Dental Therapeutics 3",
+                "modules": [
+                  {
+                    "id": "dentTherap3",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentTherap3",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentAdvPerio": {
+                "label": "Advanced Periodontics",
+                "modules": [
+                  {
+                    "id": "dentAdvPerio",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentAdvPerio",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentOrtho3": {
+                "label": "Orthodontics 3",
+                "modules": [
+                  {
+                    "id": "dentOrtho3",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentOrtho3",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentSurgery3": {
+                "label": "Oral Surgery 3",
+                "modules": [
+                  {
+                    "id": "dentSurgery3",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentSurgery3",
+                    "optionCount": 4
+                  }
+                ]
+              }
+            }
+          },
+          "S2": {
+            "label": "Semestre 2",
+            "matieres": {
+              "dentProsth4": {
+                "label": "Prosthodontics 4",
+                "modules": [
+                  {
+                    "id": "dentProsth4",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentProsth4",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentPedia4": {
+                "label": "Paediatric Dentistry 4",
+                "modules": [
+                  {
+                    "id": "dentPedia4",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPedia4",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentOrtho4": {
+                "label": "Orthodontics 4",
+                "modules": [
+                  {
+                    "id": "dentOrtho4",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentOrtho4",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentTherap4": {
+                "label": "Dental Therapeutics 4",
+                "modules": [
+                  {
+                    "id": "dentTherap4",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentTherap4",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentSurgery4": {
+                "label": "Oral Surgery 4",
+                "modules": [
+                  {
+                    "id": "dentSurgery4",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentSurgery4",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentPreventive": {
+                "label": "Preventive Dentistry",
+                "modules": [
+                  {
+                    "id": "dentPreventive",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPreventive",
+                    "optionCount": 4
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "D5": {
+        "label": "D5",
+        "long": "5ᵉ année",
+        "semesters": {
+          "OPT": {
+            "label": "Matières au choix",
+            "matieres": {
+              "dentRadioprot": {
+                "label": "Radiation Protection",
+                "modules": [
+                  {
+                    "id": "dentRadioprot",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentRadioprot",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentProfessional": {
+                "label": "Professionalism",
+                "modules": [
+                  {
+                    "id": "dentProfessional",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentProfessional",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentCommunity": {
+                "label": "Community Dentistry",
+                "modules": [
+                  {
+                    "id": "dentCommunity",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentCommunity",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentEmergencies": {
+                "label": "Medical Emergencies",
+                "modules": [
+                  {
+                    "id": "dentEmergencies",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentEmergencies",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentErgonomics": {
+                "label": "Ergonomics",
+                "modules": [
+                  {
+                    "id": "dentErgonomics",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentErgonomics",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentRisks": {
+                "label": "Occupational Risks",
+                "modules": [
+                  {
+                    "id": "dentRisks",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentRisks",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentImplants": {
+                "label": "Implantology",
+                "modules": [
+                  {
+                    "id": "dentImplants",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentImplants",
+                    "optionCount": 4
+                  }
+                ]
+              },
+              "dentSpecialPat": {
+                "label": "Special Patients",
+                "modules": [
+                  {
+                    "id": "dentSpecialPat",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentSpecialPat",
                     "optionCount": 4
                   }
                 ]

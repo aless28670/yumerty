@@ -2292,14 +2292,38 @@ window.CHAPITRES = {
   }
  ],
  "ortheseExam2": [
-  { "id": 1, "nom": "Orthèses cervicales" },
-  { "id": 2, "nom": "Cyphose" },
-  { "id": 3, "nom": "Scoliose" },
-  { "id": 4, "nom": "Déformations du thorax" },
-  { "id": 5, "nom": "Traumatismes et douleur du rachis" },
-  { "id": 6, "nom": "Orthèses de hanche" },
-  { "id": 7, "nom": "Orthèses de genou" },
-  { "id": 8, "nom": "Orthèses du pied" }
+  {
+   "id": 1,
+   "nom": "Orthèses cervicales"
+  },
+  {
+   "id": 2,
+   "nom": "Cyphose"
+  },
+  {
+   "id": 3,
+   "nom": "Scoliose"
+  },
+  {
+   "id": 4,
+   "nom": "Déformations du thorax"
+  },
+  {
+   "id": 5,
+   "nom": "Traumatismes et douleur du rachis"
+  },
+  {
+   "id": 6,
+   "nom": "Orthèses de hanche"
+  },
+  {
+   "id": 7,
+   "nom": "Orthèses de genou"
+  },
+  {
+   "id": 8,
+   "nom": "Orthèses du pied"
+  }
  ],
  "ortheseExam1": [
   {
@@ -2766,447 +2790,1897 @@ window.CHAPITRES = {
    "id": 19,
    "nom": "Prise en charge globale : dysphagie, vessie et posture"
   }
- ]
-};
-
-window.PARTIES = {
- "ethiqueLegislation": [
+ ],
+ "dentAFI1": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-   ]
+   "id": 1,
+   "nom": "Introduction: body organisation, homeostasis and terminology"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    7,
-    8,
-    9,
-    10
-   ]
+   "id": 2,
+   "nom": "Tissues: epithelial, connective and membranes"
+  },
+  {
+   "id": 3,
+   "nom": "Integumentary system"
+  },
+  {
+   "id": 4,
+   "nom": "Cartilage, bone, skeleton and joints"
+  },
+  {
+   "id": 5,
+   "nom": "Blood and haemostasis"
+  },
+  {
+   "id": 6,
+   "nom": "Nervous tissue and neurophysiology"
+  },
+  {
+   "id": 7,
+   "nom": "Muscle tissue and muscular system"
+  },
+  {
+   "id": 8,
+   "nom": "Central nervous system"
+  },
+  {
+   "id": 9,
+   "nom": "Autonomic nervous system"
   }
  ],
- "procedimiento1": [
+ "dentAFI2": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
-   ]
+   "id": 1,
+   "nom": "Heart: anatomy and histology"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-   ]
+   "id": 2,
+   "nom": "Blood vessels: anatomy and histology"
+  },
+  {
+   "id": 3,
+   "nom": "Cardiac physiology: electrical activity and ECG"
+  },
+  {
+   "id": 4,
+   "nom": "Cardiac physiology: the heart as a pump (cardiac cycle)"
+  },
+  {
+   "id": 5,
+   "nom": "Vascular physiology: haemodynamics, blood pressure and microcirculation"
+  },
+  {
+   "id": 6,
+   "nom": "Cardiac output and its nervous regulation"
+  },
+  {
+   "id": 7,
+   "nom": "Respiratory system: anatomy and histology"
+  },
+  {
+   "id": 8,
+   "nom": "Respiratory physiology: pulmonary ventilation"
+  },
+  {
+   "id": 9,
+   "nom": "Respiratory physiology: gas exchange, gas transport and control of breathing"
+  },
+  {
+   "id": 10,
+   "nom": "Digestive system: anatomy and histology"
+  },
+  {
+   "id": 11,
+   "nom": "Digestive physiology and accessory organs"
+  },
+  {
+   "id": 12,
+   "nom": "Urinary system: anatomy and histology"
+  },
+  {
+   "id": 13,
+   "nom": "Urinary physiology: filtration, reabsorption, secretion and water-electrolyte balance"
+  },
+  {
+   "id": 14,
+   "nom": "Endocrine system I: general principles"
+  },
+  {
+   "id": 15,
+   "nom": "Endocrine system II: endocrine glands and secretions"
   }
  ],
- "santePublique": [
+ "dentAdvPerio": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12
-   ]
+   "id": 1,
+   "nom": "Basic periodontology review"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21
-   ]
+   "id": 2,
+   "nom": "Basic vs surgical treatment"
   },
   {
-   "id": "gestion",
-   "label": "Gestion",
-   "chapitres": [
-    22,
-    23,
-    24,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31,
-    32,
-    33
-   ]
+   "id": 3,
+   "nom": "Occlusal trauma"
+  },
+  {
+   "id": 4,
+   "nom": "Conventional periodontal surgery"
+  },
+  {
+   "id": 5,
+   "nom": "Mucogingival surgery"
+  },
+  {
+   "id": 6,
+   "nom": "Periodontal regeneration"
   }
  ],
- "pathologie1": [
+ "dentAnthropo": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-   ]
+   "id": 1,
+   "nom": "Medical language and terminology"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31,
-    32
-   ]
+   "id": 2,
+   "nom": "Professional ethics and deontology"
+  },
+  {
+   "id": 3,
+   "nom": "Prescientific and alternative medicine. Scientific medicine"
+  },
+  {
+   "id": 4,
+   "nom": "Palaeopathology"
+  },
+  {
+   "id": 5,
+   "nom": "Archaic cultures: Mesopotamia, ancient Israel, ancient Egypt, Phoenicians"
+  },
+  {
+   "id": 6,
+   "nom": "Surviving archaic cultures: India, China, Japan, pre-Columbian America"
+  },
+  {
+   "id": 7,
+   "nom": "Classical cultures: Greece, Rome, Etruria"
+  },
+  {
+   "id": 8,
+   "nom": "The Middle Ages"
+  },
+  {
+   "id": 9,
+   "nom": "The Renaissance in Europe. Spain"
+  },
+  {
+   "id": 10,
+   "nom": "The 18th century"
+  },
+  {
+   "id": 11,
+   "nom": "Spanish dentistry in the Enlightenment"
+  },
+  {
+   "id": 12,
+   "nom": "Dentistry in the United States in the 19th century"
+  },
+  {
+   "id": 13,
+   "nom": "Spanish dentistry in the 19th century"
+  },
+  {
+   "id": 14,
+   "nom": "Spain in the 20th century"
+  },
+  {
+   "id": 15,
+   "nom": "Establishment of the dental profession"
+  },
+  {
+   "id": 16,
+   "nom": "Allied dental professions"
+  },
+  {
+   "id": 17,
+   "nom": "Health service systems"
+  },
+  {
+   "id": 18,
+   "nom": "History of Spanish dental journalism"
   }
  ],
- "investigation2": [
+ "dentBiochem": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    16,
-    17
-   ]
+   "id": 1,
+   "nom": "Introduction to biochemistry"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18
-   ]
+   "id": 2,
+   "nom": "Chemical basis of life"
+  },
+  {
+   "id": 3,
+   "nom": "Water"
+  },
+  {
+   "id": 4,
+   "nom": "Proteins"
+  },
+  {
+   "id": 5,
+   "nom": "Carbohydrates"
+  },
+  {
+   "id": 6,
+   "nom": "Lipids"
+  },
+  {
+   "id": 7,
+   "nom": "Nucleic acids"
+  },
+  {
+   "id": 8,
+   "nom": "Enzymes"
+  },
+  {
+   "id": 9,
+   "nom": "Introduction to metabolism"
+  },
+  {
+   "id": 10,
+   "nom": "Carbohydrate metabolism"
+  },
+  {
+   "id": 11,
+   "nom": "Oral cavity: saliva and extracellular matrix of the periodontium"
   }
  ],
- "pathologie3": [
+ "dentCommunity": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9
-   ]
+   "id": 1,
+   "nom": "Principles of prevention and health promotion in dentistry"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-   ]
+   "id": 2,
+   "nom": "Methods for evaluating oral health and disease I"
+  },
+  {
+   "id": 3,
+   "nom": "Methods for evaluating oral health and disease II"
+  },
+  {
+   "id": 4,
+   "nom": "Epidemiology in dentistry"
+  },
+  {
+   "id": 5,
+   "nom": "Introduction to biostatistics"
+  },
+  {
+   "id": 6,
+   "nom": "Planning and scheduling"
+  },
+  {
+   "id": 7,
+   "nom": "Oral preventive programmes for specific groups I"
+  },
+  {
+   "id": 8,
+   "nom": "Oral preventive programmes for specific groups II"
+  },
+  {
+   "id": 9,
+   "nom": "Models of dental care"
+  },
+  {
+   "id": 10,
+   "nom": "Dental care systems in Spain"
+  },
+  {
+   "id": 11,
+   "nom": "Dentistry from a social point of view"
+  },
+  {
+   "id": 12,
+   "nom": "Health promotion and education in dentistry"
+  },
+  {
+   "id": 13,
+   "nom": "Caries risk assessment, prevention and non-invasive treatment"
+  },
+  {
+   "id": 14,
+   "nom": "Evidence-based dentistry"
+  },
+  {
+   "id": 15,
+   "nom": "Gerodontology"
+  },
+  {
+   "id": 16,
+   "nom": "Quality of life related to oral health"
   }
  ],
- "anat1": [
+ "dentDocu": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-   ]
+   "id": 1,
+   "nom": "The scientific proposal"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-   ]
+   "id": 2,
+   "nom": "Questionnaires"
+  },
+  {
+   "id": 3,
+   "nom": "The Internet as a source of information"
+  },
+  {
+   "id": 4,
+   "nom": "Pre-pilot study"
+  },
+  {
+   "id": 5,
+   "nom": "Plagiarism"
+  },
+  {
+   "id": 6,
+   "nom": "Sources of information"
+  },
+  {
+   "id": 7,
+   "nom": "Writing in science"
+  },
+  {
+   "id": 8,
+   "nom": "The scientific poster"
+  },
+  {
+   "id": 9,
+   "nom": "Peer review"
+  },
+  {
+   "id": 10,
+   "nom": "Presentation of the research"
   }
  ],
- "processusBio1": [
+ "dentEmergencies": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
-   ]
+   "id": 1,
+   "nom": "Initial assessment and basic life support"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16
-   ]
+   "id": 2,
+   "nom": "Risk assessment and emergency preparedness"
+  },
+  {
+   "id": 3,
+   "nom": "Altered consciousness, syncope, seizures and stroke"
+  },
+  {
+   "id": 4,
+   "nom": "Respiratory emergencies"
+  },
+  {
+   "id": 5,
+   "nom": "Cardiovascular emergencies"
+  },
+  {
+   "id": 6,
+   "nom": "Shock, hypotension and hypertension"
+  },
+  {
+   "id": 7,
+   "nom": "Allergy and anaphylaxis"
+  },
+  {
+   "id": 8,
+   "nom": "Endocrine emergencies"
+  },
+  {
+   "id": 9,
+   "nom": "Bleeding and haemostasis"
+  },
+  {
+   "id": 10,
+   "nom": "Paediatric emergencies"
+  },
+  {
+   "id": 11,
+   "nom": "Occupational hazards in the dental office"
   }
  ],
- "structure1": [
+ "dentEpi": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3
-   ]
+   "id": 1,
+   "nom": "Basic concepts of statistics"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    4,
-    6,
-    7
-   ]
+   "id": 2,
+   "nom": "Descriptive statistics"
+  },
+  {
+   "id": 3,
+   "nom": "Measures of frequency. Tables and graphs"
+  },
+  {
+   "id": 4,
+   "nom": "Applications of probability. Sensitivity and specificity"
+  },
+  {
+   "id": 5,
+   "nom": "Probability distributions"
+  },
+  {
+   "id": 6,
+   "nom": "Hypothesis testing"
+  },
+  {
+   "id": 7,
+   "nom": "Statistical models"
+  },
+  {
+   "id": 8,
+   "nom": "Epidemiology: basic concepts"
+  },
+  {
+   "id": 9,
+   "nom": "Risk factors and causality in epidemiology"
+  },
+  {
+   "id": 10,
+   "nom": "Types of epidemiological studies"
+  },
+  {
+   "id": 11,
+   "nom": "Health and its determinants"
+  },
+  {
+   "id": 12,
+   "nom": "Health demography"
+  },
+  {
+   "id": 13,
+   "nom": "Communicable diseases"
+  },
+  {
+   "id": 14,
+   "nom": "Epidemiology and prevention of highly prevalent and fatal diseases"
+  },
+  {
+   "id": 15,
+   "nom": "Epidemiology and prevention of the most common oral diseases"
   }
  ],
- "processusBio2": [
+ "dentErgonomics": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    9
-   ]
+   "id": 1,
+   "nom": "Introduction to ergonomics"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18
-   ]
+   "id": 2,
+   "nom": "Health economics and performance"
+  },
+  {
+   "id": 3,
+   "nom": "Dental practice planning and design"
+  },
+  {
+   "id": 4,
+   "nom": "Administration and management of a dental clinic"
+  },
+  {
+   "id": 5,
+   "nom": "Dental clinic staff"
+  },
+  {
+   "id": 6,
+   "nom": "Communication in dentistry"
+  },
+  {
+   "id": 7,
+   "nom": "Quality in dentistry"
+  },
+  {
+   "id": 8,
+   "nom": "Patient care and loyalty"
+  },
+  {
+   "id": 9,
+   "nom": "Time management in the dental clinic"
+  },
+  {
+   "id": 10,
+   "nom": "Marketing in the dental clinic"
+  },
+  {
+   "id": 11,
+   "nom": "Photography and intraoral scanning in dentistry"
   }
  ],
- "structure2": [
+ "dentImplants": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2
-   ]
+   "id": 1,
+   "nom": "History of implantology"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    3,
-    4
-   ]
+   "id": 2,
+   "nom": "Osseointegration and post-extraction healing"
+  },
+  {
+   "id": 3,
+   "nom": "Implant design, connections and surfaces"
+  },
+  {
+   "id": 4,
+   "nom": "Bone quality and quantity classifications"
+  },
+  {
+   "id": 5,
+   "nom": "Diagnosis and treatment planning"
+  },
+  {
+   "id": 6,
+   "nom": "Surgical protocol"
+  },
+  {
+   "id": 7,
+   "nom": "Extraction socket management and guided bone regeneration"
+  },
+  {
+   "id": 8,
+   "nom": "Aesthetic implant placement"
+  },
+  {
+   "id": 9,
+   "nom": "Implant-supported prosthetics"
+  },
+  {
+   "id": 10,
+   "nom": "Complications in implant dentistry"
   }
  ],
- "valoColonne": [
+ "dentMicro": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    8,
-    10
-   ]
+   "id": 1,
+   "nom": "General immunology"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    7,
-    11,
-    12
-   ]
+   "id": 2,
+   "nom": "Bacterial morphology and structures"
+  },
+  {
+   "id": 3,
+   "nom": "Bacterial metabolism"
+  },
+  {
+   "id": 4,
+   "nom": "Bacterial genetics"
+  },
+  {
+   "id": 5,
+   "nom": "Antimicrobials"
+  },
+  {
+   "id": 6,
+   "nom": "Host-bacteria relationship"
+  },
+  {
+   "id": 7,
+   "nom": "Basic concepts of mycology and parasitology"
+  },
+  {
+   "id": 8,
+   "nom": "Virology"
+  },
+  {
+   "id": 9,
+   "nom": "Genus Staphylococcus"
+  },
+  {
+   "id": 10,
+   "nom": "Genus Streptococcus"
+  },
+  {
+   "id": 11,
+   "nom": "Gram-negative bacteria: Neisseria, Pseudomonas, Enterobacteriaceae"
+  },
+  {
+   "id": 12,
+   "nom": "Anaerobic bacteria"
+  },
+  {
+   "id": 13,
+   "nom": "Mycobacteria"
+  },
+  {
+   "id": 14,
+   "nom": "Spirochaetes"
+  },
+  {
+   "id": 15,
+   "nom": "Composition and ecology of the oral microbiota"
+  },
+  {
+   "id": 16,
+   "nom": "Dental plaque"
+  },
+  {
+   "id": 17,
+   "nom": "Microbiology of dental caries"
+  },
+  {
+   "id": 18,
+   "nom": "Microbiology of gingivitis and periodontitis"
+  },
+  {
+   "id": 19,
+   "nom": "Microbiology of endodontic infection and related processes"
+  },
+  {
+   "id": 20,
+   "nom": "Complications of oral infections"
   }
  ],
- "dentHeadNeck": [
+ "dentOrtho1": [
   {
-   "id": "mid",
-   "label": "Mid",
-   "chapitres": [
-    1,
-    2,
-    3,
-    4
-   ]
+   "id": 1,
+   "nom": "Ideal occlusion"
   },
   {
-   "id": "final",
-   "label": "Final",
-   "chapitres": [
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-   ]
+   "id": 2,
+   "nom": "Study models I"
+  },
+  {
+   "id": 3,
+   "nom": "Study models II (DOD, space analysis)"
+  },
+  {
+   "id": 4,
+   "nom": "Oral habits leading to malocclusion"
+  },
+  {
+   "id": 5,
+   "nom": "Cephalometric analysis"
+  },
+  {
+   "id": 6,
+   "nom": "Facial analysis"
+  },
+  {
+   "id": 7,
+   "nom": "Other topics"
+  }
+ ],
+ "dentOrtho2": [
+  {
+   "id": 1,
+   "nom": "Removable appliances I"
+  },
+  {
+   "id": 2,
+   "nom": "Removable appliances II"
+  },
+  {
+   "id": 3,
+   "nom": "Biomechanics I"
+  },
+  {
+   "id": 4,
+   "nom": "Biomechanics II"
+  },
+  {
+   "id": 5,
+   "nom": "Biomechanics III"
+  },
+  {
+   "id": 6,
+   "nom": "Adhesion in orthodontics"
+  },
+  {
+   "id": 7,
+   "nom": "Two-band fixed appliances"
+  },
+  {
+   "id": 8,
+   "nom": "Fixed appliances"
+  },
+  {
+   "id": 9,
+   "nom": "Other topics"
+  }
+ ],
+ "dentOrtho3": [
+  {
+   "id": 1,
+   "nom": "Unit 1.1 - Anterior Crossbite I"
+  },
+  {
+   "id": 2,
+   "nom": "Unit 1.2 - Anterior Crossbite II"
+  },
+  {
+   "id": 3,
+   "nom": "Unit 2.1 - Posterior Crossbite I (transverse maxillary deficiency)"
+  },
+  {
+   "id": 4,
+   "nom": "Unit 2.2 - Posterior Crossbite II (transverse maxillary deficiency)"
+  },
+  {
+   "id": 5,
+   "nom": "Unit 3 - Preventive, interceptive and curative orthodontics"
+  },
+  {
+   "id": 6,
+   "nom": "Unit 4 - Tools in orthodontics. Diagnosis I (diagnosis of malocclusion)"
+  },
+  {
+   "id": 7,
+   "nom": "Unit 5 - Facial biotypes"
+  },
+  {
+   "id": 8,
+   "nom": "Unit 6 - Diagnosis of malocclusion II"
+  },
+  {
+   "id": 9,
+   "nom": "Unit 7 - Dental anomaly patterns"
+  },
+  {
+   "id": 10,
+   "nom": "Unit 8 - Etiology of malocclusion"
+  }
+ ],
+ "dentOrtho4": [
+  {
+   "id": 1,
+   "nom": "Unit 1 - Eruption guidance and serial extraction"
+  },
+  {
+   "id": 2,
+   "nom": "Unit 2 - Dental crowding"
+  },
+  {
+   "id": 3,
+   "nom": "Unit 3 - Model I (Class I syndrome)"
+  },
+  {
+   "id": 4,
+   "nom": "Unit 4 - Model II (Class II syndrome)"
+  },
+  {
+   "id": 5,
+   "nom": "Unit 4 - Functional appliances (Class II)"
+  },
+  {
+   "id": 6,
+   "nom": "Unit 5 - Headgear"
+  },
+  {
+   "id": 7,
+   "nom": "Unit 6 - Extraction in orthodontics"
+  },
+  {
+   "id": 8,
+   "nom": "Unit 7 - High angle model (open bite / long face)"
+  },
+  {
+   "id": 9,
+   "nom": "Unit 8 - Class III treatment (interceptive treatment factors)"
+  },
+  {
+   "id": 10,
+   "nom": "Model III: Class III syndrome"
+  },
+  {
+   "id": 11,
+   "nom": "Short face (low angle) and deep bite"
+  }
+ ],
+ "dentPedia1": [
+  {
+   "id": 1,
+   "nom": "Primary dentition morphology"
+  },
+  {
+   "id": 2,
+   "nom": "Nomenclature and dental maturity"
+  },
+  {
+   "id": 3,
+   "nom": "Tooth isolation"
+  },
+  {
+   "id": 4,
+   "nom": "Dental caries in children I"
+  },
+  {
+   "id": 5,
+   "nom": "Dental caries in children II"
+  },
+  {
+   "id": 6,
+   "nom": "Dental caries in children III"
+  },
+  {
+   "id": 7,
+   "nom": "Dental development"
+  },
+  {
+   "id": 8,
+   "nom": "Dental eruption"
+  },
+  {
+   "id": 9,
+   "nom": "Eruption pathology"
+  },
+  {
+   "id": 10,
+   "nom": "Primary dentition occlusion"
+  },
+  {
+   "id": 11,
+   "nom": "Eruption of the permanent dentition"
+  }
+ ],
+ "dentPedia2": [
+  {
+   "id": 1,
+   "nom": "Composite restorations"
+  },
+  {
+   "id": 2,
+   "nom": "Pulp pathology and therapy I"
+  },
+  {
+   "id": 3,
+   "nom": "Pulp pathology and therapy II"
+  },
+  {
+   "id": 4,
+   "nom": "Pulp pathology and therapy III"
+  },
+  {
+   "id": 5,
+   "nom": "Restoration of extensively destroyed teeth"
+  },
+  {
+   "id": 6,
+   "nom": "Dental trauma I"
+  },
+  {
+   "id": 7,
+   "nom": "Dental trauma II (hard tissues)"
+  },
+  {
+   "id": 8,
+   "nom": "Dental trauma III (periodontal tissues)"
+  },
+  {
+   "id": 9,
+   "nom": "Space maintainers I"
+  },
+  {
+   "id": 10,
+   "nom": "Space maintainers II"
+  },
+  {
+   "id": 11,
+   "nom": "Other topics"
+  }
+ ],
+ "dentPedia3": [
+  {
+   "id": 1,
+   "nom": "Behaviour management I"
+  },
+  {
+   "id": 2,
+   "nom": "Behaviour management II"
+  },
+  {
+   "id": 3,
+   "nom": "Local anaesthesia"
+  },
+  {
+   "id": 4,
+   "nom": "Sedation in paediatric dentistry"
+  },
+  {
+   "id": 5,
+   "nom": "General anaesthesia"
+  },
+  {
+   "id": 6,
+   "nom": "Pharmacology"
+  },
+  {
+   "id": 7,
+   "nom": "Craniofacial growth I"
+  },
+  {
+   "id": 8,
+   "nom": "Craniofacial growth II"
+  },
+  {
+   "id": 9,
+   "nom": "Syndromes I"
+  },
+  {
+   "id": 10,
+   "nom": "Syndromes II"
+  }
+ ],
+ "dentPedia4": [
+  {
+   "id": 1,
+   "nom": "Dental anomalies I"
+  },
+  {
+   "id": 2,
+   "nom": "Dental anomalies II"
+  },
+  {
+   "id": 3,
+   "nom": "Dental anomalies III"
+  },
+  {
+   "id": 4,
+   "nom": "Dental anomalies IV"
+  },
+  {
+   "id": 5,
+   "nom": "Surgical pathology"
+  },
+  {
+   "id": 6,
+   "nom": "Medically compromised patients I"
+  },
+  {
+   "id": 7,
+   "nom": "Medically compromised patients II"
+  },
+  {
+   "id": 8,
+   "nom": "Oral pathology I"
+  },
+  {
+   "id": 9,
+   "nom": "Oral pathology II"
+  },
+  {
+   "id": 10,
+   "nom": "Child abuse"
+  },
+  {
+   "id": 11,
+   "nom": "Patients with intellectual and sensory disabilities"
+  },
+  {
+   "id": 12,
+   "nom": "Dental emergencies: summary"
+  }
+ ],
+ "dentPreventive": [
+  {
+   "id": 1,
+   "nom": "Introduction to primary preventive dentistry"
+  },
+  {
+   "id": 2,
+   "nom": "The oral environment"
+  },
+  {
+   "id": 3,
+   "nom": "Oral biofilms"
+  },
+  {
+   "id": 4,
+   "nom": "Mechanical control of oral biofilm"
+  },
+  {
+   "id": 5,
+   "nom": "Chemical control of oral biofilm"
+  },
+  {
+   "id": 6,
+   "nom": "Dental calculus"
+  },
+  {
+   "id": 7,
+   "nom": "Fluoride: introduction and mechanism of action"
+  },
+  {
+   "id": 8,
+   "nom": "Fluoride application"
+  },
+  {
+   "id": 9,
+   "nom": "Pit and fissure sealants"
+  },
+  {
+   "id": 10,
+   "nom": "Dentifrices"
+  },
+  {
+   "id": 11,
+   "nom": "Non-cariogenic diet"
+  },
+  {
+   "id": 12,
+   "nom": "Dental caries"
+  },
+  {
+   "id": 13,
+   "nom": "Caries risk assessment"
+  },
+  {
+   "id": 14,
+   "nom": "Disinfection and sterilisation"
+  }
+ ],
+ "dentProfessional": [
+  {
+   "id": 1,
+   "nom": "Introduction"
+  },
+  {
+   "id": 2,
+   "nom": "Legal regulation of dentistry in Spain"
+  },
+  {
+   "id": 3,
+   "nom": "Requirements for professional practice"
+  },
+  {
+   "id": 4,
+   "nom": "Professional ethics and deontology"
+  },
+  {
+   "id": 5,
+   "nom": "Clinical records in dentistry and professional secrecy"
+  },
+  {
+   "id": 6,
+   "nom": "Drug prescription in dentistry"
+  },
+  {
+   "id": 7,
+   "nom": "Professional liability in dentistry"
+  },
+  {
+   "id": 8,
+   "nom": "Information and informed consent in dentistry"
+  },
+  {
+   "id": 9,
+   "nom": "Lawsuits in dentistry"
+  },
+  {
+   "id": 10,
+   "nom": "Introduction to toxicology"
+  },
+  {
+   "id": 11,
+   "nom": "Toxicology in dentistry"
+  },
+  {
+   "id": 12,
+   "nom": "Expert reports in dentistry"
+  },
+  {
+   "id": 13,
+   "nom": "Assessment of oral damage"
+  },
+  {
+   "id": 14,
+   "nom": "Dental documents"
+  },
+  {
+   "id": 15,
+   "nom": "Occupational risks of dental personnel"
+  },
+  {
+   "id": 16,
+   "nom": "Forensic dentistry"
+  },
+  {
+   "id": 17,
+   "nom": "Non-dental necroidentification"
+  },
+  {
+   "id": 18,
+   "nom": "Dental necroidentification"
+  },
+  {
+   "id": 19,
+   "nom": "Ante-mortem / post-mortem comparison"
+  },
+  {
+   "id": 20,
+   "nom": "Methodology in the investigation of bodies"
+  },
+  {
+   "id": 21,
+   "nom": "Oral autopsy"
+  },
+  {
+   "id": 22,
+   "nom": "Craniometry and dentometry"
+  },
+  {
+   "id": 23,
+   "nom": "Identification through soft tissues (palatoscopy, cheiloscopy)"
+  },
+  {
+   "id": 24,
+   "nom": "Bite marks"
+  },
+  {
+   "id": 25,
+   "nom": "Radiology and identification by imaging"
+  },
+  {
+   "id": 26,
+   "nom": "Genetic markers"
+  },
+  {
+   "id": 27,
+   "nom": "Major catastrophes"
+  },
+  {
+   "id": 28,
+   "nom": "Role of the dentist in major catastrophes"
+  }
+ ],
+ "dentProsth1": [
+  {
+   "id": 1,
+   "nom": "Dental prosthetics and dentistry"
+  },
+  {
+   "id": 2,
+   "nom": "The fully edentulous patient"
+  },
+  {
+   "id": 3,
+   "nom": "Medical history and general principles in the fully edentulous patient"
+  },
+  {
+   "id": 4,
+   "nom": "Impressions for complete dentures"
+  },
+  {
+   "id": 5,
+   "nom": "Record bases and occlusion rims"
+  },
+  {
+   "id": 6,
+   "nom": "Upper occlusion rim records"
+  },
+  {
+   "id": 7,
+   "nom": "Lower occlusion rim records"
+  },
+  {
+   "id": 8,
+   "nom": "Denture teeth"
+  },
+  {
+   "id": 9,
+   "nom": "Trial placement"
+  },
+  {
+   "id": 10,
+   "nom": "Complete denture manufacturing"
+  },
+  {
+   "id": 11,
+   "nom": "Remount procedure"
+  },
+  {
+   "id": 12,
+   "nom": "Placement of complete dentures"
+  },
+  {
+   "id": 13,
+   "nom": "Immediate dentures"
+  },
+  {
+   "id": 14,
+   "nom": "Introduction to implantology"
+  },
+  {
+   "id": 15,
+   "nom": "Tooth-supported overdentures"
+  },
+  {
+   "id": 16,
+   "nom": "Implant overdentures"
+  }
+ ],
+ "dentProsth2": [
+  {
+   "id": 1,
+   "nom": "The partially edentulous patient"
+  },
+  {
+   "id": 2,
+   "nom": "Assessment of the partially edentulous patient"
+  },
+  {
+   "id": 3,
+   "nom": "Concept and objectives of RPDs"
+  },
+  {
+   "id": 4,
+   "nom": "RPD bases"
+  },
+  {
+   "id": 5,
+   "nom": "RPD connectors"
+  },
+  {
+   "id": 6,
+   "nom": "RPD retainers I"
+  },
+  {
+   "id": 7,
+   "nom": "RPD retainers II"
+  },
+  {
+   "id": 8,
+   "nom": "RPD biomechanics"
+  },
+  {
+   "id": 9,
+   "nom": "RPD design"
+  },
+  {
+   "id": 10,
+   "nom": "RPD treatment planning"
+  },
+  {
+   "id": 11,
+   "nom": "RPD impressions"
+  },
+  {
+   "id": 12,
+   "nom": "RPD framework try-in"
+  },
+  {
+   "id": 13,
+   "nom": "RPD placement"
+  },
+  {
+   "id": 14,
+   "nom": "Flexible dentures"
+  }
+ ],
+ "dentProsth3": [
+  {
+   "id": 1,
+   "nom": "Fundamentals of fixed prosthodontics"
+  },
+  {
+   "id": 2,
+   "nom": "Tooth preparation"
+  },
+  {
+   "id": 3,
+   "nom": "Materials"
+  },
+  {
+   "id": 4,
+   "nom": "Laboratory techniques"
+  },
+  {
+   "id": 5,
+   "nom": "Aesthetic and functional planning"
+  },
+  {
+   "id": 6,
+   "nom": "Veneers"
+  },
+  {
+   "id": 7,
+   "nom": "Bridges I"
+  },
+  {
+   "id": 8,
+   "nom": "Bridges II"
+  },
+  {
+   "id": 9,
+   "nom": "Treatment of endodontically treated teeth"
+  },
+  {
+   "id": 10,
+   "nom": "Pre-prosthetic treatments II"
+  }
+ ],
+ "dentProsth4": [
+  {
+   "id": 1,
+   "nom": "Impressions in fixed prosthodontics"
+  },
+  {
+   "id": 2,
+   "nom": "Digital impressions"
+  },
+  {
+   "id": 3,
+   "nom": "Working casts"
+  },
+  {
+   "id": 4,
+   "nom": "Temporary restorations"
+  },
+  {
+   "id": 5,
+   "nom": "Try-ins in fixed prosthodontics"
+  },
+  {
+   "id": 6,
+   "nom": "Cements"
+  },
+  {
+   "id": 7,
+   "nom": "Implant-supported fixed prostheses"
+  },
+  {
+   "id": 8,
+   "nom": "Impressions in implant-supported prostheses"
+  }
+ ],
+ "dentPsycho": [
+  {
+   "id": 1,
+   "nom": "Introduction to health psychology"
+  },
+  {
+   "id": 2,
+   "nom": "Theoretical models: biomedical and biopsychosocial"
+  },
+  {
+   "id": 3,
+   "nom": "Health behaviours"
+  },
+  {
+   "id": 4,
+   "nom": "Therapeutic relationship and communication skills"
+  },
+  {
+   "id": 5,
+   "nom": "Treatment adherence"
+  },
+  {
+   "id": 6,
+   "nom": "Emotion, stress and coping"
+  },
+  {
+   "id": 7,
+   "nom": "Dental fears and phobias"
+  },
+  {
+   "id": 8,
+   "nom": "Pain"
+  },
+  {
+   "id": 9,
+   "nom": "Occupational stress and burnout"
+  }
+ ],
+ "dentRadioprot": [
+  {
+   "id": 1,
+   "nom": "Atomic structure"
+  },
+  {
+   "id": 2,
+   "nom": "Interaction of radiation with matter"
+  },
+  {
+   "id": 3,
+   "nom": "Physical characteristics of radiodiagnostic equipment"
+  },
+  {
+   "id": 4,
+   "nom": "Radiation beam and X-ray spectrum"
+  },
+  {
+   "id": 5,
+   "nom": "Radiological quantities and units"
+  },
+  {
+   "id": 6,
+   "nom": "Radiation detection and dosimetry"
+  },
+  {
+   "id": 7,
+   "nom": "Biological effects of ionising radiation and basic radiodiagnosis regulations"
+  },
+  {
+   "id": 8,
+   "nom": "Biological effects of ionising radiation"
+  },
+  {
+   "id": 9,
+   "nom": "Spanish legislation on radiodiagnostic facilities"
+  },
+  {
+   "id": 10,
+   "nom": "General criteria and basic measures in radiation protection"
+  }
+ ],
+ "dentRisks": [
+  {
+   "id": 1,
+   "nom": "Occupational health and accidents at work. Legislation"
+  },
+  {
+   "id": 2,
+   "nom": "Occupational Safety and Health Act"
+  },
+  {
+   "id": 3,
+   "nom": "Work-related harm: occupational accidents and diseases"
+  },
+  {
+   "id": 4,
+   "nom": "Biological agents"
+  },
+  {
+   "id": 5,
+   "nom": "Physical agents"
+  },
+  {
+   "id": 6,
+   "nom": "Chemical agents"
+  },
+  {
+   "id": 7,
+   "nom": "Mental workload"
+  },
+  {
+   "id": 8,
+   "nom": "Physical workload"
+  }
+ ],
+ "dentSpecialPat": [
+  {
+   "id": 1,
+   "nom": "Unit 1 - Hypertensive patients"
+  },
+  {
+   "id": 3,
+   "nom": "Unit 3 - Cardiac patients"
+  },
+  {
+   "id": 4,
+   "nom": "Unit 4 - Pregnant patients"
+  },
+  {
+   "id": 5,
+   "nom": "Unit 5 - Digestive system alteration"
+  },
+  {
+   "id": 6,
+   "nom": "Unit 6 - Renal patients"
+  },
+  {
+   "id": 7,
+   "nom": "Unit 7 - Oncological patient"
+  },
+  {
+   "id": 8,
+   "nom": "Unit 8 - Transplanted patients"
+  },
+  {
+   "id": 9,
+   "nom": "Unit 9 - Haemostatic patient"
+  }
+ ],
+ "dentSurgery1": [
+  {
+   "id": 1,
+   "nom": "Medical history and examination"
+  },
+  {
+   "id": 2,
+   "nom": "Intraoral and extraoral radiology"
+  },
+  {
+   "id": 3,
+   "nom": "Anaesthesia I: concept, instruments, maxillary anaesthesia"
+  },
+  {
+   "id": 4,
+   "nom": "Anaesthesia II: mandibular anaesthesia, accidents and complications"
+  },
+  {
+   "id": 5,
+   "nom": "Anaesthesia III: local anaesthetics and vasoconstrictors"
+  },
+  {
+   "id": 6,
+   "nom": "Exodontia I: concept, indications, anatomy, instruments"
+  },
+  {
+   "id": 7,
+   "nom": "Extraction techniques"
+  },
+  {
+   "id": 8,
+   "nom": "Complications in extraction"
+  },
+  {
+   "id": 9,
+   "nom": "The surgical act: phases, premedication, instruments, postoperative care"
+  },
+  {
+   "id": 10,
+   "nom": "Surgical exodontia: incision, flaps, ostectomy, odontosection, suture"
+  },
+  {
+   "id": 11,
+   "nom": "Medically compromised patients and complications in oral surgery"
+  },
+  {
+   "id": 12,
+   "nom": "Tooth retention: impacted third molars, canines and other teeth"
+  }
+ ],
+ "dentSurgery2": [
+  {
+   "id": 1,
+   "nom": "Oral clinical examination"
+  },
+  {
+   "id": 2,
+   "nom": "Diagnostic and descriptive terminology"
+  },
+  {
+   "id": 3,
+   "nom": "Diagnostic tests"
+  },
+  {
+   "id": 4,
+   "nom": "Dyschromia"
+  },
+  {
+   "id": 5,
+   "nom": "White lesions and lichen"
+  },
+  {
+   "id": 6,
+   "nom": "Fungal infections"
+  },
+  {
+   "id": 7,
+   "nom": "Bacterial infections"
+  },
+  {
+   "id": 8,
+   "nom": "Viral infections"
+  },
+  {
+   "id": 9,
+   "nom": "Ulcers"
+  },
+  {
+   "id": 10,
+   "nom": "Chemical and physical injuries"
+  }
+ ],
+ "dentSurgery3": [
+  {
+   "id": 1,
+   "nom": "Unit 1 - Blistering diseases"
+  },
+  {
+   "id": 2,
+   "nom": "Unit 2 - Benign exophytic lesions"
+  },
+  {
+   "id": 3,
+   "nom": "Unit 3 - Abnormalities by location (tongue and lip)"
+  },
+  {
+   "id": 4,
+   "nom": "Unit 4 - Precancer"
+  },
+  {
+   "id": 5,
+   "nom": "Unit 5 - Oral cancer"
+  },
+  {
+   "id": 6,
+   "nom": "Unit 6 - Neuro I (pain, orofacial pain, neuralgias)"
+  },
+  {
+   "id": 7,
+   "nom": "Unit 7 - Neuro II (burning mouth, atypical facial pain, palsies)"
+  },
+  {
+   "id": 8,
+   "nom": "Unit 8 - Salivary gland disease I"
+  },
+  {
+   "id": 9,
+   "nom": "Unit 9 - Salivary gland disease II"
+  },
+  {
+   "id": 10,
+   "nom": "Unit 10 - Endocrine, metabolic and haematological disorders"
+  },
+  {
+   "id": 11,
+   "nom": "Unit 11 - Bone pathology"
+  },
+  {
+   "id": 13,
+   "nom": "Unit 13 - Geriatric patient"
+  },
+  {
+   "id": 14,
+   "nom": "Unit 14 - TMJ pathology"
+  }
+ ],
+ "dentSurgery4": [
+  {
+   "id": 1,
+   "nom": "Odontogenic infections"
+  },
+  {
+   "id": 2,
+   "nom": "Cellulitis"
+  },
+  {
+   "id": 3,
+   "nom": "Infections of the jaw bones"
+  },
+  {
+   "id": 4,
+   "nom": "Implants"
+  },
+  {
+   "id": 5,
+   "nom": "Bone regeneration"
+  },
+  {
+   "id": 6,
+   "nom": "Preprosthetic surgery"
+  },
+  {
+   "id": 7,
+   "nom": "Cysts I"
+  },
+  {
+   "id": 8,
+   "nom": "Cysts II"
+  },
+  {
+   "id": 9,
+   "nom": "Odontogenic tumours"
+  },
+  {
+   "id": 10,
+   "nom": "Non-odontogenic tumours"
+  },
+  {
+   "id": 11,
+   "nom": "Review of basic and advanced surgical techniques"
+  }
+ ],
+ "dentTherap1": [
+  {
+   "id": 1,
+   "nom": "Caries I: concept, aetiology, cariogenic factors"
+  },
+  {
+   "id": 2,
+   "nom": "Caries II: histology and classification"
+  },
+  {
+   "id": 3,
+   "nom": "Caries III: diagnosis, risk and dentin removal"
+  },
+  {
+   "id": 4,
+   "nom": "Dentin wound"
+  },
+  {
+   "id": 5,
+   "nom": "Operative field and cavities: basic concepts"
+  },
+  {
+   "id": 6,
+   "nom": "Anterior and posterior cavities"
+  },
+  {
+   "id": 7,
+   "nom": "Direct restorative materials I: GIC, compomers, composite composition"
+  },
+  {
+   "id": 8,
+   "nom": "Direct restorative materials II: composite classification, properties, polymerisation"
+  },
+  {
+   "id": 9,
+   "nom": "Adhesion I: general concepts, conventional adhesives, enamel and dentin"
+  },
+  {
+   "id": 10,
+   "nom": "Premolar anatomy"
+  },
+  {
+   "id": 11,
+   "nom": "Upper molar anatomy"
+  },
+  {
+   "id": 12,
+   "nom": "Lower molar anatomy"
+  },
+  {
+   "id": 13,
+   "nom": "Non-bacterial dental pathology (attrition, abrasion, erosion, abfraction)"
+  },
+  {
+   "id": 14,
+   "nom": "Colour alterations"
+  },
+  {
+   "id": 15,
+   "nom": "Adhesion II: classification, self-etch and universal adhesives, protocols"
+  }
+ ],
+ "dentTherap2": [
+  {
+   "id": 1,
+   "nom": "Internal anatomy and access openings"
+  },
+  {
+   "id": 2,
+   "nom": "Materials I"
+  },
+  {
+   "id": 3,
+   "nom": "Materials II"
+  },
+  {
+   "id": 4,
+   "nom": "Instrumentation"
+  },
+  {
+   "id": 5,
+   "nom": "Obturation technique"
+  },
+  {
+   "id": 6,
+   "nom": "Irrigation"
+  },
+  {
+   "id": 7,
+   "nom": "Anaesthesia and radiology"
+  },
+  {
+   "id": 8,
+   "nom": "Accidents and complications"
+  },
+  {
+   "id": 9,
+   "nom": "Pulp and periapical pathology"
+  },
+  {
+   "id": 10,
+   "nom": "Diagnosis in endodontics"
+  }
+ ],
+ "dentTherap3": [
+  {
+   "id": 1,
+   "nom": "Cariology"
+  },
+  {
+   "id": 2,
+   "nom": "Adhesion"
+  },
+  {
+   "id": 3,
+   "nom": "Dental materials in operative dentistry"
+  },
+  {
+   "id": 4,
+   "nom": "Aesthetics in operative dentistry"
+  },
+  {
+   "id": 5,
+   "nom": "Direct anterior restorations I"
+  },
+  {
+   "id": 6,
+   "nom": "Direct anterior restorations II"
+  },
+  {
+   "id": 7,
+   "nom": "Fibre-reinforced treatments"
+  },
+  {
+   "id": 8,
+   "nom": "Porcelain veneers"
+  },
+  {
+   "id": 9,
+   "nom": "Posterior teeth restorations"
+  },
+  {
+   "id": 10,
+   "nom": "Indirect posterior restorations"
+  },
+  {
+   "id": 11,
+   "nom": "Endodontically treated teeth"
+  },
+  {
+   "id": 12,
+   "nom": "Bruxist patients"
+  }
+ ],
+ "dentTherap4": [
+  {
+   "id": 1,
+   "nom": "Diagnosis in endodontics I"
+  },
+  {
+   "id": 2,
+   "nom": "Diagnosis in endodontics II: clinical examination"
+  },
+  {
+   "id": 3,
+   "nom": "Rotary NiTi instrumentation I"
+  },
+  {
+   "id": 4,
+   "nom": "Rotary NiTi instrumentation II"
+  },
+  {
+   "id": 5,
+   "nom": "Irrigation"
+  },
+  {
+   "id": 6,
+   "nom": "Obturation materials in endodontics"
+  },
+  {
+   "id": 7,
+   "nom": "Obturation techniques"
+  },
+  {
+   "id": 8,
+   "nom": "Emergencies in endodontics"
+  },
+  {
+   "id": 9,
+   "nom": "Accidents and complications in endodontics"
+  },
+  {
+   "id": 10,
+   "nom": "Pharmacology in endodontics"
+  },
+  {
+   "id": 11,
+   "nom": "Treatment of the immature tooth"
+  },
+  {
+   "id": 12,
+   "nom": "Endo-periodontal pathology"
+  },
+  {
+   "id": 13,
+   "nom": "Endodontic surgery"
   }
  ]
 };
