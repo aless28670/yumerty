@@ -166,74 +166,70 @@ window.CHAPITRES = {
  "dentBiomaterial": [
   {
    "id": 1,
-   "nom": "Subject presentation"
-  },
-  {
-   "id": 2,
    "nom": "Concepts and definitions"
   },
   {
-   "id": 3,
+   "id": 2,
    "nom": "Physical properties of dental biomaterials"
   },
   {
-   "id": 4,
+   "id": 3,
    "nom": "Chemical properties of dental materials"
   },
   {
-   "id": 18,
+   "id": 17,
    "nom": "Biological properties and polymers"
   },
   {
-   "id": 17,
+   "id": 16,
    "nom": "Ceramic and metallic materials"
   },
   {
-   "id": 5,
+   "id": 4,
    "nom": "Polymeric materials I — impression materials"
   },
   {
-   "id": 6,
+   "id": 5,
    "nom": "Polymeric materials II — acrylics"
   },
   {
-   "id": 7,
+   "id": 6,
    "nom": "Polymeric materials III — composite resins"
   },
   {
-   "id": 8,
+   "id": 7,
    "nom": "Polymers: waxes, thermoplastics and gutta-percha"
   },
   {
-   "id": 9,
+   "id": 8,
    "nom": "Ceramic materials I — plasters"
   },
   {
-   "id": 10,
+   "id": 9,
    "nom": "Ceramic materials II — dental cements"
   },
   {
-   "id": 11,
+   "id": 10,
    "nom": "Ceramic materials III — porcelains and vitroceramics"
   },
   {
-   "id": 12,
+   "id": 11,
    "nom": "Metallic materials I — noble metals and titanium"
   },
   {
-   "id": 13,
+   "id": 12,
    "nom": "Non-noble metals and alloys"
   },
   {
-   "id": 14,
+   "id": 13,
    "nom": "Titanium and silver amalgam"
   },
   {
-   "id": 15,
+   "id": 14,
    "nom": "Metals: non-noble alloys and applications"
   },
   {
-   "id": 16,
+   "id": 15,
    "nom": "Bone regeneration materials"
   }
  ],
@@ -463,15 +459,15 @@ window.CHAPITRES = {
    "nom": "CVR. Ischaemic heart disease prof"
   },
   {
-   "id": 11,
+   "id": 10,
    "nom": "Unit Heart Failure and arrhitmias"
   },
   {
-   "id": 12,
+   "id": 11,
    "nom": "Unit CVR. Arterial diseases"
   },
   {
-   "id": 13,
+   "id": 12,
    "nom": "Congenital heart disease, valvulopathies, endocarditis"
   }
  ],
@@ -678,62 +674,58 @@ window.CHAPITRES = {
  "dentPharmacoMid": [
   {
    "id": 1,
-   "nom": "Intro"
-  },
-  {
-   "id": 2,
    "nom": "Concepthistoryevol"
   },
   {
-   "id": 3,
+   "id": 2,
    "nom": "Pharmacokinetics"
   },
   {
-   "id": 4,
+   "id": 3,
    "nom": "Pharmacodynamics"
   },
   {
-   "id": 5,
+   "id": 4,
    "nom": "Adverse drug reactions"
   },
   {
-   "id": 6,
+   "id": 5,
    "nom": "Drug Interactions"
   },
   {
-   "id": 7,
+   "id": 6,
    "nom": "Autonomic Nervous System"
   },
   {
-   "id": 8,
+   "id": 7,
    "nom": "Neuromuscular blockers"
   },
   {
-   "id": 9,
+   "id": 8,
    "nom": "Opioid"
   },
   {
-   "id": 10,
+   "id": 9,
    "nom": "Nsaids"
   },
   {
-   "id": 11,
+   "id": 10,
    "nom": "Corticoids"
   },
   {
-   "id": 12,
+   "id": 11,
    "nom": "Antimigraine and antihistamine drugs"
   },
   {
-   "id": 13,
+   "id": 12,
    "nom": "Benzodiazepines"
   },
   {
-   "id": 14,
+   "id": 13,
    "nom": "Antidepressants and antiepileptic drugs"
   },
   {
-   "id": 15,
+   "id": 14,
    "nom": "Local and general anesthetics"
   }
  ],
@@ -4255,31 +4247,31 @@ window.CHAPITRES = {
    "nom": "Unit 1 - Hypertensive patients"
   },
   {
-   "id": 3,
+   "id": 2,
    "nom": "Unit 3 - Cardiac patients"
   },
   {
-   "id": 4,
+   "id": 3,
    "nom": "Unit 4 - Pregnant patients"
   },
   {
-   "id": 5,
+   "id": 4,
    "nom": "Unit 5 - Digestive system alteration"
   },
   {
-   "id": 6,
+   "id": 5,
    "nom": "Unit 6 - Renal patients"
   },
   {
-   "id": 7,
+   "id": 6,
    "nom": "Unit 7 - Oncological patient"
   },
   {
-   "id": 8,
+   "id": 7,
    "nom": "Unit 8 - Transplanted patients"
   },
   {
-   "id": 9,
+   "id": 8,
    "nom": "Unit 9 - Haemostatic patient"
   }
  ],
@@ -4421,11 +4413,11 @@ window.CHAPITRES = {
    "nom": "Unit 11 - Bone pathology"
   },
   {
-   "id": 13,
+   "id": 12,
    "nom": "Unit 13 - Geriatric patient"
   },
   {
-   "id": 14,
+   "id": 13,
    "nom": "Unit 14 - TMJ pathology"
   }
  ],

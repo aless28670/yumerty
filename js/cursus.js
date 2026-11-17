@@ -541,7 +541,7 @@ const CURSUS = {
             "label": "Semestre 1",
             "matieres": {
               "dentAFI1": {
-                "label": "Anatomy, Physiology & Histology 1",
+                "label": "Anatomie, physiologie et histologie 1",
                 "modules": [
                   {
                     "id": "dentAFI1",
@@ -552,7 +552,7 @@ const CURSUS = {
                 ]
               },
               "dentEpi": {
-                "label": "Epidemiology",
+                "label": "Épidémiologie",
                 "modules": [
                   {
                     "id": "dentEpi",
@@ -563,7 +563,7 @@ const CURSUS = {
                 ]
               },
               "dentBiochem": {
-                "label": "Biochemistry",
+                "label": "Biochimie",
                 "modules": [
                   {
                     "id": "dentBiochem",
@@ -590,7 +590,7 @@ const CURSUS = {
             "label": "Semestre 2",
             "matieres": {
               "dentAFI2": {
-                "label": "Anatomy, Physiology & Histology 2",
+                "label": "Anatomie, physiologie et histologie 2",
                 "modules": [
                   {
                     "id": "dentAFI2",
@@ -601,7 +601,7 @@ const CURSUS = {
                 ]
               },
               "dentMicro": {
-                "label": "Microbiology",
+                "label": "Microbiologie",
                 "modules": [
                   {
                     "id": "dentMicro",
@@ -612,7 +612,7 @@ const CURSUS = {
                 ]
               },
               "dentPsycho": {
-                "label": "Psychology",
+                "label": "Psychologie",
                 "modules": [
                   {
                     "id": "dentPsycho",
@@ -623,7 +623,7 @@ const CURSUS = {
                 ]
               },
               "dentAnthropo": {
-                "label": "Anthropology",
+                "label": "Anthropologie",
                 "modules": [
                   {
                     "id": "dentAnthropo",
@@ -645,7 +645,7 @@ const CURSUS = {
             "label": "Semestre 1",
             "matieres": {
               "dentBiomaterial": {
-                "label": "Biomaterials",
+                "label": "Biomatériaux",
                 "modules": [
                   {
                     "id": "dentBiomaterial",
@@ -656,7 +656,7 @@ const CURSUS = {
                 ]
               },
               "dentSemiology1": {
-                "label": "Semiology 1",
+                "label": "Sémiologie 1",
                 "modules": [
                   {
                     "id": "dentSemiology1",
@@ -666,52 +666,42 @@ const CURSUS = {
                   }
                 ]
               },
-              "dentPharmacoMid": {
-                "label": "Pharmacology — Midterm",
+              "dentPharmaco": {
+                "label": "Pharmacologie",
                 "modules": [
                   {
                     "id": "dentPharmacoMid",
-                    "label": "Examen — 4 propositions",
+                    "label": "Examen mi-semestre — 4 propositions",
                     "bankKey": "dentPharmacoMid",
                     "optionCount": 4
-                  }
-                ]
-              },
-              "dentPathology1Mid": {
-                "label": "Pathology 1 — Midterm",
-                "modules": [
-                  {
-                    "id": "dentPathology1Mid",
-                    "label": "Examen — 4 propositions",
-                    "bankKey": "dentPathology1Mid",
-                    "optionCount": 4
-                  }
-                ]
-              },
-              "dentPharmacoFin": {
-                "label": "Pharmacology — Final",
-                "modules": [
+                  },
                   {
                     "id": "dentPharmacoFin",
-                    "label": "Examen — 4 propositions",
+                    "label": "Examen final — 4 propositions",
                     "bankKey": "dentPharmacoFin",
                     "optionCount": 4
                   }
                 ]
               },
-              "dentPathology1Fin": {
-                "label": "Pathology 1 — Final",
+              "dentPathology1": {
+                "label": "Pathologie 1",
                 "modules": [
                   {
+                    "id": "dentPathology1Mid",
+                    "label": "Examen mi-semestre — 4 propositions",
+                    "bankKey": "dentPathology1Mid",
+                    "optionCount": 4
+                  },
+                  {
                     "id": "dentPathology1Fin",
-                    "label": "Examen — 4 propositions",
+                    "label": "Examen final — 4 propositions",
                     "bankKey": "dentPathology1Fin",
                     "optionCount": 4
                   }
                 ]
               },
               "dentHeadNeck": {
-                "label": "Head & Neck",
+                "label": "Tête et cou",
                 "modules": [
                   {
                     "id": "dentHeadNeck",
@@ -727,7 +717,7 @@ const CURSUS = {
             "label": "Semestre 2",
             "matieres": {
               "dentDiagnostic": {
-                "label": "Diagnostic",
+                "label": "Radiologie diagnostique",
                 "modules": [
                   {
                     "id": "dentDiagnostic",
@@ -738,7 +728,7 @@ const CURSUS = {
                 ]
               },
               "dentSemiology2": {
-                "label": "Semiology 2",
+                "label": "Sémiologie 2",
                 "modules": [
                   {
                     "id": "dentSemiology2",
@@ -749,7 +739,7 @@ const CURSUS = {
                 ]
               },
               "dentPhysiology": {
-                "label": "Physiology",
+                "label": "Physiologie",
                 "modules": [
                   {
                     "id": "dentPhysiology",
@@ -760,7 +750,7 @@ const CURSUS = {
                 ]
               },
               "dentPeriodoncia": {
-                "label": "Periodontology",
+                "label": "Parodontologie",
                 "modules": [
                   {
                     "id": "dentPeriodoncia",
@@ -781,23 +771,18 @@ const CURSUS = {
                   }
                 ]
               },
-              "dentPatho2Mid": {
-                "label": "Pathology 2 — Midterm",
+              "dentPatho2": {
+                "label": "Pathologie 2",
                 "modules": [
                   {
                     "id": "dentPatho2Mid",
-                    "label": "Examen — 4 propositions",
+                    "label": "Examen mi-semestre — 4 propositions",
                     "bankKey": "dentPatho2Mid",
                     "optionCount": 4
-                  }
-                ]
-              },
-              "dentPatho2Fin": {
-                "label": "Pathology 2 — Final",
-                "modules": [
+                  },
                   {
                     "id": "dentPatho2Fin",
-                    "label": "Examen — 4 propositions",
+                    "label": "Examen final — 4 propositions",
                     "bankKey": "dentPatho2Fin",
                     "optionCount": 4
                   }
@@ -815,7 +800,7 @@ const CURSUS = {
             "label": "Semestre 1",
             "matieres": {
               "dentProsth1": {
-                "label": "Prosthodontics 1",
+                "label": "Prothèse 1",
                 "modules": [
                   {
                     "id": "dentProsth1",
@@ -826,7 +811,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia1": {
-                "label": "Paediatric Dentistry 1",
+                "label": "Odontologie pédiatrique 1",
                 "modules": [
                   {
                     "id": "dentPedia1",
@@ -837,7 +822,7 @@ const CURSUS = {
                 ]
               },
               "dentOrtho1": {
-                "label": "Orthodontics 1",
+                "label": "Orthodontie 1",
                 "modules": [
                   {
                     "id": "dentOrtho1",
@@ -848,7 +833,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap1": {
-                "label": "Dental Therapeutics 1",
+                "label": "Odontologie conservatrice et endodontie 1",
                 "modules": [
                   {
                     "id": "dentTherap1",
@@ -859,7 +844,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery1": {
-                "label": "Oral Surgery 1",
+                "label": "Pathologie et chirurgie buccales 1",
                 "modules": [
                   {
                     "id": "dentSurgery1",
@@ -875,7 +860,7 @@ const CURSUS = {
             "label": "Semestre 2",
             "matieres": {
               "dentProsth2": {
-                "label": "Prosthodontics 2",
+                "label": "Prothèse 2",
                 "modules": [
                   {
                     "id": "dentProsth2",
@@ -886,7 +871,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia2": {
-                "label": "Paediatric Dentistry 2",
+                "label": "Odontologie pédiatrique 2",
                 "modules": [
                   {
                     "id": "dentPedia2",
@@ -897,7 +882,7 @@ const CURSUS = {
                 ]
               },
               "dentOrtho2": {
-                "label": "Orthodontics 2",
+                "label": "Orthodontie 2",
                 "modules": [
                   {
                     "id": "dentOrtho2",
@@ -908,7 +893,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap2": {
-                "label": "Dental Therapeutics 2",
+                "label": "Odontologie conservatrice et endodontie 2",
                 "modules": [
                   {
                     "id": "dentTherap2",
@@ -919,7 +904,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery2": {
-                "label": "Oral Surgery 2",
+                "label": "Pathologie et chirurgie buccales 2",
                 "modules": [
                   {
                     "id": "dentSurgery2",
@@ -941,7 +926,7 @@ const CURSUS = {
             "label": "Semestre 1",
             "matieres": {
               "dentProsth3": {
-                "label": "Prosthodontics 3",
+                "label": "Prothèse 3",
                 "modules": [
                   {
                     "id": "dentProsth3",
@@ -952,7 +937,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia3": {
-                "label": "Paediatric Dentistry 3",
+                "label": "Odontologie pédiatrique 3",
                 "modules": [
                   {
                     "id": "dentPedia3",
@@ -963,7 +948,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap3": {
-                "label": "Dental Therapeutics 3",
+                "label": "Odontologie conservatrice et endodontie 3",
                 "modules": [
                   {
                     "id": "dentTherap3",
@@ -974,7 +959,7 @@ const CURSUS = {
                 ]
               },
               "dentAdvPerio": {
-                "label": "Advanced Periodontics",
+                "label": "Parodontologie avancée",
                 "modules": [
                   {
                     "id": "dentAdvPerio",
@@ -985,7 +970,7 @@ const CURSUS = {
                 ]
               },
               "dentOrtho3": {
-                "label": "Orthodontics 3",
+                "label": "Orthodontie 3",
                 "modules": [
                   {
                     "id": "dentOrtho3",
@@ -996,7 +981,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery3": {
-                "label": "Oral Surgery 3",
+                "label": "Pathologie et chirurgie buccales 3",
                 "modules": [
                   {
                     "id": "dentSurgery3",
@@ -1012,7 +997,7 @@ const CURSUS = {
             "label": "Semestre 2",
             "matieres": {
               "dentProsth4": {
-                "label": "Prosthodontics 4",
+                "label": "Prothèse 4",
                 "modules": [
                   {
                     "id": "dentProsth4",
@@ -1023,7 +1008,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia4": {
-                "label": "Paediatric Dentistry 4",
+                "label": "Odontologie pédiatrique 4",
                 "modules": [
                   {
                     "id": "dentPedia4",
@@ -1034,7 +1019,7 @@ const CURSUS = {
                 ]
               },
               "dentOrtho4": {
-                "label": "Orthodontics 4",
+                "label": "Orthodontie 4",
                 "modules": [
                   {
                     "id": "dentOrtho4",
@@ -1045,7 +1030,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap4": {
-                "label": "Dental Therapeutics 4",
+                "label": "Odontologie conservatrice et endodontie 4",
                 "modules": [
                   {
                     "id": "dentTherap4",
@@ -1056,7 +1041,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery4": {
-                "label": "Oral Surgery 4",
+                "label": "Pathologie et chirurgie buccales 4",
                 "modules": [
                   {
                     "id": "dentSurgery4",
@@ -1067,7 +1052,7 @@ const CURSUS = {
                 ]
               },
               "dentPreventive": {
-                "label": "Preventive Dentistry",
+                "label": "Odontologie préventive",
                 "modules": [
                   {
                     "id": "dentPreventive",
@@ -1089,7 +1074,7 @@ const CURSUS = {
             "label": "Matières au choix",
             "matieres": {
               "dentRadioprot": {
-                "label": "Radiation Protection",
+                "label": "Radioprotection",
                 "modules": [
                   {
                     "id": "dentRadioprot",
@@ -1100,7 +1085,7 @@ const CURSUS = {
                 ]
               },
               "dentProfessional": {
-                "label": "Professionalism",
+                "label": "Exercice professionnel et odontologie légale",
                 "modules": [
                   {
                     "id": "dentProfessional",
@@ -1111,7 +1096,7 @@ const CURSUS = {
                 ]
               },
               "dentCommunity": {
-                "label": "Community Dentistry",
+                "label": "Odontologie communautaire",
                 "modules": [
                   {
                     "id": "dentCommunity",
@@ -1122,7 +1107,7 @@ const CURSUS = {
                 ]
               },
               "dentEmergencies": {
-                "label": "Medical Emergencies",
+                "label": "Urgences médicales",
                 "modules": [
                   {
                     "id": "dentEmergencies",
@@ -1133,7 +1118,7 @@ const CURSUS = {
                 ]
               },
               "dentErgonomics": {
-                "label": "Ergonomics",
+                "label": "Ergonomie",
                 "modules": [
                   {
                     "id": "dentErgonomics",
@@ -1144,7 +1129,7 @@ const CURSUS = {
                 ]
               },
               "dentRisks": {
-                "label": "Occupational Risks",
+                "label": "Risques professionnels",
                 "modules": [
                   {
                     "id": "dentRisks",
@@ -1155,7 +1140,7 @@ const CURSUS = {
                 ]
               },
               "dentImplants": {
-                "label": "Implantology",
+                "label": "Implantologie",
                 "modules": [
                   {
                     "id": "dentImplants",
@@ -1166,7 +1151,7 @@ const CURSUS = {
                 ]
               },
               "dentSpecialPat": {
-                "label": "Special Patients",
+                "label": "Patients à besoins particuliers",
                 "modules": [
                   {
                     "id": "dentSpecialPat",

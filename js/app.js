@@ -1307,7 +1307,7 @@ function renderNav() {
           <div class="mode-card-head">
             <span class="mode-tag" style="background:${accentRgba(0.14)}; color:${accent}; box-shadow: inset 0 0 0 1px ${accentRgba(0.35)};">${escapeHtml(mod.optionCount + " propositions")}</span>
           </div>
-          ${plusieursModules ? `<h3 class="mode-title">${escapeHtml(mod.label)}</h3>` : ""}
+          ${plusieursModules ? `<h3 class="mode-title">${escapeHtml(String(t(mod.label)).replace(/\s*—\s*\d+\s*(?:propositions|options|opciones)\s*$/i, ""))}</h3>` : ""}
           <p class="mode-desc">${escapeHtml(mod.desc || (t("Une mauvaise réponse retire") + " " + (mod.optionCount === 4 ? "1/3" : "1/2") + " " + t("point. Score ramené sur 10.")))}</p>
           ${reviseBlockHtml(mod.bankKey)}
         </div>

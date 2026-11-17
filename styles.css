@@ -2805,3 +2805,8 @@ html { scroll-behavior: smooth; }
   border-color: rgba(40, 35, 28, 0.14);
   color: var(--text-soft, rgba(40, 35, 28, 0.6));
 }
+
+/* Titres de navigation (matière, année…) : un mot long (« Pharmacologie », « Parodontologie »)
+   ne doit jamais déborder de l'écran du téléphone. */
+h1#nav-title{overflow-wrap:break-word}
+@media (max-width:600px){ h1#nav-title{font-size:clamp(28px,8.6vw,38px) !important;line-height:1.06} }
