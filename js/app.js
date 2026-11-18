@@ -276,6 +276,42 @@ function writeJSON(key, val) {
   try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
 }
 
+/* ----------- Banques fusionnées (mid + final → une banque à parties) -----------
+   Les données d'un élève (vues, erreurs, chapitres choisis) sont rangées par banque et par
+   position. Quand deux banques sont fusionnées, on les reporte dans la nouvelle : position
+   décalée de `dq`, chapitre décalé de `dc`. Une série en cours sur l'ancienne banque ne peut
+   pas être reprise : elle est abandonnée. Exécuté à chaque chargement, sans effet une fois fait. */
+const BANQUES_FUSIONNEES = [
+  { ancienne: "ortheseExam1", nouvelle: "orthese", dq: 0, dc: 0 },     // 18/11/2026
+  { ancienne: "ortheseExam2", nouvelle: "orthese", dq: 696, dc: 12 }
+];
+(function migrerBanquesFusionnees() {
+  const seen = readJSON("yumerty_seen_v1"), err = readJSON("yumerty_mistakes_v1"),
+        chap = readJSON("yumerty_chapters_v2"), sess = readJSON("yumerty_active_session_v1");
+  let s = false, e = false, c = false;
+  BANQUES_FUSIONNEES.forEach(({ ancienne, nouvelle, dq, dc }) => {
+    if (Array.isArray(seen[ancienne])) {
+      seen[nouvelle] = [...new Set([...(seen[nouvelle] || []), ...seen[ancienne].map(i => i + dq)])];
+      delete seen[ancienne]; s = true;
+    }
+    if (Array.isArray(err[ancienne])) {
+      const liste = err[nouvelle] || [];
+      err[ancienne].forEach(m => { const bankIdx = m.bankIdx + dq;
+        if (!liste.some(x => x.bankIdx === bankIdx)) liste.push({ ...m, bankIdx }); });
+      err[nouvelle] = liste; delete err[ancienne]; e = true;
+    }
+    if (Array.isArray(chap[ancienne])) {
+      // l'ancienne sélection décrivait un seul examen : la reporter telle quelle, décalée
+      chap[nouvelle] = [...new Set([...(chap[nouvelle] || []), ...chap[ancienne].map(i => i + dc)])];
+      delete chap[ancienne]; c = true;
+    }
+    if (sess && sess.mode === ancienne) { try { localStorage.removeItem("yumerty_active_session_v1"); } catch (x) {} }
+  });
+  if (s) writeJSON("yumerty_seen_v1", seen);
+  if (e) writeJSON("yumerty_mistakes_v1", err);
+  if (c) writeJSON("yumerty_chapters_v2", chap);
+})();
+
 function lirePrefChrono() {
   const p = readJSON(CHRONO_KEY);
   const min = parseInt(p && p.minutes, 10);

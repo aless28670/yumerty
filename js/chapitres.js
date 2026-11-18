@@ -2277,41 +2277,7 @@ window.CHAPITRES = {
    "nom": "Anatomie lymphatique : les membres"
   }
  ],
- "ortheseExam2": [
-  {
-   "id": 1,
-   "nom": "Orthèses cervicales"
-  },
-  {
-   "id": 2,
-   "nom": "Cyphose"
-  },
-  {
-   "id": 3,
-   "nom": "Scoliose"
-  },
-  {
-   "id": 4,
-   "nom": "Déformations du thorax"
-  },
-  {
-   "id": 5,
-   "nom": "Traumatismes et douleur du rachis"
-  },
-  {
-   "id": 6,
-   "nom": "Orthèses de hanche"
-  },
-  {
-   "id": 7,
-   "nom": "Orthèses de genou"
-  },
-  {
-   "id": 8,
-   "nom": "Orthèses du pied"
-  }
- ],
- "ortheseExam1": [
+ "orthese": [
   {
    "id": 1,
    "nom": "Généralités : orthèses et prothèses"
@@ -2342,11 +2308,11 @@ window.CHAPITRES = {
   },
   {
    "id": 8,
-   "nom": "Prothèses bioniques (hors partiel 1)"
+   "nom": "Prothèses bioniques"
   },
   {
    "id": 9,
-   "nom": "Impression 3D (hors partiel 1)"
+   "nom": "Impression 3D"
   },
   {
    "id": 10,
@@ -2359,6 +2325,38 @@ window.CHAPITRES = {
   {
    "id": 12,
    "nom": "Aides techniques (diapos 1-6 et déambulateurs)"
+  },
+  {
+   "id": 13,
+   "nom": "Orthèses cervicales"
+  },
+  {
+   "id": 14,
+   "nom": "Cyphose"
+  },
+  {
+   "id": 15,
+   "nom": "Scoliose"
+  },
+  {
+   "id": 16,
+   "nom": "Déformations du thorax"
+  },
+  {
+   "id": 17,
+   "nom": "Traumatismes et douleur du rachis"
+  },
+  {
+   "id": 18,
+   "nom": "Orthèses de hanche"
+  },
+  {
+   "id": 19,
+   "nom": "Orthèses de genou"
+  },
+  {
+   "id": 20,
+   "nom": "Orthèses du pied"
   }
  ],
  "procedimiento3": [
@@ -5411,6 +5409,96 @@ window.PARTIES = {
     8,
     9,
     10
+   ]
+  }
+ ],
+ "orthese": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "psycho": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ ],
+ "pathologie2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
    ]
   }
  ]

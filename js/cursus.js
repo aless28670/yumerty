@@ -490,15 +490,9 @@ const CURSUS = {
                 "label": "Orthèses et prothèses",
                 "modules": [
                   {
-                    "id": "ortheseExam1",
-                    "label": "Examen 1 — 3 propositions",
-                    "bankKey": "ortheseExam1",
-                    "optionCount": 3
-                  },
-                  {
-                    "id": "ortheseExam2",
-                    "label": "Examen final — 3 propositions",
-                    "bankKey": "ortheseExam2",
+                    "id": "orthese",
+                    "label": "Examen — 3 propositions",
+                    "bankKey": "orthese",
                     "optionCount": 3
                   }
                 ]

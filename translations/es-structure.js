@@ -687,6 +687,8 @@ Object.assign(I18N.es, {
   "Alignement des prothèses et troubles de la marche": "Alineación de las prótesis y alteraciones de la marcha",
   "Prothèses bioniques (hors partiel 1)": "Prótesis biónicas (fuera del parcial 1)",
   "Impression 3D (hors partiel 1)": "Impresión 3D (fuera del parcial 1)",
+  "Prothèses bioniques": "Prótesis biónicas",
+  "Impression 3D": "Impresión 3D",
   "Déformations crâniennes": "Deformidades craneales",
   "Orthèses en neurologie": "Ortesis en neurología",
   "Aides techniques (diapos 1-6 et déambulateurs)": "Productos de apoyo (diapositivas 1-6 y andadores)",

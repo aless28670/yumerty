@@ -484,6 +484,8 @@ Object.assign(I18N.en, {
   "Alignement des prothèses et troubles de la marche": "Prosthetic alignment and gait deviations",
   "Prothèses bioniques (hors partiel 1)": "Bionic prostheses (not in midterm 1)",
   "Impression 3D (hors partiel 1)": "3D printing (not in midterm 1)",
+  "Prothèses bioniques": "Bionic prostheses",
+  "Impression 3D": "3D printing",
   "Déformations crâniennes": "Cranial deformities",
   "Orthèses en neurologie": "Orthoses in neurology",
   "Aides techniques (diapos 1-6 et déambulateurs)": "Assistive devices (slides 1-6 and walkers)",
