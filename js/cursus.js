@@ -670,15 +670,9 @@ const CURSUS = {
                 "label": "Pharmacologie",
                 "modules": [
                   {
-                    "id": "dentPharmacoMid",
-                    "label": "Examen mi-semestre — 4 propositions",
-                    "bankKey": "dentPharmacoMid",
-                    "optionCount": 4
-                  },
-                  {
-                    "id": "dentPharmacoFin",
-                    "label": "Examen final — 4 propositions",
-                    "bankKey": "dentPharmacoFin",
+                    "id": "dentPharmaco",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPharmaco",
                     "optionCount": 4
                   }
                 ]
@@ -687,15 +681,9 @@ const CURSUS = {
                 "label": "Pathologie 1",
                 "modules": [
                   {
-                    "id": "dentPathology1Mid",
-                    "label": "Examen mi-semestre — 4 propositions",
-                    "bankKey": "dentPathology1Mid",
-                    "optionCount": 4
-                  },
-                  {
-                    "id": "dentPathology1Fin",
-                    "label": "Examen final — 4 propositions",
-                    "bankKey": "dentPathology1Fin",
+                    "id": "dentPathology1",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPathology1",
                     "optionCount": 4
                   }
                 ]
@@ -775,15 +763,9 @@ const CURSUS = {
                 "label": "Pathologie 2",
                 "modules": [
                   {
-                    "id": "dentPatho2Mid",
-                    "label": "Examen mi-semestre — 4 propositions",
-                    "bankKey": "dentPatho2Mid",
-                    "optionCount": 4
-                  },
-                  {
-                    "id": "dentPatho2Fin",
-                    "label": "Examen final — 4 propositions",
-                    "bankKey": "dentPatho2Fin",
+                    "id": "dentPatho2",
+                    "label": "Examen — 4 propositions",
+                    "bankKey": "dentPatho2",
                     "optionCount": 4
                   }
                 ]

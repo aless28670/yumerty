@@ -541,6 +541,10 @@ function chronoBlockHtml() {
           </div>`;
 }
 
+/* Nom d'une partie d'examen (clé source française, traduite par t() à l'affichage). */
+const TITRES_PARTIES = { Mid: "Examen mi-terme", Final: "Examen final", Gestion: "Examen de gestion" };
+function titrePartie(p) { return TITRES_PARTIES[p.label] || "Examen " + p.label.toLowerCase(); }
+
 function reviseBlockHtml(bank) {
   const chaps = chaptersOf(bank);
   const parts = partiesOf(bank) || [];
@@ -556,8 +560,7 @@ function reviseBlockHtml(bank) {
      Les libellés hors Mid/Final sont rares (Santé Publique a un examen de gestion à part) :
      on les nomme explicitement plutôt que de bricoler une minuscule, qui donnait
      « Examen gestion » au lieu de « Examen de gestion ». */
-  const TITRES = { Mid: "Examen mi-terme", Final: "Examen final", Gestion: "Examen de gestion" };
-  const titre = p => TITRES[p.label] || "Examen " + p.label.toLowerCase();
+  const titre = titrePartie;
 
   /* Sous-titres tous bâtis sur le même modèle : l'étendue en chapitres. */
   const plage = ids => {
@@ -604,11 +607,11 @@ function reviseBlockHtml(bank) {
           </div>
         </div>
         <div class="revise-step" data-step="format" hidden>
-          <p class="revise-q">Combien de questions&nbsp;? <span class="revise-scope"></span></p>
+          <p class="revise-q">${escapeHtml(t("Combien de questions ?"))} <span class="revise-scope"></span></p>
           <div class="mode-card-actions">
-            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="20">20 QCU</button>
-            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="30">30 QCU</button>
-            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="40">40 QCU</button>
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="20">${escapeHtml(t("{n} QCU").replace("{n}", "20"))}</button>
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="30">${escapeHtml(t("{n} QCU").replace("{n}", "30"))}</button>
+            <button class="length-btn" data-bank-key="${escapeHtml(bank)}" data-length="40">${escapeHtml(t("{n} QCU").replace("{n}", "40"))}</button>
           </div>
 ${chronoBlockHtml()}
           <div class="revise-actions revise-actions-simple">
@@ -630,7 +633,7 @@ function wireReviseBlock(card, bank) {
   const allerAuFormat = (libelle, ids) => {
     saveChapterSelection(bank, ids || []);
     const sc = block.querySelector(".revise-scope");
-    if (sc) sc.textContent = "· " + libelle;
+    if (sc) sc.textContent = "· " + t(libelle);  // libellé de partie/portée : traduit (resté en français en ES/EN jusqu'au 18/11)
     show("format");
   };
 
@@ -641,7 +644,7 @@ function wireReviseBlock(card, bank) {
       if (sc === "all") return allerAuFormat("Tout le programme", []);
       if (sc === "custom") { show("chapters"); return; }
       const p = (partiesOf(bank) || []).find(x => "part:" + x.id === sc);
-      if (p) allerAuFormat(p.label === "Mid" ? "Examen mi-terme" : p.label === "Final" ? "Examen final" : "Examen " + p.label.toLowerCase(), p.chapitres);
+      if (p) allerAuFormat(titrePartie(p), p.chapitres);
       return;
     }
     const chip = e.target.closest(".chap-chip");
@@ -679,7 +682,7 @@ function wireReviseBlock(card, bank) {
     const go = e.target.closest("[data-rev-go]");
     if (go && block.contains(go)) {
       const ids = chips().filter(c => c.classList.contains("is-on")).map(c => Number(c.dataset.chapId));
-      allerAuFormat(ids.length ? (ids.length + " chapitre" + (ids.length > 1 ? "s" : "")) : "Tout le programme", ids);
+      allerAuFormat(ids.length ? t(ids.length > 1 ? "{n} chapitres" : "{n} chapitre").replace("{n}", ids.length) : "Tout le programme", ids);
     }
   });
 

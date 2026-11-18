@@ -371,57 +371,7 @@ window.CHAPITRES = {
    "nom": "Schémas occlusaux"
   }
  ],
- "dentPatho2Fin": [
-  {
-   "id": 1,
-   "nom": "Appareil digestif : généralités"
-  },
-  {
-   "id": 2,
-   "nom": "Pathologies et syndromes de la cavité buccale"
-  },
-  {
-   "id": 3,
-   "nom": "Cavité buccale et médicaments"
-  },
-  {
-   "id": 4,
-   "nom": "Reflux, ulcère peptique et toxicité des AINS"
-  },
-  {
-   "id": 5,
-   "nom": "Hépatite aiguë et hépatopathie chronique"
-  },
-  {
-   "id": 6,
-   "nom": "Maladies intestinales et cancer colorectal"
-  },
-  {
-   "id": 7,
-   "nom": "Épilepsie"
-  },
-  {
-   "id": 8,
-   "nom": "Risque cardiovasculaire : maladie cérébrovasculaire et AVC"
-  },
-  {
-   "id": 9,
-   "nom": "Perte de connaissance"
-  },
-  {
-   "id": 10,
-   "nom": "Santé et pathologie de la femme"
-  },
-  {
-   "id": 11,
-   "nom": "Arthrose et ostéoporose"
-  },
-  {
-   "id": 12,
-   "nom": "Asthme et BPCO"
-  }
- ],
- "dentPatho2Mid": [
+ "dentPatho2": [
   {
    "id": 1,
    "nom": "Maladies du sang"
@@ -469,55 +419,57 @@ window.CHAPITRES = {
   {
    "id": 12,
    "nom": "Cardiopathies congénitales, valvulopathies et endocardite"
+  },
+  {
+   "id": 13,
+   "nom": "Appareil digestif : généralités"
+  },
+  {
+   "id": 14,
+   "nom": "Pathologies et syndromes de la cavité buccale"
+  },
+  {
+   "id": 15,
+   "nom": "Cavité buccale et médicaments"
+  },
+  {
+   "id": 16,
+   "nom": "Reflux, ulcère peptique et toxicité des AINS"
+  },
+  {
+   "id": 17,
+   "nom": "Hépatite aiguë et hépatopathie chronique"
+  },
+  {
+   "id": 18,
+   "nom": "Maladies intestinales et cancer colorectal"
+  },
+  {
+   "id": 19,
+   "nom": "Épilepsie"
+  },
+  {
+   "id": 20,
+   "nom": "Risque cardiovasculaire : maladie cérébrovasculaire et AVC"
+  },
+  {
+   "id": 21,
+   "nom": "Perte de connaissance"
+  },
+  {
+   "id": 22,
+   "nom": "Santé et pathologie de la femme"
+  },
+  {
+   "id": 23,
+   "nom": "Arthrose et ostéoporose"
+  },
+  {
+   "id": 24,
+   "nom": "Asthme et BPCO"
   }
  ],
- "dentPathology1Fin": [
-  {
-   "id": 1,
-   "nom": "Immunologie : notions de base"
-  },
-  {
-   "id": 2,
-   "nom": "Maladies à médiation immunitaire"
-  },
-  {
-   "id": 3,
-   "nom": "Anaphylaxie"
-  },
-  {
-   "id": 4,
-   "nom": "Maladies auto-immunes : pemphigus et lichen plan"
-  },
-  {
-   "id": 5,
-   "nom": "Maladies infectieuses : concepts généraux"
-  },
-  {
-   "id": 6,
-   "nom": "Maladies infectieuses : diagnostic, prévention et traitement"
-  },
-  {
-   "id": 7,
-   "nom": "Infections sexuellement transmissibles"
-  },
-  {
-   "id": 8,
-   "nom": "Infection par le VIH"
-  },
-  {
-   "id": 9,
-   "nom": "Infections buccales"
-  },
-  {
-   "id": 10,
-   "nom": "Expositions professionnelles"
-  },
-  {
-   "id": 11,
-   "nom": "Précautions standard"
-  }
- ],
- "dentPathology1Mid": [
+ "dentPathology1": [
   {
    "id": 1,
    "nom": "Bases de l'assistance sanitaire"
@@ -553,6 +505,50 @@ window.CHAPITRES = {
   {
    "id": 9,
    "nom": "Cancer de la cavité buccale et de l'oropharynx"
+  },
+  {
+   "id": 10,
+   "nom": "Immunologie : notions de base"
+  },
+  {
+   "id": 11,
+   "nom": "Maladies à médiation immunitaire"
+  },
+  {
+   "id": 12,
+   "nom": "Anaphylaxie"
+  },
+  {
+   "id": 13,
+   "nom": "Maladies auto-immunes : pemphigus et lichen plan"
+  },
+  {
+   "id": 14,
+   "nom": "Maladies infectieuses : concepts généraux"
+  },
+  {
+   "id": 15,
+   "nom": "Maladies infectieuses : diagnostic, prévention et traitement"
+  },
+  {
+   "id": 16,
+   "nom": "Infections sexuellement transmissibles"
+  },
+  {
+   "id": 17,
+   "nom": "Infection par le VIH"
+  },
+  {
+   "id": 18,
+   "nom": "Infections buccales"
+  },
+  {
+   "id": 19,
+   "nom": "Expositions professionnelles"
+  },
+  {
+   "id": 20,
+   "nom": "Précautions standard"
   }
  ],
  "dentPeriodoncia": [
@@ -613,65 +609,7 @@ window.CHAPITRES = {
    "nom": "Traitement parodontal non chirurgical"
   }
  ],
- "dentPharmacoFin": [
-  {
-   "id": 1,
-   "nom": "Principes généraux des antibactériens"
-  },
-  {
-   "id": 2,
-   "nom": "Antibiotiques I"
-  },
-  {
-   "id": 3,
-   "nom": "Antibiotiques II"
-  },
-  {
-   "id": 4,
-   "nom": "Antiviraux et antifongiques"
-  },
-  {
-   "id": 5,
-   "nom": "Antiseptiques et désinfectants ; caries, aphtes et halitose"
-  },
-  {
-   "id": 6,
-   "nom": "Traitement des infections oropharyngées"
-  },
-  {
-   "id": 7,
-   "nom": "Antihypertenseurs, vasodilatateurs et diurétiques"
-  },
-  {
-   "id": 8,
-   "nom": "Inotropes, antiarythmiques et antiangineux"
-  },
-  {
-   "id": 9,
-   "nom": "Anticoagulants, antiagrégants plaquettaires et fibrinolytiques"
-  },
-  {
-   "id": 10,
-   "nom": "Traitement du diabète : insuline et hypoglycémiants"
-  },
-  {
-   "id": 11,
-   "nom": "Médicaments de l'appareil digestif"
-  },
-  {
-   "id": 12,
-   "nom": "Pharmacologie respiratoire"
-  },
-  {
-   "id": 13,
-   "nom": "Pharmacologie de l'os"
-  },
-  {
-   "id": 14,
-   "nom": "Cytostatiques"
-  }
- ],
- "dentPharmacoMid": [
+ "dentPharmaco": [
   {
    "id": 1,
    "nom": "Concept et évolution historique de la pharmacologie"
@@ -727,6 +665,62 @@ window.CHAPITRES = {
   {
    "id": 14,
    "nom": "Anesthésiques locaux et généraux"
+  },
+  {
+   "id": 15,
+   "nom": "Principes généraux des antibactériens"
+  },
+  {
+   "id": 16,
+   "nom": "Antibiotiques I"
+  },
+  {
+   "id": 17,
+   "nom": "Antibiotiques II"
+  },
+  {
+   "id": 18,
+   "nom": "Antiviraux et antifongiques"
+  },
+  {
+   "id": 19,
+   "nom": "Antiseptiques et désinfectants ; caries, aphtes et halitose"
+  },
+  {
+   "id": 20,
+   "nom": "Traitement des infections oropharyngées"
+  },
+  {
+   "id": 21,
+   "nom": "Antihypertenseurs, vasodilatateurs et diurétiques"
+  },
+  {
+   "id": 22,
+   "nom": "Inotropes, antiarythmiques et antiangineux"
+  },
+  {
+   "id": 23,
+   "nom": "Anticoagulants, antiagrégants plaquettaires et fibrinolytiques"
+  },
+  {
+   "id": 24,
+   "nom": "Traitement du diabète : insuline et hypoglycémiants"
+  },
+  {
+   "id": 25,
+   "nom": "Médicaments de l'appareil digestif"
+  },
+  {
+   "id": 26,
+   "nom": "Pharmacologie respiratoire"
+  },
+  {
+   "id": 27,
+   "nom": "Pharmacologie de l'os"
+  },
+  {
+   "id": 28,
+   "nom": "Cytostatiques"
   }
  ],
  "dentPhysiology": [
@@ -4673,6 +4667,751 @@ window.CHAPITRES = {
   {
    "id": 13,
    "nom": "Chirurgie endodontique"
+  }
+ ]
+};
+
+window.PARTIES = {
+ "ethiqueLegislation": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ ],
+ "procedimiento1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "santePublique": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "id": "gestion",
+   "label": "Gestion",
+   "chapitres": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ]
+  }
+ ],
+ "pathologie1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+   ]
+  }
+ ],
+ "investigation2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    16,
+    17
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  }
+ ],
+ "pathologie3": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "anat1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  }
+ ],
+ "processusBio1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ]
+  }
+ ],
+ "structure1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    4,
+    6,
+    7
+   ]
+  }
+ ],
+ "processusBio2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  }
+ ],
+ "structure2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    3,
+    4
+   ]
+  }
+ ],
+ "valoColonne": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    8,
+    10
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    7,
+    11,
+    12
+   ]
+  }
+ ],
+ "dentHeadNeck": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "dentEpi": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  }
+ ],
+ "dentBiochem": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "dentAFI1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    6,
+    7,
+    8,
+    9
+   ]
+  }
+ ],
+ "dentAFI2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    10,
+    11,
+    12,
+    13
+   ]
+  }
+ ],
+ "dentMicro": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "dentSurgery3": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  }
+ ],
+ "dentPharmaco": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ]
+  }
+ ],
+ "dentPathology1": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "dentPatho2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ]
+  }
+ ],
+ "dentSurgery2": [
+  {
+   "id": "mid",
+   "label": "Mid",
+   "chapitres": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": "final",
+   "label": "Final",
+   "chapitres": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
   }
  ]
 };

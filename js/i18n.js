@@ -270,6 +270,9 @@ const I18N = {
     "{n} QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.":
       "{n} preguntas corregidas, un entrenamiento realista y un seguimiento de tus fallos para progresar más rápido.",
     "{n} chapitres": "{n} temas",
+    "{n} chapitre": "{n} tema",
+    "Combien de questions ?": "¿Cuántas preguntas?",
+    "{n} QCU": "{n} preguntas",
     "{cursus}, {plage} : sélectionne ce que tu veux travailler.":
       "{cursus}, {plage}: selecciona lo que quieras trabajar.",
     "de la {a} à la {b}": "de {a} a {b}",
@@ -442,6 +445,9 @@ const I18N = {
     "Langue du site": "Site language",
     "{n} QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.": "{n} corrected MCQs, realistic practice and mistake tracking to help you progress faster.",
     "{n} chapitres": "{n} topics",
+    "{n} chapitre": "{n} topic",
+    "Combien de questions ?": "How many questions?",
+    "{n} QCU": "{n} questions",
     "{cursus}, {plage} : sélectionne ce que tu veux travailler.": "{cursus}, {plage}: select what you want to work on.",
     "de la {a} à la {b}": "from {a} to {b}",
     "Des QCU corrigés, un entraînement réaliste et un suivi de tes erreurs pour progresser plus vite.": "Corrected MCQs, realistic practice and mistake tracking to help you progress faster.",
