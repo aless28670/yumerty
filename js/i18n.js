@@ -530,7 +530,9 @@ function appliquerTraductions(racine) {
   while ((n = marcheur.nextNode())) aTraduire.push(n);
   aTraduire.forEach(noeud => {
     const brut = normaliser(noeud.nodeValue);
-    if (table[brut] !== undefined) noeud.nodeValue = table[brut];
+    /* N'écrire que si le texte change : réécrire une valeur identique (« Occlusion » →
+       « Occlusion ») déclenche l'observateur, qui retraduit, qui réécrit… boucle infinie. */
+    if (table[brut] !== undefined && table[brut] !== noeud.nodeValue) noeud.nodeValue = table[brut];
   });
   /* Attributs porteurs de texte : le promeneur ci-dessus ne voit que les nœuds de
      texte. « title » s'affiche à la souris, « aria-label » et « aria-placeholder »
@@ -538,14 +540,14 @@ function appliquerTraductions(racine) {
   ["placeholder", "title", "aria-label", "aria-placeholder"].forEach(attr => {
     document.querySelectorAll("[" + attr + "]").forEach(el => {
       const v = normaliser(el.getAttribute(attr));
-      if (table[v] !== undefined) el.setAttribute(attr, table[v]);
+      if (table[v] !== undefined && table[v] !== el.getAttribute(attr)) el.setAttribute(attr, table[v]);
     });
   });
 
   /* Onglet du navigateur et métadonnées de partage : hors du <body>, donc jamais
      atteints par le promeneur. Le titre est visible, le reste sert aux aperçus. */
   const titre = normaliser(document.title);
-  if (table[titre] !== undefined) document.title = table[titre];
+  if (table[titre] !== undefined && table[titre] !== document.title) document.title = table[titre];
   [
     'meta[name="description"]',
     'meta[name="keywords"]',
@@ -557,7 +559,7 @@ function appliquerTraductions(racine) {
     const m = document.querySelector(sel);
     if (!m) return;
     const v = normaliser(m.getAttribute("content"));
-    if (table[v] !== undefined) m.setAttribute("content", table[v]);
+    if (table[v] !== undefined && table[v] !== m.getAttribute("content")) m.setAttribute("content", table[v]);
   });
 
   document.documentElement.setAttribute("lang", l);
@@ -605,7 +607,7 @@ const ESSAIS_MAX = 3;
   const tenter = () => {
     essai += 1;
     const s = document.createElement("script");
-    s.src = "translations/" + l + "-structure.js?v=2" + (essai > 1 ? "&r=" + essai : "");
+    s.src = "translations/" + l + "-structure.js?v=3" + (essai > 1 ? "&r=" + essai : "");
     s.async = true;
     s.onload = () => {
       TABLE_NORM = null;
@@ -648,7 +650,9 @@ const ESSAIS_MAX = 3;
       if (enCours) return;
       if (mutations.every(m => aIgnorer(m.target))) return;
       enCours = true;
-      requestAnimationFrame(() => { appliquerTraductions(); enCours = false; });
+      /* Micro-tâche plutôt que requestAnimationFrame : rAF ne se déclenche pas dans un onglet
+         en arrière-plan (ni toujours en headless), et l'écran restait alors en français. */
+      queueMicrotask(() => { try { appliquerTraductions(); } finally { enCours = false; } });
     }).observe(document.body, { childList: true, subtree: true, characterData: true });
     appliquerTraductions();
   };

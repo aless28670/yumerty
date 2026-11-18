@@ -623,7 +623,7 @@ Object.assign(I18N.en, {
   "Pharmacologie": "Pharmacology",
   "Pathologie 1": "Pathology 1",
   "Tête et cou": "Head & Neck",
-  "Radiologie diagnostique": "Diagnostic",
+  "Radiologie diagnostique": "Diagnostic radiology",
   "Sémiologie 2": "Semiology 2",
   "Physiologie": "Physiology",
   "Parodontologie": "Periodontology",

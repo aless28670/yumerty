@@ -1046,7 +1046,7 @@ function renderCursusList() {
     card.innerHTML = `
       <span class="subject-card-title">${escapeHtml(c.label)}${verrou ? `<span class="cd-date">${dateOuverture(ouverture)}</span>` : ""}</span>
       ${verrou
-        ? `<span class="cd" data-ouverture="${ouverture}">${htmlCompteARebours(ouverture)}</span>`
+        ? `<span class="cd" data-i18n-ignore data-ouverture="${ouverture}">${htmlCompteARebours(ouverture)}</span>`
         : aVenir
         ? `<span class="subject-card-soon-tag">Bientôt disponible</span>`
         : `<span class="subject-card-arrow" aria-hidden="true">→</span>`}
@@ -1247,7 +1247,7 @@ function renderNav() {
     const y = c.years[year];
     const s = y.semesters[semester];
     eyebrow.textContent = "";
-    title.textContent = y.label + " — " + s.label;
+    title.textContent = t(y.label) + " — " + t(s.label);  // chaîne assemblée : le traducteur d'écran ne la connaît pas
     subtitle.textContent = "";
     list.dataset.layout = "matieres";
     const matieres = s.matieres || {};
