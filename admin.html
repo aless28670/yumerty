@@ -156,7 +156,8 @@ h1,h2,h3{font-family:'Archivo','Hanken Grotesk',sans-serif;letter-spacing:-.025e
 .chaleur .h{text-align:center}
 .retention{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--e3)}
 .retention > div{border-radius:var(--rayon-s);background:var(--voile);padding:var(--e4)}
-.retention .n{font:900 30px/1 'Archivo',sans-serif;letter-spacing:-.04em}
+.retention .n{font:900 30px/1 'Archivo',sans-serif;letter-spacing:-.04em;white-space:nowrap}
+@media(max-width:680px){.retention{grid-template-columns:1fr}}
 .retention .l{font-size:12.5px;color:var(--encre-douce);margin-top:6px;font-weight:600}
 .retention .d{font-size:12px;color:var(--encre-pale)}
 .jauge{height:12px;border-radius:999px;background:var(--voile);overflow:hidden;margin:var(--e3) 0 var(--e2)}

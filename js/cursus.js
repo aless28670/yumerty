@@ -535,7 +535,7 @@ const CURSUS = {
             "label": "Semestre 1",
             "matieres": {
               "dentAFI1": {
-                "label": "Anatomie, physiologie et histologie 1",
+                "label": "Anatomie 1",
                 "modules": [
                   {
                     "id": "dentAFI1",
@@ -584,7 +584,7 @@ const CURSUS = {
             "label": "Semestre 2",
             "matieres": {
               "dentAFI2": {
-                "label": "Anatomie, physiologie et histologie 2",
+                "label": "Anatomie 2",
                 "modules": [
                   {
                     "id": "dentAFI2",
@@ -787,7 +787,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia1": {
-                "label": "Odontologie pédiatrique 1",
+                "label": "Pédiatrie 1",
                 "modules": [
                   {
                     "id": "dentPedia1",
@@ -809,7 +809,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap1": {
-                "label": "Odontologie conservatrice et endodontie 1",
+                "label": "Thérapeutique dentaire 1",
                 "modules": [
                   {
                     "id": "dentTherap1",
@@ -820,7 +820,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery1": {
-                "label": "Pathologie et chirurgie buccales 1",
+                "label": "Pathologie chirurgicale 1",
                 "modules": [
                   {
                     "id": "dentSurgery1",
@@ -847,7 +847,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia2": {
-                "label": "Odontologie pédiatrique 2",
+                "label": "Pédiatrie 2",
                 "modules": [
                   {
                     "id": "dentPedia2",
@@ -869,7 +869,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap2": {
-                "label": "Odontologie conservatrice et endodontie 2",
+                "label": "Thérapeutique dentaire 2",
                 "modules": [
                   {
                     "id": "dentTherap2",
@@ -880,7 +880,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery2": {
-                "label": "Pathologie et chirurgie buccales 2",
+                "label": "Pathologie chirurgicale 2",
                 "modules": [
                   {
                     "id": "dentSurgery2",
@@ -913,7 +913,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia3": {
-                "label": "Odontologie pédiatrique 3",
+                "label": "Pédiatrie 3",
                 "modules": [
                   {
                     "id": "dentPedia3",
@@ -924,7 +924,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap3": {
-                "label": "Odontologie conservatrice et endodontie 3",
+                "label": "Thérapeutique dentaire 3",
                 "modules": [
                   {
                     "id": "dentTherap3",
@@ -957,7 +957,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery3": {
-                "label": "Pathologie et chirurgie buccales 3",
+                "label": "Pathologie chirurgicale 3",
                 "modules": [
                   {
                     "id": "dentSurgery3",
@@ -984,7 +984,7 @@ const CURSUS = {
                 ]
               },
               "dentPedia4": {
-                "label": "Odontologie pédiatrique 4",
+                "label": "Pédiatrie 4",
                 "modules": [
                   {
                     "id": "dentPedia4",
@@ -1006,7 +1006,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap4": {
-                "label": "Odontologie conservatrice et endodontie 4",
+                "label": "Thérapeutique dentaire 4",
                 "modules": [
                   {
                     "id": "dentTherap4",
@@ -1017,7 +1017,7 @@ const CURSUS = {
                 ]
               },
               "dentSurgery4": {
-                "label": "Pathologie et chirurgie buccales 4",
+                "label": "Pathologie chirurgicale 4",
                 "modules": [
                   {
                     "id": "dentSurgery4",
@@ -1028,7 +1028,7 @@ const CURSUS = {
                 ]
               },
               "dentPreventive": {
-                "label": "Odontologie préventive",
+                "label": "Prévention",
                 "modules": [
                   {
                     "id": "dentPreventive",
@@ -1061,7 +1061,7 @@ const CURSUS = {
                 ]
               },
               "dentProfessional": {
-                "label": "Exercice professionnel et odontologie légale",
+                "label": "Professionnalisme",
                 "modules": [
                   {
                     "id": "dentProfessional",
@@ -1072,7 +1072,7 @@ const CURSUS = {
                 ]
               },
               "dentCommunity": {
-                "label": "Odontologie communautaire",
+                "label": "Santé communautaire",
                 "modules": [
                   {
                     "id": "dentCommunity",

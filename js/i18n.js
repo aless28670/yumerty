@@ -613,7 +613,7 @@ const ESSAIS_MAX = 3;
   const tenter = () => {
     essai += 1;
     const s = document.createElement("script");
-    s.src = "translations/" + l + "-structure.js?v=4" + (essai > 1 ? "&r=" + essai : "");
+    s.src = "translations/" + l + "-structure.js?v=5" + (essai > 1 ? "&r=" + essai : "");
     s.async = true;
     s.onload = () => {
       TABLE_NORM = null;
