@@ -809,7 +809,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap1": {
-                "label": "Thérapeutique dentaire 1",
+                "label": "Thérapeutique 1",
                 "modules": [
                   {
                     "id": "dentTherap1",
@@ -869,7 +869,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap2": {
-                "label": "Thérapeutique dentaire 2",
+                "label": "Thérapeutique 2",
                 "modules": [
                   {
                     "id": "dentTherap2",
@@ -924,7 +924,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap3": {
-                "label": "Thérapeutique dentaire 3",
+                "label": "Thérapeutique 3",
                 "modules": [
                   {
                     "id": "dentTherap3",
@@ -1006,7 +1006,7 @@ const CURSUS = {
                 ]
               },
               "dentTherap4": {
-                "label": "Thérapeutique dentaire 4",
+                "label": "Thérapeutique 4",
                 "modules": [
                   {
                     "id": "dentTherap4",
