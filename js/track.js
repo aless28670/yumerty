@@ -16,9 +16,12 @@
       localStorage avec son horodatage, et rejoué au prochain chargement réussi. Le serveur
       range l'événement dans son jour d'origine grâce au paramètre `t`.
 
-   2. Aucune donnée personnelle ne part d'ici : ni identifiant, ni contenu, ni réponse de
-      quiz. Le serveur dérive un identifiant anonyme par HMAC de l'IP, qu'il ne stocke jamais
-      en clair. Ce fichier n'envoie qu'un nom d'événement et un horodatage.
+   2. Aucune donnée personnelle ne part d'ici : ni nom, ni adresse, ni question, ni réponse.
+      Le serveur dérive un identifiant anonyme (HMAC d'un nombre tiré au hasard dans ce
+      navigateur, ou de l'IP en repli), qu'il ne stocke jamais en clair. Ce fichier envoie un
+      nom d'événement, un horodatage et, depuis le 19/11/2026, des compteurs anonymes : la
+      langue du site, la provenance de la visite (instagram, google, direct…), le nombre de
+      quiz lancés par matière et, pour une série terminée, sa matière, sa note et sa longueur.
    ========================================================= */
 (function () {
   "use strict";
@@ -80,7 +83,10 @@
      de 18, soit environ 2,5 fois plus de trafic encaissé à quota constant.
      ⚠️ La fenêtre « en ligne » du serveur (ONLINE_WINDOW dans src/index.js) DOIT rester
      supérieure au battement, sinon un visiteur actif apparaît hors ligne entre deux signaux. */
-  var BATTEMENT = 10 * 60000;
+  /* ⭐ 19/11/2026 — plan payant Cloudflare (1 million d'écritures par mois) : le battement est
+     ramené de 10 à 4 minutes, pour que « en ligne » et le temps actif soient précis. La fenêtre
+     « en ligne » du serveur passe à 6 minutes en même temps. */
+  var BATTEMENT = 4 * 60000;
   var CLE_BATT = "ym_dernier_signal";   // horodatage du dernier signal, PARTAGÉ entre les onglets
   var CLE_RECHARGE = "ym_recharge_version";  // sessionStorage : ce chargement est un rechargement auto
 
@@ -142,8 +148,11 @@
   function ecrire(f) {
     try { localStorage.setItem(FILE, JSON.stringify(f.slice(-FILE_MAX))); } catch (e) {}
   }
-  function enfiler(e, t, n) {
-    var f = lire(); f.push(n ? { e: e, t: t, n: n } : { e: e, t: t }); ecrire(f);
+  function enfiler(e, t, n, x) {
+    var o = { e: e, t: t };
+    if (n) o.n = n;
+    if (x) o.x = x;                              // détail joint (langue, provenance, matières, notes)
+    var f = lire(); f.push(o); ecrire(f);
   }
 
   /* ⭐ QUIZ GROUPÉS (04/11/2026). Chaque lancement de quiz partait seul et coûtait une
@@ -155,21 +164,100 @@
      console voit les quiz avec au plus 10 minutes de retard. */
   var CLE_QN = "ym_quiz_n", CLE_QT = "ym_quiz_t";
   function jourDe(t) { try { return new Date(t).toLocaleDateString("en-CA", { timeZone: "Europe/Paris" }); } catch (err) { return ""; } }
-  function compterQuiz() {
+  /* 19/11/2026 — DÉTAIL PAR MATIÈRE ET NOTES. En plus du nombre de quiz, on retient (toujours
+     dans localStorage, toujours joint au prochain signal, donc sans écriture de plus) :
+     - `ym_quiz_m` : { matière: nombre de quiz lancés } ;
+     - `ym_fins`   : séries terminées, sous la forme "matière:note:questions" (note en dixièmes).
+     Ce sont des compteurs anonymes : aucune question, aucune réponse ne quitte l'appareil. */
+  var CLE_QM = "ym_quiz_m", CLE_FINS = "ym_fins";
+  var RE_BANQUE = /^[A-Za-z0-9_\-]{1,40}$/;
+  function lireObjet(cle, defaut) {
+    try { var v = JSON.parse(localStorage.getItem(cle) || "null"); return v && typeof v === "object" ? v : defaut; }
+    catch (err) { return defaut; }
+  }
+  function compterQuiz(b) {
     try {
       var n = Number(localStorage.getItem(CLE_QN) || 0) || 0;
       if (!n) localStorage.setItem(CLE_QT, String(Date.now()));
       localStorage.setItem(CLE_QN, String(n + 1));
+      if (typeof b === "string" && RE_BANQUE.test(b)) {
+        var m = lireObjet(CLE_QM, {});
+        if (Array.isArray(m)) m = {};
+        m[b] = (Number(m[b]) || 0) + 1;
+        localStorage.setItem(CLE_QM, JSON.stringify(m));
+      }
     } catch (err) { pister("quiz"); }            // stockage refusé : ancien comportement
+    return Promise.resolve(true);
+  }
+  function compterFin(d) {
+    try {
+      if (!d || typeof d.b !== "string" || !RE_BANQUE.test(d.b)) return Promise.resolve(false);
+      var note = Math.max(0, Math.min(100, Math.round((Number(d.note) || 0) * 10)));
+      var nb = Math.max(1, Math.min(300, Math.round(Number(d.n) || 0)));
+      var l = lireObjet(CLE_FINS, []);
+      if (!Array.isArray(l)) l = [];
+      l.push(d.b + ":" + note + ":" + nb);
+      localStorage.setItem(CLE_FINS, JSON.stringify(l.slice(-12)));
+    } catch (err) {}
     return Promise.resolve(true);
   }
   function prendreQuiz() {
     try {
       var n = Number(localStorage.getItem(CLE_QN) || 0) || 0;
       var t = Number(localStorage.getItem(CLE_QT) || 0) || 0;
+      var m = lireObjet(CLE_QM, {}), fins = lireObjet(CLE_FINS, []);
       localStorage.removeItem(CLE_QN); localStorage.removeItem(CLE_QT);
-      return { n: n, t: t };
-    } catch (err) { return { n: 0, t: 0 }; }
+      localStorage.removeItem(CLE_QM); localStorage.removeItem(CLE_FINS);
+      var q = [];
+      if (m && !Array.isArray(m)) for (var b in m) if (RE_BANQUE.test(b) && q.length < 12) q.push(b + ":" + Math.min(100, Number(m[b]) || 0));
+      var r = Array.isArray(fins) ? fins.filter(function (c) { return /^[A-Za-z0-9_\-]{1,40}:\d{1,3}:\d{1,3}$/.test(c); }).slice(-12) : [];
+      return { n: n, t: t, q: q.join(","), r: r.join(",") };
+    } catch (err) { return { n: 0, t: 0, q: "", r: "" }; }
+  }
+
+  /* Langue du site et provenance de la visite, jointes aux signaux. La provenance n'est
+     calculée qu'une fois par chargement et n'accompagne que la « vue ». Un lien du type
+     yumerty.com/?src=kinespana permet de nommer soi-même une campagne. */
+  function langue() {
+    try { var l = localStorage.getItem("yumerty_langue"); return /^(fr|es|en)$/.test(l || "") ? l : "fr"; }
+    catch (err) { return "fr"; }
+  }
+  function provenance() {
+    try {
+      var net = function (v) { return String(v || "").toLowerCase().replace(/[^a-z0-9.\-]/g, "").slice(0, 32); };
+      var m = /[?&](?:utm_source|src|ref)=([^&#]+)/.exec(location.search || "");
+      if (m) { var u = net(decodeURIComponent(m[1])); if (u) return u; }
+      var ua = (navigator.userAgent || "");
+      if (/Instagram/i.test(ua)) return "instagram";            // navigateur intégré d'Instagram
+      if (/FBAN|FBAV/i.test(ua)) return "facebook";
+      if (/TikTok|musical_ly/i.test(ua)) return "tiktok";
+      if (/Snapchat/i.test(ua)) return "snapchat";
+      var r = document.referrer || "";
+      if (!r) return "direct";
+      var h = net(r.replace(/^[a-z]+:\/\//i, "").split("/")[0]).replace(/^(www|m|l|lm|mobile)\./, "");
+      if (!h) return "direct";
+      if (h.indexOf("yumerty.com") !== -1) return "";             // navigation interne : pas une provenance
+      if (h.indexOf("instagram") !== -1) return "instagram";
+      if (h.indexOf("google") !== -1) return "google";
+      if (h.indexOf("facebook") !== -1 || h === "fb.com") return "facebook";
+      if (h.indexOf("tiktok") !== -1) return "tiktok";
+      if (h.indexOf("whatsapp") !== -1 || h === "wa.me") return "whatsapp";
+      if (h.indexOf("bing") !== -1) return "bing";
+      if (h.indexOf("duckduckgo") !== -1) return "duckduckgo";
+      if (h.indexOf("youtube") !== -1 || h === "youtu.be") return "youtube";
+      if (h === "t.co" || h.indexOf("twitter") !== -1 || h === "x.com") return "x";
+      if (h.indexOf("linktr.ee") !== -1) return "linktree";
+      if (h.indexOf("instructure") !== -1 || h.indexOf("canvas") !== -1) return "canvas";
+      return h;
+    } catch (err) { return ""; }
+  }
+  var PROVENANCE = provenance();
+  function detail(e, qz) {
+    var x = "&l=" + langue();
+    if (e === "view" && PROVENANCE) x += "&s=" + encodeURIComponent(PROVENANCE);
+    if (qz && qz.q) x += "&q=" + encodeURIComponent(qz.q);
+    if (qz && qz.r) x += "&r=" + encodeURIComponent(qz.r);
+    return x;
   }
 
   /* Un seul envoi. Résout vrai si le serveur a bien reçu, faux sinon (réseau bloqué, hors
@@ -193,11 +281,11 @@
   function memoriser(i) { try { localStorage.setItem(CLE_EP, String(i)); } catch (err) {} }
 
   /* Essaie chaque adresse jusqu'à ce que l'une réponde. */
-  function envoyer(e, t, n) {
+  function envoyer(e, t, n, x) {
     var ordre = ordreAdresses();
     function tente(k) {
       if (k >= ordre.length) return Promise.resolve(false);
-      return envoyerVers(ordre[k], e, t, n).then(function (ok) {
+      return envoyerVers(ordre[k], e, t, n, x).then(function (ok) {
         if (ok) { memoriser(ordre[k]); return true; }
         return tente(k + 1);
       });
@@ -205,10 +293,10 @@
     return tente(0);
   }
 
-  function envoyerVers(i, e, t, n) {
+  function envoyerVers(i, e, t, n, x) {
     var vid = identifiant();
     var url = ENDPOINTS[i] + "/_ping?e=" + encodeURIComponent(e)
-      + (t ? "&t=" + t : "") + (n ? "&n=" + n : "") + (vid ? "&v=" + vid : "");
+      + (t ? "&t=" + t : "") + (n ? "&n=" + n : "") + (vid ? "&v=" + vid : "") + (x || "");
     if (typeof fetch === "function") {
       /* Délai dur de 5 s. Une IP bloquée ne refuse pas la connexion : elle ne répond pas du
          tout, et la requête resterait pendante une minute ou plus, occupant une connexion du
@@ -258,7 +346,7 @@
       var f = lire();
       if (!f.length) return Promise.resolve();
       var item = f[0];
-      return envoyer(item.e, item.t, item.n).then(function (ok) {
+      return envoyer(item.e, item.t, item.n, item.x).then(function (ok) {
         if (!ok) return;                      // réseau encore bloqué : on garde tout
         var g = lire();                       // relecture : la file a pu bouger entre-temps
         if (g.length && g[0].e === item.e && g[0].t === item.t) { g.shift(); ecrire(g); }
@@ -275,14 +363,17 @@
     noterSignal(t);
     /* Quiz en attente : joints à ce signal s'ils datent d'aujourd'hui ; s'ils datent d'un jour
        précédent, ils partent seuls, datés de ce jour-là, pour ne pas fausser aujourd'hui. */
-    var qz = e === "quiz" ? { n: 0, t: 0 } : prendreQuiz();
-    var n = 0;
-    if (qz.n) {
-      if (jourDe(qz.t) === jourDe(t)) n = qz.n;
-      else envoyer("beat", qz.t, qz.n).then(function (ok) { if (!ok) enfiler("beat", qz.t, qz.n); });
+    var qz = e === "quiz" ? { n: 0, t: 0, q: "", r: "" } : prendreQuiz();
+    var n = 0, joint = null;
+    if (qz.n || qz.q || qz.r) {
+      if (!qz.t || jourDe(qz.t) === jourDe(t)) { n = qz.n; joint = qz; }
+      else (function (xv) {
+        envoyer("beat", qz.t, qz.n, xv).then(function (ok) { if (!ok) enfiler("beat", qz.t, qz.n, xv); });
+      })(detail("beat", qz));
     }
-    return envoyer(e, 0, n).then(function (ok) {
-      if (!ok) enfiler(e, t, n);
+    var x = detail(e, joint);
+    return envoyer(e, 0, n, x).then(function (ok) {
+      if (!ok) enfiler(e, t, n, x);
       else vider();                           // un envoi réussi = le réseau est revenu
       return ok;
     });
@@ -290,7 +381,8 @@
 
   // js/app.js appelle window.__ymTrack("quiz") au lancement d'un quiz : on le compte,
   // il partira avec le prochain signal (voir « QUIZ GROUPÉS » plus haut).
-  window.__ymTrack = function (e) { return e === "quiz" ? compterQuiz() : pister(e); };
+  // "fin" (série terminée, avec sa note) est compté de la même façon.
+  window.__ymTrack = function (e, d) { return e === "quiz" ? compterQuiz(d) : e === "fin" ? compterFin(d) : pister(e); };
 
   /* ⭐ UN RECHARGEMENT QUE NOUS AVONS PROVOQUÉ N'EST PAS UNE VISITE.
      Le surveillant de version, plus bas, recharge les onglets ouverts à chaque déploiement.

@@ -1481,6 +1481,7 @@ function startMode(mode, length) {
     return;
   }
   state.mode = mode;
+  state.finComptee = false;
   const bank = QUESTIONS[mode];
   if (!bank || bank.length === 0) {
     alert(typeof window.t === "function" ? window.t("Cette matière est en cours de construction — la banque de questions n'est pas encore disponible.") : "Cette matière est en cours de construction — la banque de questions n'est pas encore disponible.");
@@ -1518,7 +1519,7 @@ function startMode(mode, length) {
   applyQuizAccent(mode);
   $("#quiz-total").textContent = state.quizLength;
   $("#score-max").textContent = formatNumber(DISPLAY_MAX);
-  try { if (window.__ymTrack) window.__ymTrack("quiz"); } catch (e) {}
+  try { if (window.__ymTrack) window.__ymTrack("quiz", mode); } catch (e) {}
   showScreen("quiz");
   renderQuestion();
   demarrerChrono();
@@ -1746,6 +1747,14 @@ function showResults() {
   $("#stat-good").textContent = good;
   $("#stat-bad").textContent = bad;
   $("#stat-skip").textContent = skip;
+  /* Statistiques anonymes : une série terminée = sa matière, sa note et sa longueur — jamais
+     les réponses. Une seule fois par série, même si l'écran de résultats est réaffiché. */
+  try {
+    if (window.__ymTrack && !state.finComptee && state.answers.length) {
+      state.finComptee = true;
+      window.__ymTrack("fin", { b: state.mode, note: displayScore, n: state.questions.length });
+    }
+  } catch (e) {}
   const scoreTexte = formatNumber(displayScore);
   $("#score-number").textContent = scoreTexte;
   $("#score-max").textContent = formatNumber(DISPLAY_MAX);
