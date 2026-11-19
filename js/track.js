@@ -20,7 +20,7 @@
       Le serveur dérive un identifiant anonyme (HMAC d'un nombre tiré au hasard dans ce
       navigateur, ou de l'IP en repli), qu'il ne stocke jamais en clair. Ce fichier envoie un
       nom d'événement, un horodatage et, depuis le 19/11/2026, des compteurs anonymes : la
-      langue du site, la provenance de la visite (instagram, google, direct…), le nombre de
+      langue du site, le cursus ouvert (kiné ou dentaire), la provenance de la visite, le nombre de
       quiz lancés par matière et, pour une série terminée, sa matière, sa note et sa longueur.
    ========================================================= */
 (function () {
@@ -252,8 +252,22 @@
     } catch (err) { return ""; }
   }
   var PROVENANCE = provenance();
+  /* Cursus (20/11/2026) : le dernier cursus ouvert sur le site, gardé dans ce navigateur et joint
+     à chaque signal. Il permet de savoir si un visiteur est kiné ou dentaire même quand il ne
+     lance pas de quiz. Seules ces deux valeurs sont acceptées. */
+  var CLE_CURSUS = "ym_cursus";
+  function noterCursus(c) {
+    try { if (c === "kine" || c === "dentaire") localStorage.setItem(CLE_CURSUS, c); } catch (err) {}
+    return Promise.resolve(true);
+  }
+  function cursus() {
+    try { var c = localStorage.getItem(CLE_CURSUS); return c === "kine" || c === "dentaire" ? c : ""; }
+    catch (err) { return ""; }
+  }
   function detail(e, qz) {
     var x = "&l=" + langue();
+    var c = cursus();
+    if (c) x += "&c=" + c;
     if (e === "view" && PROVENANCE) x += "&s=" + encodeURIComponent(PROVENANCE);
     if (qz && qz.q) x += "&q=" + encodeURIComponent(qz.q);
     if (qz && qz.r) x += "&r=" + encodeURIComponent(qz.r);
@@ -382,7 +396,7 @@
   // js/app.js appelle window.__ymTrack("quiz") au lancement d'un quiz : on le compte,
   // il partira avec le prochain signal (voir « QUIZ GROUPÉS » plus haut).
   // "fin" (série terminée, avec sa note) est compté de la même façon.
-  window.__ymTrack = function (e, d) { return e === "quiz" ? compterQuiz(d) : e === "fin" ? compterFin(d) : pister(e); };
+  window.__ymTrack = function (e, d) { return e === "quiz" ? compterQuiz(d) : e === "fin" ? compterFin(d) : e === "cursus" ? noterCursus(d) : pister(e); };
 
   /* ⭐ UN RECHARGEMENT QUE NOUS AVONS PROVOQUÉ N'EST PAS UNE VISITE.
      Le surveillant de version, plus bas, recharge les onglets ouverts à chaque déploiement.

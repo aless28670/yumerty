@@ -134,6 +134,15 @@ h1,h2,h3{font-family:'Archivo','Hanken Grotesk',sans-serif;letter-spacing:-.025e
   .liste .rowbar .v{grid-column:2;padding-bottom:0}
   .liste .rowbar .tr{grid-column:1 / -1;margin:6px 0 10px}
 }
+/* Partage kiné / dentaire : une barre découpée et sa légende */
+.partage{display:flex;align-items:center;gap:var(--e5);flex-wrap:wrap}
+.partage h3{flex:none}
+.partage .barre{flex:1;min-width:180px;display:flex;height:14px;border-radius:999px;overflow:hidden;background:var(--voile)}
+.partage .barre i{display:block;height:100%}
+.partage .leg{display:flex;gap:var(--e4);flex-wrap:wrap;font-size:13px;color:var(--encre-douce)}
+.partage .leg b{font-family:'Archivo',sans-serif;color:var(--encre)}
+.partage .leg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.pc{display:inline-block;border-radius:999px;padding:2px 9px;font-size:11.5px;font-weight:700}
 /* Paires libellé / valeur (repères, état) */
 .paire{display:flex;justify-content:space-between;align-items:baseline;gap:var(--e3);padding:9px 0;font-size:13.5px}
 .paire + .paire{border-top:1px solid var(--trait)}
@@ -148,7 +157,8 @@ h1,h2,h3{font-family:'Archivo','Hanken Grotesk',sans-serif;letter-spacing:-.025e
 .anneau{display:flex;align-items:center;gap:var(--e5);flex-wrap:wrap}
 .anneau svg{width:132px;height:132px;flex:none}
 .anneau ul{list-style:none;margin:0;padding:0;font-size:13.5px;flex:1;min-width:130px}
-.anneau li{display:flex;justify-content:space-between;gap:var(--e3);padding:5px 0}
+.anneau li{display:flex;justify-content:space-between;gap:var(--e3);padding:5px 0;white-space:nowrap}
+@media(max-width:680px){.anneau{gap:var(--e4)} .anneau svg{width:104px;height:104px} .anneau ul{font-size:13px}}
 .anneau li i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:8px}
 .anneau li b{font-family:'Archivo',sans-serif}
 .chaleur{display:grid;grid-template-columns:34px repeat(24,1fr);gap:3px;font-size:11px;color:var(--encre-pale);align-items:center}
@@ -236,6 +246,10 @@ td.enonce,td.msgs{white-space:normal;min-width:220px;max-width:420px}
       <div class="carte"><div class="nom">Pic de connectés</div><div class="mesure" id="k_pic">–</div><div class="sous" id="k_pic_s"></div></div>
     </div>
 
+    <div class="panneau" style="margin-bottom:var(--e4);padding:var(--e4) var(--e5)">
+      <div class="partage"><h3>Kiné ou dentaire, aujourd'hui</h3><div class="barre" id="k_cursus_barre"></div><div class="leg" id="k_cursus_leg"></div></div>
+    </div>
+
     <div class="panneau" style="margin-bottom:var(--e4)">
       <header>
         <div><h3>Fréquentation</h3><p id="f_note"></p></div>
@@ -268,6 +282,14 @@ td.enonce,td.msgs{white-space:normal;min-width:220px;max-width:420px}
 
   <!-- ================= AUDIENCE ================= -->
   <section class="vue" id="vue-audience">
+    <div class="panneau" style="margin-bottom:var(--e4)">
+      <header><div><h3>Kiné ou dentaire</h3><p>Chaque visiteur est rangé d'après les matières où il a lancé un quiz, sinon d'après le dernier cursus qu'il a ouvert. « Non déterminé » : il n'a fait ni l'un ni l'autre depuis que la mesure existe.</p></div></header>
+      <div class="grille g3" style="margin:0">
+        <div><div class="etiq" style="margin-bottom:var(--e3)">Aujourd'hui</div><div class="anneau" id="a_cursus_jour"></div></div>
+        <div><div class="etiq" style="margin-bottom:var(--e3)">7 derniers jours</div><div class="anneau" id="a_cursus_semaine"></div></div>
+        <div><div class="etiq" style="margin-bottom:var(--e3)">30 derniers jours</div><div class="anneau" id="a_cursus_mois"></div></div>
+      </div>
+    </div>
     <div class="grille g2">
       <div class="panneau">
         <header><div><h3>Rétention</h3><p>Parmi les personnes venues pour la première fois, combien sont revenues. Calculé sur les 60 derniers jours.</p></div></header>
@@ -338,11 +360,11 @@ td.enonce,td.msgs{white-space:normal;min-width:220px;max-width:420px}
   <section class="vue" id="vue-direct">
     <div class="panneau" style="margin-bottom:var(--e4)">
       <header><div><h3>En ligne maintenant <span class="etiq or" id="d_compte">0</span></h3><p>Actifs dans les 6 dernières minutes.</p></div></header>
-      <div class="defile"><table><thead><tr><th>Visiteur</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Langue</th><th>Provenance</th><th class="d">Vu il y a</th></tr></thead><tbody id="t_online"></tbody></table></div>
+      <div class="defile"><table><thead><tr><th>Visiteur</th><th>Cursus</th><th>Pays</th><th>Ville</th><th>Appareil</th><th>Navigateur</th><th>Langue</th><th>Provenance</th><th class="d">Vu il y a</th></tr></thead><tbody id="t_online"></tbody></table></div>
     </div>
     <div class="panneau">
       <header><div><h3>Visiteurs des 7 derniers jours <span class="etiq" id="d_compte7">0</span></h3><p>Identifiants anonymes. Clique sur une colonne pour trier.</p></div></header>
-      <div class="defile"><table><thead><tr id="t_users_tete"><th data-tri="id">Visiteur</th><th data-tri="country">Pays</th><th data-tri="city">Ville</th><th>Appareil</th><th data-tri="visits" class="d">Pages</th><th data-tri="quiz" class="d">Quiz</th><th data-tri="timeMs" class="d">Temps</th><th data-tri="days" class="d">Jours</th><th data-tri="first">Première visite</th><th data-tri="last">Dernière</th></tr></thead><tbody id="t_users"></tbody></table></div>
+      <div class="defile"><table><thead><tr id="t_users_tete"><th data-tri="id">Visiteur</th><th data-tri="cur">Cursus</th><th data-tri="country">Pays</th><th data-tri="city">Ville</th><th>Appareil</th><th data-tri="visits" class="d">Pages</th><th data-tri="quiz" class="d">Quiz</th><th data-tri="timeMs" class="d">Temps</th><th data-tri="days" class="d">Jours</th><th data-tri="first">Première visite</th><th data-tri="last">Dernière</th></tr></thead><tbody id="t_users"></tbody></table></div>
     </div>
   </section>
 
@@ -555,6 +577,18 @@ function langue(l) { return aSoi(LANGUES, l) || l; }
 var nomsPays = null; try { nomsPays = new Intl.DisplayNames(["fr"], { type: "region" }); } catch (e) {}
 function pays(c) { var n = c; try { if (nomsPays && /^[A-Z]{2}$/.test(c)) n = nomsPays.of(c) || c; } catch (e) {} return FLAG(c) + " " + esc(c === "??" ? "Inconnu" : n); }
 
+/* ---------- Kiné / dentaire ---------- */
+var CURSUS_NOMS = { kine: ["Kiné", "#b9763f"], dentaire: ["Dentaire", "#5a8a4e"], deux: ["Les deux", "#8c7a66"], inconnu: ["Non déterminé", "#cfc8bb"] };
+var ORDRE_CURSUS = ["kine", "dentaire", "deux", "inconnu"];
+function partsCursus(liste) {              // [["kine", 12], …] → [["Kiné", 12, couleur], …] dans un ordre fixe
+  var o = {}; (liste || []).forEach(function (x) { if (aSoi(CURSUS_NOMS, x[0])) o[x[0]] = x[1]; });
+  return ORDRE_CURSUS.filter(function (k) { return o[k]; }).map(function (k) { return [CURSUS_NOMS[k][0], o[k], CURSUS_NOMS[k][1]]; });
+}
+function pastilleCursus(c) {
+  var n = aSoi(CURSUS_NOMS, c); if (!n || c === "inconnu") return '<span class=mut>—</span>';
+  return '<span class=pc style="background:' + n[1] + '22;color:' + (c === "kine" ? "#965c2d" : c === "dentaire" ? "#3f6b36" : "#5d5246") + '">' + n[0] + '</span>';
+}
+
 /* ---------- Briques de dessin ---------- */
 function lignes(arr, lab, suffixe) {
   var total = arr.reduce(function (a, x) { return a + x[1]; }, 0), mx = Math.max.apply(null, [1].concat(arr.map(function (a) { return a[1]; })));
@@ -570,11 +604,11 @@ function anneau(el, parts) {
   var R = 52, C = 2 * Math.PI * R, pos = 0, arcs = "";
   parts.forEach(function (p, i) {
     var l = p[1] / total * C;
-    arcs += '<circle cx="66" cy="66" r="' + R + '" fill="none" stroke="' + COULEURS[i % COULEURS.length] + '" stroke-width="20" stroke-dasharray="' + Math.max(0, l - 1.5) + ' ' + (C - Math.max(0, l - 1.5)) + '" stroke-dashoffset="' + (-pos) + '" transform="rotate(-90 66 66)"/>';
+    arcs += '<circle cx="66" cy="66" r="' + R + '" fill="none" stroke="' + (p[2] || COULEURS[i % COULEURS.length]) + '" stroke-width="20" stroke-dasharray="' + Math.max(0, l - 1.5) + ' ' + (C - Math.max(0, l - 1.5)) + '" stroke-dashoffset="' + (-pos) + '" transform="rotate(-90 66 66)"/>';
     pos += l;
   });
   el.innerHTML = '<svg viewBox="0 0 132 132">' + arcs + '<text x="66" y="63" text-anchor="middle" style="font:900 22px Archivo;fill:#1c1814">' + nb(total) + '</text><text x="66" y="80" text-anchor="middle" style="font:600 10.5px Hanken Grotesk;fill:#a8a399">au total</text></svg><ul>'
-    + parts.map(function (p, i) { return '<li><span><i style="background:' + COULEURS[i % COULEURS.length] + '"></i>' + esc(p[0]) + '</span><span><b>' + pc(p[1], total) + ' %</b> <span class=mut>· ' + nb(p[1]) + '</span></span></li>'; }).join("") + '</ul>';
+    + parts.map(function (p, i) { return '<li><span><i style="background:' + (p[2] || COULEURS[i % COULEURS.length]) + '"></i>' + esc(p[0]) + '</span><span><b>' + pc(p[1], total) + ' %</b> <span class=mut>· ' + nb(p[1]) + '</span></span></li>'; }).join("") + '</ul>';
 }
 /* Graphique en courbe ou en barres, adapté à la largeur disponible.
    series : [{ nom, couleur, valeurs:[nombre|null], type:"aire"|"ligne"|"barres"|"empile" }] ; etiquettes : libellés de l'axe ;
@@ -665,6 +699,11 @@ function peindreEnsemble(s) {
   $("k_temps").textContent = typeof s.tempsMoyenToday === "number" ? dur(s.tempsMoyenToday) : "–";
   $("k_pic").textContent = s.picJour ? nb(s.picJour) : "–";
   $("k_pic_s").textContent = s.picJour && s.picJourA ? "aujourd'hui à " + new Date(s.picJourA).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" }) : "mesure en cours";
+  // Kiné ou dentaire, aujourd'hui : barre découpée.
+  var pcu = s.cursus ? partsCursus(s.cursus.jour) : [], tot = pcu.reduce(function (a, x) { return a + x[1]; }, 0);
+  $("k_cursus_barre").innerHTML = pcu.map(function (x) { return '<i style="width:' + (x[1] / tot * 100) + '%;background:' + x[2] + '" title="' + esc(x[0]) + '"></i>'; }).join("");
+  $("k_cursus_leg").innerHTML = !s.cursus ? '<span class=mut>Disponible dès que le nouveau service de statistiques est en ligne.</span>'
+    : pcu.length ? pcu.map(function (x) { return '<span><i style="background:' + x[2] + '"></i>' + x[0] + ' <b>' + nb(x[1]) + '</b> · ' + pc(x[1], tot) + ' %</span>'; }).join("") : '<span class=mut>Personne pour le moment.</span>';
   peindreFrequentation(s);
 
   // Heure par heure : aujourd'hui en barres, hier en ligne.
@@ -720,6 +759,11 @@ function peindreFrequentation(s) {
 
 /* ---------- Audience ---------- */
 function peindreAudience(s) {
+  ["jour", "semaine", "mois"].forEach(function (k) {
+    var el = $("a_cursus_" + k);
+    if (!s.cursus) { el.innerHTML = '<div class="vide" style="width:100%">Pas encore mesuré.</div>'; return; }
+    anneau(el, partsCursus(s.cursus[k]));
+  });
   var ret = s.retention, cases = [["j1", "Reviennent le lendemain"], ["j7", "Reviennent dans les 7 jours"], ["j30", "Reviennent dans les 30 jours"]];
   $("a_retention").innerHTML = cases.map(function (c) {
     var x = ret && ret[c[0]];
@@ -803,14 +847,14 @@ function appareil(o) { return (o.mobile ? "Téléphone" : "Ordinateur") + (o.os 
 function peindreDirect(s) {
   $("d_compte").textContent = nb(s.onlineCount);
   $("t_online").innerHTML = (s.online || []).map(function (o) {
-    return '<tr><td class=mono>' + sid(o.id) + '</td><td>' + pays(o.country) + '</td><td>' + esc(o.city) + '</td><td>' + appareil(o) + '</td><td>' + esc(o.br) + '</td><td>' + esc(o.lg ? langue(o.lg) : "—") + '</td><td>' + esc(o.src ? source(o.src) : "—") + '</td><td class="d mut">' + ago(o.t, s.now) + '</td></tr>';
-  }).join("") || '<tr><td colspan=8 class="vide">Personne en ligne pour le moment.</td></tr>';
+    return '<tr><td class=mono>' + sid(o.id) + '</td><td>' + pastilleCursus(o.cur) + '</td><td>' + pays(o.country) + '</td><td>' + esc(o.city) + '</td><td>' + appareil(o) + '</td><td>' + esc(o.br) + '</td><td>' + esc(o.lg ? langue(o.lg) : "—") + '</td><td>' + esc(o.src ? source(o.src) : "—") + '</td><td class="d mut">' + ago(o.t, s.now) + '</td></tr>';
+  }).join("") || '<tr><td colspan=9 class="vide">Personne en ligne pour le moment.</td></tr>';
   var u = (s.users7d || []).slice(), k = reglages.tri, sens = reglages.sens;
   u.sort(function (a, b) { var x = a[k], y = b[k]; if (typeof x === "string" || typeof y === "string") return String(x || "").localeCompare(String(y || "")) * sens; return ((x || 0) - (y || 0)) * sens; });
   $("d_compte7").textContent = nb(u.length);
   $("t_users").innerHTML = u.slice(0, 300).map(function (x) {
-    return '<tr><td class=mono>' + sid(x.id) + '</td><td>' + pays(x.country) + '</td><td>' + esc(x.city) + '</td><td>' + appareil(x) + '</td><td class=d>' + nb(x.visits) + '</td><td class=d>' + nb(x.quiz) + '</td><td class=d>' + (x.joursTemps ? dur(x.timeMs) : "—") + '</td><td class=d>' + x.days + '</td><td class=mut>' + F(x.first) + '</td><td class=mut>' + F(x.last) + '</td></tr>';
-  }).join("") || '<tr><td colspan=10 class="vide">Les visiteurs apparaîtront ici dès la première visite.</td></tr>';
+    return '<tr><td class=mono>' + sid(x.id) + '</td><td>' + pastilleCursus(x.cur) + '</td><td>' + pays(x.country) + '</td><td>' + esc(x.city) + '</td><td>' + appareil(x) + '</td><td class=d>' + nb(x.visits) + '</td><td class=d>' + nb(x.quiz) + '</td><td class=d>' + (x.joursTemps ? dur(x.timeMs) : "—") + '</td><td class=d>' + x.days + '</td><td class=mut>' + F(x.first) + '</td><td class=mut>' + F(x.last) + '</td></tr>';
+  }).join("") || '<tr><td colspan=11 class="vide">Les visiteurs apparaîtront ici dès la première visite.</td></tr>';
 }
 $("t_users_tete").addEventListener("click", function (ev) {
   var th = ev.target.closest("th[data-tri]"); if (!th) return;

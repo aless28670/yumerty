@@ -996,6 +996,25 @@ function cursusVerrouille(k) {
   return !!(c && (c.available === false || (c.opensAt && Date.parse(c.opensAt) > Date.now())));
 }
 
+/* Cursus auquel appartient une banque. Sert quand on quitte une série REPRISE après un
+   rechargement : state.nav est alors vide, et sans cela un étudiant dentaire était renvoyé sur
+   les années de kiné (premier cursus de la liste). */
+function cursusDeBanque(banque) {
+  if (!banque) return null;
+  for (const c of Object.keys(CURSUS)) {
+    const annees = CURSUS[c].years || {};
+    for (const a of Object.keys(annees)) {
+      const sems = annees[a].semesters || {};
+      for (const sm of Object.keys(sems)) {
+        const mats = sems[sm].matieres || {};
+        for (const m of Object.keys(mats)) {
+          if ((mats[m].modules || []).some(mod => mod.bankKey === banque)) return c;
+        }
+      }
+    }
+  }
+  return null;
+}
 function navigateTo(level, key) {
   // Un cursus fermé ou pas encore ouvert ne s'atteint par aucun chemin (lien, état restauré…).
   const cible = level === "years" ? key : state.nav && state.nav.cursus;
@@ -2200,6 +2219,10 @@ document.addEventListener("click", (e) => {
   const cursusBtn = e.target.closest("[data-cursus]");
   if (cursusBtn && !cursusBtn.disabled) {
     e.preventDefault();
+    /* Statistiques anonymes : le cursus que le visiteur CHOISIT lui-même (kiné ou dentaire). Noté
+       ici, au clic sur la carte, et nulle part ailleurs : navigateTo("years") est aussi appelé
+       avec une valeur de repli, qui rangerait d'office un dentaire en kiné. */
+    try { if (window.__ymTrack && !cursusVerrouille(cursusBtn.dataset.cursus)) window.__ymTrack("cursus", cursusBtn.dataset.cursus); } catch (err) {}
     navigateTo("years", cursusBtn.dataset.cursus);
     return;
   }
@@ -2233,7 +2256,7 @@ document.addEventListener("click", (e) => {
     if (action === "home") showScreen("home");
     else if (action === "back-nav") backNav();
     else if (action === "back-to-subject") backFromQuiz();
-    else if (action === "quit-to-years") navigateTo("years", state.nav.cursus || Object.keys(CURSUS)[0]);
+    else if (action === "quit-to-years") navigateTo("years", state.nav.cursus || cursusDeBanque(state.mode) || Object.keys(CURSUS)[0]);
     else if (action === "back-from-mistakes") backFromMistakes();
     else if (action === "results") showScreen("results");
     else if (action === "restart") restart();
