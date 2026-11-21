@@ -620,6 +620,9 @@ const ESSAIS_MAX = 3;
       /* L'accueil assemble « Fisioterapia, de K1 a K4 … » avec le nom du cursus, qui
          vit dans ce fichier : on le reconstruit, sinon la phrase resterait mi-française. */
       if (typeof renderHomeStats === "function") renderHomeStats();
+      /* Le bandeau « série en cours » assemble le nom de la matière et « Question n / N » : il est
+         écrit avant l'arrivée de ce fichier, donc le nom restait en français (relevé par le HOCS le 21/11/2026). */
+      if (typeof updateResumeBanner === "function") updateResumeBanner();
       appliquerTraductions();
     };
     /* Un réseau mobile qui décroche une seconde laissait les noms de matières et de
