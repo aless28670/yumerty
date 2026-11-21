@@ -9,14 +9,28 @@
   "use strict";
   var CAT = window.YM_CATALOGUE || {}, F = window.YM_F || {}, KM = window.YM_K || [[], []];
   var Q = {};
-  Object.keys(CAT).forEach(function (cle) {
-    Q[cle] = CAT[cle].map(function (x) {
+  /* ⭐ COQUILLES CONSTRUITES À LA DEMANDE (21/11/2026). Avant, les ~40 000 coquilles — avec leurs
+     propositions vides, soit près de 200 000 objets — étaient toutes créées au chargement, pendant
+     l'animation d'ouverture : un blocage de 50 à 350 ms selon l'appareil, pour des matières que le
+     visiteur n'ouvrira presque jamais. Chaque banque n'est maintenant construite qu'à sa PREMIÈRE
+     lecture (QUESTIONS[cle]), puis gardée. Rien ne change pour le reste du site : QUESTIONS[cle] rend
+     le même tableau qu'avant, et l'accueil compte les questions avec window.YM_TAILLE(cle), qui lit
+     le catalogue sans rien construire. */
+  function coquilles(cle) {
+    return CAT[cle].map(function (x) {
       var o = []; for (var k = 0; k < x[1]; k++) o.push({ t: "", j: "" });
       var q = { q: "", options: o };
       if (x[0] !== null) q.c = x[0];
       return q;
     });
+  }
+  Object.keys(CAT).forEach(function (cle) {
+    var v;                                        // construit à la première lecture
+    Object.defineProperty(Q, cle, { enumerable: true, configurable: true,
+      get: function () { if (v === undefined) v = coquilles(cle); return v; },
+      set: function (x) { v = x; } });
   });
+  window.YM_TAILLE = function (cle) { return CAT[cle] ? CAT[cle].length : (Q[cle] || []).length; };
   window.QUESTIONS = Q;
 
   var etat = {};

@@ -34,10 +34,10 @@
   <link rel="apple-touch-icon" sizes="192x192" href="images/favicon-192.png?v=3">
   <link rel="apple-touch-icon" sizes="512x512" href="images/favicon-512.png?v=3">
   <meta name="theme-color" content="#e9e4db">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=63">
+  <!-- Polices servies par le site (fonts/), préchargées : aucune attente d'un autre serveur au lancement. -->
+  <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=64">
 </head>
 <body>
 
@@ -48,7 +48,7 @@
         <span style="--i:0">Y</span><span style="--i:1">u</span><span style="--i:2">m</span><span style="--i:3">e</span><span style="--i:4">r</span><span style="--i:5">t</span><span style="--i:6">y</span>
       </h1>
       <div class="splash-logo-wrap">
-        <svg class="splash-logo" viewBox="0 0 512 512" fill="currentColor" fill-rule="evenodd" aria-hidden="true"><path d="M487.8 29.7 L461.2 34.5 L457.0 37.4 L449.0 39.6 L439.8 45.7 L407.7 76.8 L389.3 98.2 L359.7 127.8 L358.3 131.2 L336.7 151.8 L332.3 158.2 L267.7 223.8 L266.3 227.2 L255.2 235.3 L250.0 237.4 L242.0 236.4 L233.8 231.3 L225.2 221.7 L215.7 214.2 L214.3 210.8 L190.2 184.7 L186.8 183.3 L182.2 177.7 L173.0 172.6 L159.6 169.5 L131.4 168.5 L118.0 170.6 L111.7 175.8 L115.7 190.2 L201.3 274.8 L207.4 286.0 L212.5 299.4 L213.5 317.6 L215.4 325.9 L214.5 346.6 L212.5 358.4 L213.6 374.0 L219.8 383.3 L224.2 384.5 L227.0 384.4 L238.0 378.4 L253.4 363.0 L255.5 356.6 L255.5 339.4 L253.5 332.6 L254.5 322.2 L260.6 302.0 L268.7 289.8 L330.3 227.2 L343.7 211.8 L366.3 190.2 L379.7 174.8 L427.3 128.2 L492.3 59.2 L501.4 46.0 L503.5 40.8 L503.5 33.2 L496.8 29.5 L488.0 29.6Z M107.8 63.7 L98.6 65.5 L88.2 65.5 L77.2 68.5 L53.8 80.7 L40.7 92.8 L33.7 102.8 L27.6 114.0 L22.5 130.2 L20.5 143.4 L20.5 190.6 L19.5 192.4 L20.5 194.4 L19.5 198.4 L20.5 206.4 L20.5 285.6 L21.5 287.4 L20.5 290.4 L19.6 349.9 L20.5 382.6 L23.5 409.8 L27.6 422.0 L33.7 433.2 L40.7 442.2 L60.8 460.3 L82.0 469.4 L96.4 472.5 L113.6 472.5 L115.4 473.5 L185.6 473.5 L189.4 472.5 L195.4 473.5 L311.6 473.5 L313.6 472.5 L327.6 473.5 L344.8 471.5 L365.0 464.4 L382.2 453.3 L395.3 440.2 L407.4 420.0 L412.5 401.8 L413.5 392.6 L412.5 233.4 L411.5 226.2 L408.4 219.0 L401.8 213.5 L394.2 213.5 L387.8 217.7 L383.6 222.0 L379.5 232.2 L377.6 288.9 L378.5 373.6 L377.5 375.4 L377.5 392.6 L373.4 407.0 L368.3 416.2 L354.2 430.3 L340.8 435.5 L321.6 437.5 L318.6 436.5 L313.6 437.5 L231.4 437.5 L229.6 436.5 L227.6 437.5 L225.6 436.5 L223.6 437.5 L210.6 436.5 L208.6 437.5 L206.6 436.5 L204.6 437.5 L201.6 436.5 L199.6 437.5 L193.6 436.5 L191.6 437.5 L187.6 436.5 L184.6 437.5 L123.4 437.5 L120.4 436.5 L117.4 437.5 L115.6 436.5 L98.2 436.5 L84.0 432.4 L75.8 427.3 L65.7 417.2 L60.6 407.0 L56.5 391.8 L56.5 362.4 L55.5 360.6 L56.5 358.6 L55.5 351.6 L56.5 162.4 L55.5 156.4 L57.5 137.2 L64.7 120.8 L77.0 108.6 L91.2 102.5 L100.9 100.6 L157.1 101.4 L285.6 99.5 L301.2 95.3 L306.3 90.2 L310.5 81.6 L309.4 75.0 L305.2 69.7 L297.8 66.5 L284.6 64.5 L107.9 63.6Z"/></svg>
+        <svg class="splash-logo" viewBox="0 0 630 587" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><defs><linearGradient id="ylac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f1ebe2"/></linearGradient><filter id="ylaf" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter></defs><g stroke="url(#ylac)" stroke-width="47"><path d="M 373 93 H 148 A 96 96 0 0 0 52 189 V 443 A 96 96 0 0 0 148 539 H 394 A 96 96 0 0 0 490 443 V 272"/><path d="M 184 222 L 304 322 L 304 428 M 304 322 L 570 48" stroke-width="52"/></g><g stroke="#ffffff" stroke-width="15" opacity=".9" filter="url(#ylaf)" transform="translate(-4,-6)"><path d="M 373 93 H 148 A 96 96 0 0 0 52 189 V 443 A 96 96 0 0 0 148 539 H 394 A 96 96 0 0 0 490 443 V 272"/><path d="M 184 222 L 304 322 L 304 428 M 304 322 L 570 48" stroke-width="17"/></g></svg>
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@
       <div class="home-grid">
         <div class="home-left">
           <div class="brand">
-            <img class="brand-mark" src="images/logo-site.png?v=3" alt="Yumerty" aria-hidden="true">
+            <svg class="brand-mark" viewBox="0 0 630 587" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><defs><linearGradient id="ylbc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f1ebe2"/></linearGradient><filter id="ylbf" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter></defs><g stroke="url(#ylbc)" stroke-width="47"><path d="M 373 93 H 148 A 96 96 0 0 0 52 189 V 443 A 96 96 0 0 0 148 539 H 394 A 96 96 0 0 0 490 443 V 272"/><path d="M 184 222 L 304 322 L 304 428 M 304 322 L 570 48" stroke-width="52"/></g><g stroke="#ffffff" stroke-width="15" opacity=".9" filter="url(#ylbf)" transform="translate(-4,-6)"><path d="M 373 93 H 148 A 96 96 0 0 0 52 189 V 443 A 96 96 0 0 0 148 539 H 394 A 96 96 0 0 0 490 443 V 272"/><path d="M 184 222 L 304 322 L 304 428 M 304 322 L 570 48" stroke-width="17"/></g></svg>
             <span class="brand-text">Yumerty</span>
           </div>
 
@@ -440,10 +440,10 @@
 
   <script src="js/i18n.js?v=14"></script>
   <script src="js/catalogue.js?v=54bc3d4bf8"></script>
-  <script src="js/qcu-loader.js?v=1"></script>
+  <script src="js/qcu-loader.js?v=2"></script>
   <script src="js/chapitres.js?v=38"></script>
   <script src="js/cursus.js?v=103"></script>
-  <script src="js/app.js?v=119"></script>
+  <script src="js/app.js?v=120"></script>
   <script src="js/track.js?v=13" defer></script>
 </body>
 </html>

@@ -1155,6 +1155,11 @@ function demarrerCompteARebours() {
    Ils étaient écrits en dur dans le HTML (« 13 000+ », « 38 matières », « 526 chapitres ») et
    se démodaient à chaque ajout. On les recalcule au chargement à partir des données réelles.
    Un cursus fermé (available: false) n'est pas compté : on n'annonce que ce qui est jouable. */
+/* Nombre de questions d'une banque SANS construire ses coquilles (voir js/qcu-loader.js) : l'accueil
+   n'a besoin que du compte, pas des objets. */
+function tailleBanque(k) {
+  return typeof window.YM_TAILLE === "function" ? window.YM_TAILLE(k) : ((typeof QUESTIONS !== "undefined" && QUESTIONS[k]) || []).length;
+}
 function chiffresDuSite() {
   const banques = new Set();
   const annees = new Set();
@@ -1166,7 +1171,7 @@ function chiffresDuSite() {
         Object.values(sem.matieres || {}).forEach(mat => {
           const cles = (mat.modules || [])
             .map(m => m.bankKey)
-            .filter(k => (QUESTIONS[k] || []).length > 0);
+            .filter(k => tailleBanque(k) > 0);
           if (!cles.length) return;
           matieres++;
           annees.add(cleAnnee);
@@ -1177,7 +1182,7 @@ function chiffresDuSite() {
   });
   let qcu = 0, chapitres = 0;
   banques.forEach(k => {
-    qcu += QUESTIONS[k].length;
+    qcu += tailleBanque(k);
     chapitres += ((typeof CHAPITRES !== "undefined" && CHAPITRES[k]) || []).length;
   });
   return { qcu, matieres, chapitres, annees: [...annees].sort() };
