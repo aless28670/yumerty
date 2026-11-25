@@ -270,6 +270,8 @@ function optionOrder(options, img) {
      ordre croissant fixe, sinon la pastille B affiche « 1 » et la touche 3 coche une autre case. */
   if (img && options.length && options.every(o => /^\d+$/.test(String((o && o.t) || "").trim())))
     return identite.sort((a, b) => Number(options[a].t) - Number(options[b].t));
+  /* Idem pour des repères en LETTRE seule (« P », « Q »…) : ordre de l'annale conservé. */
+  if (img && options.length && options.every(o => /^[A-Z]$/.test(String((o && o.t) || "").trim()))) return identite;
   return shuffle(identite);
 }
 
@@ -2328,6 +2330,7 @@ function nouvelleSerieDepuisErreurs() {
    le panneau de signalement est ouvert (l'espace sur le bouton « Envoyer » le cliquait tout en
    enchaînant sur la question suivante). */
 function saisieEnCours(cible) {
+  if (document.getElementById("figure-zoom")) return true;   // figure agrandie : aucun raccourci de réponse
   const pan = document.getElementById("signal-panneau");
   if (pan && !pan.hidden) return true;
   if (!cible || cible.nodeType !== 1) return false;
@@ -2406,3 +2409,25 @@ brancherSignalement();
   });
 })();
 rejouerSignalements();
+
+/* Agrandissement d'une figure au toucher (25/11/2026) : sur téléphone, une figure de QCU ne fait
+   qu'environ 290 px de large et ses repères deviennent illisibles. Toucher l'image l'ouvre en plein
+   écran ; toucher n'importe où ou Échap la referme. Pendant l'ouverture, les raccourcis du quiz sont
+   neutralisés (saisieEnCours) pour qu'une touche ne coche pas une réponse à l'aveugle. */
+(function () {
+  function fermer() { const z = document.getElementById("figure-zoom"); if (z) z.remove(); }
+  document.addEventListener("click", (e) => {
+    const img = e.target && e.target.closest && e.target.closest(".question-figure img");
+    if (!img || !img.getAttribute("src")) return;
+    e.preventDefault(); e.stopPropagation(); fermer();
+    const z = document.createElement("div");
+    z.id = "figure-zoom"; z.className = "figure-zoom"; z.setAttribute("role", "dialog"); z.setAttribute("aria-modal", "true");
+    const grande = document.createElement("img"); grande.src = img.getAttribute("src"); grande.alt = img.alt || "";
+    z.appendChild(grande); z.addEventListener("click", fermer);
+    document.body.appendChild(z);
+  }, true);
+  document.addEventListener("keydown", (e) => {
+    if (!document.getElementById("figure-zoom")) return;
+    if (e.key === "Escape" || e.key === "Enter" || e.key === " ") { e.preventDefault(); fermer(); }
+  }, true);
+})();
