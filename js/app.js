@@ -262,9 +262,14 @@ function shuffle(arr) {
    Le test porte sur le texte affiché, donc dans la langue choisie — d'où l'espagnol (y, las/los, respuestas, opciones).
    Lettres sensibles à la casse et conjonction entourée d'espaces : sinon « Beta » ou « By a » passaient pour « B et A ». */
 const RENVOI_LETTRE = /^(?:(?:[Ll]es|[Tt]he|[Ll]as|[Ll]os) )?(?:(?:[Rr][eé]ponses?|[Rr]espuestas?|[Oo]ptions?|[Oo]pci[oó]n(?:es)?|[Pp]ropositions?|[Aa]nswers?) )?[A-D](?:(?: (?:et|and|y) |, ?| ?[&+] ?)[A-D])+\b|^[a-d](?:(?: (?:et|and|y) |, ?)[a-d])+ (?:sont|son|are)\b/;
-function optionOrder(options) {
+function optionOrder(options, img) {
   const identite = Array.from({ length: options.length }, (_, i) => i);
   if (options.some(o => RENVOI_LETTRE.test(String((o && o.t) || "").trim()))) return identite;
+  /* Question ILLUSTRÉE (img) dont les propositions ne sont que des NUMÉROS (repères de la figure) :
+     — seulement avec une figure : des effectifs ou des scores numériques restent mélangés —
+     ordre croissant fixe, sinon la pastille B affiche « 1 » et la touche 3 coche une autre case. */
+  if (img && options.length && options.every(o => /^\d+$/.test(String((o && o.t) || "").trim())))
+    return identite.sort((a, b) => Number(options[a].t) - Number(options[b].t));
   return shuffle(identite);
 }
 
@@ -928,7 +933,7 @@ function pickQuestions(mode, length) {
 function construireQuestions(bank, chosen) {
   return chosen.map(idx => {
     const src = bank[idx];
-    const optOrder = optionOrder(src.options);
+    const optOrder = optionOrder(src.options, src.img);
     const options = optOrder.map((origIdx, displayIdx) => ({
       ...src.options[origIdx],
       letter: OPTION_LETTERS[displayIdx],
@@ -1955,7 +1960,7 @@ function renderMistake() {
   // Ordre d'affichage mélangé pour que la position d'une lettre ne soit pas un indice — sauf si
   // une proposition renvoie à des lettres, auquel cas l'ordre de l'annale est conservé.
   const n = q.options.length;
-  const order = optionOrder(q.options);
+  const order = optionOrder(q.options, q.img);
   mv.currentOrder = order;
   mv.currentQ = q;
   mv.currentMode = m.mode;
