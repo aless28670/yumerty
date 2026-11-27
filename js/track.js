@@ -443,8 +443,8 @@
 
      QUAND, ET SURTOUT QUAND PAS. On ne recharge JAMAIS pendant un quiz : perdre sa place au
      milieu d'une série serait bien pire que de rester une heure sur l'ancienne version.
-     On attend donc que l'écran de quiz ne soit plus affiché, ou que l'onglet passe en arrière-
-     plan — un rechargement y est invisible. L'application sauvegarde par ailleurs la session
+     On attend donc que l'onglet passe en arrière-plan — un rechargement y est invisible
+     (depuis le 26/11/2026 : plus jamais de rechargement sur un écran visible, quel qu'il soit). L'application sauvegarde par ailleurs la session
      en cours dans localStorage, donc même un rechargement pendant un quiz serait reprenable ;
      on reste prudent quand même. On ne recharge qu'une fois. */
   var versionInitiale = null;
@@ -456,12 +456,11 @@
       .then(function (t) { return t ? t.trim() : null; })
       .catch(function () { return null; });
   }
-  function quizEnCours() {
-    try { return !!document.querySelector("#screen-quiz.active"); } catch (err) { return false; }
-  }
   function rechargerSiPossible() {
     if (!perime) return;
-    if (quizEnCours() && document.visibilityState === "visible") return;   // on laisse finir
+    // 26/11/2026 : plaintes « le site se relance » — un rechargement sous les yeux de l'élève (correction,
+    // erreurs à revoir, accueil) est vécu comme un bug. On ne recharge donc QUE si l'onglet est caché.
+    if (document.visibilityState === "visible") return;
     // Marque lue au prochain chargement pour ne pas compter ce rechargement comme une visite.
     try { sessionStorage.setItem(CLE_RECHARGE, "1"); } catch (err) {}
     try { location.reload(); } catch (err) {}
